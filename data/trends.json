@@ -1,1 +1,37 @@
-{"updated":"","count":0,"items":[]}
+{
+  "updated": "02.09.2026",
+  "generated": "2026-09-02T12:05:14.793Z",
+  "count": 3,
+  "items": [
+    {
+      "id": "auto-travelbook-autorin-berichtet-warum-vietnam-per",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK-Autorin berichtet: Warum Vietnam perfekt für Solo-Reisen ist",
+      "desc": "Vietnam gilt als eines der schönsten Länder der Welt. Ein Grund von vielen, weshalb TRAVELBOOK-Autorin Julia Mähl sich entschieden hat, es auch mal auf eigene Faust zu erkunden. Was sie dabei alles erlebt hat und ob sie es empfehlen kann...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-08-31",
+      "url": "https://www.travelbook.de/reisen/vietnam-alleine-reisen-frauen"
+    },
+    {
+      "id": "auto-direkt-am-meer-dieses-stadtchen-in-griechenlan",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "Direkt am Meer: Dieses Städtchen in Griechenland ist noch ein echter Geheimtipp",
+      "desc": "Bunte Häuserfassaden, glasklares Wasser und eine eindrucksvolle Geschichte: Parga zählt zu den noch unbekannteren, aber auch reizvollsten Orten an Griechenlands Westküste. Die kleine Hafenstadt verbindet mediterranes Flair mit spektakulä...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-08-26",
+      "url": "https://www.travelbook.de/news/parga-griechenland-geheimtipp"
+    },
+    {
+      "id": "auto-die-empco-eine-chance-fur-gute-nachhaltigkeits",
+      "cat": "Trends",
+      "verdict": "watch",
+      "title": "Die EmpCo, eine Chance für gute Nachhaltigkeitskommunikation",
+      "desc": "Nachhaltigkeit verschwindet nicht aus der touristischen Kommunikation. Aber sie braucht ab dem 27. September 2026 eine andere Grundlage: weniger pauschale Versprechen, mehr konkrete Nachweise. Die EmpCo-Richtlinie macht damit vor allem e...",
+      "take": "",
+      "src": "Tourismuszukunft · 2026-08-24",
+      "url": "https://www.realizingprogress.com/2026/08/die-empco-eine-chance-fuer-gute-nachhaltigkeitskommunikation/"
+    }
+  ]
+}
