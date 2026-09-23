@@ -1,8 +1,58 @@
 {
-  "updated": "22.09.2026",
-  "generated": "2026-09-22T09:43:08.332Z",
-  "count": 4,
+  "updated": "23.09.2026",
+  "generated": "2026-09-23T09:49:26.348Z",
+  "count": 8,
   "items": [
+    {
+      "id": "auto-travelbook-award-2026-tuchersfeld-in-der-frank",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Tüchersfeld in der Fränkischen Schweiz – eines der schönsten Dörfer Deutschlands",
+      "desc": "Am 22. September 2026 wurde in Berlin der diesjährige TRAVELBOOK Award verliehen. Jahr für Jahr werden dort die neuen Trendreiseziele des Folgejahres gekürt. In der Kategorie der schönsten Dörfer in Deutschland schaffte es Tüchersfeld in...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-23",
+      "url": "https://www.travelbook.de/travelbook-award-2026/tuechersfeld-in-der-fraenkischen-schweiz-eines-der-schoensten-doerfer-deutschlands"
+    },
+    {
+      "id": "auto-travelbook-award-2026-boca-chica-in-panama-ist",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Boca Chica in Panama ist das Geheimtipp-Reiseziel Mittel- und Südamerikas!",
+      "desc": "Am 22. September war es wieder so weit: Beim TRAVELBOOK Award 2026 wurden die spannendsten Trendreiseziele für 2027 ausgezeichnet. In der Kategorie Mittel&#8211; und Südamerika setzte sich die Region Boca Chica in Panama gegen starke Kon...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-22",
+      "url": "https://www.travelbook.de/travelbook-award-2026/boca-chica-panama-geheimtipp-reiseziel-mittel-und-suedamerika"
+    },
+    {
+      "id": "auto-travelbook-award-2026-vancouvers-english-bay-b",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Vancouvers English Bay Beach ist der außergewöhnlichste Stadtstrand der Welt",
+      "desc": "Am 22. September 2026 war es in Berlin wieder so weit: Die jährlichen TRAVELBOOK Awards wurden verliehen und dabei die Trendreiseziele 2027 gekürt. Eins davon ist der außergewöhnlichste Stadtstrand der Welt. Für diesen standen fünf Anwär...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-22",
+      "url": "https://www.travelbook.de/travelbook-award-2026/vancouver-english-bay-beach-aussergewoehnlichster-stadtstrand-der-welt"
+    },
+    {
+      "id": "auto-travelbook-award-2026-nieblum-auf-fohr-ist-das",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Nieblum auf Föhr ist das schönste Dorf Deutschlands!",
+      "desc": "Am 22. September 2026 wurde in Berlin bereits zum fünften Mal der TRAVELBOOK Award verliehen. Eine der diesjährigen Kategorien: das schönste Dorf Deutschlands – und damit ein Trendreiseziel für das kommende Jahr. Zur Auswahl standen fünf...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-22",
+      "url": "https://www.travelbook.de/travelbook-award-2026/nieblum-schoenstes-dorf-deutschlands"
+    },
+    {
+      "id": "auto-travelbook-award-2026-gekurt-das-sind-die-best",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK AWARD 2026: Gekürt! Das sind die besten Trendreiseziele im kommenden Jahr",
+      "desc": "Bereits zum fünften Mal hieß es: „And the winner is …“ – denn beim TRAVELBOOK Award trafen sich prominente Gäste aus der Reise- und Tourismusbranche auch dieses Jahr wieder im Axel-Springer-Hochhaus über den Dächern von Berlin, um Deutsc...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-22",
+      "url": "https://www.travelbook.de/travelbook-award-2026/travelbook-award-2026-alle-gewinner"
+    },
     {
       "id": "auto-geheimtipp-in-frankreich-diese-besondere-stadt",
       "cat": "Reise",
@@ -22,16 +72,6 @@
       "take": "",
       "src": "TRAVELBOOK · 2026-09-22",
       "url": "https://www.travelbook.de/travelbook-award-2026/travelbook-award-nominierte-reiseziele"
-    },
-    {
-      "id": "auto-shala-river-mitten-in-europa-hier-sieht-es-aus",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "Shala River: Mitten in Europa! Hier sieht es aus wie in Thailand",
-      "desc": "Im Norden Albaniens liegt ein Ort, der auch als albanisches Thailand bezeichnet wird. Gemeint ist der Shala River. Was ihn so besonders macht, wie man am besten dort hingelangt und was es dort zu erleben gibt, erfahren Sie hier. Dicht be...",
-      "take": "",
-      "src": "TRAVELBOOK · 2026-09-17",
-      "url": "https://www.travelbook.de/reiseziele/mitten-in-europa-hier-sieht-es-aus-wie-in-thailand"
     },
     {
       "id": "auto-die-empco-eine-chance-fur-gute-nachhaltigkeits",
