@@ -1,8 +1,48 @@
 {
-  "updated": "23.09.2026",
-  "generated": "2026-09-23T09:49:26.348Z",
-  "count": 8,
+  "updated": "24.09.2026",
+  "generated": "2026-09-24T09:46:13.280Z",
+  "count": 11,
   "items": [
+    {
+      "id": "auto-travelbook-award-2026-schmilka-am-elbsandstein",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Schmilka am Elbsandsteingebirge – eines der schönsten Dörfer Deutschlands",
+      "desc": "Das sächsische Dorf Schmilka zählte beim diesjährigen TRAVELBOOK Award am 22. September 2026 zu den Anwärtern auf die Auszeichnung zum schönsten Dorf Deutschlands. Was dieses Dorf so besonders macht und wieso es ein lohnenswertes Trendre...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-24",
+      "url": "https://www.travelbook.de/travelbook-award-2026/schmilka-am-elbsandsteingebirge-eins-der-schoensten-doerfer-deutschlands"
+    },
+    {
+      "id": "auto-thailand-wants-1-5-million-u-s-tourists-it-s-g",
+      "cat": "International",
+      "verdict": "watch",
+      "title": "Thailand Wants 1.5 Million U.S. Tourists — It’s Got a Long Way to Go",
+      "desc": "Thailand is chasing higher-spending Americans, but arrivals will need to accelerate sharply to hit its 1.5 million target. Expensive flights and growing competition from Japan and Vietnam won t make that any easier.",
+      "take": "",
+      "src": "Skift · 2026-09-24",
+      "url": "https://skift.com/2026/09/24/thailand-wants-1-5-million-u-s-tourists-its-got-a-long-way-to-go/"
+    },
+    {
+      "id": "auto-travelbook-award-2026-nuqui-in-kolumbien-ist-e",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Nuquí in Kolumbien ist eines der besten Geheimtipp-Reiseziele Mittel- und Südamerikas",
+      "desc": "Jedes Jahr zeichnet der TRAVELBOOK Award die spannendsten Trendreiseziele des kommenden Jahres aus. 2026 gehört die abgelegene Region rund um Nuquí an der kolumbianischen Pazifikküste zu den Nominierten in der Kategorie „Geheimtipp-Reise...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-23",
+      "url": "https://www.travelbook.de/travelbook-award-2026/nuqui-in-kolumbien-ist-eins-der-besten-geheimtipp-reiseziele-mittel-und-suedamerikas"
+    },
+    {
+      "id": "auto-travelbook-award-2026-dealu-mare-in-rumanien-z",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Dealu Mare in Rumänien zählt zu den schönsten Weinregionen Europas",
+      "desc": "Einmal mehr wurde am 22. September 2026 der TRAVELBOOK Award verliehen und dabei die Trendreiseziele für das Folgejahr ermittelt. Zu den Kategorien zählte in diesem Jahr die schönste Weinregion Europas, für die gleich fünf Anwärter ins R...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-23",
+      "url": "https://www.travelbook.de/travelbook-award-2026/dealu-mare-in-rumaenien-zaehlt-zu-den-schoensten-weinregionen-europas"
+    },
     {
       "id": "auto-travelbook-award-2026-tuchersfeld-in-der-frank",
       "cat": "Reise",
@@ -42,16 +82,6 @@
       "take": "",
       "src": "TRAVELBOOK · 2026-09-22",
       "url": "https://www.travelbook.de/travelbook-award-2026/nieblum-schoenstes-dorf-deutschlands"
-    },
-    {
-      "id": "auto-travelbook-award-2026-gekurt-das-sind-die-best",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "TRAVELBOOK AWARD 2026: Gekürt! Das sind die besten Trendreiseziele im kommenden Jahr",
-      "desc": "Bereits zum fünften Mal hieß es: „And the winner is …“ – denn beim TRAVELBOOK Award trafen sich prominente Gäste aus der Reise- und Tourismusbranche auch dieses Jahr wieder im Axel-Springer-Hochhaus über den Dächern von Berlin, um Deutsc...",
-      "take": "",
-      "src": "TRAVELBOOK · 2026-09-22",
-      "url": "https://www.travelbook.de/travelbook-award-2026/travelbook-award-2026-alle-gewinner"
     },
     {
       "id": "auto-geheimtipp-in-frankreich-diese-besondere-stadt",
