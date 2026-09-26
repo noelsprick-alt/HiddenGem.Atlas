@@ -1,8 +1,18 @@
 {
-  "updated": "25.09.2026",
-  "generated": "2026-09-25T10:04:29.853Z",
-  "count": 12,
+  "updated": "26.09.2026",
+  "generated": "2026-09-26T09:45:26.599Z",
+  "count": 11,
   "items": [
+    {
+      "id": "auto-travelbook-award-2026-das-wallis-in-der-schwei",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Das Wallis in der Schweiz ist eine der schönsten Weinregionen Europas",
+      "desc": "Am 22. September 2026 wurden in Berlin erneut die Trendreiseziele für das kommende Jahr gekürt. Eine Kategorie beim TRAVELBOOK Award in diesem Jahr: die schönste Weinregion Europas. Neben vier weiteren startete das Schweizer Weinanbaugeb...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-26",
+      "url": "https://www.travelbook.de/travelbook-award-2026/wallis-in-der-schweiz-ist-eine-der-schoensten-weinregionen-europas"
+    },
     {
       "id": "auto-travelbook-award-2026-peten-in-guatemala-ist-e",
       "cat": "Reise",
@@ -42,16 +52,6 @@
       "take": "",
       "src": "TRAVELBOOK · 2026-09-24",
       "url": "https://www.travelbook.de/travelbook-award-2026/schmilka-am-elbsandsteingebirge-eins-der-schoensten-doerfer-deutschlands"
-    },
-    {
-      "id": "auto-what-hyatt-8217-s-ceo-learned-by-owning-hotels",
-      "cat": "International",
-      "verdict": "watch",
-      "title": "What Hyatt&#8217;s CEO Learned by Owning Hotels — and the Trend He&#8217;s Most Excited About",
-      "desc": "For most of its history, Hyatt owned its own hotels. Its CEO says that experience never left the company.",
-      "take": "",
-      "src": "Skift · 2026-09-24",
-      "url": "https://skift.com/2026/09/24/what-hyatts-ceo-learned-by-owning-hotels-and-the-trend-hes-most-excited-about/"
     },
     {
       "id": "auto-travelbook-award-2026-nuqui-in-kolumbien-ist-e",
@@ -102,16 +102,6 @@
       "take": "",
       "src": "TRAVELBOOK · 2026-09-22",
       "url": "https://www.travelbook.de/travelbook-award-2026/vancouver-english-bay-beach-aussergewoehnlichster-stadtstrand-der-welt"
-    },
-    {
-      "id": "auto-travelbook-award-2026-nieblum-auf-fohr-ist-das",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "TRAVELBOOK Award 2026: Nieblum auf Föhr ist das schönste Dorf Deutschlands!",
-      "desc": "Am 22. September 2026 wurde in Berlin bereits zum fünften Mal der TRAVELBOOK Award verliehen. Eine der diesjährigen Kategorien: das schönste Dorf Deutschlands – und damit ein Trendreiseziel für das kommende Jahr. Zur Auswahl standen fünf...",
-      "take": "",
-      "src": "TRAVELBOOK · 2026-09-22",
-      "url": "https://www.travelbook.de/travelbook-award-2026/nieblum-schoenstes-dorf-deutschlands"
     },
     {
       "id": "auto-die-empco-eine-chance-fur-gute-nachhaltigkeits",
