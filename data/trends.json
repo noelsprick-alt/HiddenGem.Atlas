@@ -1,8 +1,28 @@
 {
-  "updated": "26.09.2026",
-  "generated": "2026-09-26T09:45:26.599Z",
+  "updated": "27.09.2026",
+  "generated": "2026-09-27T10:25:38.849Z",
   "count": 11,
   "items": [
+    {
+      "id": "auto-travelbook-award-2026-der-playa-de-san-lorenzo",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Der Playa de San Lorenzo in Spanien ist einer der außergewöhnlichsten Stadtstrände weltweit",
+      "desc": "Am 22. September 2026 war es in Berlin wieder so weit: Der TRAVELBOOK Award wurde verliehen – und damit die Trendreiseziele für das kommende Jahr gekürt. Mit dabei war ein Preis für den außergewöhnlichsten Stadtstrand weltweit. In dieser...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-27",
+      "url": "https://www.travelbook.de/travelbook-award-2026/der-playa-de-san-lorenzo-in-spanien-ist-einer-der-aussergewoehnlichsten-stadtstraende-weltweit"
+    },
+    {
+      "id": "auto-travelbook-award-2026-jalapao-in-brasilien-ist",
+      "cat": "Reise",
+      "verdict": "watch",
+      "title": "TRAVELBOOK Award 2026: Jalapão in Brasilien ist eins der besten Geheimtipp-Reiseziele Mittel- und Südamerikas",
+      "desc": "Wo in Süd- und Mittelamerika gibt es Regionen, die noch echte Geheimtipps sind? Das hat TRAVELBOOK kürzlich seine Leser gefragt und sie darüber abstimmen lassen, welches von fünf vorgestellten Geheimtipps das beste Reiseziel ist. Der Sie...",
+      "take": "",
+      "src": "TRAVELBOOK · 2026-09-26",
+      "url": "https://www.travelbook.de/travelbook-award-2025/jalapao-in-brasilien-ist-eins-der-besten-geheimtipp-reiseziele-mittel-und-suedamerikas"
+    },
     {
       "id": "auto-travelbook-award-2026-das-wallis-in-der-schwei",
       "cat": "Reise",
@@ -82,26 +102,6 @@
       "take": "",
       "src": "TRAVELBOOK · 2026-09-23",
       "url": "https://www.travelbook.de/travelbook-award-2026/tuechersfeld-in-der-fraenkischen-schweiz-eines-der-schoensten-doerfer-deutschlands"
-    },
-    {
-      "id": "auto-travelbook-award-2026-boca-chica-in-panama-ist",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "TRAVELBOOK Award 2026: Boca Chica in Panama ist das Geheimtipp-Reiseziel Mittel- und Südamerikas!",
-      "desc": "Am 22. September war es wieder so weit: Beim TRAVELBOOK Award 2026 wurden die spannendsten Trendreiseziele für 2027 ausgezeichnet. In der Kategorie Mittel&#8211; und Südamerika setzte sich die Region Boca Chica in Panama gegen starke Kon...",
-      "take": "",
-      "src": "TRAVELBOOK · 2026-09-22",
-      "url": "https://www.travelbook.de/travelbook-award-2026/boca-chica-panama-geheimtipp-reiseziel-mittel-und-suedamerika"
-    },
-    {
-      "id": "auto-travelbook-award-2026-vancouvers-english-bay-b",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "TRAVELBOOK Award 2026: Vancouvers English Bay Beach ist der außergewöhnlichste Stadtstrand der Welt",
-      "desc": "Am 22. September 2026 war es in Berlin wieder so weit: Die jährlichen TRAVELBOOK Awards wurden verliehen und dabei die Trendreiseziele 2027 gekürt. Eins davon ist der außergewöhnlichste Stadtstrand der Welt. Für diesen standen fünf Anwär...",
-      "take": "",
-      "src": "TRAVELBOOK · 2026-09-22",
-      "url": "https://www.travelbook.de/travelbook-award-2026/vancouver-english-bay-beach-aussergewoehnlichster-stadtstrand-der-welt"
     },
     {
       "id": "auto-die-empco-eine-chance-fur-gute-nachhaltigkeits",
