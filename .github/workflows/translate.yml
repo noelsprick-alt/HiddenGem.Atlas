@@ -1,7 +1,8 @@
-name: Trend-Radar aktualisieren
+name: Inhalte übersetzen (DE → EN)
 on:
-  schedule:
-    - cron: '0 5 * * *'
+  push:
+    paths:
+      - 'data/content.json'
   workflow_dispatch:
 permissions:
   contents: write
@@ -9,20 +10,20 @@ concurrency:
   group: website-bot
   cancel-in-progress: false
 jobs:
-  update:
+  translate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/fetch-trends.mjs
+      - run: node scripts/translate-content.mjs
       - run: |
           git config user.name "hiddengemat-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/trends.json
+          git add data/content.json
           if ! git diff --staged --quiet; then
-            git commit -m "Trends $(date +'%d.%m.%Y')"
+            git commit -m "Englische Übersetzung ergänzt"
             git pull --rebase --autostash || true
             git push
           fi
