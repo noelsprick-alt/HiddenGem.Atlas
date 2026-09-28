@@ -19,10 +19,16 @@
 <meta property="og:url" content="https://noelsprick-alt.github.io/HiddenGem.Atlas/">
 <meta property="og:locale" content="de_DE">
 <meta property="og:locale:alternate" content="en_GB">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://noelsprick-alt.github.io/HiddenGem.Atlas/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://noelsprick-alt.github.io/HiddenGem.Atlas/og-image.jpg">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"HiddenGem.Atlas","url":"https://noelsprick-alt.github.io/HiddenGem.Atlas/","inLanguage":["de","en"],"description":"Hidden Gems in Europa & Asien entdecken, bevor alle anderen kommen.","author":{"@type":"Person","name":"Noel Sprick","sameAs":["https://www.instagram.com/hiddengem.society","https://www.tiktok.com/@hiddengem.society"]}}
+{"@context":"https://schema.org","@type":"WebSite","name":"HiddenGem.Atlas","url":"https://noelsprick-alt.github.io/HiddenGem.Atlas/","inLanguage":["de","en"],"description":"Hidden Gems in Europa & Asien entdecken, bevor alle anderen kommen.","author":{"@type":"Person","name":"Noel Sprick","sameAs":["https://www.instagram.com/hiddengem.atlas/","https://www.tiktok.com/@howtotravel_guide"]}}
 </script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin=""></script>
 <link rel="preload" href="fonts/cormorant-garamond-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/dm-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
@@ -1675,6 +1681,35 @@ body.edit-mode #scroll-top{bottom:90px}
 .qopt-h{display:block;font-size:11px;opacity:.75;margin-top:3px}
 .qopts:not(.answered) .qopt-h{display:none}
 
+/* ── Hidden Gems Karte (Leaflet) ── */
+.mp-map{height:460px;width:100%;border-radius:var(--rl);overflow:hidden;background:var(--bg3);z-index:1}
+.mp-frame{padding:0;background:none;border:none}
+.mp-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem}
+.mp-filter{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);color:#fdf8f0;border-radius:20px;padding:7px 15px;font-size:12px;cursor:pointer;font-family:'DM Sans',sans-serif;font-weight:500;transition:all .15s}
+.mp-filter:hover{border-color:var(--gold);color:var(--gold)}
+.mp-filter.active{background:var(--gold);border-color:var(--gold);color:#16140f;font-weight:600}
+.mp-attr{font-size:10px;color:rgba(247,236,216,.45);margin-top:8px;text-align:right}
+.mp-mk{background:none;border:none}
+.mp-mk span{display:flex;align-items:center;justify-content:center;width:30px;height:30px;background:#fff;border:2px solid var(--terra);border-radius:50% 50% 50% 0;transform:rotate(-45deg);font-size:15px;box-shadow:0 3px 8px rgba(0,0,0,.3)}
+.mp-mk span>*{transform:rotate(45deg)}
+.leaflet-popup-content-wrapper{border-radius:12px}
+.leaflet-popup-content{margin:12px 14px;font-family:'DM Sans',sans-serif}
+.mp-pop-t{font-weight:700;font-size:14px;color:#1a1208;margin-bottom:3px}
+.mp-pop-s{font-size:12px;color:#5c4a2a;line-height:1.4;margin-bottom:9px}
+.mp-pop-btns{display:flex;flex-wrap:wrap;gap:6px}
+.mp-pop-btns a,.mp-pop-btns button{font-size:11.5px;font-weight:600;border-radius:8px;padding:6px 10px;cursor:pointer;font-family:'DM Sans',sans-serif;border:1px solid var(--border2);background:#fff;color:var(--terra);text-decoration:none;display:inline-flex;align-items:center;gap:4px}
+.mp-pop-btns a:hover,.mp-pop-btns button:hover{background:var(--terra-light)}
+.mp-pop-btns a.gyg{background:var(--gold);border-color:var(--gold);color:#16140f}
+.mp-list .mp-item{display:flex;align-items:stretch;gap:0;padding:0;overflow:hidden}
+.mp-item-main{flex:1;padding:.85rem 1rem;cursor:pointer}
+.mp-item-gm{display:flex;align-items:center;justify-content:center;width:48px;border-left:1px solid rgba(255,255,255,.12);font-size:18px;text-decoration:none;flex-shrink:0}
+.mp-item-gm:hover{background:rgba(255,255,255,.09)}
+.shop-soon-banner{display:flex;align-items:center;gap:12px;background:var(--sand-light);border:1px solid rgba(201,122,42,.3);border-left:3px solid var(--gold);border-radius:var(--r);padding:.9rem 1.1rem;margin-bottom:1.5rem;font-size:13.5px;color:var(--text2);line-height:1.55}
+.ssb-ic{font-size:20px}
+.soon-badge{background:rgba(201,122,42,.15);color:var(--gold)}
+.sc-price{opacity:.55}
+.soon-badge-ov{position:absolute;top:10px;left:10px;z-index:3;background:var(--gold);color:#16140f;font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:3px 9px;border-radius:12px}
+
 </style>
 </head>
 <body class="hg-loading">
@@ -1746,7 +1781,7 @@ body.edit-mode #scroll-top{bottom:90px}
       <div class="nav-dd-menu">
         <a href="#/touren"><span class="dd-ic" aria-hidden="true">🗺️</span><span data-i18n="pg_tours_t">Touren &amp; Destinationen</span></a>
         <a href="#/trends"><span class="dd-ic" aria-hidden="true">📡</span><span data-i18n="pg_trends_t">Trend-Radar</span></a>
-        <a href="#/momente"><span class="dd-ic" aria-hidden="true">📍</span><span data-i18n="pg_moments_t">Momente-Karte</span></a>
+        <a href="#/momente"><span class="dd-ic" aria-hidden="true">📍</span><span data-i18n="pg_moments_t">Hidden Gems Karte</span></a>
         <a href="#/reality-check"><span class="dd-ic" aria-hidden="true">👁️</span><span data-i18n="pg_rc_t">Reality Check</span></a>
         <a href="#/kalkulator"><span class="dd-ic" aria-hidden="true">💶</span><span data-i18n="pg_calc_t">Trip-Kalkulator</span></a>
         <a href="#/gem-matcher"><span class="dd-ic" aria-hidden="true">✦</span><span data-i18n="pg_matcher_t">Gem-Matcher</span></a>
@@ -1791,7 +1826,7 @@ body.edit-mode #scroll-top{bottom:90px}
   <a class="nav-mob-group" href="#/entdecken"><span data-i18n="grp_explore">Entdecken</span> <span aria-hidden="true">→</span></a>
   <a class="mob-sub" href="#/touren"><span class="dd-ic" aria-hidden="true">🗺️</span><span data-i18n="pg_tours_t">Touren &amp; Destinationen</span></a>
   <a class="mob-sub" href="#/trends"><span class="dd-ic" aria-hidden="true">📡</span><span data-i18n="pg_trends_t">Trend-Radar</span></a>
-  <a class="mob-sub" href="#/momente"><span class="dd-ic" aria-hidden="true">📍</span><span data-i18n="pg_moments_t">Momente-Karte</span></a>
+  <a class="mob-sub" href="#/momente"><span class="dd-ic" aria-hidden="true">📍</span><span data-i18n="pg_moments_t">Hidden Gems Karte</span></a>
   <a class="mob-sub" href="#/reality-check"><span class="dd-ic" aria-hidden="true">👁️</span><span data-i18n="pg_rc_t">Reality Check</span></a>
   <a class="mob-sub" href="#/kalkulator"><span class="dd-ic" aria-hidden="true">💶</span><span data-i18n="pg_calc_t">Trip-Kalkulator</span></a>
   <a class="mob-sub" href="#/gem-matcher"><span class="dd-ic" aria-hidden="true">✦</span><span data-i18n="pg_matcher_t">Gem-Matcher</span></a>
@@ -1947,8 +1982,8 @@ body.edit-mode #scroll-top{bottom:90px}
       </div>
     </div>
     <div class="ab-cta">
-      <a id="ig-ab" href="https://www.instagram.com/hiddengem.society" target="_blank" data-set-href="ig" rel="noopener" class="btn-g" data-i18n="flw_ig">Folge auf Instagram</a>
-      <a id="tt-ab" href="https://www.tiktok.com/@hiddengem.society" target="_blank" data-set-href="tt" rel="noopener" class="btn-o" data-i18n="ab_tiktok">TikTok</a>
+      <a id="ig-ab" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" class="btn-g" data-i18n="flw_ig" data-lk="lk1">Folge auf Instagram</a>
+      <a id="tt-ab" href="https://www.tiktok.com/@howtotravel_guide" target="_blank" rel="noopener" class="btn-o" data-lk="lk2" data-i18n="ab_tiktok">TikTok</a>
     </div>
   </div>
   <div class="ab-r"><div class="ab-photo" data-img="about-portrait"></div>
@@ -1967,16 +2002,16 @@ body.edit-mode #scroll-top{bottom:90px}
   <h2 data-i18n="sc_h2">Folge der <em>Reise</em></h2>
   <p class="soc-sub" data-i18n="sc_sub">Täglich neue Hidden Gems auf Instagram &amp; TikTok.</p>
   <div class="soc-cards">
-    <div class="soc-card"><div class="soc-pl">📸</div><div class="soc-hdl" data-i18n="sc_hiddengem-society">@hiddengem.society</div><div class="soc-st" id="sc-flw" data-set="followers">4K+</div><div class="soc-desc" data-i18n="ig_d">Hidden-Gem-Reels aus Europa &amp; Asien - ehrlich, ungefiltert, ohne gestellte Kulissen.</div><a id="ig-sc" href="https://www.instagram.com/hiddengem.society" target="_blank" data-set-href="ig" rel="noopener" class="flw-btn" data-i18n="sc_auf-instagram-folgen">Auf Instagram folgen</a></div>
-    <div class="soc-card"><div class="soc-pl">🎵</div><div class="soc-hdl" data-i18n="sc_hiddengem-society">@hiddengem.society</div><div class="soc-st" data-i18n="ab_tiktok">TikTok</div><div class="soc-desc" data-i18n="tt_d">Gleiche Hidden Gems, neue Audience. Kurze Travel-Videos für Entdecker.</div><a id="tt-sc" href="https://www.tiktok.com/@hiddengem.society" target="_blank" data-set-href="tt" rel="noopener" class="flw-btn" data-i18n="flw_tt">Auf TikTok folgen</a></div>
+    <div class="soc-card"><div class="soc-pl">📸</div><div class="soc-hdl" data-noi18n="">@hiddengem.atlas</div><div class="soc-st" id="sc-flw" data-set="followers">4K+</div><div class="soc-desc" data-i18n="ig_d">Hidden-Gem-Reels aus Europa &amp; Asien - ehrlich, ungefiltert, ohne gestellte Kulissen.</div><a id="ig-sc" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" class="flw-btn" data-i18n="sc_auf-instagram-folgen" data-lk="lk3">Auf Instagram folgen</a></div>
+    <div class="soc-card"><div class="soc-pl">🎵</div><div class="soc-hdl" data-noi18n="">@howtotravel_guide</div><div class="soc-st" data-i18n="ab_tiktok">TikTok</div><div class="soc-desc" data-i18n="tt_d">Gleiche Hidden Gems, neue Audience. Kurze Travel-Videos für Entdecker.</div><a id="tt-sc" href="https://www.tiktok.com/@howtotravel_guide" target="_blank" data-set-href="tt" rel="noopener" class="flw-btn" data-i18n="flw_tt">Auf TikTok folgen</a></div>
   </div>
   <div class="ig-grid">
-    <a class="ig-th" href="https://www.instagram.com/hiddengem.society" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-1" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#0c0c1f,#141530)" data-i18n="sc_jp">JP</div></a>
-    <a class="ig-th" href="https://www.instagram.com/hiddengem.society" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-2" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#0a150a,#0f200f)" data-i18n="sc_de">DE</div></a>
-    <a class="ig-th" href="https://www.instagram.com/hiddengem.society" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-3" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#1f0c0c,#2a1010)" data-i18n="sc_al">AL</div></a>
-    <a class="ig-th" href="https://www.instagram.com/hiddengem.society" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-4" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#0c1f0c,#0f280f)" data-i18n="sc_cz">CZ</div></a>
-    <a class="ig-th" href="https://www.instagram.com/hiddengem.society" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-5" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#1f1f0c,#282810)">🌅</div></a>
-    <a class="ig-th" href="https://www.instagram.com/hiddengem.society" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-6" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#0c0c1f,#101040)" data-i18n="sc_sl">SL</div></a>
+    <a class="ig-th" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-1" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#0c0c1f,#141530)" data-i18n="sc_jp">JP</div></a>
+    <a class="ig-th" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-2" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#0a150a,#0f200f)" data-i18n="sc_de">DE</div></a>
+    <a class="ig-th" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-3" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#1f0c0c,#2a1010)" data-i18n="sc_al">AL</div></a>
+    <a class="ig-th" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-4" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#0c1f0c,#0f280f)" data-i18n="sc_cz">CZ</div></a>
+    <a class="ig-th" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-5" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#1f1f0c,#282810)">🌅</div></a>
+    <a class="ig-th" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" data-set-href="ig" data-img="ig-6" aria-label="Instagram"><div class="ig-bg" style="background:linear-gradient(135deg,#0c0c1f,#101040)" data-i18n="sc_sl">SL</div></a>
   </div>
 </section>
 
@@ -1984,74 +2019,74 @@ body.edit-mode #scroll-top{bottom:90px}
 <section class="sec" id="dest" data-page="touren">
   <div class="sec-hd reveal">
     <div class="sec-hd-l"><div class="sec-lbl" data-i18n="d_lbl">GetYourGuide Partner *</div><h2 data-i18n="d_h2">Touren mit <em>5% Rabatt</em></h2></div>
-    <a class="see-all" href="https://www.getyourguide.com/?partner_id=H0DWLVB" target="_blank" data-i18n="d_all" rel="noopener" data-lk="lk1">Alle Destinationen →</a>
+    <a class="see-all" href="https://www.getyourguide.com/?partner_id=H0DWLVB" target="_blank" data-i18n="d_all" rel="noopener" data-lk="lk4">Alle Destinationen →</a>
   </div>
   <div class="dest-grid">
-    <a class="dc" href="https://www.getyourguide.com/dusseldorf-l125/?partner_id=H0DWLVB&amp;cmp=ddorf-web" target="_blank" rel="noopener sponsored" data-lk="lk2">
+    <a class="dc" href="https://www.getyourguide.com/dusseldorf-l125/?partner_id=H0DWLVB&amp;cmp=ddorf-web" target="_blank" rel="noopener sponsored" data-lk="lk5">
       <img class="dc-img" id="dc-img-dusseldorf_l" data-img="dest-dusseldorf_l" alt=""><div class="dc-flag">🇩🇪</div><div class="dc-name" data-i18n="d_dusseldorf">Düsseldorf</div>
       <div class="dc-sub" data-i18n="d1s">Japans Heimat in Deutschland - Altstadt, Japantag &amp; mehr</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/kyoto-l96826/?partner_id=H0DWLVB&amp;cmp=kyoto-web" target="_blank" rel="noopener sponsored" data-lk="lk3">
+    <a class="dc" href="https://www.getyourguide.com/kyoto-l96826/?partner_id=H0DWLVB&amp;cmp=kyoto-web" target="_blank" rel="noopener sponsored" data-lk="lk6">
       <img class="dc-img" id="dc-img-kyoto_l96826" data-img="dest-kyoto_l96826" alt=""><div class="dc-flag">🇯🇵</div><div class="dc-name" data-i18n="d_kyoto">Kyoto</div>
       <div class="dc-sub" data-i18n="d2s">Tempel, Geishas &amp; traditionelle Teezeremonien</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/tokyo-l193/?partner_id=H0DWLVB&amp;cmp=tokyo-web" target="_blank" rel="noopener sponsored" data-lk="lk4">
+    <a class="dc" href="https://www.getyourguide.com/tokyo-l193/?partner_id=H0DWLVB&amp;cmp=tokyo-web" target="_blank" rel="noopener sponsored" data-lk="lk7">
       <img class="dc-img" id="dc-img-tokyo_l193" data-img="dest-tokyo_l193" alt=""><div class="dc-flag">🇯🇵</div><div class="dc-name" data-i18n="d_tokyo">Tokyo</div>
       <div class="dc-sub" data-i18n="d3s">Streetfood, Shibuya Crossing &amp; Hidden Bars</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/tirana-l2468/?partner_id=H0DWLVB&amp;cmp=tirana-web" target="_blank" rel="noopener sponsored" data-lk="lk5">
+    <a class="dc" href="https://www.getyourguide.com/tirana-l2468/?partner_id=H0DWLVB&amp;cmp=tirana-web" target="_blank" rel="noopener sponsored" data-lk="lk8">
       <img class="dc-img" id="dc-img-tirana_l2468" data-img="dest-tirana_l2468" alt=""><div class="dc-flag">🇦🇱</div><div class="dc-name" data-i18n="d_tirana">Tirana</div>
       <div class="dc-sub" data-i18n="d4s">Albaniens Hauptstadt - Bunk'Art, Street Art &amp; Küche</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/prague-l26/?partner_id=H0DWLVB&amp;cmp=prague-web" target="_blank" rel="noopener sponsored" data-lk="lk6">
+    <a class="dc" href="https://www.getyourguide.com/prague-l26/?partner_id=H0DWLVB&amp;cmp=prague-web" target="_blank" rel="noopener sponsored" data-lk="lk9">
       <img class="dc-img" id="dc-img-prague_l21" data-img="dest-prague_l21" alt=""><div class="dc-flag">🇨🇿</div><div class="dc-name" data-i18n="d_prag">Prag</div>
       <div class="dc-sub" data-i18n="d5s">Altstadt, Prager Burg &amp; versteckte Viertel</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/ljubljana-l318/?partner_id=H0DWLVB&amp;cmp=ljub-web" target="_blank" rel="noopener sponsored" data-lk="lk7">
+    <a class="dc" href="https://www.getyourguide.com/ljubljana-l318/?partner_id=H0DWLVB&amp;cmp=ljub-web" target="_blank" rel="noopener sponsored" data-lk="lk10">
       <img class="dc-img" id="dc-img-ljubljana_l3" data-img="dest-ljubljana_l3" alt=""><div class="dc-flag">🇸🇮</div><div class="dc-name" data-i18n="d_ljubljana">Ljubljana</div>
       <div class="dc-sub" data-i18n="d6s">Autofreie Altstadt - Europas grünste Hauptstadt</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/bled-l1336/?partner_id=H0DWLVB&amp;cmp=bled-web" target="_blank" rel="noopener sponsored" data-lk="lk8">
+    <a class="dc" href="https://www.getyourguide.com/bled-l1336/?partner_id=H0DWLVB&amp;cmp=bled-web" target="_blank" rel="noopener sponsored" data-lk="lk11">
       <img class="dc-img" id="dc-img-bled_l1336" data-img="dest-bled_l1336" alt=""><div class="dc-flag">🇸🇮</div><div class="dc-name" data-i18n="d_bled">Bled</div>
       <div class="dc-sub" data-i18n="d7s">Märchensee mit Inselkirche - Hidden Gem Sloweniens</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/hanoi-l203/?partner_id=H0DWLVB&amp;cmp=hanoi-web" target="_blank" rel="noopener sponsored" data-lk="lk9">
+    <a class="dc" href="https://www.getyourguide.com/hanoi-l203/?partner_id=H0DWLVB&amp;cmp=hanoi-web" target="_blank" rel="noopener sponsored" data-lk="lk12">
       <img class="dc-img" id="dc-img-hanoi_l203" data-img="dest-hanoi_l203" alt=""><div class="dc-flag">🇻🇳</div><div class="dc-name" data-i18n="d_hanoi">Hanoi</div>
       <div class="dc-sub" data-i18n="d9s">Altstadt, Streetfood &amp; Hoan-Kiem-See - Vietnams Seele</div>
       <span class="dc-badge dc-badge-new" data-i18n="d_neu">🔥 Neu</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/ho-chi-minh-city-l209/?partner_id=H0DWLVB&amp;cmp=hcmc-web" target="_blank" rel="noopener sponsored" data-lk="lk10">
+    <a class="dc" href="https://www.getyourguide.com/ho-chi-minh-city-l209/?partner_id=H0DWLVB&amp;cmp=hcmc-web" target="_blank" rel="noopener sponsored" data-lk="lk13">
       <img class="dc-img" id="dc-img-hcmc" data-img="dest-hcmc" alt="">
       <div class="dc-flag">🇻🇳</div><div class="dc-name" data-i18n="d_ho-chi-minh-stadt">Ho-Chi-Minh-Stadt</div>
       <div class="dc-sub" data-i18n="d_pulsierendes-saigon-streetfo">Pulsierendes Saigon - Streetfood, Geschichte &amp; pure Energie</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/hoi-an-l1091/?partner_id=H0DWLVB&amp;cmp=hoian-web" target="_blank" rel="noopener sponsored" data-lk="lk11">
+    <a class="dc" href="https://www.getyourguide.com/hoi-an-l1091/?partner_id=H0DWLVB&amp;cmp=hoian-web" target="_blank" rel="noopener sponsored" data-lk="lk14">
       <img class="dc-img" id="dc-img-hoian" data-img="dest-hoian" alt="">
       <div class="dc-flag">🇻🇳</div><div class="dc-name" data-i18n="d_hoi-an">Hoi An</div>
       <div class="dc-sub" data-i18n="d_unesco-laternenstadt-vietnam">UNESCO-Laternenstadt - Vietnams schönste Nächte &amp; Altstadt</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/barcelona-l45/?partner_id=H0DWLVB&amp;cmp=bcn-web" target="_blank" rel="noopener sponsored" data-lk="lk12">
+    <a class="dc" href="https://www.getyourguide.com/barcelona-l45/?partner_id=H0DWLVB&amp;cmp=bcn-web" target="_blank" rel="noopener sponsored" data-lk="lk15">
       <img class="dc-img" id="dc-img-bcn" data-img="dest-bcn" alt="">
       <div class="dc-flag">🇪🇸</div><div class="dc-name" data-i18n="d_barcelona">Barcelona</div>
       <div class="dc-sub" data-i18n="d_der-ort-der-alles">Der Ort der alles verändert hat - Hafen, Postkarten &amp; Freiheit</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/bad-gastein-l93218/?partner_id=H0DWLVB&amp;cmp=gastein-web" target="_blank" rel="noopener sponsored" data-lk="lk13">
+    <a class="dc" href="https://www.getyourguide.com/bad-gastein-l93218/?partner_id=H0DWLVB&amp;cmp=gastein-web" target="_blank" rel="noopener sponsored" data-lk="lk16">
       <img class="dc-img" id="dc-img-gastein" data-img="dest-gastein" alt="">
       <div class="dc-flag">🇦🇹</div><div class="dc-name" data-i18n="d_bad-gastein">Bad Gastein</div>
       <div class="dc-sub" data-i18n="d_alpines-hidden-gem-belle">Alpines Hidden Gem - Belle-Époque &amp; Thermalquellen in den Alpen</div>
       <span class="dc-badge" data-i18n="d_5-off">5% off</span><div class="dc-arr" data-i18n="dc_arr">Touren buchen →</div>
     </a>
-    <a class="dc" href="https://www.getyourguide.com/?partner_id=H0DWLVB" target="_blank" rel="noopener sponsored" data-lk="lk14">
+    <a class="dc" href="https://www.getyourguide.com/?partner_id=H0DWLVB" target="_blank" rel="noopener sponsored" data-lk="lk17">
       <img class="dc-img" id="dc-img-dest" data-img="dest-dest" alt="">
       <div class="dc-flag">🌍</div><div class="dc-name" data-i18n="d8n">Alle Destinationen</div>
       <div class="dc-sub" data-i18n="d8s">500.000+ Erlebnisse in 170+ Ländern weltweit</div>
@@ -2068,7 +2103,7 @@ body.edit-mode #scroll-top{bottom:90px}
       <div><div class="code-t" data-i18n="gy_travellifelessons5">TRAVELLIFELESSONS5</div><div class="code-s" data-i18n="gy_cs">5% off any GetYourGuide booking</div></div>
       <button class="copy-btn" onclick="copyCode()" data-i18n="copy">Kopieren</button>
     </div>
-    <a style="font-size:13px;color:var(--gold);border-bottom:1px solid var(--gold-dim);padding-bottom:2px;display:inline-block;margin-top:.5rem" href="https://www.getyourguide.com/?partner_id=H0DWLVB" target="_blank" data-i18n="gy_lnk" rel="noopener" data-lk="lk15">Alle Touren auf GetYourGuide * →</a>
+    <a style="font-size:13px;color:var(--gold);border-bottom:1px solid var(--gold-dim);padding-bottom:2px;display:inline-block;margin-top:.5rem" href="https://www.getyourguide.com/?partner_id=H0DWLVB" target="_blank" data-i18n="gy_lnk" rel="noopener" data-lk="lk18">Alle Touren auf GetYourGuide * →</a>
     <p style="font-size:11px;color:var(--text3);margin-top:.75rem" data-i18n="aff_s">* Affiliate-Link. Provision für mich, keine Mehrkosten für dich.</p>
   </div>
   <div class="gy-r">
@@ -2180,16 +2215,20 @@ body.edit-mode #scroll-top{bottom:90px}
 <section class="mp-sec" id="momente" data-page="momente">
   <div class="mp-inner">
     <div class="mp-hdr">
-      <div class="sec-lbl" data-i18n="mp_lbl">📍 Offline-Karte</div>
-      <h2 data-i18n="mp_h2">Meine <em>Momente</em> auf der Karte.</h2>
-      <p data-i18n="mp_jeder-pin-ist-ein">Jeder Pin ist ein Ort an dem etwas hängen geblieben ist. Klick auf einen Pin - dahinter liegt die Geschichte, die Fotos und was dieser Ort mit mir gemacht hat. Die Karte lädt komplett offline, ohne externe Dienste.</p>
+      <div class="sec-lbl" data-i18n="mp_lbl">📍 Interaktive Karte</div>
+      <h2 data-i18n="mp_h2">Meine <em>Hidden Gems</em> auf der Karte.</h2>
+      <p data-i18n="mp_intro">Jeder Pin ist ein Ort, an dem ich wirklich war - mit meiner ehrlichen Einschätzung, dahinter Geschichte und Fotos. Öffne jeden Ort mit einem Klick direkt in Google Maps und finde ihn genau wieder.</p>
     </div>
-    <div class="mp-frame">
-      <svg class="mp-svg" id="mp-svg" viewBox="0 0 720 340" onclick="mpMapClick(event)"></svg>
-    </div>
+    <div class="mp-filters">
+    <button class="mp-filter active" type="button" onclick="mpFilterSet('all',this)" data-i18n="mp_filter_all">🌍 Alle</button>
+    <button class="mp-filter" type="button" onclick="mpFilterSet('europa',this)" data-i18n="mp_filter_europa">🇪🇺 Europa</button>
+    <button class="mp-filter" type="button" onclick="mpFilterSet('asien',this)" data-i18n="mp_filter_asien">🌏 Asien</button>
+  </div><div class="mp-frame">
+      <div id="mp-map" class="mp-map" aria-label="Hidden Gems Karte"></div>
+    </div><p class="mp-attr" data-i18n="mp_tiles">Karten-Daten © OpenStreetMap-Mitwirkende</p>
     <div class="mp-bar">
-      <span class="mp-count"><strong id="mp-count">0</strong> <span data-i18n="mp_pinned">Momente gepinnt</span></span>
-      <button class="mp-btn owner-only hg-ui" onclick="mpAddMoment()">+ Moment hinzufügen</button>
+      <span class="mp-count"><strong id="mp-count">0</strong> <span data-i18n="mp_pinned">Hidden Gems auf der Karte</span></span>
+      <button class="mp-btn owner-only hg-ui" onclick="mpAddMoment()">+ Hidden Gem hinzufügen</button>
       <span class="mp-tip owner-only hg-ui">Im Bearbeitungsmodus: direkt auf die Karte klicken, um einen Pin zu setzen</span>
     </div>
     <div class="mp-list" id="mp-list"></div>
@@ -2205,8 +2244,8 @@ body.edit-mode #scroll-top{bottom:90px}
       <p data-i18n="rc_instagram-zeigt-dir-die">Instagram zeigt dir die schönen Momente. Ich zeige dir beides - das Foto UND die Wahrheit dahinter. Echte Kosten, echte Enttäuschungen, echte Gefühle. Klick auf den Schalter und sieh was wirklich war.</p>
     </div>
     <div class="rc-filters">
-      <button class="rc-filter active" onclick="rcFilter('all',this)" data-i18n="rc_alle">🌍 Alle</button>
-      <button class="rc-filter" onclick="rcFilter('europa',this)" data-i18n="rc_europa">🇪🇺 Europa</button>
+      <button class="rc-filter active" onclick="rcFilter('all',this)" data-i18n="mp_filter_all">🌍 Alle</button>
+      <button class="rc-filter" onclick="rcFilter('europa',this)" data-i18n="mp_filter_europa">🇪🇺 Europa</button>
       <button class="rc-filter" onclick="rcFilter('asien',this)" data-i18n="rc_sudostasien">🌏 Südostasien</button>
       <button class="rc-filter" onclick="rcFilter('weltweit',this)" data-i18n="rc_weltweit">✈️ Weltweit</button>
       
@@ -2230,42 +2269,42 @@ body.edit-mode #scroll-top{bottom:90px}
   <div class="sec-hd reveal">
     <div class="sec-hd-l"><div class="sec-lbl" data-i18n="sh_lbl">Digitale Produkte &amp; Merch</div><h2 data-i18n="sh_h2">Mein <em>Shop</em></h2></div>
     
-  </div>
+  </div><div class="shop-soon-banner" data-page="shop"><span class="ssb-ic">🚀</span><span data-i18n="shop_banner">Der Shop wird gerade vorbereitet und in Kürze ausgerollt. Trag dich in den Newsletter ein, dann bekommst du den Launch als Erste(r) mit.</span></div>
   <div class="shop-grid">
     <div class="sc reveal-scale" style="transition-delay:0ms">
-      <div class="si cal" id="si-cal" data-img="shop-cal"><span class="si-emoji">📅</span></div>
+      <div class="si cal" id="si-cal" data-img="shop-cal"><span class="si-emoji">📅</span><span class="soon-badge-ov" data-i18n="b_soon">Bald</span></div>
       <div class="sc-body">
         <div class="sc-tag" data-i18n="dig_dl">Digital Download</div>
-        <div class="sc-title"><span data-i18n="sh_365-travel-calendar">365 Travel Calendar</span> <span class="sbadge" data-i18n="b_new">Neu</span></div>
+        <div class="sc-title" data-i18n="sh_365-travel-calendar">365 Travel Calendar </div>
         <div class="sc-desc" data-i18n="cal_d">Ein Hidden Gem für jeden Tag des Jahres. Europa &amp; Asien. Perfektes Geschenk für Reisebegeisterte.</div>
-        <div class="sc-bot"><div class="sc-price" id="pr-cal" data-set="prices.cal">€9.99</div><button class="sc-btn" id="sh-cal" data-i18n="buy" onclick="shopClick('cal',this)">Kaufen →</button></div>
+        <div class="sc-bot"><div class="sc-price" id="pr-cal" data-set="prices.cal">€9.99</div><button class="sc-btn" id="sh-cal" data-i18n="shop_cta_soon" onclick="shopNotify()">Bald verfügbar</button></div>
       </div>
     </div>
     <div class="sc reveal-scale" style="transition-delay:80ms">
-      <div class="si cause" id="si-fk" data-img="shop-fk"><span class="si-emoji">📷</span></div>
+      <div class="si cause" id="si-fk" data-img="shop-fk"><span class="si-emoji">📷</span><span class="soon-badge-ov" data-i18n="b_soon">Bald</span></div>
       <div class="sc-body">
         <div class="sc-tag" data-i18n="dig_dl">Digital Download</div>
-        <div class="sc-title"><span data-i18n="sh_foto-kalender">Foto-Kalender</span> <span class="sbadge cause-badge" data-i18n="b_cause">Soziales Projekt</span></div>
+        <div class="sc-title" data-i18n="sh_foto-kalender">Foto-Kalender </div>
         <div class="sc-desc" data-i18n="fk_d">Meine besten Reisefotos als Jahreskalender. 50% des Erlöses geht an lokale Hilfsprojekte in den bereisten Regionen.</div>
-        <div class="sc-bot"><div class="sc-price" id="pr-fk" data-set="prices.fk">€19.99</div><button class="sc-btn" id="sh-fk" data-i18n="buy" onclick="shopClick('fk',this)">Kaufen →</button></div>
+        <div class="sc-bot"><div class="sc-price" id="pr-fk" data-set="prices.fk">€19.99</div><button class="sc-btn" id="sh-fk" data-i18n="shop_cta_soon" onclick="shopNotify()">Bald verfügbar</button></div>
       </div>
     </div>
     <div class="sc reveal-scale" style="transition-delay:160ms">
-      <div class="si pre" id="si-pre" data-img="shop-pre"><span class="si-emoji">🎨</span></div>
+      <div class="si pre" id="si-pre" data-img="shop-pre"><span class="si-emoji">🎨</span><span class="soon-badge-ov" data-i18n="b_soon">Bald</span></div>
       <div class="sc-body">
         <div class="sc-tag" data-i18n="sh_lightroom-presets">Lightroom Presets</div>
         <div class="sc-title" data-i18n="pre_t">Travel Presets Pack</div>
         <div class="sc-desc" data-i18n="pre_d">Meine exakten Presets für den cineastischen Travel-Look. 10 Presets für Mobile &amp; Desktop.</div>
-        <div class="sc-bot"><div class="sc-price" id="pr-pre" data-set="prices.pre">€14.99</div><button class="sc-btn" id="sh-pre" data-i18n="buy" onclick="shopClick('pre',this)">Kaufen →</button></div>
+        <div class="sc-bot"><div class="sc-price" id="pr-pre" data-set="prices.pre">€14.99</div><button class="sc-btn" id="sh-pre" data-i18n="shop_cta_soon" onclick="shopNotify()">Bald verfügbar</button></div>
       </div>
     </div>
     <div class="sc reveal-scale" style="transition-delay:240ms">
-      <div class="si mer" id="si-stk" data-img="shop-stk"><span class="si-emoji">🎯</span></div>
+      <div class="si mer" id="si-stk" data-img="shop-stk"><span class="si-emoji">🎯</span><span class="soon-badge-ov" data-i18n="b_soon">Bald</span></div>
       <div class="sc-body">
         <div class="sc-tag" data-i18n="sh_merch">Merch</div>
-        <div class="sc-title"><span data-i18n="sh_hgs-sticker-pack">HGS Sticker Pack</span> <span class="sbadge" data-i18n="b_soon">Bald</span></div>
+        <div class="sc-title" data-i18n="sh_hgs-sticker-pack">HGS Sticker Pack </div>
         <div class="sc-desc" data-i18n="stk_d">High-Quality Vinyl-Sticker. Hidden Gems Edition. Für Laptop, Flasche &amp; überall.</div>
-        <div class="sc-bot"><div class="sc-price" id="pr-stk" data-set="prices.stk">€4.99</div><button class="sc-btn" onclick="shopNotify()" data-i18n="ntfy">Notify me</button></div>
+        <div class="sc-bot"><div class="sc-price" id="pr-stk" data-set="prices.stk">€4.99</div><button class="sc-btn" onclick="shopNotify()" data-i18n="shop_cta_soon">Bald verfügbar</button></div>
       </div>
     </div>
   </div>
@@ -2300,7 +2339,7 @@ body.edit-mode #scroll-top{bottom:90px}
       <div class="re-sub" id="re-sub"></div>
       <div class="re-act">
         <button class="btn-g" onclick="restartQ()" data-i18n="qz_rst">Nochmal spielen</button>
-        <a id="ig-qz" href="https://www.instagram.com/hiddengem.society" target="_blank" data-set-href="ig" rel="noopener" class="btn-o" data-i18n="qz_flw">Folge für mehr</a>
+        <a id="ig-qz" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" class="btn-o" data-i18n="qz_flw" data-lk="lk19">Folge für mehr</a>
       </div>
     </div>
   </div>
@@ -2425,8 +2464,8 @@ body.edit-mode #scroll-top{bottom:90px}
       <h3 data-i18n="br_bereit-fur-eine-echte">Bereit für eine <em>echte Zusammenarbeit?</em></h3>
       <p data-i18n="br_kein-standard-pitch-kein">Kein Standard-Pitch, kein Template. Ich lese jede Anfrage persönlich und antworte direkt. Wenn es passt, finden wir gemeinsam das richtige Format.</p>
       <div class="brand-btns">
-        <a href="mailto:mail.myinfo@web.de?subject=Kooperation%20HiddenGem.Atlas" class="btn-g" data-lk="lk16" data-i18n="br_mail-myinfo-web-de">✉️ mail.myinfo@web.de</a>
-        <a href="https://www.instagram.com/hiddengem.society" target="_blank" data-set-href="ig" rel="noopener" class="btn-o" data-i18n="br_instagram-dm">📸 Instagram DM</a>
+        <a href="mailto:mail.myinfo@web.de?subject=Kooperation%20HiddenGem.Atlas" class="btn-g" data-lk="lk20" data-i18n="br_mail-myinfo-web-de">✉️ mail.myinfo@web.de</a>
+        <a href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" class="btn-o" data-lk="lk21" data-i18n="br_instagram-dm">📸 Instagram DM</a>
       <button class="btn-o" type="button" onclick="downloadMediaKit()"><span data-i18n="br_mk">📄 Media Kit herunterladen</span></button></div>
       <p class="brand-note" data-i18n="br_antwortzeit-in-der-regel">Antwortzeit: in der Regel 24–48h · Mediadaten auf Anfrage</p>
     </div>
@@ -2461,8 +2500,8 @@ body.edit-mode #scroll-top{bottom:90px}
     <div class="col-item"><div class="col-it-ic">🎯</div><div class="col-it-t" data-i18n="co4">Affiliate Deals</div><div class="col-it-s" data-i18n="co_langfristige-partnerschaften">Langfristige Partnerschaften</div></div>
   </div>
   <div class="col-btns">
-    <a href="mailto:mail.myinfo@web.de" class="btn-g" data-i18n="co_mail" data-lk="lk17">Per Mail anfragen</a>
-    <a id="ig-co" href="https://www.instagram.com/hiddengem.society" target="_blank" data-set-href="ig" rel="noopener" class="btn-o" data-i18n="co_ig">Via Instagram DM</a>
+    <a href="mailto:mail.myinfo@web.de" class="btn-g" data-i18n="co_mail" data-lk="lk22">Per Mail anfragen</a>
+    <a id="ig-co" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" class="btn-o" data-i18n="co_ig" data-lk="lk23">Via Instagram DM</a>
   </div>
 </section>
 
@@ -2477,10 +2516,10 @@ body.edit-mode #scroll-top{bottom:90px}
       <p data-i18n="pk_wahle-dein-reiseziel-und">Wähle dein Reiseziel und klima - ich zeige dir was wirklich wichtig ist. Basierend auf meinen eigenen Reiseerfahrungen aus 20+ Ländern.</p>
     </div>
     <div class="pack-filters">
-      <button class="pack-filter active" onclick="setPack('all',this)" data-i18n="rc_alle">🌍 Alle</button>
+      <button class="pack-filter active" onclick="setPack('all',this)" data-i18n="mp_filter_all">🌍 Alle</button>
       <button class="pack-filter" onclick="setPack('asia',this)" data-i18n="pk_asien-japan">🇯🇵 Asien / Japan</button>
       <button class="pack-filter" onclick="setPack('vietnam',this)" data-i18n="h_vietnam">🇻🇳 Vietnam</button>
-      <button class="pack-filter" onclick="setPack('europe',this)" data-i18n="rc_europa">🇪🇺 Europa</button>
+      <button class="pack-filter" onclick="setPack('europe',this)" data-i18n="mp_filter_europa">🇪🇺 Europa</button>
       <button class="pack-filter" onclick="setPack('beach',this)" data-i18n="pk_strand">🏖️ Strand</button>
       <button class="pack-filter" onclick="setPack('city',this)" data-i18n="pk_stadtetrip">🏙️ Städtetrip</button>
     </div>
@@ -2578,18 +2617,18 @@ body.edit-mode #scroll-top{bottom:90px}
       <span class="ft-logo">Hidden<em>Gem</em>.Atlas</span>
       <p data-i18n="ft_d">Hidden Gems in Europa &amp; Asien. Sei da, bevor alle anderen kommen.</p>
       <div class="ft-soc">
-        <a id="ig-ft" href="https://www.instagram.com/hiddengem.society" target="_blank" data-set-href="ig" rel="noopener" class="btn-o" style="padding:7px 14px;font-size:11px" data-i18n="mb_instagram">Instagram</a>
-        <a id="tt-ft" href="https://www.tiktok.com/@hiddengem.society" target="_blank" data-set-href="tt" rel="noopener" class="btn-o" style="padding:7px 14px;font-size:11px" data-i18n="ab_tiktok">TikTok</a>
+        <a id="ig-ft" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" class="btn-o" style="padding:7px 14px;font-size:11px" data-lk="lk24" data-i18n="mb_instagram">Instagram</a>
+        <a id="tt-ft" href="https://www.tiktok.com/@howtotravel_guide" target="_blank" rel="noopener" class="btn-o" style="padding:7px 14px;font-size:11px" data-lk="lk25" data-i18n="ab_tiktok">TikTok</a>
       </div>
     </div>
     <div class="ft-col">
       <h4 data-i18n="ft_dest">Destinationen</h4>
-      <a href="https://www.getyourguide.com/dusseldorf-l125/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk18" data-i18n="ft_dusseldorf">Düsseldorf *</a>
-      <a href="https://www.getyourguide.com/kyoto-l96826/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk19" data-i18n="ft_kyoto">Kyoto *</a>
-      <a href="https://www.getyourguide.com/tokyo-l193/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk20" data-i18n="ft_tokyo">Tokyo *</a>
-      <a href="https://www.getyourguide.com/tirana-l2468/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk21" data-i18n="ft_tirana">Tirana *</a>
-      <a href="https://www.getyourguide.com/prague-l26/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk22" data-i18n="ft_prag">Prag *</a>
-      <a href="https://www.getyourguide.com/ljubljana-l318/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk23" data-i18n="ft_ljubljana">Ljubljana *</a>
+      <a href="https://www.getyourguide.com/dusseldorf-l125/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk26" data-i18n="ft_dusseldorf">Düsseldorf *</a>
+      <a href="https://www.getyourguide.com/kyoto-l96826/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk27" data-i18n="ft_kyoto">Kyoto *</a>
+      <a href="https://www.getyourguide.com/tokyo-l193/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk28" data-i18n="ft_tokyo">Tokyo *</a>
+      <a href="https://www.getyourguide.com/tirana-l2468/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk29" data-i18n="ft_tirana">Tirana *</a>
+      <a href="https://www.getyourguide.com/prague-l26/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk30" data-i18n="ft_prag">Prag *</a>
+      <a href="https://www.getyourguide.com/ljubljana-l318/?partner_id=H0DWLVB" target="_blank" rel="noopener" data-lk="lk31" data-i18n="ft_ljubljana">Ljubljana *</a>
     </div>
     <div class="ft-col">
       <h4 data-i18n="ft_shop">Shop</h4>
@@ -2627,7 +2666,7 @@ body.edit-mode #scroll-top{bottom:90px}
       <h3 data-i18n="imp_angaben-gemass-5-ddg">Angaben gemäß § 5 DDG</h3>
       <p data-i18n="imp_noel-sprick-lambertistr-21">Noel Sprick<br>Lambertistr. 21<br>45964 Gladbeck<br>Deutschland</p>
       <h3 data-i18n="imp_kontakt">Kontakt</h3>
-      <p data-i18n="imp_e-mail-mail-myinfo">E-Mail: <a href="mailto:mail.myinfo@web.de">mail.myinfo@web.de</a><br>Instagram: <a href="https://www.instagram.com/hiddengem.society" target="_blank" rel="noopener" data-set-href="ig">@hiddengem.society</a></p>
+      <p data-i18n="imp_e-mail-mail-myinfo">E-Mail: <a href="mailto:mail.myinfo@web.de">mail.myinfo@web.de</a><br>Instagram: <a href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener">@hiddengem.atlas</a></p>
       <h3 data-i18n="imp_umsatzsteuer">Umsatzsteuer</h3>
       <p data-i18n="imp_kleinunternehmer-im-sinne-vo">Kleinunternehmer im Sinne von § 19 UStG - es wird keine Umsatzsteuer ausgewiesen.</p>
       <h3 data-i18n="imp_verantwortlich-fur-den-inhal">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
@@ -2733,8 +2772,6 @@ const I18N = {
 "aff_transparenz-ist-mir-wichtig":["Transparenz ist mir wichtig","Transparency matters to me"],
 "afl":["Affiliate","Affiliate"],
 "afl_h":["Affiliate-Hinweis","Affiliate disclosure"],
-"b_cause":["Soziales Projekt","Social Project"],
-"b_new":["Neu","New"],
 "b_soon":["Bald","Soon"],
 "bl_h2":["Aus <em>erster Hand</em>","From <em>first hand</em>"],
 "bl_ig":["Auf Instagram ansehen","View on Instagram"],
@@ -2784,7 +2821,6 @@ const I18N = {
 "br_unboxing":["Unboxing","Unboxing"],
 "br_zusammenarbeit-mit-anderen-c":["Zusammenarbeit mit anderen Creators für gegenseitige Reichweitensteigerung. Besonders interessant: Micro-Influencer mit komplementären Nischen.","Collaborating with other creators to grow each other's reach. Especially interesting: micro-influencers with complementary niches."],
 "br_zusammenarbeit-mit-tourismus":["Zusammenarbeit mit Tourismusbüros, DMOs und Reiseanbietern. Ziel: Orte vor dem Massentourismus-Hype in der richtigen Community platzieren.","Working with tourism boards, DMOs and travel providers. The goal: placing destinations in the right community before the mass-tourism hype."],
-"buy":["Kaufen →","Buy now →"],
 "c1s":["Nur Touren und Anbieter die lokale Communities stärken statt zu verdrängen.","Only tours and providers that strengthen local communities."],
 "c1t":["Nachhaltiger Tourismus","Sustainable Tourism"],
 "c2s":["50% des Erlöses geht an lokale Hilfsprojekte in Albanien, Slowenien &amp; Japan.","50% of proceeds go to local aid projects in Albania, Slovenia & Japan."],
@@ -2946,7 +2982,7 @@ const I18N = {
 "imp_die-inhalte-dieser-website":["Die Inhalte dieser Website erstelle ich mit größtmöglicher Sorgfalt. Für Richtigkeit, Vollständigkeit und Aktualität kann ich jedoch keine Gewähr übernehmen. Reisetipps, Preise und Kosten geben meine persönlichen Erfahrungen zum jeweiligen Zeitpunkt wieder.","I create the content of this website with the greatest possible care. However, I cannot guarantee that it is correct, complete or up to date. Travel tips, prices and costs reflect my personal experience at the time."],
 "imp_diese-website-enthalt-affili":["Diese Website enthält Affiliate-Links (gekennzeichnet mit *) und gekennzeichnete Kooperationen. Bei einer Buchung oder einem Kauf über diese Links erhalte ich eine Provision - für dich entstehen keine Mehrkosten.","This website contains affiliate links (marked with *) and labelled collaborations. If you book or buy something via these links, I receive a commission - at no extra cost to you."],
 "imp_diese-website-enthalt-links":["Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss habe. Für diese Inhalte ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Werden mir Rechtsverletzungen bekannt, entferne ich solche Links umgehend.","This website contains links to external third-party websites whose content I have no influence over. The respective provider or operator is always responsible for that content. If I become aware of any legal violations, I will remove such links immediately."],
-"imp_e-mail-mail-myinfo":["E-Mail: <a href=\"mailto:mail.myinfo@web.de\">mail.myinfo@web.de</a><br>Instagram: <a href=\"https://www.instagram.com/hiddengem.society\" target=\"_blank\" rel=\"noopener\" data-set-href=\"ig\">@hiddengem.society</a>","Email: <a href=\"mailto:mail.myinfo@web.de\">mail.myinfo@web.de</a><br>Instagram: <a href=\"https://www.instagram.com/hiddengem.society\" target=\"_blank\" rel=\"noopener\" data-set-href=\"ig\">@hiddengem.society</a>"],
+"imp_e-mail-mail-myinfo":["E-Mail: <a href=\"mailto:mail.myinfo@web.de\">mail.myinfo@web.de</a><br>Instagram: <a href=\"https://www.instagram.com/hiddengem.atlas/\" target=\"_blank\" rel=\"noopener\">@hiddengem.atlas</a>","Email: <a href=\"mailto:mail.myinfo@web.de\">mail.myinfo@web.de</a><br>Instagram: <a href=\"https://www.instagram.com/hiddengem.atlas/\" target=\"_blank\" rel=\"noopener\" data-set-href=\"ig\">@hiddengem.atlas</a>"],
 "imp_h":["Impressum","Legal notice"],
 "imp_haftung-fur-inhalte":["Haftung für Inhalte","Liability for content"],
 "imp_haftung-fur-links":["Haftung für Links","Liability for links"],
@@ -3021,14 +3057,22 @@ const I18N = {
 "mf_err_consent":["Bitte bestätige noch kurz den Datenschutz-Hinweis.","Please confirm the privacy note."],
 "mf_err_fields":["Bitte fülle alle Felder aus (bei den Textfeldern mindestens 20 Zeichen). Ich möchte dich wirklich kennenlernen! 🌍","Please fill in all fields (at least 20 characters in the text fields). I'd really like to get to know you! 🌍"],
 "mf_undecided":["Noch unentschlossen","Still undecided"],
-"mp_h2":["Meine <em>Momente</em> auf der Karte.","My <em>moments</em> on the map."],
-"mp_jeder-pin-ist-ein":["Jeder Pin ist ein Ort an dem etwas hängen geblieben ist. Klick auf einen Pin - dahinter liegt die Geschichte, die Fotos und was dieser Ort mit mir gemacht hat. Die Karte lädt komplett offline, ohne externe Dienste.","Every pin is a place where something stayed with me. Click a pin - behind it are the story, the photos and what this place did to me. The map loads completely offline, without external services."],
-"mp_lbl":["📍 Offline-Karte","📍 Offline map"],
-"mp_pinned":["Momente gepinnt","moments pinned"],
+"mp_book_tour":["Tour buchen -5%","Book tour -5%"],
+"mp_details":["Details & Fotos","Details & photos"],
+"mp_filter_all":["🌍 Alle","🌍 All"],
+"mp_filter_asien":["🌏 Asien","🌏 Asia"],
+"mp_filter_europa":["🇪🇺 Europa","🇪🇺 Europe"],
+"mp_h2":["Meine <em>Hidden Gems</em> auf der Karte.","My <em>hidden gems</em> on the map."],
+"mp_intro":["Jeder Pin ist ein Ort, an dem ich wirklich war - mit meiner ehrlichen Einschätzung, dahinter Geschichte und Fotos. Öffne jeden Ort mit einem Klick direkt in Google Maps und finde ihn genau wieder.","Every pin is a place I've actually been - with my honest take, and the story and photos behind it. Open any spot in Google Maps with one click and find it again exactly."],
+"mp_lbl":["📍 Interaktive Karte","📍 Interactive map"],
+"mp_open_gmaps":["In Google Maps öffnen","Open in Google Maps"],
+"mp_pinned":["Hidden Gems auf der Karte","moments pinned"],
+"mp_route":["Route","Directions"],
 "mp_sub":["Ein Moment, der hängen geblieben ist.","A moment that stayed with me."],
+"mp_tiles":["Karten-Daten © OpenStreetMap-Mitwirkende","Map data © OpenStreetMap contributors"],
 "ms_thanks":["Danke","Thank you"],
 "ms_txt":["Wir prüfen deine Bewerbung persönlich und melden uns innerhalb von 72 Stunden bei dir.","We'll review your application personally and get back to you within 72 hours."],
-"ms_txt2":["Bis dahin: Folge <strong>@hiddengem.society</strong> - deine Reise hat bereits begonnen.","Until then: follow <strong>@hiddengem.society</strong> - your journey has already begun."],
+"ms_txt2":["Bis dahin: Folge <strong>@hiddengem.society</strong> - deine Reise hat bereits begonnen.","Until then: follow <strong>@hiddengem.atlas</strong> - your journey has already begun."],
 "mt_dein-match":["Dein Match","Your match"],
 "mt_h2":["Welcher <em>Hidden Gem</em> passt zu dir?","Which <em>Hidden Gem</em> matches you?"],
 "mt_lbl":["✦ Persönliche Empfehlung","✦ Personal recommendation"],
@@ -3045,7 +3089,6 @@ const I18N = {
 "nl_ok":["Danke! 🎉 Du bekommst in Kürze eine kurze Bestätigungs-Mail von mir.","Thank you! 🎉 You'll get a short confirmation email from me soon."],
 "nl_ph":["deine@email.com","your@email.com"],
 "nl_sub":["Neue Guides, versteckte Orte, exklusive Deals und Einblicke in soziale Projekte. Kein Spam.","New guides, hidden places, exclusive deals and social project updates. No spam."],
-"ntfy":["Notify me","Notify me"],
 "pg_about_d":["Meine Geschichte vom Ruhrgebiet in die Welt","My story from the Ruhr Valley to the world"],
 "pg_about_t":["Über mich","About me"],
 "pg_blog_d":["Reise-Guides und Stories aus erster Hand","Travel guides and first-hand stories"],
@@ -3060,8 +3103,8 @@ const I18N = {
 "pg_matcher_t":["Gem-Matcher","Gem matcher"],
 "pg_member_d":["Die Hidden Gem Society - max. 30 Entdecker","The Hidden Gem Society - max. 30 explorers"],
 "pg_member_t":["Mitglied werden","Become a member"],
-"pg_moments_d":["Orte, an denen etwas hängen geblieben ist","Places where something stayed with me"],
-"pg_moments_t":["Momente-Karte","Moments map"],
+"pg_moments_d":["Alle meine Hidden Gems auf einer Karte - mit Google-Maps-Link","All my hidden gems on one map - with a Google Maps link"],
+"pg_moments_t":["Hidden Gems Karte","Hidden gems map"],
 "pg_pack_d":["Nie wieder etwas vergessen - passend zum Reiseziel","Never forget anything again - by destination"],
 "pg_pack_t":["Packliste","Packing list"],
 "pg_partner_d":["Mit wem ich zusammenarbeite","Who I work with"],
@@ -3144,11 +3187,9 @@ const I18N = {
 "qz_score":["Score: {n}","Score: {n}"],
 "qz_sub":["10 Fragen über versteckte Orte und Travel-Wissen. Teste dich - und lerne dabei.","10 questions about hidden places and travel knowledge. Test yourself - and learn."],
 "qz_wrong":["Leider falsch.","Not quite."],
-"rc_alle":["🌍 Alle","🌍 All"],
 "rc_back":["Zurück","Back"],
 "rc_costs":["💶 Echte Kosten","💶 Real costs"],
 "rc_details":["📂 Details & Fotos","📂 Details & photos"],
-"rc_europa":["🇪🇺 Europa","🇪🇺 Europe"],
 "rc_fail":["❌ Mein Fail","❌ My fail"],
 "rc_h2":["Der <em>Reality Check.</em>","The <em>Reality Check.</em>"],
 "rc_hype":["📉 Hype-Check","📉 Hype check"],
@@ -3171,19 +3212,20 @@ const I18N = {
 "sc_cz":["CZ","CZ"],
 "sc_de":["DE","DE"],
 "sc_h2":["Folge der <em>Reise</em>","Follow the <em>Journey</em>"],
-"sc_hiddengem-society":["@hiddengem.society","@hiddengem.society"],
 "sc_jp":["JP","JP"],
 "sc_sl":["SL","SL"],
 "sc_sub":["Täglich neue Hidden Gems auf Instagram &amp; TikTok.","New hidden gems daily on Instagram & TikTok."],
 "sh_365-travel-calendar":["365 Travel Calendar","365 Travel Calendar"],
-"sh_foto-kalender":["Foto-Kalender","Photo calendar"],
+"sh_foto-kalender":["Foto-Kalender ","Photo calendar"],
 "sh_h2":["Mein <em>Shop</em>","My <em>Shop</em>"],
-"sh_hgs-sticker-pack":["HGS Sticker Pack","HGS Sticker Pack"],
+"sh_hgs-sticker-pack":["HGS Sticker Pack ","HGS Sticker Pack "],
 "sh_lbl":["Digitale Produkte &amp; Merch","Digital Products & Merch"],
 "sh_lightroom-presets":["Lightroom Presets","Lightroom Presets"],
 "sh_merch":["Merch","Merch"],
 "shop_ask":["Auf Instagram fragen","Ask on Instagram"],
-"shop_soon":["Bald verfügbar! Folge @hiddengem.society, dann verpasst du den Launch nicht.","Coming soon! Follow @hiddengem.society so you don't miss the launch."],
+"shop_banner":["Der Shop wird gerade vorbereitet und in Kürze ausgerollt. Trag dich in den Newsletter ein, dann bekommst du den Launch als Erste(r) mit.","The shop is being prepared and will roll out shortly. Sign up for the newsletter so you're the first to hear about the launch."],
+"shop_cta_soon":["Bald verfügbar","Coming soon"],
+"shop_soon":["Bald verfügbar! Folge @hiddengem.atlas, dann verpasst du den Launch nicht.","Coming soon! Follow @hiddengem.atlas so you don't miss the launch."],
 "shop_sub":["Produktdetails, Bilder und Bestellinfos. Fragen oder Lust zu bestellen? Schreib mir auf Instagram.","Product details, images and ordering info. Questions or want to order? Message me on Instagram."],
 "st_20-lander":["🌍 20+ Länder","🌍 20+ countries"],
 "st_71-posts":["📸 71 Posts","📸 71 Posts"],
@@ -3205,7 +3247,7 @@ const I18N = {
 "tk_4":["🇪🇸 Barcelona - wo alles begann","🇪🇸 Barcelona - where it all began"],
 "tk_5":["🇦🇱 Tirana - Europas bestes Geheimnis","🇦🇱 Tirana - Europe's best secret"],
 "tk_6":["🗺️ TRAVELLIFELESSONS5 - 5% Rabatt auf GYG","🗺️ TRAVELLIFELESSONS5 - 5% off GYG"],
-"tk_7":["📸 @hiddengem.society","📸 @hiddengem.society"],
+"tk_7":["📸 @hiddengem.atlas","📸 @hiddengem.atlas"],
 "tk_8":["🇦🇹 Bad Gastein - alpines Hidden Gem","🇦🇹 Bad Gastein - an alpine hidden gem"],
 "tk_9":["🇸🇮 Ljubljana - grünste Hauptstadt Europas","🇸🇮 Ljubljana - Europe's greenest capital"],
 "tl_17s":["Bachelor of Arts - Betriebswirtschaft, Tourismus, Gastronomie &amp; Hospitality. Die Theorie für das was folgt.","Bachelor of Arts - Business, Tourism, Gastronomy &amp; Hospitality. The theory for what was to come."],
@@ -3221,7 +3263,7 @@ const I18N = {
 "tl_26s":["Hanoi, Ho-Chi-Minh-Stadt, Hoi An. 71+ Posts. Die Leidenschaft bekommt endlich den Raum den sie verdient.","Hanoi, Ho Chi Minh City, Hoi An. 71+ posts. The passion finally gets the space it deserves."],
 "tl_26t":["Vietnam &amp; Südostasien","Vietnam & Southeast Asia"],
 "to_top":["Nach oben","Back to top"],
-"toast_follow":["🌍 Folge <strong>@hiddengem.society</strong> für mehr Hidden Gems","🌍 Follow <strong>@hiddengem.society</strong> for more hidden gems"],
+"toast_follow":["🌍 Folge <strong>@hiddengem.atlas</strong> für mehr Hidden Gems","🌍 Follow <strong>@hiddengem.atlas</strong> for more hidden gems"],
 "tr_alle":["Alle","All"],
 "tr_auto":["Neu im Radar","New on the radar"],
 "tr_beobachten":["👀 Beobachten","👀 Watch"],
@@ -3311,7 +3353,7 @@ function t(k, vars){
   return s;
 }
 // Zweisprachiges Feld aus Datensätzen: item.title / item.title_en
-function L(item, f){
+function Lz(item, f){
   if (!item) return '';
   if (lang === 'en') { const e = item[f+'_en']; if (e != null && String(e).trim() !== '') return e; }
   const d = item[f]; return d == null ? '' : d;
@@ -3396,7 +3438,7 @@ function hgSetImage(el, src){
 }
 function applySettings(){
   const s = HG.set();
-  const def = { followers:'4K+', countries:'20+', posts:'71', ig:'https://www.instagram.com/hiddengem.society', tt:'https://www.tiktok.com/@hiddengem.society' };
+  const def = { followers:'4K+', countries:'20+', posts:'71', ig:'https://www.instagram.com/hiddengem.atlas/', tt:'https://www.tiktok.com/@howtotravel_guide' };
   $$('[data-set]').forEach(el => {
     const path = el.getAttribute('data-set').split('.');
     let v = s; path.forEach(p => { v = v && v[p]; });
@@ -4359,8 +4401,8 @@ function hgSettingsOpen(focus){
     body: `<div class="hgm-tabs"><button type="button" data-tab="num" class="on">Zahlen & Links</button><button type="button" data-tab="shop">Shop</button><button type="button" data-tab="forms">Formulare & Statistik</button><button type="button" data-tab="gh">GitHub</button><button type="button" data-tab="tools">Werkzeuge</button></div>
     <div class="hgm-tab" data-p="num">
       <div class="hgm-grid3">${f('s-followers', 'Follower (Anzeige)', s.followers, '4K+')}${f('s-countries', 'Länder', s.countries, '20+')}${f('s-posts', 'Posts', s.posts, '71')}</div>
-      ${f('s-ig', 'Instagram-Link', s.ig, 'https://www.instagram.com/hiddengem.society')}
-      ${f('s-tt', 'TikTok-Link', s.tt, 'https://www.tiktok.com/@hiddengem.society')}
+      ${f('s-ig', 'Instagram-Link', s.ig, 'https://www.instagram.com/hiddengem.atlas/')}
+      ${f('s-tt', 'TikTok-Link', s.tt, 'https://www.tiktok.com/@howtotravel_guide')}
     </div>
     <div class="hgm-tab" data-p="shop" hidden>
       <p class="hgm-hint">Preise und Kauf-Links (z.B. Gumroad, Etsy, Shopify). Ohne Link öffnet „Kaufen“ die Produktseite.</p>
@@ -4647,6 +4689,30 @@ const PROJECTS_DATA = [
     fail_en: "At first I linked too pushily - the community notices immediately when it's only about selling. Authenticity beats conversion optimisation.",
     lesson: 'Monetarisierung folgt Vertrauen - nie umgekehrt. Erst echten Mehrwert liefern, dann kommt der Rest von alleine.',
     lesson_en: 'Monetisation follows trust - never the other way round. Deliver real value first, and the rest follows on its own.'
+  },
+  {
+    id: 'projekt-sport', icon: '🏀', status: 'progress',
+    title: 'Sport durchziehen - Fitnessstudio & Basketball', title_en: 'Staying consistent - gym & basketball',
+    meta: 'Gesundheit · laufend', meta_en: 'Health · ongoing',
+    gradient: 'linear-gradient(135deg,#1a0e04,#2e1c08)',
+    story: 'Fitnessstudio und Basketball fest im Alltag verankern - nicht als Phase, sondern als Gewohnheit. Reisen und ein Vollzeitjob machen Konstanz schwer, genau das ist der Reiz. Fitness gibt mir die Energie für alles andere.',
+    story_en: 'Making the gym and basketball a fixed part of everyday life - not a phase, but a habit. Travel and a full-time job make consistency hard, and that is exactly the challenge. Fitness gives me the energy for everything else.',
+    fail: 'Früher immer wieder angefangen und nach ein paar Wochen aufgehört. Gelernt: Kleine, feste Termine schlagen den großen Plan.',
+    fail_en: 'I used to start again and again and quit after a few weeks. Lesson learned: small, fixed appointments beat the grand plan.',
+    lesson: 'Disziplin schlägt Motivation. Man muss nicht jeden Tag Lust haben - man muss nur hingehen.',
+    lesson_en: "Discipline beats motivation. You don't have to feel like it every day - you just have to show up."
+  },
+  {
+    id: 'projekt-invest', icon: '📈', status: 'progress',
+    title: 'Investment - Aktien & ETFs', title_en: 'Investing - stocks & ETFs',
+    meta: 'Finanzen · langfristig', meta_en: 'Finance · long-term',
+    gradient: 'linear-gradient(135deg,#0a1a0e,#0e2818)',
+    story: 'Langfristig Vermögen aufbauen mit Aktien, ETFs und allem, was sich sonst ergibt. Kein schnelles Geld, sondern ein ruhiger, breit gestreuter Plan über Jahre. Ich dokumentiere den Weg ehrlich - Fortschritt, nicht Prahlerei.',
+    story_en: 'Building wealth over the long term with stocks, ETFs and whatever else comes up. Not quick money, but a calm, broadly diversified plan over years. I document the journey honestly - progress, not bragging.',
+    fail: 'Am Anfang zu viel auf einzelne Aktien und Trends gesetzt. Gelernt: Breit streuen und dranbleiben schlägt den perfekten Einstieg.',
+    fail_en: 'At the start I bet too much on single stocks and trends. Lesson learned: diversifying and staying invested beats the perfect entry point.',
+    lesson: 'Zeit im Markt schlägt das Timing des Marktes. Ruhe und Geduld sind die eigentliche Strategie.',
+    lesson_en: 'Time in the market beats timing the market. Calm and patience are the real strategy.'
   }
 ];
 
@@ -4770,29 +4836,29 @@ function rcRender(){
   const list = HG.col('rc');
   grid.innerHTML = list.map(d => {
     const cv = hgCover(d);
-    const rows = hgCostRows(L(d, 'costs'));
-    const costTable = rows || d.total ? `<div class="rc-block rc-cost"><strong>${t('rc_costs')}</strong><table>${rows}${d.total ? `<tr class="rc-total"><td>${t('rc_total')}</td><td>${esc(L(d, 'total'))}</td></tr>` : ''}</table></div>` : '';
+    const rows = hgCostRows(Lz(d, 'costs'));
+    const costTable = rows || d.total ? `<div class="rc-block rc-cost"><strong>${t('rc_costs')}</strong><table>${rows}${d.total ? `<tr class="rc-total"><td>${t('rc_total')}</td><td>${esc(Lz(d, 'total'))}</td></tr>` : ''}</table></div>` : '';
     const hide = rcCurrentFilter !== 'all' && d.region !== rcCurrentFilter ? ' hide' : '';
     return `<div class="rc-card${hide}" data-region="${esc(d.region)}" data-id="${esc(d.id)}">${HG.tools('rc', d.id)}
       <div class="rc-img" style="${cv.style}">${cv.img}
         <button class="rc-toggle" type="button" onclick="rcToggle(this)"><span class="rc-tgl-txt">${t('rc_toggle')}</span> 👁️</button>
-        <div class="rc-img-label"><span class="rc-img-flag">${esc(d.flag || '🌍')}</span>${L(d, 'title')}</div>
+        <div class="rc-img-label"><span class="rc-img-flag">${esc(d.flag || '🌍')}</span>${Lz(d, 'title')}</div>
       </div>
       <div class="rc-body">
         <div class="rc-view rc-view-std">
-          <div class="rc-title">${L(d, 'title')}</div>
-          <div class="rc-meta">${L(d, 'meta')}</div>
-          <div class="rc-story">${L(d, 'story')}</div>
-          ${d.fail ? `<div class="rc-block rc-fail"><strong>${t('rc_fail')}</strong>${L(d, 'fail')}</div>` : ''}
-          ${d.lesson ? `<div class="rc-block rc-lesson"><strong>${t('rc_lesson')}</strong>${L(d, 'lesson')}</div>` : ''}
+          <div class="rc-title">${Lz(d, 'title')}</div>
+          <div class="rc-meta">${Lz(d, 'meta')}</div>
+          <div class="rc-story">${Lz(d, 'story')}</div>
+          ${d.fail ? `<div class="rc-block rc-fail"><strong>${t('rc_fail')}</strong>${Lz(d, 'fail')}</div>` : ''}
+          ${d.lesson ? `<div class="rc-block rc-lesson"><strong>${t('rc_lesson')}</strong>${Lz(d, 'lesson')}</div>` : ''}
           <button class="card-detail-btn" type="button" style="margin-top:.5rem" onclick="rcOpen('${jsq(d.id)}')">${t('rc_details')}</button>
         </div>
         <div class="rc-view rc-view-real">
-          <div class="rc-title">${L(d, 'title')}</div>
+          <div class="rc-title">${Lz(d, 'title')}</div>
           <div class="rc-meta">${t('rc_real_meta')}</div>
           ${costTable}
-          <div class="rc-block rc-hype"><strong>${t('rc_hype')}</strong>${L(d, 'hype') || '-'}</div>
-          <div class="rc-block rc-mental"><strong>${t('rc_mental')}</strong>${L(d, 'mental') || '-'}</div>
+          <div class="rc-block rc-hype"><strong>${t('rc_hype')}</strong>${Lz(d, 'hype') || '-'}</div>
+          <div class="rc-block rc-mental"><strong>${t('rc_mental')}</strong>${Lz(d, 'mental') || '-'}</div>
         </div>
       </div>
     </div>`;
@@ -4811,7 +4877,7 @@ function rcFilter(region, btn){
 }
 function rcOpen(id){
   const d = HG.col('rc').find(x => x.id === id); if (!d) return;
-  openDetail('rc-' + d.id, (d.flag || '') + ' ' + stripTags(L(d, 'meta')), L(d, 'title'), stripTags(L(d, 'story')).slice(0, 140) + (stripTags(L(d, 'story')).length > 140 ? ' ...' : ''), null, null, 'reality-check/' + d.id);
+  openDetail('rc-' + d.id, (d.flag || '') + ' ' + stripTags(Lz(d, 'meta')), Lz(d, 'title'), stripTags(Lz(d, 'story')).slice(0, 140) + (stripTags(Lz(d, 'story')).length > 140 ? ' ...' : ''), null, null, 'reality-check/' + d.id);
 }
 HG.openers['reality-check'] = rcOpen;
 
@@ -4825,17 +4891,17 @@ function projRender(){
     return `<div class="rc-card project" data-id="${esc(d.id)}">${HG.tools('projects', d.id)}
       <div class="rc-img" style="${cv.style}">${cv.img}
         <span class="rc-proj-status ${esc(d.status || 'progress')}">${t(st[d.status] || 'st_progress')}</span>
-        <div class="rc-img-label"><span class="rc-img-flag">${esc(d.icon || '🛠️')}</span>${L(d, 'title')}</div>
+        <div class="rc-img-label"><span class="rc-img-flag">${esc(d.icon || '🛠️')}</span>${Lz(d, 'title')}</div>
       </div>
       <div class="rc-body"><div class="rc-view rc-view-std">
-        <div class="rc-title">${L(d, 'title')}</div>
-        <div class="rc-meta">${L(d, 'meta')}</div>
-        <div class="rc-story">${L(d, 'story')}</div>
-        ${d.fail ? `<div class="rc-block rc-fail"><strong>${t('pj_fail')}</strong>${L(d, 'fail')}</div>` : ''}
-        ${d.lesson ? `<div class="rc-block rc-lesson"><strong>${t('pj_lesson')}</strong>${L(d, 'lesson')}</div>` : ''}
+        <div class="rc-title">${Lz(d, 'title')}</div>
+        <div class="rc-meta">${Lz(d, 'meta')}</div>
+        <div class="rc-story">${Lz(d, 'story')}</div>
+        ${d.fail ? `<div class="rc-block rc-fail"><strong>${t('pj_fail')}</strong>${Lz(d, 'fail')}</div>` : ''}
+        ${d.lesson ? `<div class="rc-block rc-lesson"><strong>${t('pj_lesson')}</strong>${Lz(d, 'lesson')}</div>` : ''}
         <div class="pj-btns">
           <button class="card-detail-btn" type="button" onclick="projOpen('${jsq(d.id)}')">${t('rc_details')}</button>
-          ${d.link ? `<a class="card-detail-btn ghost" href="${esc(d.link)}" target="_blank" rel="noopener">${L(d, 'linkLabel') || t('pj_link')} ↗</a>` : ''}
+          ${d.link ? `<a class="card-detail-btn ghost" href="${esc(d.link)}" target="_blank" rel="noopener">${Lz(d, 'linkLabel') || t('pj_link')} ↗</a>` : ''}
         </div>
       </div></div>
     </div>`;
@@ -4844,7 +4910,7 @@ function projRender(){
 function projOpen(id){
   const d = HG.col('projects').find(x => x.id === id); if (!d) return;
   // Schlüssel 'rc-…' bleibt, damit bestehende Detailtexte erhalten bleiben
-  openDetail('rc-' + d.id, (d.icon || '') + ' ' + stripTags(L(d, 'meta')), L(d, 'title'), stripTags(L(d, 'story')).slice(0, 140) + ' ...', d.link || null, L(d, 'linkLabel') || t('pj_link'), 'projekte/' + d.id);
+  openDetail('rc-' + d.id, (d.icon || '') + ' ' + stripTags(Lz(d, 'meta')), Lz(d, 'title'), stripTags(Lz(d, 'story')).slice(0, 140) + ' ...', d.link || null, Lz(d, 'linkLabel') || t('pj_link'), 'projekte/' + d.id);
 }
 HG.openers['projekte'] = projOpen;
 
@@ -4860,8 +4926,8 @@ function partnersRender(){
   const list = HG.col('partners');
   const card = p => `<div class="pt-card${p.status === 'past' ? ' past' : ''}" data-id="${esc(p.id)}">${HG.tools('partners', p.id)}
       <div class="pt-top"><div class="pt-logo">${ptLogo(p, true)}</div>
-        <div><div class="pt-name">${esc(p.name)}</div><div class="pt-type">${t(PT_TYPES[p.type] || 'pt_other')}${L(p, 'since') ? ' · ' + L(p, 'since') : ''}</div></div></div>
-      <div class="pt-desc">${L(p, 'desc')}</div>
+        <div><div class="pt-name">${esc(p.name)}</div><div class="pt-type">${t(PT_TYPES[p.type] || 'pt_other')}${Lz(p, 'since') ? ' · ' + Lz(p, 'since') : ''}</div></div></div>
+      <div class="pt-desc">${Lz(p, 'desc')}</div>
       ${p.code ? `<div class="pt-code"><span>${t('pt_code')}</span><strong>${esc(p.code)}</strong><button type="button" onclick="hgCopy('${jsq(p.code)}',this)">${t('copy')}</button></div>` : ''}
       ${p.url ? `<a class="pt-link" href="${esc(p.url)}" target="_blank" rel="noopener sponsored">${t('pt_visit')} ↗</a>` : ''}
     </div>`;
@@ -4890,16 +4956,16 @@ function blogRender(){
   grid.innerHTML = list.map((b, i) => `<div class="bc${b.image ? ' has-img' : ''}" data-id="${esc(b.id)}" onclick="bcOpen('${jsq(b.id)}')" role="link" tabindex="0" onkeydown="if(event.key==='Enter')bcOpen('${jsq(b.id)}')">${HG.tools('blog', b.id)}
       <div class="bi ${esc(b.grad || 'sand')}">${b.image ? `<img class="hg-img" src="${esc(HG.img(b.image))}" alt="" loading="lazy">` : `<span class="bi-label">${esc(b.label || '✦')}</span>`}</div>
       <div class="bc-body">
-        <div class="bc-tag">${L(b, 'tag')}</div>
-        <div class="bc-title">${L(b, 'title')}</div>
-        <div class="bc-meta">${L(b, 'meta')}</div>
+        <div class="bc-tag">${Lz(b, 'tag')}</div>
+        <div class="bc-title">${Lz(b, 'title')}</div>
+        <div class="bc-meta">${Lz(b, 'meta')}</div>
         <div class="bc-read">${t('rd')}</div>
       </div></div>`).join('') + HG.addCard('blog', 'Neuen Artikel hinzufügen', 'bc-add');
 }
 function bcOpen(id){
   const b = HG.col('blog').find(x => x.id === id); if (!b) return;
-  const ig = (HG.set().ig) || 'https://www.instagram.com/hiddengem.society';
-  openDetail('blog-' + b.id, stripTags(L(b, 'tag')) || t('bl_lbl'), L(b, 'title'), stripTags(L(b, 'meta')), b.link || ig, b.link ? t('bl_open') : t('bl_ig'), 'blog/' + b.id);
+  const ig = (HG.set().ig) || 'https://www.instagram.com/hiddengem.atlas/';
+  openDetail('blog-' + b.id, stripTags(Lz(b, 'tag')) || t('bl_lbl'), Lz(b, 'title'), stripTags(Lz(b, 'meta')), b.link || ig, b.link ? t('bl_open') : t('bl_ig'), 'blog/' + b.id);
 }
 HG.openers['blog'] = bcOpen;
 
@@ -5275,7 +5341,7 @@ window.addEventListener('hg:route', () => setTimeout(initReveal, 30));
 // ── MEDIA KIT (Download für Marken) ──────────────────
 function downloadMediaKit(){
   const s = HG.set(); const en = lang === 'en';
-  const partners = HG.col('partners').map(p => '- ' + p.name + ' (' + stripTags(t(PT_TYPES[p.type] || 'pt_other')) + (L(p, 'since') ? ', ' + stripTags(L(p, 'since')) : '') + (p.status === 'past' ? (en ? ', completed' : ', abgeschlossen') : '') + ')').join('\n');
+  const partners = HG.col('partners').map(p => '- ' + p.name + ' (' + stripTags(t(PT_TYPES[p.type] || 'pt_other')) + (Lz(p, 'since') ? ', ' + stripTags(Lz(p, 'since')) : '') + (p.status === 'past' ? (en ? ', completed' : ', abgeschlossen') : '') + ')').join('\n');
   const date = new Date().toLocaleDateString(en ? 'en-GB' : 'de-DE');
   const mk = en ? `MEDIA KIT - HiddenGem.Atlas
 =================================
@@ -5283,7 +5349,8 @@ As of: ${date}
 
 CREATOR: Noel Sprick · Ruhr Valley (Gladbeck), Germany
 Niche: hidden gems in Europe & Asia
-Instagram / TikTok: @hiddengem.society
+Instagram: @hiddengem.atlas
+TikTok: @howtotravel_guide
 Website: https://noelsprick-alt.github.io/HiddenGem.Atlas/
 Email: mail.myinfo@web.de
 
@@ -5315,14 +5382,15 @@ every collaboration is discussed individually.
 
 CONTACT
 mail.myinfo@web.de
-Instagram: @hiddengem.society
+Instagram: @hiddengem.atlas
 ` : `MEDIA KIT - HiddenGem.Atlas
 =================================
 Stand: ${date}
 
 CREATOR: Noel Sprick · Ruhrgebiet (Gladbeck), Deutschland
 Nische: Hidden Gems in Europa & Asien
-Instagram / TikTok: @hiddengem.society
+Instagram: @hiddengem.atlas
+TikTok: @howtotravel_guide
 Website: https://noelsprick-alt.github.io/HiddenGem.Atlas/
 E-Mail: mail.myinfo@web.de
 
@@ -5354,7 +5422,7 @@ jede Zusammenarbeit wird individuell besprochen.
 
 KONTAKT
 mail.myinfo@web.de
-Instagram: @hiddengem.society
+Instagram: @hiddengem.atlas
 `;
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([mk], {type: 'text/plain;charset=utf-8'}));
@@ -5422,34 +5490,37 @@ setTimeout(() => {
 
 
 // ╔════════════════════════════════════════════════════╗
-// ║  MOMENTE - Pins auf Karte und Globus               ║
-// ║  Neue Pins: Editor → Karte anklicken oder „+ Neu“  ║
+// ║  HIDDEN GEMS KARTE (interaktiv, Leaflet + OSM)     ║
+// ║  Jeder Ort: direkter Google-Maps-Link + Route      ║
+// ║  Neue Orte: Editor → „+“ oder Klick auf die Karte  ║
 // ╚════════════════════════════════════════════════════╝
 const MOMENTS = [
-  {id:'m-ddorf', city:'Düsseldorf', city_en:'Düsseldorf', flag:'🇩🇪', lat:51.2, lon:6.8, title:'Japantag - Japan vor der Haustür', title_en:'Japan Day - Japan on my doorstep', date:'Mai 2025', date_en:'May 2025'},
-  {id:'m-kyoto', city:'Kyoto', city_en:'Kyoto', flag:'🇯🇵', lat:35.0, lon:135.8, title:'Fushimi Inari um 6 Uhr morgens', title_en:'Fushimi Inari at 6am', date:'2022', date_en:'2022'},
-  {id:'m-tokyo', city:'Tokyo', city_en:'Tokyo', flag:'🇯🇵', lat:35.7, lon:139.7, title:'Shibuya bei Nacht', title_en:'Shibuya by night', date:'2022', date_en:'2022'},
-  {id:'m-tirana', city:'Tirana', city_en:'Tirana', flag:'🇦🇱', lat:41.3, lon:19.8, title:"Bunk'Art - Geschichte unter der Stadt", title_en:"Bunk'Art - history beneath the city", date:'2025', date_en:'2025'},
-  {id:'m-prag', city:'Prag', city_en:'Prague', flag:'🇨🇿', lat:50.1, lon:14.4, title:'Die Gassen abseits der Karlsbrücke', title_en:'The lanes away from Charles Bridge', date:'2024', date_en:'2024'},
-  {id:'m-ljub', city:'Ljubljana', city_en:'Ljubljana', flag:'🇸🇮', lat:46.1, lon:14.5, title:'Grünste Hauptstadt Europas', title_en:"Europe's greenest capital", date:'2024', date_en:'2024'},
-  {id:'m-bled', city:'Bled', city_en:'Bled', flag:'🇸🇮', lat:46.4, lon:14.1, title:'Der See im Morgennebel', title_en:'The lake in the morning mist', date:'2024', date_en:'2024'},
-  {id:'m-hanoi', city:'Hanoi', city_en:'Hanoi', flag:'🇻🇳', lat:21.0, lon:105.8, title:'Pho um 6 Uhr auf dem Plastikstuhl', title_en:'Pho at 6am on a plastic stool', date:'Feb 2026', date_en:'Feb 2026'},
-  {id:'m-hcmc', city:'Ho-Chi-Minh-Stadt', city_en:'Ho Chi Minh City', flag:'🇻🇳', lat:10.8, lon:106.7, title:'Saigon - Energie ohne Pause', title_en:'Saigon - energy without a break', date:'Feb 2026', date_en:'Feb 2026'},
-  {id:'m-hoian', city:'Hoi An', city_en:'Hoi An', flag:'🇻🇳', lat:15.9, lon:108.3, title:'Laternen auf dem Fluss', title_en:'Lanterns on the river', date:'Feb 2026', date_en:'Feb 2026'},
-  {id:'m-bcn', city:'Barcelona', city_en:'Barcelona', flag:'🇪🇸', lat:41.3, lon:2.2, title:'7 Uhr am Hafen - der Moment der alles änderte', title_en:'7am at the harbour - the moment that changed everything', date:'2023', date_en:'2023'},
-  {id:'m-gastein', city:'Bad Gastein', city_en:'Bad Gastein', flag:'🇦🇹', lat:47.1, lon:13.1, title:'Wasserfall mitten im Ort', title_en:'A waterfall in the middle of town', date:'2020', date_en:'2020'}
+  {id:'m-ddorf', region:'europa', city:'Düsseldorf', city_en:'Düsseldorf', flag:'🇩🇪', lat:51.2277, lon:6.7735, title:'Japantag - Japan vor der Haustür', title_en:'Japan Day - Japan on my doorstep', date:'Mai 2025', date_en:'May 2025', gyg:'https://www.getyourguide.com/dusseldorf-l125/?partner_id=H0DWLVB'},
+  {id:'m-kyoto', region:'asien', city:'Kyoto', city_en:'Kyoto', flag:'🇯🇵', lat:34.9671, lon:135.7727, title:'Fushimi Inari um 6 Uhr morgens', title_en:'Fushimi Inari at 6am', date:'2022', date_en:'2022', gyg:'https://www.getyourguide.com/kyoto-l96826/?partner_id=H0DWLVB'},
+  {id:'m-tokyo', region:'asien', city:'Tokyo', city_en:'Tokyo', flag:'🇯🇵', lat:35.6595, lon:139.7005, title:'Shibuya bei Nacht', title_en:'Shibuya by night', date:'2022', date_en:'2022', gyg:'https://www.getyourguide.com/tokyo-l193/?partner_id=H0DWLVB'},
+  {id:'m-tirana', region:'europa', city:'Tirana', city_en:'Tirana', flag:'🇦🇱', lat:41.3275, lon:19.8189, title:"Bunk'Art - Geschichte unter der Stadt", title_en:"Bunk'Art - history beneath the city", date:'2025', date_en:'2025', gyg:'https://www.getyourguide.com/tirana-l2468/?partner_id=H0DWLVB'},
+  {id:'m-prag', region:'europa', city:'Prag', city_en:'Prague', flag:'🇨🇿', lat:50.0875, lon:14.4213, title:'Die Gassen abseits der Karlsbrücke', title_en:'The lanes away from Charles Bridge', date:'2024', date_en:'2024', gyg:'https://www.getyourguide.com/prague-l26/?partner_id=H0DWLVB'},
+  {id:'m-ljub', region:'europa', city:'Ljubljana', city_en:'Ljubljana', flag:'🇸🇮', lat:46.0511, lon:14.5051, title:'Grünste Hauptstadt Europas', title_en:"Europe's greenest capital", date:'2024', date_en:'2024', gyg:'https://www.getyourguide.com/ljubljana-l318/?partner_id=H0DWLVB'},
+  {id:'m-bled', region:'europa', city:'Bled', city_en:'Bled', flag:'🇸🇮', lat:46.3683, lon:14.1146, title:'Der See im Morgennebel', title_en:'The lake in the morning mist', date:'2024', date_en:'2024', gyg:'https://www.getyourguide.com/bled-l1336/?partner_id=H0DWLVB'},
+  {id:'m-hanoi', region:'asien', city:'Hanoi', city_en:'Hanoi', flag:'🇻🇳', lat:21.0285, lon:105.8542, title:'Pho um 6 Uhr auf dem Plastikstuhl', title_en:'Pho at 6am on a plastic stool', date:'Feb 2026', date_en:'Feb 2026', gyg:'https://www.getyourguide.com/hanoi-l203/?partner_id=H0DWLVB'},
+  {id:'m-hcmc', region:'asien', city:'Ho-Chi-Minh-Stadt', city_en:'Ho Chi Minh City', flag:'🇻🇳', lat:10.7769, lon:106.7009, title:'Saigon - Energie ohne Pause', title_en:'Saigon - energy without a break', date:'Feb 2026', date_en:'Feb 2026', gyg:'https://www.getyourguide.com/ho-chi-minh-city-l209/?partner_id=H0DWLVB'},
+  {id:'m-hoian', region:'asien', city:'Hoi An', city_en:'Hoi An', flag:'🇻🇳', lat:15.8801, lon:108.3380, title:'Laternen auf dem Fluss', title_en:'Lanterns on the river', date:'Feb 2026', date_en:'Feb 2026', gyg:'https://www.getyourguide.com/hoi-an-l1091/?partner_id=H0DWLVB'},
+  {id:'m-bcn', region:'europa', city:'Barcelona', city_en:'Barcelona', flag:'🇪🇸', lat:41.3851, lon:2.1734, title:'7 Uhr am Hafen - der Moment der alles änderte', title_en:'7am at the harbour - the moment that changed everything', date:'2023', date_en:'2023', gyg:'https://www.getyourguide.com/barcelona-l45/?partner_id=H0DWLVB'},
+  {id:'m-gastein', region:'europa', city:'Bad Gastein', city_en:'Bad Gastein', flag:'🇦🇹', lat:47.1147, lon:13.1349, title:'Wasserfall mitten im Ort', title_en:'A waterfall in the middle of town', date:'2020', date_en:'2020', gyg:'https://www.getyourguide.com/bad-gastein-l93218/?partner_id=H0DWLVB'}
 ];
 HG.registerCol('moments', {
-  label: 'Moment (Pin)', prefix: 'm', addTop: false, defaults: () => MOMENTS,
-  hint: 'Koordinaten: In Google Maps Rechtsklick auf den Ort → die Zahlen oben anklicken (kopiert) → hier ins Feld „Breitengrad“ einfügen. Oder im Bearbeitungsmodus direkt auf die Karte klicken.',
-  blank: () => ({flag: '📍'}),
+  label: 'Hidden Gem (Kartenpin)', prefix: 'm', addTop: false, defaults: () => MOMENTS,
+  hint: 'Koordinaten: In Google Maps Rechtsklick auf den Ort → oben auf die Zahlen klicken (kopiert) → hier ins Feld „Breitengrad“ einfügen (füllt beide). Oder im Bearbeitungsmodus direkt auf die Karte klicken.',
+  blank: () => ({flag: '📍', region: 'europa'}),
   schema: [
     {f:'city', l:'Ort / Stadt', i18n:true, req:true, type:'text'},
     {f:'flag', l:'Flagge / Emoji', type:'text', def:'📍'},
-    {f:'lat', l:'Breitengrad (z.B. 48.86)', type:'number', step:'any', req:true, help:'Tipp: „48.8566, 2.3522“ hier einfügen füllt beide Felder.'},
-    {f:'lon', l:'Längengrad (z.B. 2.35)', type:'number', step:'any', req:true},
-    {f:'title', l:'Was ist hier passiert?', i18n:true, req:true, type:'text'},
-    {f:'date', l:'Wann? (z.B. Juni 2026)', i18n:true, type:'text'}
+    {f:'region', l:'Region', type:'select', opts:[['europa','🇪🇺 Europa'],['asien','🌏 Asien'],['other','🌍 Weltweit']]},
+    {f:'lat', l:'Breitengrad (z.B. 48.8566)', type:'number', step:'any', req:true, help:'Tipp: „48.8566, 2.3522“ hier einfügen füllt beide Felder.'},
+    {f:'lon', l:'Längengrad (z.B. 2.3522)', type:'number', step:'any', req:true},
+    {f:'title', l:'Was ist hier besonders? (deine Einschätzung)', i18n:true, req:true, type:'text'},
+    {f:'date', l:'Wann? (z.B. Juni 2026)', i18n:true, type:'text'},
+    {f:'gyg', l:'GetYourGuide-Tour-Link (optional)', type:'url', help:'Bringt Buchungen + 5% für deine Community.'}
   ]
 });
 
@@ -5496,54 +5567,69 @@ function isLand(lon,lat){ return LAND.some(p=>inPoly(lon,lat,p)); }
 
 function mpAllMoments(){ return HG.col('moments').filter(m => isFinite(+m.lat) && isFinite(+m.lon)); }
 
-let mpDotsCache = null;
-function renderMoments(){
-  const svg = document.getElementById('mp-svg'); if (!svg) return;
-  const NS = 'http://www.w3.org/2000/svg';
-  svg.innerHTML = '';
-  const g = document.createElementNS(NS, 'g');
-  for (let lon = -180; lon <= 180; lon += 30){ const l = document.createElementNS(NS, 'line'); l.setAttribute('x1', mpX(lon)); l.setAttribute('y1', 0); l.setAttribute('x2', mpX(lon)); l.setAttribute('y2', MP_H); l.setAttribute('class', 'mp-grat'); g.appendChild(l); }
-  for (let lat = -60; lat <= 85; lat += 30){ const l = document.createElementNS(NS, 'line'); l.setAttribute('x1', 0); l.setAttribute('y1', mpY(lat)); l.setAttribute('x2', MP_W); l.setAttribute('y2', mpY(lat)); l.setAttribute('class', 'mp-grat'); g.appendChild(l); }
-  svg.appendChild(g);
-  if (!mpDotsCache){
-    mpDotsCache = [];
-    for (let lat = MP_TOP; lat >= MP_BOT; lat -= 2.6) for (let lon = -180; lon <= 180; lon += 2.6) if (isLand(lon, lat)) mpDotsCache.push([mpX(lon).toFixed(1), mpY(lat).toFixed(1)]);
-  }
-  const dots = document.createElementNS(NS, 'g');
-  mpDotsCache.forEach(([x, y]) => { const c = document.createElementNS(NS, 'circle'); c.setAttribute('cx', x); c.setAttribute('cy', y); c.setAttribute('r', '1.25'); c.setAttribute('class', 'mp-dot'); dots.appendChild(c); });
-  svg.appendChild(dots);
-  const list = mpAllMoments();
-  const pins = document.createElementNS(NS, 'g');
+let mpMap = null, mpLayer = null, mpFilter = 'all';
+function mpEnsureMap(){
+  if (mpMap || typeof L === 'undefined') return mpMap;
+  const el = document.getElementById('mp-map'); if (!el) return null;
+  mpMap = L.map(el, {scrollWheelZoom: false, worldCopyJump: true, attributionControl: false}).setView([44, 15], 4);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(mpMap);
+  mpMap.on('click', e => { if (HG.editing) hgColForm('moments', null, {lat: +e.latlng.lat.toFixed(4), lon: +e.latlng.lng.toFixed(4)}); });
+  mpLayer = L.layerGroup().addTo(mpMap);
+  return mpMap;
+}
+function mpMarkers(){
+  if (!mpMap || !mpLayer) return;
+  mpLayer.clearLayers();
+  const list = mpAllMoments().filter(m => mpFilter === 'all' || (m.region || 'other') === mpFilter);
+  const pts = [];
   list.forEach(m => {
-    const grp = document.createElementNS(NS, 'g'); grp.setAttribute('class', 'mp-pin'); grp.setAttribute('tabindex', '0');
-    grp.addEventListener('click', ev => { ev.stopPropagation(); mpOpen(m.id); });
-    grp.addEventListener('keydown', ev => { if (ev.key === 'Enter') mpOpen(m.id); });
-    const x = mpX(+m.lon), y = mpY(+m.lat);
-    const halo = document.createElementNS(NS, 'circle'); halo.setAttribute('cx', x); halo.setAttribute('cy', y); halo.setAttribute('r', '7'); halo.setAttribute('class', 'halo');
-    const core = document.createElementNS(NS, 'circle'); core.setAttribute('cx', x); core.setAttribute('cy', y); core.setAttribute('r', '3.4'); core.setAttribute('class', 'core');
-    const tx = document.createElementNS(NS, 'text'); tx.setAttribute('x', x + 9); tx.setAttribute('y', y + 3); tx.textContent = stripTags(L(m, 'city'));
-    const ttl = document.createElementNS(NS, 'title'); ttl.textContent = stripTags(L(m, 'title'));
-    grp.appendChild(halo); grp.appendChild(core); grp.appendChild(tx); grp.appendChild(ttl);
-    pins.appendChild(grp);
+    const lat = +m.lat, lon = +m.lon; pts.push([lat, lon]);
+    const icon = L.divIcon({className: 'mp-mk', html: `<span>${esc(m.flag || '📍')}</span>`, iconSize: [30, 30], iconAnchor: [15, 15]});
+    const gm = `https://www.google.com/maps/search/?api=1&query=${lat},${lon}`;
+    const dir = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
+    const pop = `<div class="mp-pop"><div class="mp-pop-t">${esc(m.flag || '📍')} ${esc(stripTags(Lz(m, 'city')))}</div>
+      <div class="mp-pop-s">${esc(stripTags(Lz(m, 'title')))}${Lz(m, 'date') ? ' · ' + esc(stripTags(Lz(m, 'date'))) : ''}</div>
+      <div class="mp-pop-btns">
+        <a href="${gm}" target="_blank" rel="noopener">🗺️ ${t('mp_open_gmaps')}</a>
+        <a href="${dir}" target="_blank" rel="noopener">🧭 ${t('mp_route')}</a>
+        ${m.gyg ? `<a class="gyg" href="${esc(safeUrl(m.gyg))}" target="_blank" rel="noopener sponsored">✦ ${t('mp_book_tour')}</a>` : ''}
+        <button type="button" onclick="mpOpen('${jsq(m.id)}')">📂 ${t('mp_details')}</button>
+      </div></div>`;
+    L.marker([lat, lon], {icon}).addTo(mpLayer).bindPopup(pop, {maxWidth: 260});
   });
-  svg.appendChild(pins);
-  document.getElementById('mp-count').textContent = list.length;
-  const el = document.getElementById('mp-list');
-  el.innerHTML = list.map(m => `<div class="mp-item" onclick="mpOpen('${jsq(m.id)}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')mpOpen('${jsq(m.id)}')">${HG.tools('moments', m.id)}<div class="mp-item-t"><span>${esc(m.flag || '📍')}</span>${L(m, 'city')}</div><div class="mp-item-m">${L(m, 'title')}</div></div>`).join('') + HG.addCard('moments', 'Neuen Moment hinzufügen', 'mp-add');
+  if (pts.length){ try{ mpMap.fitBounds(pts, {padding: [45, 45], maxZoom: 6}); }catch(e){} }
+}
+function mpFilterSet(f, btn){
+  mpFilter = f;
+  document.querySelectorAll('.mp-filter').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  mpMarkers();
+}
+function renderMoments(){
+  const listEl = document.getElementById('mp-list');
+  const list = mpAllMoments();
+  const cnt = document.getElementById('mp-count'); if (cnt) cnt.textContent = list.length;
+  if (listEl) listEl.innerHTML = list.map(m => {
+    const gm = `https://www.google.com/maps/search/?api=1&query=${+m.lat},${+m.lon}`;
+    return `<div class="mp-item" data-id="${esc(m.id)}">${HG.tools('moments', m.id)}
+      <div class="mp-item-main" onclick="mpOpen('${jsq(m.id)}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')mpOpen('${jsq(m.id)}')">
+        <div class="mp-item-t"><span>${esc(m.flag || '📍')}</span>${Lz(m, 'city')}</div>
+        <div class="mp-item-m">${Lz(m, 'title')}</div>
+      </div>
+      <a class="mp-item-gm" href="${gm}" target="_blank" rel="noopener" title="${esc(stripTags(t('mp_open_gmaps')))}">🗺️</a>
+    </div>`;
+  }).join('') + HG.addCard('moments', 'Hidden Gem hinzufügen', 'mp-add');
+  mpEnsureMap(); mpMarkers();
+  if (mpMap) setTimeout(() => { try{ mpMap.invalidateSize(); }catch(e){} }, 60);
 }
 function mpOpen(id){
   const m = HG.col('moments').find(x => x.id === id); if (!m) return;
-  openDetail('moment-' + m.id, (m.flag || '📍') + ' ' + stripTags(L(m, 'city')) + (L(m, 'date') ? ' · ' + stripTags(L(m, 'date')) : ''), L(m, 'title'), stripTags(t('mp_sub')), null, null, 'momente/' + m.id);
+  const gyg = m.gyg ? safeUrl(m.gyg) : null;
+  openDetail('moment-' + m.id, (m.flag || '📍') + ' ' + stripTags(Lz(m, 'city')) + (Lz(m, 'date') ? ' · ' + stripTags(Lz(m, 'date')) : ''), Lz(m, 'title'), stripTags(t('mp_sub')), gyg, gyg ? t('mp_book_tour') : null, 'momente/' + m.id);
 }
 HG.openers['momente'] = mpOpen;
-function mpMapClick(ev){
-  if (!HG.editing) return;
-  const svg = document.getElementById('mp-svg'); const r = svg.getBoundingClientRect();
-  const lon = +mpLon((ev.clientX - r.left) / r.width * MP_W).toFixed(2);
-  const lat = +mpLat((ev.clientY - r.top) / r.height * MP_H).toFixed(2);
-  hgColForm('moments', null, {lat, lon});
-}
 function mpAddMoment(){ if (HG.owner){ if (!HG.editing) hgEditToggle(true); hgColForm('moments', null); } }
+window.addEventListener('hg:route', () => { if (HG.route === 'momente' && mpMap) setTimeout(() => { try{ mpMap.invalidateSize(); mpMarkers(); }catch(e){} }, 90); });
 HG.onRender(renderMoments);
 
 
@@ -5625,10 +5711,10 @@ function trRender(){
     const tools = x._own ? HG.tools('trends', x.id) : (HG.editing ? `<div class="hg-ui hg-tools"><button type="button" title="Urteil / Einschätzung" onclick="trAutoEdit('${jsq(x.id)}')">✏️</button><button type="button" title="${x.hidden ? 'Wieder anzeigen' : 'Ausblenden'}" onclick="trAutoHide('${jsq(x.id)}')">${x.hidden ? '👁' : '🗑'}</button></div>` : '');
     const src = String(x.src || '').replace(/\s*·\s*\d{4}-\d{2}-\d{2}$/, '');
     return `<div class="tr-card${trCurrentFilter !== 'all' && x.verdict !== trCurrentFilter ? ' hide' : ''}${x._expired || x.hidden ? ' tr-expired' : ''}" data-verdict="${esc(x.verdict || 'watch')}">${tools}
-      <div class="tr-top"><span class="tr-cat">${L(x, 'cat') || (x._auto ? t('tr_auto') : 'Trend')}${x._auto && ((lang === 'en' && !x.title_en) || (lang === 'de' && x.lang === 'en' && (!x.title || x.title === x.title_en))) ? ` <span class="tr-lang-b" title="Original">${x.lang === 'en' ? 'EN' : 'DE'}</span>` : ''}</span><span class="tr-verdict tr-v-${esc(x.verdict || 'watch')}">${vLabel[x.verdict] || vLabel.watch}</span></div>
-      <div class="tr-title">${L(x, 'title')}</div>
-      <div class="tr-desc">${L(x, 'desc')}</div>
-      ${L(x, 'take') ? `<div class="tr-take"><strong>${t('tr_take')}</strong>${L(x, 'take')}</div>` : ''}
+      <div class="tr-top"><span class="tr-cat">${Lz(x, 'cat') || (x._auto ? t('tr_auto') : 'Trend')}${x._auto && ((lang === 'en' && !x.title_en) || (lang === 'de' && x.lang === 'en' && (!x.title || x.title === x.title_en))) ? ` <span class="tr-lang-b" title="Original">${x.lang === 'en' ? 'EN' : 'DE'}</span>` : ''}</span><span class="tr-verdict tr-v-${esc(x.verdict || 'watch')}">${vLabel[x.verdict] || vLabel.watch}</span></div>
+      <div class="tr-title">${Lz(x, 'title')}</div>
+      <div class="tr-desc">${Lz(x, 'desc')}</div>
+      ${Lz(x, 'take') ? `<div class="tr-take"><strong>${t('tr_take')}</strong>${Lz(x, 'take')}</div>` : ''}
       ${(x._expired || x.hidden) && HG.editing ? `<div class="tr-exp-note">${x.hidden ? 'Ausgeblendet' : 'Abgelaufen - für Besucher unsichtbar'}</div>` : ''}
       <div class="tr-foot"><span class="tr-src">${esc(src || t('tr_src_unknown'))}${trDate(x) ? ' · ' + dfmt(trDate(x)) : ''}</span>${x.url ? `<a class="tr-link" href="${esc(x.url)}" target="_blank" rel="noopener">${t('tr_src')} ↗</a>` : ''}</div>
     </div>`;
@@ -5903,7 +5989,7 @@ function dtLightbox(i){
 function dtRenderLinks(){
   const el = document.getElementById('dt-links'); const links = HG.detail(dtKey).links || [];
   const ttl = document.getElementById('dt-links-t');
-  el.innerHTML = links.map((l, i) => `<a class="dt-link" href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener"><span style="font-size:17px">🔗</span><div style="flex:1"><div class="dt-link-t">${esc(stripTags(L(l, 'title')))}</div><div class="dt-link-u">${esc(String(l.url || '').replace(/^https?:\/\//, '').slice(0, 60))}</div></div>${HG.editing ? `<button type="button" class="dt-link-del hg-ui" onclick="event.preventDefault();event.stopPropagation();dtDelLink(${i})" aria-label="Löschen">🗑</button>` : ''}</a>`).join('');
+  el.innerHTML = links.map((l, i) => `<a class="dt-link" href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener"><span style="font-size:17px">🔗</span><div style="flex:1"><div class="dt-link-t">${esc(stripTags(Lz(l, 'title')))}</div><div class="dt-link-u">${esc(String(l.url || '').replace(/^https?:\/\//, '').slice(0, 60))}</div></div>${HG.editing ? `<button type="button" class="dt-link-del hg-ui" onclick="event.preventDefault();event.stopPropagation();dtDelLink(${i})" aria-label="Löschen">🗑</button>` : ''}</a>`).join('');
   const show = links.length || HG.editing;
   el.style.display = show ? '' : 'none'; if (ttl) ttl.style.display = show ? '' : 'none';
   const add = document.querySelector('.dt-addlink'); if (add) add.style.display = HG.editing ? '' : 'none';
@@ -5940,7 +6026,7 @@ function shopClick(key, btn){
   const card = (btn && btn.closest('.sc')) || document.querySelector('#sh-' + key)?.closest('.sc');
   const kick = card ? card.querySelector('.sc-tag')?.textContent : '';
   const title = card ? (card.querySelector('.sc-title [data-i18n]')?.innerHTML || card.querySelector('.sc-title')?.textContent) : key;
-  openDetail('shop-' + key, kick, title, stripTags(t('shop_sub')), (HG.set().ig) || 'https://www.instagram.com/hiddengem.society', t('shop_ask'));
+  openDetail('shop-' + key, kick, title, stripTags(t('shop_sub')), (HG.set().ig) || 'https://www.instagram.com/hiddengem.atlas/', t('shop_ask'));
 }
 function shopNotify(){
   const u = (HG.set().shop || {}).stk;
@@ -6003,7 +6089,7 @@ function mfSuccess(name){
 
   // Noels visited destinations: [lat, lon, flag, name]
   // Pins = Momente (neue Momente erscheinen automatisch auf dem Globus)
-  function pins(){ return (typeof mpAllMoments === 'function' ? mpAllMoments() : []).map(m => [+m.lat, +m.lon, m.flag, stripTags(L(m, 'city'))]); }
+  function pins(){ return (typeof mpAllMoments === 'function' ? mpAllMoments() : []).map(m => [+m.lat, +m.lon, m.flag, stripTags(Lz(m, 'city'))]); }
   // Landmassen als Punkte (einmal berechnen)
   const LANDPTS = [];
   if (typeof isLand === 'function') for (let la = -56; la <= 78; la += 3.4) for (let lo = -180; lo < 180; lo += 3.4) if (isLand(lo, la)) LANDPTS.push([la, lo]);
