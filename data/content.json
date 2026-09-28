@@ -1,1 +1,12 @@
-{"schema": 2, "updated": "", "settings": {"goatcounter": "hiddengem-atlas"}, "text": {"de": {}, "en": {}}}
+{
+ "schema": 2,
+ "updated": "",
+ "settings": {
+  "goatcounter": "hiddengem-atlas"
+ },
+ "text": {
+  "de": {},
+  "en": {}
+ },
+ "tmeta": {}
+}
