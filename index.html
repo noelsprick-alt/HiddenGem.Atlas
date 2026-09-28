@@ -1710,6 +1710,56 @@ body.edit-mode #scroll-top{bottom:90px}
 .sc-price{opacity:.55}
 .soon-badge-ov{position:absolute;top:10px;left:10px;z-index:3;background:var(--gold);color:#16140f;font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:3px 9px;border-radius:12px}
 
+/* ── Karten-Filter (Land/Kategorie/Preis/Art) ── */
+.mp-filters{display:flex;flex-direction:column;gap:12px;margin-bottom:1rem}
+.mp-kind{display:flex;gap:8px;flex-wrap:wrap}
+.mp-kbtn{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);color:#fdf8f0;border-radius:20px;padding:8px 16px;font-size:12.5px;cursor:pointer;font-family:'DM Sans',sans-serif;font-weight:600;transition:all .15s}
+.mp-kbtn:hover{border-color:var(--gold);color:var(--gold)}
+.mp-kbtn.active{background:var(--gold);border-color:var(--gold);color:#16140f}
+.mp-selects{display:flex;gap:12px;flex-wrap:wrap}
+.mp-sel{display:flex;flex-direction:column;gap:3px;font-size:10px;letter-spacing:.5px;text-transform:uppercase;color:rgba(247,236,216,.55);font-weight:600}
+.mp-sel select{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);color:#fdf8f0;border-radius:10px;padding:8px 12px;font-family:'DM Sans',sans-serif;font-size:13px;min-width:150px;cursor:pointer}
+.mp-sel select option{background:#1a0e04;color:#fdf8f0}
+.mp-mk span{border-color:var(--terra)}
+.mp-mk.ms span{border-color:var(--gold);background:#fff7e8}
+.mp-tag{display:inline-block;font-size:10px;font-weight:700;border-radius:6px;padding:2px 7px;background:var(--bg2);color:var(--text2)}
+.mp-tag.ms{background:rgba(201,122,42,.15);color:var(--gold)}
+.mp-tag.gem{background:var(--terra-light);color:var(--terra)}
+.mp-pop-head{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:5px}
+.mp-pop-meta{font-size:11px;color:#5c4a2a;margin-bottom:6px}
+.mp-rate{color:var(--gold);letter-spacing:1px}
+.mp-star-off{color:#d8c8b0}
+.mp-item-top{display:flex;align-items:center;gap:7px;margin-bottom:3px}
+.mp-item-kind{font-size:13px}
+.mp-item-meta{font-size:11px;color:rgba(247,236,216,.5);margin-bottom:3px}
+.mp-cta{margin:1rem 0 .5rem;text-align:center}
+.mp-cta .btn-g{width:auto}
+
+/* ── Hidden Gem einreichen ── */
+.gem-submit{margin-top:2.5rem;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:var(--rl);padding:1.8rem}
+.gs-head{text-align:center;max-width:600px;margin:0 auto 1.4rem}
+.gs-head h3{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:30px;color:#fdf8f0;margin:.3rem 0 .5rem}
+.gs-head h3 em{color:var(--gold)}
+.gs-head p{font-size:13.5px;color:rgba(247,236,216,.7);line-height:1.6}
+.gs-form{max-width:620px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.gs-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:560px){.gs-grid{grid-template-columns:1fr}}
+.gs-row{display:flex;flex-direction:column;gap:5px;font-size:12px;color:rgba(247,236,216,.8)}
+.gs-row input,.gs-row textarea,.gs-row select{background:rgba(255,255,255,.9);border:1px solid var(--border2);border-radius:10px;padding:10px 12px;font-family:'DM Sans',sans-serif;font-size:14px;color:#1a1208;outline:none}
+.gs-row input:focus,.gs-row textarea:focus{border-color:var(--gold)}
+.gs-row textarea{resize:vertical}
+.gs-file input{background:rgba(255,255,255,.9);padding:9px}
+.gs-hint{font-size:11px;color:rgba(247,236,216,.5)}
+.gs-consent{display:flex;gap:9px;align-items:flex-start;font-size:12px;color:rgba(247,236,216,.7);line-height:1.5}
+.gs-consent input{margin-top:3px;accent-color:var(--gold);width:auto}
+.gs-consent a{color:var(--gold);text-decoration:underline}
+.gs-submit{width:100%;margin-top:4px}
+.gs-form .form-msg.ok{background:rgba(76,175,122,.15);color:#8fe0b0}
+
+/* Newsletter noch nicht live */
+.nl-soon{display:flex;align-items:center;gap:12px;justify-content:center;background:var(--bg2);border:1px solid var(--border);border-radius:var(--rl);padding:1rem 1.3rem;max-width:520px;margin:0 auto;font-size:13.5px;color:var(--text2);line-height:1.5}
+.nl-soon-ic{font-size:20px}
+
 </style>
 </head>
 <body class="hg-loading">
@@ -2219,20 +2269,37 @@ body.edit-mode #scroll-top{bottom:90px}
       <h2 data-i18n="mp_h2">Meine <em>Hidden Gems</em> auf der Karte.</h2>
       <p data-i18n="mp_intro">Jeder Pin ist ein Ort, an dem ich wirklich war - mit meiner ehrlichen Einschätzung, dahinter Geschichte und Fotos. Öffne jeden Ort mit einem Klick direkt in Google Maps und finde ihn genau wieder.</p>
     </div>
-    <div class="mp-filters">
-    <button class="mp-filter active" type="button" onclick="mpFilterSet('all',this)" data-i18n="mp_filter_all">🌍 Alle</button>
-    <button class="mp-filter" type="button" onclick="mpFilterSet('europa',this)" data-i18n="mp_filter_europa">🇪🇺 Europa</button>
-    <button class="mp-filter" type="button" onclick="mpFilterSet('asien',this)" data-i18n="mp_filter_asien">🌏 Asien</button>
-  </div><div class="mp-frame">
+    <div class="mp-filters" id="mp-filters"></div><div class="mp-frame">
       <div id="mp-map" class="mp-map" aria-label="Hidden Gems Karte"></div>
     </div><p class="mp-attr" data-i18n="mp_tiles">Karten-Daten © OpenStreetMap-Mitwirkende</p>
     <div class="mp-bar">
-      <span class="mp-count"><strong id="mp-count">0</strong> <span data-i18n="mp_pinned">Hidden Gems auf der Karte</span></span>
-      <button class="mp-btn owner-only hg-ui" onclick="mpAddMoment()">+ Hidden Gem hinzufügen</button>
+      <span class="mp-count"><strong id="mp-count">0</strong> <span data-i18n="mp_pinned">Orte auf der Karte</span></span>
+      <button class="mp-btn owner-only hg-ui" onclick="mpAddMoment()">+ Ort hinzufügen</button>
       <span class="mp-tip owner-only hg-ui">Im Bearbeitungsmodus: direkt auf die Karte klicken, um einen Pin zu setzen</span>
-    </div>
+    </div><div class="mp-cta"><button type="button" class="btn-g" onclick="mpSubmitScroll()"><span data-i18n="gs_cta">💎 Kennst du einen Hidden Gem? Teile ihn</span></button></div>
     <div class="mp-list" id="mp-list"></div>
-  </div>
+  <div class="gem-submit" id="gem-submit">
+  <div class="gs-head"><div class="sec-lbl" data-i18n="gs_lbl">💎 Community</div><h3 data-i18n="gs_h2">Teile deinen <em>Hidden Gem</em></h3><p data-i18n="gs_intro">Kennst du einen Ort, den kaum jemand kennt? Erzähl seine Geschichte - mit Beweisfoto, damit wir ihn verifizieren können. Die besten schaffen es auf die Karte.</p></div>
+  <form class="gs-form" id="gs-form" action="https://formsubmit.co/mail.myinfo@web.de" method="POST" enctype="multipart/form-data" target="gs-frame" onsubmit="return hgSubmitGem(this)">
+    <input type="hidden" name="_subject" value="Neuer Hidden Gem eingereicht (HiddenGem.Atlas)">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://noelsprick-alt.github.io/HiddenGem.Atlas/#/momente">
+    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+    <div class="gs-grid">
+      <label class="gs-row"><span data-i18n="gs_name">Dein Name / Instagram</span><input type="text" name="Name" required=""></label>
+      <label class="gs-row"><span data-i18n="gs_email">E-Mail (für Rückfragen)</span><input type="email" name="E-Mail"></label>
+    </div>
+    <label class="gs-row"><span data-i18n="gs_place">Ort, Stadt &amp; Land</span><input type="text" name="Ort" placeholder="z.B. Café Hüftgold, Düsseldorf" data-i18n-ph="gs_place_ph" required=""></label>
+    <label class="gs-row"><span data-i18n="gs_cat">Kategorie</span><select name="Kategorie"><option>🏛️ Sehenswürdigkeit</option><option>🍽️ Essen / Restaurant</option><option>☕ Café</option><option>🌿 Natur</option><option>🌅 Aussicht</option><option>🛍️ Shopping</option><option>🍸 Bar / Nightlife</option><option>🏖️ Strand</option></select></label>
+    <label class="gs-row"><span data-i18n="gs_story">Erzähl seine Geschichte - warum ist dieser Ort besonders?</span><textarea name="Geschichte" rows="4" required="" data-i18n-ph="gs_story_ph" placeholder="Was macht diesen Ort zu einem echten Geheimtipp?"></textarea></label>
+    <label class="gs-row gs-file"><span data-i18n="gs_photo">Beweisfoto (Pflicht - so verifizieren wir den Ort)</span><input type="file" name="Beweisfoto" accept="image/*" required=""><small class="gs-hint" data-i18n="gs_photo_hint">Ein eigenes Foto vom Ort. Max. 8 MB.</small></label>
+    <label class="gs-consent"><input type="checkbox" id="gs-consent" required=""> <span data-i18n="gs_consent">Ich habe das Foto selbst gemacht und bin einverstanden, dass meine Angaben zur Prüfung per E-Mail übermittelt werden (mehr im <a href="#/datenschutz" onclick="openM('ds');return false">Datenschutz</a>).</span></label>
+    <button type="submit" class="btn-g gs-submit" data-i18n="gs_submit">Hidden Gem einreichen ✦</button>
+    <p class="form-msg" id="gs-msg" aria-live="polite"></p>
+  </form>
+  <iframe name="gs-frame" title="Upload" style="display:none"></iframe>
+</div></div>
 </section>
 
 
@@ -2244,8 +2311,8 @@ body.edit-mode #scroll-top{bottom:90px}
       <p data-i18n="rc_instagram-zeigt-dir-die">Instagram zeigt dir die schönen Momente. Ich zeige dir beides - das Foto UND die Wahrheit dahinter. Echte Kosten, echte Enttäuschungen, echte Gefühle. Klick auf den Schalter und sieh was wirklich war.</p>
     </div>
     <div class="rc-filters">
-      <button class="rc-filter active" onclick="rcFilter('all',this)" data-i18n="mp_filter_all">🌍 Alle</button>
-      <button class="rc-filter" onclick="rcFilter('europa',this)" data-i18n="mp_filter_europa">🇪🇺 Europa</button>
+      <button class="rc-filter active" onclick="rcFilter('all',this)" data-i18n="rc_alle">🌍 Alle</button>
+      <button class="rc-filter" onclick="rcFilter('europa',this)" data-i18n="rc_europa">🇪🇺 Europa</button>
       <button class="rc-filter" onclick="rcFilter('asien',this)" data-i18n="rc_sudostasien">🌏 Südostasien</button>
       <button class="rc-filter" onclick="rcFilter('weltweit',this)" data-i18n="rc_weltweit">✈️ Weltweit</button>
       
@@ -2516,10 +2583,10 @@ body.edit-mode #scroll-top{bottom:90px}
       <p data-i18n="pk_wahle-dein-reiseziel-und">Wähle dein Reiseziel und klima - ich zeige dir was wirklich wichtig ist. Basierend auf meinen eigenen Reiseerfahrungen aus 20+ Ländern.</p>
     </div>
     <div class="pack-filters">
-      <button class="pack-filter active" onclick="setPack('all',this)" data-i18n="mp_filter_all">🌍 Alle</button>
+      <button class="pack-filter active" onclick="setPack('all',this)" data-i18n="rc_alle">🌍 Alle</button>
       <button class="pack-filter" onclick="setPack('asia',this)" data-i18n="pk_asien-japan">🇯🇵 Asien / Japan</button>
       <button class="pack-filter" onclick="setPack('vietnam',this)" data-i18n="h_vietnam">🇻🇳 Vietnam</button>
-      <button class="pack-filter" onclick="setPack('europe',this)" data-i18n="mp_filter_europa">🇪🇺 Europa</button>
+      <button class="pack-filter" onclick="setPack('europe',this)" data-i18n="rc_europa">🇪🇺 Europa</button>
       <button class="pack-filter" onclick="setPack('beach',this)" data-i18n="pk_strand">🏖️ Strand</button>
       <button class="pack-filter" onclick="setPack('city',this)" data-i18n="pk_stadtetrip">🏙️ Städtetrip</button>
     </div>
@@ -2605,9 +2672,9 @@ body.edit-mode #scroll-top{bottom:90px}
 </section><div class="nl" id="nl" data-page="all">
   <div class="sec-lbl" data-i18n="nl_lbl">Newsletter</div>
   <h2 data-i18n="nl_h2">Hidden Gems - bevor<br>alle anderen sie <em>finden.</em></h2>
-  <p data-i18n="nl_sub">Neue Guides, versteckte Orte, exklusive Deals und Einblicke in soziale Projekte. Kein Spam.</p>
-  <div class="nl-form"><input type="email" id="nl-em" placeholder="deine@email.com" data-i18n-ph="nl_ph" autocomplete="email"><button onclick="subNl()" data-i18n="nl_btn" type="button">Anmelden</button></div><p class="form-msg" id="nl-msg" aria-live="polite"></p>
-  <p class="nl-leg" data-i18n="nl_leg">Mit der Anmeldung stimmst du der <a href="#/datenschutz" onclick="openM('ds');return false">Datenschutzerklärung</a> zu. Kein Spam, jederzeit abmeldbar.</p>
+  <p data-i18n="nl_sub">Bald: neue Guides, versteckte Orte und exklusive Deals - direkt in dein Postfach. Kein Spam, jederzeit abbestellbar.</p>
+  <div class="nl-soon" data-page="all"><span class="nl-soon-ic">✉️</span><span data-i18n="nl_soon">Der Newsletter startet in Kürze - hier kannst du dich dann mit einem Klick an- und jederzeit wieder abmelden.</span></div>
+  <p class="nl-leg" data-i18n="nl_leg"><span data-i18n="nl_soon2">Bis dahin: Folge <strong>@hiddengem.atlas</strong> auf Instagram für neue Hidden Gems.</span></p>
 </div>
 
 
@@ -2835,6 +2902,15 @@ const I18N = {
 "ca_p1":["Ich glaube, dass Reisen die Welt verändert - nicht nur für den Reisenden, sondern auch für die Menschen vor Ort. Deshalb unterstütze ich aktiv soziale Projekte in den Regionen, die ich besuche.","I believe travel changes the world - not just for the traveler, but for the people who live there. That's why I actively support social projects in the regions I visit."],
 "ca_p2":["Ein Teil meiner Einnahmen - aus dem Foto-Kalender, Affiliate-Provisionen und Kooperationen - fließt direkt in lokale Bildungs- und Hilfsprojekte.","A portion of my earnings - from the photo calendar, affiliate commissions and collaborations - goes directly to local education and aid projects."],
 "cal_d":["Ein Hidden Gem für jeden Tag des Jahres. Europa &amp; Asien. Perfektes Geschenk für Reisebegeisterte.","A hidden gem for every day of the year. Europe &amp; Asia. The perfect gift for travel lovers."],
+"cat_bar":["Bar & Nightlife","Bar & nightlife"],
+"cat_beach":["Strand","Beach"],
+"cat_cafe":["Café","Café"],
+"cat_culture":["Kultur","Culture"],
+"cat_food":["Essen","Food"],
+"cat_nature":["Natur","Nature"],
+"cat_shop":["Shopping","Shopping"],
+"cat_sight":["Sehenswürdigkeit","Sight"],
+"cat_view":["Aussicht","Viewpoint"],
 "close":["Schließen","Close"],
 "co1":["Sponsored Content","Sponsored Content"],
 "co2":["Reisepartnerschaften","Travel Partnerships"],
@@ -2948,6 +3024,25 @@ const I18N = {
 "grp_explore":["Entdecken","Explore"],
 "grp_explore_h":["Die Welt <em>entdecken.</em>","Explore the <em>world.</em>"],
 "grp_explore_sub":["Touren, ehrliche Reiseberichte, Trends und Werkzeuge für deine nächste Reise.","Tours, honest travel reports, trends and tools for your next trip."],
+"gs_cat":["Kategorie","Category"],
+"gs_consent":["Ich habe das Foto selbst gemacht und bin einverstanden, dass meine Angaben zur Prüfung per E-Mail übermittelt werden (mehr im <a href=\"#/datenschutz\" onclick=\"openM('ds');return false\">Datenschutz</a>).","I took the photo myself and agree that my details will be sent by email for review (more in the <a href=\"#/datenschutz\" onclick=\"openM('ds');return false\">privacy policy</a>)."],
+"gs_cta":["💎 Kennst du einen Hidden Gem? Teile ihn","💎 Know a hidden gem? Share it"],
+"gs_email":["E-Mail (für Rückfragen)","Email (for questions)"],
+"gs_h2":["Teile deinen <em>Hidden Gem</em>","Share your <em>hidden gem</em>"],
+"gs_intro":["Kennst du einen Ort, den kaum jemand kennt? Erzähl seine Geschichte - mit Beweisfoto, damit wir ihn verifizieren können. Die besten schaffen es auf die Karte.","Know a place hardly anyone knows? Tell its story - with a proof photo so we can verify it. The best ones make it onto the map."],
+"gs_lbl":["💎 Community","💎 Community"],
+"gs_name":["Dein Name / Instagram","Your name / Instagram"],
+"gs_ok":["Danke! 🎉 Dein Hidden Gem ist bei mir eingegangen. Ich prüfe ihn und melde mich, wenn er auf die Karte kommt.","Thank you! 🎉 Your hidden gem has reached me. I'll review it and get in touch when it makes the map."],
+"gs_photo":["Beweisfoto (Pflicht - so verifizieren wir den Ort)","Proof photo (required - this is how we verify it)"],
+"gs_photo_big":["Das Foto ist zu groß (max. 8 MB). Bitte ein kleineres wählen.","The photo is too large (max. 8 MB). Please choose a smaller one."],
+"gs_photo_hint":["Ein eigenes Foto vom Ort. Max. 8 MB.","Your own photo of the place. Max. 8 MB."],
+"gs_photo_required":["Bitte füge ein Beweisfoto hinzu - ohne Foto können wir den Ort nicht verifizieren.","Please add a proof photo - without one we can't verify the place."],
+"gs_place":["Ort, Stadt &amp; Land","Place, city & country"],
+"gs_place_ph":["z.B. Café Hüftgold, Düsseldorf","e.g. Café Hüftgold, Düsseldorf"],
+"gs_story":["Erzähl seine Geschichte - warum ist dieser Ort besonders?","Tell its story - why is this place special?"],
+"gs_story_ph":["Was macht diesen Ort zu einem echten Geheimtipp?","What makes this place a real hidden gem?"],
+"gs_story_short":["Bitte erzähl etwas mehr (mindestens 20 Zeichen).","Please tell us a bit more (at least 20 characters)."],
+"gs_submit":["Hidden Gem einreichen ✦","Submit hidden gem ✦"],
 "gy_cs":["5% off any GetYourGuide booking","5% off any GetYourGuide booking"],
 "gy_h2":["5% Rabatt auf jede<br>Tour <em>weltweit.</em>","5% discount on every<br>tour <em>worldwide.</em>"],
 "gy_lbl":["GetYourGuide Partner","GetYourGuide Partner"],
@@ -3057,16 +3152,28 @@ const I18N = {
 "mf_err_consent":["Bitte bestätige noch kurz den Datenschutz-Hinweis.","Please confirm the privacy note."],
 "mf_err_fields":["Bitte fülle alle Felder aus (bei den Textfeldern mindestens 20 Zeichen). Ich möchte dich wirklich kennenlernen! 🌍","Please fill in all fields (at least 20 characters in the text fields). I'd really like to get to know you! 🌍"],
 "mf_undecided":["Noch unentschlossen","Still undecided"],
+"mp_all":["Alle","All"],
+"mp_all_cats":["Alle Kategorien","All categories"],
+"mp_all_countries":["Alle Länder","All countries"],
+"mp_all_prices":["Alle Preise","All prices"],
 "mp_book_tour":["Tour buchen -5%","Book tour -5%"],
+"mp_category":["Kategorie","Category"],
+"mp_country":["Land","Country"],
 "mp_details":["Details & Fotos","Details & photos"],
 "mp_filter_all":["🌍 Alle","🌍 All"],
 "mp_filter_asien":["🌏 Asien","🌏 Asia"],
 "mp_filter_europa":["🇪🇺 Europa","🇪🇺 Europe"],
+"mp_free":["Gratis","Free"],
+"mp_gem":["Hidden Gem","Hidden gem"],
+"mp_gems":["Hidden Gems","Hidden gems"],
 "mp_h2":["Meine <em>Hidden Gems</em> auf der Karte.","My <em>hidden gems</em> on the map."],
 "mp_intro":["Jeder Pin ist ein Ort, an dem ich wirklich war - mit meiner ehrlichen Einschätzung, dahinter Geschichte und Fotos. Öffne jeden Ort mit einem Klick direkt in Google Maps und finde ihn genau wieder.","Every pin is a place I've actually been - with my honest take, and the story and photos behind it. Open any spot in Google Maps with one click and find it again exactly."],
 "mp_lbl":["📍 Interaktive Karte","📍 Interactive map"],
+"mp_mustsee":["Must-See","Must-see"],
+"mp_mustsees":["Must-Sees","Must-sees"],
 "mp_open_gmaps":["In Google Maps öffnen","Open in Google Maps"],
-"mp_pinned":["Hidden Gems auf der Karte","moments pinned"],
+"mp_pinned":["Orte auf der Karte","places on the map"],
+"mp_price":["Preis","Price"],
 "mp_route":["Route","Directions"],
 "mp_sub":["Ein Moment, der hängen geblieben ist.","A moment that stayed with me."],
 "mp_tiles":["Karten-Daten © OpenStreetMap-Mitwirkende","Map data © OpenStreetMap contributors"],
@@ -3081,14 +3188,14 @@ const I18N = {
 "mt_vier-fragen-eine-ehrliche":["Vier Fragen, eine ehrliche Empfehlung aus den Orten die ich selbst kenne. Kein Algorithmus - meine Einschätzung.","Four questions, one honest recommendation from places I know myself. No algorithm - my own judgement."],
 "n_cta":["5% off Tours ↗","5% off Tours ↗"],
 "next_lbl":["Weiter entdecken","Keep exploring"],
-"nl_btn":["Anmelden","Subscribe"],
 "nl_h2":["Hidden Gems - bevor<br>alle anderen sie <em>finden.</em>","Hidden gems - before<br>everyone else <em>finds them.</em>"],
 "nl_invalid":["Bitte gib eine gültige E-Mail-Adresse ein.","Please enter a valid email address."],
 "nl_lbl":["Newsletter","Newsletter"],
-"nl_leg":["Mit der Anmeldung stimmst du der <a href=\"#/datenschutz\" onclick=\"openM('ds');return false\">Datenschutzerklärung</a> zu. Kein Spam, jederzeit abmeldbar.","By subscribing you agree to the <a href=\"#/datenschutz\" onclick=\"openM('ds');return false\">privacy policy</a>. No spam, unsubscribe any time."],
+"nl_leg":["<span data-i18n=\"nl_soon2\">Bis dahin: Folge <strong>@hiddengem.atlas</strong> auf Instagram für neue Hidden Gems.</span>","By subscribing you agree to the <a href=\"#/datenschutz\" onclick=\"openM('ds');return false\">privacy policy</a>. No spam, unsubscribe any time."],
 "nl_ok":["Danke! 🎉 Du bekommst in Kürze eine kurze Bestätigungs-Mail von mir.","Thank you! 🎉 You'll get a short confirmation email from me soon."],
-"nl_ph":["deine@email.com","your@email.com"],
-"nl_sub":["Neue Guides, versteckte Orte, exklusive Deals und Einblicke in soziale Projekte. Kein Spam.","New guides, hidden places, exclusive deals and social project updates. No spam."],
+"nl_soon":["Der Newsletter startet in Kürze - hier kannst du dich dann mit einem Klick an- und jederzeit wieder abmelden.","The newsletter is launching soon - you'll be able to subscribe with one click and unsubscribe any time."],
+"nl_soon2":["Bis dahin: Folge <strong>@hiddengem.atlas</strong> auf Instagram für neue Hidden Gems.","Until then: follow <strong>@hiddengem.atlas</strong> on Instagram for new hidden gems."],
+"nl_sub":["Bald: neue Guides, versteckte Orte und exklusive Deals - direkt in dein Postfach. Kein Spam, jederzeit abbestellbar.","Soon: new guides, hidden places and exclusive deals - straight to your inbox. No spam, unsubscribe any time."],
 "pg_about_d":["Meine Geschichte vom Ruhrgebiet in die Welt","My story from the Ruhr Valley to the world"],
 "pg_about_t":["Über mich","About me"],
 "pg_blog_d":["Reise-Guides und Stories aus erster Hand","Travel guides and first-hand stories"],
@@ -3187,9 +3294,11 @@ const I18N = {
 "qz_score":["Score: {n}","Score: {n}"],
 "qz_sub":["10 Fragen über versteckte Orte und Travel-Wissen. Teste dich - und lerne dabei.","10 questions about hidden places and travel knowledge. Test yourself - and learn."],
 "qz_wrong":["Leider falsch.","Not quite."],
+"rc_alle":["🌍 Alle","🌍 All"],
 "rc_back":["Zurück","Back"],
 "rc_costs":["💶 Echte Kosten","💶 Real costs"],
 "rc_details":["📂 Details & Fotos","📂 Details & photos"],
+"rc_europa":["🇪🇺 Europa","🇪🇺 Europe"],
 "rc_fail":["❌ Mein Fail","❌ My fail"],
 "rc_h2":["Der <em>Reality Check.</em>","The <em>Reality Check.</em>"],
 "rc_hype":["📉 Hype-Check","📉 Hype check"],
@@ -5320,6 +5429,8 @@ function quizLangRefresh(){
 HG.onRender(quizLangRefresh);
 
 
+// Newsletter noch nicht live (Double-Opt-In-Tool folgt) -> Exit-Popup & Anmeldung deaktiviert
+const NL_LIVE = false;
 // ── NACH-OBEN-KNOPF ─────────────────────────────────
 (function(){
   const btn = document.getElementById('scroll-top');
@@ -5433,7 +5544,7 @@ Instagram: @hiddengem.atlas
 // ── EXIT-POPUP (einmal pro Besucher, nur Desktop) ────
 let exitShown = false;
 document.addEventListener('mouseleave', e => {
-  if (e.clientY > 5 || exitShown || HG.owner || !HG.ready || safeLS.getItem('hgs-exit-seen')) return;
+  if (!NL_LIVE || e.clientY > 5 || exitShown || HG.owner || !HG.ready || safeLS.getItem('hgs-exit-seen')) return;
   exitShown = true; safeLS.setItem('hgs-exit-seen', '1'); showExitPopup();
 });
 function showExitPopup(){
@@ -5491,35 +5602,66 @@ setTimeout(() => {
 
 // ╔════════════════════════════════════════════════════╗
 // ║  HIDDEN GEMS KARTE (interaktiv, Leaflet + OSM)     ║
-// ║  Jeder Ort: direkter Google-Maps-Link + Route      ║
-// ║  Neue Orte: Editor → „+“ oder Klick auf die Karte  ║
+// ║  Struktur: Land · Kategorie · Preis · Art · Note   ║
+// ║  kind: 'gem' (Hidden Gem) | 'mustsee' (Must-See)   ║
+// ║  cat: sight|food|cafe|nature|view|shop|bar|beach   ║
+// ║  rating: 1-5 · price: free|€|€€|€€€                ║
 // ╚════════════════════════════════════════════════════╝
 const MOMENTS = [
-  {id:'m-ddorf', region:'europa', city:'Düsseldorf', city_en:'Düsseldorf', flag:'🇩🇪', lat:51.2277, lon:6.7735, title:'Japantag - Japan vor der Haustür', title_en:'Japan Day - Japan on my doorstep', date:'Mai 2025', date_en:'May 2025', gyg:'https://www.getyourguide.com/dusseldorf-l125/?partner_id=H0DWLVB'},
-  {id:'m-kyoto', region:'asien', city:'Kyoto', city_en:'Kyoto', flag:'🇯🇵', lat:34.9671, lon:135.7727, title:'Fushimi Inari um 6 Uhr morgens', title_en:'Fushimi Inari at 6am', date:'2022', date_en:'2022', gyg:'https://www.getyourguide.com/kyoto-l96826/?partner_id=H0DWLVB'},
-  {id:'m-tokyo', region:'asien', city:'Tokyo', city_en:'Tokyo', flag:'🇯🇵', lat:35.6595, lon:139.7005, title:'Shibuya bei Nacht', title_en:'Shibuya by night', date:'2022', date_en:'2022', gyg:'https://www.getyourguide.com/tokyo-l193/?partner_id=H0DWLVB'},
-  {id:'m-tirana', region:'europa', city:'Tirana', city_en:'Tirana', flag:'🇦🇱', lat:41.3275, lon:19.8189, title:"Bunk'Art - Geschichte unter der Stadt", title_en:"Bunk'Art - history beneath the city", date:'2025', date_en:'2025', gyg:'https://www.getyourguide.com/tirana-l2468/?partner_id=H0DWLVB'},
-  {id:'m-prag', region:'europa', city:'Prag', city_en:'Prague', flag:'🇨🇿', lat:50.0875, lon:14.4213, title:'Die Gassen abseits der Karlsbrücke', title_en:'The lanes away from Charles Bridge', date:'2024', date_en:'2024', gyg:'https://www.getyourguide.com/prague-l26/?partner_id=H0DWLVB'},
-  {id:'m-ljub', region:'europa', city:'Ljubljana', city_en:'Ljubljana', flag:'🇸🇮', lat:46.0511, lon:14.5051, title:'Grünste Hauptstadt Europas', title_en:"Europe's greenest capital", date:'2024', date_en:'2024', gyg:'https://www.getyourguide.com/ljubljana-l318/?partner_id=H0DWLVB'},
-  {id:'m-bled', region:'europa', city:'Bled', city_en:'Bled', flag:'🇸🇮', lat:46.3683, lon:14.1146, title:'Der See im Morgennebel', title_en:'The lake in the morning mist', date:'2024', date_en:'2024', gyg:'https://www.getyourguide.com/bled-l1336/?partner_id=H0DWLVB'},
-  {id:'m-hanoi', region:'asien', city:'Hanoi', city_en:'Hanoi', flag:'🇻🇳', lat:21.0285, lon:105.8542, title:'Pho um 6 Uhr auf dem Plastikstuhl', title_en:'Pho at 6am on a plastic stool', date:'Feb 2026', date_en:'Feb 2026', gyg:'https://www.getyourguide.com/hanoi-l203/?partner_id=H0DWLVB'},
-  {id:'m-hcmc', region:'asien', city:'Ho-Chi-Minh-Stadt', city_en:'Ho Chi Minh City', flag:'🇻🇳', lat:10.7769, lon:106.7009, title:'Saigon - Energie ohne Pause', title_en:'Saigon - energy without a break', date:'Feb 2026', date_en:'Feb 2026', gyg:'https://www.getyourguide.com/ho-chi-minh-city-l209/?partner_id=H0DWLVB'},
-  {id:'m-hoian', region:'asien', city:'Hoi An', city_en:'Hoi An', flag:'🇻🇳', lat:15.8801, lon:108.3380, title:'Laternen auf dem Fluss', title_en:'Lanterns on the river', date:'Feb 2026', date_en:'Feb 2026', gyg:'https://www.getyourguide.com/hoi-an-l1091/?partner_id=H0DWLVB'},
-  {id:'m-bcn', region:'europa', city:'Barcelona', city_en:'Barcelona', flag:'🇪🇸', lat:41.3851, lon:2.1734, title:'7 Uhr am Hafen - der Moment der alles änderte', title_en:'7am at the harbour - the moment that changed everything', date:'2023', date_en:'2023', gyg:'https://www.getyourguide.com/barcelona-l45/?partner_id=H0DWLVB'},
-  {id:'m-gastein', region:'europa', city:'Bad Gastein', city_en:'Bad Gastein', flag:'🇦🇹', lat:47.1147, lon:13.1349, title:'Wasserfall mitten im Ort', title_en:'A waterfall in the middle of town', date:'2020', date_en:'2020', gyg:'https://www.getyourguide.com/bad-gastein-l93218/?partner_id=H0DWLVB'}
+  // ── Noels eigene Hidden Gems ──────────────────────
+  {id:'m-ddorf', kind:'gem', cc:'DE', flag:'🇩🇪', city:'Düsseldorf - Japantag', city_en:'Düsseldorf - Japan Day', cat:'culture', lat:51.2225, lon:6.7620, rating:4, price:'free', title:'Japan vor der Haustür - der größte Japantag Europas', title_en:'Japan on my doorstep - the biggest Japan Day in Europe', date:'Mai 2025', date_en:'May 2025', gyg:'https://www.getyourguide.com/dusseldorf-l125/?partner_id=H0DWLVB'},
+  {id:'m-flingern-markt', kind:'gem', cc:'DE', flag:'🇩🇪', city:'Samstagsmarkt Hermannplatz', city_en:'Hermannplatz Saturday market', cat:'food', lat:51.2276, lon:6.7998, rating:4, price:'€', title:'Düsseldorf-Flingern zum Runterkommen - Wochenmarkt mit Charakter', title_en:'Düsseldorf-Flingern to unwind - a local market with character'},
+  {id:'m-hueftgold', kind:'gem', cc:'DE', flag:'🇩🇪', city:'Café Hüftgold', city_en:'Café Hüftgold', cat:'cafe', lat:51.2288, lon:6.8028, rating:5, price:'€', title:'Der beste Kuchen in Düsseldorf - Flingern-Institution', title_en:'The best cake in Düsseldorf - a Flingern institution'},
+  {id:'m-langbrett', kind:'gem', cc:'DE', flag:'🇩🇪', city:'LANGBRETT', city_en:'LANGBRETT', cat:'shop', lat:51.2312, lon:6.8068, rating:4, price:'€€', title:'Patagonia-Store in einer alten Tankstelle, Ackerstraße 113', title_en:'A Patagonia store in an old petrol station, Ackerstraße 113'},
+  {id:'m-duesselhunde', kind:'gem', cc:'DE', flag:'🇩🇪', city:'düsselhunde Concept Store', city_en:'düsselhunde concept store', cat:'shop', lat:51.2292, lon:6.8040, rating:4, price:'€€', title:'Kleiner Concept Store in Flingern - liebevoll kuratiert', title_en:'A small concept store in Flingern - lovingly curated'},
+  {id:'m-chicken', kind:'gem', cc:'DE', flag:'🇩🇪', city:'Chicken Crime Department', city_en:'Chicken Crime Department', cat:'food', lat:51.2280, lon:6.8020, rating:4, price:'€', title:'Ehrliches Comfort Food in Flingern', title_en:'Honest comfort food in Flingern'},
+  {id:'m-skand', kind:'gem', cc:'DE', flag:'🇩🇪', city:'The Skand Club', city_en:'The Skand Club', cat:'bar', lat:51.2270, lon:6.8010, rating:4, price:'€€', title:'Skandinavisch angehaucht - guter Ort für einen entspannten Abend', title_en:'Scandinavian vibe - a good spot for a relaxed evening'},
+  {id:'m-noworries', kind:'gem', cc:'DE', flag:'🇩🇪', city:'No Worries Café', city_en:'No Worries Café', cat:'cafe', lat:51.2295, lon:6.8045, rating:4, price:'€', title:'Entspanntes Café zum Runterkommen', title_en:'A relaxed café to slow down'},
+  {id:'m-kyoto', kind:'gem', cc:'JP', flag:'🇯🇵', city:'Fushimi Inari (Kyoto)', city_en:'Fushimi Inari (Kyoto)', cat:'nature', lat:34.9671, lon:135.7727, rating:5, price:'free', title:'Um 6 Uhr morgens gehören dir die tausend Tore allein', title_en:'At 6am the thousand gates are all yours', date:'2022', date_en:'2022', gyg:'https://www.getyourguide.com/kyoto-l96826/?partner_id=H0DWLVB'},
+  {id:'m-tokyo', kind:'gem', cc:'JP', flag:'🇯🇵', city:'Shibuya bei Nacht (Tokyo)', city_en:'Shibuya at night (Tokyo)', cat:'view', lat:35.6595, lon:139.7005, rating:4, price:'free', title:'Neon, Menschen, Energie - Tokio in seiner reinsten Form', title_en:'Neon, people, energy - Tokyo in its purest form', date:'2022', date_en:'2022', gyg:'https://www.getyourguide.com/tokyo-l193/?partner_id=H0DWLVB'},
+  {id:'m-tirana', kind:'gem', cc:'AL', flag:'🇦🇱', city:"Bunk'Art (Tirana)", city_en:"Bunk'Art (Tirana)", cat:'culture', lat:41.3467, lon:19.8330, rating:5, price:'€', title:'Atombunker als Museum, fast leer - beeindruckender als jedes West-Museum', title_en:'A nuclear bunker turned museum, almost empty - more impressive than any museum in the West', date:'2025', date_en:'2025', gyg:'https://www.getyourguide.com/tirana-l2468/?partner_id=H0DWLVB'},
+  {id:'m-prag', kind:'gem', cc:'CZ', flag:'🇨🇿', city:'Gassen abseits der Karlsbrücke (Prag)', city_en:'Lanes off Charles Bridge (Prague)', cat:'sight', lat:50.0875, lon:14.4213, rating:4, price:'free', title:'Das echte Prag liegt eine Gasse neben den Touristenströmen', title_en:'The real Prague is one lane away from the tourist crowds', date:'2024', date_en:'2024', gyg:'https://www.getyourguide.com/prague-l26/?partner_id=H0DWLVB'},
+  {id:'m-ljub', kind:'gem', cc:'SI', flag:'🇸🇮', city:'Ljubljana Altstadt', city_en:'Ljubljana old town', cat:'sight', lat:46.0511, lon:14.5051, rating:4, price:'free', title:'Grünste Hauptstadt Europas - autofrei, alles zu Fuß', title_en:"Europe's greenest capital - car-free, all on foot", date:'2024', date_en:'2024', gyg:'https://www.getyourguide.com/ljubljana-l318/?partner_id=H0DWLVB'},
+  {id:'m-bled', kind:'gem', cc:'SI', flag:'🇸🇮', city:'Bleder See im Morgennebel', city_en:'Lake Bled in the morning mist', cat:'nature', lat:46.3683, lon:14.1146, rating:5, price:'free', title:'Vor den Bussen gehört der See dir allein - steh früh auf', title_en:'Before the buses arrive the lake is yours alone - get up early', date:'2024', date_en:'2024', gyg:'https://www.getyourguide.com/bled-l1336/?partner_id=H0DWLVB'},
+  {id:'m-hanoi', kind:'gem', cc:'VN', flag:'🇻🇳', city:'Pho am Plastikstuhl (Hanoi)', city_en:'Pho on a plastic stool (Hanoi)', cat:'food', lat:21.0285, lon:105.8542, rating:5, price:'€', title:'Pho um 6 Uhr am Plastikstuhl - besser als jedes Restaurant', title_en:'Pho at 6am on a plastic stool - better than any restaurant', date:'Feb 2026', date_en:'Feb 2026', gyg:'https://www.getyourguide.com/hanoi-l203/?partner_id=H0DWLVB'},
+  {id:'m-hcmc', kind:'gem', cc:'VN', flag:'🇻🇳', city:'Saigon-Energie (Ho-Chi-Minh-Stadt)', city_en:'Saigon energy (Ho Chi Minh City)', cat:'sight', lat:10.7769, lon:106.7009, rating:4, price:'free', title:'Die Stadt hört nie auf - lass dich einfach treiben', title_en:'The city never stops - just let it carry you', date:'Feb 2026', date_en:'Feb 2026', gyg:'https://www.getyourguide.com/ho-chi-minh-city-l209/?partner_id=H0DWLVB'},
+  {id:'m-hoian', kind:'gem', cc:'VN', flag:'🇻🇳', city:'Laternen am Fluss (Hoi An)', city_en:'Lanterns on the river (Hoi An)', cat:'culture', lat:15.8801, lon:108.3380, rating:5, price:'free', title:'Bei Vollmond leuchten tausende Laternen - autofreie Altstadt', title_en:'At full moon thousands of lanterns glow - a car-free old town', date:'Feb 2026', date_en:'Feb 2026', gyg:'https://www.getyourguide.com/hoi-an-l1091/?partner_id=H0DWLVB'},
+  {id:'m-bcn', kind:'gem', cc:'ES', flag:'🇪🇸', city:'Hafen um 7 Uhr (Barcelona)', city_en:'The harbour at 7am (Barcelona)', cat:'view', lat:41.3751, lon:2.1860, rating:5, price:'free', title:'7 Uhr am Hafen, Postkarten schreiben - der Moment der alles änderte', title_en:'7am at the harbour, writing postcards - the moment that changed everything', date:'2023', date_en:'2023', gyg:'https://www.getyourguide.com/barcelona-l45/?partner_id=H0DWLVB'},
+  {id:'m-gastein', kind:'gem', cc:'AT', flag:'🇦🇹', city:'Wasserfall (Bad Gastein)', city_en:'Waterfall (Bad Gastein)', cat:'nature', lat:47.1136, lon:13.1400, rating:4, price:'free', title:'Ein Wasserfall mitten im Ort - Belle-Époque-Melancholie', title_en:'A waterfall in the middle of town - Belle Époque melancholy', date:'2020', date_en:'2020', gyg:'https://www.getyourguide.com/bad-gastein-l93218/?partner_id=H0DWLVB'},
+  // ── Must-See Sehenswürdigkeiten (max. 15) ─────────
+  {id:'ms-kinkakuji', kind:'mustsee', cc:'JP', flag:'🇯🇵', city:'Kinkaku-ji (Kyoto)', city_en:'Kinkaku-ji (Kyoto)', cat:'sight', lat:35.0394, lon:135.7292, rating:5, price:'€', title:'Der goldene Pavillon - früh da sein, sonst voll', title_en:'The Golden Pavilion - arrive early or it gets packed', gyg:'https://www.getyourguide.com/kyoto-l96826/?partner_id=H0DWLVB'},
+  {id:'ms-kiyomizu', kind:'mustsee', cc:'JP', flag:'🇯🇵', city:'Kiyomizu-dera (Kyoto)', city_en:'Kiyomizu-dera (Kyoto)', cat:'sight', lat:34.9949, lon:135.7851, rating:5, price:'€', title:'Holztempel mit dem besten Blick über Kyoto', title_en:'A wooden temple with the best view over Kyoto', gyg:'https://www.getyourguide.com/kyoto-l96826/?partner_id=H0DWLVB'},
+  {id:'ms-sensoji', kind:'mustsee', cc:'JP', flag:'🇯🇵', city:'Senso-ji (Tokyo)', city_en:'Senso-ji (Tokyo)', cat:'sight', lat:35.7148, lon:139.7967, rating:5, price:'free', title:'Tokios ältester Tempel in Asakusa', title_en:"Tokyo's oldest temple in Asakusa", gyg:'https://www.getyourguide.com/tokyo-l193/?partner_id=H0DWLVB'},
+  {id:'ms-meiji', kind:'mustsee', cc:'JP', flag:'🇯🇵', city:'Meiji-Schrein (Tokyo)', city_en:'Meiji Shrine (Tokyo)', cat:'nature', lat:35.6764, lon:139.6993, rating:4, price:'free', title:'Waldruhe mitten in der Millionenstadt', title_en:'Forest calm in the middle of the megacity', gyg:'https://www.getyourguide.com/tokyo-l193/?partner_id=H0DWLVB'},
+  {id:'ms-hoankiem', kind:'mustsee', cc:'VN', flag:'🇻🇳', city:'Hoan-Kiem-See (Hanoi)', city_en:'Hoan Kiem Lake (Hanoi)', cat:'sight', lat:21.0287, lon:105.8524, rating:4, price:'free', title:'Das Herz von Hanoi - am Wochenende autofrei', title_en:'The heart of Hanoi - car-free at weekends', gyg:'https://www.getyourguide.com/hanoi-l203/?partner_id=H0DWLVB'},
+  {id:'ms-saigonND', kind:'mustsee', cc:'VN', flag:'🇻🇳', city:'Kathedrale Notre-Dame (Saigon)', city_en:'Notre-Dame Cathedral (Saigon)', cat:'sight', lat:10.7797, lon:106.6990, rating:4, price:'free', title:'Kolonialarchitektur mitten in Ho-Chi-Minh-Stadt', title_en:'Colonial architecture in the heart of Ho Chi Minh City', gyg:'https://www.getyourguide.com/ho-chi-minh-city-l209/?partner_id=H0DWLVB'},
+  {id:'ms-hoianbridge', kind:'mustsee', cc:'VN', flag:'🇻🇳', city:'Japanische Brücke (Hoi An)', city_en:'Japanese Bridge (Hoi An)', cat:'sight', lat:15.8772, lon:108.3260, rating:4, price:'€', title:'Das Wahrzeichen der Altstadt - abends am schönsten', title_en:'The old town landmark - most beautiful in the evening', gyg:'https://www.getyourguide.com/hoi-an-l1091/?partner_id=H0DWLVB'},
+  {id:'ms-skanderbeg', kind:'mustsee', cc:'AL', flag:'🇦🇱', city:'Skanderbeg-Platz (Tirana)', city_en:'Skanderbeg Square (Tirana)', cat:'sight', lat:41.3281, lon:19.8187, rating:4, price:'free', title:'Der große zentrale Platz - in 20 Minuten gesehen', title_en:'The big central square - seen in 20 minutes', gyg:'https://www.getyourguide.com/tirana-l2468/?partner_id=H0DWLVB'},
+  {id:'ms-charles', kind:'mustsee', cc:'CZ', flag:'🇨🇿', city:'Karlsbrücke (Prag)', city_en:'Charles Bridge (Prague)', cat:'sight', lat:50.0865, lon:14.4114, rating:5, price:'free', title:'Früh morgens fast leer, mittags Menschenmassen', title_en:'Almost empty early morning, crowded by midday', gyg:'https://www.getyourguide.com/prague-l26/?partner_id=H0DWLVB'},
+  {id:'ms-castle-prag', kind:'mustsee', cc:'CZ', flag:'🇨🇿', city:'Prager Burg', city_en:'Prague Castle', cat:'sight', lat:50.0900, lon:14.4006, rating:5, price:'€€', title:'Größte zusammenhängende Burganlage der Welt', title_en:'The largest coherent castle complex in the world', gyg:'https://www.getyourguide.com/prague-l26/?partner_id=H0DWLVB'},
+  {id:'ms-castle-ljub', kind:'mustsee', cc:'SI', flag:'🇸🇮', city:'Ljubljana Castle', city_en:'Ljubljana Castle', cat:'view', lat:46.0489, lon:14.5083, rating:4, price:'€€', title:'Bester Blick über die Altstadt - mit der Standseilbahn hoch', title_en:'Best view over the old town - take the funicular up', gyg:'https://www.getyourguide.com/ljubljana-l318/?partner_id=H0DWLVB'},
+  {id:'ms-castle-bled', kind:'mustsee', cc:'SI', flag:'🇸🇮', city:'Burg Bled', city_en:'Bled Castle', cat:'view', lat:46.3692, lon:14.1006, rating:4, price:'€€', title:'Auf dem Felsen über dem See - Postkartenblick', title_en:'On the cliff above the lake - a postcard view', gyg:'https://www.getyourguide.com/bled-l1336/?partner_id=H0DWLVB'},
+  {id:'ms-sagrada', kind:'mustsee', cc:'ES', flag:'🇪🇸', city:'Sagrada Família (Barcelona)', city_en:'Sagrada Família (Barcelona)', cat:'sight', lat:41.4036, lon:2.1744, rating:5, price:'€€€', title:'Gaudís Meisterwerk - Tickets unbedingt vorab', title_en:"Gaudí's masterpiece - book tickets in advance", gyg:'https://www.getyourguide.com/barcelona-l45/?partner_id=H0DWLVB'},
+  {id:'ms-guell', kind:'mustsee', cc:'ES', flag:'🇪🇸', city:'Park Güell (Barcelona)', city_en:'Park Güell (Barcelona)', cat:'view', lat:41.4145, lon:2.1527, rating:4, price:'€€', title:'Mosaike und Blick über die Stadt - früh oder spät hin', title_en:'Mosaics and a view over the city - go early or late', gyg:'https://www.getyourguide.com/barcelona-l45/?partner_id=H0DWLVB'},
+  {id:'ms-rheinturm', kind:'mustsee', cc:'DE', flag:'🇩🇪', city:'Rheinturm (Düsseldorf)', city_en:'Rhine Tower (Düsseldorf)', cat:'view', lat:51.2186, lon:6.7625, rating:4, price:'€€', title:'240 m über der Stadt - Blick bis zum Rheinbogen', title_en:'240 m above the city - views to the Rhine bend', gyg:'https://www.getyourguide.com/dusseldorf-l125/?partner_id=H0DWLVB'}
 ];
+const MP_CATS = {sight:'🏛️', food:'🍽️', cafe:'☕', nature:'🌿', view:'🌅', shop:'🛍️', bar:'🍸', beach:'🏖️', culture:'🎭'};
 HG.registerCol('moments', {
-  label: 'Hidden Gem (Kartenpin)', prefix: 'm', addTop: false, defaults: () => MOMENTS,
-  hint: 'Koordinaten: In Google Maps Rechtsklick auf den Ort → oben auf die Zahlen klicken (kopiert) → hier ins Feld „Breitengrad“ einfügen (füllt beide). Oder im Bearbeitungsmodus direkt auf die Karte klicken.',
-  blank: () => ({flag: '📍', region: 'europa'}),
+  label: 'Ort auf der Karte', prefix: 'm', addTop: false, defaults: () => MOMENTS,
+  hint: 'Koordinaten: In Google Maps Rechtsklick auf den Ort → oben auf die Zahlen klicken (kopiert) → hier ins Feld „Breitengrad" einfügen (füllt beide). Oder im Bearbeitungsmodus direkt auf die Karte klicken.',
+  blank: () => ({flag: '📍', kind: 'gem', cat: 'sight', rating: 5, price: 'free', cc: 'DE'}),
   schema: [
-    {f:'city', l:'Ort / Stadt', i18n:true, req:true, type:'text'},
+    {f:'city', l:'Name des Ortes', i18n:true, req:true, type:'text'},
+    {f:'kind', l:'Art', type:'select', opts:[['gem','💎 Hidden Gem (mein Geheimtipp)'],['mustsee','⭐ Must-See (klassische Sehenswürdigkeit)']]},
+    {f:'cat', l:'Kategorie', type:'select', opts:[['sight','🏛️ Sehenswürdigkeit'],['food','🍽️ Essen / Restaurant'],['cafe','☕ Café'],['nature','🌿 Natur'],['view','🌅 Aussicht'],['shop','🛍️ Shopping'],['bar','🍸 Bar / Nightlife'],['beach','🏖️ Strand']]},
+    {f:'cc', l:'Land (2-Buchstaben-Code, z.B. DE, JP, VN)', type:'text', def:'DE'},
     {f:'flag', l:'Flagge / Emoji', type:'text', def:'📍'},
-    {f:'region', l:'Region', type:'select', opts:[['europa','🇪🇺 Europa'],['asien','🌏 Asien'],['other','🌍 Weltweit']]},
-    {f:'lat', l:'Breitengrad (z.B. 48.8566)', type:'number', step:'any', req:true, help:'Tipp: „48.8566, 2.3522“ hier einfügen füllt beide Felder.'},
+    {f:'lat', l:'Breitengrad (z.B. 48.8566)', type:'number', step:'any', req:true, help:'Tipp: „48.8566, 2.3522" hier einfügen füllt beide Felder.'},
     {f:'lon', l:'Längengrad (z.B. 2.3522)', type:'number', step:'any', req:true},
-    {f:'title', l:'Was ist hier besonders? (deine Einschätzung)', i18n:true, req:true, type:'text'},
-    {f:'date', l:'Wann? (z.B. Juni 2026)', i18n:true, type:'text'},
+    {f:'rating', l:'Bewertung (1-5)', type:'number', def:5},
+    {f:'price', l:'Preis', type:'select', opts:[['free','Gratis'],['€','€ günstig'],['€€','€€ mittel'],['€€€','€€€ gehoben']]},
+    {f:'title', l:'Deine Einschätzung (1 Satz)', i18n:true, req:true, type:'text'},
+    {f:'date', l:'Wann warst du da? (optional)', i18n:true, type:'text'},
     {f:'gyg', l:'GetYourGuide-Tour-Link (optional)', type:'url', help:'Bringt Buchungen + 5% für deine Community.'}
   ]
 });
@@ -5566,8 +5708,19 @@ function isLand(lon,lat){ return LAND.some(p=>inPoly(lon,lat,p)); }
 
 
 function mpAllMoments(){ return HG.col('moments').filter(m => isFinite(+m.lat) && isFinite(+m.lon)); }
+function mpCountryName(cc){ try{ const n = new Intl.DisplayNames([lang], {type: 'region'}).of(cc); if (n && n !== cc) return n; }catch(e){} return cc; }
+function mpFlag(cc){ try{ return String.fromCodePoint(...[...cc].map(c => 0x1F1E6 + c.charCodeAt(0) - 65)); }catch(e){ return ''; } }
+function mpStars(r){ r = Math.max(0, Math.min(5, +r || 0)); return '★★★★★'.slice(0, r) + '<span class="mp-star-off">' + '★'.repeat(5 - r) + '</span>'; }
+function mpPriceLabel(p){ return p === 'free' ? t('mp_free') : (p || ''); }
 
-let mpMap = null, mpLayer = null, mpFilter = 'all';
+let mpMap = null, mpLayer = null;
+const mpF = {country: 'all', cat: 'all', price: 'all', kind: 'all'};
+function mpMatch(m){
+  return (mpF.country === 'all' || (m.cc || '') === mpF.country)
+    && (mpF.cat === 'all' || (m.cat || 'sight') === mpF.cat)
+    && (mpF.price === 'all' || (m.price || 'free') === mpF.price)
+    && (mpF.kind === 'all' || (m.kind || 'gem') === mpF.kind);
+}
 function mpEnsureMap(){
   if (mpMap || typeof L === 'undefined') return mpMap;
   const el = document.getElementById('mp-map'); if (!el) return null;
@@ -5580,55 +5733,84 @@ function mpEnsureMap(){
 function mpMarkers(){
   if (!mpMap || !mpLayer) return;
   mpLayer.clearLayers();
-  const list = mpAllMoments().filter(m => mpFilter === 'all' || (m.region || 'other') === mpFilter);
+  const list = mpAllMoments().filter(mpMatch);
   const pts = [];
   list.forEach(m => {
     const lat = +m.lat, lon = +m.lon; pts.push([lat, lon]);
-    const icon = L.divIcon({className: 'mp-mk', html: `<span>${esc(m.flag || '📍')}</span>`, iconSize: [30, 30], iconAnchor: [15, 15]});
+    const mustsee = m.kind === 'mustsee';
+    const icon = L.divIcon({className: 'mp-mk' + (mustsee ? ' ms' : ''), html: `<span>${esc(m.flag || '📍')}</span>`, iconSize: [30, 30], iconAnchor: [15, 15]});
     const gm = `https://www.google.com/maps/search/?api=1&query=${lat},${lon}`;
     const dir = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
-    const pop = `<div class="mp-pop"><div class="mp-pop-t">${esc(m.flag || '📍')} ${esc(stripTags(Lz(m, 'city')))}</div>
-      <div class="mp-pop-s">${esc(stripTags(Lz(m, 'title')))}${Lz(m, 'date') ? ' · ' + esc(stripTags(Lz(m, 'date'))) : ''}</div>
+    const kindB = mustsee ? `<span class="mp-tag ms">⭐ ${t('mp_mustsee')}</span>` : `<span class="mp-tag gem">💎 ${t('mp_gem')}</span>`;
+    const pop = `<div class="mp-pop"><div class="mp-pop-head">${kindB} <span class="mp-tag">${MP_CATS[m.cat] || '📍'} ${t('cat_' + (m.cat || 'sight'))}</span></div>
+      <div class="mp-pop-t">${esc(m.flag || '📍')} ${esc(stripTags(Lz(m, 'city')))}</div>
+      <div class="mp-pop-meta"><span class="mp-rate">${mpStars(m.rating)}</span> · ${esc(mpPriceLabel(m.price))} · ${esc(mpCountryName(m.cc))}</div>
+      <div class="mp-pop-s">${esc(stripTags(Lz(m, 'title')))}</div>
       <div class="mp-pop-btns">
         <a href="${gm}" target="_blank" rel="noopener">🗺️ ${t('mp_open_gmaps')}</a>
         <a href="${dir}" target="_blank" rel="noopener">🧭 ${t('mp_route')}</a>
         ${m.gyg ? `<a class="gyg" href="${esc(safeUrl(m.gyg))}" target="_blank" rel="noopener sponsored">✦ ${t('mp_book_tour')}</a>` : ''}
         <button type="button" onclick="mpOpen('${jsq(m.id)}')">📂 ${t('mp_details')}</button>
       </div></div>`;
-    L.marker([lat, lon], {icon}).addTo(mpLayer).bindPopup(pop, {maxWidth: 260});
+    L.marker([lat, lon], {icon}).addTo(mpLayer).bindPopup(pop, {maxWidth: 280});
   });
-  if (pts.length){ try{ mpMap.fitBounds(pts, {padding: [45, 45], maxZoom: 6}); }catch(e){} }
+  if (pts.length){ try{ mpMap.fitBounds(pts, {padding: [45, 45], maxZoom: 7}); }catch(e){} }
 }
-function mpFilterSet(f, btn){
-  mpFilter = f;
-  document.querySelectorAll('.mp-filter').forEach(b => b.classList.remove('active'));
-  if (btn) btn.classList.add('active');
-  mpMarkers();
+function mpBuildFilters(){
+  const bar = document.getElementById('mp-filters'); if (!bar) return;
+  const all = mpAllMoments();
+  const countries = [...new Set(all.map(m => m.cc).filter(Boolean))].sort((a, b) => mpCountryName(a).localeCompare(mpCountryName(b), lang));
+  const cats = [...new Set(all.map(m => m.cat || 'sight'))];
+  const catOrder = Object.keys(MP_CATS).filter(c => cats.includes(c));
+  const opt = (v, label, sel) => `<option value="${esc(v)}" ${sel === v ? 'selected' : ''}>${label}</option>`;
+  bar.innerHTML = `
+    <div class="mp-kind">
+      <button type="button" class="mp-kbtn${mpF.kind === 'all' ? ' active' : ''}" onclick="mpSet('kind','all',this)">${t('mp_all')}</button>
+      <button type="button" class="mp-kbtn${mpF.kind === 'gem' ? ' active' : ''}" onclick="mpSet('kind','gem',this)">💎 ${t('mp_gems')}</button>
+      <button type="button" class="mp-kbtn${mpF.kind === 'mustsee' ? ' active' : ''}" onclick="mpSet('kind','mustsee',this)">⭐ ${t('mp_mustsees')}</button>
+    </div>
+    <div class="mp-selects">
+      <label class="mp-sel"><span>${t('mp_country')}</span><select onchange="mpSet('country',this.value)">${opt('all', t('mp_all_countries'), mpF.country)}${countries.map(c => opt(c, mpFlag(c) + ' ' + esc(mpCountryName(c)), mpF.country)).join('')}</select></label>
+      <label class="mp-sel"><span>${t('mp_category')}</span><select onchange="mpSet('cat',this.value)">${opt('all', t('mp_all_cats'), mpF.cat)}${catOrder.map(c => opt(c, MP_CATS[c] + ' ' + t('cat_' + c), mpF.cat)).join('')}</select></label>
+      <label class="mp-sel"><span>${t('mp_price')}</span><select onchange="mpSet('price',this.value)">${opt('all', t('mp_all_prices'), mpF.price)}${['free','€','€€','€€€'].map(p => opt(p, mpPriceLabel(p), mpF.price)).join('')}</select></label>
+    </div>`;
 }
-function renderMoments(){
-  const listEl = document.getElementById('mp-list');
-  const list = mpAllMoments();
+function mpSet(key, val, btn){
+  mpF[key] = val;
+  if (key === 'kind'){ document.querySelectorAll('.mp-kbtn').forEach(b => b.classList.remove('active')); if (btn) btn.classList.add('active'); }
+  mpMarkers(); mpRenderList();
+}
+function mpRenderList(){
+  const listEl = document.getElementById('mp-list'); if (!listEl) return;
+  const list = mpAllMoments().filter(mpMatch);
   const cnt = document.getElementById('mp-count'); if (cnt) cnt.textContent = list.length;
-  if (listEl) listEl.innerHTML = list.map(m => {
+  listEl.innerHTML = list.map(m => {
     const gm = `https://www.google.com/maps/search/?api=1&query=${+m.lat},${+m.lon}`;
     return `<div class="mp-item" data-id="${esc(m.id)}">${HG.tools('moments', m.id)}
       <div class="mp-item-main" onclick="mpOpen('${jsq(m.id)}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter')mpOpen('${jsq(m.id)}')">
-        <div class="mp-item-t"><span>${esc(m.flag || '📍')}</span>${Lz(m, 'city')}</div>
+        <div class="mp-item-top"><span class="mp-item-kind ${m.kind === 'mustsee' ? 'ms' : 'gem'}">${m.kind === 'mustsee' ? '⭐' : '💎'}</span><span class="mp-item-t">${esc(m.flag || '📍')} ${Lz(m, 'city')}</span></div>
+        <div class="mp-item-meta"><span class="mp-rate">${mpStars(m.rating)}</span> · ${esc(mpPriceLabel(m.price))} · ${MP_CATS[m.cat] || ''} ${t('cat_' + (m.cat || 'sight'))}</div>
         <div class="mp-item-m">${Lz(m, 'title')}</div>
       </div>
       <a class="mp-item-gm" href="${gm}" target="_blank" rel="noopener" title="${esc(stripTags(t('mp_open_gmaps')))}">🗺️</a>
     </div>`;
-  }).join('') + HG.addCard('moments', 'Hidden Gem hinzufügen', 'mp-add');
+  }).join('') + HG.addCard('moments', 'Ort hinzufügen', 'mp-add');
+}
+function renderMoments(){
+  mpBuildFilters();
+  mpRenderList();
   mpEnsureMap(); mpMarkers();
   if (mpMap) setTimeout(() => { try{ mpMap.invalidateSize(); }catch(e){} }, 60);
 }
 function mpOpen(id){
   const m = HG.col('moments').find(x => x.id === id); if (!m) return;
   const gyg = m.gyg ? safeUrl(m.gyg) : null;
-  openDetail('moment-' + m.id, (m.flag || '📍') + ' ' + stripTags(Lz(m, 'city')) + (Lz(m, 'date') ? ' · ' + stripTags(Lz(m, 'date')) : ''), Lz(m, 'title'), stripTags(t('mp_sub')), gyg, gyg ? t('mp_book_tour') : null, 'momente/' + m.id);
+  const kicker = (m.kind === 'mustsee' ? '⭐ ' : '💎 ') + stripTags(mpCountryName(m.cc)) + (Lz(m, 'date') ? ' · ' + stripTags(Lz(m, 'date')) : '');
+  openDetail('moment-' + m.id, kicker, (m.flag || '📍') + ' ' + Lz(m, 'city'), stripTags(Lz(m, 'title')), gyg, gyg ? t('mp_book_tour') : null, 'momente/' + m.id);
 }
 HG.openers['momente'] = mpOpen;
 function mpAddMoment(){ if (HG.owner){ if (!HG.editing) hgEditToggle(true); hgColForm('moments', null); } }
+function mpSubmitScroll(){ const el = document.getElementById('gem-submit'); if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'}); }
 window.addEventListener('hg:route', () => { if (HG.route === 'momente' && mpMap) setTimeout(() => { try{ mpMap.invalidateSize(); mpMarkers(); }catch(e){} }, 90); });
 HG.onRender(renderMoments);
 
@@ -6077,6 +6259,26 @@ function mfSuccess(name){
   document.getElementById('ms-name-out').textContent = name;
 }
 
+// ── HIDDEN GEM EINREICHEN (mit Beweisfoto, per FormSubmit) ──
+function hgSubmitGem(form){
+  const msg = 'gs-msg';
+  if (form._honey && form._honey.value){ return false; }
+  const file = form.Beweisfoto && form.Beweisfoto.files[0];
+  const story = (form.Geschichte && form.Geschichte.value || '').trim();
+  if (!file){ hgFormMsg(msg, t('gs_photo_required'), false); return false; }
+  if (file.size > 8 * 1024 * 1024){ hgFormMsg(msg, t('gs_photo_big'), false); return false; }
+  if (story.length < 20){ hgFormMsg(msg, t('gs_story_short'), false); return false; }
+  if (form.querySelector('#gs-consent') && !form.querySelector('#gs-consent').checked){ hgFormMsg(msg, t('mf_err_consent'), false); return false; }
+  hgFormMsg(msg, t('form_sending'), true);
+  const btn = form.querySelector('.gs-submit'); if (btn) btn.disabled = true;
+  setTimeout(() => {
+    hgFormMsg(msg, t('gs_ok'), true);
+    try{ form.reset(); }catch(e){}
+    if (btn) btn.disabled = false;
+  }, 1400);
+  return true;   // native Multipart-Submit an FormSubmit (Ziel: verstecktes iframe)
+}
+
 
 // ── GLOBE ─────────────────────────────────────────────
 (function initGlobe() {
@@ -6089,7 +6291,7 @@ function mfSuccess(name){
 
   // Noels visited destinations: [lat, lon, flag, name]
   // Pins = Momente (neue Momente erscheinen automatisch auf dem Globus)
-  function pins(){ return (typeof mpAllMoments === 'function' ? mpAllMoments() : []).map(m => [+m.lat, +m.lon, m.flag, stripTags(Lz(m, 'city'))]); }
+  function pins(){ return (typeof mpAllMoments === 'function' ? mpAllMoments() : []).filter(m => m.kind !== 'mustsee').map(m => [+m.lat, +m.lon, m.flag, stripTags(Lz(m, 'city'))]); }
   // Landmassen als Punkte (einmal berechnen)
   const LANDPTS = [];
   if (typeof isLand === 'function') for (let la = -56; la <= 78; la += 3.4) for (let lo = -180; lo < 180; lo += 3.4) if (isLand(lo, la)) LANDPTS.push([la, lo]);
@@ -6308,6 +6510,7 @@ function hgFormMsg(id, msg, ok){
 }
 function hgValidEmail(e){ return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(e); }
 async function subNl(){
+  if (typeof NL_LIVE !== 'undefined' && !NL_LIVE){ hgFormMsg('nl-msg', t('nl_soon'), true); return; }
   const inp = document.getElementById('nl-em'); const e = (inp.value || '').trim();
   if (!hgValidEmail(e)){ hgFormMsg('nl-msg', t('nl_invalid'), false); inp.focus(); return; }
   const btn = document.querySelector('.nl-form button'); if (btn) btn.disabled = true;
