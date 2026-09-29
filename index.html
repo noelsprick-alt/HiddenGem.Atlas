@@ -1760,6 +1760,63 @@ body.edit-mode #scroll-top{bottom:90px}
 .nl-soon{display:flex;align-items:center;gap:12px;justify-content:center;background:var(--bg2);border:1px solid var(--border);border-radius:var(--rl);padding:1rem 1.3rem;max-width:520px;margin:0 auto;font-size:13.5px;color:var(--text2);line-height:1.5}
 .nl-soon-ic{font-size:20px}
 
+/* ══ REISEPLANER ══ */
+.pl-sec{padding:4.5rem 2.5rem;border-bottom:1px solid var(--border);background:linear-gradient(160deg,#1a0e04,#2e1808 60%,#231206)}
+.pl-inner{max-width:1100px;margin:0 auto}
+.pl-head{max-width:660px;margin-bottom:2rem}
+.pl-head h2{font-family:'Cormorant Garamond',serif;font-size:40px;font-weight:300;color:#fdf8f0;line-height:1.08;margin:.4rem 0 .7rem}
+.pl-head h2 em{font-style:italic;color:var(--gold)}
+.pl-sub{font-size:14px;color:rgba(247,236,216,.72);line-height:1.8}
+.pl-grid{display:grid;grid-template-columns:340px 1fr;gap:2rem;align-items:start}
+.pl-form{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.14);border-radius:var(--rl);padding:1.5rem;backdrop-filter:blur(6px);position:sticky;top:90px}
+.pl-row{margin-bottom:1.15rem}
+.pl-row label{display:block;font-size:10.5px;letter-spacing:1.3px;text-transform:uppercase;color:rgba(247,236,216,.55);margin-bottom:7px;font-weight:600}
+.pl-row select,.pl-row input[type=number]{width:100%;background:rgba(10,8,4,.5);border:1px solid rgba(255,255,255,.2);border-radius:var(--r);padding:11px 13px;font-size:13.5px;font-family:'DM Sans',sans-serif;color:#fdf8f0;outline:none;box-sizing:border-box}
+.pl-row select:focus,.pl-row input:focus{border-color:var(--gold)}
+.pl-row select option{background:#1a0e04;color:#fdf8f0}
+.pl-styles{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.pl-style{background:rgba(255,255,255,.06);border:1.5px solid rgba(255,255,255,.16);border-radius:var(--r);padding:9px 6px;font-size:11.5px;color:rgba(247,236,216,.75);cursor:pointer;font-family:'DM Sans',sans-serif;text-align:center;transition:all .16s;font-weight:500}
+.pl-style:hover{border-color:var(--gold)}
+.pl-style.active{background:var(--gold);border-color:var(--gold);color:#1a0e04;font-weight:700}
+.pl-chips{display:flex;flex-wrap:wrap;gap:6px}
+.pl-chip{background:rgba(255,255,255,.06);border:1.5px solid rgba(255,255,255,.16);border-radius:100px;padding:7px 12px;font-size:12px;color:rgba(247,236,216,.75);cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .16s}
+.pl-chip:hover{border-color:var(--gold)}
+.pl-chip.active{background:var(--gold);border-color:var(--gold);color:#1a0e04;font-weight:700}
+.pl-go{display:block;width:100%;background:var(--gold);color:#1a0e04;border:none;border-radius:var(--r);padding:13px;font-size:13.5px;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;margin-top:.5rem;transition:all .16s}
+.pl-go:hover{background:var(--gold2);transform:translateY(-1px)}
+.pl-out{min-height:200px}
+.pl-empty{background:rgba(255,255,255,.04);border:1px dashed rgba(255,255,255,.18);border-radius:var(--rl);padding:2.5rem 1.5rem;text-align:center;color:rgba(247,236,216,.6);font-size:13.5px;line-height:1.7}
+.pl-result{display:flex;flex-direction:column;gap:1rem}
+.pl-res-head{border-bottom:2px solid rgba(201,122,42,.4);padding-bottom:.9rem}
+.pl-res-city{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:400;color:#fdf8f0;line-height:1}
+.pl-res-meta{font-size:12px;color:rgba(247,236,216,.6);margin-top:5px;letter-spacing:.4px}
+.pl-block{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--rl);padding:1.15rem 1.25rem}
+.pl-block-h{font-size:13px;font-weight:700;color:var(--gold2);margin-bottom:.7rem;letter-spacing:.3px}
+.pl-book-row{display:flex;flex-wrap:wrap;gap:8px}
+.pl-book{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:var(--r);padding:9px 13px;font-size:12.5px;color:#fdf8f0;text-decoration:none;font-weight:600;transition:all .16s}
+.pl-book:hover{border-color:var(--gold);background:rgba(201,122,42,.15)}
+.pl-book.aff{background:var(--gold);border-color:var(--gold);color:#1a0e04}
+.pl-book.aff:hover{background:var(--gold2)}
+.pl-code{margin-top:.6rem;font-size:12px;color:var(--gold2);font-weight:600}
+.pl-note{font-size:11.5px;color:rgba(247,236,216,.6);line-height:1.6;margin-top:.6rem}
+.pl-gems .pl-note{color:rgba(247,236,216,.85);font-size:12.5px}
+.pl-days{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.9rem}
+.pl-day{background:rgba(10,8,4,.4);border:1px solid rgba(255,255,255,.1);border-radius:var(--r);padding:.9rem}
+.pl-day-h{font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:.6rem}
+.pl-place{padding:.65rem 0;border-top:1px solid rgba(255,255,255,.08)}
+.pl-place:first-of-type{border-top:none}
+.pl-place-h{display:flex;align-items:center;gap:6px}
+.pl-place-t{font-size:13px;font-weight:600;color:#fdf8f0}
+.pl-place-meta{font-size:10.5px;color:rgba(247,236,216,.55);margin:3px 0}
+.pl-place-s{font-size:11.5px;color:rgba(247,236,216,.7);line-height:1.5}
+.pl-place-links{display:flex;gap:10px;margin-top:5px}
+.pl-place-links a{font-size:11px;color:var(--gold2);text-decoration:none;font-weight:600}
+.pl-place-links a:hover{text-decoration:underline}
+.pl-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:.3rem}
+.pl-disc{font-size:10.5px;color:rgba(247,236,216,.45);line-height:1.6;margin-top:.3rem}
+@media(max-width:820px){.pl-sec{padding:2.5rem 1.25rem}.pl-grid{grid-template-columns:1fr}.pl-form{position:static}.pl-head h2{font-size:29px}}
+@media print{.nav,.nav-mobile,.nav-mobile-menu,footer,#crumb,.pl-form,.pl-head,.next-sec{display:none!important}.pl-sec{background:#fff}.pl-block,.pl-day{border-color:#ccc}.pl-res-city,.pl-place-t,.pl-block-h{color:#111!important}.pl-place-s,.pl-note,.pl-res-meta{color:#333!important}}
+
 </style>
 </head>
 <body class="hg-loading">
@@ -2257,6 +2314,21 @@ body.edit-mode #scroll-top{bottom:90px}
           <button class="btn-o" onclick="mtStart()" data-i18n="mt_nochmal">Nochmal</button>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="pl-sec" id="planer" data-page="planer">
+  <div class="pl-inner">
+    <div class="pl-head">
+      <div class="sec-lbl" style="color:var(--gold)" data-i18n="pl_lbl">🧭 Reiseplaner</div>
+      <h2 data-i18n="pl_h2">Plane deine <em>ganze Reise.</em></h2>
+      <p class="pl-sub" data-i18n="pl_sub">Wähle ein Ziel, sag mir wie du reist - und ich baue dir einen kompletten Plan: Anreise, Unterkunft, Touren und eine Tag-für-Tag-Route aus meinen persönlich besuchten Orten. Individuell auf dich zugeschnitten.</p>
+    </div>
+    <div class="pl-grid">
+      <div class="pl-form" id="pl-form"></div>
+      <div class="pl-out" id="pl-out"><div class="pl-empty" data-i18n="pl_placeholder">Wähle links dein Ziel und deine Interessen - dein persönlicher Reiseplan erscheint hier.</div></div>
     </div>
   </div>
 </section>
@@ -3223,6 +3295,8 @@ const I18N = {
 "pg_pack_t":["Packliste","Packing list"],
 "pg_partner_d":["Mit wem ich zusammenarbeite","Who I work with"],
 "pg_partner_t":["Kooperationen &amp; Partner","Collaborations & partners"],
+"pg_planner_d":["Komplette Reise planen: Anreise, Hotel, Touren & Tag-für-Tag-Route","Plan a whole trip: travel, hotel, tours & day-by-day route"],
+"pg_planner_t":["Reiseplaner","Trip planner"],
 "pg_projects_d":["Was ich neben dem Reisen aufbaue - mit allen Fails","What I build besides travelling - fails included"],
 "pg_projects_t":["Projekte","Projects"],
 "pg_quiz_d":["Kennst du die Hidden Gems Europas & Asiens?","Do you know the hidden gems of Europe & Asia?"],
@@ -3260,6 +3334,41 @@ const I18N = {
 "pk_stadtetrip":["🏙️ Städtetrip","🏙️ City break"],
 "pk_strand":["🏖️ Strand","🏖️ Beach"],
 "pk_wahle-dein-reiseziel-und":["Wähle dein Reiseziel und klima - ich zeige dir was wirklich wichtig ist. Basierend auf meinen eigenen Reiseerfahrungen aus 20+ Ländern.","Choose your destination and climate - I'll show you what really matters. Based on my own travel experience from 20+ countries."],
+"pl_activities":["Aktivitäten & Touren","Activities & tours"],
+"pl_day":["Tag {n}","Day {n}"],
+"pl_days":["Wie viele Tage?","How many days?"],
+"pl_dest":["Wohin geht's?","Where to?"],
+"pl_disclaimer":["Affiliate-Links (Omio, GetYourGuide) - für dich ohne Mehrkosten. Hotel- & Flug-Links sind neutrale, ehrliche Empfehlungen.","Affiliate links (Omio, GetYourGuide) - at no extra cost to you. Hotel & flight links are neutral, honest recommendations."],
+"pl_flights":["Flüge suchen","Search flights"],
+"pl_gems_here":["Meine Hidden Gems hier","My hidden gems here"],
+"pl_go":["Meinen Reiseplan erstellen ✦","Create my trip plan ✦"],
+"pl_gyg":["Touren ansehen -5%","See tours -5%"],
+"pl_h2":["Plane deine <em>ganze Reise.</em>","Plan your <em>whole trip.</em>"],
+"pl_interests":["Worauf hast du Lust? (Mehrfachauswahl)","What are you into? (multi-select)"],
+"pl_intro_days":["{n} Tage","{n} days"],
+"pl_lbl":["🧭 Reiseplaner","🧭 Trip planner"],
+"pl_map":["Alle Orte auf der Karte","All places on the map"],
+"pl_none":["Für dieses Ziel und deine Auswahl habe ich gerade keine Orte - probier andere Interessen oder ein anderes Ziel.","I have no places for this destination and selection right now - try other interests or another destination."],
+"pl_omio":["Zug & Bus (Omio)","Train & bus (Omio)"],
+"pl_omio_code":["Code {c} - 12% Rabatt für Neukunden","Code {c} - 12% off for new users"],
+"pl_open_maps":["In Google Maps","In Google Maps"],
+"pl_per_day":["~{n} Stopps pro Tag","~{n} stops per day"],
+"pl_placeholder":["Wähle links dein Ziel und deine Interessen - dein persönlicher Reiseplan erscheint hier.","Pick your destination and interests on the left - your personal trip plan appears here."],
+"pl_plan":["Dein Tag-für-Tag-Plan","Your day-by-day plan"],
+"pl_print":["Plan drucken / speichern","Print / save plan"],
+"pl_route":["Route","Directions"],
+"pl_stay":["Übernachtung","Where to stay"],
+"pl_stay_apart":["Apartments (Airbnb)","Apartments (Airbnb)"],
+"pl_stay_hostel":["Hostels (Budget)","Hostels (budget)"],
+"pl_stay_hotels":["Hotels ab 8/10","Hotels from 8/10"],
+"pl_stay_note":["Ich empfehle nur Unterkünfte ab 8/10 mit richtig gutem Preis-Leistungs-Verhältnis - die Links sind schon danach vorgefiltert.","I only recommend stays rated 8/10 and up with really good value - the links are pre-filtered that way."],
+"pl_style":["Reisestil","Travel style"],
+"pl_style_budget":["Backpacker","Backpacker"],
+"pl_style_comfort":["Komfort","Comfort"],
+"pl_style_normal":["Normal","Normal"],
+"pl_sub":["Wähle ein Ziel, sag mir wie du reist - und ich baue dir einen kompletten Plan: Anreise, Unterkunft, Touren und eine Tag-für-Tag-Route aus meinen persönlich besuchten Orten. Individuell auf dich zugeschnitten.","Pick a destination, tell me how you travel - and I'll build you a complete plan: travel, stay, tours and a day-by-day route from places I've personally visited. Tailored to you."],
+"pl_transport":["Anreise & Transport","Getting there & transport"],
+"pl_transport_note":["Omio ist mein Partner (Zug & Bus, mit Rabatt-Code). Die Flug-Suche ist ein neutraler Link - daran verdiene ich nichts.","Omio is my partner (train & bus, with a discount code). The flight search is a neutral link - I earn nothing from it."],
 "pp_ft_sub":["Ich fotografiere mit einer Nikon D90 - ein Geschenk meiner Mutter. Ich lerne noch. Genau das macht die Bilder ehrlich.","I shoot with a Nikon D90 - a gift from my mum. I'm still learning. That's exactly what makes the pictures honest."],
 "pp_ft_title":["Echte Momente, kein <em>Stock-Look.</em>","Real moments, no <em>stock look.</em>"],
 "pp_hg_sub":["Plätze, die ich selbst entdeckt habe - bevor sie auf jedem Feed auftauchen. Kein Touristenprogramm, keine gestellten Shots.","Places I discovered myself - before they show up on every feed. No tourist programme, no staged shots."],
@@ -3604,6 +3713,7 @@ const HG_GROUPS = [
 const HG_PAGES = [
   {r:'ueber-mich', g:'', ic:'👋', k:'pg_about'},
   {r:'touren', g:'entdecken', ic:'🗺️', k:'pg_tours'},
+  {r:'planer', g:'entdecken', ic:'🧭', k:'pg_planner'},
   {r:'trends', g:'entdecken', ic:'📡', k:'pg_trends'},
   {r:'momente', g:'entdecken', ic:'📍', k:'pg_moments'},
   {r:'reality-check', g:'entdecken', ic:'👁️', k:'pg_rc'},
@@ -6599,6 +6709,160 @@ function mtResult(){
   document.getElementById('mt-res-cta').onclick = () => window.open(r.g, '_blank', 'noopener');
 }
 HG.onRender(() => { if (mtWin) mtResult(); else mtShow(); });
+
+
+// ╔════════════════════════════════════════════════════╗
+// ║  REISEPLANER (Self-Service)                        ║
+// ║  Ziel + Fragebogen → kompletter Plan aus MOMENTS   ║
+// ║  Transport (Omio), Hotel (ab 8/10), Touren (GYG),  ║
+// ║  Tag-für-Tag-Route mit Google-Maps-Links           ║
+// ╚════════════════════════════════════════════════════╝
+const PL_OMIO = 'http://www.filify.co/SHmCa';   // Noels Omio-Affiliate (Zug/Bus)
+const PL_OMIO_CODE = 'xwjmj3nl';                 // 12% für Neukunden
+const PL_GYG_PARTNER = 'H0DWLVB';
+const plState = {town: '', style: 'normal', days: 5, cats: {}};
+
+function plTowns(){
+  const seen = {}, out = [];
+  (typeof MOMENTS !== 'undefined' ? MOMENTS : HG.col('moments')).forEach(m => {
+    if (!m.town || seen[m.town]) return; seen[m.town] = 1;
+    out.push({key: m.town, cc: m.cc, flag: m.flag || mpFlag(m.cc), label: stripTags(Lz(m, 'town')), label_en: (m.town_en || m.town)});
+  });
+  return out.sort((a, b) => a.label.localeCompare(b.label, lang));
+}
+function plCityEN(town){ const p = plTowns().find(x => x.key === town); return p ? p.label_en : town; }
+function plEnc(s){ return encodeURIComponent(s); }
+// Buchungs-Links (Affiliate: Omio + GYG; Hotel/Flug: neutrale Empfehlungen, vorgefiltert)
+function plGyg(town){ return 'https://www.getyourguide.com/s/?q=' + plEnc(plCityEN(town)) + '&partner_id=' + PL_GYG_PARTNER; }
+function plHotels(town){ return 'https://www.booking.com/searchresults.html?ss=' + plEnc(plCityEN(town)) + '&nflt=review_score%3D80%3Bht_id%3D204'; }
+function plHostels(town){ return 'https://www.hostelworld.com/search?search_keywords=' + plEnc(plCityEN(town)); }
+function plAirbnb(town){ return 'https://www.airbnb.com/s/' + plEnc(plCityEN(town)) + '/homes'; }
+function plFlights(town){ return 'https://www.google.com/travel/flights?q=' + plEnc('Flug Düsseldorf ' + plCityEN(town)); }
+
+function plBuildForm(){
+  const el = document.getElementById('pl-form'); if (!el) return;
+  const towns = plTowns();
+  if (!plState.town && towns.length) plState.town = towns[0].key;
+  const cats = ['sight','food','cafe','bar','nature','view','beach','culture','shop'];
+  const styleBtn = (k, lbl) => `<button type="button" class="pl-style${plState.style === k ? ' active' : ''}" onclick="plSet('style','${k}',this)">${lbl}</button>`;
+  const catChip = c => `<button type="button" class="pl-chip${plState.cats[c] ? ' active' : ''}" onclick="plToggleCat('${c}',this)">${MP_CATS[c] || ''} ${t('cat_' + c)}</button>`;
+  el.innerHTML = `
+    <div class="pl-row">
+      <label>${t('pl_dest')}</label>
+      <select id="pl-dest" onchange="plSet('town',this.value)">${towns.map(x => `<option value="${esc(x.key)}"${x.key === plState.town ? ' selected' : ''}>${esc(x.flag)} ${esc(x.label)}</option>`).join('')}</select>
+    </div>
+    <div class="pl-row">
+      <label>${t('pl_days')}</label>
+      <input type="number" id="pl-days" min="1" max="30" value="${plState.days}" oninput="plState.days=Math.max(1,Math.min(30,parseInt(this.value)||1))">
+    </div>
+    <div class="pl-row">
+      <label>${t('pl_style')}</label>
+      <div class="pl-styles">${styleBtn('budget', t('pl_style_budget'))}${styleBtn('normal', t('pl_style_normal'))}${styleBtn('comfort', t('pl_style_comfort'))}</div>
+    </div>
+    <div class="pl-row">
+      <label>${t('pl_interests')}</label>
+      <div class="pl-chips">${cats.map(catChip).join('')}</div>
+    </div>
+    <button class="pl-go" type="button" onclick="plGenerate()">${t('pl_go')}</button>`;
+}
+function plSet(key, val, btn){
+  plState[key] = val;
+  if (key === 'style'){ document.querySelectorAll('.pl-style').forEach(b => b.classList.remove('active')); if (btn) btn.classList.add('active'); }
+}
+function plToggleCat(c, btn){ plState.cats[c] = !plState.cats[c]; if (btn) btn.classList.toggle('active', plState.cats[c]); }
+
+// Interessen etwas großzügiger auslegen (eine "Sehenswürdigkeit" ist oft als Kultur/Aussicht getaggt)
+const PL_EXPAND = {sight:['sight','culture','view'], food:['food','cafe'], cafe:['cafe','food'], bar:['bar'], nature:['nature','beach','view'], view:['view'], beach:['beach','nature'], culture:['culture','sight'], shop:['shop']};
+function plPlacesFor(town){
+  const active = Object.keys(plState.cats).filter(c => plState.cats[c]);
+  let list = (typeof MOMENTS !== 'undefined' ? MOMENTS : HG.col('moments')).filter(m => m.town === town && isFinite(+m.lat) && isFinite(+m.lon));
+  if (active.length){ const want = new Set(); active.forEach(c => (PL_EXPAND[c] || [c]).forEach(x => want.add(x))); list = list.filter(m => want.has(m.cat || 'sight')); }
+  // Sortierung: eigene Hidden Gems zuerst, dann nach Bewertung
+  return list.sort((a, b) => (a.kind === 'gem' ? -1 : 0) - (b.kind === 'gem' ? -1 : 0) || (+b.rating || 0) - (+a.rating || 0));
+}
+function plGenerate(){
+  const out = document.getElementById('pl-out'); if (!out) return;
+  const town = plState.town, days = Math.max(1, Math.min(30, plState.days | 0 || 5));
+  const tinfo = plTowns().find(x => x.key === town) || {flag: '📍', label: town, cc: ''};
+  const all = plPlacesFor(town);
+  const gems = all.filter(m => m.kind === 'gem');
+  if (!all.length){ out.innerHTML = `<div class="pl-empty">${t('pl_none')}</div>`; out.scrollIntoView({behavior: 'smooth', block: 'start'}); return; }
+  // pro Tag ~4 Stopps, sanft verteilt (Round-Robin für Abwechslung)
+  const perDay = plState.style === 'comfort' ? 3 : 4;
+  const picked = all.slice(0, days * perDay);
+  const dayBuckets = Array.from({length: days}, () => []);
+  picked.forEach((m, i) => dayBuckets[i % days].push(m));
+  const styleLbl = t('pl_style_' + plState.style);
+  const stayBtns = (plState.style === 'budget'
+      ? `<a class="pl-book" href="${plHostels(town)}" target="_blank" rel="noopener">🛏️ ${t('pl_stay_hostel')}</a><a class="pl-book" href="${plHotels(town)}" target="_blank" rel="noopener">⭐ ${t('pl_stay_hotels')}</a>`
+      : `<a class="pl-book" href="${plHotels(town)}" target="_blank" rel="noopener">⭐ ${t('pl_stay_hotels')}</a><a class="pl-book" href="${plAirbnb(town)}" target="_blank" rel="noopener">🏠 ${t('pl_stay_apart')}</a>`);
+  const place = m => {
+    const tags = `${MP_CATS[m.cat] || '📍'} ${t('cat_' + (m.cat || 'sight'))} · ${mpStars(m.rating)} · ${esc(mpPriceLabel(m.price))}`;
+    return `<div class="pl-place">
+      <div class="pl-place-h">${m.kind === 'gem' ? '<span class="pl-badge gem">💎</span>' : ''}<span class="pl-place-t">${esc(m.flag || '📍')} ${esc(stripTags(Lz(m, 'city')))}</span></div>
+      <div class="pl-place-meta">${tags}</div>
+      <div class="pl-place-s">${esc(stripTags(Lz(m, 'title')))}</div>
+      <div class="pl-place-links"><a href="${mpGoogle(m)}" target="_blank" rel="noopener">🗺️ ${t('pl_open_maps')}</a><a href="${mpDir(m)}" target="_blank" rel="noopener">🧭 ${t('pl_route')}</a></div>
+    </div>`;
+  };
+  out.innerHTML = `
+    <div class="pl-result">
+      <div class="pl-res-head">
+        <div class="pl-res-city">${esc(tinfo.flag)} ${esc(tinfo.label)}</div>
+        <div class="pl-res-meta">${t('pl_intro_days', {n: days})} · ${esc(styleLbl)} · ${t('pl_per_day', {n: perDay})}</div>
+      </div>
+
+      <div class="pl-block">
+        <div class="pl-block-h">🚆 ${t('pl_transport')}</div>
+        <div class="pl-book-row">
+          <a class="pl-book aff" href="${PL_OMIO}" target="_blank" rel="noopener sponsored">🚆 ${t('pl_omio')}</a>
+          <a class="pl-book" href="${plFlights(town)}" target="_blank" rel="noopener">✈️ ${t('pl_flights')}</a>
+        </div>
+        <div class="pl-code">🎟️ ${t('pl_omio_code', {c: PL_OMIO_CODE})}</div>
+        <div class="pl-note">${t('pl_transport_note')}</div>
+      </div>
+
+      <div class="pl-block">
+        <div class="pl-block-h">🛏️ ${t('pl_stay')}</div>
+        <div class="pl-book-row">${stayBtns}</div>
+        <div class="pl-note">${t('pl_stay_note')}</div>
+      </div>
+
+      <div class="pl-block">
+        <div class="pl-block-h">🎟️ ${t('pl_activities')}</div>
+        <div class="pl-book-row"><a class="pl-book aff" href="${plGyg(town)}" target="_blank" rel="noopener sponsored">✦ ${t('pl_gyg')}</a></div>
+      </div>
+
+      ${gems.length ? `<div class="pl-block pl-gems"><div class="pl-block-h">💎 ${t('pl_gems_here')}</div><div class="pl-note">${gems.map(g => esc(stripTags(Lz(g, 'city')))).join(' · ')}</div></div>` : ''}
+
+      <div class="pl-block">
+        <div class="pl-block-h">🗓️ ${t('pl_plan')}</div>
+        <div class="pl-days">${dayBuckets.map((b, i) => `<div class="pl-day"><div class="pl-day-h">${t('pl_day', {n: i + 1})}</div>${b.map(place).join('')}</div>`).join('')}</div>
+      </div>
+
+      <div class="pl-actions">
+        <button class="btn-g" type="button" onclick="plShowOnMap('${esc(tinfo.cc)}','${jsq(town)}')">📍 ${t('pl_map')}</button>
+        <button class="btn-o" type="button" onclick="window.print()">🖨️ ${t('pl_print')}</button>
+      </div>
+      <div class="pl-disc">${t('pl_disclaimer')}</div>
+    </div>`;
+  out.scrollIntoView({behavior: 'smooth', block: 'start'});
+}
+function plShowOnMap(cc, town){
+  gTo('momente');
+  setTimeout(() => {
+    try{
+      if (typeof mpF !== 'undefined'){ mpF.country = cc || 'all'; mpF.town = town; mpF.cat = 'all'; mpF.price = 'all'; mpF.kind = 'all'; }
+      if (typeof mpBuildFilters === 'function') mpBuildFilters();
+      if (typeof mpEnsureMap === 'function') mpEnsureMap();
+      if (typeof mpMarkers === 'function') mpMarkers();
+      if (typeof mpRenderList === 'function') mpRenderList();
+      const el = document.getElementById('momente'); if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'});
+    }catch(e){}
+  }, 220);
+}
+function renderPlanner(){ plBuildForm(); }
+HG.onRender(renderPlanner);
 
 
 // ── UNIVERSELLE DETAILSEITE (Text, Galerie, Links) ───────
