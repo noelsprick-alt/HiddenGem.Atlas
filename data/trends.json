@@ -1,8 +1,22 @@
 {
-  "updated": "27.09.2026",
-  "generated": "2026-09-27T10:25:38.849Z",
-  "count": 11,
+  "updated": "29.09.2026",
+  "generated": "2026-09-29T11:12:36.986Z",
+  "maxAgeDays": 14,
+  "count": 12,
   "items": [
+    {
+      "id": "auto-hilton-s-motto-debut-in-japan-signals-a-bigger",
+      "cat": "International",
+      "cat_en": "International",
+      "verdict": "watch",
+      "lang": "en",
+      "date": "2026-09-29",
+      "src": "Skift",
+      "url": "https://skift.com/2026/09/28/hiltons-motto-debut-in-japan-signals-a-bigger-mid-market-shift/",
+      "title_en": "Hilton’s Motto Debut in Japan Signals a Bigger Mid-Market Shift",
+      "desc_en": "If Japan reaches 60 million visitors by 2030 as planned, hotel companies will need more rooms, and more affordable ones. And that is exactly what Hilton aims to do.",
+      "title": "Hiltons Motto-Debüt in Japan signalisiert eine größere Verschiebung im Mittelstand"
+    },
     {
       "id": "auto-travelbook-award-2026-der-playa-de-san-lorenzo",
       "cat": "Reise",
@@ -17,6 +31,20 @@
       "cat_en": "Travel",
       "title_en": "TRAVELBOOK Award 2026: Playa de San Lorenzo in Spain is one of the most extraordinary city beaches in the world",
       "desc_en": "On 22 September 2026 it was time again in Berlin: the TRAVELBOOK Award was presented - and with it the trend destinations for the coming year. Among them was a prize for the most extraordinary city beach in the world. In this ..."
+    },
+    {
+      "id": "auto-travelbook-award-2026-fischerhude-in-niedersac",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-09-27",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/travelbook-award-2026/fischerhude-in-niedersachsen-ist-eines-der-schoensten-doerfer-deutschlands",
+      "title": "TRAVELBOOK Award 2026: Fischerhude in Niedersachsen ist eines der schönsten Dörfer Deutschlands",
+      "desc": "Beim TRAVELBOOK Award am 22. September 2026 wurde neben vielen weiteren spannenden Trendreisezielen für das kommende Jahr auch das schönste Dorf Deutschlands gekürt. Mit dabei: das Künstlerdorf Fischerhude im nordwestlichen Bundesland ...",
+      "title_en": "TRAVELBOOK Award 2026: Fischerhude in Lower Saxony is one of the most beautiful villages in Germany",
+      "desc_en": "In addition to many other exciting trendy destinations for the coming year, the most beautiful village in Germany was also chosen at the TRAVELBOOK Award on 22 September 2026. Included: the artists' village of Fischerhude in the northwestern state ..."
     },
     {
       "id": "auto-travelbook-award-2026-jalapao-in-brasilien-ist",
@@ -152,22 +180,6 @@
       "cat_en": "Travel",
       "title_en": "TRAVELBOOK Award 2026: Tüchersfeld in Franconian Switzerland - one of Germany's most beautiful villages",
       "desc_en": "This year's TRAVELBOOK Award was presented in Berlin on 22 September 2026. Every year, the new trend destinations for the following year are chosen there. In the category of Germany's most beautiful villages, Tüchersfeld made it ..."
-    },
-    {
-      "id": "auto-die-empco-eine-chance-fur-gute-nachhaltigkeits",
-      "cat": "Trends",
-      "verdict": "watch",
-      "title": "Die EmpCo, eine Chance für gute Nachhaltigkeitskommunikation",
-      "desc": "Nachhaltigkeit verschwindet nicht aus der touristischen Kommunikation. Aber sie braucht ab dem 27. September 2026 eine andere Grundlage: weniger pauschale Versprechen, mehr konkrete Nachweise. Die EmpCo-Richtlinie macht damit vor allem e ...",
-      "take": "",
-      "src": "Tourismuszukunft",
-      "url": "https://www.realizingprogress.com/2026/08/die-empco-eine-chance-fuer-gute-nachhaltigkeitskommunikation/",
-      "date": "2026-08-24",
-      "lang": "de",
-      "cat_en": "Trends",
-      "title_en": "The EmpCo directive - a chance for good sustainability communication",
-      "desc_en": "Sustainability is not disappearing from tourism communication. But from 27 September 2026 it needs a different basis: fewer sweeping promises, more concrete evidence. The EmpCo directive therefore mainly ..."
     }
-  ],
-  "maxAgeDays": 14
+  ]
 }
