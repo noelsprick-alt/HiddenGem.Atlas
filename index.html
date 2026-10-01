@@ -1109,6 +1109,16 @@ footer{padding:3rem 2.5rem;background:var(--bg2)}
 .dt-hint{background:var(--sand-light);border:1px solid rgba(201,122,42,.3);border-left:3px solid var(--gold);border-radius:var(--r);padding:.8rem 1rem;font-size:12px;color:var(--text2);margin-bottom:1.5rem;display:none}
 .edit-mode .dt-hint{display:block}
 .dt-body{font-size:14.5px;color:var(--text2);line-height:1.95;margin-bottom:2rem;min-height:60px;white-space:pre-wrap}
+.dt-body p{margin:0 0 1.05em}
+.dt-body p:last-child{margin-bottom:0}
+.dt-body h3,.dt-body h4{font-family:var(--serif,Georgia,serif);font-size:18px;line-height:1.35;color:var(--text);margin:1.9em 0 .6em;font-weight:600;white-space:normal}
+.dt-body h4{font-size:16px}
+.dt-body ul,.dt-body ol{margin:0 0 1.05em;padding-left:1.25em}
+.dt-body li{margin-bottom:.5em;padding-left:.15em}
+.dt-body li::marker{color:var(--gold,#c0522a)}
+.dt-body blockquote{margin:1.3em 0;padding:.65em 1em;border-left:3px solid var(--terra,#c0522a);background:rgba(192,82,42,.05);border-radius:0 6px 6px 0;font-style:italic}
+.dt-body a{color:var(--terra,#c0522a);text-decoration:underline;text-underline-offset:2px}
+.dt-body strong{color:var(--text);font-weight:600}
 .edit-mode .dt-body{outline:1.5px dashed rgba(192,82,42,.45);outline-offset:6px;border-radius:4px}
 .dt-secttl{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--text3);font-weight:700;margin:2rem 0 1rem}
 .dt-gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
@@ -2060,8 +2070,9 @@ body.edit-mode #scroll-top{bottom:90px}
     <div class="sec-lbl" data-i18n="ab_lbl">Meine Geschichte</div>
     <h2 data-i18n="ab_h2">Vom Ruhrgebiet<br>in die <em>Welt.</em></h2>
     <div class="ab-quote" data-i18n="ab_q">"Ich saß alleine in Barcelona um 7 Uhr morgens auf dem Hafen und habe Postkarten geschrieben. Meine Freunde waren schon am Flughafen. Mein Flug ging erst später. Und in diesem Moment habe ich mich gefragt: Warum kann das Leben nicht immer so sein?"</div>
-    <p data-i18n="ab_p1">Ich bin Noel, 29, aufgewachsen im Ruhrgebiet. Während andere Sehenswürdigkeiten abgehakt haben, wollte ich wissen: Wie lebt man hier wirklich?</p>
-    <p data-i18n="ab_p2">Was als Neugier begann, wurde zur Obsession. Über 20 Länder, hunderte versteckte Orte - von Albaniens Küste bis zum japanischen Viertel in Düsseldorf. HiddenGem.Atlas ist der Beweis: Man kann sich seinen Traum aufbauen, auch wenn man aus dem Ruhrgebiet kommt.</p>
+    <p data-i18n="ab_p1">Ich bin Noel, 29, aufgewachsen im Ruhrgebiet - der Gegend, in der „Urlaub" früher Zelt, Sauerland und Dauerregen bedeutete. Während andere ihre Sehenswürdigkeiten abgehakt haben wie eine Steuererklärung, wollte ich immer nur eins wissen: Wie lebt man hier eigentlich wirklich?</p>
+    <p data-i18n="ab_p2">Und ja - ich rede nicht nur über Reisen, ich habe es studiert. <strong>Tourismus, Gastronomie &amp; Hospitality</strong>, Bachelor of Arts. Danach Rezeption in den österreichischen Alpen, F&amp;B-Management, dann Controlling für eine Hotelkette. Ich kenne diese Branche vom 6-Uhr-Frühdienst bis zur Marge hinter deinem Cocktailpreis. Das merkt man meinen Empfehlungen an.</p>
+    <p data-i18n="ab_p3">Was als Neugier begann, wurde zur Obsession: über 20 Länder, hunderte versteckte Orte - von Albaniens Küste bis zum japanischen Viertel in Düsseldorf. HiddenGem.Atlas ist der Beweis, dass man sich seinen Traum selbst bauen kann. Ohne Erbschaft, ohne Sponsor, ohne Van mit Dachzelt.</p>
     <div class="pillars">
       <div class="pil" onclick="pillarOpen('hidden-gems')" style="cursor:pointer" data-pillar="hidden-gems" role="button" tabindex="0">
         <div class="pil-ic">🗺️</div>
@@ -2096,13 +2107,13 @@ body.edit-mode #scroll-top{bottom:90px}
   <div class="ab-r"><div class="ab-photo" data-img="about-portrait"></div>
     <div class="sec-lbl" data-i18n="jrn_lbl">Meine Reise</div>
     <div class="tl">
-      <div class="tli"><div class="tly" data-i18n="ab_2017">2017</div><div class="tlt"><h4 data-i18n="tl_17t">Duales Studium beginnt</h4><p data-i18n="tl_17s">Bachelor of Arts - Betriebswirtschaft, Tourismus, Gastronomie &amp; Hospitality. Die Theorie für das was folgt.</p></div></div>
-      <div class="tli"><div class="tly" data-i18n="ab_2020">2020</div><div class="tlt"><h4 data-i18n="tl_20t">Abschluss &amp; direkt ins Feld</h4><p data-i18n="tl_20s">Front Office Agent im Hotel. Bad Gastein, Österreich. Erster echter Kontakt mit der Welt des Reisens von innen.</p></div></div>
-      <div class="tli"><div class="tly" data-i18n="ab_2021">2021</div><div class="tlt"><h4 data-i18n="tl_21t">Restaurant Manager &amp; Corporate</h4><p data-i18n="tl_21s">F&amp;B Manager, dann Expert Controller in einer Hotelkette in Frankfurt. Die Branche von allen Seiten gesehen.</p></div></div>
-      <div class="tli"><div class="tly" data-i18n="ab_2022">2022</div><div class="tlt"><h4 data-i18n="ab_japan-der-wendepunkt">Japan - der Wendepunkt</h4><p data-i18n="ab_kyoto-tokyo-nara-das">Kyoto, Tokyo, Nara. Das Reisen wird zur Mission. Kein Abzuhaken mehr - nur noch Entdecken.</p></div></div>
-      <div class="tli"><div class="tly" data-i18n="ab_2023">2023</div><div class="tlt"><h4 data-i18n="tl_23t">Barcelona - der Moment</h4><p data-i18n="tl_23s">7 Uhr morgens, alleine am Hafen, Postkarten schreiben. Die Frage: Warum kann das Leben nicht immer so sein? Trennung, Neustart, Heimkehr.</p></div></div>
-      <div class="tli"><div class="tly" data-i18n="ab_2025">2025</div><div class="tlt"><h4 data-i18n="tl_25t">HiddenGem.Atlas entsteht</h4><p data-i18n="tl_25s">Erst nur ein Reisetagebuch. Dann wurde es mehr. GYG-Partner im November. Nikon D90 von Mama. 4.000+ Follower.</p></div></div>
-      <div class="tli"><div class="tly" data-i18n="ab_2026">2026</div><div class="tlt"><h4 data-i18n="tl_26t">Vietnam &amp; Südostasien</h4><p data-i18n="tl_26s">Hanoi, Ho-Chi-Minh-Stadt, Hoi An. 71+ Posts. Die Leidenschaft bekommt endlich den Raum den sie verdient.</p></div></div>
+      <div class="tli"><div class="tly" data-i18n="ab_2017">2017</div><div class="tlt"><h4 data-i18n="tl_17t">Tourismus studieren statt davon träumen</h4><p data-i18n="tl_17s">Bachelor of Arts: Betriebswirtschaft, Tourismus, Gastronomie &amp; Hospitality. Sechs Semester darüber, wie Reisen wirklich funktioniert - und was es kostet.</p></div></div>
+      <div class="tli"><div class="tly" data-i18n="ab_2020">2020</div><div class="tlt"><h4 data-i18n="tl_20t">Abschluss &amp; direkt an die Rezeption</h4><p data-i18n="tl_20s">Front Office in Bad Gastein, Österreich. Die Reisewelt von der anderen Seite des Tresens - inklusive Gästen, die um 23 Uhr noch Bergblick umbuchen wollen.</p></div></div>
+      <div class="tli"><div class="tly" data-i18n="ab_2021">2021</div><div class="tlt"><h4 data-i18n="tl_21t">Restaurant Manager &amp; Corporate</h4><p data-i18n="tl_21s">F&amp;B Manager, dann Expert Controller bei einer Hotelkette in Frankfurt. Erst der Gast, dann die Zahlen. Spoiler: Das eine erklärt das andere.</p></div></div>
+      <div class="tli"><div class="tly" data-i18n="ab_2022">2022</div><div class="tlt"><h4 data-i18n="ab_japan-der-wendepunkt">Japan - der Wendepunkt</h4><p data-i18n="ab_kyoto-tokyo-nara-das">Kyoto, Tokyo, Nara. Um 6 Uhr allein durch Fushimi Inari, abends im Neon-Chaos von Shibuya. Ab da war Reisen kein Abhaken mehr, sondern Mission.</p></div></div>
+      <div class="tli"><div class="tly" data-i18n="ab_2023">2023</div><div class="tlt"><h4 data-i18n="tl_23t">Barcelona - der Moment</h4><p data-i18n="tl_23s">7 Uhr morgens, alleine am Hafen, Postkarten schreiben. Die Frage, die alles gekippt hat: Warum kann das Leben nicht immer so sein? Danach Trennung, Neustart, Heimkehr - in genau dieser Reihenfolge.</p></div></div>
+      <div class="tli"><div class="tly" data-i18n="ab_2025">2025</div><div class="tlt"><h4 data-i18n="tl_25t">HiddenGem.Atlas entsteht</h4><p data-i18n="tl_25s">Erst nur ein Reisetagebuch, dann ein Projekt. GetYourGuide-Partner im November, 4.000+ Follower - und eine Nikon D90 von Mama, dem besten Sponsor, den man kriegen kann.</p></div></div>
+      <div class="tli"><div class="tly" data-i18n="ab_2026">2026</div><div class="tlt"><h4 data-i18n="tl_26t">Vietnam &amp; Südostasien</h4><p data-i18n="tl_26s">Hanoi, Ho-Chi-Minh-Stadt, Hoi An. 71+ Posts, ungezählte Plastikstühle und eine Pho um 6 Uhr morgens, gegen die jedes Sternerestaurant alt aussieht.</p></div></div>
     </div>
   </div>
 </section><section class="soc-wall" id="social" data-page="ueber-mich">
@@ -2890,12 +2901,13 @@ const I18N = {
 "ab_h2":["Vom Ruhrgebiet<br>in die <em>Welt.</em>","From the Ruhr Valley<br>to the <em>World.</em>"],
 "ab_hidden-gems":["Hidden Gems","Hidden Gems"],
 "ab_japan-der-wendepunkt":["Japan - der Wendepunkt","Japan - the turning point"],
-"ab_kyoto-tokyo-nara-das":["Kyoto, Tokyo, Nara. Das Reisen wird zur Mission. Kein Abzuhaken mehr - nur noch Entdecken.","Kyoto, Tokyo, Nara. Travel becomes a mission. No more ticking boxes - only discovering."],
+"ab_kyoto-tokyo-nara-das":["Kyoto, Tokyo, Nara. Um 6 Uhr allein durch Fushimi Inari, abends im Neon-Chaos von Shibuya. Ab da war Reisen kein Abhaken mehr, sondern Mission.","Kyoto, Tokyo, Nara. Alone through Fushimi Inari at 6am, in Shibuya's neon chaos by night. Travel stopped being a checklist and became a mission."],
 "ab_lbl":["Meine Geschichte","My Story"],
 "ab_mehr-erfahren":["Mehr erfahren →","Learn more →"],
 "ab_orte-die-kein-algorithmus":["Orte die kein Algorithmus kennt","Places no algorithm knows"],
-"ab_p1":["Ich bin Noel, 29, aufgewachsen im Ruhrgebiet. Während andere Sehenswürdigkeiten abgehakt haben, wollte ich wissen: Wie lebt man hier wirklich?","I'm Noel, 29, and I grew up in the Ruhr Valley. While others ticked off sights, I wanted to know: how do people really live here?"],
-"ab_p2":["Was als Neugier begann, wurde zur Obsession. Über 20 Länder, hunderte versteckte Orte - von Albaniens Küste bis zum japanischen Viertel in Düsseldorf. HiddenGem.Atlas ist der Beweis: Man kann sich seinen Traum aufbauen, auch wenn man aus dem Ruhrgebiet kommt.","What started as curiosity became an obsession. More than 20 countries, hundreds of hidden places - from Albania's coast to the Japanese quarter in Düsseldorf. HiddenGem.Atlas is proof that you can build your dream, even if you come from the Ruhr Valley."],
+"ab_p1":["Ich bin Noel, 29, aufgewachsen im Ruhrgebiet - der Gegend, in der „Urlaub“ früher Zelt, Sauerland und Dauerregen bedeutete. Während andere ihre Sehenswürdigkeiten abgehakt haben wie eine Steuererklärung, wollte ich immer nur eins wissen: Wie lebt man hier eigentlich wirklich?","I'm Noel, 29, raised in Germany's Ruhr Valley - where „holiday“ used to mean a tent, the Sauerland and non-stop rain. While everyone else ticked off landmarks like a tax return, I only ever wanted to know one thing: how do people actually live here?"],
+"ab_p2":["Und ja - ich rede nicht nur über Reisen, ich habe es studiert. <strong>Tourismus, Gastronomie &amp; Hospitality</strong>, Bachelor of Arts. Danach Rezeption in den österreichischen Alpen, F&amp;B-Management, dann Controlling für eine Hotelkette. Ich kenne diese Branche vom 6-Uhr-Frühdienst bis zur Marge hinter deinem Cocktailpreis. Das merkt man meinen Empfehlungen an.","And no, I don't just talk about travel - I studied it. <strong>Tourism, Gastronomy &amp; Hospitality</strong>, Bachelor of Arts. Then hotel front desk in the Austrian Alps, F&amp;B management, then controlling for a hotel group. I know this industry from the 6am shift to the margin hiding behind your cocktail price. It shows in what I recommend."],
+"ab_p3":["Was als Neugier begann, wurde zur Obsession: über 20 Länder, hunderte versteckte Orte - von Albaniens Küste bis zum japanischen Viertel in Düsseldorf. HiddenGem.Atlas ist der Beweis, dass man sich seinen Traum selbst bauen kann. Ohne Erbschaft, ohne Sponsor, ohne Van mit Dachzelt.","What started as curiosity turned into an obsession: 20+ countries, hundreds of hidden places - from Albania's coast to the Japanese quarter of Düsseldorf. HiddenGem.Atlas is proof you can build your own dream. No inheritance, no sponsor, no van with a roof tent."],
 "ab_q":["\"Ich saß alleine in Barcelona um 7 Uhr morgens auf dem Hafen und habe Postkarten geschrieben. Meine Freunde waren schon am Flughafen. Mein Flug ging erst später. Und in diesem Moment habe ich mich gefragt: Warum kann das Leben nicht immer so sein?\"","\"I sat alone at the harbour in Barcelona at 7 in the morning, writing postcards. My friends were already at the airport. My flight wasn't until later. And in that moment I asked myself: why can't life always be like this?\""],
 "ab_reisen-als-lebensschule":["Reisen als Lebensschule","Travel as a school of life"],
 "ab_tiktok":["TikTok","TikTok"],
@@ -3475,17 +3487,17 @@ const I18N = {
 "tk_7":["📸 @hiddengem.atlas","📸 @hiddengem.atlas"],
 "tk_8":["🇦🇹 Bad Gastein - alpines Hidden Gem","🇦🇹 Bad Gastein - an alpine hidden gem"],
 "tk_9":["🇸🇮 Ljubljana - grünste Hauptstadt Europas","🇸🇮 Ljubljana - Europe's greenest capital"],
-"tl_17s":["Bachelor of Arts - Betriebswirtschaft, Tourismus, Gastronomie &amp; Hospitality. Die Theorie für das was folgt.","Bachelor of Arts - Business, Tourism, Gastronomy &amp; Hospitality. The theory for what was to come."],
-"tl_17t":["Duales Studium beginnt","Dual studies begin"],
-"tl_20s":["Front Office Agent im Hotel. Bad Gastein, Österreich. Erster echter Kontakt mit der Welt des Reisens von innen.","Front Office Agent at a hotel. Bad Gastein, Austria. First real contact with the world of travel from the inside."],
-"tl_20t":["Abschluss &amp; direkt ins Feld","Graduated & into the field"],
-"tl_21s":["F&amp;B Manager, dann Expert Controller in einer Hotelkette in Frankfurt. Die Branche von allen Seiten gesehen.","F&B Manager, then Expert Controller at a hotel chain in Frankfurt. Seeing the industry from every angle."],
+"tl_17s":["Bachelor of Arts: Betriebswirtschaft, Tourismus, Gastronomie &amp; Hospitality. Sechs Semester darüber, wie Reisen wirklich funktioniert - und was es kostet.","Bachelor of Arts: Business, Tourism, Gastronomy &amp; Hospitality. Six semesters on how travel really works - and what it costs."],
+"tl_17t":["Tourismus studieren statt davon träumen","Studying tourism instead of dreaming about it"],
+"tl_20s":["Front Office in Bad Gastein, Österreich. Die Reisewelt von der anderen Seite des Tresens - inklusive Gästen, die um 23 Uhr noch Bergblick umbuchen wollen.","Front office in Bad Gastein, Austria. The travel world from behind the counter - including guests who still want a mountain view rebooked at 11pm."],
+"tl_20t":["Abschluss &amp; direkt an die Rezeption","Degree done, straight to the front desk"],
+"tl_21s":["F&amp;B Manager, dann Expert Controller bei einer Hotelkette in Frankfurt. Erst der Gast, dann die Zahlen. Spoiler: Das eine erklärt das andere.","F&B Manager, then Expert Controller at a hotel group in Frankfurt. First the guests, then the numbers. Spoiler: one explains the other."],
 "tl_21t":["Restaurant Manager &amp; Corporate","Restaurant Manager & Corporate"],
-"tl_23s":["7 Uhr morgens, alleine am Hafen, Postkarten schreiben. Die Frage: Warum kann das Leben nicht immer so sein? Trennung, Neustart, Heimkehr.","7am, alone at the harbour, writing postcards. The question: why can't life always be like this? Breakup, new start, homecoming."],
+"tl_23s":["7 Uhr morgens, alleine am Hafen, Postkarten schreiben. Die Frage, die alles gekippt hat: Warum kann das Leben nicht immer so sein? Danach Trennung, Neustart, Heimkehr - in genau dieser Reihenfolge.","7am, alone at the harbour, writing postcards. The question that tipped everything: why can't life always be like this? Then a breakup, a fresh start, a homecoming - in that exact order."],
 "tl_23t":["Barcelona - der Moment","Barcelona - the moment"],
-"tl_25s":["Erst nur ein Reisetagebuch. Dann wurde es mehr. GYG-Partner im November. Nikon D90 von Mama. 4.000+ Follower.","At first just a travel diary. Then it became more. GYG partner in November. A Nikon D90 from my mum. 4,000+ followers."],
+"tl_25s":["Erst nur ein Reisetagebuch, dann ein Projekt. GetYourGuide-Partner im November, 4.000+ Follower - und eine Nikon D90 von Mama, dem besten Sponsor, den man kriegen kann.","At first a travel diary, then a project. GetYourGuide partner in November, 4,000+ followers - and a Nikon D90 from my mum, the best sponsor anyone could ask for."],
 "tl_25t":["HiddenGem.Atlas entsteht","HiddenGem.Atlas is born"],
-"tl_26s":["Hanoi, Ho-Chi-Minh-Stadt, Hoi An. 71+ Posts. Die Leidenschaft bekommt endlich den Raum den sie verdient.","Hanoi, Ho Chi Minh City, Hoi An. 71+ posts. The passion finally gets the space it deserves."],
+"tl_26s":["Hanoi, Ho-Chi-Minh-Stadt, Hoi An. 71+ Posts, ungezählte Plastikstühle und eine Pho um 6 Uhr morgens, gegen die jedes Sternerestaurant alt aussieht.","Hanoi, Ho Chi Minh City, Hoi An. 71+ posts, countless plastic stools and a 6am pho that makes any fine-dining place look silly."],
 "tl_26t":["Vietnam &amp; Südostasien","Vietnam & Southeast Asia"],
 "to_top":["Nach oben","Back to top"],
 "toast_follow":["🌍 Folge <strong>@hiddengem.atlas</strong> für mehr Hidden Gems","🌍 Follow <strong>@hiddengem.atlas</strong> for more hidden gems"],
@@ -3511,7 +3523,7 @@ const I18N = {
 const T = {de: {}, en: {}};
 for (const k in I18N){ T.de[k] = I18N[k][0]; T.en[k] = I18N[k][1]; }
 // Alte Editor-Namen → Schlüssel (nur für die einmalige Übernahme)
-const EDIT_MAP = {"hero-eyebrow":"h_eye","hero-h1":"h_h1","hero-sub":"h_sub","about-h2":"ab_h2","about-quote":"ab_q","about-p1":"ab_p1","about-p2":"ab_p2","pil-1t":"ab_hidden-gems","pil-1s":"ab_orte-die-kein-algorithmus","pil-2t":"ab_fotografie","pil-2s":"ab_echte-momente-kein-stock","pil-3t":"ab_travel-mindset","pil-3s":"ab_reisen-als-lebensschule","pil-4t":"grp_community","pil-4s":"ab_gemeinsam-entdecken","soc-h2":"sc_h2","dest-h2":"d_h2","gyg-h2":"gy_h2","gyg-p":"gy_p","blog-h2":"bl_h2","shop-h2":"sh_h2","shop-cal":"cal_d","shop-fk":"fk_d","shop-pre":"pre_d","shop-stk":"stk_d","cause-h2":"ca_h2","cause-p1":"ca_p1","cause-p2":"ca_p2","collab-h2":"co_h2","collab-sub":"co_sub","mem-h2":"mb_reisen-ist-keine-freizeitbes","mem-p1":"mb_die-hidden-gem-society","mem-p2":"mb_hier-treffen-sich-reisende","mem-form-title":"mb_deine-bewerbung","mem-form-sub":"mb_wir-nehmen-nicht-jeden","nl-h2":"nl_h2","nl-sub":"nl_sub"};
+const EDIT_MAP = {"hero-eyebrow":"h_eye","hero-h1":"h_h1","hero-sub":"h_sub","about-h2":"ab_h2","about-quote":"ab_q","about-p1":"ab_p1","about-p2":"ab_p2","about-p3":"ab_p3","pil-1t":"ab_hidden-gems","pil-1s":"ab_orte-die-kein-algorithmus","pil-2t":"ab_fotografie","pil-2s":"ab_echte-momente-kein-stock","pil-3t":"ab_travel-mindset","pil-3s":"ab_reisen-als-lebensschule","pil-4t":"grp_community","pil-4s":"ab_gemeinsam-entdecken","soc-h2":"sc_h2","dest-h2":"d_h2","gyg-h2":"gy_h2","gyg-p":"gy_p","blog-h2":"bl_h2","shop-h2":"sh_h2","shop-cal":"cal_d","shop-fk":"fk_d","shop-pre":"pre_d","shop-stk":"stk_d","cause-h2":"ca_h2","cause-p1":"ca_p1","cause-p2":"ca_p2","collab-h2":"co_h2","collab-sub":"co_sub","mem-h2":"mb_reisen-ist-keine-freizeitbes","mem-p1":"mb_die-hidden-gem-society","mem-p2":"mb_hier-treffen-sich-reisende","mem-form-title":"mb_deine-bewerbung","mem-form-sub":"mb_wir-nehmen-nicht-jeden","nl-h2":"nl_h2","nl-sub":"nl_sub"};
 
 </script>
 <script>
@@ -4120,13 +4132,16 @@ function hgPastePlain(e){
   const tx = (e.clipboardData || window.clipboardData).getData('text/plain');
   document.execCommand('insertText', false, tx);
 }
-function hgClean(html){
+function hgClean(html, rich){
   const box = document.createElement('div'); box.innerHTML = html;
   const ok = {EM:1, I:1, STRONG:1, B:1, BR:1, A:1, SPAN:1, U:1, SMALL:1};
+  if (rich){ ok.P = 1; ok.H3 = 1; ok.H4 = 1; ok.UL = 1; ok.OL = 1; ok.LI = 1; ok.BLOCKQUOTE = 1; }
   (function walk(n){
     Array.from(n.childNodes).forEach(c => {
       if (c.nodeType === 1){
         walk(c);
+        if (c.tagName === 'SCRIPT' || c.tagName === 'STYLE'){ c.remove(); return; }
+        if (rich && (c.tagName === 'DIV' || c.tagName === 'P')){ const b = document.createElement('p'); while (c.firstChild) b.appendChild(c.firstChild); c.replaceWith(b.textContent.trim() ? b : document.createDocumentFragment()); return; }
         if (c.tagName === 'DIV' || c.tagName === 'P'){ const f = document.createDocumentFragment(); if (c.previousSibling) f.appendChild(document.createElement('br')); while (c.firstChild) f.appendChild(c.firstChild); c.replaceWith(f); return; }
         if (!ok[c.tagName]){ const f = document.createDocumentFragment(); while (c.firstChild) f.appendChild(c.firstChild); c.replaceWith(f); return; }
         Array.from(c.attributes).forEach(a => { if (!['href', 'target', 'onclick', 'class', 'rel', 'data-i18n-link'].includes(a.name)) c.removeAttribute(a.name); });
@@ -6898,11 +6913,15 @@ HG.onRender(renderPlanner);
 
 // ── UNIVERSELLE DETAILSEITE (Text, Galerie, Links) ───────
 let dtKey = '', dtPushed = false;
-function openDetail(key, kicker, title, sub, extUrl, extLabel, path){
+function openDetail(key, kicker, title, sub, extUrl, extLabel, path, i18nKeys){
   dtKey = key;
+  const elT = document.getElementById('dt-title'), elS = document.getElementById('dt-sub');
+  const kT = i18nKeys && i18nKeys.title, kS = i18nKeys && i18nKeys.sub;
+  if (kT) elT.setAttribute('data-i18n', kT); else elT.removeAttribute('data-i18n');
+  if (kS) elS.setAttribute('data-i18n', kS); else elS.removeAttribute('data-i18n');
   document.getElementById('dt-kicker').textContent = stripTags(kicker || '');
-  document.getElementById('dt-title').innerHTML = title || '';
-  document.getElementById('dt-sub').textContent = stripTags(sub || '');
+  elT.innerHTML = kT ? (t(kT) || '') : (title || '');
+  if (kS) elS.innerHTML = t(kS) || ''; else elS.textContent = stripTags(sub || '');
   dtRender();
   const ext = document.getElementById('dt-ext-wrap');
   ext.innerHTML = extUrl ? `<a class="dt-ext" href="${esc(extUrl)}" target="_blank" rel="noopener">${esc(stripTags(extLabel || t('dt_ext')))} ↗</a>` : '';
@@ -6945,7 +6964,7 @@ function dtRefreshEditable(){
 function dtSaveBody(){
   if (!HG.editing || !dtKey) return;
   const body = document.getElementById('dt-body');
-  const html = hgClean(body.innerHTML);
+  const html = hgClean(body.innerHTML, true);
   hgDetailSet(dtKey, cur => {
     if (lang === 'en'){ if (html) cur.text_en = html; else delete cur.text_en; cur._t = hgHash(cur.text || ''); }
     else {
@@ -7008,7 +7027,7 @@ const PILLARS = {'hidden-gems': 'hg', 'fotografie': 'ft', 'travel-mindset': 'tm'
 function pillarOpen(id){
   const k = PILLARS[id]; if (!k) return;
   const card = document.querySelector('.pil[data-pillar="' + id + '"] .pil-t');
-  openDetail('pillar-' + id, card ? card.textContent : id, t('pp_' + k + '_title'), stripTags(t('pp_' + k + '_sub')), null, null, 'ueber-mich/' + id);
+  openDetail('pillar-' + id, card ? card.textContent : id, t('pp_' + k + '_title'), stripTags(t('pp_' + k + '_sub')), null, null, 'ueber-mich/' + id, {title: 'pp_' + k + '_title', sub: 'pp_' + k + '_sub'});
 }
 HG.openers['ueber-mich'] = pillarOpen;
 
