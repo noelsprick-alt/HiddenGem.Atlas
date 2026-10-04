@@ -23,4 +23,19 @@ Der Token bleibt nur auf deinem Gerät. Alle Änderungen landen in `data/content
 - `fonts/` - Schriften (lokal, DSGVO)
 - `data/content.json` - deine Änderungen aus dem Editor
 - `data/trends.json` - automatisch gepflegte Trends
+- `data/moments-extra.json` - zusätzliche Karten-Orte in Masse (siehe unten)
 - `scripts/` - Helfer für die GitHub Actions
+
+## Orte in Masse hinzufügen (`data/moments-extra.json`)
+Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt pro Ort, immer **Deutsch + Englisch**:
+
+```json
+{"id":"rp-es-gruga","kind":"mustsee","cc":"DE","flag":"🇩🇪","area":"ruhr","town":"Essen","town_en":"Essen",
+ "city":"Grugapark","city_en":"Grugapark","cat":"nature","lat":51.4255,"lon":6.9970,"q":"Grugapark Essen",
+ "rating":4,"price":"€","title":"Satz auf Deutsch","title_en":"Sentence in English","visit":"todo"}
+```
+- `kind`: `gem` (Hidden Gem) oder `mustsee` · `cat`: sight, food, cafe, nature, view, shop, bar, beach, culture
+- `price`: `free`, `€`, `€€`, `€€€` oder `?` (unbekannt, wird nicht angezeigt)
+- `area`: optional, gruppiert Orte über Städte hinweg (aktuell `ruhr`; neue Regionen in `MP_AREAS` in `index.html` anlegen)
+- `visit`: `todo` = „Auf meiner Liste" (noch nicht besucht); weglassen = von Noel besucht
+- `id` muss eindeutig sein. Neue Orte erscheinen automatisch, auch wenn im Editor schon Orte geändert wurden; im Editor gelöschte bleiben gelöscht.

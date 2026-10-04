@@ -29,6 +29,7 @@
 </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="">
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin=""></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" crossorigin=""></script>
 <link rel="preload" href="fonts/cormorant-garamond-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/dm-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
@@ -1742,6 +1743,65 @@ body.edit-mode #scroll-top{bottom:90px}
 .mp-item-top{display:flex;align-items:center;gap:7px;margin-bottom:3px}
 .mp-item-kind{font-size:13px}
 .mp-item-meta{font-size:11px;color:rgba(247,236,216,.5);margin-bottom:3px}
+/* ── Karte v2: Suche, Region-Chips, gruppierte Liste ── */
+.mp-stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 1.1rem;align-items:stretch}
+.mp-st{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:.6rem 1rem;min-width:96px;display:flex;flex-direction:column;gap:2px}
+.mp-st strong{font-family:'Cormorant Garamond',serif;font-size:27px;font-weight:400;color:var(--gold);line-height:1}
+.mp-st span{font-size:10.5px;letter-spacing:.4px;color:rgba(247,236,216,.62)}
+.mp-st-note{align-self:center;font-size:12px;font-style:italic;color:rgba(247,236,216,.55);padding-left:.5rem}
+.mp-search{margin-bottom:12px}
+.mp-filters{flex-wrap:nowrap;min-width:0}
+.mp-filters>*{min-width:0;max-width:100%}
+.mp-q{width:100%;max-width:520px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.2);border-radius:24px;padding:11px 18px;color:#fdf8f0;font-family:'DM Sans',sans-serif;font-size:14px}
+.mp-q::placeholder{color:rgba(247,236,216,.45)}
+.mp-q:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,122,42,.2)}
+.mp-chips{display:flex;gap:7px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+.mp-chip{flex:0 0 auto;white-space:nowrap;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);color:#fdf8f0;border-radius:18px;padding:6px 13px;font-size:12px;font-family:'DM Sans',sans-serif;font-weight:500;cursor:pointer;transition:all .15s}
+.mp-chip em,.mp-kbtn em{font-style:normal;opacity:.62;font-size:11px;margin-left:3px}
+.mp-chip:hover{border-color:var(--gold);color:var(--gold)}
+.mp-chip.active{background:var(--gold);border-color:var(--gold);color:#16140f;font-weight:600}
+.mp-chips-city .mp-chip{font-size:11.5px;padding:5px 11px;background:rgba(255,255,255,.03)}
+.mp-chips-city .mp-chip.active{background:var(--gold)}
+.mp-reset{align-self:flex-end;background:none;border:1px dashed rgba(255,255,255,.3);color:rgba(247,236,216,.75);border-radius:10px;padding:8px 12px;font-size:12px;cursor:pointer;font-family:'DM Sans',sans-serif}
+.mp-reset:hover{border-color:var(--gold);color:var(--gold)}
+.mp-list{display:block}
+.mp-grp{border:1px solid rgba(255,255,255,.12);border-radius:var(--rl);background:rgba(255,255,255,.03);margin-bottom:10px;overflow:hidden}
+.mp-grp-h{width:100%;display:flex;align-items:center;gap:12px;background:none;border:none;color:#fdf8f0;padding:14px 18px;cursor:pointer;font-family:'DM Sans',sans-serif;text-align:left}
+.mp-grp-h:hover{background:rgba(255,255,255,.05)}
+.mp-grp-t{font-family:'Cormorant Garamond',serif;font-size:23px;flex:1}
+.mp-grp-n{font-size:11.5px;color:rgba(247,236,216,.6)}
+.mp-rest{font-family:'DM Sans',sans-serif;font-size:12px;color:rgba(247,236,216,.55);margin-left:6px}
+.mp-grp-c{background:var(--gold);color:#16140f;border-radius:12px;padding:2px 10px;font-size:12px;font-weight:700}
+.mp-chev{transition:transform .2s;color:var(--gold)}
+.mp-grp.open .mp-chev{transform:rotate(180deg)}
+.mp-grp-b{padding:2px 18px 16px}
+.mp-city{margin-top:14px}
+.mp-city-h{display:flex;align-items:baseline;gap:8px;font-size:14px;font-weight:600;color:var(--gold);letter-spacing:.3px;margin:0 0 8px;padding-bottom:5px;border-bottom:1px solid rgba(255,255,255,.1)}
+.mp-city-h em{font-style:normal;font-size:11px;color:rgba(247,236,216,.5);font-weight:500}
+.mp-sub{font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:rgba(247,236,216,.7);margin:10px 0 6px}
+.mp-sub em{font-style:normal;opacity:.6}
+.mp-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.mp-more{margin-top:10px;background:none;border:1px solid rgba(255,255,255,.25);color:#fdf8f0;border-radius:18px;padding:7px 16px;font-size:12px;cursor:pointer;font-family:'DM Sans',sans-serif}
+.mp-more:hover{border-color:var(--gold);color:var(--gold)}
+.mp-empty{text-align:center;padding:2.5rem 1rem;color:rgba(247,236,216,.7);font-size:14px}
+.mp-empty p{margin-bottom:1rem}
+.mp-todo{margin-top:6px;font-size:10.5px;font-weight:600;color:var(--gold);letter-spacing:.3px}
+.mp-item.todo{border-style:dashed}
+.mp-cl{background:none;border:none}
+.mp-cl div{width:40px;height:40px;border-radius:50%;background:rgba(201,122,42,.92);border:3px solid rgba(255,247,232,.9);display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,.35)}
+.mp-cl span{color:#16140f;font-weight:700;font-size:13px;font-family:'DM Sans',sans-serif}
+@media(max-width:768px){.mp-grp-t{font-size:20px}.mp-grp-n{display:none}.mp-grp-b{padding:2px 12px 14px}.mp-cards{grid-template-columns:1fr}.mp-st{min-width:84px;padding:.5rem .8rem}}
+/* ── Über mich v2 ── */
+.ab-l p.ab-pitch{font-family:'Cormorant Garamond',serif;font-size:clamp(21px,2.4vw,27px);line-height:1.35;color:var(--text);font-weight:400}
+.ab-l p.ab-after{font-weight:600;color:var(--terra);font-size:15px;line-height:1.6;margin-top:-.4rem}
+.ab-why{background:linear-gradient(135deg,#fff,var(--bg2));border:1px solid var(--border);border-radius:var(--rl);padding:1.25rem 1.25rem 1.1rem}
+.ab-why-t{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--terra);font-weight:700;margin-bottom:.9rem}
+.ab-why-g{display:grid;gap:1rem}
+.ab-why-c{display:grid;grid-template-columns:34px 1fr;column-gap:12px;align-items:start}
+.ab-why-ic{font-size:22px;grid-row:span 2;line-height:1.2}
+.ab-why-c h4{font-size:14px;font-weight:700;color:var(--text);margin:0}
+.ab-l .ab-why-c p{font-size:12.5px;line-height:1.65;margin:2px 0 0}
+
 .mp-cta{margin:1rem 0 .5rem;text-align:center}
 .mp-cta .btn-g{width:auto}
 
@@ -2067,12 +2127,22 @@ body.edit-mode #scroll-top{bottom:90px}
 
 <section class="about" id="about" data-page="ueber-mich">
   <div class="ab-l">
-    <div class="sec-lbl" data-i18n="ab_lbl">Meine Geschichte</div>
-    <h2 data-i18n="ab_h2">Vom Ruhrgebiet<br>in die <em>Welt.</em></h2>
-    <div class="ab-quote" data-i18n="ab_q">"Ich saß alleine in Barcelona um 7 Uhr morgens auf dem Hafen und habe Postkarten geschrieben. Meine Freunde waren schon am Flughafen. Mein Flug ging erst später. Und in diesem Moment habe ich mich gefragt: Warum kann das Leben nicht immer so sein?"</div>
-    <p data-i18n="ab_p1">Ich bin Noel, 29, aufgewachsen im Ruhrgebiet - der Gegend, in der „Urlaub" früher Zelt, Sauerland und Dauerregen bedeutete. Während andere ihre Sehenswürdigkeiten abgehakt haben wie eine Steuererklärung, wollte ich immer nur eins wissen: Wie lebt man hier eigentlich wirklich?</p>
-    <p data-i18n="ab_p2">Und ja - ich rede nicht nur über Reisen, ich habe es studiert. <strong>Tourismus, Gastronomie &amp; Hospitality</strong>, Bachelor of Arts. Danach Rezeption in den österreichischen Alpen, F&amp;B-Management, dann Controlling für eine Hotelkette. Ich kenne diese Branche vom 6-Uhr-Frühdienst bis zur Marge hinter deinem Cocktailpreis. Das merkt man meinen Empfehlungen an.</p>
-    <p data-i18n="ab_p3">Was als Neugier begann, wurde zur Obsession: über 20 Länder, hunderte versteckte Orte - von Albaniens Küste bis zum japanischen Viertel in Düsseldorf. HiddenGem.Atlas ist der Beweis, dass man sich seinen Traum selbst bauen kann. Ohne Erbschaft, ohne Sponsor, ohne Van mit Dachzelt.</p>
+    <div class="sec-lbl" data-i18n="ab2_lbl">Warum ausgerechnet ich?</div>
+    <h2 data-i18n="ab2_h2">Vom Ruhrpott in die <em>Welt.</em></h2>
+    <p class="ab-pitch" data-i18n="ab2_pitch">Ich zeig dir Orte, die kein Algorithmus kennt - und rechne vorher nach, ob sie ihr Geld wert sind.</p>
+    <div class="ab-quote" data-i18n="ab2_q">"Um 7 Uhr morgens saß ich alleine am Hafen von Barcelona und habe Postkarten geschrieben. Meine Freunde waren schon am Flughafen. Mein Flug ging erst später. Und in diesem Moment habe ich mich gefragt: Warum kann das Leben nicht immer so sein?"</div>
+    <p class="ab-after" data-i18n="ab2_after">Spoiler: Es kann. Man muss nur bereit sein, alles umzuwerfen - Job, Beziehung und Postleitzahl inklusive.</p>
+    <div class="ab-why">
+      <div class="ab-why-t" data-i18n="ab2_why_t">3 Gründe, mir zu folgen</div>
+      <div class="ab-why-g">
+        <div class="ab-why-c"><div class="ab-why-ic">🧾</div><h4 data-i18n="ab2_r1t">Ich rechne nach, bevor ich schwärme.</h4><p data-i18n="ab2_r1s">Tourismus-Studium, Rezeption, Restaurantleitung, Hotel-Controlling: Ich weiß, was hinter dem Cocktailpreis steckt - und wo du nur für die Kulisse zahlst. Dein Geldbeutel sagt danke.</p></div>
+        <div class="ab-why-c"><div class="ab-why-ic">🔍</div><h4 data-i18n="ab2_r2t">Ich frag nach dem Warum.</h4><p data-i18n="ab2_r2s">Nicht nur „schön hier“, sondern: Was hat diesen Ort zu dem gemacht, der er heute ist? Von Albaniens Küste bis zur Zeche Zollverein - ich finde es raus und nehme dich mit.</p></div>
+        <div class="ab-why-c"><div class="ab-why-ic">📸</div><h4 data-i18n="ab2_r3t">Ungefiltert, mit Ruhrpott-Schnauze.</h4><p data-i18n="ab2_r3s">Eine Nikon D90 von Mama, keine gestellten Shots, keine geliehene Kulisse. Wenn es regnet, siehst du Regen. Wenn es magisch ist, siehst du das auch.</p></div>
+      </div>
+    </div>
+    <p data-i18n="ab2_p1">Ich bin Noel, 29, aufgewachsen im Ruhrgebiet - der Gegend, in der „Urlaub“ früher Zelt, Sauerland und Dauerregen hieß. Während andere ihre Sehenswürdigkeiten abhaken wie eine Steuererklärung, will ich wissen, was dahintersteckt.</p>
+    <p data-i18n="ab2_p2">Was als Neugier begann, wurde zur Obsession: über 25 Länder, hunderte versteckte Orte - von Albaniens Küste bis nach Hanoi. Und ja, auch der Pott hat Hidden Gems. Mehr, als dein Kopf gerade denkt.</p>
+    <p data-i18n="ab2_p3">HiddenGem.Atlas ist der Beweis, dass man sich seinen Traum selbst bauen kann. Ohne Erbschaft, ohne Sponsor, ohne Van mit Dachzelt. Nur mit Neugier, Rucksack und einer Kamera, die älter ist als mancher Praktikant.</p>
     <div class="pillars">
       <div class="pil" onclick="pillarOpen('hidden-gems')" style="cursor:pointer" data-pillar="hidden-gems" role="button" tabindex="0">
         <div class="pil-ic">🗺️</div>
@@ -2100,7 +2170,7 @@ body.edit-mode #scroll-top{bottom:90px}
       </div>
     </div>
     <div class="ab-cta">
-      <a id="ig-ab" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" class="btn-g" data-i18n="flw_ig" data-lk="lk1">Folge auf Instagram</a>
+      <a id="ig-ab" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" class="btn-g" data-i18n="ab2_cta" data-lk="lk1">Komm mit auf die Reise</a>
       <a id="tt-ab" href="https://www.tiktok.com/@howtotravel_guide" target="_blank" rel="noopener" class="btn-o" data-lk="lk2" data-i18n="ab_tiktok">TikTok</a>
     </div>
   </div>
@@ -2349,9 +2419,11 @@ body.edit-mode #scroll-top{bottom:90px}
   <div class="mp-inner">
     <div class="mp-hdr">
       <div class="sec-lbl" data-i18n="mp_lbl">📍 Interaktive Karte</div>
-      <h2 data-i18n="mp_h2">Meine <em>Hidden Gems</em> auf der Karte.</h2>
-      <p data-i18n="mp_intro">Jeder Pin ist ein Ort, an dem ich wirklich war - mit meiner ehrlichen Einschätzung, dahinter Geschichte und Fotos. Öffne jeden Ort mit einem Klick direkt in Google Maps und finde ihn genau wieder.</p>
+      <h2 data-i18n="mp2_h2">Hidden Gems &amp; Must-Sees - <em>von der Zeche bis nach Hanoi.</em></h2>
+      <p data-i18n="mp2_intro">Zwei Sorten Pins: ⭐ Must-Sees, die du kennen solltest, und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Region, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.</p>
     </div>
+    <div class="mp-stats" id="mp-stats"></div>
+    <div class="mp-search"><input type="search" id="mp-q" class="mp-q" data-i18n-ph="mp_search_ph" placeholder="Ort, Stadt oder Land suchen ..." oninput="mpSearch(this.value)" autocomplete="off"></div>
     <div class="mp-filters" id="mp-filters"></div><div class="mp-frame">
       <div id="mp-map" class="mp-map" aria-label="Hidden Gems Karte"></div>
     </div><p class="mp-attr" data-i18n="mp_tiles">Karten-Daten © OpenStreetMap-Mitwirkende</p>
@@ -3264,6 +3336,39 @@ const I18N = {
 "mp_mustsees":["Must-Sees","Must-sees"],
 "mp_open_gmaps":["In Google Maps öffnen","Open in Google Maps"],
 "mp_pinned":["Orte auf der Karte","places on the map"],
+"mp2_h2":["Hidden Gems &amp; Must-Sees - <em>von der Zeche bis nach Hanoi.</em>", "Hidden gems &amp; must-sees - <em>from coal mine to Hanoi.</em>"],
+"mp2_intro":["Zwei Sorten Pins: ⭐ Must-Sees, die du kennen solltest, und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Region, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.", "Two kinds of pins: ⭐ must-sees you should know, and 💎 hidden gems you have to go looking for. Sorted by region, country and city, with a direct Google Maps link. Anything marked 🧭 is still on my list - the rest I have walked myself."],
+"mp_search_ph":["Ort, Stadt oder Land suchen ...", "Search a place, city or country ..."],
+"mp_regions":["Region", "Region"],
+"mp_visit":["Status", "Status"],
+"mp_visit_all":["Alle Orte", "All places"],
+"mp_visit_done":["Von mir besucht", "Visited by me"],
+"mp_visit_todo":["Auf meiner Liste", "On my list"],
+"mp_todo":["Auf meiner Liste", "On my list"],
+"mp_more":["+ {n} weitere anzeigen", "+ show {n} more"],
+"mp_none":["Nichts gefunden - probier einen anderen Begriff oder setz die Filter zurück.", "Nothing found - try another term or reset the filters."],
+"mp_reset":["Filter zurücksetzen", "Reset filters"],
+"mp_st_places":["Orte", "Places"],
+"mp_st_countries":["Länder", "Countries"],
+"mp_st_cities":["Städte", "Cities"],
+"mp_st_grow":["Und es werden mehr.", "And it keeps growing."],
+"mp_rest":["übrige Orte", "other places"],
+"ab2_lbl":["Warum ausgerechnet ich?", "Why me, of all people?"],
+"ab2_h2":["Vom Ruhrpott in die <em>Welt.</em>", "From the Ruhr to the <em>world.</em>"],
+"ab2_pitch":["Ich zeig dir Orte, die kein Algorithmus kennt - und rechne vorher nach, ob sie ihr Geld wert sind.", "I show you places no algorithm knows - and run the numbers first, so you know whether they are worth your money."],
+"ab2_q":["\"Um 7 Uhr morgens saß ich alleine am Hafen von Barcelona und habe Postkarten geschrieben. Meine Freunde waren schon am Flughafen. Mein Flug ging erst später. Und in diesem Moment habe ich mich gefragt: Warum kann das Leben nicht immer so sein?\"", "\"At 7 in the morning I sat alone at the harbour in Barcelona, writing postcards. My friends were already at the airport. My flight was not until later. And in that moment I asked myself: why can't life always be like this?\""],
+"ab2_after":["Spoiler: Es kann. Man muss nur bereit sein, alles umzuwerfen - Job, Beziehung und Postleitzahl inklusive.", "Spoiler: it can. You just have to be willing to flip everything - job, relationship and postcode included."],
+"ab2_why_t":["3 Gründe, mir zu folgen", "3 reasons to follow me"],
+"ab2_r1t":["Ich rechne nach, bevor ich schwärme.", "I run the numbers before I rave."],
+"ab2_r1s":["Tourismus-Studium, Rezeption, Restaurantleitung, Hotel-Controlling: Ich weiß, was hinter dem Cocktailpreis steckt - und wo du nur für die Kulisse zahlst. Dein Geldbeutel sagt danke.", "Tourism degree, front desk, restaurant management, hotel controlling: I know what is behind the cocktail price - and where you are only paying for the backdrop. Your wallet says thanks."],
+"ab2_r2t":["Ich frag nach dem Warum.", "I ask why."],
+"ab2_r2s":["Nicht nur „schön hier“, sondern: Was hat diesen Ort zu dem gemacht, der er heute ist? Von Albaniens Küste bis zur Zeche Zollverein - ich finde es raus und nehme dich mit.", "Not just “nice here”, but: what made this place what it is today? From Albania's coast to Zeche Zollverein - I dig it up and take you along."],
+"ab2_r3t":["Ungefiltert, mit Ruhrpott-Schnauze.", "Unfiltered, with Ruhr attitude."],
+"ab2_r3s":["Eine Nikon D90 von Mama, keine gestellten Shots, keine geliehene Kulisse. Wenn es regnet, siehst du Regen. Wenn es magisch ist, siehst du das auch.", "A Nikon D90 from my mum, no staged shots, no borrowed backdrops. If it rains, you see rain. If it is magic, you see that too."],
+"ab2_p1":["Ich bin Noel, 29, aufgewachsen im Ruhrgebiet - der Gegend, in der „Urlaub“ früher Zelt, Sauerland und Dauerregen hieß. Während andere ihre Sehenswürdigkeiten abhaken wie eine Steuererklärung, will ich wissen, was dahintersteckt.", "I am Noel, 29, raised in the Ruhr - where “holiday” used to mean a tent, the Sauerland and non-stop rain. While others tick off landmarks like a tax return, I want to know what is behind them."],
+"ab2_p2":["Was als Neugier begann, wurde zur Obsession: über 25 Länder, hunderte versteckte Orte - von Albaniens Küste bis nach Hanoi. Und ja, auch der Pott hat Hidden Gems. Mehr, als dein Kopf gerade denkt.", "What started as curiosity turned into an obsession: 25+ countries, hundreds of hidden places - from Albania's coast to Hanoi. And yes, the Ruhr has hidden gems too. More than you think."],
+"ab2_p3":["HiddenGem.Atlas ist der Beweis, dass man sich seinen Traum selbst bauen kann. Ohne Erbschaft, ohne Sponsor, ohne Van mit Dachzelt. Nur mit Neugier, Rucksack und einer Kamera, die älter ist als mancher Praktikant.", "HiddenGem.Atlas is proof that you can build your dream yourself. No inheritance, no sponsor, no van with a roof tent. Just curiosity, a backpack and a camera older than some interns."],
+"ab2_cta":["Komm mit auf die Reise", "Come along for the ride"],
 "mp_price":["Preis","Price"],
 "mp_route":["Route","Directions"],
 "mp_sub":["Ein Moment, der hängen geblieben ist.","A moment that stayed with me."],
@@ -3602,8 +3707,8 @@ HG.eff = function(){ return (HG.owner && HG.draft) ? HG.draft : (HG.pub || {}); 
 HG.set = function(){ return HG.eff().settings || {}; };
 HG.col = function(name){
   const c = HG.eff().col;
-  if (c && Array.isArray(c[name])) return c[name];
   const reg = HG.cols[name];
+  if (c && Array.isArray(c[name])) return reg && reg.merge ? reg.merge(c[name]) : c[name];
   return reg && reg.defaults ? reg.defaults() : [];
 };
 HG.detail = function(key){ const d = HG.eff().detail; return (d && d[key]) || {}; };
@@ -3626,6 +3731,15 @@ async function hgLoadContent(){
     const d = await r.json();
     if (d && typeof d === 'object') HG.pub = d;
   }catch(e){ console.info('content.json nicht geladen (lokale Vorschau?)', e && e.message); }
+}
+
+// Zusätzliche Orte (Bulk-Datei, z.B. Ruhrgebiet) - klein halten, damit index.html nicht wächst
+async function hgLoadMomentsExtra(){
+  try{
+    const r = await fetch('data/moments-extra.json?t=' + Math.floor(Date.now()/600000), {cache:'no-store'});
+    if (!r.ok) throw new Error('HTTP '+r.status);
+    const d = await r.json(); HG.momentsExtra = Array.isArray(d) ? d : (d && d.items) || [];
+  }catch(e){ HG.momentsExtra = HG.momentsExtra || []; console.info('moments-extra.json nicht geladen', e && e.message); }
 }
 
 // Texte + Einstellungen auf die Seite anwenden
@@ -3897,7 +4011,7 @@ async function hgBoot(){
   safeRun(hgOwnerInit, 'owner');
   // Seite sofort nutzbar machen, Inhalte kommen dazu
   const fallback = setTimeout(() => document.body.classList.remove('hg-loading'), 1400);
-  await hgLoadContent();
+  await Promise.all([hgLoadContent(), hgLoadMomentsExtra()]);
   if (typeof hgDraftLoad === 'function') safeRun(hgDraftLoad, 'draft');
   safeRun(applySettings, 'settings');
   safeRun(applyTexts, 'texts');
@@ -4296,6 +4410,7 @@ HG.addCard = function(name, label, cls){
 };
 function hgColSave(name, list){
   const d = hgDraftEnsure(); d.col = d.col || {}; d.col[name] = list;
+  if (name === 'moments'){ d.settings = d.settings || {}; const sn = new Set(d.settings.momentsSeen || []); (HG.momentsExtra || []).forEach(x => x && sn.add(x.id)); d.settings.momentsSeen = [...sn]; }
   hgDraftSave(); HG.rerender(); hgImgButtons();
 }
 function hgColMove(name, id, dir){
@@ -6061,14 +6176,14 @@ const MOMENTS = [
   {id:'ms-rug-roland', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Rügen', town_en:'Rügen', city:'Rasender Roland', city_en:'Rasender Roland steam train', cat:'sight', lat:54.3800, lon:13.6080, q:'Rasender Roland Rügen', rating:4, price:'€€', title:'Historische Dampfeisenbahn durch die Ostseebäder', title_en:'A historic steam train through the seaside resorts'},
 
   // ══ Ruhrpott (DE) ══
-  {id:'ms-rp-zollverein', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Ruhrgebiet', town_en:'Ruhr Area', city:'Zeche Zollverein (Essen)', city_en:'Zollverein Colliery (Essen)', cat:'culture', lat:51.4870, lon:7.0430, q:'Zeche Zollverein Essen', rating:5, price:'free', title:'Die "schönste Zeche der Welt" - UNESCO-Industriekultur pur', title_en:'The "most beautiful colliery in the world" - UNESCO industrial heritage'},
-  {id:'ms-rp-landschaftspark', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Ruhrgebiet', town_en:'Ruhr Area', city:'Landschaftspark Duisburg-Nord', city_en:'Landschaftspark Duisburg-Nord', cat:'sight', lat:51.4790, lon:6.7810, q:'Landschaftspark Duisburg-Nord', rating:5, price:'free', title:'Stillgelegtes Hüttenwerk als Park - abends bunt illuminiert', title_en:'A disused ironworks turned park - lit up in colour at night'},
-  {id:'ms-rp-gasometer', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Ruhrgebiet', town_en:'Ruhr Area', city:'Gasometer Oberhausen', city_en:'Gasometer Oberhausen', cat:'culture', lat:51.4960, lon:6.8720, q:'Gasometer Oberhausen', rating:4, price:'€', title:'Riesiger Gasspeicher als spektakuläre Ausstellungshalle', title_en:'A giant gas holder turned spectacular exhibition hall'},
-  {id:'ms-rp-tetraeder', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Ruhrgebiet', town_en:'Ruhr Area', city:'Tetraeder Bottrop', city_en:'Tetraeder Bottrop', cat:'view', lat:51.5360, lon:6.9720, q:'Tetraeder Bottrop', rating:4, price:'free', title:'Begehbare Stahlpyramide auf einer Halde - Blick über den Pott', title_en:'A walkable steel pyramid on a slag heap - a view over the region'},
-  {id:'ms-rp-signaliduna', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Ruhrgebiet', town_en:'Ruhr Area', city:'Signal Iduna Park (BVB, Dortmund)', city_en:'Signal Iduna Park (Dortmund)', cat:'sight', lat:51.4926, lon:7.4519, q:'Signal Iduna Park Dortmund', rating:4, price:'€€', title:'Die "Gelbe Wand" - größtes Stadion Deutschlands', title_en:'The "Yellow Wall" - the biggest stadium in Germany'},
-  {id:'ms-rp-baldeney', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Ruhrgebiet', town_en:'Ruhr Area', city:'Baldeneysee (Essen)', city_en:'Lake Baldeney (Essen)', cat:'nature', lat:51.4050, lon:7.0500, q:'Baldeneysee Essen', rating:4, price:'free', title:'Größter See des Ruhrgebiets - Segeln, Radeln, Ausflugsschiffe', title_en:'The biggest lake in the Ruhr - sailing, cycling and boat trips'},
-  {id:'ms-rp-nordstern', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Ruhrgebiet', town_en:'Ruhr Area', city:'Nordsternpark (Gelsenkirchen)', city_en:'Nordsternpark (Gelsenkirchen)', cat:'nature', lat:51.5100, lon:7.0480, q:'Nordsternpark Gelsenkirchen', rating:4, price:'free', title:'Ex-Zeche als grüner Park mit Herkules-Statue über dem Kanal', title_en:'A former colliery turned green park with a Hercules statue over the canal'},
-  {id:'ms-rp-bergbau', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Ruhrgebiet', town_en:'Ruhr Area', city:'Deutsches Bergbau-Museum (Bochum)', city_en:'German Mining Museum (Bochum)', cat:'culture', lat:51.4900, lon:7.2180, q:'Deutsches Bergbau-Museum Bochum', rating:4, price:'€', title:'Größtes Bergbaumuseum der Welt - runter ins Anschauungsbergwerk', title_en:'The largest mining museum in the world - down into the demo mine'},
+  {id:'ms-rp-zollverein', kind:'mustsee', cc:'DE', flag:'🇩🇪', area:'ruhr', town:'Essen', town_en:'Essen', city:'Zeche Zollverein (Essen)', city_en:'Zollverein Colliery (Essen)', cat:'culture', lat:51.4870, lon:7.0430, q:'Zeche Zollverein Essen', rating:5, price:'free', title:'Die "schönste Zeche der Welt" - UNESCO-Industriekultur pur', title_en:'The "most beautiful colliery in the world" - UNESCO industrial heritage'},
+  {id:'ms-rp-landschaftspark', kind:'mustsee', cc:'DE', flag:'🇩🇪', area:'ruhr', town:'Duisburg', town_en:'Duisburg', city:'Landschaftspark Duisburg-Nord', city_en:'Landschaftspark Duisburg-Nord', cat:'sight', lat:51.4790, lon:6.7810, q:'Landschaftspark Duisburg-Nord', rating:5, price:'free', title:'Stillgelegtes Hüttenwerk als Park - abends bunt illuminiert', title_en:'A disused ironworks turned park - lit up in colour at night'},
+  {id:'ms-rp-gasometer', kind:'mustsee', cc:'DE', flag:'🇩🇪', area:'ruhr', town:'Oberhausen', town_en:'Oberhausen', city:'Gasometer Oberhausen', city_en:'Gasometer Oberhausen', cat:'culture', lat:51.4960, lon:6.8720, q:'Gasometer Oberhausen', rating:4, price:'€', title:'Riesiger Gasspeicher als spektakuläre Ausstellungshalle', title_en:'A giant gas holder turned spectacular exhibition hall'},
+  {id:'ms-rp-tetraeder', kind:'mustsee', cc:'DE', flag:'🇩🇪', area:'ruhr', town:'Bottrop', town_en:'Bottrop', city:'Tetraeder Bottrop', city_en:'Tetraeder Bottrop', cat:'view', lat:51.5360, lon:6.9720, q:'Tetraeder Bottrop', rating:4, price:'free', title:'Begehbare Stahlpyramide auf einer Halde - Blick über den Pott', title_en:'A walkable steel pyramid on a slag heap - a view over the region'},
+  {id:'ms-rp-signaliduna', kind:'mustsee', cc:'DE', flag:'🇩🇪', area:'ruhr', town:'Dortmund', town_en:'Dortmund', city:'Signal Iduna Park (BVB, Dortmund)', city_en:'Signal Iduna Park (Dortmund)', cat:'sight', lat:51.4926, lon:7.4519, q:'Signal Iduna Park Dortmund', rating:4, price:'€€', title:'Die "Gelbe Wand" - größtes Stadion Deutschlands', title_en:'The "Yellow Wall" - the biggest stadium in Germany'},
+  {id:'ms-rp-baldeney', kind:'mustsee', cc:'DE', flag:'🇩🇪', area:'ruhr', town:'Essen', town_en:'Essen', city:'Baldeneysee (Essen)', city_en:'Lake Baldeney (Essen)', cat:'nature', lat:51.4050, lon:7.0500, q:'Baldeneysee Essen', rating:4, price:'free', title:'Größter See des Ruhrgebiets - Segeln, Radeln, Ausflugsschiffe', title_en:'The biggest lake in the Ruhr - sailing, cycling and boat trips'},
+  {id:'ms-rp-nordstern', kind:'mustsee', cc:'DE', flag:'🇩🇪', area:'ruhr', town:'Gelsenkirchen', town_en:'Gelsenkirchen', city:'Nordsternpark (Gelsenkirchen)', city_en:'Nordsternpark (Gelsenkirchen)', cat:'nature', lat:51.5100, lon:7.0480, q:'Nordsternpark Gelsenkirchen', rating:4, price:'free', title:'Ex-Zeche als grüner Park mit Herkules-Statue über dem Kanal', title_en:'A former colliery turned green park with a Hercules statue over the canal'},
+  {id:'ms-rp-bergbau', kind:'mustsee', cc:'DE', flag:'🇩🇪', area:'ruhr', town:'Bochum', town_en:'Bochum', city:'Deutsches Bergbau-Museum (Bochum)', city_en:'German Mining Museum (Bochum)', cat:'culture', lat:51.4900, lon:7.2180, q:'Deutsches Bergbau-Museum Bochum', rating:4, price:'€', title:'Größtes Bergbaumuseum der Welt - runter ins Anschauungsbergwerk', title_en:'The largest mining museum in the world - down into the demo mine'},
 
   // ══ Garmisch / Zugspitze (DE) ══
   {id:'ms-gap-zugspitze', kind:'mustsee', cc:'DE', flag:'🇩🇪', town:'Zugspitze / Garmisch', town_en:'Zugspitze / Garmisch', city:'Zugspitze (Gipfel)', city_en:'Zugspitze (summit)', cat:'view', lat:47.4211, lon:10.9855, q:'Zugspitze summit', rating:5, price:'€€€', title:'Höchster Berg Deutschlands - mit Zahnradbahn oder Seilbahn hoch', title_en:"Germany's highest peak - up by cog railway or cable car"},
@@ -6301,9 +6416,18 @@ const MOMENTS = [
   {id:"ms-bg-heilstollen", kind:'mustsee', cc:'AT', flag:"🇦🇹", town:'Bad Gastein', town_en:'Bad Gastein', city:"Gasteiner Heilstollen (Böckstein)", city_en:"Gastein Healing Gallery (Böckstein)", cat:"nature", lat:47.093, lon:13.113, q:"Gasteiner Heilstollen Böckstein", rating:3, price:"€€", title:"Radon-Heilstollen tief im Berg - Kur-Tradition seit Jahrzehnten", title_en:"A radon healing tunnel deep in the mountain - a decades-old spa tradition", gyg:"https://www.getyourguide.com/bad-gastein-l93218/?partner_id=H0DWLVB"}
 ];
 
+function mpDefaults(){ return MOMENTS.filter(Boolean).concat(HG.momentsExtra || []); }
 const MP_CATS = {sight:'🏛️', food:'🍽️', cafe:'☕', nature:'🌿', view:'🌅', shop:'🛍️', bar:'🍸', beach:'🏖️', culture:'🎭'};
 HG.registerCol('moments', {
-  label: 'Ort auf der Karte', prefix: 'm', addTop: false, defaults: () => MOMENTS,
+  label: 'Ort auf der Karte', prefix: 'm', addTop: false, defaults: () => mpDefaults(),
+  // Neue Orte aus data/moments-extra.json erscheinen auch dann, wenn schon eine Sammlung gespeichert ist - gelöschte bleiben gelöscht
+  merge: list => {
+    const extra = HG.momentsExtra || []; if (!extra.length) return list;
+    const have = new Set(list.filter(Boolean).map(x => x.id));
+    const seen = new Set(((HG.set() || {}).momentsSeen || []));
+    const add = extra.filter(x => x && !have.has(x.id) && !seen.has(x.id));
+    return add.length ? list.concat(add) : list;
+  },
   hint: 'Koordinaten: In Google Maps Rechtsklick auf den Ort → oben auf die Zahlen klicken (kopiert) → hier ins Feld „Breitengrad" einfügen (füllt beide). Oder im Bearbeitungsmodus direkt auf die Karte klicken.',
   blank: () => ({flag: '📍', kind: 'gem', cat: 'sight', rating: 5, price: 'free', cc: 'DE'}),
   schema: [
@@ -6311,6 +6435,8 @@ HG.registerCol('moments', {
     {f:'town', l:'Stadt (für den Städte-Filter)', i18n:true, type:'text', help:'z.B. Tokyo, Prag - danach lässt sich die Karte filtern.'},
     {f:'kind', l:'Art', type:'select', opts:[['gem','💎 Hidden Gem (mein Geheimtipp)'],['mustsee','⭐ Must-See (klassische Sehenswürdigkeit)']]},
     {f:'cat', l:'Kategorie', type:'select', opts:[['sight','🏛️ Sehenswürdigkeit'],['food','🍽️ Essen / Restaurant'],['cafe','☕ Café'],['nature','🌿 Natur'],['view','🌅 Aussicht'],['shop','🛍️ Shopping'],['bar','🍸 Bar / Nightlife'],['beach','🏖️ Strand'],['culture','🎭 Kultur']]},
+    {f:'area', l:'Region (optional, gruppiert Orte über Städte hinweg)', type:'select', opts:[['', '- keine -'],['ruhr','🏭 Ruhrgebiet']]},
+    {f:'visit', l:'Status', type:'select', opts:[['', '✅ Von mir besucht'],['todo','🧭 Auf meiner Liste (noch nicht besucht)']]},
     {f:'cc', l:'Land (2-Buchstaben-Code, z.B. DE, JP, VN)', type:'text', def:'DE'},
     {f:'flag', l:'Flagge / Emoji', type:'text', def:'📍'},
     {f:'lat', l:'Breitengrad (z.B. 48.8566)', type:'number', step:'any', req:true, help:'Tipp: „48.8566, 2.3522" hier einfügen füllt beide Felder.'},
@@ -6376,38 +6502,65 @@ function mpGoogle(m){ const q = (m.q || '').trim(); return q ? 'https://www.goog
 function mpDir(m){ const q = (m.q || '').trim(); return q ? 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(q) : 'https://www.google.com/maps/dir/?api=1&destination=' + (+m.lat) + ',' + (+m.lon); }
 
 let mpMap = null, mpLayer = null;
-const mpF = {country: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all'};
-function mpMatch(m){
-  return (mpF.country === 'all' || (m.cc || '') === mpF.country)
-    && (mpF.town === 'all' || (m.town || '') === mpF.town)
-    && (mpF.cat === 'all' || (m.cat || 'sight') === mpF.cat)
-    && (mpF.price === 'all' || (m.price || 'free') === mpF.price)
-    && (mpF.kind === 'all' || (m.kind || 'gem') === mpF.kind);
+// Regionen: Orte mit "area" werden als eigene Region gruppiert (z.B. Ruhrgebiet) - beliebig erweiterbar.
+const MP_AREAS = {ruhr: {de: 'Ruhrgebiet', en: 'Ruhr Area', flag: '🏭'}};
+const mpF = {country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', q: ''};
+const mpUI = {open: {}, more: {}};
+const MP_LIM = 12;
+function mpNorm(s){ return String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+const mpHayCache = new WeakMap();
+function mpHay(m){
+  let h = mpHayCache.get(m); if (h) return h;
+  const ar = MP_AREAS[m.area] || {};
+  let cn = ''; try{ cn = new Intl.DisplayNames(['de'], {type: 'region'}).of(m.cc) + ' ' + new Intl.DisplayNames(['en'], {type: 'region'}).of(m.cc); }catch(e){}
+  h = mpNorm([m.city, m.city_en, m.town, m.town_en, m.title, m.title_en, cn, ar.de, ar.en].map(x => stripTags(x || '')).join(' '));
+  mpHayCache.set(m, h); return h;
 }
+// skip = Filter-Dimensionen, die ignoriert werden (für die Zähler an den Chips)
+function mpMatch(m, skip){
+  skip = skip || {};
+  if (!skip.country && mpF.country !== 'all' && (m.cc || '') !== mpF.country) return false;
+  if (!skip.area && mpF.area !== 'all' && (m.area || '') !== mpF.area) return false;
+  if (!skip.town && mpF.town !== 'all' && (m.town || '') !== mpF.town) return false;
+  if (!skip.cat && mpF.cat !== 'all' && (m.cat || 'sight') !== mpF.cat) return false;
+  if (!skip.price && mpF.price !== 'all' && (m.price || 'free') !== mpF.price) return false;
+  if (!skip.kind && mpF.kind !== 'all' && (m.kind || 'gem') !== mpF.kind) return false;
+  if (!skip.visit && mpF.visit !== 'all'){ const todo = m.visit === 'todo'; if (mpF.visit === 'todo' ? !todo : todo) return false; }
+  if (!skip.q && mpF.q){ const n = mpNorm(mpF.q).trim(); if (n && !n.split(/\s+/).every(w => mpHay(m).indexOf(w) > -1)) return false; }
+  return true;
+}
+function mpFacet(skip){ return mpAllMoments().filter(m => mpMatch(m, skip)); }
+function mpActive(){ return mpF.country !== 'all' || mpF.area !== 'all' || mpF.town !== 'all' || mpF.cat !== 'all' || mpF.price !== 'all' || mpF.kind !== 'all' || mpF.visit !== 'all' || !!mpF.q; }
 function mpEnsureMap(){
   if (mpMap || typeof L === 'undefined') return mpMap;
   const el = document.getElementById('mp-map'); if (!el) return null;
   mpMap = L.map(el, {scrollWheelZoom: false, worldCopyJump: true, attributionControl: false}).setView([44, 15], 4);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(mpMap);
   mpMap.on('click', e => { if (HG.editing) hgColForm('moments', null, {lat: +e.latlng.lat.toFixed(5), lon: +e.latlng.lng.toFixed(5)}); });
-  mpLayer = L.layerGroup().addTo(mpMap);
+  // Cluster, damit auch 1500+ Pins schnell und lesbar bleiben (Fallback: einfache Ebene)
+  mpLayer = (typeof L.markerClusterGroup === 'function'
+    ? L.markerClusterGroup({showCoverageOnHover: false, maxClusterRadius: 46, spiderfyOnMaxZoom: true, chunkedLoading: true,
+        iconCreateFunction: c => L.divIcon({html: '<div><span>' + c.getChildCount() + '</span></div>', className: 'mp-cl', iconSize: L.point(40, 40)})})
+    : L.layerGroup()).addTo(mpMap);
   return mpMap;
 }
 function mpMarkers(){
   if (!mpMap || !mpLayer) return;
   mpLayer.clearLayers();
-  const list = mpAllMoments().filter(mpMatch);
-  const pts = [];
+  const list = mpAllMoments().filter(m => mpMatch(m));
+  const pts = [], marks = [];
   list.forEach(m => {
     const lat = +m.lat, lon = +m.lon; pts.push([lat, lon]);
     const mustsee = m.kind === 'mustsee';
     const icon = L.divIcon({className: 'mp-mk' + (mustsee ? ' ms' : ''), html: '<span>' + esc(m.flag || '📍') + '</span>', iconSize: [30, 30], iconAnchor: [15, 15]});
     const gm = mpGoogle(m), dir = mpDir(m);
     const kindB = mustsee ? '<span class="mp-tag ms">⭐ ' + t('mp_mustsee') + '</span>' : '<span class="mp-tag gem">💎 ' + t('mp_gem') + '</span>';
+    const todoB = m.visit === 'todo' ? '<span class="mp-tag">🧭 ' + t('mp_todo') + '</span>' : '';
     const where = (mpTownName(m) ? esc(mpTownName(m)) + ' · ' : '') + esc(mpCountryName(m.cc));
-    const pop = '<div class="mp-pop"><div class="mp-pop-head">' + kindB + ' <span class="mp-tag">' + (MP_CATS[m.cat] || '📍') + ' ' + t('cat_' + (m.cat || 'sight')) + '</span></div>' +
+    const pl = (m.price && m.price !== '?') ? ' · ' + esc(mpPriceLabel(m.price)) : '';
+    const pop = '<div class="mp-pop"><div class="mp-pop-head">' + kindB + todoB + ' <span class="mp-tag">' + (MP_CATS[m.cat] || '📍') + ' ' + t('cat_' + (m.cat || 'sight')) + '</span></div>' +
       '<div class="mp-pop-t">' + esc(m.flag || '📍') + ' ' + esc(stripTags(Lz(m, 'city'))) + '</div>' +
-      '<div class="mp-pop-meta"><span class="mp-rate">' + mpStars(m.rating) + '</span> · ' + esc(mpPriceLabel(m.price)) + ' · ' + where + '</div>' +
+      '<div class="mp-pop-meta"><span class="mp-rate">' + mpStars(m.rating) + '</span>' + pl + ' · ' + where + '</div>' +
       '<div class="mp-pop-s">' + esc(stripTags(Lz(m, 'title'))) + '</div>' +
       '<div class="mp-pop-btns">' +
         '<a href="' + gm + '" target="_blank" rel="noopener">🗺️ ' + t('mp_open_gmaps') + '</a>' +
@@ -6415,60 +6568,156 @@ function mpMarkers(){
         (m.gyg ? '<a class="gyg" href="' + esc(safeUrl(m.gyg)) + '" target="_blank" rel="noopener sponsored">✦ ' + t('mp_book_tour') + '</a>' : '') +
         '<button type="button" onclick="mpOpen(\'' + jsq(m.id) + '\')">📂 ' + t('mp_details') + '</button>' +
       '</div></div>';
-    L.marker([lat, lon], {icon}).addTo(mpLayer).bindPopup(pop, {maxWidth: 280});
+    marks.push(L.marker([lat, lon], {icon}).bindPopup(pop, {maxWidth: 280}));
   });
+  if (typeof mpLayer.addLayers === 'function') mpLayer.addLayers(marks); else marks.forEach(k => k.addTo(mpLayer));
   if (pts.length){ try{ mpMap.fitBounds(pts, {padding: [45, 45], maxZoom: 12}); }catch(e){} }
 }
-function mpTowns(){
-  const map = {};
-  mpAllMoments().forEach(m => { if (m.town && (mpF.country === 'all' || m.cc === mpF.country)) map[m.town] = stripTags(Lz(m, 'town')); });
-  return Object.keys(map).sort((a, b) => map[a].localeCompare(map[b], lang)).map(k => [k, map[k]]);
-}
+function mpChip(label, n, active, js){ return '<button type="button" class="mp-chip' + (active ? ' active' : '') + '" onclick="' + esc(js) + '">' + label + (n != null ? ' <em>' + nf(n) + '</em>' : '') + '</button>'; }
 function mpBuildFilters(){
   const bar = document.getElementById('mp-filters'); if (!bar) return;
   const all = mpAllMoments();
-  const countries = [...new Set(all.map(m => m.cc).filter(Boolean))].sort((a, b) => mpCountryName(a).localeCompare(mpCountryName(b), lang));
+  const opt = (v, label, sel) => '<option value="' + esc(v) + '" ' + (sel === v ? 'selected' : '') + '>' + label + '</option>';
+  // Art (mit Zählern)
+  const kn = {all: 0, gem: 0, mustsee: 0};
+  mpFacet({kind: 1}).forEach(m => { kn.all++; kn[(m.kind || 'gem')] = (kn[(m.kind || 'gem')] || 0) + 1; });
+  const kbtn = (k, label) => '<button type="button" class="mp-kbtn' + (mpF.kind === k ? ' active' : '') + '" onclick="mpSet(\'kind\',\'' + k + '\')">' + label + ' <em>' + nf(kn[k] || 0) + '</em></button>';
+  // Regionen: Alle · Gebiete (z.B. Ruhrgebiet) · Länder, jeweils mit Zähler
+  const byCc = {}, byArea = {}; let total = 0;
+  mpFacet({country: 1, area: 1, town: 1}).forEach(m => { total++; if (m.cc) byCc[m.cc] = (byCc[m.cc] || 0) + 1; if (m.area) byArea[m.area] = (byArea[m.area] || 0) + 1; });
+  const ccs = Object.keys(byCc).sort((a, b) => byCc[b] - byCc[a] || mpCountryName(a).localeCompare(mpCountryName(b), lang));
+  let chips = mpChip(t('mp_all'), total, mpF.country === 'all' && mpF.area === 'all', "mpRegion('all')");
+  Object.keys(MP_AREAS).filter(a => byArea[a]).forEach(a => { chips += mpChip(MP_AREAS[a].flag + ' ' + esc(lang === 'en' ? MP_AREAS[a].en : MP_AREAS[a].de), byArea[a], mpF.area === a, "mpRegion('area','" + a + "')"); });
+  ccs.forEach(c => { chips += mpChip(mpFlag(c) + ' ' + esc(mpCountryName(c)), byCc[c], mpF.country === c, "mpRegion('country','" + c + "')"); });
+  // Städte der gewählten Region
+  let cityRow = '';
+  if (mpF.country !== 'all' || mpF.area !== 'all'){
+    const bt = {}, tl = {}; let tt = 0;
+    mpFacet({town: 1}).forEach(m => { tt++; if (m.town){ bt[m.town] = (bt[m.town] || 0) + 1; tl[m.town] = stripTags(Lz(m, 'town')); } });
+    const keys = Object.keys(bt).sort((a, b) => bt[b] - bt[a] || tl[a].localeCompare(tl[b], lang));
+    cityRow = '<div class="mp-chips mp-chips-city" role="group" aria-label="' + esc(stripTags(t('mp_city'))) + '">' + mpChip(t('mp_all_cities'), tt, mpF.town === 'all', "mpSet('town','all')") + keys.map(k => mpChip(esc(tl[k]), bt[k], mpF.town === k, "mpSet('town','" + jsq(k) + "')")).join('') + '</div>';
+  }
   const cats = [...new Set(all.map(m => m.cat || 'sight'))];
   const catOrder = Object.keys(MP_CATS).filter(c => cats.includes(c));
-  const towns = mpTowns();
-  const opt = (v, label, sel) => '<option value="' + esc(v) + '" ' + (sel === v ? 'selected' : '') + '>' + label + '</option>';
   bar.innerHTML =
-    '<div class="mp-kind">' +
-      '<button type="button" class="mp-kbtn' + (mpF.kind === 'all' ? ' active' : '') + '" onclick="mpSet(\'kind\',\'all\',this)">' + t('mp_all') + '</button>' +
-      '<button type="button" class="mp-kbtn' + (mpF.kind === 'gem' ? ' active' : '') + '" onclick="mpSet(\'kind\',\'gem\',this)">💎 ' + t('mp_gems') + '</button>' +
-      '<button type="button" class="mp-kbtn' + (mpF.kind === 'mustsee' ? ' active' : '') + '" onclick="mpSet(\'kind\',\'mustsee\',this)">⭐ ' + t('mp_mustsees') + '</button>' +
-    '</div>' +
+    '<div class="mp-kind">' + kbtn('all', t('mp_all')) + kbtn('gem', '💎 ' + t('mp_gems')) + kbtn('mustsee', '⭐ ' + t('mp_mustsees')) + '</div>' +
+    '<div class="mp-chips" role="group" aria-label="' + esc(stripTags(t('mp_regions'))) + '">' + chips + '</div>' + cityRow +
     '<div class="mp-selects">' +
-      '<label class="mp-sel"><span>' + t('mp_country') + '</span><select onchange="mpSet(\'country\',this.value)">' + opt('all', t('mp_all_countries'), mpF.country) + countries.map(c => opt(c, mpFlag(c) + ' ' + esc(mpCountryName(c)), mpF.country)).join('') + '</select></label>' +
-      '<label class="mp-sel"><span>' + t('mp_city') + '</span><select onchange="mpSet(\'town\',this.value)">' + opt('all', t('mp_all_cities'), mpF.town) + towns.map(([k, label]) => opt(k, esc(label), mpF.town)).join('') + '</select></label>' +
       '<label class="mp-sel"><span>' + t('mp_category') + '</span><select onchange="mpSet(\'cat\',this.value)">' + opt('all', t('mp_all_cats'), mpF.cat) + catOrder.map(c => opt(c, MP_CATS[c] + ' ' + t('cat_' + c), mpF.cat)).join('') + '</select></label>' +
-      '<label class="mp-sel"><span>' + t('mp_price') + '</span><select onchange="mpSet(\'price\',this.value)">' + opt('all', t('mp_all_prices'), mpF.price) + ['free','€','€€','€€€'].map(p => opt(p, mpPriceLabel(p), mpF.price)).join('') + '</select></label>' +
+      '<label class="mp-sel"><span>' + t('mp_price') + '</span><select onchange="mpSet(\'price\',this.value)">' + opt('all', t('mp_all_prices'), mpF.price) + ['free', '€', '€€', '€€€'].map(p => opt(p, mpPriceLabel(p), mpF.price)).join('') + '</select></label>' +
+      '<label class="mp-sel"><span>' + t('mp_visit') + '</span><select onchange="mpSet(\'visit\',this.value)">' + opt('all', t('mp_visit_all'), mpF.visit) + opt('done', '✅ ' + t('mp_visit_done'), mpF.visit) + opt('todo', '🧭 ' + t('mp_visit_todo'), mpF.visit) + '</select></label>' +
+      (mpActive() ? '<button type="button" class="mp-reset" onclick="mpReset()">✕ ' + t('mp_reset') + '</button>' : '') +
     '</div>';
 }
-function mpSet(key, val, btn){
+function mpRefresh(){ mpBuildFilters(); mpMarkers(); mpRenderList(); }
+function mpSet(key, val){
   mpF[key] = val;
-  if (key === 'country'){ mpF.town = 'all'; mpBuildFilters(); }        // Städte-Liste an neues Land anpassen
-  else if (key === 'kind'){ document.querySelectorAll('.mp-kbtn').forEach(b => b.classList.remove('active')); if (btn) btn.classList.add('active'); }
-  mpMarkers(); mpRenderList();
+  if (key === 'country'){ mpF.town = 'all'; mpF.area = 'all'; }
+  if (key === 'area'){ mpF.town = 'all'; mpF.country = 'all'; }
+  mpRefresh();
+}
+function mpRegion(type, val){
+  mpF.country = 'all'; mpF.area = 'all'; mpF.town = 'all';
+  if (type === 'country') mpF.country = val; else if (type === 'area') mpF.area = val;
+  mpRefresh();
+}
+function mpReset(){
+  Object.assign(mpF, {country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', q: ''});
+  const qi = document.getElementById('mp-q'); if (qi) qi.value = '';
+  mpUI.open = {}; mpUI.more = {}; mpRefresh();
+}
+const mpSearch = debounce(v => { mpF.q = String(v || ''); mpUI.open = {}; mpRefresh(); }, 160);
+function mpToggle(k){
+  const el = document.querySelector('.mp-grp[data-g="' + k + '"]');
+  mpUI.open[k] = !(el && el.classList.contains('open')); mpRenderList();
+}
+function mpMore(mk){ mpUI.more[mk] = (mpUI.more[mk] || 0) + 24; mpRenderList(); }
+function mpRenderStats(){
+  const el = document.getElementById('mp-stats'); if (!el) return;
+  const all = mpAllMoments();
+  const gems = all.filter(m => (m.kind || 'gem') === 'gem').length;
+  const ccs = new Set(all.map(m => m.cc).filter(Boolean)).size;
+  const towns = new Set(all.filter(m => m.town).map(m => (m.cc || '') + '|' + m.town)).size;
+  const tile = (n, l) => '<div class="mp-st"><strong>' + nf(n) + '</strong><span>' + l + '</span></div>';
+  el.innerHTML = tile(all.length, t('mp_st_places')) + tile(gems, '💎 ' + t('mp_gems')) + tile(all.length - gems, '⭐ ' + t('mp_mustsees')) + tile(ccs, t('mp_st_countries')) + tile(towns, t('mp_st_cities')) + '<div class="mp-st-note">' + t('mp_st_grow') + '</div>';
+}
+function mpGroupKey(m){ return m.area ? 'a:' + m.area : 'c:' + (m.cc || '?'); }
+function mpGroupLabel(k, restOf){
+  if (k.indexOf('a:') !== 0 && restOf && restOf[k.slice(2)]) return mpFlag(k.slice(2)) + ' ' + esc(mpCountryName(k.slice(2))) + ' <small class="mp-rest">' + t('mp_rest') + '</small>';
+  if (k.indexOf('a:') === 0){ const a = MP_AREAS[k.slice(2)] || {}; return (a.flag || '📍') + ' ' + esc(lang === 'en' ? (a.en || a.de) : (a.de || a.en)); }
+  const cc = k.slice(2); return mpFlag(cc) + ' ' + esc(mpCountryName(cc));
+}
+function mpCard(m){
+  const gm = mpGoogle(m), ms = m.kind === 'mustsee', todo = m.visit === 'todo';
+  const meta = ['<span class="mp-rate">' + mpStars(m.rating) + '</span>'];
+  if (m.price && m.price !== '?') meta.push(esc(mpPriceLabel(m.price)));
+  meta.push((MP_CATS[m.cat] || '') + ' ' + t('cat_' + (m.cat || 'sight')));
+  return '<div class="mp-item' + (todo ? ' todo' : '') + '" data-id="' + esc(m.id) + '">' + HG.tools('moments', m.id) +
+    '<div class="mp-item-main" onclick="mpOpen(\'' + jsq(m.id) + '\')" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\')mpOpen(\'' + jsq(m.id) + '\')">' +
+      '<div class="mp-item-top"><span class="mp-item-kind ' + (ms ? 'ms' : 'gem') + '">' + (ms ? '⭐' : '💎') + '</span><span class="mp-item-t">' + esc(m.flag || '📍') + ' ' + Lz(m, 'city') + '</span></div>' +
+      '<div class="mp-item-meta">' + meta.join(' · ') + '</div>' +
+      '<div class="mp-item-m">' + Lz(m, 'title') + '</div>' +
+      (todo ? '<div class="mp-todo">🧭 ' + t('mp_todo') + '</div>' : '') +
+    '</div>' +
+    '<a class="mp-item-gm" href="' + gm + '" target="_blank" rel="noopener" title="' + esc(stripTags(t('mp_open_gmaps'))) + '">🗺️</a>' +
+  '</div>';
 }
 function mpRenderList(){
   const listEl = document.getElementById('mp-list'); if (!listEl) return;
-  const list = mpAllMoments().filter(mpMatch);
+  const list = mpAllMoments().filter(m => mpMatch(m));
   const cnt = document.getElementById('mp-count'); if (cnt) cnt.textContent = list.length;
-  listEl.innerHTML = list.map(m => {
-    const gm = mpGoogle(m);
-    const where = (mpTownName(m) ? esc(mpTownName(m)) + ' · ' : '') + (MP_CATS[m.cat] || '') + ' ' + t('cat_' + (m.cat || 'sight'));
-    return '<div class="mp-item" data-id="' + esc(m.id) + '">' + HG.tools('moments', m.id) +
-      '<div class="mp-item-main" onclick="mpOpen(\'' + jsq(m.id) + '\')" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\')mpOpen(\'' + jsq(m.id) + '\')">' +
-        '<div class="mp-item-top"><span class="mp-item-kind ' + (m.kind === 'mustsee' ? 'ms' : 'gem') + '">' + (m.kind === 'mustsee' ? '⭐' : '💎') + '</span><span class="mp-item-t">' + esc(m.flag || '📍') + ' ' + Lz(m, 'city') + '</span></div>' +
-        '<div class="mp-item-meta"><span class="mp-rate">' + mpStars(m.rating) + '</span> · ' + esc(mpPriceLabel(m.price)) + ' · ' + where + '</div>' +
-        '<div class="mp-item-m">' + Lz(m, 'title') + '</div>' +
-      '</div>' +
-      '<a class="mp-item-gm" href="' + gm + '" target="_blank" rel="noopener" title="' + esc(stripTags(t('mp_open_gmaps'))) + '">🗺️</a>' +
-    '</div>';
-  }).join('') + HG.addCard('moments', 'Ort hinzufügen', 'mp-add');
+  mpRenderStats();
+  const addBtn = HG.addCard('moments', 'Ort hinzufügen', 'mp-add');
+  if (!list.length){
+    listEl.innerHTML = '<div class="mp-empty"><p>' + t('mp_none') + '</p><button type="button" class="btn-g" onclick="mpReset()">' + t('mp_reset') + '</button></div>' + addBtn;
+    return;
+  }
+  const groups = {};
+  list.forEach(m => { const k = mpGroupKey(m); (groups[k] = groups[k] || []).push(m); });
+  const keys = Object.keys(groups).sort((a, b) => {
+    const aa = a.indexOf('a:') === 0, ab = b.indexOf('a:') === 0;
+    if (aa !== ab) return aa ? -1 : 1;
+    return groups[b].length - groups[a].length || a.localeCompare(b);
+  });
+  const restOf = {}; list.forEach(m => { if (m.area && m.cc) restOf[m.cc] = 1; });
+  const narrowed = !!mpF.q || mpF.country !== 'all' || mpF.area !== 'all' || mpF.town !== 'all' || list.length <= 40;
+  const rank = (a, b) => (b.rating || 0) - (a.rating || 0) || stripTags(Lz(a, 'city')).localeCompare(stripTags(Lz(b, 'city')), lang);
+  let html = '';
+  keys.forEach((k, idx) => {
+    const items = groups[k];
+    const open = (k in mpUI.open) ? mpUI.open[k] : (narrowed || idx === 0);
+    const g = items.filter(m => (m.kind || 'gem') === 'gem').length, ms = items.length - g;
+    html += '<section class="mp-grp' + (open ? ' open' : '') + '" data-g="' + esc(k) + '">' +
+      '<button type="button" class="mp-grp-h" aria-expanded="' + (open ? 'true' : 'false') + '" onclick="mpToggle(\'' + k + '\')">' +
+        '<span class="mp-grp-t">' + mpGroupLabel(k, restOf) + '</span>' +
+        '<span class="mp-grp-n">' + (g ? '💎 ' + g : '') + (g && ms ? ' · ' : '') + (ms ? '⭐ ' + ms : '') + '</span>' +
+        '<span class="mp-grp-c">' + items.length + '</span><span class="mp-chev">▾</span></button>';
+    if (open){
+      const towns = {};
+      items.forEach(m => { const tk = m.town || '-'; (towns[tk] = towns[tk] || []).push(m); });
+      const tkeys = Object.keys(towns).sort((a, b) => towns[b].length - towns[a].length || a.localeCompare(b, lang));
+      html += '<div class="mp-grp-b">';
+      tkeys.forEach(tk => {
+        const arr = towns[tk];
+        const gems = arr.filter(m => (m.kind || 'gem') === 'gem'), mst = arr.filter(m => (m.kind || 'gem') !== 'gem');
+        html += '<div class="mp-city"><h4 class="mp-city-h"><span>' + esc(stripTags(Lz(arr[0], 'town')) || '-') + '</span><em>' + arr.length + '</em></h4>';
+        [[gems, 'gem', '💎 ' + t('mp_gems')], [mst, 'mustsee', '⭐ ' + t('mp_mustsees')]].forEach(pair => {
+          const set = pair[0].slice().sort(rank); if (!set.length) return;
+          const mk = k + '|' + tk + '|' + pair[1], lim = MP_LIM + (mpUI.more[mk] || 0);
+          html += (gems.length && mst.length ? '<div class="mp-sub">' + pair[2] + ' <em>' + set.length + '</em></div>' : '') +
+            '<div class="mp-cards">' + set.slice(0, lim).map(mpCard).join('') + '</div>';
+          if (set.length > lim) html += '<button type="button" class="mp-more" onclick="' + esc("mpMore('" + jsq(mk) + "')") + '">' + t('mp_more', {n: set.length - lim}) + '</button>';
+        });
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+    html += '</section>';
+  });
+  listEl.innerHTML = html + addBtn;
 }
 function renderMoments(){
+  const qi = document.getElementById('mp-q'); if (qi && qi.value !== mpF.q) qi.value = mpF.q;
   mpBuildFilters();
   mpRenderList();
   mpEnsureMap(); mpMarkers();
@@ -6898,7 +7147,7 @@ function plShowOnMap(cc, town){
   gTo('momente');
   setTimeout(() => {
     try{
-      if (typeof mpF !== 'undefined'){ mpF.country = cc || 'all'; mpF.town = town; mpF.cat = 'all'; mpF.price = 'all'; mpF.kind = 'all'; }
+      if (typeof mpF !== 'undefined'){ mpF.country = cc || 'all'; mpF.area = 'all'; mpF.town = town; mpF.cat = 'all'; mpF.price = 'all'; mpF.kind = 'all'; mpF.visit = 'all'; mpF.q = ''; const qi = document.getElementById('mp-q'); if (qi) qi.value = ''; }
       if (typeof mpBuildFilters === 'function') mpBuildFilters();
       if (typeof mpEnsureMap === 'function') mpEnsureMap();
       if (typeof mpMarkers === 'function') mpMarkers();
