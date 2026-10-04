@@ -1,9 +1,23 @@
 {
-  "updated": "03.10.2026",
-  "generated": "2026-10-03T10:17:07.475Z",
+  "updated": "04.10.2026",
+  "generated": "2026-10-04T11:01:11.143Z",
   "maxAgeDays": 14,
-  "count": 14,
+  "count": 15,
   "items": [
+    {
+      "id": "auto-tipps-von-autorin-warum-sich-ein-besuch-in-rom",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-03",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/news/warum-sich-rom-im-oktober-besonders-lohnt",
+      "title": "Tipps von Autorin: Warum sich ein Besuch in Rom im Oktober besonders lohnt",
+      "desc": "Overtourism ist ein Phänomen, das in vielen Metropolen Europas längst Einzug gehalten hat. Doch glücklicherweise gibt es auch in Städten wie Rom noch den ein oder anderen Geheimtipp. Das lohnt sich insbesondere, wenn man die Stadt im ...",
+      "title_en": "Tips from the author: Why a visit to Rome in October is particularly worthwhile",
+      "desc_en": "Overtourism is a phenomenon that has long since found its way into many European cities. But fortunately there are still one or two insider tips in cities like Rome. This is particularly worthwhile if you visit the city in..."
+    },
     {
       "id": "auto-minor-hotels-wants-a-vietnam-network-not-just-",
       "cat": "International",
