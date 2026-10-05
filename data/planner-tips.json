@@ -1,0 +1,398 @@
+{
+ "Barcelona": {
+  "kind": "own",
+  "de": "Barcelona ist die Reise, die alles verändert hat: Um 7 Uhr morgens saß ich allein am Port Vell und habe Postkarten geschrieben, während meine Freunde schon am Flughafen waren. Mein Rat: Stell dir einmal den Wecker, geh zum Hafen, bevor die Stadt aufwacht - und schreib jemandem eine Postkarte.",
+  "en": "Barcelona is the trip that changed everything: at 7am I sat alone at Port Vell writing postcards while my friends were already at the airport. My advice: set your alarm once, go to the harbour before the city wakes up - and write someone a postcard.",
+  "key": "plt_barcelona"
+ },
+ "Kyoto": {
+  "kind": "own",
+  "de": "Um 6 Uhr morgens gehörten mir die tausend Tore von Fushimi Inari fast allein - für mich der Moment, in dem Kyoto Sinn ergibt. Mein Rat: die ersten Stunden für Fushimi Inari, danach Higashiyama, solange die Gassen noch ruhig sind.",
+  "en": "At 6am the thousand gates of Fushimi Inari were almost all mine - for me, the moment Kyoto makes sense. My advice: give the first hours to Fushimi Inari, then Higashiyama while the lanes are still quiet.",
+  "key": "plt_kyoto"
+ },
+ "Tokyo": {
+  "kind": "own",
+  "de": "Shibuya bei Nacht ist für mich Tokio in seiner reinsten Form: Neon, Menschen, Energie. Am meisten beeindruckt hat mich in Japan aber, wie die Menschen miteinander umgehen - Freundlichkeit kostet nichts. Mein Rat: tagsüber Meiji-Schrein und Harajuku, zum Sonnenuntergang nach Shibuya.",
+  "en": "Shibuya at night is Tokyo in its purest form for me: neon, people, energy. What impressed me most in Japan, though, was how people treat each other - kindness costs nothing. My advice: Meiji Shrine and Harajuku by day, Shibuya at sunset.",
+  "key": "plt_tokyo"
+ },
+ "Osaka": {
+  "kind": "tip",
+  "de": "Osaka war Teil meiner Japan-Reise. Mein Tipp: abends nach Dotonbori, durch die Garküchen treiben lassen und Takoyaki direkt vom Stand essen - tagsüber die Burg und der Kuromon-Markt.",
+  "en": "Osaka was part of my Japan trip. My tip: head to Dotonbori in the evening, drift through the food stalls and eat takoyaki straight from the stand - the castle and Kuromon Market by day.",
+  "key": "plt_osaka"
+ },
+ "Seoul": {
+  "kind": "tip",
+  "de": "Seoul war nach Japan meine nächste Station. Mein Tipp: morgens durch das Bukchon Hanok Village, mittags zu den Garküchen im Gwangjang-Markt und abends hoch auf den Namsan zum N Seoul Tower.",
+  "en": "Seoul was my next stop after Japan. My tip: Bukchon Hanok Village in the morning, the food stalls of Gwangjang Market for lunch and up Namsan to N Seoul Tower at night.",
+  "key": "plt_seoul"
+ },
+ "Hanoi": {
+  "kind": "own",
+  "de": "So habe ich Hanoi kennengelernt: Pho um 6 Uhr morgens auf einem Plastikstuhl - besser als jedes Restaurant. Mein Rat: früh raus zum Hoan-Kiem-See, wenn die Stadt Tai-Chi macht, und abends ein Bia Hơi in der Altstadt.",
+  "en": "This is how I got to know Hanoi: pho at 6am on a plastic stool - better than any restaurant. My advice: head to Hoan Kiem Lake early while the city does tai chi, and have a bia hơi in the old quarter at night.",
+  "key": "plt_hanoi"
+ },
+ "Ho-Chi-Minh-Stadt": {
+  "kind": "own",
+  "de": "Saigon hört nie auf - und genau das ist der Reiz. Mein Rat: keinen Plan machen, im District 1 treiben lassen und abends auf die Nguyen-Hue-Flaniermeile.",
+  "en": "Saigon never stops - and that is exactly the appeal. My advice: don't make a plan, let yourself drift through District 1 and stroll Nguyen Hue boulevard at night.",
+  "key": "plt_ho_chi_minh_stadt"
+ },
+ "Hoi An": {
+  "kind": "own",
+  "de": "Hoi An bei Vollmond: Tausende Laternen in der autofreien Altstadt - genau dafür lohnt sich die Reise. Mein Rat: Plane den Besuch um den 14. Tag des Mondmonats (steht im Eventkalender) und setz abends eine Kerze auf dem Fluss aus.",
+  "en": "Hoi An at full moon: thousands of lanterns in the car-free old town - that alone is worth the trip. My advice: plan your visit around the 14th day of the lunar month (see the event calendar) and float a candle on the river at night.",
+  "key": "plt_hoi_an"
+ },
+ "Tirana": {
+  "kind": "own",
+  "de": "Bunk'Art 1 hat mich mehr beeindruckt als so manches große Museum - ein Atombunker am Stadtrand, fast menschenleer. Mein Rat: mit dem Bus raus zu Bunk'Art 1, danach zurück ins Zentrum und den Abend im Blloku-Viertel verbringen.",
+  "en": "Bunk'Art 1 impressed me more than many big museums - a nuclear bunker on the outskirts, almost deserted. My advice: take the bus out to Bunk'Art 1, then head back to the centre and spend the evening in Blloku.",
+  "key": "plt_tirana"
+ },
+ "Prag": {
+  "kind": "own",
+  "de": "Das echte Prag liegt eine Gasse neben den Touristenströmen - das habe ich in Malá Strana gelernt. Mein Rat: um 7 Uhr über die Karlsbrücke und dann in die Seitengassen der Kleinseite, bevor die Gruppen kommen.",
+  "en": "The real Prague is one lane away from the tourist crowds - I learned that in Malá Strana. My advice: cross Charles Bridge at 7am, then disappear into the side lanes of the Lesser Town before the tour groups arrive.",
+  "key": "plt_prag"
+ },
+ "Ljubljana": {
+  "kind": "own",
+  "de": "Ljubljana ist die grünste Hauptstadt, die ich kenne - autofrei, alles zu Fuß. Mein Rat: morgens auf den Zentralmarkt, mittags am Fluss sitzen, abends nach Metelkova.",
+  "en": "Ljubljana is the greenest capital I know - car-free, everything on foot. My advice: the central market in the morning, sit by the river at lunch, Metelkova at night.",
+  "key": "plt_ljubljana"
+ },
+ "Bled": {
+  "kind": "own",
+  "de": "Mein Hidden Gem: der See im Morgennebel. Vor den ersten Reisebussen gehört er dir allein - also früh aufstehen. Danach hoch zum Aussichtspunkt Ojstrica und erst dann frühstücken.",
+  "en": "My hidden gem: the lake in the morning mist. Before the first tour buses it's all yours - so get up early. Then climb to the Ojstrica viewpoint, and only then have breakfast.",
+  "key": "plt_bled"
+ },
+ "Bad Gastein": {
+  "kind": "own",
+  "de": "Hier habe ich nach dem Studium gearbeitet - die Reisewelt von der anderen Seite des Tresens. Mein Hidden Gem: der Wasserfall, der mitten durch den Ort rauscht. Abends, wenn die Tagesgäste weg sind, wirkt die Belle-Époque-Kulisse fast melancholisch.",
+  "en": "I worked here after graduating - the travel world from the other side of the counter. My hidden gem: the waterfall rushing right through the village. In the evening, when the day-trippers are gone, the Belle Époque backdrop feels almost melancholic.",
+  "key": "plt_bad_gastein"
+ },
+ "Düsseldorf": {
+  "kind": "own",
+  "de": "Mein Lieblingstag zum Runterkommen: Flingern. Samstags über den Markt am Hermannplatz, Kuchen im Café Hüftgold, stöbern bei LANGBRETT in der alten Tankstelle und abends in den SKAND Klub. Dazu der Japan-Tag am Rhein - Japan vor der Haustür.",
+  "en": "My favourite day to unwind: Flingern. The Saturday market at Hermannplatz, cake at Café Hüftgold, browsing LANGBRETT in the old petrol station and The SKAND Klub at night. Plus Japan Day on the Rhine - Japan on my doorstep.",
+  "key": "plt_duesseldorf"
+ },
+ "Gelsenkirchen": {
+  "kind": "own",
+  "de": "Meine Heimatstadt. Wer verstehen will, wie der Pott tickt, geht an einem Spieltag zur Arena - Königsblau und Gänsehaut. Danach: Sonnenuntergang an der Himmelstreppe auf der Halde Rheinelbe.",
+  "en": "My home town. If you want to understand how the Ruhr ticks, go to the arena on a match day - royal blue and goosebumps. Afterwards: sunset at the Stairway to Heaven on the Rheinelbe spoil tip.",
+  "key": "plt_gelsenkirchen"
+ },
+ "Krabi": {
+  "kind": "own",
+  "de": "Thailand habe ich vom Wasser aus erlebt: mit Kanu und Kajak - die Aufnahmen stecken bis heute in meinen Reels. Mein Tipp für Krabi: Railay Beach ist nur per Boot erreichbar, und genau das macht den Reiz aus.",
+  "en": "I experienced Thailand from the water: by canoe and kayak - the footage still shows up in my Reels. My tip for Krabi: Railay Beach can only be reached by boat, and that is exactly its charm.",
+  "key": "plt_krabi"
+ },
+ "Phuket": {
+  "kind": "own",
+  "de": "Thailand habe ich vom Wasser aus erlebt: mit Kanu und Kajak - die Aufnahmen stecken bis heute in meinen Reels. Mein Tipp für Phuket: die Phang-Nga-Bucht per Kanu erkunden und abends lieber durch die Altstadt als über die Bangla Road.",
+  "en": "I experienced Thailand from the water: by canoe and kayak - the footage still shows up in my Reels. My tip for Phuket: explore Phang Nga Bay by canoe and spend the evening in the old town rather than on Bangla Road.",
+  "key": "plt_phuket"
+ },
+ "Bregenz": {
+  "kind": "own",
+  "de": "Während meines Studiums am Bodensee war Bregenz nur einen Katzensprung entfernt. Mein Tipp: mit der Seilbahn auf den Pfänder und über den See bis in die Schweiz schauen - im Sommer abends zur Seebühne.",
+  "en": "While I was studying at Lake Constance, Bregenz was just a stone's throw away. My tip: take the cable car up the Pfänder and look across the lake into Switzerland - and the lake stage on summer evenings.",
+  "key": "plt_bregenz"
+ },
+ "Brügge": {
+  "kind": "todo",
+  "de": "Ehrlich: Brügge steht noch auf meiner Liste - ein Wochenendtrip ist schon geplant. Auf meinem Zettel: früh morgens am Rozenhoedkaai, die Brauerei De Halve Maan und ein Spaziergang zum Minnewater, bevor die Tagesbusse kommen.",
+  "en": "Honestly: Bruges is still on my list - a weekend trip is already planned. On my list: the Rozenhoedkaai early in the morning, De Halve Maan brewery and a walk to the Minnewater before the day-trip buses arrive.",
+  "key": "plt_bruegge"
+ },
+ "Essen": {
+  "kind": "tip",
+  "de": "Heimspiel im Pott: vormittags Zeche Zollverein, dann die Kokerei - im Sommer mit Werksschwimmbad, im Winter mit Eisbahn. Abends essen auf der Rü.",
+  "en": "A home game in the Ruhr: Zollverein colliery in the morning, then the coking plant - with a pool in summer and an ice rink in winter. Dinner on the \"Rü\" in the evening.",
+  "key": "plt_essen"
+ },
+ "Bochum": {
+  "kind": "tip",
+  "de": "Mein Tipp: erst ins Deutsche Bergbau-Museum unter Tage, abends ins Bermuda3Eck - Bochum kann Geschichte und Kneipe. Für den Blick über den Pott: der Tippelsberg.",
+  "en": "My tip: first underground at the German Mining Museum, then the Bermuda3Eck at night - Bochum does history and pubs. For a view over the Ruhr: the Tippelsberg.",
+  "key": "plt_bochum"
+ },
+ "Dortmund": {
+  "kind": "tip",
+  "de": "Mein Tipp: Phoenix See am Vormittag, Zeche Zollern - das „Schloss der Arbeit\" - am Nachmittag und abends ins Kreuzviertel. Und einmal im Leben die Gelbe Wand live erleben.",
+  "en": "My tip: Phoenix Lake in the morning, Zollern colliery - the \"Castle of Labour\" - in the afternoon and the Kreuzviertel at night. And once in your life, see the Yellow Wall live.",
+  "key": "plt_dortmund"
+ },
+ "Duisburg": {
+  "kind": "tip",
+  "de": "Mein Tipp: den Landschaftspark Duisburg-Nord nach Einbruch der Dunkelheit besuchen, wenn die Lichtinstallation das alte Hüttenwerk anstrahlt. Tagsüber Tiger & Turtle - eine Achterbahn, die man zu Fuß geht.",
+  "en": "My tip: visit Landschaftspark Duisburg-Nord after dark, when the light installation illuminates the old ironworks. By day: Tiger & Turtle - a roller coaster you walk.",
+  "key": "plt_duisburg"
+ },
+ "Bottrop": {
+  "kind": "tip",
+  "de": "Mein Tipp: rauf auf den Tetraeder - die Stahlpyramide schwingt ein bisschen, der Blick lohnt sich trotzdem. Danach Josef Albers im Quadrat: Bauhaus-Weltkunst aus Bottrop.",
+  "en": "My tip: climb the Tetraeder - the steel pyramid sways a little, but the view is worth it. Then Josef Albers at the Quadrat: world-class Bauhaus art from Bottrop.",
+  "key": "plt_bottrop"
+ },
+ "Oberhausen": {
+  "kind": "tip",
+  "de": "Mein Tipp: Die Ausstellungen im Gasometer sind spektakulär - aber fahr unbedingt auch aufs Dach. Der Rundumblick über den Pott ist der eigentliche Star.",
+  "en": "My tip: the exhibitions inside the Gasometer are spectacular - but make sure you go up to the roof too. The panorama over the Ruhr is the real star.",
+  "key": "plt_oberhausen"
+ },
+ "Gladbeck": {
+  "kind": "tip",
+  "de": "Mein Tipp: ein ruhiger Nachmittag am Wasserschloss Wittringen - Spaziergang durch den Park, ganz ohne Touristen.",
+  "en": "My tip: a quiet afternoon at Wittringen moated castle - a walk through the park without any tourists.",
+  "key": "plt_gladbeck"
+ },
+ "Herne": {
+  "kind": "tip",
+  "de": "Mein Tipp: im August zur Cranger Kirmes, einer der größten Kirmessen Deutschlands (Termin steht im Eventkalender). Den Rest des Jahres: Ruhrpott-Comedy im Mondpalast.",
+  "en": "My tip: the Cranger Kirmes in August, one of Germany's biggest funfairs (dates in the event calendar). The rest of the year: Ruhr comedy at the Mondpalast.",
+  "key": "plt_herne"
+ },
+ "Herten": {
+  "kind": "tip",
+  "de": "Mein Tipp: rauf auf die Halde Hoheward zum Horizontobservatorium - bei klarer Sicht überblickst du einen großen Teil des Ruhrgebiets. Danach runter in den Park von Schloss Herten.",
+  "en": "My tip: climb the Hoheward spoil tip to the horizon observatory - on a clear day you can see a big part of the Ruhr. Then head down to the park of Herten Castle.",
+  "key": "plt_herten"
+ },
+ "Hattingen": {
+  "kind": "tip",
+  "de": "Mein Tipp: vormittags die Fachwerk-Altstadt mit dem „Bügeleisenhaus\", nachmittags auf den Hochofen der Henrichshütte - Mittelalter und Stahl an einem Tag.",
+  "en": "My tip: the half-timbered old town with the \"Flat-iron House\" in the morning, the blast furnace of the Henrichshütte in the afternoon - the Middle Ages and steel in one day.",
+  "key": "plt_hattingen"
+ },
+ "Witten": {
+  "kind": "tip",
+  "de": "Mein Tipp: Wanderschuhe an und ins Muttental - hier fing der Ruhrbergbau an, der Bergbau-Wanderweg führt an alten Stollen vorbei.",
+  "en": "My tip: put on your hiking boots and head into the Muttental - this is where Ruhr mining began, and the heritage trail passes old mine tunnels.",
+  "key": "plt_witten"
+ },
+ "Mülheim an der Ruhr": {
+  "kind": "tip",
+  "de": "Mein Tipp: ein Tag an der Ruhr - Schloss Broich, das Aquarius-Wassermuseum im alten Wasserturm und ein Spaziergang am Fluss.",
+  "en": "My tip: a day on the Ruhr - Broich Castle, the Aquarius water museum in an old water tower and a walk along the river.",
+  "key": "plt_muelheim_an_der_ruhr"
+ },
+ "Unna": {
+  "kind": "tip",
+  "de": "Mein Tipp: das Zentrum für Internationale Lichtkunst in den Kellern der alten Lindenbrauerei - einer der ungewöhnlichsten Museumsbesuche im Pott.",
+  "en": "My tip: the Centre for International Light Art in the cellars of the old Linden brewery - one of the most unusual museum visits in the Ruhr.",
+  "key": "plt_unna"
+ },
+ "Waltrop": {
+  "kind": "tip",
+  "de": "Mein Tipp: das alte Schiffshebewerk Henrichenburg - Technikgeschichte zum Anfassen, perfekt kombiniert mit einer Radtour am Kanal.",
+  "en": "My tip: the old Henrichenburg boat lift - hands-on engineering history, perfect combined with a bike ride along the canal.",
+  "key": "plt_waltrop"
+ },
+ "Hamm": {
+  "kind": "tip",
+  "de": "Mein Tipp: der gläserne Elefant im Maximilianpark - steht auf einer ehemaligen Zeche und ist der skurrilste Fotospot im Pott.",
+  "en": "My tip: the glass elephant in Maximilianpark - it stands on a former colliery and is the quirkiest photo spot in the Ruhr.",
+  "key": "plt_hamm"
+ },
+ "Berlin": {
+  "kind": "tip",
+  "de": "Mein Tipp: sonntags in den Mauerpark - Flohmarkt und Karaoke im Amphitheater sind Berlin in Reinform. Dazu Streetfood in der Markthalle Neun und abends Friedrichshain rund ums RAW-Gelände.",
+  "en": "My tip: Mauerpark on a Sunday - the flea market and karaoke in the amphitheatre are Berlin at its purest. Add street food at Markthalle Neun and Friedrichshain around the RAW site at night.",
+  "key": "plt_berlin"
+ },
+ "Hamburg": {
+  "kind": "tip",
+  "de": "Mein Tipp: sonntags ganz früh zum Fischmarkt, danach mit der HADAG-Fähre ab den Landungsbrücken - Hafenrundfahrt zum Nahverkehrstarif. Abends auf die Plaza der Elbphilharmonie.",
+  "en": "My tip: the fish market very early on a Sunday, then the HADAG ferry from the Landungsbrücken - a harbour tour for the price of a bus ticket. In the evening, up to the Elbphilharmonie Plaza.",
+  "key": "plt_hamburg"
+ },
+ "Bremen": {
+  "kind": "tip",
+  "de": "Mein Tipp: Nimm dir Zeit für das Schnoorviertel und die Böttcherstraße - zwei Ecken, in denen Bremen kleiner und älter wirkt, als es ist. Zum Sonnenuntergang an die Schlachte.",
+  "en": "My tip: take your time in the Schnoor quarter and on Böttcherstraße - two corners where Bremen feels smaller and older than it is. Sunset at the Schlachte.",
+  "key": "plt_bremen"
+ },
+ "Lübeck": {
+  "kind": "tip",
+  "de": "Mein Tipp: durch die Gänge und Höfe der Altstadtinsel - versteckte Wohnhöfe hinter unscheinbaren Türen. Und Marzipan bei Niederegger ist Pflicht.",
+  "en": "My tip: explore the alleys and courtyards of the old-town island - hidden residential courtyards behind inconspicuous doors. And marzipan at Niederegger is a must.",
+  "key": "plt_luebeck"
+ },
+ "Rügen": {
+  "kind": "tip",
+  "de": "Mein Tipp: zu Fuß an den Kreidefelsen entlang zum Königsstuhl und mit dem Rasenden Roland, der alten Dampfbahn, nach Binz.",
+  "en": "My tip: walk along the chalk cliffs to the Königsstuhl and ride the Rasender Roland, the old steam train, to Binz.",
+  "key": "plt_ruegen"
+ },
+ "Freiburg": {
+  "kind": "tip",
+  "de": "Mein Tipp: samstags auf den Münstermarkt - eine „Lange Rote\" auf die Hand, danach hoch auf den Schlossberg. Und Vorsicht vor den Bächle: Wer reintritt, heiratet angeblich einen Freiburger.",
+  "en": "My tip: the Saturday Münstermarkt - grab a \"Lange Rote\" sausage, then climb the Schlossberg. And watch out for the Bächle: legend says whoever steps in will marry someone from Freiburg.",
+  "key": "plt_freiburg"
+ },
+ "Schwarzwald": {
+  "kind": "tip",
+  "de": "Mein Tipp: die Schwarzwaldhochstraße mit Stopp am Mummelsee - und für Wasserfall-Fans die Triberger Wasserfälle, die zu den höchsten Deutschlands gehören.",
+  "en": "My tip: the Black Forest High Road with a stop at the Mummelsee - and for waterfall fans, the Triberg Falls, among the highest in Germany.",
+  "key": "plt_schwarzwald"
+ },
+ "Zugspitze / Garmisch": {
+  "kind": "tip",
+  "de": "Mein Tipp: mit der Zahnradbahn hoch, mit der Seilbahn runter - und eine Runde um den Eibsee. Früh in die Partnachklamm, dann hast du die Schlucht fast für dich.",
+  "en": "My tip: up by cog railway, down by cable car - and a loop around the Eibsee. Get to the Partnach Gorge early and you'll have it almost to yourself.",
+  "key": "plt_zugspitze_garmisch"
+ },
+ "Amsterdam": {
+  "kind": "tip",
+  "de": "Mein Tipp: früh in den Jordaan, wenn die Grachten noch dir gehören, mittags in die Foodhallen in einer alten Straßenbahn-Remise. Für den Blick von oben: A'DAM Lookout - Mutige nehmen die Schaukel über der Dachkante.",
+  "en": "My tip: the Jordaan early while the canals are still yours, lunch at the Foodhallen in an old tram depot. For the view from above: A'DAM Lookout - the brave take the swing over the edge.",
+  "key": "plt_amsterdam"
+ },
+ "Den Haag": {
+  "kind": "tip",
+  "de": "Mein Tipp: vormittags Vermeers „Mädchen mit dem Perlenohrring\" im Mauritshuis, nachmittags mit der Tram an den Strand von Scheveningen. Stadt und Meer an einem Tag.",
+  "en": "My tip: Vermeer's \"Girl with a Pearl Earring\" at the Mauritshuis in the morning, then the tram to Scheveningen beach in the afternoon. City and sea in one day.",
+  "key": "plt_den_haag"
+ },
+ "Nijmegen": {
+  "kind": "tip",
+  "de": "Mein Tipp: ein Abend an der Waalkade - Nijmegen ist die älteste Stadt der Niederlande und von der Grenze nur einen Katzensprung entfernt.",
+  "en": "My tip: an evening on the Waalkade - Nijmegen is the oldest city in the Netherlands and only a stone's throw from the German border.",
+  "key": "plt_nijmegen"
+ },
+ "Arnhem": {
+  "kind": "tip",
+  "de": "Mein Tipp: ein ganzer Tag im Nationalpark Hoge Veluwe - mit den kostenlosen weißen Rädern durch die Heide und mittendrin das Kröller-Müller-Museum mit seinen Van Goghs.",
+  "en": "My tip: a whole day in Hoge Veluwe National Park - ride the free white bikes across the heath, with the Kröller-Müller Museum and its Van Goghs in the middle.",
+  "key": "plt_arnhem"
+ },
+ "Venlo": {
+  "kind": "tip",
+  "de": "Mein Tipp: Venlo ist der perfekte Tagesausflug aus NRW - Markt, Stadhuis und ein Kaffee an der Maas, danach eine Portion Fritten mit Fritessaus.",
+  "en": "My tip: Venlo is the perfect day trip from NRW - the market, the Stadhuis and a coffee on the Meuse, then a cone of fries with frietsaus.",
+  "key": "plt_venlo"
+ },
+ "Antwerpen": {
+  "kind": "tip",
+  "de": "Mein Tipp: Schon die Ankunft ist ein Erlebnis - Antwerpen-Centraal gehört zu den schönsten Bahnhöfen der Welt. Danach durch die Jugendstil-Fassaden der Cogels-Osylei und abends ein Bolleke bei De Koninck.",
+  "en": "My tip: arriving is already an experience - Antwerp Central is one of the most beautiful stations in the world. Then the Art Nouveau façades of Cogels-Osylei and a \"bolleke\" at De Koninck at night.",
+  "key": "plt_antwerpen"
+ },
+ "Straßburg": {
+  "kind": "tip",
+  "de": "Mein Tipp: morgens durch La Petite France, dann auf die Terrasse der Barrage Vauban - von dort siehst du die Ponts Couverts und die Kathedrale in einem Bild.",
+  "en": "My tip: La Petite France in the morning, then up to the terrace of the Barrage Vauban - from there you see the Ponts Couverts and the cathedral in one frame.",
+  "key": "plt_strassburg"
+ },
+ "Luxemburg": {
+  "kind": "tip",
+  "de": "Mein Tipp: mit dem Aufzug runter in den Grund und unten am Fluss entlang - Luxemburg ist von unten am schönsten. Bus und Bahn sind im ganzen Land kostenlos.",
+  "en": "My tip: take the lift down into the Grund and walk along the river - Luxembourg looks best from below. Public transport is free throughout the country.",
+  "key": "plt_luxemburg"
+ },
+ "Wien": {
+  "kind": "tip",
+  "de": "Mein Tipp: Ein Vormittag im Kaffeehaus gehört dazu - ohne Eile, mit Zeitung und Melange. Danach über den Naschmarkt und abends ein Drink in der winzigen Loos Bar.",
+  "en": "My tip: a morning in a coffee house is part of the deal - no rush, a newspaper and a melange. Then the Naschmarkt and a drink in the tiny Loos Bar at night.",
+  "key": "plt_wien"
+ },
+ "Salzburg": {
+  "kind": "tip",
+  "de": "Mein Tipp: auf den Kapuzinerberg statt nur auf die Festung - dort ist es ruhiger, und der Blick auf Altstadt und Festung ist der bessere.",
+  "en": "My tip: climb the Kapuzinerberg instead of only the fortress - it's quieter up there and the view of the old town and fortress is better.",
+  "key": "plt_salzburg"
+ },
+ "Innsbruck": {
+  "kind": "tip",
+  "de": "Mein Tipp: mit der Nordkettenbahn direkt aus der Altstadt auf die Seegrube - in kürzester Zeit von der Stadt ins Hochgebirge.",
+  "en": "My tip: take the Nordkette cable car straight from the old town up to the Seegrube - from city to high alpine terrain in no time.",
+  "key": "plt_innsbruck"
+ },
+ "Karlsbad": {
+  "kind": "tip",
+  "de": "Mein Tipp: mit einem Trinkbecher von Kolonnade zu Kolonnade die Heilquellen probieren - schmeckt nicht, gehört aber dazu. Zur Belohnung danach ein Becherovka.",
+  "en": "My tip: take a spa cup and taste the springs from colonnade to colonnade - they don't taste great, but it's part of the experience. Reward yourself with a Becherovka afterwards.",
+  "key": "plt_karlsbad"
+ },
+ "Budapest": {
+  "kind": "tip",
+  "de": "Mein Tipp: morgens ins Széchenyi-Bad, abends in eine Ruin Bar wie das Szimpla Kert - mehr Gegensatz an einem Tag geht kaum. Und einmal nach Einbruch der Dunkelheit ans Donauufer, wenn das Parlament angestrahlt ist.",
+  "en": "My tip: the Széchenyi baths in the morning, a ruin bar like Szimpla Kert at night - you won't find a bigger contrast in one day. And once after dark, walk the Danube bank when the parliament is lit up.",
+  "key": "plt_budapest"
+ },
+ "Bratislava": {
+  "kind": "tip",
+  "de": "Mein Tipp: Bratislava lässt sich wunderbar mit Wien kombinieren - die beiden Hauptstädte liegen nur rund eine Stunde auseinander. Abends hoch aufs UFO-Deck der SNP-Brücke zum Sonnenuntergang.",
+  "en": "My tip: Bratislava combines perfectly with Vienna - the two capitals are only about an hour apart. In the evening, go up to the UFO deck on the SNP bridge for sunset.",
+  "key": "plt_bratislava"
+ },
+ "Koper": {
+  "kind": "tip",
+  "de": "Mein Tipp: Koper ist Sloweniens kleines Stück Adria - venezianische Altstadt, Hafenpromenade und ein Sprung ins Meer am Stadtstrand.",
+  "en": "My tip: Koper is Slovenia's little slice of the Adriatic - a Venetian old town, a harbour promenade and a dip in the sea at the town beach.",
+  "key": "plt_koper"
+ },
+ "Pula": {
+  "kind": "tip",
+  "de": "Mein Tipp: Das römische Amphitheater gehört zu den am besten erhaltenen der Welt - abends angestrahlt besonders schön. Zum Baden weiter zum Kap Kamenjak.",
+  "en": "My tip: the Roman amphitheatre is one of the best-preserved in the world - especially beautiful when lit up at night. For swimming, head on to Cape Kamenjak.",
+  "key": "plt_pula"
+ },
+ "Vilnius": {
+  "kind": "tip",
+  "de": "Mein Tipp: ein Spaziergang durch Užupis - die selbsternannte Künstlerrepublik hat sogar eine eigene Verfassung an der Wand. Danach auf den Gediminas-Turm zum Sonnenuntergang.",
+  "en": "My tip: a walk through Užupis - the self-proclaimed artists' republic even has its own constitution on a wall. Then up Gediminas Tower for sunset.",
+  "key": "plt_vilnius"
+ },
+ "Kopenhagen": {
+  "kind": "tip",
+  "de": "Mein Tipp: ein Leihrad nehmen und treiben lassen - durch Christianshavn, hoch auf den Spiralturm der Erlöserkirche und abends Streetfood bei Reffen.",
+  "en": "My tip: grab a rental bike and drift - through Christianshavn, up the spiral spire of the Church of Our Saviour and street food at Reffen at night.",
+  "key": "plt_kopenhagen"
+ },
+ "Mallorca": {
+  "kind": "tip",
+  "de": "Mein Tipp: abseits des Ballermann-Klischees - mit der alten Holzbahn von Palma nach Sóller und zum Sonnenuntergang ans Cap de Formentor.",
+  "en": "My tip: far from the party clichés - take the old wooden train from Palma to Sóller and watch the sunset at Cap de Formentor.",
+  "key": "plt_mallorca"
+ },
+ "Gran Canaria": {
+  "kind": "tip",
+  "de": "Mein Tipp: Sonnenaufgang in den Dünen von Maspalomas, nachmittags in die Berge zum Roque Nublo und abends Fisch in Puerto de Mogán. Die Insel ist ein Kontinent im Kleinformat.",
+  "en": "My tip: sunrise in the dunes of Maspalomas, the mountains and Roque Nublo in the afternoon, fish in Puerto de Mogán at night. The island is a continent in miniature.",
+  "key": "plt_gran_canaria"
+ },
+ "Durrës": {
+  "kind": "tip",
+  "de": "Mein Tipp: Das römische Amphitheater liegt mitten zwischen Wohnhäusern - einfach hinlaufen und staunen. Danach Fisch am Strand und Sonnenuntergang an der Promenade; Tirana ist nur eine kurze Fahrt entfernt.",
+  "en": "My tip: the Roman amphitheatre sits right between apartment blocks - just walk over and marvel. Then fish on the beach and sunset on the promenade; Tirana is only a short ride away.",
+  "key": "plt_durr_s"
+ },
+ "New York": {
+  "kind": "tip",
+  "de": "Mein Tipp: früh morgens zu Fuß über die Brooklyn Bridge Richtung Manhattan, dann die High Line entlang und mittags in den Chelsea Market. Abends lieber Williamsburg als Times Square.",
+  "en": "My tip: walk the Brooklyn Bridge towards Manhattan early in the morning, then along the High Line and lunch at Chelsea Market. In the evening, choose Williamsburg over Times Square.",
+  "key": "plt_new_york"
+ },
+ "Marrakesch": {
+  "kind": "tip",
+  "de": "Mein Tipp: morgens in den Jardin Majorelle, bevor es voll wird, und zum Sonnenuntergang auf eine Dachterrasse über der Djemaa el-Fna - dann siehst du, wie der Platz zum Leben erwacht.",
+  "en": "My tip: Jardin Majorelle first thing in the morning before it fills up, and a rooftop terrace above Djemaa el-Fna at sunset - you'll watch the square come to life.",
+  "key": "plt_marrakesch"
+ },
+ "Sousse": {
+  "kind": "tip",
+  "de": "Mein Tipp: Die Medina von Sousse ist UNESCO-Welterbe - früh hineingehen, auf den Ribat steigen und über die Dächer schauen.",
+  "en": "My tip: the medina of Sousse is a UNESCO World Heritage Site - go in early, climb the Ribat and look out over the rooftops.",
+  "key": "plt_sousse"
+ }
+}

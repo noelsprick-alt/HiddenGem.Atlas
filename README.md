@@ -24,6 +24,9 @@ Der Token bleibt nur auf deinem Gerät. Alle Änderungen landen in `data/content
 - `data/content.json` - deine Änderungen aus dem Editor
 - `data/trends.json` - automatisch gepflegte Trends
 - `data/moments-extra.json` - zusätzliche Karten-Orte in Masse (siehe unten)
+- `data/routes.json` - Tagesrouten (Karte → Tagesrouten): Stopps mit Uhrzeit, Notiz DE/EN, Google-Maps-Suchname
+- `data/events.json` - Eventkalender; wird per Skript aus festen Regeln berechnet (nur sichere, wiederkehrende Termine)
+- `data/planner-tips.json` - persönliche Empfehlung pro Stadt im Reiseplaner (`own` = eigenes Erlebnis, `tip` = Empfehlung, `todo` = noch nicht dort); im `?edit`-Modus direkt anklickbar
 - `scripts/` - Helfer für die GitHub Actions
 
 ## Orte in Masse hinzufügen (`data/moments-extra.json`)
