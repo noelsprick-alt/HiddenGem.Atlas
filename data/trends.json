@@ -1,9 +1,23 @@
 {
-  "updated": "04.10.2026",
-  "generated": "2026-10-04T11:01:11.143Z",
+  "updated": "05.10.2026",
+  "generated": "2026-10-05T12:08:31.059Z",
   "maxAgeDays": 14,
-  "count": 15,
+  "count": 16,
   "items": [
+    {
+      "id": "auto-viele-lassen-sie-links-liegen-diese-stadt-ist-",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-04",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/reiseziele/bergamo-in-der-lombardei-italiens-schoenster-geheimtipp",
+      "title": "Viele lassen sie links liegen: Diese Stadt ist Italiens schönster Geheimtipp",
+      "desc": "Wer in Italien auf dem Flughafen Orio al Serio landet, der will für gewöhnlich nach Mailand. Näher liegt aber Bergamo - und das ist ein echter Glücksfall, denn märchenhafter könnte eine Stadt kaum sein. TRAVELBOOK hat diese versteckte ...",
+      "title_en": "Many people ignore it: this city is Italy's most beautiful insider tip",
+      "desc_en": "Anyone who lands at Orio al Serio airport in Italy usually wants to go to Milan. But Bergamo is closer - and that's a real stroke of luck, because a city couldn't be more magical. TRAVELBOOK has this hidden..."
+    },
     {
       "id": "auto-tipps-von-autorin-warum-sich-ein-besuch-in-rom",
       "cat": "Reise",
