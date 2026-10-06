@@ -1,9 +1,23 @@
 {
-  "updated": "05.10.2026",
-  "generated": "2026-10-05T12:08:31.059Z",
+  "updated": "06.10.2026",
+  "generated": "2026-10-06T11:52:18.861Z",
   "maxAgeDays": 14,
-  "count": 16,
+  "count": 17,
   "items": [
+    {
+      "id": "auto-inklusive-geheimtipp-9-der-schonsten-strande-a",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-05",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/ziele/schoenste-straende-auf-mauritius",
+      "title": "Inklusive Geheimtipp: 9 der schönsten Strände auf Mauritius",
+      "desc": "Mauritius ist seit Jahrzehnten nicht nur bei den Deutschen eines der beliebtesten Winter-Urlaubsziele. Kein Wunder, denn die Strände auf Mauritius locken mit paradiesischen Panoramen. Welche Strände sich besonders für einen Besuch ...",
+      "title_en": "Including insider tip: 9 of the most beautiful beaches in Mauritius",
+      "desc_en": "Mauritius has been one of the most popular winter holiday destinations for decades, and not just among Germans. No wonder, because the beaches in Mauritius entice you with paradisiacal panoramas. Which beaches are particularly suitable for visiting..."
+    },
     {
       "id": "auto-viele-lassen-sie-links-liegen-diese-stadt-ist-",
       "cat": "Reise",
