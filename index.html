@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HiddenGem.Atlas - Hidden Gems in Europa & Asien</title>
-<meta name="description" content="HiddenGem.Atlas - ehrliche Reiseberichte und Hidden Gems in Europa & Asien. Reality Checks mit echten Kosten, Trend-Radar, Touren mit 5% Rabatt und eine Community für Entdecker.">
+<meta name="description" content="HiddenGem.Atlas - der 9-to-5 Traveller: Hidden Gems und Must-Sees in jeder Hauptstadt der Welt, fertige Tagesrouten, Eventkalender 2027, Brückentage-Planer und ehrliche Reisekosten.">
 <meta name="author" content="Noel Sprick">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#1a0e04">
@@ -15,7 +15,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="HiddenGem.Atlas">
 <meta property="og:title" content="HiddenGem.Atlas - Hidden Gems in Europa & Asien">
-<meta property="og:description" content="Echte versteckte Orte in Europa & Asien - bevor alle anderen kommen. Reality Checks, Trend-Radar, Touren mit 5% Rabatt.">
+<meta property="og:description" content="Vollzeitjob, trotzdem 20+ Länder: über 1.500 Orte auf einer Karte, Tagesrouten, Events 2027 und Brückentage - ehrlich und ohne Stock-Look.">
 <meta property="og:url" content="https://noelsprick-alt.github.io/HiddenGem.Atlas/">
 <meta property="og:locale" content="de_DE">
 <meta property="og:locale:alternate" content="en_GB">
@@ -1903,6 +1903,116 @@ body.edit-mode #scroll-top{bottom:90px}
 .nx-c h4{font-size:13.5px;font-weight:700;color:var(--text);margin:2px 0 3px}
 .nx-c p{font-size:12px;color:var(--text2);line-height:1.6}
 
+
+/* ── v13: Karte - Kontinente, Hauptstädte, Übersicht ── */
+.mp-chips-cc .mp-chip{font-size:11.5px;padding:5px 11px;background:rgba(255,255,255,.04)}
+.mp-capbtn{margin-left:auto}
+.mp-warn{display:inline-block;margin-top:6px;font-size:10.5px;font-weight:700;color:#f0b35a;text-decoration:none;letter-spacing:.2px}
+.mp-warn:hover{text-decoration:underline}
+.mp-pop .mp-warn{color:#b5651d}
+.mp-ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-bottom:14px}
+.mp-ov-t{display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left;background:linear-gradient(150deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.14);border-radius:var(--rl);padding:1rem 1.1rem;color:#fdf8f0;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .16s}
+.mp-ov-t:hover{border-color:var(--gold);transform:translateY(-2px)}
+.mp-ov-ic{font-size:26px;line-height:1}
+.mp-ov-t strong{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:500}
+.mp-ov-t em{font-style:normal;font-size:11.5px;color:rgba(247,236,216,.62)}
+.mp-ov-f{font-size:12px;color:rgba(247,236,216,.75);letter-spacing:1px}
+/* ── v13: Eventkalender - Quellen, Kategorien, Ruhr ── */
+.ev-cats{display:flex;gap:6px;flex-wrap:wrap;align-items:center;width:100%;margin-top:8px}
+.ev-c{background:none;border:1px solid var(--border);border-radius:16px;padding:5px 12px;font-size:12px;cursor:pointer;font-family:'DM Sans',sans-serif;color:var(--text2)}
+.ev-c em{font-style:normal;opacity:.55;font-size:11px}
+.ev-c.active{background:var(--text);border-color:var(--text);color:#fff}
+.ev-c:disabled{opacity:.35;cursor:default}
+.ev-cats .ev-ics-all{margin-left:auto}
+.ev-filters{flex-direction:column;align-items:stretch}
+.ev-basis{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.4px;border-radius:6px;padding:1px 6px;margin-left:4px;vertical-align:middle}
+.ev-basis.off{background:rgba(45,122,79,.12);color:var(--green,#2d7a4f)}
+.ev-basis.rule{background:var(--terra-light);color:var(--terra)}
+.ev-why a{color:var(--terra);font-weight:600;text-decoration:none;white-space:nowrap}
+.ev-why a:hover{text-decoration:underline}
+.ev-ruhr-hd{background:linear-gradient(135deg,#1c1712,#2b2014);color:#fdf8f0;border-radius:var(--rl);padding:1.3rem 1.5rem;margin-bottom:1.4rem}
+.ev-ruhr-hd h3{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;margin:.2rem 0 .4rem}
+.ev-ruhr-hd p{font-size:13px;color:rgba(247,236,216,.75);line-height:1.7;max-width:760px}
+.ev-ruhr-hd .sec-lbl{color:var(--gold)}
+.ev-pend{margin-top:1rem;padding:1.2rem 1.4rem;border:1px dashed var(--border);border-radius:var(--rl);background:#fff}
+.ev-pend ul{margin:.6rem 0 0;padding-left:1.1rem}
+.ev-pend li{font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:.4rem}
+.ev-pend a{color:var(--terra);text-decoration:none;font-weight:600}
+.hg-flash{animation:hgflash 2.2s ease}
+@keyframes hgflash{0%,40%{box-shadow:0 0 0 3px var(--gold),0 10px 30px rgba(201,122,42,.35)}100%{box-shadow:none}}
+/* ── v13: Brückentage-Planer ── */
+.br-box{background:#fff;border:1px solid var(--border);border-radius:var(--rl);padding:1.5rem;margin-bottom:2rem;box-shadow:0 2px 12px rgba(90,50,10,.06)}
+.br-hd{display:flex;justify-content:space-between;gap:1.2rem;flex-wrap:wrap;align-items:flex-end;margin-bottom:1rem}
+.br-hd h3{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;margin:.2rem 0 .3rem}
+.br-hd p{font-size:13px;color:var(--text2);line-height:1.7;max-width:560px}
+.br-sel{display:flex;gap:10px;flex-wrap:wrap}
+.br-sel label{display:flex;flex-direction:column;gap:3px;font-size:10px;letter-spacing:.5px;text-transform:uppercase;color:var(--text3);font-weight:700}
+.br-sel select{border:1px solid var(--border);border-radius:10px;padding:8px 10px;font-family:'DM Sans',sans-serif;font-size:13px;background:#fff;color:var(--text)}
+.br-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.br-row{border:1px solid var(--border);border-radius:var(--r);padding:.85rem 1rem;background:var(--bg)}
+.br-row.bridge{border-color:rgba(201,122,42,.5);background:linear-gradient(135deg,#fff,rgba(201,122,42,.06))}
+.br-row.long{border-color:rgba(45,122,79,.4)}
+.br-h{font-size:10.5px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--terra);display:flex;flex-direction:column;gap:2px}
+.br-h span{font-size:12.5px;letter-spacing:0;text-transform:none;color:var(--text);font-weight:700}
+.br-main{margin-top:6px;font-size:13.5px;color:var(--text)}
+.br-dates{color:var(--text2);font-size:12.5px}
+.br-vd{font-size:11.5px;color:var(--text3);margin-top:3px}
+.br-ics{margin-top:8px;border:1px solid var(--border);background:#fff;border-radius:8px;padding:4px 9px;font-size:11.5px;color:var(--terra);font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif}
+.br-lost{font-size:12.5px;color:var(--text2);margin-top:1rem}
+.br-note{font-size:11px;color:var(--text3);margin-top:.5rem;line-height:1.6}
+/* ── v13: Suche ── */
+.nav-search{background:none;border:1px solid var(--border);border-radius:20px;padding:6px 12px;font-size:12px;cursor:pointer;color:var(--text2);font-family:'DM Sans',sans-serif;display:inline-flex;align-items:center;gap:6px;transition:all .15s}
+.nav-search:hover{border-color:var(--terra);color:var(--terra)}
+.nav-search kbd{font-family:'DM Sans',sans-serif;font-size:10px;border:1px solid var(--border);border-radius:4px;padding:0 4px;color:var(--text3)}
+.sr-ov{position:fixed;inset:0;z-index:2000;background:rgba(14,12,10,.55);backdrop-filter:blur(4px);display:none;align-items:flex-start;justify-content:center;padding:8vh 16px 16px}
+.sr-ov.open{display:flex}
+body.sr-lock{overflow:hidden}
+.sr-box{width:100%;max-width:680px;max-height:84vh;display:flex;flex-direction:column;background:var(--bg);border-radius:18px;box-shadow:0 30px 80px rgba(0,0,0,.35);overflow:hidden}
+.sr-top{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--border)}
+.sr-top span{font-size:18px}
+.sr-top input{flex:1;border:none;background:none;font-size:17px;font-family:'DM Sans',sans-serif;color:var(--text);outline:none;min-width:0}
+.sr-top button{background:none;border:1px solid var(--border);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--text2);font-size:13px}
+.sr-res{overflow-y:auto;padding:8px 8px 14px}
+.sr-grp{margin-top:6px}
+.sr-gh{font-size:10px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--text3);padding:8px 10px 4px}
+.sr-gh em{font-style:normal;opacity:.7}
+.sr-hit{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:none;border:none;border-radius:10px;padding:8px 10px;cursor:pointer;font-family:'DM Sans',sans-serif;color:var(--text)}
+.sr-hit.sel,.sr-hit:hover{background:var(--terra-light)}
+.sr-ic{font-size:18px;width:26px;text-align:center;flex-shrink:0}
+.sr-tx{display:flex;flex-direction:column;min-width:0;flex:1}
+.sr-tx strong{font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sr-tx small{font-size:12px;color:var(--text3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sr-tx mark{background:rgba(201,122,42,.28);color:inherit;border-radius:2px}
+.sr-go{font-size:12px;color:var(--text3);opacity:0}
+.sr-hit.sel .sr-go{opacity:1}
+.sr-all{margin:4px 10px 0;background:none;border:none;color:var(--terra);font-weight:700;font-size:12.5px;cursor:pointer;font-family:'DM Sans',sans-serif}
+.sr-empty{padding:1.4rem 1rem;color:var(--text2);font-size:13.5px;text-align:center}
+.sr-sugg{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:10px}
+.sr-sugg button{border:1px solid var(--border);background:#fff;border-radius:16px;padding:5px 12px;font-size:12.5px;cursor:pointer;font-family:'DM Sans',sans-serif;color:var(--text2)}
+.mob-search{margin:4px 0 8px;width:100%;justify-content:center}
+@media(max-width:900px){.nav-search kbd,.nav-search .ns-t{display:none}.nav-search{padding:6px 10px}}
+@media(max-width:600px){.sr-ov{padding:0}.sr-box{max-height:100vh;height:100%;border-radius:0;max-width:none}}
+/* ── v13: Startseite „Warum folgen?" ── */
+.why-sec{padding:3.5rem 2.5rem;background:linear-gradient(180deg,#14100c 0%,#1d150d 100%);color:#fdf8f0;border-bottom:1px solid var(--border)}
+.why-inner{max-width:1150px;margin:0 auto}
+.why-hd{max-width:720px;margin-bottom:1.6rem}
+.why-hd .sec-lbl{color:var(--gold)}
+.why-hd h2{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,4.4vw,48px);font-weight:300;line-height:1.08;margin:.35rem 0 .7rem}
+.why-hd h2 em{font-style:italic;color:var(--gold)}
+.why-hd p{font-size:14.5px;line-height:1.85;color:rgba(247,236,216,.78)}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.why-c{display:flex;flex-direction:column;gap:6px;text-align:left;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--rl);padding:1.15rem;color:#fdf8f0;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .16s;text-decoration:none}
+.why-c:hover{border-color:var(--gold);transform:translateY(-2px);background:rgba(255,255,255,.08)}
+.why-ic{font-size:24px}
+.why-c strong{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:500;color:var(--gold);line-height:1}
+.why-c h3{font-size:14.5px;font-weight:700;margin:0}
+.why-c p{font-size:12.5px;line-height:1.6;color:rgba(247,236,216,.7);margin:0}
+.why-c span.why-go{margin-top:auto;font-size:11.5px;font-weight:700;color:var(--gold)}
+.why-cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:1.4rem}
+.why-cta .btn-o{color:#fdf8f0;border-color:rgba(255,255,255,.35)}
+@media(max-width:900px){.why-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.why-sec{padding:2.5rem 1.25rem}.why-grid{grid-template-columns:1fr}}
+
 /* ── Über mich v2 ── */
 .ab-l p.ab-pitch{font-family:'Cormorant Garamond',serif;font-size:clamp(21px,2.4vw,27px);line-height:1.35;color:var(--text);font-weight:400}
 .ab-l p.ab-after{font-weight:600;color:var(--terra);font-size:15px;line-height:1.6;margin-top:-.4rem}
@@ -2036,6 +2146,12 @@ body.edit-mode #scroll-top{bottom:90px}
 
 
 
+<div class="sr-ov" id="sr-ov" role="dialog" aria-modal="true" aria-label="Suche" onclick="if(event.target===this)srClose()">
+  <div class="sr-box">
+    <div class="sr-top"><span aria-hidden="true">🔍</span><input id="sr-q" type="search" autocomplete="off" data-i18n-ph="sr_ph" placeholder="Ort, Stadt, Land, Event, Route ... suchen" oninput="srRun(this.value)" onkeydown="srKey(event)"><button type="button" onclick="srClose()" aria-label="Schließen" data-i18n-aria="close">✕</button></div>
+    <div class="sr-res" id="sr-res"></div>
+  </div>
+</div>
 <div class="dt-overlay" id="dt-overlay">
   <button class="dt-close" onclick="closeDetail()" aria-label="Schließen" data-i18n-aria="close">✕</button>
   <div class="dt-inner">
@@ -2102,6 +2218,7 @@ body.edit-mode #scroll-top{bottom:90px}
     <a href="#/projekte"><span data-i18n="pg_projects_t">Projekte</span></a>
   </div>
   <div class="nav-right">
+    <button class="nav-search" type="button" onclick="srOpen()" aria-label="Suche öffnen" data-i18n-aria="sr_open">🔍 <span class="ns-t" data-i18n="sr_btn">Suchen</span> <kbd>/</kbd></button>
     <div class="lang-bar" id="lbar"></div>
     <a class="nav-cta" href="#/touren" onclick="gTo('gyg');return false"><span data-i18n="n_cta">5% off Tours ↗</span></a>
     <button class="nav-burger" type="button" onclick="openMobileMenu()" aria-label="Menü" data-i18n-aria="menu_open">☰</button>
@@ -2111,6 +2228,7 @@ body.edit-mode #scroll-top{bottom:90px}
 
 <div class="nav-mobile-menu" id="mob-menu">
   <div class="mob-top"><a class="logo" href="#/">Hidden<em>Gem</em>.Atlas</a><button class="nav-mob-close" type="button" onclick="closeMobileMenu()" aria-label="Schließen" data-i18n-aria="close">✕</button></div>
+  <button class="nav-search mob-search" type="button" onclick="srOpen()">🔍 <span data-i18n="sr_btn">Suchen</span></button>
   <div class="lang-bar mob-lang"></div>
   <a href="#/"><span data-i18n="crumb_home">Start</span></a>
   <a href="#/ueber-mich"><span data-i18n="pg_about_t">Über mich</span></a>
@@ -2160,9 +2278,9 @@ body.edit-mode #scroll-top{bottom:90px}
   <div class="h-float h-float-1" data-i18n="h_kyoto-in-48h">🇯🇵 Kyoto in 48h</div>
   <div class="h-float h-float-2" data-i18n="h_hanoi-neu">🇻🇳 Hanoi · neu</div>
   <div class="h-float h-float-3" data-i18n="h_albanien-entdecken">🇦🇱 Albanien entdecken</div>
-  <div class="h-eye" data-i18n="h_eye">Hidden Gems · Europe &amp; Asia</div>
+  <div class="h-eye" data-i18n="h2_eye">The 9-to-5 Traveller · Hidden Gems worldwide</div>
   <h1 data-i18n="h_h1">Go <em>before</em><br><strong>everyone</strong><br>else does.</h1>
-  <p class="h-sub" data-i18n="h_sub">Authentische versteckte Orte in Europa und Asien - bevor sie auf jedem Feed auftauchen.</p>
+  <p class="h-sub" data-i18n="h2_sub">Vollzeitjob, Urlaubstage wie du - und trotzdem 20+ Länder. Ich zeige dir Hidden Gems, fertige Tagesrouten und ehrliche Kosten, damit sich jeder freie Tag doppelt lohnt.</p>
   <div class="h-dest-row">
     <span class="h-dest-tag" data-i18n="h_dusseldorf">🇩🇪 Düsseldorf</span>
     <span class="h-dest-tag" data-i18n="h_japan">🇯🇵 Japan</span>
@@ -2172,7 +2290,7 @@ body.edit-mode #scroll-top{bottom:90px}
     <span class="h-dest-tag" data-i18n="h_tschechien">🇨🇿 Tschechien</span>
   </div>
   <div class="h-act">
-    <button class="btn-g" onclick="gTo('about')" data-i18n="h_c1">Meine Geschichte</button>
+    <button class="btn-g" onclick="gTo('momente')" data-i18n="h2_c1">📍 Karte entdecken</button>
     <button class="btn-o" onclick="gTo('gyg')" data-i18n="h_c2">Tours buchen -5% *</button>
   </div>
   <div class="hstats">
@@ -2183,6 +2301,26 @@ body.edit-mode #scroll-top{bottom:90px}
   <div class="h-scroll"><div class="sline"></div><span data-i18n="h_scroll">scroll</span></div>
 </section>
 
+
+<section class="why-sec" id="why" data-page="home">
+  <div class="why-inner">
+    <div class="why-hd">
+      <div class="sec-lbl" data-i18n="why_lbl">Warum du mir folgen solltest</div>
+      <h2 data-i18n="why_h2">Der <em>9-to-5 Traveller.</em></h2>
+      <p data-i18n="why_p">Kein Vollzeit-Influencer im Dauerurlaub. Ich arbeite Vollzeit - genau wie du, mit festen Urlaubstagen. Deshalb ist jeder Tipp hier darauf getestet, mit Wochenenden, Brückentagen und normalem Budget zu funktionieren. Weniger Planen, mehr Erleben.</p>
+    </div>
+    <div class="why-grid">
+      <button type="button" class="why-c" onclick="gTo('momente')"><span class="why-ic">📍</span><strong id="why-n">1.500+</strong><h3 data-i18n="why_1t">Orte auf einer Karte</h3><p data-i18n="why_1s">Meine Hidden Gems plus die Must-Sees jeder Hauptstadt der Welt - mit Google-Maps-Link.</p><span class="why-go" data-i18n="why_go">Ansehen →</span></button>
+      <button type="button" class="why-c" onclick="gTo('routes')"><span class="why-ic">🚶</span><strong id="why-r">11</strong><h3 data-i18n="why_2t">fertige Tagesrouten</h3><p data-i18n="why_2s">Mit Uhrzeiten, Laufwegen und Kalender-Download. Ankommen, loslaufen.</p><span class="why-go" data-i18n="why_go">Ansehen →</span></button>
+      <button type="button" class="why-c" onclick="gTo('events')"><span class="why-ic">🧮</span><strong id="why-e">100+</strong><h3 data-i18n="why_3t">Events & Brückentage 2027</h3><p data-i18n="why_3s">Aus wenigen Urlaubstagen lange Trips machen - plus Feste mit Quelle.</p><span class="why-go" data-i18n="why_go">Ansehen →</span></button>
+      <button type="button" class="why-c" onclick="gTo('kalkulator')"><span class="why-ic">🧾</span><strong>100%</strong><h3 data-i18n="why_4t">Ehrliche Kosten</h3><p data-i18n="why_4s">Was eine Reise wirklich kostet - von jemandem, der beruflich mit Zahlen arbeitet.</p><span class="why-go" data-i18n="why_go">Ansehen →</span></button>
+    </div>
+    <div class="why-cta">
+      <a class="btn-g" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener" data-lk="lk1" data-i18n="why_follow">Folge @hiddengem.atlas</a>
+      <button type="button" class="btn-o" onclick="srOpen()" data-i18n="why_search">🔍 Alles durchsuchen</button>
+    </div>
+  </div>
+</section>
 
 <div class="ticker" data-page="home"><div class="t-inner" id="tkr"></div></div>
 
@@ -2257,7 +2395,7 @@ body.edit-mode #scroll-top{bottom:90px}
       </div>
     </div>
     <p data-i18n="ab2_p1">Ich bin Noel, 29, aufgewachsen im Ruhrgebiet - der Gegend, in der „Urlaub“ früher Zelt, Sauerland und Dauerregen hieß. Während andere ihre Sehenswürdigkeiten abhaken wie eine Steuererklärung, will ich wissen, was dahintersteckt.</p>
-    <p data-i18n="ab2_p2">Was als Neugier begann, wurde zur Obsession: über 25 Länder, hunderte versteckte Orte - von Albaniens Küste bis nach Hanoi. Und ja, auch der Pott hat Hidden Gems. Mehr, als dein Kopf gerade denkt.</p>
+    <p data-i18n="ab2_p2">Was als Neugier begann, wurde zur Obsession: über 20 Länder, hunderte versteckte Orte - von Albaniens Küste bis nach Hanoi. Und ja, auch der Pott hat Hidden Gems. Mehr, als dein Kopf gerade denkt.</p>
     <p data-i18n="ab2_p3">HiddenGem.Atlas ist der Beweis, dass man sich seinen Traum selbst bauen kann. Ohne Erbschaft, ohne Sponsor, ohne Van mit Dachzelt. Nur mit Neugier, Rucksack und einer Kamera, die älter ist als mancher Praktikant.</p>
     <div class="pillars">
       <div class="pil" onclick="pillarOpen('hidden-gems')" style="cursor:pointer" data-pillar="hidden-gems" role="button" tabindex="0">
@@ -2466,12 +2604,14 @@ body.edit-mode #scroll-top{bottom:90px}
   <div class="ev-inner">
     <div class="ev-hdr">
       <div class="sec-lbl" data-i18n="ev_lbl">📅 Eventkalender 2027</div>
-      <h2 data-i18n="ev_h2">Feste, die <em>jedes Jahr</em> wiederkommen.</h2>
-      <p data-i18n="ev_intro">Kein Gerücht, kein „voraussichtlich": Hier stehen nur Events mit festem Datum oder fester Regel - vom Karneval im Rheinland über die Cranger Kirmes bis zum Vollmond-Laternenfest in Hoi An. Jeder Termin mit Begründung und als Kalender-Download.</p>
+      <h2 data-i18n="ev_h2">Termine, die <em>sich lohnen.</em></h2>
+      <p data-i18n="ev_intro">Zwei Sorten Termine, beide ohne Rätselraten: 🔁 Feste mit fester Regel (z.B. Rosenmontag, Mondkalender) und ✅ Events, die der Veranstalter offiziell bestätigt hat - jeweils mit Quelle zum Nachprüfen. Dazu ein eigener Kalender fürs Ruhrgebiet und der Brückentage-Planer für alle Bundesländer.</p>
     </div>
+    <div class="br-box" id="br-box"></div>
     <div class="ev-filters" id="ev-filters"></div>
+    <div class="ev-ruhr-hd" id="ev-ruhr-hd" style="display:none"><div class="sec-lbl" data-i18n="ev_ruhr_lbl">🏭 Veranstaltungskalender Ruhrgebiet 2027</div><h3 data-i18n="ev_ruhr_h3">Mein Pott-Kalender 2027</h3><p data-i18n="ev_ruhr_p">Von der IGA 2027 über die ExtraSchicht bis zur Cranger Kirmes: alles, was 2027 im Ruhrgebiet fest steht - inklusive Konzerten in Veltins-Arena, Westfalenhalle und beim Zeltfestival. Jeder Termin mit Quelle.</p></div>
     <div class="ev-cal" id="ev-cal"></div>
-    <p class="ev-note" data-i18n="ev_note">Alle Termine sind nach ihrer festen Regel berechnet. Kurzfristige Änderungen durch Veranstalter oder Wetter sind trotzdem möglich. Events wie der Japan-Tag fehlen bewusst: Deren Datum wird jedes Jahr neu festgelegt.</p>
+    <p class="ev-note" data-i18n="ev_note">Regel-Termine sind berechnet, offizielle Termine stammen von der verlinkten Quelle (Stand Oktober 2026). Änderungen durch Veranstalter sind möglich - vor der Buchung kurz prüfen.</p>
   </div>
 </section>
 
@@ -2559,7 +2699,7 @@ body.edit-mode #scroll-top{bottom:90px}
     <div class="mp-hdr">
       <div class="sec-lbl" data-i18n="mp_lbl">📍 Interaktive Karte</div>
       <h2 data-i18n="mp2_h2">Hidden Gems &amp; Must-Sees - <em>von der Zeche bis nach Hanoi.</em></h2>
-      <p data-i18n="mp2_intro">Zwei Sorten Pins: ⭐ Must-Sees, die du kennen solltest, und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Region, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.</p>
+      <p data-i18n="mp2_intro">Über 1.500 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt der Welt und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Kontinent, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.</p>
     </div>
     <div class="mp-stats" id="mp-stats"></div>
     <div class="mp-search"><input type="search" id="mp-q" class="mp-q" data-i18n-ph="mp_search_ph" placeholder="Ort, Stadt oder Land suchen ..." oninput="mpSearch(this.value)" autocomplete="off"></div>
@@ -3180,7 +3320,7 @@ const I18N = {
 "br_kein-standard-pitch-kein":["Kein Standard-Pitch, kein Template. Ich lese jede Anfrage persönlich und antworte direkt. Wenn es passt, finden wir gemeinsam das richtige Format.","No standard pitch, no template. I read every request personally and reply directly. If it's a fit, we'll find the right format together."],
 "br_langfristige-partnerschaften":["Langfristige Partnerschaften mit Provision-Modell. Nur Marken die wirklich zu Hidden Gem Travel passen. GetYourGuide bereits aktiver Partner.","Long-term partnerships on a commission model. Only brands that truly fit hidden gem travel. GetYourGuide is already an active partner."],
 "br_langzeit":["Langzeit","Long-term"],
-"br_lbl":["📊 Für Marken &amp; Partner","📊 For brands & partners"],
+"br_lbl":["🧮 Brückentage-Planer", "🧮 Bridge-day planner"],
 "br_location-feature":["Location Feature","Location Feature"],
 "br_mail-myinfo-web-de":["✉️ mail.myinfo@web.de","✉️ mail.myinfo@web.de"],
 "br_mk":["📄 Media Kit herunterladen","📄 Download media kit"],
@@ -3489,7 +3629,7 @@ const I18N = {
 "mp_open_gmaps":["In Google Maps öffnen","Open in Google Maps"],
 "mp_pinned":["Orte auf der Karte","places on the map"],
 "mp2_h2":["Hidden Gems &amp; Must-Sees - <em>von der Zeche bis nach Hanoi.</em>", "Hidden gems &amp; must-sees - <em>from coal mine to Hanoi.</em>"],
-"mp2_intro":["Zwei Sorten Pins: ⭐ Must-Sees, die du kennen solltest, und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Region, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.", "Two kinds of pins: ⭐ must-sees you should know, and 💎 hidden gems you have to go looking for. Sorted by region, country and city, with a direct Google Maps link. Anything marked 🧭 is still on my list - the rest I have walked myself."],
+"mp2_intro":["Über 1.500 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt der Welt und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Kontinent, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.", "More than 1,500 places worldwide: ⭐ must-sees in every capital in the world and 💎 hidden gems you have to go looking for. Sorted by continent, country and city, with a direct Google Maps link. Anything marked 🧭 is still on my list - the rest I have walked myself."],
 "mp_search_ph":["Ort, Stadt oder Land suchen ...", "Search a place, city or country ..."],
 "mp_regions":["Region", "Region"],
 "mp_visit":["Status", "Status"],
@@ -3505,6 +3645,82 @@ const I18N = {
 "mp_st_cities":["Städte", "Cities"],
 "mp_st_grow":["Und es werden mehr.", "And it keeps growing."],
 "mp_rest":["übrige Orte", "other places"],
+"sr_all_places":["Alle {n} Orte auf der Karte zeigen", "Show all {n} places on the map"],
+"sr_country":["Land", "Country"],
+"sr_n_places":["{n} Orte", "{n} places"],
+"sr_g_blog":["Blog & Guides", "Blog & guides"],
+"sr_g_trend":["Trend-Radar", "Trend radar"],
+"sr_g_event":["Events", "Events"],
+"sr_g_route":["Tagesrouten", "Day routes"],
+"sr_g_place":["Orte auf der Karte", "Places on the map"],
+"sr_g_town":["Städte & Länder", "Cities & countries"],
+"sr_g_page":["Seiten", "Pages"],
+"sr_none":["Nichts gefunden - versuch es mit einem Stadt- oder Ländernamen.", "Nothing found - try a city or country name."],
+"sr_tip":["Durchsuche alles auf HiddenGem.Atlas - über 1.500 Orte, Tagesrouten, Events, Trends und Artikel.", "Search everything on HiddenGem.Atlas - over 1,500 places, day routes, events, trends and articles."],
+"sr_ph":["Ort, Stadt, Land, Event, Route ... suchen", "Search places, cities, countries, events, routes ..."],
+"sr_btn":["Suchen", "Search"],
+"sr_open":["Suche öffnen", "Open search"],
+"br_cal_sum":["Frei! (Brückentage)", "Off! (bridge days)"],
+"br_note":["Gesetzliche Feiertage nach Landesrecht, berechnet - ohne Gewähr. * In Bayern ist Mariä Himmelfahrt nur in Gemeinden mit überwiegend katholischer Bevölkerung frei; Fronleichnam gilt in Sachsen und Thüringen nur in einzelnen Gemeinden und ist hier nicht enthalten.", "Statutory public holidays by state law, calculated - without guarantee. * In Bavaria, Assumption Day is only a holiday in predominantly Catholic municipalities; Corpus Christi applies only to some municipalities in Saxony and Thuringia and is not included."],
+"br_lost":["Diese Feiertage fallen aufs Wochenende:", "These holidays fall on a weekend:"],
+"br_ics":["In Kalender", "Add to calendar"],
+"br_take":["Urlaub nehmen:", "Take off:"],
+"br_days":["{n} Tage frei", "{n} days free"],
+"br_vac":["{n} Urlaubstage", "{n} days off"],
+"br_vac1":["1 Urlaubstag", "1 day off"],
+"br_long":["Lange Reise", "Long trip"],
+"br_bridge":["Brückentag", "Bridge day"],
+"br_free":["Geschenkt", "For free"],
+"br_year":["Jahr", "Year"],
+"br_state":["Bundesland", "German state"],
+"br_sub":["Wähle dein Bundesland - ich rechne aus, mit wie wenigen Urlaubstagen du die längsten freien Strecken bekommst. Mit Kalender-Download.", "Pick your German state - I calculate how to get the longest breaks from the fewest days off. With calendar download."],
+"br_h3":["Mehr Urlaub aus <em>weniger Urlaubstagen.</em>", "More holiday from <em>fewer days off.</em>"],
+"ev_ruhr_p":["Von der IGA 2027 über die ExtraSchicht bis zur Cranger Kirmes: alles, was 2027 im Ruhrgebiet fest steht - inklusive Konzerten in Veltins-Arena, Westfalenhalle und beim Zeltfestival. Jeder Termin mit Quelle.", "From IGA 2027 and ExtraSchicht to the Cranger Kirmes: everything confirmed in the Ruhr for 2027 - including concerts at the Veltins-Arena, Westfalenhalle and Zeltfestival. Every date with a source."],
+"ev_ruhr_h3":["Mein Pott-Kalender 2027", "My Ruhr calendar 2027"],
+"ev_ruhr_lbl":["🏭 Veranstaltungskalender Ruhrgebiet 2027", "🏭 Ruhr Area event calendar 2027"],
+"ev_pend_s":["Diese Klassiker kommen 2027 sicher wieder - das genaue Datum ist aber noch nicht offiziell. Deshalb stehen sie (noch) nicht im Kalender.", "These classics are sure to return in 2027 - but the exact dates are not official yet, so they are not in the calendar (yet)."],
+"ev_pend_h":["Noch ohne bestätigten Termin", "Not yet confirmed"],
+"ev_src":["Quelle:", "Source:"],
+"ev_b_rule":["Feste Regel", "Fixed rule"],
+"ev_b_off":["Offiziell", "Official"],
+"ev_cat_markt":["🎄 Märkte", "🎄 Markets"],
+"ev_cat_fest":["🎉 Feste & Brauchtum", "🎉 Festivals & traditions"],
+"ev_cat_kultur":["🎭 Kultur", "🎭 Culture"],
+"ev_cat_musik":["🎵 Musik & Festivals", "🎵 Music & festivals"],
+"ev_cat_sport":["🏟️ Sport", "🏟️ Sport"],
+"ev_cat_all":["Alle Arten", "All types"],
+"ev_reg_world":["🌍 Welt", "🌍 Rest of world"],
+"ev_reg_am":["🌎 Amerika", "🌎 Americas"],
+"ev_reg_ruhr":["🏭 Ruhrgebiet", "🏭 Ruhr Area"],
+"mp_warn":["Reise- & Sicherheitshinweise prüfen", "Check travel and safety advice"],
+"mp_ov_line":["{n} Orte · {c} {u}", "{n} places · {c} {u}"],
+"mp_mygems":["Meine Hidden Gems", "My hidden gems"],
+"mp_st_visited":["von mir bereist", "visited by me"],
+"mp_st_onmap":["Länder auf der Karte", "countries on the map"],
+"mp_caps":["Hauptstädte", "Capitals"],
+"mp_c_oc":["Ozeanien", "Oceania"],
+"mp_c_sa":["Südamerika", "South America"],
+"mp_c_na":["Nord- & Mittelamerika", "North & Central America"],
+"mp_c_af":["Afrika", "Africa"],
+"mp_c_as":["Asien", "Asia"],
+"mp_c_eu":["Europa", "Europe"],
+"why_search":["🔍 Alles durchsuchen", "🔍 Search everything"],
+"why_follow":["Folge @hiddengem.atlas", "Follow @hiddengem.atlas"],
+"why_go":["Ansehen →", "Take a look →"],
+"why_4s":["Was eine Reise wirklich kostet - von jemandem, der beruflich mit Zahlen arbeitet.", "What a trip really costs - from someone who works with numbers for a living."],
+"why_4t":["Ehrliche Kosten", "Honest costs"],
+"why_3s":["Aus wenigen Urlaubstagen lange Trips machen - plus Feste mit Quelle.", "Turn a few days off into long trips - plus festivals with sources."],
+"why_3t":["Events & Brückentage 2027", "events & bridge days 2027"],
+"why_2s":["Mit Uhrzeiten, Laufwegen und Kalender-Download. Ankommen, loslaufen.", "With times, walking legs and a calendar download. Arrive and go."],
+"why_2t":["fertige Tagesrouten", "ready-made day routes"],
+"why_1s":["Meine Hidden Gems plus die Must-Sees jeder Hauptstadt der Welt - mit Google-Maps-Link.", "My hidden gems plus the must-sees of every capital in the world - with a Google Maps link."],
+"why_1t":["Orte auf einer Karte", "places on one map"],
+"why_p":["Kein Vollzeit-Influencer im Dauerurlaub. Ich arbeite Vollzeit - genau wie du, mit festen Urlaubstagen. Deshalb ist jeder Tipp hier darauf getestet, mit Wochenenden, Brückentagen und normalem Budget zu funktionieren. Weniger Planen, mehr Erleben.", "Not a full-time influencer on endless holiday. I work full-time - just like you, with a fixed holiday allowance. That's why every tip here is built to work with weekends, bridge days and a normal budget. Less planning, more living."],
+"why_h2":["Der <em>9-to-5 Traveller.</em>", "The <em>9-to-5 Traveller.</em>"],
+"why_lbl":["Warum du mir folgen solltest", "Why you should follow me"],
+"h2_c1":["📍 Karte entdecken", "📍 Explore the map"],
+"h2_sub":["Vollzeitjob, Urlaubstage wie du - und trotzdem 20+ Länder. Ich zeige dir Hidden Gems, fertige Tagesrouten und ehrliche Kosten, damit sich jeder freie Tag doppelt lohnt.", "Full-time job, the same holiday allowance as you - and still 20+ countries. I show you hidden gems, ready-made day routes and honest costs, so every day off counts double."],
+"h2_eye":["The 9-to-5 Traveller · Hidden Gems worldwide", "The 9-to-5 Traveller · Hidden Gems worldwide"],
 "tr_more":["▾ {n} ältere Trends anzeigen", "▾ Show {n} older trends"],
 "tr_less":["▴ Nur die neuesten 10 zeigen", "▴ Show only the latest 10"],
 "tr_new":["Neu", "New"],
@@ -3535,11 +3751,11 @@ const I18N = {
 "rt_mode_bus":["dem Bus", "bus"],
 "rt_hint":["Tipp: Am Handy zeigt Google Maps nur wenige Zwischenstopps - nutze dann die Etappen-Links. Öffnungszeiten vorher kurz checken, Zeiten sind Richtwerte zum Schlendern.", "Tip: on mobile, Google Maps only shows a few stops - use the leg links instead. Check opening hours before you go; times are a relaxed guide, not a schedule."],
 "pg_events_t":["Eventkalender", "Event calendar"],
-"pg_events_d":["Wiederkehrende Feste & Events 2027 - nur sichere Termine, mit Kalender-Download", "Recurring festivals & events 2027 - only confirmed dates, with calendar download"],
+"pg_events_d":["Events 2027 mit Quelle, Ruhrgebiet-Kalender & Brückentage-Planer", "Events 2027 with sources, Ruhr calendar & bridge-day planner"],
 "ev_lbl":["📅 Eventkalender 2027", "📅 Event calendar 2027"],
-"ev_h2":["Feste, die <em>jedes Jahr</em> wiederkommen.", "Festivals that come back <em>every year.</em>"],
-"ev_intro":["Kein Gerücht, kein „voraussichtlich\": Hier stehen nur Events mit festem Datum oder fester Regel - vom Karneval im Rheinland über die Cranger Kirmes bis zum Vollmond-Laternenfest in Hoi An. Jeder Termin mit Begründung und als Kalender-Download.", "No rumours, no \"expected around\": only events with a fixed date or a fixed rule - from carnival in the Rhineland to the Cranger Kirmes and the full-moon lantern festival in Hoi An. Every date comes with its reason and a calendar download."],
-"ev_note":["Alle Termine sind nach ihrer festen Regel berechnet. Kurzfristige Änderungen durch Veranstalter oder Wetter sind trotzdem möglich. Events wie der Japan-Tag fehlen bewusst: Deren Datum wird jedes Jahr neu festgelegt.", "All dates are calculated from their fixed rule. Short-notice changes by organisers or weather are still possible. Events like Japan Day are left out on purpose: their date is set anew every year."],
+"ev_h2":["Termine, die <em>sich lohnen.</em>", "Dates that are <em>worth it.</em>"],
+"ev_intro":["Zwei Sorten Termine, beide ohne Rätselraten: 🔁 Feste mit fester Regel (z.B. Rosenmontag, Mondkalender) und ✅ Events, die der Veranstalter offiziell bestätigt hat - jeweils mit Quelle zum Nachprüfen. Dazu ein eigener Kalender fürs Ruhrgebiet und der Brückentage-Planer für alle Bundesländer.", "Two kinds of dates, no guesswork: 🔁 festivals with a fixed rule (e.g. Rose Monday, lunar calendar) and ✅ events officially confirmed by the organiser - each with a source you can check. Plus a dedicated Ruhr calendar and a bridge-day planner for every German state."],
+"ev_note":["Regel-Termine sind berechnet, offizielle Termine stammen von der verlinkten Quelle (Stand Oktober 2026). Änderungen durch Veranstalter sind möglich - vor der Buchung kurz prüfen.", "Rule-based dates are calculated, official dates come from the linked source (as of October 2026). Organisers may change dates - check before you book."],
 "ev_all":["Alle", "All"],
 "ev_reg_de":["🇩🇪 Deutschland &amp; Ruhr", "🇩🇪 Germany &amp; Ruhr"],
 "ev_reg_eu":["🇪🇺 Europa", "🇪🇺 Europe"],
@@ -3585,7 +3801,7 @@ const I18N = {
 "ab2_r3t":["Ungefiltert, mit Ruhrpott-Schnauze.", "Unfiltered, with Ruhr attitude."],
 "ab2_r3s":["Eine Nikon D90 von Mama, keine gestellten Shots, keine geliehene Kulisse. Wenn es regnet, siehst du Regen. Wenn es magisch ist, siehst du das auch.", "A Nikon D90 from my mum, no staged shots, no borrowed backdrops. If it rains, you see rain. If it is magic, you see that too."],
 "ab2_p1":["Ich bin Noel, 29, aufgewachsen im Ruhrgebiet - der Gegend, in der „Urlaub“ früher Zelt, Sauerland und Dauerregen hieß. Während andere ihre Sehenswürdigkeiten abhaken wie eine Steuererklärung, will ich wissen, was dahintersteckt.", "I am Noel, 29, raised in the Ruhr - where “holiday” used to mean a tent, the Sauerland and non-stop rain. While others tick off landmarks like a tax return, I want to know what is behind them."],
-"ab2_p2":["Was als Neugier begann, wurde zur Obsession: über 25 Länder, hunderte versteckte Orte - von Albaniens Küste bis nach Hanoi. Und ja, auch der Pott hat Hidden Gems. Mehr, als dein Kopf gerade denkt.", "What started as curiosity turned into an obsession: 25+ countries, hundreds of hidden places - from Albania's coast to Hanoi. And yes, the Ruhr has hidden gems too. More than you think."],
+"ab2_p2":["Was als Neugier begann, wurde zur Obsession: über 20 Länder, hunderte versteckte Orte - von Albaniens Küste bis nach Hanoi. Und ja, auch der Pott hat Hidden Gems. Mehr, als dein Kopf gerade denkt.", "What started as curiosity turned into an obsession: 20+ countries, hundreds of hidden places - from Albania's coast to Hanoi. And yes, the Ruhr has hidden gems too. More than you think."],
 "ab2_p3":["HiddenGem.Atlas ist der Beweis, dass man sich seinen Traum selbst bauen kann. Ohne Erbschaft, ohne Sponsor, ohne Van mit Dachzelt. Nur mit Neugier, Rucksack und einer Kamera, die älter ist als mancher Praktikant.", "HiddenGem.Atlas is proof that you can build your dream yourself. No inheritance, no sponsor, no van with a roof tent. Just curiosity, a backpack and a camera older than some interns."],
 "ab2_cta":["Komm mit auf die Reise", "Come along for the ride"],
 "mp_price":["Preis","Price"],
@@ -3954,11 +4170,21 @@ async function hgLoadContent(){
 
 // Zusätzliche Orte (Bulk-Datei, z.B. Ruhrgebiet) - klein halten, damit index.html nicht wächst
 async function hgLoadMomentsExtra(){
-  try{
-    const r = await fetch('data/moments-extra.json?t=' + Math.floor(Date.now()/600000), {cache:'no-store'});
-    if (!r.ok) throw new Error('HTTP '+r.status);
-    const d = await r.json(); HG.momentsExtra = Array.isArray(d) ? d : (d && d.items) || [];
-  }catch(e){ HG.momentsExtra = HG.momentsExtra || []; console.info('moments-extra.json nicht geladen', e && e.message); }
+  const files = ['data/moments-extra.json', 'data/moments-world.json'];
+  const res = await Promise.all(files.map(async f => {
+    try{
+      const r = await fetch(f + '?t=' + Math.floor(Date.now()/600000), {cache:'no-store'});
+      if (!r.ok) throw new Error('HTTP '+r.status);
+      const d = await r.json(); return Array.isArray(d) ? d : (d && d.items) || [];
+    }catch(e){ console.info(f + ' nicht geladen', e && e.message); return []; }
+  }));
+  // Kompakte Datensätze ergänzen (Flagge aus Ländercode, englische Namen = deutsche, wenn gleich)
+  HG.momentsExtra = [].concat.apply([], res).filter(Boolean).map(m => {
+    if (!m.flag && m.cc) m.flag = mpFlag(m.cc);
+    if (m.town && !m.town_en) m.town_en = m.town;
+    if (m.city && !m.city_en) m.city_en = m.city;
+    return m;
+  });
 }
 
 // Texte + Einstellungen auf die Seite anwenden
@@ -6712,10 +6938,11 @@ function isLand(lon,lat){ return LAND.some(p=>inPoly(lon,lat,p)); }
 
 
 function mpAllMoments(){ return HG.col('moments').filter(m => isFinite(+m.lat) && isFinite(+m.lon)); }
-function mpCountryName(cc){ try{ const n = new Intl.DisplayNames([lang], {type: 'region'}).of(cc); if (n && n !== cc) return n; }catch(e){} return cc; }
+const mpCnCache = {};
+function mpCountryName(cc){ const k = lang + '|' + cc; if (k in mpCnCache) return mpCnCache[k]; let n = mpDNof(lang, cc) || cc; if (cc === 'EU') n = lang === 'en' ? 'Europe' : 'Europa'; return (mpCnCache[k] = n); }
 function mpFlag(cc){ try{ return String.fromCodePoint(...[...cc].map(c => 0x1F1E6 + c.charCodeAt(0) - 65)); }catch(e){ return ''; } }
 function mpTownName(m){ return stripTags(Lz(m, 'town') || ''); }
-function mpStars(r){ r = Math.max(0, Math.min(5, +r || 0)); return '★★★★★'.slice(0, r) + '<span class="mp-star-off">' + '★'.repeat(5 - r) + '</span>'; }
+function mpStars(r){ if (!r) return ''; r = Math.max(0, Math.min(5, +r || 0)); return '★★★★★'.slice(0, r) + '<span class="mp-star-off">' + '★'.repeat(5 - r) + '</span>'; }
 function mpPriceLabel(p){ return p === 'free' ? t('mp_free') : (p || ''); }
 // Google-Maps-Links: bevorzugt den exakten Suchnamen (q), sonst die Koordinaten.
 function mpGoogle(m){ const q = (m.q || '').trim(); return q ? 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q) : 'https://www.google.com/maps/search/?api=1&query=' + (+m.lat) + ',' + (+m.lon); }
@@ -6724,37 +6951,44 @@ function mpDir(m){ const q = (m.q || '').trim(); return q ? 'https://www.google.
 let mpMap = null, mpLayer = null;
 // Regionen: Orte mit "area" werden als eigene Region gruppiert (z.B. Ruhrgebiet) - beliebig erweiterbar.
 const MP_AREAS = {ruhr: {de: 'Ruhrgebiet', en: 'Ruhr Area', flag: '🏭'}};
-const mpF = {country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', q: ''};
+// Kontinente (Ländercode → Kontinent), Quelle: GeoNames; Türkei bewusst unter Europa
+const MP_CONT = {"AD":"EU","AE":"AS","AF":"AS","AG":"NA","AL":"EU","AM":"AS","AO":"AF","AR":"SA","AT":"EU","AU":"OC","AZ":"AS","BA":"EU","BB":"NA","BD":"AS","BE":"EU","BF":"AF","BG":"EU","BH":"AS","BI":"AF","BJ":"AF","BN":"AS","BO":"SA","BR":"SA","BS":"NA","BT":"AS","BW":"AF","BY":"EU","BZ":"NA","CA":"NA","CD":"AF","CF":"AF","CG":"AF","CH":"EU","CI":"AF","CL":"SA","CM":"AF","CN":"AS","CO":"SA","CR":"NA","CU":"NA","CV":"AF","CY":"EU","CZ":"EU","DE":"EU","DJ":"AF","DK":"EU","DM":"NA","DO":"NA","DZ":"AF","EC":"SA","EE":"EU","EG":"AF","ER":"AF","ES":"EU","ET":"AF","FI":"EU","FJ":"OC","FM":"OC","FR":"EU","GA":"AF","GB":"EU","GD":"NA","GE":"AS","GH":"AF","GM":"AF","GN":"AF","GQ":"AF","GR":"EU","GT":"NA","GW":"AF","GY":"SA","HK":"AS","HN":"NA","HR":"EU","HT":"NA","HU":"EU","ID":"AS","IE":"EU","IL":"AS","IN":"AS","IQ":"AS","IR":"AS","IS":"EU","IT":"EU","JM":"NA","JO":"AS","JP":"AS","KE":"AF","KG":"AS","KH":"AS","KI":"OC","KM":"AF","KN":"NA","KP":"AS","KR":"AS","KW":"AS","KZ":"AS","LA":"AS","LB":"AS","LC":"NA","LI":"EU","LK":"AS","LR":"AF","LS":"AF","LT":"EU","LU":"EU","LV":"EU","LY":"AF","MA":"AF","MC":"EU","MD":"EU","ME":"EU","MG":"AF","MH":"OC","MK":"EU","ML":"AF","MM":"AS","MN":"AS","MR":"AF","MT":"EU","MU":"AF","MV":"AS","MW":"AF","MX":"NA","MY":"AS","MZ":"AF","NA":"AF","NE":"AF","NG":"AF","NI":"NA","NL":"EU","NO":"EU","NP":"AS","NR":"OC","NZ":"OC","OM":"AS","PA":"NA","PE":"SA","PG":"OC","PH":"AS","PK":"AS","PL":"EU","PS":"AS","PT":"EU","PW":"OC","PY":"SA","QA":"AS","RO":"EU","RS":"EU","RU":"EU","RW":"AF","SA":"AS","SB":"OC","SC":"AF","SD":"AF","SE":"EU","SG":"AS","SI":"EU","SK":"EU","SL":"AF","SM":"EU","SN":"AF","SO":"AF","SR":"SA","SS":"AF","ST":"AF","SV":"NA","SY":"AS","SZ":"AF","TD":"AF","TG":"AF","TH":"AS","TJ":"AS","TL":"OC","TM":"AS","TN":"AF","TO":"OC","TR":"EU","TT":"NA","TV":"OC","TW":"AS","TZ":"AF","UA":"EU","UG":"AF","US":"NA","UY":"SA","UZ":"AS","VA":"EU","VC":"NA","VE":"SA","VN":"AS","VU":"OC","WS":"OC","XK":"EU","YE":"AS","ZA":"AF","ZM":"AF","ZW":"AF"};
+const MP_CONTS = [['EU', '🇪🇺', 'mp_c_eu'], ['AS', '🌏', 'mp_c_as'], ['AF', '🌍', 'mp_c_af'], ['NA', '🌎', 'mp_c_na'], ['SA', '🌎', 'mp_c_sa'], ['OC', '🌊', 'mp_c_oc']];
+function mpCont(m){ return MP_CONT[m.cc] || 'EU'; }
+const mpF = {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', cap: false, q: ''};
 const mpUI = {open: {}, more: {}};
 const MP_LIM = 12;
 function mpNorm(s){ return String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+const mpDN = {};
+function mpDNof(lg, cc){ try{ if (!mpDN[lg]) mpDN[lg] = new Intl.DisplayNames([lg], {type: 'region'}); const n = mpDN[lg].of(cc); return n && n !== cc ? n : ''; }catch(e){ return ''; } }
 const mpHayCache = new WeakMap();
 function mpHay(m){
   let h = mpHayCache.get(m); if (h) return h;
   const ar = MP_AREAS[m.area] || {};
-  let cn = ''; try{ cn = new Intl.DisplayNames(['de'], {type: 'region'}).of(m.cc) + ' ' + new Intl.DisplayNames(['en'], {type: 'region'}).of(m.cc); }catch(e){}
-  h = mpNorm([m.city, m.city_en, m.town, m.town_en, m.title, m.title_en, cn, ar.de, ar.en].map(x => stripTags(x || '')).join(' '));
+  h = mpNorm([m.city, m.city_en, m.town, m.town_en, m.title, m.title_en, mpDNof('de', m.cc), mpDNof('en', m.cc), ar.de, ar.en].map(x => stripTags(x || '')).join(' '));
   mpHayCache.set(m, h); return h;
 }
 // skip = Filter-Dimensionen, die ignoriert werden (für die Zähler an den Chips)
 function mpMatch(m, skip){
   skip = skip || {};
+  if (!skip.cont && mpF.cont !== 'all' && mpCont(m) !== mpF.cont) return false;
   if (!skip.country && mpF.country !== 'all' && (m.cc || '') !== mpF.country) return false;
   if (!skip.area && mpF.area !== 'all' && (m.area || '') !== mpF.area) return false;
   if (!skip.town && mpF.town !== 'all' && (m.town || '') !== mpF.town) return false;
   if (!skip.cat && mpF.cat !== 'all' && (m.cat || 'sight') !== mpF.cat) return false;
   if (!skip.price && mpF.price !== 'all' && (m.price || 'free') !== mpF.price) return false;
   if (!skip.kind && mpF.kind !== 'all' && (m.kind || 'gem') !== mpF.kind) return false;
+  if (!skip.cap && mpF.cap && !m.cap) return false;
   if (!skip.visit && mpF.visit !== 'all'){ const todo = m.visit === 'todo'; if (mpF.visit === 'todo' ? !todo : todo) return false; }
   if (!skip.q && mpF.q){ const n = mpNorm(mpF.q).trim(); if (n && !n.split(/\s+/).every(w => mpHay(m).indexOf(w) > -1)) return false; }
   return true;
 }
 function mpFacet(skip){ return mpAllMoments().filter(m => mpMatch(m, skip)); }
-function mpActive(){ return mpF.country !== 'all' || mpF.area !== 'all' || mpF.town !== 'all' || mpF.cat !== 'all' || mpF.price !== 'all' || mpF.kind !== 'all' || mpF.visit !== 'all' || !!mpF.q; }
+function mpActive(){ return mpF.cont !== 'all' || mpF.country !== 'all' || mpF.area !== 'all' || mpF.town !== 'all' || mpF.cat !== 'all' || mpF.price !== 'all' || mpF.kind !== 'all' || mpF.visit !== 'all' || mpF.cap || !!mpF.q; }
 function mpEnsureMap(){
   if (mpMap || typeof L === 'undefined') return mpMap;
   const el = document.getElementById('mp-map'); if (!el) return null;
-  mpMap = L.map(el, {scrollWheelZoom: false, worldCopyJump: true, attributionControl: false}).setView([44, 15], 4);
+  mpMap = L.map(el, {scrollWheelZoom: false, worldCopyJump: true, attributionControl: false}).setView([30, 15], 2);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(mpMap);
   mpMap.on('click', e => { if (HG.editing) hgColForm('moments', null, {lat: +e.latlng.lat.toFixed(5), lon: +e.latlng.lng.toFixed(5)}); });
   // Cluster, damit auch 1500+ Pins schnell und lesbar bleiben (Fallback: einfache Ebene)
@@ -6764,6 +6998,7 @@ function mpEnsureMap(){
     : L.layerGroup()).addTo(mpMap);
   return mpMap;
 }
+function mpWarnHtml(m){ return m.warn ? '<a class="mp-warn" href="https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/reise-und-sicherheitshinweise" target="_blank" rel="noopener" onclick="event.stopPropagation()">⚠️ ' + t('mp_warn') + '</a>' : ''; }
 function mpMarkers(){
   if (!mpMap || !mpLayer) return;
   mpLayer.clearLayers();
@@ -6776,12 +7011,14 @@ function mpMarkers(){
     const gm = mpGoogle(m), dir = mpDir(m);
     const kindB = mustsee ? '<span class="mp-tag ms">⭐ ' + t('mp_mustsee') + '</span>' : '<span class="mp-tag gem">💎 ' + t('mp_gem') + '</span>';
     const todoB = m.visit === 'todo' ? '<span class="mp-tag">🧭 ' + t('mp_todo') + '</span>' : '';
-    const where = (mpTownName(m) ? esc(mpTownName(m)) + ' · ' : '') + esc(mpCountryName(m.cc));
-    const pl = (m.price && m.price !== '?') ? ' · ' + esc(mpPriceLabel(m.price)) : '';
+    const meta = [];
+    if (m.rating) meta.push('<span class="mp-rate">' + mpStars(m.rating) + '</span>');
+    if (m.price && m.price !== '?') meta.push(esc(mpPriceLabel(m.price)));
+    meta.push((mpTownName(m) ? esc(mpTownName(m)) + ' · ' : '') + esc(mpCountryName(m.cc)));
     const pop = '<div class="mp-pop"><div class="mp-pop-head">' + kindB + todoB + ' <span class="mp-tag">' + (MP_CATS[m.cat] || '📍') + ' ' + t('cat_' + (m.cat || 'sight')) + '</span></div>' +
       '<div class="mp-pop-t">' + esc(m.flag || '📍') + ' ' + esc(stripTags(Lz(m, 'city'))) + '</div>' +
-      '<div class="mp-pop-meta"><span class="mp-rate">' + mpStars(m.rating) + '</span>' + pl + ' · ' + where + '</div>' +
-      '<div class="mp-pop-s">' + esc(stripTags(Lz(m, 'title'))) + '</div>' +
+      '<div class="mp-pop-meta">' + meta.join(' · ') + '</div>' +
+      '<div class="mp-pop-s">' + esc(stripTags(Lz(m, 'title'))) + '</div>' + mpWarnHtml(m) +
       '<div class="mp-pop-btns">' +
         '<a href="' + gm + '" target="_blank" rel="noopener">🗺️ ' + t('mp_open_gmaps') + '</a>' +
         '<a href="' + dir + '" target="_blank" rel="noopener">🧭 ' + t('mp_route') + '</a>' +
@@ -6794,21 +7031,31 @@ function mpMarkers(){
   if (pts.length && !rtLayer){ try{ mpMap.fitBounds(pts, {padding: [45, 45], maxZoom: 12}); }catch(e){} }
 }
 function mpChip(label, n, active, js){ return '<button type="button" class="mp-chip' + (active ? ' active' : '') + '" onclick="' + esc(js) + '">' + label + (n != null ? ' <em>' + nf(n) + '</em>' : '') + '</button>'; }
+function mpContLabel(c){ const x = MP_CONTS.find(k => k[0] === c); return x ? x[1] + ' ' + t(x[2]) : c; }
 function mpBuildFilters(){
   const bar = document.getElementById('mp-filters'); if (!bar) return;
   const all = mpAllMoments();
   const opt = (v, label, sel) => '<option value="' + esc(v) + '" ' + (sel === v ? 'selected' : '') + '>' + label + '</option>';
-  // Art (mit Zählern)
+  // Art (mit Zählern) + Hauptstädte
   const kn = {all: 0, gem: 0, mustsee: 0};
   mpFacet({kind: 1}).forEach(m => { kn.all++; kn[(m.kind || 'gem')] = (kn[(m.kind || 'gem')] || 0) + 1; });
+  const capN = mpFacet({cap: 1}).filter(m => m.cap).length;
   const kbtn = (k, label) => '<button type="button" class="mp-kbtn' + (mpF.kind === k ? ' active' : '') + '" onclick="mpSet(\'kind\',\'' + k + '\')">' + label + ' <em>' + nf(kn[k] || 0) + '</em></button>';
-  // Regionen: Alle · Gebiete (z.B. Ruhrgebiet) · Länder, jeweils mit Zähler
-  const byCc = {}, byArea = {}; let total = 0;
-  mpFacet({country: 1, area: 1, town: 1}).forEach(m => { total++; if (m.cc) byCc[m.cc] = (byCc[m.cc] || 0) + 1; if (m.area) byArea[m.area] = (byArea[m.area] || 0) + 1; });
-  const ccs = Object.keys(byCc).sort((a, b) => byCc[b] - byCc[a] || mpCountryName(a).localeCompare(mpCountryName(b), lang));
-  let chips = mpChip(t('mp_all'), total, mpF.country === 'all' && mpF.area === 'all', "mpRegion('all')");
+  const capBtn = '<button type="button" class="mp-kbtn mp-capbtn' + (mpF.cap ? ' active' : '') + '" onclick="mpSet(\'cap\',' + (mpF.cap ? 'false' : 'true') + ')" aria-pressed="' + mpF.cap + '">🏛️ ' + t('mp_caps') + ' <em>' + nf(capN) + '</em></button>';
+  // Regionen: Alle · Ruhrgebiet · Kontinente
+  const byCont = {}, byArea = {}; let total = 0;
+  mpFacet({cont: 1, country: 1, area: 1, town: 1}).forEach(m => { total++; const c = mpCont(m); byCont[c] = (byCont[c] || 0) + 1; if (m.area) byArea[m.area] = (byArea[m.area] || 0) + 1; });
+  let chips = mpChip(t('mp_all'), total, mpF.cont === 'all' && mpF.country === 'all' && mpF.area === 'all', "mpRegion('all')");
   Object.keys(MP_AREAS).filter(a => byArea[a]).forEach(a => { chips += mpChip(MP_AREAS[a].flag + ' ' + esc(lang === 'en' ? MP_AREAS[a].en : MP_AREAS[a].de), byArea[a], mpF.area === a, "mpRegion('area','" + a + "')"); });
-  ccs.forEach(c => { chips += mpChip(mpFlag(c) + ' ' + esc(mpCountryName(c)), byCc[c], mpF.country === c, "mpRegion('country','" + c + "')"); });
+  MP_CONTS.filter(c => byCont[c[0]]).forEach(c => { chips += mpChip(mpContLabel(c[0]), byCont[c[0]], mpF.cont === c[0] && mpF.area === 'all', "mpRegion('cont','" + c[0] + "')"); });
+  // Länder des gewählten Kontinents
+  let ccRow = '';
+  if (mpF.cont !== 'all'){
+    const byCc = {}; let ct = 0;
+    mpFacet({country: 1, area: 1, town: 1}).forEach(m => { ct++; if (m.cc) byCc[m.cc] = (byCc[m.cc] || 0) + 1; });
+    const ccs = Object.keys(byCc).sort((a, b) => byCc[b] - byCc[a] || mpCountryName(a).localeCompare(mpCountryName(b), lang));
+    ccRow = '<div class="mp-chips mp-chips-cc" role="group" aria-label="' + esc(stripTags(t('mp_country'))) + '">' + mpChip(t('mp_all_countries'), ct, mpF.country === 'all', "mpSet('country','all')") + ccs.map(c => mpChip(mpFlag(c) + ' ' + esc(mpCountryName(c)), byCc[c], mpF.country === c, "mpSet('country','" + c + "')")).join('') + '</div>';
+  }
   // Städte der gewählten Region
   let cityRow = '';
   if (mpF.country !== 'all' || mpF.area !== 'all'){
@@ -6820,8 +7067,8 @@ function mpBuildFilters(){
   const cats = [...new Set(all.map(m => m.cat || 'sight'))];
   const catOrder = Object.keys(MP_CATS).filter(c => cats.includes(c));
   bar.innerHTML =
-    '<div class="mp-kind">' + kbtn('all', t('mp_all')) + kbtn('gem', '💎 ' + t('mp_gems')) + kbtn('mustsee', '⭐ ' + t('mp_mustsees')) + '</div>' +
-    '<div class="mp-chips" role="group" aria-label="' + esc(stripTags(t('mp_regions'))) + '">' + chips + '</div>' + cityRow +
+    '<div class="mp-kind">' + kbtn('all', t('mp_all')) + kbtn('gem', '💎 ' + t('mp_gems')) + kbtn('mustsee', '⭐ ' + t('mp_mustsees')) + capBtn + '</div>' +
+    '<div class="mp-chips" role="group" aria-label="' + esc(stripTags(t('mp_regions'))) + '">' + chips + '</div>' + ccRow + cityRow +
     '<div class="mp-selects">' +
       '<label class="mp-sel"><span>' + t('mp_category') + '</span><select onchange="mpSet(\'cat\',this.value)">' + opt('all', t('mp_all_cats'), mpF.cat) + catOrder.map(c => opt(c, MP_CATS[c] + ' ' + t('cat_' + c), mpF.cat)).join('') + '</select></label>' +
       '<label class="mp-sel"><span>' + t('mp_price') + '</span><select onchange="mpSet(\'price\',this.value)">' + opt('all', t('mp_all_prices'), mpF.price) + ['free', '€', '€€', '€€€'].map(p => opt(p, mpPriceLabel(p), mpF.price)).join('') + '</select></label>' +
@@ -6832,17 +7079,20 @@ function mpBuildFilters(){
 function mpRefresh(){ if (rtLayer) rtHideMap(true); mpBuildFilters(); mpMarkers(); mpRenderList(); }
 function mpSet(key, val){
   mpF[key] = val;
-  if (key === 'country'){ mpF.town = 'all'; mpF.area = 'all'; }
-  if (key === 'area'){ mpF.town = 'all'; mpF.country = 'all'; }
-  mpRefresh();
+  if (key === 'country'){ mpF.town = 'all'; mpF.area = 'all'; if (val !== 'all') mpF.cont = MP_CONT[val] || mpF.cont; }
+  if (key === 'area'){ mpF.town = 'all'; mpF.country = 'all'; mpF.cont = 'all'; }
+  mpUI.open = {}; mpRefresh();
 }
 function mpRegion(type, val){
-  mpF.country = 'all'; mpF.area = 'all'; mpF.town = 'all';
-  if (type === 'country') mpF.country = val; else if (type === 'area') mpF.area = val;
-  mpRefresh();
+  mpF.cont = 'all'; mpF.country = 'all'; mpF.area = 'all'; mpF.town = 'all';
+  if (type === 'country'){ mpF.country = val; mpF.cont = MP_CONT[val] || 'all'; }
+  else if (type === 'area') mpF.area = val;
+  else if (type === 'cont') mpF.cont = val;
+  mpUI.open = {}; mpRefresh();
 }
+function mpGoRegion(type, val){ mpRegion(type, val); const el = document.getElementById('mp-filters'); if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'}); }
 function mpReset(){
-  Object.assign(mpF, {country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', q: ''});
+  Object.assign(mpF, {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', cap: false, q: ''});
   const qi = document.getElementById('mp-q'); if (qi) qi.value = '';
   mpUI.open = {}; mpUI.more = {}; mpRefresh();
 }
@@ -6857,19 +7107,22 @@ function mpRenderStats(){
   const all = mpAllMoments();
   const gems = all.filter(m => (m.kind || 'gem') === 'gem').length;
   const ccs = new Set(all.map(m => m.cc).filter(Boolean)).size;
-  const towns = new Set(all.filter(m => m.town).map(m => (m.cc || '') + '|' + m.town)).size;
+  const visited = new Set(all.filter(m => m.visit !== 'todo').map(m => m.cc).filter(Boolean)).size;
+  const caps = new Set(all.filter(m => m.cap).map(m => m.cc + '|' + m.town)).size;
   const tile = (n, l) => '<div class="mp-st"><strong>' + nf(n) + '</strong><span>' + l + '</span></div>';
-  el.innerHTML = tile(all.length, t('mp_st_places')) + tile(gems, '💎 ' + t('mp_gems')) + tile(all.length - gems, '⭐ ' + t('mp_mustsees')) + tile(ccs, t('mp_st_countries')) + tile(towns, t('mp_st_cities')) + '<div class="mp-st-note">' + t('mp_st_grow') + '</div>';
+  el.innerHTML = tile(all.length, t('mp_st_places')) + tile(gems, '💎 ' + t('mp_gems')) + tile(all.length - gems, '⭐ ' + t('mp_mustsees')) + tile(caps, '🏛️ ' + t('mp_caps')) + tile(ccs, t('mp_st_onmap')) + tile(visited, '✅ ' + t('mp_st_visited')) + '<div class="mp-st-note">' + t('mp_st_grow') + '</div>';
 }
 function mpGroupKey(m){ return m.area ? 'a:' + m.area : 'c:' + (m.cc || '?'); }
 function mpGroupLabel(k, restOf){
+  if (k === 'mine') return '💎 ' + t('mp_mygems');
   if (k.indexOf('a:') !== 0 && restOf && restOf[k.slice(2)]) return mpFlag(k.slice(2)) + ' ' + esc(mpCountryName(k.slice(2))) + ' <small class="mp-rest">' + t('mp_rest') + '</small>';
   if (k.indexOf('a:') === 0){ const a = MP_AREAS[k.slice(2)] || {}; return (a.flag || '📍') + ' ' + esc(lang === 'en' ? (a.en || a.de) : (a.de || a.en)); }
   const cc = k.slice(2); return mpFlag(cc) + ' ' + esc(mpCountryName(cc));
 }
 function mpCard(m){
   const gm = mpGoogle(m), ms = m.kind === 'mustsee', todo = m.visit === 'todo';
-  const meta = ['<span class="mp-rate">' + mpStars(m.rating) + '</span>'];
+  const meta = [];
+  if (m.rating) meta.push('<span class="mp-rate">' + mpStars(m.rating) + '</span>');
   if (m.price && m.price !== '?') meta.push(esc(mpPriceLabel(m.price)));
   meta.push((MP_CATS[m.cat] || '') + ' ' + t('cat_' + (m.cat || 'sight')));
   return '<div class="mp-item' + (todo ? ' todo' : '') + '" data-id="' + esc(m.id) + '">' + HG.tools('moments', m.id) +
@@ -6877,19 +7130,70 @@ function mpCard(m){
       '<div class="mp-item-top"><span class="mp-item-kind ' + (ms ? 'ms' : 'gem') + '">' + (ms ? '⭐' : '💎') + '</span><span class="mp-item-t">' + esc(m.flag || '📍') + ' ' + Lz(m, 'city') + '</span></div>' +
       '<div class="mp-item-meta">' + meta.join(' · ') + '</div>' +
       '<div class="mp-item-m">' + Lz(m, 'title') + '</div>' +
-      (todo ? '<div class="mp-todo">🧭 ' + t('mp_todo') + '</div>' : '') +
+      (todo ? '<div class="mp-todo">🧭 ' + t('mp_todo') + '</div>' : '') + mpWarnHtml(m) +
     '</div>' +
     '<a class="mp-item-gm" href="' + gm + '" target="_blank" rel="noopener" title="' + esc(stripTags(t('mp_open_gmaps'))) + '">🗺️</a>' +
   '</div>';
 }
+function mpGroupHtml(k, label, items, open){
+  const g = items.filter(m => (m.kind || 'gem') === 'gem').length, ms = items.length - g;
+  const capTown = {}; items.forEach(m => { if (m.cap) capTown[m.town] = 1; });
+  const rank = (a, b) => (b.rating || 0) - (a.rating || 0) || stripTags(Lz(a, 'city')).localeCompare(stripTags(Lz(b, 'city')), lang);
+  let html = '<section class="mp-grp' + (open ? ' open' : '') + '" data-g="' + esc(k) + '">' +
+    '<button type="button" class="mp-grp-h" aria-expanded="' + (open ? 'true' : 'false') + '" onclick="mpToggle(\'' + jsq(k) + '\')">' +
+      '<span class="mp-grp-t">' + label + '</span>' +
+      '<span class="mp-grp-n">' + (g ? '💎 ' + g : '') + (g && ms ? ' · ' : '') + (ms ? '⭐ ' + ms : '') + '</span>' +
+      '<span class="mp-grp-c">' + items.length + '</span><span class="mp-chev">▾</span></button>';
+  if (open){
+    const towns = {};
+    items.forEach(m => { const tk = m.town || '-'; (towns[tk] = towns[tk] || []).push(m); });
+    const tkeys = Object.keys(towns).sort((a, b) => (capTown[b] ? 1 : 0) - (capTown[a] ? 1 : 0) || towns[b].length - towns[a].length || a.localeCompare(b, lang));
+    html += '<div class="mp-grp-b">';
+    tkeys.forEach(tk => {
+      const arr = towns[tk];
+      const gems = arr.filter(m => (m.kind || 'gem') === 'gem'), mst = arr.filter(m => (m.kind || 'gem') !== 'gem');
+      html += '<div class="mp-city"><h4 class="mp-city-h"><span>' + (capTown[tk] ? '🏛️ ' : '') + esc(stripTags(Lz(arr[0], 'town')) || '-') + (k === 'mine' ? ' <small class="mp-rest">' + esc(mpCountryName(arr[0].cc)) + '</small>' : '') + '</span><em>' + arr.length + '</em></h4>';
+      [[gems, 'gem', '💎 ' + t('mp_gems')], [mst, 'mustsee', '⭐ ' + t('mp_mustsees')]].forEach(pair => {
+        const set = pair[0].slice().sort(rank); if (!set.length) return;
+        const mk = k + '|' + tk + '|' + pair[1], lim = MP_LIM + (mpUI.more[mk] || 0);
+        html += (gems.length && mst.length ? '<div class="mp-sub">' + pair[2] + ' <em>' + set.length + '</em></div>' : '') +
+          '<div class="mp-cards">' + set.slice(0, lim).map(mpCard).join('') + '</div>';
+        if (set.length > lim) html += '<button type="button" class="mp-more" onclick="' + esc("mpMore('" + jsq(mk) + "')") + '">' + t('mp_more', {n: set.length - lim}) + '</button>';
+      });
+      html += '</div>';
+    });
+    html += '</div>';
+  }
+  return html + '</section>';
+}
+function mpOverviewHtml(list){
+  const tiles = [];
+  const ar = list.filter(m => m.area === 'ruhr');
+  if (ar.length) tiles.push(['area', 'ruhr', '🏭', lang === 'en' ? 'Ruhr Area' : 'Ruhrgebiet', ar]);
+  MP_CONTS.forEach(c => { const xs = list.filter(m => mpCont(m) === c[0]); if (xs.length) tiles.push(['cont', c[0], c[1], t(c[2]), xs]); });
+  return '<div class="mp-ov">' + tiles.map(x => {
+    const ccs = new Set(x[4].map(m => m.cc)).size, towns = new Set(x[4].map(m => m.cc + '|' + m.town)).size;
+    const flags = [...new Set(x[4].filter(m => m.visit !== 'todo').map(m => m.cc))].slice(0, 6).map(mpFlag).join(' ');
+    return '<button type="button" class="mp-ov-t" onclick="mpGoRegion(\'' + x[0] + '\',\'' + x[1] + '\')"><span class="mp-ov-ic">' + x[2] + '</span><strong>' + esc(x[3]) + '</strong>' +
+      '<em>' + t('mp_ov_line', {n: nf(x[4].length), c: nf(x[0] === 'area' ? towns : ccs), u: x[0] === 'area' ? t('mp_st_cities') : t('mp_st_countries')}) + '</em>' +
+      (flags ? '<span class="mp-ov-f" title="' + esc(stripTags(t('mp_st_visited'))) + '">✅ ' + flags + '</span>' : '') + '</button>';
+  }).join('') + '</div>';
+}
 function mpRenderList(){
   const listEl = document.getElementById('mp-list'); if (!listEl) return;
   const list = mpAllMoments().filter(m => mpMatch(m));
-  const cnt = document.getElementById('mp-count'); if (cnt) cnt.textContent = list.length;
+  const cnt = document.getElementById('mp-count'); if (cnt) cnt.textContent = nf(list.length);
   mpRenderStats();
   const addBtn = HG.addCard('moments', 'Ort hinzufügen', 'mp-add');
   if (!list.length){
     listEl.innerHTML = '<div class="mp-empty"><p>' + t('mp_none') + '</p><button type="button" class="btn-g" onclick="mpReset()">' + t('mp_reset') + '</button></div>' + addBtn;
+    return;
+  }
+  // Übersicht ohne Filter: Regionen-Kacheln + meine Hidden Gems
+  if (!mpActive()){
+    const mine = list.filter(m => (m.kind || 'gem') === 'gem');
+    const open = ('mine' in mpUI.open) ? mpUI.open.mine : true;
+    listEl.innerHTML = mpOverviewHtml(list) + (mine.length ? mpGroupHtml('mine', mpGroupLabel('mine'), mine, open) : '') + addBtn;
     return;
   }
   const groups = {};
@@ -6901,40 +7205,7 @@ function mpRenderList(){
   });
   const restOf = {}; list.forEach(m => { if (m.area && m.cc) restOf[m.cc] = 1; });
   const narrowed = !!mpF.q || mpF.country !== 'all' || mpF.area !== 'all' || mpF.town !== 'all' || list.length <= 40;
-  const rank = (a, b) => (b.rating || 0) - (a.rating || 0) || stripTags(Lz(a, 'city')).localeCompare(stripTags(Lz(b, 'city')), lang);
-  let html = '';
-  keys.forEach((k, idx) => {
-    const items = groups[k];
-    const open = (k in mpUI.open) ? mpUI.open[k] : (narrowed || idx === 0);
-    const g = items.filter(m => (m.kind || 'gem') === 'gem').length, ms = items.length - g;
-    html += '<section class="mp-grp' + (open ? ' open' : '') + '" data-g="' + esc(k) + '">' +
-      '<button type="button" class="mp-grp-h" aria-expanded="' + (open ? 'true' : 'false') + '" onclick="mpToggle(\'' + k + '\')">' +
-        '<span class="mp-grp-t">' + mpGroupLabel(k, restOf) + '</span>' +
-        '<span class="mp-grp-n">' + (g ? '💎 ' + g : '') + (g && ms ? ' · ' : '') + (ms ? '⭐ ' + ms : '') + '</span>' +
-        '<span class="mp-grp-c">' + items.length + '</span><span class="mp-chev">▾</span></button>';
-    if (open){
-      const towns = {};
-      items.forEach(m => { const tk = m.town || '-'; (towns[tk] = towns[tk] || []).push(m); });
-      const tkeys = Object.keys(towns).sort((a, b) => towns[b].length - towns[a].length || a.localeCompare(b, lang));
-      html += '<div class="mp-grp-b">';
-      tkeys.forEach(tk => {
-        const arr = towns[tk];
-        const gems = arr.filter(m => (m.kind || 'gem') === 'gem'), mst = arr.filter(m => (m.kind || 'gem') !== 'gem');
-        html += '<div class="mp-city"><h4 class="mp-city-h"><span>' + esc(stripTags(Lz(arr[0], 'town')) || '-') + '</span><em>' + arr.length + '</em></h4>';
-        [[gems, 'gem', '💎 ' + t('mp_gems')], [mst, 'mustsee', '⭐ ' + t('mp_mustsees')]].forEach(pair => {
-          const set = pair[0].slice().sort(rank); if (!set.length) return;
-          const mk = k + '|' + tk + '|' + pair[1], lim = MP_LIM + (mpUI.more[mk] || 0);
-          html += (gems.length && mst.length ? '<div class="mp-sub">' + pair[2] + ' <em>' + set.length + '</em></div>' : '') +
-            '<div class="mp-cards">' + set.slice(0, lim).map(mpCard).join('') + '</div>';
-          if (set.length > lim) html += '<button type="button" class="mp-more" onclick="' + esc("mpMore('" + jsq(mk) + "')") + '">' + t('mp_more', {n: set.length - lim}) + '</button>';
-        });
-        html += '</div>';
-      });
-      html += '</div>';
-    }
-    html += '</section>';
-  });
-  listEl.innerHTML = html + addBtn;
+  listEl.innerHTML = keys.map((k, idx) => mpGroupHtml(k, mpGroupLabel(k, restOf), groups[k], (k in mpUI.open) ? mpUI.open[k] : (narrowed || (idx === 0 && keys.length <= 12)))).join('') + addBtn;
 }
 function renderMoments(){
   const qi = document.getElementById('mp-q'); if (qi && qi.value !== mpF.q) qi.value = mpF.q;
@@ -7118,8 +7389,10 @@ HG.onRender(rtRender);
 // ║  EVENTKALENDER (data/events.json)                  ║
 // ║  Nur feste Termine/Regeln - per Skript berechnet   ║
 // ╚════════════════════════════════════════════════════╝
-let evReg = 'all';
-const EV_REGS = [['all', 'ev_all'], ['de', 'ev_reg_de'], ['eu', 'ev_reg_eu'], ['asia', 'ev_reg_asia'], ['us', 'ev_reg_us']];
+let evReg = 'all', evCat = 'all';
+const EV_REGS = [['all', 'ev_all'], ['ruhr', 'ev_reg_ruhr'], ['de', 'ev_reg_de'], ['eu', 'ev_reg_eu'], ['asia', 'ev_reg_asia'], ['am', 'ev_reg_am'], ['world', 'ev_reg_world']];
+const EV_CATS = [['all', 'ev_cat_all'], ['sport', 'ev_cat_sport'], ['musik', 'ev_cat_musik'], ['kultur', 'ev_cat_kultur'], ['fest', 'ev_cat_fest'], ['markt', 'ev_cat_markt']];
+function evCatOf(e){ return e.cat === 'karneval' ? 'fest' : (e.cat || 'fest'); }
 function evList(){ return HG.events || []; }
 function evDate(s){ const a = String(s).split('-').map(Number); return new Date(a[0], a[1] - 1, a[2]); }
 function evLoc(){ return lang === 'en' ? 'en-GB' : 'de-DE'; }
@@ -7130,25 +7403,29 @@ function evRange(e){
   return a.toLocaleDateString(evLoc(), same ? {day: 'numeric'} : {day: 'numeric', month: 'short'}) + ' - ' + b.toLocaleDateString(evLoc(), {day: 'numeric', month: 'long'});
 }
 function evCard(e){
-  const d = evDate(e.date);
-  return '<div class="ev-card">' +
+  const d = evDate(e.date), off = e.basis === 'official';
+  return '<div class="ev-card" id="ev-' + esc(e.id) + '">' +
     '<div class="ev-badge"><span class="ev-d">' + d.getDate() + '</span><span class="ev-m">' + esc(d.toLocaleDateString(evLoc(), {month: 'short'})) + '</span></div>' +
     '<div class="ev-body">' +
-      '<div class="ev-when">' + esc(evRange(e)) + '</div>' +
+      '<div class="ev-when">' + esc(evRange(e)) + ' <span class="ev-basis ' + (off ? 'off' : 'rule') + '">' + (off ? '✅ ' + t('ev_b_off') : '🔁 ' + t('ev_b_rule')) + '</span></div>' +
       '<div class="ev-t">' + esc(stripTags(Lz(e, 'title'))) + '</div>' +
       '<div class="ev-place">' + esc(e.flag) + ' ' + esc(stripTags(Lz(e, 'place'))) + '</div>' +
       '<div class="ev-desc">' + esc(stripTags(Lz(e, 'desc'))) + '</div>' +
-      '<div class="ev-why"><strong>' + t('ev_why') + '</strong> ' + esc(stripTags(Lz(e, 'rule'))) + '</div>' +
+      '<div class="ev-why"><strong>' + (off ? t('ev_src') : t('ev_why')) + '</strong> ' + esc(stripTags(Lz(e, 'rule'))) +
+        (e.url ? ' <a href="' + esc(safeUrl(e.url)) + '" target="_blank" rel="noopener">' + esc(e.src || 'Quelle') + ' ↗</a>' : '') + '</div>' +
       '<div class="ev-act"><button type="button" onclick="evIcs(\'' + jsq(e.id) + '\')">' + t('ev_ics') + '</button>' +
         (e.q ? '<a href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(e.q) + '" target="_blank" rel="noopener">' + t('ev_map') + '</a>' : '') + '</div>' +
     '</div></div>';
 }
+function evMatch(e, skip){ skip = skip || {}; return (skip.reg || evReg === 'all' || e.reg === evReg) && (skip.cat || evCat === 'all' || evCatOf(e) === evCat); }
 function evRender(){
   const box = document.getElementById('ev-cal'); if (!box) return;
-  const src = evList(), all = src.filter(e => evReg === 'all' || e.reg === evReg);
+  const src = evList(), all = src.filter(e => evMatch(e));
   const f = document.getElementById('ev-filters');
-  if (f) f.innerHTML = '<div class="ev-regs">' + EV_REGS.map(r => '<button type="button" class="ev-f' + (evReg === r[0] ? ' active' : '') + '" onclick="evSetReg(\'' + r[0] + '\')">' + t(r[1]) + ' <em>' + src.filter(e => r[0] === 'all' || e.reg === r[0]).length + '</em></button>').join('') + '</div>' +
-    (all.length ? '<button type="button" class="ev-ics-all" onclick="evIcsAll()">' + t('ev_ics_all', {n: all.length}) + '</button>' : '');
+  if (f) f.innerHTML = '<div class="ev-regs">' + EV_REGS.map(r => { const n = src.filter(e => evMatch(e, {reg: 1}) && (r[0] === 'all' || e.reg === r[0])).length; return '<button type="button" class="ev-f' + (evReg === r[0] ? ' active' : '') + '" onclick="evSetReg(\'' + r[0] + '\')">' + t(r[1]) + ' <em>' + n + '</em></button>'; }).join('') + '</div>' +
+    '<div class="ev-cats">' + EV_CATS.map(c => { const n = src.filter(e => evMatch(e, {cat: 1}) && (c[0] === 'all' || evCatOf(e) === c[0])).length; return '<button type="button" class="ev-c' + (evCat === c[0] ? ' active' : '') + '" onclick="evSetCat(\'' + c[0] + '\')"' + (n || c[0] === 'all' ? '' : ' disabled') + '>' + t(c[1]) + ' <em>' + n + '</em></button>'; }).join('') +
+    (all.length ? '<button type="button" class="ev-ics-all" onclick="evIcsAll()">' + t('ev_ics_all', {n: all.length}) + '</button>' : '') + '</div>';
+  const head = document.getElementById('ev-ruhr-hd'); if (head) head.style.display = evReg === 'ruhr' ? '' : 'none';
   if (!src.length){ box.innerHTML = '<p class="ev-none">' + t('ev_loading') + '</p>'; return; }
   const rest = all.filter(e => e.year === 2026), y27 = all.filter(e => e.year === 2027);
   let html = '';
@@ -7159,23 +7436,269 @@ function evRender(){
     html += '<div class="ev-month' + (list.length ? '' : ' empty') + '"><h3 class="ev-mh">' + esc(name) + (list.length ? ' <em>' + evCnt(list.length) + '</em>' : '') + '</h3>' +
       (list.length ? '<div class="ev-grid">' + list.map(evCard).join('') + '</div>' : '<p class="ev-none">' + t('ev_none') + '</p>') + '</div>';
   }
+  const pend = (HG.eventsPending || []);
+  if (pend.length && (evReg === 'all' || evReg === 'ruhr')){
+    html += '<div class="ev-pend"><h3 class="ev-mh">' + t('ev_pend_h') + '</h3><p class="ev-none">' + t('ev_pend_s') + '</p><ul>' +
+      pend.map(p => '<li><strong>' + esc(stripTags(Lz(p, 'name'))) + '</strong> - ' + esc(stripTags(Lz(p, 'note'))) + (p.url ? ' <a href="' + esc(safeUrl(p.url)) + '" target="_blank" rel="noopener">' + esc(p.src || 'Quelle') + ' ↗</a>' : '') + '</li>').join('') + '</ul></div>';
+  }
   box.innerHTML = html;
 }
 function evCnt(n){ return n === 1 ? t('ev_count1') : t('ev_count', {n: n}); }
 function evSetReg(k){ evReg = k; evRender(); }
+function evSetCat(k){ evCat = k; evRender(); }
 function evIcsItem(e){
   const end = evDate(e.end || e.date); end.setDate(end.getDate() + 1);
   return {uid: 'ev-' + e.id, allDay: true, start: e.date.replace(/-/g, ''), end: hgYmd(end).replace(/-/g, ''),
     summary: e.flag + ' ' + stripTags(Lz(e, 'title')) + ' · ' + stripTags(Lz(e, 'place')),
     location: stripTags(Lz(e, 'place')),
-    desc: stripTags(Lz(e, 'desc')) + '\n' + stripTags(t('ev_why')) + ' ' + stripTags(Lz(e, 'rule')) + '\nHiddenGem.Atlas'};
+    desc: stripTags(Lz(e, 'desc')) + '\n' + stripTags(Lz(e, 'rule')) + (e.url ? '\n' + (e.src || '') + ': ' + e.url : '') + '\nHiddenGem.Atlas'};
 }
 function evIcs(id){ const e = evList().find(x => x.id === id); if (!e) return; hgDownload('hiddengem-event-' + e.id + '.ics', icsBuild(stripTags(Lz(e, 'title')), [evIcsItem(e)])); }
 function evIcsAll(){
-  const all = evList().filter(e => evReg === 'all' || e.reg === evReg);
-  hgDownload('hiddengem-eventkalender-2027' + (evReg === 'all' ? '' : '-' + evReg) + '.ics', icsBuild(stripTags(t('ev_cal_name')), all.map(evIcsItem)));
+  const all = evList().filter(e => evMatch(e));
+  hgDownload('hiddengem-eventkalender-2027' + (evReg === 'all' ? '' : '-' + evReg) + (evCat === 'all' ? '' : '-' + evCat) + '.ics', icsBuild(stripTags(t('ev_cal_name')), all.map(evIcsItem)));
+}
+function evShow(id){
+  const e = evList().find(x => x.id === id); if (!e) return;
+  evReg = 'all'; evCat = 'all';
+  hgNav('events');
+  setTimeout(() => { evRender(); const c = document.getElementById('ev-' + id); if (c){ c.scrollIntoView({behavior: 'smooth', block: 'center'}); c.classList.add('hg-flash'); setTimeout(() => c.classList.remove('hg-flash'), 2200); } }, 250);
 }
 HG.onRender(evRender);
+
+// ╔════════════════════════════════════════════════════╗
+// ║  BRÜCKENTAGE-PLANER (alle Bundesländer, berechnet)  ║
+// ╚════════════════════════════════════════════════════╝
+const BR_STATES = {BW: 'Baden-Württemberg', BY: 'Bayern', BE: 'Berlin', BB: 'Brandenburg', HB: 'Bremen', HH: 'Hamburg', HE: 'Hessen', MV: 'Mecklenburg-Vorpommern', NI: 'Niedersachsen', NW: 'Nordrhein-Westfalen', RP: 'Rheinland-Pfalz', SL: 'Saarland', SN: 'Sachsen', ST: 'Sachsen-Anhalt', SH: 'Schleswig-Holstein', TH: 'Thüringen'};
+const brS = {st: 'NW', y: 2027};
+function brEaster(y){
+  const a = y % 19, b = Math.floor(y / 100), c = y % 100, d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3);
+  const h = (19 * a + b - d - g + 15) % 30, i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451);
+  return new Date(y, Math.floor((h + l - 7 * m + 114) / 31) - 1, ((h + l - 7 * m + 114) % 31) + 1);
+}
+function brAdd(d, n){ return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n); }
+function brKey(d){ return hgYmd(d); }
+function brHolidays(y, st){
+  const E = brEaster(y), H = [], in_ = a => a.indexOf(st) > -1;
+  const p = (d, de, en) => H.push({d, de, en});
+  p(new Date(y, 0, 1), 'Neujahr', 'New Year\'s Day');
+  if (in_(['BW', 'BY', 'ST'])) p(new Date(y, 0, 6), 'Heilige Drei Könige', 'Epiphany');
+  if (in_(['BE', 'MV'])) p(new Date(y, 2, 8), 'Frauentag', 'Women\'s Day');
+  p(brAdd(E, -2), 'Karfreitag', 'Good Friday');
+  p(brAdd(E, 1), 'Ostermontag', 'Easter Monday');
+  p(new Date(y, 4, 1), 'Tag der Arbeit', 'Labour Day');
+  p(brAdd(E, 39), 'Christi Himmelfahrt', 'Ascension Day');
+  p(brAdd(E, 50), 'Pfingstmontag', 'Whit Monday');
+  if (in_(['BW', 'BY', 'HE', 'NW', 'RP', 'SL'])) p(brAdd(E, 60), 'Fronleichnam', 'Corpus Christi');
+  if (in_(['SL', 'BY'])) p(new Date(y, 7, 15), 'Mariä Himmelfahrt' + (st === 'BY' ? ' *' : ''), 'Assumption Day' + (st === 'BY' ? ' *' : ''));
+  if (st === 'TH') p(new Date(y, 8, 20), 'Weltkindertag', 'World Children\'s Day');
+  p(new Date(y, 9, 3), 'Tag der Deutschen Einheit', 'German Unity Day');
+  if (in_(['BB', 'MV', 'SN', 'ST', 'TH', 'HB', 'HH', 'NI', 'SH'])) p(new Date(y, 9, 31), 'Reformationstag', 'Reformation Day');
+  if (in_(['BW', 'BY', 'NW', 'RP', 'SL'])) p(new Date(y, 10, 1), 'Allerheiligen', 'All Saints\' Day');
+  if (st === 'SN'){ const n = new Date(y, 10, 23), back = ((n.getDay() - 3 + 7) % 7) || 7; p(brAdd(n, -back), 'Buß- und Bettag', 'Day of Repentance'); }
+  p(new Date(y, 11, 25), '1. Weihnachtstag', 'Christmas Day');
+  p(new Date(y, 11, 26), '2. Weihnachtstag', 'Boxing Day');
+  p(new Date(y + 1, 0, 1), 'Neujahr ' + (y + 1), 'New Year\'s Day ' + (y + 1));
+  return H.sort((a, b) => a.d - b.d);
+}
+function brPlan(y, st){
+  const H = brHolidays(y, st), hol = {};
+  H.forEach(h => { hol[brKey(h.d)] = h; });
+  brHolidays(y - 1, st).concat(brHolidays(y + 1, st)).forEach(h => { if (!hol[brKey(h.d)]) hol[brKey(h.d)] = h; });
+  const off = d => d.getDay() === 0 || d.getDay() === 6 || !!hol[brKey(d)];
+  const lost = H.filter(h => h.d.getFullYear() === y && (h.d.getDay() === 0 || h.d.getDay() === 6));
+  const cands = [];
+  H.filter(h => h.d.getFullYear() === y && !(h.d.getDay() === 0 || h.d.getDay() === 6)).forEach(h => {
+    for (let s0 = -16; s0 <= 0; s0++) for (let e0 = 0; e0 <= 16; e0++){
+      const s = brAdd(h.d, s0), e = brAdd(h.d, e0), len = e0 - s0 + 1;
+      if (len > 18 || off(brAdd(s, -1)) || off(brAdd(e, 1))) continue;
+      let vac = 0; const vd = [];
+      for (let i = 0; i < len; i++){ const d = brAdd(s, i); if (!off(d)){ vac++; vd.push(d); } }
+      if (vac > 9) continue;
+      cands.push({s, e, len, vac, vd, h});
+    }
+  });
+  const pick = [];
+  const byH = {};
+  cands.forEach(c => { const k = brKey(c.h.d); (byH[k] = byH[k] || []).push(c); });
+  Object.keys(byH).forEach(k => {
+    const cs = byH[k];
+    const free = cs.filter(c => c.vac === 0).sort((a, b) => b.len - a.len)[0];
+    const bridge = cs.filter(c => c.vac >= 1 && c.len >= 4).sort((a, b) => (b.len / b.vac) - (a.len / a.vac) || a.vac - b.vac || b.len - a.len)[0];
+    const long = cs.filter(c => c.vac >= 1).sort((a, b) => b.len - a.len || a.vac - b.vac)[0];
+    if (free && free.len >= 3) pick.push(Object.assign({type: 'free'}, free));
+    if (bridge) pick.push(Object.assign({type: 'bridge'}, bridge));
+    if (long && (!bridge || long.len >= bridge.len + 3)) pick.push(Object.assign({type: 'long'}, long));
+  });
+  const seen = {}, out = [];
+  pick.sort((a, b) => a.s - b.s || a.vac - b.vac).forEach(c => { const k = brKey(c.s) + brKey(c.e); if (seen[k]) return; seen[k] = 1; out.push(c); });
+  return {H, lost, out};
+}
+function brFmt(d, opt){ return d.toLocaleDateString(evLoc(), opt || {weekday: 'short', day: 'numeric', month: 'numeric'}); }
+function brRender(){
+  const el = document.getElementById('br-box'); if (!el) return;
+  const pl = brPlan(brS.y, brS.st);
+  const opt = (v, l, s) => '<option value="' + v + '"' + (String(s) === String(v) ? ' selected' : '') + '>' + l + '</option>';
+  const holsIn = c => pl.H.filter(h => h.d >= c.s && h.d <= c.e).map(h => lang === 'en' ? h.en : h.de);
+  const row = c => {
+    const lbl = c.type === 'free' ? '🎁 ' + t('br_free') : c.type === 'bridge' ? '🌉 ' + t('br_bridge') : '✈️ ' + t('br_long');
+    const vdays = c.vd.length ? c.vd.map(d => brFmt(d, {day: 'numeric', month: 'numeric'})).join(', ') : '';
+    return '<div class="br-row ' + c.type + '"><div class="br-h">' + lbl + '<span>' + esc(holsIn(c).join(' + ')) + '</span></div>' +
+      '<div class="br-main"><strong>' + (c.vac ? (c.vac === 1 ? t('br_vac1') : t('br_vac', {n: c.vac})) + ' → ' : '') + t('br_days', {n: c.len}) + '</strong> <span class="br-dates">' + esc(brFmt(c.s)) + ' - ' + esc(brFmt(c.e)) + '</span></div>' +
+      (vdays ? '<div class="br-vd">' + t('br_take') + ' ' + esc(vdays) + '</div>' : '') +
+      '<button type="button" class="br-ics" onclick="brIcs(\'' + brKey(c.s) + '\',\'' + brKey(c.e) + '\')">📅 ' + t('br_ics') + '</button></div>';
+  };
+  el.innerHTML = '<div class="br-hd"><div><div class="sec-lbl">' + t('br_lbl') + '</div><h3>' + t('br_h3') + '</h3><p>' + t('br_sub') + '</p></div>' +
+      '<div class="br-sel"><label><span>' + t('br_state') + '</span><select onchange="brS.st=this.value;brRender()">' + Object.keys(BR_STATES).map(k => opt(k, BR_STATES[k], brS.st)).join('') + '</select></label>' +
+      '<label><span>' + t('br_year') + '</span><select onchange="brS.y=+this.value;brRender()">' + [2027, 2028].map(y => opt(y, y, brS.y)).join('') + '</select></label></div></div>' +
+    '<div class="br-list">' + pl.out.map(row).join('') + '</div>' +
+    (pl.lost.length ? '<p class="br-lost">😬 ' + t('br_lost') + ' ' + esc(pl.lost.map(h => (lang === 'en' ? h.en : h.de) + ' (' + brFmt(h.d, {weekday: 'short'}) + ')').join(', ')) + '</p>' : '') +
+    '<p class="br-note">' + t('br_note') + '</p>';
+}
+function brIcs(s, e){
+  const end = evDate(e); end.setDate(end.getDate() + 1);
+  hgDownload('brueckentage-' + s + '.ics', icsBuild(stripTags(t('br_lbl')), [{uid: 'br-' + s + '-' + e, allDay: true, start: s.replace(/-/g, ''), end: hgYmd(end).replace(/-/g, ''), summary: '✈️ ' + stripTags(t('br_cal_sum')), desc: 'HiddenGem.Atlas · ' + BR_STATES[brS.st]}]));
+}
+HG.onRender(brRender);
+
+// ╔════════════════════════════════════════════════════╗
+// ║  SEITENWEITE SUCHE (🔍 / Taste „/" / Strg+K)        ║
+// ║  Seiten, Orte, Städte, Länder, Routen, Events,     ║
+// ║  Trends, Blog, Planer - alles lokal, ohne Server    ║
+// ╚════════════════════════════════════════════════════╝
+let srIdx = null, srSel = 0, srHits = [];
+const SR_GROUPS = [['page', 'sr_g_page'], ['town', 'sr_g_town'], ['place', 'sr_g_place'], ['route', 'sr_g_route'], ['event', 'sr_g_event'], ['trend', 'sr_g_trend'], ['blog', 'sr_g_blog']];
+const SR_LIM = {page: 5, town: 6, place: 8, route: 4, event: 6, trend: 4, blog: 4};
+function srBuild(){
+  const I = [];
+  const add = (g, id, title, sub, hay, ic) => I.push({g, id, title: stripTags(title || ''), sub: stripTags(sub || ''), hay: mpNorm(stripTags(title || '') + ' ' + stripTags(sub || '') + ' ' + (hay || '')), ic: ic || ''});
+  // Seiten (inkl. Text der Abschnitte)
+  HG_PAGES.forEach(p => {
+    const secs = $$('[data-page]').filter(s => s.getAttribute('data-page').split(/\s+/).indexOf(p.r) > -1);
+    const body = secs.map(s => s.textContent || '').join(' ').replace(/\s+/g, ' ').slice(0, 4000);
+    add('page', p.r, t(p.k + '_t'), t(p.k + '_d'), body, p.ic);
+  });
+  // Orte, Städte, Länder
+  const all = mpAllMoments(), towns = {}, ccs = {};
+  all.forEach(m => {
+    add('place', m.id, Lz(m, 'city'), (mpTownName(m) ? mpTownName(m) + ' · ' : '') + mpCountryName(m.cc) + ' · ' + stripTags(Lz(m, 'title')), mpHay(m), (m.kind === 'mustsee' ? '⭐' : '💎'));
+    const tk = m.cc + '|' + m.town;
+    if (m.town){ towns[tk] = towns[tk] || {cc: m.cc, town: m.town, label: mpTownName(m), n: 0, cap: !!m.cap}; towns[tk].n++; }
+    ccs[m.cc] = (ccs[m.cc] || 0) + 1;
+  });
+  Object.keys(towns).forEach(k => { const x = towns[k]; add('town', k, x.label, mpCountryName(x.cc) + ' · ' + t('sr_n_places', {n: x.n}), mpNorm(x.town + ' ' + mpDNof('de', x.cc) + ' ' + mpDNof('en', x.cc)), x.cap ? '🏛️' : '📍'); });
+  Object.keys(ccs).forEach(cc => add('town', 'cc|' + cc, mpCountryName(cc), t('sr_country') + ' · ' + t('sr_n_places', {n: ccs[cc]}), mpNorm(mpDNof('de', cc) + ' ' + mpDNof('en', cc)), mpFlag(cc)));
+  // Tagesrouten
+  (HG.routes || []).forEach(r => add('route', r.id, Lz(r, 'title'), r.flag + ' ' + rtTown(r) + ' · ' + r.start + '-' + r.end, (r.stops || []).map(s => s.name + ' ' + (s.name_en || '')).join(' ') + ' ' + Lz(r, 'intro'), '🚶'));
+  // Events
+  (HG.events || []).forEach(e => add('event', e.id, Lz(e, 'title'), evRange(e) + ' · ' + stripTags(Lz(e, 'place')), Lz(e, 'desc') + ' ' + e.date, e.flag));
+  // Trends
+  try{ trList().filter(x => !x._expired && !x.hidden).forEach(x => add('trend', x.id, Lz(x, 'title'), (Lz(x, 'cat') || 'Trend') + (trDate(x) ? ' · ' + trDate(x) : ''), Lz(x, 'desc'), '📡')); }catch(e){}
+  // Blog
+  HG.col('blog').forEach(b => add('blog', b.id, Lz(b, 'title'), Lz(b, 'tag'), Lz(b, 'meta'), '📝'));
+  srIdx = I;
+}
+function srOpen(q){
+  closeMobileMenu();
+  const ov = document.getElementById('sr-ov'); if (!ov) return;
+  srBuild();
+  ov.classList.add('open'); document.body.classList.add('sr-lock');
+  const inp = document.getElementById('sr-q');
+  if (q != null) inp.value = q;
+  srRun(inp.value);
+  setTimeout(() => { inp.focus(); inp.select(); }, 30);
+}
+function srClose(){ const ov = document.getElementById('sr-ov'); if (ov) ov.classList.remove('open'); document.body.classList.remove('sr-lock'); }
+function srScore(it, words, full){
+  const tl = mpNorm(it.title);
+  if (!words.every(w => it.hay.indexOf(w) > -1)) return 0;
+  let s = 10;
+  if (tl === full) s += 120; else if (tl.indexOf(full) === 0) s += 90; else if ((' ' + tl).indexOf(' ' + full) > -1) s += 70; else if (tl.indexOf(full) > -1) s += 50;
+  words.forEach(w => { if (tl.indexOf(w) > -1) s += 12; });
+  if (it.g === 'town' && it.id.indexOf('cc|') === 0) s += 15;
+  return s;
+}
+function srRun(q){
+  const res = document.getElementById('sr-res'); if (!res) return;
+  const full = mpNorm(q).trim(); const words = full.split(/\s+/).filter(Boolean);
+  if (!srIdx) srBuild();
+  if (!words.length){
+    res.innerHTML = '<div class="sr-empty"><p>' + t('sr_tip') + '</p><div class="sr-sugg">' + ['Barcelona', 'Ruhrgebiet', 'Kyoto', 'Brückentage', 'Hanoi', 'Cranger Kirmes', 'Tagesroute', 'Island'].map(s => '<button type="button" onclick="srOpen(\'' + jsq(s) + '\')">' + esc(s) + '</button>').join('') + '</div></div>';
+    srHits = []; return;
+  }
+  const scored = srIdx.map(it => ({it, s: srScore(it, words, full)})).filter(x => x.s > 0).sort((a, b) => b.s - a.s);
+  srHits = []; let html = '';
+  SR_GROUPS.forEach(g => {
+    const xs = scored.filter(x => x.it.g === g[0]); if (!xs.length) return;
+    const shown = xs.slice(0, SR_LIM[g[0]]);
+    html += '<div class="sr-grp"><div class="sr-gh">' + t(g[1]) + ' <em>' + xs.length + '</em></div>';
+    shown.forEach(x => { const i = srHits.length; srHits.push(x.it);
+      html += '<button type="button" class="sr-hit" data-i="' + i + '" onclick="srGo(' + i + ')" onmouseenter="srMark(' + i + ')"><span class="sr-ic">' + esc(x.it.ic) + '</span><span class="sr-tx"><strong>' + srHl(x.it.title, words) + '</strong><small>' + srHl(x.it.sub.slice(0, 140), words) + '</small></span><span class="sr-go">↵</span></button>'; });
+    if (g[0] === 'place' && xs.length > shown.length) html += '<button type="button" class="sr-all" onclick="srMapAll()">' + t('sr_all_places', {n: xs.length}) + ' →</button>';
+    html += '</div>';
+  });
+  res.innerHTML = html || '<div class="sr-empty"><p>' + t('sr_none') + '</p></div>';
+  srSel = 0; srMark(0);
+}
+function srHl(s, words){
+  let out = esc(s);
+  words.filter(w => w.length > 1).forEach(w => {
+    const re = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+    out = out.replace(re, '<mark>$1</mark>');
+  });
+  return out;
+}
+function srMark(i){ srSel = i; $$('.sr-hit').forEach(b => b.classList.toggle('sel', +b.dataset.i === i)); }
+function srKey(e){
+  if (e.key === 'Escape'){ srClose(); return; }
+  if (!srHits.length) return;
+  if (e.key === 'ArrowDown' || e.key === 'ArrowUp'){
+    e.preventDefault(); srMark((srSel + (e.key === 'ArrowDown' ? 1 : -1) + srHits.length) % srHits.length);
+    const b = document.querySelector('.sr-hit.sel'); if (b) b.scrollIntoView({block: 'nearest'});
+  } else if (e.key === 'Enter'){ e.preventDefault(); srGo(srSel); }
+}
+function srMapAll(){
+  const q = document.getElementById('sr-q').value; srClose(); gTo('momente');
+  setTimeout(() => { Object.assign(mpF, {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', cap: false, q: q}); const qi = document.getElementById('mp-q'); if (qi) qi.value = q; mpUI.open = {}; mpRefresh(); }, 260);
+}
+function srGo(i){
+  const it = srHits[i]; if (!it) return; srClose();
+  if (it.g === 'page') hgNav(it.id);
+  else if (it.g === 'place') mpOpen(it.id);
+  else if (it.g === 'town'){
+    gTo('momente');
+    setTimeout(() => {
+      if (it.id.indexOf('cc|') === 0) mpRegion('country', it.id.slice(3));
+      else { const p = it.id.split('|'); mpRegion('country', p[0]); mpF.town = p.slice(1).join('|'); mpUI.open = {}; mpRefresh(); }
+      const el = document.getElementById('mp-filters'); if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'});
+    }, 260);
+  }
+  else if (it.g === 'route') rtOpenFrom(it.id);
+  else if (it.g === 'event') evShow(it.id);
+  else if (it.g === 'trend'){
+    hgNav('trends'); trShowAll = true;
+    setTimeout(() => { trRender(); const c = document.querySelector('.tr-card[data-id="' + it.id + '"]'); if (c){ c.scrollIntoView({behavior: 'smooth', block: 'center'}); c.classList.add('hg-flash'); setTimeout(() => c.classList.remove('hg-flash'), 2200); } }, 260);
+  }
+  else if (it.g === 'blog') bcOpen(it.id);
+}
+document.addEventListener('keydown', e => {
+  const tag = (e.target && e.target.tagName) || '';
+  const typing = /INPUT|TEXTAREA|SELECT/.test(tag) || (e.target && e.target.isContentEditable);
+  if ((e.key === 'k' || e.key === 'K') && (e.metaKey || e.ctrlKey)){ e.preventDefault(); srOpen(); }
+  else if (e.key === '/' && !typing){ e.preventDefault(); srOpen(); }
+  else if (e.key === 'Escape'){ const ov = document.getElementById('sr-ov'); if (ov && ov.classList.contains('open')) srClose(); }
+});
+HG.onRender(() => { srIdx = null; const ov = document.getElementById('sr-ov'); if (ov && ov.classList.contains('open')) srRun(document.getElementById('sr-q').value); });
+
+// ── Startseite: Mehrwert-Leiste („9-to-5 Traveller") mit Live-Zahlen ──
+function whyRender(){
+  const n = mpAllMoments().length, el = document.getElementById('why-n');
+  if (el) el.textContent = nf(n >= 100 ? Math.floor(n / 100) * 100 : n) + (n >= 100 ? '+' : '');
+  const r = document.getElementById('why-r'); if (r) r.textContent = nf((HG.routes || []).length);
+  const ev = document.getElementById('why-e'); if (ev) ev.textContent = nf((HG.events || []).filter(e => e.year === 2027).length);
+}
+HG.onRender(whyRender);
+
 
 // ── Reiseplaner: persönliche Empfehlung pro Stadt (data/planner-tips.json) ──
 function plTipHtml(town){
@@ -7200,6 +7723,7 @@ async function hgLoadFeatures(){
   const res = await Promise.all([hgLoadJSON('data/routes.json'), hgLoadJSON('data/events.json'), hgLoadJSON('data/planner-tips.json')]);
   HG.routes = (res[0] && res[0].items) || [];
   HG.events = (res[1] && res[1].items) || [];
+  HG.eventsPending = (res[1] && res[1].pending) || [];
   HG.plTips = res[2] || {};
   Object.keys(HG.plTips).forEach(k => { const x = HG.plTips[k]; if (x && x.key){ if (T.de[x.key] == null) T.de[x.key] = x.de; if (T.en[x.key] == null) T.en[x.key] = x.en; } });
 }
@@ -7287,7 +7811,7 @@ function trRender(){
   g.innerHTML = HG.addCard('trends', 'Eigenen Trend hinzufügen', 'tr-add') + shown.map(x => {
     const tools = x._own ? HG.tools('trends', x.id) : (HG.editing ? `<div class="hg-ui hg-tools"><button type="button" title="Urteil / Einschätzung" onclick="trAutoEdit('${jsq(x.id)}')">✏️</button><button type="button" title="${x.hidden ? 'Wieder anzeigen' : 'Ausblenden'}" onclick="trAutoHide('${jsq(x.id)}')">${x.hidden ? '👁' : '🗑'}</button></div>` : '');
     const src = String(x.src || '').replace(/\s*·\s*\d{4}-\d{2}-\d{2}$/, '');
-    return `<div class="tr-card${trCurrentFilter !== 'all' && x.verdict !== trCurrentFilter ? ' hide' : ''}${x._expired || x.hidden ? ' tr-expired' : ''}" data-verdict="${esc(x.verdict || 'watch')}">${tools}
+    return `<div data-id="${esc(x.id)}" class="tr-card${trCurrentFilter !== 'all' && x.verdict !== trCurrentFilter ? ' hide' : ''}${x._expired || x.hidden ? ' tr-expired' : ''}" data-verdict="${esc(x.verdict || 'watch')}">${tools}
       <div class="tr-top"><span class="tr-cat">${Lz(x, 'cat') || (x._auto ? t('tr_auto') : 'Trend')}${x._auto && ((lang === 'en' && !x.title_en) || (lang === 'de' && x.lang === 'en' && (!x.title || x.title === x.title_en))) ? ` <span class="tr-lang-b" title="Original">${x.lang === 'en' ? 'EN' : 'DE'}</span>` : ''}</span><span class="tr-verdict tr-v-${esc(x.verdict || 'watch')}">${vLabel[x.verdict] || vLabel.watch}</span></div>
       <div class="tr-title">${trDate(x) && trAge(x) < 3 ? `<span class="tr-new">${t('tr_new')}</span> ` : ''}${Lz(x, 'title')}</div>
       <div class="tr-desc">${Lz(x, 'desc')}</div>
@@ -7517,14 +8041,14 @@ function plFlights(town){ return 'https://www.google.com/travel/flights?q=' + pl
 function plBuildForm(){
   const el = document.getElementById('pl-form'); if (!el) return;
   const towns = plTowns();
-  if (!plState.town && towns.length) plState.town = towns[0].key;
+  if (!plState.town && towns.length) plState.town = (towns.find(x => x.key === 'Barcelona') || towns[0]).key;
   const cats = ['sight','food','cafe','bar','nature','view','beach','culture','shop'];
   const styleBtn = (k, lbl) => `<button type="button" class="pl-style${plState.style === k ? ' active' : ''}" onclick="plSet('style','${k}',this)">${lbl}</button>`;
   const catChip = c => `<button type="button" class="pl-chip${plState.cats[c] ? ' active' : ''}" onclick="plToggleCat('${c}',this)">${MP_CATS[c] || ''} ${t('cat_' + c)}</button>`;
   el.innerHTML = `
     <div class="pl-row">
       <label>${t('pl_dest')}</label>
-      <select id="pl-dest" onchange="plSet('town',this.value)">${towns.map(x => `<option value="${esc(x.key)}"${x.key === plState.town ? ' selected' : ''}>${esc(x.flag)} ${esc(x.label)}</option>`).join('')}</select>
+      <select id="pl-dest" onchange="plSet('town',this.value)">${MP_CONTS.map(c => { const xs = towns.filter(x => (MP_CONT[x.cc] || 'EU') === c[0]); return xs.length ? `<optgroup label="${esc(stripTags(t(c[2])))}">` + xs.map(x => `<option value="${esc(x.key)}"${x.key === plState.town ? ' selected' : ''}>${esc(x.flag || mpFlag(x.cc))} ${esc(x.label)}</option>`).join('') + '</optgroup>' : ''; }).join('')}</select>
     </div>
     <div class="pl-row">
       <label>${t('pl_days')}</label>
@@ -7572,7 +8096,7 @@ function plGenerate(){
       ? `<a class="pl-book" href="${plHostels(town)}" target="_blank" rel="noopener">🛏️ ${t('pl_stay_hostel')}</a><a class="pl-book" href="${plHotels(town)}" target="_blank" rel="noopener">⭐ ${t('pl_stay_hotels')}</a>`
       : `<a class="pl-book" href="${plHotels(town)}" target="_blank" rel="noopener">⭐ ${t('pl_stay_hotels')}</a><a class="pl-book" href="${plAirbnb(town)}" target="_blank" rel="noopener">🏠 ${t('pl_stay_apart')}</a>`);
   const place = m => {
-    const tags = `${MP_CATS[m.cat] || '📍'} ${t('cat_' + (m.cat || 'sight'))} · ${mpStars(m.rating)}${m.price && m.price !== '?' ? ' · ' + esc(mpPriceLabel(m.price)) : ''}`;
+    const tags = `${MP_CATS[m.cat] || '📍'} ${t('cat_' + (m.cat || 'sight'))} ${m.rating ? ' · ' + mpStars(m.rating) : ''}${m.price && m.price !== '?' ? ' · ' + esc(mpPriceLabel(m.price)) : ''}`;
     return `<div class="pl-place">
       <div class="pl-place-h">${m.kind === 'gem' ? '<span class="pl-badge gem">💎</span>' : ''}<span class="pl-place-t">${esc(m.flag || '📍')} ${esc(stripTags(Lz(m, 'city')))}</span></div>
       <div class="pl-place-meta">${tags}</div>
