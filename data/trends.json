@@ -1,9 +1,23 @@
 {
-  "updated": "07.10.2026",
-  "generated": "2026-10-07T11:37:19.719Z",
+  "updated": "08.10.2026",
+  "generated": "2026-10-08T11:51:54.739Z",
   "maxAgeDays": 14,
-  "count": 17,
+  "count": 15,
   "items": [
+    {
+      "id": "auto-gepragt-von-wind-und-lavagestein-diese-italien",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-08",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/ziele/inseln/pantelleria-italien-geheimtipp",
+      "title": "Geprägt von Wind und Lavagestein: Diese italienische Insel ist noch ein echter Geheimtipp",
+      "desc": "Südwestlich von Sizilien liegt die Vulkaninsel Pantelleria. Vielen ist sie vielleicht noch kein Begriff, dabei hat das zu Italien gehörende Eiland einiges zu bieten. Mit heißen Quellen, zerklüfteten Küsten und geprägt von schwarzem ...",
+      "title_en": "Shaped by wind and lava rock: This Italian island is still a real insider tip",
+      "desc_en": "Southwest of Sicily lies the volcanic island of Pantelleria. Many people may not be familiar with it, but the island, which belongs to Italy, has a lot to offer. With hot springs, rugged coastlines and characterized by black ..."
+    },
     {
       "id": "auto-inklusive-geheimtipp-9-der-schonsten-strande-a",
       "cat": "Reise",
@@ -206,51 +220,6 @@
       "cat_en": "Travel",
       "title_en": "TRAVELBOOK Award 2026: Schmilka in the Elbe Sandstone Mountains - one of Germany's most beautiful villages",
       "desc_en": "At this year's TRAVELBOOK Award on 22 September 2026, the Saxon village of Schmilka was one of the contenders for the title of Germany's most beautiful village. What makes this village so special and why it is a worthwhile trend ..."
-    },
-    {
-      "id": "auto-travelbook-award-2026-nuqui-in-kolumbien-ist-e",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "TRAVELBOOK Award 2026: Nuquí in Kolumbien ist eines der besten Geheimtipp-Reiseziele Mittel- und Südamerikas",
-      "desc": "Jedes Jahr zeichnet der TRAVELBOOK Award die spannendsten Trendreiseziele des kommenden Jahres aus. 2026 gehört die abgelegene Region rund um Nuquí an der kolumbianischen Pazifikküste zu den Nominierten in der Kategorie „Geheimtipp-Reise ...",
-      "take": "",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/travelbook-award-2026/nuqui-in-kolumbien-ist-eins-der-besten-geheimtipp-reiseziele-mittel-und-suedamerikas",
-      "date": "2026-09-23",
-      "lang": "de",
-      "cat_en": "Travel",
-      "title_en": "TRAVELBOOK Award 2026: Nuquí in Colombia is one of the best insider destinations in Central and South America",
-      "desc_en": "Every year, the TRAVELBOOK Award honours the most exciting trend destinations for the coming year. In 2026, the remote region around Nuquí on Colombia's Pacific coast is among the nominees in the category \"insider ..."
-    },
-    {
-      "id": "auto-travelbook-award-2026-dealu-mare-in-rumanien-z",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "TRAVELBOOK Award 2026: Dealu Mare in Rumänien zählt zu den schönsten Weinregionen Europas",
-      "desc": "Einmal mehr wurde am 22. September 2026 der TRAVELBOOK Award verliehen und dabei die Trendreiseziele für das Folgejahr ermittelt. Zu den Kategorien zählte in diesem Jahr die schönste Weinregion Europas, für die gleich fünf Anwärter ins R ...",
-      "take": "",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/travelbook-award-2026/dealu-mare-in-rumaenien-zaehlt-zu-den-schoensten-weinregionen-europas",
-      "date": "2026-09-23",
-      "lang": "de",
-      "cat_en": "Travel",
-      "title_en": "TRAVELBOOK Award 2026: Dealu Mare in Romania is one of Europe's most beautiful wine regions",
-      "desc_en": "Once again, the TRAVELBOOK Award was presented on 22 September 2026, naming the trend destinations for the following year. This year's categories included Europe's most beautiful wine region, with five contenders in the ..."
-    },
-    {
-      "id": "auto-travelbook-award-2026-tuchersfeld-in-der-frank",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "TRAVELBOOK Award 2026: Tüchersfeld in der Fränkischen Schweiz - eines der schönsten Dörfer Deutschlands",
-      "desc": "Am 22. September 2026 wurde in Berlin der diesjährige TRAVELBOOK Award verliehen. Jahr für Jahr werden dort die neuen Trendreiseziele des Folgejahres gekürt. In der Kategorie der schönsten Dörfer in Deutschland schaffte es Tüchersfeld in ...",
-      "take": "",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/travelbook-award-2026/tuechersfeld-in-der-fraenkischen-schweiz-eines-der-schoensten-doerfer-deutschlands",
-      "date": "2026-09-23",
-      "lang": "de",
-      "cat_en": "Travel",
-      "title_en": "TRAVELBOOK Award 2026: Tüchersfeld in Franconian Switzerland - one of Germany's most beautiful villages",
-      "desc_en": "This year's TRAVELBOOK Award was presented in Berlin on 22 September 2026. Every year, the new trend destinations for the following year are chosen there. In the category of Germany's most beautiful villages, Tüchersfeld made it ..."
     }
   ]
 }
