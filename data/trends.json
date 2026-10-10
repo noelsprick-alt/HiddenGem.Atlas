@@ -1,9 +1,37 @@
 {
-  "updated": "09.10.2026",
-  "generated": "2026-10-09T11:43:47.460Z",
+  "updated": "10.10.2026",
+  "generated": "2026-10-10T11:02:00.856Z",
   "maxAgeDays": 14,
-  "count": 12,
+  "count": 13,
   "items": [
+    {
+      "id": "auto-travelbook-autor-ganz-planlos-unterwegs-so-war",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-09",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/reisen/roadtrips/spontaner-roadtrip-in-die-dolomiten",
+      "title": "TRAVELBOOK-Autor ganz planlos unterwegs: So war mein spontaner Roadtrip in die Dolomiten und nach Slowenien",
+      "desc": "Urlaub wird oft geplant wie ein kleines Projekt: Unterkunft sichern, Route festlegen, Restaurants speichern, Parkplätze recherchieren. Möglichst früh, möglichst gründlich, möglichst ohne Überraschungen. Viele Menschen lieben genau das: ...",
+      "title_en": "TRAVELBOOK author traveling without a plan: That was my spontaneous road trip to the Dolomites and Slovenia",
+      "desc_en": "Vacations are often planned like a small project: securing accommodation, determining a route, saving restaurants, researching parking spaces. As early as possible, as thoroughly as possible, with as few surprises as possible. Many people love exactly that: ..."
+    },
+    {
+      "id": "auto-nachgefragt-hotelmanager-packt-aus-die-schlimm",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-09",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/service/hotel-insider-einblicke-gaeste",
+      "title": "Nachgefragt: Hotelmanager packt aus: »Die schlimmsten Gäste sind die, die lügen",
+      "desc": "Im Rahmen der neuen TRAVELBOOK-Serie „Hinter den Kulissen der Hotels“ verraten Insider überraschende Erlebnisse aus ihrem Beruf. In Teil 2 erfahren wir von (weniger) schönen und mitunter skurrilen Erfahrungen mit Gästen - und warum ...",
+      "title_en": "Asked: Hotel manager explains: »The worst guests are those who lie",
+      "desc_en": "As part of the new TRAVELBOOK series “Behind the scenes of the hotels,” insiders reveal surprising experiences from their jobs. In part 2 we learn about (less) nice and sometimes bizarre experiences with guests - and why..."
+    },
     {
       "id": "auto-gepragt-von-wind-und-lavagestein-diese-italien",
       "cat": "Reise",
@@ -160,21 +188,6 @@
       "cat_en": "Travel",
       "title_en": "TRAVELBOOK Award 2026: Valais in Switzerland is one of Europe's most beautiful wine regions",
       "desc_en": "On 22 September 2026, the trend destinations for the coming year were once again chosen in Berlin. One category at this year's TRAVELBOOK Award: Europe's most beautiful wine region. Alongside four others, the Swiss wine-growing region ..."
-    },
-    {
-      "id": "auto-travelbook-award-2026-peten-in-guatemala-ist-e",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "TRAVELBOOK Award 2026: Petén in Guatemala ist eins der besten Geheimtipp-Reiseziele Mittel- und Südamerikas",
-      "desc": "Welche Regionen Süd- und Mittelamerikas sind noch echte Geheimtipps? Wo kann man einen Urlaub abseits der ausgetretenen Pfade machen und authentisches Leben entdecken? Darüber hat TRAVELBOOK kürzlich seine Leser und Leserinnen für den al ...",
-      "take": "",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/travelbook-award-2026/peten-in-guatemala-ist-eins-der-besten-geheimtipp-reiseziele-mittel-und-suedamerikas",
-      "date": "2026-09-25",
-      "lang": "de",
-      "cat_en": "Travel",
-      "title_en": "TRAVELBOOK Award 2026: Petén in Guatemala is one of the best insider destinations in Central and South America",
-      "desc_en": "Which regions of South and Central America are still true insider tips? Where can you holiday off the beaten track and discover authentic life? TRAVELBOOK recently asked its readers about this for the ..."
     }
   ]
 }
