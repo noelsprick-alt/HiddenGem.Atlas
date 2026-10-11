@@ -47,3 +47,6 @@ Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt p
 - `data/moments-world.json`: Hauptstädte + bekannteste Sehenswürdigkeiten weltweit (~2.980 Orte, 198 Länder, nur `mustsee`, keine Hidden Gems, `visit:"todo"`, `cap:1` = Hauptstadt). Kompaktes Format.
 - `data/events.json`: `basis` = `rule` (berechnet) oder `official` (Quelle in `src`/`url`); `reg:"ruhr"` = Ruhrgebiet-Kalender; `pending` = angekündigt, Datum noch offen (wird nicht angezeigt).
 - Seitenweite Suche (Taste `/` oder Button), Brückentage-Planer, "Warum folgen"-Bereich auf der Startseite.
+
+## Fotos (Handy-Originale)
+`pip install pillow pillow-heif` · `python3 scripts/process_photos.py scan <ordner>` (verkleinert auf WebP, Vorschau in `images/photos/t/`, GPS -> nächster Ort ≤ 400 m, ohne EXIF im Web-Bild) · danach `apply` trägt die Fotos in `data/content.json` ein (`moment-<id>` = Ortsgalerie, `pillar-fotografie` = Fotografie-Galerie).

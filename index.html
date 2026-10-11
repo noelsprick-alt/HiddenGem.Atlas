@@ -8233,8 +8233,8 @@ function dtRenderGallery(){
   const g = document.getElementById('dt-gal'); const ph = HG.detail(dtKey).photos || [];
   const ttl = document.getElementById('dt-gal-t');
   g.innerHTML = ph.map((src, i) => {
-    const s = HG.img(src); const vid = /\.(mp4|webm|mov)$/i.test(src);
-    return `<div class="dt-ph">${vid ? `<video src="${esc(s)}" autoplay muted loop playsinline></video>` : `<img src="${esc(s)}" alt="" loading="lazy" onclick="dtLightbox(${i})">`}${HG.editing ? `<button type="button" class="dt-ph-del hg-ui" onclick="dtDelPhoto(${i})" aria-label="Löschen">×</button>` : ''}</div>`;
+    const s = HG.img(src); const vid = /\.(mp4|webm|mov)$/i.test(src); const sm = /^images\/photos\/[^/]+$/.test(src) ? HG.img(src.replace('images/photos/', 'images/photos/t/')) : s;
+    return `<div class="dt-ph">${vid ? `<video src="${esc(s)}" autoplay muted loop playsinline></video>` : `<img src="${esc(sm)}" alt="" loading="lazy" onclick="dtLightbox(${i})">`}${HG.editing ? `<button type="button" class="dt-ph-del hg-ui" onclick="dtDelPhoto(${i})" aria-label="Löschen">×</button>` : ''}</div>`;
   }).join('') + (HG.editing ? `<label class="dt-addph hg-ui"><span style="font-size:22px">＋</span><span>Foto / Video</span><input type="file" accept="image/*,video/mp4,video/webm" hidden onchange="dtAddPhoto(this)"></label>` : '');
   const show = ph.length || HG.editing;
   g.style.display = show ? '' : 'none'; if (ttl) ttl.style.display = show ? '' : 'none';
