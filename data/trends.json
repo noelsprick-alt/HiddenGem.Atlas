@@ -1,8 +1,8 @@
 {
-  "updated": "11.10.2026",
-  "generated": "2026-10-11T11:18:48.682Z",
+  "updated": "12.10.2026",
+  "generated": "2026-10-12T12:54:09.412Z",
   "maxAgeDays": 14,
-  "count": 11,
+  "count": 9,
   "items": [
     {
       "id": "auto-travelbook-autor-ganz-planlos-unterwegs-so-war",
@@ -129,35 +129,6 @@
       "desc_en": "If Japan reaches 60 million visitors by 2030 as planned, hotel companies will need more rooms, and more affordable ones. And that is exactly what Hilton aims to do.",
       "title": "Hiltons Motto-Debüt in Japan signalisiert eine größere Verschiebung im Mittelstand",
       "desc": "Wenn Japan wie geplant bis 2030 60 Millionen Besucher erreicht, benötigen Hotelunternehmen mehr und erschwinglichere Zimmer. Und genau das ist das Ziel von Hilton."
-    },
-    {
-      "id": "auto-travelbook-award-2026-der-playa-de-san-lorenzo",
-      "cat": "Reise",
-      "verdict": "watch",
-      "title": "TRAVELBOOK Award 2026: Der Playa de San Lorenzo in Spanien ist einer der außergewöhnlichsten Stadtstrände weltweit",
-      "desc": "Am 22. September 2026 war es in Berlin wieder so weit: Der TRAVELBOOK Award wurde verliehen - und damit die Trendreiseziele für das kommende Jahr gekürt. Mit dabei war ein Preis für den außergewöhnlichsten Stadtstrand weltweit. In dieser ...",
-      "take": "",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/travelbook-award-2026/der-playa-de-san-lorenzo-in-spanien-ist-einer-der-aussergewoehnlichsten-stadtstraende-weltweit",
-      "date": "2026-09-27",
-      "lang": "de",
-      "cat_en": "Travel",
-      "title_en": "TRAVELBOOK Award 2026: Playa de San Lorenzo in Spain is one of the most extraordinary city beaches in the world",
-      "desc_en": "On 22 September 2026 it was time again in Berlin: the TRAVELBOOK Award was presented - and with it the trend destinations for the coming year. Among them was a prize for the most extraordinary city beach in the world. In this ..."
-    },
-    {
-      "id": "auto-travelbook-award-2026-fischerhude-in-niedersac",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-09-27",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/travelbook-award-2026/fischerhude-in-niedersachsen-ist-eines-der-schoensten-doerfer-deutschlands",
-      "title": "TRAVELBOOK Award 2026: Fischerhude in Niedersachsen ist eines der schönsten Dörfer Deutschlands",
-      "desc": "Beim TRAVELBOOK Award am 22. September 2026 wurde neben vielen weiteren spannenden Trendreisezielen für das kommende Jahr auch das schönste Dorf Deutschlands gekürt. Mit dabei: das Künstlerdorf Fischerhude im nordwestlichen Bundesland ...",
-      "title_en": "TRAVELBOOK Award 2026: Fischerhude in Lower Saxony is one of the most beautiful villages in Germany",
-      "desc_en": "In addition to many other exciting trendy destinations for the coming year, the most beautiful village in Germany was also chosen at the TRAVELBOOK Award on 22 September 2026. Included: the artists' village of Fischerhude in the northwestern state ..."
     }
   ]
 }
