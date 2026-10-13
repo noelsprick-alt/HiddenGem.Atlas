@@ -1506,7 +1506,7 @@ body.menu-open{overflow:hidden}
 .ab-photo.has-img{display:block}
 .edit-mode .ab-photo{display:block}
 .edit-mode .ab-photo:not(.has-img)::after{content:'Platz für ein Foto von dir';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:12px}
-.ab-photo .hg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ab-photo .hg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 22%}
 .si .hg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:var(--rl) var(--rl) 0 0}
 .si.has-img .si-emoji{display:none}
 .dc.has-img .dc-img{opacity:.22}
@@ -2013,6 +2013,32 @@ body.sr-lock{overflow:hidden}
 @media(max-width:900px){.why-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.why-sec{padding:2.5rem 1.25rem}.why-grid{grid-template-columns:1fr}}
 
+/* ── Story-Highlights (Über mich) ── */
+.about>.ab-l,.about>.ab-r{min-width:0}
+.st-wrap{margin:0 0 1.8rem;min-width:0;max-width:100%}
+.st-row{display:flex;gap:14px;overflow-x:auto;padding:4px 2px 8px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.st-row::-webkit-scrollbar{display:none}
+.st-hl{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:6px;background:none;border:0;padding:0;cursor:pointer;font-family:inherit;color:var(--text2);width:74px}
+.st-ring{width:68px;height:68px;border-radius:50%;padding:3px;background:conic-gradient(from 210deg,var(--gold2),var(--terra),var(--sunset),var(--gold2));display:block;transition:transform .2s}
+.st-ring img{width:100%;height:100%;border-radius:50%;object-fit:cover;border:3px solid var(--bg);display:block;background:var(--bg3)}
+.st-hl:hover .st-ring,.st-hl:focus-visible .st-ring{transform:scale(1.06)}
+.st-t{font-size:11px;line-height:1.2;text-align:center;max-width:74px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.st-ov{position:fixed;inset:0;z-index:10050;background:rgba(10,7,3,.94);display:none;align-items:center;justify-content:center}
+.st-ov.open{display:flex}
+.st-box{position:relative;height:min(92vh,880px);aspect-ratio:9/16;max-width:100vw;background:#000;border-radius:16px;overflow:hidden}
+.st-media,.st-media img,.st-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.st-media img,.st-media video{background:#000}
+.st-top{position:absolute;left:0;right:0;top:0;padding:10px 12px 26px;background:linear-gradient(rgba(0,0,0,.55),transparent);z-index:3}
+.st-bars{display:flex;gap:4px}
+.st-bar{flex:1;height:3px;border-radius:2px;background:rgba(255,255,255,.35);overflow:hidden}
+.st-bar i{display:block;height:100%;width:0;background:#fff}
+.st-head{display:flex;align-items:center;justify-content:space-between;margin-top:10px;color:#fff;font-size:13px;font-weight:500}
+.st-x{background:none;border:0;color:#fff;font-size:22px;line-height:1;cursor:pointer;padding:4px 6px}
+.st-cap{position:absolute;left:0;right:0;bottom:0;padding:34px 16px 18px;color:#fff;font-size:13.5px;line-height:1.45;background:linear-gradient(transparent,rgba(0,0,0,.65));z-index:3}
+.st-nav{position:absolute;top:0;bottom:0;width:35%;z-index:2;background:none;border:0;cursor:pointer}
+.st-nav.l{left:0}.st-nav.r{right:0;width:65%}
+@media (max-width:600px){.st-box{height:100%;width:100%;border-radius:0;aspect-ratio:auto}}
+
 /* ── Über mich v2 ── */
 .ab-l p.ab-pitch{font-family:'Cormorant Garamond',serif;font-size:clamp(21px,2.4vw,27px);line-height:1.35;color:var(--text);font-weight:400}
 .ab-l p.ab-after{font-weight:600;color:var(--terra);font-size:15px;line-height:1.6;margin-top:-.4rem}
@@ -2150,6 +2176,15 @@ body.sr-lock{overflow:hidden}
   <div class="sr-box">
     <div class="sr-top"><span aria-hidden="true">🔍</span><input id="sr-q" type="search" autocomplete="off" data-i18n-ph="sr_ph" placeholder="Ort, Stadt, Land, Event, Route ... suchen" oninput="srRun(this.value)" onkeydown="srKey(event)"><button type="button" onclick="srClose()" aria-label="Schließen" data-i18n-aria="close">✕</button></div>
     <div class="sr-res" id="sr-res"></div>
+  </div>
+</div>
+<div class="st-ov" id="st-ov" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Stories" onclick="if(event.target===this)stClose()">
+  <div class="st-box">
+    <div class="st-media" id="st-media"></div>
+    <button type="button" class="st-nav l" onclick="stPrev()" aria-label="Zurück" data-i18n-aria="st_prev"></button>
+    <button type="button" class="st-nav r" onclick="stNext()" aria-label="Weiter" data-i18n-aria="st_next"></button>
+    <div class="st-top"><div class="st-bars" id="st-bars"></div><div class="st-head"><span id="st-name"></span><button type="button" class="st-x" onclick="stClose()" aria-label="Schließen" data-i18n-aria="close">✕</button></div></div>
+    <div class="st-cap" id="st-cap"></div>
   </div>
 </div>
 <div class="dt-overlay" id="dt-overlay">
@@ -2429,6 +2464,7 @@ body.sr-lock{overflow:hidden}
     </div>
   </div>
   <div class="ab-r"><div class="ab-photo" data-img="about-portrait"></div>
+    <div class="st-wrap" id="st-wrap"><div class="sec-lbl" data-i18n="st_lbl">Stories · ungefiltert</div><div class="st-row" id="st-row"></div></div>
     <div class="sec-lbl" data-i18n="jrn_lbl">Meine Reise</div>
     <div class="tl">
       <div class="tli"><div class="tly" data-i18n="ab_2017">2017</div><div class="tlt"><h4 data-i18n="tl_17t">Tourismus studieren statt davon träumen</h4><p data-i18n="tl_17s">Bachelor of Arts: Betriebswirtschaft, Tourismus, Gastronomie &amp; Hospitality. Sechs Semester darüber, wie Reisen wirklich funktioniert - und was es kostet.</p></div></div>
@@ -3645,6 +3681,9 @@ const I18N = {
 "mp_st_cities":["Städte", "Cities"],
 "mp_st_grow":["Und es werden mehr.", "And it keeps growing."],
 "mp_rest":["übrige Orte", "other places"],
+"st_lbl":["Stories · ungefiltert", "Stories · unfiltered"],
+"st_prev":["Zurück", "Back"],
+"st_next":["Weiter", "Next"],
 "sr_all_places":["Alle {n} Orte auf der Karte zeigen", "Show all {n} places on the map"],
 "sr_country":["Land", "Country"],
 "sr_n_places":["{n} Orte", "{n} places"],
@@ -5413,6 +5452,7 @@ const RC_DATA = [
   },
   {
     id: 'albanien-tirana', region: 'europa', flag: '🇦🇱',
+    image: 'images/video/p/tirana-matcha-cafe.webp',
     title: 'Tirana & Durrës, Albanien', title_en: 'Tirana & Durrës, Albania',
     meta: '5 Tage · Sommer 2025', meta_en: '5 days · Summer 2025',
     gradient: 'linear-gradient(135deg,#1a0808,#3d1206)',
@@ -5545,24 +5585,24 @@ const PARTNERS_DATA = [
 // ╚════════════════════════════════════════════════════╝
 const BLOG_DATA = [
   {id:'bc-1', label:'JP · DE', grad:'jp', tag:'Japan · Düsseldorf', tag_en:'Japan · Düsseldorf', title:'Warum Düsseldorf jeden Mai wie Japan fühlt', title_en:'Why Düsseldorf feels like Japan every May', meta:'5 min · Hidden Gems', meta_en:'5 min · Hidden Gems'},
-  {id:'bc-2', label:'AL', grad:'al', tag:'Albanien', tag_en:'Albania', title:'Tirana in 48 Stunden - der komplette Guide', title_en:'Tirana in 48 hours - the complete guide', meta:'7 min · Europa', meta_en:'7 min · Europe'},
-  {id:'bc-3', label:'CZ', grad:'cz', tag:'Tschechien', tag_en:'Czechia', title:'6 tschechische Städte die besser sind als Prag', title_en:'6 Czech cities that are better than Prague', meta:'6 min · Hidden Gems', meta_en:'6 min · Hidden Gems'},
+  {id:'bc-2', image:'images/video/p/tirana-matcha-cafe.webp', label:'AL', grad:'al', tag:'Albanien', tag_en:'Albania', title:'Tirana in 48 Stunden - der komplette Guide', title_en:'Tirana in 48 hours - the complete guide', meta:'7 min · Europa', meta_en:'7 min · Europe'},
+  {id:'bc-3', image:'images/video/p/prag-mala-strana-tram.webp', label:'CZ', grad:'cz', tag:'Tschechien', tag_en:'Czechia', title:'6 tschechische Städte die besser sind als Prag', title_en:'6 Czech cities that are better than Prague', meta:'6 min · Hidden Gems', meta_en:'6 min · Hidden Gems'},
   {id:'bc-4', label:'SL', grad:'sl', tag:'Slowenien', tag_en:'Slovenia', title:'Slowenien - das schönste Land das niemand besucht', title_en:'Slovenia - the most beautiful country nobody visits', meta:'5 min · Europa', meta_en:'5 min · Europe'},
-  {id:'bc-5', label:'DE', grad:'dd', tag:'Deutschland', tag_en:'Germany', title:'5 Dinge die du über Düsseldorf nicht wusstest', title_en:"5 things you didn't know about Düsseldorf", meta:'4 min · Hidden Gems', meta_en:'4 min · Hidden Gems'},
+  {id:'bc-5', image:'images/video/p/flingern-strasse.webp', label:'DE', grad:'dd', tag:'Deutschland', tag_en:'Germany', title:'5 Dinge die du über Düsseldorf nicht wusstest', title_en:"5 things you didn't know about Düsseldorf", meta:'4 min · Hidden Gems', meta_en:'4 min · Hidden Gems'},
   {id:'bc-6', label:'🇻🇳', grad:'vn', tag:'Vietnam · Neu', tag_en:'Vietnam · New', title:'Vietnam: Was ich falsch eingepackt habe - mach es besser', title_en:'Vietnam: what I packed wrong - do it better', meta:'6 min · Südostasien', meta_en:'6 min · Southeast Asia'},
   {id:"bc-7", label:"🇯🇵", grad:"jp", tag:"Japan", tag_en:"Japan", title:"Japan: 3 Wochen zwischen Tempeln und Neon", title_en:"Japan: 3 weeks between temples and neon", meta:"Reise-Story · Asien", meta_en:"Trip story · Asia"},
   {id:"bc-8", label:"🇻🇳", grad:"vn", tag:"Vietnam", tag_en:"Vietnam", title:"Vietnam von Nord nach Süd - meine Route", title_en:"Vietnam north to south - my route", meta:"Reise-Story · Südostasien", meta_en:"Trip story · Southeast Asia"},
-  {id:"bc-9", label:"🇹🇭", grad:"sunset", tag:"Thailand", tag_en:"Thailand", title:"Thailand: Inseln, Kajak und Kalkfelsen", title_en:"Thailand: islands, kayaks and limestone cliffs", meta:"Reise-Story · Südostasien", meta_en:"Trip story · Southeast Asia"},
+  {id:"bc-9", image:'images/photos/krabi-dschungelweg.webp', label:"🇹🇭", grad:"sunset", tag:"Thailand", tag_en:"Thailand", title:"Thailand: Inseln, Kajak und Kalkfelsen", title_en:"Thailand: islands, kayaks and limestone cliffs", meta:"Reise-Story · Südostasien", meta_en:"Trip story · Southeast Asia"},
   {id:"bc-10", label:"🇰🇷", grad:"jp", tag:"Südkorea", tag_en:"South Korea", title:"Seoul: 4 Tage in der schnellsten Stadt Asiens", title_en:"Seoul: 4 days in Asia's fastest city", meta:"Reise-Story · Asien", meta_en:"Trip story · Asia"},
   {id:"bc-11", label:"🇪🇸", grad:"sunset", tag:"Spanien", tag_en:"Spain", title:"Barcelona: der Morgen, der alles veränderte", title_en:"Barcelona: the morning that changed everything", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-12", label:"🇪🇸", grad:"sand", tag:"Mallorca", tag_en:"Mallorca", title:"Mallorca abseits der Partymeile", title_en:"Mallorca beyond the party strip", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
+  {id:"bc-12", image:'images/video/p/cala-marmols.webp', label:"🇪🇸", grad:"sand", tag:"Mallorca", tag_en:"Mallorca", title:"Mallorca abseits der Partymeile", title_en:"Mallorca beyond the party strip", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-13", label:"🇪🇸", grad:"sand", tag:"Gran Canaria", tag_en:"Gran Canaria", title:"Gran Canaria: Dünen, Berge, ewiger Frühling", title_en:"Gran Canaria: dunes, mountains, eternal spring", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-14", label:"🇦🇱", grad:"al", tag:"Albanien", tag_en:"Albania", title:"Albanien: Europas letztes Geheimnis", title_en:"Albania: Europe's last secret", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-15", label:"🇸🇮", grad:"sl", tag:"Slowenien", tag_en:"Slovenia", title:"Slowenien: 5 Tage im grünsten Land Europas", title_en:"Slovenia: 5 days in Europe's greenest country", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-16", label:"🇭🇺", grad:"al", tag:"Ungarn", tag_en:"Hungary", title:"Budapest: Bäder, Ruinenbars und Donaublick", title_en:"Budapest: baths, ruin bars and Danube views", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-17", label:"🇸🇰", grad:"sl", tag:"Slowakei", tag_en:"Slovakia", title:"Bratislava: die unterschätzte Hauptstadt", title_en:"Bratislava: the underrated capital", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-18", label:"🇱🇹", grad:"dd", tag:"Litauen", tag_en:"Lithuania", title:"Vilnius: Barock, Street-Art und viel Ruhe", title_en:"Vilnius: baroque, street art and calm", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-19", label:"🇦🇹", grad:"dd", tag:"Österreich", tag_en:"Austria", title:"Österreich: Städte und Berge in einem Trip", title_en:"Austria: cities and mountains in one trip", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
+  {id:"bc-19", image:'images/video/p/landawirsee-baden.webp', label:"🇦🇹", grad:"dd", tag:"Österreich", tag_en:"Austria", title:"Österreich: Städte und Berge in einem Trip", title_en:"Austria: cities and mountains in one trip", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-20", label:"🇭🇷", grad:"jp", tag:"Kroatien", tag_en:"Croatia", title:"Pula: römisches Erbe an der Adria", title_en:"Pula: Roman heritage on the Adriatic", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-21", label:"🇩🇰", grad:"jp", tag:"Dänemark", tag_en:"Denmark", title:"Kopenhagen: Hygge, Design und Fahrrad", title_en:"Copenhagen: hygge, design and bikes", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-22", label:"🇱🇺", grad:"dd", tag:"Luxemburg", tag_en:"Luxembourg", title:"Luxemburg: Festung über der Schlucht", title_en:"Luxembourg: a fortress above the gorge", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
@@ -5570,7 +5610,7 @@ const BLOG_DATA = [
   {id:"bc-24", label:"🇳🇱", grad:"sunset", tag:"Niederlande", tag_en:"Netherlands", title:"Niederlande: mehr als nur Amsterdam", title_en:"The Netherlands: more than just Amsterdam", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-25", label:"🇺🇸", grad:"jp", tag:"USA", tag_en:"USA", title:"New York: die Stadt, die man einmal gesehen haben muss", title_en:"New York: the city you have to see once", meta:"Reise-Story · Weltweit", meta_en:"Trip story · Worldwide"},
   {id:"bc-26", label:"🇹🇳", grad:"sand", tag:"Tunesien", tag_en:"Tunisia", title:"Tunesien: Medina, Meer und Sahara-Vorgeschmack", title_en:"Tunisia: medina, sea and a taste of the Sahara", meta:"Reise-Story · Afrika", meta_en:"Trip story · Africa"},
-  {id:"bc-27", label:"🇲🇦", grad:"sunset", tag:"Marokko", tag_en:"Morocco", title:"Marrakesch: Souks, Farben, Sinnesüberladung", title_en:"Marrakech: souks, colours, sensory overload", meta:"Reise-Story · Afrika", meta_en:"Trip story · Africa"},
+  {id:"bc-27", image:'images/photos/marrakesch-terrasse.webp', label:"🇲🇦", grad:"sunset", tag:"Marokko", tag_en:"Morocco", title:"Marrakesch: Souks, Farben, Sinnesüberladung", title_en:"Marrakech: souks, colours, sensory overload", meta:"Reise-Story · Afrika", meta_en:"Trip story · Africa"},
   {id:"bc-28", label:"🇩🇪", grad:"jp", tag:"Norddeutschland", tag_en:"Northern Germany", title:"Norddeutschland: Hansestädte und Ostsee", title_en:"Northern Germany: Hanseatic cities and the Baltic", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"},
   {id:"bc-29", label:"🇩🇪", grad:"dd", tag:"Berlin", tag_en:"Berlin", title:"Berlin: Geschichte an jeder Ecke", title_en:"Berlin: history on every corner", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"},
   {id:"bc-30", label:"🇩🇪", grad:"dd", tag:"Süddeutschland & Elsass", tag_en:"Southern Germany & Alsace", title:"Vom Schwarzwald bis zur Zugspitze", title_en:"From the Black Forest to the Zugspitze", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"},
@@ -7560,6 +7600,75 @@ function brIcs(s, e){
   hgDownload('brueckentage-' + s + '.ics', icsBuild(stripTags(t('br_lbl')), [{uid: 'br-' + s + '-' + e, allDay: true, start: s.replace(/-/g, ''), end: hgYmd(end).replace(/-/g, ''), summary: '✈️ ' + stripTags(t('br_cal_sum')), desc: 'HiddenGem.Atlas · ' + BR_STATES[brS.st]}]));
 }
 HG.onRender(brRender);
+// ╔════════════════════════════════════════════════════╗
+// ║  STORY-HIGHLIGHTS (Über mich) - data/stories.json  ║
+// ╚════════════════════════════════════════════════════╝
+let stData = null, stG = 0, stI = 0, stTimer = null, stT0 = 0, stDur = 5000, stPaused = false;
+async function stLoad(){ if (stData) return stData; const d = await hgLoadJSON('data/stories.json'); stData = (d && d.items) || []; return stData; }
+async function stRender(){
+  const box = document.getElementById('st-row'); if (!box) return;
+  const list = await stLoad(); const wrap = document.getElementById('st-wrap');
+  if (wrap) wrap.style.display = list.length ? '' : 'none';
+  box.innerHTML = list.map((g, i) => '<button type="button" class="st-hl" onclick="stOpen(' + i + ')" aria-label="' + esc(stripTags(Lz(g, 'title'))) + '">' +
+    '<span class="st-ring"><img src="' + esc(HG.img(g.cover)) + '" alt="" loading="lazy"></span><span class="st-t">' + esc(g.ic ? g.ic + ' ' : '') + esc(stripTags(Lz(g, 'title'))) + '</span></button>').join('');
+}
+HG.onRender(stRender);
+function stOpen(g){
+  if (!stData || !stData[g]) return;
+  stG = g; stI = 0;
+  const ov = document.getElementById('st-ov'); ov.classList.add('open'); ov.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden'; stShow();
+}
+function stClose(){
+  clearTimeout(stTimer); cancelAnimationFrame(stRaf);
+  const ov = document.getElementById('st-ov'); if (!ov) return;
+  ov.classList.remove('open'); ov.setAttribute('aria-hidden', 'true');
+  const m = document.getElementById('st-media'); if (m) m.innerHTML = '';
+  document.body.style.overflow = '';
+}
+let stRaf = 0;
+function stShow(){
+  clearTimeout(stTimer); cancelAnimationFrame(stRaf);
+  const g = stData[stG], it = g.items[stI], m = document.getElementById('st-media');
+  document.getElementById('st-name').textContent = (g.ic ? g.ic + ' ' : '') + stripTags(Lz(g, 'title'));
+  document.getElementById('st-cap').textContent = stripTags(Lz(it, 'cap'));
+  document.getElementById('st-bars').innerHTML = g.items.map((_, i) => '<span class="st-bar"><i style="width:' + (i < stI ? 100 : 0) + '%"></i></span>').join('');
+  const vid = /\.(mp4|webm|mov)$/i.test(it.src);
+  m.innerHTML = vid ? '<video src="' + esc(HG.img(it.src)) + '"' + (it.poster ? ' poster="' + esc(HG.img(it.poster)) + '"' : '') + ' autoplay muted playsinline preload="auto"></video>' : '<img src="' + esc(HG.img(it.src)) + '" alt="">';
+  stPaused = false; stT0 = performance.now();
+  const bar = () => document.querySelectorAll('#st-bars .st-bar i')[stI];
+  if (vid){
+    const v = m.querySelector('video');
+    v.onended = stNext; v.onerror = () => { stDur = 5000; stT0 = performance.now(); tick(); };
+    const tickV = () => { const b = bar(); if (b && v.duration) b.style.width = Math.min(100, v.currentTime / v.duration * 100) + '%'; stRaf = requestAnimationFrame(tickV); };
+    tickV(); const p = v.play(); if (p && p.catch) p.catch(() => {});
+  } else { stDur = 5000; tick(); }
+  function tick(){
+    const b = bar(); const el = performance.now() - stT0;
+    if (b) b.style.width = Math.min(100, el / stDur * 100) + '%';
+    if (el >= stDur){ stNext(); return; }
+    stRaf = requestAnimationFrame(tick);
+  }
+  // nächstes Medium vorladen
+  const nx = g.items[stI + 1] || (stData[stG + 1] && stData[stG + 1].items[0]);
+  if (nx && !/\.(mp4|webm|mov)$/i.test(nx.src)){ const i = new Image(); i.src = HG.img(nx.src); }
+}
+function stNext(){
+  const g = stData[stG];
+  if (stI < g.items.length - 1){ stI++; stShow(); }
+  else if (stG < stData.length - 1){ stG++; stI = 0; stShow(); }
+  else stClose();
+}
+function stPrev(){
+  if (stI > 0){ stI--; stShow(); }
+  else if (stG > 0){ stG--; stI = stData[stG].items.length - 1; stShow(); }
+  else stShow();
+}
+document.addEventListener('keydown', e => {
+  const ov = document.getElementById('st-ov'); if (!ov || !ov.classList.contains('open')) return;
+  if (e.key === 'Escape') stClose(); else if (e.key === 'ArrowRight') stNext(); else if (e.key === 'ArrowLeft') stPrev();
+});
+
 
 // ╔════════════════════════════════════════════════════╗
 // ║  SEITENWEITE SUCHE (🔍 / Taste „/" / Strg+K)        ║
@@ -8234,7 +8343,7 @@ function dtRenderGallery(){
   const ttl = document.getElementById('dt-gal-t');
   g.innerHTML = ph.map((src, i) => {
     const s = HG.img(src); const vid = /\.(mp4|webm|mov)$/i.test(src); const sm = /^images\/photos\/[^/]+$/.test(src) ? HG.img(src.replace('images/photos/', 'images/photos/t/')) : s;
-    return `<div class="dt-ph">${vid ? `<video src="${esc(s)}" autoplay muted loop playsinline></video>` : `<img src="${esc(sm)}" alt="" loading="lazy" onclick="dtLightbox(${i})">`}${HG.editing ? `<button type="button" class="dt-ph-del hg-ui" onclick="dtDelPhoto(${i})" aria-label="Löschen">×</button>` : ''}</div>`;
+    return `<div class="dt-ph">${vid ? `<video src="${esc(s)}"${/^images\/video\/[^/]+\.mp4$/.test(src) ? ` poster="${esc(HG.img(src.replace(/^images\/video\/(.+)\.mp4$/, 'images/video/p/$1.webp')))}"` : ''} autoplay muted loop playsinline preload="metadata"></video>` : `<img src="${esc(sm)}" alt="" loading="lazy" onclick="dtLightbox(${i})">`}${HG.editing ? `<button type="button" class="dt-ph-del hg-ui" onclick="dtDelPhoto(${i})" aria-label="Löschen">×</button>` : ''}</div>`;
   }).join('') + (HG.editing ? `<label class="dt-addph hg-ui"><span style="font-size:22px">＋</span><span>Foto / Video</span><input type="file" accept="image/*,video/mp4,video/webm" hidden onchange="dtAddPhoto(this)"></label>` : '');
   const show = ph.length || HG.editing;
   g.style.display = show ? '' : 'none'; if (ttl) ttl.style.display = show ? '' : 'none';

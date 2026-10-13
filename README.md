@@ -50,3 +50,8 @@ Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt p
 
 ## Fotos (Handy-Originale)
 `pip install pillow pillow-heif` · `python3 scripts/process_photos.py scan <ordner>` (verkleinert auf WebP, Vorschau in `images/photos/t/`, GPS -> nächster Ort ≤ 400 m, ohne EXIF im Web-Bild) · danach `apply` trägt die Fotos in `data/content.json` ein (`moment-<id>` = Ortsgalerie, `pillar-fotografie` = Fotografie-Galerie).
+
+## Medien (v13.2)
+- `images/photos/*.webp` (+ `t/` Vorschau) · `images/video/*.mp4` (H.264, 720p, ohne Ton) + Poster `images/video/p/*.webp`
+- Zuordnung in `data/content.json` → `detail[<key>].photos` (`moment-<id>`, `blog-bc-<n>`, `rc-<id>`, `pillar-fotografie`), Porträt in `images.about-portrait`
+- Story-Highlights auf „Über mich“: `data/stories.json` (Gruppen mit `cover` + `items[src, poster, cap, cap_en]`)

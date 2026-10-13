@@ -1,0 +1,171 @@
+{
+ "note": "Story-Highlights auf \"Über mich\". cover = Kreisbild, items = Fotos/Videos (Videos ohne Ton).",
+ "items": [
+  {
+   "id": "alpen",
+   "ic": "🏔️",
+   "title": "Alpen",
+   "title_en": "Alps",
+   "cover": "images/video/p/landawirsee-baden.webp",
+   "items": [
+    {
+     "src": "images/video/landawirsee-baden.mp4",
+     "poster": "images/video/p/landawirsee-baden.webp",
+     "cap": "Landawirsee, Lungau · 1.968 m · Okt. 2026",
+     "cap_en": "Landawirsee lake, Lungau · 1,968 m · Oct 2026"
+    }
+   ]
+  },
+  {
+   "id": "mallorca",
+   "ic": "🌊",
+   "title": "Mallorca",
+   "title_en": "Mallorca",
+   "cover": "images/video/p/cala-marmols.webp",
+   "items": [
+    {
+     "src": "images/video/cala-marmols.mp4",
+     "poster": "images/video/p/cala-marmols.webp",
+     "cap": "Cala Màrmols · nur zu Fuß oder per Boot · Sept. 2026",
+     "cap_en": "Cala Màrmols · on foot or by boat only · Sept 2026"
+    },
+    {
+     "src": "images/video/vilafranca-markt.mp4",
+     "poster": "images/video/p/vilafranca-markt.webp",
+     "cap": "Mittwochsmarkt Vilafranca de Bonany · Sept. 2026",
+     "cap_en": "Wednesday market, Vilafranca de Bonany · Sept 2026"
+    },
+    {
+     "src": "images/photos/qanat-hauptgang.webp",
+     "cap": "Qanat de Treurer, Algaida - Fine Dining zwischen Olivenbäumen",
+     "cap_en": "Qanat de Treurer, Algaida - fine dining among olive trees"
+    },
+    {
+     "src": "images/photos/qanat-dessert.webp",
+     "cap": "Qanat de Treurer - das Dessert",
+     "cap_en": "Qanat de Treurer - dessert"
+    },
+    {
+     "src": "images/video/palma-rooftop.mp4",
+     "poster": "images/video/p/palma-rooftop.webp",
+     "cap": "Palma - Dachterrasse mit Blick auf La Seu · Sept. 2026",
+     "cap_en": "Palma - rooftop with a view of La Seu · Sept 2026"
+    },
+    {
+     "src": "images/video/palma-kochkurs-reel.mp4",
+     "poster": "images/video/p/palma-kochkurs-reel.webp",
+     "cap": "Kochkurs in Palma: Paella statt Strand",
+     "cap_en": "Cooking class in Palma: paella instead of the beach"
+    }
+   ]
+  },
+  {
+   "id": "prag",
+   "ic": "🏰",
+   "title": "Prag",
+   "title_en": "Prague",
+   "cover": "images/video/p/prag-karlsbruecke.webp",
+   "items": [
+    {
+     "src": "images/video/prag-karlsbruecke.mp4",
+     "poster": "images/video/p/prag-karlsbruecke.webp",
+     "cap": "Karlsbrücke, 9:30 Uhr an einem Montag · Okt. 2026",
+     "cap_en": "Charles Bridge, 9:30 am on a Monday · Oct 2026"
+    },
+    {
+     "src": "images/video/prag-mala-strana-tram.mp4",
+     "poster": "images/video/p/prag-mala-strana-tram.webp",
+     "cap": "Malá Strana · Sept. 2025",
+     "cap_en": "Malá Strana · Sept 2025"
+    }
+   ]
+  },
+  {
+   "id": "albanien",
+   "ic": "🇦🇱",
+   "title": "Albanien",
+   "title_en": "Albania",
+   "cover": "images/video/p/tirana-matcha-cafe.webp",
+   "items": [
+    {
+     "src": "images/video/tirana-matcha-cafe.mp4",
+     "poster": "images/video/p/tirana-matcha-cafe.webp",
+     "cap": "Café-Stopp im Blloku, Tirana · Mai 2026",
+     "cap_en": "Café stop in Blloku, Tirana · May 2026"
+    },
+    {
+     "src": "images/video/durres-strand-nacht.mp4",
+     "poster": "images/video/p/durres-strand-nacht.webp",
+     "cap": "Durrës, Strand bei Nacht · Mai 2026",
+     "cap_en": "Durrës, the beach at night · May 2026"
+    }
+   ]
+  },
+  {
+   "id": "thailand",
+   "ic": "🌴",
+   "title": "Thailand",
+   "title_en": "Thailand",
+   "cover": "images/video/p/phuket-sonnenuntergang.webp",
+   "items": [
+    {
+     "src": "images/video/phuket-sonnenuntergang.mp4",
+     "poster": "images/video/p/phuket-sonnenuntergang.webp",
+     "cap": "Sonnenuntergang auf Phuket · Feb. 2026",
+     "cap_en": "Sunset on Phuket · Feb 2026"
+    },
+    {
+     "src": "images/photos/krabi-dschungelweg.webp",
+     "cap": "Krabi - irgendwo zwischen Palmen und Strommasten",
+     "cap_en": "Krabi - somewhere between palm trees and power poles"
+    }
+   ]
+  },
+  {
+   "id": "marrakesch",
+   "ic": "🇲🇦",
+   "title": "Marrakesch",
+   "title_en": "Marrakech",
+   "cover": "images/photos/marrakesch-terrasse.webp",
+   "items": [
+    {
+     "src": "images/photos/marrakesch-terrasse.webp",
+     "cap": "Marrakesch · April 2025",
+     "cap_en": "Marrakech · April 2025"
+    }
+   ]
+  },
+  {
+   "id": "zuhause",
+   "ic": "🏠",
+   "title": "Zuhause",
+   "title_en": "Home",
+   "cover": "images/video/p/zuhause-donna.webp",
+   "items": [
+    {
+     "src": "images/video/zuhause-donna.mp4",
+     "poster": "images/video/p/zuhause-donna.webp",
+     "cap": "Zuhause im Pott - mit Donna · Juli 2026",
+     "cap_en": "Home in the Ruhr - with Donna · July 2026"
+    },
+    {
+     "src": "images/video/flingern-reel.mp4",
+     "poster": "images/video/p/flingern-reel.webp",
+     "cap": "Das echte Düsseldorf liegt nicht in der Altstadt",
+     "cap_en": "The real Düsseldorf is not in the old town"
+    },
+    {
+     "src": "images/video/flingern-strasse.mp4",
+     "poster": "images/video/p/flingern-strasse.webp",
+     "cap": "Düsseldorf-Flingern, Samstagvormittag · Juli 2026",
+     "cap_en": "Düsseldorf-Flingern, Saturday morning · July 2026"
+    },
+    {
+     "src": "images/photos/crew-rooftop.webp",
+     "cap": "Die Crew - Sundowner auf der Dachterrasse",
+     "cap_en": "The crew - sundowners on the rooftop"
+    }
+   ]
+  }
+ ]
+}
