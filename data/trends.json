@@ -1,9 +1,23 @@
 {
-  "updated": "12.10.2026",
-  "generated": "2026-10-12T12:54:09.412Z",
+  "updated": "13.10.2026",
+  "generated": "2026-10-13T12:32:02.312Z",
   "maxAgeDays": 14,
   "count": 9,
   "items": [
+    {
+      "id": "auto-sozopol-in-bulgarien-diese-stadt-an-der-schwar",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-12",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/ziele/staedte/diese-stadt-an-der-schwarzmeerkueste-ist-noch-ein-echter-geheimtipp",
+      "title": "Sozopol in Bulgarien: Diese Stadt an der Schwarzmeerküste ist noch ein echter Geheimtipp",
+      "desc": "Tausende Jahre alte Geschichte, eine hübsche Altstadt und dazu noch zwei Strände, die zum Entspannen einladen: Sozopol an der Schwarzmeerküste ist bei Bulgarien-Urlaubern kein Geheimtipp mehr - allzu bekannt ist das Städtchen aber ...",
+      "title_en": "Sozopol in Bulgaria: This city on the Black Sea coast is still a real insider tip",
+      "desc_en": "Thousands of years of history, a pretty old town and two beaches that invite you to relax: Sozopol on the Black Sea coast is no longer an insider tip for Bulgarian holidaymakers - but the town is all too well known..."
+    },
     {
       "id": "auto-travelbook-autor-ganz-planlos-unterwegs-so-war",
       "cat": "Reise",
@@ -115,20 +129,6 @@
       "desc_en": "Cruise lines and live events are giving influencers insider access to reach young audiences. Certain partnerships have sparked backlash from paying guests.",
       "title": "Creator Backlash Hits Travel: Von der U.S. Open zu Kreuzfahrtschiffen",
       "desc": "Kreuzfahrtschiffe und Live-Events ermöglichen Influencern Insider-Zugang, um ein junges Publikum zu erreichen. Bestimmte Partnerschaften haben bei zahlenden Gästen zu Gegenreaktionen geführt."
-    },
-    {
-      "id": "auto-hilton-s-motto-debut-in-japan-signals-a-bigger",
-      "cat": "International",
-      "cat_en": "International",
-      "verdict": "watch",
-      "lang": "en",
-      "date": "2026-09-29",
-      "src": "Skift",
-      "url": "https://skift.com/2026/09/28/hiltons-motto-debut-in-japan-signals-a-bigger-mid-market-shift/",
-      "title_en": "Hilton’s Motto Debut in Japan Signals a Bigger Mid-Market Shift",
-      "desc_en": "If Japan reaches 60 million visitors by 2030 as planned, hotel companies will need more rooms, and more affordable ones. And that is exactly what Hilton aims to do.",
-      "title": "Hiltons Motto-Debüt in Japan signalisiert eine größere Verschiebung im Mittelstand",
-      "desc": "Wenn Japan wie geplant bis 2030 60 Millionen Besucher erreicht, benötigen Hotelunternehmen mehr und erschwinglichere Zimmer. Und genau das ist das Ziel von Hilton."
     }
   ]
 }
