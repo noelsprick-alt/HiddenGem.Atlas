@@ -15,10 +15,11 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="HiddenGem.Atlas">
 <meta property="og:title" content="HiddenGem.Atlas - Hidden Gems in Europa & Asien">
-<meta property="og:description" content="Vollzeitjob, trotzdem 20+ Länder: über 3.000 Orte auf einer Karte, Tagesrouten, Events 2027 und Brückentage - ehrlich und ohne Stock-Look.">
+<meta property="og:description" content="Vollzeitjob, trotzdem 20+ Länder: über 4.400 Orte auf einer Karte, Tagesrouten, Events 2027 und Brückentage - ehrlich und ohne Stock-Look.">
 <meta property="og:url" content="https://noelsprick-alt.github.io/HiddenGem.Atlas/">
 <meta property="og:locale" content="de_DE">
 <meta property="og:locale:alternate" content="en_GB">
+<meta property="og:locale:alternate" content="es_ES">
 <meta property="og:image" content="https://noelsprick-alt.github.io/HiddenGem.Atlas/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -2039,6 +2040,72 @@ body.sr-lock{overflow:hidden}
 .st-nav.l{left:0}.st-nav.r{right:0;width:65%}
 @media (max-width:600px){.st-box{height:100%;width:100%;border-radius:0;aspect-ratio:auto}}
 
+/* ── Hero-Slideshow (eigene Fotos) ── */
+.h-slides{position:absolute;inset:0;z-index:1;overflow:hidden;pointer-events:none}
+.h-slide{position:absolute;inset:-2%;background-size:cover;background-position:center;opacity:0;transition:opacity 1.6s ease;will-change:opacity,transform}
+.h-slide.on{opacity:1;animation:hsKb 9s ease-out both}
+@keyframes hsKb{from{transform:scale(1.02)}to{transform:scale(1.1)}}
+.hero.has-slides .h-slides::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,9,20,.5) 0%,rgba(6,9,20,.12) 32%,rgba(12,8,4,.5) 66%,rgba(12,8,4,.9) 100%),linear-gradient(90deg,rgba(6,8,14,.62) 0%,rgba(6,8,14,.2) 55%,transparent 100%)}
+.hero.has-slides .hgrid,.hero.has-slides .h-sunray,.hero.has-slides .h-milky,.hero.has-slides .h-moon,.hero.has-slides .h-shoot,.hero.has-slides .h-plane,.hero.has-slides .h-trail,.hero.has-slides .h-horizon,.hero.has-slides .h-cloud,.hero.has-slides .hglow{display:none}
+.hero.has-slides::after{opacity:.25;animation:none}
+.hero.has-slides .h-globe-wrap{display:none}
+.hero.has-slides h1,.hero.has-slides .h-sub,.hero.has-slides .h-eye{text-shadow:0 2px 18px rgba(0,0,0,.45)}
+.h-slide-cap{position:absolute;right:2.5rem;bottom:1.4rem;z-index:10;font-size:11.5px;letter-spacing:.3px;color:rgba(253,248,240,.82);background:rgba(10,8,4,.38);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:4px 11px;pointer-events:none;opacity:0;transition:opacity .6s}
+.hero.has-slides .h-slide-cap{opacity:1}
+@media(max-width:900px){.h-slide-cap{right:1rem;bottom:.9rem;font-size:10.5px}}
+@media(prefers-reduced-motion:reduce){.h-slide.on{animation:none}.h-slide{transition:opacity .4s}}
+/* ── Ton-Schalter ── */
+.st-snd{background:rgba(0,0,0,.25);border:0;border-radius:50%;width:34px;height:34px;font-size:16px;cursor:pointer;margin-left:auto;margin-right:6px}
+.st-snd.dim{opacity:.35}
+.vid-snd{position:absolute;right:8px;bottom:8px;z-index:2;width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.35);background:rgba(10,8,4,.55);color:#fff;font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.vid-snd.on{background:var(--gold);border-color:var(--gold)}
+/* ── Karte: Themen, Land/Stadt, eigene Route ── */
+.mp-themes .mp-kbtn{font-weight:500}
+.mp-mybtn{border-style:dashed}
+.mp-sel-cc select{min-width:190px}
+.mp-town-in{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);color:#fdf8f0;border-radius:10px;padding:8px 12px;font-family:'DM Sans',sans-serif;font-size:13px;min-width:190px;text-transform:none;letter-spacing:0}
+.mp-town-in::placeholder{color:rgba(247,236,216,.45)}
+.mp-tag.th{background:rgba(120,90,200,.13);color:#6b4fb8}
+.mp-tag.un{background:rgba(0,114,188,.12);color:#0a63a3}
+.mp-item-th{margin-top:5px;display:flex;gap:5px;flex-wrap:wrap}
+.mp-item-th .mp-tag.th{background:rgba(160,130,255,.16);color:#d6c8ff}
+.mp-item-th .mp-tag.un{background:rgba(80,170,255,.15);color:#a9d6ff}
+.mp-mk.th-story span{border-color:#7a5cd6}.mp-mk.th-adventure span{border-color:#2f9e6e}.mp-mk.th-bar span{border-color:#c2410c}.mp-mk.un span{border-color:#0a63a3}
+.mp-item-side{display:flex;flex-direction:column;flex-shrink:0;border-left:1px solid rgba(255,255,255,.12)}
+.mp-item-side .mp-item-gm{border-left:0;flex:1;min-height:40px}
+.mp-item-add{width:48px;flex:1;min-height:40px;background:none;border:0;border-bottom:1px solid rgba(255,255,255,.12);color:#fdf8f0;font-size:15px;cursor:pointer}
+.mp-item-add:hover{background:rgba(255,255,255,.09)}
+.mp-item-add.on{background:rgba(201,122,42,.25);color:var(--gold);font-weight:700}
+.mp-pop-btns .my-add.on{background:var(--gold);border-color:var(--gold);color:#16140f}
+.dt-my{cursor:pointer;font-family:inherit;margin-left:8px}
+.dt-my.on{background:var(--gold);border-color:var(--gold);color:#16140f}
+.my-rt{margin:1.5rem 0;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.13);border-radius:16px;padding:1.2rem 1.25rem;color:#fdf8f0}
+.my-empty strong{display:block;font-size:15px;margin-bottom:4px}
+.my-empty p{margin:0;font-size:13px;color:rgba(247,236,216,.7);line-height:1.5}
+.my-hd{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;margin-bottom:.8rem}
+.my-hd h3{margin:.15rem 0 0;font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:500}
+.my-hd h3 small{font-family:'DM Sans',sans-serif;font-size:13px;color:rgba(247,236,216,.6);font-weight:400}
+.my-tools{display:flex;gap:8px;flex-wrap:wrap}
+.my-list{list-style:none;margin:0 0 1rem;padding:0;display:flex;flex-direction:column;gap:6px;max-height:420px;overflow:auto}
+.my-list li{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:8px 10px}
+.my-n{flex:0 0 26px;height:26px;border-radius:50%;background:var(--gold);color:#16140f;font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:center}
+.my-x{flex:1;min-width:0;cursor:pointer}
+.my-x strong{display:block;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.my-x small{font-size:11.5px;color:rgba(247,236,216,.6)}
+.my-ctl{display:flex;gap:4px}
+.my-ctl button{width:30px;height:30px;border-radius:8px;border:1px solid rgba(255,255,255,.18);background:none;color:#fdf8f0;cursor:pointer;font-size:13px}
+.my-ctl button:disabled{opacity:.3;cursor:default}
+.my-ctl button:hover:not(:disabled){border-color:var(--gold);color:var(--gold)}
+.my-modes{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.my-btns{display:flex;gap:8px;flex-wrap:wrap}
+.my-btns .btn-g,.my-btns .btn-o{text-decoration:none;font-size:13px;padding:10px 16px}
+.my-note{font-size:11.5px;color:rgba(247,236,216,.55);margin:10px 0 0;line-height:1.5}
+.my-num{background:none;border:0}
+.my-num span{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:#16140f;color:var(--gold);border:2px solid var(--gold);font-size:11px;font-weight:700;font-family:'DM Sans',sans-serif}
+.my-pill{position:fixed;left:16px;bottom:16px;z-index:900;background:#16140f;color:#fdf8f0;border:1px solid var(--gold);border-radius:22px;padding:10px 16px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.35);display:none}
+.my-pill em{font-style:normal;background:var(--gold);color:#16140f;border-radius:10px;padding:1px 7px;margin-left:4px}
+.my-pill.show{display:block}
+@media(max-width:600px){.mp-themes{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}.mp-themes::-webkit-scrollbar{display:none}.mp-themes .mp-kbtn{flex:0 0 auto;white-space:nowrap}.mp-sel-cc select,.mp-town-in{min-width:0;width:100%}.mp-sel-cc,.mp-sel-town{flex:1 1 100%}.my-hd h3{font-size:22px}}
 /* ── Über mich v2 ── */
 .ab-l p.ab-pitch{font-family:'Cormorant Garamond',serif;font-size:clamp(21px,2.4vw,27px);line-height:1.35;color:var(--text);font-weight:400}
 .ab-l p.ab-after{font-weight:600;color:var(--terra);font-size:15px;line-height:1.6;margin-top:-.4rem}
@@ -2183,7 +2250,7 @@ body.sr-lock{overflow:hidden}
     <div class="st-media" id="st-media"></div>
     <button type="button" class="st-nav l" onclick="stPrev()" aria-label="Zurück" data-i18n-aria="st_prev"></button>
     <button type="button" class="st-nav r" onclick="stNext()" aria-label="Weiter" data-i18n-aria="st_next"></button>
-    <div class="st-top"><div class="st-bars" id="st-bars"></div><div class="st-head"><span id="st-name"></span><button type="button" class="st-x" onclick="stClose()" aria-label="Schließen" data-i18n-aria="close">✕</button></div></div>
+    <div class="st-top"><div class="st-bars" id="st-bars"></div><div class="st-head"><span id="st-name"></span><button type="button" class="st-snd" id="st-snd" onclick="stSound()" aria-label="Ton an/aus" data-i18n-aria="st_sound">🔊</button><button type="button" class="st-x" onclick="stClose()" aria-label="Schließen" data-i18n-aria="close">✕</button></div></div>
     <div class="st-cap" id="st-cap"></div>
   </div>
 </div>
@@ -2293,6 +2360,7 @@ body.sr-lock{overflow:hidden}
 
 
 <section class="hero" id="hero" data-page="home">
+  <div class="h-slides" id="h-slides" aria-hidden="true"></div><div class="h-slide-cap" id="h-slide-cap" aria-hidden="true"></div>
   <div class="hgrid"></div>
   <div class="h-sunray"></div>
   <div class="h-milky"></div>
@@ -2345,7 +2413,7 @@ body.sr-lock{overflow:hidden}
       <p data-i18n="why_p">Kein Vollzeit-Influencer im Dauerurlaub. Ich arbeite Vollzeit - genau wie du, mit festen Urlaubstagen. Deshalb ist jeder Tipp hier darauf getestet, mit Wochenenden, Brückentagen und normalem Budget zu funktionieren. Weniger Planen, mehr Erleben.</p>
     </div>
     <div class="why-grid">
-      <button type="button" class="why-c" onclick="gTo('momente')"><span class="why-ic">📍</span><strong id="why-n">3.000+</strong><h3 data-i18n="why_1t">Orte auf einer Karte</h3><p data-i18n="why_1s">Meine Hidden Gems plus die Must-Sees jeder Hauptstadt der Welt - mit Google-Maps-Link.</p><span class="why-go" data-i18n="why_go">Ansehen →</span></button>
+      <button type="button" class="why-c" onclick="gTo('momente')"><span class="why-ic">📍</span><strong id="why-n">4.400+</strong><h3 data-i18n="why_1t">Orte auf einer Karte</h3><p data-i18n="why_1s">Hidden Gems, Must-Sees jeder Hauptstadt und alle UNESCO-Welterbestätten - als eigene Route nach Google Maps exportierbar.</p><span class="why-go" data-i18n="why_go">Ansehen →</span></button>
       <button type="button" class="why-c" onclick="gTo('routes')"><span class="why-ic">🚶</span><strong id="why-r">11</strong><h3 data-i18n="why_2t">fertige Tagesrouten</h3><p data-i18n="why_2s">Mit Uhrzeiten, Laufwegen und Kalender-Download. Ankommen, loslaufen.</p><span class="why-go" data-i18n="why_go">Ansehen →</span></button>
       <button type="button" class="why-c" onclick="gTo('events')"><span class="why-ic">🧮</span><strong id="why-e">100+</strong><h3 data-i18n="why_3t">Events & Brückentage 2027</h3><p data-i18n="why_3s">Aus wenigen Urlaubstagen lange Trips machen - plus Feste mit Quelle.</p><span class="why-go" data-i18n="why_go">Ansehen →</span></button>
       <button type="button" class="why-c" onclick="gTo('kalkulator')"><span class="why-ic">🧾</span><strong>100%</strong><h3 data-i18n="why_4t">Ehrliche Kosten</h3><p data-i18n="why_4s">Was eine Reise wirklich kostet - von jemandem, der beruflich mit Zahlen arbeitet.</p><span class="why-go" data-i18n="why_go">Ansehen →</span></button>
@@ -2479,7 +2547,7 @@ body.sr-lock{overflow:hidden}
       <div class="sec-lbl" data-i18n="nx_lbl">Was als Nächstes kommt</div>
       <div class="nx-list">
         <div class="nx-item"><div class="nx-n">1</div><div class="nx-c"><div class="nx-when" data-i18n="nx1_w">Nov - Dez 2026</div><h4 data-i18n="nx1_t">Foto-Kalender 2027 &amp; Shop-Start</h4><p data-i18n="nx1_s">Meine besten Bilder - Nikon D90, ungefiltert - als Wandkalender. Oktober: Bildauswahl &amp; Layout · November: Vorverkauf · Dezember: Versand vor Weihnachten. 50 % des Erlöses gehen an lokale Projekte.</p></div></div>
-        <div class="nx-item"><div class="nx-n">2</div><div class="nx-c"><div class="nx-when" data-i18n="nx2_w">Jan - März 2027</div><h4 data-i18n="nx2_t">1.500 Orte &amp; mein erster Reiseguide</h4><p data-i18n="nx2_s">Die Hidden-Gems-Karte wächst auf 1.500 Orte, dazu kommt mein erster digitaler Guide „12 Wochenendtrips ab NRW". Januar: neue Orte-Pakete (Ruhrgebiet, Benelux, DACH) · Februar: Guide schreiben · März: Launch.</p></div></div>
+        <div class="nx-item"><div class="nx-n">2</div><div class="nx-c"><div class="nx-when" data-i18n="nx2_w">Jan - März 2027</div><h4 data-i18n="nx2_t">✅ Kartenziel übertroffen &amp; mein erster Reiseguide</h4><p data-i18n="nx2_s">Die Hidden-Gems-Karte wächst auf 1.500 Orte, dazu kommt mein erster digitaler Guide „12 Wochenendtrips ab NRW". Januar: neue Orte-Pakete (Ruhrgebiet, Benelux, DACH) · Februar: Guide schreiben · März: Launch.</p></div></div>
         <div class="nx-item"><div class="nx-n">3</div><div class="nx-c"><div class="nx-when" data-i18n="nx3_w">Apr - Sep 2027</div><h4 data-i18n="nx3_t">10.000 Follower &amp; erste Marken-Kooperationen</h4><p data-i18n="nx3_s">Drei Reels pro Woche, Collabs mit lokalen Accounts und ein Media-Kit für Marken. April: Media-Kit · Mai bis Juli: Collab-Serie · August/September: erste bezahlte Kooperation.</p></div></div>
       </div>
     </div>
@@ -2735,7 +2803,7 @@ body.sr-lock{overflow:hidden}
     <div class="mp-hdr">
       <div class="sec-lbl" data-i18n="mp_lbl">📍 Interaktive Karte</div>
       <h2 data-i18n="mp2_h2">Hidden Gems &amp; Must-Sees - <em>von der Zeche bis nach Hanoi.</em></h2>
-      <p data-i18n="mp2_intro">Über 1.500 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt der Welt und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Kontinent, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.</p>
+      <p data-i18n="mp2_intro">Über 4.400 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt der Welt und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Kontinent, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.</p>
     </div>
     <div class="mp-stats" id="mp-stats"></div>
     <div class="mp-search"><input type="search" id="mp-q" class="mp-q" data-i18n-ph="mp_search_ph" placeholder="Ort, Stadt oder Land suchen ..." oninput="mpSearch(this.value)" autocomplete="off"></div>
@@ -2748,6 +2816,7 @@ body.sr-lock{overflow:hidden}
       <button class="mp-btn owner-only hg-ui" onclick="mpAddMoment()">+ Ort hinzufügen</button>
       <span class="mp-tip owner-only hg-ui">Im Bearbeitungsmodus: direkt auf die Karte klicken, um einen Pin zu setzen</span>
     </div>
+    <div class="my-rt" id="my-rt"></div>
     <div class="rt-sec" id="routes">
       <div class="rt-hd">
         <div class="sec-lbl" data-i18n="rt_lbl">🚶 Tagesrouten</div>
@@ -3246,7 +3315,7 @@ body.sr-lock{overflow:hidden}
       <h3 data-i18n="ds_hosting-github-pages">Hosting (GitHub Pages)</h3>
       <p data-i18n="ds_diese-website-wird-uber">Diese Website wird über GitHub Pages bereitgestellt (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA). Beim Aufruf verarbeitet GitHub technisch notwendige Daten wie deine IP-Adresse sowie Datum und Uhrzeit, um die Seite auszuliefern und die Sicherheit zu gewährleisten. Rechtsgrundlage ist mein berechtigtes Interesse an einer sicheren und zuverlässigen Bereitstellung (Art. 6 Abs. 1 lit. f DSGVO). Die Übermittlung in die USA erfolgt auf Grundlage des EU-US Data Privacy Framework bzw. von EU-Standardvertragsklauseln. Mehr dazu: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">Datenschutzerklärung von GitHub</a>.</p>
       <h3 data-i18n="ds_speicher-in-deinem-browser">Speicher in deinem Browser</h3>
-      <p data-i18n="ds_diese-website-setzt-keine">Diese Website setzt keine Cookies. Im lokalen Speicher deines Browsers (localStorage) wird nur abgelegt, was für Funktionen nötig ist, die du selbst nutzt - z.B. deine gewählte Sprache oder dass du den Newsletter-Hinweis schon gesehen hast. Diese Daten verlassen dein Gerät nicht, und du kannst sie jederzeit in deinen Browser-Einstellungen löschen (§ 25 Abs. 2 Nr. 2 TDDDG).</p>
+      <p data-i18n="ds_diese-website-setzt-keine">Diese Website setzt keine Cookies. Im lokalen Speicher deines Browsers (localStorage) wird nur abgelegt, was für Funktionen nötig ist, die du selbst nutzt - z.B. deine gewählte Sprache, deine gespeicherte Reiseroute oder dass du den Newsletter-Hinweis schon gesehen hast. Diese Daten verlassen dein Gerät nicht, und du kannst sie jederzeit in deinen Browser-Einstellungen löschen (§ 25 Abs. 2 Nr. 2 TDDDG).</p>
       <h3 data-i18n="ds_schriftarten">Schriftarten</h3>
       <p data-i18n="ds_alle-schriftarten-sind-lokal">Alle Schriftarten sind lokal auf diesem Server eingebunden. Es wird keine Verbindung zu Google Fonts oder anderen Schriftanbietern aufgebaut.</p>
       <h3 data-i18n="ds_bewerbung-zur-hidden-gem">Bewerbung zur Hidden Gem Society</h3>
@@ -3454,7 +3523,7 @@ const I18N = {
 "ds_das-wichtigste-in-kurze":["Das Wichtigste in Kürze","In short"],
 "ds_deine-rechte":["Deine Rechte","Your rights"],
 "ds_der-newsletter-ist-derzeit":["Der Newsletter ist derzeit noch nicht aktiv. Sobald er startet, erfolgt die Anmeldung im bestätigten Verfahren (Double-Opt-In): Du erhältst zunächst eine E-Mail mit einem Bestätigungslink, und erst danach den Newsletter. Eine Abmeldung ist jederzeit über den Abmeldelink in jeder E-Mail oder formlos an mail.myinfo@web.de möglich (Art. 6 Abs. 1 lit. a DSGVO). Diese Erklärung wird zum Start entsprechend ergänzt.","The newsletter is not yet active. Once it launches, sign-up will use the confirmed double opt-in procedure: you first receive an email with a confirmation link, and only then the newsletter. You can unsubscribe at any time via the unsubscribe link in every email or informally at mail.myinfo@web.de (Art. 6 (1) (a) GDPR). This policy will be updated accordingly at launch."],
-"ds_diese-website-setzt-keine":["Diese Website setzt keine Cookies. Im lokalen Speicher deines Browsers (localStorage) wird nur abgelegt, was für Funktionen nötig ist, die du selbst nutzt - z.B. deine gewählte Sprache oder dass du den Newsletter-Hinweis schon gesehen hast. Diese Daten verlassen dein Gerät nicht, und du kannst sie jederzeit in deinen Browser-Einstellungen löschen (§ 25 Abs. 2 Nr. 2 TDDDG).","This website does not set cookies. Your browser's local storage (localStorage) only holds what is needed for features you use yourself - e.g. your chosen language or that you have already seen the newsletter notice. This data never leaves your device, and you can delete it at any time in your browser settings (§ 25 (2) no. 2 TDDDG)."],
+"ds_diese-website-setzt-keine":["Diese Website setzt keine Cookies. Im lokalen Speicher deines Browsers (localStorage) wird nur abgelegt, was für Funktionen nötig ist, die du selbst nutzt - z.B. deine gewählte Sprache, deine gespeicherte Reiseroute oder dass du den Newsletter-Hinweis schon gesehen hast. Diese Daten verlassen dein Gerät nicht, und du kannst sie jederzeit in deinen Browser-Einstellungen löschen (§ 25 Abs. 2 Nr. 2 TDDDG).","This website does not set cookies. Your browser's local storage (localStorage) only holds what is needed for features you use yourself - e.g. your chosen language, your saved travel route or that you have already seen the newsletter notice. This data never leaves your device, and you can delete it at any time in your browser settings (§ 25 (2) no. 2 TDDDG)."],
 "ds_diese-website-wird-uber":["Diese Website wird über GitHub Pages bereitgestellt (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA). Beim Aufruf verarbeitet GitHub technisch notwendige Daten wie deine IP-Adresse sowie Datum und Uhrzeit, um die Seite auszuliefern und die Sicherheit zu gewährleisten. Rechtsgrundlage ist mein berechtigtes Interesse an einer sicheren und zuverlässigen Bereitstellung (Art. 6 Abs. 1 lit. f DSGVO). Die Übermittlung in die USA erfolgt auf Grundlage des EU-US Data Privacy Framework bzw. von EU-Standardvertragsklauseln. Mehr dazu: <a href=\"https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement\" target=\"_blank\" rel=\"noopener\">Datenschutzerklärung von GitHub</a>.","This website is provided via GitHub Pages (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA). When you visit it, GitHub processes technically necessary data such as your IP address and the date and time in order to deliver the site and ensure security. The legal basis is my legitimate interest in secure and reliable provision (Art. 6 (1) (f) GDPR). Data is transferred to the USA on the basis of the EU-US Data Privacy Framework or EU standard contractual clauses. More: <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" target=\"_blank\" rel=\"noopener\">GitHub privacy statement</a>."],
 "ds_du-hast-das-recht":["Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie auf Widerspruch und Widerruf erteilter Einwilligungen. Schreib mir dazu einfach an mail.myinfo@web.de. Außerdem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren, z.B. bei der Landesbeauftragten für Datenschutz und Informationsfreiheit Nordrhein-Westfalen.","You have the right to access, rectification, erasure, restriction of processing, data portability, and to object and withdraw any consent given. Just write to me at mail.myinfo@web.de. You can also lodge a complaint with a data protection supervisory authority, e.g. the State Commissioner for Data Protection and Freedom of Information of North Rhine-Westphalia."],
 "ds_externe-links-affiliate-link":["Externe Links &amp; Affiliate-Links","External links &amp; affiliate links"],
@@ -3665,7 +3734,7 @@ const I18N = {
 "mp_open_gmaps":["In Google Maps öffnen","Open in Google Maps"],
 "mp_pinned":["Orte auf der Karte","places on the map"],
 "mp2_h2":["Hidden Gems &amp; Must-Sees - <em>von der Zeche bis nach Hanoi.</em>", "Hidden gems &amp; must-sees - <em>from coal mine to Hanoi.</em>"],
-"mp2_intro":["Über 3.000 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt der Welt und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Kontinent, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.", "More than 3,000 places worldwide: ⭐ must-sees in every capital in the world and 💎 hidden gems you have to go looking for. Sorted by continent, country and city, with a direct Google Maps link. Anything marked 🧭 is still on my list - the rest I have walked myself."],
+"mp2_intro":["Über 4.400 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt, alle 🌐 UNESCO-Welterbestätten, 📜 verrückte Geschichten, 🧗 Abenteuer, 🍸 legendäre Bars und 💎 Hidden Gems, nach denen du suchen musst. Filter nach Land und Stadt, sammle Orte mit ➕ und exportiere deine eigene Route nach Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen.", "More than 4,400 places worldwide: ⭐ must-sees in every capital, every 🌐 UNESCO World Heritage site, 📜 crazy stories, 🧗 adventures, 🍸 legendary bars and 💎 hidden gems you have to go looking for. Filter by country and city, collect places with ➕ and export your own route to Google Maps. Anything marked 🧭 is still on my list - the rest I have walked myself."],
 "mp_search_ph":["Ort, Stadt oder Land suchen ...", "Search a place, city or country ..."],
 "mp_regions":["Region", "Region"],
 "mp_visit":["Status", "Status"],
@@ -3681,6 +3750,41 @@ const I18N = {
 "mp_st_cities":["Städte", "Cities"],
 "mp_st_grow":["Und es werden mehr.", "And it keeps growing."],
 "mp_rest":["übrige Orte", "other places"],
+"mp_themes":["Themen", "Themes"],
+"mp_th_unesco":["UNESCO-Welterbe", "UNESCO World Heritage"],
+"mp_th_unesco1":["UNESCO", "UNESCO"],
+"mp_th_story":["Verrückte Geschichten", "Crazy stories"],
+"mp_th_story1":["Geschichte", "Story"],
+"mp_th_adv":["Abenteuer", "Adventures"],
+"mp_th_adv1":["Abenteuer", "Adventure"],
+"mp_th_bar":["Legendäre Bars", "Legendary bars"],
+"mp_th_bar1":["Legendäre Bar", "Legendary bar"],
+"mp_city_ph":["Stadt eingeben ...", "Type a city ..."],
+"mp_unesco_entry":["UNESCO-Eintrag", "UNESCO listing"],
+"my_add":["Zur Route", "Add to route"],
+"my_in":["In der Route", "In route"],
+"my_only":["Nur meine Route", "Only my route"],
+"my_added":["Zur Route hinzugefügt ({n} insgesamt)", "Added to your route ({n} in total)"],
+"my_removed":["Aus der Route entfernt", "Removed from your route"],
+"my_clear_q":["Alle Stopps aus deiner Route löschen?", "Remove all stops from your route?"],
+"my_optimized":["Reihenfolge optimiert (kürzeste Wege)", "Order optimised (shortest hops)"],
+"my_title":["Meine Reiseroute", "My travel route"],
+"my_empty":["Tippe bei Orten auf ➕, um sie zu sammeln. Danach ordnest du die Stopps und exportierst alles mit einem Klick nach Google Maps - als Route oder als eigene Karte (Google My Maps).", "Tap ➕ on any place to collect it. Then put your stops in order and export everything to Google Maps in one click - as a route or as your own map (Google My Maps)."],
+"my_stops":["{n} Stopps", "{n} stops"],
+"my_crow":["Luftlinie", "as the crow flies"],
+"my_on_map":["Auf der Karte zeigen", "Show on map"],
+"my_opt":["Reihenfolge optimieren", "Optimise order"],
+"my_clear":["Leeren", "Clear"],
+"my_m_drive":["Auto", "Car"],
+"my_m_walk":["Zu Fuß", "Walking"],
+"my_m_transit":["ÖPNV", "Transit"],
+"my_m_bike":["Fahrrad", "Bike"],
+"my_gpart":["Google Maps: Stopps {a}-{b}", "Google Maps: stops {a}-{b}"],
+"my_gopen":["In Google Maps öffnen", "Open in Google Maps"],
+"my_kml":["Für Google My Maps (KML)", "For Google My Maps (KML)"],
+"my_note":["Google My Maps: Neue Karte → Importieren → KML-Datei wählen - so hast du alle Stopps als eigene Karte auf dem Handy. Deine Auswahl bleibt auf diesem Gerät gespeichert.", "Google My Maps: New map → Import → choose the KML file - and all stops are on your phone as your own map. Your selection stays saved on this device."],
+"my_note_parts":["Google Maps erlaubt nur wenige Zwischenstopps pro Link, deshalb ist die Route in Teile aufgeteilt.", "Google Maps only allows a few stops per link, so the route is split into parts."],
+"st_sound":["Ton an/aus", "Sound on/off"],
 "st_lbl":["Stories · ungefiltert", "Stories · unfiltered"],
 "st_prev":["Zurück", "Back"],
 "st_next":["Weiter", "Next"],
@@ -3695,7 +3799,7 @@ const I18N = {
 "sr_g_town":["Städte & Länder", "Cities & countries"],
 "sr_g_page":["Seiten", "Pages"],
 "sr_none":["Nichts gefunden - versuch es mit einem Stadt- oder Ländernamen.", "Nothing found - try a city or country name."],
-"sr_tip":["Durchsuche alles auf HiddenGem.Atlas - über 3.000 Orte, Tagesrouten, Events, Trends und Artikel.", "Search everything on HiddenGem.Atlas - over 3,000 places, day routes, events, trends and articles."],
+"sr_tip":["Durchsuche alles auf HiddenGem.Atlas - über 4.400 Orte, Tagesrouten, Events, Trends und Artikel.", "Search everything on HiddenGem.Atlas - over 4,400 places, day routes, events, trends and articles."],
 "sr_ph":["Ort, Stadt, Land, Event, Route ... suchen", "Search places, cities, countries, events, routes ..."],
 "sr_btn":["Suchen", "Search"],
 "sr_open":["Suche öffnen", "Open search"],
@@ -3752,7 +3856,7 @@ const I18N = {
 "why_3t":["Events & Brückentage 2027", "events & bridge days 2027"],
 "why_2s":["Mit Uhrzeiten, Laufwegen und Kalender-Download. Ankommen, loslaufen.", "With times, walking legs and a calendar download. Arrive and go."],
 "why_2t":["fertige Tagesrouten", "ready-made day routes"],
-"why_1s":["Meine Hidden Gems plus die Must-Sees jeder Hauptstadt der Welt - mit Google-Maps-Link.", "My hidden gems plus the must-sees of every capital in the world - with a Google Maps link."],
+"why_1s":["Hidden Gems, Must-Sees jeder Hauptstadt und alle UNESCO-Welterbestätten - als eigene Route nach Google Maps exportierbar.", "Hidden gems, must-sees in every capital and every UNESCO World Heritage site - export your own route to Google Maps."],
 "why_1t":["Orte auf einer Karte", "places on one map"],
 "why_p":["Kein Vollzeit-Influencer im Dauerurlaub. Ich arbeite Vollzeit - genau wie du, mit festen Urlaubstagen. Deshalb ist jeder Tipp hier darauf getestet, mit Wochenenden, Brückentagen und normalem Budget zu funktionieren. Weniger Planen, mehr Erleben.", "Not a full-time influencer on endless holiday. I work full-time - just like you, with a fixed holiday allowance. That's why every tip here is built to work with weekends, bridge days and a normal budget. Less planning, more living."],
 "why_h2":["Der <em>9-to-5 Traveller.</em>", "The <em>9-to-5 Traveller.</em>"],
@@ -3815,8 +3919,8 @@ const I18N = {
 "nx1_t":["Foto-Kalender 2027 &amp; Shop-Start", "2027 photo calendar &amp; shop launch"],
 "nx1_s":["Meine besten Bilder - Nikon D90, ungefiltert - als Wandkalender. Oktober: Bildauswahl &amp; Layout · November: Vorverkauf · Dezember: Versand vor Weihnachten. 50 % des Erlöses gehen an lokale Projekte.", "My best shots - Nikon D90, unfiltered - as a wall calendar. October: picking photos &amp; layout · November: pre-sale · December: shipping before Christmas. 50% of the proceeds go to local projects."],
 "nx2_w":["Jan - März 2027", "Jan - Mar 2027"],
-"nx2_t":["1.500 Orte &amp; mein erster Reiseguide", "1,500 places &amp; my first travel guide"],
-"nx2_s":["Die Hidden-Gems-Karte wächst auf 1.500 Orte, dazu kommt mein erster digitaler Guide „12 Wochenendtrips ab NRW\". Januar: neue Orte-Pakete (Ruhrgebiet, Benelux, DACH) · Februar: Guide schreiben · März: Launch.", "The hidden gems map grows to 1,500 places, plus my first digital guide \"12 weekend trips from NRW\". January: new place packs (Ruhr, Benelux, DACH) · February: writing the guide · March: launch."],
+"nx2_t":["✅ Kartenziel übertroffen &amp; mein erster Reiseguide", "✅ Map goal smashed &amp; my first travel guide"],
+"nx2_s":["Geplant waren 1.500 Orte bis März 2027 - schon im Oktober 2026 sind es über 4.400, inklusive aller UNESCO-Welterbestätten, verrückter Geschichten, Abenteuer und legendärer Bars. Jetzt folgt mein erster digitaler Guide „12 Wochenendtrips ab NRW\". Januar: Routen testen · Februar: Guide schreiben · März: Launch.", "The plan was 1,500 places by March 2027 - by October 2026 there are already more than 4,400, including every UNESCO World Heritage site, crazy stories, adventures and legendary bars. Next up is my first digital guide \"12 weekend trips from NRW\". January: testing routes · February: writing the guide · March: launch."],
 "nx3_w":["Apr - Sep 2027", "Apr - Sep 2027"],
 "nx3_t":["10.000 Follower &amp; erste Marken-Kooperationen", "10,000 followers &amp; first brand partnerships"],
 "nx3_s":["Drei Reels pro Woche, Collabs mit lokalen Accounts und ein Media-Kit für Marken. April: Media-Kit · Mai bis Juli: Collab-Serie · August/September: erste bezahlte Kooperation.", "Three Reels a week, collabs with local accounts and a media kit for brands. April: media kit · May to July: collab series · August/September: first paid partnership."],
@@ -4099,7 +4203,8 @@ const I18N = {
 "tt_d":["Gleiche Hidden Gems, neue Audience. Kurze Travel-Videos für Entdecker.","Same hidden gems, new audience. Short, direct travel videos."],
 "why_gy":["Warum GetYourGuide?","Why GetYourGuide?"]
 };
-const T = {de: {}, en: {}};
+const T = {de: {}, en: {}, es: {}};
+async function hgLoadEs(){ if (T.es._ok) return; const d = await hgLoadJSON('data/i18n-es.json'); if (d) Object.assign(T.es, d.t || {}); T.es._ok = 1; }
 for (const k in I18N){ T.de[k] = I18N[k][0]; T.en[k] = I18N[k][1]; }
 // Alte Editor-Namen → Schlüssel (nur für die einmalige Übernahme)
 const EDIT_MAP = {"hero-eyebrow":"h_eye","hero-h1":"h_h1","hero-sub":"h_sub","about-h2":"ab_h2","about-quote":"ab_q","about-p1":"ab_p1","about-p2":"ab_p2","about-p3":"ab_p3","pil-1t":"ab_hidden-gems","pil-1s":"ab_orte-die-kein-algorithmus","pil-2t":"ab_fotografie","pil-2s":"ab_echte-momente-kein-stock","pil-3t":"ab_travel-mindset","pil-3s":"ab_reisen-als-lebensschule","pil-4t":"grp_community","pil-4s":"ab_gemeinsam-entdecken","soc-h2":"sc_h2","dest-h2":"d_h2","gyg-h2":"gy_h2","gyg-p":"gy_p","blog-h2":"bl_h2","shop-h2":"sh_h2","shop-cal":"cal_d","shop-fk":"fk_d","shop-pre":"pre_d","shop-stk":"stk_d","cause-h2":"ca_h2","cause-p1":"ca_p1","cause-p2":"ca_p2","collab-h2":"co_h2","collab-sub":"co_sub","mem-h2":"mb_reisen-ist-keine-freizeitbes","mem-p1":"mb_die-hidden-gem-society","mem-p2":"mb_hier-treffen-sich-reisende","mem-form-title":"mb_deine-bewerbung","mem-form-sub":"mb_wir-nehmen-nicht-jeden","nl-h2":"nl_h2","nl-sub":"nl_sub"};
@@ -4151,6 +4256,8 @@ let lang = 'de';
 // Übersetzung: Schlüssel → Text in aktueller Sprache (inkl. veröffentlichter/entworfener Änderungen)
 function txt(k, lg){
   lg = lg || lang;
+  // Spanisch: eigene Übersetzung (data/i18n-es.json), sonst Englisch
+  if (lg === 'es'){ if (typeof T !== 'undefined' && T.es && T.es[k] != null) return T.es[k]; lg = 'en'; }
   const eff = HG.eff();
   const ov = eff.text && eff.text[lg] && eff.text[lg][k];
   if (ov != null && ov !== '') return ov;
@@ -4171,10 +4278,12 @@ function t(k, vars){
 // Zweisprachiges Feld aus Datensätzen: item.title / item.title_en
 function Lz(item, f){
   if (!item) return '';
-  if (lang === 'en') { const e = item[f+'_en']; if (e != null && String(e).trim() !== '') return e; }
+  if (lang === 'es') { const x = item[f+'_es']; if (x != null && String(x).trim() !== '') return x; }
+  if (lang !== 'de') { const e = item[f+'_en']; if (e != null && String(e).trim() !== '') return e; }
   const d = item[f]; return d == null ? '' : d;
 }
-function nf(n){ return Number(n).toLocaleString(lang==='en'?'en-GB':'de-DE'); }
+const LOC = {de: 'de-DE', en: 'en-GB', es: 'es-ES'};
+function nf(n){ return Number(n).toLocaleString(LOC[lang] || 'de-DE'); }
 
 // ── INHALTE ─────────────────────────────────────────
 HG.eff = function(){ return (HG.owner && HG.draft) ? HG.draft : (HG.pub || {}); };
@@ -4209,12 +4318,14 @@ async function hgLoadContent(){
 
 // Zusätzliche Orte (Bulk-Datei, z.B. Ruhrgebiet) - klein halten, damit index.html nicht wächst
 async function hgLoadMomentsExtra(){
-  const files = ['data/moments-extra.json', 'data/moments-world.json'];
+  const files = ['data/moments-extra.json', 'data/moments-world.json', 'data/moments-unesco.json', 'data/moments-curated.json'];
+  HG.unescoTag = HG.unescoTag || {};
   const res = await Promise.all(files.map(async f => {
     try{
       const r = await fetch(f + '?t=' + Math.floor(Date.now()/600000), {cache:'no-store'});
       if (!r.ok) throw new Error('HTTP '+r.status);
-      const d = await r.json(); return Array.isArray(d) ? d : (d && d.items) || [];
+      const d = await r.json(); if (d && d.tag) Object.assign(HG.unescoTag, d.tag);
+      return Array.isArray(d) ? d : (d && d.items) || [];
     }catch(e){ console.info(f + ' nicht geladen', e && e.message); return []; }
   }));
   // Kompakte Datensätze ergänzen (Flagge aus Ländercode, englische Namen = deutsche, wenn gleich)
@@ -4287,7 +4398,7 @@ function applySettings(){
 }
 
 // ── SPRACHE ─────────────────────────────────────────
-const LANGS=[{c:'de',f:'🇩🇪',l:'DE'},{c:'en',f:'🇬🇧',l:'EN'}];
+const LANGS=[{c:'de',f:'🇩🇪',l:'DE',n:'Deutsch'},{c:'en',f:'🇬🇧',l:'EN',n:'English'},{c:'es',f:'🇪🇸',l:'ES',n:'Español'}];
 function buildLBar(){
   $$('.lang-bar').forEach(b => {
     b.innerHTML = '';
@@ -4295,7 +4406,7 @@ function buildLBar(){
       const btn = document.createElement('button');
       btn.className = 'lb' + (l.c === lang ? ' active' : '');
       btn.innerHTML = l.f + ' ' + l.l; btn.type = 'button';
-      btn.setAttribute('aria-label', l.c === 'de' ? 'Deutsch' : 'English');
+      btn.setAttribute('aria-label', l.n);
       btn.onclick = () => setL(l.c);
       b.appendChild(btn);
     });
@@ -4303,6 +4414,7 @@ function buildLBar(){
 }
 function setL(c, instant){
   if (!T[c]) return;
+  if (c === 'es' && !T.es._ok){ hgLoadEs().then(() => setL(c, instant)); return; }
   const run = () => {
     lang = c; document.documentElement.lang = c; safeLS.setItem('tll-lang', c);
     applyTexts(); buildLBar(); HG.rerender(); hgRouteMeta();
@@ -4415,7 +4527,7 @@ function hgRender(){
 function hgRouteMeta(){
   const r = HG.route; const p = hgPage(r), g = hgGroup(r);
   const name = p ? stripTags(t(p.k + '_t')) : g ? stripTags(t(g.k)) : '';
-  document.title = (name ? name + ' · ' : '') + 'HiddenGem.Atlas' + (name ? '' : (lang === 'en' ? ' - Hidden Gems Europe & Asia' : ' - Hidden Gems in Europa & Asien'));
+  document.title = (name ? name + ' · ' : '') + 'HiddenGem.Atlas' + (name ? '' : (lang === 'en' ? ' - Hidden Gems Europe & Asia' : lang === 'es' ? ' - Joyas ocultas en Europa y Asia' : ' - Hidden Gems in Europa & Asien'));
 }
 function hgNavActive(){
   const r = HG.route; const p = hgPage(r);
@@ -4491,12 +4603,12 @@ function trackSection(){ /* frühere lokale Statistik entfernt - Besucherzahlen 
 async function hgBoot(){
   const saved = safeLS.getItem('tll-lang');
   const nav = (navigator.language || 'de').slice(0, 2).toLowerCase();
-  lang = saved === 'en' || saved === 'de' ? saved : (nav === 'de' ? 'de' : 'en');
+  lang = saved === 'en' || saved === 'de' || saved === 'es' ? saved : (nav === 'de' ? 'de' : nav === 'es' ? 'es' : 'en');
   document.documentElement.lang = lang;
   safeRun(hgOwnerInit, 'owner');
   // Seite sofort nutzbar machen, Inhalte kommen dazu
   const fallback = setTimeout(() => document.body.classList.remove('hg-loading'), 1400);
-  await Promise.all([hgLoadContent(), hgLoadMomentsExtra(), hgLoadFeatures()]);
+  await Promise.all([hgLoadContent(), hgLoadMomentsExtra(), hgLoadFeatures(), lang === 'es' ? hgLoadEs() : null]);
   if (typeof hgDraftLoad === 'function') safeRun(hgDraftLoad, 'draft');
   safeRun(applySettings, 'settings');
   safeRun(applyTexts, 'texts');
@@ -5595,7 +5707,7 @@ const BLOG_DATA = [
   {id:"bc-9", image:'images/photos/krabi-dschungelweg.webp', label:"🇹🇭", grad:"sunset", tag:"Thailand", tag_en:"Thailand", title:"Thailand: Inseln, Kajak und Kalkfelsen", title_en:"Thailand: islands, kayaks and limestone cliffs", meta:"Reise-Story · Südostasien", meta_en:"Trip story · Southeast Asia"},
   {id:"bc-10", label:"🇰🇷", grad:"jp", tag:"Südkorea", tag_en:"South Korea", title:"Seoul: 4 Tage in der schnellsten Stadt Asiens", title_en:"Seoul: 4 days in Asia's fastest city", meta:"Reise-Story · Asien", meta_en:"Trip story · Asia"},
   {id:"bc-11", label:"🇪🇸", grad:"sunset", tag:"Spanien", tag_en:"Spain", title:"Barcelona: der Morgen, der alles veränderte", title_en:"Barcelona: the morning that changed everything", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-12", image:'images/video/p/cala-marmols.webp', label:"🇪🇸", grad:"sand", tag:"Mallorca", tag_en:"Mallorca", title:"Mallorca abseits der Partymeile", title_en:"Mallorca beyond the party strip", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
+  {id:"bc-12", image:'images/photos/mallorca-bucht.webp', label:"🇪🇸", grad:"sand", tag:"Mallorca", tag_en:"Mallorca", title:"Mallorca abseits der Partymeile", title_en:"Mallorca beyond the party strip", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-13", label:"🇪🇸", grad:"sand", tag:"Gran Canaria", tag_en:"Gran Canaria", title:"Gran Canaria: Dünen, Berge, ewiger Frühling", title_en:"Gran Canaria: dunes, mountains, eternal spring", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-14", label:"🇦🇱", grad:"al", tag:"Albanien", tag_en:"Albania", title:"Albanien: Europas letztes Geheimnis", title_en:"Albania: Europe's last secret", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-15", label:"🇸🇮", grad:"sl", tag:"Slowenien", tag_en:"Slovenia", title:"Slowenien: 5 Tage im grünsten Land Europas", title_en:"Slovenia: 5 days in Europe's greenest country", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
@@ -5606,11 +5718,11 @@ const BLOG_DATA = [
   {id:"bc-20", label:"🇭🇷", grad:"jp", tag:"Kroatien", tag_en:"Croatia", title:"Pula: römisches Erbe an der Adria", title_en:"Pula: Roman heritage on the Adriatic", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-21", label:"🇩🇰", grad:"jp", tag:"Dänemark", tag_en:"Denmark", title:"Kopenhagen: Hygge, Design und Fahrrad", title_en:"Copenhagen: hygge, design and bikes", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-22", label:"🇱🇺", grad:"dd", tag:"Luxemburg", tag_en:"Luxembourg", title:"Luxemburg: Festung über der Schlucht", title_en:"Luxembourg: a fortress above the gorge", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-23", label:"🇧🇪", grad:"cz", tag:"Belgien", tag_en:"Belgium", title:"Belgien: Antwerpen & Brügge an einem Wochenende", title_en:"Belgium: Antwerp & Bruges in one weekend", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
+  {id:"bc-23", image:'images/photos/antwerpen-grote-markt.webp', label:"🇧🇪", grad:"cz", tag:"Belgien", tag_en:"Belgium", title:"Belgien: Antwerpen & Brügge an einem Wochenende", title_en:"Belgium: Antwerp & Bruges in one weekend", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-24", label:"🇳🇱", grad:"sunset", tag:"Niederlande", tag_en:"Netherlands", title:"Niederlande: mehr als nur Amsterdam", title_en:"The Netherlands: more than just Amsterdam", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-25", label:"🇺🇸", grad:"jp", tag:"USA", tag_en:"USA", title:"New York: die Stadt, die man einmal gesehen haben muss", title_en:"New York: the city you have to see once", meta:"Reise-Story · Weltweit", meta_en:"Trip story · Worldwide"},
   {id:"bc-26", label:"🇹🇳", grad:"sand", tag:"Tunesien", tag_en:"Tunisia", title:"Tunesien: Medina, Meer und Sahara-Vorgeschmack", title_en:"Tunisia: medina, sea and a taste of the Sahara", meta:"Reise-Story · Afrika", meta_en:"Trip story · Africa"},
-  {id:"bc-27", image:'images/photos/marrakesch-terrasse.webp', label:"🇲🇦", grad:"sunset", tag:"Marokko", tag_en:"Morocco", title:"Marrakesch: Souks, Farben, Sinnesüberladung", title_en:"Marrakech: souks, colours, sensory overload", meta:"Reise-Story · Afrika", meta_en:"Trip story · Africa"},
+  {id:"bc-27", image:'images/photos/marrakesch-riad-pool.webp', label:"🇲🇦", grad:"sunset", tag:"Marokko", tag_en:"Morocco", title:"Marrakesch: Souks, Farben, Sinnesüberladung", title_en:"Marrakech: souks, colours, sensory overload", meta:"Reise-Story · Afrika", meta_en:"Trip story · Africa"},
   {id:"bc-28", label:"🇩🇪", grad:"jp", tag:"Norddeutschland", tag_en:"Northern Germany", title:"Norddeutschland: Hansestädte und Ostsee", title_en:"Northern Germany: Hanseatic cities and the Baltic", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"},
   {id:"bc-29", label:"🇩🇪", grad:"dd", tag:"Berlin", tag_en:"Berlin", title:"Berlin: Geschichte an jeder Ecke", title_en:"Berlin: history on every corner", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"},
   {id:"bc-30", label:"🇩🇪", grad:"dd", tag:"Süddeutschland & Elsass", tag_en:"Southern Germany & Alsace", title:"Vom Schwarzwald bis zur Zugspitze", title_en:"From the Black Forest to the Zugspitze", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"},
@@ -5884,7 +5996,7 @@ function setPack(mode, btn){
 }
 function renderPack(){
   const grid = document.getElementById('pack-grid'); if (!grid) return;
-  const li = lang === 'en' ? 1 : 0;
+  const li = lang !== 'de' ? 1 : 0;
   const cats = packMode === 'all' ? PACKS.all : PACKS.all.concat(PACKS[packMode] || []);
   grid.innerHTML = '';
   cats.forEach((cat, ci) => {
@@ -6118,7 +6230,7 @@ function initPool(){
   currentPool = shuffle(QUIZ.map((_, i) => i)).slice(0, 10).map(i => ({i, order: shuffle(QUIZ[i].de.opts.map((_, j) => j))}));
 }
 function qData(p){
-  const it = QUIZ[p.i], d = it.de, e = lang === 'en' ? it.en : it.de;
+  const it = QUIZ[p.i], d = it.de, e = lang !== 'de' ? it.en : it.de;
   return {
     q: e.q, fact: e.fact,
     a: p.order.indexOf(d.a),
@@ -6209,9 +6321,9 @@ window.addEventListener('hg:route', () => setTimeout(initReveal, 30));
 
 // ── MEDIA KIT (Download für Marken) ──────────────────
 function downloadMediaKit(){
-  const s = HG.set(); const en = lang === 'en';
+  const s = HG.set(); const en = lang !== 'de';
   const partners = HG.col('partners').map(p => '- ' + p.name + ' (' + stripTags(t(PT_TYPES[p.type] || 'pt_other')) + (Lz(p, 'since') ? ', ' + stripTags(Lz(p, 'since')) : '') + (p.status === 'past' ? (en ? ', completed' : ', abgeschlossen') : '') + ')').join('\n');
-  const date = new Date().toLocaleDateString(en ? 'en-GB' : 'de-DE');
+  const date = new Date().toLocaleDateString(LOC[lang] || 'de-DE');
   const mk = en ? `MEDIA KIT - HiddenGem.Atlas
 =================================
 As of: ${date}
@@ -6990,12 +7102,23 @@ function mpDir(m){ const q = (m.q || '').trim(); return q ? 'https://www.google.
 
 let mpMap = null, mpLayer = null;
 // Regionen: Orte mit "area" werden als eigene Region gruppiert (z.B. Ruhrgebiet) - beliebig erweiterbar.
-const MP_AREAS = {ruhr: {de: 'Ruhrgebiet', en: 'Ruhr Area', flag: '🏭'}};
+const MP_AREAS = {ruhr: {de: 'Ruhrgebiet', en: 'Ruhr Area', es: 'Cuenca del Ruhr', flag: '🏭'}};
 // Kontinente (Ländercode → Kontinent), Quelle: GeoNames; Türkei bewusst unter Europa
-const MP_CONT = {"AD":"EU","AE":"AS","AF":"AS","AG":"NA","AL":"EU","AM":"AS","AO":"AF","AR":"SA","AT":"EU","AU":"OC","AZ":"AS","BA":"EU","BB":"NA","BD":"AS","BE":"EU","BF":"AF","BG":"EU","BH":"AS","BI":"AF","BJ":"AF","BN":"AS","BO":"SA","BR":"SA","BS":"NA","BT":"AS","BW":"AF","BY":"EU","BZ":"NA","CA":"NA","CD":"AF","CF":"AF","CG":"AF","CH":"EU","CI":"AF","CL":"SA","CM":"AF","CN":"AS","CO":"SA","CR":"NA","CU":"NA","CV":"AF","CY":"EU","CZ":"EU","DE":"EU","DJ":"AF","DK":"EU","DM":"NA","DO":"NA","DZ":"AF","EC":"SA","EE":"EU","EG":"AF","ER":"AF","ES":"EU","ET":"AF","FI":"EU","FJ":"OC","FM":"OC","FR":"EU","GA":"AF","GB":"EU","GD":"NA","GE":"AS","GH":"AF","GM":"AF","GN":"AF","GQ":"AF","GR":"EU","GT":"NA","GW":"AF","GY":"SA","HK":"AS","HN":"NA","HR":"EU","HT":"NA","HU":"EU","ID":"AS","IE":"EU","IL":"AS","IN":"AS","IQ":"AS","IR":"AS","IS":"EU","IT":"EU","JM":"NA","JO":"AS","JP":"AS","KE":"AF","KG":"AS","KH":"AS","KI":"OC","KM":"AF","KN":"NA","KP":"AS","KR":"AS","KW":"AS","KZ":"AS","LA":"AS","LB":"AS","LC":"NA","LI":"EU","LK":"AS","LR":"AF","LS":"AF","LT":"EU","LU":"EU","LV":"EU","LY":"AF","MA":"AF","MC":"EU","MD":"EU","ME":"EU","MG":"AF","MH":"OC","MK":"EU","ML":"AF","MM":"AS","MN":"AS","MR":"AF","MT":"EU","MU":"AF","MV":"AS","MW":"AF","MX":"NA","MY":"AS","MZ":"AF","NA":"AF","NE":"AF","NG":"AF","NI":"NA","NL":"EU","NO":"EU","NP":"AS","NR":"OC","NZ":"OC","OM":"AS","PA":"NA","PE":"SA","PG":"OC","PH":"AS","PK":"AS","PL":"EU","PS":"AS","PT":"EU","PW":"OC","PY":"SA","QA":"AS","RO":"EU","RS":"EU","RU":"EU","RW":"AF","SA":"AS","SB":"OC","SC":"AF","SD":"AF","SE":"EU","SG":"AS","SI":"EU","SK":"EU","SL":"AF","SM":"EU","SN":"AF","SO":"AF","SR":"SA","SS":"AF","ST":"AF","SV":"NA","SY":"AS","SZ":"AF","TD":"AF","TG":"AF","TH":"AS","TJ":"AS","TL":"OC","TM":"AS","TN":"AF","TO":"OC","TR":"EU","TT":"NA","TV":"OC","TW":"AS","TZ":"AF","UA":"EU","UG":"AF","US":"NA","UY":"SA","UZ":"AS","VA":"EU","VC":"NA","VE":"SA","VN":"AS","VU":"OC","WS":"OC","XK":"EU","YE":"AS","ZA":"AF","ZM":"AF","ZW":"AF"};
+const MP_CONT = {"AD":"EU","AE":"AS","AF":"AS","AG":"NA","AL":"EU","AM":"AS","AO":"AF","AR":"SA","AT":"EU","AU":"OC","AZ":"AS","BA":"EU","BB":"NA","BD":"AS","BE":"EU","BF":"AF","BG":"EU","BH":"AS","BI":"AF","BJ":"AF","BN":"AS","BO":"SA","BR":"SA","BS":"NA","BT":"AS","BW":"AF","BY":"EU","BZ":"NA","CA":"NA","CD":"AF","CF":"AF","CG":"AF","CH":"EU","CI":"AF","CL":"SA","CM":"AF","CN":"AS","CO":"SA","CR":"NA","CU":"NA","CV":"AF","CY":"EU","CZ":"EU","DE":"EU","DJ":"AF","DK":"EU","DM":"NA","DO":"NA","DZ":"AF","EC":"SA","EE":"EU","EG":"AF","ER":"AF","ES":"EU","ET":"AF","FI":"EU","FJ":"OC","FM":"OC","FR":"EU","GA":"AF","GB":"EU","GD":"NA","GE":"AS","GH":"AF","GM":"AF","GN":"AF","GQ":"AF","GR":"EU","GT":"NA","GW":"AF","GY":"SA","HK":"AS","HN":"NA","HR":"EU","HT":"NA","HU":"EU","ID":"AS","IE":"EU","IL":"AS","IN":"AS","IQ":"AS","IR":"AS","IS":"EU","IT":"EU","JM":"NA","JO":"AS","JP":"AS","KE":"AF","KG":"AS","KH":"AS","KI":"OC","KM":"AF","KN":"NA","KP":"AS","KR":"AS","KW":"AS","KZ":"AS","LA":"AS","LB":"AS","LC":"NA","LI":"EU","LK":"AS","LR":"AF","LS":"AF","LT":"EU","LU":"EU","LV":"EU","LY":"AF","MA":"AF","MC":"EU","MD":"EU","ME":"EU","MG":"AF","MH":"OC","MK":"EU","ML":"AF","MM":"AS","MN":"AS","MR":"AF","MT":"EU","MU":"AF","MV":"AS","MW":"AF","MX":"NA","MY":"AS","MZ":"AF","NA":"AF","NE":"AF","NG":"AF","NI":"NA","NL":"EU","NO":"EU","NP":"AS","NR":"OC","NZ":"OC","OM":"AS","PA":"NA","PE":"SA","PG":"OC","PH":"AS","PK":"AS","PL":"EU","PS":"AS","PT":"EU","PW":"OC","PY":"SA","QA":"AS","RO":"EU","RS":"EU","RU":"EU","RW":"AF","SA":"AS","SB":"OC","SC":"AF","SD":"AF","SE":"EU","SG":"AS","SI":"EU","SK":"EU","SL":"AF","SM":"EU","SN":"AF","SO":"AF","SR":"SA","SS":"AF","ST":"AF","SV":"NA","SY":"AS","SZ":"AF","TD":"AF","TG":"AF","TH":"AS","TJ":"AS","TL":"OC","TM":"AS","TN":"AF","TO":"OC","TR":"EU","TT":"NA","TV":"OC","TW":"AS","TZ":"AF","UA":"EU","UG":"AF","US":"NA","UY":"SA","UZ":"AS","VA":"EU","VC":"NA","VE":"SA","VN":"AS","VU":"OC","WS":"OC","XK":"EU","YE":"AS","ZA":"AF","ZM":"AF","ZW":"AF","BM":"NA","CW":"NA","GI":"EU","GL":"NA","MO":"AS","MQ":"NA","NC":"OC","NF":"OC","PF":"OC","PN":"OC","PR":"NA","RE":"AF","SH":"AF","TF":"AF","TK":"OC","AW":"NA","KY":"NA","VG":"NA","VI":"NA","GU":"OC","AS":"OC","GP":"NA","GF":"SA","YT":"AF","FO":"EU","AX":"EU","IM":"EU","JE":"EU","GG":"EU"};
 const MP_CONTS = [['EU', '🇪🇺', 'mp_c_eu'], ['AS', '🌏', 'mp_c_as'], ['AF', '🌍', 'mp_c_af'], ['NA', '🌎', 'mp_c_na'], ['SA', '🌎', 'mp_c_sa'], ['OC', '🌊', 'mp_c_oc']];
 function mpCont(m){ return MP_CONT[m.cc] || 'EU'; }
-const mpF = {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', cap: false, q: ''};
+const mpF = {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', cap: false, theme: 'all', mine: false, q: ''};
+// UNESCO-Welterbe (eigene Einträge oder markierte bestehende Orte) und Themen-Ebenen
+function mpU(m){ return m.unesco || ((HG.unescoTag || {})[m.id] || [])[0] || 0; }
+function mpWhc(m){ return m.whc || ((HG.unescoTag || {})[m.id] || [])[1] || 0; }
+const MP_THEMES = [['unesco', '🌐', 'mp_th_unesco'], ['story', '📜', 'mp_th_story'], ['adventure', '🧗', 'mp_th_adv'], ['bar', '🍸', 'mp_th_bar']];
+function mpIsTheme(m, th){ return th === 'unesco' ? !!mpU(m) : m.theme === th; }
+function mpThemeTags(m){
+  let h = '';
+  if (m.theme){ const x = MP_THEMES.find(k => k[0] === m.theme); if (x) h += '<span class="mp-tag th">' + x[1] + ' ' + t(x[2] + '1') + '</span>'; }
+  if (mpU(m)) h += '<span class="mp-tag un">🌐 UNESCO ' + mpU(m) + '</span>';
+  return h;
+}
 const mpUI = {open: {}, more: {}};
 const MP_LIM = 12;
 function mpNorm(s){ return String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
@@ -7019,12 +7142,14 @@ function mpMatch(m, skip){
   if (!skip.price && mpF.price !== 'all' && (m.price || 'free') !== mpF.price) return false;
   if (!skip.kind && mpF.kind !== 'all' && (m.kind || 'gem') !== mpF.kind) return false;
   if (!skip.cap && mpF.cap && !m.cap) return false;
+  if (!skip.theme && mpF.theme !== 'all' && !mpIsTheme(m, mpF.theme)) return false;
+  if (!skip.mine && mpF.mine && myRt.indexOf(m.id) < 0) return false;
   if (!skip.visit && mpF.visit !== 'all'){ const todo = m.visit === 'todo'; if (mpF.visit === 'todo' ? !todo : todo) return false; }
   if (!skip.q && mpF.q){ const n = mpNorm(mpF.q).trim(); if (n && !n.split(/\s+/).every(w => mpHay(m).indexOf(w) > -1)) return false; }
   return true;
 }
 function mpFacet(skip){ return mpAllMoments().filter(m => mpMatch(m, skip)); }
-function mpActive(){ return mpF.cont !== 'all' || mpF.country !== 'all' || mpF.area !== 'all' || mpF.town !== 'all' || mpF.cat !== 'all' || mpF.price !== 'all' || mpF.kind !== 'all' || mpF.visit !== 'all' || mpF.cap || !!mpF.q; }
+function mpActive(){ return mpF.cont !== 'all' || mpF.country !== 'all' || mpF.area !== 'all' || mpF.town !== 'all' || mpF.cat !== 'all' || mpF.price !== 'all' || mpF.kind !== 'all' || mpF.visit !== 'all' || mpF.cap || mpF.theme !== 'all' || mpF.mine || !!mpF.q; }
 function mpEnsureMap(){
   if (mpMap || typeof L === 'undefined') return mpMap;
   const el = document.getElementById('mp-map'); if (!el) return null;
@@ -7047,7 +7172,8 @@ function mpMarkers(){
   list.forEach(m => {
     const lat = +m.lat, lon = +m.lon; pts.push([lat, lon]);
     const mustsee = m.kind === 'mustsee';
-    const icon = L.divIcon({className: 'mp-mk' + (mustsee ? ' ms' : ''), html: '<span>' + esc(m.flag || '📍') + '</span>', iconSize: [30, 30], iconAnchor: [15, 15]});
+    const thx = m.theme ? MP_THEMES.find(k => k[0] === m.theme) : null;
+    const icon = L.divIcon({className: 'mp-mk' + (mustsee ? ' ms' : '') + (thx ? ' th-' + m.theme : (mpU(m) ? ' un' : '')), html: '<span>' + esc(thx ? thx[1] : (m.flag || '📍')) + '</span>', iconSize: [30, 30], iconAnchor: [15, 15]});
     const gm = mpGoogle(m), dir = mpDir(m);
     const kindB = mustsee ? '<span class="mp-tag ms">⭐ ' + t('mp_mustsee') + '</span>' : '<span class="mp-tag gem">💎 ' + t('mp_gem') + '</span>';
     const todoB = m.visit === 'todo' ? '<span class="mp-tag">🧭 ' + t('mp_todo') + '</span>' : '';
@@ -7055,7 +7181,7 @@ function mpMarkers(){
     if (m.rating) meta.push('<span class="mp-rate">' + mpStars(m.rating) + '</span>');
     if (m.price && m.price !== '?') meta.push(esc(mpPriceLabel(m.price)));
     meta.push((mpTownName(m) ? esc(mpTownName(m)) + ' · ' : '') + esc(mpCountryName(m.cc)));
-    const pop = '<div class="mp-pop"><div class="mp-pop-head">' + kindB + todoB + ' <span class="mp-tag">' + (MP_CATS[m.cat] || '📍') + ' ' + t('cat_' + (m.cat || 'sight')) + '</span></div>' +
+    const pop = '<div class="mp-pop"><div class="mp-pop-head">' + kindB + todoB + ' <span class="mp-tag">' + (MP_CATS[m.cat] || '📍') + ' ' + t('cat_' + (m.cat || 'sight')) + '</span>' + mpThemeTags(m) + '</div>' +
       '<div class="mp-pop-t">' + esc(m.flag || '📍') + ' ' + esc(stripTags(Lz(m, 'city'))) + '</div>' +
       '<div class="mp-pop-meta">' + meta.join(' · ') + '</div>' +
       '<div class="mp-pop-s">' + esc(stripTags(Lz(m, 'title'))) + '</div>' + mpWarnHtml(m) +
@@ -7064,11 +7190,14 @@ function mpMarkers(){
         '<a href="' + dir + '" target="_blank" rel="noopener">🧭 ' + t('mp_route') + '</a>' +
         (m.gyg ? '<a class="gyg" href="' + esc(safeUrl(m.gyg)) + '" target="_blank" rel="noopener sponsored">✦ ' + t('mp_book_tour') + '</a>' : '') +
         '<button type="button" onclick="mpOpen(\'' + jsq(m.id) + '\')">📂 ' + t('mp_details') + '</button>' +
+        (mpWhc(m) ? '<a href="https://whc.unesco.org/en/list/' + mpWhc(m) + '" target="_blank" rel="noopener">🌐 UNESCO</a>' : '') +
+        '<button type="button" class="my-add' + (myRt.indexOf(m.id) > -1 ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')">' + (myRt.indexOf(m.id) > -1 ? '✓ ' + t('my_in') : '➕ ' + t('my_add')) + '</button>' +
       '</div></div>';
     marks.push(L.marker([lat, lon], {icon}).bindPopup(pop, {maxWidth: 280}));
   });
   if (typeof mpLayer.addLayers === 'function') mpLayer.addLayers(marks); else marks.forEach(k => k.addTo(mpLayer));
   if (pts.length && !rtLayer){ try{ mpMap.fitBounds(pts, {padding: [45, 45], maxZoom: 12}); }catch(e){} }
+  myDraw();
 }
 function mpChip(label, n, active, js){ return '<button type="button" class="mp-chip' + (active ? ' active' : '') + '" onclick="' + esc(js) + '">' + label + (n != null ? ' <em>' + nf(n) + '</em>' : '') + '</button>'; }
 function mpContLabel(c){ const x = MP_CONTS.find(k => k[0] === c); return x ? x[1] + ' ' + t(x[2]) : c; }
@@ -7086,7 +7215,7 @@ function mpBuildFilters(){
   const byCont = {}, byArea = {}; let total = 0;
   mpFacet({cont: 1, country: 1, area: 1, town: 1}).forEach(m => { total++; const c = mpCont(m); byCont[c] = (byCont[c] || 0) + 1; if (m.area) byArea[m.area] = (byArea[m.area] || 0) + 1; });
   let chips = mpChip(t('mp_all'), total, mpF.cont === 'all' && mpF.country === 'all' && mpF.area === 'all', "mpRegion('all')");
-  Object.keys(MP_AREAS).filter(a => byArea[a]).forEach(a => { chips += mpChip(MP_AREAS[a].flag + ' ' + esc(lang === 'en' ? MP_AREAS[a].en : MP_AREAS[a].de), byArea[a], mpF.area === a, "mpRegion('area','" + a + "')"); });
+  Object.keys(MP_AREAS).filter(a => byArea[a]).forEach(a => { chips += mpChip(MP_AREAS[a].flag + ' ' + esc(MP_AREAS[a][lang] || MP_AREAS[a].en), byArea[a], mpF.area === a, "mpRegion('area','" + a + "')"); });
   MP_CONTS.filter(c => byCont[c[0]]).forEach(c => { chips += mpChip(mpContLabel(c[0]), byCont[c[0]], mpF.cont === c[0] && mpF.area === 'all', "mpRegion('cont','" + c[0] + "')"); });
   // Länder des gewählten Kontinents
   let ccRow = '';
@@ -7106,15 +7235,49 @@ function mpBuildFilters(){
   }
   const cats = [...new Set(all.map(m => m.cat || 'sight'))];
   const catOrder = Object.keys(MP_CATS).filter(c => cats.includes(c));
+  // Themen: UNESCO, Geschichten, Abenteuer, Bars
+  const thBase = mpFacet({theme: 1});
+  const thBtns = MP_THEMES.map(x => { const n = thBase.filter(m => mpIsTheme(m, x[0])).length; return '<button type="button" class="mp-kbtn mp-thbtn' + (mpF.theme === x[0] ? ' active' : '') + '" onclick="mpSet(\'theme\',\'' + (mpF.theme === x[0] ? 'all' : x[0]) + '\')" aria-pressed="' + (mpF.theme === x[0]) + '">' + x[1] + ' ' + t(x[2]) + ' <em>' + nf(n) + '</em></button>'; }).join('');
+  const myN = myRt.length ? '<button type="button" class="mp-kbtn mp-mybtn' + (mpF.mine ? ' active' : '') + '" onclick="mpSet(\'mine\',' + (!mpF.mine) + ')">🧭 ' + t('my_only') + ' <em>' + myRt.length + '</em></button>' : '';
+  // Land + Stadt immer direkt wählbar
+  const byCcAll = {}; mpFacet({cont: 1, country: 1, area: 1, town: 1}).forEach(m => { if (m.cc) byCcAll[m.cc] = (byCcAll[m.cc] || 0) + 1; });
+  const ccOpts = Object.keys(byCcAll).sort((a, b) => mpCountryName(a).localeCompare(mpCountryName(b), lang));
+  const ccSel = '<label class="mp-sel mp-sel-cc"><span>' + t('mp_country') + '</span><select onchange="mpSet(\'country\',this.value)">' + opt('all', t('mp_all_countries') + ' (' + ccOpts.length + ')', mpF.country) + ccOpts.map(c => opt(c, mpFlag(c) + ' ' + esc(mpCountryName(c)) + ' · ' + nf(byCcAll[c]), mpF.country)).join('') + '</select></label>';
+  let townSel;
+  if (mpF.country !== 'all' || mpF.area !== 'all'){
+    const bt = {}, tl = {}; mpFacet({town: 1}).forEach(m => { if (m.town){ bt[m.town] = (bt[m.town] || 0) + 1; tl[m.town] = stripTags(Lz(m, 'town')); } });
+    const ks = Object.keys(bt).sort((a, b) => tl[a].localeCompare(tl[b], lang));
+    townSel = '<label class="mp-sel mp-sel-town"><span>' + t('mp_city') + '</span><select onchange="mpSet(\'town\',this.value)">' + opt('all', t('mp_all_cities') + ' (' + ks.length + ')', mpF.town) + ks.map(k => opt(k, esc(tl[k]) + ' · ' + nf(bt[k]), mpF.town)).join('') + '</select></label>';
+  } else {
+    townSel = '<label class="mp-sel mp-sel-town"><span>' + t('mp_city') + '</span><input type="search" list="mp-towns" class="mp-town-in" placeholder="' + esc(stripTags(t('mp_city_ph'))) + '" onchange="mpPickTown(this.value)" autocomplete="off"><datalist id="mp-towns">' + mpTownList() + '</datalist></label>';
+  }
   bar.innerHTML =
     '<div class="mp-kind">' + kbtn('all', t('mp_all')) + kbtn('gem', '💎 ' + t('mp_gems')) + kbtn('mustsee', '⭐ ' + t('mp_mustsees')) + capBtn + '</div>' +
+    '<div class="mp-kind mp-themes" role="group" aria-label="' + esc(stripTags(t('mp_themes'))) + '">' + thBtns + myN + '</div>' +
     '<div class="mp-chips" role="group" aria-label="' + esc(stripTags(t('mp_regions'))) + '">' + chips + '</div>' + ccRow + cityRow +
-    '<div class="mp-selects">' +
+    '<div class="mp-selects">' + ccSel + townSel +
       '<label class="mp-sel"><span>' + t('mp_category') + '</span><select onchange="mpSet(\'cat\',this.value)">' + opt('all', t('mp_all_cats'), mpF.cat) + catOrder.map(c => opt(c, MP_CATS[c] + ' ' + t('cat_' + c), mpF.cat)).join('') + '</select></label>' +
       '<label class="mp-sel"><span>' + t('mp_price') + '</span><select onchange="mpSet(\'price\',this.value)">' + opt('all', t('mp_all_prices'), mpF.price) + ['free', '€', '€€', '€€€'].map(p => opt(p, mpPriceLabel(p), mpF.price)).join('') + '</select></label>' +
       '<label class="mp-sel"><span>' + t('mp_visit') + '</span><select onchange="mpSet(\'visit\',this.value)">' + opt('all', t('mp_visit_all'), mpF.visit) + opt('done', '✅ ' + t('mp_visit_done'), mpF.visit) + opt('todo', '🧭 ' + t('mp_visit_todo'), mpF.visit) + '</select></label>' +
       (mpActive() ? '<button type="button" class="mp-reset" onclick="mpReset()">✕ ' + t('mp_reset') + '</button>' : '') +
     '</div>';
+}
+// Alle Städte als Vorschlagsliste (Name · Land) - einmal pro Sprache aufgebaut
+const mpTL = {};
+function mpTownIndex(){
+  const k = lang + '|' + mpAllMoments().length; if (mpTL[k]) return mpTL[k];
+  const m = {}; mpAllMoments().forEach(x => { if (!x.town) return; const key = x.cc + '|' + x.town; if (!m[key]) m[key] = {cc: x.cc, town: x.town, label: stripTags(Lz(x, 'town')), n: 0}; m[key].n++; });
+  const arr = Object.values(m).sort((a, b) => b.n - a.n);
+  arr.forEach(x => { x.full = x.label + ' · ' + mpCountryName(x.cc); });
+  return (mpTL[k] = {arr, html: arr.map(x => '<option value="' + esc(x.full) + '"></option>').join('')});
+}
+function mpTownList(){ return mpTownIndex().html; }
+function mpPickTown(v){
+  v = String(v || '').trim(); if (!v) return;
+  const ix = mpTownIndex().arr, n = mpNorm(v);
+  const hit = ix.find(x => mpNorm(x.full) === n) || ix.find(x => mpNorm(x.label) === n.split(' · ')[0]) || ix.find(x => mpNorm(x.label).indexOf(n) === 0);
+  if (!hit){ mpF.q = v; const qi = document.getElementById('mp-q'); if (qi) qi.value = v; mpUI.open = {}; mpRefresh(); return; }
+  mpF.cont = MP_CONT[hit.cc] || 'all'; mpF.country = hit.cc; mpF.area = 'all'; mpF.town = hit.town; mpUI.open = {}; mpRefresh();
 }
 function mpRefresh(){ if (rtLayer) rtHideMap(true); mpBuildFilters(); mpMarkers(); mpRenderList(); }
 function mpSet(key, val){
@@ -7132,7 +7295,7 @@ function mpRegion(type, val){
 }
 function mpGoRegion(type, val){ mpRegion(type, val); const el = document.getElementById('mp-filters'); if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'}); }
 function mpReset(){
-  Object.assign(mpF, {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', cap: false, q: ''});
+  Object.assign(mpF, {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', cap: false, theme: 'all', mine: false, q: ''});
   const qi = document.getElementById('mp-q'); if (qi) qi.value = '';
   mpUI.open = {}; mpUI.more = {}; mpRefresh();
 }
@@ -7150,13 +7313,14 @@ function mpRenderStats(){
   const visited = new Set(all.filter(m => m.visit !== 'todo').map(m => m.cc).filter(Boolean)).size;
   const caps = new Set(all.filter(m => m.cap).map(m => m.cc + '|' + m.town)).size;
   const tile = (n, l) => '<div class="mp-st"><strong>' + nf(n) + '</strong><span>' + l + '</span></div>';
-  el.innerHTML = tile(all.length, t('mp_st_places')) + tile(gems, '💎 ' + t('mp_gems')) + tile(all.length - gems, '⭐ ' + t('mp_mustsees')) + tile(caps, '🏛️ ' + t('mp_caps')) + tile(ccs, t('mp_st_onmap')) + tile(visited, '✅ ' + t('mp_st_visited')) + '<div class="mp-st-note">' + t('mp_st_grow') + '</div>';
+  const un = all.filter(m => mpU(m)).length;
+  el.innerHTML = tile(all.length, t('mp_st_places')) + tile(gems, '💎 ' + t('mp_gems')) + tile(all.length - gems, '⭐ ' + t('mp_mustsees')) + tile(un, '🌐 UNESCO') + tile(caps, '🏛️ ' + t('mp_caps')) + tile(ccs, t('mp_st_onmap')) + tile(visited, '✅ ' + t('mp_st_visited')) + '<div class="mp-st-note">' + t('mp_st_grow') + '</div>';
 }
 function mpGroupKey(m){ return m.area ? 'a:' + m.area : 'c:' + (m.cc || '?'); }
 function mpGroupLabel(k, restOf){
   if (k === 'mine') return '💎 ' + t('mp_mygems');
   if (k.indexOf('a:') !== 0 && restOf && restOf[k.slice(2)]) return mpFlag(k.slice(2)) + ' ' + esc(mpCountryName(k.slice(2))) + ' <small class="mp-rest">' + t('mp_rest') + '</small>';
-  if (k.indexOf('a:') === 0){ const a = MP_AREAS[k.slice(2)] || {}; return (a.flag || '📍') + ' ' + esc(lang === 'en' ? (a.en || a.de) : (a.de || a.en)); }
+  if (k.indexOf('a:') === 0){ const a = MP_AREAS[k.slice(2)] || {}; return (a.flag || '📍') + ' ' + esc(a[lang] || a.en || a.de); }
   const cc = k.slice(2); return mpFlag(cc) + ' ' + esc(mpCountryName(cc));
 }
 function mpCard(m){
@@ -7168,11 +7332,12 @@ function mpCard(m){
   return '<div class="mp-item' + (todo ? ' todo' : '') + '" data-id="' + esc(m.id) + '">' + HG.tools('moments', m.id) +
     '<div class="mp-item-main" onclick="mpOpen(\'' + jsq(m.id) + '\')" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\')mpOpen(\'' + jsq(m.id) + '\')">' +
       '<div class="mp-item-top"><span class="mp-item-kind ' + (ms ? 'ms' : 'gem') + '">' + (ms ? '⭐' : '💎') + '</span><span class="mp-item-t">' + esc(m.flag || '📍') + ' ' + Lz(m, 'city') + '</span></div>' +
-      '<div class="mp-item-meta">' + meta.join(' · ') + '</div>' +
+      '<div class="mp-item-meta">' + meta.join(' · ') + '</div>' + (m.theme || mpU(m) ? '<div class="mp-item-th">' + mpThemeTags(m) + '</div>' : '') +
       '<div class="mp-item-m">' + Lz(m, 'title') + '</div>' +
       (todo ? '<div class="mp-todo">🧭 ' + t('mp_todo') + '</div>' : '') + mpWarnHtml(m) +
     '</div>' +
-    '<a class="mp-item-gm" href="' + gm + '" target="_blank" rel="noopener" title="' + esc(stripTags(t('mp_open_gmaps'))) + '">🗺️</a>' +
+    '<div class="mp-item-side"><button type="button" class="mp-item-add my-add' + (myRt.indexOf(m.id) > -1 ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')" title="' + esc(stripTags(t('my_add'))) + '" aria-label="' + esc(stripTags(t('my_add'))) + '">' + (myRt.indexOf(m.id) > -1 ? '✓' : '➕') + '</button>' +
+    '<a class="mp-item-gm" href="' + gm + '" target="_blank" rel="noopener" title="' + esc(stripTags(t('mp_open_gmaps'))) + '">🗺️</a></div>' +
   '</div>';
 }
 function mpGroupHtml(k, label, items, open){
@@ -7209,7 +7374,7 @@ function mpGroupHtml(k, label, items, open){
 function mpOverviewHtml(list){
   const tiles = [];
   const ar = list.filter(m => m.area === 'ruhr');
-  if (ar.length) tiles.push(['area', 'ruhr', '🏭', lang === 'en' ? 'Ruhr Area' : 'Ruhrgebiet', ar]);
+  if (ar.length) tiles.push(['area', 'ruhr', '🏭', MP_AREAS.ruhr[lang] || 'Ruhr Area', ar]);
   MP_CONTS.forEach(c => { const xs = list.filter(m => mpCont(m) === c[0]); if (xs.length) tiles.push(['cont', c[0], c[1], t(c[2]), xs]); });
   return '<div class="mp-ov">' + tiles.map(x => {
     const ccs = new Set(x[4].map(m => m.cc)).size, towns = new Set(x[4].map(m => m.cc + '|' + m.town)).size;
@@ -7257,15 +7422,120 @@ function renderMoments(){
 function mpOpen(id){
   if (String(id).indexOf('route-') === 0){ rtCur = String(id).slice(6); rtRender(); setTimeout(() => { const d = document.getElementById('rt-detail'); if (d) d.scrollIntoView({behavior: 'smooth', block: 'start'}); }, 150); return; }
   const m = HG.col('moments').find(x => x.id === id); if (!m) return;
-  const gyg = m.gyg ? safeUrl(m.gyg) : null;
-  const kicker = (m.kind === 'mustsee' ? '⭐ ' : '💎 ') + (mpTownName(m) ? stripTags(mpTownName(m)) + ' · ' : '') + stripTags(mpCountryName(m.cc)) + (Lz(m, 'date') ? ' · ' + stripTags(Lz(m, 'date')) : '');
-  openDetail('moment-' + m.id, kicker, (m.flag || '📍') + ' ' + Lz(m, 'city'), stripTags(Lz(m, 'title')), gyg, gyg ? t('mp_book_tour') : null, 'momente/' + m.id);
+  const gyg = m.gyg ? safeUrl(m.gyg) : null, whc = mpWhc(m);
+  const thx = m.theme ? MP_THEMES.find(k => k[0] === m.theme) : null;
+  const kicker = (thx ? thx[1] + ' ' + stripTags(t(thx[2] + '1')) + ' · ' : '') + (mpU(m) ? '🌐 UNESCO ' + mpU(m) + ' · ' : '') + (m.kind === 'mustsee' ? '⭐ ' : '💎 ') + (mpTownName(m) ? stripTags(mpTownName(m)) + ' · ' : '') + stripTags(mpCountryName(m.cc)) + (Lz(m, 'date') ? ' · ' + stripTags(Lz(m, 'date')) : '');
+  const cta = gyg || (whc ? 'https://whc.unesco.org/en/list/' + whc : null);
+  openDetail('moment-' + m.id, kicker, (m.flag || '📍') + ' ' + Lz(m, 'city'), stripTags(Lz(m, 'title')), cta, gyg ? t('mp_book_tour') : (whc ? t('mp_unesco_entry') : null), 'momente/' + m.id);
+  const ext = document.getElementById('dt-ext-wrap'), on = myRt.indexOf(m.id) > -1;
+  if (ext) ext.insertAdjacentHTML('beforeend', '<button type="button" class="dt-ext dt-my my-add' + (on ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')">' + (on ? '✓ ' + t('my_in') : '➕ ' + t('my_add')) + '</button>');
 }
 HG.openers['momente'] = mpOpen;
 function mpAddMoment(){ if (HG.owner){ if (!HG.editing) hgEditToggle(true); hgColForm('moments', null); } }
 function mpSubmitScroll(){ const el = document.getElementById('gem-submit'); if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'}); }
 window.addEventListener('hg:route', () => { if (HG.route === 'momente' && mpMap) setTimeout(() => { try{ mpMap.invalidateSize(); mpMarkers(); }catch(e){} }, 90); });
 HG.onRender(renderMoments);
+// ╔════════════════════════════════════════════════════╗
+// ║  MEINE REISEROUTE - Orte merken, ordnen, nach      ║
+// ║  Google Maps (Route), My Maps (KML) & CSV exportieren ║
+// ╚════════════════════════════════════════════════════╝
+let myRt = [];
+try{ myRt = JSON.parse(safeLS.getItem('hg-myroute') || '[]').filter(x => typeof x === 'string').slice(0, 150); }catch(e){ myRt = []; }
+let myMode = safeLS.getItem('hg-myroute-mode') || 'driving', myLayer = null;
+function myById(){ const m = {}; mpAllMoments().forEach(x => { m[x.id] = x; }); return m; }
+function myItems(){ const by = myById(); return myRt.map(id => by[id]).filter(Boolean); }
+function myKm(a, b){ const p = Math.PI / 180, dLa = (b.lat - a.lat) * p, dLo = (b.lon - a.lon) * p; const h = Math.sin(dLa / 2) ** 2 + Math.cos(a.lat * p) * Math.cos(b.lat * p) * Math.sin(dLo / 2) ** 2; return 12742 * Math.asin(Math.min(1, Math.sqrt(h))); }
+function myKmT(d){ return nf(d < 10 ? Math.round(d * 10) / 10 : Math.round(d)); }
+function mySave(){ safeLS.setItem('hg-myroute', JSON.stringify(myRt)); myRender(); myPill(); }
+function myToggle(id){
+  const i = myRt.indexOf(id), add = i < 0;
+  if (add) myRt.push(id); else myRt.splice(i, 1);
+  mySave();
+  document.querySelectorAll('.my-add[data-my="' + (window.CSS && CSS.escape ? CSS.escape(id) : id) + '"]').forEach(b => {
+    b.classList.toggle('on', add);
+    b.textContent = b.classList.contains('mp-item-add') ? (add ? '✓' : '➕') : (add ? '✓ ' + stripTags(t('my_in')) : '➕ ' + stripTags(t('my_add')));
+  });
+  hgToast(add ? '🧭 ' + t('my_added', {n: myRt.length}) : t('my_removed'), 1800);
+  if (mpF.mine){ if (!myRt.length) mpF.mine = false; mpRefresh(); } else mpBuildFilters();
+}
+function myMove(i, d){ const j = i + d; if (j < 0 || j >= myRt.length) return; const x = myRt[i]; myRt[i] = myRt[j]; myRt[j] = x; mySave(); if (mpF.mine) mpMarkers(); }
+function myDel(i){ myRt.splice(i, 1); mySave(); if (mpF.mine){ if (!myRt.length) mpF.mine = false; mpRefresh(); } else mpBuildFilters(); }
+function myClear(){ if (!confirm(stripTags(t('my_clear_q')))) return; myRt = []; mpF.mine = false; mySave(); mpRefresh(); }
+// Reihenfolge optimieren: nächster Nachbar ab dem ersten Stopp
+function myOptimize(){
+  const it = myItems(); if (it.length < 3) return;
+  const rest = it.slice(1), out = [it[0]];
+  while (rest.length){ const last = out[out.length - 1]; let bi = 0, bd = Infinity; rest.forEach((x, i) => { const d = myKm(last, x); if (d < bd){ bd = d; bi = i; } }); out.push(rest.splice(bi, 1)[0]); }
+  myRt = out.map(x => x.id); mySave(); if (mpF.mine) mpMarkers(); hgToast('✨ ' + t('my_optimized'), 1800);
+}
+function myPt(m){ return (m.q || '').trim() || (+m.lat + ',' + (+m.lon)); }
+// Google Maps erlaubt max. 9 Zwischenstopps (mobil 3) → lange Routen in Teile
+function myGLinks(){
+  const it = myItems(); if (it.length < 2) return it.length ? [{url: mpGoogle(it[0]), from: 1, to: 1}] : [];
+  const per = (window.matchMedia && matchMedia('(pointer:coarse)').matches) ? 5 : 11, out = [];
+  for (let s = 0; s < it.length - 1; s += per - 1){
+    const seg = it.slice(s, s + per); if (seg.length < 2) break;
+    let u = 'https://www.google.com/maps/dir/?api=1&origin=' + encodeURIComponent(myPt(seg[0])) + '&destination=' + encodeURIComponent(myPt(seg[seg.length - 1])) + '&travelmode=' + myMode;
+    if (seg.length > 2) u += '&waypoints=' + seg.slice(1, -1).map(m => encodeURIComponent(myPt(m))).join('%7C');
+    out.push({url: u, from: s + 1, to: s + seg.length});
+  }
+  return out;
+}
+function myXml(s){ return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+function myKml(){
+  const it = myItems(); if (!it.length) return;
+  const name = 'HiddenGem.Atlas - ' + stripTags(t('my_title'));
+  const pm = it.map((m, i) => '<Placemark><name>' + myXml((i + 1) + '. ' + stripTags(Lz(m, 'city'))) + '</name><description>' + myXml(stripTags(Lz(m, 'title')) + ' · ' + (mpTownName(m) ? mpTownName(m) + ', ' : '') + mpCountryName(m.cc) + ' · ' + mpGoogle(m)) + '</description><Point><coordinates>' + (+m.lon) + ',' + (+m.lat) + ',0</coordinates></Point></Placemark>').join('');
+  const line = it.length > 1 ? '<Placemark><name>' + myXml(stripTags(t('my_title'))) + '</name><Style><LineStyle><color>ff2a7ac9</color><width>4</width></LineStyle></Style><LineString><tessellate>1</tessellate><coordinates>' + it.map(m => (+m.lon) + ',' + (+m.lat) + ',0').join(' ') + '</coordinates></LineString></Placemark>' : '';
+  hgDownload('meine-route-hiddengem-atlas.kml', '<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>' + myXml(name) + '</name>' + pm + line + '</Document></kml>\n', 'application/vnd.google-earth.kml+xml');
+}
+function myCsv(){
+  const it = myItems(); if (!it.length) return;
+  const q = v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"';
+  const rows = [['Nr', 'Name', 'Stadt', 'Land', 'Breitengrad', 'Längengrad', 'Beschreibung', 'Google Maps'].map(q).join(',')]
+    .concat(it.map((m, i) => [i + 1, stripTags(Lz(m, 'city')), mpTownName(m), mpCountryName(m.cc), m.lat, m.lon, stripTags(Lz(m, 'title')), mpGoogle(m)].map(q).join(',')));
+  hgDownload('meine-route-hiddengem-atlas.csv', '﻿' + rows.join('\r\n') + '\r\n', 'text/csv;charset=utf-8');
+}
+function mySetMode(v){ myMode = v; safeLS.setItem('hg-myroute-mode', v); myRender(); }
+function myShowMap(){ mpF.mine = true; mpUI.open = {}; mpRefresh(); const el = document.getElementById('mp-map'); if (el) el.scrollIntoView({behavior: 'smooth', block: 'center'}); }
+function myDraw(){
+  if (!mpMap) return;
+  if (myLayer){ mpMap.removeLayer(myLayer); myLayer = null; }
+  if (!mpF.mine) return;
+  const it = myItems(); if (!it.length) return;
+  myLayer = L.layerGroup().addTo(mpMap);
+  if (it.length > 1) L.polyline(it.map(m => [+m.lat, +m.lon]), {color: '#c97a2a', weight: 4, opacity: .85, dashArray: '8 7'}).addTo(myLayer);
+  it.forEach((m, i) => L.marker([+m.lat, +m.lon], {icon: L.divIcon({className: 'my-num', html: '<span>' + (i + 1) + '</span>', iconSize: [24, 24], iconAnchor: [12, 30]}), interactive: false}).addTo(myLayer));
+}
+function myRender(){
+  const box = document.getElementById('my-rt'); if (!box) return;
+  const it = myItems();
+  if (!it.length){
+    box.innerHTML = '<div class="my-empty"><strong>🧭 ' + t('my_title') + '</strong><p>' + t('my_empty') + '</p></div>';
+    return;
+  }
+  let km = 0; for (let i = 1; i < it.length; i++) km += myKm(it[i - 1], it[i]);
+  const links = myGLinks();
+  const modes = [['driving', '🚗', 'my_m_drive'], ['walking', '🚶', 'my_m_walk'], ['transit', '🚆', 'my_m_transit'], ['bicycling', '🚲', 'my_m_bike']];
+  box.innerHTML = '<div class="my-hd"><div><div class="sec-lbl">🧭 ' + t('my_title') + '</div><h3>' + t('my_stops', {n: it.length}) + (it.length > 1 ? ' <small>· ~' + myKmT(km) + ' km ' + t('my_crow') + '</small>' : '') + '</h3></div>' +
+      '<div class="my-tools"><button type="button" class="mp-kbtn" onclick="myShowMap()">🗺️ ' + t('my_on_map') + '</button>' + (it.length > 2 ? '<button type="button" class="mp-kbtn" onclick="myOptimize()">✨ ' + t('my_opt') + '</button>' : '') + '<button type="button" class="mp-reset" onclick="myClear()">✕ ' + t('my_clear') + '</button></div></div>' +
+    '<ol class="my-list">' + it.map((m, i) => '<li><span class="my-n">' + (i + 1) + '</span><div class="my-x" onclick="mpOpen(\'' + jsq(m.id) + '\')"><strong>' + esc(m.theme ? '' : (m.flag || '📍')) + ' ' + esc(stripTags(Lz(m, 'city'))) + '</strong><small>' + esc((mpTownName(m) ? mpTownName(m) + ' · ' : '') + mpCountryName(m.cc)) + (i < it.length - 1 ? ' · ' + myKmT(myKm(m, it[i + 1])) + ' km →' : '') + '</small></div>' +
+      '<div class="my-ctl"><button type="button" onclick="myMove(' + i + ',-1)" aria-label="↑"' + (i ? '' : ' disabled') + '>↑</button><button type="button" onclick="myMove(' + i + ',1)" aria-label="↓"' + (i < it.length - 1 ? '' : ' disabled') + '>↓</button><button type="button" onclick="myDel(' + i + ')" aria-label="✕">✕</button></div></li>').join('') + '</ol>' +
+    '<div class="my-exp"><div class="my-modes">' + modes.map(x => '<button type="button" class="mp-chip' + (myMode === x[0] ? ' active' : '') + '" onclick="mySetMode(\'' + x[0] + '\')">' + x[1] + ' ' + t(x[2]) + '</button>').join('') + '</div>' +
+      '<div class="my-btns">' + links.map((l, i) => '<a class="btn-g my-g" href="' + esc(l.url) + '" target="_blank" rel="noopener">🗺️ ' + (links.length > 1 ? t('my_gpart', {a: l.from, b: l.to}) : t('my_gopen')) + '</a>').join('') +
+      '<button type="button" class="btn-o" onclick="myKml()">⬇️ ' + t('my_kml') + '</button><button type="button" class="btn-o" onclick="myCsv()">⬇️ CSV</button></div>' +
+      '<p class="my-note">' + t('my_note') + (links.length > 1 ? ' ' + t('my_note_parts') : '') + '</p></div>';
+}
+function myPill(){
+  let p = document.getElementById('my-pill');
+  if (!p){ p = document.createElement('button'); p.type = 'button'; p.id = 'my-pill'; p.className = 'my-pill'; p.onclick = () => { const b = document.getElementById('my-rt'); if (b) b.scrollIntoView({behavior: 'smooth', block: 'start'}); }; document.body.appendChild(p); }
+  p.innerHTML = '🧭 ' + t('my_title') + ' <em>' + myRt.length + '</em>';
+  p.classList.toggle('show', !!myRt.length && HG.route === 'momente' && !myInView);
+  if (!myObs && 'IntersectionObserver' in window){ const b = document.getElementById('my-rt'); if (b){ myObs = new IntersectionObserver(es => { myInView = es[0].isIntersecting; myPill(); }); myObs.observe(b); } }
+}
+let myObs = null, myInView = false;
+window.addEventListener('hg:route', myPill);
+HG.onRender(() => { myRender(); myPill(); });
 
 // ╔════════════════════════════════════════════════════╗
 // ║  KALENDER-DATEIEN (.ics) - für Routen & Events     ║
@@ -7435,7 +7705,7 @@ const EV_CATS = [['all', 'ev_cat_all'], ['sport', 'ev_cat_sport'], ['musik', 'ev
 function evCatOf(e){ return e.cat === 'karneval' ? 'fest' : (e.cat || 'fest'); }
 function evList(){ return HG.events || []; }
 function evDate(s){ const a = String(s).split('-').map(Number); return new Date(a[0], a[1] - 1, a[2]); }
-function evLoc(){ return lang === 'en' ? 'en-GB' : 'de-DE'; }
+function evLoc(){ return LOC[lang] || 'de-DE'; }
 function evRange(e){
   const a = evDate(e.date);
   if (!e.end) return a.toLocaleDateString(evLoc(), {weekday: 'long', day: 'numeric', month: 'long'});
@@ -7579,7 +7849,7 @@ function brRender(){
   const el = document.getElementById('br-box'); if (!el) return;
   const pl = brPlan(brS.y, brS.st);
   const opt = (v, l, s) => '<option value="' + v + '"' + (String(s) === String(v) ? ' selected' : '') + '>' + l + '</option>';
-  const holsIn = c => pl.H.filter(h => h.d >= c.s && h.d <= c.e).map(h => lang === 'en' ? h.en : h.de);
+  const holsIn = c => pl.H.filter(h => h.d >= c.s && h.d <= c.e).map(h => lang === 'de' ? h.de : h.en);
   const row = c => {
     const lbl = c.type === 'free' ? '🎁 ' + t('br_free') : c.type === 'bridge' ? '🌉 ' + t('br_bridge') : '✈️ ' + t('br_long');
     const vdays = c.vd.length ? c.vd.map(d => brFmt(d, {day: 'numeric', month: 'numeric'})).join(', ') : '';
@@ -7592,7 +7862,7 @@ function brRender(){
       '<div class="br-sel"><label><span>' + t('br_state') + '</span><select onchange="brS.st=this.value;brRender()">' + Object.keys(BR_STATES).map(k => opt(k, BR_STATES[k], brS.st)).join('') + '</select></label>' +
       '<label><span>' + t('br_year') + '</span><select onchange="brS.y=+this.value;brRender()">' + [2027, 2028].map(y => opt(y, y, brS.y)).join('') + '</select></label></div></div>' +
     '<div class="br-list">' + pl.out.map(row).join('') + '</div>' +
-    (pl.lost.length ? '<p class="br-lost">😬 ' + t('br_lost') + ' ' + esc(pl.lost.map(h => (lang === 'en' ? h.en : h.de) + ' (' + brFmt(h.d, {weekday: 'short'}) + ')').join(', ')) + '</p>' : '') +
+    (pl.lost.length ? '<p class="br-lost">😬 ' + t('br_lost') + ' ' + esc(pl.lost.map(h => (lang === 'de' ? h.de : h.en) + ' (' + brFmt(h.d, {weekday: 'short'}) + ')').join(', ')) + '</p>' : '') +
     '<p class="br-note">' + t('br_note') + '</p>';
 }
 function brIcs(s, e){
@@ -7634,14 +7904,15 @@ function stShow(){
   document.getElementById('st-cap').textContent = stripTags(Lz(it, 'cap'));
   document.getElementById('st-bars').innerHTML = g.items.map((_, i) => '<span class="st-bar"><i style="width:' + (i < stI ? 100 : 0) + '%"></i></span>').join('');
   const vid = /\.(mp4|webm|mov)$/i.test(it.src);
-  m.innerHTML = vid ? '<video src="' + esc(HG.img(it.src)) + '"' + (it.poster ? ' poster="' + esc(HG.img(it.poster)) + '"' : '') + ' autoplay muted playsinline preload="auto"></video>' : '<img src="' + esc(HG.img(it.src)) + '" alt="">';
+  m.innerHTML = vid ? '<video src="' + esc(HG.img(it.src)) + '"' + (it.poster ? ' poster="' + esc(HG.img(it.poster)) + '"' : '') + ' autoplay' + (stSnd ? '' : ' muted') + ' playsinline preload="auto"></video>' : '<img src="' + esc(HG.img(it.src)) + '" alt="">';
+  stSndIcon(); const sb = document.getElementById('st-snd'); if (sb) sb.classList.toggle('dim', !vid);
   stPaused = false; stT0 = performance.now();
   const bar = () => document.querySelectorAll('#st-bars .st-bar i')[stI];
   if (vid){
     const v = m.querySelector('video');
     v.onended = stNext; v.onerror = () => { stDur = 5000; stT0 = performance.now(); tick(); };
     const tickV = () => { const b = bar(); if (b && v.duration) b.style.width = Math.min(100, v.currentTime / v.duration * 100) + '%'; stRaf = requestAnimationFrame(tickV); };
-    tickV(); const p = v.play(); if (p && p.catch) p.catch(() => {});
+    tickV(); const p = v.play(); if (p && p.catch) p.catch(() => { v.muted = true; stSnd = false; stSndIcon(); const q = v.play(); if (q && q.catch) q.catch(() => {}); });
   } else { stDur = 5000; tick(); }
   function tick(){
     const b = bar(); const el = performance.now() - stT0;
@@ -7668,6 +7939,65 @@ document.addEventListener('keydown', e => {
   const ov = document.getElementById('st-ov'); if (!ov || !ov.classList.contains('open')) return;
   if (e.key === 'Escape') stClose(); else if (e.key === 'ArrowRight') stNext(); else if (e.key === 'ArrowLeft') stPrev();
 });
+// Ton in Stories (Standard: an - Öffnen ist ein Klick des Nutzers)
+let stSnd = safeLS.getItem('hg-snd') !== '0';
+function stSndIcon(){ const b = document.getElementById('st-snd'); if (b){ b.textContent = stSnd ? '🔊' : '🔇'; b.setAttribute('aria-pressed', String(stSnd)); } }
+function stSound(){ stSnd = !stSnd; safeLS.setItem('hg-snd', stSnd ? '1' : '0'); const v = document.querySelector('#st-media video'); if (v){ v.muted = !stSnd; if (stSnd){ const p = v.play(); if (p && p.catch) p.catch(() => {}); } } stSndIcon(); }
+// ╔════════════════════════════════════════════════════╗
+// ║  HERO-SLIDESHOW - eigene Fotos im Hintergrund      ║
+// ║  (images/hero/<name>-w.webp quer · -p.webp hoch)   ║
+// ╚════════════════════════════════════════════════════╝
+const HERO_SLIDES = [
+  {n: 'cala-almunia', de: "Cala s'Almunia, Mallorca", en: "Cala s'Almunia, Mallorca", es: "Cala s'Almunia, Mallorca"},
+  {n: 'mallorca-bucht', de: 'Mallorca', en: 'Mallorca', es: 'Mallorca'},
+  {n: 'marrakesch-riad-pool', de: 'Riad in Marrakesch', en: 'A riad in Marrakesh', es: 'Un riad en Marrakech'},
+  {n: 'landawirsee', de: 'Bergsee im Lungau, Österreich', en: 'Mountain lake in Lungau, Austria', es: 'Lago de montaña en Lungau, Austria'},
+  {n: 'prag-palastgarten', de: 'Palastgärten, Prag', en: 'Palace gardens, Prague', es: 'Jardines del palacio, Praga'},
+  {n: 'antwerpen-grote-markt', de: 'Grote Markt, Antwerpen', en: 'Grote Markt, Antwerp', es: 'Grote Markt, Amberes'},
+  {n: 'albanien-aussicht', de: 'Albanien', en: 'Albania', es: 'Albania'},
+  {n: 'phuket', de: 'Phuket, Thailand', en: 'Phuket, Thailand', es: 'Phuket, Tailandia'}
+];
+let hsI = 0, hsEls = [], hsTimer = null, hsBusy = false;
+function hsWide(){ return window.innerWidth / Math.max(1, window.innerHeight) > 0.9; }
+function hsSrc(i){ return 'images/hero/' + HERO_SLIDES[i].n + (hsWide() ? '-w' : '-p') + '.webp'; }
+function hsLoad(i, cb){
+  const el = hsEls[i], src = hsSrc(i);
+  if (!el) return; if (el.dataset.src === src){ if (cb) cb(); return; }
+  const im = new Image();
+  im.onload = () => { el.style.backgroundImage = 'url("' + src + '")'; el.dataset.src = src; if (cb) cb(); };
+  im.onerror = () => { if (cb) cb(); };
+  im.src = src;
+}
+function hsCap(){ const c = document.getElementById('h-slide-cap'), x = HERO_SLIDES[hsI]; if (c && x) c.textContent = '📍 ' + (x[lang] || x.en || x.de); }
+function hsShow(i){
+  hsI = i; hsEls.forEach((e, j) => e.classList.toggle('on', j === i)); hsCap();
+  hsLoad((i + 1) % HERO_SLIDES.length);
+}
+function hsNext(){
+  if (hsBusy || document.hidden || HG.route !== '') return;
+  const n = (hsI + 1) % HERO_SLIDES.length; hsBusy = true;
+  hsLoad(n, () => { hsBusy = false; hsShow(n); });
+}
+function hsInit(){
+  const box = document.getElementById('h-slides'), hero = document.getElementById('hero');
+  if (!box || !hero || box.dataset.on) return; box.dataset.on = '1';
+  hsEls = HERO_SLIDES.map(() => { const d = document.createElement('div'); d.className = 'h-slide'; box.appendChild(d); return d; });
+  hsLoad(0, () => { hero.classList.add('has-slides'); hsShow(0); });
+  const save = navigator.connection && navigator.connection.saveData;
+  if (!save) hsTimer = setInterval(hsNext, 6500);
+  let rz; window.addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => hsLoad(hsI), 300); });
+}
+HG.onRender(() => { hsInit(); hsCap(); });
+
+// ── Ton für Videos (Galerien) ───────────────────────
+function vidSnd(btn){
+  const v = btn.parentNode.querySelector('video'); if (!v) return;
+  const turnOn = v.muted;
+  document.querySelectorAll('video').forEach(x => { if (x !== v) x.muted = true; });
+  document.querySelectorAll('.vid-snd').forEach(b => { b.textContent = '🔇'; b.classList.remove('on'); });
+  v.muted = !turnOn; if (turnOn){ v.currentTime = 0; const p = v.play(); if (p && p.catch) p.catch(() => {}); }
+  btn.textContent = turnOn ? '🔊' : '🔇'; btn.classList.toggle('on', turnOn);
+}
 
 
 // ╔════════════════════════════════════════════════════╗
@@ -7768,7 +8098,7 @@ function srKey(e){
 }
 function srMapAll(){
   const q = document.getElementById('sr-q').value; srClose(); gTo('momente');
-  setTimeout(() => { Object.assign(mpF, {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', cap: false, q: q}); const qi = document.getElementById('mp-q'); if (qi) qi.value = q; mpUI.open = {}; mpRefresh(); }, 260);
+  setTimeout(() => { Object.assign(mpF, {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', price: 'all', kind: 'all', visit: 'all', cap: false, theme: 'all', mine: false, q: q}); const qi = document.getElementById('mp-q'); if (qi) qi.value = q; mpUI.open = {}; mpRefresh(); }, 260);
 }
 function srGo(i){
   const it = srHits[i]; if (!it) return; srClose();
@@ -7916,12 +8246,12 @@ function trRender(){
   const vis = all.filter(x => trCurrentFilter === 'all' || (x.verdict || 'watch') === trCurrentFilter);
   const shown = (trShowAll || HG.editing) ? vis : vis.slice(0, TR_TOP);
   const vLabel = {echt: t('tr_v_echt'), hype: t('tr_v_hype'), watch: t('tr_v_watch')};
-  const dfmt = d => { if (!d) return ''; try{ return new Date(d + 'T12:00:00').toLocaleDateString(lang === 'en' ? 'en-GB' : 'de-DE', {day: 'numeric', month: 'short', year: 'numeric'}); }catch(e){ return d; } };
+  const dfmt = d => { if (!d) return ''; try{ return new Date(d + 'T12:00:00').toLocaleDateString(LOC[lang] || 'de-DE', {day: 'numeric', month: 'short', year: 'numeric'}); }catch(e){ return d; } };
   g.innerHTML = HG.addCard('trends', 'Eigenen Trend hinzufügen', 'tr-add') + shown.map(x => {
     const tools = x._own ? HG.tools('trends', x.id) : (HG.editing ? `<div class="hg-ui hg-tools"><button type="button" title="Urteil / Einschätzung" onclick="trAutoEdit('${jsq(x.id)}')">✏️</button><button type="button" title="${x.hidden ? 'Wieder anzeigen' : 'Ausblenden'}" onclick="trAutoHide('${jsq(x.id)}')">${x.hidden ? '👁' : '🗑'}</button></div>` : '');
     const src = String(x.src || '').replace(/\s*·\s*\d{4}-\d{2}-\d{2}$/, '');
     return `<div data-id="${esc(x.id)}" class="tr-card${trCurrentFilter !== 'all' && x.verdict !== trCurrentFilter ? ' hide' : ''}${x._expired || x.hidden ? ' tr-expired' : ''}" data-verdict="${esc(x.verdict || 'watch')}">${tools}
-      <div class="tr-top"><span class="tr-cat">${Lz(x, 'cat') || (x._auto ? t('tr_auto') : 'Trend')}${x._auto && ((lang === 'en' && !x.title_en) || (lang === 'de' && x.lang === 'en' && (!x.title || x.title === x.title_en))) ? ` <span class="tr-lang-b" title="Original">${x.lang === 'en' ? 'EN' : 'DE'}</span>` : ''}</span><span class="tr-verdict tr-v-${esc(x.verdict || 'watch')}">${vLabel[x.verdict] || vLabel.watch}</span></div>
+      <div class="tr-top"><span class="tr-cat">${Lz(x, 'cat') || (x._auto ? t('tr_auto') : 'Trend')}${x._auto && ((lang !== 'de' && !x.title_en) || (lang === 'de' && x.lang === 'en' && (!x.title || x.title === x.title_en))) ? ` <span class="tr-lang-b" title="Original">${x.lang === 'en' ? 'EN' : 'DE'}</span>` : ''}</span><span class="tr-verdict tr-v-${esc(x.verdict || 'watch')}">${vLabel[x.verdict] || vLabel.watch}</span></div>
       <div class="tr-title">${trDate(x) && trAge(x) < 3 ? `<span class="tr-new">${t('tr_new')}</span> ` : ''}${Lz(x, 'title')}</div>
       <div class="tr-desc">${Lz(x, 'desc')}</div>
       ${Lz(x, 'take') ? `<div class="tr-take"><strong>${t('tr_take')}</strong>${Lz(x, 'take')}</div>` : ''}
@@ -8014,7 +8344,7 @@ let kkStyleCur = 'normal';
 function kkInit(){
   const s = document.getElementById('kk-dest'); if (!s) return;
   const cur = s.value;
-  s.innerHTML = KK_DEST.map(d => `<option value="${d.k}">${esc(lang === 'en' ? d.name_en : d.name)}</option>`).join('');
+  s.innerHTML = KK_DEST.map(d => `<option value="${d.k}">${esc(lang !== 'de' ? d.name_en : d.name)}</option>`).join('');
   if (cur) s.value = cur;
   kkCalc();
 }
@@ -8092,7 +8422,7 @@ function mtStart(){
   mtShow();
 }
 function mtShow(){
-  const li = lang === 'en' ? 1 : 0;
+  const li = lang !== 'de' ? 1 : 0;
   const q = MT_Q[mtIdx];
   document.getElementById('mt-prog').style.width = (mtIdx / MT_Q.length * 100) + '%';
   document.getElementById('mt-q').textContent = q.q[li];
@@ -8105,7 +8435,7 @@ function mtShow(){
   });
 }
 function mtResult(){
-  const li = lang === 'en' ? 1 : 0;
+  const li = lang !== 'de' ? 1 : 0;
   document.getElementById('mt-prog').style.width = '100%';
   if (!mtWin){ const win = Object.entries(mtScore).sort((a, b) => b[1] - a[1])[0]; mtWin = win ? win[0] : 'tirana'; }
   const r = MT_RES[mtWin] || MT_RES.tirana;
@@ -8310,7 +8640,7 @@ function closeDetail(fromRouter){
 function dtRender(){
   const d = HG.detail(dtKey);
   const body = document.getElementById('dt-body');
-  const txt0 = lang === 'en' ? (d.text_en || d.text || '') : (d.text || '');
+  const txt0 = lang !== 'de' ? (d.text_en || d.text || '') : (d.text || '');
   body.innerHTML = txt0;
   body.classList.toggle('dt-empty-body', !txt0);
   body.style.display = (!txt0 && !HG.editing) ? 'none' : '';
@@ -8343,7 +8673,7 @@ function dtRenderGallery(){
   const ttl = document.getElementById('dt-gal-t');
   g.innerHTML = ph.map((src, i) => {
     const s = HG.img(src); const vid = /\.(mp4|webm|mov)$/i.test(src); const sm = /^images\/photos\/[^/]+$/.test(src) ? HG.img(src.replace('images/photos/', 'images/photos/t/')) : s;
-    return `<div class="dt-ph">${vid ? `<video src="${esc(s)}"${/^images\/video\/[^/]+\.mp4$/.test(src) ? ` poster="${esc(HG.img(src.replace(/^images\/video\/(.+)\.mp4$/, 'images/video/p/$1.webp')))}"` : ''} autoplay muted loop playsinline preload="metadata"></video>` : `<img src="${esc(sm)}" alt="" loading="lazy" onclick="dtLightbox(${i})">`}${HG.editing ? `<button type="button" class="dt-ph-del hg-ui" onclick="dtDelPhoto(${i})" aria-label="Löschen">×</button>` : ''}</div>`;
+    return `<div class="dt-ph">${vid ? `<video src="${esc(s)}"${/^images\/video\/[^/]+\.mp4$/.test(src) ? ` poster="${esc(HG.img(src.replace(/^images\/video\/(.+)\.mp4$/, 'images/video/p/$1.webp')))}"` : ''} autoplay muted loop playsinline preload="metadata"></video><button type="button" class="vid-snd" onclick="vidSnd(this)" aria-label="${esc(stripTags(t('st_sound')))}">🔇</button>` : `<img src="${esc(sm)}" alt="" loading="lazy" onclick="dtLightbox(${i})">`}${HG.editing ? `<button type="button" class="dt-ph-del hg-ui" onclick="dtDelPhoto(${i})" aria-label="Löschen">×</button>` : ''}</div>`;
   }).join('') + (HG.editing ? `<label class="dt-addph hg-ui"><span style="font-size:22px">＋</span><span>Foto / Video</span><input type="file" accept="image/*,video/mp4,video/webm" hidden onchange="dtAddPhoto(this)"></label>` : '');
   const show = ph.length || HG.editing;
   g.style.display = show ? '' : 'none'; if (ttl) ttl.style.display = show ? '' : 'none';

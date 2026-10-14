@@ -1253,5 +1253,43 @@
   "title_en": "Matcha, brownie and cheesecake - my café stop in Blloku",
   "date": "2026",
   "date_en": "2026"
+ },
+ {
+  "id": "m-cala-almunia",
+  "kind": "gem",
+  "cc": "ES",
+  "flag": "🇪🇸",
+  "town": "Mallorca",
+  "town_en": "Mallorca",
+  "city": "Cala s'Almunia",
+  "city_en": "Cala s'Almunia",
+  "cat": "beach",
+  "lat": 39.3243,
+  "lon": 3.1392,
+  "q": "Cala s'Almunia, Santanyí",
+  "rating": 5,
+  "price": "free",
+  "title": "Fischer-Bootshäuser im Fels und türkises Wasser - der ruhigere Nachbar des überlaufenen Caló des Moro",
+  "title_en": "Fishermen's boathouses in the rock and turquoise water - the calmer neighbour of crowded Caló des Moro",
+  "date": "2026",
+  "date_en": "2026"
+ },
+ {
+  "id": "m-little-tokyo",
+  "kind": "gem",
+  "cc": "DE",
+  "flag": "🇩🇪",
+  "town": "Düsseldorf",
+  "town_en": "Düsseldorf",
+  "city": "Little Tokyo an der Immermannstraße",
+  "city_en": "Little Tokyo on Immermannstrasse",
+  "cat": "food",
+  "lat": 51.2243,
+  "lon": 6.7868,
+  "q": "Immermannstraße, Düsseldorf",
+  "rating": 5,
+  "price": "€",
+  "title": "Ramen, japanische Bäckereien und Supermärkte - Deutschlands größte japanische Community, mitten in der Stadt",
+  "title_en": "Ramen, Japanese bakeries and supermarkets - Germany's largest Japanese community, right in the city centre"
  }
 ]

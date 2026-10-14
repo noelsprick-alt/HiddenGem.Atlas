@@ -19,7 +19,7 @@ Der Token bleibt nur auf deinem Gerät. Alle Änderungen landen in `data/content
 - Formulare (Bewerbung, Newsletter) kommen per E-Mail über FormSubmit an die Adresse aus ⚙️ → Formulare. Beim allerersten Absenden kommt eine Aktivierungs-Mail - einmal bestätigen.
 
 ## Dateien
-- `index.html` - die komplette Website (alle Unterseiten, DE/EN)
+- `index.html` - die komplette Website (alle Unterseiten, DE/EN/ES)
 - `fonts/` - Schriften (lokal, DSGVO)
 - `data/content.json` - deine Änderungen aus dem Editor
 - `data/trends.json` - automatisch gepflegte Trends
@@ -52,6 +52,13 @@ Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt p
 `pip install pillow pillow-heif` · `python3 scripts/process_photos.py scan <ordner>` (verkleinert auf WebP, Vorschau in `images/photos/t/`, GPS -> nächster Ort ≤ 400 m, ohne EXIF im Web-Bild) · danach `apply` trägt die Fotos in `data/content.json` ein (`moment-<id>` = Ortsgalerie, `pillar-fotografie` = Fotografie-Galerie).
 
 ## Medien (v13.2)
-- `images/photos/*.webp` (+ `t/` Vorschau) · `images/video/*.mp4` (H.264, 720p, ohne Ton) + Poster `images/video/p/*.webp`
+- `images/photos/*.webp` (+ `t/` Vorschau) · `images/video/*.mp4` (H.264, 720p, **mit Ton** AAC; startet stumm, Ton-Schalter in Stories/Galerie) + Poster `images/video/p/*.webp`
 - Zuordnung in `data/content.json` → `detail[<key>].photos` (`moment-<id>`, `blog-bc-<n>`, `rc-<id>`, `pillar-fotografie`), Porträt in `images.about-portrait`
 - Story-Highlights auf „Über mich“: `data/stories.json` (Gruppen mit `cover` + `items[src, poster, cap, cap_en]`)
+
+## v14 (Okt 2026)
+- **Startseite:** rotierende Hintergrund-Fotos `images/hero/<name>-w.webp` (quer, Desktop) / `-p.webp` (hoch, Handy); Liste `HERO_SLIDES` in `index.html` (Name + Ort DE/EN/ES).
+- **Karte:** `data/moments-unesco.json` = alle 1.273 UNESCO-Welterbestätten (Snapshot 23.08.2026): `items` = neue Orte (`unesco` = Jahr, `whc` = UNESCO-ID), `tag` = bestehende Orte, die Welterbe sind (`id → [Jahr, whc]`). `data/moments-curated.json` = kuratierte Ebenen mit `theme`: `story` (verrückte Geschichten), `adventure` (Abenteuer), `bar` (legendäre Bars).
+- **Filter:** Themen-Buttons (UNESCO/Geschichten/Abenteuer/Bars), Land-Auswahl und Stadt-Suche immer sichtbar.
+- **Meine Reiseroute:** ➕ bei jedem Ort, Liste ordnen/optimieren, Export als Google-Maps-Route (in Teilen à 9 Zwischenstopps), KML für Google My Maps, CSV. Gespeichert nur im Browser (`hg-myroute`).
+- **Spanisch:** `data/i18n-es.json` (`t` = Schlüssel → Text); fehlende Schlüssel und Inhalte ohne `_es` fallen auf Englisch zurück. Datensätze können `title_es`, `city_es` usw. bekommen.
