@@ -62,3 +62,10 @@ Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt p
 - **Filter:** Themen-Buttons (UNESCO/Geschichten/Abenteuer/Bars), Land-Auswahl und Stadt-Suche immer sichtbar.
 - **Meine Reiseroute:** ➕ bei jedem Ort, Liste ordnen/optimieren, Export als Google-Maps-Route (in Teilen à 9 Zwischenstopps), KML für Google My Maps, CSV. Gespeichert nur im Browser (`hg-myroute`).
 - **Spanisch:** `data/i18n-es.json` (`t` = Schlüssel → Text); fehlende Schlüssel und Inhalte ohne `_es` fallen auf Englisch zurück. Datensätze können `title_es`, `city_es` usw. bekommen.
+
+## SEO (v15)
+- `node scripts/build-seo.mjs` erzeugt statische, indexierbare Seiten `de/` + `en/` (Länder, UNESCO je Land, Städte, Hidden-Gem-/Story-/Bar-Orte, Tagesrouten), `sitemap.xml`, `robots.txt`, `seo.css`. Quelle: `MOMENTS` in index.html + `data/*.json`.
+- GitHub Action `seo.yml` baut die Seiten automatisch neu, wenn sich Orte, Routen oder Texte ändern.
+- Blog-Artikel entstehen automatisch, sobald in `data/content.json` der "Entwurf"-Marker entfernt ist (Text >= 600 Zeichen).
+- Eigene Domain: Datei `CNAME` mit der Domain anlegen (z. B. `hiddengem.atlas`), Generator nutzt sie als Basis-URL. robots.txt wirkt nur auf einer eigenen Domain (auf github.io/HiddenGem.Atlas liegt sie nicht im Host-Root).
+- Search Console: Property anlegen, Sitemap `sitemap.xml` einreichen.

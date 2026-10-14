@@ -10,7 +10,7 @@
 <meta name="theme-color" content="#1a0e04">
 <link rel="canonical" href="https://noelsprick-alt.github.io/HiddenGem.Atlas/">
 <link rel="alternate" hreflang="de" href="https://noelsprick-alt.github.io/HiddenGem.Atlas/">
-<link rel="alternate" hreflang="en" href="https://noelsprick-alt.github.io/HiddenGem.Atlas/">
+<link rel="alternate" hreflang="x-default" href="https://noelsprick-alt.github.io/HiddenGem.Atlas/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a0e04'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' text-anchor='middle' fill='%23e8923a' font-style='italic'%3EG%3C/text%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="HiddenGem.Atlas">
@@ -352,7 +352,7 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:1.2rem
 
 /* FOOTER */
 footer{padding:3rem 2.5rem;background:var(--bg2)}
-.ft-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2.5rem;margin-bottom:2.5rem}
+.ft-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr 1fr;gap:2.5rem;margin-bottom:2.5rem}
 .ft-logo{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;margin-bottom:.75rem;display:block;letter-spacing:0.3px}
 .ft-logo em{font-style:italic;color:var(--gold);font-weight:300}
 .ft-brand p{font-size:12px;color:var(--text3);line-height:1.7;max-width:220px}
@@ -3257,6 +3257,13 @@ body.sr-lock{overflow:hidden}
       <a href="#/shop" data-i18n="ft_sticker-pack">Sticker Pack</a>
     </div>
     <div class="ft-col">
+      <h4 data-i18n="ft_world">Weltweit entdecken</h4>
+      <a data-seo="hub" href="de/laender/" data-i18n="ft_w1">Alle Länder A-Z</a>
+      <a data-seo="unesco" href="de/unesco/" data-i18n="ft_w2">UNESCO-Welterbe weltweit</a>
+      <a data-seo="routes" href="de/routen/" data-i18n="ft_w3">Fertige Tagesrouten</a>
+      <a href="#/momente" data-i18n="ft_w4">Karte &amp; Reiseroute</a>
+    </div>
+    <div class="ft-col">
       <h4 data-i18n="ft_info">Info</h4>
       <a href="#/impressum" onclick="openM('imp');return false"><span data-i18n="imp">Impressum</span></a>
       <a href="#/datenschutz" onclick="openM('ds');return false"><span data-i18n="prv">Datenschutz</span></a>
@@ -3564,6 +3571,11 @@ const I18N = {
 "ft_dest":["Destinationen","Destinations"],
 "ft_dusseldorf":["Düsseldorf *","Düsseldorf *"],
 "ft_info":["Info","Info"],
+"ft_world":["Weltweit entdecken","Explore worldwide"],
+"ft_w1":["Alle Länder A-Z","All countries A-Z"],
+"ft_w2":["UNESCO-Welterbe weltweit","UNESCO World Heritage worldwide"],
+"ft_w3":["Fertige Tagesrouten","Ready-made day routes"],
+"ft_w4":["Karte & Reiseroute","Map & route planner"],
 "ft_kyoto":["Kyoto *","Kyoto *"],
 "ft_ljubljana":["Ljubljana *","Ljubljana *"],
 "ft_prag":["Prag *","Prague *"],
@@ -4418,6 +4430,7 @@ function setL(c, instant){
   const run = () => {
     lang = c; document.documentElement.lang = c; safeLS.setItem('tll-lang', c);
     applyTexts(); buildLBar(); HG.rerender(); hgRouteMeta();
+    try{ const sl = c === 'en' ? {hub:'en/countries/',unesco:'en/unesco/',routes:'en/routes/'} : {hub:'de/laender/',unesco:'de/unesco/',routes:'de/routen/'}; document.querySelectorAll('a[data-seo]').forEach(a => { a.setAttribute('href', sl[a.dataset.seo]); }); }catch(e){}
     if (typeof hgEditLangChanged === 'function') hgEditLangChanged();
     document.body.classList.remove('switching');
   };
