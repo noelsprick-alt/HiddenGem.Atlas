@@ -1,8 +1,8 @@
 {
-  "updated": "17.10.2026",
-  "generated": "2026-10-17T09:05:48.988Z",
+  "updated": "18.10.2026",
+  "generated": "2026-10-18T09:23:52.386Z",
   "maxAgeDays": 14,
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "id": "auto-sozopol-in-bulgarien-diese-stadt-an-der-schwar",
@@ -87,20 +87,6 @@
       "desc": "Wer in Italien auf dem Flughafen Orio al Serio landet, der will für gewöhnlich nach Mailand. Näher liegt aber Bergamo - und das ist ein echter Glücksfall, denn märchenhafter könnte eine Stadt kaum sein. TRAVELBOOK hat diese versteckte ...",
       "title_en": "Many people ignore it: this city is Italy's most beautiful insider tip",
       "desc_en": "Anyone who lands at Orio al Serio airport in Italy usually wants to go to Milan. But Bergamo is closer - and that's a real stroke of luck, because a city couldn't be more magical. TRAVELBOOK has this hidden..."
-    },
-    {
-      "id": "auto-tipps-von-autorin-warum-sich-ein-besuch-in-rom",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-03",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/news/warum-sich-rom-im-oktober-besonders-lohnt",
-      "title": "Tipps von Autorin: Warum sich ein Besuch in Rom im Oktober besonders lohnt",
-      "desc": "Overtourism ist ein Phänomen, das in vielen Metropolen Europas längst Einzug gehalten hat. Doch glücklicherweise gibt es auch in Städten wie Rom noch den ein oder anderen Geheimtipp. Das lohnt sich insbesondere, wenn man die Stadt im ...",
-      "title_en": "Tips from the author: Why a visit to Rome in October is particularly worthwhile",
-      "desc_en": "Overtourism is a phenomenon that has long since found its way into many European cities. But fortunately there are still one or two insider tips in cities like Rome. This is particularly worthwhile if you visit the city in..."
     }
   ]
 }
