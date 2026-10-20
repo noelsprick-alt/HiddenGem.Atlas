@@ -1,9 +1,23 @@
 {
-  "updated": "19.10.2026",
-  "generated": "2026-10-19T10:36:11.586Z",
+  "updated": "20.10.2026",
+  "generated": "2026-10-20T09:53:30.501Z",
   "maxAgeDays": 14,
   "count": 5,
   "items": [
+    {
+      "id": "auto-aktuelle-analyse-diese-acht-urlaubsorte-gelten",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-19",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/ziele/diese-acht-urlaubsorte-gelten-noch-als-geheimtipps",
+      "title": "Aktuelle Analyse: Diese acht Urlaubsorte gelten noch als Geheimtipps",
+      "desc": "Überfüllte Hotspots, volle Strände und hohe Hotelpreise müssen im Urlaub nicht sein. Wer 2027 neue Reiseziele entdecken möchte, findet von den Bergen Kirgisistans über Europas weniger bekannte Städte bis zu einsamen Atlantikbuchten ...",
+      "title_en": "Current analysis: These eight holiday destinations are still considered insider tips",
+      "desc_en": "Overcrowded hotspots, full beaches and high hotel prices don't have to be a part of your vacation. If you want to discover new travel destinations in 2027, you will find everything from the mountains of Kyrgyzstan to Europe's lesser-known cities to lonely Atlantic bays..."
+    },
     {
       "id": "auto-sozopol-in-bulgarien-diese-stadt-an-der-schwar",
       "cat": "Reise",
@@ -59,20 +73,6 @@
       "desc": "Südwestlich von Sizilien liegt die Vulkaninsel Pantelleria. Vielen ist sie vielleicht noch kein Begriff, dabei hat das zu Italien gehörende Eiland einiges zu bieten. Mit heißen Quellen, zerklüfteten Küsten und geprägt von schwarzem ...",
       "title_en": "Shaped by wind and lava rock: This Italian island is still a real insider tip",
       "desc_en": "Southwest of Sicily lies the volcanic island of Pantelleria. Many people may not be familiar with it, but the island, which belongs to Italy, has a lot to offer. With hot springs, rugged coastlines and characterized by black ..."
-    },
-    {
-      "id": "auto-inklusive-geheimtipp-9-der-schonsten-strande-a",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-05",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/ziele/schoenste-straende-auf-mauritius",
-      "title": "Inklusive Geheimtipp: 9 der schönsten Strände auf Mauritius",
-      "desc": "Mauritius ist seit Jahrzehnten nicht nur bei den Deutschen eines der beliebtesten Winter-Urlaubsziele. Kein Wunder, denn die Strände auf Mauritius locken mit paradiesischen Panoramen. Welche Strände sich besonders für einen Besuch ...",
-      "title_en": "Including insider tip: 9 of the most beautiful beaches in Mauritius",
-      "desc_en": "Mauritius has been one of the most popular winter holiday destinations for decades, and not just among Germans. No wonder, because the beaches in Mauritius entice you with paradisiacal panoramas. Which beaches are particularly suitable for visiting..."
     }
   ]
 }
