@@ -14,6 +14,6 @@ h2{font:400 26px 'Cormorant Garamond',Georgia,serif;margin:1.6em 0 .5em}.lead{fo
 .ty{color:var(--text2);font-size:13px}.mini{font-size:12px;margin-left:6px}.meta{color:var(--text2);font-size:14px}.badge{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:1px 9px;font-size:12px;color:var(--gold)}
 .chips{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}.chips a{display:inline-block;border:1px solid var(--line);background:var(--bg2);border-radius:20px;padding:5px 13px;text-decoration:none;color:var(--text)}.chips b{color:var(--gold);font-weight:600;margin-left:4px}
 .gyg{margin:2em 0;padding:18px;border:1px solid var(--gold);border-radius:12px;background:var(--bg2)}.gyg h2{margin:.1em 0 .3em}.gyg .ad{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text2)}.gyg small{display:block;color:var(--text2);margin-top:6px}
-.story{font-size:17px}.src{font-size:12px;color:var(--text2);margin-top:2em}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin:1.2em 0}.gal img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:10px;display:block}.story{font-size:17px}.src{font-size:12px;color:var(--text2);margin-top:2em}
 footer{border-top:1px solid var(--line);padding:24px 16px;text-align:center;font-size:13px;color:var(--text2)}footer a{color:var(--text2)}
 @media(max-width:620px){.pl.two{columns:1}}

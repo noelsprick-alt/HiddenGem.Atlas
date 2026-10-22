@@ -26,10 +26,14 @@
    "text": "<p>Albanien ist für mich Europas letztes großes Geheimnis. In Tirana bin ich durch Bunk'Art gelaufen, einen ehemaligen Atombunker, fast menschenleer - beeindruckender als so manches West-Museum. Draußen eine Stadt voller Farben, Cafés und Aufbruch.</p><p><em>✍️ Entwurf von HiddenGem.Atlas - schreib hier deine echte Geschichte weiter (im ?edit-Modus anklicken).</em></p>",
    "text_en": "<p>Albania is Europe's last great secret to me. In Tirana I walked through Bunk'Art, a former nuclear bunker, almost empty - more impressive than many a Western museum. Outside, a city full of colour, cafés and momentum.</p><p><em>✍️ Draft - continue your own story here (click in ?edit mode).</em></p>",
    "photos": [
+    "images/photos/durres-verlassene-villa.webp",
     "images/video/tirana-matcha-cafe.mp4",
     "images/video/durres-strand-nacht.mp4",
     "images/photos/albanien-aussicht.webp",
-    "images/video/durres-essen.mp4"
+    "images/video/durres-essen.mp4",
+    "images/photos/durres-flagge.webp",
+    "images/photos/durres-hunde.webp",
+    "images/photos/durres-strasse.webp"
    ]
   },
   "blog-bc-15": {
@@ -40,7 +44,8 @@
    "text": "<p>Österreich war für mich beides: Stadt und Berg in einem Trip. In Bad Gastein rauscht ein Wasserfall mitten durch den Ort, umgeben von morbider Belle-Époque-Eleganz - ein Ort wie aus einer anderen Zeit. Dazu Wien, Salzburg und Innsbruck, jede Stadt mit eigenem Charakter.</p><p><em>✍️ Entwurf von HiddenGem.Atlas - schreib hier deine echte Geschichte weiter (im ?edit-Modus anklicken).</em></p>",
    "text_en": "<p>Austria was both for me: city and mountain in one trip. In Bad Gastein a waterfall roars right through the town, surrounded by faded Belle Époque elegance - a place from another era. Plus Vienna, Salzburg and Innsbruck, each city with its own character.</p><p><em>✍️ Draft - continue your own story here (click in ?edit mode).</em></p>",
    "photos": [
-    "images/video/landawirsee-baden.mp4"
+    "images/video/landawirsee-baden.mp4",
+    "images/photos/landawirsee-kaiserschmarrn.webp"
    ]
   },
   "pillar-hidden-gems": {
@@ -66,7 +71,15 @@
     "images/video/cala-marmols.mp4",
     "images/video/phuket-sonnenuntergang.mp4",
     "images/video/landawirsee-baden.mp4",
-    "images/photos/regenbogen-autobahn.webp"
+    "images/photos/regenbogen-autobahn.webp",
+    "images/photos/pula-felsen-abend.webp",
+    "images/photos/pula-brandung.webp",
+    "images/photos/gent-fotograf.webp",
+    "images/photos/krabi-aussicht.webp",
+    "images/photos/thailand-weisser-tempel.webp",
+    "images/photos/thailand-sonnenuntergang.webp",
+    "images/photos/valldemossa-fotograf.webp",
+    "images/photos/luxemburg-pont-adolphe.webp"
    ]
   },
   "pillar-travel-mindset": {
@@ -84,20 +97,42 @@
     "images/photos/qanat-hauptgang.webp",
     "images/photos/qanat-dessert.webp",
     "images/video/palma-kochkurs-reel.mp4",
-    "images/video/palma-moltak-kochen.mp4"
+    "images/video/palma-moltak-kochen.mp4",
+    "images/photos/palma-kathedrale.webp",
+    "images/photos/cala-marmols-abstieg.webp",
+    "images/photos/qanat-terrasse.webp",
+    "images/photos/palma-kochkurs.webp"
    ]
   },
   "blog-bc-27": {
    "photos": [
     "images/photos/marrakesch-riad-pool.webp",
-    "images/photos/marrakesch-terrasse.webp"
+    "images/photos/marrakesch-terrasse.webp",
+    "images/photos/marrakesch-riad-nacht.webp"
    ]
   },
   "blog-bc-9": {
    "photos": [
     "images/photos/krabi-dschungelweg.webp",
     "images/video/phuket-sonnenuntergang.mp4",
-    "images/photos/thailand-hoehle.webp"
+    "images/photos/thailand-hoehle.webp",
+    "images/photos/krabi-aussicht.webp",
+    "images/photos/krabi-eiskaffee.webp",
+    "images/photos/phuket-big-buddha.webp",
+    "images/photos/thailand-insekten.webp",
+    "images/photos/thailand-seidenraupen.webp",
+    "images/photos/thailand-obstmarkt.webp",
+    "images/photos/krabi-heisse-quellen.webp",
+    "images/photos/krabi-longtail.webp",
+    "images/photos/krabi-affe.webp",
+    "images/photos/krabi-treppe.webp",
+    "images/photos/krabi-waran.webp",
+    "images/photos/krabi-schaukel.webp",
+    "images/photos/andamanensee-gewitter.webp",
+    "images/photos/phuket-kata-abend.webp",
+    "images/photos/thailand-weisser-tempel.webp",
+    "images/photos/thailand-wasserfall.webp",
+    "images/photos/thailand-sonnenuntergang.webp"
    ]
   },
   "blog-bc-2": {
@@ -116,7 +151,8 @@
    "photos": [
     "images/video/flingern-reel.mp4",
     "images/video/flingern-strasse.mp4",
-    "images/video/duesseldorf-little-tokyo.mp4"
+    "images/video/duesseldorf-little-tokyo.mp4",
+    "images/photos/duesseldorf-rheinufer.webp"
    ]
   },
   "rc-albanien-tirana": {
@@ -128,12 +164,15 @@
   },
   "moment-m-landawirsee": {
    "photos": [
-    "images/video/landawirsee-baden.mp4"
+    "images/video/landawirsee-baden.mp4",
+    "images/photos/landawirsee-kaiserschmarrn.webp"
    ]
   },
   "moment-m-cala-marmols": {
    "photos": [
-    "images/video/cala-marmols.mp4"
+    "images/video/cala-marmols.mp4",
+    "images/photos/cala-marmols-abstieg.webp",
+    "images/photos/cala-marmols-felsbogen.webp"
    ]
   },
   "moment-m-vilafranca-mercat": {
@@ -144,7 +183,9 @@
   "moment-m-qanat": {
    "photos": [
     "images/photos/qanat-hauptgang.webp",
-    "images/photos/qanat-dessert.webp"
+    "images/photos/qanat-dessert.webp",
+    "images/photos/qanat-terrasse.webp",
+    "images/photos/qanat-vorspeise.webp"
    ]
   },
   "moment-m-tirana-matcha": {
@@ -164,12 +205,22 @@
   },
   "moment-ms-mal-seu": {
    "photos": [
-    "images/video/palma-rooftop.mp4"
+    "images/video/palma-rooftop.mp4",
+    "images/photos/palma-kathedrale.webp"
    ]
   },
   "blog-bc-23": {
    "photos": [
-    "images/photos/antwerpen-grote-markt.webp"
+    "images/photos/antwerpen-grote-markt.webp",
+    "images/photos/gent-graslei.webp",
+    "images/photos/gent-graffiti-wand.webp",
+    "images/photos/gent-streetart.webp",
+    "images/photos/gent-waffel.webp",
+    "images/photos/gent-rathaus.webp",
+    "images/photos/gent-abend.webp",
+    "images/photos/gent-aperol.webp",
+    "images/photos/gent-matcha.webp",
+    "images/photos/gent-designladen.webp"
    ]
   },
   "moment-ms-anr-grotemarkt": {
@@ -195,6 +246,92 @@
   "moment-w-es-calo-des-moro": {
    "photos": [
     "images/video/cala-almunia.mp4"
+   ]
+  },
+  "moment-ms-pul-arena": {
+   "photos": [
+    "images/photos/pula-arena.webp"
+   ]
+  },
+  "blog-bc-20": {
+   "photos": [
+    "images/photos/pula-arena.webp",
+    "images/photos/pula-forum-kaffee.webp",
+    "images/photos/pula-felsen-abend.webp",
+    "images/photos/pula-sonnenuntergang.webp",
+    "images/photos/pula-felsloch.webp",
+    "images/photos/pula-brandung.webp",
+    "images/photos/pula-fischerboot.webp",
+    "images/photos/pula-fischmarkt.webp",
+    "images/photos/pula-klosterhof.webp",
+    "images/photos/pula-verudela.webp",
+    "images/photos/pula-altstadtgasse.webp"
+   ]
+  },
+  "moment-ms-pul-augustus": {
+   "photos": [
+    "images/photos/pula-forum-kaffee.webp"
+   ]
+  },
+  "moment-ms-pul-verudela": {
+   "photos": [
+    "images/photos/pula-verudela.webp",
+    "images/photos/pula-kueste-daemmerung.webp"
+   ]
+  },
+  "moment-w-be-graslei-and-korenlei": {
+   "photos": [
+    "images/photos/gent-graslei.webp",
+    "images/photos/gent-abend.webp",
+    "images/photos/gent-nacht.webp"
+   ]
+  },
+  "moment-m-gent-graffiti": {
+   "photos": [
+    "images/photos/gent-graffiti-wand.webp",
+    "images/photos/gent-streetart.webp",
+    "images/photos/gent-graffiti-gasse.webp"
+   ]
+  },
+  "moment-ms-hkt-bigbuddha": {
+   "photos": [
+    "images/photos/phuket-big-buddha.webp"
+   ]
+  },
+  "moment-ms-kbv-hotsprings": {
+   "photos": [
+    "images/photos/krabi-heisse-quellen.webp"
+   ]
+  },
+  "moment-ms-hkt-kata": {
+   "photos": [
+    "images/photos/phuket-kata-abend.webp"
+   ]
+  },
+  "moment-ms-mal-valldemossa": {
+   "photos": [
+    "images/photos/valldemossa-fotograf.webp"
+   ]
+  },
+  "moment-ms-lux-adolphe": {
+   "photos": [
+    "images/photos/luxemburg-pont-adolphe.webp"
+   ]
+  },
+  "blog-bc-22": {
+   "photos": [
+    "images/photos/luxemburg-pont-adolphe.webp",
+    "images/photos/luxemburg-grund.webp"
+   ]
+  },
+  "moment-ms-lux-grund": {
+   "photos": [
+    "images/photos/luxemburg-grund.webp"
+   ]
+  },
+  "moment-ms-dd-promenade": {
+   "photos": [
+    "images/photos/duesseldorf-rheinufer.webp"
    ]
   }
  },

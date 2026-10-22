@@ -1291,5 +1291,24 @@
   "price": "€",
   "title": "Ramen, japanische Bäckereien und Supermärkte - Deutschlands größte japanische Community, mitten in der Stadt",
   "title_en": "Ramen, Japanese bakeries and supermarkets - Germany's largest Japanese community, right in the city centre"
+ },
+ {
+  "id": "m-gent-graffiti",
+  "kind": "gem",
+  "cc": "BE",
+  "flag": "🇧🇪",
+  "town": "Gent",
+  "town_en": "Ghent",
+  "city": "Werregarenstraatje (Graffiti-Gasse)",
+  "city_en": "Werregarenstraatje (graffiti alley)",
+  "city_es": "Werregarenstraatje (callejón del grafiti)",
+  "cat": "culture",
+  "lat": 51.0555,
+  "lon": 3.7246,
+  "q": "Werregarenstraatje, Gent",
+  "price": "free",
+  "title": "Legale Graffiti-Gasse mitten in der Altstadt - die Wände werden ständig neu besprüht, kein Besuch sieht aus wie der letzte",
+  "title_en": "A legal graffiti alley right in the old town - the walls get repainted constantly, so no two visits look the same",
+  "title_es": "Un callejón de grafiti legal en pleno casco antiguo - las paredes se repintan sin parar, ninguna visita se parece a la anterior"
  }
 ]

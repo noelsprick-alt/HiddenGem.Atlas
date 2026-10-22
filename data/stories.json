@@ -13,6 +13,12 @@
      "poster": "images/video/p/landawirsee-baden.webp",
      "cap": "Landawirsee, Lungau · 1.968 m · Okt. 2026",
      "cap_en": "Landawirsee lake, Lungau · 1,968 m · Oct 2026"
+    },
+    {
+     "src": "images/photos/landawirsee-kaiserschmarrn.webp",
+     "cap": "Kaiserschmarrn auf der Hütte am Landawirsee",
+     "cap_en": "Kaiserschmarrn at the hut by Landawirsee",
+     "cap_es": "Kaiserschmarrn en el refugio del Landawirsee"
     }
    ]
   },
@@ -90,6 +96,36 @@
      "src": "images/photos/mallorca-paar.webp",
      "cap": "Mallorca - Tramuntana im Hintergrund",
      "cap_en": "Mallorca - the Tramuntana behind us"
+    },
+    {
+     "src": "images/photos/palma-kathedrale.webp",
+     "cap": "Palma · La Seu zwischen Palmen · April 2026",
+     "cap_en": "Palma · La Seu between the palms · April 2026",
+     "cap_es": "Palma · La Seu entre palmeras · abril 2026"
+    },
+    {
+     "src": "images/photos/valldemossa-fotograf.webp",
+     "cap": "Valldemossa · hinter der Kamera",
+     "cap_en": "Valldemossa · behind the camera",
+     "cap_es": "Valldemossa · detrás de la cámara"
+    },
+    {
+     "src": "images/photos/cala-marmols-abstieg.webp",
+     "cap": "Abstieg zur Cala Màrmols · Sept. 2026",
+     "cap_en": "Hiking down to Cala Màrmols · Sept 2026",
+     "cap_es": "Bajando a Cala Màrmols · sept. 2026"
+    },
+    {
+     "src": "images/photos/qanat-terrasse.webp",
+     "cap": "Qanat de Treurer · Terrasse zur goldenen Stunde",
+     "cap_en": "Qanat de Treurer · the terrace at golden hour",
+     "cap_es": "Qanat de Treurer · la terraza a la hora dorada"
+    },
+    {
+     "src": "images/photos/palma-kochkurs.webp",
+     "cap": "Kochkurs bei Moltak, Palma · Sept. 2026",
+     "cap_en": "Cooking class at Moltak, Palma · Sept 2026",
+     "cap_es": "Clase de cocina en Moltak, Palma · sept. 2026"
     }
    ]
   },
@@ -148,6 +184,76 @@
      "poster": "images/video/p/durres-essen.webp",
      "cap": "Durrës - Mittagessen · Mai 2026",
      "cap_en": "Durrës - lunch · May 2026"
+    },
+    {
+     "src": "images/photos/durres-flagge.webp",
+     "cap": "Durrës · Flagge vor Hochhaus · Mai 2026",
+     "cap_en": "Durrës · flag against a tower block · May 2026",
+     "cap_es": "Durrës · bandera frente a un rascacielos · mayo 2026"
+    },
+    {
+     "src": "images/photos/durres-hunde.webp",
+     "cap": "Durrës · Straßenhunde auf dem Platz",
+     "cap_en": "Durrës · street dogs on the square",
+     "cap_es": "Durrës · perros callejeros en la plaza"
+    },
+    {
+     "src": "images/photos/durres-verlassene-villa.webp",
+     "cap": "Durrës · verlassene Villa auf dem Hügel",
+     "cap_en": "Durrës · an abandoned villa on the hill",
+     "cap_es": "Durrës · villa abandonada en la colina"
+    }
+   ]
+  },
+  {
+   "id": "istrien",
+   "ic": "🇭🇷",
+   "title": "Istrien",
+   "title_en": "Istria",
+   "title_es": "Istria",
+   "cover": "images/photos/t/pula-arena.webp",
+   "items": [
+    {
+     "src": "images/photos/pula-arena.webp",
+     "cap": "Pula · im Amphitheater · Okt. 2025",
+     "cap_en": "Pula · inside the amphitheatre · Oct 2025",
+     "cap_es": "Pula · en el anfiteatro · oct. 2025"
+    },
+    {
+     "src": "images/photos/pula-forum-kaffee.webp",
+     "cap": "Pula · Kaffee am Forum, dahinter der Augustustempel",
+     "cap_en": "Pula · coffee on the Forum, Temple of Augustus behind",
+     "cap_es": "Pula · café en el Foro, detrás el templo de Augusto"
+    },
+    {
+     "src": "images/photos/pula-felsen-abend.webp",
+     "cap": "Istrien · Felsküste nach Sonnenuntergang · Okt. 2025",
+     "cap_en": "Istria · rocky coast after sunset · Oct 2025",
+     "cap_es": "Istria · costa rocosa tras el atardecer · oct. 2025"
+    },
+    {
+     "src": "images/photos/pula-sonnenuntergang.webp",
+     "cap": "Sonnenuntergang über der Adria · Pula",
+     "cap_en": "Sunset over the Adriatic · Pula",
+     "cap_es": "Atardecer sobre el Adriático · Pula"
+    },
+    {
+     "src": "images/photos/pula-felsloch.webp",
+     "cap": "Istrien · rein ins Felsloch an der Küste",
+     "cap_en": "Istria · climbing into a hole in the coastal rocks",
+     "cap_es": "Istria · metiéndome en un agujero de la roca"
+    },
+    {
+     "src": "images/photos/pula-brandung.webp",
+     "cap": "Brandung an der Felsküste · Istrien",
+     "cap_en": "Surf on the rocky coast · Istria",
+     "cap_es": "Oleaje en la costa rocosa · Istria"
+    },
+    {
+     "src": "images/photos/pula-fischmarkt.webp",
+     "cap": "Pula · Fischmarkt in der Markthalle",
+     "cap_en": "Pula · fish counter in the market hall",
+     "cap_es": "Pula · pescado en el mercado cubierto"
     }
    ]
   },
@@ -173,6 +279,60 @@
      "src": "images/photos/thailand-hoehle.webp",
      "cap": "Thailand - mit Stirnlampe in die Höhle",
      "cap_en": "Thailand - into the cave with a headlamp"
+    },
+    {
+     "src": "images/photos/krabi-aussicht.webp",
+     "cap": "Krabi · Kaffee mit Blick auf die Kalkfelsen · Feb. 2026",
+     "cap_en": "Krabi · coffee facing the limestone peaks · Feb 2026",
+     "cap_es": "Krabi · café frente a los picos calizos · feb. 2026"
+    },
+    {
+     "src": "images/photos/krabi-eiskaffee.webp",
+     "cap": "Krabi · Eiskaffee mit Aussicht",
+     "cap_en": "Krabi · iced coffee with a view",
+     "cap_es": "Krabi · café helado con vistas"
+    },
+    {
+     "src": "images/photos/phuket-big-buddha.webp",
+     "cap": "Phuket · Big Buddha",
+     "cap_en": "Phuket · Big Buddha",
+     "cap_es": "Phuket · Gran Buda"
+    },
+    {
+     "src": "images/photos/thailand-insekten.webp",
+     "cap": "Frittierte Grillen am Markt - pro Löffel bezahlt",
+     "cap_en": "Fried crickets at the market - paid by the spoon",
+     "cap_es": "Grillos fritos en el mercado - se paga por cuchara"
+    },
+    {
+     "src": "images/photos/krabi-heisse-quellen.webp",
+     "cap": "Krabi · in den heißen Quellen",
+     "cap_en": "Krabi · in the hot springs",
+     "cap_es": "Krabi · en las aguas termales"
+    },
+    {
+     "src": "images/photos/krabi-longtail.webp",
+     "cap": "Longtail-Boot im Sonnenuntergang · Krabi",
+     "cap_en": "Longtail boat at sunset · Krabi",
+     "cap_es": "Barca de cola larga al atardecer · Krabi"
+    },
+    {
+     "src": "images/photos/krabi-affe.webp",
+     "cap": "Krabi · Besuch vom Affen",
+     "cap_en": "Krabi · a monkey drops by",
+     "cap_es": "Krabi · visita de un mono"
+    },
+    {
+     "src": "images/photos/krabi-waran.webp",
+     "cap": "Waran am Wegrand",
+     "cap_en": "Monitor lizard by the path",
+     "cap_es": "Varano junto al camino"
+    },
+    {
+     "src": "images/photos/thailand-wasserfall.webp",
+     "cap": "Thailand · unter dem Wasserfall",
+     "cap_en": "Thailand · under the waterfall",
+     "cap_es": "Tailandia · bajo la cascada"
     }
    ]
   },
@@ -192,6 +352,12 @@
      "src": "images/photos/marrakesch-terrasse.webp",
      "cap": "Marrakesch · April 2025",
      "cap_en": "Marrakech · April 2025"
+    },
+    {
+     "src": "images/photos/marrakesch-riad-nacht.webp",
+     "cap": "Marrakesch · Riad-Innenhof bei Nacht · April 2025",
+     "cap_en": "Marrakesh · riad courtyard at night · April 2025",
+     "cap_es": "Marrakech · patio de riad de noche · abril 2025"
     }
    ]
   },
@@ -206,6 +372,36 @@
      "src": "images/photos/antwerpen-grote-markt.webp",
      "cap": "Antwerpen - Grote Markt mit Brabo-Brunnen",
      "cap_en": "Antwerp - Grote Markt with the Brabo Fountain"
+    },
+    {
+     "src": "images/photos/gent-graslei.webp",
+     "cap": "Gent · Graslei mit Ausflugsboot · Jan. 2026",
+     "cap_en": "Ghent · Graslei with a canal boat · Jan 2026",
+     "cap_es": "Gante · Graslei con barco · ene. 2026"
+    },
+    {
+     "src": "images/photos/gent-graffiti-wand.webp",
+     "cap": "Gent · Werregarenstraatje, die legale Graffiti-Gasse",
+     "cap_en": "Ghent · Werregarenstraatje, the legal graffiti alley",
+     "cap_es": "Gante · Werregarenstraatje, el callejón del grafiti legal"
+    },
+    {
+     "src": "images/photos/gent-streetart.webp",
+     "cap": "Gent · hier wird gerade neu gesprüht",
+     "cap_en": "Ghent · fresh paint going up",
+     "cap_es": "Gante · pintando de nuevo"
+    },
+    {
+     "src": "images/photos/gent-waffel.webp",
+     "cap": "Belgische Waffel, Gent",
+     "cap_en": "Belgian waffle, Ghent",
+     "cap_es": "Gofre belga, Gante"
+    },
+    {
+     "src": "images/photos/gent-abend.webp",
+     "cap": "Gent · Abendstimmung an der Graslei",
+     "cap_en": "Ghent · evening on the Graslei",
+     "cap_es": "Gante · atardecer en la Graslei"
     }
    ]
   },
@@ -254,6 +450,12 @@
      "src": "images/photos/regenbogen-autobahn.webp",
      "cap": "Auf dem Heimweg - doppelter Regenbogen",
      "cap_en": "On the way home - a double rainbow"
+    },
+    {
+     "src": "images/photos/duesseldorf-rheinufer.webp",
+     "cap": "Düsseldorf · am Rheinufer · Mai 2026",
+     "cap_en": "Düsseldorf · on the Rhine bank · May 2026",
+     "cap_es": "Düsseldorf · a orillas del Rin · mayo 2026"
     }
    ]
   }

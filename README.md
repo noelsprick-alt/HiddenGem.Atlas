@@ -69,3 +69,11 @@ Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt p
 - Blog-Artikel entstehen automatisch, sobald in `data/content.json` der "Entwurf"-Marker entfernt ist (Text >= 600 Zeichen).
 - Eigene Domain: Datei `CNAME` mit der Domain anlegen (z. B. `hiddengem.atlas`), Generator nutzt sie als Basis-URL. robots.txt wirkt nur auf einer eigenen Domain (auf github.io/HiddenGem.Atlas liegt sie nicht im Host-Root).
 - Search Console: Property anlegen, Sitemap `sitemap.xml` einreichen.
+
+## v16 (Okt 2026)
+- **GetYourGuide:** Rabattcode `HIDDENGEMATLAS5` (alter Code ersetzt), App-Install-Link `gyg.me/hiddengematlas-app` (2 $ pro Installation, 8 % Provision auf App-Buchungen mit Code) im GYG-Bereich und in jeder GYG-Box der SEO-Seiten. Konstanten oben in `scripts/build-seo.mjs`.
+- **GoatCounter** (`hiddengem-atlas`) auch auf den statischen SEO-Seiten.
+- **57 neue Fotos** (Pula/Istrien, Gent, Thailand, Mallorca, Luxemburg, Durrës, Marrakesch, Düsseldorf, Lungau) in Ortsgalerien, Blog-Galerien, Stories (neu: „Istrien“) und als Titelbild für Pula, Luxemburg, Albanien. Hero: `krabi-aussicht`, `pula-arena`.
+- **Neuer Hidden Gem:** `m-gent-graffiti` (Werregarenstraatje, Gent). Graslei als besucht markiert.
+- **SEO-Seiten** zeigen jetzt eigene Fotos (Galerie + og:image) bei Orten und Städten.
+- **Search Console:** Property `https://noelsprick-alt.github.io/HiddenGem.Atlas/` bestätigt, Sitemap eingereicht (22.10.2026).

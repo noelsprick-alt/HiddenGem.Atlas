@@ -65,6 +65,10 @@ const typeOf = (m) => m.unesco ? 'unesco' : (m.theme || (m.kind === 'gem' ? 'gem
 const byCc = new Map(); for (const m of P) { if (!byCc.has(m.cc)) byCc.set(m.cc, []); byCc.get(m.cc).push(m); }
 const detailKey = (m) => 'moment-' + m.id;
 const hasDetail = (m) => { const d = content.detail?.[detailKey(m)]; return d && strip(d.text).length > 120 && !/Entwurf/.test(d.text || ''); };
+// Eigene Fotos aus data/content.json (Galerie je Ort; Videos -> Posterbild)
+const photosOf = (ids) => { const out = []; for (const id of ids) for (const src of (content.detail?.['moment-' + id]?.photos || [])) { const im = /\.mp4$/.test(src) ? src.replace('images/video/', 'images/video/p/').replace(/\.mp4$/, '.webp') : src; if (/\.webp$/.test(im) && !out.includes(im) && fs.existsSync(path.join(ROOT, im))) out.push(im); } return out; };
+const thumbOf = (s) => (s.startsWith('images/photos/') ? s.replace('images/photos/', 'images/photos/t/') : s);
+const gallery = (imgs, alt, U) => (imgs.length ? `<div class="gal">${imgs.slice(0, 6).map((s) => `<a href="${U}${s}"><img src="${U}${thumbOf(s)}" alt="${esc(alt)}" loading="lazy"></a>`).join('')}</div>` : '');
 const wantPlace = (m) => m.kind === 'gem' || !!m.theme || hasDetail(m);
 const uniq = (map, base, id) => { let s = base || 'x', n = 2; while (map.has(s)) s = base + '-' + n++; map.set(s, id); return s; };
 
@@ -188,9 +192,10 @@ for (const lang of ['de', 'en']) {
       const dd = lang === 'de' ? `${a.length} Orte in ${tn}, ${cn}: ${exs} und mehr. Mit Karte, Google-Maps-Link und Touren.` : `${a.length} places in ${tn}, ${cn}: ${exs} and more. With map, Google Maps link and tours.`;
       const rts = routes.filter((r) => r.cc === cc && r.town === tw);
       let b = `<p><a class="btn" href="${U3}index.html#/momente">${t.mapCta} →</a> <a class="btn alt" href="${U3}${p}">${flag(cc)} ${esc(cn)}</a></p><ul class="pl two">${sortP(a).map((m) => li(m, lang, U3, false)).join('')}</ul>`;
+      const tph = photosOf(sortP(a).map((m) => m.id)); if (tph.length) b = b.replace('</p>', '</p>' + gallery(tph, tn, U3));
       if (rts.length) b += `<h2>${t.routes}</h2><ul class="pl">${rts.map((r) => `<li><a href="${U3}${PATHS[lang].r(r.id)}">${esc(F(r, 'title', lang))}</a></li>`).join('')}</ul>`;
       b += gygBox(lang, tn, cc);
-      page({ lang, p: tp, title: tt, desc: trim(dd, 158), h1: esc(tn), lead: esc(lang === 'de' ? `${a.length} Orte in ${tn}, ${cn}.` : `${a.length} places in ${tn}, ${cn}.`), body: b,
+      page({ lang, p: tp, title: tt, desc: trim(dd, 158), image: tph[0], h1: esc(tn), lead: esc(lang === 'de' ? `${a.length} Orte in ${tn}, ${cn}.` : `${a.length} places in ${tn}, ${cn}.`), body: b,
         crumbs: [{ n: t.countries, p: PATHS[lang].hub }, { n: cn, p }, { n: tn }], alt: PATHS[o].t(cc, tw),
         ld: [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: tt, url: BASE + tp, inLanguage: lang, about: { '@type': 'City', name: tn }, mainEntity: { '@type': 'ItemList', itemListElement: sortP(a).slice(0, 30).map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: F(m, 'city', lang) })) } }] });
     }
@@ -205,11 +210,12 @@ for (const lang of ['de', 'en']) {
     const title = `${nm}${tn && tn !== nm ? ', ' + tn : ''} - ${ty} | HiddenGem.Atlas`;
     const loc = `${cn}${tn ? ', ' + tn : ''}`; const desc = ti.length + loc.length < 150 ? `${ti} (${loc})` : trim(ti, 158);
     let b = `<p class="meta"><span class="badge">${ty}</span> ${flag(m.cc)} <a href="${U}${PATHS[lang].c(m.cc)}">${esc(cn)}</a>${tn && SL[lang].t[m.cc]?.[m.town] ? ` · <a href="${U}${PATHS[lang].t(m.cc, m.town)}">${esc(tn)}</a>` : tn ? ' · ' + esc(tn) : ''}${m.unesco ? ` · ${t.since} ${m.unesco}` : ''}</p>`;
+    const ph = photosOf([m.id]); b += gallery(ph, `${nm}${tn ? ', ' + tn : ''}`, U);
     if (detail) b += `<div class="story">${detail.replace(/<p><em>✍️[^<]*<\/em><\/p>/g, '')}</div>`;
     b += `<p><a class="btn" href="${U}index.html#/momente/${encodeURIComponent(m.id)}">${t.mapCta} →</a> <a class="btn alt" href="${gmapsUrl(m)}" rel="noopener" target="_blank">${t.gmaps} ↗</a></p>`;
     if (near.length) b += `<h2>${t.near}</h2><ul class="pl two">${near.map((x) => li(x, lang, U, false)).join('')}</ul>`;
     if (m.gyg || (m.kind === 'gem' && tn)) b += gygBox(lang, tn || nm, m.cc, m.gyg);
-    page({ lang, p, title, desc, h1: esc(nm), lead: esc(ti), body: b, type: 'article',
+    page({ lang, p, title, desc, h1: esc(nm), lead: esc(ti), body: b, type: 'article', image: ph[0],
       crumbs: [{ n: t.countries, p: PATHS[lang].hub }, { n: cn, p: PATHS[lang].c(m.cc) }, { n: nm }], alt: PATHS[other(lang)].p(m.id),
       ld: [{ '@context': 'https://schema.org', '@type': 'TouristAttraction', name: nm, description: ti, url: BASE + p, inLanguage: lang, geo: { '@type': 'GeoCoordinates', latitude: m.lat, longitude: m.lon }, address: { '@type': 'PostalAddress', addressLocality: tn, addressCountry: m.cc }, isAccessibleForFree: m.price === 'free' ? true : undefined }] });
   }
@@ -292,7 +298,7 @@ h2{font:400 26px 'Cormorant Garamond',Georgia,serif;margin:1.6em 0 .5em}.lead{fo
 .ty{color:var(--text2);font-size:13px}.mini{font-size:12px;margin-left:6px}.meta{color:var(--text2);font-size:14px}.badge{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:1px 9px;font-size:12px;color:var(--gold)}
 .chips{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}.chips a{display:inline-block;border:1px solid var(--line);background:var(--bg2);border-radius:20px;padding:5px 13px;text-decoration:none;color:var(--text)}.chips b{color:var(--gold);font-weight:600;margin-left:4px}
 .gyg{margin:2em 0;padding:18px;border:1px solid var(--gold);border-radius:12px;background:var(--bg2)}.gyg h2{margin:.1em 0 .3em}.gyg .ad{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text2)}.gyg small{display:block;color:var(--text2);margin-top:6px}
-.story{font-size:17px}.src{font-size:12px;color:var(--text2);margin-top:2em}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin:1.2em 0}.gal img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:10px;display:block}.story{font-size:17px}.src{font-size:12px;color:var(--text2);margin-top:2em}
 footer{border-top:1px solid var(--line);padding:24px 16px;text-align:center;font-size:13px;color:var(--text2)}footer a{color:var(--text2)}
 @media(max-width:620px){.pl.two{columns:1}}
 `);
