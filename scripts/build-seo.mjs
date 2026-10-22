@@ -14,7 +14,7 @@ let BASE = process.env.SITE_URL || 'https://noelsprick-alt.github.io/HiddenGem.A
 if (fs.existsSync(path.join(ROOT, 'CNAME'))) BASE = 'https://' + rd('CNAME').trim() + '/';
 if (!BASE.endsWith('/')) BASE += '/';
 const TODAY = new Date().toISOString().slice(0, 10);
-const GYG_ID = 'H0DWLVB', GYG_CODE = 'TRAVELLIFELESSONS5';
+const GYG_ID = 'H0DWLVB', GYG_CODE = 'HIDDENGEMATLAS5', GYG_APP = 'https://gyg.me/hiddengematlas-app', GOAT = 'hiddengem-atlas';
 
 // ---------- Daten laden ----------
 const html = rd('index.html');
@@ -49,13 +49,13 @@ const TX = {
   de: { home: 'Start', countries: 'Länder', unesco: 'UNESCO-Welterbe', routes: 'Tagesrouten', map: 'Karte', other: 'English', impressum: 'Impressum', privacy: 'Datenschutz',
     mapCta: 'Auf der interaktiven Karte öffnen', toMap: 'Alle Orte auf der Karte', gmaps: 'In Google Maps ansehen', places: 'Orte', cities: 'Städte', gems: 'Hidden Gems', stories: 'Verrückte Geschichten', adventures: 'Abenteuer', bars: 'Bars', sights: 'Must-Sees',
     t: { gem: 'Hidden Gem', mustsee: 'Must-See', story: 'Verrückte Geschichte', adventure: 'Abenteuer', bar: 'Bar', unesco: 'UNESCO-Welterbe' },
-    near: 'Mehr in der Nähe', ad: 'Werbung', gygH: 'Touren & Tickets', gygP: (c) => `Touren und Tickets in ${c} bei GetYourGuide - mit dem Code ${GYG_CODE} bekommst du 5 % Rabatt.`, gygB: (c) => `Touren in ${c} ansehen`,
+    near: 'Mehr in der Nähe', ad: 'Werbung', gygH: 'Touren & Tickets', gygP: (c) => `Touren und Tickets in ${c} bei GetYourGuide - mit dem Code ${GYG_CODE} bekommst du 5 % Rabatt.`, gygB: (c) => `Touren in ${c} ansehen`, gygApp: '📱 GetYourGuide-App holen',
     gygD: 'Affiliate-Link: Bei einer Buchung erhalte ich eine Provision, für dich ohne Mehrkosten.', stops: 'Stationen', best: 'Beste Zeit', allC: 'Alle Länder', allU: 'UNESCO-Welterbe weltweit', allR: 'Alle Tagesrouten', foot: 'Von Noel Sprick, Gladbeck. Karte mit über 4.400 Orten, Tagesrouten und ehrlichen Reisetipps.',
     src: 'Quelle der UNESCO-Daten: UNESCO World Heritage List, Stand 23.08.2026. Namen in der offiziellen englischen Schreibweise.', danger: 'Rote Liste', since: 'seit', walk: 'Gehzeit', min: 'Min.', pop: 'Beliebte Länder' },
   en: { home: 'Home', countries: 'Countries', unesco: 'UNESCO World Heritage', routes: 'Day routes', map: 'Map', other: 'Deutsch', impressum: 'Legal notice', privacy: 'Privacy',
     mapCta: 'Open on the interactive map', toMap: 'All places on the map', gmaps: 'View in Google Maps', places: 'Places', cities: 'Cities', gems: 'Hidden gems', stories: 'Wild stories', adventures: 'Adventures', bars: 'Bars', sights: 'Must-sees',
     t: { gem: 'Hidden gem', mustsee: 'Must-see', story: 'Wild story', adventure: 'Adventure', bar: 'Bar', unesco: 'UNESCO World Heritage' },
-    near: 'More nearby', ad: 'Ad', gygH: 'Tours & tickets', gygP: (c) => `Tours and tickets in ${c} on GetYourGuide - use the code ${GYG_CODE} for 5% off.`, gygB: (c) => `See tours in ${c}`,
+    near: 'More nearby', ad: 'Ad', gygH: 'Tours & tickets', gygP: (c) => `Tours and tickets in ${c} on GetYourGuide - use the code ${GYG_CODE} for 5% off.`, gygB: (c) => `See tours in ${c}`, gygApp: '📱 Get the GetYourGuide app',
     gygD: 'Affiliate link: I earn a commission on bookings, at no extra cost to you.', stops: 'Stops', best: 'Best time', allC: 'All countries', allU: 'UNESCO World Heritage worldwide', allR: 'All day routes', foot: 'By Noel Sprick, Gladbeck. A map of 4,400+ places, day routes and honest travel tips.',
     src: 'UNESCO data source: UNESCO World Heritage List, snapshot 23 Aug 2026.', danger: 'Danger list', since: 'since', walk: 'Walking', min: 'min', pop: 'Popular countries' },
 };
@@ -128,6 +128,7 @@ ${body}
 </main>
 <footer><p>${t.foot}</p><p><a href="${U}${PATHS[lang].hub}">${t.allC}</a> · <a href="${U}${PATHS[lang].unesco}">${t.allU}</a> · <a href="${U}${PATHS[lang].routes}">${t.allR}</a></p>
 <p><a href="${U}index.html#/impressum">${t.impressum}</a> · <a href="${U}index.html#/datenschutz">${t.privacy}</a> · <a href="https://www.instagram.com/hiddengem.atlas/" rel="noopener">Instagram</a></p></footer>
+<script data-goatcounter="https://${GOAT}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body></html>`;
   OUT.push({ path: p + 'index.html', html: out });
   sitemap.push({ p, alt: alt ? { [lang]: p, [other(lang)]: alt } : null, lang });
@@ -135,7 +136,7 @@ ${body}
 
 const trim = (s, n) => { s = strip(s); return s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…'; };
 const gygUrl = (town, cc) => `https://www.getyourguide.com/s/?q=${encodeURIComponent(town)}&partner_id=${GYG_ID}&cmp=seo-${(cc || 'xx').toLowerCase()}`;
-const gygBox = (lang, town, cc, direct) => { const t = TX[lang]; return `<aside class="gyg"><span class="ad">${t.ad}</span><h2>${t.gygH}</h2><p>${esc(t.gygP(town))}</p><a class="btn" href="${esc(direct || gygUrl(town, cc))}" rel="sponsored noopener" target="_blank">${esc(t.gygB(town))} ↗</a><small>${t.gygD}</small></aside>`; };
+const gygBox = (lang, town, cc, direct) => { const t = TX[lang]; return `<aside class="gyg"><span class="ad">${t.ad}</span><h2>${t.gygH}</h2><p>${esc(t.gygP(town))}</p><a class="btn" href="${esc(direct || gygUrl(town, cc))}" rel="sponsored noopener" target="_blank">${esc(t.gygB(town))} ↗</a><a class="btn alt" href="${GYG_APP}" rel="sponsored noopener" target="_blank">${t.gygApp}</a><small>${t.gygD}</small></aside>`; };
 const gmapsUrl = (m) => `https://www.google.com/maps/search/?api=1&query=${m.lat},${m.lon}`;
 const rank = (m) => (m.kind === 'gem' ? 0 : m.theme ? 1 : m.unesco ? 2 : 3);
 const sortP = (a) => [...a].sort((x, y) => rank(x) - rank(y) || (y.rating || 0) - (x.rating || 0));

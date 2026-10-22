@@ -280,6 +280,8 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:1.2rem
 .code-s{font-size:11px;color:var(--text3);margin-top:3px}
 .copy-btn{background:var(--gold);color:#16140f;border:none;padding:8px 16px;border-radius:var(--r);font-size:11px;font-weight:500;cursor:pointer;font-family:'DM Sans',sans-serif;white-space:nowrap;transition:background .15s}
 .copy-btn:hover{background:var(--gold2)}
+.gy-app{display:flex;align-items:center;gap:12px;margin-top:.75rem;padding:.8rem 1.1rem;border-radius:var(--r);background:var(--gold);color:#16140f;text-decoration:none;transition:background .15s}
+.gy-app:hover{background:var(--gold2)}.gy-app-ic{font-size:22px;line-height:1}.gy-app-tx{flex:1;min-width:0}.gy-app-tx strong{display:block;font-size:14px;font-weight:600}.gy-app-tx small{display:block;font-size:11.5px;opacity:.8;margin-top:2px}.gy-app-ar{font-size:18px}
 .gy-r{padding:4rem 3rem;display:flex;flex-direction:column;justify-content:center;gap:12px}
 .perk{display:flex;align-items:center;gap:12px;padding:.9rem;border-radius:var(--r);transition:background .15s;border:1px solid transparent}
 .perk:hover{background:var(--bg3);border-color:var(--border)}
@@ -2654,9 +2656,10 @@ body.sr-lock{overflow:hidden}
     <h2 data-i18n="gy_h2">5% Rabatt auf jede<br>Tour <em>weltweit.</em></h2>
     <p data-i18n="gy_p">Nutze meinen Rabattcode bei jeder GYG-Buchung. Aktivitäten, Touren, Transfers. Kein Mindestbestellwert, weltweit gültig.</p>
     <div class="code-box">
-      <div><div class="code-t" data-i18n="gy_travellifelessons5">TRAVELLIFELESSONS5</div><div class="code-s" data-i18n="gy_cs">5% off any GetYourGuide booking</div></div>
+      <div><div class="code-t" data-i18n="gy_travellifelessons5">HIDDENGEMATLAS5</div><div class="code-s" data-i18n="gy_cs">5% off any GetYourGuide booking</div></div>
       <button class="copy-btn" onclick="copyCode()" data-i18n="copy">Kopieren</button>
     </div>
+    <a class="gy-app" href="https://gyg.me/hiddengematlas-app" target="_blank" rel="sponsored noopener" data-lk="lk-gyg-app"><span class="gy-app-ic">📱</span><span class="gy-app-tx"><strong data-i18n="gy_app_t">GetYourGuide-App holen</strong><small data-i18n="gy_app_s">Code HIDDENGEMATLAS5 in der App eingeben: 5 % Rabatt, Tickets direkt aufs Handy.</small></span><span class="gy-app-ar">→</span></a>
     <a style="font-size:13px;color:var(--gold);border-bottom:1px solid var(--gold-dim);padding-bottom:2px;display:inline-block;margin-top:.5rem" href="https://www.getyourguide.com/?partner_id=H0DWLVB" target="_blank" data-i18n="gy_lnk" rel="noopener" data-lk="lk18">Alle Touren auf GetYourGuide * →</a>
     <p style="font-size:11px;color:var(--text3);margin-top:.75rem" data-i18n="aff_s">* Affiliate-Link. Provision für mich, keine Mehrkosten für dich.</p>
   </div>
@@ -3352,7 +3355,7 @@ body.sr-lock{overflow:hidden}
       <h3 data-i18n="aff_mein-versprechen">Mein Versprechen</h3><p data-i18n="aff_ich-empfehle-ausschliesslich">Ich empfehle ausschließlich Erlebnisse und Destinationen, die ich selbst besucht habe oder die ich nach eigener Recherche für wertvoll halte. Meine Meinung ist nicht käuflich.</p>
       <h3 data-i18n="pg_cause_t">Soziale Projekte</h3><p data-i18n="aff_ein-teil-meiner-affiliate">Ein Teil meiner Affiliate-Einnahmen und Produkterlöse (insbesondere aus dem Foto-Kalender) fließt in lokale Hilfsprojekte in den bereisten Regionen.</p>
       <h3 data-i18n="aff_kennzeichnung">Kennzeichnung</h3><p data-i18n="aff_alle-affiliate-links-sind">Alle Affiliate-Links sind mit <strong>*</strong> gekennzeichnet. Kooperationen findest du im Bereich <a href="#/kooperationen" onclick="closeM('aff')">Kooperationen &amp; Partner</a>.</p>
-      <h3 data-i18n="tb1">GetYourGuide Partner</h3><p data-i18n="aff_partner-id-h0dwlvb-rabattcod">Partner-ID: H0DWLVB · Rabattcode: <strong>TRAVELLIFELESSONS5</strong> (5% auf jede Buchung)</p>
+      <h3 data-i18n="tb1">GetYourGuide Partner</h3><p data-i18n="aff_partner-id-h0dwlvb-rabattcod">Partner-ID: H0DWLVB · Rabattcode: <strong>HIDDENGEMATLAS5</strong> (5% auf jede Buchung)</p>
     </div></div>
 </div>
 
@@ -3396,7 +3399,7 @@ const I18N = {
 "aff_kennzeichnung":["Kennzeichnung","Labelling"],
 "aff_mein-versprechen":["Mein Versprechen","My promise"],
 "aff_n":["Affiliate-Links. Ich erhalte eine Provision - für dich ohne Mehrkosten.","Affiliate links. I earn a commission - no extra cost to you."],
-"aff_partner-id-h0dwlvb-rabattcod":["Partner-ID: H0DWLVB · Rabattcode: <strong>TRAVELLIFELESSONS5</strong> (5% auf jede Buchung)","Partner ID: H0DWLVB · Discount code: <strong>TRAVELLIFELESSONS5</strong> (5% off every booking)"],
+"aff_partner-id-h0dwlvb-rabattcod":["Partner-ID: H0DWLVB · Rabattcode: <strong>HIDDENGEMATLAS5</strong> (5% auf jede Buchung)","Partner ID: H0DWLVB · Discount code: <strong>HIDDENGEMATLAS5</strong> (5% off every booking)"],
 "aff_s":["* Affiliate-Link. Provision für mich, keine Mehrkosten für dich.","* Affiliate link. I earn commission, no extra cost to you."],
 "aff_transparenz-ist-mir-wichtig":["Transparenz ist mir wichtig","Transparency matters to me"],
 "afl":["Affiliate","Affiliate"],
@@ -3613,12 +3616,14 @@ const I18N = {
 "gs_story_ph":["Was macht diesen Ort zu einem echten Geheimtipp?","What makes this place a real hidden gem?"],
 "gs_story_short":["Bitte erzähl etwas mehr (mindestens 20 Zeichen).","Please tell us a bit more (at least 20 characters)."],
 "gs_submit":["Hidden Gem einreichen ✦","Submit hidden gem ✦"],
-"gy_cs":["5% off any GetYourGuide booking","5% off any GetYourGuide booking"],
+"gy_cs":["5 % Rabatt auf jede GetYourGuide-Buchung","5% off any GetYourGuide booking"],
+"gy_app_t":["GetYourGuide-App holen","Get the GetYourGuide app"],
+"gy_app_s":["Code HIDDENGEMATLAS5 in der App eingeben: 5 % Rabatt, Tickets direkt aufs Handy.","Enter HIDDENGEMATLAS5 in the app: 5% off, tickets straight to your phone."],
 "gy_h2":["5% Rabatt auf jede<br>Tour <em>weltweit.</em>","5% discount on every<br>tour <em>worldwide.</em>"],
 "gy_lbl":["GetYourGuide Partner","GetYourGuide Partner"],
 "gy_lnk":["Alle Touren auf GetYourGuide * →","All tours on GetYourGuide * →"],
 "gy_p":["Nutze meinen Rabattcode bei jeder GYG-Buchung. Aktivitäten, Touren, Transfers. Kein Mindestbestellwert, weltweit gültig.","Use my code on any GetYourGuide booking. Activities, tours, transfers. No minimum order, valid worldwide."],
-"gy_travellifelessons5":["TRAVELLIFELESSONS5","TRAVELLIFELESSONS5"],
+"gy_travellifelessons5":["HIDDENGEMATLAS5","HIDDENGEMATLAS5"],
 "h_albanien":["🇦🇱 Albanien","🇦🇱 Albania"],
 "h_albanien-entdecken":["🇦🇱 Albanien entdecken","🇦🇱 Discover Albania"],
 "h_c1":["Meine Geschichte","My Story"],
@@ -4178,7 +4183,7 @@ const I18N = {
 "tk_3":["🇻🇳 Hanoi - Vietnam Hidden Gems","🇻🇳 Hanoi - Vietnam hidden gems"],
 "tk_4":["🇪🇸 Barcelona - wo alles begann","🇪🇸 Barcelona - where it all began"],
 "tk_5":["🇦🇱 Tirana - Europas bestes Geheimnis","🇦🇱 Tirana - Europe's best secret"],
-"tk_6":["🗺️ TRAVELLIFELESSONS5 - 5% Rabatt auf GYG","🗺️ TRAVELLIFELESSONS5 - 5% off GYG"],
+"tk_6":["🗺️ HIDDENGEMATLAS5 - 5% Rabatt auf GYG","🗺️ HIDDENGEMATLAS5 - 5% off GYG"],
 "tk_7":["📸 @hiddengem.atlas","📸 @hiddengem.atlas"],
 "tk_8":["🇦🇹 Bad Gastein - alpines Hidden Gem","🇦🇹 Bad Gastein - an alpine hidden gem"],
 "tk_9":["🇸🇮 Ljubljana - grünste Hauptstadt Europas","🇸🇮 Ljubljana - Europe's greenest capital"],
@@ -5694,7 +5699,7 @@ const PARTNERS_DATA = [
     since: 'seit Nov 2025', since_en: 'since Nov 2025',
     desc: 'Offizieller Affiliate-Partner. Mit meinem Code bekommst du 5% Rabatt auf Touren, Aktivitäten und Transfers weltweit.',
     desc_en: 'Official affiliate partner. With my code you get 5% off tours, activities and transfers worldwide.',
-    url: 'https://www.getyourguide.com/?partner_id=H0DWLVB', code: 'TRAVELLIFELESSONS5', logo: ''
+    url: 'https://www.getyourguide.com/?partner_id=H0DWLVB', code: 'HIDDENGEMATLAS5', logo: ''
   },
   {
     id: 'p-omio', name: 'Omio', type: 'affiliate', status: 'active', featured: true,
@@ -9039,7 +9044,7 @@ document.addEventListener('keydown', e => {
 });
 
 // ── KLEINE AKTIONEN ──────────────────────────────────
-function copyCode(){ hgCopy('TRAVELLIFELESSONS5', document.querySelector('.copy-btn')); }
+function copyCode(){ hgCopy('HIDDENGEMATLAS5', document.querySelector('.copy-btn')); }
 function hgFormMsg(id, msg, ok){
   const el = document.getElementById(id); if (!el) return;
   el.innerHTML = msg; el.className = 'form-msg show ' + (ok ? 'ok' : 'err');
