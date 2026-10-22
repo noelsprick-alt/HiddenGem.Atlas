@@ -15,6 +15,9 @@ if (fs.existsSync(path.join(ROOT, 'CNAME'))) BASE = 'https://' + rd('CNAME').tri
 if (!BASE.endsWith('/')) BASE += '/';
 const TODAY = new Date().toISOString().slice(0, 10);
 const GYG_ID = 'H0DWLVB', GYG_CODE = 'HIDDENGEMATLAS5', GYG_APP = 'https://gyg.me/hiddengematlas-app', GOAT = 'hiddengem-atlas';
+const OMIO_URL = 'https://www.filify.co/SHmCa', OMIO_CODE = 'xwjmj3nl', OMIO_UNTIL = '2027-04-07';
+// Omio nur für Europa (Bahn/Bus-Anreise sinnvoll)
+const EU_CC = new Set('AD AL AT BA BE BG BY CH CY CZ DE DK EE ES FI FR GB GR HR HU IE IS IT LI LT LU LV MC MD ME MK MT NL NO PL PT RO RS SE SI SK SM UA VA XK'.split(' '));
 
 // ---------- Daten laden ----------
 const html = rd('index.html');
@@ -49,13 +52,13 @@ const TX = {
   de: { home: 'Start', countries: 'Länder', unesco: 'UNESCO-Welterbe', routes: 'Tagesrouten', map: 'Karte', other: 'English', impressum: 'Impressum', privacy: 'Datenschutz',
     mapCta: 'Auf der interaktiven Karte öffnen', toMap: 'Alle Orte auf der Karte', gmaps: 'In Google Maps ansehen', places: 'Orte', cities: 'Städte', gems: 'Hidden Gems', stories: 'Verrückte Geschichten', adventures: 'Abenteuer', bars: 'Bars', sights: 'Must-Sees',
     t: { gem: 'Hidden Gem', mustsee: 'Must-See', story: 'Verrückte Geschichte', adventure: 'Abenteuer', bar: 'Bar', unesco: 'UNESCO-Welterbe' },
-    near: 'Mehr in der Nähe', ad: 'Werbung', gygH: 'Touren & Tickets', gygP: (c) => `Touren und Tickets in ${c} bei GetYourGuide - mit dem Code ${GYG_CODE} bekommst du 5 % Rabatt.`, gygB: (c) => `Touren in ${c} ansehen`, gygApp: '📱 GetYourGuide-App holen',
+    near: 'Mehr in der Nähe', ad: 'Werbung', gygH: 'Touren & Tickets', gygP: (c) => `Touren und Tickets in ${c} bei GetYourGuide - mit dem Code ${GYG_CODE} bekommst du 5 % Rabatt.`, gygB: (c) => `Touren in ${c} ansehen`, gygApp: '📱 GetYourGuide-App holen', omH: 'Anreise mit Bahn & Bus', omP: (c) => `Zug- und Busverbindungen nach ${c} bei Omio vergleichen - mit dem Code ${OMIO_CODE} bekommen Neukunden 12 % Rabatt (Buchungen bis 75 €, gültig bis 07.04.2027).`, omB: (c) => `Zug & Bus nach ${c}`,
     gygD: 'Affiliate-Link: Bei einer Buchung erhalte ich eine Provision, für dich ohne Mehrkosten.', stops: 'Stationen', best: 'Beste Zeit', allC: 'Alle Länder', allU: 'UNESCO-Welterbe weltweit', allR: 'Alle Tagesrouten', foot: 'Von Noel Sprick, Gladbeck. Karte mit über 4.400 Orten, Tagesrouten und ehrlichen Reisetipps.',
     src: 'Quelle der UNESCO-Daten: UNESCO World Heritage List, Stand 23.08.2026. Namen in der offiziellen englischen Schreibweise.', danger: 'Rote Liste', since: 'seit', walk: 'Gehzeit', min: 'Min.', pop: 'Beliebte Länder' },
   en: { home: 'Home', countries: 'Countries', unesco: 'UNESCO World Heritage', routes: 'Day routes', map: 'Map', other: 'Deutsch', impressum: 'Legal notice', privacy: 'Privacy',
     mapCta: 'Open on the interactive map', toMap: 'All places on the map', gmaps: 'View in Google Maps', places: 'Places', cities: 'Cities', gems: 'Hidden gems', stories: 'Wild stories', adventures: 'Adventures', bars: 'Bars', sights: 'Must-sees',
     t: { gem: 'Hidden gem', mustsee: 'Must-see', story: 'Wild story', adventure: 'Adventure', bar: 'Bar', unesco: 'UNESCO World Heritage' },
-    near: 'More nearby', ad: 'Ad', gygH: 'Tours & tickets', gygP: (c) => `Tours and tickets in ${c} on GetYourGuide - use the code ${GYG_CODE} for 5% off.`, gygB: (c) => `See tours in ${c}`, gygApp: '📱 Get the GetYourGuide app',
+    near: 'More nearby', ad: 'Ad', gygH: 'Tours & tickets', gygP: (c) => `Tours and tickets in ${c} on GetYourGuide - use the code ${GYG_CODE} for 5% off.`, gygB: (c) => `See tours in ${c}`, gygApp: '📱 Get the GetYourGuide app', omH: 'Getting there by train & bus', omP: (c) => `Compare train and bus connections to ${c} on Omio - new users get 12% off with the code ${OMIO_CODE} (bookings up to €75, valid until 7 April 2027).`, omB: (c) => `Train & bus to ${c}`,
     gygD: 'Affiliate link: I earn a commission on bookings, at no extra cost to you.', stops: 'Stops', best: 'Best time', allC: 'All countries', allU: 'UNESCO World Heritage worldwide', allR: 'All day routes', foot: 'By Noel Sprick, Gladbeck. A map of 4,400+ places, day routes and honest travel tips.',
     src: 'UNESCO data source: UNESCO World Heritage List, snapshot 23 Aug 2026.', danger: 'Danger list', since: 'since', walk: 'Walking', min: 'min', pop: 'Popular countries' },
 };
@@ -140,6 +143,7 @@ ${body}
 
 const trim = (s, n) => { s = strip(s); return s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…'; };
 const gygUrl = (town, cc) => `https://www.getyourguide.com/s/?q=${encodeURIComponent(town)}&partner_id=${GYG_ID}&cmp=seo-${(cc || 'xx').toLowerCase()}`;
+const omioBox = (lang, town, cc) => { if (!EU_CC.has(cc) || !town || TODAY > OMIO_UNTIL) return ''; const t = TX[lang]; return `<aside class="gyg om"><span class="ad">${t.ad}</span><h2>${t.omH}</h2><p>${esc(t.omP(town))}</p><a class="btn" href="${OMIO_URL}" rel="sponsored noopener" target="_blank">🚆 ${esc(t.omB(town))} ↗</a><small>${t.gygD}</small></aside>`; };
 const gygBox = (lang, town, cc, direct) => { const t = TX[lang]; return `<aside class="gyg"><span class="ad">${t.ad}</span><h2>${t.gygH}</h2><p>${esc(t.gygP(town))}</p><a class="btn" href="${esc(direct || gygUrl(town, cc))}" rel="sponsored noopener" target="_blank">${esc(t.gygB(town))} ↗</a><a class="btn alt" href="${GYG_APP}" rel="sponsored noopener" target="_blank">${t.gygApp}</a><small>${t.gygD}</small></aside>`; };
 const gmapsUrl = (m) => `https://www.google.com/maps/search/?api=1&query=${m.lat},${m.lon}`;
 const rank = (m) => (m.kind === 'gem' ? 0 : m.theme ? 1 : m.unesco ? 2 : 3);
@@ -194,7 +198,7 @@ for (const lang of ['de', 'en']) {
       let b = `<p><a class="btn" href="${U3}index.html#/momente">${t.mapCta} →</a> <a class="btn alt" href="${U3}${p}">${flag(cc)} ${esc(cn)}</a></p><ul class="pl two">${sortP(a).map((m) => li(m, lang, U3, false)).join('')}</ul>`;
       const tph = photosOf(sortP(a).map((m) => m.id)); if (tph.length) b = b.replace('</p>', '</p>' + gallery(tph, tn, U3));
       if (rts.length) b += `<h2>${t.routes}</h2><ul class="pl">${rts.map((r) => `<li><a href="${U3}${PATHS[lang].r(r.id)}">${esc(F(r, 'title', lang))}</a></li>`).join('')}</ul>`;
-      b += gygBox(lang, tn, cc);
+      b += gygBox(lang, tn, cc) + omioBox(lang, tn, cc);
       page({ lang, p: tp, title: tt, desc: trim(dd, 158), image: tph[0], h1: esc(tn), lead: esc(lang === 'de' ? `${a.length} Orte in ${tn}, ${cn}.` : `${a.length} places in ${tn}, ${cn}.`), body: b,
         crumbs: [{ n: t.countries, p: PATHS[lang].hub }, { n: cn, p }, { n: tn }], alt: PATHS[o].t(cc, tw),
         ld: [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: tt, url: BASE + tp, inLanguage: lang, about: { '@type': 'City', name: tn }, mainEntity: { '@type': 'ItemList', itemListElement: sortP(a).slice(0, 30).map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: F(m, 'city', lang) })) } }] });
@@ -215,6 +219,7 @@ for (const lang of ['de', 'en']) {
     b += `<p><a class="btn" href="${U}index.html#/momente/${encodeURIComponent(m.id)}">${t.mapCta} →</a> <a class="btn alt" href="${gmapsUrl(m)}" rel="noopener" target="_blank">${t.gmaps} ↗</a></p>`;
     if (near.length) b += `<h2>${t.near}</h2><ul class="pl two">${near.map((x) => li(x, lang, U, false)).join('')}</ul>`;
     if (m.gyg || (m.kind === 'gem' && tn)) b += gygBox(lang, tn || nm, m.cc, m.gyg);
+    b += omioBox(lang, tn, m.cc);
     page({ lang, p, title, desc, h1: esc(nm), lead: esc(ti), body: b, type: 'article', image: ph[0],
       crumbs: [{ n: t.countries, p: PATHS[lang].hub }, { n: cn, p: PATHS[lang].c(m.cc) }, { n: nm }], alt: PATHS[other(lang)].p(m.id),
       ld: [{ '@context': 'https://schema.org', '@type': 'TouristAttraction', name: nm, description: ti, url: BASE + p, inLanguage: lang, geo: { '@type': 'GeoCoordinates', latitude: m.lat, longitude: m.lon }, address: { '@type': 'PostalAddress', addressLocality: tn, addressCountry: m.cc }, isAccessibleForFree: m.price === 'free' ? true : undefined }] });
@@ -229,7 +234,7 @@ for (const lang of ['de', 'en']) {
     const rows = st.map((s) => `<li><b>${esc(s.t)}</b> ${esc(F(s, 'name', lang))}${s.note ? `<br><span class="ty">${esc(F(s, 'note', lang))}</span>` : ''}${s.km ? ` <small>${s.km} km${s.walk ? ' · ' + t.walk + ' ' + s.walk + ' ' + t.min : ''}</small>` : ''} <a class="mini" href="https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lon}" rel="noopener" target="_blank">Maps</a></li>`).join('');
     const b = `<p class="meta"><span class="badge">${t.routes}</span> ${flag(r.cc)} <a href="${U}${PATHS[lang].c(r.cc)}">${esc(cn)}</a> · ${esc(tn)}${r.best ? ` · ${t.best}: ${esc(F(r, 'best', lang))}` : ''}</p>
 <p><a class="btn" href="${esc(dir)}" rel="noopener" target="_blank">${lang === 'de' ? 'Route in Google Maps öffnen' : 'Open route in Google Maps'} ↗</a> <a class="btn alt" href="${U}index.html#/planer">${lang === 'de' ? 'Alle Routen in der App' : 'All routes in the app'}</a></p>
-<h2>${t.stops}</h2><ol class="pl uns">${rows}</ol>${gygBox(lang, tn, r.cc)}`;
+<h2>${t.stops}</h2><ol class="pl uns">${rows}</ol>${gygBox(lang, tn, r.cc)}${omioBox(lang, tn, r.cc)}`;
     page({ lang, p, title, desc: trim(F(r, 'intro', lang), 158), h1: esc(F(r, 'title', lang)), lead: esc(F(r, 'intro', lang)), body: b, type: 'article',
       crumbs: [{ n: t.routes, p: PATHS[lang].routes }, { n: tn }], alt: PATHS[other(lang)].r(r.id),
       ld: [{ '@context': 'https://schema.org', '@type': 'TouristTrip', name: F(r, 'title', lang), description: F(r, 'intro', lang), inLanguage: lang, itinerary: { '@type': 'ItemList', itemListElement: st.map((s, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@type': 'TouristAttraction', name: F(s, 'name', lang), geo: { '@type': 'GeoCoordinates', latitude: s.lat, longitude: s.lon } } })) } }] });
