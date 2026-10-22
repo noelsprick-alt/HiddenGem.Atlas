@@ -1,8 +1,8 @@
 {
-  "updated": "21.10.2026",
-  "generated": "2026-10-21T09:54:25.263Z",
+  "updated": "22.10.2026",
+  "generated": "2026-10-22T09:54:51.465Z",
   "maxAgeDays": 14,
-  "count": 6,
+  "count": 7,
   "items": [
     {
       "id": "auto-fund-entpuppt-sich-als-baumstamm-erneuter-ruck",
@@ -16,6 +16,20 @@
       "title": "Fund entpuppt sich als Baumstamm: Erneuter Rückschlag bei Suche nach Flugzeug von Amelia Earhart",
       "desc": "Vor 87 Jahren verschwand die legendäre US-amerikanische Pilotin Amelia Earhart über dem Pazifik und wurde für tot erklärt. Manche sagen, dass sie beim Sturz in den Ozean starb, andere, dass sie von japanischen Soldaten gefangen genommen ...",
       "title_en": "Find turns out to be a tree trunk: Another setback in the search for Amelia Earhart's plane",
+      "desc_en": "87 years ago, legendary American pilot Amelia Earhart disappeared over the Pacific and was declared dead. Some say she died falling into the ocean, others say she was captured by Japanese soldiers..."
+    },
+    {
+      "id": "auto-amelia-earhart-die-tragische-suche-nach-der-ve",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-21",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/menschen/insel-nikumaroro-amelia-earhart-suche",
+      "title": "Amelia Earhart: Die tragische Suche nach der verschollenen Flugpionierin",
+      "desc": "Vor 87 Jahren verschwand die legendäre US-amerikanische Pilotin Amelia Earhart über dem Pazifik und wurde für tot erklärt. Manche sagen, dass sie beim Sturz in den Ozean starb, andere, dass sie von japanischen Soldaten gefangen genommen ...",
+      "title_en": "Amelia Earhart: The tragic search for the lost aviation pioneer",
       "desc_en": "87 years ago, legendary American pilot Amelia Earhart disappeared over the Pacific and was declared dead. Some say she died falling into the ocean, others say she was captured by Japanese soldiers..."
     },
     {
