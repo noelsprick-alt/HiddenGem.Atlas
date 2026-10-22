@@ -76,5 +76,6 @@ Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt p
 - **57 neue Fotos** (Pula/Istrien, Gent, Thailand, Mallorca, Luxemburg, Durrës, Marrakesch, Düsseldorf, Lungau) in Ortsgalerien, Blog-Galerien, Stories (neu: „Istrien“) und als Titelbild für Pula, Luxemburg, Albanien. Hero: `krabi-aussicht`, `pula-arena`.
 - **Neuer Hidden Gem:** `m-gent-graffiti` (Werregarenstraatje, Gent). Graslei als besucht markiert.
 - **SEO-Seiten** zeigen jetzt eigene Fotos (Galerie + og:image) bei Orten und Städten.
+- **17 neue Videos** (Krabi-Kajak, Muay Thai Ao Nang, Roller, Affen, Phuket-Schrein, Pula Arena/Verudela/DJ, Lungau Gipfel/Grat/Alm, Karwoche Vilafranca, Qanat, Gent) in Galerien und Stories.
 - **Omio:** Box „Anreise mit Bahn & Bus“ (Code xwjmj3nl) auf allen europäischen Städte-, Orts- und Routenseiten; endet automatisch nach 07.04.2027 (`OMIO_UNTIL`).
 - **Search Console:** Property `https://noelsprick-alt.github.io/HiddenGem.Atlas/` bestätigt, Sitemap eingereicht (22.10.2026).

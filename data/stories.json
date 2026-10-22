@@ -15,6 +15,27 @@
      "cap_en": "Landawirsee lake, Lungau · 1,968 m · Oct 2026"
     },
     {
+     "src": "images/video/lungau-alm.mp4",
+     "poster": "images/video/p/lungau-alm.webp",
+     "cap": "Lungau · Begegnung auf der Alm",
+     "cap_en": "Lungau · company on the alpine pasture",
+     "cap_es": "Lungau · compañía en el prado alpino"
+    },
+    {
+     "src": "images/video/lungau-grat.mp4",
+     "poster": "images/video/p/lungau-grat.webp",
+     "cap": "Lungau · am Grat über dem Landawirsee",
+     "cap_en": "Lungau · on the ridge above Landawirsee",
+     "cap_es": "Lungau · en la cresta sobre el Landawirsee"
+    },
+    {
+     "src": "images/video/lungau-gipfelkreuz.mp4",
+     "poster": "images/video/p/lungau-gipfelkreuz.webp",
+     "cap": "Lungau · Gipfelkreuz, unten der Bergsee",
+     "cap_en": "Lungau · summit cross with the lake below",
+     "cap_es": "Lungau · cruz de cumbre con el lago abajo"
+    },
+    {
      "src": "images/photos/landawirsee-kaiserschmarrn.webp",
      "cap": "Kaiserschmarrn auf der Hütte am Landawirsee",
      "cap_en": "Kaiserschmarrn at the hut by Landawirsee",
@@ -34,6 +55,13 @@
      "poster": "images/video/p/cala-almunia.webp",
      "cap": "Cala s'Almunia - Bootshäuser der Fischer · 2026",
      "cap_en": "Cala s'Almunia - the fishermen's boathouses · 2026"
+    },
+    {
+     "src": "images/video/vilafranca-prozession.mp4",
+     "poster": "images/video/p/vilafranca-prozession.webp",
+     "cap": "Karwoche in Vilafranca de Bonany · April 2026",
+     "cap_en": "Holy Week in Vilafranca de Bonany · April 2026",
+     "cap_es": "Semana Santa en Vilafranca de Bonany · abril 2026"
     },
     {
      "src": "images/video/cala-marmols.mp4",
@@ -220,6 +248,27 @@
      "cap_es": "Pula · en el anfiteatro · oct. 2025"
     },
     {
+     "src": "images/video/pula-sundowner-dj.mp4",
+     "poster": "images/video/p/pula-sundowner-dj.webp",
+     "cap": "Pula · Sundowner mit DJ-Set an der Arena",
+     "cap_en": "Pula · sundowner with a DJ set by the Arena",
+     "cap_es": "Pula · atardecer con DJ junto a la Arena"
+    },
+    {
+     "src": "images/video/pula-verudela-abend.mp4",
+     "poster": "images/video/p/pula-verudela-abend.webp",
+     "cap": "Verudela · Dämmerung über der Bucht",
+     "cap_en": "Verudela · dusk over the bay",
+     "cap_es": "Verudela · anochecer sobre la bahía"
+    },
+    {
+     "src": "images/video/pula-arena-nacht.mp4",
+     "poster": "images/video/p/pula-arena-nacht.webp",
+     "cap": "Pula · die Arena leuchtet nach Sonnenuntergang",
+     "cap_en": "Pula · the Arena lit up after sunset",
+     "cap_es": "Pula · la Arena iluminada tras el atardecer"
+    },
+    {
      "src": "images/photos/pula-forum-kaffee.webp",
      "cap": "Pula · Kaffee am Forum, dahinter der Augustustempel",
      "cap_en": "Pula · coffee on the Forum, Temple of Augustus behind",
@@ -269,6 +318,34 @@
      "poster": "images/video/p/phuket-sonnenuntergang.webp",
      "cap": "Sonnenuntergang auf Phuket · Feb. 2026",
      "cap_en": "Sunset on Phuket · Feb 2026"
+    },
+    {
+     "src": "images/video/aonang-affen.mp4",
+     "poster": "images/video/p/aonang-affen.webp",
+     "cap": "Ao Nang · Affen am Straßenrand",
+     "cap_en": "Ao Nang · monkeys by the roadside",
+     "cap_es": "Ao Nang · monos junto a la carretera"
+    },
+    {
+     "src": "images/video/krabi-roller.mp4",
+     "poster": "images/video/p/krabi-roller.webp",
+     "cap": "Mit dem Roller durch Krabi",
+     "cap_en": "Scooter ride through Krabi",
+     "cap_es": "En moto por Krabi"
+    },
+    {
+     "src": "images/video/aonang-muay-thai.mp4",
+     "poster": "images/video/p/aonang-muay-thai.webp",
+     "cap": "Muay Thai im Stadion von Ao Nang",
+     "cap_en": "Muay Thai at the Ao Nang stadium",
+     "cap_es": "Muay Thai en el estadio de Ao Nang"
+    },
+    {
+     "src": "images/video/thailand-kajak.mp4",
+     "poster": "images/video/p/thailand-kajak.webp",
+     "cap": "Mit dem Kajak zwischen den Kalkfelsen · Krabi · Feb. 2026",
+     "cap_en": "Kayaking between the limestone cliffs · Krabi · Feb 2026",
+     "cap_es": "En kayak entre acantilados de caliza · Krabi · feb. 2026"
     },
     {
      "src": "images/photos/krabi-dschungelweg.webp",
@@ -372,6 +449,13 @@
      "src": "images/photos/antwerpen-grote-markt.webp",
      "cap": "Antwerpen - Grote Markt mit Brabo-Brunnen",
      "cap_en": "Antwerp - Grote Markt with the Brabo Fountain"
+    },
+    {
+     "src": "images/video/gent-strassenmusik.mp4",
+     "poster": "images/video/p/gent-strassenmusik.webp",
+     "cap": "Gent · Straßenmusik in der Altstadt",
+     "cap_en": "Ghent · street music in the old town",
+     "cap_es": "Gante · música callejera en el casco antiguo"
     },
     {
      "src": "images/photos/gent-graslei.webp",

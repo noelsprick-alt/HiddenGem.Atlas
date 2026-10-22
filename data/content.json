@@ -45,7 +45,10 @@
    "text_en": "<p>Austria was both for me: city and mountain in one trip. In Bad Gastein a waterfall roars right through the town, surrounded by faded Belle Époque elegance - a place from another era. Plus Vienna, Salzburg and Innsbruck, each city with its own character.</p><p><em>✍️ Draft - continue your own story here (click in ?edit mode).</em></p>",
    "photos": [
     "images/video/landawirsee-baden.mp4",
-    "images/photos/landawirsee-kaiserschmarrn.webp"
+    "images/photos/landawirsee-kaiserschmarrn.webp",
+    "images/video/lungau-gipfelkreuz.mp4",
+    "images/video/lungau-grat.mp4",
+    "images/video/lungau-alm.mp4"
    ]
   },
   "pillar-hidden-gems": {
@@ -101,7 +104,8 @@
     "images/photos/palma-kathedrale.webp",
     "images/photos/cala-marmols-abstieg.webp",
     "images/photos/qanat-terrasse.webp",
-    "images/photos/palma-kochkurs.webp"
+    "images/photos/palma-kochkurs.webp",
+    "images/video/vilafranca-prozession.mp4"
    ]
   },
   "blog-bc-27": {
@@ -132,7 +136,14 @@
     "images/photos/phuket-kata-abend.webp",
     "images/photos/thailand-weisser-tempel.webp",
     "images/photos/thailand-wasserfall.webp",
-    "images/photos/thailand-sonnenuntergang.webp"
+    "images/photos/thailand-sonnenuntergang.webp",
+    "images/video/thailand-kajak.mp4",
+    "images/video/aonang-muay-thai.mp4",
+    "images/video/krabi-roller.mp4",
+    "images/video/krabi-aussicht-clip.mp4",
+    "images/video/aonang-affen.mp4",
+    "images/video/phuket-schrein.mp4",
+    "images/video/phuket-seerosen.mp4"
    ]
   },
   "blog-bc-2": {
@@ -165,7 +176,8 @@
   "moment-m-landawirsee": {
    "photos": [
     "images/video/landawirsee-baden.mp4",
-    "images/photos/landawirsee-kaiserschmarrn.webp"
+    "images/photos/landawirsee-kaiserschmarrn.webp",
+    "images/video/lungau-gipfelkreuz.mp4"
    ]
   },
   "moment-m-cala-marmols": {
@@ -177,7 +189,8 @@
   },
   "moment-m-vilafranca-mercat": {
    "photos": [
-    "images/video/vilafranca-markt.mp4"
+    "images/video/vilafranca-markt.mp4",
+    "images/video/vilafranca-prozession.mp4"
    ]
   },
   "moment-m-qanat": {
@@ -185,7 +198,8 @@
     "images/photos/qanat-hauptgang.webp",
     "images/photos/qanat-dessert.webp",
     "images/photos/qanat-terrasse.webp",
-    "images/photos/qanat-vorspeise.webp"
+    "images/photos/qanat-vorspeise.webp",
+    "images/video/qanat-abendlicht.mp4"
    ]
   },
   "moment-m-tirana-matcha": {
@@ -220,7 +234,8 @@
     "images/photos/gent-abend.webp",
     "images/photos/gent-aperol.webp",
     "images/photos/gent-matcha.webp",
-    "images/photos/gent-designladen.webp"
+    "images/photos/gent-designladen.webp",
+    "images/video/gent-strassenmusik.mp4"
    ]
   },
   "moment-ms-anr-grotemarkt": {
@@ -250,7 +265,8 @@
   },
   "moment-ms-pul-arena": {
    "photos": [
-    "images/photos/pula-arena.webp"
+    "images/photos/pula-arena.webp",
+    "images/video/pula-arena-nacht.mp4"
    ]
   },
   "blog-bc-20": {
@@ -265,7 +281,11 @@
     "images/photos/pula-fischmarkt.webp",
     "images/photos/pula-klosterhof.webp",
     "images/photos/pula-verudela.webp",
-    "images/photos/pula-altstadtgasse.webp"
+    "images/photos/pula-altstadtgasse.webp",
+    "images/video/pula-arena-nacht.mp4",
+    "images/video/pula-verudela-abend.mp4",
+    "images/video/pula-sundowner-dj.mp4",
+    "images/video/pula-meeresfruechte.mp4"
    ]
   },
   "moment-ms-pul-augustus": {
@@ -276,7 +296,8 @@
   "moment-ms-pul-verudela": {
    "photos": [
     "images/photos/pula-verudela.webp",
-    "images/photos/pula-kueste-daemmerung.webp"
+    "images/photos/pula-kueste-daemmerung.webp",
+    "images/video/pula-verudela-abend.mp4"
    ]
   },
   "moment-w-be-graslei-and-korenlei": {
@@ -332,6 +353,11 @@
   "moment-ms-dd-promenade": {
    "photos": [
     "images/photos/duesseldorf-rheinufer.webp"
+   ]
+  },
+  "moment-ms-hkt-oldtown": {
+   "photos": [
+    "images/video/phuket-schrein.mp4"
    ]
   }
  },
