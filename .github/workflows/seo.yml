@@ -8,6 +8,11 @@ on:
       - 'data/content.json'
       - 'scripts/build-seo.mjs'
   workflow_dispatch:
+    inputs:
+      all:
+        description: 'Alle Seiten per IndexNow melden'
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -26,8 +31,15 @@ jobs:
           git config user.name "hiddengemat-bot"
           git config user.email "bot@users.noreply.github.com"
           git add de en sitemap.xml robots.txt seo.css
+          git diff --staged --name-only -- de en > /tmp/changed.txt || true
+          git diff --name-only HEAD~1 HEAD -- index.html >> /tmp/changed.txt 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "SEO-Seiten aktualisiert"
             git pull --rebase --autostash || true
             git push
           fi
+      - name: IndexNow (Bing & Co. sofort informieren)
+        continue-on-error: true
+        run: |
+          sleep 60
+          if [ "${{ inputs.all }}" = "true" ]; then node scripts/indexnow.mjs --all; else node scripts/indexnow.mjs /tmp/changed.txt; fi
