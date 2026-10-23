@@ -1,8 +1,8 @@
 {
-  "updated": "22.10.2026",
-  "generated": "2026-10-22T09:54:51.465Z",
+  "updated": "23.10.2026",
+  "generated": "2026-10-23T09:49:07.310Z",
   "maxAgeDays": 14,
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "id": "auto-fund-entpuppt-sich-als-baumstamm-erneuter-ruck",
@@ -87,20 +87,6 @@
       "desc": "Im Rahmen der neuen TRAVELBOOK-Serie „Hinter den Kulissen der Hotels“ verraten Insider überraschende Erlebnisse aus ihrem Beruf. In Teil 2 erfahren wir von (weniger) schönen und mitunter skurrilen Erfahrungen mit Gästen - und warum ...",
       "title_en": "Asked: Hotel manager explains: »The worst guests are those who lie",
       "desc_en": "As part of the new TRAVELBOOK series “Behind the scenes of the hotels,” insiders reveal surprising experiences from their jobs. In part 2 we learn about (less) nice and sometimes bizarre experiences with guests - and why..."
-    },
-    {
-      "id": "auto-gepragt-von-wind-und-lavagestein-diese-italien",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-08",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/ziele/inseln/pantelleria-italien-geheimtipp",
-      "title": "Geprägt von Wind und Lavagestein: Diese italienische Insel ist noch ein echter Geheimtipp",
-      "desc": "Südwestlich von Sizilien liegt die Vulkaninsel Pantelleria. Vielen ist sie vielleicht noch kein Begriff, dabei hat das zu Italien gehörende Eiland einiges zu bieten. Mit heißen Quellen, zerklüfteten Küsten und geprägt von schwarzem ...",
-      "title_en": "Shaped by wind and lava rock: This Italian island is still a real insider tip",
-      "desc_en": "Southwest of Sicily lies the volcanic island of Pantelleria. Many people may not be familiar with it, but the island, which belongs to Italy, has a lot to offer. With hot springs, rugged coastlines and characterized by black ..."
     }
   ]
 }
