@@ -5722,7 +5722,7 @@ const BLOG_DATA = [
   {id:'bc-6', label:'🇻🇳', grad:'vn', tag:'Vietnam · Neu', tag_en:'Vietnam · New', title:'Vietnam: Was ich falsch eingepackt habe - mach es besser', title_en:'Vietnam: what I packed wrong - do it better', meta:'6 min · Südostasien', meta_en:'6 min · Southeast Asia'},
   {id:"bc-7", label:"🇯🇵", grad:"jp", tag:"Japan", tag_en:"Japan", title:"Japan: 3 Wochen zwischen Tempeln und Neon", title_en:"Japan: 3 weeks between temples and neon", meta:"Reise-Story · Asien", meta_en:"Trip story · Asia"},
   {id:"bc-8", label:"🇻🇳", grad:"vn", tag:"Vietnam", tag_en:"Vietnam", title:"Vietnam von Nord nach Süd - meine Route", title_en:"Vietnam north to south - my route", meta:"Reise-Story · Südostasien", meta_en:"Trip story · Southeast Asia"},
-  {id:"bc-9", image:'images/photos/krabi-dschungelweg.webp', label:"🇹🇭", grad:"sunset", tag:"Thailand", tag_en:"Thailand", title:"Thailand: Inseln, Kajak und Kalkfelsen", title_en:"Thailand: islands, kayaks and limestone cliffs", meta:"Reise-Story · Südostasien", meta_en:"Trip story · Southeast Asia"},
+  {id:"bc-9", image:'images/photos/krabi-aussicht.webp', label:"🇹🇭", grad:"sunset", tag:"Thailand", tag_en:"Thailand", title:"Thailand: Inseln, Kajak und Kalkfelsen", title_en:"Thailand: islands, kayaks and limestone cliffs", meta:"Reise-Story · Südostasien", meta_en:"Trip story · Southeast Asia"},
   {id:"bc-10", label:"🇰🇷", grad:"jp", tag:"Südkorea", tag_en:"South Korea", title:"Seoul: 4 Tage in der schnellsten Stadt Asiens", title_en:"Seoul: 4 days in Asia's fastest city", meta:"Reise-Story · Asien", meta_en:"Trip story · Asia"},
   {id:"bc-11", label:"🇪🇸", grad:"sunset", tag:"Spanien", tag_en:"Spain", title:"Barcelona: der Morgen, der alles veränderte", title_en:"Barcelona: the morning that changed everything", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-12", image:'images/photos/mallorca-bucht.webp', label:"🇪🇸", grad:"sand", tag:"Mallorca", tag_en:"Mallorca", title:"Mallorca abseits der Partymeile", title_en:"Mallorca beyond the party strip", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
@@ -5736,7 +5736,7 @@ const BLOG_DATA = [
   {id:"bc-20", image:'images/photos/pula-arena.webp', label:"🇭🇷", grad:"jp", tag:"Kroatien", tag_en:"Croatia", title:"Pula: römisches Erbe an der Adria", title_en:"Pula: Roman heritage on the Adriatic", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-21", label:"🇩🇰", grad:"jp", tag:"Dänemark", tag_en:"Denmark", title:"Kopenhagen: Hygge, Design und Fahrrad", title_en:"Copenhagen: hygge, design and bikes", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-22", image:'images/photos/luxemburg-pont-adolphe.webp', label:"🇱🇺", grad:"dd", tag:"Luxemburg", tag_en:"Luxembourg", title:"Luxemburg: Festung über der Schlucht", title_en:"Luxembourg: a fortress above the gorge", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-23", image:'images/photos/antwerpen-grote-markt.webp', label:"🇧🇪", grad:"cz", tag:"Belgien", tag_en:"Belgium", title:"Belgien: Antwerpen & Brügge an einem Wochenende", title_en:"Belgium: Antwerp & Bruges in one weekend", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
+  {id:"bc-23", image:'images/photos/gent-graslei.webp', label:"🇧🇪", grad:"cz", tag:"Belgien", tag_en:"Belgium", title:"Belgien: Gent & Antwerpen – Grachten, Graffiti, Waffeln", title_en:"Belgium: Ghent & Antwerp – canals, graffiti, waffles", title_es:"Bélgica: Gante y Amberes – canales, grafitis y gofres", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-24", label:"🇳🇱", grad:"sunset", tag:"Niederlande", tag_en:"Netherlands", title:"Niederlande: mehr als nur Amsterdam", title_en:"The Netherlands: more than just Amsterdam", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
   {id:"bc-25", label:"🇺🇸", grad:"jp", tag:"USA", tag_en:"USA", title:"New York: die Stadt, die man einmal gesehen haben muss", title_en:"New York: the city you have to see once", meta:"Reise-Story · Weltweit", meta_en:"Trip story · Worldwide"},
   {id:"bc-26", label:"🇹🇳", grad:"sand", tag:"Tunesien", tag_en:"Tunisia", title:"Tunesien: Medina, Meer und Sahara-Vorgeschmack", title_en:"Tunisia: medina, sea and a taste of the Sahara", meta:"Reise-Story · Afrika", meta_en:"Trip story · Africa"},
@@ -8660,7 +8660,7 @@ function closeDetail(fromRouter){
 function dtRender(){
   const d = HG.detail(dtKey);
   const body = document.getElementById('dt-body');
-  const txt0 = lang !== 'de' ? (d.text_en || d.text || '') : (d.text || '');
+  const txt0 = lang === 'es' ? (d.text_es || d.text_en || d.text || '') : lang !== 'de' ? (d.text_en || d.text || '') : (d.text || '');
   body.innerHTML = txt0;
   body.classList.toggle('dt-empty-body', !txt0);
   body.style.display = (!txt0 && !HG.editing) ? 'none' : '';

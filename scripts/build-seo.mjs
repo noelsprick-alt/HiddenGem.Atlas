@@ -269,10 +269,11 @@ for (const lang of ['de', 'en']) {
 let blogN = 0;
 for (const b of BLOG) {
   const d = content.detail?.['blog-' + b.id]; if (!d || /Entwurf/.test(d.text || '') || strip(d.text).length < 600) continue;
+  const bph = []; for (const src of (d.photos || [])) { const im = /\.mp4$/.test(src) ? src.replace('images/video/', 'images/video/p/').replace(/\.mp4$/, '.webp') : src; if (/\.webp$/.test(im) && !bph.includes(im) && fs.existsSync(path.join(ROOT, im))) bph.push(im); }
   for (const lang of ['de', 'en']) {
     const text = lang === 'en' ? d.text_en || d.text : d.text; const ttl = lang === 'en' ? b.title_en || b.title : b.title;
     const p = `${lang}/blog/${slugify(ttl)}/`; const alt = `${other(lang)}/blog/${slugify(other(lang) === 'en' ? b.title_en || b.title : b.title)}/`;
-    page({ lang, p, title: ttl + ' | HiddenGem.Atlas', desc: trim(text, 158), h1: esc(ttl), lead: '', body: `<div class="story">${text}</div><p><a class="btn" href="${up(p)}index.html#/blog">Blog →</a></p>`, type: 'article', crumbs: [{ n: 'Blog' }, { n: ttl }], alt,
+    page({ lang, p, title: ttl + ' | HiddenGem.Atlas', desc: trim(text, 158), h1: esc(ttl), lead: '', body: gallery(bph, ttl, up(p)) + `<div class="story">${text}</div><p><a class="btn" href="${up(p)}index.html#/blog">Blog →</a></p>`, type: 'article', image: bph[0], crumbs: [{ n: 'Blog' }, { n: ttl }], alt,
       ld: [{ '@context': 'https://schema.org', '@type': 'Article', headline: ttl, inLanguage: lang, author: { '@type': 'Person', name: 'Noel Sprick' }, dateModified: TODAY }] });
     blogN++;
   }
