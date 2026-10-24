@@ -1,9 +1,23 @@
 {
-  "updated": "23.10.2026",
-  "generated": "2026-10-23T09:49:07.310Z",
+  "updated": "24.10.2026",
+  "generated": "2026-10-24T09:21:24.942Z",
   "maxAgeDays": 14,
-  "count": 6,
+  "count": 5,
   "items": [
+    {
+      "id": "auto-idealer-ausgangspunkt-fur-zahlreiche-aktivitat",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-23",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/reiseziele/gemeinde-bayern-inzell-geheimtipp",
+      "title": "Idealer Ausgangspunkt für zahlreiche Aktivitäten: Dieses Städtchen in Bayern ist ein echter Geheimtipp",
+      "desc": "Ganz im Süden Deutschlands liegt eine kleine Gemeinde, die nicht nur ideal für ein paar erholsame Tage in Bayern ist - sie markiert auch den perfekten Ausgangspunkt für zahlreiche Aktivitäten in der Region. Die Rede ist von Inzell. ...",
+      "title_en": "Ideal starting point for numerous activities: This little town in Bavaria is a real insider tip",
+      "desc_en": "There is a small community in the very south of Germany that is not only ideal for a few relaxing days in Bavaria - it is also the perfect starting point for numerous activities in the region. We're talking about Inzell. ..."
+    },
     {
       "id": "auto-fund-entpuppt-sich-als-baumstamm-erneuter-ruck",
       "cat": "Reise",
@@ -59,34 +73,6 @@
       "desc": "Tausende Jahre alte Geschichte, eine hübsche Altstadt und dazu noch zwei Strände, die zum Entspannen einladen: Sozopol an der Schwarzmeerküste ist bei Bulgarien-Urlaubern kein Geheimtipp mehr - allzu bekannt ist das Städtchen aber ...",
       "title_en": "Sozopol in Bulgaria: This city on the Black Sea coast is still a real insider tip",
       "desc_en": "Thousands of years of history, a pretty old town and two beaches that invite you to relax: Sozopol on the Black Sea coast is no longer an insider tip for Bulgarian holidaymakers - but the town is all too well known..."
-    },
-    {
-      "id": "auto-travelbook-autor-ganz-planlos-unterwegs-so-war",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-09",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/reisen/roadtrips/spontaner-roadtrip-in-die-dolomiten",
-      "title": "TRAVELBOOK-Autor ganz planlos unterwegs: So war mein spontaner Roadtrip in die Dolomiten und nach Slowenien",
-      "desc": "Urlaub wird oft geplant wie ein kleines Projekt: Unterkunft sichern, Route festlegen, Restaurants speichern, Parkplätze recherchieren. Möglichst früh, möglichst gründlich, möglichst ohne Überraschungen. Viele Menschen lieben genau das: ...",
-      "title_en": "TRAVELBOOK author traveling without a plan: That was my spontaneous road trip to the Dolomites and Slovenia",
-      "desc_en": "Vacations are often planned like a small project: securing accommodation, determining a route, saving restaurants, researching parking spaces. As early as possible, as thoroughly as possible, with as few surprises as possible. Many people love exactly that: ..."
-    },
-    {
-      "id": "auto-nachgefragt-hotelmanager-packt-aus-die-schlimm",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-09",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/service/hotel-insider-einblicke-gaeste",
-      "title": "Nachgefragt: Hotelmanager packt aus: »Die schlimmsten Gäste sind die, die lügen",
-      "desc": "Im Rahmen der neuen TRAVELBOOK-Serie „Hinter den Kulissen der Hotels“ verraten Insider überraschende Erlebnisse aus ihrem Beruf. In Teil 2 erfahren wir von (weniger) schönen und mitunter skurrilen Erfahrungen mit Gästen - und warum ...",
-      "title_en": "Asked: Hotel manager explains: »The worst guests are those who lie",
-      "desc_en": "As part of the new TRAVELBOOK series “Behind the scenes of the hotels,” insiders reveal surprising experiences from their jobs. In part 2 we learn about (less) nice and sometimes bizarre experiences with guests - and why..."
     }
   ]
 }
