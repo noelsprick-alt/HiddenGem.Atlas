@@ -1,9 +1,23 @@
 {
-  "updated": "25.10.2026",
-  "generated": "2026-10-25T09:38:47.050Z",
+  "updated": "26.10.2026",
+  "generated": "2026-10-26T10:51:50.994Z",
   "maxAgeDays": 14,
-  "count": 5,
+  "count": 6,
   "items": [
+    {
+      "id": "auto-travelbook-autorin-vor-ort-japan-und-die-kultu",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-10-26",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/ziele/laender/japan-kultur-der-stille",
+      "title": "TRAVELBOOK-Autorin vor Ort: Japan und die Kultur der Stille - eine Reisende berichtet",
+      "desc": "Wer zum ersten Mal in Japan ist, dem wird auffallen, wie leise es selbst in vollen Zügen oder auf belebten Marktstraßen ist. Während uns Stille manchmal peinlich ist, wird in Japan Ruhe als unverzichtbarer Teil des Alltags betrachtet. ...",
+      "title_en": "TRAVELBOOK author on site: Japan and the culture of silence - a traveler reports",
+      "desc_en": "Anyone visiting Japan for the first time will notice how quiet it is, even in crowded places or on busy market streets. While we are sometimes embarrassed by silence, in Japan quiet is considered an indispensable part of everyday life. ..."
+    },
     {
       "id": "auto-idealer-ausgangspunkt-fur-zahlreiche-aktivitat",
       "cat": "Reise",
