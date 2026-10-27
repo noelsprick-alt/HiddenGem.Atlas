@@ -79,3 +79,13 @@ Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt p
 - **17 neue Videos** (Krabi-Kajak, Muay Thai Ao Nang, Roller, Affen, Phuket-Schrein, Pula Arena/Verudela/DJ, Lungau Gipfel/Grat/Alm, Karwoche Vilafranca, Qanat, Gent) in Galerien und Stories.
 - **Omio:** Box „Anreise mit Bahn & Bus“ (Code xwjmj3nl) auf allen europäischen Städte-, Orts- und Routenseiten; endet automatisch nach 07.04.2027 (`OMIO_UNTIL`).
 - **Search Console:** Property `https://noelsprick-alt.github.io/HiddenGem.Atlas/` bestätigt, Sitemap eingereicht (22.10.2026).
+
+## v17 (27.10.2026)
+- **Karte 10.000+ Orte:** `data/moments-open.json` = Orte aus offenen Daten (Wikidata, CC0) - Wasserfälle, Höhlen, Schluchten, Geisterstädte, besondere Bars, Kaffeehäuser, Restaurants, Märkte. Gekennzeichnet mit 📚 „Offene Daten“; der Kurztext kommt erst auf Klick live von Wikipedia (CC BY-SA, mit Quelle). Diese Orte bekommen **keine** eigenen SEO-Seiten.
+  - Neu holen: Actions → „Offene Ortsdaten holen“ → `wikidata` (schreibt `data-src/open-raw.json`), danach lokal `node scripts/build-open-places.mjs 9000`.
+  - Eigene neue Orte (handverlesen, DE/EN) stehen in `data/moments-curated.json`; Koordinaten prüft der Workflow mit `geocode` über OpenStreetMap (`data-src/curated-new.json` → `data-src/geocode.json`).
+- **Neues Thema** 🍽️ „Besondere Restaurants & Märkte“; 🍸 heißt jetzt „Besondere Bars & Cafés“.
+- **Reise-Guides:** alle 31 Beiträge mit „Was das Land ausmacht“, „Ein bisschen Geschichte“, eigenem Erlebnis (nur echte Erlebnisse) und Tipp. Beiträge ohne eigenes Foto haben ein Karten-Cover (`images/blog/`).
+- **Spanisch:** `scripts/translate-es.mjs` (läuft im Übersetzungs-Workflow) übersetzt fehlende spanische Texte aus dem Englischen; von Hand geschriebene bleiben unangetastet.
+- **Navigation:** 📍 Karte · 📝 Reise-Guides · Reise planen ▾ · Inspiration ▾ · Über HiddenGem ▾ (alte Adressen `#/entdecken` und `#/content` leiten weiter).
+- **Foto-Kalender** entfernt (gibt es 2027 nicht).

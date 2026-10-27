@@ -96,6 +96,8 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:1.2rem
 .nav-links{display:flex;gap:1.75rem;font-size:12px;color:var(--text2)}
 .nav-links a{cursor:pointer;transition:color 0.15s;white-space:nowrap;letter-spacing:0.3px}
 .nav-links a:hover{color:var(--terra)}
+.nav-links a.nav-main{font-weight:600}
+.nav-mobile-menu a.mob-main{font-weight:600}
 .nav-right{display:flex;align-items:center;gap:1rem}
 .nav-cta{background:var(--terra);color:#fff;border:1px solid var(--terra);padding:8px 18px;border-radius:var(--r);font-size:11px;font-weight:500;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all 0.15s;white-space:nowrap;letter-spacing:0.5px}
 .nav-cta:hover{background:var(--terra2);color:#fff;transform:translateY(-1px)}
@@ -2073,6 +2075,16 @@ body.sr-lock{overflow:hidden}
 .mp-item-th .mp-tag.th{background:rgba(160,130,255,.16);color:#d6c8ff}
 .mp-item-th .mp-tag.un{background:rgba(80,170,255,.15);color:#a9d6ff}
 .mp-mk.th-story span{border-color:#7a5cd6}.mp-mk.th-adventure span{border-color:#2f9e6e}.mp-mk.th-bar span{border-color:#c2410c}.mp-mk.un span{border-color:#0a63a3}
+.mp-mk.th-food span{border-color:#b7791f}
+.mp-mk.od span{width:24px;height:24px;font-size:12px;border-width:2px;opacity:.92}
+.mp-tag.od{background:rgba(70,110,140,.12);color:#3d6a8a}
+.mp-todo.od{color:#3d6a8a}
+.mp-wiki{margin:-2px 0 9px}
+.mp-wiki-btn{font-size:11.5px;font-weight:600;border-radius:8px;padding:5px 9px;cursor:pointer;font-family:'DM Sans',sans-serif;border:1px dashed var(--border2);background:#fffaf2;color:#5c4a2a}
+.mp-wiki-t{font-size:12px;line-height:1.5;color:#3b2f1c;margin:0 0 6px;max-height:190px;overflow:auto}
+.mp-wiki-src{font-size:10.5px;color:#8a7350;text-decoration:underline}
+.dt-wiki .mp-wiki-t{font-size:16px;line-height:1.7;max-height:none;color:inherit}
+.dt-wiki .mp-wiki-src{font-size:13px;color:inherit;opacity:.75}
 .mp-item-side{display:flex;flex-direction:column;flex-shrink:0;border-left:1px solid rgba(255,255,255,.12)}
 .mp-item-side .mp-item-gm{border-left:0;flex:1;min-height:40px}
 .mp-item-add{width:48px;flex:1;min-height:40px;background:none;border:0;border-bottom:1px solid rgba(255,255,255,.12);color:#fdf8f0;font-size:15px;cursor:pointer}
@@ -2284,42 +2296,42 @@ body.sr-lock{overflow:hidden}
 <nav id="main-nav">
   <a class="logo" href="#/" aria-label="HiddenGem.Atlas">Hidden<em>Gem</em>.Atlas</a>
   <div class="nav-links">
-    <a href="#/ueber-mich"><span data-i18n="pg_about_t">Über mich</span></a>
-    <div class="nav-dd" data-group="entdecken">
-      <a class="nav-dd-trigger" href="#/entdecken" aria-haspopup="true"><span data-i18n="grp_explore">Entdecken</span><span class="dd-caret" aria-hidden="true">▾</span></a>
+    <a class="nav-main" href="#/momente"><span aria-hidden="true">📍</span> <span data-i18n="nav_map">Karte</span></a>
+    <a class="nav-main" href="#/blog"><span aria-hidden="true">📝</span> <span data-i18n="nav_guides">Reise-Guides</span></a>
+    <div class="nav-dd" data-group="reise-planen">
+      <a class="nav-dd-trigger" href="#/reise-planen" aria-haspopup="true"><span data-i18n="grp_plan">Reise planen</span><span class="dd-caret" aria-hidden="true">▾</span></a>
       <div class="nav-dd-menu">
-        <a href="#/touren"><span class="dd-ic" aria-hidden="true">🗺️</span><span data-i18n="pg_tours_t">Touren &amp; Destinationen</span></a>
         <a href="#/planer"><span class="dd-ic" aria-hidden="true">🧭</span><span data-i18n="pg_planner_t">Reiseplaner</span></a>
-        <a href="#/trends"><span class="dd-ic" aria-hidden="true">📡</span><span data-i18n="pg_trends_t">Trend-Radar</span></a>
-        <a href="#/momente"><span class="dd-ic" aria-hidden="true">📍</span><span data-i18n="pg_moments_t">Hidden Gems Karte</span></a>
+        <a href="#/touren"><span class="dd-ic" aria-hidden="true">🗺️</span><span data-i18n="pg_tours_t">Touren &amp; Destinationen</span></a>
         <a href="#/events"><span class="dd-ic" aria-hidden="true">📅</span><span data-i18n="pg_events_t">Eventkalender</span></a>
-        <a href="#/reality-check"><span class="dd-ic" aria-hidden="true">👁️</span><span data-i18n="pg_rc_t">Reality Check</span></a>
         <a href="#/kalkulator"><span class="dd-ic" aria-hidden="true">💶</span><span data-i18n="pg_calc_t">Trip-Kalkulator</span></a>
-        <a href="#/gem-matcher"><span class="dd-ic" aria-hidden="true">✦</span><span data-i18n="pg_matcher_t">Gem-Matcher</span></a>
-        <a class="dd-all" href="#/entdecken"><span data-i18n="dd_all">Übersicht →</span></a>
+        <a href="#/packliste"><span class="dd-ic" aria-hidden="true">🎒</span><span data-i18n="pg_pack_t">Packliste</span></a>
+        <a class="dd-all" href="#/reise-planen"><span data-i18n="dd_all">Übersicht →</span></a>
       </div>
     </div>
-    <div class="nav-dd" data-group="content">
-      <a class="nav-dd-trigger" href="#/content" aria-haspopup="true"><span data-i18n="grp_content">Content</span><span class="dd-caret" aria-hidden="true">▾</span></a>
+    <div class="nav-dd" data-group="inspiration">
+      <a class="nav-dd-trigger" href="#/inspiration" aria-haspopup="true"><span data-i18n="grp_inspo">Inspiration</span><span class="dd-caret" aria-hidden="true">▾</span></a>
       <div class="nav-dd-menu">
-        <a href="#/blog"><span class="dd-ic" aria-hidden="true">📝</span><span data-i18n="pg_blog_t">Blog &amp; Guides</span></a>
+        <a href="#/gem-matcher"><span class="dd-ic" aria-hidden="true">✦</span><span data-i18n="pg_matcher_t">Gem-Matcher</span></a>
+        <a href="#/trends"><span class="dd-ic" aria-hidden="true">📡</span><span data-i18n="pg_trends_t">Trend-Radar</span></a>
+        <a href="#/reality-check"><span class="dd-ic" aria-hidden="true">👁️</span><span data-i18n="pg_rc_t">Reality Check</span></a>
         <a href="#/quiz"><span class="dd-ic" aria-hidden="true">🧠</span><span data-i18n="pg_quiz_t">Quiz</span></a>
-        <a href="#/shop"><span class="dd-ic" aria-hidden="true">🛍️</span><span data-i18n="pg_shop_t">Shop</span></a>
-        <a href="#/packliste"><span class="dd-ic" aria-hidden="true">🎒</span><span data-i18n="pg_pack_t">Packliste</span></a>
-        <a class="dd-all" href="#/content"><span data-i18n="dd_all">Übersicht →</span></a>
+        <a class="dd-all" href="#/inspiration"><span data-i18n="dd_all">Übersicht →</span></a>
       </div>
     </div>
     <div class="nav-dd" data-group="community">
-      <a class="nav-dd-trigger" href="#/community" aria-haspopup="true"><span data-i18n="grp_community">Community</span><span class="dd-caret" aria-hidden="true">▾</span></a>
+      <a class="nav-dd-trigger" href="#/community" aria-haspopup="true"><span data-i18n="grp_community">Über HiddenGem</span><span class="dd-caret" aria-hidden="true">▾</span></a>
       <div class="nav-dd-menu">
+        <a href="#/ueber-mich"><span class="dd-ic" aria-hidden="true">👋</span><span data-i18n="pg_about_t">Über mich</span></a>
+        <a href="#/projekte"><span class="dd-ic" aria-hidden="true">🛠️</span><span data-i18n="pg_projects_t">Projekte</span></a>
         <a href="#/mitglied"><span class="dd-ic" aria-hidden="true">🔐</span><span data-i18n="pg_member_t">Mitglied werden</span></a>
         <a href="#/kooperationen"><span class="dd-ic" aria-hidden="true">🤝</span><span data-i18n="pg_partner_t">Kooperationen &amp; Partner</span></a>
         <a href="#/marken"><span class="dd-ic" aria-hidden="true">📊</span><span data-i18n="pg_brands_t">Für Marken</span></a>
         <a href="#/soziales"><span class="dd-ic" aria-hidden="true">💚</span><span data-i18n="pg_cause_t">Soziale Projekte</span></a>
+        <a href="#/shop"><span class="dd-ic" aria-hidden="true">🛍️</span><span data-i18n="pg_shop_t">Shop</span></a>
         <a class="dd-all" href="#/community"><span data-i18n="dd_all">Übersicht →</span></a>
       </div>
     </div>
-    <a href="#/projekte"><span data-i18n="pg_projects_t">Projekte</span></a>
   </div>
   <div class="nav-right">
     <button class="nav-search" type="button" onclick="srOpen()" aria-label="Suche öffnen" data-i18n-aria="sr_open">🔍 <span class="ns-t" data-i18n="sr_btn">Suchen</span> <kbd>/</kbd></button>
@@ -2335,27 +2347,27 @@ body.sr-lock{overflow:hidden}
   <button class="nav-search mob-search" type="button" onclick="srOpen()">🔍 <span data-i18n="sr_btn">Suchen</span></button>
   <div class="lang-bar mob-lang"></div>
   <a href="#/"><span data-i18n="crumb_home">Start</span></a>
-  <a href="#/ueber-mich"><span data-i18n="pg_about_t">Über mich</span></a>
-  <a class="nav-mob-group" href="#/entdecken"><span data-i18n="grp_explore">Entdecken</span> <span aria-hidden="true">→</span></a>
-  <a class="mob-sub" href="#/touren"><span class="dd-ic" aria-hidden="true">🗺️</span><span data-i18n="pg_tours_t">Touren &amp; Destinationen</span></a>
+  <a class="mob-main" href="#/momente"><span class="dd-ic" aria-hidden="true">📍</span><span data-i18n="nav_map">Karte</span></a>
+  <a class="mob-main" href="#/blog"><span class="dd-ic" aria-hidden="true">📝</span><span data-i18n="nav_guides">Reise-Guides</span></a>
+  <a class="nav-mob-group" href="#/reise-planen"><span data-i18n="grp_plan">Reise planen</span> <span aria-hidden="true">→</span></a>
   <a class="mob-sub" href="#/planer"><span class="dd-ic" aria-hidden="true">🧭</span><span data-i18n="pg_planner_t">Reiseplaner</span></a>
-  <a class="mob-sub" href="#/trends"><span class="dd-ic" aria-hidden="true">📡</span><span data-i18n="pg_trends_t">Trend-Radar</span></a>
-  <a class="mob-sub" href="#/momente"><span class="dd-ic" aria-hidden="true">📍</span><span data-i18n="pg_moments_t">Hidden Gems Karte</span></a>
+  <a class="mob-sub" href="#/touren"><span class="dd-ic" aria-hidden="true">🗺️</span><span data-i18n="pg_tours_t">Touren &amp; Destinationen</span></a>
   <a class="mob-sub" href="#/events"><span class="dd-ic" aria-hidden="true">📅</span><span data-i18n="pg_events_t">Eventkalender</span></a>
-  <a class="mob-sub" href="#/reality-check"><span class="dd-ic" aria-hidden="true">👁️</span><span data-i18n="pg_rc_t">Reality Check</span></a>
   <a class="mob-sub" href="#/kalkulator"><span class="dd-ic" aria-hidden="true">💶</span><span data-i18n="pg_calc_t">Trip-Kalkulator</span></a>
-  <a class="mob-sub" href="#/gem-matcher"><span class="dd-ic" aria-hidden="true">✦</span><span data-i18n="pg_matcher_t">Gem-Matcher</span></a>
-  <a class="nav-mob-group" href="#/content"><span data-i18n="grp_content">Content</span> <span aria-hidden="true">→</span></a>
-  <a class="mob-sub" href="#/blog"><span class="dd-ic" aria-hidden="true">📝</span><span data-i18n="pg_blog_t">Blog &amp; Guides</span></a>
-  <a class="mob-sub" href="#/quiz"><span class="dd-ic" aria-hidden="true">🧠</span><span data-i18n="pg_quiz_t">Quiz</span></a>
-  <a class="mob-sub" href="#/shop"><span class="dd-ic" aria-hidden="true">🛍️</span><span data-i18n="pg_shop_t">Shop</span></a>
   <a class="mob-sub" href="#/packliste"><span class="dd-ic" aria-hidden="true">🎒</span><span data-i18n="pg_pack_t">Packliste</span></a>
-  <a class="nav-mob-group" href="#/community"><span data-i18n="grp_community">Community</span> <span aria-hidden="true">→</span></a>
+  <a class="nav-mob-group" href="#/inspiration"><span data-i18n="grp_inspo">Inspiration</span> <span aria-hidden="true">→</span></a>
+  <a class="mob-sub" href="#/gem-matcher"><span class="dd-ic" aria-hidden="true">✦</span><span data-i18n="pg_matcher_t">Gem-Matcher</span></a>
+  <a class="mob-sub" href="#/trends"><span class="dd-ic" aria-hidden="true">📡</span><span data-i18n="pg_trends_t">Trend-Radar</span></a>
+  <a class="mob-sub" href="#/reality-check"><span class="dd-ic" aria-hidden="true">👁️</span><span data-i18n="pg_rc_t">Reality Check</span></a>
+  <a class="mob-sub" href="#/quiz"><span class="dd-ic" aria-hidden="true">🧠</span><span data-i18n="pg_quiz_t">Quiz</span></a>
+  <a class="nav-mob-group" href="#/community"><span data-i18n="grp_community">Über HiddenGem</span> <span aria-hidden="true">→</span></a>
+  <a class="mob-sub" href="#/ueber-mich"><span class="dd-ic" aria-hidden="true">👋</span><span data-i18n="pg_about_t">Über mich</span></a>
+  <a class="mob-sub" href="#/projekte"><span class="dd-ic" aria-hidden="true">🛠️</span><span data-i18n="pg_projects_t">Projekte</span></a>
   <a class="mob-sub" href="#/mitglied"><span class="dd-ic" aria-hidden="true">🔐</span><span data-i18n="pg_member_t">Mitglied werden</span></a>
   <a class="mob-sub" href="#/kooperationen"><span class="dd-ic" aria-hidden="true">🤝</span><span data-i18n="pg_partner_t">Kooperationen &amp; Partner</span></a>
   <a class="mob-sub" href="#/marken"><span class="dd-ic" aria-hidden="true">📊</span><span data-i18n="pg_brands_t">Für Marken</span></a>
   <a class="mob-sub" href="#/soziales"><span class="dd-ic" aria-hidden="true">💚</span><span data-i18n="pg_cause_t">Soziale Projekte</span></a>
-  <a class="nav-mob-group" href="#/projekte"><span data-i18n="pg_projects_t">Projekte</span> <span aria-hidden="true">→</span></a>
+  <a class="mob-sub" href="#/shop"><span class="dd-ic" aria-hidden="true">🛍️</span><span data-i18n="pg_shop_t">Shop</span></a>
   <a class="mob-cta" href="#/touren" onclick="gTo('gyg');return false"><span data-i18n="n_cta">5 % auf Touren ↗</span></a>
 </div><div class="crumb" id="crumb" data-page="sub"><div class="crumb-in" id="crumb-in"></div></div>
 
@@ -2548,7 +2560,7 @@ body.sr-lock{overflow:hidden}
     <div class="nx-block">
       <div class="sec-lbl" data-i18n="nx_lbl">Was als Nächstes kommt</div>
       <div class="nx-list">
-        <div class="nx-item"><div class="nx-n">1</div><div class="nx-c"><div class="nx-when" data-i18n="nx1_w">Nov - Dez 2026</div><h4 data-i18n="nx1_t">Foto-Kalender 2027 &amp; Shop-Start</h4><p data-i18n="nx1_s">Meine besten Bilder - Nikon D90, ungefiltert - als Wandkalender. Oktober: Bildauswahl &amp; Layout · November: Vorverkauf · Dezember: Versand vor Weihnachten. 50 % des Erlöses gehen an lokale Projekte.</p></div></div>
+        <div class="nx-item"><div class="nx-n">1</div><div class="nx-c"><div class="nx-when" data-i18n="nx1_w">Nov - Dez 2026</div><h4 data-i18n="nx1_t">🗺️ 10.000 Orte auf der Karte</h4><p data-i18n="nx1_s">Besondere Bars, Restaurants und Abenteuer aus offenen Daten plus neue Geheimtipps aus meinen bereisten Städten. November: Abenteuer &amp; Bars · Dezember: neue Stories aus meinen Reisen.</p></div></div>
         <div class="nx-item"><div class="nx-n">2</div><div class="nx-c"><div class="nx-when" data-i18n="nx2_w">Jan - März 2027</div><h4 data-i18n="nx2_t">✅ Kartenziel übertroffen &amp; mein erster Reiseguide</h4><p data-i18n="nx2_s">Die Hidden-Gems-Karte wächst auf 1.500 Orte, dazu kommt mein erster digitaler Guide „12 Wochenendtrips ab NRW". Januar: neue Orte-Pakete (Ruhrgebiet, Benelux, DACH) · Februar: Guide schreiben · März: Launch.</p></div></div>
         <div class="nx-item"><div class="nx-n">3</div><div class="nx-c"><div class="nx-when" data-i18n="nx3_w">Apr - Sep 2027</div><h4 data-i18n="nx3_t">10.000 Follower &amp; erste Marken-Kooperationen</h4><p data-i18n="nx3_s">Drei Reels pro Woche, Collabs mit lokalen Accounts und ein Media-Kit für Marken. April: Media-Kit · Mai bis Juli: Collab-Serie · August/September: erste bezahlte Kooperation.</p></div></div>
       </div>
@@ -2900,15 +2912,6 @@ body.sr-lock{overflow:hidden}
         <div class="sc-bot"><div class="sc-price" id="pr-cal" data-set="prices.cal">€9.99</div><button class="sc-btn" id="sh-cal" data-i18n="shop_cta_soon" onclick="shopNotify()">Bald verfügbar</button></div>
       </div>
     </div>
-    <div class="sc reveal-scale" style="transition-delay:80ms">
-      <div class="si cause" id="si-fk" data-img="shop-fk"><span class="si-emoji">📷</span><span class="soon-badge-ov" data-i18n="b_soon">Bald</span></div>
-      <div class="sc-body">
-        <div class="sc-tag" data-i18n="dig_dl">Digital Download</div>
-        <div class="sc-title" data-i18n="sh_foto-kalender">Foto-Kalender </div>
-        <div class="sc-desc" data-i18n="fk_d">Meine besten Reisefotos als Jahreskalender. 50% des Erlöses geht an lokale Hilfsprojekte in den bereisten Regionen.</div>
-        <div class="sc-bot"><div class="sc-price" id="pr-fk" data-set="prices.fk">€19.99</div><button class="sc-btn" id="sh-fk" data-i18n="shop_cta_soon" onclick="shopNotify()">Bald verfügbar</button></div>
-      </div>
-    </div>
     <div class="sc reveal-scale" style="transition-delay:160ms">
       <div class="si pre" id="si-pre" data-img="shop-pre"><span class="si-emoji">🎨</span><span class="soon-badge-ov" data-i18n="b_soon">Bald</span></div>
       <div class="sc-body">
@@ -2973,13 +2976,13 @@ body.sr-lock{overflow:hidden}
       <h2 data-i18n="cs2_h2">Freundlichkeit kostet<br><em>nichts.</em></h2>
       <p data-i18n="cs2_p1">Ich möchte helfen - und das fängt nicht erst beim Geld an. Mit Freundlichkeit, Respekt, kleinen Gesten und echter Aufmerksamkeit kann man schon eine Menge bewirken. Ein ehrliches Danke, ein Lächeln, zuhören statt nur fotografieren. Das kostet gar nichts.</p>
       <p data-i18n="cs2_p2">Darüber hinaus möchte ich der Welt etwas zurückgeben. Ich bin gesegnet, weil ich in Deutschland aufwachsen durfte - mit Sicherheit, Bildung und der Freiheit, die Welt zu sehen. Das ist nicht selbstverständlich, und es geht nicht jedem so.</p>
-      <p data-i18n="cs2_p3">Deshalb soll HiddenGem.Atlas nicht nur mir etwas bringen: Ein Teil der Einnahmen aus Foto-Kalender, Affiliate-Provisionen und Kooperationen soll in lokale Bildungs- und Hilfsprojekte fließen - dort, wo ich unterwegs war.</p>
-      <button class="btn-g" onclick="gTo('shop')" data-i18n="cs2_cta" style="width:fit-content;margin-top:.5rem">Zum Foto-Kalender</button>
+      <p data-i18n="cs2_p3">Deshalb soll HiddenGem.Atlas nicht nur mir etwas bringen: Ein Teil der Einnahmen aus Affiliate-Provisionen und Kooperationen soll in lokale Bildungs- und Hilfsprojekte fließen - dort, wo ich unterwegs war.</p>
+      <button class="btn-g" onclick="gTo('momente')" data-i18n="cs2_cta" style="width:fit-content;margin-top:.5rem">Zur Hidden-Gems-Karte</button>
     </div>
     <div class="cause-items">
       <div class="cause-item"><div class="cause-ic">🙏</div><div><h4 data-i18n="c0t">Kleine Gesten, große Wirkung</h4><p data-i18n="c0s">Freundlichkeit, Respekt und Aufmerksamkeit - überall, für jeden, kostenlos.</p></div></div>
       <div class="cause-item"><div class="cause-ic">🌱</div><div><h4 data-i18n="c1t">Nachhaltiger Tourismus</h4><p data-i18n="c1s">Nur Touren und Anbieter die lokale Communities stärken statt zu verdrängen.</p></div></div>
-      <div class="cause-item"><div class="cause-ic">📸</div><div><h4 data-i18n="c2t">Foto-Kalender für den guten Zweck</h4><p data-i18n="c2s">50% des Erlöses geht an lokale Hilfsprojekte in Albanien, Slowenien &amp; Japan.</p></div></div>
+      <div class="cause-item"><div class="cause-ic">💛</div><div><h4 data-i18n="c2t">Provisionen für den guten Zweck</h4><p data-i18n="c2s">Ein Teil meiner Affiliate-Einnahmen geht an lokale Hilfsprojekte in den Regionen, die ich bereist habe.</p></div></div>
       <div class="cause-item"><div class="cause-ic">📚</div><div><h4 data-i18n="c3t">Bildung durch Reisen</h4><p data-i18n="c3s">Mein Wissen kostenlos teilen - für alle, nicht nur die die es sich leisten können.</p></div></div>
       <div class="cause-item"><div class="cause-ic">🤝</div><div><h4 data-i18n="c4t">Lokale Wirtschaft stärken</h4><p data-i18n="c4s">Guides zeigen lokale Restaurants, kleine Unterkünfte und unabhängige Guides.</p></div></div>
     </div>
@@ -3255,7 +3258,6 @@ body.sr-lock{overflow:hidden}
     <div class="ft-col">
       <h4 data-i18n="ft_shop">Shop</h4>
       <a href="#/shop" data-i18n="sh_365-travel-calendar">365 Travel Calendar</a>
-      <a data-i18n="fk_title" href="#/shop">Foto-Kalender</a>
       <a data-i18n="ft_travel-presets" href="#/shop">Travel Presets</a>
       <a href="#/shop" data-i18n="ft_sticker-pack">Sticker Pack</a>
     </div>
@@ -3353,7 +3355,7 @@ body.sr-lock{overflow:hidden}
     <div class="md-body">
       <h3 data-i18n="aff_transparenz-ist-mir-wichtig">Transparenz ist mir wichtig</h3><p data-i18n="aff_diese-website-enthalt-affili">Diese Website enthält Affiliate-Links, z.B. zu GetYourGuide. Wenn du über einen dieser Links buchst oder kaufst, erhalte ich eine kleine Provision - ohne Mehrkosten für dich.</p>
       <h3 data-i18n="aff_mein-versprechen">Mein Versprechen</h3><p data-i18n="aff_ich-empfehle-ausschliesslich">Ich empfehle ausschließlich Erlebnisse und Destinationen, die ich selbst besucht habe oder die ich nach eigener Recherche für wertvoll halte. Meine Meinung ist nicht käuflich.</p>
-      <h3 data-i18n="pg_cause_t">Soziale Projekte</h3><p data-i18n="aff_ein-teil-meiner-affiliate">Ein Teil meiner Affiliate-Einnahmen und Produkterlöse (insbesondere aus dem Foto-Kalender) fließt in lokale Hilfsprojekte in den bereisten Regionen.</p>
+      <h3 data-i18n="pg_cause_t">Soziale Projekte</h3><p data-i18n="aff_ein-teil-meiner-affiliate">Ein Teil meiner Affiliate-Einnahmen fließt in lokale Hilfsprojekte in den bereisten Regionen.</p>
       <h3 data-i18n="aff_kennzeichnung">Kennzeichnung</h3><p data-i18n="aff_alle-affiliate-links-sind">Alle Affiliate-Links sind mit <strong>*</strong> gekennzeichnet. Kooperationen findest du im Bereich <a href="#/kooperationen" onclick="closeM('aff')">Kooperationen &amp; Partner</a>.</p>
       <h3 data-i18n="tb1">GetYourGuide Partner</h3><p data-i18n="aff_partner-id-h0dwlvb-rabattcod">Partner-ID: H0DWLVB · Rabattcode: <strong>HIDDENGEMATLAS5</strong> (5% auf jede Buchung)</p>
     </div></div>
@@ -3393,7 +3395,7 @@ const I18N = {
 "ab_travel-mindset":["Travel Mindset","Travel Mindset"],
 "aff_alle-affiliate-links-sind":["Alle Affiliate-Links sind mit <strong>*</strong> gekennzeichnet. Kooperationen findest du im Bereich <a href=\"#/kooperationen\" onclick=\"closeM('aff')\">Kooperationen &amp; Partner</a>.","All affiliate links are marked with <strong>*</strong>. You'll find collaborations in the <a href=\"#/kooperationen\" onclick=\"closeM('aff')\">collaborations &amp; partners</a> section."],
 "aff_diese-website-enthalt-affili":["Diese Website enthält Affiliate-Links, z.B. zu GetYourGuide. Wenn du über einen dieser Links buchst oder kaufst, erhalte ich eine kleine Provision - ohne Mehrkosten für dich.","This website contains affiliate links, e.g. to GetYourGuide. If you book or buy via one of these links, I receive a small commission - at no extra cost to you."],
-"aff_ein-teil-meiner-affiliate":["Ein Teil meiner Affiliate-Einnahmen und Produkterlöse (insbesondere aus dem Foto-Kalender) fließt in lokale Hilfsprojekte in den bereisten Regionen.","Part of my affiliate income and product revenue (especially from the photo calendar) goes to local aid projects in the regions I travel to."],
+"aff_ein-teil-meiner-affiliate":["Ein Teil meiner Affiliate-Einnahmen fließt in lokale Hilfsprojekte in den bereisten Regionen.","Part of my affiliate income goes to local aid projects in the regions I've travelled."],
 "aff_f":["* Affiliate-Links zu GetYourGuide (Partner-ID: H0DWLVB). Bei Buchungen erhalte ich Provision - für dich ohne Mehrkosten. Alle Empfehlungen basieren auf persönlicher Erfahrung.","* Affiliate links to GetYourGuide (Partner ID: H0DWLVB). I earn commission on bookings - no extra cost to you."],
 "aff_ich-empfehle-ausschliesslich":["Ich empfehle ausschließlich Erlebnisse und Destinationen, die ich selbst besucht habe oder die ich nach eigener Recherche für wertvoll halte. Meine Meinung ist nicht käuflich.","I only recommend experiences and destinations that I have visited myself or consider worthwhile after my own research. My opinion is not for sale."],
 "aff_kennzeichnung":["Kennzeichnung","Labelling"],
@@ -3455,17 +3457,17 @@ const I18N = {
 "br_zusammenarbeit-mit-tourismus":["Zusammenarbeit mit Tourismusbüros, DMOs und Reiseanbietern. Ziel: Orte vor dem Massentourismus-Hype in der richtigen Community platzieren.","Working with tourism boards, DMOs and travel providers. The goal: placing destinations in the right community before the mass-tourism hype."],
 "c1s":["Nur Touren und Anbieter die lokale Communities stärken statt zu verdrängen.","Only tours and providers that strengthen local communities."],
 "c1t":["Nachhaltiger Tourismus","Sustainable Tourism"],
-"c2s":["50% des Erlöses geht an lokale Hilfsprojekte in Albanien, Slowenien &amp; Japan.","50% of proceeds go to local aid projects in Albania, Slovenia & Japan."],
-"c2t":["Foto-Kalender für den guten Zweck","Photo Calendar for a Good Cause"],
+"c2s":["Ein Teil meiner Affiliate-Einnahmen geht an lokale Hilfsprojekte in den Regionen, die ich bereist habe.","Part of my affiliate income goes to local aid projects in the regions I've travelled."],
+"c2t":["Provisionen für den guten Zweck","Commissions for a good cause"],
 "c3s":["Mein Wissen kostenlos teilen - für alle, nicht nur die die es sich leisten können.","Sharing knowledge freely - for everyone, not just those who can afford it."],
 "c3t":["Bildung durch Reisen","Education through travel"],
 "c4s":["Guides zeigen lokale Restaurants, kleine Unterkünfte und unabhängige Guides.","Guides feature local restaurants, small accommodations and independent guides."],
 "c4t":["Lokale Wirtschaft stärken","Strengthening the local economy"],
-"ca_cta":["Foto-Kalender kaufen","Buy photo calendar"],
+"ca_cta":["Zur Hidden-Gems-Karte","Open the hidden gems map"],
 "ca_h2":["Reisen, das<br><em>etwas bewirkt.</em>","Travel that<br><em>makes a difference.</em>"],
 "ca_lbl":["Soziale Projekte","Social Projects"],
 "ca_p1":["Ich glaube, dass Reisen die Welt verändert - nicht nur für den Reisenden, sondern auch für die Menschen vor Ort. Deshalb unterstütze ich aktiv soziale Projekte in den Regionen, die ich besuche.","I believe travel changes the world - not just for the traveler, but for the people who live there. That's why I actively support social projects in the regions I visit."],
-"ca_p2":["Ein Teil meiner Einnahmen - aus dem Foto-Kalender, Affiliate-Provisionen und Kooperationen - fließt direkt in lokale Bildungs- und Hilfsprojekte.","A portion of my earnings - from the photo calendar, affiliate commissions and collaborations - goes directly to local education and aid projects."],
+"ca_p2":["Ein Teil meiner Einnahmen - aus Affiliate-Provisionen und Kooperationen - fließt direkt in lokale Bildungs- und Hilfsprojekte.","A portion of my earnings - from affiliate commissions and collaborations - goes straight to local education and aid projects."],
 "cal_d":["Ein Hidden Gem für jeden Tag des Jahres. Europa &amp; Asien. Perfektes Geschenk für Reisebegeisterte.","A hidden gem for every day of the year. Europe &amp; Asia. The perfect gift for travel lovers."],
 "cat_bar":["Bar & Nightlife","Bar & nightlife"],
 "cat_beach":["Strand","Beach"],
@@ -3562,8 +3564,6 @@ const I18N = {
 "ex_ok_t":["Du bist dabei.","You're in."],
 "ex_text":["Melde dich für exklusive Hidden Gem Guides an - Orte, die nie auf Instagram landen, direkt in dein Postfach.","Sign up for exclusive hidden gem guides - places that never end up on Instagram, straight to your inbox."],
 "ex_title":["Warte kurz - du verpasst was.","Wait - you're missing out."],
-"fk_d":["Meine besten Reisefotos als Jahreskalender. 50% des Erlöses geht an lokale Hilfsprojekte in den bereisten Regionen.","My best travel photos as a yearly calendar. 50% of the proceeds go to local aid projects in the regions I've travelled."],
-"fk_title":["Foto-Kalender","Photo Calendar"],
 "flw_ig":["Folge auf Instagram","Follow on Instagram"],
 "flw_tt":["Auf TikTok folgen","Follow on TikTok"],
 "form_fail":["Das hat leider nicht geklappt. Schreib mir einfach an <a href=\"mailto:mail.myinfo@web.de\">mail.myinfo@web.de</a>.","Sorry, that didn't work. Just write to me at <a href=\"mailto:mail.myinfo@web.de\">mail.myinfo@web.de</a>."],
@@ -3588,9 +3588,17 @@ const I18N = {
 "ft_tokyo":["Tokyo *","Tokyo *"],
 "ft_travel-presets":["Travel Presets","Travel Presets"],
 "ft_v11-mit-gemacht-im":["v11 · Mit ❤️ gemacht im Ruhrgebiet","v11 · Made with ❤️ in the Ruhr Valley"],
-"grp_community":["Community","Community"],
-"grp_community_h":["Gemeinsam <em>entdecken.</em>","Discover <em>together.</em>"],
-"grp_community_sub":["Die Hidden Gem Society, Kooperationen mit Marken und Projekte, die etwas bewirken.","The Hidden Gem Society, collaborations with brands and projects that make a difference."],
+"grp_plan":["Reise planen","Plan a trip"],
+"grp_plan_h":["Deine Reise, <em>gut geplant.</em>","Your trip, <em>well planned.</em>"],
+"grp_plan_sub":["Reiseplaner, Touren, Events &amp; Brückentage, echte Kosten und die Packliste - alles für den nächsten Trip.","Trip planner, tours, events &amp; bridge days, real costs and the packing list - everything for your next trip."],
+"grp_inspo":["Inspiration","Inspiration"],
+"grp_inspo_h":["Wohin als <em>Nächstes?</em>","Where <em>next?</em>"],
+"grp_inspo_sub":["Der Gem-Matcher findet dein Reiseziel, das Trend-Radar zeigt, was gerade kommt - und der Reality Check, was der Hype verschweigt.","The Gem Matcher finds your destination, the Trend Radar shows what is coming next - and the Reality Check what the hype keeps quiet."],
+"nav_map":["Karte","Map"],
+"nav_guides":["Reise-Guides","Travel guides"],
+"grp_community":["Über HiddenGem","About"],
+"grp_community_h":["Wer dahinter <em>steckt.</em>","Who is <em>behind it.</em>"],
+"grp_community_sub":["Über mich, meine Projekte, die Hidden Gem Society, Kooperationen, soziale Projekte und der Shop.","About me, my projects, the Hidden Gem Society, collaborations, social projects and the shop."],
 "grp_content":["Content","Content"],
 "grp_content_h":["Lesen, spielen, <em>planen.</em>","Read, play, <em>plan.</em>"],
 "grp_content_sub":["Guides aus erster Hand, das Hidden-Gem-Quiz, meine Packliste und der Shop.","First-hand guides, the hidden gem quiz, my packing list and the shop."],
@@ -3774,8 +3782,14 @@ const I18N = {
 "mp_th_story1":["Geschichte", "Story"],
 "mp_th_adv":["Abenteuer", "Adventures"],
 "mp_th_adv1":["Abenteuer", "Adventure"],
-"mp_th_bar":["Legendäre Bars", "Legendary bars"],
-"mp_th_bar1":["Legendäre Bar", "Legendary bar"],
+"mp_th_bar":["Besondere Bars & Cafés", "Remarkable bars & cafés"],
+"mp_th_bar1":["Bar & Café", "Bar & café"],
+"mp_th_food":["Besondere Restaurants & Märkte", "Remarkable restaurants & markets"],
+"mp_th_food1":["Restaurant & Markt", "Restaurant & market"],
+"mp_open_src":["Offene Daten", "Open data"],
+"mp_wiki_read":["Geschichte lesen", "Read the story"],
+"mp_wiki_none":["Zu diesem Ort gibt es noch keinen Wikipedia-Text.", "There is no Wikipedia text for this place yet."],
+"mp_wiki_lic":["Text: Wikipedia (CC BY-SA)", "Text: Wikipedia (CC BY-SA)"],
 "mp_city_ph":["Stadt eingeben ...", "Type a city ..."],
 "mp_unesco_entry":["UNESCO-Eintrag", "UNESCO listing"],
 "my_add":["Zur Route", "Add to route"],
@@ -3933,8 +3947,8 @@ const I18N = {
 "ev_cal_name":["HiddenGem.Atlas Eventkalender", "HiddenGem.Atlas event calendar"],
 "nx_lbl":["Was als Nächstes kommt", "What's next"],
 "nx1_w":["Nov - Dez 2026", "Nov - Dec 2026"],
-"nx1_t":["Foto-Kalender 2027 &amp; Shop-Start", "2027 photo calendar &amp; shop launch"],
-"nx1_s":["Meine besten Bilder - Nikon D90, ungefiltert - als Wandkalender. Oktober: Bildauswahl &amp; Layout · November: Vorverkauf · Dezember: Versand vor Weihnachten. 50 % des Erlöses gehen an lokale Projekte.", "My best shots - Nikon D90, unfiltered - as a wall calendar. October: picking photos &amp; layout · November: pre-sale · December: shipping before Christmas. 50% of the proceeds go to local projects."],
+"nx1_t":["🗺️ 10.000 Orte auf der Karte","🗺️ 10,000 places on the map"],
+"nx1_s":["Besondere Bars, Restaurants und Abenteuer aus offenen Daten plus neue Geheimtipps aus meinen bereisten Städten. November: Abenteuer &amp; Bars · Dezember: neue Stories aus meinen Reisen.","Remarkable bars, restaurants and adventures from open data, plus new insider tips from the cities I've been to. November: adventures &amp; bars · December: new stories from my trips."],
 "nx2_w":["Jan - März 2027", "Jan - Mar 2027"],
 "nx2_t":["✅ Kartenziel übertroffen &amp; mein erster Reiseguide", "✅ Map goal smashed &amp; my first travel guide"],
 "nx2_s":["Geplant waren 1.500 Orte bis März 2027 - schon im Oktober 2026 sind es über 4.400, inklusive aller UNESCO-Welterbestätten, verrückter Geschichten, Abenteuer und legendärer Bars. Jetzt folgt mein erster digitaler Guide „12 Wochenendtrips ab NRW\". Januar: Routen testen · Februar: Guide schreiben · März: Launch.", "The plan was 1,500 places by March 2027 - by October 2026 there are already more than 4,400, including every UNESCO World Heritage site, crazy stories, adventures and legendary bars. Next up is my first digital guide \"12 weekend trips from NRW\". January: testing routes · February: writing the guide · March: launch."],
@@ -3944,8 +3958,8 @@ const I18N = {
 "cs2_h2":["Freundlichkeit kostet<br><em>nichts.</em>", "Kindness costs<br><em>nothing.</em>"],
 "cs2_p1":["Ich möchte helfen - und das fängt nicht erst beim Geld an. Mit Freundlichkeit, Respekt, kleinen Gesten und echter Aufmerksamkeit kann man schon eine Menge bewirken. Ein ehrliches Danke, ein Lächeln, zuhören statt nur fotografieren. Das kostet gar nichts.", "I want to help - and that doesn't start with money. With kindness, respect, small gestures and genuine attention you can already make a real difference. An honest thank-you, a smile, listening instead of just taking pictures. It costs nothing at all."],
 "cs2_p2":["Darüber hinaus möchte ich der Welt etwas zurückgeben. Ich bin gesegnet, weil ich in Deutschland aufwachsen durfte - mit Sicherheit, Bildung und der Freiheit, die Welt zu sehen. Das ist nicht selbstverständlich, und es geht nicht jedem so.", "Beyond that, I want to give something back to the world. I am blessed to have grown up in Germany - with safety, education and the freedom to see the world. That is not a given, and not everyone is that lucky."],
-"cs2_p3":["Deshalb soll HiddenGem.Atlas nicht nur mir etwas bringen: Ein Teil der Einnahmen aus Foto-Kalender, Affiliate-Provisionen und Kooperationen soll in lokale Bildungs- und Hilfsprojekte fließen - dort, wo ich unterwegs war.", "That is why HiddenGem.Atlas shouldn't only benefit me: part of the income from the photo calendar, affiliate commissions and partnerships is meant to go to local education and aid projects - in the places I have travelled."],
-"cs2_cta":["Zum Foto-Kalender", "See the photo calendar"],
+"cs2_p3":["Deshalb soll HiddenGem.Atlas nicht nur mir etwas bringen: Ein Teil der Einnahmen aus Affiliate-Provisionen und Kooperationen soll in lokale Bildungs- und Hilfsprojekte fließen - dort, wo ich unterwegs war.","That is why HiddenGem.Atlas shouldn't only benefit me: part of the income from affiliate commissions and collaborations is meant to go to local education and aid projects - where I have travelled."],
+"cs2_cta":["Zur Hidden-Gems-Karte","Open the hidden gems map"],
 "c0t":["Kleine Gesten, große Wirkung", "Small gestures, big impact"],
 "c0s":["Freundlichkeit, Respekt und Aufmerksamkeit - überall, für jeden, kostenlos.", "Kindness, respect and attention - everywhere, for everyone, free of charge."],
 "ab2_lbl":["Warum ausgerechnet ich?", "Why me, of all people?"],
@@ -4015,7 +4029,7 @@ const I18N = {
 "pg_quiz_t":["Quiz","Quiz"],
 "pg_rc_d":["Das Foto und die Wahrheit dahinter - inklusive echter Kosten","The photo and the truth behind it - including real costs"],
 "pg_rc_t":["Reality Check","Reality check"],
-"pg_shop_d":["Kalender, Presets & Merch","Calendars, presets & merch"],
+"pg_shop_d":["Reise-Kalender, Presets & Merch","Travel calendar, presets & merch"],
 "pg_shop_t":["Shop","Shop"],
 "pg_tours_d":["Orte, die ich kenne - Touren mit 5% Rabatt","Places I know - tours with a 5% discount"],
 "pg_tours_t":["Touren &amp; Destinationen","Tours & destinations"],
@@ -4153,7 +4167,6 @@ const I18N = {
 "sc_sl":["SL","SL"],
 "sc_sub":["Täglich neue Hidden Gems auf Instagram &amp; TikTok.","New hidden gems daily on Instagram & TikTok."],
 "sh_365-travel-calendar":["365 Travel Calendar","365 Travel Calendar"],
-"sh_foto-kalender":["Foto-Kalender ","Photo calendar"],
 "sh_h2":["Mein <em>Shop</em>","My <em>Shop</em>"],
 "sh_hgs-sticker-pack":["HGS Sticker Pack ","HGS Sticker Pack "],
 "sh_lbl":["Digitale Produkte &amp; Merch","Digital Products & Merch"],
@@ -4335,7 +4348,7 @@ async function hgLoadContent(){
 
 // Zusätzliche Orte (Bulk-Datei, z.B. Ruhrgebiet) - klein halten, damit index.html nicht wächst
 async function hgLoadMomentsExtra(){
-  const files = ['data/moments-extra.json', 'data/moments-world.json', 'data/moments-unesco.json', 'data/moments-curated.json'];
+  const files = ['data/moments-extra.json', 'data/moments-world.json', 'data/moments-unesco.json', 'data/moments-curated.json', 'data/moments-open.json'];
   HG.unescoTag = HG.unescoTag || {};
   const res = await Promise.all(files.map(async f => {
     try{
@@ -4446,29 +4459,31 @@ function setL(c, instant){
 
 // ── ROUTER: Unterseiten ─────────────────────────────
 const HG_GROUPS = [
-  {r:'entdecken', k:'grp_explore', ic:'🧭'},
-  {r:'content', k:'grp_content', ic:'📚'},
+  {r:'reise-planen', k:'grp_plan', ic:'🧭'},
+  {r:'inspiration', k:'grp_inspo', ic:'✨'},
   {r:'community', k:'grp_community', ic:'🤝'}
 ];
+// Alte Gruppen-Adressen leiten weiter
+const HG_GROUP_ALIAS = {entdecken: 'reise-planen', content: 'inspiration'};
 const HG_PAGES = [
-  {r:'ueber-mich', g:'', ic:'👋', k:'pg_about'},
-  {r:'touren', g:'entdecken', ic:'🗺️', k:'pg_tours'},
-  {r:'planer', g:'entdecken', ic:'🧭', k:'pg_planner'},
-  {r:'trends', g:'entdecken', ic:'📡', k:'pg_trends'},
-  {r:'momente', g:'entdecken', ic:'📍', k:'pg_moments'},
-  {r:'events', g:'entdecken', ic:'📅', k:'pg_events'},
-  {r:'reality-check', g:'entdecken', ic:'👁️', k:'pg_rc'},
-  {r:'kalkulator', g:'entdecken', ic:'💶', k:'pg_calc'},
-  {r:'gem-matcher', g:'entdecken', ic:'✦', k:'pg_matcher'},
-  {r:'blog', g:'content', ic:'📝', k:'pg_blog'},
-  {r:'quiz', g:'content', ic:'🧠', k:'pg_quiz'},
-  {r:'shop', g:'content', ic:'🛍️', k:'pg_shop'},
-  {r:'packliste', g:'content', ic:'🎒', k:'pg_pack'},
+  {r:'momente', g:'', ic:'📍', k:'pg_moments'},
+  {r:'blog', g:'', ic:'📝', k:'pg_blog'},
+  {r:'planer', g:'reise-planen', ic:'🧭', k:'pg_planner'},
+  {r:'touren', g:'reise-planen', ic:'🗺️', k:'pg_tours'},
+  {r:'events', g:'reise-planen', ic:'📅', k:'pg_events'},
+  {r:'kalkulator', g:'reise-planen', ic:'💶', k:'pg_calc'},
+  {r:'packliste', g:'reise-planen', ic:'🎒', k:'pg_pack'},
+  {r:'gem-matcher', g:'inspiration', ic:'✦', k:'pg_matcher'},
+  {r:'trends', g:'inspiration', ic:'📡', k:'pg_trends'},
+  {r:'reality-check', g:'inspiration', ic:'👁️', k:'pg_rc'},
+  {r:'quiz', g:'inspiration', ic:'🧠', k:'pg_quiz'},
+  {r:'ueber-mich', g:'community', ic:'👋', k:'pg_about'},
+  {r:'projekte', g:'community', ic:'🛠️', k:'pg_projects'},
   {r:'mitglied', g:'community', ic:'🔐', k:'pg_member'},
   {r:'kooperationen', g:'community', ic:'🤝', k:'pg_partner'},
   {r:'marken', g:'community', ic:'📊', k:'pg_brands'},
   {r:'soziales', g:'community', ic:'💚', k:'pg_cause'},
-  {r:'projekte', g:'', ic:'🛠️', k:'pg_projects'}
+  {r:'shop', g:'community', ic:'🛍️', k:'pg_shop'}
 ];
 const HG_LEGAL = {impressum:'imp', datenschutz:'ds', affiliate:'aff'};
 HG.openers = {};   // route → function(id) öffnet Detailansicht (Deep-Links)
@@ -4506,6 +4521,7 @@ function openMobileMenu(){ const m = document.getElementById('mob-menu'); if (m)
 
 function hgRender(){
   let {route, sub} = hgParseHash();
+  if (HG_GROUP_ALIAS[route]){ route = HG_GROUP_ALIAS[route]; history.replaceState(null, '', '#/' + route); }
   // Alte Anker (#about) weiterleiten
   if (route && !hgPage(route) && !hgGroup(route) && !HG_LEGAL[route] && route !== 'start'){
     const el = document.getElementById(route);
@@ -5714,37 +5730,37 @@ const PARTNERS_DATA = [
 // ║  BLOG · Aus erster Hand                            ║
 // ╚════════════════════════════════════════════════════╝
 const BLOG_DATA = [
-  {id:'bc-1', label:'JP · DE', grad:'jp', tag:'Japan · Düsseldorf', tag_en:'Japan · Düsseldorf', title:'Warum Düsseldorf jeden Mai wie Japan fühlt', title_en:'Why Düsseldorf feels like Japan every May', meta:'5 min · Hidden Gems', meta_en:'5 min · Hidden Gems'},
-  {id:'bc-2', image:'images/video/p/tirana-matcha-cafe.webp', label:'AL', grad:'al', tag:'Albanien', tag_en:'Albania', title:'Tirana in 48 Stunden - der komplette Guide', title_en:'Tirana in 48 hours - the complete guide', meta:'7 min · Europa', meta_en:'7 min · Europe'},
-  {id:'bc-3', image:'images/video/p/prag-mala-strana-tram.webp', label:'CZ', grad:'cz', tag:'Tschechien', tag_en:'Czechia', title:'6 tschechische Städte die besser sind als Prag', title_en:'6 Czech cities that are better than Prague', meta:'6 min · Hidden Gems', meta_en:'6 min · Hidden Gems'},
-  {id:'bc-4', label:'SL', grad:'sl', tag:'Slowenien', tag_en:'Slovenia', title:'Slowenien - das schönste Land das niemand besucht', title_en:'Slovenia - the most beautiful country nobody visits', meta:'5 min · Europa', meta_en:'5 min · Europe'},
-  {id:'bc-5', image:'images/video/p/flingern-strasse.webp', label:'DE', grad:'dd', tag:'Deutschland', tag_en:'Germany', title:'5 Dinge die du über Düsseldorf nicht wusstest', title_en:"5 things you didn't know about Düsseldorf", meta:'4 min · Hidden Gems', meta_en:'4 min · Hidden Gems'},
-  {id:'bc-6', label:'🇻🇳', grad:'vn', tag:'Vietnam · Neu', tag_en:'Vietnam · New', title:'Vietnam: Was ich falsch eingepackt habe - mach es besser', title_en:'Vietnam: what I packed wrong - do it better', meta:'6 min · Südostasien', meta_en:'6 min · Southeast Asia'},
-  {id:"bc-7", label:"🇯🇵", grad:"jp", tag:"Japan", tag_en:"Japan", title:"Japan: 3 Wochen zwischen Tempeln und Neon", title_en:"Japan: 3 weeks between temples and neon", meta:"Reise-Story · Asien", meta_en:"Trip story · Asia"},
-  {id:"bc-8", label:"🇻🇳", grad:"vn", tag:"Vietnam", tag_en:"Vietnam", title:"Vietnam von Nord nach Süd - meine Route", title_en:"Vietnam north to south - my route", meta:"Reise-Story · Südostasien", meta_en:"Trip story · Southeast Asia"},
-  {id:"bc-9", image:'images/photos/krabi-aussicht.webp', label:"🇹🇭", grad:"sunset", tag:"Thailand", tag_en:"Thailand", title:"Thailand: Inseln, Kajak und Kalkfelsen", title_en:"Thailand: islands, kayaks and limestone cliffs", meta:"Reise-Story · Südostasien", meta_en:"Trip story · Southeast Asia"},
-  {id:"bc-10", label:"🇰🇷", grad:"jp", tag:"Südkorea", tag_en:"South Korea", title:"Seoul: 4 Tage in der schnellsten Stadt Asiens", title_en:"Seoul: 4 days in Asia's fastest city", meta:"Reise-Story · Asien", meta_en:"Trip story · Asia"},
-  {id:"bc-11", label:"🇪🇸", grad:"sunset", tag:"Spanien", tag_en:"Spain", title:"Barcelona: der Morgen, der alles veränderte", title_en:"Barcelona: the morning that changed everything", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-12", image:'images/photos/mallorca-bucht.webp', label:"🇪🇸", grad:"sand", tag:"Mallorca", tag_en:"Mallorca", title:"Mallorca abseits der Partymeile", title_en:"Mallorca beyond the party strip", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-13", label:"🇪🇸", grad:"sand", tag:"Gran Canaria", tag_en:"Gran Canaria", title:"Gran Canaria: Dünen, Berge, ewiger Frühling", title_en:"Gran Canaria: dunes, mountains, eternal spring", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-14", image:'images/photos/durres-verlassene-villa.webp', label:"🇦🇱", grad:"al", tag:"Albanien", tag_en:"Albania", title:"Albanien: Europas letztes Geheimnis", title_en:"Albania: Europe's last secret", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-15", label:"🇸🇮", grad:"sl", tag:"Slowenien", tag_en:"Slovenia", title:"Slowenien: 5 Tage im grünsten Land Europas", title_en:"Slovenia: 5 days in Europe's greenest country", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-16", label:"🇭🇺", grad:"al", tag:"Ungarn", tag_en:"Hungary", title:"Budapest: Bäder, Ruinenbars und Donaublick", title_en:"Budapest: baths, ruin bars and Danube views", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-17", label:"🇸🇰", grad:"sl", tag:"Slowakei", tag_en:"Slovakia", title:"Bratislava: die unterschätzte Hauptstadt", title_en:"Bratislava: the underrated capital", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-18", label:"🇱🇹", grad:"dd", tag:"Litauen", tag_en:"Lithuania", title:"Vilnius: Barock, Street-Art und viel Ruhe", title_en:"Vilnius: baroque, street art and calm", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-19", image:'images/video/p/landawirsee-baden.webp', label:"🇦🇹", grad:"dd", tag:"Österreich", tag_en:"Austria", title:"Österreich: Städte und Berge in einem Trip", title_en:"Austria: cities and mountains in one trip", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-20", image:'images/photos/pula-arena.webp', label:"🇭🇷", grad:"jp", tag:"Kroatien", tag_en:"Croatia", title:"Pula: römisches Erbe an der Adria", title_en:"Pula: Roman heritage on the Adriatic", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-21", label:"🇩🇰", grad:"jp", tag:"Dänemark", tag_en:"Denmark", title:"Kopenhagen: Hygge, Design und Fahrrad", title_en:"Copenhagen: hygge, design and bikes", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-22", image:'images/photos/luxemburg-pont-adolphe.webp', label:"🇱🇺", grad:"dd", tag:"Luxemburg", tag_en:"Luxembourg", title:"Luxemburg: Festung über der Schlucht", title_en:"Luxembourg: a fortress above the gorge", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-23", image:'images/photos/gent-graslei.webp', label:"🇧🇪", grad:"cz", tag:"Belgien", tag_en:"Belgium", title:"Belgien: Gent & Antwerpen – Grachten, Graffiti, Waffeln", title_en:"Belgium: Ghent & Antwerp – canals, graffiti, waffles", title_es:"Bélgica: Gante y Amberes – canales, grafitis y gofres", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-24", label:"🇳🇱", grad:"sunset", tag:"Niederlande", tag_en:"Netherlands", title:"Niederlande: mehr als nur Amsterdam", title_en:"The Netherlands: more than just Amsterdam", meta:"Reise-Story · Europa", meta_en:"Trip story · Europe"},
-  {id:"bc-25", label:"🇺🇸", grad:"jp", tag:"USA", tag_en:"USA", title:"New York: die Stadt, die man einmal gesehen haben muss", title_en:"New York: the city you have to see once", meta:"Reise-Story · Weltweit", meta_en:"Trip story · Worldwide"},
-  {id:"bc-26", label:"🇹🇳", grad:"sand", tag:"Tunesien", tag_en:"Tunisia", title:"Tunesien: Medina, Meer und Sahara-Vorgeschmack", title_en:"Tunisia: medina, sea and a taste of the Sahara", meta:"Reise-Story · Afrika", meta_en:"Trip story · Africa"},
-  {id:"bc-27", image:'images/photos/marrakesch-riad-pool.webp', label:"🇲🇦", grad:"sunset", tag:"Marokko", tag_en:"Morocco", title:"Marrakesch: Souks, Farben, Sinnesüberladung", title_en:"Marrakech: souks, colours, sensory overload", meta:"Reise-Story · Afrika", meta_en:"Trip story · Africa"},
-  {id:"bc-28", label:"🇩🇪", grad:"jp", tag:"Norddeutschland", tag_en:"Northern Germany", title:"Norddeutschland: Hansestädte und Ostsee", title_en:"Northern Germany: Hanseatic cities and the Baltic", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"},
-  {id:"bc-29", label:"🇩🇪", grad:"dd", tag:"Berlin", tag_en:"Berlin", title:"Berlin: Geschichte an jeder Ecke", title_en:"Berlin: history on every corner", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"},
-  {id:"bc-30", label:"🇩🇪", grad:"dd", tag:"Süddeutschland & Elsass", tag_en:"Southern Germany & Alsace", title:"Vom Schwarzwald bis zur Zugspitze", title_en:"From the Black Forest to the Zugspitze", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"},
-  {id:"bc-31", label:"🇩🇪", grad:"dd", tag:"Ruhrgebiet", tag_en:"Ruhr Area", title:"Ruhrpott: Industriekultur, die überrascht", title_en:"The Ruhr: industrial heritage that surprises", meta:"Reise-Story · Deutschland", meta_en:"Trip story · Germany"}
+  {"id": "bc-1", "image": "images/video/p/duesseldorf-little-tokyo.webp", "label": "JP · DE", "grad": "jp", "tag": "Japan · Düsseldorf", "tag_en": "Japan · Düsseldorf", "tag_es": "Japón · Düsseldorf", "title": "Warum Düsseldorf jeden Mai wie Japan fühlt", "title_en": "Why Düsseldorf feels like Japan every May", "title_es": "Por qué Düsseldorf parece Japón cada mayo", "meta": "5 min · Hidden Gems", "meta_en": "5 min · Hidden Gems", "meta_es": "5 min · Joyas ocultas"},
+  {"id": "bc-2", "image": "images/video/p/tirana-matcha-cafe.webp", "label": "AL", "grad": "al", "tag": "Albanien", "tag_en": "Albania", "tag_es": "Albania", "title": "Tirana in 48 Stunden - der komplette Guide", "title_en": "Tirana in 48 hours - the complete guide", "title_es": "Tirana en 48 horas: la guía completa", "meta": "7 min · Europa", "meta_en": "7 min · Europe", "meta_es": "7 min · Europa"},
+  {"id": "bc-3", "image": "images/video/p/prag-mala-strana-tram.webp", "label": "CZ", "grad": "cz", "tag": "Tschechien", "tag_en": "Czechia", "tag_es": "Chequia", "title": "Prag & Karlsbad: Gassen, Brücken und Heilquellen", "title_en": "Prague & Karlovy Vary: lanes, bridges and hot springs", "title_es": "Praga y Karlovy Vary: callejuelas, puentes y aguas termales", "meta": "6 min · Europa", "meta_en": "6 min · Europe", "meta_es": "6 min · Europa"},
+  {"id": "bc-4", "image": "images/blog/bc-4.webp", "label": "SL", "grad": "sl", "tag": "Slowenien", "tag_en": "Slovenia", "tag_es": "Eslovenia", "title": "Bled im Morgennebel - Sloweniens Postkartensee ohne Busse", "title_en": "Bled in the morning mist - Slovenia's postcard lake without the buses", "title_es": "Bled entre la niebla: el lago de postal de Eslovenia sin autobuses", "meta": "5 min · Europa", "meta_en": "5 min · Europe", "meta_es": "5 min · Europa"},
+  {"id": "bc-5", "image": "images/video/p/flingern-strasse.webp", "label": "DE", "grad": "dd", "tag": "Deutschland", "tag_en": "Germany", "tag_es": "Alemania", "title": "5 Dinge, die du über Düsseldorf nicht wusstest", "title_en": "5 things you didn't know about Düsseldorf", "title_es": "5 cosas que no sabías de Düsseldorf", "meta": "4 min · Hidden Gems", "meta_en": "4 min · Hidden Gems", "meta_es": "4 min · Joyas ocultas"},
+  {"id": "bc-6", "image": "images/blog/bc-6.webp", "label": "🇻🇳", "grad": "vn", "tag": "Vietnam", "tag_en": "Vietnam", "tag_es": "Vietnam", "title": "Hoi An bei Vollmond: die Stadt der Laternen", "title_en": "Hoi An at full moon: the city of lanterns", "title_es": "Hoi An con luna llena: la ciudad de los farolillos", "meta": "6 min · Südostasien", "meta_en": "6 min · Southeast Asia", "meta_es": "6 min · Sudeste asiático"},
+  {"id": "bc-7", "image": "images/blog/bc-7.webp", "label": "🇯🇵", "grad": "jp", "tag": "Japan", "tag_en": "Japan", "tag_es": "Japón", "title": "Japan: Tempel um 6 Uhr, Neon um Mitternacht", "title_en": "Japan: temples at 6 am, neon at midnight", "title_es": "Japón: templos a las 6 de la mañana, neón a medianoche", "meta": "Reise-Story · Asien", "meta_en": "Trip story · Asia", "meta_es": "Historia de viaje · Asia"},
+  {"id": "bc-8", "image": "images/blog/bc-8.webp", "label": "🇻🇳", "grad": "vn", "tag": "Vietnam", "tag_en": "Vietnam", "tag_es": "Vietnam", "title": "Vietnam von Nord nach Süd - meine Route", "title_en": "Vietnam north to south - my route", "title_es": "Vietnam de norte a sur: mi ruta", "meta": "Reise-Story · Südostasien", "meta_en": "Trip story · Southeast Asia", "meta_es": "Historia de viaje · Sudeste asiático"},
+  {"id": "bc-9", "image": "images/photos/krabi-aussicht.webp", "label": "🇹🇭", "grad": "sunset", "tag": "Thailand", "tag_en": "Thailand", "tag_es": "Tailandia", "title": "Thailand: Inseln, Kajak und Kalkfelsen", "title_en": "Thailand: islands, kayaks and limestone cliffs", "meta": "Reise-Story · Südostasien", "meta_en": "Trip story · Southeast Asia", "meta_es": "Historia de viaje · Sudeste asiático"},
+  {"id": "bc-10", "image": "images/blog/bc-10.webp", "label": "🇰🇷", "grad": "jp", "tag": "Südkorea", "tag_en": "South Korea", "tag_es": "Corea del Sur", "title": "Seoul: Paläste, Märkte und Neon", "title_en": "Seoul: palaces, markets and neon", "title_es": "Seúl: palacios, mercados y neón", "meta": "Reise-Story · Asien", "meta_en": "Trip story · Asia", "meta_es": "Historia de viaje · Asia"},
+  {"id": "bc-11", "image": "images/blog/bc-11.webp", "label": "🇪🇸", "grad": "sunset", "tag": "Spanien", "tag_en": "Spain", "tag_es": "España", "title": "Barcelona: der Morgen, der alles veränderte", "title_en": "Barcelona: the morning that changed everything", "title_es": "Barcelona: la mañana que lo cambió todo", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-12", "image": "images/photos/mallorca-bucht.webp", "label": "🇪🇸", "grad": "sand", "tag": "Mallorca", "tag_en": "Mallorca", "tag_es": "Mallorca", "title": "Mallorca abseits der Partymeile", "title_en": "Mallorca beyond the party strip", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-13", "image": "images/blog/bc-13.webp", "label": "🇪🇸", "grad": "sand", "tag": "Gran Canaria", "tag_en": "Gran Canaria", "tag_es": "Gran Canaria", "title": "Gran Canaria: Dünen, Berge, ewiger Frühling", "title_en": "Gran Canaria: dunes, mountains, eternal spring", "title_es": "Gran Canaria: dunas, montañas y eterna primavera", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-14", "image": "images/photos/durres-verlassene-villa.webp", "label": "🇦🇱", "grad": "al", "tag": "Albanien", "tag_en": "Albania", "tag_es": "Albania", "title": "Albanien: Europas letztes Geheimnis", "title_en": "Albania: Europe's last secret", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-15", "image": "images/blog/bc-15.webp", "label": "🇸🇮", "grad": "sl", "tag": "Slowenien", "tag_en": "Slovenia", "tag_es": "Eslovenia", "title": "Ljubljana: die grünste Hauptstadt Europas", "title_en": "Ljubljana: Europe's greenest capital", "title_es": "Liubliana: la capital más verde de Europa", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-16", "image": "images/blog/bc-16.webp", "label": "🇭🇺", "grad": "al", "tag": "Ungarn", "tag_en": "Hungary", "tag_es": "Hungría", "title": "Budapest: Bäder, Ruinenbars und Donaublick", "title_en": "Budapest: baths, ruin bars and Danube views", "title_es": "Budapest: baños, ruin bars y vistas al Danubio", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-17", "image": "images/blog/bc-17.webp", "label": "🇸🇰", "grad": "sl", "tag": "Slowakei", "tag_en": "Slovakia", "tag_es": "Eslovaquia", "title": "Bratislava: die unterschätzte Hauptstadt", "title_en": "Bratislava: the underrated capital", "title_es": "Bratislava: la capital infravalorada", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-18", "image": "images/blog/bc-18.webp", "label": "🇱🇹", "grad": "dd", "tag": "Litauen", "tag_en": "Lithuania", "tag_es": "Lituania", "title": "Vilnius: Barock, Street-Art und eine eigene Republik", "title_en": "Vilnius: baroque, street art and a republic of its own", "title_es": "Vilna: barroco, arte urbano y una república propia", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-19", "image": "images/video/p/landawirsee-baden.webp", "label": "🇦🇹", "grad": "dd", "tag": "Österreich", "tag_en": "Austria", "tag_es": "Austria", "title": "Österreich: Städte und Berge in einem Trip", "title_en": "Austria: cities and mountains in one trip", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-20", "image": "images/photos/pula-arena.webp", "label": "🇭🇷", "grad": "jp", "tag": "Kroatien", "tag_en": "Croatia", "tag_es": "Croacia", "title": "Pula: römisches Erbe an der Adria", "title_en": "Pula: Roman heritage on the Adriatic", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-21", "image": "images/blog/bc-21.webp", "label": "🇩🇰", "grad": "jp", "tag": "Dänemark", "tag_en": "Denmark", "tag_es": "Dinamarca", "title": "Kopenhagen: Hygge, Design und Fahrrad", "title_en": "Copenhagen: hygge, design and bikes", "title_es": "Copenhague: hygge, diseño y bicicletas", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-22", "image": "images/photos/luxemburg-pont-adolphe.webp", "label": "🇱🇺", "grad": "dd", "tag": "Luxemburg", "tag_en": "Luxembourg", "tag_es": "Luxemburgo", "title": "Luxemburg: Festung über der Schlucht", "title_en": "Luxembourg: a fortress above the gorge", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-23", "image": "images/photos/gent-graslei.webp", "label": "🇧🇪", "grad": "cz", "tag": "Belgien", "tag_en": "Belgium", "tag_es": "Bélgica", "title": "Belgien: Gent & Antwerpen – Grachten, Graffiti, Waffeln", "title_en": "Belgium: Ghent & Antwerp – canals, graffiti, waffles", "title_es": "Bélgica: Gante y Amberes – canales, grafitis y gofres", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-24", "image": "images/blog/bc-24.webp", "label": "🇳🇱", "grad": "sunset", "tag": "Niederlande", "tag_en": "Netherlands", "tag_es": "Países Bajos", "title": "Niederlande: mehr als nur Amsterdam", "title_en": "The Netherlands: more than just Amsterdam", "title_es": "Países Bajos: mucho más que Ámsterdam", "meta": "Reise-Story · Europa", "meta_en": "Trip story · Europe", "meta_es": "Historia de viaje · Europa"},
+  {"id": "bc-25", "image": "images/blog/bc-25.webp", "label": "🇺🇸", "grad": "jp", "tag": "USA", "tag_en": "USA", "tag_es": "EE. UU.", "title": "New York: die Stadt, die man einmal gesehen haben muss", "title_en": "New York: the city you have to see once", "title_es": "Nueva York: la ciudad que hay que ver una vez", "meta": "Reise-Story · Weltweit", "meta_en": "Trip story · Worldwide", "meta_es": "Historia de viaje · Mundo"},
+  {"id": "bc-26", "image": "images/blog/bc-26.webp", "label": "🇹🇳", "grad": "sand", "tag": "Tunesien", "tag_en": "Tunisia", "tag_es": "Túnez", "title": "Tunesien: Medina, Meer und Sahara-Vorgeschmack", "title_en": "Tunisia: medina, sea and a taste of the Sahara", "title_es": "Túnez: medina, mar y un anticipo del Sáhara", "meta": "Reise-Story · Afrika", "meta_en": "Trip story · Africa", "meta_es": "Historia de viaje · África"},
+  {"id": "bc-27", "image": "images/photos/marrakesch-riad-pool.webp", "label": "🇲🇦", "grad": "sunset", "tag": "Marokko", "tag_en": "Morocco", "tag_es": "Marruecos", "title": "Marrakesch: Souks, Farben, Sinnesüberladung", "title_en": "Marrakech: souks, colours, sensory overload", "meta": "Reise-Story · Afrika", "meta_en": "Trip story · Africa", "meta_es": "Historia de viaje · África"},
+  {"id": "bc-28", "image": "images/blog/bc-28.webp", "label": "🇩🇪", "grad": "jp", "tag": "Norddeutschland", "tag_en": "Northern Germany", "tag_es": "Norte de Alemania", "title": "Norddeutschland: Hansestädte und Ostsee", "title_en": "Northern Germany: Hanseatic cities and the Baltic", "title_es": "Norte de Alemania: ciudades hanseáticas y el Báltico", "meta": "Reise-Story · Deutschland", "meta_en": "Trip story · Germany", "meta_es": "Historia de viaje · Alemania"},
+  {"id": "bc-29", "image": "images/blog/bc-29.webp", "label": "🇩🇪", "grad": "dd", "tag": "Berlin", "tag_en": "Berlin", "tag_es": "Berlín", "title": "Berlin: Geschichte an jeder Ecke", "title_en": "Berlin: history on every corner", "title_es": "Berlín: historia en cada esquina", "meta": "Reise-Story · Deutschland", "meta_en": "Trip story · Germany", "meta_es": "Historia de viaje · Alemania"},
+  {"id": "bc-30", "image": "images/blog/bc-30.webp", "label": "🇩🇪", "grad": "dd", "tag": "Süddeutschland & Elsass", "tag_en": "Southern Germany & Alsace", "tag_es": "Sur de Alemania y Alsacia", "title": "Vom Schwarzwald bis zur Zugspitze", "title_en": "From the Black Forest to the Zugspitze", "title_es": "De la Selva Negra al Zugspitze", "meta": "Reise-Story · Deutschland", "meta_en": "Trip story · Germany", "meta_es": "Historia de viaje · Alemania"},
+  {"id": "bc-31", "image": "images/blog/bc-31.webp", "label": "🇩🇪", "grad": "dd", "tag": "Ruhrgebiet", "tag_en": "Ruhr Area", "tag_es": "Cuenca del Ruhr", "title": "Ruhrpott: Industriekultur, die überrascht", "title_en": "The Ruhr: industrial heritage that surprises", "title_es": "El Ruhr: patrimonio industrial que sorprende", "meta": "Reise-Story · Deutschland", "meta_en": "Trip story · Germany", "meta_es": "Historia de viaje · Alemania"}
 ];
 
 // ── Sammlungen für den Editor registrieren ──────────
@@ -6679,14 +6695,14 @@ const MOMENTS = [
   {id:'ms-anr-stadspark', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Antwerpen', town_en:'Antwerp', city:'Stadspark', city_en:'Stadspark', cat:'nature', lat:51.2128, lon:4.4157, q:'Stadspark Antwerpen', rating:3, price:'free', title:'Grüne Ruheoase mit Teich mitten in der Stadt', title_en:'A green oasis with a pond in the middle of the city'},
 
   // ══ Brügge (BE) ══
-  {id:'ms-brg-belfort', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Markt & Belfried', city_en:'Markt & Belfry', cat:'view', lat:51.2085, lon:3.2247, q:'Belfry of Bruges', rating:5, price:'€', title:'366 Stufen hoch auf den Glockenturm - Postkartenblick über die Altstadt', title_en:'366 steps up the belfry - a postcard view over the old town'},
-  {id:'ms-brg-rozenhoedkaai', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Rozenhoedkaai', city_en:'Rozenhoedkaai', cat:'sight', lat:51.2074, lon:3.2270, q:'Rozenhoedkaai Bruges', rating:5, price:'free', title:'Der meistfotografierte Kanalblick von ganz Brügge', title_en:'The most photographed canal view in all of Bruges'},
-  {id:'ms-brg-burg', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Burg-Platz & Heilig-Blut-Basilika', city_en:'Burg Square & Basilica of the Holy Blood', cat:'culture', lat:51.2088, lon:3.2277, q:'Basilica of the Holy Blood Bruges', rating:4, price:'free', title:'Prächtiger Platz mit der Reliquie des Heiligen Blutes', title_en:'A grand square with the relic of the Holy Blood'},
-  {id:'ms-brg-onzelieve', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Liebfrauenkirche', city_en:'Church of Our Lady', cat:'culture', lat:51.2043, lon:3.2244, q:'Church of Our Lady Bruges', rating:4, price:'€', title:'Beherbergt Michelangelos "Madonna von Brügge"', title_en:"Home to Michelangelo's 'Madonna of Bruges'"},
-  {id:'ms-brg-begijnhof', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Beginenhof', city_en:'Begijnhof', cat:'sight', lat:51.2015, lon:3.2230, q:'Begijnhof Bruges', rating:4, price:'free', title:'Stille weiße Häuser um einen Innenhof voller Frühlingsblumen', title_en:'Silent white houses around a courtyard full of spring flowers'},
-  {id:'ms-brg-minnewater', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Minnewater (See der Liebe)', city_en:'Minnewater (Lake of Love)', cat:'nature', lat:51.2000, lon:3.2240, q:'Minnewater Bruges', rating:4, price:'free', title:'Romantischer Teich mit Schwänen am Rand der Altstadt', title_en:'A romantic pond with swans at the edge of the old town'},
-  {id:'ms-brg-halvemaan', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Brauerei De Halve Maan', city_en:'De Halve Maan Brewery', cat:'food', lat:51.2030, lon:3.2240, q:'De Halve Maan Brewery Bruges', rating:4, price:'€€', title:'Familienbrauerei mit Bierpipeline unter der Stadt - Brügse Zot', title_en:"A family brewery with a beer pipeline under the city - Brugse Zot"},
-  {id:'ms-brg-windmills', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Windmühlen am Kruisvest', city_en:'Windmills at Kruisvest', cat:'sight', lat:51.2130, lon:3.2360, q:'Sint-Janshuis Mill Bruges', rating:3, price:'free', title:'Historische Windmühlen auf dem alten Stadtwall', title_en:'Historic windmills on the old city ramparts'},
+  {id:'ms-brg-belfort', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Markt & Belfried', city_en:'Markt & Belfry', cat:'view', lat:51.2085, lon:3.2247, q:'Belfry of Bruges', rating:5, price:'€', title:'366 Stufen hoch auf den Glockenturm - Postkartenblick über die Altstadt', title_en:'366 steps up the belfry - a postcard view over the old town', visit:'todo'},
+  {id:'ms-brg-rozenhoedkaai', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Rozenhoedkaai', city_en:'Rozenhoedkaai', cat:'sight', lat:51.2074, lon:3.2270, q:'Rozenhoedkaai Bruges', rating:5, price:'free', title:'Der meistfotografierte Kanalblick von ganz Brügge', title_en:'The most photographed canal view in all of Bruges', visit:'todo'},
+  {id:'ms-brg-burg', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Burg-Platz & Heilig-Blut-Basilika', city_en:'Burg Square & Basilica of the Holy Blood', cat:'culture', lat:51.2088, lon:3.2277, q:'Basilica of the Holy Blood Bruges', rating:4, price:'free', title:'Prächtiger Platz mit der Reliquie des Heiligen Blutes', title_en:'A grand square with the relic of the Holy Blood', visit:'todo'},
+  {id:'ms-brg-onzelieve', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Liebfrauenkirche', city_en:'Church of Our Lady', cat:'culture', lat:51.2043, lon:3.2244, q:'Church of Our Lady Bruges', rating:4, price:'€', title:'Beherbergt Michelangelos "Madonna von Brügge"', title_en:"Home to Michelangelo's 'Madonna of Bruges'", visit:'todo'},
+  {id:'ms-brg-begijnhof', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Beginenhof', city_en:'Begijnhof', cat:'sight', lat:51.2015, lon:3.2230, q:'Begijnhof Bruges', rating:4, price:'free', title:'Stille weiße Häuser um einen Innenhof voller Frühlingsblumen', title_en:'Silent white houses around a courtyard full of spring flowers', visit:'todo'},
+  {id:'ms-brg-minnewater', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Minnewater (See der Liebe)', city_en:'Minnewater (Lake of Love)', cat:'nature', lat:51.2000, lon:3.2240, q:'Minnewater Bruges', rating:4, price:'free', title:'Romantischer Teich mit Schwänen am Rand der Altstadt', title_en:'A romantic pond with swans at the edge of the old town', visit:'todo'},
+  {id:'ms-brg-halvemaan', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Brauerei De Halve Maan', city_en:'De Halve Maan Brewery', cat:'food', lat:51.2030, lon:3.2240, q:'De Halve Maan Brewery Bruges', rating:4, price:'€€', title:'Familienbrauerei mit Bierpipeline unter der Stadt - Brügse Zot', title_en:"A family brewery with a beer pipeline under the city - Brugse Zot", visit:'todo'},
+  {id:'ms-brg-windmills', kind:'mustsee', cc:'BE', flag:'🇧🇪', town:'Brügge', town_en:'Bruges', city:'Windmühlen am Kruisvest', city_en:'Windmills at Kruisvest', cat:'sight', lat:51.2130, lon:3.2360, q:'Sint-Janshuis Mill Bruges', rating:3, price:'free', title:'Historische Windmühlen auf dem alten Stadtwall', title_en:'Historic windmills on the old city ramparts', visit:'todo'},
 
   // ══ Amsterdam (NL) ══
   {id:'ms-ams-rijks', kind:'mustsee', cc:'NL', flag:'🇳🇱', town:'Amsterdam', town_en:'Amsterdam', city:'Rijksmuseum', city_en:'Rijksmuseum', cat:'culture', lat:52.3600, lon:4.8852, q:'Rijksmuseum Amsterdam', rating:5, price:'€€', title:'Rembrandts "Nachtwache" und Vermeer - das Nationalmuseum', title_en:"Rembrandt's 'Night Watch' and Vermeer - the national museum"},
@@ -7129,7 +7145,7 @@ const mpF = {cont: 'all', country: 'all', area: 'all', town: 'all', cat: 'all', 
 // UNESCO-Welterbe (eigene Einträge oder markierte bestehende Orte) und Themen-Ebenen
 function mpU(m){ return m.unesco || ((HG.unescoTag || {})[m.id] || [])[0] || 0; }
 function mpWhc(m){ return m.whc || ((HG.unescoTag || {})[m.id] || [])[1] || 0; }
-const MP_THEMES = [['unesco', '🌐', 'mp_th_unesco'], ['story', '📜', 'mp_th_story'], ['adventure', '🧗', 'mp_th_adv'], ['bar', '🍸', 'mp_th_bar']];
+const MP_THEMES = [['unesco', '🌐', 'mp_th_unesco'], ['story', '📜', 'mp_th_story'], ['adventure', '🧗', 'mp_th_adv'], ['bar', '🍸', 'mp_th_bar'], ['food', '🍽️', 'mp_th_food']];
 function mpIsTheme(m, th){ return th === 'unesco' ? !!mpU(m) : m.theme === th; }
 function mpThemeTags(m){
   let h = '';
@@ -7182,6 +7198,64 @@ function mpEnsureMap(){
   return mpMap;
 }
 function mpWarnHtml(m){ return m.warn ? '<a class="mp-warn" href="https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/reise-und-sicherheitshinweise" target="_blank" rel="noopener" onclick="event.stopPropagation()">⚠️ ' + t('mp_warn') + '</a>' : ''; }
+const mpIconCache = {};
+function mpIcon(m){
+  const mustsee = m.kind === 'mustsee';
+  const thx = m.theme ? MP_THEMES.find(k => k[0] === m.theme) : null;
+  const cls = 'mp-mk' + (mustsee ? ' ms' : '') + (thx ? ' th-' + m.theme : (mpU(m) ? ' un' : '')) + (m.src ? ' od' : '');
+  const sym = thx ? thx[1] : (m.flag || '📍'), k = cls + '|' + sym;
+  return mpIconCache[k] || (mpIconCache[k] = L.divIcon({className: cls, html: '<span>' + esc(sym) + '</span>', iconSize: [30, 30], iconAnchor: [15, 15]}));
+}
+// Kennzeichnung: eigene Orte vs. Orte aus offenen Daten (Wikidata)
+function mpSrcTag(m){ return m.src ? '<span class="mp-tag od" title="Wikidata (CC0)">📚 ' + t('mp_open_src') + '</span>' : ''; }
+function mpPopHtml(m){
+  const mustsee = m.kind === 'mustsee', gm = mpGoogle(m), dir = mpDir(m);
+  const kindB = m.src ? '' : (mustsee ? '<span class="mp-tag ms">⭐ ' + t('mp_mustsee') + '</span>' : '<span class="mp-tag gem">💎 ' + t('mp_gem') + '</span>');
+  const todoB = m.visit === 'todo' && !m.src ? '<span class="mp-tag">🧭 ' + t('mp_todo') + '</span>' : '';
+  const meta = [];
+  if (m.rating) meta.push('<span class="mp-rate">' + mpStars(m.rating) + '</span>');
+  if (m.price && m.price !== '?') meta.push(esc(mpPriceLabel(m.price)));
+  meta.push((mpTownName(m) ? esc(mpTownName(m)) + ' · ' : '') + esc(mpCountryName(m.cc)));
+  return '<div class="mp-pop"><div class="mp-pop-head">' + kindB + todoB + ' <span class="mp-tag">' + (MP_CATS[m.cat] || '📍') + ' ' + t('cat_' + (m.cat || 'sight')) + '</span>' + mpThemeTags(m) + mpSrcTag(m) + '</div>' +
+    '<div class="mp-pop-t">' + esc(m.flag || '📍') + ' ' + esc(stripTags(Lz(m, 'city'))) + '</div>' +
+    '<div class="mp-pop-meta">' + meta.join(' · ') + '</div>' +
+    '<div class="mp-pop-s">' + esc(stripTags(Lz(m, 'title'))) + '</div>' + mpWarnHtml(m) +
+    (m.wp ? '<div class="mp-wiki" data-wiki="' + esc(m.id) + '"><button type="button" class="mp-wiki-btn" onclick="mpWiki(\'' + jsq(m.id) + '\', this.parentNode)">📖 ' + t('mp_wiki_read') + '</button></div>' : '') +
+    '<div class="mp-pop-btns">' +
+      '<a href="' + gm + '" target="_blank" rel="noopener">🗺️ ' + t('mp_open_gmaps') + '</a>' +
+      '<a href="' + dir + '" target="_blank" rel="noopener">🧭 ' + t('mp_route') + '</a>' +
+      (m.gyg ? '<a class="gyg" href="' + esc(safeUrl(m.gyg)) + '" target="_blank" rel="noopener sponsored">✦ ' + t('mp_book_tour') + '</a>' : '') +
+      '<button type="button" onclick="mpOpen(\'' + jsq(m.id) + '\')">📂 ' + t('mp_details') + '</button>' +
+      (mpWhc(m) ? '<a href="https://whc.unesco.org/en/list/' + mpWhc(m) + '" target="_blank" rel="noopener">🌐 UNESCO</a>' : '') +
+      '<button type="button" class="my-add' + (myRt.indexOf(m.id) > -1 ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')">' + (myRt.indexOf(m.id) > -1 ? '✓ ' + t('my_in') : '➕ ' + t('my_add')) + '</button>' +
+    '</div></div>';
+}
+// Wikipedia-Kurztext erst auf Klick laden (CC BY-SA, mit Quelle) - in der Sprache der Seite, sonst Englisch/Deutsch
+const mpWikiCache = {};
+async function mpWikiGet(m){
+  const order = [lang, 'en', 'de', 'es'].filter((x, i, a) => a.indexOf(x) === i);
+  for (const lg of order){
+    const ti = m.wp && m.wp[lg]; if (!ti) continue;
+    const key = lg + ':' + ti; if (mpWikiCache[key]) return mpWikiCache[key];
+    try{
+      const r = await fetch('https://' + lg + '.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(ti.replace(/ /g, '_')), {headers: {'Accept': 'application/json'}});
+      if (!r.ok) continue;
+      const j = await r.json(); if (!j || !j.extract) continue;
+      return (mpWikiCache[key] = {lg, text: j.extract, url: (j.content_urls && j.content_urls.desktop && j.content_urls.desktop.page) || ('https://' + lg + '.wikipedia.org/wiki/' + encodeURIComponent(ti))});
+    }catch(e){}
+  }
+  return null;
+}
+function mpWikiHtml(w){
+  if (!w) return '<p class="mp-wiki-t">' + t('mp_wiki_none') + '</p>';
+  const s = w.text.length > 700 ? w.text.slice(0, 700).replace(/\s+\S*$/, '') + ' …' : w.text;
+  return '<p class="mp-wiki-t">' + esc(s) + '</p><a class="mp-wiki-src" href="' + esc(w.url) + '" target="_blank" rel="noopener">' + t('mp_wiki_lic') + ' ↗</a>';
+}
+async function mpWiki(id, box){
+  const m = HG.col('moments').find(x => x.id === id); if (!m || !box) return;
+  box.innerHTML = '<p class="mp-wiki-t">⏳</p>';
+  box.innerHTML = mpWikiHtml(await mpWikiGet(m));
+}
 function mpMarkers(){
   if (!mpMap || !mpLayer) return;
   mpLayer.clearLayers();
@@ -7189,29 +7263,7 @@ function mpMarkers(){
   const pts = [], marks = [];
   list.forEach(m => {
     const lat = +m.lat, lon = +m.lon; pts.push([lat, lon]);
-    const mustsee = m.kind === 'mustsee';
-    const thx = m.theme ? MP_THEMES.find(k => k[0] === m.theme) : null;
-    const icon = L.divIcon({className: 'mp-mk' + (mustsee ? ' ms' : '') + (thx ? ' th-' + m.theme : (mpU(m) ? ' un' : '')), html: '<span>' + esc(thx ? thx[1] : (m.flag || '📍')) + '</span>', iconSize: [30, 30], iconAnchor: [15, 15]});
-    const gm = mpGoogle(m), dir = mpDir(m);
-    const kindB = mustsee ? '<span class="mp-tag ms">⭐ ' + t('mp_mustsee') + '</span>' : '<span class="mp-tag gem">💎 ' + t('mp_gem') + '</span>';
-    const todoB = m.visit === 'todo' ? '<span class="mp-tag">🧭 ' + t('mp_todo') + '</span>' : '';
-    const meta = [];
-    if (m.rating) meta.push('<span class="mp-rate">' + mpStars(m.rating) + '</span>');
-    if (m.price && m.price !== '?') meta.push(esc(mpPriceLabel(m.price)));
-    meta.push((mpTownName(m) ? esc(mpTownName(m)) + ' · ' : '') + esc(mpCountryName(m.cc)));
-    const pop = '<div class="mp-pop"><div class="mp-pop-head">' + kindB + todoB + ' <span class="mp-tag">' + (MP_CATS[m.cat] || '📍') + ' ' + t('cat_' + (m.cat || 'sight')) + '</span>' + mpThemeTags(m) + '</div>' +
-      '<div class="mp-pop-t">' + esc(m.flag || '📍') + ' ' + esc(stripTags(Lz(m, 'city'))) + '</div>' +
-      '<div class="mp-pop-meta">' + meta.join(' · ') + '</div>' +
-      '<div class="mp-pop-s">' + esc(stripTags(Lz(m, 'title'))) + '</div>' + mpWarnHtml(m) +
-      '<div class="mp-pop-btns">' +
-        '<a href="' + gm + '" target="_blank" rel="noopener">🗺️ ' + t('mp_open_gmaps') + '</a>' +
-        '<a href="' + dir + '" target="_blank" rel="noopener">🧭 ' + t('mp_route') + '</a>' +
-        (m.gyg ? '<a class="gyg" href="' + esc(safeUrl(m.gyg)) + '" target="_blank" rel="noopener sponsored">✦ ' + t('mp_book_tour') + '</a>' : '') +
-        '<button type="button" onclick="mpOpen(\'' + jsq(m.id) + '\')">📂 ' + t('mp_details') + '</button>' +
-        (mpWhc(m) ? '<a href="https://whc.unesco.org/en/list/' + mpWhc(m) + '" target="_blank" rel="noopener">🌐 UNESCO</a>' : '') +
-        '<button type="button" class="my-add' + (myRt.indexOf(m.id) > -1 ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')">' + (myRt.indexOf(m.id) > -1 ? '✓ ' + t('my_in') : '➕ ' + t('my_add')) + '</button>' +
-      '</div></div>';
-    marks.push(L.marker([lat, lon], {icon}).bindPopup(pop, {maxWidth: 280}));
+    marks.push(L.marker([lat, lon], {icon: mpIcon(m)}).bindPopup(() => mpPopHtml(m), {maxWidth: 290}));
   });
   if (typeof mpLayer.addLayers === 'function') mpLayer.addLayers(marks); else marks.forEach(k => k.addTo(mpLayer));
   if (pts.length && !rtLayer){ try{ mpMap.fitBounds(pts, {padding: [45, 45], maxZoom: 12}); }catch(e){} }
@@ -7352,7 +7404,7 @@ function mpCard(m){
       '<div class="mp-item-top"><span class="mp-item-kind ' + (ms ? 'ms' : 'gem') + '">' + (ms ? '⭐' : '💎') + '</span><span class="mp-item-t">' + esc(m.flag || '📍') + ' ' + Lz(m, 'city') + '</span></div>' +
       '<div class="mp-item-meta">' + meta.join(' · ') + '</div>' + (m.theme || mpU(m) ? '<div class="mp-item-th">' + mpThemeTags(m) + '</div>' : '') +
       '<div class="mp-item-m">' + Lz(m, 'title') + '</div>' +
-      (todo ? '<div class="mp-todo">🧭 ' + t('mp_todo') + '</div>' : '') + mpWarnHtml(m) +
+      (m.src ? '<div class="mp-todo od">📚 ' + t('mp_open_src') + '</div>' : (todo ? '<div class="mp-todo">🧭 ' + t('mp_todo') + '</div>' : '')) + mpWarnHtml(m) +
     '</div>' +
     '<div class="mp-item-side"><button type="button" class="mp-item-add my-add' + (myRt.indexOf(m.id) > -1 ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')" title="' + esc(stripTags(t('my_add'))) + '" aria-label="' + esc(stripTags(t('my_add'))) + '">' + (myRt.indexOf(m.id) > -1 ? '✓' : '➕') + '</button>' +
     '<a class="mp-item-gm" href="' + gm + '" target="_blank" rel="noopener" title="' + esc(stripTags(t('mp_open_gmaps'))) + '">🗺️</a></div>' +
@@ -7414,7 +7466,7 @@ function mpRenderList(){
   }
   // Übersicht ohne Filter: Regionen-Kacheln + meine Hidden Gems
   if (!mpActive()){
-    const mine = list.filter(m => (m.kind || 'gem') === 'gem');
+    const mine = list.filter(m => (m.kind || 'gem') === 'gem' && !m.src && String(m.id).indexOf('y-') !== 0);
     const open = ('mine' in mpUI.open) ? mpUI.open.mine : true;
     listEl.innerHTML = mpOverviewHtml(list) + (mine.length ? mpGroupHtml('mine', mpGroupLabel('mine'), mine, open) : '') + addBtn;
     return;
@@ -7445,6 +7497,7 @@ function mpOpen(id){
   const kicker = (thx ? thx[1] + ' ' + stripTags(t(thx[2] + '1')) + ' · ' : '') + (mpU(m) ? '🌐 UNESCO ' + mpU(m) + ' · ' : '') + (m.kind === 'mustsee' ? '⭐ ' : '💎 ') + (mpTownName(m) ? stripTags(mpTownName(m)) + ' · ' : '') + stripTags(mpCountryName(m.cc)) + (Lz(m, 'date') ? ' · ' + stripTags(Lz(m, 'date')) : '');
   const cta = gyg || (whc ? 'https://whc.unesco.org/en/list/' + whc : null);
   openDetail('moment-' + m.id, kicker, (m.flag || '📍') + ' ' + Lz(m, 'city'), stripTags(Lz(m, 'title')), cta, gyg ? t('mp_book_tour') : (whc ? t('mp_unesco_entry') : null), 'momente/' + m.id);
+  if (m.wp && !(HG.detail('moment-' + m.id) || {}).text){ const body = document.getElementById('dt-body'); if (body){ body.style.display = ''; body.classList.remove('dt-empty-body'); body.innerHTML = '<div class="mp-wiki dt-wiki"><p class="mp-wiki-t">⏳</p></div>'; mpWikiGet(m).then(w => { if (dtKey === 'moment-' + m.id) body.innerHTML = '<div class="mp-wiki dt-wiki">' + mpWikiHtml(w) + '</div>'; }); } }
   const ext = document.getElementById('dt-ext-wrap'), on = myRt.indexOf(m.id) > -1;
   if (ext) ext.insertAdjacentHTML('beforeend', '<button type="button" class="dt-ext dt-my my-add' + (on ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')">' + (on ? '✓ ' + t('my_in') : '➕ ' + t('my_add')) + '</button>');
 }

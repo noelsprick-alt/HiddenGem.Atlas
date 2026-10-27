@@ -1,4 +1,4 @@
-name: Inhalte übersetzen (DE → EN)
+name: Inhalte übersetzen (DE → EN → ES)
 on:
   push:
     paths:
@@ -18,12 +18,13 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/translate-content.mjs
+      - run: node scripts/translate-es.mjs
       - run: |
           git config user.name "hiddengemat-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/content.json
+          git add data/content.json data/moments-curated.json
           if ! git diff --staged --quiet; then
-            git commit -m "Englische Übersetzung ergänzt"
+            git commit -m "Übersetzungen (EN/ES) ergänzt"
             git pull --rebase --autostash || true
             git push
           fi

@@ -71,10 +71,10 @@ const CLASSES = [
 // Länder, die Noel bereist hat: dort zusätzlich auch weniger bekannte Orte holen
 const VISITED = ['AL', 'AT', 'BE', 'CZ', 'DE', 'DK', 'ES', 'FR', 'HR', 'HU', 'JP', 'KR', 'LT', 'LU', 'MA', 'NL', 'SI', 'SK', 'TH', 'TN', 'US', 'VN'];
 
-async function getJSON(url, tries = 4) {
+async function getJSON(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
     try {
-      const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/sparql-results+json, application/json' }, signal: AbortSignal.timeout(95000) });
+      const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/sparql-results+json, application/json' }, signal: AbortSignal.timeout(70000) });
       if (r.status === 429 || r.status >= 500) { await sleep(6000 * (i + 1)); continue; }
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return await r.json();
@@ -137,6 +137,12 @@ function take(bindings, tag) {
   }
   return n;
 }
+function save() {
+  fs.mkdirSync(path.join(ROOT, 'data-src'), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, 'data-src/open-raw.json'), JSON.stringify([...items.values()]));
+  report.total = items.size; report.saved = new Date().toISOString();
+  fs.writeFileSync(path.join(ROOT, 'data-src/open-report.json'), JSON.stringify(report, null, 1));
+}
 async function run(q) { return (await getJSON('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q))).results.bindings; }
 
 // 1) Klassen auflösen
@@ -154,7 +160,7 @@ for (const [label, , limit, minLinks] of CLASSES) {
   const r = report.classes[label]; if (!r || !r.qid) continue;
   try {
     const rows = await run(sparql('wd:' + r.qid, limit, minLinks));
-    r.rows = rows.length; r.added = take(rows, 'world');
+    r.rows = rows.length; r.added = take(rows, 'world'); save();
   } catch (e) { r.error = String(e.message || e); }
   await sleep(1500);
 }
@@ -165,7 +171,7 @@ for (const cc of VISITED) {
   for (const [name, gs, lim] of [['bar+food', ['bar', 'food'], 260], ['adventure', ['adventure'], 200], ['quirky', ['quirky'], 120]]) {
     try {
       const rows = await run(sparql(byGroup(gs), lim, 1, cc));
-      report.countries[cc][name] = { rows: rows.length, added: take(rows, 'visited') };
+      report.countries[cc][name] = { rows: rows.length, added: take(rows, 'visited') }; save();
     } catch (e) { report.countries[cc][name] = { error: String(e.message || e) }; }
     await sleep(1500);
   }
