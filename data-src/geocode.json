@@ -1,0 +1,1194 @@
+{
+ "y-lt-zappa": {
+  "miss": true,
+  "q": "Frank Zappa memorial, Kalinausko gatvė, Vilnius",
+  "near": null
+ },
+ "y-lt-literatu": {
+  "miss": true,
+  "q": "Literatų gatvė, Vilnius",
+  "near": null
+ },
+ "y-lt-kgb": {
+  "lat": 54.68802,
+  "lon": 25.27069,
+  "km": 0.04,
+  "name": "Museum of Occupations and Freedom Fights, 2A, Aukų g., Lukiškės, Naujamiestis eldership, Vilnius, Vilnius city municipal",
+  "q": "Museum of Occupations and Freedom Fights, Vilnius"
+ },
+ "y-lt-balloons": {
+  "lat": 54.68563,
+  "lon": 25.28664,
+  "km": 0.48,
+  "name": "Cathedral Square, Old Town, Senamiesčio seniūnija, Vilnius, Vilnius city municipality, Vilnius County, 01122, Lithuania",
+  "q": "Cathedral Square, Vilnius"
+ },
+ "y-lt-snekutis": {
+  "lat": 54.67794,
+  "lon": 25.28251,
+  "km": 0.51,
+  "name": "Šnekutis, 15, Šv. Mikalojaus g., Vingriai, Senamiesčio seniūnija, Vilnius, Vilnius city municipality, Vilnius County, 01",
+  "q": "Šnekutis, Vilnius"
+ },
+ "y-lt-hales": {
+  "lat": 54.67337,
+  "lon": 25.28646,
+  "km": 0.18,
+  "name": "Halės turgus, 58, Pylimo g., Vingriai, Senamiesčio seniūnija, Vilnius, Vilnius city municipality, Vilnius County, 01307,",
+  "q": "Halės turgus, Vilnius"
+ },
+ "y-lt-grutas": {
+  "lat": 54.02185,
+  "lon": 24.0802,
+  "km": 0.46,
+  "name": "Grūtas Park, Parko g., Grūtas, Viečiūnai Eldership, Druskininkai Municipality, Alytus County, 66441, Lithuania",
+  "q": "Grūtas Park, Druskininkai"
+ },
+ "y-lt-devils": {
+  "lat": 54.90088,
+  "lon": 23.91056,
+  "km": 0.12,
+  "name": "Museum of Devils, 64, V. Putvinskio g., New Town, Centro seniūnija, Kaunas, Kauno miesto savivaldybė, Kaunas County, 442",
+  "q": "Devils Museum, Kaunas"
+ },
+ "y-lt-witches": {
+  "lat": 55.53729,
+  "lon": 21.11445,
+  "km": 0.83,
+  "name": "Hill of Witches, Juodkrantė, Neringa, Neringos savivaldybė, Klaipėda County, 93103, Lithuania",
+  "q": "Raganų kalnas, Juodkrantė"
+ },
+ "y-cz-freud": {
+  "miss": true,
+  "q": "Hanging Out Sigmund Freud, Husova, Prague",
+  "near": null
+ },
+ "y-cz-kafka": {
+  "miss": true,
+  "q": "Head of Franz Kafka, Quadrio, Prague",
+  "near": null
+ },
+ "y-cz-piss": {
+  "miss": true,
+  "q": "Piss sculpture, Kafka Museum, Prague",
+  "near": null
+ },
+ "y-cz-metronome": {
+  "miss": true,
+  "q": "Prague Metronome, Letná",
+  "near": null
+ },
+ "y-cz-horse": {
+  "miss": true,
+  "q": "Lucerna Passage, Prague",
+  "near": null
+ },
+ "y-cz-paternoster": {
+  "miss": true,
+  "q": "New City Hall, Mariánské náměstí, Prague",
+  "near": null
+ },
+ "y-cz-tiger": {
+  "lat": 50.08584,
+  "lon": 14.41804,
+  "km": 0.05,
+  "name": "U Zlatého tygra, Husova, Old Town, obvod Praha 1, Prague, 116 65, Czechia",
+  "q": "U Zlatého tygra, Prague"
+ },
+ "y-cz-cross": {
+  "lat": 50.10829,
+  "lon": 14.44323,
+  "km": 0.03,
+  "name": "Cross Club, 1096/23, Plynární, Holešovice, Praha 7, obvod Praha 7, Prague, 170 00, Czechia",
+  "q": "Cross Club, Prague"
+ },
+ "y-cz-mirror": {
+  "miss": true,
+  "q": "Mirror Maze, Petřín, Prague",
+  "near": null
+ },
+ "y-cz-riegrovy": {
+  "miss": true,
+  "q": "Riegrovy sady beer garden, Prague",
+  "near": null
+ },
+ "y-hu-rock": {
+  "lat": 47.50079,
+  "lon": 19.03142,
+  "km": 0.15,
+  "name": "Hospital in the Rock, 4/C, Lovas út, Krisztinaváros, 1st district, Budapest, 1012, Hungary",
+  "q": "Hospital in the Rock, Budapest"
+ },
+ "y-hu-memento": {
+  "lat": 47.42623,
+  "lon": 18.99896,
+  "km": 0.33,
+  "name": "Memento Park, Balatoni út, Baross Gábor-telep, 22nd district, Budapest, 1223, Hungary",
+  "q": "Memento Park, Budapest"
+ },
+ "y-hu-cavechurch": {
+  "lat": 47.48492,
+  "lon": 19.05217,
+  "km": 0.18,
+  "name": "Gellért Hill Cave, 1, Szent Gellért rakpart, Gellérthegy, 11th district, Budapest, 1114, Hungary",
+  "q": "Gellért Hill Cave Church, Budapest"
+ },
+ "y-hu-kids": {
+  "lat": 47.49526,
+  "lon": 18.97926,
+  "km": 4.74,
+  "name": "Széchenyi-hegy, Gyermekvasút, Golfpálya út, Széchenyihegy, 12th district, Budapest, 1121, Hungary",
+  "q": "Gyermekvasút Széchenyihegy, Budapest"
+ },
+ "y-hu-pinball": {
+  "lat": 47.51465,
+  "lon": 19.0544,
+  "km": 0.38,
+  "name": "Pinball Museum, 18, Radnóti Miklós utca, Újlipótváros, 13th district, Budapest, 1137, Hungary",
+  "q": "Budapest Pinball Museum"
+ },
+ "y-hu-nycafe": {
+  "lat": 47.49868,
+  "lon": 19.07046,
+  "km": 0.04,
+  "name": "New York Café, 9-11, Erzsébet körút, Erzsébetváros, 7th district, Budapest, 1073, Hungary",
+  "q": "New York Café, Budapest"
+ },
+ "y-hu-libego": {
+  "lat": 47.51622,
+  "lon": 18.96753,
+  "km": 0.54,
+  "name": "Chairlift, Tündérhegyi út, Jánoshegy, 12th district, Budapest, 1121, Hungary",
+  "q": "Zugligeti Libegő, Budapest"
+ },
+ "y-hu-palvolgyi": {
+  "lat": 47.53288,
+  "lon": 19.01615,
+  "km": 0.18,
+  "name": "Pál-völgyi cave, 162, Szépvölgyi út, Pálvölgy, 2nd district, Budapest, 1025, Hungary",
+  "q": "Pál-völgyi-barlang, Budapest"
+ },
+ "y-al-bunkart1": {
+  "lat": 41.34981,
+  "lon": 19.86044,
+  "km": 0.37,
+  "name": "Bunk‘Art 1, Rruga Fadil Deliu, Fresku, Qesarak (Linsa), Shtish-Tufinë, Dajt, Tirana Municipality, Tirana County, 1040, A",
+  "q": "Bunk'Art 1, Tirana"
+ },
+ "y-al-postbllok": {
+  "lat": 41.32096,
+  "lon": 19.82015,
+  "km": 0.29,
+  "name": "Bunker, Rruga Ismail Qemali, Ish Merkata, Libri Universitar, Njësia Bashkiake Nr. 5, Tirana, Tirana Municipality, Tirana",
+  "q": "Postbllok, Tirana"
+ },
+ "y-al-komani": {
+  "miss": true,
+  "q": "Koman Lake Ferry",
+  "near": null
+ },
+ "y-al-benja": {
+  "miss": true,
+  "q": "Benja Thermal Baths, Përmet",
+  "near": null
+ },
+ "y-al-theth": {
+  "lat": 42.36437,
+  "lon": 19.74626,
+  "km": 4.2,
+  "name": "Blue Eye, Kapre (Theth), Nderliza, Shalë, Shkodër Municipality, Shkodër County, 4009, Albania",
+  "q": "Syri i Kaltër Theth"
+ },
+ "y-al-gjiro": {
+  "lat": 40.07469,
+  "lon": 20.13989,
+  "km": 0.3,
+  "name": "Cold War tunnel, Rruga Gjin Zenebishti, Gjirokastra, Bashkia Gjirokastër, Gjirokastër County, 6001, Albania",
+  "q": "Cold War Tunnel, Gjirokastër"
+ },
+ "y-al-palermo": {
+  "lat": 40.06218,
+  "lon": 19.79071,
+  "km": 0.23,
+  "name": "Porto Palermo Castle, Rruga Vangjel Zoto, Himarë, Bashkia Himarë, Vlorë County, 9425, Albania",
+  "q": "Porto Palermo Castle"
+ },
+ "y-al-llogara": {
+  "lat": 40.19819,
+  "lon": 19.59241,
+  "km": 0.94,
+  "name": "Llogara Pass, Orikum, Bashkia Vlorë, Vlorë County, 9426, Albania",
+  "q": "Llogara Pass"
+ },
+ "y-si-odprta": {
+  "lat": 46.0511,
+  "lon": 14.50763,
+  "km": 0.07,
+  "name": "Odprta kuhna, Pogačarjev trg, Ledina, Grajski grič, Četrtna skupnost Center, Ljubljana, Upravna Enota Ljubljana, 1000, S",
+  "q": "Odprta kuhna, Pogačarjev trg, Ljubljana"
+ },
+ "y-si-neboticnik": {
+  "lat": 46.05316,
+  "lon": 14.50359,
+  "km": 0.15,
+  "name": "Nebotičnik, 1, Štefanova ulica, Grajski grič, Četrtna skupnost Center, Ljubljana, Upravna Enota Ljubljana, 1000, Sloveni",
+  "q": "Nebotičnik, Ljubljana"
+ },
+ "y-si-vintgar": {
+  "lat": 46.39862,
+  "lon": 14.09275,
+  "km": 0.84,
+  "name": "Vintgar gorge, Podhom, Gorje, 4273, Slovenia",
+  "q": "Vintgar Gorge, Bled"
+ },
+ "y-si-kremsnita": {
+  "miss": true,
+  "q": "Park Restaurant & Café, Bled",
+  "near": null
+ },
+ "y-si-velika": {
+  "lat": 46.29594,
+  "lon": 14.65201,
+  "km": 1.23,
+  "name": "Velika Planina, Kamnik, Upravna Enota Kamnik, 1242, Slovenia",
+  "q": "Velika Planina"
+ },
+ "y-si-kozjak": {
+  "lat": 46.2603,
+  "lon": 13.58979,
+  "km": 0.21,
+  "name": "Slap Kozjak, Soška pot, Kobarid, 5222, Slovenia",
+  "q": "Slap Kozjak, Kobarid"
+ },
+ "y-si-russian": {
+  "miss": true,
+  "q": "Russian Chapel, Vršič",
+  "near": null
+ },
+ "y-sk-cumil": {
+  "lat": 48.14284,
+  "lon": 17.10886,
+  "km": 0.05,
+  "name": "Čumil, Panská, Vnútorné mesto, Historické jadro, Bratislava, District of Bratislava I, Bratislava, Region of Bratislava,",
+  "q": "Čumil, Bratislava"
+ },
+ "y-sk-radio": {
+  "miss": true,
+  "q": "Slovak Radio Building, Bratislava",
+  "near": null
+ },
+ "y-at-narrenturm": {
+  "lat": 48.21858,
+  "lon": 16.35315,
+  "km": 0.35,
+  "name": "Narrenturm, 2-4, Hof 6, Spitalgasse, Michelbeuern, Katastralgemeinde Alsergrund, Alsergrund, Vienna, 1090, Austria",
+  "q": "Narrenturm, Wien"
+ },
+ "y-at-flak": {
+  "lat": 48.19758,
+  "lon": 16.35296,
+  "km": 0.01,
+  "name": "House of the Sea, 1, Fritz-Grünbaum-Platz, Magdalenengrund, Mariahilf, Katastralgemeinde Mariahilf, Mariahilf, Vienna, 1",
+  "q": "Haus des Meeres, Wien"
+ },
+ "y-at-hawelka": {
+  "lat": 48.20796,
+  "lon": 16.36981,
+  "km": 0.11,
+  "name": "Café Hawelka, 6, Dorotheergasse, Kärntner Viertel, Katastralgemeinde Innere Stadt, Innere Stadt, Vienna, 1010, Austria",
+  "q": "Café Hawelka, Wien"
+ },
+ "y-at-wurstel": {
+  "miss": true,
+  "q": "Bitzinger Würstelstand Albertina, Wien",
+  "near": null
+ },
+ "y-at-heuriger": {
+  "lat": 48.25486,
+  "lon": 16.35865,
+  "km": 0.66,
+  "name": "Mayer am Pfarrplatz, Pfarrplatz, Katastralgemeinde Heiligenstadt, Döbling, Vienna, 1190, Austria",
+  "q": "Mayer am Pfarrplatz, Wien"
+ },
+ "y-at-thirdman": {
+  "miss": true,
+  "q": "Third Man Museum, Wien",
+  "near": null
+ },
+ "y-at-augustiner": {
+  "miss": true,
+  "q": "Augustiner Bräu Kloster Mülln, Salzburg",
+  "near": null
+ },
+ "y-at-stpeter": {
+  "lat": 47.79698,
+  "lon": 13.04416,
+  "km": 0.08,
+  "name": "Sankt Peter Stiftskulinarium, 1A, St.-Peter-Bezirk, Altstadt, Salzburg, 5020, Austria",
+  "q": "St. Peter Stiftskulinarium, Salzburg"
+ },
+ "y-at-nordkette": {
+  "miss": true,
+  "q": "Nordkettenbahnen Congress, Innsbruck",
+  "near": null
+ },
+ "y-at-hallstatt": {
+  "lat": 47.56364,
+  "lon": 13.64869,
+  "km": 0.16,
+  "name": "St. Michaels Kapelle / Beinhaus, Romanischer Durchgang, Lahn, Hallstatt, Bezirk Gmunden, Upper Austria, 4830, Austria",
+  "q": "Beinhaus Hallstatt"
+ },
+ "y-at-eisriesen": {
+  "lat": 47.49753,
+  "lon": 13.19364,
+  "km": 0.68,
+  "name": "Eisriesenwelt Visitor's Center, 30, Eishöhlenstraße, Schlaming, Werfen, Salzburg, 5450, Austria",
+  "q": "Eisriesenwelt, Werfen"
+ },
+ "y-de-teufelsberg": {
+  "lat": 52.49772,
+  "lon": 13.24295,
+  "km": 0.13,
+  "name": "Teufelsberg, 10, Teufelsseechaussee, Grunewald, Charlottenburg-Wilmersdorf, Berlin, 14193, Germany",
+  "q": "Teufelsberg, Berlin"
+ },
+ "y-de-tempelhof": {
+  "lat": 52.47442,
+  "lon": 13.4026,
+  "km": 0.14,
+  "name": "Tempelhofer Feld, Tempelhof-Schöneberg, Berlin, Germany",
+  "q": "Tempelhofer Feld, Berlin"
+ },
+ "y-de-konnopke": {
+  "lat": 52.54047,
+  "lon": 13.41222,
+  "km": 0.01,
+  "name": "Konnopke’s Imbiß, 44b, Schönhauser Allee, Bremer Höhe, Gleimviertel, Prenzlauer Berg, Pankow, Berlin, 10435, Germany",
+  "q": "Konnopke's Imbiss, Berlin"
+ },
+ "y-de-spreepark": {
+  "lat": 52.48493,
+  "lon": 13.48899,
+  "km": 0.31,
+  "name": "Spreepark, Plänterwald, Treptow-Köpenick, Berlin, Germany",
+  "q": "Spreepark, Berlin"
+ },
+ "y-de-prater": {
+  "miss": true,
+  "q": "Prater Garten, Berlin",
+  "near": null
+ },
+ "y-de-badeschiff": {
+  "lat": 52.49763,
+  "lon": 13.45367,
+  "km": 0.04,
+  "name": "Badeschiff, Eichenstraße, Kungerkiez, Alt-Treptow, Treptow-Köpenick, Berlin, 12435, Germany",
+  "q": "Badeschiff, Berlin"
+ },
+ "y-de-elbtunnel": {
+  "lat": 53.54587,
+  "lon": 9.9666,
+  "km": 0.03,
+  "name": "St. Pauli Elbe Tunnel, Bei den St. Pauli-Landungsbrücken, St. Pauli, Hamburg-Mitte, Hamburg, 20359, Germany",
+  "q": "St. Pauli Elbtunnel, Hamburg"
+ },
+ "y-de-ferry62": {
+  "miss": true,
+  "q": "Landungsbrücken Brücke 3, Hamburg",
+  "near": null
+ },
+ "y-de-bremerloch": {
+  "lat": 53.07567,
+  "lon": 8.80757,
+  "km": 0.03,
+  "name": "Bremer Loch, Am Markt, Ansgari-Viertel, Altstadt, Mitte, Bremen-Mitte, Bremen, 28195, Germany",
+  "q": "Bremer Loch, Marktplatz Bremen"
+ },
+ "y-de-ratskeller": {
+  "lat": 53.07609,
+  "lon": 8.80738,
+  "km": 0.03,
+  "name": "Bremer Ratskeller, Am Markt, Ansgari-Viertel, Altstadt, Mitte, Bremen-Mitte, Bremen, 28195, Germany",
+  "q": "Bremer Ratskeller"
+ },
+ "y-de-glockenspiel": {
+  "lat": 53.07492,
+  "lon": 8.80567,
+  "km": 0.05,
+  "name": "House of the Glockenspiel, Böttcherstraße, Ansgari-Viertel, Altstadt, Mitte, Bremen-Mitte, Bremen, 28195, Germany",
+  "q": "Glockenspiel Böttcherstraße, Bremen"
+ },
+ "y-de-prora": {
+  "lat": 54.44504,
+  "lon": 13.57243,
+  "km": 0.4,
+  "name": "Koloss von Prora - Nordflügel 1, Nordstrand, Prora, Binz, Vorpommern-Rügen, Mecklenburg-Vorpommern, 18609, Germany",
+  "q": "Prora, Binz"
+ },
+ "y-de-tuffi": {
+  "miss": true,
+  "q": "Schwebebahn Alter Markt, Wuppertal",
+  "near": null
+ },
+ "y-nl-ij": {
+  "lat": 52.3667,
+  "lon": 4.92635,
+  "km": 0.02,
+  "name": "Brouwerij 't IJ, 7, Funenkade, Centrum, Amsterdam, North Holland, Netherlands, 1018 AL, Netherlands",
+  "q": "Brouwerij 't IJ, Amsterdam"
+ },
+ "y-nl-aepjen": {
+  "lat": 52.37631,
+  "lon": 4.90015,
+  "km": 0.12,
+  "name": "In't Aepjen, 1, Zeedijk, Burgwallen-Oude Zijde, Centrum, Amsterdam, North Holland, Netherlands, 1012 AN, Netherlands",
+  "q": "In 't Aepjen, Amsterdam"
+ },
+ "y-nl-catboat": {
+  "lat": 52.37813,
+  "lon": 4.8931,
+  "km": 0.08,
+  "name": "The Catboat, 38G, Singel, Grachtengordel, Centrum, Amsterdam, North Holland, Netherlands, 1015 AB, Netherlands",
+  "q": "De Poezenboot, Amsterdam"
+ },
+ "y-nl-ndsm": {
+  "lat": 52.40037,
+  "lon": 4.89295,
+  "km": 0.13,
+  "name": "NDSM, Noord, Amsterdam, North Holland, Netherlands",
+  "q": "NDSM-werf, Amsterdam"
+ },
+ "y-nl-mesdag": {
+  "lat": 52.08471,
+  "lon": 4.30328,
+  "km": 0.21,
+  "name": "Museum Panorama Mesdag, 65, Zeestraat, Zeeheldenkwartier, Centrum, The Hague, South Holland, Netherlands, 2518 AA, Nethe",
+  "q": "Panorama Mesdag, Den Haag"
+ },
+ "y-nl-veluwe": {
+  "lat": 52.07971,
+  "lon": 5.83108,
+  "km": 1.67,
+  "name": "De Hoge Veluwe, Otterlo, Ede, Gelderland, Netherlands",
+  "q": "Hoge Veluwe National Park"
+ },
+ "y-nl-alkmaar": {
+  "lat": 52.63156,
+  "lon": 4.75028,
+  "km": 0.17,
+  "name": "Cheese Market, Waagplein, Binnenstad-Oost, Centrum, Alkmaar, North Holland, Netherlands, 1811 JL, Netherlands",
+  "q": "Kaasmarkt Alkmaar"
+ },
+ "y-be-annatunnel": {
+  "lat": 51.21877,
+  "lon": 4.39577,
+  "km": 0.42,
+  "name": "Sint-Annatunnel, Historisch Centrum, Linkeroever, Antwerp, Flanders, 2000, Belgium",
+  "q": "Sint-Annatunnel, Antwerpen"
+ },
+ "y-be-vlaeykens": {
+  "lat": 51.22011,
+  "lon": 4.39882,
+  "km": 0.17,
+  "name": "Vlaaikensgang, Historisch Centrum, Antwerp, Flanders, 2000, Belgium",
+  "q": "Vlaeykensgang, Antwerpen"
+ },
+ "y-be-garre": {
+  "lat": 51.20852,
+  "lon": 3.22574,
+  "km": 0.03,
+  "name": "De Garre, Sint-Walburgakwartier, Brugge-Centrum, Brugge, Bruges, Brugge, West Flanders, Flanders, 8000, Belgium",
+  "q": "De Garre, Brugge"
+ },
+ "y-be-dullegriet": {
+  "lat": 51.0573,
+  "lon": 3.72412,
+  "km": 0.12,
+  "name": "Dulle Griet, Grootkanonplein, Patershol, Ghent, Gent, East Flanders, Flanders, 9000, Belgium",
+  "q": "Dulle Griet, Gent"
+ },
+ "y-be-dreupelkot": {
+  "lat": 51.05627,
+  "lon": 3.72234,
+  "km": 0.25,
+  "name": "'T Dreupelkot, 12, Groentenmarkt, Patershol, Ghent, Gent, East Flanders, Flanders, 9000, Belgium",
+  "q": "'t Dreupelkot, Gent"
+ },
+ "y-dk-copenhill": {
+  "lat": 55.68487,
+  "lon": 12.6211,
+  "km": 1.21,
+  "name": "CopenHill, Jordtransportvej, Margretheholm, Holmen, Amagerbro, Copenhagen, Copenhagen Municipality, Capital Region of De",
+  "q": "CopenHill, Copenhagen"
+ },
+ "y-dk-harbourbath": {
+  "lat": 55.66852,
+  "lon": 12.57751,
+  "km": 0.17,
+  "name": "Islands Brygge Harbor Bath, Islands Brygge, Ballonparken, Copenhagen, Copenhagen Municipality, Capital Region of Denmark",
+  "q": "Havnebadet Islands Brygge, Copenhagen"
+ },
+ "y-dk-bakken": {
+  "lat": 55.77468,
+  "lon": 12.57775,
+  "km": 0.11,
+  "name": "Dyrehavsbakken, Ordrup, Klampenborg, Gentofte Municipality, Capital Region of Denmark, 2930, Denmark",
+  "q": "Dyrehavsbakken, Klampenborg"
+ },
+ "y-es-xampanyet": {
+  "lat": 41.38451,
+  "lon": 2.18167,
+  "km": 0.03,
+  "name": "El Xampanyet, 22, Carrer de Montcada, la Ribera, Sant Pere, Santa Caterina i la Ribera, Ciutat Vella, Barcelona, Barcelo",
+  "q": "El Xampanyet, Barcelona"
+ },
+ "y-es-laberint": {
+  "lat": 41.43998,
+  "lon": 2.14539,
+  "km": 0.1,
+  "name": "Park of the Labyrinth of Horta, Horta-Guinardó, Barcelona, Barcelonès, Barcelona, Catalonia, Spain",
+  "q": "Parc del Laberint d'Horta, Barcelona"
+ },
+ "y-es-4gats": {
+  "lat": 41.38574,
+  "lon": 2.17364,
+  "km": 0.02,
+  "name": "Els Quatre Gats, 3, Carrer de Montsió, Santa Anna, Gothic Quarter, Ciutat Vella, Barcelona, Barcelonès, Barcelona, Catal",
+  "q": "Els Quatre Gats, Barcelona"
+ },
+ "y-es-soller": {
+  "miss": true,
+  "q": "Ferrocarril de Sóller, Palma",
+  "near": null
+ },
+ "y-es-pontas": {
+  "lat": 39.32888,
+  "lon": 3.14513,
+  "km": 7.16,
+  "name": "es Pontàs, Cala Santanyí, Santanyí, Migjorn, Balearic Islands, Spain",
+  "q": "Es Pontàs, Santanyí"
+ },
+ "y-es-varques": {
+  "lat": 39.49993,
+  "lon": 3.29598,
+  "km": 2.61,
+  "name": "Cala Varques, s'Estany d'en Mas, Manacor, Llevant, Balearic Islands, Spain",
+  "q": "Cala Varques, Manacor"
+ },
+ "y-es-aigo": {
+  "lat": 39.5724,
+  "lon": 2.65658,
+  "km": 0.45,
+  "name": "Can Joan de s'Aigo, 74, Carrer del Sindicat, El Sindicat, Canamunt, Districte Centre, Palma, Balearic Islands, 07002, Sp",
+  "q": "Can Joan de s'Aigo, Palma"
+ },
+ "y-es-abaco": {
+  "lat": 39.56896,
+  "lon": 2.64516,
+  "km": 0.04,
+  "name": "Bar Abaco, 1, Carrer de Sant Joan, La Llotja - Born, Canamunt, Districte Centre, Palma, Balearic Islands, 07012, Spain",
+  "q": "Abaco, Palma"
+ },
+ "y-es-galdar": {
+  "lat": 28.14402,
+  "lon": -15.65508,
+  "km": 0.14,
+  "name": "Cueva pintada, Calle Audiencia, Marmolejos, Gáldar, Las Palmas, Canary Islands, 35460, Spain",
+  "q": "Cueva Pintada, Gáldar"
+ },
+ "y-fr-kammerzell": {
+  "lat": 48.58197,
+  "lon": 7.74975,
+  "km": 0.12,
+  "name": "La Maison Kammerzell, Place de la Cathédrale, Centre, Strasbourg, Bas-Rhin, European Collectivity of Alsace, Grand Est, ",
+  "q": "Maison Kammerzell, Strasbourg"
+ },
+ "y-fr-clock": {
+  "miss": true,
+  "q": "Strasbourg Cathedral astronomical clock",
+  "near": null
+ },
+ "y-lu-transport": {
+  "lat": 49.59993,
+  "lon": 6.13413,
+  "km": 0.04,
+  "name": "Gare de Luxembourg, 13, Place de la Gare, Gare, Luxembourg, Canton Luxembourg, 1616, Luxembourg",
+  "q": "Gare de Luxembourg"
+ },
+ "y-lu-pfaffenthal": {
+  "lat": 49.61554,
+  "lon": 6.13056,
+  "km": 0.11,
+  "name": "Lift Pfaffenthal, Côte d'Eich, Ville-Haute, Luxembourg, Canton Luxembourg, 2983, Luxembourg",
+  "q": "Ascenseur panoramique Pfaffenthal, Luxembourg"
+ },
+ "y-lu-mullerthal": {
+  "lat": 49.78509,
+  "lon": 6.29929,
+  "km": 2.1,
+  "name": "Schiessentümpel, Mullerthal, Waldbillig, Canton Echternach, 6245, Luxembourg",
+  "q": "Schiessentümpel, Mullerthal"
+ },
+ "y-jp-omoide": {
+  "lat": 35.69307,
+  "lon": 139.6995,
+  "km": 0.01,
+  "name": "Omoide-yokochō, Nishi-Shinjuku 1, Nishi-Shinjuku, Shinjuku, Tokyo, 160-0023, Japan",
+  "q": "Omoide Yokocho, Shinjuku, Tokyo"
+ },
+ "y-jp-nonbei": {
+  "lat": 35.65999,
+  "lon": 139.70154,
+  "km": 0.14,
+  "name": "Nonbei Yokocho, Drunkard’s Alley, Shibuya 1, Shibuya, Tokyo, 150-0002, Japan",
+  "q": "Nonbei Yokocho, Shibuya, Tokyo"
+ },
+ "y-jp-gotokuji": {
+  "lat": 35.6485,
+  "lon": 139.64726,
+  "km": 0.02,
+  "name": "Gotokuji, 7, Gotokuji 2, Gōtokuji, Setagaya, Tokyo, 154-0021, Japan",
+  "q": "Gotokuji Temple, Setagaya, Tokyo"
+ },
+ "y-jp-todoroki": {
+  "lat": 35.60506,
+  "lon": 139.64574,
+  "km": 0.43,
+  "name": "Todoroki Valley Park, Todoroki, Setagaya, Tokyo, Japan",
+  "q": "Todoroki Valley Park, Tokyo"
+ },
+ "y-jp-gcans": {
+  "lat": 35.9911,
+  "lon": 139.78057,
+  "km": 2.44,
+  "name": "Metropolitan Area Outer Underground Discharge Channel, Kasukabe, Saitama Prefecture, Japan",
+  "q": "Metropolitan Area Outer Underground Discharge Channel, Kasukabe"
+ },
+ "y-jp-takao": {
+  "lat": 35.62458,
+  "lon": 139.24316,
+  "km": 0.07,
+  "name": "Takaosan (Mount Takao)- Observation Deck, 稲荷山線歩道, Hachioji, Tokyo, 193-0841, Japan",
+  "q": "Mount Takao, Hachioji"
+ },
+ "y-jp-otagi": {
+  "lat": 35.03116,
+  "lon": 135.66123,
+  "km": 0.27,
+  "name": "Otagi Nenbutsu Temple, Kiyotaki Toriimoto Line, Sagatoriimoto-Ikkahyocho, Ukyō Ward, Kyoto, Kyoto Prefecture, 616-0000, ",
+  "q": "Otagi Nenbutsu-ji, Kyoto"
+ },
+ "y-jp-kibune": {
+  "lat": 35.12866,
+  "lon": 135.76503,
+  "km": 0.93,
+  "name": "Kifune Shrine Okumiya, Kamikuroda-Kibune Line, Kurama Kibune-chō, Kurama, Sakyō Ward, Kyoto, Kyoto Prefecture, 601-1112,",
+  "q": "Kibune Shrine, Kyoto"
+ },
+ "y-jp-minoo": {
+  "miss": true,
+  "q": "Minoo Falls, Minoh",
+  "near": null
+ },
+ "y-kr-bukhansan": {
+  "lat": 37.66759,
+  "lon": 126.98144,
+  "km": 1.07,
+  "name": "Bukhansan National Park, Goyang-si, Gyeonggi, South Korea",
+  "q": "Bukhansan National Park"
+ },
+ "y-kr-ihwa": {
+  "lat": 37.57815,
+  "lon": 127.00722,
+  "km": 0.13,
+  "name": "Ihwa Mural Village, Naksan 4-gil, Daehangno Street, Ihwa-dong, Jongno-gu, Seoul, 03088, South Korea",
+  "q": "Ihwa Mural Village, Seoul"
+ },
+ "y-kr-tunnel": {
+  "lat": 37.91756,
+  "lon": 126.69053,
+  "km": 0.57,
+  "name": "Third Tunnel of Aggression, Gunnae-myeon, Paju-si, Gyeonggi, 10800, South Korea",
+  "q": "Third Tunnel of Aggression, Paju"
+ },
+ "y-kr-noryangjin": {
+  "lat": 37.51472,
+  "lon": 126.93774,
+  "km": 0.32,
+  "name": "Noryangjin Fisheries Wholesale Market, 674, Nodeul-ro, Noryangjin-dong, Noryangjin 2(i)-dong, Dongjak-gu, Seoul, 06900, ",
+  "q": "Noryangjin Fisheries Wholesale Market, Seoul"
+ },
+ "y-kr-naksan": {
+  "lat": 37.58053,
+  "lon": 127.00761,
+  "km": 0.02,
+  "name": "Naksan park, 41, Ihwa-dong, Jongno-gu, Seoul, 03085, South Korea",
+  "q": "Naksan Park, Seoul"
+ },
+ "y-vn-giang": {
+  "lat": 21.03361,
+  "lon": 105.85462,
+  "km": 0.01,
+  "name": "Giang Cafe Hanoi, 39, Nguyen Huu Huan Street, Old Quarter, Hoan Kiem Ward, Hà Nội, 11024, Vietnam",
+  "q": "Cafe Giang, Hanoi"
+ },
+ "y-vn-huonglien": {
+  "miss": true,
+  "q": "Bun Cha Huong Lien, Hanoi",
+  "near": null
+ },
+ "y-vn-longbien": {
+  "lat": 21.04314,
+  "lon": 105.85817,
+  "km": 0.16,
+  "name": "Long Biên Bridge, Long Bien 1 Street, Xóm Phô, Bo De Ward, Hà Nội, 11025, Vietnam",
+  "q": "Long Bien Bridge, Hanoi"
+ },
+ "y-vn-hangmua": {
+  "lat": 20.23457,
+  "lon": 105.93911,
+  "km": 0.85,
+  "name": "Hang Mua Central Homestay, 491B, Hoa Lư Ward, Ninh Bình Province, 08212, Vietnam",
+  "q": "Hang Mua, Ninh Binh"
+ },
+ "y-vn-apartments": {
+  "lat": 10.77406,
+  "lon": 106.70413,
+  "km": 0.03,
+  "name": "Cà Phê Boo, 42, Nguyen Hue Boulevard, Khu phố 9, Saigon, Ho Chi Minh City, 80000, Vietnam",
+  "q": "42 Nguyen Hue, Ho Chi Minh City"
+ },
+ "y-vn-oc": {
+  "miss": true,
+  "q": "Vinh Khanh Street, District 4, Ho Chi Minh City",
+  "near": null
+ },
+ "y-vn-huynhhoa": {
+  "lat": 10.77147,
+  "lon": 106.69237,
+  "km": 0.03,
+  "name": "Bánh Mì Huynh Hoa, 26, Le Thi Rieng Street, Khu phố 4, Ben Thanh, Ho Chi Minh City, 71009, Vietnam",
+  "q": "Banh Mi Huynh Hoa, Ho Chi Minh City"
+ },
+ "y-vn-cairang": {
+  "lat": 10.0024,
+  "lon": 105.74439,
+  "km": 0.21,
+  "name": "Cai Rang Floating Market, Võ Tánh, Khu vực Yên Thuận, Phường Cái Răng, Cần Thơ, 94908, Vietnam",
+  "q": "Cai Rang Floating Market, Can Tho"
+ },
+ "y-vn-phuong": {
+  "lat": 15.87848,
+  "lon": 108.33201,
+  "km": 0.12,
+  "name": "Banh Mi Phuong, 2B, Phan Chau Trinh Street, Hoi An Old Town, Hội An Ward, Hoi An, Đà Nẵng, 51319, Vietnam",
+  "q": "Banh Mi Phuong, Hoi An"
+ },
+ "y-th-hotspring": {
+  "lat": 7.93125,
+  "lon": 99.20461,
+  "km": 6.05,
+  "name": "Khlong Thom Hot Spring Waterfall, Huai Nam Khao, Khlong Thom District, Krabi Province, 81120, Thailand",
+  "q": "Hot Spring Waterfall, Khlong Thom, Krabi"
+ },
+ "y-th-railayclimb": {
+  "lat": 8.01142,
+  "lon": 98.83795,
+  "km": 0.05,
+  "name": "Railay Beach Café, Walking Street, Railay Promenade, Railay, Ban Ao Nang, Krabi Noi, Mueang Krabi District, Krabi Provin",
+  "q": "Railay Beach, Krabi"
+ },
+ "y-th-lagoon": {
+  "miss": true,
+  "q": "Railay Viewpoint and Lagoon",
+  "near": null
+ },
+ "y-th-maikhao": {
+  "lat": 8.12067,
+  "lon": 98.30662,
+  "km": 1.04,
+  "name": "Mai Khao Beach Condotel, Mai Khao Soi 5, Mai Khao, Si Sunthon, Thalang District, Phuket Province, 83140, Thailand",
+  "q": "Mai Khao Beach, Phuket"
+ },
+ "y-th-vegfest": {
+  "miss": true,
+  "q": "Jui Tui Shrine, Phuket Town",
+  "near": null
+ },
+ "y-th-maeklong": {
+  "lat": 13.40773,
+  "lon": 100.0009,
+  "km": 0.1,
+  "name": "Maeklong Railway Market, Petchsamut Road, Samut Songkhram, Mueang Samut Songkhram District, Samut Songkhram Province, 75",
+  "q": "Maeklong Railway Market"
+ },
+ "y-th-jayfai": {
+  "lat": 13.75253,
+  "lon": 100.50474,
+  "km": 0.02,
+  "name": "Raan Jay Fai, Maha Chai Road, ชุมชนวังกรมพระสมมตอมรพันธุ์, Samran Rat Subdistrict, Phra Nakhon District, Bangkok, 10200,",
+  "q": "Jay Fai, Bangkok"
+ },
+ "y-ma-tanneries": {
+  "miss": true,
+  "q": "Tanneries, Bab Debbagh, Marrakesh",
+  "near": null
+ },
+ "y-ma-epices": {
+  "lat": 31.62906,
+  "lon": -7.98732,
+  "km": 0.15,
+  "name": "Café des Epices, 75, Rahba Kedima Square, Souks, Medina, Arrondissement de Marrakech-Medina مقاطعة مراكش المدينة, Marrak",
+  "q": "Café des Épices, Marrakesh"
+ },
+ "y-ma-hammam": {
+  "lat": 31.62991,
+  "lon": -7.98909,
+  "km": 0.23,
+  "name": "Hammam Mouassine, Souk des Teinturiers السوق الصباغون, Souks, Medina, Arrondissement de Marrakech-Medina مقاطعة مراكش ال",
+  "q": "Hammam Mouassine, Marrakesh"
+ },
+ "y-ma-imlil": {
+  "lat": 31.13682,
+  "lon": -7.92076,
+  "km": 0.11,
+  "name": "Imlil, Asni, Caïdat d'Asni, Cercle d'Asni, Al Haouz Province, Marrakech-Safi, 42152, Morocco",
+  "q": "Imlil"
+ },
+ "y-tn-sididriss": {
+  "lat": 33.54271,
+  "lon": 9.96728,
+  "km": 0.08,
+  "name": "Hotel Sidi Driss, الطريق الوطنية مدنين - حزوة, مطماطة القديمة, Hafi Rassa, Matmata el Qadima, مطماطة, معتمدية مطماطة, Ga",
+  "q": "Hotel Sidi Driss, Matmata"
+ },
+ "y-tn-mosespa": {
+  "miss": true,
+  "q": "Mos Espa, Ong Jemel, Tozeur",
+  "near": null
+ },
+ "y-us-campbell": {
+  "miss": true,
+  "q": "The Campbell, Grand Central, New York",
+  "near": null
+ },
+ "y-us-ferry": {
+  "lat": 40.70096,
+  "lon": -74.01306,
+  "km": 0.04,
+  "name": "Staten Island Ferry Whitehall Terminal, 4, South Street, Whitehall, Manhattan, New York County, New York, 10004, United ",
+  "q": "Whitehall Terminal, New York"
+ },
+ "y-us-tram": {
+  "lat": 40.76121,
+  "lon": -73.96422,
+  "km": 0.02,
+  "name": "Roosevelt Island Tramway, 254, East 60th Street, Manhattan Community Board 8, Manhattan, New York County, New York, 1002",
+  "q": "Roosevelt Island Tramway, New York"
+ },
+ "y-us-mmuseumm": {
+  "lat": 40.71736,
+  "lon": -74.00281,
+  "km": 0.06,
+  "name": "Mmuseumm, 4, Cortlandt Alley, Civic Center, Lower Manhattan, Manhattan, New York County, New York, 10013, United States",
+  "q": "Mmuseumm, Cortlandt Alley, New York"
+ },
+ "y-us-cityhall": {
+  "lat": 40.71264,
+  "lon": -74.00668,
+  "km": 0.19,
+  "name": "City Hall, Steve Flanders Square, Tribeca, Lower Manhattan, Manhattan, New York County, New York, 10000, United States",
+  "q": "City Hall Loop, New York"
+ },
+ "y-hr-hum": {
+  "lat": 45.34853,
+  "lon": 14.05036,
+  "km": 0.12,
+  "name": "Hum, Grad Buzet, Istria County, Croatia",
+  "q": "Hum, Istria"
+ },
+ "y-hr-pazin": {
+  "lat": 45.23961,
+  "lon": 13.93002,
+  "km": 0.25,
+  "name": "Pazin cave, Buraj, Juraleti, Foškići, Pazin, Grad Pazin, Istria County, 52000, Croatia",
+  "q": "Pazinska jama, Pazin"
+ },
+ "y-hr-kamenjak": {
+  "lat": 44.76789,
+  "lon": 13.92371,
+  "km": 0.88,
+  "name": "Rt Kamenjak, Debeljak, Premantura, Općina Medulin, Istria County, 52205, Croatia",
+  "q": "Rt Kamenjak, Premantura"
+ },
+ "y-hr-dvigrad": {
+  "lat": 45.12725,
+  "lon": 13.8118,
+  "km": 0.55,
+  "name": "Dvigrad, 50101, Kanfanar, Općina Kanfanar, Istria County, 52352, Croatia",
+  "q": "Dvigrad, Kanfanar"
+ },
+ "y-hr-glagolitic": {
+  "miss": true,
+  "q": "Aleja glagoljaša, Roč",
+  "near": null
+ },
+ "y-hr-limski": {
+  "lat": 45.13236,
+  "lon": 13.65388,
+  "km": 2.99,
+  "name": "Lim bay, Istria County, Croatia",
+  "q": "Limski kanal"
+ },
+ "y-hr-baredine": {
+  "miss": true,
+  "q": "Jama Baredine, Poreč",
+  "near": null
+ },
+ "y-us-whittier": {
+  "lat": 60.77223,
+  "lon": -148.68593,
+  "km": 0.22,
+  "name": "Begich Towers, 100, Kenai Street, Whittier, Unorganized Borough, Alaska, 99693, United States",
+  "q": "Begich Towers, Whittier, Alaska"
+ },
+ "y-au-cooberpedy": {
+  "lat": -29.01337,
+  "lon": 134.75362,
+  "km": 0.08,
+  "name": "Coober Pedy, South Australia, Australia",
+  "q": "Coober Pedy"
+ },
+ "y-be-baarle": {
+  "miss": true,
+  "q": "Baarle-Nassau",
+  "near": null
+ },
+ "y-us-racetrack": {
+  "miss": true,
+  "q": "Racetrack Playa, Death Valley",
+  "near": null
+ },
+ "y-ca-spotted": {
+  "lat": 49.07866,
+  "lon": -119.56761,
+  "km": 0.07,
+  "name": "Spotted Lake, Area A (Osoyoos Lake), Regional District of Okanagan-Similkameen, British Columbia, Canada",
+  "q": "Spotted Lake, Osoyoos"
+ },
+ "y-jp-hashima": {
+  "lat": 32.62769,
+  "lon": 129.73826,
+  "km": 0.03,
+  "name": "Hashima, 五十段, Nagasaki, Nagasaki Prefecture, 850-8685, Japan",
+  "q": "Hashima Island, Nagasaki"
+ },
+ "y-jp-okunoshima": {
+  "lat": 34.30912,
+  "lon": 132.99376,
+  "km": 0.08,
+  "name": "Ōkunoshima, Takehara, Hiroshima Prefecture, Japan",
+  "q": "Okunoshima"
+ },
+ "y-jp-nagoro": {
+  "lat": 33.85489,
+  "lon": 134.02058,
+  "km": 4.86,
+  "name": "Nagoro, National Route 439, Nagoro, Miyoshi, Tokushima Prefecture, 778-8501, Japan",
+  "q": "Nagoro, Miyoshi, Tokushima"
+ },
+ "y-mx-dolls": {
+  "lat": 19.29054,
+  "lon": -99.09577,
+  "km": 0.04,
+  "name": "Island of the Dead Dolls, Xochimilco, Mexico City, Mexico",
+  "q": "Isla de las Muñecas, Xochimilco"
+ },
+ "y-ph-sagada": {
+  "miss": true,
+  "q": "Hanging Coffins, Echo Valley, Sagada",
+  "near": null
+ },
+ "y-it-capuchin": {
+  "lat": 38.11183,
+  "lon": 13.33924,
+  "km": 0.06,
+  "name": "Catacombe dei Cappuccini, Piazza Cappuccini, Villaggio Santa Rosalia, IV Circoscrizione, Palermo, Sicily, 90132, Italy",
+  "q": "Catacombe dei Cappuccini, Palermo"
+ },
+ "y-us-flygeyser": {
+  "lat": 40.85942,
+  "lon": -119.33187,
+  "km": 0.02,
+  "name": "Fly Geyser, Leadville Road, Washoe County, Nevada, 89412, United States",
+  "q": "Fly Geyser, Nevada"
+ },
+ "y-us-cadillac": {
+  "lat": 35.18723,
+  "lon": -101.98707,
+  "km": 0,
+  "name": "Cadillac Ranch, 13651, West Interstate 40, Amarillo, Potter County, Texas, 79124, United States",
+  "q": "Cadillac Ranch, Amarillo"
+ },
+ "y-us-salvation": {
+  "lat": 33.25405,
+  "lon": -115.47262,
+  "km": 0.01,
+  "name": "Salvation Mountain, Beal Road, Niland, Imperial County, California, 92257, United States",
+  "q": "Salvation Mountain, Niland"
+ },
+ "y-cn-tianducheng": {
+  "lat": 30.38981,
+  "lon": 120.24223,
+  "km": 5.15,
+  "name": "Tianducheng, Xingqiao, Linping District, Hangzhou City, Zhejiang, China",
+  "q": "Tianducheng, Hangzhou"
+ },
+ "y-is-planewreck": {
+  "miss": true,
+  "q": "Sólheimasandur Plane Wreck",
+  "near": null
+ },
+ "y-no-hell": {
+  "lat": 63.4461,
+  "lon": 10.89667,
+  "km": 0.56,
+  "name": "Hell, Øyvegen, Sandbakken, Gjevingåsen, Hell, Stjørdal, Trøndelag, 7502, Norway",
+  "q": "Hell station, Stjørdal"
+ },
+ "y-no-seedvault": {
+  "lat": 78.23565,
+  "lon": 15.4911,
+  "km": 0.01,
+  "name": "Svalbard Global Seed Vault, Vei 705, Adventpynten, Longyearbyen, Nordenskiöld Land, Svalbard, Norway",
+  "q": "Svalbard Global Seed Vault"
+ },
+ "y-gb-cheese": {
+  "lat": 51.83245,
+  "lon": -2.16153,
+  "km": 0.38,
+  "name": "Cooper's Hill, Brockworth, Tewkesbury, Gloucestershire, England, GL3 4SD, United Kingdom",
+  "q": "Cooper's Hill, Brockworth"
+ },
+ "y-gb-llanfair": {
+  "lat": 53.22148,
+  "lon": -4.20988,
+  "km": 0.08,
+  "name": "Llanfair PG Railway Station, Holyhead Road, Pentre Isaf, Llanfair Pwllgwyngyll, Llanfairpwllgwyngyll, Isle of Anglesey, ",
+  "q": "Llanfairpwllgwyngyll railway station"
+ },
+ "y-fr-cheval": {
+  "lat": 45.25628,
+  "lon": 5.02847,
+  "km": 0.08,
+  "name": "Postman Cheval's Ideal Palace, Rue du Palais Idéal, Le Village, Hauterives, Valence, Drôme, Auvergne-Rhône-Alpes, Metrop",
+  "q": "Palais Idéal du Facteur Cheval, Hauterives"
+ },
+ "y-it-civita": {
+  "lat": 42.62771,
+  "lon": 12.11368,
+  "km": 0.05,
+  "name": "Civita, Bagnoregio, Viterbo, Lazio, 01022, Italy",
+  "q": "Civita di Bagnoregio"
+ },
+ "y-it-bomarzo": {
+  "lat": 42.49027,
+  "lon": 12.24604,
+  "km": 0.2,
+  "name": "Sacro Bosco, Bomarzo, Viterbo, Lazio, Italy",
+  "q": "Sacro Bosco, Bomarzo"
+ },
+ "y-es-setenil": {
+  "lat": 36.86218,
+  "lon": -5.1787,
+  "km": 0.11,
+  "name": "Setenil de las Bodegas, Sierra de Cádiz, Cádiz, Andalusia, 11692, Spain",
+  "q": "Setenil de las Bodegas"
+ },
+ "y-ch-truemmelbach": {
+  "lat": 46.57001,
+  "lon": 7.91321,
+  "km": 0.54,
+  "name": "Trümmelbachfälle, 222, Gydisdorf, Trümmelbach, Mürren, Lauterbrunnen, Interlaken-Oberhasli administrative district, Ober",
+  "q": "Trümmelbachfälle, Lauterbrunnen"
+ },
+ "y-us-winchester": {
+  "lat": 37.31829,
+  "lon": -121.95099,
+  "km": 0.02,
+  "name": "Winchester Mystery House, 525, Winchester Boulevard, San Jose, Santa Clara County, California, 95128, United States",
+  "q": "Winchester Mystery House, San Jose"
+ },
+ "y-ca-sourtoe": {
+  "lat": 64.06222,
+  "lon": -139.43341,
+  "km": 0.22,
+  "name": "Canadas Best Value Inn - Downtown Hotel, Queen Street, Dawson City, Yukon, Y0B 1G0, Canada",
+  "q": "Downtown Hotel, Dawson City"
+ },
+ "y-bo-traincemetery": {
+  "lat": -20.48079,
+  "lon": -66.83688,
+  "km": 0.35,
+  "name": "Railroad Museum, Camino Uyuni-Vinto K, Uyuni, Antonio Quijarro, Potosí, Bolivia",
+  "q": "Cementerio de Trenes, Uyuni"
+ },
+ "y-cl-hand": {
+  "lat": -24.15854,
+  "lon": -70.15641,
+  "km": 0.01,
+  "name": "Mano Del Desierto, Ruta 5 Norte, Antofagasta, Provincia de Antofagasta, Antofagasta Region, Chile",
+  "q": "Mano del Desierto, Antofagasta"
+ },
+ "y-in-rootbridge": {
+  "miss": true,
+  "q": "Double Decker Living Root Bridge, Nongriat",
+  "near": null
+ },
+ "y-in-karnimata": {
+  "miss": true,
+  "q": "Karni Mata Temple, Deshnoke",
+  "near": null
+ },
+ "y-es-botin": {
+  "lat": 40.41417,
+  "lon": -3.70798,
+  "km": 0.01,
+  "name": "Botín, 17, Calle de Cuchilleros, Barrio de la Latina, Sol, Centro, Madrid, Community of Madrid, 28005, Spain",
+  "q": "Restaurante Botín, Madrid"
+ },
+ "y-it-grotta": {
+  "lat": 40.99592,
+  "lon": 17.22099,
+  "km": 0.04,
+  "name": "Grotta Palazzese, Via Tritone, Centro storico, Polignano a Mare, Bari, Apulia, 70044, Italy",
+  "q": "Grotta Palazzese, Polignano a Mare"
+ },
+ "y-ar-tortoni": {
+  "lat": -34.60869,
+  "lon": -58.37814,
+  "km": 0.05,
+  "name": "Café Tortoni, 829, Avenida de Mayo, Monserrat, Buenos Aires, Comuna 1, Autonomous City of Buenos Aires, C1002AAT, Argent",
+  "q": "Café Tortoni, Buenos Aires"
+ },
+ "y-fr-harrys": {
+  "miss": true,
+  "q": "Harry's New York Bar, Paris",
+  "near": null
+ },
+ "y-fr-noir": {
+  "lat": 48.86137,
+  "lon": 2.35055,
+  "km": 0.04,
+  "name": "Dans le Noir, 51, Rue Quincampoix, Quartier Saint-Merri, 4th Arrondissement, Paris, Ile-de-France, Metropolitan France, ",
+  "q": "Dans le Noir, Paris"
+ },
+ "y-tr-ciya": {
+  "lat": 40.98935,
+  "lon": 29.02443,
+  "km": 0.11,
+  "name": "Çiya Sofrası, 43, Güneşlibahçe Sokağı, Bahariye, Caferağa Mahallesi, Kadıköy, Istanbul, Marmara Region, 34710, Turkey",
+  "q": "Çiya Sofrası, Kadıköy, Istanbul"
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "started": "2026-10-27T14:08:08.909Z",
+ "props": {
+  "ao": {
+   "editorial": true,
+   "found": [
+    {
+     "id": "P7772",
+     "label": "Atlas Obscura place ID",
+     "fmt": "https://www.atlasobscura.com/places/$1"
+    }
+   ]
+  },
+  "mi": {
+   "editorial": true,
+   "found": [
+    {
+     "id": "P4161",
+     "label": "Michelin Voyages ID",
+     "fmt": "https://voyages.michelin.fr/$1"
+    },
+    {
+     "id": "P4160",
+     "label": "Michelin Restaurants ID",
+     "fmt": "https://guide.michelin.com/fr/fr/$1"
+    }
+   ]
+  },
+  "lp": {
+   "editorial": true,
+   "found": []
+  },
+  "gm": {
+   "editorial": true,
+   "found": []
+  },
+  "ro": {
+   "editorial": true,
+   "found": [
+    {
+     "id": "P4986",
+     "label": "Routard.com place ID",
+     "fmt": "http://www.routard.com/guide_voyage_lieu/$1-wd.htm"
+    }
+   ]
+  },
+  "pf": {
+   "editorial": true,
+   "found": [
+    {
+     "id": "P5760",
+     "label": "Petit Futé site ID",
+     "fmt": "https://www.petitfute.com/$1-wd/"
+    }
+   ]
+  },
+  "fo": {
+   "editorial": true,
+   "found": []
+  },
+  "fr": {
+   "editorial": true,
+   "found": []
+  },
+  "rg": {
+   "editorial": true,
+   "found": []
+  },
+  "to": {
+   "editorial": true,
+   "found": []
+  },
+  "ta": {
+   "editorial": false,
+   "found": [
+    {
+     "id": "P3134",
+     "label": "Tripadvisor ID",
+     "fmt": "https://www.tripadvisor.com/$1"
+    }
+   ]
+  },
+  "ye": {
+   "editorial": false,
+   "found": [
+    {
+     "id": "P3108",
+     "label": "Yelp ID",
+     "fmt": "https://www.yelp.com/biz/$1"
+    }
+   ]
+  },
+  "fs": {
+   "editorial": false,
+   "found": [
+    {
+     "id": "P1968",
+     "label": "Foursquare City Guide venue ID",
+     "fmt": "https://app.foursquare.com/share/venue/$1"
+    }
+   ]
+  },
+  "go": {
+   "editorial": false,
+   "found": [
+    {
+     "id": "P3749",
+     "label": "Google Maps Customer ID",
+     "fmt": "https://www.google.com/maps?cid=$1"
+    }
+   ]
+  },
+  "ko": {
+   "editorial": false,
+   "found": [
+    {
+     "id": "P10862",
+     "label": "Komoot ID",
+     "fmt": "https://www.komoot.com/$1"
+    }
+   ]
+  },
+  "al": {
+   "editorial": false,
+   "found": [
+    {
+     "id": "P7127",
+     "label": "AllTrails trail ID",
+     "fmt": "https://www.alltrails.com/$1"
+    }
+   ]
+  }
+ },
+ "queries": {
+  "P7772": {
+   "src": "ao",
+   "label": "Atlas Obscura place ID",
+   "items": 15886
+  },
+  "P4161": {
+   "src": "mi",
+   "label": "Michelin Voyages ID",
+   "items": 385
+  },
+  "P4160": {
+   "src": "mi",
+   "label": "Michelin Restaurants ID",
+   "items": 189
+  },
+  "P4986": {
+   "src": "ro",
+   "label": "Routard.com place ID",
+   "items": 566
+  },
+  "P5760": {
+   "src": "pf",
+   "label": "Petit Futé site ID",
+   "items": 506
+  }
+ },
+ "candidates": 17258,
+ "total": 17253,
+ "saved": "2026-10-27T14:15:05.426Z",
+ "finished": "2026-10-27T14:15:05.396Z"
+}
