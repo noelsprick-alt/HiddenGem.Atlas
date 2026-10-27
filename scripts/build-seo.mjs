@@ -244,7 +244,7 @@ for (const lang of ['de', 'en']) {
   { const p = PATHS[lang].hub, U = up(p);
     const list = countries.map((cc) => [cc, cname(lang, cc), byCc.get(cc).length]).sort((a, b) => a[1].localeCompare(b[1], lang));
     page({ lang, p, title: lang === 'de' ? 'Alle Länder: Hidden Gems & Must-Sees weltweit | HiddenGem.Atlas' : 'All countries: hidden gems & must-sees worldwide | HiddenGem.Atlas',
-      desc: lang === 'de' ? `${list.length} Länder, über 4.400 Orte: Hidden Gems, UNESCO-Welterbe, verrückte Geschichten, Abenteuer und Bars - mit Karte und Routenplaner.` : `${list.length} countries, 4,400+ places: hidden gems, UNESCO sites, wild stories, adventures and bars - with map and route planner.`,
+      desc: lang === 'de' ? `${list.length} Länder, über 5.000 Orte: Hidden Gems, UNESCO-Welterbe, verrückte Geschichten, Abenteuer und Bars - mit Karte und Routenplaner.` : `${list.length} countries, 5,000+ places: hidden gems, UNESCO sites, wild stories, adventures and bars - with map and route planner.`,
       h1: lang === 'de' ? 'Alle Länder' : 'All countries', lead: lang === 'de' ? 'Wähle ein Land und plane deine eigene Route.' : 'Pick a country and plan your own route.',
       body: `<p><a class="btn" href="${U}index.html#/momente">${t.mapCta} →</a></p><ul class="chips">${list.map(([cc, n, c]) => `<li><a href="${U}${PATHS[lang].c(cc)}">${flag(cc)} ${esc(n)} <b>${c}</b></a></li>`).join('')}</ul>`,
       crumbs: [{ n: t.countries }], alt: PATHS[other(lang)].hub }); }

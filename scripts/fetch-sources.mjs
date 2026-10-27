@@ -3,9 +3,9 @@
 // Grundlage: Wikidata (CC0). Dort ist pro Ort hinterlegt, auf welchen Seiten er geführt wird
 // (Atlas Obscura, Michelin, Lonely Planet, Tripadvisor, Yelp, Foursquare, Google Maps …).
 // Pflicht für die Karte (wird später in build-open-places.mjs geprüft):
-//   mind. 1 redaktionelle Auswahl (Atlas Obscura, Michelin, Lonely Planet, Gault&Millau, Routard …)
-//   + mind. 3 verschiedene Quellen insgesamt
-//   + danach Google-Bewertung ab 4,5 Sternen (Prüfung von Hand, Ergebnis in data-src/google-ok.json)
+//   Atlas Obscura hat den Ort ausgewählt
+//   + mind. 1 weitere unabhängige Quelle (Wikipedia allein reicht nie)
+//   + danach Google-Bewertung ab 4,5 Sternen, mind. 50 Bewertungen (Ergebnis in data-src/google-check.json)
 // Läuft in GitHub Actions (dort ist das Internet offen).
 // Ergebnis: data-src/sources-raw.json + data-src/sources-report.json
 import fs from 'node:fs';

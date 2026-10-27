@@ -81,9 +81,17 @@ Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt p
 - **Search Console:** Property `https://noelsprick-alt.github.io/HiddenGem.Atlas/` bestätigt, Sitemap eingereicht (22.10.2026).
 
 ## v17 (27.10.2026)
-- **Karte 10.000+ Orte:** `data/moments-open.json` = Orte aus offenen Daten (Wikidata, CC0) - Wasserfälle, Höhlen, Schluchten, Geisterstädte, besondere Bars, Kaffeehäuser, Restaurants, Märkte. Gekennzeichnet mit 📚 „Offene Daten“; der Kurztext kommt erst auf Klick live von Wikipedia (CC BY-SA, mit Quelle). Diese Orte bekommen **keine** eigenen SEO-Seiten.
-  - Neu holen: Actions → „Offene Ortsdaten holen“ → `wikidata` (schreibt `data-src/open-raw.json`), danach lokal `node scripts/build-open-places.mjs 9000`.
-  - Eigene neue Orte (handverlesen, DE/EN) stehen in `data/moments-curated.json`; Koordinaten prüft der Workflow mit `geocode` über OpenStreetMap (`data-src/curated-new.json` → `data-src/geocode.json`).
+- **Qualitätsregel für neue Hidden Gems** (damit man den Aussagen trauen kann):
+  1. **Atlas Obscura** hat den Ort redaktionell ausgewählt (Grundlage der Karte; nur ID + Link, keine Texte übernommen),
+  2. mind. **eine weitere unabhängige Quelle** führt ihn (Tripadvisor, Michelin, Routard, Yelp, Wikipedia …) – Wikipedia allein reicht nie,
+  3. **Google ab 4,5 Sternen** (mind. 50 Bewertungen, Treffer max. 3 km vom Ort entfernt). Bewertungen werden nur geprüft, nicht gespeichert oder angezeigt.
+  - Außerdem raus: Städte/Dörfer, Zoos, Freizeitparks, Hotels, Flughäfen, Einkaufszentren, große Kunst-/Nationalmuseen, Bahnhöfe und sehr berühmte Orte (über 40 Wikipedia-Sprachversionen). Von Hand übersprungen: nicht zugängliche/private Orte, reine Straßen, Mainstream (z. B. Shakespeare and Company, Altneu-Synagoge).
+  - Stand 27.10.2026: 623 geprüfte offene Orte (316 Abenteuer, 157 Geschichten, 78 Restaurants & Märkte, 46 Bars & Cafés) + 226 handverlesene.
+  - Handverlesene Orte (`data/moments-curated.json`) wurden genauso geprüft; alles unter 4,5 ist rausgeflogen (z. B. U Fleků, Hofbräuhaus, Harry's Bar Venedig, Golden Gai, Café Central Wien).
+- **Offene Daten:** `data/moments-open.json` = Orte aus Wikidata (CC0), gekennzeichnet mit ✅ „Mehrfach empfohlen“ und Links „Bekannt aus: Atlas Obscura · Tripadvisor · Wikipedia“. Der Kurztext kommt erst auf Klick live von Wikipedia (CC BY-SA, mit Quelle). Keine eigenen SEO-Seiten.
+  - Neu holen: Actions → „Offene Ortsdaten holen“ → `sources` (schreibt `data-src/sources-raw.json`), danach lokal `node scripts/build-open-places.mjs`.
+  - Das Skript schreibt `data-src/open-candidates.json` (noch nicht bei Google geprüft, wichtigste zuerst). Geprüfte Orte stehen in `data-src/google-check.json` (`"ok"` / `"no"`) – nur `"ok"` kommt auf die Karte.
+  - Koordinaten handverlesener Orte prüft der Workflow mit `geocode` über OpenStreetMap (`data-src/curated-new.json` → `data-src/geocode.json`).
 - **Neues Thema** 🍽️ „Besondere Restaurants & Märkte“; 🍸 heißt jetzt „Besondere Bars & Cafés“.
 - **Reise-Guides:** alle 31 Beiträge mit „Was das Land ausmacht“, „Ein bisschen Geschichte“, eigenem Erlebnis (nur echte Erlebnisse) und Tipp. Beiträge ohne eigenes Foto haben ein Karten-Cover (`images/blog/`).
 - **Spanisch:** `scripts/translate-es.mjs` (läuft im Übersetzungs-Workflow) übersetzt fehlende spanische Texte aus dem Englischen; von Hand geschriebene bleiben unangetastet.
