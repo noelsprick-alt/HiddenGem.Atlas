@@ -3,7 +3,7 @@
 // Regeln (damit man den Aussagen trauen kann):
 //   1) Atlas Obscura hat den Ort ausgewählt (redaktionell, „besonders & ungewöhnlich“)
 //   2) mind. eine weitere unabhängige Quelle führt ihn (Wikipedia, Tripadvisor, Michelin, Routard, Yelp, Google Maps …)
-//   3) Google-Bewertung ab 4,5 Sternen (mind. 50 Bewertungen) – Ergebnis der Prüfung in data-src/google-check.json
+//   3) Google-Bewertung ab 4,1 Sternen (mind. 50 Bewertungen) – Ergebnis der Prüfung in data-src/google-check.json
 //      Ohne bestandene Google-Prüfung kommt kein Ort auf die Karte. Bewertungen selbst werden NICHT gespeichert.
 //   Nicht aufgenommen: Städte/Dörfer als Ganzes, Zoos, Freizeitparks, Hotels, Flughäfen, Einkaufszentren, große Kunstmuseen
 //   und sehr berühmte Orte (über 40 Wikipedia-Sprachversionen = kein Geheimtipp).
@@ -139,8 +139,7 @@ for (const r of RAW.items) {
   if (t && t.town_es) m.town_es = t.town_es;
   const w = {}; if (r.wde) w.de = r.wde; if (r.wen) w.en = r.wen; if (r.wes) w.es = r.wes;
   if (Object.keys(w).length) m.wp = w;
-  const ref = {}; for (const k of [...ed, ...ot]) if (fmt[k]) ref[k] = src[k];
-  m.ref = ref;
+  // Quellen werden bewusst NICHT angezeigt/gespeichert (nur geprüft)
   if (theme === 'bar' || theme === 'food') m.q = q;
   out.push(m); put(m);
   report.byTheme[theme || '-'] = (report.byTheme[theme || '-'] || 0) + 1; report.byCc[m.cc] = (report.byCc[m.cc] || 0) + 1;
@@ -148,8 +147,7 @@ for (const r of RAW.items) {
 }
 out.sort((a, b) => a.cc.localeCompare(b.cc) || String(a.town || '').localeCompare(String(b.town || '')));
 cands.sort((a, b) => b.prio - a.prio);
-const usedFmt = {}; for (const m of out) for (const k of Object.keys(m.ref || {})) usedFmt[k] = fmt[k];
-fs.writeFileSync(path.join(ROOT, 'data/moments-open.json'), JSON.stringify({ source: 'Wikidata (CC0) – geprüft: mehrere unabhängige Quellen + Google ab 4,5 Sternen. Texte auf Klick aus Wikipedia (CC BY-SA)', fmt: usedFmt, items: out }));
+fs.writeFileSync(path.join(ROOT, 'data/moments-open.json'), JSON.stringify({ source: 'Wikidata (CC0) – geprüft: mehrere unabhängige Quellen + Google ab 4,1 Sternen. Texte auf Klick aus Wikipedia (CC BY-SA)', items: out }));
 fs.writeFileSync(path.join(ROOT, 'data-src/open-candidates.json'), JSON.stringify(cands));
 fs.writeFileSync(path.join(ROOT, 'data-src/open-build-report.json'), JSON.stringify(report, null, 1));
 console.log(JSON.stringify({ raw: report.raw, candidates: report.candidates, onMap: out.length, unchecked: report.unchecked, googleNo: report.googleNo, byTheme: report.byTheme }));

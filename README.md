@@ -80,15 +80,20 @@ Für große Mengen (Ziel: 1.500+ Orte) die Datei direkt ergänzen - ein Objekt p
 - **Omio:** Box „Anreise mit Bahn & Bus“ (Code xwjmj3nl) auf allen europäischen Städte-, Orts- und Routenseiten; endet automatisch nach 07.04.2027 (`OMIO_UNTIL`).
 - **Search Console:** Property `https://noelsprick-alt.github.io/HiddenGem.Atlas/` bestätigt, Sitemap eingereicht (22.10.2026).
 
+## v18 (27.10.2026)
+- **Reisepass (Spiel, Phase 1):** Seite `#/reisepass` + Knopf „🛂 War ich da“ in jedem Karten-Popup und in der Detailansicht. XP: Stempel 5–20 (Abenteuer 20, Geschichte/UNESCO 15, Bar/Restaurant/Hidden Gem 10, Must-See 5), neues Land +25, neuer Kontinent +50, neuer Ort angesehen +1 (max. 20/Tag), Besuchstag +5, Quiz 3 XP pro richtige Antwort (bestes Ergebnis pro Tag). 9 Level (Neuling → Legende), 13 Abzeichen, Teilen-Knopf. Gespeichert nur im Browser (`hg-passport-v1`).
+- **Phase 2 (vorbereitet):** Profil, Einladungen, Rangliste über Supabase – Anleitung + SQL im Claude-Doc „Anleitung: Eigene Domain & Supabase“.
+
 ## v17 (27.10.2026)
 - **Qualitätsregel für neue Hidden Gems** (damit man den Aussagen trauen kann):
   1. **Atlas Obscura** hat den Ort redaktionell ausgewählt (Grundlage der Karte; nur ID + Link, keine Texte übernommen),
   2. mind. **eine weitere unabhängige Quelle** führt ihn (Tripadvisor, Michelin, Routard, Yelp, Wikipedia …) – Wikipedia allein reicht nie,
-  3. **Google ab 4,5 Sternen** (mind. 50 Bewertungen, Treffer max. 3 km vom Ort entfernt). Bewertungen werden nur geprüft, nicht gespeichert oder angezeigt.
+  3. **Google ab 4,1 Sternen** (mind. 50 Bewertungen, Treffer max. 3 km vom Ort entfernt; vorher 4,5 – am 27.10.2026 auf Noels Wunsch gesenkt). Bewertungen werden nur geprüft, nicht gespeichert oder angezeigt.
   - Außerdem raus: Städte/Dörfer, Zoos, Freizeitparks, Hotels, Flughäfen, Einkaufszentren, große Kunst-/Nationalmuseen, Bahnhöfe und sehr berühmte Orte (über 40 Wikipedia-Sprachversionen). Von Hand übersprungen: nicht zugängliche/private Orte, reine Straßen, Mainstream (z. B. Shakespeare and Company, Altneu-Synagoge).
-  - Stand 27.10.2026: 623 geprüfte offene Orte (316 Abenteuer, 157 Geschichten, 78 Restaurants & Märkte, 46 Bars & Cafés) + 226 handverlesene.
-  - Handverlesene Orte (`data/moments-curated.json`) wurden genauso geprüft; alles unter 4,5 ist rausgeflogen (z. B. U Fleků, Hofbräuhaus, Harry's Bar Venedig, Golden Gai, Café Central Wien).
-- **Offene Daten:** `data/moments-open.json` = Orte aus Wikidata (CC0), gekennzeichnet mit ✅ „Mehrfach empfohlen“ und Links „Bekannt aus: Atlas Obscura · Tripadvisor · Wikipedia“. Der Kurztext kommt erst auf Klick live von Wikipedia (CC BY-SA, mit Quelle). Keine eigenen SEO-Seiten.
+  - Stand 27.10.2026: 823 geprüfte offene Orte (382 Abenteuer, 201 Geschichten, 134 Restaurants & Märkte, 80 Bars & Cafés) + 320 handverlesene.
+  - **Quellen werden auf der Seite nicht angezeigt** (kein „Bekannt aus …“), nur geprüft. Ausnahme: der Wikipedia-Kurztext auf Klick nennt Wikipedia (Lizenzpflicht CC BY-SA).
+  - Handverlesene Orte (`data/moments-curated.json`) wurden genauso geprüft; alles unter 4,1 ist rausgeflogen (z. B. U Fleků, Harry's Bar Venedig, Manneken Pis, Café Hawelka, Jay Fai).
+- **Offene Daten:** `data/moments-open.json` = Orte aus Wikidata (CC0), gekennzeichnet mit ✅ „Mehrfach empfohlen“ (ohne Quellenangabe). Der Kurztext kommt erst auf Klick live von Wikipedia (CC BY-SA, mit Quelle). Keine eigenen SEO-Seiten.
   - Neu holen: Actions → „Offene Ortsdaten holen“ → `sources` (schreibt `data-src/sources-raw.json`), danach lokal `node scripts/build-open-places.mjs`.
   - Das Skript schreibt `data-src/open-candidates.json` (noch nicht bei Google geprüft, wichtigste zuerst). Geprüfte Orte stehen in `data-src/google-check.json` (`"ok"` / `"no"`) – nur `"ok"` kommt auf die Karte.
   - Koordinaten handverlesener Orte prüft der Workflow mit `geocode` über OpenStreetMap (`data-src/curated-new.json` → `data-src/geocode.json`).

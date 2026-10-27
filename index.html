@@ -215,6 +215,57 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:1.2rem
 .bc:hover .bc-read{color:var(--gold);border-color:var(--gold-dim)}
 
 /* QUIZ */
+.rp-sec{padding:4rem 2.5rem;border-bottom:1px solid var(--border);background:var(--bg2)}
+.rp-inner{max-width:920px;margin:0 auto}
+.rp-hdr{text-align:center;margin-bottom:2.2rem}
+.rp-hdr h2{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:300;margin-bottom:.6rem}
+.rp-hdr h2 em{font-style:italic;color:var(--gold)}
+.rp-hdr p{font-size:14px;color:var(--text2);max-width:540px;margin:0 auto;line-height:1.7}
+.rp-card{background:#1a0e04;color:#f7f0e4;border-radius:var(--rl);padding:1.9rem 2.1rem;display:flex;gap:1.6rem;align-items:center;position:relative;overflow:hidden;box-shadow:0 10px 30px rgba(26,14,4,.18)}
+.rp-card::after{content:'';position:absolute;inset:9px;border:1px dashed rgba(232,146,58,.35);border-radius:12px;pointer-events:none}
+.rp-em{font-size:50px;width:96px;height:96px;border-radius:50%;border:2px solid var(--gold2);display:flex;align-items:center;justify-content:center;flex-shrink:0;background:rgba(232,146,58,.08)}
+.rp-main{flex:1;min-width:0}
+.rp-lv{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold2)}
+.rp-name{font-family:'Cormorant Garamond',serif;font-size:36px;line-height:1.1;margin:.15rem 0 .6rem}
+.rp-bar{height:8px;background:rgba(255,255,255,.12);border-radius:4px;overflow:hidden}
+.rp-bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:4px;transition:width .5s ease}
+.rp-xp{display:flex;justify-content:space-between;flex-wrap:wrap;font-size:12px;color:rgba(247,240,228,.75);margin-top:.5rem;gap:.3rem 1rem}
+.rp-xp b{color:#fff;font-size:14px}
+.rp-stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:1rem 0 1.2rem}
+.rp-stat{background:var(--bg);border:1px solid var(--border);border-radius:var(--r);padding:.8rem .4rem;text-align:center}
+.rp-stat b{display:block;font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:600;color:var(--text);line-height:1.1}
+.rp-stat span{font-size:11px;color:var(--text3);letter-spacing:.3px}
+.rp-grid{display:grid;grid-template-columns:1fr 1.35fr;gap:1.2rem;margin-bottom:1.2rem}
+.rp-box{background:var(--bg);border:1px solid var(--border);border-radius:var(--rl);padding:1.3rem 1.4rem}
+.rp-box h3{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--text3);margin-bottom:.9rem;font-weight:500}
+.rp-how{list-style:none;display:flex;flex-direction:column;gap:.6rem;font-size:13px;color:var(--text2);line-height:1.5;padding:0;margin:0}
+.rp-badges{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:8px}
+.rp-bd{border:1px solid var(--border);border-radius:var(--r);padding:.6rem .4rem;text-align:center;background:var(--bg2)}
+.rp-bd .e{font-size:24px;display:block;line-height:1.2}
+.rp-bd .n{font-size:11.5px;font-weight:600;color:var(--text);display:block;line-height:1.25;margin-top:3px}
+.rp-bd .d{font-size:10.5px;color:var(--text3);display:block;line-height:1.3;margin-top:2px}
+.rp-bd.off{opacity:.5}.rp-bd.off .e{filter:grayscale(1)}
+.rp-bd.on{border-color:var(--gold);background:var(--gold-light)}
+.rp-cc{margin-bottom:.9rem}
+.rp-cc-h{font-size:13px;font-weight:600;color:var(--text);margin-bottom:.4rem}
+.rp-cc-h span{font-weight:400;color:var(--text3)}
+.rp-chips{display:flex;flex-wrap:wrap;gap:6px}
+.rp-chip{display:inline-flex;align-items:center;gap:4px;background:var(--bg2);border:1px solid var(--border);border-radius:20px;padding:3px 4px 3px 11px;font-size:12px;color:var(--text2);max-width:100%}
+.rp-chip a{color:inherit;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rp-chip a:hover{color:var(--terra)}
+.rp-chip button{border:none;background:none;cursor:pointer;color:var(--text3);font-size:15px;line-height:1;padding:2px 6px;border-radius:50%}
+.rp-chip button:hover{background:var(--terra-light);color:var(--terra)}
+.rp-empty{font-size:13px;color:var(--text2);line-height:1.6;margin:0}
+.rp-act{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:1.4rem 0}
+.rp-soon{border:1px dashed var(--border2);border-radius:var(--rl);padding:1.2rem 1.4rem;text-align:center;color:var(--text2);font-size:13px;line-height:1.6}
+.rp-soon b{display:block;color:var(--text);font-size:15px;margin-bottom:.25rem}
+.rp-foot{text-align:center;font-size:11px;color:var(--text3);margin-top:1rem}
+.rp-foot button{background:none;border:none;color:var(--text3);text-decoration:underline;cursor:pointer;font-size:11px;font-family:inherit;padding:0}
+.rp-nav-lv{font-size:9.5px;background:var(--gold);color:#16140f;border-radius:8px;padding:1px 6px;margin-left:5px;font-weight:700;vertical-align:1px}
+.mp-pop-btns .rp-st.on{background:var(--teal);border-color:var(--teal);color:#fff}
+.dt-my.rp-st.on{background:var(--teal);border-color:var(--teal);color:#fff}
+@media(max-width:760px){.rp-sec{padding:3rem 1rem}.rp-hdr h2{font-size:34px}.rp-card{flex-direction:column;text-align:center;padding:1.6rem 1.2rem;gap:1rem}.rp-xp{justify-content:center}.rp-stats{grid-template-columns:repeat(3,1fr)}.rp-grid{grid-template-columns:1fr}.rp-box{padding:1.1rem 1rem}}
+
 .quiz-sec{padding:4rem 2.5rem;border-bottom:1px solid var(--border);background:var(--bg2);position:relative;overflow:hidden}
 .quiz-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,168,76,.05) 0%,transparent 70%);pointer-events:none}
 .quiz-inner{max-width:700px;margin:0 auto;position:relative;z-index:1}
@@ -2299,6 +2350,7 @@ body.sr-lock{overflow:hidden}
   <div class="nav-links">
     <a class="nav-main" href="#/momente"><span aria-hidden="true">📍</span> <span data-i18n="nav_map">Karte</span></a>
     <a class="nav-main" href="#/blog"><span aria-hidden="true">📝</span> <span data-i18n="nav_guides">Reise-Guides</span></a>
+    <a class="nav-main" href="#/reisepass"><span aria-hidden="true">🛂</span> <span data-i18n="nav_passport">Reisepass</span><span class="rp-nav-lv" style="display:none"></span></a>
     <div class="nav-dd" data-group="reise-planen">
       <a class="nav-dd-trigger" href="#/reise-planen" aria-haspopup="true"><span data-i18n="grp_plan">Reise planen</span><span class="dd-caret" aria-hidden="true">▾</span></a>
       <div class="nav-dd-menu">
@@ -2350,6 +2402,7 @@ body.sr-lock{overflow:hidden}
   <a href="#/"><span data-i18n="crumb_home">Start</span></a>
   <a class="mob-main" href="#/momente"><span class="dd-ic" aria-hidden="true">📍</span><span data-i18n="nav_map">Karte</span></a>
   <a class="mob-main" href="#/blog"><span class="dd-ic" aria-hidden="true">📝</span><span data-i18n="nav_guides">Reise-Guides</span></a>
+  <a class="mob-main" href="#/reisepass"><span class="dd-ic" aria-hidden="true">🛂</span><span data-i18n="nav_passport">Reisepass</span><span class="rp-nav-lv" style="display:none"></span></a>
   <a class="nav-mob-group" href="#/reise-planen"><span data-i18n="grp_plan">Reise planen</span> <span aria-hidden="true">→</span></a>
   <a class="mob-sub" href="#/planer"><span class="dd-ic" aria-hidden="true">🧭</span><span data-i18n="pg_planner_t">Reiseplaner</span></a>
   <a class="mob-sub" href="#/touren"><span class="dd-ic" aria-hidden="true">🗺️</span><span data-i18n="pg_tours_t">Touren &amp; Destinationen</span></a>
@@ -2561,7 +2614,7 @@ body.sr-lock{overflow:hidden}
     <div class="nx-block">
       <div class="sec-lbl" data-i18n="nx_lbl">Was als Nächstes kommt</div>
       <div class="nx-list">
-        <div class="nx-item"><div class="nx-n">1</div><div class="nx-c"><div class="nx-when" data-i18n="nx1_w">Nov - Dez 2026</div><h4 data-i18n="nx1_t">🗺️ Mehr geprüfte Hidden Gems</h4><p data-i18n="nx1_s">Qualität statt Masse: nur Orte, die mehrere unabhängige Seiten empfehlen und die bei Google mindestens 4,5 Sterne haben - plus neue Geheimtipps aus meinen bereisten Städten. November: Abenteuer &amp; Bars · Dezember: neue Stories aus meinen Reisen.</p></div></div>
+        <div class="nx-item"><div class="nx-n">1</div><div class="nx-c"><div class="nx-when" data-i18n="nx1_w">Nov - Dez 2026</div><h4 data-i18n="nx1_t">🗺️ Mehr geprüfte Hidden Gems</h4><p data-i18n="nx1_s">Qualität statt Masse: nur Orte, die mehrere unabhängige Seiten empfehlen und die Besucher sehr gut bewerten - plus neue Geheimtipps aus meinen bereisten Städten. November: Abenteuer &amp; Bars · Dezember: neue Stories aus meinen Reisen.</p></div></div>
         <div class="nx-item"><div class="nx-n">2</div><div class="nx-c"><div class="nx-when" data-i18n="nx2_w">Jan - März 2027</div><h4 data-i18n="nx2_t">✅ Kartenziel übertroffen &amp; mein erster Reiseguide</h4><p data-i18n="nx2_s">Die Hidden-Gems-Karte wächst auf 1.500 Orte, dazu kommt mein erster digitaler Guide „12 Wochenendtrips ab NRW". Januar: neue Orte-Pakete (Ruhrgebiet, Benelux, DACH) · Februar: Guide schreiben · März: Launch.</p></div></div>
         <div class="nx-item"><div class="nx-n">3</div><div class="nx-c"><div class="nx-when" data-i18n="nx3_w">Apr - Sep 2027</div><h4 data-i18n="nx3_t">10.000 Follower &amp; erste Marken-Kooperationen</h4><p data-i18n="nx3_s">Drei Reels pro Woche, Collabs mit lokalen Accounts und ein Media-Kit für Marken. April: Media-Kit · Mai bis Juli: Collab-Serie · August/September: erste bezahlte Kooperation.</p></div></div>
       </div>
@@ -2819,7 +2872,7 @@ body.sr-lock{overflow:hidden}
     <div class="mp-hdr">
       <div class="sec-lbl" data-i18n="mp_lbl">📍 Interaktive Karte</div>
       <h2 data-i18n="mp2_h2">Hidden Gems &amp; Must-Sees - <em>von der Zeche bis nach Hanoi.</em></h2>
-      <p data-i18n="mp2_intro">Über 5.000 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt der Welt und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Kontinent, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen. Neue Hidden Gems kommen nur auf die Karte, wenn mehrere unabhängige Seiten sie empfehlen und sie bei Google mindestens 4,5 Sterne haben.</p>
+      <p data-i18n="mp2_intro">Über 5.000 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt der Welt und 💎 Hidden Gems, nach denen du suchen musst. Sortiert nach Kontinent, Land und Stadt, mit Direktlink zu Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen. Neue Hidden Gems kommen nur auf die Karte, wenn mehrere unabhängige Seiten sie empfehlen und Besucher sie sehr gut bewerten.</p>
     </div>
     <div class="mp-stats" id="mp-stats"></div>
     <div class="mp-search"><input type="search" id="mp-q" class="mp-q" data-i18n-ph="mp_search_ph" placeholder="Ort, Stadt oder Land suchen ..." oninput="mpSearch(this.value)" autocomplete="off"></div>
@@ -2938,6 +2991,16 @@ body.sr-lock{overflow:hidden}
 
 
 
+<section class="rp-sec" id="reisepass" data-page="reisepass">
+  <div class="rp-inner">
+    <div class="rp-hdr">
+      <div class="sec-lbl" data-i18n="rp_lbl">Spiel · Kostenlos · ohne Anmeldung</div>
+      <h2 data-i18n="rp_title">Dein <em>Reisepass</em></h2>
+      <p data-i18n="rp_sub">Stempel jeden Ort, an dem du warst, sammle Punkte und Abzeichen und steig vom Neuling zum Reiseexperten auf.</p>
+    </div>
+    <div id="rp-app"></div>
+  </div>
+</section>
 <section class="quiz-sec" id="quiz" data-page="quiz">
   <div class="quiz-bg"></div>
   <div class="quiz-inner">
@@ -3760,7 +3823,7 @@ const I18N = {
 "mp_open_gmaps":["In Google Maps öffnen","Open in Google Maps"],
 "mp_pinned":["Orte auf der Karte","places on the map"],
 "mp2_h2":["Hidden Gems &amp; Must-Sees - <em>von der Zeche bis nach Hanoi.</em>", "Hidden gems &amp; must-sees - <em>from coal mine to Hanoi.</em>"],
-"mp2_intro":["Über 5.000 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt, alle 🌐 UNESCO-Welterbestätten, 📜 verrückte Geschichten, 🧗 Abenteuer, 🍸 legendäre Bars und 💎 Hidden Gems, nach denen du suchen musst. Filter nach Land und Stadt, sammle Orte mit ➕ und exportiere deine eigene Route nach Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen. Neue Hidden Gems kommen nur auf die Karte, wenn mehrere unabhängige Seiten sie empfehlen und sie bei Google mindestens 4,5 Sterne haben.", "More than 5,000 places worldwide: ⭐ must-sees in every capital, every 🌐 UNESCO World Heritage site, 📜 crazy stories, 🧗 adventures, 🍸 legendary bars and 💎 hidden gems you have to go looking for. Filter by country and city, collect places with ➕ and export your own route to Google Maps. Anything marked 🧭 is still on my list - the rest I have walked myself. New hidden gems only make it onto the map if several independent sites recommend them and they are rated at least 4.5 stars on Google."],
+"mp2_intro":["Über 5.000 Orte weltweit: ⭐ Must-Sees in jeder Hauptstadt, alle 🌐 UNESCO-Welterbestätten, 📜 verrückte Geschichten, 🧗 Abenteuer, 🍸 legendäre Bars und 💎 Hidden Gems, nach denen du suchen musst. Filter nach Land und Stadt, sammle Orte mit ➕ und exportiere deine eigene Route nach Google Maps. Alles mit 🧭 steht noch auf meiner Liste - der Rest ist von mir selbst abgelaufen. Neue Hidden Gems kommen nur auf die Karte, wenn mehrere unabhängige Seiten sie empfehlen und Besucher sie sehr gut bewerten.", "More than 5,000 places worldwide: ⭐ must-sees in every capital, every 🌐 UNESCO World Heritage site, 📜 crazy stories, 🧗 adventures, 🍸 legendary bars and 💎 hidden gems you have to go looking for. Filter by country and city, collect places with ➕ and export your own route to Google Maps. Anything marked 🧭 is still on my list - the rest I have walked myself. New hidden gems only make it onto the map if several independent sites recommend them and visitors rate them very highly."],
 "mp_search_ph":["Ort, Stadt oder Land suchen ...", "Search a place, city or country ..."],
 "mp_regions":["Region", "Region"],
 "mp_visit":["Status", "Status"],
@@ -3789,7 +3852,7 @@ const I18N = {
 "mp_th_food1":["Restaurant & Markt", "Restaurant & market"],
 "mp_open_src":["Mehrfach empfohlen", "Recommended by several sites"],
 "mp_ref":["Bekannt aus", "Featured on"],
-"mp_ref_note":["Nur auf der Karte, weil mehrere unabhängige Seiten den Ort hervorheben und er bei Google mindestens 4,5 Sterne hat.", "Only on the map because several independent sites feature this place and it has at least 4.5 stars on Google."],
+"mp_ref_note":["Nur auf der Karte, weil mehrere unabhängige Seiten den Ort empfehlen und Besucher ihn sehr gut bewerten.", "Only on the map because several independent sites recommend this place and visitors rate it very highly."],
 "mp_wiki_read":["Geschichte lesen", "Read the story"],
 "mp_wiki_none":["Zu diesem Ort gibt es noch keinen Wikipedia-Text.", "There is no Wikipedia text for this place yet."],
 "mp_wiki_lic":["Text: Wikipedia (CC BY-SA)", "Text: Wikipedia (CC BY-SA)"],
@@ -3951,7 +4014,7 @@ const I18N = {
 "nx_lbl":["Was als Nächstes kommt", "What's next"],
 "nx1_w":["Nov - Dez 2026", "Nov - Dec 2026"],
 "nx1_t":["🗺️ Mehr geprüfte Hidden Gems","🗺️ More verified hidden gems"],
-"nx1_s":["Qualität statt Masse: nur Orte, die mehrere unabhängige Seiten empfehlen und die bei Google mindestens 4,5 Sterne haben - plus neue Geheimtipps aus meinen bereisten Städten. November: Abenteuer &amp; Bars · Dezember: neue Stories aus meinen Reisen.","Quality over quantity: only places that several independent sites recommend and that are rated at least 4.5 stars on Google - plus new insider tips from the cities I've been to. November: adventures &amp; bars · December: new stories from my trips."],
+"nx1_s":["Qualität statt Masse: nur Orte, die mehrere unabhängige Seiten empfehlen und die Besucher sehr gut bewerten - plus neue Geheimtipps aus meinen bereisten Städten. November: Abenteuer &amp; Bars · Dezember: neue Stories aus meinen Reisen.","Quality over quantity: only places that several independent sites recommend and that visitors rate very highly - plus new insider tips from the cities I've been to. November: adventures &amp; bars · December: new stories from my trips."],
 "nx2_w":["Jan - März 2027", "Jan - Mar 2027"],
 "nx2_t":["✅ Kartenziel übertroffen &amp; mein erster Reiseguide", "✅ Map goal smashed &amp; my first travel guide"],
 "nx2_s":["Geplant waren 1.500 Orte bis März 2027 - schon im Oktober 2026 sind es über 5.000, inklusive aller UNESCO-Welterbestätten, verrückter Geschichten, Abenteuer und legendärer Bars. Jetzt folgt mein erster digitaler Guide „12 Wochenendtrips ab NRW\". Januar: Routen testen · Februar: Guide schreiben · März: Launch.", "The plan was 1,500 places by March 2027 - by October 2026 there are already more than 5,000, including every UNESCO World Heritage site, crazy stories, adventures and legendary bars. Next up is my first digital guide \"12 weekend trips from NRW\". January: testing routes · February: writing the guide · March: launch."],
@@ -4030,6 +4093,82 @@ const I18N = {
 "pg_projects_t":["Projekte","Projects"],
 "pg_quiz_d":["Kennst du die Hidden Gems Europas & Asiens?","Do you know the hidden gems of Europe & Asia?"],
 "pg_quiz_t":["Quiz","Quiz"],
+"nav_passport":["Reisepass", "Passport"],
+"rp_title":["Dein <em>Reisepass</em>", "Your <em>travel passport</em>"],
+"pg_passport_t":["Reisepass", "Travel passport"],
+"pg_passport_d":["Sammle Stempel und steig auf zum Reiseexperten", "Collect stamps and level up to travel expert"],
+"rp_lbl":["Spiel · Kostenlos · ohne Anmeldung", "Game · Free · no sign-up"],
+"rp_h2":["🌍 Neues Land: +25 XP · neuer Kontinent: +50 XP", "🌍 New country: +25 XP · new continent: +50 XP"],
+"rp_sub":["Stempel jeden Ort, an dem du warst, sammle Punkte und Abzeichen und steig vom Neuling zum Reiseexperten auf.", "Stamp every place you've been, collect points and badges and rise from newcomer to travel expert."],
+"rp_level":["Level", "Level"],
+"rp_xp_to":["Noch {n} XP bis {lvl}", "{n} XP to {lvl}"],
+"rp_max":["Höchstes Level erreicht - du bist eine Legende.", "Top level reached - you're a legend."],
+"rp_s_stamps":["Stempel", "Stamps"],
+"rp_s_cc":["Länder", "Countries"],
+"rp_s_cont":["Kontinente", "Continents"],
+"rp_s_streak":["Tage in Folge", "Day streak"],
+"rp_s_badges":["Abzeichen", "Badges"],
+"rp_how_t":["So sammelst du Punkte", "How to earn points"],
+"rp_h1":["🛂 Ort stempeln, an dem du warst: 5-20 XP (Abenteuer zählen am meisten)", "🛂 Stamp a place you've been: 5-20 XP (adventures count most)"],
+"rp_h3":["🔎 Neuen Ort auf der Karte ansehen: +1 XP (bis 20 am Tag)", "🔎 View a new place on the map: +1 XP (up to 20 a day)"],
+"rp_h4":["🔥 Jeden Tag vorbeischauen: +5 XP", "🔥 Drop by every day: +5 XP"],
+"rp_h5":["🧠 Quiz: 3 XP pro richtige Antwort (bestes Ergebnis pro Tag)", "🧠 Quiz: 3 XP per correct answer (best result per day)"],
+"rp_list_t":["Meine Stempel", "My stamps"],
+"rp_empty":["Noch keine Stempel. Öffne die Karte, klick auf einen Ort, an dem du schon warst, und tipp auf „🛂 War ich da“.", "No stamps yet. Open the map, click a place you've already been to and tap “🛂 Been there”."],
+"rp_to_map":["Zur Karte →", "To the map →"],
+"rp_share":["Reisepass teilen", "Share passport"],
+"rp_share_txt":["Ich bin {lvl} auf HiddenGem.Atlas - {n} Stempel in {c} Ländern. Wie viele schaffst du?", "I'm a {lvl} on HiddenGem.Atlas - {n} stamps in {c} countries. How many have you got?"],
+"rp_copied":["Text kopiert - jetzt einfügen und teilen", "Text copied - paste it and share"],
+"rp_soon_t":["Bald: Rangliste & Freunde einladen", "Coming soon: leaderboard & invite friends"],
+"rp_soon_s":["Mit einem Profil sicherst du deinen Reisepass, lädst Freunde ein und misst dich in der Rangliste.", "With a profile you'll save your passport, invite friends and climb the leaderboard."],
+"rp_local":["Dein Reisepass wird nur in diesem Browser gespeichert.", "Your passport is only stored in this browser."],
+"rp_reset":["Zurücksetzen", "Reset"],
+"rp_reset_q":["Reisepass wirklich zurücksetzen? Alle Stempel und Punkte gehen verloren.", "Really reset your passport? All stamps and points will be lost."],
+"rp_stamp":["War ich da", "Been there"],
+"rp_stamped":["Gestempelt", "Stamped"],
+"rp_t_stamp":["Gestempelt!", "Stamped!"],
+"rp_t_unstamp":["Stempel entfernt", "Stamp removed"],
+"rp_t_cc":["neues Land", "new country"],
+"rp_t_cont":["neuer Kontinent", "new continent"],
+"rp_t_lvl":["Level {n}: {lvl}!", "Level {n}: {lvl}!"],
+"rp_t_badge":["Neues Abzeichen: {b}", "New badge: {b}"],
+"rp_t_day":["Tag {n} in Folge · +5 XP", "Day {n} in a row · +5 XP"],
+"rp_t_quiz":["+{n} XP für deinen Reisepass", "+{n} XP for your passport"],
+"rp_l1":["Neuling", "Newcomer"],
+"rp_l2":["Entdecker", "Explorer"],
+"rp_l3":["Weltenbummler", "Wanderer"],
+"rp_l4":["Pfadfinder", "Pathfinder"],
+"rp_l5":["Abenteurer", "Adventurer"],
+"rp_l6":["Kenner", "Connoisseur"],
+"rp_l7":["Globetrotter", "Globetrotter"],
+"rp_l8":["Reiseexperte", "Travel expert"],
+"rp_l9":["Legende", "Legend"],
+"rp_b_first":["Erster Stempel", "First stamp"],
+"rp_b_first_d":["1 Ort gestempelt", "1 place stamped"],
+"rp_b_adv5":["Draufgänger", "Daredevil"],
+"rp_b_adv5_d":["5 Abenteuer", "5 adventures"],
+"rp_b_story10":["Geschichtensammler", "Story collector"],
+"rp_b_story10_d":["10 verrückte Geschichten", "10 crazy stories"],
+"rp_b_bar5":["Barhopper", "Bar hopper"],
+"rp_b_bar5_d":["5 Bars & Cafés", "5 bars & cafés"],
+"rp_b_food5":["Feinschmecker", "Foodie"],
+"rp_b_food5_d":["5 Restaurants & Märkte", "5 restaurants & markets"],
+"rp_b_unesco5":["Welterbe-Jäger", "Heritage hunter"],
+"rp_b_unesco5_d":["5 UNESCO-Welterbestätten", "5 UNESCO World Heritage sites"],
+"rp_b_cc5":["Grenzgänger", "Border hopper"],
+"rp_b_cc5_d":["5 Länder", "5 countries"],
+"rp_b_cc20":["Vielflieger", "Frequent flyer"],
+"rp_b_cc20_d":["20 Länder", "20 countries"],
+"rp_b_cont3":["Kontinent-Hopper", "Continent hopper"],
+"rp_b_cont3_d":["3 Kontinente", "3 continents"],
+"rp_b_streak7":["Stammgast", "Regular"],
+"rp_b_streak7_d":["7 Tage in Folge da", "7 days in a row"],
+"rp_b_seen100":["Neugierig", "Curious"],
+"rp_b_seen100_d":["100 Orte angesehen", "100 places viewed"],
+"rp_b_quiz9":["Quiz-Profi", "Quiz pro"],
+"rp_b_quiz9_d":["9 von 10 im Quiz", "9 out of 10 in the quiz"],
+"rp_b_route5":["Routenplaner", "Route planner"],
+"rp_b_route5_d":["5 Orte in deiner Route", "5 places in your route"],
 "pg_rc_d":["Das Foto und die Wahrheit dahinter - inklusive echter Kosten","The photo and the truth behind it - including real costs"],
 "pg_rc_t":["Reality Check","Reality check"],
 "pg_shop_d":["Reise-Kalender, Presets & Merch","Travel calendar, presets & merch"],
@@ -4471,6 +4610,7 @@ const HG_GROUP_ALIAS = {entdecken: 'reise-planen', content: 'inspiration'};
 const HG_PAGES = [
   {r:'momente', g:'', ic:'📍', k:'pg_moments'},
   {r:'blog', g:'', ic:'📝', k:'pg_blog'},
+  {r:'reisepass', g:'', ic:'🛂', k:'pg_passport'},
   {r:'planer', g:'reise-planen', ic:'🧭', k:'pg_planner'},
   {r:'touren', g:'reise-planen', ic:'🗺️', k:'pg_tours'},
   {r:'events', g:'reise-planen', ic:'📅', k:'pg_events'},
@@ -6319,6 +6459,7 @@ function showRes(){
   document.getElementById('re-t').innerHTML = t('qz_r' + lvl + '_t');
   document.getElementById('re-sc').textContent = sc + '/10';
   document.getElementById('re-sub').textContent = stripTags(t('qz_r' + lvl + '_s'));
+  if (typeof rpQuiz === 'function') rpQuiz(sc);
 }
 function restartQ(){
   qi = 0; sc = 0; ans = false; initPool();
@@ -7214,6 +7355,7 @@ function mpSrcTag(m){ return m.src ? '<span class="mp-tag od" title="' + esc(str
 // „Bekannt aus …“: Links zu den Seiten, die den Ort führen (aus Wikidata)
 const MP_REF = {ao:'Atlas Obscura', mi:'Michelin', lp:'Lonely Planet', gm:'Gault&Millau', ro:'Routard', pf:'Petit Futé', fo:"Fodor's", fr:"Frommer's", rg:'Rough Guides', to:'Time Out', ta:'Tripadvisor', ye:'Yelp', fs:'Foursquare', go:'Google Maps', ko:'Komoot', al:'AllTrails'};
 function mpRefHtml(m){
+  return ''; // Quellen werden bewusst nicht angezeigt (nur geprüft)
   if (!m.ref) return '';
   const f = HG.srcFmt || {}, a = [];
   Object.keys(MP_REF).forEach(k => { const v = m.ref[k]; if (!v || !f[k]) return; const u = safeUrl(f[k].replace('$1', encodeURI(String(v)))); if (u) a.push('<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(MP_REF[k]) + '</a>'); });
@@ -7240,7 +7382,7 @@ function mpPopHtml(m){
       (m.gyg ? '<a class="gyg" href="' + esc(safeUrl(m.gyg)) + '" target="_blank" rel="noopener sponsored">✦ ' + t('mp_book_tour') + '</a>' : '') +
       '<button type="button" onclick="mpOpen(\'' + jsq(m.id) + '\')">📂 ' + t('mp_details') + '</button>' +
       (mpWhc(m) ? '<a href="https://whc.unesco.org/en/list/' + mpWhc(m) + '" target="_blank" rel="noopener">🌐 UNESCO</a>' : '') +
-      '<button type="button" class="my-add' + (myRt.indexOf(m.id) > -1 ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')">' + (myRt.indexOf(m.id) > -1 ? '✓ ' + t('my_in') : '➕ ' + t('my_add')) + '</button>' +
+      '<button type="button" class="my-add' + (myRt.indexOf(m.id) > -1 ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')">' + (myRt.indexOf(m.id) > -1 ? '✓ ' + t('my_in') : '➕ ' + t('my_add')) + '</button>' + rpBtn(m) +
     '</div></div>';
 }
 // Wikipedia-Kurztext erst auf Klick laden (CC BY-SA, mit Quelle) - in der Sprache der Seite, sonst Englisch/Deutsch
@@ -7276,7 +7418,7 @@ function mpMarkers(){
   const pts = [], marks = [];
   list.forEach(m => {
     const lat = +m.lat, lon = +m.lon; pts.push([lat, lon]);
-    marks.push(L.marker([lat, lon], {icon: mpIcon(m)}).bindPopup(() => mpPopHtml(m), {maxWidth: 290}));
+    marks.push(L.marker([lat, lon], {icon: mpIcon(m)}).bindPopup(() => { rpSeen(m); return mpPopHtml(m); }, {maxWidth: 290}));
   });
   if (typeof mpLayer.addLayers === 'function') mpLayer.addLayers(marks); else marks.forEach(k => k.addTo(mpLayer));
   if (pts.length && !rtLayer){ try{ mpMap.fitBounds(pts, {padding: [45, 45], maxZoom: 12}); }catch(e){} }
@@ -7512,9 +7654,146 @@ function mpOpen(id){
   openDetail('moment-' + m.id, kicker, (m.flag || '📍') + ' ' + Lz(m, 'city'), stripTags(Lz(m, 'title')), cta, gyg ? t('mp_book_tour') : (whc ? t('mp_unesco_entry') : null), 'momente/' + m.id);
   if (m.wp && !(HG.detail('moment-' + m.id) || {}).text){ const body = document.getElementById('dt-body'); if (body){ body.style.display = ''; body.classList.remove('dt-empty-body'); body.innerHTML = '<div class="mp-wiki dt-wiki"><p class="mp-wiki-t">⏳</p></div>'; mpWikiGet(m).then(w => { if (dtKey === 'moment-' + m.id) body.innerHTML = '<div class="mp-wiki dt-wiki">' + mpWikiHtml(w) + '</div>' + mpRefHtml(m) + (m.src ? '<p class="mp-ref-note">' + t('mp_ref_note') + '</p>' : ''); }); } }
   const ext = document.getElementById('dt-ext-wrap'), on = myRt.indexOf(m.id) > -1;
-  if (ext) ext.insertAdjacentHTML('beforeend', '<button type="button" class="dt-ext dt-my my-add' + (on ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')">' + (on ? '✓ ' + t('my_in') : '➕ ' + t('my_add')) + '</button>');
+  if (ext) ext.insertAdjacentHTML('beforeend', '<button type="button" class="dt-ext dt-my my-add' + (on ? ' on' : '') + '" data-my="' + esc(m.id) + '" onclick="myToggle(\'' + jsq(m.id) + '\')">' + (on ? '✓ ' + t('my_in') : '➕ ' + t('my_add')) + '</button>' + rpBtn(m, 'dt-ext dt-my'));
+  rpSeen(m);
 }
 HG.openers['momente'] = mpOpen;
+// ── REISEPASS (Spiel: Stempel, XP, Level, Abzeichen) – Phase 1: nur im Browser gespeichert ──
+const RP_KEY = 'hg-passport-v1';
+const RP_LEVELS = [[0,'🎒'],[50,'🧭'],[150,'🌍'],[300,'🥾'],[500,'🧗'],[800,'🍷'],[1200,'✈️'],[1800,'🏆'],[2600,'👑']];
+const RP_BADGES = [
+  ['first','🛂', s => s.n >= 1],
+  ['adv5','🧗', s => s.th.adventure >= 5],
+  ['story10','📜', s => s.th.story >= 10],
+  ['bar5','🍸', s => s.th.bar >= 5],
+  ['food5','🍽️', s => s.th.food >= 5],
+  ['unesco5','🌐', s => s.un >= 5],
+  ['cc5','🌍', s => s.cc >= 5],
+  ['cc20','✈️', s => s.cc >= 20],
+  ['cont3','🗺️', s => s.cont >= 3],
+  ['streak7','🔥', s => s.best >= 7],
+  ['seen100','🔎', s => s.seen >= 100],
+  ['quiz9','🧠', s => s.quizTop >= 9],
+  ['route5','🛣️', s => s.route >= 5]
+];
+let RP = rpLoad();
+function rpLoad(){
+  let s = null; try{ s = JSON.parse(safeLS.getItem(RP_KEY) || 'null'); }catch(e){}
+  s = (s && typeof s === 'object') ? s : {};
+  return {st: s.st && typeof s.st === 'object' ? s.st : {}, seen: s.seen && typeof s.seen === 'object' ? s.seen : {}, seenXp: +s.seenXp || 0, seenDay: s.seenDay || {}, days: Array.isArray(s.days) ? s.days : [], quiz: s.quiz && typeof s.quiz === 'object' ? s.quiz : {}, bd: Array.isArray(s.bd) ? s.bd : []};
+}
+function rpSave(){ try{ safeLS.setItem(RP_KEY, JSON.stringify(RP)); }catch(e){} }
+function rpToday(){ return new Date().toLocaleDateString('sv'); }
+function rpPts(s){ return s.th === 'adventure' ? 20 : s.th === 'story' ? 15 : (s.th === 'bar' || s.th === 'food') ? 10 : s.u ? 15 : s.k === 'mustsee' ? 5 : 10; }
+function rpStreak(days){
+  const set = new Set(days); let n = 0, best = 0, run = 0;
+  const d = new Date(); if (!set.has(rpToday())) d.setDate(d.getDate() - 1);
+  while (set.has(d.toLocaleDateString('sv'))){ n++; d.setDate(d.getDate() - 1); }
+  const sorted = [...set].sort(); let prev = null;
+  sorted.forEach(x => { const t0 = new Date(x + 'T12:00:00'); run = prev && Math.round((t0 - prev) / 864e5) === 1 ? run + 1 : 1; best = Math.max(best, run); prev = t0; });
+  return {n, best};
+}
+function rpStats(){
+  const list = Object.values(RP.st), th = {adventure: 0, story: 0, bar: 0, food: 0}, ccs = new Set(), conts = new Set();
+  let xp = 0, un = 0;
+  list.forEach(s => { xp += rpPts(s); if (th[s.th] != null) th[s.th]++; if (s.u) un++; if (s.cc){ ccs.add(s.cc); const c = MP_CONT[s.cc]; if (c) conts.add(c); } });
+  const sk = rpStreak(RP.days), quizXp = Object.values(RP.quiz).reduce((a, b) => a + (+b || 0) * 3, 0);
+  xp += ccs.size * 25 + conts.size * 50 + RP.seenXp + RP.days.length * 5 + quizXp;
+  const s = {xp, n: list.length, th, un, cc: ccs.size, cont: conts.size, streak: sk.n, best: sk.best, seen: Object.keys(RP.seen).length, quizTop: Math.max(0, ...Object.values(RP.quiz).map(Number)), route: (typeof myRt !== 'undefined' ? myRt.length : 0)};
+  let li = 0; RP_LEVELS.forEach((l, i) => { if (xp >= l[0]) li = i; });
+  s.lv = li + 1; s.lvMin = RP_LEVELS[li][0]; s.lvNext = RP_LEVELS[li + 1] ? RP_LEVELS[li + 1][0] : null; s.em = RP_LEVELS[li][1];
+  s.badges = RP_BADGES.filter(b => b[2](s)).map(b => b[0]);
+  return s;
+}
+function rpLvName(n){ return stripTags(t('rp_l' + n)); }
+// nach jeder Aktion: Level-Aufstieg und neue Abzeichen melden
+function rpAfter(before, msg){
+  const s = rpStats(), news = s.badges.filter(b => RP.bd.indexOf(b) < 0);
+  if (news.length){ RP.bd = RP.bd.concat(news); rpSave(); }
+  if (msg) hgToast(msg, 2200);
+  if (before && s.lv > before.lv) setTimeout(() => hgToast('🎉 ' + t('rp_t_lvl', {n: s.lv, lvl: rpLvName(s.lv)}), 3200), msg ? 2300 : 0);
+  else if (news.length){ const b = RP_BADGES.find(x => x[0] === news[0]); setTimeout(() => hgToast(b[1] + ' ' + t('rp_t_badge', {b: stripTags(t('rp_b_' + b[0]))}), 3000), msg ? 2300 : 0); }
+  rpNav(); if (HG.route === 'reisepass') rpRender();
+  return s;
+}
+function rpStamp(id){
+  const m = HG.col('moments').find(x => x.id === id); if (!m && !RP.st[id]) return;
+  const before = rpStats(); let msg;
+  if (RP.st[id]){ delete RP.st[id]; msg = t('rp_t_unstamp'); }
+  else {
+    const newCc = m.cc && !Object.values(RP.st).some(s => s.cc === m.cc), cont = MP_CONT[m.cc], newCont = cont && !Object.values(RP.st).some(s => MP_CONT[s.cc] === cont);
+    const s = {cc: m.cc || '', th: m.theme || '', k: m.kind || '', u: mpU(m) ? 1 : 0, n: stripTags(m.city || ''), ne: stripTags(m.city_en || ''), ts: Date.now()};
+    RP.st[id] = s;
+    msg = '🛂 +' + rpPts(s) + ' XP · ' + t('rp_t_stamp') + (newCc ? ' · +25 ' + t('rp_t_cc') : '') + (newCont ? ' · +50 ' + t('rp_t_cont') : '');
+    rpDay(true);
+  }
+  rpSave();
+  const on = !!RP.st[id];
+  document.querySelectorAll('.rp-st[data-rp="' + (window.CSS && CSS.escape ? CSS.escape(id) : id) + '"]').forEach(b => { b.classList.toggle('on', on); b.textContent = on ? '✓ ' + stripTags(t('rp_stamped')) : '🛂 ' + stripTags(t('rp_stamp')); });
+  rpAfter(before, msg);
+}
+function rpBtn(m, cls){ const on = !!RP.st[m.id]; return '<button type="button" class="rp-st' + (cls ? ' ' + cls : '') + (on ? ' on' : '') + '" data-rp="' + esc(m.id) + '" onclick="rpStamp(\'' + jsq(m.id) + '\')">' + (on ? '✓ ' + t('rp_stamped') : '🛂 ' + t('rp_stamp')) + '</button>'; }
+// neuen Ort angesehen: +1 XP, höchstens 20 pro Tag
+function rpSeen(m){
+  if (!m || !m.id || RP.seen[m.id]) return;
+  const d = rpToday(); RP.seen[m.id] = 1;
+  const c = RP.seenDay[d] || 0;
+  if (c < 20){ RP.seenDay = {[d]: c + 1}; RP.seenXp++; }
+  rpDay(true); rpSave();
+}
+// täglicher Besuch: +5 XP, Serie
+function rpDay(quiet){
+  const d = rpToday(); if (RP.days.indexOf(d) > -1) return;
+  const before = quiet ? null : rpStats(); RP.days.push(d); if (RP.days.length > 800) RP.days = RP.days.slice(-800); rpSave();
+  if (quiet) return;
+  const s = rpStats(); rpAfter(before, s.streak >= 2 ? '🔥 ' + t('rp_t_day', {n: s.streak}) : null);
+}
+function rpQuiz(sc){
+  const d = rpToday(), old = +RP.quiz[d] || 0; if (sc <= old) return;
+  const before = rpStats(); RP.quiz[d] = sc; rpSave();
+  rpAfter(before, '🧠 ' + t('rp_t_quiz', {n: (sc - old) * 3}));
+}
+function rpFlag(cc){ return cc && cc.length === 2 ? String.fromCodePoint(...[...cc.toUpperCase()].map(c => 127397 + c.charCodeAt(0))) : '📍'; }
+function rpNav(){ const s = rpStats(); document.querySelectorAll('.rp-nav-lv').forEach(el => { el.textContent = s.xp > 0 ? 'Lv ' + s.lv : ''; el.style.display = s.xp > 0 ? '' : 'none'; }); }
+function rpRender(){
+  const el = document.getElementById('rp-app'); if (!el) return;
+  const s = rpStats(), by = {}; HG.col('moments').forEach(x => { by[x.id] = x; });
+  const pct = s.lvNext ? Math.round((s.xp - s.lvMin) / (s.lvNext - s.lvMin) * 100) : 100;
+  const groups = {};
+  Object.keys(RP.st).forEach(id => { const x = RP.st[id]; (groups[x.cc || '?'] = groups[x.cc || '?'] || []).push([id, x]); });
+  const ccs = Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length || String(mpCountryName(a)).localeCompare(String(mpCountryName(b))));
+  const name = (id, x) => { const m = by[id]; return stripTags(m ? Lz(m, 'city') : (lang !== 'de' && x.ne ? x.ne : x.n)) || id; };
+  const stamps = ccs.length ? ccs.map(cc => '<div class="rp-cc"><div class="rp-cc-h">' + rpFlag(cc) + ' ' + esc(stripTags(mpCountryName(cc))) + ' <span>· ' + groups[cc].length + '</span></div><div class="rp-chips">' +
+      groups[cc].sort((a, b) => b[1].ts - a[1].ts).map(([id, x]) => '<span class="rp-chip"><a href="#/momente/' + esc(encodeURIComponent(id)) + '">' + esc(name(id, x)) + '</a><button type="button" aria-label="' + esc(stripTags(t('rp_t_unstamp'))) + '" onclick="rpStamp(\'' + jsq(id) + '\')">×</button></span>').join('') + '</div></div>').join('')
+    : '<p class="rp-empty">' + t('rp_empty') + '</p>';
+  el.innerHTML =
+    '<div class="rp-card"><div class="rp-em" aria-hidden="true">' + s.em + '</div><div class="rp-main">' +
+      '<div class="rp-lv">' + t('rp_level') + ' ' + s.lv + ' / ' + RP_LEVELS.length + '</div>' +
+      '<div class="rp-name">' + esc(rpLvName(s.lv)) + '</div>' +
+      '<div class="rp-bar" role="progressbar" aria-valuenow="' + pct + '" aria-valuemin="0" aria-valuemax="100"><i style="width:' + pct + '%"></i></div>' +
+      '<div class="rp-xp"><span><b>' + nf(s.xp) + '</b> XP</span><span>' + (s.lvNext ? t('rp_xp_to', {n: nf(s.lvNext - s.xp), lvl: esc(rpLvName(s.lv + 1))}) : t('rp_max')) + '</span></div>' +
+    '</div></div>' +
+    '<div class="rp-stats">' +
+      [[s.n, 'rp_s_stamps'], [s.cc, 'rp_s_cc'], [s.cont, 'rp_s_cont'], [s.streak, 'rp_s_streak'], [s.badges.length + '/' + RP_BADGES.length, 'rp_s_badges']].map(x => '<div class="rp-stat"><b>' + x[0] + '</b><span>' + t(x[1]) + '</span></div>').join('') +
+    '</div>' +
+    '<div class="rp-grid"><div class="rp-box"><h3>' + t('rp_how_t') + '</h3><ul class="rp-how">' + [1, 2, 3, 4, 5].map(i => '<li>' + t('rp_h' + i) + '</li>').join('') + '</ul></div>' +
+      '<div class="rp-box"><h3>' + t('rp_s_badges') + '</h3><div class="rp-badges">' + RP_BADGES.map(b => { const on = s.badges.indexOf(b[0]) > -1; return '<div class="rp-bd ' + (on ? 'on' : 'off') + '"><span class="e" aria-hidden="true">' + b[1] + '</span><span class="n">' + t('rp_b_' + b[0]) + '</span><span class="d">' + t('rp_b_' + b[0] + '_d') + '</span></div>'; }).join('') + '</div></div></div>' +
+    '<div class="rp-box"><h3>' + t('rp_list_t') + '</h3>' + stamps + '</div>' +
+    '<div class="rp-act"><button type="button" class="btn-g" onclick="hgNav(\'momente\')">' + t('rp_to_map') + '</button>' + (s.n ? '<button type="button" class="btn-o" onclick="rpShare()">📤 ' + t('rp_share') + '</button>' : '') + '</div>' +
+    '<div class="rp-soon"><b>🏅 ' + t('rp_soon_t') + '</b>' + t('rp_soon_s') + '</div>' +
+    '<p class="rp-foot">' + t('rp_local') + ' · <button type="button" onclick="rpReset()">' + t('rp_reset') + '</button></p>';
+}
+function rpShare(){
+  const s = rpStats(), url = location.origin + location.pathname + '#/reisepass';
+  const txt = stripTags(t('rp_share_txt', {lvl: rpLvName(s.lv), n: s.n, c: s.cc}));
+  if (navigator.share){ navigator.share({title: 'HiddenGem.Atlas', text: txt, url}).catch(() => {}); return; }
+  const full = txt + ' ' + url;
+  (navigator.clipboard ? navigator.clipboard.writeText(full) : Promise.reject()).then(() => hgToast('📋 ' + t('rp_copied'), 2200)).catch(() => prompt('', full));
+}
+function rpReset(){ if (!confirm(stripTags(t('rp_reset_q')))) return; RP = {st: {}, seen: {}, seenXp: 0, seenDay: {}, days: [], quiz: {}, bd: []}; rpSave(); rpNav(); rpRender(); }
+window.addEventListener('hg:route', () => { if (HG.route === 'reisepass') rpRender(); });
+HG.onRender(() => { rpNav(); if (HG.route === 'reisepass') rpRender(); });
+setTimeout(() => { rpDay(); rpNav(); }, 1500);
 function mpAddMoment(){ if (HG.owner){ if (!HG.editing) hgEditToggle(true); hgColForm('moments', null); } }
 function mpSubmitScroll(){ const el = document.getElementById('gem-submit'); if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'}); }
 window.addEventListener('hg:route', () => { if (HG.route === 'momente' && mpMap) setTimeout(() => { try{ mpMap.invalidateSize(); mpMarkers(); }catch(e){} }, 90); });
