@@ -1,8 +1,8 @@
 {
-  "updated": "26.10.2026",
-  "generated": "2026-10-26T10:51:50.994Z",
+  "updated": "27.10.2026",
+  "generated": "2026-10-27T10:17:00.587Z",
   "maxAgeDays": 14,
-  "count": 6,
+  "count": 5,
   "items": [
     {
       "id": "auto-travelbook-autorin-vor-ort-japan-und-die-kultu",
@@ -73,20 +73,6 @@
       "desc": "Überfüllte Hotspots, volle Strände und hohe Hotelpreise müssen im Urlaub nicht sein. Wer 2027 neue Reiseziele entdecken möchte, findet von den Bergen Kirgisistans über Europas weniger bekannte Städte bis zu einsamen Atlantikbuchten ...",
       "title_en": "Current analysis: These eight holiday destinations are still considered insider tips",
       "desc_en": "Overcrowded hotspots, full beaches and high hotel prices don't have to be a part of your vacation. If you want to discover new travel destinations in 2027, you will find everything from the mountains of Kyrgyzstan to Europe's lesser-known cities to lonely Atlantic bays..."
-    },
-    {
-      "id": "auto-sozopol-in-bulgarien-diese-stadt-an-der-schwar",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-12",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/ziele/staedte/diese-stadt-an-der-schwarzmeerkueste-ist-noch-ein-echter-geheimtipp",
-      "title": "Sozopol in Bulgarien: Diese Stadt an der Schwarzmeerküste ist noch ein echter Geheimtipp",
-      "desc": "Tausende Jahre alte Geschichte, eine hübsche Altstadt und dazu noch zwei Strände, die zum Entspannen einladen: Sozopol an der Schwarzmeerküste ist bei Bulgarien-Urlaubern kein Geheimtipp mehr - allzu bekannt ist das Städtchen aber ...",
-      "title_en": "Sozopol in Bulgaria: This city on the Black Sea coast is still a real insider tip",
-      "desc_en": "Thousands of years of history, a pretty old town and two beaches that invite you to relax: Sozopol on the Black Sea coast is no longer an insider tip for Bulgarian holidaymakers - but the town is all too well known..."
     }
   ]
 }
