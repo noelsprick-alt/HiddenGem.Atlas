@@ -1,0 +1,1276 @@
+[
+{
+"id": "y-lt-zappa",
+"q": "Frank Zappa memorial, Kalinausko gatvė, Vilnius",
+"cc": "LT",
+"lat": 54.6853,
+"lon": 25.2729
+},
+{
+"id": "y-lt-literatu",
+"q": "Literatų gatvė, Vilnius",
+"cc": "LT",
+"lat": 54.6812,
+"lon": 25.2903
+},
+{
+"id": "y-lt-kgb",
+"q": "Museum of Occupations and Freedom Fights, Vilnius",
+"cc": "LT",
+"lat": 54.6878,
+"lon": 25.2711
+},
+{
+"id": "y-lt-balloons",
+"q": "Cathedral Square, Vilnius",
+"cc": "LT",
+"lat": 54.6872,
+"lon": 25.2797
+},
+{
+"id": "y-lt-snekutis",
+"q": "Šnekutis, Vilnius",
+"cc": "LT",
+"lat": 54.6772,
+"lon": 25.2903
+},
+{
+"id": "y-lt-hales",
+"q": "Halės turgus, Vilnius",
+"cc": "LT",
+"lat": 54.675,
+"lon": 25.2867
+},
+{
+"id": "y-lt-grutas",
+"q": "Grūtas Park, Druskininkai",
+"cc": "LT",
+"lat": 54.0236,
+"lon": 24.0739
+},
+{
+"id": "y-lt-devils",
+"q": "Devils Museum, Kaunas",
+"cc": "LT",
+"lat": 54.9003,
+"lon": 23.9122
+},
+{
+"id": "y-lt-witches",
+"q": "Raganų kalnas, Juodkrantė",
+"cc": "LT",
+"lat": 55.5433,
+"lon": 21.1222
+},
+{
+"id": "y-cz-freud",
+"q": "Hanging Out Sigmund Freud, Husova, Prague",
+"cc": "CZ",
+"lat": 50.0846,
+"lon": 14.419
+},
+{
+"id": "y-cz-kafka",
+"q": "Head of Franz Kafka, Quadrio, Prague",
+"cc": "CZ",
+"lat": 50.0819,
+"lon": 14.4194
+},
+{
+"id": "y-cz-piss",
+"q": "Piss sculpture, Kafka Museum, Prague",
+"cc": "CZ",
+"lat": 50.0882,
+"lon": 14.4097
+},
+{
+"id": "y-cz-metronome",
+"q": "Prague Metronome, Letná",
+"cc": "CZ",
+"lat": 50.095,
+"lon": 14.4153
+},
+{
+"id": "y-cz-horse",
+"q": "Lucerna Passage, Prague",
+"cc": "CZ",
+"lat": 50.0812,
+"lon": 14.4256
+},
+{
+"id": "y-cz-paternoster",
+"q": "New City Hall, Mariánské náměstí, Prague",
+"cc": "CZ",
+"lat": 50.0874,
+"lon": 14.4159
+},
+{
+"id": "y-cz-tiger",
+"q": "U Zlatého tygra, Prague",
+"cc": "CZ",
+"lat": 50.0855,
+"lon": 14.4185
+},
+{
+"id": "y-cz-cross",
+"q": "Cross Club, Prague",
+"cc": "CZ",
+"lat": 50.1085,
+"lon": 14.4434
+},
+{
+"id": "y-cz-mirror",
+"q": "Mirror Maze, Petřín, Prague",
+"cc": "CZ",
+"lat": 50.0832,
+"lon": 14.3963
+},
+{
+"id": "y-cz-riegrovy",
+"q": "Riegrovy sady beer garden, Prague",
+"cc": "CZ",
+"lat": 50.0798,
+"lon": 14.4422
+},
+{
+"id": "y-hu-rock",
+"q": "Hospital in the Rock, Budapest",
+"cc": "HU",
+"lat": 47.5017,
+"lon": 19.0329
+},
+{
+"id": "y-hu-memento",
+"q": "Memento Park, Budapest",
+"cc": "HU",
+"lat": 47.4268,
+"lon": 18.9947
+},
+{
+"id": "y-hu-cavechurch",
+"q": "Gellért Hill Cave Church, Budapest",
+"cc": "HU",
+"lat": 47.4846,
+"lon": 19.0498
+},
+{
+"id": "y-hu-kids",
+"q": "Gyermekvasút Széchenyihegy, Budapest",
+"cc": "HU",
+"lat": 47.5376,
+"lon": 18.9715
+},
+{
+"id": "y-hu-pinball",
+"q": "Budapest Pinball Museum",
+"cc": "HU",
+"lat": 47.5181,
+"lon": 19.0544
+},
+{
+"id": "y-hu-nycafe",
+"q": "New York Café, Budapest",
+"cc": "HU",
+"lat": 47.4983,
+"lon": 19.0705
+},
+{
+"id": "y-hu-libego",
+"q": "Zugligeti Libegő, Budapest",
+"cc": "HU",
+"lat": 47.5168,
+"lon": 18.9746
+},
+{
+"id": "y-hu-palvolgyi",
+"q": "Pál-völgyi-barlang, Budapest",
+"cc": "HU",
+"lat": 47.5329,
+"lon": 19.0186
+},
+{
+"id": "y-al-bunkart1",
+"q": "Bunk'Art 1, Tirana",
+"cc": "AL",
+"lat": 41.3474,
+"lon": 19.8574
+},
+{
+"id": "y-al-postbllok",
+"q": "Postbllok, Tirana",
+"cc": "AL",
+"lat": 41.3207,
+"lon": 19.8167
+},
+{
+"id": "y-al-komani",
+"q": "Koman Lake Ferry",
+"cc": "AL",
+"lat": 42.1059,
+"lon": 19.8215
+},
+{
+"id": "y-al-benja",
+"q": "Benja Thermal Baths, Përmet",
+"cc": "AL",
+"lat": 40.2396,
+"lon": 20.431
+},
+{
+"id": "y-al-theth",
+"q": "Syri i Kaltër Theth",
+"cc": "AL",
+"lat": 42.3776,
+"lon": 19.7942
+},
+{
+"id": "y-al-gjiro",
+"q": "Cold War Tunnel, Gjirokastër",
+"cc": "AL",
+"lat": 40.0738,
+"lon": 20.1366
+},
+{
+"id": "y-al-palermo",
+"q": "Porto Palermo Castle",
+"cc": "AL",
+"lat": 40.0626,
+"lon": 19.7934
+},
+{
+"id": "y-al-llogara",
+"q": "Llogara Pass",
+"cc": "AL",
+"lat": 40.2056,
+"lon": 19.5872
+},
+{
+"id": "y-si-odprta",
+"q": "Odprta kuhna, Pogačarjev trg, Ljubljana",
+"cc": "SI",
+"lat": 46.051,
+"lon": 14.5085
+},
+{
+"id": "y-si-neboticnik",
+"q": "Nebotičnik, Ljubljana",
+"cc": "SI",
+"lat": 46.0518,
+"lon": 14.5032
+},
+{
+"id": "y-si-vintgar",
+"q": "Vintgar Gorge, Bled",
+"cc": "SI",
+"lat": 46.393,
+"lon": 14.0855
+},
+{
+"id": "y-si-kremsnita",
+"q": "Park Restaurant & Café, Bled",
+"cc": "SI",
+"lat": 46.3684,
+"lon": 14.1133
+},
+{
+"id": "y-si-velika",
+"q": "Velika Planina",
+"cc": "SI",
+"lat": 46.293,
+"lon": 14.6366
+},
+{
+"id": "y-si-kozjak",
+"q": "Slap Kozjak, Kobarid",
+"cc": "SI",
+"lat": 46.2621,
+"lon": 13.5888
+},
+{
+"id": "y-si-russian",
+"q": "Russian Chapel, Vršič",
+"cc": "SI",
+"lat": 46.4384,
+"lon": 13.76
+},
+{
+"id": "y-sk-cumil",
+"q": "Čumil, Bratislava",
+"cc": "SK",
+"lat": 48.1433,
+"lon": 17.1088
+},
+{
+"id": "y-sk-radio",
+"q": "Slovak Radio Building, Bratislava",
+"cc": "SK",
+"lat": 48.1534,
+"lon": 17.1131
+},
+{
+"id": "y-at-narrenturm",
+"q": "Narrenturm, Wien",
+"cc": "AT",
+"lat": 48.2216,
+"lon": 16.3546
+},
+{
+"id": "y-at-flak",
+"q": "Haus des Meeres, Wien",
+"cc": "AT",
+"lat": 48.1975,
+"lon": 16.353
+},
+{
+"id": "y-at-hawelka",
+"q": "Café Hawelka, Wien",
+"cc": "AT",
+"lat": 48.2084,
+"lon": 16.3712
+},
+{
+"id": "y-at-wurstel",
+"q": "Bitzinger Würstelstand Albertina, Wien",
+"cc": "AT",
+"lat": 48.2047,
+"lon": 16.3683
+},
+{
+"id": "y-at-heuriger",
+"q": "Mayer am Pfarrplatz, Wien",
+"cc": "AT",
+"lat": 48.2551,
+"lon": 16.3497
+},
+{
+"id": "y-at-thirdman",
+"q": "Third Man Museum, Wien",
+"cc": "AT",
+"lat": 48.1984,
+"lon": 16.3628
+},
+{
+"id": "y-at-augustiner",
+"q": "Augustiner Bräu Kloster Mülln, Salzburg",
+"cc": "AT",
+"lat": 47.8063,
+"lon": 13.0361
+},
+{
+"id": "y-at-stpeter",
+"q": "St. Peter Stiftskulinarium, Salzburg",
+"cc": "AT",
+"lat": 47.7973,
+"lon": 13.0451
+},
+{
+"id": "y-at-nordkette",
+"q": "Nordkettenbahnen Congress, Innsbruck",
+"cc": "AT",
+"lat": 47.2683,
+"lon": 11.3945
+},
+{
+"id": "y-at-hallstatt",
+"q": "Beinhaus Hallstatt",
+"cc": "AT",
+"lat": 47.5622,
+"lon": 13.6492
+},
+{
+"id": "y-at-eisriesen",
+"q": "Eisriesenwelt, Werfen",
+"cc": "AT",
+"lat": 47.503,
+"lon": 13.1897
+},
+{
+"id": "y-de-teufelsberg",
+"q": "Teufelsberg, Berlin",
+"cc": "DE",
+"lat": 52.4975,
+"lon": 13.241
+},
+{
+"id": "y-de-tempelhof",
+"q": "Tempelhofer Feld, Berlin",
+"cc": "DE",
+"lat": 52.4733,
+"lon": 13.4036
+},
+{
+"id": "y-de-konnopke",
+"q": "Konnopke's Imbiss, Berlin",
+"cc": "DE",
+"lat": 52.5406,
+"lon": 13.4123
+},
+{
+"id": "y-de-spreepark",
+"q": "Spreepark, Berlin",
+"cc": "DE",
+"lat": 52.4867,
+"lon": 13.4925
+},
+{
+"id": "y-de-prater",
+"q": "Prater Garten, Berlin",
+"cc": "DE",
+"lat": 52.5398,
+"lon": 13.41
+},
+{
+"id": "y-de-badeschiff",
+"q": "Badeschiff, Berlin",
+"cc": "DE",
+"lat": 52.4973,
+"lon": 13.4537
+},
+{
+"id": "y-de-elbtunnel",
+"q": "St. Pauli Elbtunnel, Hamburg",
+"cc": "DE",
+"lat": 53.5457,
+"lon": 9.9662
+},
+{
+"id": "y-de-ferry62",
+"q": "Landungsbrücken Brücke 3, Hamburg",
+"cc": "DE",
+"lat": 53.5455,
+"lon": 9.9665
+},
+{
+"id": "y-de-bremerloch",
+"q": "Bremer Loch, Marktplatz Bremen",
+"cc": "DE",
+"lat": 53.0755,
+"lon": 8.8072
+},
+{
+"id": "y-de-ratskeller",
+"q": "Bremer Ratskeller",
+"cc": "DE",
+"lat": 53.0758,
+"lon": 8.8075
+},
+{
+"id": "y-de-glockenspiel",
+"q": "Glockenspiel Böttcherstraße, Bremen",
+"cc": "DE",
+"lat": 53.0747,
+"lon": 8.8063
+},
+{
+"id": "y-de-prora",
+"q": "Prora, Binz",
+"cc": "DE",
+"lat": 54.4417,
+"lon": 13.5747
+},
+{
+"id": "y-de-tuffi",
+"q": "Schwebebahn Alter Markt, Wuppertal",
+"cc": "DE",
+"lat": 51.2563,
+"lon": 7.1508
+},
+{
+"id": "y-nl-ij",
+"q": "Brouwerij 't IJ, Amsterdam",
+"cc": "NL",
+"lat": 52.3667,
+"lon": 4.9266
+},
+{
+"id": "y-nl-aepjen",
+"q": "In 't Aepjen, Amsterdam",
+"cc": "NL",
+"lat": 52.3753,
+"lon": 4.9006
+},
+{
+"id": "y-nl-catboat",
+"q": "De Poezenboot, Amsterdam",
+"cc": "NL",
+"lat": 52.378,
+"lon": 4.892
+},
+{
+"id": "y-nl-ndsm",
+"q": "NDSM-werf, Amsterdam",
+"cc": "NL",
+"lat": 52.4012,
+"lon": 4.8916
+},
+{
+"id": "y-nl-mesdag",
+"q": "Panorama Mesdag, Den Haag",
+"cc": "NL",
+"lat": 52.0858,
+"lon": 4.3008
+},
+{
+"id": "y-nl-veluwe",
+"q": "Hoge Veluwe National Park",
+"cc": "NL",
+"lat": 52.0947,
+"lon": 5.8302
+},
+{
+"id": "y-nl-alkmaar",
+"q": "Kaasmarkt Alkmaar",
+"cc": "NL",
+"lat": 52.6323,
+"lon": 4.748
+},
+{
+"id": "y-be-annatunnel",
+"q": "Sint-Annatunnel, Antwerpen",
+"cc": "BE",
+"lat": 51.2224,
+"lon": 4.3975
+},
+{
+"id": "y-be-vlaeykens",
+"q": "Vlaeykensgang, Antwerpen",
+"cc": "BE",
+"lat": 51.2201,
+"lon": 4.4012
+},
+{
+"id": "y-be-garre",
+"q": "De Garre, Brugge",
+"cc": "BE",
+"lat": 51.2085,
+"lon": 3.2253
+},
+{
+"id": "y-be-dullegriet",
+"q": "Dulle Griet, Gent",
+"cc": "BE",
+"lat": 51.057,
+"lon": 3.7258
+},
+{
+"id": "y-be-dreupelkot",
+"q": "'t Dreupelkot, Gent",
+"cc": "BE",
+"lat": 51.0565,
+"lon": 3.7259
+},
+{
+"id": "y-dk-copenhill",
+"q": "CopenHill, Copenhagen",
+"cc": "DK",
+"lat": 55.6823,
+"lon": 12.6024
+},
+{
+"id": "y-dk-harbourbath",
+"q": "Havnebadet Islands Brygge, Copenhagen",
+"cc": "DK",
+"lat": 55.667,
+"lon": 12.577
+},
+{
+"id": "y-dk-bakken",
+"q": "Dyrehavsbakken, Klampenborg",
+"cc": "DK",
+"lat": 55.7744,
+"lon": 12.576
+},
+{
+"id": "y-es-xampanyet",
+"q": "El Xampanyet, Barcelona",
+"cc": "ES",
+"lat": 41.3842,
+"lon": 2.1817
+},
+{
+"id": "y-es-laberint",
+"q": "Parc del Laberint d'Horta, Barcelona",
+"cc": "ES",
+"lat": 41.44,
+"lon": 2.1466
+},
+{
+"id": "y-es-4gats",
+"q": "Els Quatre Gats, Barcelona",
+"cc": "ES",
+"lat": 41.3858,
+"lon": 2.1739
+},
+{
+"id": "y-es-soller",
+"q": "Ferrocarril de Sóller, Palma",
+"cc": "ES",
+"lat": 39.5755,
+"lon": 2.6519
+},
+{
+"id": "y-es-pontas",
+"q": "Es Pontàs, Santanyí",
+"cc": "ES",
+"lat": 39.3393,
+"lon": 3.2273
+},
+{
+"id": "y-es-varques",
+"q": "Cala Varques, Manacor",
+"cc": "ES",
+"lat": 39.4766,
+"lon": 3.2987
+},
+{
+"id": "y-es-aigo",
+"q": "Can Joan de s'Aigo, Palma",
+"cc": "ES",
+"lat": 39.5712,
+"lon": 2.6516
+},
+{
+"id": "y-es-abaco",
+"q": "Abaco, Palma",
+"cc": "ES",
+"lat": 39.5693,
+"lon": 2.645
+},
+{
+"id": "y-es-galdar",
+"q": "Cueva Pintada, Gáldar",
+"cc": "ES",
+"lat": 28.145,
+"lon": -15.6542
+},
+{
+"id": "y-fr-kammerzell",
+"q": "Maison Kammerzell, Strasbourg",
+"cc": "FR",
+"lat": 48.5818,
+"lon": 7.7514
+},
+{
+"id": "y-fr-clock",
+"q": "Strasbourg Cathedral astronomical clock",
+"cc": "FR",
+"lat": 48.5817,
+"lon": 7.7505
+},
+{
+"id": "y-lu-transport",
+"q": "Gare de Luxembourg",
+"cc": "LU",
+"lat": 49.5999,
+"lon": 6.1336
+},
+{
+"id": "y-lu-pfaffenthal",
+"q": "Ascenseur panoramique Pfaffenthal, Luxembourg",
+"cc": "LU",
+"lat": 49.6146,
+"lon": 6.1308
+},
+{
+"id": "y-lu-mullerthal",
+"q": "Schiessentümpel, Mullerthal",
+"cc": "LU",
+"lat": 49.7838,
+"lon": 6.3285
+},
+{
+"id": "y-jp-omoide",
+"q": "Omoide Yokocho, Shinjuku, Tokyo",
+"cc": "JP",
+"lat": 35.693,
+"lon": 139.6995
+},
+{
+"id": "y-jp-nonbei",
+"q": "Nonbei Yokocho, Shibuya, Tokyo",
+"cc": "JP",
+"lat": 35.6593,
+"lon": 139.7029
+},
+{
+"id": "y-jp-gotokuji",
+"q": "Gotokuji Temple, Setagaya, Tokyo",
+"cc": "JP",
+"lat": 35.6486,
+"lon": 139.6474
+},
+{
+"id": "y-jp-todoroki",
+"q": "Todoroki Valley Park, Tokyo",
+"cc": "JP",
+"lat": 35.6081,
+"lon": 139.6487
+},
+{
+"id": "y-jp-gcans",
+"q": "Metropolitan Area Outer Underground Discharge Channel, Kasukabe",
+"cc": "JP",
+"lat": 35.9958,
+"lon": 139.807
+},
+{
+"id": "y-jp-takao",
+"q": "Mount Takao, Hachioji",
+"cc": "JP",
+"lat": 35.6251,
+"lon": 139.2436
+},
+{
+"id": "y-jp-otagi",
+"q": "Otagi Nenbutsu-ji, Kyoto",
+"cc": "JP",
+"lat": 35.0298,
+"lon": 135.6637
+},
+{
+"id": "y-jp-kibune",
+"q": "Kibune Shrine, Kyoto",
+"cc": "JP",
+"lat": 35.1205,
+"lon": 135.763
+},
+{
+"id": "y-jp-minoo",
+"q": "Minoo Falls, Minoh",
+"cc": "JP",
+"lat": 34.853,
+"lon": 135.4719
+},
+{
+"id": "y-kr-bukhansan",
+"q": "Bukhansan National Park",
+"cc": "KR",
+"lat": 37.6584,
+"lon": 126.9779
+},
+{
+"id": "y-kr-ihwa",
+"q": "Ihwa Mural Village, Seoul",
+"cc": "KR",
+"lat": 37.5786,
+"lon": 127.0058
+},
+{
+"id": "y-kr-tunnel",
+"q": "Third Tunnel of Aggression, Paju",
+"cc": "KR",
+"lat": 37.9166,
+"lon": 126.6969
+},
+{
+"id": "y-kr-noryangjin",
+"q": "Noryangjin Fisheries Wholesale Market, Seoul",
+"cc": "KR",
+"lat": 37.513,
+"lon": 126.9406
+},
+{
+"id": "y-kr-naksan",
+"q": "Naksan Park, Seoul",
+"cc": "KR",
+"lat": 37.5806,
+"lon": 127.0074
+},
+{
+"id": "y-vn-giang",
+"q": "Cafe Giang, Hanoi",
+"cc": "VN",
+"lat": 21.0335,
+"lon": 105.8547
+},
+{
+"id": "y-vn-huonglien",
+"q": "Bun Cha Huong Lien, Hanoi",
+"cc": "VN",
+"lat": 21.0182,
+"lon": 105.8536
+},
+{
+"id": "y-vn-longbien",
+"q": "Long Bien Bridge, Hanoi",
+"cc": "VN",
+"lat": 21.043,
+"lon": 105.8597
+},
+{
+"id": "y-vn-hangmua",
+"q": "Hang Mua, Ninh Binh",
+"cc": "VN",
+"lat": 20.2299,
+"lon": 105.9327
+},
+{
+"id": "y-vn-apartments",
+"q": "42 Nguyen Hue, Ho Chi Minh City",
+"cc": "VN",
+"lat": 10.7739,
+"lon": 106.7039
+},
+{
+"id": "y-vn-oc",
+"q": "Vinh Khanh Street, District 4, Ho Chi Minh City",
+"cc": "VN",
+"lat": 10.761,
+"lon": 106.7027
+},
+{
+"id": "y-vn-huynhhoa",
+"q": "Banh Mi Huynh Hoa, Ho Chi Minh City",
+"cc": "VN",
+"lat": 10.7712,
+"lon": 106.6923
+},
+{
+"id": "y-vn-cairang",
+"q": "Cai Rang Floating Market, Can Tho",
+"cc": "VN",
+"lat": 10.0042,
+"lon": 105.7448
+},
+{
+"id": "y-vn-phuong",
+"q": "Banh Mi Phuong, Hoi An",
+"cc": "VN",
+"lat": 15.8775,
+"lon": 108.3315
+},
+{
+"id": "y-th-hotspring",
+"q": "Hot Spring Waterfall, Khlong Thom, Krabi",
+"cc": "TH",
+"lat": 7.9298,
+"lon": 99.1497
+},
+{
+"id": "y-th-railayclimb",
+"q": "Railay Beach, Krabi",
+"cc": "TH",
+"lat": 8.011,
+"lon": 98.838
+},
+{
+"id": "y-th-lagoon",
+"q": "Railay Viewpoint and Lagoon",
+"cc": "TH",
+"lat": 8.0068,
+"lon": 98.8384
+},
+{
+"id": "y-th-maikhao",
+"q": "Mai Khao Beach, Phuket",
+"cc": "TH",
+"lat": 8.1135,
+"lon": 98.3005
+},
+{
+"id": "y-th-vegfest",
+"q": "Jui Tui Shrine, Phuket Town",
+"cc": "TH",
+"lat": 7.8826,
+"lon": 98.3833
+},
+{
+"id": "y-th-maeklong",
+"q": "Maeklong Railway Market",
+"cc": "TH",
+"lat": 13.4074,
+"lon": 100.0018
+},
+{
+"id": "y-th-jayfai",
+"q": "Jay Fai, Bangkok",
+"cc": "TH",
+"lat": 13.7525,
+"lon": 100.5049
+},
+{
+"id": "y-ma-tanneries",
+"q": "Tanneries, Bab Debbagh, Marrakesh",
+"cc": "MA",
+"lat": 31.6366,
+"lon": -7.9804
+},
+{
+"id": "y-ma-epices",
+"q": "Café des Épices, Marrakesh",
+"cc": "MA",
+"lat": 31.6294,
+"lon": -7.9858
+},
+{
+"id": "y-ma-hammam",
+"q": "Hammam Mouassine, Marrakesh",
+"cc": "MA",
+"lat": 31.6299,
+"lon": -7.9915
+},
+{
+"id": "y-ma-imlil",
+"q": "Imlil",
+"cc": "MA",
+"lat": 31.1373,
+"lon": -7.9198
+},
+{
+"id": "y-tn-sididriss",
+"q": "Hotel Sidi Driss, Matmata",
+"cc": "TN",
+"lat": 33.5434,
+"lon": 9.9673
+},
+{
+"id": "y-tn-mosespa",
+"q": "Mos Espa, Ong Jemel, Tozeur",
+"cc": "TN",
+"lat": 33.9933,
+"lon": 7.8417
+},
+{
+"id": "y-us-campbell",
+"q": "The Campbell, Grand Central, New York",
+"cc": "US",
+"lat": 40.7525,
+"lon": -73.9779
+},
+{
+"id": "y-us-ferry",
+"q": "Whitehall Terminal, New York",
+"cc": "US",
+"lat": 40.7013,
+"lon": -74.0131
+},
+{
+"id": "y-us-tram",
+"q": "Roosevelt Island Tramway, New York",
+"cc": "US",
+"lat": 40.7613,
+"lon": -73.964
+},
+{
+"id": "y-us-mmuseumm",
+"q": "Mmuseumm, Cortlandt Alley, New York",
+"cc": "US",
+"lat": 40.7175,
+"lon": -74.0021
+},
+{
+"id": "y-us-cityhall",
+"q": "City Hall Loop, New York",
+"cc": "US",
+"lat": 40.7134,
+"lon": -74.0046
+},
+{
+"id": "y-hr-hum",
+"q": "Hum, Istria",
+"cc": "HR",
+"lat": 45.349,
+"lon": 14.049
+},
+{
+"id": "y-hr-pazin",
+"q": "Pazinska jama, Pazin",
+"cc": "HR",
+"lat": 45.2403,
+"lon": 13.933
+},
+{
+"id": "y-hr-kamenjak",
+"q": "Rt Kamenjak, Premantura",
+"cc": "HR",
+"lat": 44.7717,
+"lon": 13.9139
+},
+{
+"id": "y-hr-dvigrad",
+"q": "Dvigrad, Kanfanar",
+"cc": "HR",
+"lat": 45.1226,
+"lon": 13.8095
+},
+{
+"id": "y-hr-glagolitic",
+"q": "Aleja glagoljaša, Roč",
+"cc": "HR",
+"lat": 45.3628,
+"lon": 14.0389
+},
+{
+"id": "y-hr-limski",
+"q": "Limski kanal",
+"cc": "HR",
+"lat": 45.1335,
+"lon": 13.6919
+},
+{
+"id": "y-hr-baredine",
+"q": "Jama Baredine, Poreč",
+"cc": "HR",
+"lat": 45.2531,
+"lon": 13.6531
+},
+{
+"id": "y-us-whittier",
+"q": "Begich Towers, Whittier, Alaska",
+"cc": "US",
+"lat": 60.7739,
+"lon": -148.6836
+},
+{
+"id": "y-au-cooberpedy",
+"q": "Coober Pedy",
+"cc": "AU",
+"lat": -29.0135,
+"lon": 134.7544
+},
+{
+"id": "y-be-baarle",
+"q": "Baarle-Nassau",
+"cc": "BE",
+"lat": 51.4423,
+"lon": 4.9289
+},
+{
+"id": "y-us-racetrack",
+"q": "Racetrack Playa, Death Valley",
+"cc": "US",
+"lat": 36.6814,
+"lon": -117.5627
+},
+{
+"id": "y-ca-spotted",
+"q": "Spotted Lake, Osoyoos",
+"cc": "CA",
+"lat": 49.0781,
+"lon": -119.5672
+},
+{
+"id": "y-jp-hashima",
+"q": "Hashima Island, Nagasaki",
+"cc": "JP",
+"lat": 32.6278,
+"lon": 129.7386
+},
+{
+"id": "y-jp-okunoshima",
+"q": "Okunoshima",
+"cc": "JP",
+"lat": 34.3086,
+"lon": 132.9944
+},
+{
+"id": "y-jp-nagoro",
+"q": "Nagoro, Miyoshi, Tokushima",
+"cc": "JP",
+"lat": 33.853,
+"lon": 133.968
+},
+{
+"id": "y-mx-dolls",
+"q": "Isla de las Muñecas, Xochimilco",
+"cc": "MX",
+"lat": 19.2903,
+"lon": -99.0961
+},
+{
+"id": "y-ph-sagada",
+"q": "Hanging Coffins, Echo Valley, Sagada",
+"cc": "PH",
+"lat": 17.0844,
+"lon": 120.9006
+},
+{
+"id": "y-it-capuchin",
+"q": "Catacombe dei Cappuccini, Palermo",
+"cc": "IT",
+"lat": 38.1118,
+"lon": 13.3399
+},
+{
+"id": "y-us-flygeyser",
+"q": "Fly Geyser, Nevada",
+"cc": "US",
+"lat": 40.8592,
+"lon": -119.3319
+},
+{
+"id": "y-us-cadillac",
+"q": "Cadillac Ranch, Amarillo",
+"cc": "US",
+"lat": 35.1872,
+"lon": -101.9871
+},
+{
+"id": "y-us-salvation",
+"q": "Salvation Mountain, Niland",
+"cc": "US",
+"lat": 33.2541,
+"lon": -115.4726
+},
+{
+"id": "y-cn-tianducheng",
+"q": "Tianducheng, Hangzhou",
+"cc": "CN",
+"lat": 30.3896,
+"lon": 120.2959
+},
+{
+"id": "y-is-planewreck",
+"q": "Sólheimasandur Plane Wreck",
+"cc": "IS",
+"lat": 63.4591,
+"lon": -19.3647
+},
+{
+"id": "y-no-hell",
+"q": "Hell station, Stjørdal",
+"cc": "NO",
+"lat": 63.4453,
+"lon": 10.9078
+},
+{
+"id": "y-no-seedvault",
+"q": "Svalbard Global Seed Vault",
+"cc": "NO",
+"lat": 78.2357,
+"lon": 15.4911
+},
+{
+"id": "y-gb-cheese",
+"q": "Cooper's Hill, Brockworth",
+"cc": "GB",
+"lat": 51.8336,
+"lon": -2.1563
+},
+{
+"id": "y-gb-llanfair",
+"q": "Llanfairpwllgwyngyll railway station",
+"cc": "GB",
+"lat": 53.221,
+"lon": -4.209
+},
+{
+"id": "y-fr-cheval",
+"q": "Palais Idéal du Facteur Cheval, Hauterives",
+"cc": "FR",
+"lat": 45.256,
+"lon": 5.0294
+},
+{
+"id": "y-it-civita",
+"q": "Civita di Bagnoregio",
+"cc": "IT",
+"lat": 42.6276,
+"lon": 12.1131
+},
+{
+"id": "y-it-bomarzo",
+"q": "Sacro Bosco, Bomarzo",
+"cc": "IT",
+"lat": 42.4917,
+"lon": 12.2475
+},
+{
+"id": "y-es-setenil",
+"q": "Setenil de las Bodegas",
+"cc": "ES",
+"lat": 36.8627,
+"lon": -5.1797
+},
+{
+"id": "y-ch-truemmelbach",
+"q": "Trümmelbachfälle, Lauterbrunnen",
+"cc": "CH",
+"lat": 46.5652,
+"lon": 7.9139
+},
+{
+"id": "y-us-winchester",
+"q": "Winchester Mystery House, San Jose",
+"cc": "US",
+"lat": 37.3184,
+"lon": -121.9511
+},
+{
+"id": "y-ca-sourtoe",
+"q": "Downtown Hotel, Dawson City",
+"cc": "CA",
+"lat": 64.0603,
+"lon": -139.432
+},
+{
+"id": "y-bo-traincemetery",
+"q": "Cementerio de Trenes, Uyuni",
+"cc": "BO",
+"lat": -20.4805,
+"lon": -66.8335
+},
+{
+"id": "y-cl-hand",
+"q": "Mano del Desierto, Antofagasta",
+"cc": "CL",
+"lat": -24.1585,
+"lon": -70.1563
+},
+{
+"id": "y-in-rootbridge",
+"q": "Double Decker Living Root Bridge, Nongriat",
+"cc": "IN",
+"lat": 25.2475,
+"lon": 91.6738
+},
+{
+"id": "y-in-karnimata",
+"q": "Karni Mata Temple, Deshnoke",
+"cc": "IN",
+"lat": 27.7901,
+"lon": 73.341
+},
+{
+"id": "y-es-botin",
+"q": "Restaurante Botín, Madrid",
+"cc": "ES",
+"lat": 40.4141,
+"lon": -3.7081
+},
+{
+"id": "y-it-grotta",
+"q": "Grotta Palazzese, Polignano a Mare",
+"cc": "IT",
+"lat": 40.9958,
+"lon": 17.2214
+},
+{
+"id": "y-ar-tortoni",
+"q": "Café Tortoni, Buenos Aires",
+"cc": "AR",
+"lat": -34.6087,
+"lon": -58.3787
+},
+{
+"id": "y-fr-harrys",
+"q": "Harry's New York Bar, Paris",
+"cc": "FR",
+"lat": 48.8693,
+"lon": 2.3318
+},
+{
+"id": "y-fr-noir",
+"q": "Dans le Noir, Paris",
+"cc": "FR",
+"lat": 48.8616,
+"lon": 2.351
+},
+{
+"id": "y-tr-ciya",
+"q": "Çiya Sofrası, Kadıköy, Istanbul",
+"cc": "TR",
+"lat": 40.9893,
+"lon": 29.0257
+}
+]
