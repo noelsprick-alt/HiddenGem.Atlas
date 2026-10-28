@@ -266,7 +266,7 @@ for (const lang of ['de', 'en']) {
 
 // ---------- Blog (nur Texte ohne Entwurfsmarker) ----------
 // Sobald Noel die echten Geschichten in content.json ersetzt (Marker "Entwurf" entfernt), entstehen hier automatisch Artikel-Seiten.
-let blogN = 0;
+let blogN = 0; const blogIdx = { de: [], en: [] };
 for (const b of BLOG) {
   const d = content.detail?.['blog-' + b.id]; if (!d || /Entwurf/.test(d.text || '') || strip(d.text).length < 600) continue;
   const bph = []; for (const src of (d.photos || [])) { const im = /\.mp4$/.test(src) ? src.replace('images/video/', 'images/video/p/').replace(/\.mp4$/, '.webp') : src; if (/\.webp$/.test(im) && !bph.includes(im) && fs.existsSync(path.join(ROOT, im))) bph.push(im); }
@@ -275,8 +275,17 @@ for (const b of BLOG) {
     const p = `${lang}/blog/${slugify(ttl)}/`; const alt = `${other(lang)}/blog/${slugify(other(lang) === 'en' ? b.title_en || b.title : b.title)}/`;
     page({ lang, p, title: ttl + ' | HiddenGem.Atlas', desc: trim(text, 158), h1: esc(ttl), lead: '', body: gallery(bph, ttl, up(p)) + `<div class="story">${text}</div><p><a class="btn" href="${up(p)}index.html#/blog">Blog →</a></p>`, type: 'article', image: bph[0] || (b.image && fs.existsSync(path.join(ROOT, b.image)) ? b.image : undefined), crumbs: [{ n: 'Blog' }, { n: ttl }], alt,
       ld: [{ '@context': 'https://schema.org', '@type': 'Article', headline: ttl, inLanguage: lang, author: { '@type': 'Person', name: 'Noel Sprick' }, dateModified: TODAY }] });
+    blogIdx[lang].push({ p, ttl, text });
     blogN++;
   }
+}
+// Blog-Übersicht (Hub) je Sprache: /de/blog/ und /en/blog/
+for (const lang of ['de', 'en']) { if (!blogIdx[lang].length) continue; const p = `${lang}/blog/`, U = up(p);
+  page({ lang, p, title: lang === 'de' ? 'Reiseblog: ehrliche Geschichten & Tipps | HiddenGem.Atlas' : 'Travel blog: honest stories & tips | HiddenGem.Atlas',
+    desc: lang === 'de' ? 'Reisegeschichten und ehrliche Tipps von Noel Sprick - Hidden Gems, Städtetrips und Routen mit wenig Urlaub.' : 'Travel stories and honest tips by Noel Sprick - hidden gems, city trips and routes with little holiday.',
+    h1: 'Blog', lead: lang === 'de' ? 'Geschichten und Tipps von meinen Reisen.' : 'Stories and tips from my travels.',
+    body: `<ul class="pl">${blogIdx[lang].map((e) => `<li><a href="${BASE}${e.p}">${esc(e.ttl)}</a></li>`).join('')}</ul>`,
+    crumbs: [{ n: 'Blog' }], alt: `${other(lang)}/blog/` });
 }
 
 // ---------- Schreiben ----------
