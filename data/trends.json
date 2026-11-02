@@ -1,8 +1,8 @@
 {
-  "updated": "01.11.2026",
-  "generated": "2026-11-01T11:45:01.071Z",
+  "updated": "02.11.2026",
+  "generated": "2026-11-02T13:15:32.700Z",
   "maxAgeDays": 14,
-  "count": 6,
+  "count": 5,
   "items": [
     {
       "id": "auto-muss-urlaub-jetzt-auch-gesund-sein-was-es-mit-",
@@ -73,20 +73,6 @@
       "desc": "Vor 87 Jahren verschwand die legendäre US-amerikanische Pilotin Amelia Earhart über dem Pazifik und wurde für tot erklärt. Manche sagen, dass sie beim Sturz in den Ozean starb, andere, dass sie von japanischen Soldaten gefangen genommen ...",
       "title_en": "Amelia Earhart: The tragic search for the lost aviation pioneer",
       "desc_en": "87 years ago, legendary American pilot Amelia Earhart disappeared over the Pacific and was declared dead. Some say she died falling into the ocean, others say she was captured by Japanese soldiers..."
-    },
-    {
-      "id": "auto-aktuelle-analyse-diese-acht-urlaubsorte-gelten",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-19",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/ziele/diese-acht-urlaubsorte-gelten-noch-als-geheimtipps",
-      "title": "Aktuelle Analyse: Diese acht Urlaubsorte gelten noch als Geheimtipps",
-      "desc": "Überfüllte Hotspots, volle Strände und hohe Hotelpreise müssen im Urlaub nicht sein. Wer 2027 neue Reiseziele entdecken möchte, findet von den Bergen Kirgisistans über Europas weniger bekannte Städte bis zu einsamen Atlantikbuchten ...",
-      "title_en": "Current analysis: These eight holiday destinations are still considered insider tips",
-      "desc_en": "Overcrowded hotspots, full beaches and high hotel prices don't have to be a part of your vacation. If you want to discover new travel destinations in 2027, you will find everything from the mountains of Kyrgyzstan to Europe's lesser-known cities to lonely Atlantic bays..."
     }
   ]
 }
