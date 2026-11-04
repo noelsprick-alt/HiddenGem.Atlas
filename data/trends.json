@@ -1,9 +1,23 @@
 {
-  "updated": "03.11.2026",
-  "generated": "2026-11-03T12:41:03.593Z",
+  "updated": "04.11.2026",
+  "generated": "2026-11-04T12:51:39.072Z",
   "maxAgeDays": 14,
-  "count": 5,
+  "count": 4,
   "items": [
+    {
+      "id": "auto-geheimtipps-in-deutschland-6-idyllische-orte-u",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-11-04",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/reiseziele/geheimtipps-herbst-deutschland",
+      "title": "Geheimtipps in Deutschland: 6 idyllische Orte, um den goldenen Herbst ungestört zu genießen",
+      "desc": "Schon lange war es im Herbst nicht mehr warm, wie in diesem Jahr. Und auch wenn es bald wieder kälter wird, bleiben mit etwas Glück noch ein paar Wochen, um diese wahrhaft goldene Jahreszeit so richtig zu genießen. TRAVELBOOK-Autor ...",
+      "title_en": "Insider tips in Germany: 6 idyllic places to enjoy the golden autumn undisturbed",
+      "desc_en": "It hasn't been warm in autumn like this year for a long time. And even though it will soon be colder again, with a bit of luck there will still be a few weeks left to really enjoy this truly golden season. TRAVELBOOK author ..."
+    },
     {
       "id": "auto-muss-urlaub-jetzt-auch-gesund-sein-was-es-mit-",
       "cat": "Reise",
@@ -45,34 +59,6 @@
       "desc": "Ganz im Süden Deutschlands liegt eine kleine Gemeinde, die nicht nur ideal für ein paar erholsame Tage in Bayern ist - sie markiert auch den perfekten Ausgangspunkt für zahlreiche Aktivitäten in der Region. Die Rede ist von Inzell. ...",
       "title_en": "Ideal starting point for numerous activities: This little town in Bavaria is a real insider tip",
       "desc_en": "There is a small community in the very south of Germany that is not only ideal for a few relaxing days in Bavaria - it is also the perfect starting point for numerous activities in the region. We're talking about Inzell. ..."
-    },
-    {
-      "id": "auto-fund-entpuppt-sich-als-baumstamm-erneuter-ruck",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-21",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/menschen/insel-nikumaroro-amelia-earhart-suche",
-      "title": "Fund entpuppt sich als Baumstamm: Erneuter Rückschlag bei Suche nach Flugzeug von Amelia Earhart",
-      "desc": "Vor 87 Jahren verschwand die legendäre US-amerikanische Pilotin Amelia Earhart über dem Pazifik und wurde für tot erklärt. Manche sagen, dass sie beim Sturz in den Ozean starb, andere, dass sie von japanischen Soldaten gefangen genommen ...",
-      "title_en": "Find turns out to be a tree trunk: Another setback in the search for Amelia Earhart's plane",
-      "desc_en": "87 years ago, legendary American pilot Amelia Earhart disappeared over the Pacific and was declared dead. Some say she died falling into the ocean, others say she was captured by Japanese soldiers..."
-    },
-    {
-      "id": "auto-amelia-earhart-die-tragische-suche-nach-der-ve",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-21",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/menschen/insel-nikumaroro-amelia-earhart-suche",
-      "title": "Amelia Earhart: Die tragische Suche nach der verschollenen Flugpionierin",
-      "desc": "Vor 87 Jahren verschwand die legendäre US-amerikanische Pilotin Amelia Earhart über dem Pazifik und wurde für tot erklärt. Manche sagen, dass sie beim Sturz in den Ozean starb, andere, dass sie von japanischen Soldaten gefangen genommen ...",
-      "title_en": "Amelia Earhart: The tragic search for the lost aviation pioneer",
-      "desc_en": "87 years ago, legendary American pilot Amelia Earhart disappeared over the Pacific and was declared dead. Some say she died falling into the ocean, others say she was captured by Japanese soldiers..."
     }
   ]
 }
