@@ -1,0 +1,288 @@
+{
+  "slug": "tirana",
+  "slug_en": "tirana",
+  "status": "live",
+  "cc": "AL",
+  "flag": "🇦🇱",
+  "city": "Tirana",
+  "city_en": "Tirana",
+  "updated": "2026-11-04",
+  "title": "Tirana Guide: Bunker, Blloku & Durrës – Albaniens Hauptstadt abseits der Klischees",
+  "title_en": "Tirana Guide: Bunkers, Blloku & Durrës – Albania’s Capital Beyond the Clichés",
+  "desc": "Tirana und Durrës in 3 Tagen: Bunk'Art 1 und 2, Blloku, House of Leaves, Dajti Ekspres, Preise in Lek, Anreise vom Flughafen und ehrliche Tipps – von Noel, der im Mai 2026 dort war.",
+  "desc_en": "Tirana and Durrës in 3 days: Bunk'Art 1 and 2, Blloku, House of Leaves, Dajti Ekspres, prices in lek, airport transfer and honest tips – from Noel, who was there in May 2026.",
+  "hero": "images/hero/albanien-aussicht-w.webp",
+  "hero_alt": "Aussicht in Albanien",
+  "hero_alt_en": "View in Albania",
+  "gyg_q": "Tirana",
+  "media": [
+    "images/photos/albanien-aussicht.webp",
+    "images/video/tirana-matcha-cafe.mp4",
+    "images/photos/durres-verlassene-villa.webp",
+    "images/video/durres-strand-nacht.mp4"
+  ],
+  "intro": "<p>Tirana ist die Hauptstadt, die keiner auf dem Zettel hat – und genau deshalb so spannend. Bunter als erwartet, günstiger als gedacht und mit einer Geschichte, die dich nicht loslässt: Albanien war jahrzehntelang eines der abgeschottetsten Länder Europas, heute sitzt man im früheren Sperrviertel der Parteielite mit Matcha und Kuchen im Café.</p><p>Dieser Guide führt dich durch Tirana und die Küstenstadt Durrës, die nur rund eine Stunde entfernt liegt. Du bekommst Anreise, Preise in Lek, Tipps zu den Bunker-Museen, Cafés und einen Drei-Tage-Plan. Alle Preise sind Richtwerte (Stand 2026) – Eintritte ändern sich, prüf sie vor Ort oder online.</p>",
+  "intro_en": "<p>Tirana is the capital nobody has on their list – and that is exactly why it is so exciting. More colourful than expected, cheaper than you think and with a history that does not let go: for decades Albania was one of the most isolated countries in Europe, and today you sit with matcha and cake in a café in the former closed quarter of the party elite.</p><p>This guide takes you through Tirana and the coastal city of Durrës, only about an hour away. You get getting there, prices in lek, tips on the bunker museums, cafés and a three-day plan. All prices are guidelines (2026) – admissions change, so check on site or online.</p>",
+  "story": "<p>Im Mai 2026 war ich in Tirana und Durrës – zwei Städte, keine Stunde voneinander entfernt, und trotzdem zwei Welten. Nur ein paar Schritte vom Skanderbeg-Platz erinnert Bunk'Art 2 an die Zeit der Diktatur. Ein paar Straßen weiter, im Blloku, sitzt man heute mit Matcha und Kuchen im Café. Größer kann ein Kontrast kaum sein. Mein stärkster Moment war aber Bunk'Art 1: ein riesiger Atombunker am Stadtrand, gebaut für Diktator Hoxha und seine Regierung – und fast menschenleer, als ich dort war. Er hat mich mehr beeindruckt als so manches große Museum.</p>",
+  "story_en": "<p>In May 2026 I was in Tirana and Durrës – two cities less than an hour apart, and still two different worlds. Just a few steps from Skanderbeg Square, Bunk'Art 2 recalls the dictatorship. A few streets further on, in Blloku, you now sit over matcha and cake in a café. It hardly gets bigger a contrast. My strongest moment, though, was Bunk'Art 1: a huge nuclear bunker on the edge of town built for dictator Hoxha and his government – and almost empty when I was there. It impressed me more than many a big museum.</p>",
+  "facts": [
+    { "k": "Dauer", "k_en": "How long", "v": "3 Tage inkl. Durrës", "v_en": "3 days incl. Durrës" },
+    { "k": "Beste Reisezeit", "k_en": "Best time", "v": "April–Juni und September–Oktober; im Hochsommer oft über 35 °C", "v_en": "April–June and September–October; often above 35 °C in high summer" },
+    { "k": "Währung", "k_en": "Currency", "v": "Albanischer Lek (ALL). Euro wird in Touristenbereichen oft akzeptiert, ca. 100–108 Lek = 1 €", "v_en": "Albanian lek (ALL). Euros are often accepted in tourist areas, approx. 100–108 lek = €1" },
+    { "k": "Sprache", "k_en": "Language", "v": "Albanisch; Englisch klappt bei Jüngeren gut", "v_en": "Albanian; English works well with younger people" },
+    { "k": "Notruf", "k_en": "Emergency", "v": "112", "v_en": "112" },
+    { "k": "Steckdose", "k_en": "Plug", "v": "Typ C/F, 230 V", "v_en": "Type C/F, 230 V" },
+    { "k": "Kopfnicken", "k_en": "Head nod", "v": "Ein Kopfnicken heißt oft „nein“, ein Kopfschütteln „ja“", "v_en": "A nod often means “no”, a shake “yes”" }
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "anreise",
+      "h": "So kommst du nach Tirana und herum",
+      "h_en": "Getting to Tirana and around",
+      "box": "omio",
+      "html": "<h3>Vom Flughafen</h3><p>Der Flughafen Tirana (TIA) liegt rund 17 km außerhalb. Der Flughafenbus kostet laut Reiseportalen etwa 300 Lek (rund 3 €), braucht etwa 30 Minuten und fährt ungefähr stündlich; Betriebszeiten und Haltestelle in der Stadt weichen je nach Quelle ab – vorher prüfen. Ein Taxi kostet etwa 20–28 € (Preis vorher klären), die Fahrt dauert rund 25 Minuten.</p><h3>In der Stadt</h3><p>Die Innenstadt ist gut zu Fuß machbar. Für weitere Strecken sind Taxis günstig: Die meisten Fahrten im Zentrum liegen bei etwa 300–500 Lek. Die App Bolt wird dafür häufig empfohlen – so siehst du den Preis vorher. Zu Bunk'Art 1 und zur Dajti-Seilbahn am Stadtrand kommst du mit Bus, Shuttle oder Taxi.</p><h3>Nach Durrës</h3><p>Durrës liegt rund 35 km westlich. Der Bus braucht etwa 30–40 Minuten und kostet nach Reiseportalen um 150 Lek.</p>",
+      "html_en": "<h3>From the airport</h3><p>Tirana airport (TIA) lies about 17 km outside the city. The airport bus costs around 300 lek (roughly €3) according to travel portals, takes about 30 minutes and runs roughly hourly; operating hours and the city stop differ by source – check beforehand. A taxi costs about €20–28 (agree the price first), the ride takes about 25 minutes.</p><h3>In the city</h3><p>The centre is easy on foot. For longer distances taxis are cheap: most rides in the centre are around 300–500 lek. The Bolt app is often recommended – you see the price in advance. To Bunk'Art 1 and the Dajti cable car on the edge of town you take a bus, shuttle or taxi.</p><h3>To Durrës</h3><p>Durrës lies about 35 km west. The bus takes about 30–40 minutes and costs around 150 lek according to travel portals.</p>"
+    },
+    {
+      "type": "spots",
+      "id": "bunker",
+      "h": "Bunker & Diktatur: die Geschichte, die dich nicht loslässt",
+      "h_en": "Bunkers & dictatorship: the history that stays with you",
+      "intro": "<p>Albanien war über 40 Jahre lang eines der abgeschottetsten Länder der Welt. Enver Hoxha schottete das Land nach dem Zweiten Weltkrieg bis 1985 fast vollständig ab und ließ aus Angst vor einer Invasion Hunderttausende Bunker bauen. Erst 1991 öffneten sich die Grenzen. Zwei dieser Bunker sind heute Museen – und beide lohnen sich.</p>",
+      "intro_en": "<p>For over 40 years Albania was one of the most isolated countries in the world. After the Second World War Enver Hoxha sealed the country off almost completely until 1985 and, fearing an invasion, had hundreds of thousands of bunkers built. The borders only opened in 1991. Two of these bunkers are museums today – and both are worth it.</p>",
+      "spots": [
+        {
+          "name": "Bunk'Art 1",
+          "gem": true,
+          "q": "Bunk'Art 1 Tirana",
+          "text": "<p>Ein riesiger Atombunker am Stadtrand, gebaut für Hoxha und seine Regierung. Im Berg verbergen sich viele Räume, die heute Geschichte erzählen – vom Alltag in der Diktatur bis zu Ausstellungen zur jüngeren Geschichte Albaniens. Besucher berichten, dass man etwa 80 Minuten bis 2 Stunden einplanen sollte. Bei Google steht Bunk'Art 1 mit 4,6 Sternen bei über 5.000 Bewertungen.</p>",
+          "text_en": "<p>A huge nuclear bunker on the edge of town built for Hoxha and his government. Many rooms hidden inside the mountain now tell history – from everyday life under the dictatorship to exhibitions on Albania’s recent history. Visitors report that you should allow roughly 80 minutes to 2 hours. On Google Bunk'Art 1 has 4.6 stars from over 5,000 reviews.</p>",
+          "hours": "täglich ab 9:30 Uhr; Schluss laut Google 16:30 Uhr, laut Museum im Sommer 2025 18:00 Uhr – vorher prüfen",
+          "hours_en": "daily from 9:30 am; closing 4:30 pm according to Google, 6 pm in summer 2025 according to the museum – check beforehand",
+          "tip": "Mein Rat: mit dem Bus raus zu Bunk'Art 1, danach zurück ins Zentrum und den Abend im Blloku verbringen. Der Weg zum Eingang führt bergauf. Das Museum liegt nahe der Dajti-Seilbahn – du kannst beides verbinden. Audioguide gibt es in vielen Sprachen; viele Texte sind sonst nur auf Albanisch.",
+          "tip_en": "My advice: take the bus out to Bunk'Art 1, then back to the centre and spend the evening in Blloku. The way to the entrance is uphill. The museum is near the Dajti cable car – you can combine the two. There is an audio guide in many languages; many texts are otherwise only in Albanian.",
+          "photos": ["images/photos/albanien-aussicht.webp"]
+        },
+        {
+          "name": "Bunk'Art 2",
+          "q": "Bunk'Art 2 Tirana",
+          "text": "<p>Nur ein paar Schritte vom Skanderbeg-Platz erinnert Bunk'Art 2 an die Zeit der Diktatur – ein ehemaliger Bunker unter dem Innenministerium, heute Museum und Gedenkort für die Opfer der Geheimpolizei. Der Eingang führt über Treppen nach unten; es ist eng und nicht barrierefrei.</p>",
+          "text_en": "<p>Just a few steps from Skanderbeg Square, Bunk'Art 2 recalls the dictatorship – a former bunker beneath the Interior Ministry, now a museum and memorial for the victims of the secret police. The entrance leads down stairs; it is cramped and not step-free.</p>",
+          "hours": "laut Google täglich ca. 9:30–18:30 Uhr",
+          "hours_en": "daily about 9:30 am–6:30 pm according to Google",
+          "price": "ca. 900 Lek (laut einer Besucherin im Juli 2026, Karte oder bar)",
+          "price_en": "about 900 lek (according to a visitor in July 2026, card or cash)",
+          "tip": "Früh kommen – Besucher loben, dass man dann vor den Gruppen alles in Ruhe sehen kann.",
+          "tip_en": "Come early – visitors say you then see everything in peace before the groups arrive."
+        },
+        {
+          "name": "House of Leaves (Haus der Blätter)",
+          "name_en": "House of Leaves",
+          "q": "House of Leaves Museum Tirana",
+          "text": "<p>Ein früheres Entbindungsheim, später Hauptquartier der Geheimpolizei Sigurimi – heute ein Museum über Überwachung und Spitzel. Laut Besuchern ist die Präsentation klarer als in Bunk'Art 2 und der Ort selbst der echte Schauplatz. Fotografieren ist drinnen nicht erlaubt.</p>",
+          "text_en": "<p>A former maternity hospital, later headquarters of the secret police Sigurimi – today a museum about surveillance and informers. According to visitors the presentation is clearer than at Bunk'Art 2 and the place itself the real setting. Photography is not allowed inside.</p>",
+          "hours": "täglich ca. 9–19 Uhr (laut Google)",
+          "hours_en": "daily about 9 am–7 pm (according to Google)",
+          "price": "ca. 700 Lek, laut Besuchern bar",
+          "price_en": "about 700 lek, cash according to visitors",
+          "tip": "Wenn du wenig Zeit hast: Bunk'Art 1 plus eines der beiden Stadtmuseen reicht, viele Inhalte überschneiden sich.",
+          "tip_en": "If you are short of time: Bunk'Art 1 plus one of the two city museums is enough, a lot of content overlaps."
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "stadt",
+      "h": "Tirana erleben: Blloku, Pyramide & Aussicht",
+      "h_en": "Experiencing Tirana: Blloku, the Pyramid & views",
+      "spots": [
+        {
+          "name": "Blloku",
+          "q": "Blloku Tirana",
+          "text": "<p>Das früher abgeriegelte Viertel der Parteielite – bis 1991 durften normale Albaner hier nicht rein. Heute sitzt man hier mit Matcha und Kuchen im Café, es gibt Bars, Terrassenlokale und Läden. Größer kann der Kontrast zu Bunk'Art kaum sein.</p>",
+          "text_en": "<p>The former closed quarter of the party elite – until 1991 ordinary Albanians were not allowed in. Today you sit here with matcha and cake in a café, and there are bars, terrace restaurants and shops. It hardly gets bigger a contrast with Bunk'Art.</p>",
+          "tip": "Fërgesë (Gericht aus Paprika, Tomate und Käse) in einem Terrassenlokal kostet laut Reiseportalen mit Brot und Bier etwa 800–1.000 Lek.",
+          "tip_en": "Fërgesë (a dish of pepper, tomato and cheese) at a terrace restaurant costs around 800–1,000 lek with bread and beer according to travel portals.",
+          "photos": ["images/video/tirana-matcha-cafe.mp4"]
+        },
+        {
+          "name": "Komiteti – Bar mit Kommunismus-Museum",
+          "name_en": "Komiteti – the bar that doubles as a communism museum",
+          "gem": true,
+          "q": "Komiteti Bar Tirana",
+          "text": "<p>Morgens Café, später Bar – eingerichtet wie ein Museum der kommunistischen Zeit mit alten Geräten, Pflanzen an den Wänden und viel Raki. Auf Google hat Komiteti 4,5 Sterne bei rund 1.600 Bewertungen; Gäste heben besonders die Raki-Auswahl und die Atmosphäre hervor.</p>",
+          "text_en": "<p>Café in the morning, bar later – furnished like a museum of the communist era with old equipment, plants on the walls and plenty of raki. On Google Komiteti has 4.5 stars from around 1,600 reviews; guests especially mention the choice of raki and the atmosphere.</p>",
+          "hours": "laut Google täglich 7:00–24:00 Uhr",
+          "hours_en": "daily 7 am–midnight according to Google"
+        },
+        {
+          "name": "Die Pyramide von Tirana",
+          "name_en": "The Pyramid of Tirana",
+          "q": "Pyramid of Tirana",
+          "text": "<p>Das frühere Hoxha-Mausoleum (1988 als Museum eröffnet) ist heute ein Kultur- und Jugendzentrum. Du kannst außen hinaufklettern und hast oben einen Blick über die Stadt – Besucher schwärmen vom Sonnenuntergang.</p>",
+          "text_en": "<p>The former Hoxha mausoleum (opened as a museum in 1988) is now a culture and youth centre. You can climb up the outside and have a view over the city at the top – visitors rave about the sunset.</p>",
+          "hours": "Außenbereich laut Google rund um die Uhr zugänglich",
+          "hours_en": "outside area open around the clock according to Google",
+          "tip": "Plane den Aufstieg für den Sonnenuntergang – aber trag feste Schuhe.",
+          "tip_en": "Plan the climb for sunset – but wear sturdy shoes."
+        },
+        {
+          "name": "Dajti Ekspres (Seilbahn)",
+          "name_en": "Dajti Ekspres (cable car)",
+          "q": "Dajti Ekspres cable car Tirana",
+          "text": "<p>Die Seilbahn fährt in rund 15 Minuten auf den Hausberg der Stadt, den Dajti. Oben warten Panoramablick, Cafés und Restaurants sowie Minigolf und Spielplätze. Besucher nennen etwa 1.400–1.500 Lek für Hin- und Rückfahrt.</p>",
+          "text_en": "<p>The cable car takes about 15 minutes up to the city’s local mountain, Dajti. At the top are panoramic views, cafés and restaurants as well as mini golf and playgrounds. Visitors mention about 1,400–1,500 lek for a round trip.</p>",
+          "hours": "laut Google Mi–So (Dienstag geschlossen), ca. 9–18 Uhr",
+          "hours_en": "Wed–Sun according to Google (closed Tuesday), about 9 am–6 pm",
+          "tip": "Im Juli/August bilden sich am späten Vormittag Schlangen – früh fahren. Das lässt sich gut mit Bunk'Art 1 verbinden, das in der Nähe liegt.",
+          "tip_en": "In July/August queues form in late morning – go early. It combines well with Bunk'Art 1, which is nearby."
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "durres",
+      "h": "Ausflug nach Durrës: Antike, Strand, Straßenhunde",
+      "h_en": "Day trip to Durrës: antiquity, beach, street dogs",
+      "box": "gyg",
+      "intro": "<p>Eine knappe Stunde von Tirana entfernt liegt Durrës – eine Küstenstadt, in der römische Geschichte und Plattenbau nebeneinanderstehen.</p>",
+      "intro_en": "<p>Just under an hour from Tirana lies Durrës – a coastal city where Roman history and tower blocks stand side by side.</p>",
+      "spots": [
+        {
+          "name": "Römisches Amphitheater von Durrës",
+          "name_en": "Roman amphitheatre of Durrës",
+          "q": "Amphitheatre of Durrës",
+          "text": "<p>Ein römisches Amphitheater liegt mitten zwischen Wohnhäusern, dazu stehen Säulen eines byzantinischen Forums an der Straßenecke. Es ist nicht riesig, und Besucher sagen, dass der Zustand mäßig ist – etwa 20–30 Minuten reichen. Auf Google hat es 4,1 Sterne.</p>",
+          "text_en": "<p>A Roman amphitheatre sits among residential buildings, and the columns of a Byzantine forum stand at a street corner. It is not huge, and visitors say its condition is modest – about 20–30 minutes are enough. On Google it has 4.1 stars.</p>",
+          "hours": "laut Google täglich ca. 9–19 Uhr",
+          "hours_en": "daily about 9 am–7 pm according to Google",
+          "tip": "Eintritt laut Besuchern nur bar – nimm Lek mit.",
+          "tip_en": "Admission is cash only according to visitors – bring lek.",
+          "photos": ["images/photos/durres-strasse.webp", "images/photos/durres-flagge.webp"]
+        },
+        {
+          "name": "Die verlassene Villa auf dem Hügel",
+          "name_en": "The abandoned villa on the hill",
+          "gem": true,
+          "q": "Durrës Albania",
+          "text": "<p>Oben auf einem Hügel über der Stadt steht eine verlassene Villa. Abblätternder Putz, leere Fensterhöhlen, eine Treppe, die ins Nichts führt. Draußen auf der Terrasse ein rostiges Gerüst – und dahinter der Blick über ganz Durrës.</p>",
+          "text_en": "<p>High on a hill above the city stands an abandoned villa. Peeling plaster, empty window holes, a staircase leading to nowhere. Outside on the terrace a rusty scaffold – and beyond it the view over all of Durrës.</p>",
+          "tip": "Das ist ein verlassenes Gebäude: Sei vorsichtig mit Treppen und Gerüsten und geh nicht allein in baufällige Bereiche.",
+          "tip_en": "This is an abandoned building: be careful with stairs and scaffolding and do not enter dilapidated areas alone.",
+          "photos": ["images/photos/durres-verlassene-villa.webp"]
+        },
+        {
+          "name": "Strand am Abend",
+          "name_en": "The beach in the evening",
+          "q": "Durrës beach promenade",
+          "text": "<p>Abends am Strand kam ein Hund vorbei, setzte sich dazu und wollte einfach nur gestreichelt werden. Auf dem großen Platz der Stadt dösen Straßenhunde in der Sonne, die rot-schwarze Flagge weht vor einem Hochhaus.</p>",
+          "text_en": "<p>In the evening at the beach a dog came by, sat down next to me and simply wanted to be petted. On the city’s big square street dogs doze in the sun, the red-and-black flag flies in front of a tower block.</p>",
+          "photos": ["images/video/durres-strand-nacht.mp4", "images/photos/durres-hunde.webp", "images/video/durres-essen.mp4"]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "essen",
+      "h": "Essen, Trinken & Preise",
+      "h_en": "Food, drink & prices",
+      "html": "<ul><li><strong>Byrek</strong> (Blätterteig mit Füllung) vom Bäcker ab dem Morgen: etwa 100–200 Lek.</li><li><strong>Fërgesë</strong> in Blloku: etwa 800–1.000 Lek mit Brot und Bier.</li><li><strong>Espresso</strong> kostet oft weniger als 1 €.</li><li><strong>Abendessen</strong> mit zwei Gängen und Wein in einem guten Restaurant: grob 2.000–3.500 Lek pro Person.</li><li><strong>Raki</strong> ist der Nationalschnaps – ausprobieren, am besten im Komiteti.</li></ul><p>Preise nach Reiseportalen, Stand 2026 – sie können abweichen. Trinkgeld: 5–10 % oder aufrunden.</p>",
+      "html_en": "<ul><li><strong>Byrek</strong> (filled pastry) from a bakery from the morning on: about 100–200 lek.</li><li><strong>Fërgesë</strong> in Blloku: about 800–1,000 lek with bread and beer.</li><li><strong>Espresso</strong> often costs less than €1.</li><li><strong>Dinner</strong> with two courses and wine in a good restaurant: roughly 2,000–3,500 lek per person.</li><li><strong>Raki</strong> is the national spirit – try it, ideally at Komiteti.</li></ul><p>Prices according to travel portals, 2026 – they may differ. Tipping: 5–10 % or round up.</p>"
+    },
+    {
+      "type": "prose",
+      "id": "uebernachten",
+      "h": "Wo übernachten?",
+      "h_en": "Where to stay",
+      "html": "<ul><li><strong>Zentrum um den Skanderbeg-Platz:</strong> alles zu Fuß, nah an Bunk'Art 2.</li><li><strong>Blloku:</strong> Cafés, Bars und Restaurants vor der Tür, abends lebendig.</li><li><strong>Nähe Pyramide:</strong> ruhiger, gut für Sonnenuntergang und Cafés.</li></ul><p>Preise pro Nacht grob: unter 30 € (günstig), 40–80 € (mittel), ab 100 € (gehoben). Prüf die aktuellen Preise bei Buchungsplattformen.</p>",
+      "html_en": "<ul><li><strong>Centre around Skanderbeg Square:</strong> everything on foot, close to Bunk'Art 2.</li><li><strong>Blloku:</strong> cafés, bars and restaurants on your doorstep, lively in the evening.</li><li><strong>Near the Pyramid:</strong> quieter, good for sunset and cafés.</li></ul><p>Prices per night roughly: under €30 (budget), €40–80 (mid-range), from €100 (upscale). Check current prices on booking platforms.</p>"
+    },
+    {
+      "type": "prose",
+      "id": "wissen",
+      "h": "Was Albanien ausmacht",
+      "h_en": "What makes Albania special",
+      "html": "<p>Albanien hat Berge bis an die 2.700 Meter, Strände am Ionischen Meer, die mit Griechenland mithalten – und Preise, bei denen du zweimal hinschaust. Über 400 Jahre gehörte das Land zum Osmanischen Reich, 1912 wurde es unabhängig. 1967 erklärte Hoxha Albanien zum ersten atheistischen Staat der Welt. Gegründet wurde Tirana 1614 von einem osmanischen General, Hauptstadt ist sie erst seit 1920. Ab 2000 ließ der damalige Bürgermeister Edi Rama graue Plattenbauten knallbunt streichen – deshalb ist die Stadt heute so farbig.</p><p><strong>Mein Fazit:</strong> Albanien ist roh, herzlich und noch nicht glattpoliert. Genau deshalb sollte man jetzt hin – bevor es alle tun.</p>",
+      "html_en": "<p>Albania has mountains up to around 2,700 metres, beaches on the Ionian Sea that rival Greece – and prices that make you look twice. For over 400 years the country belonged to the Ottoman Empire, in 1912 it became independent. In 1967 Hoxha declared Albania the world’s first atheist state. Tirana was founded in 1614 by an Ottoman general and has only been the capital since 1920. From 2000 the then mayor Edi Rama had grey prefab blocks painted in bright colours – which is why the city is so colourful today.</p><p><strong>My conclusion:</strong> Albania is raw, warm-hearted and not yet polished smooth. That is exactly why you should go now – before everyone does.</p>"
+    }
+  ],
+  "itinerary": [
+    {
+      "h": "Tag 1 – Zentrum & Blloku",
+      "h_en": "Day 1 – Centre & Blloku",
+      "items": [
+        "<strong>Vormittag</strong> – Skanderbeg-Platz und Nationalmuseum, dann Bunk'Art 2 (früh)",
+        "<strong>Mittag</strong> – Byrek oder Fërgesë, Pause im Café in Blloku",
+        "<strong>Nachmittag</strong> – House of Leaves oder Pyramide mit Aussicht",
+        "<strong>Abend</strong> – Raki und Abendessen im Komiteti / Blloku"
+      ],
+      "items_en": [
+        "<strong>Morning</strong> – Skanderbeg Square and national museum, then Bunk'Art 2 (early)",
+        "<strong>Midday</strong> – byrek or fërgesë, break at a café in Blloku",
+        "<strong>Afternoon</strong> – House of Leaves or the Pyramid with its view",
+        "<strong>Evening</strong> – raki and dinner at Komiteti / Blloku"
+      ]
+    },
+    {
+      "h": "Tag 2 – Bunk'Art 1 & Dajti",
+      "h_en": "Day 2 – Bunk'Art 1 & Dajti",
+      "items": [
+        "<strong>Vormittag</strong> – mit dem Bus raus zu Bunk'Art 1 (ca. 2 Stunden)",
+        "<strong>Mittag</strong> – Dajti Ekspres mit Panorama und Mittagessen oben",
+        "<strong>Abend</strong> – zurück im Zentrum, Sonnenuntergang an der Pyramide"
+      ],
+      "items_en": [
+        "<strong>Morning</strong> – bus out to Bunk'Art 1 (about 2 hours)",
+        "<strong>Midday</strong> – Dajti Ekspres with panorama and lunch at the top",
+        "<strong>Evening</strong> – back in the centre, sunset at the Pyramid"
+      ]
+    },
+    {
+      "h": "Tag 3 – Durrës",
+      "h_en": "Day 3 – Durrës",
+      "items": [
+        "<strong>Vormittag</strong> – Bus nach Durrës (ca. 30–40 Minuten), römisches Amphitheater",
+        "<strong>Mittag</strong> – Essen in der Altstadt, Hügel mit der verlassenen Villa",
+        "<strong>Abend</strong> – Strandspaziergang, zurück nach Tirana"
+      ],
+      "items_en": [
+        "<strong>Morning</strong> – bus to Durrës (about 30–40 minutes), Roman amphitheatre",
+        "<strong>Midday</strong> – lunch in the old town, the hill with the abandoned villa",
+        "<strong>Evening</strong> – beach walk, back to Tirana"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viele Tage braucht man in Tirana?",
+      "q_en": "How many days do you need in Tirana?",
+      "a": "<p>Zwei Tage reichen für Zentrum, Blloku und die Bunker; mit Durrës oder einem weiteren Ausflug sind drei Tage ideal.</p>",
+      "a_en": "<p>Two days cover the centre, Blloku and the bunkers; with Durrës or another excursion three days are ideal.</p>"
+    },
+    {
+      "q": "Brauche ich Euro oder Lek?",
+      "q_en": "Do I need euros or lek?",
+      "a": "<p>Offizielle Währung ist der Lek. In Touristenbereichen wird oft auch Euro akzeptiert, den Wechselkurs bekommst du aber meist besser in Lek. Manche Museen und Eintritte (z. B. House of Leaves, Amphitheater in Durrës) nehmen laut Besuchern nur Bargeld.</p>",
+      "a_en": "<p>The official currency is the lek. In tourist areas euros are often accepted too, but you usually get a better rate in lek. Some museums and admissions (for example House of Leaves, the amphitheatre in Durrës) are cash only according to visitors.</p>"
+    },
+    {
+      "q": "Ist Tirana sicher?",
+      "q_en": "Is Tirana safe?",
+      "a": "<p>Im Zentrum geht es meist entspannt zu. Die üblichen Vorsichtsregeln für Großstädte gelten: Wertsachen im Blick behalten, abends im Taxi lieber den Preis vorher klären (oder Bolt nutzen).</p>",
+      "a_en": "<p>The centre is mostly relaxed. The usual big-city precautions apply: keep valuables in sight and in the evening agree the taxi price first (or use Bolt).</p>"
+    },
+    {
+      "q": "Wann ist die beste Reisezeit?",
+      "q_en": "When is the best time to visit?",
+      "a": "<p>April bis Juni und September bis Oktober. Im Juli und August wird es oft über 35 °C heiß. Noel war im Mai dort.</p>",
+      "a_en": "<p>April to June and September to October. In July and August it often gets hotter than 35 °C. Noel was there in May.</p>"
+    },
+    {
+      "q": "Lohnt sich Bunk'Art 1 oder Bunk'Art 2 mehr?",
+      "q_en": "Is Bunk'Art 1 or Bunk'Art 2 better?",
+      "a": "<p>Wenn du nur eins besuchst, ist es nach Noels Erfahrung Bunk'Art 1: Atombunker am Stadtrand, fast menschenleer und beeindruckend. Bunk'Art 2 liegt dafür mitten im Zentrum und ist leicht einzuschieben.</p>",
+      "a_en": "<p>If you only visit one, in Noel’s experience it is Bunk'Art 1: a nuclear bunker on the edge of town, almost empty and impressive. Bunk'Art 2 on the other hand is right in the centre and easy to fit in.</p>"
+    }
+  ]
+}

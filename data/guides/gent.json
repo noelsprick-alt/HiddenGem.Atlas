@@ -1,0 +1,255 @@
+{
+  "slug": "gent",
+  "slug_en": "ghent",
+  "status": "live",
+  "cc": "BE",
+  "flag": "🇧🇪",
+  "city": "Gent",
+  "city_en": "Ghent",
+  "updated": "2026-11-04",
+  "title": "Gent Guide: Graslei, Graffiti-Gasse & Waffeln in 2 Tagen",
+  "title_en": "Ghent Guide: Graslei, the Graffiti Lane & Waffles in 2 Days",
+  "desc": "Gent in zwei Tagen: Graslei bei Nacht, Werregarenstraatje, Gravensteen, Genter Altar, Patershol, Anreise per Zug und Preise – von Noel, der im Januar 2026 dort war.",
+  "desc_en": "Ghent in two days: the Graslei at night, Werregarenstraatje, Gravensteen, the Ghent Altarpiece, Patershol, getting there by train and prices – from Noel, who was there in January 2026.",
+  "hero": "images/photos/gent-graslei.webp",
+  "hero_alt": "Graslei in Gent",
+  "hero_alt_en": "Graslei in Ghent",
+  "gyg_q": "Ghent",
+  "media": [
+    "images/photos/gent-nacht.webp",
+    "images/photos/gent-graffiti-gasse.webp",
+    "images/photos/gent-waffel.webp",
+    "images/video/gent-strassenmusik.mp4"
+  ],
+  "intro": "<p>Brügge kennt jeder. Gent steht viel seltener auf der Liste – zu Unrecht. Die Stadt ist kompakt, zu Fuß machbar und hat genug Grachten, Street-Art und Cafés für zwei volle Tage. Dazu kommt eine Geschichte, die weit größer ist als die Stadt: Im Mittelalter war Gent dank Tuchhandel eine der größten Städte Europas nördlich der Alpen.</p><p>Dieser Guide zeigt dir, wie du Gent in zwei Tagen erlebst, was du essen solltest und wie du günstig und entspannt hinkommst. Preise und Öffnungszeiten sind Richtwerte (Stand 2026) – vor dem Besuch kurz prüfen.</p>",
+  "intro_en": "<p>Everybody knows Bruges. Ghent is far less often on the list – wrongly. The city is compact, walkable and has enough canals, street art and cafés for two full days. Add to that a history far bigger than the city: in the Middle Ages, thanks to the cloth trade, Ghent was one of the largest cities in Europe north of the Alps.</p><p>This guide shows you how to experience Ghent in two days, what to eat and how to get there cheaply and comfortably. Prices and opening hours are guidelines (2026) – check briefly before you go.</p>",
+  "story": "<p>Ich war im Januar 2026 in Gent. Schon am ersten Abend: Gildehäuser, die sich im schwarzen Wasser spiegeln, Lichter an den Fassaden, die Uferwege fast leer. Am nächsten Tag fahren Ausflugsboote durch die Kanäle, und die Graslei ist voller Leben. Im Werregarenstraatje stand ein Künstler mit Farbeimer und rotem Hocker an der Wand und hat einfach weitergemalt – was ich fotografiert habe, gibt es so wahrscheinlich längst nicht mehr. Dazu eine belgische Waffel mit Fähnchen obendrauf, Matcha in einem kleinen Café nahe der Kathedrale und am Korenmarkt ein Aperol in der Wintersonne. Vor dem Rathaus mit seinen Flaggen habe ich lange nach dem perfekten Winkel gesucht.</p>",
+  "story_en": "<p>I was in Ghent in January 2026. On the very first evening: guild houses reflected in black water, lights on the façades, the quays almost empty. The next day sightseeing boats glide through the canals and the Graslei is full of life. In the Werregarenstraatje an artist with a paint bucket and a red stool stood at the wall and just kept painting – what I photographed probably no longer exists in that form. Add a Belgian waffle with a little flag on top, matcha in a small café near the cathedral and an Aperol on the Korenmarkt in the winter sun. In front of the town hall with its flags I searched for the perfect angle for a long time.</p>",
+  "facts": [
+    { "k": "Dauer", "k_en": "How long", "v": "2 Tage (kompakt, zu Fuß machbar)", "v_en": "2 days (compact, walkable)" },
+    { "k": "Beste Reisezeit", "k_en": "Best time", "v": "Ganzjährig; Frühling und Herbst angenehm, Winter ruhiger", "v_en": "Year-round; spring and autumn pleasant, winter quieter" },
+    { "k": "Währung", "k_en": "Currency", "v": "Euro", "v_en": "Euro" },
+    { "k": "Sprache", "k_en": "Language", "v": "Niederländisch (Flämisch); Englisch klappt gut", "v_en": "Dutch (Flemish); English works well" },
+    { "k": "Zug", "k_en": "By train", "v": "Brüssel ca. 30 Min., Brügge ca. 25 Min., Antwerpen ca. 1 Std.", "v_en": "Brussels about 30 min, Bruges about 25 min, Antwerp about 1 hour" },
+    { "k": "Mit dem Rad", "k_en": "By bike", "v": "Die Innenstadt ist flach und kompakt", "v_en": "The city centre is flat and compact" }
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "anreise",
+      "h": "So kommst du nach Gent und herum",
+      "h_en": "Getting to Ghent and around",
+      "box": "omio",
+      "html": "<h3>Mit dem Zug</h3><p>Der Bahnhof heißt Gent-Sint-Pieters. Von Brüssel dauert die Fahrt rund 30 Minuten, von Brügge etwa 25 Minuten. Vom Flughafen Brüssel fahren Züge direkt oder mit Umstieg in Brüssel-Noord, etwa 50–70 Minuten (aktuelle Fahrpläne bei NMBS/SNCB). Von Antwerpen sind es nach meiner Erfahrung rund eine Stunde – ideal für ein langes Wochenende mit beiden Städten.</p><h3>In der Stadt</h3><p>Die Altstadt ist kompakt und lässt sich gut zu Fuß erkunden. Vom Bahnhof zum Korenmarkt fährt die Tram in etwa 5–10 Minuten; eine Einzelfahrt kostet rund 3 € und gilt eine Stunde (De Lijn, Zahlung per Karte oder Handy möglich).</p><h3>Gent City Card</h3><p>Die Gent City Card deckt mehrere Attraktionen ab, darunter das Gravensteen. Rechne vorher aus, ob sie sich für deinen Plan lohnt – die Stadt wirbt mit bis zu 20 € Ersparnis.</p>",
+      "html_en": "<h3>By train</h3><p>The station is Gent-Sint-Pieters. From Brussels the trip takes about 30 minutes, from Bruges about 25. From Brussels Airport trains run direct or with a change at Brussels-Noord, about 50–70 minutes (current timetables at NMBS/SNCB). From Antwerp it is, in my experience, about an hour – ideal for a long weekend with both cities.</p><h3>In the city</h3><p>The old town is compact and easy to explore on foot. From the station to the Korenmarkt the tram takes about 5–10 minutes; a single ride costs around €3 and is valid for an hour (De Lijn, card or phone payment possible).</p><h3>Gent City Card</h3><p>The Gent City Card covers several attractions including the Gravensteen. Work out beforehand whether it pays off for your plan – the city advertises savings of up to €20.</p>"
+    },
+    {
+      "type": "spots",
+      "id": "wasser",
+      "h": "Graslei, Gildehäuser & die Altstadt",
+      "h_en": "Graslei, guild houses & the old town",
+      "spots": [
+        {
+          "name": "Graslei und Korenlei",
+          "q": "Graslei Gent",
+          "text": "<p>Gildehäuser, die sich im Wasser spiegeln – am Abend leuchten die Fassaden, tagsüber fahren Ausflugsboote durch die Kanäle. Auf Google hat die Graslei 4,8 Sterne. Sie wird tagsüber voll, abends dagegen sind die Uferwege deutlich ruhiger.</p>",
+          "text_en": "<p>Guild houses reflected in the water – in the evening the façades glow, by day sightseeing boats glide through the canals. On Google the Graslei has 4.8 stars. It gets crowded by day, while in the evening the quays are much quieter.</p>",
+          "tip": "Komm am ersten Abend zur Graslei bei Nacht – die Lichter an den Fassaden sind das schönste Fotomotiv. Kanalrundfahrten ab Graslei/Korenlei dauern etwa 40 Minuten und kosten rund 10–11 €.",
+          "tip_en": "Come to the Graslei at night on your first evening – the lights on the façades make the best photo. Canal boat tours from Graslei/Korenlei take about 40 minutes and cost around €10–11.",
+          "photos": ["images/photos/gent-graslei.webp", "images/photos/gent-nacht.webp", "images/photos/gent-abend.webp"]
+        },
+        {
+          "name": "Rathaus & Korenmarkt",
+          "name_en": "Town hall & Korenmarkt",
+          "q": "Stadhuis Gent",
+          "text": "<p>Das Rathaus mit seinen Flaggen ist ein Fotomotiv für sich – such dir in Ruhe den Winkel. Die Fassade kannst du kostenlos ansehen. Am Korenmarkt sitzt man auch im Winter in der Sonne mit einem Aperol, es gibt viele Restaurants.</p>",
+          "text_en": "<p>The town hall with its flags is a photo motif in itself – take your time to find the angle. You can view the façade for free. On the Korenmarkt you can sit in the sun with an Aperol even in winter, and there are plenty of restaurants.</p>",
+          "photos": ["images/photos/gent-rathaus.webp", "images/photos/gent-aperol.webp"]
+        },
+        {
+          "name": "Gravensteen",
+          "q": "Gravensteen Gent",
+          "text": "<p>Die Grafenburg mitten in der Stadt ist fast komplett aus Stein und gut erhalten, mit Waffenausstellung und Aussicht von oben. Auf Google hat sie 4,6 Sterne bei rund 37.000 Bewertungen; Besucher empfehlen den längeren Audioguide.</p>",
+          "text_en": "<p>The castle of the counts in the middle of the city is almost entirely stone and well preserved, with an armoury display and views from the top. On Google it has 4.6 stars from around 37,000 reviews; visitors recommend the longer audio guide.</p>",
+          "hours": "täglich ca. 10–18 Uhr, letzter Einlass ca. 16:40 Uhr (laut Stadtportalen)",
+          "hours_en": "daily about 10 am–6 pm, last entry about 4:40 pm (according to city portals)",
+          "price": "ca. 15 € für Erwachsene (Stand 2026)",
+          "price_en": "about €15 for adults (2026)",
+          "tip": "Tickets vorab buchen – es gibt feste Zeitfenster, spontan kann es Schlangen geben.",
+          "tip_en": "Book tickets in advance – there are fixed time slots, and spontaneous visits can mean queues."
+        },
+        {
+          "name": "St.-Bavo-Kathedrale und der Genter Altar",
+          "name_en": "St Bavo’s Cathedral and the Ghent Altarpiece",
+          "q": "St Bavo's Cathedral Gent",
+          "text": "<p>In der Kathedrale hängt der Genter Altar der Brüder van Eyck – eines der meistgestohlenen Kunstwerke der Welt; eine Tafel fehlt seit 1934. Kaiser Karl V. wurde 1500 in Gent geboren und hier getauft. Die Kirche selbst ist kostenlos zugänglich, für den Altar brauchst du ein separates Ticket.</p>",
+          "text_en": "<p>The cathedral holds the Ghent Altarpiece by the van Eyck brothers – one of the most stolen artworks in the world; one panel has been missing since 1934. Emperor Charles V was born in Ghent in 1500 and baptised here. The church itself is free to enter, but you need a separate ticket for the altarpiece.</p>",
+          "hours": "Kirche laut Google Mo–Sa 8:30–17:30, So ab 13 Uhr",
+          "hours_en": "church according to Google Mon–Sat 8:30 am–5:30 pm, Sun from 1 pm",
+          "price": "Altar ca. 12,50–16 € (Preis vor Ort/online prüfen)",
+          "price_en": "altarpiece about €12.50–16 (check price on site/online)",
+          "tip": "Viele empfehlen, vorher die kurze VR-Tour in der Krypta zu machen – sie erklärt die Geschichte des Altars.",
+          "tip_en": "Many recommend doing the short VR tour in the crypt first – it explains the altarpiece’s history."
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "streetart",
+      "h": "Street-Art & stille Ecken",
+      "h_en": "Street art & quiet corners",
+      "spots": [
+        {
+          "name": "Werregarenstraatje – die legale Graffiti-Gasse",
+          "name_en": "Werregarenstraatje – the legal graffiti lane",
+          "gem": true,
+          "q": "Werregarenstraat Gent",
+          "text": "<p>Gents legale Graffiti-Gasse: Die Wände werden ständig neu besprüht – während ich dort war, stand ein Künstler mit Farbeimer und rotem Hocker an der Wand und hat einfach weitergemalt. Was ich fotografiert habe, gibt es so wahrscheinlich längst nicht mehr. Auf Google hat die Gasse 4,2 Sterne; Besucher erwähnen ein kleines Café mitten in der Gasse.</p>",
+          "text_en": "<p>Ghent’s legal graffiti lane: the walls are constantly resprayed – while I was there an artist with a paint bucket and a red stool stood at the wall and simply kept painting. What I photographed probably no longer exists in that form. On Google the lane has 4.2 stars; visitors mention a small café in the middle of the lane.</p>",
+          "tip": "Komm tagsüber, wenn Künstler arbeiten – dann siehst du die Wände entstehen. Das Motiv ändert sich laufend, also fotografier alles sofort.",
+          "tip_en": "Come by day when artists are working – then you see the walls emerging. The motif changes constantly, so photograph everything right away.",
+          "photos": ["images/photos/gent-graffiti-gasse.webp", "images/photos/gent-graffiti-wand.webp", "images/photos/gent-streetart.webp"]
+        },
+        {
+          "name": "Sint-Jacobskerk",
+          "q": "St Jacob's Church Gent",
+          "text": "<p>Eine der ältesten Kirchen der Gegend, die ältesten Teile stammen laut Besuchern aus dem 12. Jahrhundert. Besucher beschreiben sie als ruhig und deutlich weniger besucht als die Kathedrale – ein stiller Zwischenstopp beim Freitagsmarkt. Auf Google 4,4 Sterne.</p>",
+          "text_en": "<p>One of the oldest churches in the area, its oldest parts dating from the 12th century according to visitors. Visitors describe it as quiet and far less visited than the cathedral – a calm stop at the Friday market. 4.4 stars on Google.</p>",
+          "hours": "laut Google Di–So 14–18 Uhr, montags geschlossen",
+          "hours_en": "Tue–Sun 2–6 pm according to Google, closed Mondays"
+        },
+        {
+          "name": "Patershol",
+          "q": "Patershol Gent",
+          "text": "<p>Gents ältestes erhaltenes Wohnviertel mit Kopfsteinpflastergassen und vielen Restaurants – ideal für den ersten Abend. Hier findest du auf fast jeder Karte Waterzooi, den Genter Eintopf mit Huhn oder Fisch.</p>",
+          "text_en": "<p>Ghent’s oldest surviving residential quarter with cobbled lanes and many restaurants – ideal for the first evening. Almost every menu here has waterzooi, the Ghent stew with chicken or fish.</p>"
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "essen",
+      "h": "Waffeln, Matcha, Bier",
+      "h_en": "Waffles, matcha, beer",
+      "spots": [
+        {
+          "name": "Belgische Waffel",
+          "name_en": "Belgian waffle",
+          "q": "waffles Gent",
+          "text": "<p>Natürlich gab es eine belgische Waffel, mit Fähnchen obendrauf – der Klassiker für zwischendurch.</p>",
+          "text_en": "<p>Of course there was a Belgian waffle, with a little flag on top – the classic snack for in between.</p>",
+          "photos": ["images/photos/gent-waffel.webp"]
+        },
+        {
+          "name": "Matcha-Café nahe der Kathedrale & Design-Laden",
+          "name_en": "Matcha café near the cathedral & design shop",
+          "q": "matcha cafe Gent",
+          "text": "<p>Danach gab es Matcha in einem kleinen Café nahe der Kathedrale und ein bunter Design-Laden voller Keramik – perfekt für eine Pause zwischen den Sehenswürdigkeiten.</p>",
+          "text_en": "<p>After that matcha in a small café near the cathedral and a colourful design shop full of ceramics – perfect for a break between the sights.</p>",
+          "photos": ["images/photos/gent-matcha.webp", "images/photos/gent-designladen.webp"]
+        },
+        {
+          "name": "Dulle Griet",
+          "q": "Dulle Griet Gent Vrijdagmarkt",
+          "text": "<p>Eine Kneipe am Vrijdagmarkt mit weit über 500 Biersorten. Berühmt ist das 1,5-Liter-Bier im Stiefel: Du gibst dafür einen Schuh als Pfand ab. Die belgische Bierkultur ist übrigens immaterielles UNESCO-Kulturerbe.</p>",
+          "text_en": "<p>A pub on the Vrijdagmarkt with well over 500 beers. Famous is the 1.5-litre beer in a boot: you leave a shoe as a deposit. Belgian beer culture is, by the way, UNESCO intangible cultural heritage.</p>",
+          "hours": "laut Google Mo ab 16:30, Di–Sa ab 12 Uhr bis ca. 1 Uhr, So 12–19:30 Uhr",
+          "hours_en": "according to Google Mon from 4:30 pm, Tue–Sat from noon until about 1 am, Sun noon–7:30 pm",
+          "tip": "Auf Google 4,4 Sterne. Trag an dem Abend ein Paar Schuhe, auf die du verzichten kannst.",
+          "tip_en": "4.4 stars on Google. Wear a pair of shoes you can part with that evening."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "antwerpen",
+      "h": "Und Antwerpen?",
+      "h_en": "And Antwerp?",
+      "html": "<p>Antwerpen ist größer und quirliger: der Grote Markt mit dem Brabo-Brunnen, prächtige Gildehäuser, viel Mode, viel Tempo. Mit dem Zug liegen beide Städte nur rund eine Stunde auseinander – perfekt für ein langes Wochenende. Antwerpen ist seit Jahrhunderten die Welthauptstadt des Diamantenhandels.</p>",
+      "html_en": "<p>Antwerp is bigger and livelier: the Grote Markt with the Brabo fountain, magnificent guild houses, lots of fashion, lots of pace. By train the two cities are only about an hour apart – perfect for a long weekend. Antwerp has been the world capital of the diamond trade for centuries.</p>"
+    },
+    {
+      "type": "prose",
+      "id": "uebernachten",
+      "h": "Wo übernachten?",
+      "h_en": "Where to stay",
+      "html": "<ul><li><strong>Altstadt (Korenmarkt, Graslei):</strong> mitten im Geschehen, alles zu Fuß – abends laut.</li><li><strong>Patershol:</strong> ruhiger, Kopfsteinpflaster und Restaurants.</li><li><strong>Nähe Bahnhof Gent-Sint-Pieters:</strong> oft günstiger, mit Tram in 5–10 Minuten im Zentrum.</li></ul><p>Tipp: Wer nur kurz bleibt, schläft in der Altstadt – so sparst du dir Wege und siehst die Graslei auch spät abends.</p>",
+      "html_en": "<ul><li><strong>Old town (Korenmarkt, Graslei):</strong> in the thick of things, everything on foot – loud in the evening.</li><li><strong>Patershol:</strong> quieter, cobblestones and restaurants.</li><li><strong>Near Gent-Sint-Pieters station:</strong> often cheaper, in the centre by tram in 5–10 minutes.</li></ul><p>Tip: if you only stay briefly, sleep in the old town – you save on walking and can see the Graslei late at night.</p>"
+    },
+    {
+      "type": "prose",
+      "id": "wissen",
+      "h": "Was Belgien ausmacht",
+      "h_en": "What makes Belgium special",
+      "box": "gyg",
+      "html": "<p>Drei Sprachen, gefühlt tausend Biersorten, Pommes, Waffeln und Comics: Tim und Struppi kommen von hier. Und eine Gelassenheit, mit der man selbst im Nieselregen draußen sitzt. Belgien gibt es erst seit 1830.</p><p><strong>Mein Fazit:</strong> Gent ist ideal für ein Wochenende: kompakt, zu Fuß machbar, mit genug Street-Art und Cafés für zwei volle Tage. Brügge steht noch auf meiner Liste.</p>",
+      "html_en": "<p>Three languages, what feels like a thousand beers, fries, waffles and comics: Tintin comes from here. And a calm with which you sit outside even in drizzle. Belgium has only existed since 1830.</p><p><strong>My conclusion:</strong> Ghent is ideal for a weekend: compact, walkable, with enough street art and cafés for two full days. Bruges is still on my list.</p>"
+    }
+  ],
+  "itinerary": [
+    {
+      "h": "Tag 1 – Altstadt & Graslei",
+      "h_en": "Day 1 – Old town & Graslei",
+      "items": [
+        "<strong>Vormittag</strong> – Rathaus, St.-Bavo-Kathedrale (Genter Altar), Belfried",
+        "<strong>Mittag</strong> – Pause mit Matcha oder Waffel, Design-Laden",
+        "<strong>Nachmittag</strong> – Gravensteen (Zeitfenster vorab buchen)",
+        "<strong>Abend</strong> – Patershol zum Essen, danach die Graslei bei Nacht"
+      ],
+      "items_en": [
+        "<strong>Morning</strong> – town hall, St Bavo’s Cathedral (Ghent Altarpiece), belfry",
+        "<strong>Midday</strong> – break with matcha or a waffle, design shop",
+        "<strong>Afternoon</strong> – Gravensteen (book time slot in advance)",
+        "<strong>Evening</strong> – dinner in Patershol, then the Graslei at night"
+      ]
+    },
+    {
+      "h": "Tag 2 – Street-Art & Wasser",
+      "h_en": "Day 2 – Street art & water",
+      "items": [
+        "<strong>Vormittag</strong> – Werregarenstraatje: den Künstlern beim Sprayen zusehen",
+        "<strong>Mittag</strong> – Vrijdagmarkt, Sint-Jacobskerk",
+        "<strong>Nachmittag</strong> – Kanalrundfahrt ab Graslei, Aperol am Korenmarkt",
+        "<strong>Abend</strong> – Dulle Griet oder ein ruhiger Abend, optional Zug nach Antwerpen am nächsten Tag"
+      ],
+      "items_en": [
+        "<strong>Morning</strong> – Werregarenstraatje: watch the artists spray",
+        "<strong>Midday</strong> – Vrijdagmarkt, Sint-Jacobskerk",
+        "<strong>Afternoon</strong> – canal boat tour from the Graslei, Aperol on the Korenmarkt",
+        "<strong>Evening</strong> – Dulle Griet or a calm evening, optionally a train to Antwerp the next day"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viele Tage braucht man in Gent?",
+      "q_en": "How many days do you need in Ghent?",
+      "a": "<p>Zwei Tage reichen: Die Altstadt ist kompakt, und du schaffst Graslei, Gravensteen, Kathedrale, Street-Art und Essen locker.</p>",
+      "a_en": "<p>Two days are enough: the old town is compact, and you can easily fit in the Graslei, Gravensteen, cathedral, street art and food.</p>"
+    },
+    {
+      "q": "Gent oder Brügge?",
+      "q_en": "Ghent or Bruges?",
+      "a": "<p>Brügge kennt jeder, Gent steht viel seltener auf der Liste – nach Noels Erfahrung zu Unrecht. Beide sind per Zug nur etwa 25 Minuten voneinander entfernt, du kannst also kombinieren.</p>",
+      "a_en": "<p>Everybody knows Bruges, Ghent is far less often on the list – wrongly, in Noel’s experience. By train the two are only about 25 minutes apart, so you can combine them.</p>"
+    },
+    {
+      "q": "Lohnt sich die Gent City Card?",
+      "q_en": "Is the Gent City Card worth it?",
+      "a": "<p>Sie deckt mehrere Attraktionen ab, darunter das Gravensteen. Die Stadt nennt bis zu 20 € Ersparnis – rechne vorher mit deinem Plan nach.</p>",
+      "a_en": "<p>It covers several attractions including the Gravensteen. The city quotes savings of up to €20 – calculate against your plan first.</p>"
+    },
+    {
+      "q": "Kann man Gent im Winter besuchen?",
+      "q_en": "Can you visit Ghent in winter?",
+      "a": "<p>Ja, Noel war im Januar dort: Die Uferwege waren abends fast leer, und am Korenmarkt saß man sogar in der Wintersonne mit einem Aperol. Zieh dich warm an.</p>",
+      "a_en": "<p>Yes, Noel was there in January: the quays were almost empty in the evening, and on the Korenmarkt you could even sit in the winter sun with an Aperol. Dress warmly.</p>"
+    },
+    {
+      "q": "Wie komme ich nach Gent?",
+      "q_en": "How do I get to Ghent?",
+      "a": "<p>Per Zug nach Gent-Sint-Pieters: aus Brüssel in etwa 30 Minuten, aus Brügge etwa 25 Minuten, aus Antwerpen ungefähr eine Stunde. Fahrpläne bei NMBS/SNCB oder Omio prüfen.</p>",
+      "a_en": "<p>By train to Gent-Sint-Pieters: from Brussels in about 30 minutes, from Bruges about 25, from Antwerp roughly an hour. Check timetables at NMBS/SNCB or Omio.</p>"
+    }
+  ]
+}
