@@ -2746,6 +2746,7 @@ body.sr-lock{overflow:hidden}
     <div class="sec-hd-l"><div class="sec-lbl" data-i18n="bl_lbl">Reise-Guides &amp; Stories</div><h2 data-i18n="bl_h2">Aus <em>erster Hand</em></h2></div>
     
   </div>
+  <div class="blog-grid" id="guide-grid" style="margin-bottom:14px"></div>
   <div class="blog-grid" id="blog-grid"></div>
 </section>
 
@@ -6124,6 +6125,19 @@ function bcOpen(id){
   openDetail('blog-' + b.id, stripTags(Lz(b, 'tag')) || t('bl_lbl'), Lz(b, 'title'), stripTags(Lz(b, 'meta')), b.link || ig, b.link ? t('bl_open') : t('bl_ig'), 'blog/' + b.id);
 }
 HG.openers['blog'] = bcOpen;
+
+// ── STADT-GUIDES (statische Seiten aus data/guides, Index: de|en/guides.json) ──
+const GUIDE_CACHE = {};
+function guidesRender(){
+  const grid = document.getElementById('guide-grid'); if (!grid) return;
+  const lg = (typeof lang !== 'undefined' && lang === 'en') ? 'en' : 'de';
+  const draw = list => {
+    grid.innerHTML = (list || []).map(g => `<a class="bc has-img" href="${esc(g.url)}" style="text-decoration:none;color:inherit;display:block"><div class="bi sand"><img class="hg-img" src="${esc(g.img)}" alt="" loading="lazy"></div><div class="bc-body"><div class="bc-tag">${esc(g.flag)} ${lg === 'en' ? 'City guide' : 'Stadt-Guide'}</div><div class="bc-title">${esc(g.title)}</div><div class="bc-read">${lg === 'en' ? 'Open the guide →' : 'Guide öffnen →'}</div></div></a>`).join('');
+  };
+  if (GUIDE_CACHE[lg]) return draw(GUIDE_CACHE[lg]);
+  fetch(lg + '/guides.json').then(r => r.ok ? r.json() : []).then(j => { GUIDE_CACHE[lg] = j; draw(j); }).catch(() => {});
+}
+HG.onRender(guidesRender);
 
 HG.onRender(rcRender); HG.onRender(projRender); HG.onRender(partnersRender); HG.onRender(blogRender);
 

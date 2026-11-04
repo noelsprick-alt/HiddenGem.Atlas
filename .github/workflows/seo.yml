@@ -7,6 +7,8 @@ on:
       - 'data/routes.json'
       - 'data/content.json'
       - 'scripts/build-seo.mjs'
+      - 'scripts/guides.mjs'
+      - 'data/guides/**'
   workflow_dispatch:
     inputs:
       all:
