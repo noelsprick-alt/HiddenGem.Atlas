@@ -1,0 +1,304 @@
+{
+  "slug": "mallorca",
+  "slug_en": "mallorca",
+  "status": "live",
+  "cc": "ES",
+  "flag": "🇪🇸",
+  "city": "Mallorca",
+  "city_en": "Mallorca",
+  "updated": "2026-11-04",
+  "title": "Mallorca Guide: Buchten ohne Straße, Bergdörfer & Hidden Gems",
+  "title_en": "Mallorca Guide: Roadless Coves, Mountain Villages & Hidden Gems",
+  "desc": "Mallorca abseits von Eimern und Strohhalmen: Cala Màrmols, Valldemossa, Palma ohne Eile, Essen im Inselinneren, Anreise, Bus & Insider-Tipps – von Noel, der 2026 zweimal da war.",
+  "desc_en": "Mallorca beyond buckets and straws: Cala Màrmols, Valldemossa, Palma without rushing, eating inland, getting there, buses and insider tips – from Noel, who visited twice in 2026.",
+  "hero": "images/hero/mallorca-bucht-w.webp",
+  "hero_alt": "Bucht auf Mallorca",
+  "hero_alt_en": "Cove on Mallorca",
+  "gyg_q": "Mallorca",
+  "media": [
+    "images/photos/mallorca-bucht.webp",
+    "images/video/cala-marmols.mp4",
+    "images/video/vilafranca-prozession.mp4",
+    "images/photos/palma-kathedrale.webp"
+  ],
+  "intro": "<p>Mallorca hat einen Ruf, und der hat viel mit Eimern und Strohhalmen zu tun. Dieser Guide zeigt die andere Insel: Prozessionen im Inselinneren, Buchten, zu denen keine Straße führt, ein Bergdorf aus Sandstein und ein Abendessen zwischen Olivenbäumen.</p><p>Du findest hier Anreise und Bus-Tipps, die Orte, die sich wirklich lohnen, was du essen solltest und einen Plan für fünf Tage. Alle Preise und Zeiten sind Richtwerte (Stand 2026) – vor allem Eintritte und Fahrpläne ändern sich, prüf sie kurz vor der Reise.</p>",
+  "intro_en": "<p>Mallorca has a reputation, and it has a lot to do with buckets and straws. This guide shows the other island: processions inland, coves with no road to them, a sandstone mountain village and a dinner among olive trees.</p><p>You will find getting there and bus tips, the places that are really worth it, what to eat and a five-day plan. All prices and times are guidelines (2026) – especially admissions and timetables change, so check them shortly before you travel.</p>",
+  "story": "<p>Ich war 2026 zweimal auf Mallorca, im April und im September. Im April zog kurz vor Ostern eine Prozession durch Vilafranca de Bonany: Büßer in langen Gewändern mit spitzen Kapuzen, Musik, dazwischen Stille. Das ist das Mallorca, das man vom Strand aus nie zu sehen bekommt. Bei Moltak in Palma habe ich in einer alten Windmühle Paella kochen gelernt – Schürze an, große Pfanne, jede Menge Gelächter. In Valldemossa stand ich mit der Kamera an der Mauer und habe versucht, die Dächer vor den Bergen der Tramuntana einzufangen. Spoiler: Live ist es schöner.</p>",
+  "story_en": "<p>I visited Mallorca twice in 2026, in April and in September. In April, shortly before Easter, a procession wound through Vilafranca de Bonany: penitents in long robes with pointed hoods, music, silence in between. That is the Mallorca you never get to see from the beach. At Moltak in Palma I learned to cook paella in an old windmill – apron on, big pan, lots of laughter. In Valldemossa I stood at the wall with my camera trying to capture the rooftops against the Tramuntana mountains. Spoiler: it is better live.</p>",
+  "facts": [
+    { "k": "Dauer", "k_en": "How long", "v": "5 Tage, mit Mietwagen. Ohne Auto: Palma + Sóller + Valldemossa", "v_en": "5 days with a rental car. Without a car: Palma + Sóller + Valldemossa" },
+    { "k": "Beste Reisezeit", "k_en": "Best time", "v": "April–Juni und September–Oktober", "v_en": "April–June and September–October" },
+    { "k": "Währung", "k_en": "Currency", "v": "Euro", "v_en": "Euro" },
+    { "k": "Sprache", "k_en": "Language", "v": "Spanisch und Mallorquinisch (eine Form des Katalanischen)", "v_en": "Spanish and Mallorquin (a form of Catalan)" },
+    { "k": "Welterbe", "k_en": "World Heritage", "v": "Serra de Tramuntana seit 2011", "v_en": "Serra de Tramuntana since 2011" },
+    { "k": "Mietwagen", "k_en": "Rental car", "v": "Sehr sinnvoll für Buchten und Bergdörfer; früh buchen", "v_en": "Very useful for coves and mountain villages; book early" }
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "anreise",
+      "h": "So kommst du nach Mallorca und herum",
+      "h_en": "Getting to Mallorca and around",
+      "html": "<h3>Anreise</h3><p>Flughafen ist Palma de Mallorca (PMI). Von dort fahren Busse in die Innenstadt (EMT-Flughafenlinie; laut Anbietern rund 5 € pro Fahrt, Linien und Preise vorab prüfen) – zu Fuß in die Altstadt brauchst du vom Zentrum nicht lang.</p><h3>Bus</h3><p>Innerhalb von Palma fahren die EMT-Busse (Einzelfahrt etwa 2 € bar). Zwischen den Orten die TIB-Überlandbusse: kurze Strecken ab etwa 3 €, längere bis etwa 10–13,50 € bar; mit der aufladbaren Karte sind sie günstiger bzw. nach Angabe von Anbietern teils kostenlos – das ändert sich, also vorher auf der TIB-Seite prüfen. Nach Valldemossa fährt die Linie 210 ab dem Busbahnhof Estació Intermodal (etwa 30–40 Minuten).</p><h3>Historischer Zug nach Sóller</h3><p>Der Holzzug Palma–Sóller kostet laut Anbietern etwa 22–23 € einfach, die Straßenbahn weiter nach Port de Sóller etwa 9–10 €. Kombitickets sind meist günstiger. Beide sind nicht in den Verkehrs-Freikarten enthalten.</p><h3>Mietwagen</h3><p>Für Buchten wie Cala Màrmols oder s'Almunia und für die Dörfer der Tramuntana lohnt sich ein Auto. In der Hochsaison sind Parkplätze an den Highlights früh voll – Noels Rat: früh los.</p>",
+      "html_en": "<h3>Arrival</h3><p>The airport is Palma de Mallorca (PMI). Buses run from there to the city centre (EMT airport line; around €5 a trip according to operators, check lines and prices beforehand) – from the centre it is a short walk into the old town.</p><h3>Bus</h3><p>Inside Palma the EMT buses (single about €2 cash). Between towns the TIB intercity buses: short trips from about €3, longer ones up to around €10–13.50 cash; with the rechargeable card they are cheaper or, according to providers, partly free – this changes, so check the TIB site first. To Valldemossa runs line 210 from the Estació Intermodal bus station (about 30–40 minutes).</p><h3>Historic train to Sóller</h3><p>The wooden train Palma–Sóller costs about €22–23 one way according to operators, the tram onward to Port de Sóller about €9–10. Combined tickets are usually cheaper. Neither is covered by the free-travel cards.</p><h3>Rental car</h3><p>For coves like Cala Màrmols or s'Almunia and the villages of the Tramuntana a car pays off. In high season parking at the highlights fills early – Noel’s advice: start early.</p>"
+    },
+    {
+      "type": "spots",
+      "id": "buchten",
+      "h": "Buchten, die man sich verdienen muss",
+      "h_en": "Coves you have to earn",
+      "intro": "<p>Die schönsten Buchten im Südosten haben keinen Kiosk und keinen Liegestuhl-Verleih. Dafür Wasser in Türkis und meist weniger Menschen als an den großen Stränden.</p>",
+      "intro_en": "<p>The best coves in the south-east have no kiosk and no sunbed rental. Instead you get turquoise water and usually fewer people than on the big beaches.</p>",
+      "spots": [
+        {
+          "name": "Cala Màrmols",
+          "gem": true,
+          "q": "Cala Màrmols Santanyí",
+          "text": "<p>Eine Bucht im Süden ohne Straße und ohne Kiosk – du kommst nur zu Fuß oder mit dem Boot hin. Der Abstieg über die Felsen lohnt sich: türkises Wasser und ein Felsbogen, als hätte ihn jemand dort hingestellt. Der Weg ab dem Leuchtturm am Cap de ses Salines dauert je nach Tempo grob 1 bis 2 Stunden pro Richtung und ist durchgehend steinig.</p>",
+          "text_en": "<p>A cove in the south with no road and no kiosk – you only get there on foot or by boat. The scramble down over the rocks is worth it: turquoise water and a rock arch as if someone had put it there. The walk from the lighthouse at Cap de ses Salines takes roughly 1 to 2 hours each way depending on your pace and is stony throughout.</p>",
+          "hours": "Strand frei zugänglich; keine Toiletten, kein Kiosk",
+          "hours_en": "beach freely accessible; no toilets, no kiosk",
+          "tip": "Feste Schuhe statt Flip-Flops, viel Wasser, Hut und Sonnencreme – es gibt kaum Schatten. Im Sommer früh los. Bleib auf dem offiziellen Weg: Auf einer Abkürzung über Privatgrund hat sich laut Besuchern schon ein Eigentümer beschwert. Und nimm einen Rucksack statt einer Strandtasche, damit du beim steilen Abstieg die Hände frei hast.",
+          "tip_en": "Sturdy shoes instead of flip-flops, plenty of water, hat and sunscreen – there is hardly any shade. In summer start early. Stay on the official path: visitors report that an owner has already complained about a shortcut across private land. And take a rucksack instead of a beach tote so you have your hands free on the steep descent.",
+          "photos": ["images/photos/cala-marmols-abstieg.webp", "images/video/cala-marmols.mp4"]
+        },
+        {
+          "name": "Cala s'Almunia",
+          "gem": true,
+          "q": "Cala s'Almunia Santanyí",
+          "text": "<p>Bei der Cala s'Almunia liegen die alten Bootshäuser der Fischer direkt am Wasser. Es ist eher eine kleine Felsbucht als ein Sandstrand – dafür glasklar und gut zum Schnorcheln. Der Zugang führt über Stufen, und der Weg vom Parkplatz dauert nach Besucherberichten rund 10–20 Minuten.</p>",
+          "text_en": "<p>At Cala s'Almunia the fishermen’s old boathouses sit right on the water. It is more a small rocky cove than a sandy beach – but crystal clear and good for snorkelling. Access is via steps, and the walk from the car park takes about 10–20 minutes according to visitors.</p>",
+          "tip": "Wasserschuhe mitnehmen, die Felsen sind scharf. Im Hochsommer ist die Bucht kein Geheimtipp mehr – früh am Morgen oder im Frühjahr/September hast du deutlich mehr Platz.",
+          "tip_en": "Bring water shoes, the rocks are sharp. In high summer the cove is no secret any more – early morning or spring/September gives you much more space.",
+          "photos": ["images/video/cala-almunia.mp4"]
+        },
+        {
+          "name": "Es Pontàs",
+          "gem": true,
+          "q": "Mirador del Pontàs Cala Santanyí",
+          "text": "<p>Ein riesiger Felsbogen im Meer, der wie eine Brücke aussieht. Vom Aussichtspunkt (Mirador) siehst du ihn und die Steilküste – am schönsten bei Sonnenaufgang oder Sonnenuntergang. Der Fußweg ab Cala Santanyí ist kurz, etwa 10–15 Minuten, aber felsig.</p>",
+          "text_en": "<p>A huge rock arch in the sea that looks like a bridge. From the viewpoint (Mirador) you see it and the cliff coast – most beautiful at sunrise or sunset. The walk from Cala Santanyí is short, about 10–15 minutes, but rocky.</p>",
+          "tip": "Gib in Google Maps „Mirador del Pontàs“ ein – der Eintrag „Es Pontàs“ führt laut Besuchern an einen falschen Ort bzw. auf Privatgrund. Schwimmen nur bei ruhigem Wasser und nur gute Schwimmer.",
+          "tip_en": "Enter “Mirador del Pontàs” in Google Maps – the entry “Es Pontàs” leads to a wrong spot or private land according to visitors. Swim only in calm water and only if you are a strong swimmer."
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "palma",
+      "h": "Palma ohne Eile",
+      "h_en": "Palma without rushing",
+      "spots": [
+        {
+          "name": "La Seu – die Kathedrale von Palma",
+          "name_en": "La Seu – Palma Cathedral",
+          "q": "Catedral de Mallorca",
+          "text": "<p>La Seu, Palmas gotische Kathedrale, steht direkt am Meer und sieht zwischen den Palmen fast gemalt aus. Von einer Dachterrasse in der Altstadt liegt sie dir zu Füßen.</p>",
+          "text_en": "<p>La Seu, Palma’s Gothic cathedral, stands right by the sea and looks almost painted between the palm trees. From a rooftop terrace in the old town it lies at your feet.</p>",
+          "tip": "Eintritt und Öffnungszeiten ändern sich je nach Saison und Gottesdiensten – auf der offiziellen Seite prüfen und in der Hochsaison vorab buchen.",
+          "tip_en": "Admission and opening times change with the season and services – check the official site and book ahead in high season.",
+          "photos": ["images/photos/palma-kathedrale.webp", "images/video/palma-rooftop.mp4"]
+        },
+        {
+          "name": "Paella-Kochkurs bei Moltak",
+          "name_en": "Paella cooking class at Moltak",
+          "gem": true,
+          "q": "MOLTAK Carrer de la Indústria 9 Palma",
+          "text": "<p>Bei Moltak habe ich in einer alten Windmühle Paella kochen gelernt – Schürze an, große Pfanne, jede Menge Gelächter. In Googles Bewertungen steht Moltak mit 5,0 Sternen bei rund 800 Bewertungen; Gäste loben vor allem die lockere Atmosphäre und dass man die Rezepte mitnehmen kann.</p>",
+          "text_en": "<p>At Moltak I learned to cook paella in an old windmill – apron on, big pan, lots of laughter. On Google Moltak has a 5.0-star rating from around 800 reviews; guests mainly praise the relaxed atmosphere and that you can take the recipes home.</p>",
+          "hours": "laut Google täglich geöffnet (Mittag und Abend)",
+          "hours_en": "open daily according to Google (lunch and evening)",
+          "tip": "Vorher buchen – gerade abends sind die Plätze begehrt. Plane einen Tag ohne langen Ausflug dafür ein.",
+          "tip_en": "Book ahead – evening slots especially are popular. Plan a day without a long excursion for it.",
+          "photos": ["images/photos/palma-kochkurs.webp", "images/video/palma-moltak-kochen.mp4"]
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "berge",
+      "h": "Valldemossa & die Tramuntana",
+      "h_en": "Valldemossa & the Tramuntana",
+      "box": "gyg",
+      "spots": [
+        {
+          "name": "Valldemossa",
+          "q": "Valldemossa Mallorca",
+          "text": "<p>Ein Bergdorf aus Sandstein, in dem Chopin den Winter 1838/39 verbracht hat – gemeinsam mit George Sand in den Zellen der Kartause. Dort sind ein Museum mit Chopins Klavier und Handschriften sowie eine barocke Kirche und eine alte Apotheke zu sehen. Die Gassen sind schön, aber zur Mittagszeit voll.</p>",
+          "text_en": "<p>A mountain village of sandstone where Chopin spent the winter of 1838/39 – together with George Sand in the cells of the charterhouse. There is a museum with Chopin’s piano and manuscripts as well as a baroque church and an old pharmacy. The lanes are pretty but crowded around lunchtime.</p>",
+          "tip": "Vor 9:30 Uhr da sein – dann hast du das Dorf fast für dich. Von etwa 11 bis 14 Uhr (April–Oktober) kommen Reisegruppen. Parkplätze im Ort sind knapp und im Hochsommer früh voll, deshalb ist der Bus ab Palma entspannter. Probier eine Coca de Patata (weiches Kartoffelgebäck) vom kleinen Bäcker.",
+          "tip_en": "Be there before 9:30 am – then you have the village almost to yourself. From about 11 am to 2 pm (April–October) tour groups arrive. Parking in the village is scarce and fills early in high summer, which is why the bus from Palma is more relaxed. Try a coca de patata (soft potato pastry) from a small bakery."
+        },
+        {
+          "name": "Sóller & der historische Zug",
+          "name_en": "Sóller & the historic train",
+          "q": "Estació del Tren de Sóller",
+          "text": "<p>Der alte Holzzug aus Palma fährt in die Berge nach Sóller, von dort geht es mit der Straßenbahn weiter an die Küste nach Port de Sóller. Entspannt und ohne Mietwagen machbar – ein guter Plan, wenn du nicht selbst fahren willst.</p>",
+          "text_en": "<p>The old wooden train from Palma runs into the mountains to Sóller, from there a tram continues to the coast at Port de Sóller. Relaxed and doable without a rental car – a good plan if you do not want to drive.</p>"
+        },
+        {
+          "name": "Serra de Tramuntana & GR 221",
+          "q": "Serra de Tramuntana Mallorca",
+          "text": "<p>Das Gebirge im Nordwesten ist rund 90 Kilometer lang, bis etwa 1.500 Meter hoch und seit 2011 UNESCO-Welterbe. Dörfer wie Deià, Fornalutx oder Estellencs erreichst du mit dem Auto; der Fernwanderweg GR 221 („Trockensteinroute“) führt rund 160 Kilometer durch das Gebirge.</p>",
+          "text_en": "<p>The mountain range in the north-west is about 90 kilometres long, up to roughly 1,500 metres high and a UNESCO World Heritage Site since 2011. Villages such as Deià, Fornalutx or Estellencs can be reached by car; the long-distance trail GR 221 (the “dry stone route”) runs around 160 kilometres through the range.</p>",
+          "tip": "Die Straßen sind kurvig und eng – fahr früh und rechne mit mehr Zeit als das Navi sagt.",
+          "tip_en": "The roads are winding and narrow – drive early and allow more time than the satnav says."
+        },
+        {
+          "name": "Sa Calobra & Torrent de Pareis",
+          "q": "Sa Calobra Torrent de Pareis",
+          "text": "<p>Eine Schlucht, in der der Torrent de Pareis ins Meer mündet und an einer Kiesbucht endet – eines der Naturhighlights der Westküste. Die Anfahrt ist eine Serpentinenstraße, in der Hochsaison ist es voll.</p>",
+          "text_en": "<p>A gorge where the Torrent de Pareis meets the sea and ends at a pebble cove – one of the natural highlights of the west coast. The approach is a serpentine road, and in high season it is crowded.</p>",
+          "tip": "Plane Sa Calobra für einen eigenen Tag ein, am besten außerhalb der Hauptferienzeit.",
+          "tip_en": "Plan Sa Calobra as a day of its own, ideally outside peak holiday season."
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "innenland",
+      "h": "Essen & Dörfer im Inselinneren",
+      "h_en": "Eating & villages inland",
+      "intro": "<p>Hier lernst du das Mallorca kennen, das ohne Strand auskommt: Märkte, Dorfbäcker und lange Abendessen im Grünen. Typisch zum Mitnehmen: die Ensaïmada, das Schmalzgebäck, das du als Schnecke im Karton nach Hause trägst.</p>",
+      "intro_en": "<p>This is where you meet the Mallorca that does not need a beach: markets, village bakeries and long dinners in the countryside. A typical souvenir: the ensaïmada, the lard pastry you carry home as a spiral in a box.</p>",
+      "spots": [
+        {
+          "name": "Qanat de Treurer",
+          "gem": true,
+          "q": "Restaurant Qanat de Treurer Algaida",
+          "text": "<p>Fine Dining zwischen Olivenbäumen bei Algaida, mit einer Terrasse, die zur goldenen Stunde leuchtet. Bei Google steht das Restaurant mit 4,8 Sternen (rund 60 Bewertungen); Gäste erwähnen besonders die Terrasse, das Grillmenü und die Olivenöl-Führung.</p>",
+          "text_en": "<p>Fine dining among olive trees near Algaida, with a terrace that glows at golden hour. On Google the restaurant has 4.8 stars (around 60 reviews); guests particularly mention the terrace, the barbecue night and the olive-oil tour.</p>",
+          "hours": "laut Google nur abends (ca. 18:30–21:30), montags geschlossen",
+          "hours_en": "evenings only according to Google (about 6:30–9:30 pm), closed Mondays",
+          "price": "gehobene Preisklasse",
+          "price_en": "upscale prices",
+          "tip": "Reservieren, und komm früh genug, um die Terrasse zur goldenen Stunde zu erwischen.",
+          "tip_en": "Reserve, and arrive early enough to catch the terrace at golden hour.",
+          "photos": ["images/photos/qanat-terrasse.webp", "images/photos/qanat-hauptgang.webp", "images/photos/qanat-dessert.webp"]
+        },
+        {
+          "name": "Mittwochsmarkt in Vilafranca de Bonany",
+          "name_en": "Wednesday market in Vilafranca de Bonany",
+          "q": "Vilafranca de Bonany Mallorca",
+          "text": "<p>Auf dem Mittwochsmarkt in Vilafranca gibt es Oliven, Sardinen und Gewürze, beim Dorfbäcker frisches Gebäck. Im April, kurz vor Ostern, zog hier eine Prozession durch – ein Mallorca, das du am Strand nie siehst.</p>",
+          "text_en": "<p>At the Wednesday market in Vilafranca there are olives, sardines and spices, and fresh pastry at the village bakery. In April, shortly before Easter, a procession passed through here – a Mallorca you never see at the beach.</p>",
+          "tip": "Märkte sind früh am Vormittag am besten. Die Karwoche ist spannend, aber Straßen und Parkplätze können dann gesperrt oder voll sein.",
+          "tip_en": "Markets are best early in the morning. Holy Week is fascinating but streets and parking can be closed or full then.",
+          "photos": ["images/video/vilafranca-markt.mp4", "images/video/vilafranca-prozession.mp4"]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "uebernachten",
+      "h": "Wo übernachten?",
+      "h_en": "Where to stay",
+      "html": "<ul><li><strong>Palma Altstadt:</strong> perfekt ohne Auto, nah an Kathedrale, Cafés und Bussen.</li><li><strong>Sóller / Port de Sóller:</strong> Berge und Küste, gut für Wanderer und den historischen Zug.</li><li><strong>Südosten (Santanyí, Cala Santanyí):</strong> Basis für Cala Màrmols, s'Almunia und Es Pontàs – mit Auto.</li><li><strong>Inselinneres (Algaida, Vilafranca):</strong> ruhig, Landhotels und Fincas – ideal für Märkte und Essen.</li></ul><p>Tipp: Wer zwei Wochen Zeit hat, kombiniert Palma mit einer ruhigeren Basis im Süden oder in den Bergen. Wer weniger Zeit hat, schläft in Palma und fährt Tagestouren.</p>",
+      "html_en": "<ul><li><strong>Palma old town:</strong> perfect without a car, close to the cathedral, cafés and buses.</li><li><strong>Sóller / Port de Sóller:</strong> mountains and coast, good for hikers and the historic train.</li><li><strong>South-east (Santanyí, Cala Santanyí):</strong> base for Cala Màrmols, s'Almunia and Es Pontàs – with a car.</li><li><strong>Inland (Algaida, Vilafranca):</strong> quiet, country hotels and fincas – ideal for markets and food.</li></ul><p>Tip: if you have two weeks, combine Palma with a quieter base in the south or in the mountains. With less time, sleep in Palma and do day trips.</p>"
+    },
+    {
+      "type": "prose",
+      "id": "wissen",
+      "h": "Was Mallorca ausmacht",
+      "h_en": "What makes Mallorca special",
+      "html": "<p>Hinter den Partystränden liegt eine Insel mit eigener Sprache – dem Mallorquinischen, einer Form des Katalanischen –, mit Mandelblüte im Februar und dem Tramuntana-Gebirge. Schon vor rund 3.000 Jahren bauten Menschen hier steinerne Türme, die Talayots; Reste davon stehen bis heute im Inselinneren. 1229 eroberte König Jaume I. von Aragón die Insel von den Mauren. Und im Winter 1838/39 wohnten Frédéric Chopin und George Sand in der Kartause von Valldemossa – ein ziemlich verregneter Winter, wie Sand später schrieb.</p><p><strong>Mein Fazit:</strong> Mallorca kann viel mehr als Strand und Sangria. Fahr ins Inselinnere, lauf zu den Buchten ohne Straße und plan mindestens einen Abend fürs richtig gute Essen ein.</p>",
+      "html_en": "<p>Behind the party beaches lies an island with its own language – Mallorquin, a form of Catalan –, with almond blossom in February and the Tramuntana mountains. Around 3,000 years ago people already built stone towers here, the talayots; remains of them still stand inland. In 1229 King Jaume I of Aragón conquered the island from the Moors. And in winter 1838/39 Frédéric Chopin and George Sand lived in the charterhouse of Valldemossa – a rather rainy winter, as Sand later wrote.</p><p><strong>My conclusion:</strong> Mallorca can do far more than beach and sangria. Go inland, hike to the coves without a road and plan at least one evening for really good food.</p>"
+    }
+  ],
+  "itinerary": [
+    {
+      "h": "Tag 1 – Palma",
+      "h_en": "Day 1 – Palma",
+      "items": [
+        "<strong>Vormittag</strong> – Kathedrale La Seu und Altstadtgassen",
+        "<strong>Mittag</strong> – Mittagessen in der Altstadt, danach Dachterrasse mit Blick auf die Kathedrale",
+        "<strong>Abend</strong> – Paella-Kochkurs bei Moltak (vorher buchen)"
+      ],
+      "items_en": [
+        "<strong>Morning</strong> – La Seu cathedral and old town lanes",
+        "<strong>Midday</strong> – lunch in the old town, then a rooftop terrace with a view of the cathedral",
+        "<strong>Evening</strong> – paella cooking class at Moltak (book ahead)"
+      ]
+    },
+    {
+      "h": "Tag 2 – Valldemossa & Tramuntana",
+      "h_en": "Day 2 – Valldemossa & Tramuntana",
+      "items": [
+        "<strong>Früh</strong> – nach Valldemossa, vor 9:30 Uhr ankommen",
+        "<strong>Vormittag</strong> – Kartause, Chopin-Zellen, Gassen",
+        "<strong>Nachmittag</strong> – Tramuntana-Dörfer wie Deià oder Fornalutx, oder Sóller mit dem Holzzug"
+      ],
+      "items_en": [
+        "<strong>Early</strong> – to Valldemossa, arrive before 9:30 am",
+        "<strong>Morning</strong> – charterhouse, Chopin cells, lanes",
+        "<strong>Afternoon</strong> – Tramuntana villages like Deià or Fornalutx, or Sóller by wooden train"
+      ]
+    },
+    {
+      "h": "Tag 3 – Buchten im Südosten",
+      "h_en": "Day 3 – South-east coves",
+      "items": [
+        "<strong>Früh</strong> – Wanderung zur Cala Màrmols (Leuchtturm Cap de ses Salines)",
+        "<strong>Nachmittag</strong> – Cala s'Almunia oder Es Pontàs zum Sonnenuntergang"
+      ],
+      "items_en": [
+        "<strong>Early</strong> – hike to Cala Màrmols (lighthouse at Cap de ses Salines)",
+        "<strong>Afternoon</strong> – Cala s'Almunia or Es Pontàs at sunset"
+      ]
+    },
+    {
+      "h": "Tag 4 – Inselinneres",
+      "h_en": "Day 4 – Inland",
+      "items": [
+        "<strong>Vormittag</strong> – Mittwochsmarkt in Vilafranca (wenn Mittwoch), Dorfbäcker",
+        "<strong>Abend</strong> – Abendessen im Qanat de Treurer (reservieren, montags geschlossen)"
+      ],
+      "items_en": [
+        "<strong>Morning</strong> – Wednesday market in Vilafranca (if it is Wednesday), village bakery",
+        "<strong>Evening</strong> – dinner at Qanat de Treurer (reserve, closed Mondays)"
+      ]
+    },
+    {
+      "h": "Tag 5 – Sa Calobra oder Pause",
+      "h_en": "Day 5 – Sa Calobra or a break",
+      "items": [
+        "<strong>Ganztägig</strong> – Sa Calobra und Torrent de Pareis, oder ein ruhiger Tag in Palma mit Ensaïmada zum Mitnehmen"
+      ],
+      "items_en": [
+        "<strong>All day</strong> – Sa Calobra and Torrent de Pareis, or a calm day in Palma with an ensaïmada to take home"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viele Tage braucht man auf Mallorca?",
+      "q_en": "How many days do you need on Mallorca?",
+      "a": "<p>Fünf Tage reichen für Palma, Tramuntana, Südostbuchten und das Inselinnere – mit Mietwagen. Ohne Auto sind 3–4 Tage mit Palma, Sóller und Valldemossa realistisch.</p>",
+      "a_en": "<p>Five days cover Palma, Tramuntana, the south-east coves and the interior – with a rental car. Without a car, 3–4 days with Palma, Sóller and Valldemossa are realistic.</p>"
+    },
+    {
+      "q": "Wann ist die beste Reisezeit?",
+      "q_en": "When is the best time to visit?",
+      "a": "<p>April bis Juni und September bis Oktober: angenehm warm, weniger voll. Noel war im April und im September dort. Im Februar blüht die Mandel.</p>",
+      "a_en": "<p>April to June and September to October: pleasantly warm and less crowded. Noel was there in April and September. In February the almond trees bloom.</p>"
+    },
+    {
+      "q": "Brauche ich ein Auto?",
+      "q_en": "Do I need a car?",
+      "a": "<p>Für Cala Màrmols, s'Almunia, Es Pontàs und das Inselinnere ja – öffentliche Verbindungen dorthin sind dünn. Für Palma, Valldemossa (Bus 210) und Sóller (Zug) kommst du ohne aus.</p>",
+      "a_en": "<p>For Cala Màrmols, s'Almunia, Es Pontàs and the interior yes – public connections there are thin. For Palma, Valldemossa (bus 210) and Sóller (train) you can manage without.</p>"
+    },
+    {
+      "q": "Ist die Cala Màrmols für Kinder geeignet?",
+      "q_en": "Is Cala Màrmols suitable for children?",
+      "a": "<p>Eher nicht: Der Weg ist lang, steinig und schattenarm, der Abstieg steil, es gibt weder Toiletten noch Kiosk. Für Familien eignen sich leichter erreichbare Strände besser.</p>",
+      "a_en": "<p>Rather not: the path is long, stony and shadeless, the descent steep, and there are neither toilets nor a kiosk. Easier-to-reach beaches suit families better.</p>"
+    },
+    {
+      "q": "Was sollte ich unbedingt essen?",
+      "q_en": "What should I definitely eat?",
+      "a": "<p>Ensaïmada (Schmalzgebäck), Coca de Patata in Valldemossa, Oliven und Sardinen vom Markt und Paella – am besten selbst gekocht bei einem Kurs.</p>",
+      "a_en": "<p>Ensaïmada (lard pastry), coca de patata in Valldemossa, olives and sardines from the market and paella – ideally cooked yourself in a class.</p>"
+    }
+  ]
+}
