@@ -1,0 +1,254 @@
+{
+  "slug": "egmond-aan-zee",
+  "slug_en": "egmond-aan-zee",
+  "status": "live",
+  "cc": "NL",
+  "flag": "🇳🇱",
+  "city": "Egmond aan Zee",
+  "city_en": "Egmond aan Zee",
+  "updated": "2026-11-04",
+  "title": "Egmond aan Zee Guide: Strand, Leuchtturm, Dünen & Abtei",
+  "title_en": "Egmond aan Zee Guide: Beach, Lighthouse, Dunes & Abbey",
+  "desc": "Egmond aan Zee an der Nordsee: breiter Strand, Leuchtturm, Dünenreservat, Abtei, Strandpavillons und Cafés – Anreise, Tipps und Tagesplan.",
+  "desc_en": "Egmond aan Zee on the North Sea: wide beach, lighthouse, dune reserve, abbey, beach pavilions and cafés – getting there, tips and a day plan.",
+  "gyg_q": "Egmond aan Zee",
+  "intro": "<p>Egmond aan Zee ist ein kleiner Küstenort in Nordholland: ein langer, breiter Sandstrand, Dünen, ein Leuchtturm im Ortskern und Strandpavillons, in denen du bei Wind und Wetter sitzen kannst. Es ist ein Ort zum Durchatmen – nach Besucherberichten ohne Nachtleben, dafür mit viel Natur.</p><p>Dieser Guide zeigt dir, was sich lohnt, wo du frühstückst und isst und wie du ohne Auto herkommst. Alle Zeiten und Preise sind Richtwerte (Stand 2026) – vorab kurz prüfen, besonders außerhalb der Saison.</p>",
+  "intro_en": "<p>Egmond aan Zee is a small coastal village in North Holland: a long, wide sandy beach, dunes, a lighthouse in the village centre and beach pavilions where you can sit in any weather. It is a place to breathe – according to visitors without nightlife, but with plenty of nature.</p><p>This guide shows what is worth it, where to have breakfast and eat and how to get here without a car. All times and prices are guidelines (2026) – check briefly beforehand, especially off-season.</p>",
+  "facts": [
+    { "k": "Dauer", "k_en": "How long", "v": "1 Tag oder ein Wochenende am Meer", "v_en": "1 day or a weekend by the sea" },
+    { "k": "Beste Reisezeit", "k_en": "Best time", "v": "Juli/August zum Strandtag; Frühling und Herbst zum Wandern und Radfahren", "v_en": "July/August for beach days; spring and autumn for walking and cycling" },
+    { "k": "Wetter", "k_en": "Weather", "v": "Immer Wind und Regen einplanen – eine Jacke gehört ins Gepäck", "v_en": "Always allow for wind and rain – pack a jacket" },
+    { "k": "Währung", "k_en": "Currency", "v": "Euro", "v_en": "Euro" },
+    { "k": "Sprache", "k_en": "Language", "v": "Niederländisch; in Cafés und Restaurants wird oft Deutsch und Englisch gesprochen", "v_en": "Dutch; German and English are often spoken in cafés and restaurants" },
+    { "k": "Nachtleben", "k_en": "Nightlife", "v": "Ruhig; vieles schließt gegen 22–23 Uhr", "v_en": "Quiet; much closes around 10–11 pm" }
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "id": "anreise",
+      "h": "So kommst du nach Egmond aan Zee",
+      "h_en": "How to get to Egmond aan Zee",
+      "box": "omio",
+      "html": "<h3>Mit dem Zug und Bus</h3><p>Egmond aan Zee hat keinen eigenen Bahnhof. Du fährst mit dem Zug bis Alkmaar (von Amsterdam Centraal gut erreichbar) und von dort weiter mit dem Bus an die Küste. Fahrpläne und Buslinie vorher in der Reise-App (z. B. 9292) prüfen – sie ändern sich saisonal.</p><h3>Mit dem Auto</h3><p>Alkmaar liegt etwa 20 Minuten mit dem Auto entfernt. In der Hochsaison sind die kleinen Parkplätze am Strand schnell voll; ein Besucher hat rund 800 m entfernt geparkt und war damit zufrieden.</p><h3>Fahrrad</h3><p>Die Gegend ist flach und gut zum Radfahren – nach Angaben von Reiseportalen bietet das Dünengebiet viele Wege.</p>",
+      "html_en": "<h3>By train and bus</h3><p>Egmond aan Zee has no station of its own. You take the train to Alkmaar (easy to reach from Amsterdam Centraal) and continue by bus to the coast. Check timetables and the bus line beforehand in a travel app (for example 9292) – they change seasonally.</p><h3>By car</h3><p>Alkmaar is about 20 minutes away by car. In high season the small car parks at the beach fill quickly; one visitor parked about 800 m away and was happy with that.</p><h3>By bike</h3><p>The area is flat and good for cycling – according to travel portals the dune area has many paths.</p>"
+    },
+    {
+      "type": "spots",
+      "id": "strand",
+      "h": "Strand, Leuchtturm & Dünen",
+      "h_en": "Beach, lighthouse & dunes",
+      "spots": [
+        {
+          "name": "Der Strand von Egmond aan Zee",
+          "name_en": "Egmond aan Zee beach",
+          "q": "Egmond aan Zee beach",
+          "text": "<p>Ein langer, breiter Sandstrand, der auf Google 4,6 Sterne bei rund 4.000 Bewertungen hat. Besucher beschreiben ihn als sauber, weit und selbst in der Ferienzeit nicht überlaufen – knapp sind eher die Parkplätze. Zum Baden ist das Wasser oft kalt.</p>",
+          "text_en": "<p>A long, wide sandy beach with 4.6 stars on Google from around 4,000 reviews. Visitors describe it as clean, spacious and not overcrowded even in the holiday season – parking is scarcer. The water is often cold for swimming.</p>",
+          "tip": "Hunde dürfen laut Besuchern nur in bestimmten Monaten an den Strand – vorher die aktuellen Regeln prüfen. Liegestuhl plus Sonnenschirm kosten an einem Pavillon laut einer Bewertung ca. 17 € pro Tag.",
+          "tip_en": "Dogs are only allowed on the beach in certain months according to visitors – check the current rules first. A sunbed plus parasol cost about €17 a day at one pavilion according to a review."
+        },
+        {
+          "name": "Leuchtturm J.C.J. van Speijk",
+          "name_en": "J.C.J. van Speijk lighthouse",
+          "q": "J C J van Speijk Lighthouse Egmond aan Zee",
+          "text": "<p>Der 37 Meter hohe Leuchtturm steht mitten im Ort, nahe am Strand. Von oben hast du einen weiten Blick über Ort, Dünen und Nordsee. Auf Google hat er 4,6 Sterne.</p>",
+          "text_en": "<p>The 37-metre lighthouse stands right in the village, close to the beach. From the top you have a wide view over the village, dunes and North Sea. On Google it has 4.6 stars.</p>",
+          "hours": "nach Angaben des Ortsportals im Juli und August geöffnet, sonst nur für Gruppen nach Absprache; Google nennt abweichende Zeiten",
+          "hours_en": "according to the village portal open in July and August, otherwise groups by appointment only; Google lists different times",
+          "tip": "Prüf die Öffnung vorher – mehrere Besucher standen vor verschlossener Tür.",
+          "tip_en": "Check opening beforehand – several visitors found it closed."
+        },
+        {
+          "name": "Aussichtsturm (Uitkijktoren) im Wald",
+          "name_en": "Lookout tower (Uitkijktoren) in the woods",
+          "gem": true,
+          "q": "Uitkijktoren Voorstraat Egmond aan Zee",
+          "text": "<p>Ein kleiner Aussichtsturm, den du über zwei Waldwege mit Stufen aus Holzbalken und Sand in etwa 3 Minuten erreichst. Besucher nennen ihn einen Geheimtipp für den Sonnenuntergang mit Blick über den ganzen Ort. Auf Google 4,3 Sterne.</p>",
+          "text_en": "<p>A small lookout tower reached by two woodland paths with log-and-sand steps in about 3 minutes. Visitors call it an insider tip for sunset with a view over the whole village. 4.3 stars on Google.</p>",
+          "tip": "Der Aufstieg ist steil und nicht für Kinderwagen oder Rollstühle geeignet. Bring eine Jacke für den Wind.",
+          "tip_en": "The climb is steep and not suitable for strollers or wheelchairs. Bring a jacket for the wind."
+        },
+        {
+          "name": "Nordholländisches Dünenreservat",
+          "name_en": "North Holland Dune Reserve",
+          "q": "Noordhollands Duinreservaat",
+          "text": "<p>Eines der größten Naturgebiete der Niederlande – zum Wandern, Radfahren und für Vogelbeobachtung. Hier leben laut Reiseportalen Hochlandrinder und Wildpferde.</p>",
+          "text_en": "<p>One of the largest nature areas in the Netherlands – for walking, cycling and birdwatching. According to travel portals Highland cattle and wild horses live here.</p>"
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "kultur",
+      "h": "Abtei, Museen & Geschichte",
+      "h_en": "Abbey, museums & history",
+      "spots": [
+        {
+          "name": "Abtei von Egmond (Egmond-Binnen)",
+          "name_en": "Egmond Abbey (Egmond-Binnen)",
+          "gem": true,
+          "q": "Abdij van Egmond Egmond-Binnen",
+          "text": "<p>Die Abtei St. Adelbert im Nachbarort Egmond-Binnen ist die Hauptattraktion des Dorfes. Benediktinermönche leben und arbeiten hier noch. Dazu gehören ein Museum zur Geschichte, ein Galerie-Shop, ein Meditationszentrum und ein Schmetterlingsgarten. Besucher loben Stille, Gärten und die Akustik der Kapelle. Auf Google 4,6 Sterne.</p>",
+          "text_en": "<p>St Adelbert’s Abbey in the neighbouring village of Egmond-Binnen is the village’s main attraction. Benedictine monks still live and work here. There is a history museum, a gallery shop, a meditation centre and a butterfly garden. Visitors praise the stillness, gardens and the chapel’s acoustics. 4.6 stars on Google.</p>",
+          "hours": "laut Google Di–Sa 11–16:30 Uhr, So/Mo geschlossen",
+          "hours_en": "Tue–Sat 11 am–4:30 pm according to Google, closed Sun/Mon",
+          "tip": "Nimm dir Zeit – es ist ein Ort zum Ankommen, nicht zum Abhaken.",
+          "tip_en": "Take your time – it is a place to settle, not to tick off."
+        },
+        {
+          "name": "Museum Prins Hendrik de Zeevaarder",
+          "q": "Museum Prins Hendrik de Zeevaarder Egmond aan Zee",
+          "text": "<p>Ein kleines, kostenloses Museum in einem früheren Heim für alte Fischer in der Voorstraat mit selbst gebauten Segelschiffsmodellen und Glasfenstern, die das Leben eines Seemanns erzählen. Um eine kleine Spende wird gebeten.</p>",
+          "text_en": "<p>A small free museum in a former home for retired fishermen on Voorstraat with hand-built sailing ship models and stained-glass windows that tell a sailor’s life. A small donation is welcome.</p>"
+        },
+        {
+          "name": "Bunkermuseum & Burgruine",
+          "name_en": "Bunker museum & castle ruin",
+          "q": "Bunkermuseum Egmond aan Zee",
+          "text": "<p>In den Dünen nahe der Nordpromenade erinnert ein Bunkermuseum an Egmond im Zweiten Weltkrieg. In Egmond aan den Hoef findest du die Reste der Burg im See und die 1227 gegründete Schlosskapelle.</p>",
+          "text_en": "<p>In the dunes near the North Boulevard a bunker museum recalls Egmond in the Second World War. In Egmond aan den Hoef you find the remains of the castle in a lake and the castle chapel founded in 1227.</p>",
+          "tip": "Öffnungszeiten findest du auf den Seiten der jeweiligen Museen – sie variieren je nach Saison.",
+          "tip_en": "Opening hours are on the respective museum websites – they vary by season."
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "essen",
+      "h": "Frühstück, Strandpavillons & Cafés",
+      "h_en": "Breakfast, beach pavilions & cafés",
+      "spots": [
+        {
+          "name": "Toast Egmond",
+          "gem": true,
+          "q": "Toast Egmond Voorstraat 122",
+          "text": "<p>Frühstückscafé an der Voorstraat. Auf Google hat es 4,9 Sterne bei rund 330 Bewertungen; Gäste loben das Frühstück, den freundlichen Inhaber und Poffertjes.</p>",
+          "text_en": "<p>Breakfast café on Voorstraat. On Google it has 4.9 stars from around 330 reviews; guests praise the breakfast, the friendly owner and the poffertjes.</p>",
+          "hours": "laut Google täglich 8:30–17:00 Uhr, mittwochs geschlossen",
+          "hours_en": "daily 8:30 am–5 pm according to Google, closed Wednesdays"
+        },
+        {
+          "name": "Pompadour Ontbijt- & Lunchroom",
+          "q": "Pompadour Ontbijt Lunchroom Egmond aan Zee",
+          "text": "<p>Gemütliches Frühstücks- und Lunch-Café auf der Voorstraat mit selbst gemachtem Apfelkuchen. Besucher raten, einen Kaffee zu nehmen und sich ein Gericht zu teilen, weil die Portionen groß sind. Auf Google 4,6 Sterne.</p>",
+          "text_en": "<p>Cosy breakfast and lunch café on Voorstraat with homemade apple pie. Visitors suggest ordering a coffee and sharing a dish because portions are big. 4.6 stars on Google.</p>",
+          "hours": "laut Google täglich 8–17 Uhr, dienstags geschlossen",
+          "hours_en": "daily 8 am–5 pm according to Google, closed Tuesdays"
+        },
+        {
+          "name": "Strandpavillons: Uitkijk, Evi Beach, Bad Egmond, De Zilvermeeuw",
+          "name_en": "Beach pavilions: Uitkijk, Evi Beach, Bad Egmond, De Zilvermeeuw",
+          "q": "Beach pavillion The Lookout Egmond aan Zee",
+          "text": "<p>Mehrere Strandpavillons liegen direkt am Meer – alle mit rund 4,3–4,4 Sternen bei Google. Beim Uitkijk loben Gäste den Blick durch die große Fensterfront und die Fischgerichte, im Evi Beach den Kamin im Winter. Die Preise sind für die Lage typisch strandnah.</p>",
+          "text_en": "<p>Several beach pavilions sit right on the sea – all with around 4.3–4.4 stars on Google. At Uitkijk guests praise the view through the big window front and the fish dishes, at Evi Beach the stove in winter. Prices are typical for a beach location.</p>",
+          "tip": "Auch im Winter lohnt sich ein Pavillon: Einige sind beheizt und geschlossen, sodass du bei Wind trocken auf das Meer schauen kannst.",
+          "tip_en": "A pavilion is worth it in winter too: some are heated and enclosed so you can look at the sea dry in the wind."
+        },
+        {
+          "name": "Het Wapen van Egmond",
+          "q": "Grand Café Restaurant Het Wapen van Egmond",
+          "text": "<p>Grand Café auf der Voorstraat mit Terrasse und deutscher Speisekarte. Auf Google 4,5 Sterne bei über 2.000 Bewertungen; Gäste empfehlen, vorher zu reservieren.</p>",
+          "text_en": "<p>Grand café on Voorstraat with a terrace and a German menu. 4.5 stars on Google from over 2,000 reviews; guests recommend reserving beforehand.</p>",
+          "hours": "laut Google donnerstags geschlossen",
+          "hours_en": "closed Thursdays according to Google"
+        },
+        {
+          "name": "Piet Kerssens – Echte Bakker",
+          "name_en": "Piet Kerssens – real baker",
+          "q": "Piet Kerssens Echte Bakker Egmond aan Zee",
+          "text": "<p>Bäckerei an der Voorstraat, die täglich ab etwa 7:30 Uhr geöffnet hat – gut für Brötchen und Gebäck für den Strandtag.</p>",
+          "text_en": "<p>A bakery on Voorstraat open daily from about 7:30 am – good for rolls and pastry for the beach day.</p>"
+        }
+      ]
+    },
+    {
+      "type": "spots",
+      "id": "ausfluege",
+      "h": "Tagesausflüge",
+      "h_en": "Day trips",
+      "box": "gyg",
+      "spots": [
+        {
+          "name": "Alkmaar",
+          "q": "Alkmaar cheese market",
+          "text": "<p>Bekannt für den Käsemarkt, der freitags von April bis Oktober stattfindet, dazu mehrere Museen (unter anderem Käsemuseum und Biermuseum). Alkmaar ist auch dein Umsteigepunkt – ideal zum Kombinieren.</p>",
+          "text_en": "<p>Known for the cheese market held on Fridays from April to October, plus several museums (including a cheese museum and a beer museum). Alkmaar is also your transfer point – ideal for combining.</p>"
+        },
+        {
+          "name": "Haarlem und Amsterdam",
+          "name_en": "Haarlem and Amsterdam",
+          "q": "Haarlem centre",
+          "text": "<p>Haarlem hat Kanäle, eine historische Altstadt und das Frans Hals Museum. Amsterdam ist ebenfalls als Tagesausflug machbar.</p>",
+          "text_en": "<p>Haarlem has canals, a historic old town and the Frans Hals Museum. Amsterdam is also doable as a day trip.</p>"
+        },
+        {
+          "name": "Zee Aquarium in Bergen aan Zee",
+          "name_en": "Zee Aquarium in Bergen aan Zee",
+          "q": "Zee Aquarium Bergen aan Zee",
+          "text": "<p>Über 300 Fischarten, Hai- und Piranha-Becken und ein Streichelbecken mit Rochen – gut bei Regen oder mit Kindern.</p>",
+          "text_en": "<p>Over 300 fish species, shark and piranha displays and a touch pool with rays – good in rain or with children.</p>"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "uebernachten",
+      "h": "Wo übernachten?",
+      "h_en": "Where to stay",
+      "html": "<ul><li><strong>Nähe Strandboulevard:</strong> kurze Wege zu Strand und Pavillons, im Sommer lebhaft.</li><li><strong>Voorstraat und Ortskern:</strong> Cafés, Bäcker und Läden zu Fuß erreichbar.</li><li><strong>Ferienwohnungen und Ferienhäuser:</strong> Das Angebot ist groß, auch Bungalows und Villen.</li></ul><p>Tipp: In den Sommerferien früh buchen. Außerhalb der Saison sind viele Orte ruhiger und günstiger.</p>",
+      "html_en": "<ul><li><strong>Near the beach boulevard:</strong> short ways to beach and pavilions, lively in summer.</li><li><strong>Voorstraat and village centre:</strong> cafés, bakers and shops on foot.</li><li><strong>Holiday flats and houses:</strong> the choice is big, including bungalows and villas.</li></ul><p>Tip: book early for summer holidays. Off-season many places are quieter and cheaper.</p>"
+    }
+  ],
+  "itinerary": [
+    {
+      "h": "Ein Tag in Egmond aan Zee",
+      "h_en": "One day in Egmond aan Zee",
+      "items": [
+        "<strong>Morgens</strong> – Frühstück bei Toast Egmond oder Pompadour, Brötchen beim Bäcker für später",
+        "<strong>Vormittag</strong> – Leuchtturm ansehen (Öffnung prüfen) und Strandspaziergang",
+        "<strong>Mittag</strong> – Fisch oder Sandwich im Strandpavillon",
+        "<strong>Nachmittag</strong> – Abtei in Egmond-Binnen (Di–Sa) oder Dünenreservat",
+        "<strong>Abend</strong> – Aussichtsturm zum Sonnenuntergang, Abendessen im Ort (vieles schließt gegen 22–23 Uhr)"
+      ],
+      "items_en": [
+        "<strong>Morning</strong> – breakfast at Toast Egmond or Pompadour, rolls from the baker for later",
+        "<strong>Late morning</strong> – see the lighthouse (check opening) and a beach walk",
+        "<strong>Midday</strong> – fish or a sandwich at a beach pavilion",
+        "<strong>Afternoon</strong> – abbey in Egmond-Binnen (Tue–Sat) or the dune reserve",
+        "<strong>Evening</strong> – lookout tower at sunset, dinner in the village (much closes around 10–11 pm)"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie viele Tage braucht man in Egmond aan Zee?",
+      "q_en": "How many days do you need in Egmond aan Zee?",
+      "a": "<p>Ein Tag reicht für Strand, Leuchtturm und Abtei; ein Wochenende ist ideal zum Entspannen und für Ausflüge nach Alkmaar oder Haarlem.</p>",
+      "a_en": "<p>One day covers beach, lighthouse and abbey; a weekend is ideal for relaxing and trips to Alkmaar or Haarlem.</p>"
+    },
+    {
+      "q": "Kann man in Egmond aan Zee baden?",
+      "q_en": "Can you swim in Egmond aan Zee?",
+      "a": "<p>Im Hochsommer ja – Reiseportale nennen Wassertemperaturen um 20 °C im Juli/August, Besucher empfinden das Wasser außerhalb der Hochsaison oft als zu kalt.</p>",
+      "a_en": "<p>In high summer yes – travel portals quote water temperatures around 20 °C in July/August, while visitors often find the water too cold outside peak season.</p>"
+    },
+    {
+      "q": "Wie komme ich ohne Auto nach Egmond aan Zee?",
+      "q_en": "How do I get to Egmond aan Zee without a car?",
+      "a": "<p>Mit dem Zug bis Alkmaar, dann weiter mit dem Bus. Aktuelle Verbindungen in einer Reise-App prüfen.</p>",
+      "a_en": "<p>By train to Alkmaar, then on by bus. Check current connections in a travel app.</p>"
+    },
+    {
+      "q": "Ist Egmond aan Zee etwas für Familien?",
+      "q_en": "Is Egmond aan Zee good for families?",
+      "a": "<p>Ja: viel Platz am Strand, Dünen zum Erkunden und in der Nähe ein Aquarium. Reiseportale beschreiben die Gegend als familienfreundlich.</p>",
+      "a_en": "<p>Yes: plenty of beach space, dunes to explore and an aquarium nearby. Travel portals describe the area as family-friendly.</p>"
+    },
+    {
+      "q": "Was kann ich bei schlechtem Wetter machen?",
+      "q_en": "What can I do in bad weather?",
+      "a": "<p>Ein beheizter Strandpavillon, die Abtei und ihr Museum, das kostenlose Prins-Hendrik-Museum oder das Zee Aquarium in Bergen aan Zee.</p>",
+      "a_en": "<p>A heated beach pavilion, the abbey and its museum, the free Prins Hendrik museum or the Zee Aquarium in Bergen aan Zee.</p>"
+    }
+  ]
+}
