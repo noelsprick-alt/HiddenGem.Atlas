@@ -7,8 +7,8 @@
  "city": "Hamburg",
  "city_en": "Hamburg",
  "updated": "2026-11-05",
- "title": "Hamburg Guide: Fischmarkt, HADAG-Fähre & Elbphilharmonie Plaza",
- "title_en": "Hamburg Guide: Fish Market, HADAG Ferry & Elbphilharmonie Plaza",
+ "title": "Hamburg Guide: 12 Orte – Fischmarkt, Hafen, Speicherstadt & Hidden Gems",
+ "title_en": "Hamburg Guide: 12 places – fish market, harbour, Speicherstadt & hidden gems",
  "desc": "Hamburg nach Noels Tipp: sonntags früh zum Fischmarkt, Hafenrundfahrt zum Nahverkehrstarif und abends auf die Elbphilharmonie-Plaza.",
  "desc_en": "Hamburg by Noel’s tip: the fish market early on Sunday, a harbour tour for the price of a bus ticket and the Elbphilharmonie Plaza in the evening.",
  "gyg_q": "Hamburg",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Euro",
    "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai bis September; Dezember für Weihnachtsmärkte",
+   "v_en": "May to September; December for Christmas markets"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Hamburg erreichst du per ICE, Flug oder Fernbus. In der Stadt fahren S-Bahn, U-Bahn und die HADAG-Fähren im Nahverkehrstarif.</p>",
-   "html_en": "<p>You reach Hamburg by ICE, flight or coach. In the city S-Bahn, U-Bahn and the HADAG ferries run on the local transit fare.</p>"
+   "html": "<p>Hamburg erreichst du per ICE, Flug oder Fernbus. In der Stadt fahren S-Bahn, U-Bahn und die HADAG-Fähren im Nahverkehrstarif.</p><p>Hamburg liegt gut angebunden: Der Hauptbahnhof ist Knotenpunkt für ICE, Regionalverkehr und S-Bahn, der Flughafen ist per S-Bahn in rund 25 Minuten erreichbar (Fahrpläne vorher prüfen). In der Stadt nutzt du den HVV mit U-Bahn, S-Bahn, Bus und Fähren; eine Tageskarte lohnt sich.</p><p>Die Altstadt, Speicherstadt und HafenCity sind gut zu Fuß erkundbar. Für St. Pauli, Altona und Blankenese nimmst du die Bahn.</p>",
+   "html_en": "<p>You reach Hamburg by ICE, flight or coach. In the city S-Bahn, U-Bahn and the HADAG ferries run on the local transit fare.</p><p>Hamburg is well connected: the main station is a hub for ICE, regional traffic and S-Bahn, and the airport can be reached by S-Bahn in about 25 minutes (check timetables beforehand). In the city you use the HVV with U-Bahn, S-Bahn, bus and ferries; a day ticket pays off.</p><p>The old town, Speicherstadt and HafenCity are easy to explore on foot. For St Pauli, Altona and Blankenese you take the train.</p>"
   },
   {
    "type": "spots",
@@ -49,25 +55,58 @@
    "spots": [
     {
      "name": "Fischmarkt am Sonntagmorgen",
-     "text": "Sonntags ganz früh zum Altonaer Fischmarkt.",
-     "text_en": "Very early on Sunday to the Altona fish market.",
+     "text": "<p>Sonntags ganz früh zum Altonaer Fischmarkt.</p><p>Der Altonaer Fischmarkt findet sonntags in den frühen Morgenstunden statt: Händler rufen ihre Ware aus – Fisch, Obst, Blumen, Käse, Süßes –, und die berühmten „Aale-Dieter“ preisen lautstark Aal und Körbe voller Waren an. In der Fischauktionshalle gibt es Livemusik und Frühstück; nach der Partynacht kommen hier Nachtschwärmer und Frühaufsteher zusammen.</p><p>Im Sommer beginnt der Markt gegen 5 Uhr und endet gegen 9:30 Uhr, im Winter öffnet er später (Zeiten vorher prüfen). Komm früh, nimm Bargeld mit und probiere ein Fischbrötchen oder Backfisch.</p>",
+     "text_en": "<p>Very early on Sunday to the Altona fish market.</p><p>The Altona fish market takes place on Sunday in the early morning hours: traders call out their wares – fish, fruit, flowers, cheese, sweets – and the famous “Aale-Dieter” loudly praise eel and baskets full of goods. In the Fischauktionshalle there is live music and breakfast; after a night out, night owls and early risers meet here.</p><p>In summer the market starts around 5 a.m. and ends around 9:30 a.m., in winter it opens later (check times beforehand). Come early, bring cash and try a fish roll or fried fish.</p>",
      "name_en": "Fish market on Sunday morning",
-     "q": "Hamburger Fischmarkt"
+     "q": "Hamburger Fischmarkt",
+     "tip": "Komm vor 7 Uhr und frühstücke in der Fischauktionshalle.",
+     "tip_en": "Come before 7 a.m. and have breakfast in the Fischauktionshalle."
     },
     {
      "name": "HADAG-Fähre ab Landungsbrücken",
-     "text": "Hafenrundfahrt zum Nahverkehrstarif.",
-     "text_en": "A harbour tour for the price of a bus ticket.",
+     "text": "<p>Hafenrundfahrt zum Nahverkehrstarif.</p><p>Die HADAG-Fähren gehören zum Hamburger Nahverkehr und fahren auf der Elbe – du bezahlst den normalen HVV-Tarif und bekommst eine Hafenrundfahrt gratis dazu. Die Linie 62 führt von den Landungsbrücken vorbei an Containerterminals, Werften, dem Fischmarkt und Övelgönne bis nach Finkenwerder. Von Deck siehst du Elbphilharmonie, Hafenkräne und große Containerschiffe.</p><p>Am schönsten ist die Fahrt am späten Nachmittag oder bei Sonnenuntergang. Nimm eine Jacke mit – auf dem Wasser weht es. Fahrpläne und Tarife vorher prüfen.</p>",
+     "text_en": "<p>A harbour tour for the price of a bus ticket.</p><p>The HADAG ferries are part of Hamburg’s public transport and run on the Elbe – you pay the normal HVV fare and get a harbour tour for free. Line 62 leads from the Landungsbrücken past container terminals, shipyards, the fish market and Övelgönne to Finkenwerder. From the deck you see the Elbphilharmonie, harbour cranes and big container ships.</p><p>The ride is most beautiful in the late afternoon or at sunset. Bring a jacket – it is windy on the water. Check timetables and fares beforehand.</p>",
      "name_en": "HADAG ferry from the Landungsbrücken",
-     "q": "HADAG-Fähre ab Landungsbrücken"
+     "q": "HADAG-Fähre ab Landungsbrücken",
+     "tip": "Setz dich auf das Außendeck und fahr im Abendlicht.",
+     "tip_en": "Sit on the outer deck and ride in the evening light."
     },
     {
      "name": "Elbphilharmonie Plaza",
-     "text": "Abends der 360°-Blick auf Hafen und Stadt. Auf Google 4,6 Sterne. Besucher berichten, dass für die Plaza ein kostenloses Ticket nötig ist; vorab Infos prüfen.",
-     "text_en": "In the evening the 360° view of harbour and city. 4.6 stars on Google. Visitors report that a free ticket is needed for the Plaza; check info beforehand.",
+     "text": "<p>Abends der 360°-Blick auf Hafen und Stadt. Auf Google 4,6 Sterne. Besucher berichten, dass für die Plaza ein kostenloses Ticket nötig ist; vorab Infos prüfen.</p><p>Die Elbphilharmonie wurde 2017 eröffnet und steht auf einem alten Kaispeicher. Die Plaza liegt auf 37 Metern Höhe und bietet eine Außenpromenade rund um das Gebäude mit Blick auf Hafen, Stadt und Elbe. Der Zugang ist kostenlos, aber mit einem Ticket verbunden, das du online oder vor Ort holst (aktuelle Bedingungen vorher prüfen).</p><p>Eine lange gebogene Rolltreppe führt hinauf. Komm am Abend zum Sonnenuntergang und bleib bis zur Dunkelheit – dann leuchten die Lichter des Hafens. Konzerte im Großen Saal sind begehrt; wer Tickets möchte, sollte lange im Voraus planen.</p>",
+     "text_en": "<p>In the evening the 360° view of harbour and city. 4.6 stars on Google. Visitors report that a free ticket is needed for the Plaza; check info beforehand.</p><p>The Elbphilharmonie opened in 2017 and stands on an old quay warehouse. The Plaza lies at a height of 37 metres and offers an outdoor promenade around the building with a view of harbour, city and Elbe. Access is free but tied to a ticket that you get online or on site (check current conditions beforehand).</p><p>A long curved escalator leads up. Come in the evening at sunset and stay until dark – then the harbour lights glow. Concerts in the Great Hall are in demand; if you want tickets you should plan well in advance.</p>",
      "q": "Elbphilharmonie Plaza Hamburg",
      "hours": "laut Google täglich ca. 10–23:30 Uhr",
-     "hours_en": "daily about 10 am–11:30 pm according to Google"
+     "hours_en": "daily about 10 am–11:30 pm according to Google",
+     "tip": "Hol dir das Plaza-Ticket früh und komm zum Sonnenuntergang.",
+     "tip_en": "Get the Plaza ticket early and come at sunset."
+    },
+    {
+     "name": "St. Michaelis (Michel) & Turmaussicht",
+     "text": "<p>Der „Michel“ ist das Wahrzeichen Hamburgs: eine barocke Hauptkirche mit einem rund 132 Meter hohen Turm und einer grünen Kupferkuppel. Du kannst mit dem Aufzug oder über Treppen auf die Aussichtsplattform fahren und den Hafen, die Speicherstadt und die Elbe aus der Vogelperspektive sehen. Unter der Kirche liegt eine Krypta.</p><p>Eintritt und Öffnungszeiten ändern sich (vorher prüfen). Komm am Vormittag, wenn das Licht klar ist.</p>",
+     "text_en": "<p>The “Michel” is Hamburg’s landmark: a Baroque main church with a tower about 132 metres high and a green copper dome. You can take the lift or stairs to the viewing platform and see the harbour, the Speicherstadt and the Elbe from a bird’s-eye view. Under the church lies a crypt.</p><p>Admission and opening times change (check beforehand). Come in the morning when the light is clear.</p>",
+     "name_en": "St Michael’s (Michel) & tower view",
+     "q": "St. Michaelis Hamburg",
+     "tip": "Fahr mit dem Aufzug hoch und plane den Besuch am klaren Vormittag.",
+     "tip_en": "Take the lift up and plan the visit on a clear morning."
+    },
+    {
+     "name": "Reeperbahn, St. Pauli & Beatles-Platz",
+     "text": "<p>Die Reeperbahn ist Hamburgs berühmte Vergnügungsmeile: Clubs, Bars, Theater, Spielhallen und Imbisse. Hier begann die Karriere der Beatles, deren Spuren du am Beatles-Platz und in den Seitenstraßen findest (Große Freiheit). Tagsüber wirkt das Viertel ruhig, abends füllt es sich.</p><p>Behalte Taschen und Handy im Blick, meide Lockangebote und geh abends nicht allein in dunkle Gassen. Für ein Bier gibt es viele Kneipen; viele Clubs öffnen erst spät.</p>",
+     "text_en": "<p>The Reeperbahn is Hamburg’s famous entertainment mile: clubs, bars, theatres, arcades and snack bars. The Beatles’ career began here, and you find their traces at the Beatles-Platz and in the side streets (Große Freiheit). By day the district feels quiet, in the evening it fills up.</p><p>Keep an eye on bags and phone, avoid lure offers and do not walk alone into dark lanes in the evening. There are many pubs for a beer; many clubs only open late.</p>",
+     "name_en": "Reeperbahn, St Pauli & Beatles-Platz",
+     "q": "Reeperbahn Hamburg",
+     "tip": "Komm abends, behalte Wertsachen im Blick und meide Lockangebote.",
+     "tip_en": "Come in the evening, keep valuables in view and avoid lure offers."
+    },
+    {
+     "name": "Alster, Jungfernstieg & Rathaus",
+     "text": "<p>Die Alster ist der Stausee mitten in der Stadt: Rund um die Binnenalster ziehen sich Promenaden, Arkaden und der Jungfernstieg; die Außenalster ist ein Revier für Segler, Ruderer und Alsterdampfer. Das Rathaus am Rathausmarkt ist ein Neorenaissancebau mit prächtigem Innenraum; Führungen sind möglich (Zeiten vorher prüfen).</p><p>Eine Alsterrundfahrt dauert etwa eine Stunde. Spaziere an einem sonnigen Tag um die Außenalster – gut sechs bis sieben Kilometer.</p>",
+     "text_en": "<p>The Alster is the reservoir in the middle of the city: around the Binnenalster run promenades, arcades and the Jungfernstieg; the Außenalster is a domain for sailors, rowers and Alster steamers. The town hall on the Rathausmarkt is a neo-Renaissance building with a magnificent interior; tours are possible (check times beforehand).</p><p>An Alster cruise takes about an hour. On a sunny day walk around the Außenalster – a good six to seven kilometres.</p>",
+     "name_en": "Alster, Jungfernstieg & town hall",
+     "q": "Jungfernstieg Hamburg",
+     "tip": "Geh um die Außenalster und mach am Wasser Pause.",
+     "tip_en": "Walk around the Außenalster and take a break by the water."
     }
    ]
   },
@@ -79,10 +118,60 @@
    "spots": [
     {
      "name": "Speicherstadt",
-     "text": "Das größte historische Lagerhausviertel der Welt, seit 2015 UNESCO-Welterbe.",
-     "text_en": "The world’s largest historic warehouse district, UNESCO World Heritage since 2015.",
+     "text": "<p>Das größte historische Lagerhausviertel der Welt, seit 2015 UNESCO-Welterbe.</p><p>Die Speicherstadt ist ein Viertel aus roten Backsteinspeichern aus dem späten 19. Jahrhundert, gebaut auf Eichenpfählen in der Elbe, und gehört seit 2015 zum UNESCO-Welterbe. Sie war das Zentrum des Handels mit Kaffee, Tee, Gewürzen und Teppichen, und noch heute lagern in ihr Teppiche und Rohstoffe. Zwischen den Fleeten gibt es Brücken, Tore und Türme.</p><p>Am schönsten ist sie am Abend, wenn die Gebäude angestrahlt werden und sich im Wasser spiegeln. Hier liegen auch das Miniatur Wunderland und das Hamburg Dungeon. Ein Spaziergang dauert rund eine Stunde; Fotografen kommen zur Blauen Stunde.</p>",
+     "text_en": "<p>The world’s largest historic warehouse district, UNESCO World Heritage since 2015.</p><p>The Speicherstadt is a district of red-brick warehouses from the late 19th century, built on oak piles in the Elbe, and has been a UNESCO World Heritage Site since 2015. It was the centre of the trade in coffee, tea, spices and carpets, and carpets and raw materials are still stored in it today. Between the canals there are bridges, gates and towers.</p><p>It is most beautiful in the evening when the buildings are lit and reflected in the water. The Miniatur Wunderland and the Hamburg Dungeon are also here. A walk takes about an hour; photographers come at the blue hour.</p>",
      "gem": true,
-     "q": "Speicherstadt"
+     "q": "Speicherstadt",
+     "tip": "Komm zur Blauen Stunde und geh am Wasserschloss vorbei.",
+     "tip_en": "Come at the blue hour and pass by the Wasserschloss."
+    },
+    {
+     "name": "Alter Elbtunnel – zu Fuß unter der Elbe",
+     "text": "<p>Der Alte Elbtunnel von 1911 ist ein Fußgängertunnel unter der Elbe, rund 426 Meter lang und mit Fliesen verkleidet. Du fährst mit Aufzügen hinunter und gehst durch den Tunnel zur anderen Seite – dort wartet einer der schönsten Blicke auf die Hamburger Skyline vom Steinwerder-Ufer.</p><p>Der Tunnel ist kostenlos zu Fuß nutzbar (Fahrzeuge zahlen). Plane eine Stunde ein und geh am Abend, wenn die Lichter angehen.</p>",
+     "text_en": "<p>The Old Elbe Tunnel of 1911 is a pedestrian tunnel under the Elbe, about 426 metres long and clad in tiles. You take lifts down and walk through the tunnel to the other side – there waits one of the most beautiful views of the Hamburg skyline from the Steinwerder bank.</p><p>The tunnel is free to use on foot (vehicles pay). Plan an hour and go in the evening when the lights come on.</p>",
+     "name_en": "Old Elbe Tunnel – on foot under the Elbe",
+     "gem": true,
+     "q": "Alter Elbtunnel Hamburg",
+     "tip": "Geh am Abend durch den Tunnel und fotografiere die Skyline von drüben.",
+     "tip_en": "Walk through the tunnel in the evening and photograph the skyline from the other side."
+    },
+    {
+     "name": "Blankenese – Treppenviertel & Elbstrand",
+     "text": "<p>Blankenese ist ein früheres Fischerdorf im Westen Hamburgs, an einem steilen Elbhang gelegen. Rund 5.000 Stufen und enge Gassen verbinden die Häuser; es gibt viele Treppenwege, Villen und Ausblicke auf die Elbe. Am Elbstrand liegt der Sand, auf dem Schiffe nah vorbeifahren.</p><p>Du erreichst Blankenese mit der S-Bahn; geh durch das Treppenviertel hinunter zum Strand und iss ein Eis am Wasser. Ein Spaziergang dauert zwei bis drei Stunden.</p>",
+     "text_en": "<p>Blankenese is a former fishing village in the west of Hamburg, on a steep Elbe slope. About 5,000 steps and narrow lanes connect the houses; there are many stair paths, villas and views of the Elbe. On the Elbe beach lies the sand where ships pass close by.</p><p>You reach Blankenese by S-Bahn; walk through the stair quarter down to the beach and eat an ice cream by the water. A walk takes two to three hours.</p>",
+     "name_en": "Blankenese – stair quarter & Elbe beach",
+     "gem": true,
+     "q": "Blankenese Treppenviertel",
+     "tip": "Fahr mit der S-Bahn und laufe das Treppenviertel hinunter zum Strand.",
+     "tip_en": "Take the S-Bahn and walk down the stair quarter to the beach."
+    },
+    {
+     "name": "Planten un Blomen & Wasserlichtkonzerte",
+     "text": "<p>Planten un Blomen ist ein großer Park im Zentrum mit Gärten, Teichen, Japangarten und Rosen. Im Sommer finden abends Wasserlichtkonzerte statt: Fontänen tanzen zu Musik, bunt beleuchtet. Der Eintritt zum Park ist kostenlos.</p><p>Ein Spaziergang eignet sich gut für eine Pause zwischen Museen und Hafen. Prüfe die Zeiten der Wasserlichtkonzerte vorher.</p>",
+     "text_en": "<p>Planten un Blomen is a large park in the centre with gardens, ponds, a Japanese garden and roses. In summer water-light concerts take place in the evening: fountains dance to music, brightly lit. Entry to the park is free.</p><p>A walk suits a break between museums and harbour. Check the times of the water-light concerts beforehand.</p>",
+     "name_en": "Planten un Blomen & water-light concerts",
+     "gem": true,
+     "q": "Planten un Blomen Hamburg",
+     "tip": "Komm an einem Sommerabend zu den Wasserlichtkonzerten.",
+     "tip_en": "Come on a summer evening for the water-light concerts."
+    },
+    {
+     "name": "Miniatur Wunderland",
+     "text": "<p>Das Miniatur Wunderland in der Speicherstadt ist die größte Modelleisenbahn der Welt: Hunderte Züge, Flughäfen, Städte, Landschaften und winzige Menschen auf großer Fläche, alles mit Licht- und Tageszeiteffekten. Auch ohne Eisenbahnbegeisterung ist es ein Erlebnis.</p><p>Tickets solltest du im Voraus online buchen, besonders in den Ferien und am Wochenende; die Wartezeiten können lang sein. Plane zwei bis drei Stunden ein.</p>",
+     "text_en": "<p>The Miniatur Wunderland in the Speicherstadt is the largest model railway in the world: hundreds of trains, airports, cities, landscapes and tiny people over a large area, all with light and time-of-day effects. Even without a passion for railways it is an experience.</p><p>You should book tickets online in advance, especially in holidays and at weekends; waiting times can be long. Plan two to three hours.</p>",
+     "name_en": "Miniatur Wunderland",
+     "q": "Miniatur Wunderland Hamburg",
+     "tip": "Buche Tickets online und komm früh am Morgen.",
+     "tip_en": "Book tickets online and come early in the morning."
+    },
+    {
+     "name": "Hamburger Küche: Fischbrötchen, Labskaus & Franzbrötchen",
+     "text": "<p>Ein Fischbrötchen mit Matjes, Backfisch oder Krabben gehört zu Hamburg wie der Hafen. Als Hauptgericht gilt Labskaus: Corned Beef, Rote Bete, Kartoffelpüree und Spiegelei – ein Seemannsgericht. Und als Gebäck das Franzbrötchen: ein zimtgefülltes Hörnchen, das Hamburger lieben.</p><p>Probiere Fischbrötchen an den Landungsbrücken oder im Portugiesenviertel; die Preise liegen meist im einstelligen Eurobereich. Frag nach saisonalen Gerichten wie Finkenwerder Scholle.</p>",
+     "text_en": "<p>A fish roll with matjes, fried fish or shrimp belongs to Hamburg like the harbour. As a main course labskaus counts: corned beef, beetroot, mashed potato and fried egg – a sailor’s dish. And as pastry the franzbrötchen: a cinnamon-filled roll that Hamburgers love.</p><p>Try fish rolls at the Landungsbrücken or in the Portuguese quarter; prices are usually in the single-digit euro range. Ask about seasonal dishes such as Finkenwerder plaice.</p>",
+     "name_en": "Hamburg food: fish rolls, labskaus & franzbrötchen",
+     "q": "Fischbrötchen Hamburg Landungsbrücken",
+     "tip": "Iss ein Fischbrötchen am Hafen und ein Franzbrötchen zum Kaffee.",
+     "tip_en": "Eat a fish roll at the harbour and a franzbrötchen with coffee."
     }
    ]
   },
@@ -98,19 +187,21 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Sonntag in Hamburg",
-   "h_en": "A Sunday in Hamburg",
+   "h": "Ein Wochenende in Hamburg",
+   "h_en": "A weekend in Hamburg",
    "items": [
-    "<strong>Früh</strong> – Fischmarkt",
-    "<strong>Vormittag</strong> – HADAG-Fähre",
-    "<strong>Nachmittag</strong> – Speicherstadt",
-    "<strong>Abend</strong> – Elbphilharmonie Plaza"
+    "<strong>Sonntag früh</strong> – Fischmarkt und Frühstück in der Fischauktionshalle",
+    "<strong>Vormittag</strong> – HADAG-Fähre ab Landungsbrücken, Alter Elbtunnel",
+    "<strong>Mittag</strong> – Fischbrötchen, Speicherstadt, Miniatur Wunderland",
+    "<strong>Nachmittag</strong> – St. Michaelis oder Alster",
+    "<strong>Abend</strong> – Elbphilharmonie Plaza zum Sonnenuntergang, Reeperbahn"
    ],
    "items_en": [
-    "<strong>Early</strong> – fish market",
-    "<strong>Morning</strong> – HADAG ferry",
-    "<strong>Afternoon</strong> – Speicherstadt",
-    "<strong>Evening</strong> – Elbphilharmonie Plaza"
+    "<strong>Early Sunday</strong> – fish market and breakfast in the Fischauktionshalle",
+    "<strong>Morning</strong> – HADAG ferry from the Landungsbrücken, Old Elbe Tunnel",
+    "<strong>Midday</strong> – fish roll, Speicherstadt, Miniatur Wunderland",
+    "<strong>Afternoon</strong> – St Michael’s or Alster",
+    "<strong>Evening</strong> – Elbphilharmonie Plaza at sunset, Reeperbahn"
    ]
   }
  ],
@@ -120,6 +211,18 @@
    "q_en": "When is the fish market?",
    "a": "<p>Sonntags ganz früh; Zeiten vorher prüfen.</p>",
    "a_en": "<p>Very early on Sundays; check times beforehand.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Hamburg?",
+   "q_en": "How many days do you need in Hamburg?",
+   "a": "Zwei Tage für die Highlights; mit Blankenese und Miniatur Wunderland drei.",
+   "a_en": "Two days for the highlights; with Blankenese and Miniatur Wunderland three."
+  },
+  {
+   "q": "Lohnt die Hamburg Card?",
+   "q_en": "Is the Hamburg Card worthwhile?",
+   "a": "Wenn du viel Bahn fährst und mehrere Eintritte planst, oft ja; rechne vorher nach.",
+   "a_en": "If you travel a lot by train and plan several admissions, often yes; calculate beforehand."
   }
  ]
 }

@@ -8,8 +8,8 @@
  "city": "Hoi An",
  "city_en": "Hoi An",
  "updated": "2026-11-05",
- "title": "Hoi An Guide: Vollmond-Laternen, Cao Lầu & Bánh mì Phượng",
- "title_en": "Hoi An Guide: Full-Moon Lanterns, Cao Lầu & Bánh mì Phượng",
+ "title": "Hoi An Guide: 11 Orte – Laternen, Cao Lầu, My Son & Hidden Gems",
+ "title_en": "Hoi An Guide: 11 places – lanterns, cao lầu, My Son & hidden gems",
  "desc": "Hoi An im Februar 2026: tausende Laternen bei Vollmond in der autofreien Altstadt – von Noel, mit Tipps zu Datum, Essen und Anreise.",
  "desc_en": "Hoi An in February 2026: thousands of lanterns at full moon in the car-free old town – from Noel, with tips on date, food and getting there.",
  "gyg_q": "Hoi An",
@@ -44,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "gyg",
-   "html": "<p>Der nächste Flughafen ist Da Nang; von dort fährst du per Taxi, Bus oder Transfer nach Hoi An (Dauer vorher prüfen). Die Altstadt ist autofrei.</p>",
-   "html_en": "<p>The nearest airport is Da Nang; from there you go by taxi, bus or transfer to Hoi An (check duration beforehand). The old town is car-free.</p>"
+   "html": "<p>Der nächste Flughafen ist Da Nang; von dort fährst du per Taxi, Bus oder Transfer nach Hoi An (Dauer vorher prüfen). Die Altstadt ist autofrei.</p><p>Hoi An hat keinen eigenen Flughafen; du fliegst nach Da Nang und fährst in rund 45 bis 60 Minuten mit Taxi, Grab oder Transfer (Preise vorher prüfen). Die Altstadt ist zu Fuß oder mit dem Rad gut erkundbar; abends sind die Gassen für Autos gesperrt.</p><p>Bargeld in Dong ist praktisch; Geldautomaten gibt es in der Stadt. Die Regenzeit liegt etwa zwischen September und Dezember – plane dann Regenjacke und Pausen ein.</p>",
+   "html_en": "<p>The nearest airport is Da Nang; from there you go by taxi, bus or transfer to Hoi An (check duration beforehand). The old town is car-free.</p><p>Hoi An has no airport of its own; you fly to Da Nang and drive in about 45 to 60 minutes by taxi, Grab or transfer (check prices beforehand). The old town is easy to explore on foot or by bike; in the evening the lanes are closed to cars.</p><p>Cash in dong is practical; ATMs are available in the town. The rainy season is roughly between September and December – then plan a rain jacket and breaks.</p>"
   },
   {
    "type": "spots",
@@ -55,18 +55,22 @@
    "spots": [
     {
      "name": "Laternen bei Vollmond",
-     "text": "Plane deinen Besuch um den 14. Tag des Mondmonats. Setz abends eine Kerze in einer Papierlaterne auf dem Fluss aus.",
-     "text_en": "Plan your visit around the 14th day of the lunar month. Float a candle in a paper lantern on the river in the evening.",
+     "text": "<p>Plane deinen Besuch um den 14. Tag des Mondmonats. Setz abends eine Kerze in einer Papierlaterne auf dem Fluss aus.</p><p>Jeden Monat, am 14. Tag des Mondkalenders, feiert Hoi An das Laternenfest: Die Altstadt wird autofrei, elektrische Lichter gehen aus, und Tausende Seidenlaternen leuchten in den Gassen. Auf dem Fluss Thu Bồn treiben kleine Boote und Papierlaternen. Es ist der Moment, in dem die Stadt am meisten verzaubert.</p><p>Plane den Besuch um die Vollmondnächte (Termine vorher prüfen) und komm früh, um einen Platz am Fluss zu finden. Du kannst eine Laterne kaufen und mit einem Wunsch aufs Wasser setzen – das ist kitschig, aber sehr schön. Die Preise für Boote und Laternen ändern sich; frag vorher.</p>",
+     "text_en": "<p>Plan your visit around the 14th day of the lunar month. Float a candle in a paper lantern on the river in the evening.</p><p>Every month, on the 14th day of the lunar calendar, Hoi An celebrates the lantern festival: the old town becomes car-free, electric lights go out, and thousands of silk lanterns glow in the lanes. On the Thu Bồn River small boats and paper lanterns drift. It is the moment when the city is most enchanting.</p><p>Plan the visit around the full-moon nights (check dates beforehand) and come early to find a place by the river. You can buy a lantern and set it on the water with a wish – it is kitschy but very beautiful. Prices for boats and lanterns change; ask beforehand.</p>",
      "name_en": "Lanterns at full moon",
      "gem": true,
-     "q": "Laternen bei Vollmond"
+     "q": "Laternen bei Vollmond",
+     "tip": "Komm am Vollmondabend früh und such dir einen Platz am Fluss.",
+     "tip_en": "Come early on the full-moon evening and find a spot by the river."
     },
     {
      "name": "Japanische Brücke",
-     "text": "Erinnert an die Händler aus aller Welt. Auf Google 4,3 Sterne bei über 29.000 Bewertungen; tagsüber voll.",
-     "text_en": "Recalls the merchants from around the world. 4.3 stars on Google from over 29,000 reviews; busy by day.",
+     "text": "<p>Erinnert an die Händler aus aller Welt. Auf Google 4,3 Sterne bei über 29.000 Bewertungen; tagsüber voll.</p><p>Die Japanische Brücke ist ein überdachtes Holzbrückchen aus dem späten 16. oder frühen 17. Jahrhundert, das die japanische und die chinesische Händlergemeinde Hoi Ans verbinden soll. Auf der Brücke steht ein kleiner Tempel. Sie gehört zum Altstadt-Ticket (Details vorher prüfen).</p><p>Tagsüber ist es voll; komm frühmorgens oder abends, wenn die Laternen leuchten. Das Foto von der Seite zeigt sie am besten.</p>",
+     "text_en": "<p>Recalls the merchants from around the world. 4.3 stars on Google from over 29,000 reviews; busy by day.</p><p>The Japanese Bridge is a covered wooden bridge from the late 16th or early 17th century that was meant to connect Hoi An’s Japanese and Chinese merchant communities. On the bridge stands a small temple. It is part of the old-town ticket (check details beforehand).</p><p>By day it is crowded; come early in the morning or in the evening when the lanterns glow. A photo from the side shows it best.</p>",
      "name_en": "Japanese Covered Bridge",
-     "q": "Japanese Covered Bridge Hoi An"
+     "q": "Japanese Covered Bridge Hoi An",
+     "tip": "Komm vor 8 Uhr oder nach Sonnenuntergang.",
+     "tip_en": "Come before 8 a.m. or after sunset."
     },
     {
      "name": "Bánh mì Phượng",
@@ -81,6 +85,79 @@
      "text_en": "Noodles that, according to tradition, only work with water from a certain old well.",
      "name_en": "Cao Lầu",
      "q": "Cao Lầu"
+    },
+    {
+     "name": "Altstadt-Gassen, Versammlungshallen & Tan-Ky-Haus",
+     "text": "<p>Die Altstadt von Hoi An steht seit 1999 auf der UNESCO-Welterbeliste: gelb gestrichene Holzhäuser, Seidenlaternen und enge Gassen. Die Versammlungshallen der chinesischen Gemeinden (zum Beispiel der Fujian- und Kantonesen-Halle) sind reich verziert mit Drachen, Räucherspiralen und Altären. Das Tân-Ký-Haus zeigt, wie Händlerfamilien lebten.</p><p>Für den Zutritt zu mehreren Sehenswürdigkeiten brauchst du ein Altstadt-Ticket (Preis und Regeln vorher prüfen). Am schönsten ist der Spaziergang früh am Morgen, wenn die Gassen noch leer sind.</p>",
+     "text_en": "<p>Hoi An’s old town has been on the UNESCO World Heritage list since 1999: yellow-painted wooden houses, silk lanterns and narrow lanes. The assembly halls of the Chinese communities (for example the Fujian and Cantonese halls) are richly decorated with dragons, incense coils and altars. The Tân Ký House shows how merchant families lived.</p><p>For entry to several sights you need an old-town ticket (check price and rules beforehand). The walk is most beautiful early in the morning when the lanes are still empty.</p>",
+     "name_en": "Old-town lanes, assembly halls & Tan Ky House",
+     "q": "Hoi An Ancient Town",
+     "tip": "Geh um 6–7 Uhr los, dann sind die Gassen leer und golden.",
+     "tip_en": "Set off at 6–7 a.m., then the lanes are empty and golden."
+    },
+    {
+     "name": "Maßschneider in Hoi An",
+     "text": "<p>Hoi An ist bekannt für seine Schneiderläden: Du kannst Hemden, Kleider, Anzüge oder Mäntel nach Maß anfertigen lassen, oft innerhalb von 24 bis 48 Stunden. Bring ein Foto mit oder such dir einen Stoff aus; die Schneiderinnen messen, nähen und passen an.</p><p>Vergleiche Preise und Qualität in mehreren Läden, frag nach Stoffen und Anproben, und handle freundlich. Plane genug Zeit für zwei bis drei Anproben ein.</p>",
+     "text_en": "<p>Hoi An is known for its tailor shops: you can have shirts, dresses, suits or coats made to measure, often within 24 to 48 hours. Bring a photo or choose a fabric; the tailors measure, sew and adjust.</p><p>Compare prices and quality in several shops, ask about fabrics and fittings, and haggle in a friendly way. Allow enough time for two to three fittings.</p>",
+     "name_en": "Tailors in Hoi An",
+     "q": "Tailor Hoi An",
+     "tip": "Plane gleich am ersten Tag und frag nach mindestens zwei Anproben.",
+     "tip_en": "Plan it on the first day and ask for at least two fittings."
+    },
+    {
+     "name": "An Bang Beach",
+     "text": "<p>Rund fünf Kilometer von der Altstadt entfernt liegt der Strand An Bang mit feinem Sand, Strandbars und Restaurants. Du kannst mit dem Fahrrad oder Roller hinfahren, Liegen mieten und das Meer genießen. Abends gibt es Sonnenuntergang und Seafood.</p><p>Im Sommer ist es heiß; achte auf Strömung und rote Flaggen. Preise für Liegen und Getränke ändern sich; frag vorher.</p>",
+     "text_en": "<p>About five kilometres from the old town lies An Bang Beach with fine sand, beach bars and restaurants. You can cycle or ride a scooter there, rent loungers and enjoy the sea. In the evening there are sunset and seafood.</p><p>In summer it is hot; watch for currents and red flags. Prices for loungers and drinks change; ask beforehand.</p>",
+     "name_en": "An Bang Beach",
+     "q": "An Bang Beach Hoi An",
+     "tip": "Fahr mit dem Rad hin und bleib zum Sonnenuntergang.",
+     "tip_en": "Cycle there and stay for sunset."
+    },
+    {
+     "name": "White Rose, Mì Quảng & mehr: Essen in Hoi An",
+     "text": "<p>Neben Cao Lầu und Bánh mì ist die Küche von Hoi An reich: „White Rose“ (Bánh bao bánh vạc) sind zarte Garnelen-Teigtaschen, Mì Quảng ist eine Nudelspezialität mit Schweinefleisch und Erdnüssen, und Hühnerreis (Cơm gà) ist ein Klassiker. Probiere dazu frisch gepressten Zuckerrohrsaft.</p><p>Kleine Lokale sind günstig und lecker. Schau auf den Straßenständen, wo Einheimische sitzen, und frag nach dem Preis.</p>",
+     "text_en": "<p>Besides cao lầu and bánh mì the cuisine of Hoi An is rich: “White Rose” (bánh bao bánh vạc) are delicate shrimp dumplings, mì Quảng is a noodle speciality with pork and peanuts, and chicken rice (cơm gà) is a classic. Try freshly pressed sugarcane juice with it.</p><p>Small eateries are cheap and delicious. Look at the street stalls where locals sit and ask the price.</p>",
+     "name_en": "White rose, mì Quảng & more: eating in Hoi An",
+     "q": "White Rose restaurant Hoi An",
+     "tip": "Iss da, wo Einheimische sitzen – und frag nach dem Preis.",
+     "tip_en": "Eat where locals sit – and ask the price."
+    }
+   ]
+  },
+  {
+   "id": "gems",
+   "h": "Hidden Gems rund um Hoi An",
+   "h_en": "Hidden gems around Hoi An",
+   "spots": [
+    {
+     "name": "Trà Quế – Gemüsedorf & Kochkurs",
+     "text": "<p>Rund drei Kilometer nördlich der Altstadt liegt Trà Quế, ein Dorf, das für seine Kräuter- und Gemüsegärten bekannt ist. Du kannst durch die Beete radeln, mit Bauern arbeiten und lernen, wie Zutaten angebaut werden. Viele Kochkurse beginnen hier mit einem Besuch auf dem Feld.</p><p>Ein Kochkurs dauert meist einen halben Tag und beinhaltet einen Markt- oder Dorfbesuch und das gemeinsame Essen (Preise vorher prüfen). Eine gute Gelegenheit, Vietnams Küche zu verstehen.</p>",
+     "text_en": "<p>About three kilometres north of the old town lies Trà Quế, a village known for its herb and vegetable gardens. You can cycle through the beds, work with farmers and learn how ingredients are grown. Many cooking classes begin here with a visit to the field.</p><p>A cooking class usually takes half a day and includes a market or village visit and the shared meal (check prices beforehand). A good chance to understand Vietnam’s cuisine.</p>",
+     "name_en": "Trà Quế – vegetable village & cooking class",
+     "gem": true,
+     "q": "Tra Que Vegetable Village",
+     "tip": "Buche einen Kochkurs mit Dorfbesuch am Vormittag.",
+     "tip_en": "Book a cooking class with a village visit in the morning."
+    },
+    {
+     "name": "Cẩm Thanh – Kokoswald & Korbboote",
+     "text": "<p>Im Kokoswald von Cẩm Thanh fahren runde Korbboote durch schmale Wasserwege zwischen Nipa-Palmen. Ein Bootsführer paddelt dich durch die Kanäle; manche zeigen kleine Kunststücke. Es ist touristisch, aber ein schönes Naturerlebnis nahe der Stadt.</p><p>Die Fahrt dauert etwa 30 bis 60 Minuten. Handle den Preis vorher und komm morgens, wenn es kühler ist.</p>",
+     "text_en": "<p>In the Cẩm Thanh coconut forest round basket boats glide through narrow waterways between nipa palms. A boatman paddles you through the channels; some show small tricks. It is touristy but a lovely nature experience near the city.</p><p>The ride takes about 30 to 60 minutes. Agree the price beforehand and come in the morning when it is cooler.</p>",
+     "name_en": "Cẩm Thanh – coconut forest & basket boats",
+     "gem": true,
+     "q": "Cam Thanh Coconut Village",
+     "tip": "Komm morgens und handle den Preis vorher aus.",
+     "tip_en": "Come in the morning and agree the price beforehand."
+    },
+    {
+     "name": "My Son – Cham-Tempel",
+     "text": "<p>Rund 40 Kilometer westlich von Hoi An liegt My Son, eine Tempelanlage der Cham aus dem 4. bis 14. Jahrhundert und UNESCO-Welterbe. Die Backsteintürme im Dschungel sind teils verfallen, teils restauriert; Bomben aus dem Krieg haben Schäden hinterlassen. Ein Ausflug dauert einen halben Tag.</p><p>Früh am Morgen ist es kühler und leerer. Nimm Wasser, Sonnenschutz und festes Schuhwerk mit. Preise und Öffnungszeiten vorher prüfen.</p>",
+     "text_en": "<p>About 40 kilometres west of Hoi An lies My Son, a temple complex of the Cham from the 4th to 14th century and a UNESCO World Heritage site. The brick towers in the jungle are partly ruined, partly restored; bombs from the war have left damage. A trip takes half a day.</p><p>Early in the morning it is cooler and emptier. Take water, sun protection and sturdy shoes. Check prices and opening times beforehand.</p>",
+     "name_en": "My Son – Cham temples",
+     "gem": true,
+     "q": "My Son Sanctuary",
+     "tip": "Starte früh am Morgen, bevor die Busse kommen.",
+     "tip_en": "Start early in the morning before the buses arrive."
     }
    ]
   },
@@ -96,17 +173,19 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Hoi An",
-   "h_en": "One day in Hoi An",
+   "h": "Tag in Hoi An",
+   "h_en": "A day in Hoi An",
    "items": [
-    "<strong>Vormittag</strong> – Altstadt, Bánh mì",
-    "<strong>Nachmittag</strong> – Japanische Brücke, Cao Lầu",
-    "<strong>Abend</strong> – Laternen auf dem Fluss"
+    "<strong>Früh (6 Uhr)</strong> – Altstadt-Gassen und Japanische Brücke",
+    "<strong>Vormittag</strong> – Cao Lầu, Bánh mì Phượng, Versammlungshallen",
+    "<strong>Nachmittag</strong> – An Bang Beach oder Schneiderbesuch",
+    "<strong>Abend</strong> – Laternen, Nachtmarkt, Papierlaternen auf dem Fluss"
    ],
    "items_en": [
-    "<strong>Morning</strong> – old town, bánh mì",
-    "<strong>Afternoon</strong> – Japanese Bridge, cao lầu",
-    "<strong>Evening</strong> – lanterns on the river"
+    "<strong>Early (6 a.m.)</strong> – old-town lanes and Japanese Bridge",
+    "<strong>Morning</strong> – cao lầu, bánh mì Phượng, assembly halls",
+    "<strong>Afternoon</strong> – An Bang Beach or tailor visit",
+    "<strong>Evening</strong> – lanterns, night market, paper lanterns on the river"
    ]
   }
  ],
@@ -116,6 +195,18 @@
    "q_en": "When is the full-moon lantern festival?",
    "a": "<p>Um den 14. Tag des Mondmonats – prüfe das Datum vorab.</p>",
    "a_en": "<p>Around the 14th day of the lunar month – check the date beforehand.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Hoi An?",
+   "q_en": "How many days do you need in Hoi An?",
+   "a": "Zwei bis drei Tage – mit My Son oder Kochkurs eher drei.",
+   "a_en": "Two to three days – with My Son or a cooking class rather three."
+  },
+  {
+   "q": "Brauche ich ein Altstadt-Ticket?",
+   "q_en": "Do I need an old-town ticket?",
+   "a": "Für den Besuch mehrerer Sehenswürdigkeiten ja; die Gassen selbst kannst du frei durchlaufen. Preise und Regeln vorher prüfen.",
+   "a_en": "For visiting several sights yes; you can walk the lanes themselves freely. Check prices and rules beforehand."
   }
  ]
 }
