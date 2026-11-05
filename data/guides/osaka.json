@@ -8,8 +8,8 @@
  "city": "Osaka",
  "city_en": "Osaka",
  "updated": "2026-11-05",
- "title": "Osaka Guide: Dotonbori, Takoyaki, Burg & Kuromon-Markt",
- "title_en": "Osaka Guide: Dotonbori, Takoyaki, Castle & Kuromon Market",
+ "title": "Osaka Guide: 10 Orte – Dotonbori, Burg, Shinsekai & Hidden Gems",
+ "title_en": "Osaka Guide: 10 places – Dotonbori, castle, Shinsekai & hidden gems",
  "desc": "Osaka 2022: abends Dotonbori, Takoyaki vom Stand, tagsüber Burg und Kuromon-Markt – von Noel.",
  "desc_en": "Osaka 2022: Dotonbori in the evening, takoyaki from the stand, castle and Kuromon Market by day – from Noel.",
  "gyg_q": "Osaka",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Yen (JPY)",
    "v_en": "Yen (JPY)"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "März bis Mai (Kirschblüte) und Oktober bis November",
+   "v_en": "March to May (cherry blossom) and October to November"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Osaka erreichst du per Shinkansen oder Flug; von Kyoto sind es nur 15–30 Minuten mit dem Zug. Aktuelle Fahrpläne vorher prüfen.</p>",
-   "html_en": "<p>You reach Osaka by shinkansen or flight; from Kyoto it is only 15–30 minutes by train. Check current timetables beforehand.</p>"
+   "html": "<p>Osaka erreichst du per Shinkansen oder Flug; von Kyoto sind es nur 15–30 Minuten mit dem Zug. Aktuelle Fahrpläne vorher prüfen.</p><p>Vom Flughafen Kansai (KIX) fährst du mit dem Zug in rund 40 bis 50 Minuten in die Innenstadt (Namba). Innerhalb der Stadt nutzt du die Metro und die JR-Loop-Line; eine IC-Karte (zum Beispiel ICOCA) macht das Bezahlen leicht. Osaka liegt sehr zentral: Kyoto und Nara erreichst du mit dem Zug in 15 bis 50 Minuten (Fahrpläne vorher prüfen).</p><p>Prüfe, ob ein Osaka-Pass für deine Pläne lohnt – er enthält oft freien Eintritt für mehrere Attraktionen und Fahrten. In Osaka ist Bargeld weiterhin wichtig; kleinere Stände nehmen oft nur Yen.</p>",
+   "html_en": "<p>You reach Osaka by shinkansen or flight; from Kyoto it is only 15–30 minutes by train. Check current timetables beforehand.</p><p>From Kansai Airport (KIX) you take the train in about 40 to 50 minutes into the city centre (Namba). Within the city you use the metro and the JR Loop Line; an IC card (for example ICOCA) makes paying easy. Osaka is very central: you reach Kyoto and Nara by train in 15 to 50 minutes (check timetables beforehand).</p><p>Check whether an Osaka pass is worthwhile for your plans – it often includes free admission to several attractions and rides. Cash is still important in Osaka; smaller stalls often take only yen.</p>"
   },
   {
    "type": "spots",
@@ -49,25 +55,111 @@
    "spots": [
     {
      "name": "Dotonbori",
-     "text": "Abends durch die Garküchen treiben lassen und Takoyaki direkt vom Stand essen.",
-     "text_en": "In the evening drift through the food stalls and eat takoyaki straight from the stand.",
-     "q": "Dotonbori"
+     "text": "<p>Abends durch die Garküchen treiben lassen und Takoyaki direkt vom Stand essen.</p><p>Dotonbori ist das Herz von Osakas Ausgehviertel: ein Kanal, gesäumt von Neonreklamen, Restaurants und Garküchen. Das berühmteste Motiv ist das Glico-Läufer-Schild über dem Wasser; ein riesiger Krabbenschmuck am Haus des Restaurants Kani Doraku ist das zweite. Bei Dunkelheit leuchtet alles, und die Straße ist voll.</p><p>Probiere hier Takoyaki (Oktopus-Bällchen) und Okonomiyaki (herzhafter Pfannkuchen) direkt am Stand. Das Motto der Stadt lautet „kuidaore“ – sich zu Tode essen. Plane einen Abend ein und lass dich treiben; komm gegen 18 Uhr, wenn die Lichter angehen.</p>",
+     "text_en": "<p>In the evening drift through the food stalls and eat takoyaki straight from the stand.</p><p>Dotonbori is the heart of Osaka’s entertainment district: a canal lined with neon signs, restaurants and food stalls. The most famous motif is the Glico Running Man sign above the water; a giant crab on the front of the Kani Doraku restaurant is the second. After dark everything glows, and the street is full.</p><p>Try takoyaki (octopus balls) and okonomiyaki (savoury pancake) right at the stall. The city’s motto is “kuidaore” – to eat until you drop. Plan an evening and let yourself drift; come around 6 p.m. when the lights come on.</p>",
+     "q": "Dotonbori",
+     "tip": "Komm bei Dämmerung und nimm kleine Portionen an mehreren Ständen statt eines großen Essens.",
+     "tip_en": "Come at dusk and take small portions at several stalls instead of one big meal."
     },
     {
      "name": "Kuromon-Markt",
-     "text": "Tagsüber über den Markt: Meeresfrüchte und Streetfood. Auf Google 4,1 Sterne; Besucher sagen, er sei inzwischen touristisch, früh am Morgen sei es besser.",
-     "text_en": "By day across the market: seafood and street food. 4.1 stars on Google; visitors say it is touristy now, early in the morning is better.",
+     "text": "<p>Tagsüber über den Markt: Meeresfrüchte und Streetfood. Auf Google 4,1 Sterne; Besucher sagen, er sei inzwischen touristisch, früh am Morgen sei es besser.</p><p>Der Kuromon-Markt wird auch „Osakas Küche“ genannt: eine überdachte Markthalle mit rund 150 Ständen für Fisch, Meeresfrüchte, Gemüse und fertige Gerichte. Du kannst frisch gegrillte Jakobsmuscheln, Sushi, Obst am Stiel und Tamagoyaki probieren.</p><p>Heute ist der Markt auch bei Touristen sehr beliebt, deshalb wird es mittags voll – ein Besuch am frühen Vormittag ist besser. Viele Stände haben begrenzte Öffnungszeiten; manche schließen am Nachmittag.</p>",
+     "text_en": "<p>By day across the market: seafood and street food. 4.1 stars on Google; visitors say it is touristy now, early in the morning is better.</p><p>Kuromon Market is also called “Osaka’s kitchen”: a covered market hall with about 150 stalls for fish, seafood, vegetables and ready meals. You can try freshly grilled scallops, sushi, fruit on a stick and tamagoyaki.</p><p>Today the market is also very popular with tourists, so it gets crowded at midday – a visit in the early morning is better. Many stalls have limited opening hours; some close in the afternoon.</p>",
      "name_en": "Kuromon Market",
      "q": "Kuromon Market Osaka",
      "hours": "laut Google täglich ca. 9–17 Uhr",
-     "hours_en": "daily about 9 am–5 pm according to Google"
+     "hours_en": "daily about 9 am–5 pm according to Google",
+     "tip": "Komm vor 10 Uhr und nimm Bargeld für kleine Probierportionen mit.",
+     "tip_en": "Come before 10 a.m. and bring cash for small tasting portions."
     },
     {
      "name": "Burg Osaka",
-     "text": "Tagsüber die Burg.",
-     "text_en": "The castle by day.",
+     "text": "<p>Tagsüber die Burg.</p><p>Die Burg Osaka wurde im 16. Jahrhundert von Toyotomi Hideyoshi errichtet und im 20. Jahrhundert rekonstruiert. Der Hauptturm beherbergt ein Museum über die Geschichte der Burg und der Samurai-Zeit; von der obersten Etage hast du einen Rundumblick über die Stadt. Die Anlage ist von Wassergräben, Mauern und einem weiten Park umgeben.</p><p>Die Gärten (zum Beispiel der Nishinomaru-Garten) sind besonders in der Kirschblüte im Frühling beliebt. Plane zwei bis drei Stunden ein; Eintritt und Öffnungszeiten ändern sich (vorher prüfen). Du erreichst sie bequem mit der Bahn.</p>",
+     "text_en": "<p>The castle by day.</p><p>Osaka Castle was built in the 16th century by Toyotomi Hideyoshi and reconstructed in the 20th century. The main keep houses a museum about the history of the castle and the samurai era; from the top floor you have an all-round view over the city. The complex is surrounded by moats, walls and a wide park.</p><p>The gardens (for example the Nishinomaru Garden) are especially popular during the cherry blossom in spring. Plan two to three hours; admission and opening times change (check beforehand). You reach it conveniently by train.</p>",
      "name_en": "Osaka Castle",
-     "q": "Osaka Castle"
+     "q": "Osaka Castle",
+     "tip": "Komm morgens, wenn es noch kühl und leer ist, und plane Zeit für den Park ein.",
+     "tip_en": "Come in the morning when it is still cool and empty, and plan time for the park."
+    },
+    {
+     "name": "Shinsekai & Tsutenkaku-Turm",
+     "text": "<p>Shinsekai ist ein Retro-Viertel mit Neonschildern, Spielhallen und Imbissen, das an eine frühere Zeit erinnert. Im Zentrum steht der Tsutenkaku-Turm, ein Wahrzeichen von Osaka mit einer Aussichtsplattform. Das Viertel ist bekannt für Kushikatsu – frittierte Spieße, die du in eine gemeinsame Soße tauchst. Die Regel dort: Nicht doppelt tauchen!</p><p>Das Viertel ist sehr lebendig und authentisch; abends wirkt es besonders stimmungsvoll. Plane einen Abend ein; behalte Taschen im Blick.</p>",
+     "text_en": "<p>Shinsekai is a retro district with neon signs, arcades and snack bars that recalls an earlier era. At its centre stands the Tsutenkaku Tower, a landmark of Osaka with a viewing platform. The district is known for kushikatsu – deep-fried skewers that you dip in a shared sauce. The rule there: no double dipping!</p><p>The district is very lively and authentic; in the evening it feels especially atmospheric. Plan an evening; keep an eye on your bags.</p>",
+     "name_en": "Shinsekai & Tsutenkaku Tower",
+     "q": "Shinsekai Osaka",
+     "tip": "Iss Kushikatsu und halte dich an die „Nicht doppelt tauchen“-Regel.",
+     "tip_en": "Eat kushikatsu and follow the “no double dipping” rule."
+    },
+    {
+     "name": "Umeda Sky Building & Floating Garden",
+     "text": "<p>Das Umeda Sky Building besteht aus zwei Türmen, die oben durch eine Plattform verbunden sind. Die Aussichtsplattform Floating Garden Observatory liegt rund 170 Meter hoch und bietet einen 360-Grad-Blick über Osaka. Besonders schön ist die Aussicht zum Sonnenuntergang und am Abend.</p><p>Eine Rolltreppe, die frei durch die Luft führt, ist ein Erlebnis für sich. Eintritt ändert sich (vorher prüfen). Plane eine Stunde ein.</p>",
+     "text_en": "<p>The Umeda Sky Building consists of two towers connected at the top by a platform. The Floating Garden Observatory lies about 170 metres up and offers a 360-degree view over Osaka. The view is especially beautiful at sunset and in the evening.</p><p>An escalator that runs freely through the air is an experience in itself. Admission changes (check beforehand). Plan an hour.</p>",
+     "name_en": "Umeda Sky Building & Floating Garden",
+     "q": "Umeda Sky Building",
+     "tip": "Komm kurz vor Sonnenuntergang und bleib, bis die Lichter angehen.",
+     "tip_en": "Come shortly before sunset and stay until the lights come on."
+    },
+    {
+     "name": "Shinsaibashi & Amerikamura",
+     "text": "<p>Shinsaibashi ist Osakas große Einkaufsstraße: eine überdachte Arkade mit Läden, Drogerien und Cafés, direkt neben Dotonbori. Nebenan liegt Amerikamura, ein Viertel für Mode, Streetwear und Jugendkultur mit bunten Läden und Straßenkunst.</p><p>Wenn du bummeln willst, plane den Nachmittag dafür ein. Die Läden öffnen meist gegen 10 bis 11 Uhr und schließen abends. Es gibt viele Möglichkeiten, Souvenirs zu kaufen.</p>",
+     "text_en": "<p>Shinsaibashi is Osaka’s big shopping street: a covered arcade with shops, drugstores and cafés, right next to Dotonbori. Next door lies Amerikamura, a district for fashion, streetwear and youth culture with colourful shops and street art.</p><p>If you want to browse, plan the afternoon for it. Shops usually open around 10 to 11 a.m. and close in the evening. There are many opportunities to buy souvenirs.</p>",
+     "name_en": "Shinsaibashi & Amerikamura",
+     "q": "Shinsaibashi Osaka",
+     "tip": "Komm am Nachmittag und verbinde den Bummel mit Dotonbori am Abend.",
+     "tip_en": "Come in the afternoon and combine the stroll with Dotonbori in the evening."
+    }
+   ]
+  },
+  {
+   "id": "gems",
+   "h": "Hidden Gems in Osaka",
+   "h_en": "Hidden gems in Osaka",
+   "spots": [
+    {
+     "name": "Hōzenji Yokochō – die Gasse hinter Dotonbori",
+     "text": "<p>Nur ein paar Schritte vom Trubel entfernt liegt die schmale Steingasse Hōzenji Yokochō mit kleinen Restaurants und Bars, beleuchtet von Laternen. Im Zentrum steht der Hōzenji-Tempel mit einer moosbewachsenen Fudō-Myōō-Statue, die Besucher mit Wasser übergießen und der sie Wünsche zuflüstern.</p><p>Die Gasse ist ein stiller Kontrast zu Dotonbori. Sei respektvoll: Es ist ein aktiver Ort des Glaubens und kein Fotospot für laute Gruppen.</p>",
+     "text_en": "<p>Just a few steps from the bustle lies the narrow stone lane Hōzenji Yokochō with small restaurants and bars lit by lanterns. At its centre stands the Hōzenji Temple with a moss-covered Fudō Myōō statue that visitors pour water over and whisper wishes to.</p><p>The lane is a quiet contrast to Dotonbori. Be respectful: it is an active place of faith, not a photo spot for loud groups.</p>",
+     "name_en": "Hōzenji Yokochō – the lane behind Dotonbori",
+     "gem": true,
+     "q": "Hozenji Yokocho Osaka",
+     "tip": "Komm nach dem Abendessen und genieße die Ruhe nach dem Trubel.",
+     "tip_en": "Come after dinner and enjoy the calm after the bustle."
+    },
+    {
+     "name": "Nakazakichō – Retro-Cafés in alten Häusern",
+     "text": "<p>Nakazakichō ist ein kleines Viertel mit Holzhäusern, die den Krieg überstanden haben und heute Cafés, Läden und Ateliers beherbergen. Es ist ruhig, ein bisschen verwinkelt und ein schöner Gegensatz zu den Hochhäusern ringsum.</p><p>Die Läden öffnen meist spät und manche sind nur an bestimmten Tagen auf. Plane einen entspannten Nachmittag ein und trinke Kaffee in einem alten Haus.</p>",
+     "text_en": "<p>Nakazakichō is a small district with wooden houses that survived the war and today house cafés, shops and studios. It is quiet, a little winding and a lovely contrast to the high-rises around.</p><p>Shops usually open late and some are only open on certain days. Plan a relaxed afternoon and drink coffee in an old house.</p>",
+     "name_en": "Nakazakichō – retro cafés in old houses",
+     "gem": true,
+     "q": "Nakazakicho Osaka",
+     "tip": "Komm am Nachmittag und prüfe die Öffnungszeiten der kleinen Läden.",
+     "tip_en": "Come in the afternoon and check the opening times of the small shops."
+    },
+    {
+     "name": "Namba-Yasaka-Schrein – der Löwenkopf",
+     "text": "<p>Der Namba-Yasaka-Schrein hat eine Bühne in Form eines riesigen Löwenkopfes mit weit aufgerissenem Maul, rund 12 Meter hoch. Der Löwe soll Unglück verschlingen und Glück bringen. Der Schrein liegt mitten in der Stadt, wirkt aber überraschend ruhig.</p><p>Du kannst hier ein kurzes Gebet sprechen oder einfach das Bild genießen. Kein Eintritt; plane zehn bis zwanzig Minuten ein. Respektiere die Regeln für Schreine.</p>",
+     "text_en": "<p>The Namba Yasaka Shrine has a stage in the shape of a huge lion’s head with wide-open mouth, about 12 metres high. The lion is said to swallow misfortune and bring luck. The shrine lies in the middle of the city but feels surprisingly quiet.</p><p>You can say a short prayer here or simply enjoy the sight. No admission; plan ten to twenty minutes. Respect the rules for shrines.</p>",
+     "name_en": "Namba Yasaka Shrine – the lion’s head",
+     "gem": true,
+     "q": "Namba Yasaka Shrine",
+     "tip": "Geh früh am Morgen oder am späten Nachmittag, wenn es ruhig ist.",
+     "tip_en": "Go early in the morning or late in the afternoon when it is quiet."
+    }
+   ]
+  },
+  {
+   "id": "ausflug",
+   "h": "Tagesausflug von Osaka",
+   "h_en": "Day trip from Osaka",
+   "spots": [
+    {
+     "name": "Nara – Tempel & zahme Hirsche",
+     "text": "<p>Nara erreichst du mit dem Zug in rund 40 bis 50 Minuten von Osaka. Die frühere Hauptstadt ist bekannt für den Tōdai-ji mit einer der größten Bronzebuddha-Statuen der Welt und für die vielen frei lebenden Sikahirsche im Park. Du kannst Hirschkekse kaufen und die Tiere füttern – sie verbeugen sich sogar manchmal.</p><p>Der Park ist weitläufig; plane einen halben bis ganzen Tag ein. Pass auf: Die Hirsche können aufdringlich werden und nach Essen schnappen. Halte Karten und Taschen fest.</p>",
+     "text_en": "<p>You reach Nara by train in about 40 to 50 minutes from Osaka. The former capital is known for Tōdai-ji with one of the largest bronze Buddha statues in the world and for the many free-living sika deer in the park. You can buy deer biscuits and feed the animals – they sometimes even bow.</p><p>The park is extensive; plan half a day to a full day. Watch out: the deer can become pushy and snatch at food. Hold on to maps and bags.</p>",
+     "name_en": "Nara – temples & tame deer",
+     "q": "Nara Park Todai-ji",
+     "tip": "Fahr früh, bevor die Gruppen kommen, und halte Essen aus der Tasche.",
+     "tip_en": "Go early before the groups arrive and keep food out of your bag."
     }
    ]
   },
@@ -83,17 +175,45 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Osaka",
-   "h_en": "One day in Osaka",
+   "h": "Tag 1 – Klassiker",
+   "h_en": "Day 1 – Classics",
    "items": [
-    "<strong>Vormittag</strong> – Kuromon-Markt",
-    "<strong>Nachmittag</strong> – Burg",
-    "<strong>Abend</strong> – Dotonbori"
+    "<strong>Vormittag</strong> – Burg Osaka und Park",
+    "<strong>Mittag</strong> – Kuromon-Markt (früh)",
+    "<strong>Nachmittag</strong> – Shinsaibashi und Amerikamura",
+    "<strong>Abend</strong> – Dotonbori, Takoyaki, Hōzenji Yokochō"
    ],
    "items_en": [
-    "<strong>Morning</strong> – Kuromon Market",
-    "<strong>Afternoon</strong> – castle",
-    "<strong>Evening</strong> – Dotonbori"
+    "<strong>Morning</strong> – Osaka Castle and park",
+    "<strong>Midday</strong> – Kuromon Market (early)",
+    "<strong>Afternoon</strong> – Shinsaibashi and Amerikamura",
+    "<strong>Evening</strong> – Dotonbori, takoyaki, Hōzenji Yokochō"
+   ]
+  },
+  {
+   "h": "Tag 2 – Retro & Aussicht",
+   "h_en": "Day 2 – Retro & views",
+   "items": [
+    "<strong>Vormittag</strong> – Nakazakichō und Café",
+    "<strong>Mittag</strong> – Shinsekai und Kushikatsu",
+    "<strong>Nachmittag</strong> – Tsutenkaku-Turm, Namba-Yasaka-Schrein",
+    "<strong>Abend</strong> – Umeda Sky Building bei Sonnenuntergang"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Nakazakichō and café",
+    "<strong>Midday</strong> – Shinsekai and kushikatsu",
+    "<strong>Afternoon</strong> – Tsutenkaku Tower, Namba Yasaka Shrine",
+    "<strong>Evening</strong> – Umeda Sky Building at sunset"
+   ]
+  },
+  {
+   "h": "Tag 3 – Nara",
+   "h_en": "Day 3 – Nara",
+   "items": [
+    "<strong>Ganztags</strong> – Zug nach Nara, Tōdai-ji, Park mit den Hirschen, abends zurück"
+   ],
+   "items_en": [
+    "<strong>All day</strong> – train to Nara, Tōdai-ji, deer park, back in the evening"
    ]
   }
  ],
@@ -103,6 +223,18 @@
    "q_en": "Is one day enough in Osaka?",
    "a": "<p>Für Essen und Highlights ja.</p>",
    "a_en": "<p>For food and highlights yes.</p>"
+  },
+  {
+   "q": "Reicht ein Tag in Osaka?",
+   "q_en": "Is one day enough in Osaka?",
+   "a": "Für die Klassiker ja, aber zwei bis drei Tage sind besser – mit Nara oder Kyoto als Ausflug.",
+   "a_en": "For the classics yes, but two to three days are better – with Nara or Kyoto as a day trip."
+  },
+  {
+   "q": "Brauche ich Bargeld in Osaka?",
+   "q_en": "Do I need cash in Osaka?",
+   "a": "Ja, kleine Stände und Imbisse nehmen oft nur Yen. Geldautomaten in Convenience-Stores (7-Eleven, Lawson) funktionieren meist mit ausländischen Karten.",
+   "a_en": "Yes, small stalls and snack bars often take only yen. ATMs in convenience stores (7-Eleven, Lawson) usually work with foreign cards."
   }
  ]
 }

@@ -7,8 +7,8 @@
  "city": "Lübeck",
  "city_en": "Lübeck",
  "updated": "2026-11-05",
- "title": "Lübeck Guide: Holstentor, versteckte Höfe & Marzipan bei Niederegger",
- "title_en": "Lübeck Guide: Holstentor, Hidden Courtyards & Marzipan at Niederegger",
+ "title": "Lübeck Guide: 11 Orte – Holstentor, Höfe, Marienkirche & Marzipan",
+ "title_en": "Lübeck Guide: 11 places – Holstentor, courtyards, St Mary’s & marzipan",
  "desc": "Lübeck, die Königin der Hanse: Holstentor, versteckte Gänge und Höfe der Altstadt und Marzipan bei Niederegger – von Noel.",
  "desc_en": "Lübeck, queen of the Hanseatic League: Holstentor, hidden passages and courtyards of the old town and marzipan at Niederegger – from Noel.",
  "gyg_q": "Lübeck",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Euro",
    "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai bis September; Dezember für den Weihnachtsmarkt",
+   "v_en": "May to September; December for the Christmas market"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Lübeck erreichst du per Regionalzug von Hamburg in rund 45 Minuten; die Altstadtinsel läufst du.</p>",
-   "html_en": "<p>You reach Lübeck by regional train from Hamburg in about 45 minutes; you walk the old-town island.</p>"
+   "html": "<p>Lübeck erreichst du per Regionalzug von Hamburg in rund 45 Minuten; die Altstadtinsel läufst du.</p><p>Von Hamburg bist du mit dem Regionalexpress in etwa 40 Minuten in Lübeck; der Bahnhof liegt rund 10 Minuten zu Fuß vom Holstentor. Die Altstadt ist eine Insel, auf der alles gut zu Fuß erreichbar ist (Fahrpläne vorher prüfen).</p><p>Wer mit dem Auto kommt, parkt außerhalb der Altstadt und geht zu Fuß hinein. Für Travemünde fährt eine Regionalbahn.</p>",
+   "html_en": "<p>You reach Lübeck by regional train from Hamburg in about 45 minutes; you walk the old-town island.</p><p>From Hamburg you reach Lübeck by regional express in about 40 minutes; the station is about a 10-minute walk from the Holstentor. The old town is an island on which everything is easily reachable on foot (check timetables beforehand).</p><p>If you come by car, park outside the old town and walk in. A regional train runs to Travemünde.</p>"
   },
   {
    "type": "spots",
@@ -49,15 +55,55 @@
    "spots": [
     {
      "name": "Holstentor",
-     "text": "Das Wahrzeichen von 1478.",
-     "text_en": "The landmark from 1478.",
-     "q": "Holstentor"
+     "text": "<p>Das Wahrzeichen von 1478.</p><p>Das Holstentor wurde 1478 fertiggestellt und ist mit seinen zwei Rundtürmen das Wahrzeichen der Stadt. Es stand früher am Rand der Stadtbefestigung, heute ist es von der Altstadtinsel aus der Weg ins Zentrum. Das Tor hat sich im Lauf der Jahrhunderte gesenkt – du siehst das an der leicht schiefen Linie des Baus.</p><p>Im Inneren befindet sich ein Museum, das die Geschichte der Stadt und der Hanse zeigt (Zeiten und Preise vorher prüfen). Das schönste Foto gelingt von der gegenüberliegenden Seite des Wassers, am besten am Vormittag oder bei sanftem Abendlicht.</p>",
+     "text_en": "<p>The landmark from 1478.</p><p>The Holstentor was completed in 1478 and, with its two round towers, is the landmark of the city. It once stood on the edge of the city fortifications, today it is the way into the centre from the old-town island. Over the centuries the gate has sunk – you see this in the slightly crooked line of the building.</p><p>Inside is a museum showing the history of the city and the Hanseatic League (check times and prices beforehand). The best photo works from the opposite side of the water, best in the morning or in soft evening light.</p>",
+     "q": "Holstentor",
+     "tip": "Foto von der anderen Seite, dann spaziere über die Brücke und durch das Tor.",
+     "tip_en": "Take the photo from the other side, then walk across the bridge and through the gate."
     },
     {
      "name": "Niederegger – Marzipan",
-     "text": "Das Stammhaus mit Café. Auf Google 4,4 Sterne bei über 8.500 Bewertungen; Gäste loben Kuchen und Mandelkuchen, im Advent ist es voll.",
-     "text_en": "The original house with café. 4.4 stars on Google from over 8,500 reviews; guests praise cake and almond cake, it is busy in Advent.",
-     "q": "Café Niederegger Stammhaus Lübeck"
+     "text": "<p>Das Stammhaus mit Café. Auf Google 4,4 Sterne bei über 8.500 Bewertungen; Gäste loben Kuchen und Mandelkuchen, im Advent ist es voll.</p><p>Niederegger gibt es seit 1806; das Stammhaus am Markt ist Café, Laden und kleines Marzipanmuseum in einem. Probier den Marzipan-Klassiker, Nusskuchen oder Torten und schau dir im Obergeschoss die Marzipanfiguren an. Marzipan ist ein Lübecker Wahrzeichen; viele Besucher nehmen eine Packung mit.</p><p>Vor allem zur Weihnachtszeit und an Wochenenden gibt es Wartezeiten. Komm früh am Vormittag oder unter der Woche; frag nach Probierstücken.</p>",
+     "text_en": "<p>The original house with café. 4.4 stars on Google from over 8,500 reviews; guests praise cake and almond cake, it is busy in Advent.</p><p>Niederegger has existed since 1806; the main house on the market square is a café, shop and small marzipan museum in one. Try the marzipan classic, nut cake or tortes and look at the marzipan figures upstairs. Marzipan is a Lübeck landmark; many visitors take a pack home.</p><p>Especially at Christmas time and on weekends there are queues. Come early in the morning or on a weekday; ask for samples.</p>",
+     "q": "Café Niederegger Stammhaus Lübeck",
+     "tip": "Komm früh oder unter der Woche, im Advent ist es sehr voll.",
+     "tip_en": "Come early or on a weekday, in Advent it is very crowded."
+    },
+    {
+     "name": "Marienkirche",
+     "text": "<p>Die Marienkirche ist die Hauptkirche der Stadt und ein Meisterwerk der norddeutschen Backsteingotik. Ihr Gewölbe ist rund 38 Meter hoch. Besonders sehenswert sind die astronomische Uhr und das Fragment des Totentanzes. Im Zweiten Weltkrieg wurde sie schwer beschädigt und danach wieder aufgebaut.</p><p>Ein Fahrstuhl führt in den Turm, von dem du über die Altstadt blickst (Zeiten und Preise vorher prüfen). Die Kirche prägte das Vorbild für viele Backsteinkirchen an der Ostsee.</p>",
+     "text_en": "<p>The Marienkirche is the main church of the city and a masterpiece of North German brick Gothic. Its vault is about 38 metres high. Especially worth seeing are the astronomical clock and the fragment of the Dance of Death. It was badly damaged in the Second World War and rebuilt afterwards.</p><p>A lift leads up the tower, from which you look over the old town (check times and prices beforehand). The church became the model for many brick churches on the Baltic.</p>",
+     "name_en": "St Mary’s Church (Marienkirche)",
+     "q": "Marienkirche Lübeck",
+     "tip": "Fahr mit dem Aufzug hoch – der Blick über die Dächer lohnt sich.",
+     "tip_en": "Take the lift up – the view over the roofs is worth it."
+    },
+    {
+     "name": "Rathaus am Markt",
+     "text": "<p>Das Lübecker Rathaus gehört zu den ältesten in Deutschland; es entstand im 13. Jahrhundert und wurde über Jahrhunderte erweitert. Die dunkle Fassade mit den Windlöchern und die gotische Laube sind charakteristisch. Führungen gewähren Einblick in den Audienzsaal und andere Räume (Termine vorher prüfen).</p><p>Der Markt davor ist Treffpunkt der Stadt: Marktstände, Cafés und das Stammhaus von Niederegger liegen in Sichtweite.</p>",
+     "text_en": "<p>The Lübeck town hall is among the oldest in Germany; it arose in the 13th century and was extended over centuries. The dark façade with the wind holes and the Gothic loggia are characteristic. Tours give insight into the audience hall and other rooms (check dates beforehand).</p><p>The market square in front is the city’s meeting point: market stalls, cafés and the main house of Niederegger are within sight.</p>",
+     "name_en": "Town hall on the market square",
+     "q": "Rathaus Lübeck",
+     "tip": "Mach eine Führung, wenn du Zeit hast – das Innere ist beeindruckend.",
+     "tip_en": "Take a tour if you have time – the interior is impressive."
+    },
+    {
+     "name": "Europäisches Hansemuseum",
+     "text": "<p>Das Hansemuseum erzählt die Geschichte der Hanse, des mittelalterlichen Handelsbunds, zu dem auch Lübeck gehörte. In einer modernen Ausstellung läufst du durch Szenen, Kaufmannskontore und Stadtmodelle und lernst, wie Handel Städte, Länder und Kulturen verband.</p><p>Plane zwei bis drei Stunden ein; Eintritt und Öffnungszeiten ändern sich (vorher prüfen). Das Museum liegt neben der Burgkirche am Ende der Altstadt und ist ein guter Regentag-Tipp.</p>",
+     "text_en": "<p>The Hanseatic Museum tells the story of the Hanseatic League, the medieval trade alliance to which Lübeck belonged. In a modern exhibition you walk through scenes, merchants’ offices and city models and learn how trade connected cities, countries and cultures.</p><p>Plan two to three hours; admission and opening times change (check beforehand). The museum lies next to the Burgkirche at the end of the old town and is a good rainy-day tip.</p>",
+     "name_en": "European Hansemuseum",
+     "q": "Europäisches Hansemuseum Lübeck",
+     "tip": "Plane ihn für einen Regentag ein.",
+     "tip_en": "Plan it for a rainy day."
+    },
+    {
+     "name": "Buddenbrookhaus & Literatur",
+     "text": "<p>Das Buddenbrookhaus in der Mengstraße war das Familienhaus der Großeltern von Thomas und Heinrich Mann und ist heute ein Literaturmuseum. Es erzählt von den Brüdern, ihrem Werk und von der Stadt, die Thomas Manns Roman „Buddenbrooks“ prägte.</p><p>Nur wenige Gehminuten entfernt liegt das Günter-Grass-Haus, das dem Literaturnobelpreisträger gewidmet ist. Wenn du dich für Literatur interessierst, sind beide Häuser ein Höhepunkt. Prüfe Zeiten und Preise vorher.</p>",
+     "text_en": "<p>The Buddenbrook House in Mengstraße was the family home of the grandparents of Thomas and Heinrich Mann and is now a literature museum. It tells of the brothers, their work and of the city that shaped Thomas Mann’s novel “Buddenbrooks”.</p><p>Only a few minutes’ walk away lies the Günter Grass House, dedicated to the Nobel laureate in literature. If you are interested in literature both houses are a highlight. Check times and prices beforehand.</p>",
+     "name_en": "Buddenbrook House & literature",
+     "q": "Buddenbrookhaus Lübeck",
+     "tip": "Kombiniere Buddenbrookhaus und Grass-Haus in einem Spaziergang.",
+     "tip_en": "Combine the Buddenbrook House and Grass House in one walk."
     }
    ]
   },
@@ -69,28 +115,72 @@
    "spots": [
     {
      "name": "Versteckte Gänge und Höfe",
-     "text": "Durch die Gänge und Höfe der Altstadt – die meisten Besucher laufen daran vorbei.",
-     "text_en": "Through the passages and courtyards of the old town – most visitors walk past them.",
+     "text": "<p>Durch die Gänge und Höfe der Altstadt – die meisten Besucher laufen daran vorbei.</p><p>In der Altstadt gibt es rund 90 erhaltene Gänge und Höfe, schmale Durchgänge zwischen den Häusern, die ab dem Mittelalter für die Wohnungen der ärmeren Bevölkerung entstanden. Heute sind viele Höfe restauriert und liebevoll bepflanzt – du betrittst sie durch niedrige Tore an der Straße und stehst plötzlich in einer ruhigen Oase.</p><p>Besonders schön sind zum Beispiel der Füchtingshof (17. Jahrhundert) in der Glockengießerstraße und der Glandorps Gang. Viele Höfe sind bewohnt: Sei leise, fotografiere respektvoll und achte auf Schilder.</p>",
+     "text_en": "<p>Through the passages and courtyards of the old town – most visitors walk past them.</p><p>In the old town there are around 90 preserved passages and courtyards, narrow walkways between the houses that arose from the Middle Ages for the housing of the poorer population. Today many courtyards are restored and lovingly planted – you enter them through low gates on the street and suddenly stand in a quiet oasis.</p><p>Especially beautiful are for example the Füchtingshof (17th century) in Glockengießerstraße and the Glandorps Gang. Many courtyards are inhabited: be quiet, photograph respectfully and heed signs.</p>",
      "name_en": "Hidden passages and courtyards",
      "gem": true,
-     "q": "Versteckte Gänge und Höfe"
+     "q": "Versteckte Gänge und Höfe",
+     "tip": "Schau nach niedrigen Toren und Schildern an den Fassaden – oft sind es Durchgänge.",
+     "tip_en": "Look for low gates and signs on the façades – they are often passageways."
+    },
+    {
+     "name": "Schiffergesellschaft – das Haus von 1535",
+     "text": "<p>Das Haus der Schiffergesellschaft in der Breiten Straße gehört zu den ältesten Gaststätten der Stadt. Der Raum ist mit Schiffsmodellen, alten Bänken und Holzvertäfelung eingerichtet – du isst, wo Seeleute vor Jahrhunderten tafelten. Es ist ein beliebter Ort für ein norddeutsches Essen, zum Beispiel Labskaus oder Fischgerichte.</p><p>Reservierung ist an Wochenenden sinnvoll; die Preise liegen eher im gehobenen Bereich. Wenn du nur schauen willst, frag, ob du kurz hineinschauen darfst.</p>",
+     "text_en": "<p>The House of the Shipping Company in Breite Straße is among the oldest inns in the city. The room is furnished with ship models, old benches and wood panelling – you eat where sailors dined centuries ago. It is a popular place for a North German meal, for example labskaus or fish dishes.</p><p>A reservation makes sense on weekends; prices are in the upper range. If you only want to look, ask whether you may peek in briefly.</p>",
+     "name_en": "Schiffergesellschaft – the house of 1535",
+     "gem": true,
+     "q": "Schiffergesellschaft Lübeck",
+     "tip": "Reserviere am Wochenende und probiere ein regionales Gericht.",
+     "tip_en": "Reserve at weekends and try a regional dish."
+    },
+    {
+     "name": "Salzspeicher & Hafenufer an der Trave",
+     "text": "<p>Gleich neben dem Holstentor stehen die Salzspeicher, mehrere Backsteinhäuser, in denen früher Salz aus Lüneburg gelagert wurde, bevor es nach Skandinavien verschifft wurde. Von hier führt ein Weg am Fluss entlang zu Museen, Cafés und Anlegestellen.</p><p>Ein Spaziergang am Wasser gibt dir den besten Blick auf die Silhouette der Altstadt mit den Türmen. Im Sommer kannst du eine Bootstour durch die Gewässer rund um die Altstadtinsel machen (Zeiten und Preise prüfen).</p>",
+     "text_en": "<p>Right next to the Holstentor stand the salt storehouses, several brick buildings in which salt from Lüneburg was once stored before being shipped to Scandinavia. From here a path leads along the river to museums, cafés and landing stages.</p><p>A walk by the water gives you the best view of the old town’s silhouette with the towers. In summer you can take a boat tour on the waters around the old-town island (check times and prices).</p>",
+     "name_en": "Salt storehouses & the Trave waterfront",
+     "gem": true,
+     "q": "Salzspeicher Lübeck",
+     "tip": "Geh zum Sonnenuntergang hin, dann leuchtet der Backstein.",
+     "tip_en": "Go at sunset, then the brick glows."
+    },
+    {
+     "name": "Heiligen-Geist-Hospital",
+     "text": "<p>Das Heiligen-Geist-Hospital von 1286 gehört zu den ältesten Sozialeinrichtungen Europas. Die große Halle mit den Wandmalereien und den früheren Kabinen der Bewohner ist beeindruckend; im Advent findet hier ein bekannter Weihnachtsmarkt statt.</p><p>Auch außerhalb der Adventszeit lohnt sich ein Blick hinein: Die Halle ist still und zeigt, wie die Menschen früher lebten. Prüfe Öffnungszeiten vorher.</p>",
+     "text_en": "<p>The Holy Spirit Hospital of 1286 is among the oldest social institutions in Europe. The large hall with its wall paintings and the former cubicles of the residents is impressive; in Advent a well-known Christmas market takes place here.</p><p>Even outside Advent a look inside is worthwhile: the hall is quiet and shows how people used to live. Check opening times beforehand.</p>",
+     "name_en": "Holy Spirit Hospital",
+     "gem": true,
+     "q": "Heiligen-Geist-Hospital Lübeck",
+     "tip": "Im Advent kommst du für den Weihnachtsmarkt, sonst für die Stille.",
+     "tip_en": "In Advent you come for the Christmas market, otherwise for the quiet."
+    },
+    {
+     "name": "Travemünde – Ostsee-Strand",
+     "text": "<p>Rund 20 Kilometer nördlich liegt Travemünde, der Ostseebadeort Lübecks. Strandpromenade, Sandstrand, Kurpark und die Viermastbark „Passat“ als Museumsschiff laden zu einem Tag am Meer ein. Du erreichst den Ort mit der Regionalbahn oder per Bus in rund 30 Minuten (Fahrpläne vorher prüfen).</p><p>Im Sommer ist der Strand voll; im Frühling oder Herbst bleibt dir mehr Platz. Ein Fischbrötchen an der Promenade gehört dazu.</p>",
+     "text_en": "<p>About 20 kilometres north lies Travemünde, Lübeck’s Baltic seaside resort. A beach promenade, sandy beach, spa park and the four-masted barque “Passat” as a museum ship invite you to a day by the sea. You reach it by regional train or bus in about 30 minutes (check timetables beforehand).</p><p>In summer the beach is crowded; in spring or autumn you have more space. A fish roll on the promenade is part of it.</p>",
+     "name_en": "Travemünde – Baltic beach",
+     "gem": true,
+     "q": "Travemünde Strand",
+     "tip": "Fahr im Frühling oder Herbst und iss ein Fischbrötchen an der Promenade.",
+     "tip_en": "Go in spring or autumn and eat a fish roll on the promenade."
     }
    ]
   }
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Lübeck",
-   "h_en": "One day in Lübeck",
+   "h": "Tag in Lübeck",
+   "h_en": "A day in Lübeck",
    "items": [
-    "<strong>Vormittag</strong> – Holstentor, Altstadt",
-    "<strong>Mittag</strong> – Gänge und Höfe",
-    "<strong>Nachmittag</strong> – Marzipan bei Niederegger"
+    "<strong>Vormittag</strong> – Holstentor, Salzspeicher, Rathaus und Marienkirche",
+    "<strong>Mittag</strong> – Mittagessen in der Schiffergesellschaft",
+    "<strong>Nachmittag</strong> – Gänge und Höfe, Heiligen-Geist-Hospital, Hansemuseum oder Buddenbrookhaus",
+    "<strong>Abend</strong> – Marzipan bei Niederegger, Spaziergang an der Trave"
    ],
    "items_en": [
-    "<strong>Morning</strong> – Holstentor, old town",
-    "<strong>Midday</strong> – passages and courtyards",
-    "<strong>Afternoon</strong> – marzipan at Niederegger"
+    "<strong>Morning</strong> – Holstentor, salt storehouses, town hall and St Mary’s",
+    "<strong>Midday</strong> – lunch at the Schiffergesellschaft",
+    "<strong>Afternoon</strong> – passages and courtyards, Holy Spirit Hospital, Hansemuseum or Buddenbrook House",
+    "<strong>Evening</strong> – marzipan at Niederegger, walk along the Trave"
    ]
   }
  ],
@@ -100,6 +190,18 @@
    "q_en": "How far is Lübeck from Hamburg?",
    "a": "<p>Rund 45 Minuten mit dem Regionalzug.</p>",
    "a_en": "<p>About 45 minutes by regional train.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Lübeck?",
+   "q_en": "How many days do you need in Lübeck?",
+   "a": "Ein Tag reicht für die Highlights, mit Travemünde und Museen sind es zwei.",
+   "a_en": "One day is enough for the highlights, with Travemünde and museums it is two."
+  },
+  {
+   "q": "Ist Lübeck UNESCO-Welterbe?",
+   "q_en": "Is Lübeck a UNESCO World Heritage site?",
+   "a": "Ja, die Altstadt gehört seit 1987 zum UNESCO-Welterbe – als großes Altstadt-Ensemble eine der ersten in Deutschland.",
+   "a_en": "Yes, the old town has been a UNESCO World Heritage Site since 1987 – as a large old-town ensemble one of the first in Germany."
   }
  ]
 }

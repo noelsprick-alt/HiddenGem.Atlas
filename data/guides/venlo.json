@@ -7,8 +7,8 @@
  "city": "Venlo",
  "city_en": "Venlo",
  "updated": "2026-11-05",
- "title": "Venlo Guide: Markt, Stadhuis, Maas & Fritten – der perfekte Tagesausflug aus NRW",
- "title_en": "Venlo Guide: Market, Stadhuis, Meuse & Fries – the Perfect Day Trip from NRW",
+ "title": "Venlo Guide: 11 Orte – Markt, Maas, Vlaai & Maasduinen",
+ "title_en": "Venlo Guide: 11 places – market, Maas, vlaai & Maasduinen",
  "desc": "Venlo als Tagesausflug aus NRW: Markt, Stadhuis, Kaffee an der Maas und danach Fritten mit Fritessaus – von Noel.",
  "desc_en": "Venlo as a day trip from NRW: market, Stadhuis, coffee on the Meuse and then fries with frietsaus – from Noel.",
  "gyg_q": "Venlo",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Euro",
    "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai bis September; Karneval im Februar",
+   "v_en": "May to September; carnival in February"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Venlo erreichst du aus NRW per Regionalzug oder Auto in kurzer Zeit; die Altstadt läufst du.</p>",
-   "html_en": "<p>You reach Venlo from NRW by regional train or car in a short time; you walk the old town.</p>"
+   "html": "<p>Venlo erreichst du aus NRW per Regionalzug oder Auto in kurzer Zeit; die Altstadt läufst du.</p><p>Von Düsseldorf, Duisburg oder Mönchengladbach bist du mit Regionalzügen in rund einer Stunde in Venlo; der Bahnhof liegt etwa 10 Minuten zu Fuß von der Altstadt (Fahrpläne vorher prüfen). Mit dem Auto kommst du über die A61 und parkst in den Parkhäusern am Rand.</p><p>Ein Fahrrad macht die Umgebung leichter: Leihräder gibt es am Bahnhof. Die Altstadt ist klein und zu Fuß gut zu erkunden.</p>",
+   "html_en": "<p>You reach Venlo from NRW by regional train or car in a short time; you walk the old town.</p><p>From Düsseldorf, Duisburg or Mönchengladbach you reach Venlo by regional train in about an hour; the station is roughly 10 minutes’ walk from the old town (check timetables beforehand). By car you come via the A61 and park in the car parks on the edge.</p><p>A bike makes the surroundings easier: rental bikes are available at the station. The old town is small and easy to explore on foot.</p>"
   },
   {
    "type": "spots",
@@ -49,24 +55,105 @@
    "spots": [
     {
      "name": "Markt und Stadhuis",
-     "text": "Der Marktplatz mit dem Rathaus ist das Herz der Stadt.",
-     "text_en": "The market square with the town hall is the heart of the city.",
+     "text": "<p>Der Marktplatz mit dem Rathaus ist das Herz der Stadt.</p><p>Das Stadhuis am Markt stammt aus dem Jahr 1597 und ist ein Renaissancebau mit Treppengiebel, Säulenportal und einem Glockenspiel, das zu bestimmten Zeiten erklingt. Es ist eines der schönsten Gebäude der Stadt und ein beliebtes Fotomotiv.</p><p>Rund um den Markt liegen Cafés mit Terrassen, kleine Läden und die Gassen der Altstadt. Setz dich hin, bestell einen Kaffee und beobachte das Treiben – das ist der Kern des Venlo-Tages. Im Sommer ist es hier besonders lebendig.</p>",
+     "text_en": "<p>The market square with the town hall is the heart of the city.</p><p>The Stadhuis on the market square dates from 1597 and is a Renaissance building with stepped gable, columned portal and a carillon that sounds at certain times. It is one of the most beautiful buildings in the city and a popular photo motif.</p><p>Around the market lie cafés with terraces, small shops and the lanes of the old town. Sit down, order a coffee and watch the bustle – that is the core of the Venlo day. In summer it is especially lively here.</p>",
      "name_en": "Market and Stadhuis",
      "q": "Markt und Stadhuis"
     },
     {
      "name": "Kaffee an der Maas",
-     "text": "Ein Kaffee an der Maas.",
-     "text_en": "A coffee on the Meuse.",
+     "text": "<p>Ein Kaffee an der Maas.</p><p>Am Maasboulevard kannst du am Fluss entlang spazieren und in Cafés und Restaurants mit Blick aufs Wasser einkehren. Von hier siehst du die Brücken über die Maas, Lastkähne und Spaziergänger. Wer Zeit hat, geht ein Stück am Ufer entlang bis in ruhigere Bereiche.</p><p>Die Maas ist hier breit und ruhig – perfekt für eine Pause. Ein Stück Vlaai (Limburger Obstkuchen) dazu rundet den Kaffee ab.</p>",
+     "text_en": "<p>A coffee on the Meuse.</p><p>On the Maasboulevard you can stroll along the river and stop at cafés and restaurants with a view of the water. From here you see the bridges over the Maas, barges and walkers. If you have time, walk a bit along the bank into quieter areas.</p><p>The Maas is broad and calm here – perfect for a break. A piece of vlaai (Limburg fruit pie) with it rounds off the coffee.</p>",
      "name_en": "Coffee on the Meuse",
      "q": "Kaffee an der Maas"
     },
     {
      "name": "Fritten mit Fritessaus",
-     "text": "Danach eine Portion Fritten mit Fritessaus.",
-     "text_en": "Afterwards a cone of fries with frietsaus.",
+     "text": "<p>Danach eine Portion Fritten mit Fritessaus.</p><p>Pommes gehören in den Niederlanden zur Alltagskultur: Du bekommst sie in der Tüte (Papierkegel) mit Mayo (Fritessaus) oder anderen Soßen. Die „Patatje oorlog“ kommt mit Mayo, Erdnusssoße und Zwiebeln, die „Patatje speciaal“ mit Mayo, Curryketchup und Zwiebeln.</p><p>Frag nach der Größe, wenn du nicht alleine essen willst – die Portionen sind oft groß. Setz dich auf eine Bank am Markt oder an der Maas und iss sie warm. Preise ändern sich, rechne mit wenigen Euro pro Portion.</p>",
+     "text_en": "<p>Afterwards a cone of fries with frietsaus.</p><p>Chips are part of everyday culture in the Netherlands: you get them in a paper cone with mayo (fritessaus) or other sauces. The “patatje oorlog” comes with mayo, peanut sauce and onions, the “patatje speciaal” with mayo, curry ketchup and onions.</p><p>Ask about size if you do not want to eat alone – portions are often large. Sit on a bench at the market or by the Maas and eat them hot. Prices change, expect a few euros per portion.</p>",
      "name_en": "Fries with frietsaus",
      "q": "Fritten mit Fritessaus"
+    },
+    {
+     "name": "Sint-Martinuskerk",
+     "text": "<p>Die gotische Sint-Martinuskerk aus dem 15. Jahrhundert ist das Wahrzeichen von Venlo. Ihr Turm ist weithin sichtbar, drinnen findest du eine Mischung aus gotischer Architektur und Barock sowie Kunstwerke und Gräber. Kirche und Turm sind nicht immer geöffnet – prüfe vorher die Zeiten.</p><p>Am Platz davor stehen kleine Cafés, in denen du gut eine Pause einlegen kannst. Der Spaziergang vom Markt zur Kirche dauert nur wenige Minuten.</p>",
+     "text_en": "<p>The Gothic Sint-Martinuskerk from the 15th century is the landmark of Venlo. Its tower is visible from far away, and inside you find a mixture of Gothic architecture and Baroque as well as works of art and tombs. The church and tower are not always open – check times beforehand.</p><p>On the square in front there are small cafés where you can take a break. The walk from the market to the church takes only a few minutes.</p>",
+     "name_en": "Sint-Martinuskerk",
+     "q": "Sint-Martinuskerk Venlo",
+     "tip": "Schau dir auch die Seitenstraßen rund um die Kirche an – hier ist es ruhiger als am Markt.",
+     "tip_en": "Also look at the side streets around the church – it is quieter here than at the market."
+    },
+    {
+     "name": "Limburgs Museum",
+     "text": "<p>Das Limburgs Museum in der Keulsepoort erzählt die Geschichte der Provinz Limburg von der Urzeit bis heute. Du siehst Funde aus der Römerzeit, Mittelalter-Objekte und Alltagsgegenstände. Eine gute Wahl bei Regen.</p><p>Plane etwa ein bis zwei Stunden ein. Eintritt und Öffnungszeiten ändern sich, bitte vorher prüfen.</p>",
+     "text_en": "<p>The Limburgs Museum in the Keulsepoort tells the history of the province of Limburg from prehistory to today. You see finds from Roman times, medieval objects and everyday items. A good choice in the rain.</p><p>Plan about one to two hours. Admission and opening times change, please check beforehand.</p>",
+     "name_en": "Limburg Museum",
+     "q": "Limburgs Museum Venlo",
+     "tip": "Perfekt für einen Regenschauer in der Altstadt.",
+     "tip_en": "Perfect for a rain shower in the old town."
+    },
+    {
+     "name": "Museum van Bommel van Dam",
+     "text": "<p>Das Museum zeigt moderne und zeitgenössische Kunst in einem hellen Gebäude am Stadtpark. Die Sammlung umfasst Werke von Künstlern der Region und internationalen Namen, dazu Wechselausstellungen. Es ist ruhig und gut für eine Pause von der Altstadt.</p><p>Prüfe vorher Öffnungszeiten und Eintritt; montags ist das Museum häufig geschlossen.</p>",
+     "text_en": "<p>The museum shows modern and contemporary art in a bright building by the city park. The collection includes works by artists of the region and international names, plus temporary exhibitions. It is quiet and good for a break from the old town.</p><p>Check opening times and admission beforehand; the museum is often closed on Mondays.</p>",
+     "name_en": "Museum van Bommel van Dam",
+     "q": "Museum van Bommel van Dam Venlo",
+     "tip": "Kombiniere ihn mit einem Spaziergang durch den Stadtpark.",
+     "tip_en": "Combine it with a walk through the city park."
+    },
+    {
+     "name": "Einkaufen & Gassen: Vleesstraat und Lomstraat",
+     "text": "<p>Die Vleesstraat und die Lomstraat sind die Einkaufsstraßen der Altstadt: Filialen, kleine Boutiquen, Cafés und Bäckereien. Viele Gäste aus Deutschland kommen genau dafür her. Plane Zeit für einen Bummel ein und lass dich von den Gassen treiben.</p><p>Sonntags sind viele Läden geschlossen oder öffnen später; prüfe das vorher, wenn du einkaufen willst.</p>",
+     "text_en": "<p>The Vleesstraat and Lomstraat are the shopping streets of the old town: chain stores, small boutiques, cafés and bakeries. Many guests from Germany come exactly for this. Allow time for a stroll and let the lanes carry you.</p><p>On Sundays many shops are closed or open later; check this beforehand if you want to shop.</p>",
+     "name_en": "Shopping & lanes: Vleesstraat and Lomstraat",
+     "q": "Vleesstraat Venlo",
+     "tip": "Plane einen Bummel am Vormittag und die Pause am Markt am Mittag.",
+     "tip_en": "Plan a stroll in the morning and the break at the market at noon."
+    }
+   ]
+  },
+  {
+   "id": "gems",
+   "h": "Hidden Gems & Limburger Genuss",
+   "h_en": "Hidden gems & Limburg treats",
+   "spots": [
+    {
+     "name": "Limburger Vlaai – der Kuchen der Region",
+     "text": "<p>Vlaai ist ein runder, flacher Obstkuchen mit Mürbeteig, der in der Provinz Limburg zum Lebensgefühl gehört. Typische Füllungen sind Kirsche, Aprikose, Reisbrei und Pflaume. In Bäckereien bekommst du ihn stückweise zum Kaffee, oft mit Sahne.</p><p>Frag den Bäcker nach einer Empfehlung und probiere zwei Sorten. Ein ganzer Vlaai ist ein beliebtes Mitbringsel; viele Bäckereien packen ihn für die Reise ein. Das ist ein einfacher, ehrlicher Genuss abseits der Touristenpfade.</p>",
+     "text_en": "<p>Vlaai is a round, flat fruit pie with shortcrust pastry that belongs to the way of life in the province of Limburg. Typical fillings are cherry, apricot, rice pudding and plum. In bakeries you get it by the slice with coffee, often with cream.</p><p>Ask the baker for a recommendation and try two kinds. A whole vlaai is a popular souvenir; many bakeries pack it for the trip. It is a simple, honest pleasure away from the tourist paths.</p>",
+     "name_en": "Limburg vlaai – the region’s pie",
+     "gem": true,
+     "q": "Limburgse vlaai bakkerij Venlo",
+     "tip": "Probiere zwei Sorten und nimm einen ganzen Vlaai mit nach Hause.",
+     "tip_en": "Try two kinds and take a whole vlaai home."
+    },
+    {
+     "name": "Nationalpark De Maasduinen",
+     "text": "<p>Nördlich von Venlo erstreckt sich der Nationalpark De Maasduinen: Wald, Heide, Dünen und Seen, durch die Rad- und Wanderwege führen. Es ist eine ruhige Landschaft, in der du leicht einen halben Tag verbringen kannst. Die Wege sind gut ausgeschildert; Räder kannst du in Venlo leihen.</p><p>Bring Wasser mit und plane die Strecke vorher, denn unterwegs sind Versorgungsmöglichkeiten dünn. Ein guter Ort, wenn dir die Stadt zu voll wird.</p>",
+     "text_en": "<p>North of Venlo stretches the De Maasduinen National Park: forest, heath, dunes and lakes through which cycle and hiking paths lead. It is a quiet landscape in which you can easily spend half a day. The paths are well signposted; you can rent bikes in Venlo.</p><p>Bring water and plan the route beforehand, because refreshment options along the way are thin. A good place when the city gets too crowded.</p>",
+     "name_en": "De Maasduinen National Park",
+     "gem": true,
+     "q": "Nationaal Park De Maasduinen",
+     "tip": "Starte mit dem Rad in Venlo und fahr in den Park – ein halber Tag reicht.",
+     "tip_en": "Start by bike in Venlo and ride into the park – half a day is enough."
+    },
+    {
+     "name": "Schloss und Gärten Arcen",
+     "text": "<p>Rund 20 Minuten nördlich von Venlo liegt Arcen mit dem Schloss und den berühmten Gärten (Kasteeltuinen Arcen). Auf großem Gelände findest du Themengärten, Wasserspiele, Rosen und weitläufige Wiesen. Besonders im Sommer ist es ein beliebtes Ziel für Familien.</p><p>Plane drei bis vier Stunden ein; Eintritt und Öffnungszeiten ändern sich und der Park ist saisonal geöffnet. Kombiniere den Besuch mit einem Spaziergang im Ort.</p>",
+     "text_en": "<p>About 20 minutes north of Venlo lies Arcen with the castle and the famous gardens (Kasteeltuinen Arcen). On a large site you find themed gardens, water features, roses and wide meadows. Especially in summer it is a popular destination for families.</p><p>Plan three to four hours; admission and opening times change and the park is open seasonally. Combine the visit with a walk in the village.</p>",
+     "name_en": "Arcen Castle & Gardens",
+     "q": "Kasteeltuinen Arcen",
+     "tip": "Komm unter der Woche, dann ist es deutlich ruhiger.",
+     "tip_en": "Come on a weekday, then it is much quieter."
+    },
+    {
+     "name": "Roermond – Altstadt & Outlet",
+     "text": "<p>Rund 30 Kilometer südlich liegt Roermond mit einer hübschen Altstadt, der Munsterkerk und Cafés am Fluss. Bekannt ist die Stadt auch für das Designer Outlet, das viele Besucher aus Deutschland anzieht. Mit dem Zug oder Auto ist es in 20 bis 40 Minuten erreichbar (Fahrpläne vorher prüfen).</p><p>Wenn du das Outlet meiden möchtest, lohnt sich die Altstadt mit ihren kleinen Läden auch allein. Plane einen halben Tag ein.</p>",
+     "text_en": "<p>About 30 kilometres south lies Roermond with a pretty old town, the Munsterkerk and cafés by the river. The city is also known for the Designer Outlet, which attracts many visitors from Germany. By train or car it takes 20 to 40 minutes (check timetables beforehand).</p><p>If you want to avoid the outlet, the old town with its small shops is also worthwhile alone. Plan half a day.</p>",
+     "name_en": "Roermond – old town & outlet",
+     "q": "Roermond centrum",
+     "tip": "Fahr unter der Woche, wenn es im Outlet und in der Altstadt ruhiger ist.",
+     "tip_en": "Go on a weekday when it is calmer in the outlet and the old town."
     }
    ]
   },
@@ -82,17 +169,19 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Venlo",
-   "h_en": "One day in Venlo",
+   "h": "Tag in Venlo",
+   "h_en": "A day in Venlo",
    "items": [
-    "<strong>Vormittag</strong> – Markt, Stadhuis",
-    "<strong>Mittag</strong> – Kaffee an der Maas",
-    "<strong>Nachmittag</strong> – Fritten"
+    "<strong>Vormittag</strong> – Markt, Stadhuis, Sint-Martinuskerk",
+    "<strong>Mittag</strong> – Fritten und Kaffee an der Maas",
+    "<strong>Nachmittag</strong> – Limburgs Museum oder Bummel durch die Einkaufsstraßen, Vlaai zum Kaffee",
+    "<strong>Abend</strong> – Spaziergang am Maasboulevard"
    ],
    "items_en": [
-    "<strong>Morning</strong> – market, Stadhuis",
-    "<strong>Midday</strong> – coffee on the Meuse",
-    "<strong>Afternoon</strong> – fries"
+    "<strong>Morning</strong> – market, Stadhuis, Sint-Martinuskerk",
+    "<strong>Midday</strong> – chips and coffee by the Maas",
+    "<strong>Afternoon</strong> – Limburg Museum or stroll through the shopping streets, vlaai with coffee",
+    "<strong>Evening</strong> – walk along the Maasboulevard"
    ]
   }
  ],
@@ -102,6 +191,18 @@
    "q_en": "Is Venlo worth a day trip?",
    "a": "<p>Ja, ein entspannter Ausflug direkt hinter der Grenze.</p>",
    "a_en": "<p>Yes, a relaxed trip just across the border.</p>"
+  },
+  {
+   "q": "Reicht ein Tag in Venlo?",
+   "q_en": "Is one day enough in Venlo?",
+   "a": "Ja – für die Altstadt reicht ein Tag; mit Maasduinen oder Arcen planst du zwei.",
+   "a_en": "Yes – one day is enough for the old town; with the Maasduinen or Arcen plan two."
+  },
+  {
+   "q": "Brauche ich Euro in Venlo?",
+   "q_en": "Do I need euros in Venlo?",
+   "a": "Ja, die Niederlande nutzen den Euro; Karten werden fast überall akzeptiert, Bargeld ist selten nötig.",
+   "a_en": "Yes, the Netherlands uses the euro; cards are accepted almost everywhere, cash is rarely needed."
   }
  ]
 }

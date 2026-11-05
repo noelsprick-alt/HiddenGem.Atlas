@@ -7,8 +7,8 @@
  "city": "Zugspitze & Garmisch",
  "city_en": "Zugspitze & Garmisch",
  "updated": "2026-11-05",
- "title": "Zugspitze Guide: Zahnradbahn, Eibsee & Partnachklamm",
- "title_en": "Zugspitze Guide: Cog Railway, Eibsee & Partnach Gorge",
+ "title": "Zugspitze Guide: 10 Orte – Zahnradbahn, Eibsee, Klammen & Hidden Gems",
+ "title_en": "Zugspitze Guide: 10 places – cog railway, Eibsee, gorges & hidden gems",
  "desc": "Zugspitze, 2.962 Meter: mit der Zahnradbahn hoch, mit der Seilbahn runter, Runde um den Eibsee und früh in die Partnachklamm – von Noel.",
  "desc_en": "Zugspitze, 2,962 metres: up by cog railway, down by cable car, a loop around the Eibsee and early into the Partnach Gorge – from Noel.",
  "gyg_q": "Zugspitze",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Euro",
    "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Juni bis Oktober; Dezember bis April für Ski",
+   "v_en": "June to October; December to April for skiing"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Garmisch-Partenkirchen erreichst du per Zug aus München. Zugspitzbahn und Eibsee ab Garmisch; Preise und Fahrzeiten vorher prüfen.</p>",
-   "html_en": "<p>You reach Garmisch-Partenkirchen by train from Munich. Zugspitze railway and Eibsee start from Garmisch; check prices and times beforehand.</p>"
+   "html": "<p>Garmisch-Partenkirchen erreichst du per Zug aus München. Zugspitzbahn und Eibsee ab Garmisch; Preise und Fahrzeiten vorher prüfen.</p><p>Garmisch-Partenkirchen erreichst du von München mit der Regionalbahn in rund 1,5 Stunden (Fahrpläne vorher prüfen). Vom Bahnhof Garmisch fährt die Zahnradbahn direkt zur Zugspitze; zum Eibsee fahren Bus und Zug, und es gibt die Eibsee-Seilbahn zum Gipfel. Eine Gästekarte der Unterkunft bringt oft Ermäßigungen für Bus und Bahn.</p><p>Mit dem Auto kommst du über die A95 aus München, Parkplätze in Garmisch und am Eibsee sind kostenpflichtig. Plane bei gutem Wetter in der Hochsaison lange Wartezeiten an den Bahnen ein und buche Tickets online.</p>",
+   "html_en": "<p>You reach Garmisch-Partenkirchen by train from Munich. Zugspitze railway and Eibsee start from Garmisch; check prices and times beforehand.</p><p>You reach Garmisch-Partenkirchen from Munich by regional train in about 1.5 hours (check timetables beforehand). From Garmisch station the cog railway runs directly to the Zugspitze; buses and trains go to the Eibsee, and there is the Eibsee cable car to the summit. A guest card from your accommodation often brings discounts for bus and rail.</p><p>By car you come via the A95 from Munich; parking in Garmisch and at the Eibsee is charged. In good weather in high season expect long waits at the railways and book tickets online.</p>"
   },
   {
    "type": "spots",
@@ -49,15 +55,46 @@
    "spots": [
     {
      "name": "Zugspitze – Zahnradbahn hoch, Seilbahn runter",
-     "text": "Mit 2.962 Metern der höchste Berg Deutschlands.",
-     "text_en": "At 2,962 metres Germany’s highest mountain.",
-     "q": "Zugspitze – Zahnradbahn hoch, Seilbahn runter"
+     "text": "<p>Mit 2.962 Metern der höchste Berg Deutschlands.</p><p>Die Zahnradbahn startet am Bahnhof Garmisch-Partenkirchen und bringt dich durch Wald und über ein langes Tunnelstück bis zum Zugspitzplatt, einem Hochplateau auf rund 2.600 Metern mit Gletscherresten und Skigebiet. Von dort fährt eine Gletscherseilbahn zum Gipfel. Die Bahn ist ein Erlebnis für sich: Du steigst aus der Stadt auf in die Berge, ohne ein Auto zu brauchen.</p><p>Auf dem Gipfel erwarten dich eine Aussichtsplattform, Restaurants, das Münchner Haus und das goldene Gipfelkreuz. Bei klarem Wetter siehst du in vier Länder – Deutschland, Österreich, Italien und die Schweiz. Die Preise für die Tickets sind hoch (Stand: im höheren zweistelligen Euro-Bereich; vorher prüfen, oft gibt es Online-Rabatte). Nimm eine warme Jacke mit – oben ist es auch im Sommer kühl.</p>",
+     "text_en": "<p>At 2,962 metres Germany’s highest mountain.</p><p>The cog railway starts at Garmisch-Partenkirchen station and takes you through forest and a long tunnel section to the Zugspitzplatt, a high plateau at about 2,600 metres with glacier remnants and a ski area. From there a glacier cable car goes to the summit. The railway is an experience in itself: you rise from the town into the mountains without needing a car.</p><p>At the summit await a viewing platform, restaurants, the Münchner Haus and the golden summit cross. On clear days you see four countries – Germany, Austria, Italy and Switzerland. Ticket prices are high (in the higher double-digit euro range; check beforehand, there are often online discounts). Bring a warm jacket – it is cool at the top even in summer.</p>",
+     "q": "Zugspitze – Zahnradbahn hoch, Seilbahn runter",
+     "tip": "Fahr früh am Morgen hoch, dann ist die Sicht am besten und die Gondeln sind leerer.",
+     "tip_en": "Go up early in the morning, then the view is best and the cable cars emptier."
     },
     {
      "name": "Eibsee-Runde",
-     "text": "Eine Runde um den See.",
-     "text_en": "A loop around the lake.",
-     "q": "Eibsee-Runde"
+     "text": "<p>Eine Runde um den See.</p><p>Der Eibsee liegt am Fuß der Zugspitze und ist einer der schönsten Seen Bayerns: türkisgrünes Wasser, kleine Inseln und Wald am Ufer. Der Rundweg ist rund sieben bis acht Kilometer lang, führt über Stege und durch den Wald und dauert etwa zwei Stunden. Du kannst auch im See baden, wenn die Temperatur es zulässt, oder ein Boot mieten.</p><p>Parkplätze am See sind begrenzt und kostenpflichtig; mit der Bahn oder dem Bus ab Garmisch kommst du gut an. Starte früh am Morgen – dann ist das Wasser spiegelglatt und der Weg leer.</p>",
+     "text_en": "<p>A loop around the lake.</p><p>The Eibsee lies at the foot of the Zugspitze and is one of the most beautiful lakes in Bavaria: turquoise-green water, small islands and forest on the shore. The circular path is about seven to eight kilometres long, runs over boardwalks and through the forest, and takes about two hours. You can also swim in the lake when the temperature allows, or rent a boat.</p><p>Parking at the lake is limited and charged; by train or bus from Garmisch you arrive easily. Start early in the morning – then the water is mirror-smooth and the path is empty.</p>",
+     "q": "Eibsee-Runde",
+     "tip": "Gehe die Runde vor oder nach der Fahrt auf den Gipfel – mit Zeitpuffer.",
+     "tip_en": "Walk the loop before or after the trip to the summit – with a time buffer."
+    },
+    {
+     "name": "Gipfel: Aussicht, Gletscher & Gipfelkreuz",
+     "text": "<p>Auf dem Gipfel kannst du über eine kleine Brücke auf österreichisches Staatsgebiet wechseln – eine Grenze, die du mitten in der Bergwelt kaum bemerkst. Von der Aussichtsplattform schaust du über Dutzende Gipfel, Täler und Seen. Auf dem Zugspitzplatt kannst du im Winter Ski fahren oder im Sommer ein Stück über Schneefelder laufen.</p><p>Das Wetter ändert sich oben schnell. Prüfe die Webcams, bevor du fährst – bei Nebel siehst du wenig. Wer nicht von Wolken überrascht werden will, plant einen zweiten Tag als Reserve ein.</p>",
+     "text_en": "<p>At the summit you can cross a small bridge onto Austrian territory – a border you barely notice in the middle of the mountains. From the viewing platform you look over dozens of peaks, valleys and lakes. On the Zugspitzplatt you can ski in winter or walk a bit across snowfields in summer.</p><p>The weather changes quickly up there. Check the webcams before you go – in fog you see little. If you do not want to be caught out by clouds, plan a second day as a reserve.</p>",
+     "name_en": "Summit: view, glacier & summit cross",
+     "q": "Zugspitze Gipfel",
+     "tip": "Prüfe vor der Abfahrt die Webcams – klare Sicht ist alles.",
+     "tip_en": "Check the webcams before leaving – clear visibility is everything."
+    },
+    {
+     "name": "Garmisch-Partenkirchen – Ludwigstraße & Lüftlmalerei",
+     "text": "<p>Garmisch-Partenkirchen besteht aus zwei früheren Orten. Partenkirchen ist der ältere Teil mit der Ludwigstraße, auf der bemalte Fassaden (Lüftlmalerei), kleine Läden und Cafés das Bild bestimmen. Hier fühlst du dich mitten in einem bayerischen Bergdorf.</p><p>Auf einem Spaziergang durch die Straßen siehst du Brunnen, Kapellen und Lebkuchenläden. Plane eine Stunde ein und iss etwas Bayerisches – Kaiserschmarrn oder Käsespätzle.</p>",
+     "text_en": "<p>Garmisch-Partenkirchen consists of two former villages. Partenkirchen is the older part with Ludwigstraße, where painted façades (Lüftlmalerei), small shops and cafés shape the picture. Here you feel as if you are in the middle of a Bavarian mountain village.</p><p>On a walk through the streets you see fountains, chapels and gingerbread shops. Plan an hour and eat something Bavarian – Kaiserschmarrn or cheese spätzle.</p>",
+     "name_en": "Garmisch-Partenkirchen – Ludwigstraße & Lüftlmalerei",
+     "q": "Ludwigstraße Garmisch-Partenkirchen",
+     "tip": "Nutze den Ort als Basis – hier fährt die Bahn los.",
+     "tip_en": "Use the town as a base – the railway starts here."
+    },
+    {
+     "name": "Olympia-Skistadion & Große Olympiaschanze",
+     "text": "<p>Die Große Olympiaschanze ist ein Wahrzeichen von Garmisch: Hier findet jedes Jahr zum Jahreswechsel die Vierschanzentournee statt. Du kannst die Anlage besichtigen und dir vorstellen, wie sich die Springer fühlen. Das Stadion unterhalb war Austragungsort der Olympischen Winterspiele 1936.</p><p>Wenn du zur Partnachklamm gehst, kommst du hier vorbei. Im Sommer ist die Anlage ruhig, im Januar dagegen sehr voll – Tickets frühzeitig sichern.</p>",
+     "text_en": "<p>The Große Olympiaschanze (large Olympic ski jump) is a landmark of Garmisch: every year at the turn of the year the Four Hills Tournament takes place here. You can visit the site and imagine how the jumpers feel. The stadium below hosted the 1936 Winter Olympics.</p><p>If you go to the Partnach Gorge you pass by here. In summer the site is quiet, in January it is very crowded – secure tickets early.</p>",
+     "name_en": "Olympic ski stadium & large Olympic ski jump",
+     "q": "Große Olympiaschanze Garmisch",
+     "tip": "Kombiniere den Besuch mit der Partnachklamm.",
+     "tip_en": "Combine the visit with the Partnach Gorge."
     }
    ]
   },
@@ -69,27 +106,84 @@
    "spots": [
     {
      "name": "Partnachklamm",
-     "text": "Früh kommen, dann hast du die Schlucht fast für dich. Auf Google 4,7 Sterne bei fast 18.000 Bewertungen; Besucher nennen rund 10 € Eintritt und 20–30 Minuten Zugang vom Parkplatz.",
-     "text_en": "Come early and you have the gorge almost to yourself. 4.7 stars on Google from nearly 18,000 reviews; visitors mention about €10 admission and 20–30 minutes from the car park.",
+     "text": "<p>Früh kommen, dann hast du die Schlucht fast für dich. Auf Google 4,7 Sterne bei fast 18.000 Bewertungen; Besucher nennen rund 10 € Eintritt und 20–30 Minuten Zugang vom Parkplatz.</p><p>Die Partnachklamm ist eine rund 700 Meter lange Schlucht, deren Felswände bis zu 80 Meter hoch sind. Der Weg führt über Stege und durch Tunnel direkt am tosenden Wasser entlang – im Sommer erfrischend, im Winter mit Eiszapfen und gefrorenen Wasserfällen. Der Eintritt ist gering (Preise vorher prüfen), die Strecke kurz.</p><p>Du erreichst die Klamm vom Olympia-Skistadion in Garmisch in etwa 20 bis 30 Minuten zu Fuß. Trage rutschfeste Schuhe und eine Jacke – es ist nass und kühl. Bei Hochwasser oder Lawinengefahr kann die Klamm gesperrt sein.</p>",
+     "text_en": "<p>Come early and you have the gorge almost to yourself. 4.7 stars on Google from nearly 18,000 reviews; visitors mention about €10 admission and 20–30 minutes from the car park.</p><p>The Partnach Gorge is a gorge about 700 metres long whose rock walls are up to 80 metres high. The path leads over walkways and through tunnels right beside the roaring water – refreshing in summer, with icicles and frozen waterfalls in winter. Admission is low (check prices beforehand), the route short.</p><p>You reach the gorge from the Olympic ski stadium in Garmisch in about 20 to 30 minutes on foot. Wear non-slip shoes and a jacket – it is wet and cool. In high water or avalanche danger the gorge may be closed.</p>",
      "gem": true,
-     "q": "Partnachklamm Garmisch"
+     "q": "Partnachklamm Garmisch",
+     "tip": "Komm früh, nimm eine Jacke mit und prüfe vorher, ob die Klamm geöffnet ist.",
+     "tip_en": "Come early, bring a jacket and check beforehand whether the gorge is open."
+    },
+    {
+     "name": "Badersee – der ruhige Moorsee",
+     "text": "<p>Der Badersee bei Grainau ist ein kleiner Moorsee, dessen Wasser im Sommer erstaunlich warm wird. Rundherum liegen Wiesen, Wald und der Blick auf das Wettersteingebirge. Es gibt einen kleinen Badebereich; du kannst schwimmen, in der Sonne liegen und im Seerestaurant einkehren.</p><p>Im Vergleich zum Eibsee ist er ruhiger und familiärer. An heißen Wochenenden wird es voll – dann früh kommen. Ein guter Tipp für alle, die nach der Bergtour noch ins Wasser wollen.</p>",
+     "text_en": "<p>The Badersee near Grainau is a small moor lake whose water becomes surprisingly warm in summer. Around it lie meadows, woods and a view of the Wetterstein mountains. There is a small bathing area; you can swim, lie in the sun and stop at the lakeside restaurant.</p><p>Compared with the Eibsee it is quieter and more family-friendly. On hot weekends it gets crowded – then come early. A good tip for anyone who still wants to get in the water after the mountain tour.</p>",
+     "name_en": "Badersee – the quiet moor lake",
+     "gem": true,
+     "q": "Badersee Grainau",
+     "tip": "Komm früh oder unter der Woche – an heißen Wochenenden ist es voll.",
+     "tip_en": "Come early or on a weekday – on hot weekends it is crowded."
+    },
+    {
+     "name": "Höllentalklamm – wilder als die Partnachklamm",
+     "text": "<p>Die Höllentalklamm liegt im Höllental, am Fuß des Zugspitzmassivs. Der Weg führt über Brücken und durch Felstunnel an einem wilden Wasserfall entlang. Die Klamm ist nur im Sommerhalbjahr geöffnet; der Zugang erfolgt über die Höllentalklamm-Hütte. Rechne mit mehreren Stunden Wanderung (Zeiten und Preise vorher prüfen).</p><p>Wenn du Bergwandern magst, ist die Klamm ein spektakuläres Ziel und weniger überlaufen als die Partnachklamm. Gute Schuhe und Trittsicherheit sind Pflicht.</p>",
+     "text_en": "<p>The Höllentalklamm lies in the Höllental valley, at the foot of the Zugspitze massif. The path leads over bridges and through rock tunnels along a wild waterfall. The gorge is open only in the summer half-year; access is via the Höllentalklamm hut. Expect several hours of hiking (check times and prices beforehand).</p><p>If you like mountain hiking the gorge is a spectacular destination and less crowded than the Partnach Gorge. Good shoes and sure-footedness are a must.</p>",
+     "name_en": "Höllentalklamm – wilder than the Partnach Gorge",
+     "gem": true,
+     "q": "Höllentalklamm Garmisch",
+     "tip": "Nur im Sommer geöffnet – prüfe Wetter und Zugang vorher.",
+     "tip_en": "Open only in summer – check weather and access beforehand."
+    },
+    {
+     "name": "Kramer-Plateauweg",
+     "text": "<p>Der Kramer-Plateauweg ist eine Wanderung rund um den Kramer, einen Berg über Garmisch. Der Weg führt durch Wald, über Wiesen und bietet immer wieder Ausblicke auf die Zugspitze und das Wettersteingebirge. Er ist nicht extrem anstrengend, aber lang – plane einen halben Tag ein.</p><p>Unterwegs gibt es Hütten, in denen du einkehren kannst. Nimm festes Schuhwerk, Wasser und etwas zu essen mit. Ein guter Plan B, wenn die Zugspitze wolkenverhangen ist.</p>",
+     "text_en": "<p>The Kramer Plateau Trail is a hike around the Kramer, a mountain above Garmisch. The path leads through forest, over meadows and offers repeated views of the Zugspitze and the Wetterstein mountains. It is not extremely strenuous but long – plan half a day.</p><p>Along the way there are huts where you can stop. Take sturdy shoes, water and something to eat. A good plan B when the Zugspitze is hidden in cloud.</p>",
+     "name_en": "Kramer Plateau Trail",
+     "gem": true,
+     "q": "Kramer Plateauweg",
+     "tip": "Ein guter Wetter-Plan-B, wenn der Gipfel in Wolken steckt.",
+     "tip_en": "A good weather plan B when the summit is in cloud."
+    },
+    {
+     "name": "Schloss Linderhof & Neuschwanstein als Ausflug",
+     "text": "<p>Von Garmisch aus erreichst du in rund einer Stunde Fahrt die Königsschlösser: Schloss Linderhof, Ludwigs II. einzigen vollendeten Bau, und Schloss Neuschwanstein, das Märchenschloss. Beide sind beliebte Ausflugsziele; Tickets sollten rechtzeitig online reserviert werden.</p><p>Linderhof ist kleiner, ruhiger und von einem prächtigen Park umgeben. Neuschwanstein ist überlaufen, aber beeindruckend. Wenn du nur einen halben Tag hast, wähle Linderhof.</p>",
+     "text_en": "<p>From Garmisch you reach the royal castles in about an hour’s drive: Linderhof Palace, Ludwig II’s only completed building, and Neuschwanstein Castle, the fairytale castle. Both are popular excursion destinations; tickets should be reserved online in good time.</p><p>Linderhof is smaller, quieter and surrounded by a magnificent park. Neuschwanstein is overcrowded but impressive. If you only have half a day, choose Linderhof.</p>",
+     "name_en": "Linderhof Palace & Neuschwanstein as a day trip",
+     "q": "Schloss Linderhof",
+     "tip": "Reserviere Tickets online und starte früh.",
+     "tip_en": "Reserve tickets online and start early."
     }
    ]
   }
  ],
  "itinerary": [
   {
-   "h": "Ein Tag an der Zugspitze",
-   "h_en": "One day at the Zugspitze",
+   "h": "Tag 1 – Gipfeltag",
+   "h_en": "Day 1 – Summit day",
    "items": [
-    "<strong>Früh</strong> – Partnachklamm",
-    "<strong>Vormittag</strong> – Zahnradbahn zur Zugspitze",
-    "<strong>Nachmittag</strong> – Seilbahn runter, Eibsee"
+    "<strong>Früh</strong> – Zahnradbahn ab Garmisch, hoch aufs Zugspitzplatt und Gipfel",
+    "<strong>Mittag</strong> – Aussicht und Mittagessen oben",
+    "<strong>Nachmittag</strong> – mit der Seilbahn runter zum Eibsee",
+    "<strong>Abend</strong> – Eibsee-Runde im Abendlicht"
    ],
    "items_en": [
-    "<strong>Early</strong> – Partnach Gorge",
-    "<strong>Morning</strong> – cog railway to the Zugspitze",
-    "<strong>Afternoon</strong> – cable car down, Eibsee"
+    "<strong>Early</strong> – cog railway from Garmisch, up to the Zugspitzplatt and summit",
+    "<strong>Midday</strong> – views and lunch at the top",
+    "<strong>Afternoon</strong> – cable car down to the Eibsee",
+    "<strong>Evening</strong> – Eibsee loop in evening light"
+   ]
+  },
+  {
+   "h": "Tag 2 – Schluchten & Ort",
+   "h_en": "Day 2 – Gorges & town",
+   "items": [
+    "<strong>Vormittag</strong> – Partnachklamm früh",
+    "<strong>Mittag</strong> – Olympia-Skistadion und Ludwigstraße",
+    "<strong>Nachmittag</strong> – Badersee oder Kramer-Plateauweg"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Partnach Gorge early",
+    "<strong>Midday</strong> – Olympic ski stadium and Ludwigstraße",
+    "<strong>Afternoon</strong> – Badersee or Kramer Plateau Trail"
    ]
   }
  ],
@@ -99,6 +193,18 @@
    "q_en": "How do I get up the Zugspitze?",
    "a": "<p>Mit Zahnradbahn und Seilbahn.</p>",
    "a_en": "<p>By cog railway and cable car.</p>"
+  },
+  {
+   "q": "Wann ist die beste Reisezeit für die Zugspitze?",
+   "q_en": "When is the best time for the Zugspitze?",
+   "a": "Für Wandern und klare Sicht Juni bis Oktober, für Ski Dezember bis April. Prüfe immer die Webcams.",
+   "a_en": "For hiking and clear views June to October, for skiing December to April. Always check the webcams."
+  },
+  {
+   "q": "Brauche ich Winterausrüstung?",
+   "q_en": "Do I need winter gear?",
+   "a": "Oben liegt oft Schnee, auch im Sommer. Warme Jacke, Mütze, feste Schuhe und Sonnenschutz sind sinnvoll.",
+   "a_en": "There is often snow at the top, even in summer. A warm jacket, hat, sturdy shoes and sun protection make sense."
   }
  ]
 }
