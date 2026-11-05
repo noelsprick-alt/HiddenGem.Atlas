@@ -7,8 +7,8 @@
  "city": "Gran Canaria",
  "city_en": "Gran Canaria",
  "updated": "2026-11-05",
- "title": "Gran Canaria Guide: Maspalomas, Roque Nublo, Puerto de Mogán & Cueva Pintada",
- "title_en": "Gran Canaria Guide: Maspalomas, Roque Nublo, Puerto de Mogán & Cueva Pintada",
+ "title": "Gran Canaria Guide: 11 Orte – Maspalomas, Roque Nublo, Mogán & Hidden Gems",
+ "title_en": "Gran Canaria Guide: 11 places – Maspalomas, Roque Nublo, Mogán & hidden gems",
  "desc": "Gran Canaria: Sonnenaufgang in den Dünen, Roque Nublo, Fisch in Puerto de Mogán und die bemalte Höhle von Gáldar – von Noel.",
  "desc_en": "Gran Canaria: sunrise in the dunes, Roque Nublo, fish in Puerto de Mogán and the painted cave of Gáldar – from Noel.",
  "gyg_q": "Gran Canaria",
@@ -44,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "gyg",
-   "html": "<p>Gran Canaria hat einen großen Flughafen im Osten; Busse verbinden die Orte. Für Berge und Hafenorte ist ein Mietwagen oder eine Tour praktisch; Straßen sind kurvig.</p>",
-   "html_en": "<p>Gran Canaria has a large airport in the east; buses link the towns. For mountains and harbour villages a rental car or a tour is practical; roads are winding.</p>"
+   "html": "<p>Gran Canaria hat einen großen Flughafen im Osten; Busse verbinden die Orte. Für Berge und Hafenorte ist ein Mietwagen oder eine Tour praktisch; Straßen sind kurvig.</p><p>Der Flughafen Gran Canaria liegt an der Ostküste; von dort erreichst du den Süden in rund 30 bis 40 Minuten und Las Palmas in etwa 20 Minuten (Preise und Fahrpläne vorher prüfen). Die Busse der Global-Gesellschaft verbinden die wichtigen Orte, für die Bergdörfer lohnt sich aber ein Mietwagen.</p><p>Die Straßen im Inselinneren sind kurvig; plane mehr Zeit ein, als die Karte zeigt.</p>",
+   "html_en": "<p>Gran Canaria has a large airport in the east; buses link the towns. For mountains and harbour villages a rental car or a tour is practical; roads are winding.</p><p>Gran Canaria Airport lies on the east coast; from there you reach the south in about 30 to 40 minutes and Las Palmas in about 20 minutes (check prices and timetables beforehand). Global buses connect the main places, but for the mountain villages a rental car is worthwhile.</p><p>The roads in the island’s interior are winding; plan more time than the map shows.</p>"
   },
   {
    "type": "spots",
@@ -55,23 +55,47 @@
    "spots": [
     {
      "name": "Dünen von Maspalomas",
-     "text": "Sonnenaufgang in den Dünen. Auf Google 4,8 Sterne bei über 22.000 Bewertungen. Besucher raten zu Wasser und Sonnencreme und warnen vor Hitze mittags.",
-     "text_en": "Sunrise in the dunes. 4.8 stars on Google from over 22,000 reviews. Visitors advise water and sunscreen and warn of midday heat.",
+     "text": "<p>Sonnenaufgang in den Dünen. Auf Google 4,8 Sterne bei über 22.000 Bewertungen. Besucher raten zu Wasser und Sonnencreme und warnen vor Hitze mittags.</p><p>Die Dünen von Maspalomas sind ein Naturschutzgebiet an der Südspitze der Insel: goldener Sand in Wellen, dahinter das Meer und ein kleiner Palmenhain mit Lagune. Am schönsten ist ein Spaziergang bei Sonnenaufgang, wenn der Wind die Oberfläche glättet und die Schatten lang sind. Mittags wird es heiß und schattenlos.</p><p>Halte dich an die markierten Wege, nimm reichlich Wasser mit und trage Sonnenschutz. Am Ende der Dünen liegt der Strand Playa del Inglés; der Leuchtturm von Maspalomas ist ein guter Treffpunkt.</p>",
+     "text_en": "<p>Sunrise in the dunes. 4.8 stars on Google from over 22,000 reviews. Visitors advise water and sunscreen and warn of midday heat.</p><p>The dunes of Maspalomas are a nature reserve at the southern tip of the island: golden sand in waves, the sea behind and a small palm grove with a lagoon. A walk at sunrise is most beautiful, when the wind has smoothed the surface and the shadows are long. At midday it becomes hot and shadeless.</p><p>Stick to the marked paths, take plenty of water and wear sun protection. At the end of the dunes lies Playa del Inglés beach; the Maspalomas lighthouse is a good meeting point.</p>",
      "name_en": "Dunes of Maspalomas",
-     "q": "Dunas de Maspalomas"
+     "q": "Dunas de Maspalomas",
+     "tip": "Komm vor Sonnenaufgang und bring Wasser mit.",
+     "tip_en": "Come before sunrise and bring water."
     },
     {
      "name": "Roque Nublo",
-     "text": "Der Felsfinger auf rund 1.800 Metern im Zentrum. Auf Google 4,7 Sterne. Besucher berichten, der Parkplatz sei eingeschränkt, Bus und Wanderung seien eine gute Option.",
-     "text_en": "The rock finger at about 1,800 metres in the centre. 4.7 stars on Google. Visitors report limited parking, bus and hike are a good option.",
-     "q": "Roque Nublo Gran Canaria"
+     "text": "<p>Der Felsfinger auf rund 1.800 Metern im Zentrum. Auf Google 4,7 Sterne. Besucher berichten, der Parkplatz sei eingeschränkt, Bus und Wanderung seien eine gute Option.</p><p>Der Roque Nublo ist ein rund 80 Meter hoher Basaltfelsen auf etwa 1.800 Metern Höhe und das Wahrzeichen der Insel. Der Weg vom Parkplatz La Goleta dauert hin und zurück ungefähr zwei bis drei Stunden und ist meist gut zu gehen, aber an manchen Stellen steinig. Von oben blickst du über Wolkenmeer, Berge und bei klarem Wetter bis zum Teide auf Teneriffa.</p><p>Das Wetter ändert sich oben schnell: Nimm eine Jacke mit, auch wenn unten die Sonne scheint. Plane den Aufstieg am Vormittag, wenn die Wolken oft noch unter dir liegen. Parkplätze sind begrenzt (Zufahrt und Regeln vorher prüfen).</p>",
+     "text_en": "<p>The rock finger at about 1,800 metres in the centre. 4.7 stars on Google. Visitors report limited parking, bus and hike are a good option.</p><p>The Roque Nublo is a basalt rock about 80 metres high at roughly 1,800 metres and the landmark of the island. The path from the La Goleta car park takes about two to three hours there and back and is mostly easy to walk, but stony in places. From the top you look over a sea of clouds, mountains and, in clear weather, as far as the Teide on Tenerife.</p><p>The weather changes quickly up there: take a jacket even if the sun shines below. Plan the climb in the morning, when the clouds often still lie below you. Parking is limited (check access and rules beforehand).</p>",
+     "q": "Roque Nublo Gran Canaria",
+     "tip": "Starte am Vormittag und nimm eine Jacke mit.",
+     "tip_en": "Start in the morning and take a jacket."
     },
     {
      "name": "Puerto de Mogán",
-     "text": "Abends Fisch im Hafen.",
-     "text_en": "Fish in the harbour at night.",
+     "text": "<p>Abends Fisch im Hafen.</p><p>Puerto de Mogán im Südwesten wird „Klein-Venedig“ genannt: weiß getünchte Häuser mit Bougainvillea, kleine Kanäle und Brücken, ein Yachthafen und eine Strandpromenade. Der Ort ist ruhiger als die Touristenzentren im Süden. Am Freitag ist Markt, auf dem Kunsthandwerk, Textilien und Souvenirs verkauft werden (Tag vorher prüfen).</p><p>Abends kannst du im Hafen frischen Fisch essen; die Preise sind meist touristisch, aber die Stimmung ist schön. Von Puerto Rico fährt zudem ein Schiff hierher (Fahrplan vorher prüfen).</p>",
+     "text_en": "<p>Fish in the harbour at night.</p><p>Puerto de Mogán in the south-west is called “Little Venice”: white-washed houses with bougainvillea, small canals and bridges, a marina and a beach promenade. The place is calmer than the tourist centres in the south. On Friday there is a market selling crafts, textiles and souvenirs (check the day beforehand).</p><p>In the evening you can eat fresh fish in the harbour; prices are usually touristy but the atmosphere is lovely. A boat also runs here from Puerto Rico (check timetable beforehand).</p>",
      "name_en": "Puerto de Mogán",
-     "q": "Puerto de Mogán"
+     "q": "Puerto de Mogán",
+     "tip": "Komm abends zum Fischessen und bummle durch die Kanäle.",
+     "tip_en": "Come in the evening for fish and stroll through the canals."
+    },
+    {
+     "name": "Las Palmas: Vegueta & Triana",
+     "text": "<p>Die Hauptstadt Las Palmas hat eine koloniale Altstadt, Vegueta: Kopfsteinpflaster, Plätze, die Kathedrale Santa Ana und das Kolumbushaus (Casa de Colón). Im benachbarten Viertel Triana gibt es Fußgängerzonen, Läden und Cafés. Weiter nördlich liegt der Strand Las Canteras mit einer langen Promenade.</p><p>Plane einen halben bis ganzen Tag ein. Die Gassen von Vegueta sind am Morgen ruhig. Öffnungszeiten und Eintritte der Museen vorher prüfen.</p>",
+     "text_en": "<p>The capital Las Palmas has a colonial old town, Vegueta: cobblestones, squares, the Santa Ana Cathedral and the Columbus House (Casa de Colón). In the neighbouring district of Triana there are pedestrian zones, shops and cafés. Further north lies Las Canteras beach with a long promenade.</p><p>Plan half a day to a whole day. The lanes of Vegueta are quiet in the morning. Check opening times and admission for the museums beforehand.</p>",
+     "name_en": "Las Palmas: Vegueta & Triana",
+     "q": "Vegueta Las Palmas",
+     "tip": "Starte morgens in Vegueta und ende am Strand Las Canteras.",
+     "tip_en": "Start in the morning in Vegueta and end at Las Canteras beach."
+    },
+    {
+     "name": "Teror & Gran Canarias Bergdörfer",
+     "text": "<p>Teror ist ein Bergdorf mit Holzbalkonen, Kopfsteinpflaster und einer Basilika, in der die Schutzpatronin der Insel verehrt wird. Sonntags findet ein Markt statt, auf dem Würste, Käse und Gebäck verkauft werden (Tag vorher prüfen). Die Fahrt von Las Palmas dauert etwa 30 bis 40 Minuten.</p><p>Probiere die lokale Chorizo de Teror und frisches Brot. Verbinde den Besuch mit einer Fahrt in die grünen Berge im Norden.</p>",
+     "text_en": "<p>Teror is a mountain village with wooden balconies, cobblestones and a basilica where the island’s patron saint is venerated. On Sundays a market takes place selling sausages, cheese and pastries (check the day beforehand). The drive from Las Palmas takes about 30 to 40 minutes.</p><p>Try the local chorizo de Teror and fresh bread. Combine the visit with a drive into the green mountains in the north.</p>",
+     "name_en": "Teror & Gran Canaria’s mountain villages",
+     "q": "Teror Gran Canaria",
+     "tip": "Komm am Sonntag zum Markt.",
+     "tip_en": "Come on Sunday for the market."
     }
    ]
   },
@@ -83,13 +107,63 @@
    "spots": [
     {
      "name": "Cueva Pintada in Gáldar",
-     "text": "Ein Ort, den die meisten Strandurlauber nie sehen: die bemalte Höhle der Altkanarier. Auf Google 4,6 Sterne. Besucher empfehlen die geführte Tour (rund 6 € laut einem Gast).",
-     "text_en": "A place most beach holidaymakers never see: the painted cave of the ancient Canarians. 4.6 stars on Google. Visitors recommend the guided tour (about €6 according to one guest).",
+     "text": "<p>Ein Ort, den die meisten Strandurlauber nie sehen: die bemalte Höhle der Altkanarier. Auf Google 4,6 Sterne. Besucher empfehlen die geführte Tour (rund 6 € laut einem Gast).</p><p>Die Cueva Pintada in Gáldar ist eine Ausgrabungsstätte der Altkanarier: Eine bemalte Höhle mit geometrischen Mustern in Rot, Schwarz und Weiß, die als frühe Kultur der Insel gilt. Ein Museum und ein Archäologiepark erklären Alltag und Kultur der Ureinwohner.</p><p>Informiere dich vorher über Führungen, Sprachen und Zugang. Plane ein bis zwei Stunden ein.</p>",
+     "text_en": "<p>A place most beach holidaymakers never see: the painted cave of the ancient Canarians. 4.6 stars on Google. Visitors recommend the guided tour (about €6 according to one guest).</p><p>The Cueva Pintada in Gáldar is an archaeological site of the ancient Canarians: a painted cave with geometric patterns in red, black and white, regarded as an early culture of the island. A museum and an archaeological park explain daily life and culture of the indigenous people.</p><p>Find out beforehand about guided tours, languages and access. Plan one to two hours.</p>",
      "name_en": "Cueva Pintada in Gáldar",
      "gem": true,
      "q": "Cueva Pintada Museum Gáldar",
      "hours": "laut Google Di–So ca. 10–18 Uhr, Mo geschlossen",
-     "hours_en": "Tue–Sun about 10 am–6 pm, closed Mondays according to Google"
+     "hours_en": "Tue–Sun about 10 am–6 pm, closed Mondays according to Google",
+     "tip": "Buche die geführte Tour und prüfe die Sprachen.",
+     "tip_en": "Book the guided tour and check languages."
+    },
+    {
+     "name": "Agaete, Dedo de Dios & Puerto de las Nieves",
+     "text": "<p>Im Nordwesten liegt Agaete, ein Dorf mit weißen Häusern, Kopfsteinpflaster und einem Hafen, Puerto de las Nieves. Der „Dedo de Dios“, der „Finger Gottes“, war ein Felsen im Meer, der beim Sturm 2005 abbrach; die Reste und das Denkmal sind noch zu sehen. Am Hafen gibt es Fischlokale mit frischer Ware, und Naturschwimmbecken im Fels laden zum Baden ein.</p><p>Die Küstenstraße dorthin ist kurvig, aber schön. Komm mittags zum Fisch essen.</p>",
+     "text_en": "<p>In the north-west lies Agaete, a village with white houses, cobblestones and a harbour, Puerto de las Nieves. The “Dedo de Dios”, the “Finger of God”, was a rock in the sea that broke off in a storm in 2005; the remains and the monument can still be seen. At the harbour there are fish restaurants with fresh produce, and natural rock pools invite you to swim.</p><p>The coastal road there is winding but beautiful. Come at midday to eat fish.</p>",
+     "name_en": "Agaete, Dedo de Dios & Puerto de las Nieves",
+     "gem": true,
+     "q": "Puerto de las Nieves Agaete",
+     "tip": "Komm zum Mittagessen und bade in den Felsbecken.",
+     "tip_en": "Come for lunch and swim in the rock pools."
+    },
+    {
+     "name": "Tejeda & Artenara – Höhlenhäuser im Gebirge",
+     "text": "<p>Das Bergdorf Tejeda gehört zu den schönsten Dörfern Spaniens und liegt im Zentrum der Insel. Hier probierst du Mandelgebäck und Mandelkuchen. Weiter nördlich liegt Artenara, das höchstgelegene Dorf der Insel, in dem viele Menschen in Höhlenhäusern leben; eine Höhlenkapelle und Aussichtspunkte lohnen den Halt.</p><p>Die Straßen sind kurvig; plane genug Zeit und fahre vorsichtig. Nimm eine Jacke mit, denn es ist deutlich kühler als an der Küste.</p>",
+     "text_en": "<p>The mountain village of Tejeda is among the most beautiful villages in Spain and lies in the centre of the island. Here you try almond pastries and almond cake. Further north lies Artenara, the highest village on the island, where many people live in cave houses; a cave chapel and viewpoints are worth a stop.</p><p>The roads are winding; allow enough time and drive carefully. Take a jacket, as it is noticeably cooler than on the coast.</p>",
+     "name_en": "Tejeda & Artenara – cave houses in the mountains",
+     "gem": true,
+     "q": "Tejeda Gran Canaria",
+     "tip": "Probiere Mandelgebäck und nimm eine Jacke mit.",
+     "tip_en": "Try almond pastries and take a jacket."
+    },
+    {
+     "name": "Fataga-Tal & Arteara",
+     "text": "<p>Das Fataga-Tal ist ein grünes Tal mit Palmen, weißen Dörfern und Felsformationen. Bei Arteara liegt eine bedeutende Nekropole der Ureinwohner mit Grabhügeln. Die Gegend ist ruhig und bietet kurze Wanderungen und Aussichten.</p><p>Plane die Fahrt als Teil einer Rundtour von Maspalomas ins Inselinnere. Prüfe Öffnungszeiten und Zugang der archäologischen Stätte vorher.</p>",
+     "text_en": "<p>The Fataga valley is a green valley with palms, white villages and rock formations. Near Arteara lies an important necropolis of the indigenous people with burial mounds. The area is quiet and offers short hikes and views.</p><p>Plan the drive as part of a loop from Maspalomas into the island’s interior. Check opening times and access to the archaeological site beforehand.</p>",
+     "name_en": "Fataga valley & Arteara",
+     "gem": true,
+     "q": "Fataga Gran Canaria",
+     "tip": "Verbinde das Tal mit dem Roque Nublo zu einer Tagestour.",
+     "tip_en": "Combine the valley with the Roque Nublo into a day trip."
+    },
+    {
+     "name": "Playa de Amadores & Strände im Süden",
+     "text": "<p>Die Playa de Amadores ist ein künstlich angelegter Strand mit hellem Sand und flachem, ruhigem Wasser in einer geschützten Bucht – gut für Familien. Weitere Strände im Süden sind Playa del Inglés, Maspalomas und Puerto Rico. Der Süden hat die verlässlichste Sonne der Insel.</p><p>Liegen und Sonnenschirme kosten Geld; Preise vorher prüfen. Achte auf Flaggen und Strömung.</p>",
+     "text_en": "<p>Playa de Amadores is an artificially created beach with light sand and shallow, calm water in a sheltered bay – good for families. Other beaches in the south are Playa del Inglés, Maspalomas and Puerto Rico. The south has the most reliable sun on the island.</p><p>Loungers and parasols cost money; check prices beforehand. Watch the flags and currents.</p>",
+     "name_en": "Playa de Amadores & southern beaches",
+     "q": "Playa de Amadores",
+     "tip": "Komm morgens, dann ist es ruhiger.",
+     "tip_en": "Come in the morning, when it is quieter."
+    },
+    {
+     "name": "Papas arrugadas & Mojo – kanarische Küche",
+     "text": "<p>Die kanarische Küche ist einfach und lecker: Papas arrugadas sind kleine, in Salzwasser gekochte Kartoffeln mit runzliger Haut, dazu rote oder grüne Mojo-Soße. Probiere außerdem Gofio (geröstetes Mehl), Ziegenkäse, Fisch und Bienmesabe (Mandelcreme).</p><p>Kleine Lokale in den Bergdörfern und Hafenorten servieren die Klassiker meist günstiger als Strandrestaurants. Preise ändern sich; frag vorher.</p>",
+     "text_en": "<p>Canarian cuisine is simple and tasty: papas arrugadas are small potatoes boiled in salt water with a wrinkled skin, served with red or green mojo sauce. Also try gofio (roasted flour), goat cheese, fish and bienmesabe (almond cream).</p><p>Small places in mountain villages and harbour towns usually serve the classics cheaper than beach restaurants. Prices change; ask beforehand.</p>",
+     "name_en": "Papas arrugadas & mojo – Canarian cuisine",
+     "q": "Papas arrugadas Gran Canaria",
+     "tip": "Iss in kleinen Lokalen der Bergdörfer.",
+     "tip_en": "Eat in small places in the mountain villages."
     }
    ]
   },
@@ -105,17 +179,21 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag Gran Canaria",
-   "h_en": "One day on Gran Canaria",
+   "h": "Ein Tag Gran Canaria – Süden & Berge",
+   "h_en": "A day on Gran Canaria – south & mountains",
    "items": [
-    "<strong>Sonnenaufgang</strong> – Maspalomas",
+    "<strong>Sonnenaufgang</strong> – Dünen von Maspalomas",
+    "<strong>Vormittag</strong> – Fataga-Tal, Arteara",
+    "<strong>Mittag</strong> – Tejeda, Mandelgebäck",
     "<strong>Nachmittag</strong> – Roque Nublo",
-    "<strong>Abend</strong> – Puerto de Mogán"
+    "<strong>Abend</strong> – Fisch in Puerto de Mogán"
    ],
    "items_en": [
-    "<strong>Sunrise</strong> – Maspalomas",
+    "<strong>Sunrise</strong> – dunes of Maspalomas",
+    "<strong>Morning</strong> – Fataga valley, Arteara",
+    "<strong>Midday</strong> – Tejeda, almond pastries",
     "<strong>Afternoon</strong> – Roque Nublo",
-    "<strong>Evening</strong> – Puerto de Mogán"
+    "<strong>Evening</strong> – fish in Puerto de Mogán"
    ]
   }
  ],
@@ -125,6 +203,18 @@
    "q_en": "Do I need a rental car?",
    "a": "<p>Für die Berge praktisch; Busse gibt es zu vielen Orten.</p>",
    "a_en": "<p>Practical for the mountains; buses serve many places.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man auf Gran Canaria?",
+   "q_en": "How many days do you need on Gran Canaria?",
+   "a": "Für Strand und Berge sind fünf bis sieben Tage gut; für die Highlights reichen drei.",
+   "a_en": "For beach and mountains five to seven days are good; for the highlights three suffice."
+  },
+  {
+   "q": "Wann ist die beste Reisezeit?",
+   "q_en": "When is the best time to go?",
+   "a": "Die Insel ist ganzjährig mild; im Süden ist es meist sonniger, im Norden grüner und wolkiger.",
+   "a_en": "The island is mild all year; the south is usually sunnier, the north greener and cloudier."
   }
  ]
 }

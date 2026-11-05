@@ -7,8 +7,8 @@
  "city": "Marrakesch",
  "city_en": "Marrakech",
  "updated": "2026-11-05",
- "title": "Marrakesch Guide: Riad-Effekt, Djemaa el-Fna, Jardin Majorelle & Souks",
- "title_en": "Marrakech Guide: The Riad Effect, Djemaa el-Fna, Jardin Majorelle & Souks",
+ "title": "Marrakesch Guide: 13 Orte – Riad, Djemaa el-Fna, Majorelle, Souks & Hidden Gems",
+ "title_en": "Marrakesch Guide: 13 places – riad, Djemaa el-Fna, Majorelle, souks & hidden gems",
  "desc": "Marrakesch im April 2025: Chaos draußen, Stille im Riad – mit Djemaa el-Fna, Jardin Majorelle und Souks ohne Plan – von Noel.",
  "desc_en": "Marrakech in April 2025: chaos outside, stillness in a riad – with Djemaa el-Fna, Jardin Majorelle and souks without a plan – from Noel.",
  "gyg_q": "Marrakech",
@@ -47,8 +47,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "gyg",
-   "html": "<p>Marrakesch hat einen internationalen Flughafen mit Taxi- und Busverbindung in die Medina; Preise vorher klären. Innerhalb der Medina gehst du zu Fuß.</p>",
-   "html_en": "<p>Marrakech has an international airport with taxi and bus links to the medina; agree prices beforehand. Inside the medina you walk.</p>"
+   "html": "<p>Marrakesch hat einen internationalen Flughafen mit Taxi- und Busverbindung in die Medina; Preise vorher klären. Innerhalb der Medina gehst du zu Fuß.</p><p>Der Flughafen Marrakesch-Menara liegt rund 6 Kilometer vom Zentrum entfernt; Taxis und Transfers fahren in die Medina (Preis vorher aushandeln oder über Riad abholen lassen). Autos kommen in der Medina nicht weit; Riad-Betreiber holen Gäste meist an einem Tor ab. Aktuelle Einreise- und Währungsregeln (Marokkanischer Dirham) vorher prüfen.</p><p>In der Medina gehst du zu Fuß; für längere Strecken nimmst du ein Taxi und vereinbarst den Preis vorher.</p>",
+   "html_en": "<p>Marrakech has an international airport with taxi and bus links to the medina; agree prices beforehand. Inside the medina you walk.</p><p>Marrakech-Menara airport lies about 6 kilometres from the centre; taxis and transfers drive to the medina (negotiate the price beforehand or have your riad pick you up). Cars do not get far in the medina; riad hosts usually collect guests at a gate. Check current entry and currency rules (Moroccan dirham) beforehand.</p><p>In the medina you walk; for longer distances take a taxi and agree the price beforehand.</p>"
   },
   {
    "type": "spots",
@@ -71,18 +71,58 @@
     },
     {
      "name": "Djemaa el-Fna",
-     "text": "Nur ein paar Minuten zu Fuß entfernt: abends Garküchen, Musiker, Geschichtenerzähler, ein einziges Gewusel. Seit 2001 immaterielles UNESCO-Kulturerbe – wegen der Menschen, nicht wegen eines Gebäudes. Zum Sonnenuntergang auf eine Dachterrasse darüber.",
-     "text_en": "Just a few minutes’ walk away: in the evening food stalls, musicians, storytellers, one big bustle. Since 2001 UNESCO intangible heritage – because of the people, not a building. Go to a rooftop terrace above it at sunset.",
+     "text": "<p>Nur ein paar Minuten zu Fuß entfernt: abends Garküchen, Musiker, Geschichtenerzähler, ein einziges Gewusel. Seit 2001 immaterielles UNESCO-Kulturerbe – wegen der Menschen, nicht wegen eines Gebäudes. Zum Sonnenuntergang auf eine Dachterrasse darüber.</p><p>Der Djemaa el-Fna ist der Hauptplatz der Medina und ein einziges Schauspiel: Tagsüber Saftstände, Schlangenbeschwörer und Henna-Malerinnen, abends bauen Dutzende Garküchen ihre Stände auf, Rauch steigt auf, Musiker und Geschichtenerzähler sammeln Zuschauer. Seit 2001 gehört der Platz zum immateriellen UNESCO-Kulturerbe.</p><p>Frag bei Garküchen nach dem Preis, bevor du bestellst, und geh dorthin, wo Einheimische sitzen. Mit Fotos von Schlangenbeschwörern wird Geld verlangt; kläre das vorher. Behalte Taschen im Blick.</p>",
+     "text_en": "<p>Just a few minutes’ walk away: in the evening food stalls, musicians, storytellers, one big bustle. Since 2001 UNESCO intangible heritage – because of the people, not a building. Go to a rooftop terrace above it at sunset.</p><p>The Djemaa el-Fna is the main square of the medina and a spectacle in itself: by day juice stalls, snake charmers and henna painters, in the evening dozens of food stalls set up, smoke rises, musicians and storytellers gather audiences. Since 2001 the square has been part of UNESCO’s intangible cultural heritage.</p><p>Ask the price at food stalls before ordering and go where locals sit. Money is demanded for photos of snake charmers; clarify this beforehand. Keep bags in view.</p>",
      "name_en": "Djemaa el-Fna",
-     "q": "Djemaa el-Fna"
+     "q": "Djemaa el-Fna",
+     "tip": "Komm zum Sonnenuntergang auf eine Dachterrasse und iss dann unten.",
+     "tip_en": "Come at sunset to a rooftop terrace and eat down below afterwards."
     },
     {
      "name": "Jardin Majorelle",
-     "text": "Morgens, bevor es voll wird. Auf Google 4,4 Sterne bei über 61.000 Bewertungen. Besucher raten, Tickets online zu buchen und früh zu kommen.",
-     "text_en": "In the morning before it fills up. 4.4 stars on Google from over 61,000 reviews. Visitors advise booking tickets online and coming early.",
+     "text": "<p>Morgens, bevor es voll wird. Auf Google 4,4 Sterne bei über 61.000 Bewertungen. Besucher raten, Tickets online zu buchen und früh zu kommen.</p><p>Der Jardin Majorelle ist ein Garten mit kobaltblauen Gebäuden, Kakteen, Bambus und Palmen, den der Maler Jacques Majorelle anlegte und später Yves Saint Laurent und Pierre Bergé retteten. Das berühmte „Majorelle-Blau“ gibt dem Ort seine Wirkung. Im Garten befindet sich auch das Berbermuseum.</p><p>Kaufe Tickets online und komm morgens zur Öffnung, denn der Garten füllt sich schnell. Das benachbarte Yves-Saint-Laurent-Museum ist ein eigener Besuch wert (Preise und Zeiten vorher prüfen).</p>",
+     "text_en": "<p>In the morning before it fills up. 4.4 stars on Google from over 61,000 reviews. Visitors advise booking tickets online and coming early.</p><p>The Jardin Majorelle is a garden with cobalt-blue buildings, cacti, bamboo and palms, laid out by the painter Jacques Majorelle and later saved by Yves Saint Laurent and Pierre Bergé. The famous “Majorelle blue” gives the place its effect. In the garden there is also the Berber Museum.</p><p>Buy tickets online and come in the morning at opening, as the garden fills quickly. The neighbouring Yves Saint Laurent Museum is worth its own visit (check prices and times beforehand).</p>",
      "q": "Jardin Majorelle Marrakech",
      "hours": "laut Google täglich ca. 8–17:30 Uhr",
-     "hours_en": "daily about 8 am–5:30 pm according to Google"
+     "hours_en": "daily about 8 am–5:30 pm according to Google",
+     "tip": "Online-Ticket buchen und zur Öffnung kommen.",
+     "tip_en": "Book an online ticket and come at opening."
+    },
+    {
+     "name": "Bahia-Palast",
+     "text": "<p>Der Bahia-Palast stammt aus dem späten 19. Jahrhundert und wurde für einen Großwesir gebaut. Er besteht aus Innenhöfen, Gärten, bemalten Zedernholzdecken, Zellige-Mosaiken und stuckverzierten Räumen. Du gehst von Hof zu Hof und bekommst ein Gefühl für marokkanische Handwerkskunst.</p><p>Komm früh am Morgen, um Gruppen zu vermeiden. Eintritt und Öffnungszeiten vorher prüfen. Plane etwa eine Stunde ein.</p>",
+     "text_en": "<p>The Bahia Palace dates from the late 19th century and was built for a grand vizier. It consists of courtyards, gardens, painted cedar ceilings, zellige mosaics and stucco-decorated rooms. You walk from courtyard to courtyard and get a feel for Moroccan craftsmanship.</p><p>Come early in the morning to avoid groups. Check admission and opening times beforehand. Plan about an hour.</p>",
+     "name_en": "Bahia Palace",
+     "q": "Bahia Palace Marrakech",
+     "tip": "Komm früh, bevor die Reisegruppen eintreffen.",
+     "tip_en": "Come early before the tour groups arrive."
+    },
+    {
+     "name": "Saadier-Gräber",
+     "text": "<p>Die Saadier-Gräber stammen aus dem 16. Jahrhundert und wurden erst 1917 wiederentdeckt. Der Mausoleumsraum mit zwölf Marmorsäulen und kunstvollen Stuckdecken ist beeindruckend; im Garten liegen weitere Gräber. Der Besuch ist kurz, aber sehenswert.</p><p>Die Schlange kann lang sein – komm früh oder spät. Preise und Zeiten vorher prüfen.</p>",
+     "text_en": "<p>The Saadian Tombs date from the 16th century and were only rediscovered in 1917. The mausoleum room with twelve marble columns and intricate stucco ceilings is impressive; further tombs lie in the garden. The visit is short but worth seeing.</p><p>The queue can be long – come early or late. Check prices and times beforehand.</p>",
+     "name_en": "Saadian Tombs",
+     "q": "Saadian Tombs Marrakech",
+     "tip": "Komm früh oder kurz vor Schluss.",
+     "tip_en": "Come early or shortly before closing."
+    },
+    {
+     "name": "Koutoubia-Moschee",
+     "text": "<p>Das Minarett der Koutoubia-Moschee aus dem 12. Jahrhundert ist das Wahrzeichen von Marrakesch und überragt die Medina. Nichtmuslime dürfen die Moschee nicht betreten, aber die Gärten und das Minarett sind von außen schön, vor allem im Abendlicht.</p><p>Das Minarett diente als Vorbild für andere Bauwerke der Region. Spaziere abends durch die Gärten.</p>",
+     "text_en": "<p>The minaret of the Koutoubia Mosque from the 12th century is Marrakech’s landmark and towers over the medina. Non-Muslims may not enter the mosque, but the gardens and minaret are beautiful from outside, especially in the evening light.</p><p>The minaret served as a model for other buildings in the region. Stroll through the gardens in the evening.</p>",
+     "name_en": "Koutoubia Mosque",
+     "q": "Koutoubia Mosque",
+     "tip": "Geh abends durch die Gärten, wenn das Licht warm ist.",
+     "tip_en": "Walk through the gardens in the evening when the light is warm."
+    },
+    {
+     "name": "Hammam erleben",
+     "text": "<p>Ein Hammam gehört zu Marokko: Dampfbad, Schwarze Seife (Savon Noir), Peeling mit einem Handschuh und eine Massage. Es gibt einfache, traditionelle Hammams für Einheimische und luxuriöse in Riads und Hotels. Die Preise unterscheiden sich stark; kläre vorher, was enthalten ist.</p><p>Nimm Badekleidung mit (frag, was üblich ist) und plane etwa ein bis zwei Stunden. Es ist eine entspannende Pause vom Trubel der Medina.</p>",
+     "text_en": "<p>A hammam belongs to Morocco: steam bath, black soap (savon noir), scrub with a glove and a massage. There are simple, traditional hammams for locals and luxurious ones in riads and hotels. Prices differ greatly; clarify beforehand what is included.</p><p>Bring swimwear (ask what is customary) and plan about one to two hours. It is a relaxing break from the bustle of the medina.</p>",
+     "name_en": "Experiencing a hammam",
+     "q": "Hammam Marrakech",
+     "tip": "Frag vorher nach Preis und Ablauf.",
+     "tip_en": "Ask about price and procedure beforehand."
     }
    ]
   },
@@ -99,6 +139,55 @@
      "name_en": "Souks without a plan",
      "gem": true,
      "q": "Souks ohne Plan"
+    },
+    {
+     "name": "Le Jardin Secret & stille Medina-Gärten",
+     "text": "<p>Le Jardin Secret ist ein restaurierter Palastgarten mitten in der Medina, mit Brunnen, Pavillons und einem Turm mit Aussicht. Er ist ruhiger als die bekannteren Gärten und eine gute Pause zwischen den Souks. Ein Café gibt es auch.</p><p>Der Eintritt ist kostenpflichtig; Preis und Öffnungszeiten vorher prüfen.</p>",
+     "text_en": "<p>Le Jardin Secret is a restored palace garden in the middle of the medina, with fountains, pavilions and a tower with a view. It is quieter than the better-known gardens and a good break between the souks. There is also a café.</p><p>Admission is charged; check price and opening times beforehand.</p>",
+     "name_en": "Le Jardin Secret & quiet medina gardens",
+     "gem": true,
+     "q": "Le Jardin Secret Marrakech",
+     "tip": "Nimm dir eine Pause im Café des Gartens.",
+     "tip_en": "Take a break in the garden café."
+    },
+    {
+     "name": "Menara-Gärten",
+     "text": "<p>Die Menara-Gärten sind ein weitläufiger Olivenhain mit einem großen Wasserbecken und einem Pavillon, hinter dem sich bei klarem Wetter das Atlasgebirge zeigt. Sie sind ruhig und eignen sich gut für einen Spaziergang am Nachmittag.</p><p>Der Eintritt zum Gelände ist meist günstig; Zeiten vorher prüfen. Komm am späten Nachmittag, wenn das Licht weich ist.</p>",
+     "text_en": "<p>The Menara Gardens are a spacious olive grove with a large basin and a pavilion behind which the Atlas Mountains appear in clear weather. They are quiet and suit a walk in the afternoon.</p><p>Entry to the grounds is usually cheap; check times beforehand. Come in the late afternoon when the light is soft.</p>",
+     "name_en": "Menara Gardens",
+     "gem": true,
+     "q": "Menara Gardens Marrakech",
+     "tip": "Komm am späten Nachmittag, wenn das Licht weich ist.",
+     "tip_en": "Come in the late afternoon when the light is soft."
+    },
+    {
+     "name": "Gerberviertel & Handwerksgassen",
+     "text": "<p>Im Osten der Medina liegen Gerbereien, in denen Leder nach traditioneller Art bearbeitet wird. In den Handwerksgassen findest du Schmiede, Färber, Teppichweber und Lampenmacher. Es riecht stark, und Führer bieten ihre Dienste an; vereinbare den Preis vorher oder geh ohne Führer.</p><p>Ein Besuch gibt Einblick in das Handwerk, das die Medina prägt. Trage feste Schuhe und nimm ein Tuch mit.</p>",
+     "text_en": "<p>In the east of the medina lie tanneries where leather is processed in the traditional way. In the craft alleys you find smiths, dyers, carpet weavers and lamp makers. It smells strongly, and guides offer their services; agree the price beforehand or go without a guide.</p><p>A visit gives insight into the crafts that shape the medina. Wear sturdy shoes and take a scarf.</p>",
+     "name_en": "Tanneries & craft alleys",
+     "gem": true,
+     "q": "Tanneries Marrakech",
+     "tip": "Vereinbare den Preis vorher oder geh allein.",
+     "tip_en": "Agree the price beforehand or go alone."
+    },
+    {
+     "name": "Tagesausflug: Atlasgebirge, Ourika-Tal & Essaouira",
+     "text": "<p>Das Ourika-Tal liegt rund 60 Kilometer von Marrakesch entfernt und führt in die Berge des Hohen Atlas: Wasserfälle, Berberdörfer und kühlere Luft. Alternativ fährst du in etwa zweieinhalb bis drei Stunden nach Essaouira, einer Hafenstadt am Atlantik mit weißer Altstadt und Fischmarkt. Beide Ausflüge sind per Tour oder Mietwagen möglich.</p><p>Prüfe Anbieter und Preise vorher und plane einen vollen Tag ein. Nimm Wasser, Sonnenschutz und eine Jacke mit.</p>",
+     "text_en": "<p>The Ourika Valley lies about 60 kilometres from Marrakech and leads into the mountains of the High Atlas: waterfalls, Berber villages and cooler air. Alternatively you drive in about two and a half to three hours to Essaouira, a harbour town on the Atlantic with a white old town and fish market. Both trips are possible by tour or rental car.</p><p>Check providers and prices beforehand and plan a full day. Take water, sun protection and a jacket.</p>",
+     "name_en": "Day trip: Atlas Mountains, Ourika Valley & Essaouira",
+     "gem": true,
+     "q": "Ourika Valley Marrakech",
+     "tip": "Plane einen vollen Tag und vergleiche Anbieter.",
+     "tip_en": "Plan a full day and compare providers."
+    },
+    {
+     "name": "Tajine, Couscous & Minztee",
+     "text": "<p>Die marokkanische Küche: Tajine (Schmorgericht im Tontopf, etwa mit Lamm und Pflaumen oder Huhn mit Zitrone und Oliven), Couscous (traditionell freitags), Pastilla (Blätterteig mit Taube oder Huhn und Mandeln) und süßer Minztee. Probiere auch frisch gepressten Orangensaft auf dem Platz.</p><p>Frag auf Speisekarten nach Preisen und iss in Lokalen, in denen Einheimische sitzen. Preise ändern sich; frag vorher.</p>",
+     "text_en": "<p>Moroccan cuisine: tagine (stew in a clay pot, for example with lamb and prunes or chicken with lemon and olives), couscous (traditionally on Fridays), pastilla (flaky pastry with pigeon or chicken and almonds) and sweet mint tea. Also try freshly squeezed orange juice on the square.</p><p>Ask for prices on menus and eat in places where locals sit. Prices change; ask beforehand.</p>",
+     "name_en": "Tagine, couscous & mint tea",
+     "q": "Tajine Marrakech restaurant",
+     "tip": "Iss dort, wo Einheimische sitzen, und frag nach Preisen.",
+     "tip_en": "Eat where locals sit and ask for prices."
     }
    ]
   },
@@ -114,21 +203,21 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Marrakesch",
-   "h_en": "One day in Marrakech",
+   "h": "Zwei Tage in Marrakesch",
+   "h_en": "Two days in Marrakech",
    "items": [
-    "<strong>Morgens</strong> – Jardin Majorelle",
-    "<strong>Mittags</strong> – Terrasse im Riad",
-    "<strong>Nachmittag</strong> – Souks",
-    "<strong>Sonnenuntergang</strong> – Dachterrasse über Djemaa el-Fna",
-    "<strong>Abend</strong> – Garküchen"
+    "<strong>Morgens</strong> – Jardin Majorelle zur Öffnung, YSL-Museum",
+    "<strong>Mittag</strong> – Tajine, Pause im Riad-Pool",
+    "<strong>Nachmittag</strong> – Bahia-Palast, Saadier-Gräber, Souks",
+    "<strong>Abend</strong> – Sonnenuntergang über dem Djemaa el-Fna, Garküchen",
+    "<strong>Tag 2</strong> – Hammam, Le Jardin Secret oder Ausflug ins Ourika-Tal"
    ],
    "items_en": [
-    "<strong>Morning</strong> – Jardin Majorelle",
-    "<strong>Midday</strong> – riad terrace",
-    "<strong>Afternoon</strong> – souks",
-    "<strong>Sunset</strong> – rooftop above Djemaa el-Fna",
-    "<strong>Evening</strong> – food stalls"
+    "<strong>Morning</strong> – Jardin Majorelle at opening, YSL Museum",
+    "<strong>Midday</strong> – tagine, break in the riad pool",
+    "<strong>Afternoon</strong> – Bahia Palace, Saadian Tombs, souks",
+    "<strong>Evening</strong> – sunset over Djemaa el-Fna, food stalls",
+    "<strong>Day 2</strong> – hammam, Le Jardin Secret or trip to the Ourika Valley"
    ]
   }
  ],
@@ -138,6 +227,18 @@
    "q_en": "Riad or hotel?",
    "a": "<p>Noels Tipp: Riad in der Medina.</p>",
    "a_en": "<p>Noel’s tip: a riad in the medina.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Marrakesch?",
+   "q_en": "How many days do you need in Marrakech?",
+   "a": "Drei Tage sind gut; mit Ausflug ins Atlasgebirge oder nach Essaouira eher vier.",
+   "a_en": "Three days are good; with a trip to the Atlas Mountains or Essaouira rather four."
+  },
+  {
+   "q": "Ist Marrakesch für Touristen sicher?",
+   "q_en": "Is Marrakech safe for tourists?",
+   "a": "Meist ja, aber in der Medina gibt es Taschendiebe und aufdringliche Händler; sei aufmerksam und lehne Angebote höflich ab. Aktuelle Reisehinweise vorher prüfen.",
+   "a_en": "Mostly yes, but in the medina there are pickpockets and pushy vendors; stay alert and decline offers politely. Check current travel advice beforehand."
   }
  ]
 }
