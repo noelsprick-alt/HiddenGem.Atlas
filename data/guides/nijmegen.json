@@ -1,36 +1,217 @@
 {
-  "slug": "nijmegen", "slug_en": "nijmegen", "status": "live", "blog": "blog-bc-24",
-  "cc": "NL", "flag": "🇳🇱", "city": "Nijmegen", "city_en": "Nijmegen", "updated": "2026-11-05",
-  "title": "Nijmegen Guide: Waalkade, Valkhof & die älteste Stadt der Niederlande",
-  "title_en": "Nijmegen Guide: Waalkade, Valkhof & the Netherlands’ Oldest City",
-  "desc": "Nijmegen, nur einen Katzensprung hinter der Grenze: Abend an der Waalkade, Valkhofpark und Brückenblick – von Noel.",
-  "desc_en": "Nijmegen, just across the border: an evening on the Waalkade, Valkhof Park and bridge views – from Noel.",
-  "gyg_q": "Nijmegen",
-  "intro": "<p>Nijmegen gilt als älteste Stadt der Niederlande und liegt nur einen Katzensprung von der deutschen Grenze entfernt – ein perfekter Kurztrip aus NRW.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>Nijmegen is considered the oldest city in the Netherlands and lies just a stone’s throw from the German border – a perfect short trip from NRW.</p><p>Prices and times are guidelines (2026).</p>",
-  "story": "<p>Mein Tipp: ein Abend an der Waalkade – Nijmegen ist die älteste Stadt der Niederlande und von der Grenze nur einen Katzensprung entfernt.</p>",
-  "story_en": "<p>My tip: an evening on the Waalkade – Nijmegen is the oldest city in the Netherlands and only a stone’s throw from the German border.</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"1 Tag oder Wochenende","v_en":"1 day or weekend"},
-    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Nijmegen","h_en":"Getting to Nijmegen","box":"omio",
-     "html":"<p>Aus NRW erreichst du Nijmegen mit Regionalzug oder Auto in kurzer Zeit (Fahrpläne vorher prüfen). Die Altstadt ist klein und gut zu Fuß erkundbar.</p>",
-     "html_en":"<p>From NRW you reach Nijmegen by regional train or car in a short time (check timetables beforehand). The old town is small and easy to explore on foot.</p>"},
-    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
-     "spots":[
-      {"name":"Waalkade","q":"Waalkade Nijmegen","text":"<p>Die Promenade am Fluss Waal: Cafés, Terrassen und Blick auf die Brücken. Abends ist es hier am schönsten.</p>","text_en":"<p>The promenade along the river Waal: cafés, terraces and views of the bridges. It is nicest here in the evening.</p>"},
-      {"name":"Valkhofpark","q":"Valkhof Park Nijmegen","text":"<p>Der Park liegt auf einem Hügel über dem Waal, einst Sitz von Karls des Großen Pfalz. Er bewahrt die St.-Nikolaus-Kapelle und Ruinen. Auf Google 4,5 Sterne. Besucher mögen den Blick auf die Waalbrücke.</p>","text_en":"<p>The park lies on a hill above the Waal, once the site of Charlemagne’s palace. It preserves St Nicholas’ Chapel and ruins. 4.5 stars on Google. Visitors like the view of the Waal Bridge.</p>","hours":"laut Google durchgehend zugänglich","hours_en":"accessible around the clock according to Google"}
-     ]},
-    {"type":"prose","id":"wissen","h":"Was Nijmegen ausmacht","h_en":"What makes Nijmegen special","box":"gyg",
-     "html":"<p>Nijmegen gilt als älteste Stadt der Niederlande. Mehr zum Land in meinem Amsterdam-Guide.</p>",
-     "html_en":"<p>Nijmegen is considered the oldest city in the Netherlands. More about the country in my Amsterdam guide.</p>"}
-  ],
-  "itinerary":[
-   {"h":"Ein Tag in Nijmegen","h_en":"One day in Nijmegen","items":["<strong>Vormittag</strong> – Altstadt","<strong>Nachmittag</strong> – Valkhofpark","<strong>Abend</strong> – Waalkade"],"items_en":["<strong>Morning</strong> – old town","<strong>Afternoon</strong> – Valkhof Park","<strong>Evening</strong> – Waalkade"]}
-  ],
-  "faq":[
-   {"q":"Lohnt sich Nijmegen als Tagesausflug aus NRW?","q_en":"Is Nijmegen worth a day trip from NRW?","a":"<p>Ja, die Wege sind kurz und die Altstadt ist kompakt.</p>","a_en":"<p>Yes, distances are short and the old town is compact.</p>"}
-  ]
+ "slug": "nijmegen",
+ "slug_en": "nijmegen",
+ "status": "live",
+ "blog": "blog-bc-24",
+ "cc": "NL",
+ "flag": "🇳🇱",
+ "city": "Nijmegen",
+ "city_en": "Nijmegen",
+ "updated": "2026-11-05",
+ "title": "Nijmegen Guide: 10 Orte – Waalkade, Valkhof & älteste Stadt der Niederlande",
+ "title_en": "Nijmegen Guide: 10 places – Waalkade, Valkhof & the oldest city in the Netherlands",
+ "desc": "Nijmegen, nur einen Katzensprung hinter der Grenze: Abend an der Waalkade, Valkhofpark und Brückenblick – von Noel.",
+ "desc_en": "Nijmegen, just across the border: an evening on the Waalkade, Valkhof Park and bridge views – from Noel.",
+ "gyg_q": "Nijmegen",
+ "intro": "<p>Nijmegen gilt als älteste Stadt der Niederlande und liegt nur einen Katzensprung von der deutschen Grenze entfernt – ein perfekter Kurztrip aus NRW.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Nijmegen is considered the oldest city in the Netherlands and lies just a stone’s throw from the German border – a perfect short trip from NRW.</p><p>Prices and times are guidelines (2026).</p>",
+ "story": "<p>Mein Tipp: ein Abend an der Waalkade – Nijmegen ist die älteste Stadt der Niederlande und von der Grenze nur einen Katzensprung entfernt.</p>",
+ "story_en": "<p>My tip: an evening on the Waalkade – Nijmegen is the oldest city in the Netherlands and only a stone’s throw from the German border.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1 Tag oder Wochenende",
+   "v_en": "1 day or weekend"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai bis September; Juli: Vierdaagse-Woche",
+   "v_en": "May to September; July: Four Days Marches week"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Nijmegen",
+   "h_en": "Getting to Nijmegen",
+   "box": "omio",
+   "html": "<p>Aus NRW erreichst du Nijmegen mit Regionalzug oder Auto in kurzer Zeit (Fahrpläne vorher prüfen). Die Altstadt ist klein und gut zu Fuß erkundbar.</p><p>Der Bahnhof Nijmegen liegt am Rand der Altstadt, etwa 10–15 Minuten zu Fuß bis zum Grote Markt. Von der deutschen Grenze ist es nicht weit: aus Düsseldorf, Köln oder dem Ruhrgebiet kommst du mit Regionalzügen mit Umstieg, oft in unter zwei bis drei Stunden (Fahrpläne vorher prüfen).</p><p>In der Stadt bist du am besten zu Fuß oder mit dem Fahrrad unterwegs; Leihräder gibt es am Bahnhof. Parken in der Innenstadt ist teuer – nutze die Parkhäuser am Rand.</p>",
+   "html_en": "<p>From NRW you reach Nijmegen by regional train or car in a short time (check timetables beforehand). The old town is small and easy to explore on foot.</p><p>Nijmegen station lies on the edge of the old town, about a 10–15 minute walk to the Grote Markt. From the German border it is not far: from Düsseldorf, Cologne or the Ruhr area you get there by regional trains with a change, often in under two to three hours (check timetables beforehand).</p><p>In the city you are best on foot or by bike; rental bikes are available at the station. Parking in the city centre is expensive – use the car parks on the edge.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Waalkade",
+     "q": "Waalkade Nijmegen",
+     "text": "<p>Die Promenade am Fluss Waal: Cafés, Terrassen und Blick auf die Brücken. Abends ist es hier am schönsten.</p><p>Die Waalkade verläuft am Südufer des Waal, des Hauptarms des Rheins in den Niederlanden. Vom Ufer siehst du die große Waalbrücke und, auf der anderen Seite, die moderne Stadtbrücke „De Oversteek“. Im Sommer sitzen die Leute draußen, im Winter ziehen sie ins warme Café.</p><p>Spaziere abends die Promenade entlang und such dir ein Lokal mit Terrasse. Ein Fahrrad ist die beste Art, am Fluss weiter bis in die Ooijpolder zu fahren.</p>",
+     "text_en": "<p>The promenade along the river Waal: cafés, terraces and views of the bridges. It is nicest here in the evening.</p><p>The Waalkade runs along the south bank of the Waal, the main arm of the Rhine in the Netherlands. From the bank you see the large Waal Bridge and, on the other side, the modern city bridge “De Oversteek”. In summer people sit outside, in winter they move to the warm café.</p><p>Stroll along the promenade in the evening and find a place with a terrace. A bike is the best way to continue along the river into the Ooijpolder.</p>",
+     "tip": "Komm zum Sonnenuntergang und such dir einen Platz mit Blick auf die Brücke.",
+     "tip_en": "Come at sunset and find a spot with a view of the bridge."
+    },
+    {
+     "name": "Valkhofpark",
+     "q": "Valkhof Park Nijmegen",
+     "text": "<p>Der Park liegt auf einem Hügel über dem Waal, einst Sitz von Karls des Großen Pfalz. Er bewahrt die St.-Nikolaus-Kapelle und Ruinen. Auf Google 4,5 Sterne. Besucher mögen den Blick auf die Waalbrücke.</p><p>Der Valkhof war im Mittelalter eine Kaiserpfalz: Karl der Große soll hier um das Jahr 777 einen Palast bauen lassen haben, später baute Friedrich Barbarossa eine Burg. Erhalten sind heute die kleine St.-Nikolaus-Kapelle (11. Jahrhundert) und Ruinen der Barbarossa-Burg. Von einer Terrasse siehst du auf den Waal und die Brücke.</p><p>Direkt im Park liegt das Museum Het Valkhof. Der Park ist durchgehend zugänglich; er ist ruhig, besonders am Morgen oder am Abend.</p>",
+     "text_en": "<p>The park lies on a hill above the Waal, once the site of Charlemagne’s palace. It preserves St Nicholas’ Chapel and ruins. 4.5 stars on Google. Visitors like the view of the Waal Bridge.</p><p>In the Middle Ages the Valkhof was an imperial palace: Charlemagne is said to have had a palace built here around 777, and later Frederick Barbarossa built a castle. Preserved today are the small St Nicholas Chapel (11th century) and ruins of the Barbarossa castle. From a terrace you look over the Waal and the bridge.</p><p>Right in the park lies the Museum Het Valkhof. The park is accessible all day; it is quiet, especially in the morning or evening.</p>",
+     "hours": "laut Google durchgehend zugänglich",
+     "hours_en": "accessible around the clock according to Google"
+    },
+    {
+     "name": "Museum Het Valkhof",
+     "text": "<p>Das Museum zeigt Kunst und Archäologie in einem modernen Gebäude mit viel Glas, entworfen vom Architekturbüro UNStudio. Die Sammlung umfasst römische Funde aus Nijmegen (das einst Noviomagus hieß), mittelalterliche Objekte und Gemälde. Die römische Abteilung ist besonders gut, wenn du verstehen willst, warum Nijmegen als älteste Stadt der Niederlande gilt.</p><p>Plane ein bis zwei Stunden ein. Öffnungszeiten und Eintritt vorher prüfen; montags ist das Museum üblicherweise geschlossen.</p>",
+     "text_en": "<p>The museum shows art and archaeology in a modern building with lots of glass, designed by the architecture firm UNStudio. The collection includes Roman finds from Nijmegen (which was once called Noviomagus), medieval objects and paintings. The Roman section is especially good if you want to understand why Nijmegen is considered the oldest city in the Netherlands.</p><p>Plan one to two hours. Check opening times and admission beforehand; the museum is usually closed on Mondays.</p>",
+     "name_en": "Museum Het Valkhof",
+     "q": "Museum Het Valkhof Nijmegen",
+     "tip": "Beginne mit der römischen Abteilung – sie erklärt den Rest.",
+     "tip_en": "Start with the Roman section – it explains the rest."
+    },
+    {
+     "name": "Waalbrücke & „De Oversteek“ – die Flussüberquerung 1944",
+     "text": "<p>Die Waalbrücke aus den 1930er-Jahren war im September 1944 Schauplatz einer der berühmtesten Aktionen der Operation Market Garden: Amerikanische Fallschirmjäger setzten in Sturmbooten über den Waal und eroberten die Brücke. Ein Denkmal am Ufer erinnert daran.</p><p>Heute kannst du über die Brücke zu Fuß oder mit dem Rad gehen und siehst die Stadt aus anderer Perspektive. Auf der anderen Flussseite steht die neue Stadtbrücke, „De Oversteek“ („Die Überquerung“) – benannt nach der historischen Überquerung. Plane einen Spaziergang bei Sonnenuntergang ein.</p>",
+     "text_en": "<p>The Waal Bridge from the 1930s was in September 1944 the scene of one of the most famous actions of Operation Market Garden: American paratroopers crossed the Waal in assault boats and captured the bridge. A memorial on the bank commemorates it.</p><p>Today you can cross the bridge on foot or by bike and see the city from a different perspective. On the other side of the river stands the new city bridge, “De Oversteek” (“The Crossing”) – named after the historic crossing. Plan a walk at sunset.</p>",
+     "name_en": "Waal Bridge & “De Oversteek” – the 1944 river crossing",
+     "q": "Waalbrug Nijmegen",
+     "tip": "Geh zu Fuß über die Brücke und schau zurück auf die Waalkade – das beste Foto.",
+     "tip_en": "Walk across the bridge and look back at the Waalkade – the best photo."
+    },
+    {
+     "name": "Grote Markt, Stevenskerk & Waag",
+     "text": "<p>Der Grote Markt ist das Herz der Altstadt: Rund um den Platz stehen die Stevenskerk, die Waag (das Wiegehaus von 1612) und Cafés mit Terrassen. Die Stevenskerk ist eine große gotische Kirche, in deren Turm du – zu bestimmten Zeiten – hinaufsteigen kannst, um den Blick über die Stadt zu genießen.</p><p>Der Platz ist an Markttagen lebendig, abends sitzen die Menschen draußen. Komm hierher, wenn du Studentenstadt-Stimmung und Altstadt in einem erleben willst – Nijmegen hat eine bekannte Universität, die der Stadt eine jugendliche Atmosphäre gibt.</p>",
+     "text_en": "<p>The Grote Markt is the heart of the old town: around the square stand the St Stephen’s Church, the Waag (weigh house of 1612) and cafés with terraces. The Stevenskerk is a large Gothic church in whose tower – at certain times – you can climb up to enjoy the view over the city.</p><p>The square is lively on market days, and in the evening people sit outside. Come here if you want to experience student-city atmosphere and old town in one – Nijmegen has a well-known university that gives the city a youthful atmosphere.</p>",
+     "name_en": "Grote Markt, St Stephen’s Church & Waag",
+     "q": "Grote Markt Nijmegen",
+     "tip": "Kombiniere Marktbesuch mit Kaffee auf der Terrasse und Turmbesteigung, falls geöffnet.",
+     "tip_en": "Combine a market visit with coffee on a terrace and the tower climb, if open."
+    },
+    {
+     "name": "Altstadt-Gassen: Lange Hezelstraat & Hoogstraat",
+     "text": "<p>Die Lange Hezelstraat ist eine der ältesten Straßen der Stadt, heute eine Fußgängerzone mit kleinen Läden, Cafés und Restaurants. Zwischen Grote Markt und den Seitengassen findest du Boutiquen, Buchläden und Brauereien. Die Hoogstraat nimmt das Treiben auf und führt zum Valkhof.</p><p>Wenn du ein bisschen bummeln magst, plane eine Stunde ein und nimm dir Zeit für einen Kaffee. Viele Läden öffnen erst gegen 10–11 Uhr.</p>",
+     "text_en": "<p>The Lange Hezelstraat is one of the oldest streets in the city, today a pedestrian zone with small shops, cafés and restaurants. Between the Grote Markt and the side lanes you find boutiques, bookshops and breweries. The Hoogstraat takes up the bustle and leads to the Valkhof.</p><p>If you like to stroll, plan an hour and take time for a coffee. Many shops only open around 10–11 a.m.</p>",
+     "name_en": "Old-town lanes: Lange Hezelstraat & Hoogstraat",
+     "q": "Lange Hezelstraat Nijmegen",
+     "tip": "Komm vormittags oder am späten Nachmittag, wenn es ruhiger ist.",
+     "tip_en": "Come in the morning or late afternoon when it is quieter."
+    },
+    {
+     "name": "Vierdaagse & Via Gladiola",
+     "text": "<p>Jedes Jahr im Juli findet in Nijmegen die Internationale Vierdaagse (Four Days Marches) statt – das größte mehrtägige Wanderevent der Welt. Zehntausende Teilnehmer laufen vier Tage lang jeweils rund 30 bis 50 Kilometer, begleitet von Musik und jubelnden Zuschauern. Der letzte Tag endet auf der Via Gladiola, wo Blumen verteilt werden.</p><p>Gleichzeitig laufen die Vierdaagsefeesten, ein großes Stadtfest mit Musik und Bühnen. Wenn du im Juli reist, buche Unterkunft früh; die Stadt ist dann voll. Auch außerhalb der Veranstaltung erinnern Schilder und Denkmäler an die Tradition.</p>",
+     "text_en": "<p>Every year in July Nijmegen hosts the International Four Days Marches – the largest multi-day walking event in the world. Tens of thousands of participants walk about 30 to 50 kilometres each day for four days, accompanied by music and cheering spectators. The last day ends on the Via Gladiola, where flowers are handed out.</p><p>At the same time the Vierdaagsefeesten take place, a large city festival with music and stages. If you travel in July, book accommodation early; the city is full then. Even outside the event, signs and memorials recall the tradition.</p>",
+     "name_en": "Four Days Marches & Via Gladiola",
+     "q": "Vierdaagse Nijmegen",
+     "tip": "Wenn du im Juli kommst, buche früh und plane ein, dass die Stadt voll ist.",
+     "tip_en": "If you come in July, book early and expect the city to be full."
+    }
+   ]
+  },
+  {
+   "id": "gems",
+   "h": "Hidden Gems & Umgebung",
+   "h_en": "Hidden gems & surroundings",
+   "spots": [
+    {
+     "name": "Kronenburgerpark & Kruittoren",
+     "text": "<p>Der Kronenburgerpark ist ein kleiner Park mit Teichen, Wegen und einem Stück der alten Stadtmauer; hier steht der Kruittoren (Pulverturm) als Rest der Befestigung. Er liegt am Rand der Altstadt und ist deutlich ruhiger als die Waalkade.</p><p>Viele Einheimische gehen hier spazieren oder lesen. Wenn du Ruhe brauchst, ist er ein guter Rückzugsort nach dem Trubel der Altstadt. Plane eine halbe Stunde ein.</p>",
+     "text_en": "<p>Kronenburger Park is a small park with ponds, paths and a piece of the old city wall; here stands the Kruittoren (powder tower) as a remnant of the fortifications. It lies on the edge of the old town and is much quieter than the Waalkade.</p><p>Many locals walk or read here. If you need quiet it is a good retreat after the bustle of the old town. Plan half an hour.</p>",
+     "name_en": "Kronenburger Park & Kruittoren",
+     "gem": true,
+     "q": "Kronenburgerpark Nijmegen",
+     "tip": "Nimm dir Kaffee mit und mach hier eine kurze Pause.",
+     "tip_en": "Bring a coffee and take a short break here."
+    },
+    {
+     "name": "Ooijpolder – Radtour am Fluss",
+     "text": "<p>Östlich der Stadt liegt die Ooijpolder, eine Flusslandschaft am Waal mit Weiden, Deichen und Naturgebieten, in der Biber, Gänse und Vögel leben. Ein Fahrrad ist ideal: Du fährst am Deich entlang, siehst Kühe und Pferde und kannst in kleinen Cafés einkehren.</p><p>Plane eine Tour von zwei bis drei Stunden ein; leihe ein Fahrrad in der Stadt, wenn du keins dabei hast. Bei starkem Wind kann der Deich anstrengend sein – starte mit dem Gegenwind.</p>",
+     "text_en": "<p>East of the city lies the Ooijpolder, a river landscape on the Waal with meadows, dikes and nature areas where beavers, geese and birds live. A bike is ideal: you ride along the dike, see cows and horses and can stop at small cafés.</p><p>Plan a tour of two to three hours; rent a bike in the city if you do not have one. In strong wind the dike can be tiring – start into the headwind.</p>",
+     "name_en": "Ooijpolder – bike ride along the river",
+     "gem": true,
+     "q": "Ooijpolder Nijmegen",
+     "tip": "Starte gegen den Wind und plane eine Kaffeepause im Dorf Ooij ein.",
+     "tip_en": "Start into the wind and plan a coffee break in the village of Ooij."
+    },
+    {
+     "name": "Bevrijdingsmuseum & Kriegsfriedhof Groesbeek",
+     "text": "<p>Nur wenige Kilometer südöstlich liegt Groesbeek, wo das Nationale Befreiungsmuseum 1944–1945 an die Befreiung der Niederlande erinnert. Du siehst Alltagsobjekte, Filme und Szenen, die die Zeit rund um die Operation Market Garden erzählen – auch aus der Sicht der Zivilbevölkerung.</p><p>In der Nähe liegt der kanadische Kriegsfriedhof, ein ruhiger Ort mit Tausenden Gräbern gefallener Soldaten. Anfahrt mit Bus oder Fahrrad; Öffnungszeiten vorher prüfen. Plane einen halben Tag ein.</p>",
+     "text_en": "<p>Just a few kilometres south-east lies Groesbeek, where the National Liberation Museum 1944–1945 commemorates the liberation of the Netherlands. You see everyday objects, films and scenes that tell the story of the time around Operation Market Garden – also from the perspective of the civilian population.</p><p>Nearby lies the Canadian War Cemetery, a quiet place with thousands of graves of fallen soldiers. Get there by bus or bike; check opening times beforehand. Plan half a day.</p>",
+     "name_en": "Liberation Museum & War Cemetery Groesbeek",
+     "q": "Nationaal Bevrijdingsmuseum Groesbeek",
+     "tip": "Kombiniere beides mit einer Radtour durch die Hügel.",
+     "tip_en": "Combine both with a bike ride through the hills."
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Nijmegen ausmacht",
+   "h_en": "What makes Nijmegen special",
+   "box": "gyg",
+   "html": "<p>Nijmegen gilt als älteste Stadt der Niederlande. Mehr zum Land in meinem Amsterdam-Guide.</p>",
+   "html_en": "<p>Nijmegen is considered the oldest city in the Netherlands. More about the country in my Amsterdam guide.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Tag 1 – Altstadt & Geschichte",
+   "h_en": "Day 1 – Old town & history",
+   "items": [
+    "<strong>Vormittag</strong> – Grote Markt, Stevenskerk, Altstadt-Gassen",
+    "<strong>Mittag</strong> – Mittagessen in der Lange Hezelstraat",
+    "<strong>Nachmittag</strong> – Valkhofpark, Museum Het Valkhof",
+    "<strong>Abend</strong> – Waalbrücke bei Sonnenuntergang und Waalkade"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Grote Markt, Stevenskerk, old-town lanes",
+    "<strong>Midday</strong> – lunch in the Lange Hezelstraat",
+    "<strong>Afternoon</strong> – Valkhof Park, Museum Het Valkhof",
+    "<strong>Evening</strong> – Waal Bridge at sunset and Waalkade"
+   ]
+  },
+  {
+   "h": "Tag 2 – Umland",
+   "h_en": "Day 2 – Surroundings",
+   "items": [
+    "<strong>Vormittag</strong> – Ooijpolder mit dem Rad",
+    "<strong>Mittag</strong> – Kaffeepause im Dorf",
+    "<strong>Nachmittag</strong> – Groesbeek: Befreiungsmuseum und Kriegsfriedhof"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Ooijpolder by bike",
+    "<strong>Midday</strong> – coffee break in the village",
+    "<strong>Afternoon</strong> – Groesbeek: Liberation Museum and war cemetery"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lohnt sich Nijmegen als Tagesausflug aus NRW?",
+   "q_en": "Is Nijmegen worth a day trip from NRW?",
+   "a": "<p>Ja, die Wege sind kurz und die Altstadt ist kompakt.</p>",
+   "a_en": "<p>Yes, distances are short and the old town is compact.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Nijmegen?",
+   "q_en": "How many days do you need in Nijmegen?",
+   "a": "Ein Tag reicht für die Altstadt, zwei Tage mit Umland und Radtour.",
+   "a_en": "One day is enough for the old town, two days with the surroundings and a bike ride."
+  },
+  {
+   "q": "Warum gilt Nijmegen als älteste Stadt der Niederlande?",
+   "q_en": "Why is Nijmegen considered the oldest city in the Netherlands?",
+   "a": "Schon die Römer gründeten hier eine Siedlung (Noviomagus), und die Stadt feierte 2005 ihr 2000-jähriges Bestehen. Römische Funde siehst du im Museum Het Valkhof.",
+   "a_en": "The Romans already founded a settlement here (Noviomagus), and the city celebrated its 2,000th anniversary in 2005. You see Roman finds in the Museum Het Valkhof."
+  }
+ ]
 }

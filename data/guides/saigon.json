@@ -8,8 +8,8 @@
  "city": "Saigon (Ho-Chi-Minh-Stadt)",
  "city_en": "Saigon (Ho Chi Minh City)",
  "updated": "2026-11-05",
- "title": "Saigon Guide: District 1 treiben lassen & Nguyễn Huệ am Abend",
- "title_en": "Saigon Guide: Drifting through District 1 & Nguyễn Huệ at Night",
+ "title": "Saigon Guide: 13 Orte – District 1, Nguyễn Huệ, Cholon & Cu-Chi",
+ "title_en": "Saigon Guide: 13 places – District 1, Nguyễn Huệ, Cholon & Cu Chi",
  "desc": "Saigon im Februar 2026: keinen Plan machen, im District 1 treiben lassen, abends auf die Flaniermeile Nguyễn Huệ – von Noel.",
  "desc_en": "Saigon in February 2026: make no plan, drift through District 1, stroll Nguyễn Huệ boulevard at night – from Noel.",
  "gyg_q": "Ho Chi Minh City",
@@ -29,6 +29,18 @@
    "k_en": "Currency",
    "v": "Dong (VND)",
    "v_en": "Dong (VND)"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Dezember bis April (trockene Monate)",
+   "v_en": "December to April (dry months)"
+  },
+  {
+   "k": "Sprache",
+   "k_en": "Language",
+   "v": "Vietnamesisch; Englisch in Touristenzonen",
+   "v_en": "Vietnamese; English in tourist areas"
   }
  ],
  "blocks": [
@@ -38,8 +50,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "gyg",
-   "html": "<p>Saigon (Ho-Chi-Minh-Stadt) hat einen großen Flughafen Tan Son Nhat; Inlandsflüge von Hanoi und Da Nang sind günstig.</p>",
-   "html_en": "<p>Saigon (Ho Chi Minh City) has a large airport, Tan Son Nhat; domestic flights from Hanoi and Da Nang are cheap.</p>"
+   "html": "<p>Saigon (Ho-Chi-Minh-Stadt) hat einen großen Flughafen Tan Son Nhat; Inlandsflüge von Hanoi und Da Nang sind günstig.</p><p>Vom Flughafen Tân Sơn Nhất bist du in etwa 30–60 Minuten im Zentrum, je nach Verkehr. Am einfachsten sind Grab (die vietnamesische Taxi-App) oder offizielle Taxis; die Metrolinie 1 verbindet Teile der Stadt, ist aber noch nicht überall nutzbar. Für Deutsche gilt in der Regel eine visumfreie Einreise für eine begrenzte Zeit – prüfe die aktuellen Regeln vorher.</p><p>In der Stadt sind Grab-Autos und Grab-Bike (Roller) die bequemste Art, voranzukommen; Busse gibt es, sind aber für Einsteiger schwer zu durchschauen. Bezahle möglichst in Dong und nimm kleine Scheine mit.</p>",
+   "html_en": "<p>Saigon (Ho Chi Minh City) has a large airport, Tan Son Nhat; domestic flights from Hanoi and Da Nang are cheap.</p><p>From Tân Sơn Nhất airport you are in the centre in about 30–60 minutes, depending on traffic. The easiest options are Grab (the Vietnamese taxi app) or official taxis; Metro Line 1 connects parts of the city but is not yet usable everywhere. For Germans a visa-free entry for a limited time usually applies – check the current rules beforehand.</p><p>In the city Grab cars and Grab Bike (scooter) are the most convenient way to get around; buses exist but are hard for beginners to figure out. Pay in dong where possible and carry small notes.</p>"
   },
   {
    "type": "spots",
@@ -49,17 +61,138 @@
    "spots": [
     {
      "name": "District 1",
-     "text": "Keinen Plan machen, treiben lassen.",
-     "text_en": "Make no plan, drift.",
+     "text": "<p>Keinen Plan machen, treiben lassen.</p><p>District 1 ist das Zentrum von Ho-Chi-Minh-Stadt: Hochhäuser neben französischen Kolonialbauten, Kaffeehäuser neben Garküchen, Rollerströme dazwischen. Fast alle Sehenswürdigkeiten dieses Guides liegen hier, die meisten sind zu Fuß oder mit kurzen Taxifahrten erreichbar.</p><p>Der Trick beim Überqueren der Straße: langsam und gleichmäßig gehen, nicht rennen und nicht stehenbleiben – die Roller fahren um dich herum. Plane Pausen in klimatisierten Cafés ein, die Hitze und die Luftfeuchtigkeit schlauchen.</p>",
+     "text_en": "<p>Make no plan, drift.</p><p>District 1 is the centre of Ho Chi Minh City: skyscrapers next to French colonial buildings, coffee shops next to street kitchens, streams of scooters in between. Almost all sights in this guide are here, most reachable on foot or by short taxi rides.</p><p>The trick when crossing the street: walk slowly and steadily, do not run and do not stop – the scooters flow around you. Plan breaks in air-conditioned cafés; the heat and humidity are draining.</p>",
      "name_en": "District 1",
-     "q": "District 1"
+     "q": "District 1",
+     "tip": "Geh am frühen Vormittag los – ab Mittag ist es heiß und die Gassen sind voll.",
+     "tip_en": "Set off in the early morning – from noon it is hot and the lanes are crowded."
     },
     {
      "name": "Nguyễn Huệ am Abend",
-     "text": "Die Flaniermeile abends: Familien, Musik, Licht.",
-     "text_en": "The boulevard in the evening: families, music, light.",
+     "text": "<p>Die Flaniermeile abends: Familien, Musik, Licht.</p><p>Die Nguyễn Huệ ist eine breite Fußgängerpromenade, die vom Rathaus (Ho-Chi-Minh-Stadt-Volkskomitee) bis zum Saigon-Fluss führt. Abends füllt sie sich mit Familien, Straßenkünstlern, Fotografen und Verkäufern; an Feiertagen gibt es Beleuchtung und Veranstaltungen. Entlang der Promenade stehen Cafés und das berühmte Haus Nr. 42 mit seinen vielen kleinen Cafés in den oberen Etagen.</p><p>Am Ende der Promenade am Fluss siehst du die Skyline mit dem Bitexco-Turm. Ein Spaziergang hier ist kostenlos und lohnt sich besonders bei Sonnenuntergang. Pass auf Taschen und Handys auf – wie überall in belebten Touristengegenden ist Taschendiebstahl möglich.</p>",
+     "text_en": "<p>The boulevard in the evening: families, music, light.</p><p>Nguyễn Huệ is a wide pedestrian promenade leading from the City Hall (People’s Committee) to the Saigon River. In the evening it fills with families, street performers, photographers and vendors; on holidays there are lights and events. Along the promenade are cafés and the famous building at No. 42 with its many small cafés on the upper floors.</p><p>At the river end of the promenade you see the skyline with the Bitexco Tower. A walk here is free and especially worthwhile at sunset. Watch your bags and phones – as everywhere in busy tourist areas, pickpocketing is possible.</p>",
      "name_en": "Nguyễn Huệ at night",
-     "q": "Nguyen Hue Walking Street"
+     "q": "Nguyen Hue Walking Street",
+     "tip": "Komm zum Sonnenuntergang und bleib bis in die Dunkelheit – dann leuchtet die Promenade.",
+     "tip_en": "Come at sunset and stay until dark – then the promenade glows."
+    },
+    {
+     "name": "Ben-Thanh-Markt (Chợ Bến Thành)",
+     "text": "<p>Der Ben-Thanh-Markt ist der bekannteste Markt der Stadt, in einer 1914 eröffneten Halle mit Uhrturm. Drinnen drängen sich Stände mit Kleidung, Stoffen, Taschen, Kaffee, Gewürzen, getrockneten Früchten und Souvenirs, dazu Essensbereiche mit Nudelsuppen, Frühlingsrollen und Süßspeisen.</p><p>Hier wird gehandelt: Starte mit rund der Hälfte des genannten Preises und bleib freundlich. Der Markt ist touristisch und die Preise höher als in Märkten abseits der Touristenpfade, aber als Einstieg ist er sehr gut. Abends gibt es draußen einen Nachtmarkt mit Essensständen; behalte Taschen und Wertsachen vor dir.</p>",
+     "text_en": "<p>Ben Thanh Market is the best-known market of the city, in a hall opened in 1914 with a clock tower. Inside, stalls crowd together with clothing, fabrics, bags, coffee, spices, dried fruit and souvenirs, plus food areas with noodle soups, spring rolls and sweet dishes.</p><p>Haggling is the rule here: start at about half the quoted price and stay friendly. The market is touristy and prices are higher than at markets off the tourist track, but as an introduction it is very good. In the evening an outdoor night market with food stalls opens; keep bags and valuables in front of you.</p>",
+     "name_en": "Ben Thanh Market",
+     "q": "Ben Thanh Market Ho Chi Minh City",
+     "tip": "Komm vormittags, wenn es kühler und weniger voll ist, und iss dort eine Nudelsuppe.",
+     "tip_en": "Come in the morning when it is cooler and less crowded, and eat a noodle soup there."
+    },
+    {
+     "name": "Kriegsrestemuseum (War Remnants Museum)",
+     "text": "<p>Das Museum dokumentiert den Vietnamkrieg aus vietnamesischer Sicht: Fotografien, Dokumente, Militärfahrzeuge und Flugzeuge im Hof. Besonders eindringlich sind die Fotoausstellungen und die Abteilung zu den Folgen von Agent Orange. Die Perspektive ist eindeutig, das Museum ist aber historisch wichtig.</p><p>Das ist keine leichte Kost – plane etwa zwei Stunden ein und danach eine Pause. Eintritt und Öffnungszeiten ändern sich (Stand: meist unter 1,50 € pro Person; vorher prüfen). Mit Kindern solltest du abwägen, ob du alle Räume zeigst.</p>",
+     "text_en": "<p>The museum documents the Vietnam War from the Vietnamese point of view: photographs, documents, military vehicles and aircraft in the yard. Especially intense are the photo exhibitions and the section on the consequences of Agent Orange. The perspective is unambiguous, but the museum is historically important.</p><p>It is not easy material – plan about two hours and a break afterwards. Admission and opening times change (usually under €1.50 per person; check beforehand). With children you should consider whether to show all rooms.</p>",
+     "name_en": "War Remnants Museum",
+     "q": "War Remnants Museum Ho Chi Minh City",
+     "tip": "Komm morgens früh oder später am Nachmittag und plane danach eine ruhige Pause ein.",
+     "tip_en": "Come early in the morning or later in the afternoon and plan a quiet break afterwards."
+    },
+    {
+     "name": "Kathedrale Notre-Dame & Hauptpost",
+     "text": "<p>Die rote Backsteinkathedrale wurde Ende des 19. Jahrhunderts von den Franzosen gebaut; die Steine kamen laut Überlieferung aus Marseille. Davor steht eine Marienstatue, und die Zwillingstürme sind ein Wahrzeichen der Stadt. Die Kathedrale wurde zuletzt restauriert – ob du hineinkommst oder sie noch eingerüstet ist, solltest du vorher prüfen.</p><p>Direkt gegenüber steht die Hauptpost von 1891, ein Gebäude im französischen Kolonialstil mit hoher Halle, Wandkarten und Holztelefonzellen. Man sagt oft, Gustave Eiffel habe sie entworfen; das ist umstritten. Du kannst hineingehen, Postkarten schreiben und abschicken – ein netter Moment zum Durchatmen.</p>",
+     "text_en": "<p>The red-brick cathedral was built by the French at the end of the 19th century; the bricks reportedly came from Marseille. In front stands a statue of Mary, and the twin towers are a landmark of the city. The cathedral was recently restored – whether you can go inside or whether it is still scaffolded you should check beforehand.</p><p>Directly opposite stands the Central Post Office of 1891, a French colonial building with a high hall, wall maps and wooden phone booths. It is often said that Gustave Eiffel designed it; that is disputed. You can go in, write postcards and send them – a nice moment to catch your breath.</p>",
+     "name_en": "Notre-Dame Cathedral & Central Post Office",
+     "q": "Saigon Central Post Office",
+     "tip": "Schreib am Postamt eine Postkarte – die Marken sind günstig, und der Raum ist schöner als der Platz davor.",
+     "tip_en": "Write a postcard at the post office – stamps are cheap, and the hall is nicer than the square outside."
+    },
+    {
+     "name": "Wiedervereinigungspalast (Independence Palace)",
+     "text": "<p>Hier endete der Vietnamkrieg am 30. April 1975, als Panzer der nordvietnamesischen Armee die Tore durchbrachen. Der Palast aus den 1960er-Jahren steht noch weitgehend wie damals: Konferenzräume, Empfangssäle, Residenz des Präsidenten, ein Bunker im Keller mit Kommunikationsraum und Karten.</p><p>Der Bau ist ein gutes Beispiel für die Architektur der Zeit, und die Panzer im Garten erinnern an das Ende des Krieges. Plane etwa ein bis zwei Stunden ein; Audioguides gibt es in mehreren Sprachen, Eintritt und Öffnungszeiten ändern sich (vorher prüfen).</p>",
+     "text_en": "<p>Here the Vietnam War ended on 30 April 1975, when tanks of the North Vietnamese army broke through the gates. The palace from the 1960s still stands largely as it was then: conference rooms, reception halls, the president’s residence, a basement bunker with a communications room and maps.</p><p>The building is a good example of the architecture of the time, and the tanks in the garden recall the end of the war. Plan about one to two hours; audio guides are available in several languages, admission and opening times change (check beforehand).</p>",
+     "name_en": "Reunification Palace (Independence Palace)",
+     "q": "Independence Palace Ho Chi Minh City",
+     "tip": "Hol dir einen Audioguide und geh zuerst in den Keller-Bunker.",
+     "tip_en": "Get an audio guide and go to the basement bunker first."
+    },
+    {
+     "name": "Bitexco Financial Tower & Saigon Skydeck",
+     "text": "<p>Der Bitexco-Turm ist mit seiner Form, die an eine Lotusknospe erinnern soll, ein Wahrzeichen der Skyline. Auf der Aussichtsplattform im Skydeck (um die 49. Etage) siehst du Saigon von oben: Fluss, Hochhäuser, Straßenraster und – an klaren Tagen – bis weit ins Umland.</p><p>Am schönsten ist der Besuch kurz vor Sonnenuntergang, wenn das Licht warm wird und die Lichter angehen. Der Eintritt ist deutlich teurer als in den Museen (ungefähr im zweistelligen Euro-Bereich; Preise vorher prüfen). Alternativ kannst du ein Café oder eine Bar in einem Hochhaus mit Aussicht besuchen – das ist oft günstiger.</p>",
+     "text_en": "<p>With its shape meant to recall a lotus bud, the Bitexco Tower is a landmark of the skyline. From the viewing platform in the Skydeck (around the 49th floor) you see Saigon from above: river, high-rises, street grid and – on clear days – far into the surrounding country.</p><p>The visit is most beautiful shortly before sunset, when the light turns warm and the lights come on. Admission is much more expensive than in the museums (roughly in the double-digit euro range; check prices beforehand). Alternatively you can visit a café or bar in a high-rise with a view – that is often cheaper.</p>",
+     "name_en": "Bitexco Financial Tower & Saigon Skydeck",
+     "q": "Saigon Skydeck Bitexco",
+     "tip": "Komm 30–45 Minuten vor Sonnenuntergang und bleib bis zur Dämmerung.",
+     "tip_en": "Come 30–45 minutes before sunset and stay until dusk."
+    }
+   ]
+  },
+  {
+   "id": "gems",
+   "h": "Hidden Gems & echtes Saigon",
+   "h_en": "Hidden gems & real Saigon",
+   "spots": [
+    {
+     "name": "Café-Apartments, Nguyễn Huệ 42",
+     "text": "<p>In einem alten Wohnblock an der Nguyễn Huệ verstecken sich auf mehreren Etagen kleine Cafés, Läden und Studios. Man läuft Treppenhäuser hinauf, vorbei an Wäscheleinen und Türen, und landet auf Terrassen mit Blick auf die Promenade und die Stadt. Das Gebäude ist ein Beispiel für die Wohnhäuser der 1960er-Jahre, die heute vor allem von Kreativen genutzt werden.</p><p>Die Atmosphäre ist deutlich lockerer als an der Promenade unten; die Preise sind meist normal. Die Cafés wechseln, deshalb lohnt es sich, einfach hinaufzugehen und das auszusuchen, das dir gefällt. Rechne an Wochenenden mit Wartezeiten.</p>",
+     "text_en": "<p>In an old apartment block on Nguyễn Huệ small cafés, shops and studios hide on several floors. You walk up stairwells, past washing lines and doors, and end up on terraces with a view of the promenade and the city. The building is an example of the residential blocks of the 1960s, today used mainly by creatives.</p><p>The atmosphere is much more relaxed than on the promenade below; prices are mostly normal. The cafés change, so it is worth simply going up and choosing the one you like. Expect waits on weekends.</p>",
+     "name_en": "Café apartments, Nguyễn Huệ 42",
+     "gem": true,
+     "q": "42 Nguyen Hue Cafe Apartments",
+     "tip": "Geh am Vormittag hinauf, dann sind die Terrassen frei und das Licht ist besser.",
+     "tip_en": "Go up in the morning, then the terraces are free and the light is better."
+    },
+    {
+     "name": "Jade-Kaiser-Pagode (Chùa Ngọc Hoàng)",
+     "text": "<p>Die 1909 gegründete Pagode ist ein daoistischer Tempel, der vor allem Ngọc Hoàng, dem Jadekaiser, gewidmet ist. Drinnen herrscht Weihrauch, die Luft ist dicht und die Räume sind dunkel; Figuren von Göttern und Wächtern füllen die Hallen, und im Hof schwimmen Schildkröten im Teich.</p><p>Der Tempel ist ein aktiver Ort des Glaubens – bedecke Schultern und Knie, sei leise und frag, bevor du Menschen beim Beten fotografierst. Er liegt etwas abseits der Hauptwege und ist deshalb ruhiger als viele andere Sehenswürdigkeiten.</p>",
+     "text_en": "<p>Founded in 1909, the pagoda is a Taoist temple dedicated mainly to Ngọc Hoàng, the Jade Emperor. Inside, incense hangs in the air, the rooms are dark, figures of gods and guardians fill the halls, and in the courtyard turtles swim in the pond.</p><p>The temple is an active place of faith – cover shoulders and knees, be quiet and ask before photographing people praying. It lies a little off the main routes and is therefore quieter than many other sights.</p>",
+     "name_en": "Jade Emperor Pagoda (Chùa Ngọc Hoàng)",
+     "gem": true,
+     "q": "Jade Emperor Pagoda Ho Chi Minh City",
+     "tip": "Komm vormittags, wenn weniger Reisegruppen da sind, und zieh dich passend an.",
+     "tip_en": "Come in the morning when fewer tour groups are there, and dress appropriately."
+    },
+    {
+     "name": "Cholon – Chinatown, Thiên-Hậu-Tempel & Binh-Tay-Markt",
+     "text": "<p>Cholon ist das chinesische Viertel im Westen der Stadt, ein Gewirr aus Gassen, Tempeln, Großhandelsmärkten und Teehäusern. Der Thiên-Hậu-Tempel (Pagode der Himmelskönigin) ist ein aktives Heiligtum mit riesigen Räucherspiralen, die von der Decke hängen, und mit Wandmalereien und Figuren.</p><p>Der Binh-Tay-Markt ist ein Großhandelsmarkt, wo du Gewürze, getrocknete Waren und Küchenbedarf siehst, die in Lokalen der Stadt landen. Es ist ein echter, weniger touristischer Teil von Saigon – nimm ein Taxi oder fahr mit Grab hin und plane einen halben Tag ein.</p>",
+     "text_en": "<p>Cholon is the Chinese district in the west of the city, a tangle of lanes, temples, wholesale markets and tea houses. The Thien Hau Temple (Pagoda of the Lady of the Sea) is an active sanctuary with huge incense coils hanging from the ceiling, and with murals and figures.</p><p>Binh Tay Market is a wholesale market where you see spices, dried goods and kitchen supplies that end up in restaurants around the city. It is a real, less touristy part of Saigon – take a taxi or Grab and plan half a day.</p>",
+     "name_en": "Cholon – Chinatown, Thien Hau Temple & Binh Tay Market",
+     "gem": true,
+     "q": "Cholon Chinatown Ho Chi Minh City",
+     "tip": "Fahr am Vormittag hin und iss in einem kleinen Lokal – hier gibt es chinesisch geprägte Küche.",
+     "tip_en": "Go in the morning and eat at a small local place – the cuisine here has Chinese roots."
+    },
+    {
+     "name": "Vĩnh Khánh – Straße der Meeresfrüchte (Bezirk 4)",
+     "text": "<p>Im Bezirk 4, einer kurzen Fahrt vom Zentrum entfernt, liegt die Vĩnh Khánh Street – eine Straße voller Lokale, die abends Meeresfrüchte, Schnecken, Muscheln, Garnelen und Grillgerichte auf Plastikhockern servieren. Es wird laut, die Luft riecht nach Knoblauch und Grill, und die Preise sind meist niedrig.</p><p>Wer experimentierfreudig ist, bestellt mehrere kleine Portionen zum Teilen. Zeig auf das, was andere essen, oder nutze die Karte in der Übersetzungs-App. Preise vorher erfragen, damit es keine Überraschung gibt. Komm abends nach 18 Uhr.</p>",
+     "text_en": "<p>In District 4, a short ride from the centre, lies Vĩnh Khánh Street – a street full of eateries that serve seafood, snails, shellfish, shrimp and grilled dishes on plastic stools in the evening. It gets loud, the air smells of garlic and grill, and prices are mostly low.</p><p>If you are adventurous, order several small portions to share. Point at what others are eating or use the menu in a translation app. Ask about prices beforehand so there are no surprises. Come in the evening after 6 p.m.</p>",
+     "name_en": "Vĩnh Khánh – seafood street (District 4)",
+     "gem": true,
+     "q": "Vinh Khanh Street Ho Chi Minh City",
+     "tip": "Fahr mit Grab hin, bestell mehrere kleine Portionen und frag nach dem Preis.",
+     "tip_en": "Go by Grab, order several small portions and ask about the price."
+    }
+   ]
+  },
+  {
+   "id": "ausflug",
+   "h": "Tagesausflüge von Saigon",
+   "h_en": "Day trips from Saigon",
+   "spots": [
+    {
+     "name": "Cu-Chi-Tunnel",
+     "text": "<p>Rund 70 Kilometer nordwestlich von Saigon liegt ein Netz aus Tunneln, in dem Vietcong-Kämpfer im Krieg lebten und kämpften. Besucher können in eng gebaute Tunnelabschnitte kriechen, Fallen sehen und mehr über das Leben unter der Erde erfahren. Der Ort ist touristisch inszeniert, aber historisch beeindruckend.</p><p>Wer klaustrophobisch ist, sollte nicht in die Tunnel gehen – für Besucher sind einige Abschnitte erweitert, aber immer noch eng. Die Anreise dauert je nach Verkehr ein bis zwei Stunden; die meisten buchen eine Halbtagestour oder fahren mit Grab. Preise und Zeiten ändern sich.</p>",
+     "text_en": "<p>About 70 kilometres north-west of Saigon lies a network of tunnels in which Viet Cong fighters lived and fought during the war. Visitors can crawl into narrowly built tunnel sections, see traps and learn more about life underground. The place is staged for tourists but historically impressive.</p><p>If you are claustrophobic you should not go into the tunnels – some sections are widened for visitors but still tight. Getting there takes one to two hours depending on traffic; most people book a half-day tour or go by Grab. Prices and times change.</p>",
+     "name_en": "Cu Chi Tunnels",
+     "q": "Cu Chi Tunnels",
+     "tip": "Bring Wasser und Mückenschutz mit und plane einen halben Tag ein.",
+     "tip_en": "Bring water and mosquito repellent and plan half a day."
+    },
+    {
+     "name": "Mekong-Delta",
+     "text": "<p>Das Mekong-Delta im Süden ist das grüne Reisland Vietnams mit Kanälen, schwimmenden Märkten, Obstplantagen und Dörfern. Tagesausflüge starten meist in Mỹ Tho oder Bến Tre und umfassen Bootsfahrten, Kokosnuss-Süßigkeiten und Besuche bei Familienbetrieben.</p><p>Wer mehr Ruhe will, bleibt eine Nacht in einem Homestay. Die Touren sind sehr touristisch aufgebaut; frag, was inklusive ist, und buche seriös. Für ein echtes Delta-Erlebnis lohnen sich Cần Thơ oder Orte tiefer im Delta, die allerdings mehr Zeit erfordern.</p>",
+     "text_en": "<p>The Mekong Delta in the south is Vietnam’s green rice land with canals, floating markets, fruit orchards and villages. Day trips usually start in Mỹ Tho or Bến Tre and include boat rides, coconut sweets and visits to family businesses.</p><p>If you want more peace, stay a night in a homestay. The tours are very tourist-oriented; ask what is included and book from a reputable provider. For a real delta experience Cần Thơ or places deeper in the delta are worthwhile, but they need more time.</p>",
+     "name_en": "Mekong Delta",
+     "q": "Mekong Delta day trip from Ho Chi Minh City",
+     "tip": "Frag nach kleinen Gruppen und was im Preis enthalten ist, bevor du buchst.",
+     "tip_en": "Ask about small groups and what is included in the price before you book."
     }
    ]
   },
@@ -75,15 +208,45 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Saigon",
-   "h_en": "One day in Saigon",
+   "h": "Tag 1 – Zentrum & Geschichte",
+   "h_en": "Day 1 – Centre & history",
    "items": [
-    "<strong>Tagsüber</strong> – District 1 treiben lassen",
-    "<strong>Abend</strong> – Nguyễn Huệ"
+    "<strong>Vormittag</strong> – Kathedrale, Hauptpost, Ben-Thanh-Markt",
+    "<strong>Mittag</strong> – Nudelsuppe oder Bánh mì am Markt",
+    "<strong>Nachmittag</strong> – Wiedervereinigungspalast oder Kriegsrestemuseum",
+    "<strong>Abend</strong> – Nguyễn Huệ und Café-Apartments zum Sonnenuntergang"
    ],
    "items_en": [
-    "<strong>By day</strong> – drift through District 1",
-    "<strong>Evening</strong> – Nguyễn Huệ"
+    "<strong>Morning</strong> – cathedral, post office, Ben Thanh Market",
+    "<strong>Midday</strong> – noodle soup or bánh mì at the market",
+    "<strong>Afternoon</strong> – Reunification Palace or War Remnants Museum",
+    "<strong>Evening</strong> – Nguyễn Huệ and café apartments at sunset"
+   ]
+  },
+  {
+   "h": "Tag 2 – Stadtviertel & Essen",
+   "h_en": "Day 2 – Districts & food",
+   "items": [
+    "<strong>Vormittag</strong> – Jade-Kaiser-Pagode",
+    "<strong>Mittag</strong> – Cholon mit Thiên-Hậu-Tempel und Binh-Tay-Markt",
+    "<strong>Nachmittag</strong> – Pause im klimatisierten Café",
+    "<strong>Abend</strong> – Skydeck bei Sonnenuntergang, danach Vĩnh Khánh"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Jade Emperor Pagoda",
+    "<strong>Midday</strong> – Cholon with Thien Hau Temple and Binh Tay Market",
+    "<strong>Afternoon</strong> – break in an air-conditioned café",
+    "<strong>Evening</strong> – Skydeck at sunset, then Vĩnh Khánh"
+   ]
+  },
+  {
+   "h": "Tag 3 – Ausflug",
+   "h_en": "Day 3 – Day trip",
+   "items": [
+    "<strong>Ganztags</strong> – Cu-Chi-Tunnel oder Mekong-Delta mit Rückkehr am Abend"
+   ],
+   "items_en": [
+    "<strong>All day</strong> – Cu Chi Tunnels or Mekong Delta, back in the evening"
    ]
   }
  ],
@@ -93,6 +256,24 @@
    "q_en": "Do I need a plan in Saigon?",
    "a": "<p>Noels Rat: nein, treiben lassen.</p>",
    "a_en": "<p>Noel’s advice: no, drift.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Saigon?",
+   "q_en": "How many days do you need in Saigon?",
+   "a": "Für die wichtigsten Sehenswürdigkeiten reichen zwei Tage, mit einem Ausflug zu den Cu-Chi-Tunneln oder ins Mekong-Delta sind es drei.",
+   "a_en": "Two days are enough for the main sights; with a trip to the Cu Chi Tunnels or the Mekong Delta it is three."
+  },
+  {
+   "q": "Ist Saigon sicher?",
+   "q_en": "Is Saigon safe?",
+   "a": "Im Allgemeinen ja, aber Taschendiebstahl und Handyraub vom Roller aus sind in Touristenvierteln möglich. Trage das Handy nicht am Straßenrand in der Hand und nutze Taschen mit Reißverschluss.",
+   "a_en": "Generally yes, but pickpocketing and phone snatching from scooters are possible in tourist districts. Do not hold your phone in your hand at the roadside and use bags with zips."
+  },
+  {
+   "q": "Wie bezahle ich in Saigon?",
+   "q_en": "How do I pay in Saigon?",
+   "a": "Bargeld in Dong ist in Märkten und kleinen Lokalen Standard; größere Restaurants und Hotels nehmen oft Karten. Geldautomaten gibt es überall, prüfe die Gebühren deiner Bank.",
+   "a_en": "Cash in dong is standard in markets and small eateries; bigger restaurants and hotels often take cards. ATMs are everywhere, check your bank’s fees."
   }
  ]
 }

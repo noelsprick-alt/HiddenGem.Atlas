@@ -7,8 +7,8 @@
  "city": "Arnheim",
  "city_en": "Arnhem",
  "updated": "2026-11-05",
- "title": "Arnheim Guide: Hoge Veluwe mit weißen Gratis-Rädern & die Brücke von Arnheim",
- "title_en": "Arnhem Guide: Hoge Veluwe with White Free Bikes & the Bridge at Arnhem",
+ "title": "Arnheim Guide: 12 Orte – Hoge Veluwe, Brücke von Arnheim & Hidden Gems",
+ "title_en": "Arnhem Guide: 12 places – Hoge Veluwe, the Bridge at Arnhem & hidden gems",
  "desc": "Arnheim: mit den weißen Gratis-Rädern durch den Nationalpark Hoge Veluwe – von Noel, mit Anreise und Tagesplan.",
  "desc_en": "Arnhem: through Hoge Veluwe National Park on the white free bikes – from Noel, with getting there and a day plan.",
  "gyg_q": "Arnhem",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Euro",
    "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai bis Oktober; Heideblüte August/September; Hirschbrunft im Herbst",
+   "v_en": "May to October; heather bloom August/September; deer rut in autumn"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Arnheim liegt an der Bahnstrecke Düsseldorf–Amsterdam; aktuelle Verbindungen vorher prüfen. Zum Nationalpark Hoge Veluwe fahren Busse; vor Ort stehen die weißen Räder zur Verfügung (aktuelle Bedingungen und Eintritt vorher prüfen).</p>",
-   "html_en": "<p>Arnhem lies on the Düsseldorf–Amsterdam rail line; check current connections beforehand. Buses run to Hoge Veluwe National Park; the white bikes are available on site (check current conditions and admission beforehand).</p>"
+   "html": "<p>Arnheim liegt an der Bahnstrecke Düsseldorf–Amsterdam; aktuelle Verbindungen vorher prüfen. Zum Nationalpark Hoge Veluwe fahren Busse; vor Ort stehen die weißen Räder zur Verfügung (aktuelle Bedingungen und Eintritt vorher prüfen).</p><p>Aus NRW erreichst du Arnheim mit dem Zug in kurzer Zeit; der Bahnhof Arnhem Centraal liegt direkt an der Strecke Richtung Utrecht und Amsterdam. Arnheim hat als einzige Stadt der Niederlande ein Oberleitungsbus-Netz (Trolleybusse), das die Innenstadt mit Vororten verbindet. Fahrkarten kaufst du über die OV-chipkaart oder per Kreditkarte beim Einsteigen.</p><p>Für die Hoge Veluwe brauchst du einen Bus oder ein Auto: Busse fahren zu den Parkeingängen; am Eingang kaufst du das Ticket und bekommst ein weißes Rad. Plane die Rückfahrzeit, damit du den letzten Bus nicht verpasst.</p>",
+   "html_en": "<p>Arnhem lies on the Düsseldorf–Amsterdam rail line; check current connections beforehand. Buses run to Hoge Veluwe National Park; the white bikes are available on site (check current conditions and admission beforehand).</p><p>From NRW you reach Arnhem by train in a short time; Arnhem Centraal station lies directly on the line towards Utrecht and Amsterdam. Arnhem is the only city in the Netherlands with a trolleybus network, which connects the city centre with suburbs. You buy tickets via the OV chip card or by credit card when boarding.</p><p>For the Hoge Veluwe you need a bus or a car: buses run to the park entrances; at the entrance you buy the ticket and get a white bike. Plan the return time so you do not miss the last bus.</p>"
   },
   {
    "type": "spots",
@@ -49,17 +55,120 @@
    "spots": [
     {
      "name": "Nationalpark Hoge Veluwe mit den weißen Rädern",
-     "text": "Mit den weißen Gratis-Rädern durch den Park – Heide, Wald und Dünen.",
-     "text_en": "Through the park on the white free bikes – heath, forest and dunes.",
+     "text": "<p>Mit den weißen Gratis-Rädern durch den Park – Heide, Wald und Dünen.</p><p>Der Nationalpark Hoge Veluwe ist mit rund 5.400 Hektar einer der größten Naturparks der Niederlande: Heide, Wald, Sanddünen und offene Flächen, in denen Rothirsche, Mufflons und Wildschweine leben. Du bezahlst Eintritt am Eingang (für den Park, nicht fürs Rad); danach kannst du die weißen Fahrräder an den Parkeingängen und Fahrradstellen kostenlos nutzen und an einem beliebigen anderen Stellplatz wieder abstellen.</p><p>Die Radwege sind größtenteils eben und gut ausgebaut; für eine Runde zum Museum und zum Jagdhaus rechnest du etwa zwei bis drei Stunden. Nimm Wasser und etwas zu essen mit, denn im Park gibt es nur wenige Verpflegungsstellen. Prüfe vorher Eintritt, Öffnungszeiten und Bedingungen für die Räder.</p>",
+     "text_en": "<p>Through the park on the white free bikes – heath, forest and dunes.</p><p>The Hoge Veluwe National Park, at around 5,400 hectares, is one of the largest nature parks in the Netherlands: heath, forest, sand dunes and open areas where red deer, mouflon and wild boar live. You pay admission at the entrance (for the park, not for the bike); afterwards you can use the white bicycles at the park entrances and bike stands free of charge and leave them at any other stand.</p><p>The cycle paths are mostly flat and well developed; for a loop to the museum and the hunting lodge allow about two to three hours. Bring water and something to eat, because there are only a few refreshment stops in the park. Check admission, opening times and conditions for the bikes beforehand.</p>",
      "name_en": "Hoge Veluwe National Park on the white bikes",
-     "q": "Hoge Veluwe National Park"
+     "q": "Hoge Veluwe National Park",
+     "tip": "Komm früh, nimm ein Rad und fahr zuerst zum entferntesten Ziel – am Nachmittag wird es voller.",
+     "tip_en": "Come early, take a bike and ride to the furthest target first – it gets busier in the afternoon."
     },
     {
      "name": "Die Brücke von Arnheim",
-     "text": "Um die Brücke von Arnheim wurde 1944 eine der berühmtesten Schlachten des Krieges geschlagen.",
-     "text_en": "One of the war’s most famous battles was fought around the Arnhem bridge in 1944.",
+     "text": "<p>Um die Brücke von Arnheim wurde 1944 eine der berühmtesten Schlachten des Krieges geschlagen.</p><p>Die Brücke über den Niederrhein heißt heute John-Frost-Brücke, benannt nach dem britischen Oberstleutnant, der sie im September 1944 bei der Operation Market Garden verteidigte. Die Schlacht war Teil des alliierten Versuchs, die Rheinbrücken zu erobern, und endete mit einer Niederlage der Alliierten; sie wurde später durch den Film „Die Brücke von Arnheim“ (A Bridge Too Far) bekannt.</p><p>Heute siehst du die Brücke vom Ufer aus; unten gibt es Gedenktafeln und ein Denkmal. Wenn du dich für die Geschichte interessierst, kombiniere den Besuch mit dem Airborne Museum in Oosterbeek. Rund um den Jahrestag im September gibt es Gedenkveranstaltungen.</p>",
+     "text_en": "<p>One of the war’s most famous battles was fought around the Arnhem bridge in 1944.</p><p>The bridge over the Lower Rhine is today called the John Frost Bridge, named after the British lieutenant colonel who defended it in September 1944 during Operation Market Garden. The battle was part of the Allied attempt to capture the Rhine bridges and ended with an Allied defeat; it later became known through the film “A Bridge Too Far”.</p><p>Today you see the bridge from the bank; below there are memorial plaques and a monument. If you are interested in the history, combine the visit with the Airborne Museum in Oosterbeek. Around the anniversary in September there are commemorative events.</p>",
      "name_en": "The Bridge at Arnhem",
      "q": "John Frost Bridge Arnhem"
+    },
+    {
+     "name": "Kröller-Müller Museum & Skulpturengarten",
+     "text": "<p>Mitten im Nationalpark liegt das Kröller-Müller Museum mit einer der größten Van-Gogh-Sammlungen der Welt – nach dem Van-Gogh-Museum in Amsterdam gilt es als die zweitgrößte. Dazu kommen Werke von Seurat, Mondrian, Picasso und anderen. Das Museum ist ruhig, hell und nicht überlaufen.</p><p>Hinter dem Haus erstreckt sich der Skulpturengarten, einer der größten Europas: über 160 Werke (laut Museum, grob) in Wald und Wiese, zum Beispiel von Rodin und Henry Moore. Mit dem weißen Rad ist er in wenigen Minuten erreichbar; plane zwei bis drei Stunden ein. Eintritt und Öffnungszeiten vorher prüfen; montags ist das Museum oft geschlossen.</p>",
+     "text_en": "<p>In the middle of the national park lies the Kröller-Müller Museum with one of the largest Van Gogh collections in the world – after the Van Gogh Museum in Amsterdam it is considered the second largest. Works by Seurat, Mondrian, Picasso and others are added. The museum is quiet, bright and not overcrowded.</p><p>Behind the house extends the sculpture garden, one of the largest in Europe: over 160 works (according to the museum, roughly) in woodland and meadow, for example by Rodin and Henry Moore. With the white bike it is a few minutes away; plan two to three hours. Check admission and opening times beforehand; the museum is often closed on Mondays.</p>",
+     "name_en": "Kröller-Müller Museum & sculpture garden",
+     "q": "Kröller-Müller Museum",
+     "tip": "Fahr zum Skulpturengarten nach dem Museum, wenn du noch Kraft hast – bei Sonne ist er besonders schön.",
+     "tip_en": "Go to the sculpture garden after the museum if you still have energy – it is especially lovely in sun."
+    },
+    {
+     "name": "Airborne Museum Hartenstein & Friedhof Oosterbeek",
+     "text": "<p>Im Vorort Oosterbeek liegt das Airborne Museum im früheren Hotel Hartenstein, das im September 1944 das britische Hauptquartier war. Die Ausstellung erzählt die Geschichte der Schlacht mit Uniformen, Waffen, Dokumenten und nachgebauten Szenen – ein sehr guter Einstieg, wenn du die Brücke verstehen willst.</p><p>In der Nähe liegt der Airborne-Friedhof, auf dem gefallene Soldaten beigesetzt sind. Der Ort ist ruhig und bewegend. Anfahrt per Bus oder Rad von Arnheim aus; Öffnungszeiten und Eintritt vorher prüfen.</p>",
+     "text_en": "<p>In the suburb of Oosterbeek lies the Airborne Museum in the former Hotel Hartenstein, which was the British headquarters in September 1944. The exhibition tells the story of the battle with uniforms, weapons, documents and reconstructed scenes – a very good introduction if you want to understand the bridge.</p><p>Nearby lies the Airborne Cemetery, where fallen soldiers are buried. The place is quiet and moving. Get there by bus or bike from Arnhem; check opening times and admission beforehand.</p>",
+     "name_en": "Airborne Museum Hartenstein & Oosterbeek cemetery",
+     "q": "Airborne Museum Hartenstein Oosterbeek",
+     "tip": "Plane den Besuch vor der Brücke – dann siehst du den Ort mit anderen Augen.",
+     "tip_en": "Plan the visit before the bridge – then you see the place with different eyes."
+    },
+    {
+     "name": "Eusebiuskerk & Altstadt",
+     "text": "<p>Die große Eusebiuskerk dominiert die Altstadt mit einem rund 93 Meter hohen Turm, auf den ein Aufzug und Treppen führen; oben hast du einen Blick über Arnheim, den Rhein und die Hügel. Rund um die Kirche liegen der Korenmarkt, kleine Gassen, Cafés und Läden.</p><p>Das Zentrum wurde im Krieg stark zerstört und danach wieder aufgebaut. Du siehst moderne Bauten neben wiederhergestellten Resten wie der Sabelspoort, dem letzten erhaltenen Stadttor. Plane zwei bis drei Stunden für einen Rundgang ein.</p>",
+     "text_en": "<p>The large Eusebius Church dominates the old town with a tower about 93 metres high, reached by lift and stairs; at the top you have a view over Arnhem, the Rhine and the hills. Around the church lie the Korenmarkt, small lanes, cafés and shops.</p><p>The centre was heavily destroyed in the war and rebuilt afterwards. You see modern buildings next to restored remains such as the Sabelspoort, the last surviving city gate. Plan two to three hours for a walk.</p>",
+     "name_en": "Eusebius Church & old town",
+     "q": "Eusebiuskerk Arnhem",
+     "tip": "Der Turm ist nicht immer geöffnet – prüfe Zeiten vorher und plane ihn für gutes Wetter.",
+     "tip_en": "The tower is not always open – check times beforehand and plan it for good weather."
+    },
+    {
+     "name": "Nederlands Openluchtmuseum",
+     "text": "<p>Das Niederländische Freilichtmuseum in Arnheim zeigt das Leben in den Niederlanden über Jahrhunderte: Bauernhäuser, Werkstätten, Mühlen, Straßenbahnen und Dorfstraßen, in denen Darsteller Handwerke vorführen. Es liegt in einem großen Gelände mit Wiesen und Hügeln.</p><p>Ein Besuch lohnt sich besonders mit Kindern oder bei schlechtem Wetter, wenn du dich in Häuser flüchten kannst. Plane drei bis vier Stunden ein; Eintritt und Zeiten bitte prüfen. Wenn du am gleichen Tag in die Hoge Veluwe willst, wähle besser eines von beiden.</p>",
+     "text_en": "<p>The Dutch Open Air Museum in Arnhem shows life in the Netherlands over centuries: farmhouses, workshops, mills, trams and village streets where performers demonstrate crafts. It lies in a large area with meadows and hills.</p><p>A visit is especially worthwhile with children or in bad weather, when you can retreat into houses. Plan three to four hours; please check admission and times. If you want to go to the Hoge Veluwe on the same day, it is better to choose one of the two.</p>",
+     "name_en": "Netherlands Open Air Museum",
+     "q": "Nederlands Openluchtmuseum Arnhem",
+     "tip": "Perfekt für Regentage und Familien – plane drei bis vier Stunden ein.",
+     "tip_en": "Perfect for rainy days and families – plan three to four hours."
+    },
+    {
+     "name": "Burgers' Zoo",
+     "text": "<p>Burgers' Zoo gilt als einer der besten Zoos der Niederlande: statt Gehegen gibt es große Landschaftsbereiche wie den Regenwald „Bush“, die Wüste, die Mangroven und das Meeresaquarium „Ocean“, in denen du durch die Lebensräume gehst. Das macht den Besuch eindrücklicher als in klassischen Zoos.</p><p>Plane einen halben bis ganzen Tag ein; Eintritt und Öffnungszeiten ändern sich, buche bei Bedarf online. Der Zoo ist besonders gut für Familien oder bei Regen, weil viele Bereiche überdacht sind.</p>",
+     "text_en": "<p>Burgers' Zoo is considered one of the best zoos in the Netherlands: instead of enclosures there are large landscape areas such as the rainforest “Bush”, the desert, the mangroves and the marine aquarium “Ocean”, in which you walk through the habitats. That makes the visit more impressive than in classic zoos.</p><p>Plan half a day to a full day; admission and opening times change, book online if needed. The zoo is especially good for families or in rain, because many areas are covered.</p>",
+     "name_en": "Burgers' Zoo",
+     "q": "Burgers Zoo Arnhem",
+     "tip": "Komm morgens, wenn die Tiere aktiver sind und weniger los ist.",
+     "tip_en": "Come in the morning when the animals are more active and it is quieter."
+    },
+    {
+     "name": "Sonsbeek-Park",
+     "text": "<p>Der Sonsbeek-Park ist Arnheims großer Stadtpark mit Teichen, Wasserfällen, alten Bäumen und Wiesen. Hier kannst du spazieren, joggen oder im Café sitzen. In manchen Jahren steht der Park auch im Mittelpunkt der Skulpturen-Ausstellung Sonsbeek, die seit 1949 mit zeitgenössischer Kunst stattfindet.</p><p>Der Park ist ein guter Ort, um den Tag ruhig ausklingen zu lassen – besonders im Herbst, wenn die Bäume die Farbe wechseln.</p>",
+     "text_en": "<p>Sonsbeek Park is Arnhem’s large city park with ponds, waterfalls, old trees and meadows. Here you can walk, jog or sit in a café. In some years the park is also the focus of the Sonsbeek sculpture exhibition, which has taken place with contemporary art since 1949.</p><p>The park is a good place to let the day end quietly – especially in autumn when the trees change colour.</p>",
+     "name_en": "Sonsbeek Park",
+     "q": "Sonsbeek park Arnhem",
+     "tip": "Pack ein Picknick ein und setz dich an einen der Teiche.",
+     "tip_en": "Pack a picnic and sit by one of the ponds."
+    }
+   ]
+  },
+  {
+   "id": "gems",
+   "h": "Hidden Gems & Arnheimer Eigenheiten",
+   "h_en": "Hidden gems & Arnhem specialities",
+   "spots": [
+    {
+     "name": "Jachthuis Sint Hubertus & Hirschbrunft",
+     "text": "<p>Im Nordteil des Nationalparks steht das Jagdhaus Sint Hubertus, 1920 vom Architekten Berlage für die Familie Kröller-Müller entworfen. Das Gebäude ist symbolisch gestaltet, mit Türmen, Wasser und Backstein; innen siehst du bei einer Führung (nach Termin) die Räume, Möbel und Details. Der Weg dorthin führt durch Heide und Wald.</p><p>Im Herbst, meist im September und Oktober, ist Brunftzeit: Dann hörst du die Rothirsche röhren, und es gibt geführte Touren, bei denen du die Tiere beobachten kannst. Wer früh am Morgen oder abends unterwegs ist, hat die besten Chancen. Prüfe vorher Termine und Bedingungen.</p>",
+     "text_en": "<p>In the north of the national park stands the hunting lodge Sint Hubertus, designed in 1920 by the architect Berlage for the Kröller-Müller family. The building is symbolically designed, with towers, water and brick; inside you see the rooms, furniture and details on a guided tour (by appointment). The way there leads through heath and forest.</p><p>In autumn, usually September and October, is the rutting season: then you hear the red deer roar, and there are guided tours where you can observe the animals. If you are out early in the morning or in the evening you have the best chances. Check dates and conditions beforehand.</p>",
+     "name_en": "Hunting lodge Sint Hubertus & the deer rut",
+     "gem": true,
+     "q": "Jachthuis Sint Hubertus",
+     "tip": "Im Herbst früh oder abends hinfahren – dann stehen die Chancen auf röhrende Hirsche am besten.",
+     "tip_en": "Go early or in the evening in autumn – then the chances of roaring stags are best."
+    },
+    {
+     "name": "Klarendal – Arnheims Modeviertel",
+     "text": "<p>Klarendal ist ein früheres Arbeiterviertel, in dem sich Modeateliers, kleine Boutiquen, Vintage-Läden und Cafés angesiedelt haben. Arnheim hat durch die Kunst- und Modeakademie einen starken Bezug zu Mode; hier siehst du, wie sich das in den Straßen zeigt: Designer-Studios, Concept Stores und kreative Läden.</p><p>Das Viertel liegt ein Stück vom Bahnhof entfernt, ist aber gut zu Fuß erreichbar. Viele Läden öffnen nicht früh und sind montags geschlossen – prüfe vorher, ob dein Ziel geöffnet hat. Perfekt für einen entspannten Nachmittag mit Kaffee und Stöbern.</p>",
+     "text_en": "<p>Klarendal is a former working-class district where fashion ateliers, small boutiques, vintage shops and cafés have settled. Thanks to the art and fashion academy Arnhem has a strong connection to fashion; here you see how this shows in the streets: designer studios, concept stores and creative shops.</p><p>The district lies a little way from the station but is easy to reach on foot. Many shops do not open early and are closed on Mondays – check beforehand whether your target is open. Perfect for a relaxed afternoon with coffee and browsing.</p>",
+     "name_en": "Klarendal – Arnhem’s fashion district",
+     "gem": true,
+     "q": "Klarendal Arnhem",
+     "tip": "Komm am Nachmittag und an einem Tag, an dem die Läden geöffnet sind – nicht montags.",
+     "tip_en": "Come in the afternoon and on a day when shops are open – not on Monday."
+    },
+    {
+     "name": "Posbank & Veluwezoom – Heide mit Aussicht",
+     "text": "<p>Im Nationalpark Veluwezoom östlich von Arnheim liegt die Posbank, ein Heidegebiet mit einem Aussichtspunkt, der weit über die Hügel blickt. Im Spätsommer, meist im August und September, blüht die Heide lila – dann ist die Landschaft besonders schön und gut besucht.</p><p>Es gibt markierte Wander- und Radwege; Schafe weiden in manchen Bereichen. Der Park ist eine ruhigere Alternative zur Hoge Veluwe, wenn du mehr Natur und weniger Museum willst. Die Anfahrt klappt per Bus, Rad oder Auto; plane einen halben Tag ein.</p>",
+     "text_en": "<p>In the Veluwezoom National Park east of Arnhem lies the Posbank, a heath area with a viewpoint that looks far over the hills. In late summer, usually August and September, the heather blooms purple – then the landscape is especially beautiful and well visited.</p><p>There are marked hiking and cycling paths; sheep graze in some areas. The park is a quieter alternative to the Hoge Veluwe if you want more nature and less museum. You can get there by bus, bike or car; plan half a day.</p>",
+     "name_en": "Posbank & Veluwezoom – heath with a view",
+     "gem": true,
+     "q": "Posbank Veluwezoom",
+     "tip": "Komm zur Heideblüte im August/September – am besten am frühen Morgen.",
+     "tip_en": "Come for the heather bloom in August/September – best in the early morning."
+    },
+    {
+     "name": "Arnhemse Meisjes – das Gebäck aus Arnheim",
+     "text": "<p>Arnhemse Meisjes („Arnheimer Mädchen“) sind ein traditionelles Blätterteiggebäck aus Arnheim, das seit dem 19. Jahrhundert verkauft wird. Sie sind knusprig, leicht süß und werden in Bäckereien und Konditoreien der Stadt verkauft. Als Mitbringsel oder Kaffee-Begleiter sind sie ein netter lokaler Tipp.</p><p>Frag in einer Bäckerei im Zentrum nach „Arnhemse Meisjes“ – manche Läden verpacken sie als Geschenk. Probier ein oder zwei vor Ort und kauf eine Tüte für zu Hause.</p>",
+     "text_en": "<p>Arnhemse Meisjes (“Arnhem girls”) are a traditional puff-pastry biscuit from Arnhem that has been sold since the 19th century. They are crispy, lightly sweet and sold in bakeries and pastry shops in the city. As a souvenir or coffee companion they are a nice local tip.</p><p>Ask in a bakery in the centre for “Arnhemse Meisjes” – some shops pack them as gifts. Try one or two on the spot and buy a bag for home.</p>",
+     "name_en": "Arnhemse Meisjes – the pastry from Arnhem",
+     "gem": true,
+     "q": "Arnhemse Meisjes bakery",
+     "tip": "Kauf sie frisch in einer Bäckerei im Zentrum und iss sie zum Kaffee.",
+     "tip_en": "Buy them fresh from a bakery in the centre and eat them with coffee."
     }
    ]
   },
@@ -75,15 +184,35 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Arnheim",
-   "h_en": "One day in Arnhem",
+   "h": "Tag 1 – Stadt & Geschichte",
+   "h_en": "Day 1 – City & history",
    "items": [
-    "<strong>Vormittag</strong> – Anreise, Altstadt und Brücke",
-    "<strong>Nachmittag</strong> – Hoge Veluwe mit den weißen Rädern"
+    "<strong>Vormittag</strong> – Altstadt mit Eusebiuskerk",
+    "<strong>Mittag</strong> – Arnhemse Meisjes in einer Bäckerei, Pause in Klarendal",
+    "<strong>Nachmittag</strong> – John-Frost-Brücke, dann Airborne Museum in Oosterbeek",
+    "<strong>Abend</strong> – Sonsbeek-Park"
    ],
    "items_en": [
-    "<strong>Morning</strong> – arrival, old town and bridge",
-    "<strong>Afternoon</strong> – Hoge Veluwe on the white bikes"
+    "<strong>Morning</strong> – old town with Eusebius Church",
+    "<strong>Midday</strong> – Arnhemse Meisjes at a bakery, break in Klarendal",
+    "<strong>Afternoon</strong> – John Frost Bridge, then Airborne Museum in Oosterbeek",
+    "<strong>Evening</strong> – Sonsbeek Park"
+   ]
+  },
+  {
+   "h": "Tag 2 – Hoge Veluwe",
+   "h_en": "Day 2 – Hoge Veluwe",
+   "items": [
+    "<strong>Vormittag</strong> – früh in den Park, weiße Räder holen",
+    "<strong>Mittag</strong> – Kröller-Müller Museum und Skulpturengarten",
+    "<strong>Nachmittag</strong> – Jagdhaus Sint Hubertus, Heide",
+    "<strong>Abend</strong> – zurück nach Arnheim"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – early into the park, pick up white bikes",
+    "<strong>Midday</strong> – Kröller-Müller Museum and sculpture garden",
+    "<strong>Afternoon</strong> – Sint Hubertus hunting lodge, heath",
+    "<strong>Evening</strong> – back to Arnhem"
    ]
   }
  ],
@@ -93,6 +222,18 @@
    "q_en": "Are the white bikes really free?",
    "a": "<p>Noels Tipp nennt sie Gratis-Räder; prüfe die aktuellen Bedingungen vor Ort.</p>",
    "a_en": "<p>Noel’s tip calls them free bikes; check the current conditions on site.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Arnheim?",
+   "q_en": "How many days do you need in Arnhem?",
+   "a": "Für Stadt und Hoge Veluwe plane zwei Tage; wenn du nur die Veluwe-Radtour machen willst, reicht ein Tag.",
+   "a_en": "For city and Hoge Veluwe plan two days; if you only want the Veluwe bike tour, one day is enough."
+  },
+  {
+   "q": "Lohnt sich das Kröller-Müller Museum?",
+   "q_en": "Is the Kröller-Müller Museum worth it?",
+   "a": "Ja, besonders für Van-Gogh-Fans und Skulpturen-Liebhaber; es ist oft ruhiger als große Museen in Amsterdam.",
+   "a_en": "Yes, especially for Van Gogh fans and sculpture lovers; it is often quieter than the big museums in Amsterdam."
   }
  ]
 }
