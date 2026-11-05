@@ -1,50 +1,253 @@
 {
-  "slug": "luxemburg", "slug_en": "luxembourg", "status": "live", "blog": "blog-bc-22",
-  "cc": "LU", "flag": "🇱🇺", "city": "Luxemburg", "city_en": "Luxembourg City", "updated": "2026-11-05",
-  "title": "Luxemburg-Stadt Guide: Pont Adolphe, Grund, Kasematten & Gratis-Nahverkehr",
-  "title_en": "Luxembourg City Guide: Pont Adolphe, Grund, Casemates & Free Transport",
-  "desc": "Luxemburg-Stadt in einem Tag oder Wochenende: Pont Adolphe, Grund, Corniche, Bock-Kasematten, Panoramalift, Gratis-Bahn und Bus – von Noel (März 2025).",
-  "desc_en": "Luxembourg City in a day or a weekend: Pont Adolphe, Grund, Corniche, Bock Casemates, panoramic lift, free trains and buses – from Noel (March 2025).",
-  "hero": "images/photos/luxemburg-pont-adolphe.webp", "hero_alt": "Pont Adolphe in Luxemburg", "hero_alt_en": "Pont Adolphe in Luxembourg", "gyg_q": "Luxembourg City",
-  "media": ["images/photos/luxemburg-grund.webp"],
-  "intro": "<p>Luxemburg wird gern als Durchfahrtsland unterschätzt. Dabei hängt die Hauptstadt wie eine Festung über einer Schlucht: oben die Oberstadt, unten im Grund ein Dorf am Fluss. Seit 2020 ist der öffentliche Nahverkehr kostenlos, ein Tagesausflug lohnt sich also auch ohne Auto.</p><p>Dieser Guide zeigt dir die Must-Sees, Hidden Gems und den schlauesten Weg durch die Stadt. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>Luxembourg is often underrated as a transit country. Yet its capital hangs like a fortress above a gorge: the upper town on top and the village by the river in the Grund below. Public transport has been free since 2020, so a day trip is worthwhile even without a car.</p><p>This guide shows the must-sees, hidden gems and the smartest way around town. Prices and times are guidelines (2026).</p>",
-  "story": "<p>Ich war im März 2025 in Luxemburg – unter Wolken, die aussahen, als hätte sie jemand extra für ein Schwarz-Weiß-Foto bestellt. Vom Rand der Oberstadt hast du Brücke, Schlucht und die Türme der Stadt in einem einzigen Bild. Unten an der Alzette liegt der Grund: bunte Häuser spiegeln sich im Fluss, über dir ragen die Festungsmauern auf. Es fühlt sich an wie ein Dorf mitten in einer Hauptstadt. Abends, wenn der großherzogliche Palast beleuchtet ist, werden die Gassen ruhig – und die Stadt wirkt noch kleiner, als sie ist.</p>",
-  "story_en": "<p>I was in Luxembourg in March 2025 – under clouds that looked as if someone had ordered them specially for a black-and-white photo. From the edge of the upper town you get bridge, gorge and the city’s towers in a single picture. Down by the Alzette lies the Grund: colourful houses reflected in the river, fortress walls towering above you. It feels like a village in the middle of a capital. In the evening, when the Grand Ducal Palace is lit up, the lanes grow quiet – and the city seems even smaller than it is.</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"1 Tag, 2 entspannt","v_en":"1 day, 2 relaxed"},
-    {"k":"Nahverkehr","k_en":"Public transport","v":"Seit 2020 kostenlos (Bus, Tram, Zug 2. Klasse)","v_en":"Free since 2020 (bus, tram, 2nd-class train)"},
-    {"k":"Währung","k_en":"Currency","v":"Euro (Luxemburg ist teuer)","v_en":"Euro (Luxembourg is expensive)"},
-    {"k":"Sprachen","k_en":"Languages","v":"Luxemburgisch, Französisch, Deutsch","v_en":"Luxembourgish, French, German"},
-    {"k":"Welterbe","k_en":"World Heritage","v":"Altstadt und Festung seit 1994","v_en":"Old town and fortress since 1994"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Luxemburg und herum","h_en":"Getting to Luxembourg and around","box":"omio",
-     "html":"<p>Luxemburg liegt gut erreichbar an der Bahnstrecke aus Deutschland (Trier, Koblenz), Belgien und Frankreich. Seit 2020 ist der öffentliche Nahverkehr in ganz Luxemburg kostenlos – Bus, Tram und Zug in der zweiten Klasse. Ein Tagesausflug lohnt sich also auch ohne Auto. Der Flughafen liegt wenige Kilometer vom Zentrum, Bus und Tram verbinden ihn mit der Stadt.</p><p>Mein Tipp: Bring bequeme Schuhe mit – zwischen Ober- und Unterstadt geht es ständig bergauf und bergab. Wer es bequemer will, nutzt den kostenlosen Panoramalift in Pfaffenthal.</p>",
-     "html_en":"<p>Luxembourg is easy to reach on the rail line from Germany (Trier, Koblenz), Belgium and France. Since 2020 public transport throughout Luxembourg is free – bus, tram and second-class train. A day trip is therefore worthwhile even without a car. The airport lies a few kilometres from the centre, bus and tram link it to the city.</p><p>My tip: bring comfortable shoes – it is constantly uphill and downhill between upper and lower town. For comfort use the free panoramic lift in Pfaffenthal.</p>"},
-    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
-     "spots":[
-      {"name":"Pont Adolphe","q":"Pont Adolphe Luxembourg","text":"<p>Die steinerne Bogenbrücke von 1903 spannt sich über das Tal der Pétrusse. Vom Rand der Oberstadt hast du Brücke, Schlucht und die Türme der Stadt in einem einzigen Bild.</p>","text_en":"<p>The stone arch bridge from 1903 spans the Pétrusse valley. From the edge of the upper town you get bridge, gorge and the city’s towers in a single picture.</p>","photos":["images/photos/luxemburg-pont-adolphe.webp"]},
-      {"name":"Der Grund","name_en":"The Grund","q":"Grund Luxembourg","text":"<p>Unten an der Alzette liegt der Grund, das alte Viertel der Unterstadt. Bunte Häuser spiegeln sich im Fluss, über dir ragen die Festungsmauern auf. Hier liegt auch die Neumünster-Abtei, ein Kulturzentrum mit Café (Google 4,6 Sterne).</p>","text_en":"<p>Down by the Alzette lies the Grund, the old quarter of the lower town. Colourful houses are reflected in the river, fortress walls tower above you. The Neumünster Abbey is here too, a cultural centre with a café (4.6 stars on Google).</p>","photos":["images/photos/luxemburg-grund.webp"]},
-      {"name":"Bock-Kasematten","name_en":"Bock Casemates","q":"Casemates du Bock","text":"<p>Ein weitverzweigtes Tunnelsystem im Fels. Nach dem Londoner Vertrag von 1867 wurde die Festung größtenteils geschleift, die Kasematten blieben. Auf Google 4,4 Sterne. Besucher nennen etwa 11 € Eintritt und 20–30 Minuten Besuchszeit; Treppen sind teils eng.</p>","text_en":"<p>A sprawling network of tunnels in the rock. After the Treaty of London in 1867 the fortress was largely razed, the casemates stayed. 4.4 stars on Google. Visitors mention about €11 admission and 20–30 minutes visit time; stairs are partly narrow.</p>","hours":"laut Google täglich ca. 9:45–17 Uhr (saisonabhängig)","hours_en":"daily about 9:45 am–5 pm according to Google (seasonal)"}
-     ]},
-    {"type":"spots","id":"gems","h":"Hidden Gems","h_en":"Hidden gems",
-     "spots":[
-      {"name":"Corniche – schönster Balkon Europas","name_en":"Corniche – Europe’s most beautiful balcony","gem":true,"q":"Chemin de la Corniche Luxembourg","text":"<p>Der Weg auf der alten Stadtmauer über dem Grund wird oft der schönste Balkon Europas genannt. Von hier siehst du Abtei, Fluss und Festungsmauern – und es ist abends deutlich ruhiger.</p>","text_en":"<p>The path on the old city wall above the Grund is often called Europe’s most beautiful balcony. From here you see abbey, river and fortress walls – and it is much quieter in the evening.</p>"},
-      {"name":"Panoramalift Pfaffenthal","name_en":"Pfaffenthal panoramic lift","gem":true,"q":"Ascenseur Panoramique du Pfaffenthal","text":"<p>Ein Glasaufzug, der die Oberstadt mit dem Pfaffenthal verbindet – kostenlos, mit Glasboden-Aussichtsplattform oben. Auf Google 4,7 Sterne.</p>","text_en":"<p>A glass lift that links the upper town with Pfaffenthal – free, with a glass-floor viewing platform at the top. 4.7 stars on Google.</p>","hours":"laut Google täglich ca. 5:45–1 Uhr","hours_en":"daily about 5:45 am–1 am according to Google","price":"kostenlos","price_en":"free"},
-      {"name":"Beleuchteter Palast am Abend","name_en":"The lit-up palace in the evening","q":"Grand Ducal Palace Luxembourg","text":"<p>Abends, wenn der großherzogliche Palast beleuchtet ist, werden die Gassen ruhig – und die Stadt wirkt noch kleiner, als sie ist.</p>","text_en":"<p>In the evening, when the Grand Ducal Palace is lit up, the lanes grow quiet – and the city seems even smaller than it is.</p>"},
-      {"name":"Mudam","q":"Mudam Luxembourg","text":"<p>Das Museum für moderne Kunst im Park Dräi Eechelen: moderne Architektur und wechselnde Ausstellungen. Auf Google 4,2 Sterne; Geschmackssache, aber das Gebäude ist beeindruckend.</p>","text_en":"<p>The modern art museum in Parc Dräi Eechelen: modern architecture and changing exhibitions. 4.2 stars on Google; a matter of taste, but the building is impressive.</p>","hours":"laut Google Di–So 10–18 Uhr (Mi bis 21 Uhr), Mo geschlossen","hours_en":"Tue–Sun 10 am–6 pm (Wed until 9 pm) according to Google, closed Mondays"}
-     ]},
-    {"type":"prose","id":"wissen","h":"Was Luxemburg ausmacht","h_en":"What makes Luxembourg special","box":"gyg",
-     "html":"<p>Luxemburg ist das einzige Großherzogtum der Welt, hat drei Amtssprachen und war 2020 das erste Land mit kostenlosem Bus und Bahn für alle. 963 erwarb Graf Siegfried den Bockfelsen – der Anfang der Stadt. Burgunder, Spanier, Franzosen und Österreicher bauten die Festung aus, bis man sie das „Gibraltar des Nordens“ nannte. Heute ist Luxemburg Gründungsmitglied der EU und Sitz wichtiger EU-Institutionen.</p>",
-     "html_en":"<p>Luxembourg is the only grand duchy in the world, has three official languages and in 2020 was the first country with free bus and train for everyone. In 963 Count Siegfried acquired the Bock rock – the beginning of the city. Burgundians, Spaniards, French and Austrians extended the fortress until it was called the “Gibraltar of the North”. Today Luxembourg is a founding member of the EU and home to important EU institutions.</p>"}
-  ],
-  "itinerary":[
-   {"h":"Ein Tag in Luxemburg","h_en":"One day in Luxembourg","items":["<strong>Vormittag</strong> – Pont Adolphe und Oberstadt","<strong>Mittag</strong> – Corniche und Abstieg in den Grund","<strong>Nachmittag</strong> – Bock-Kasematten, Neumünster-Abtei","<strong>Spätnachmittag</strong> – Panoramalift Pfaffenthal","<strong>Abend</strong> – beleuchteter Palast, ruhige Gassen"],"items_en":["<strong>Morning</strong> – Pont Adolphe and upper town","<strong>Midday</strong> – Corniche and descent into the Grund","<strong>Afternoon</strong> – Bock Casemates, Neumünster Abbey","<strong>Late afternoon</strong> – Pfaffenthal panoramic lift","<strong>Evening</strong> – lit-up palace, quiet lanes"]}
-  ],
-  "faq":[
-   {"q":"Ist der Nahverkehr in Luxemburg wirklich kostenlos?","q_en":"Is public transport in Luxembourg really free?","a":"<p>Ja, seit 2020 sind Bus, Tram und Zug (2. Klasse) landesweit kostenlos.</p>","a_en":"<p>Yes, since 2020 bus, tram and train (2nd class) are free nationwide.</p>"},
-   {"q":"Reicht ein Tag in Luxemburg-Stadt?","q_en":"Is one day enough in Luxembourg City?","a":"<p>Ja, für die Highlights. Wer Museen und Abendstimmung mitnimmt, bleibt zwei Tage.</p>","a_en":"<p>Yes, for the highlights. If you add museums and the evening mood, stay two days.</p>"},
-   {"q":"Ist Luxemburg teuer?","q_en":"Is Luxembourg expensive?","a":"<p>Ja, vor allem Essen und Übernachten. Dafür spart der kostenlose Nahverkehr Geld.</p>","a_en":"<p>Yes, especially food and accommodation. The free transport helps save money.</p>"}
-  ]
+ "slug": "luxemburg",
+ "slug_en": "luxembourg",
+ "status": "live",
+ "blog": "blog-bc-22",
+ "cc": "LU",
+ "flag": "🇱🇺",
+ "city": "Luxemburg",
+ "city_en": "Luxembourg City",
+ "updated": "2026-11-05",
+ "title": "Luxemburg-Stadt Guide: 13 Orte – Pont Adolphe, Grund, Kasematten, Gratis-Nahverkehr & Mullerthal",
+ "title_en": "Luxembourg City Guide: 13 places – Pont Adolphe, Grund, casemates, free public transport & Mullerthal",
+ "desc": "Luxemburg-Stadt in einem Tag oder Wochenende: Pont Adolphe, Grund, Corniche, Bock-Kasematten, Panoramalift, Gratis-Bahn und Bus – von Noel (März 2025).",
+ "desc_en": "Luxembourg City in a day or a weekend: Pont Adolphe, Grund, Corniche, Bock Casemates, panoramic lift, free trains and buses – from Noel (March 2025).",
+ "hero": "images/photos/luxemburg-pont-adolphe.webp",
+ "hero_alt": "Pont Adolphe in Luxemburg",
+ "hero_alt_en": "Pont Adolphe in Luxembourg",
+ "gyg_q": "Luxembourg City",
+ "media": [
+  "images/photos/luxemburg-grund.webp"
+ ],
+ "intro": "<p>Luxemburg wird gern als Durchfahrtsland unterschätzt. Dabei hängt die Hauptstadt wie eine Festung über einer Schlucht: oben die Oberstadt, unten im Grund ein Dorf am Fluss. Seit 2020 ist der öffentliche Nahverkehr kostenlos, ein Tagesausflug lohnt sich also auch ohne Auto.</p><p>Dieser Guide zeigt dir die Must-Sees, Hidden Gems und den schlauesten Weg durch die Stadt. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Luxembourg is often underrated as a transit country. Yet its capital hangs like a fortress above a gorge: the upper town on top and the village by the river in the Grund below. Public transport has been free since 2020, so a day trip is worthwhile even without a car.</p><p>This guide shows the must-sees, hidden gems and the smartest way around town. Prices and times are guidelines (2026).</p>",
+ "story": "<p>Ich war im März 2025 in Luxemburg – unter Wolken, die aussahen, als hätte sie jemand extra für ein Schwarz-Weiß-Foto bestellt. Vom Rand der Oberstadt hast du Brücke, Schlucht und die Türme der Stadt in einem einzigen Bild. Unten an der Alzette liegt der Grund: bunte Häuser spiegeln sich im Fluss, über dir ragen die Festungsmauern auf. Es fühlt sich an wie ein Dorf mitten in einer Hauptstadt. Abends, wenn der großherzogliche Palast beleuchtet ist, werden die Gassen ruhig – und die Stadt wirkt noch kleiner, als sie ist.</p>",
+ "story_en": "<p>I was in Luxembourg in March 2025 – under clouds that looked as if someone had ordered them specially for a black-and-white photo. From the edge of the upper town you get bridge, gorge and the city’s towers in a single picture. Down by the Alzette lies the Grund: colourful houses reflected in the river, fortress walls towering above you. It feels like a village in the middle of a capital. In the evening, when the Grand Ducal Palace is lit up, the lanes grow quiet – and the city seems even smaller than it is.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1 Tag, 2 entspannt",
+   "v_en": "1 day, 2 relaxed"
+  },
+  {
+   "k": "Nahverkehr",
+   "k_en": "Public transport",
+   "v": "Seit 2020 kostenlos (Bus, Tram, Zug 2. Klasse)",
+   "v_en": "Free since 2020 (bus, tram, 2nd-class train)"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro (Luxemburg ist teuer)",
+   "v_en": "Euro (Luxembourg is expensive)"
+  },
+  {
+   "k": "Sprachen",
+   "k_en": "Languages",
+   "v": "Luxemburgisch, Französisch, Deutsch",
+   "v_en": "Luxembourgish, French, German"
+  },
+  {
+   "k": "Welterbe",
+   "k_en": "World Heritage",
+   "v": "Altstadt und Festung seit 1994",
+   "v_en": "Old town and fortress since 1994"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Luxemburg und herum",
+   "h_en": "Getting to Luxembourg and around",
+   "box": "omio",
+   "html": "<p>Luxemburg liegt gut erreichbar an der Bahnstrecke aus Deutschland (Trier, Koblenz), Belgien und Frankreich. Seit 2020 ist der öffentliche Nahverkehr in ganz Luxemburg kostenlos – Bus, Tram und Zug in der zweiten Klasse. Ein Tagesausflug lohnt sich also auch ohne Auto. Der Flughafen liegt wenige Kilometer vom Zentrum, Bus und Tram verbinden ihn mit der Stadt.</p><p>Mein Tipp: Bring bequeme Schuhe mit – zwischen Ober- und Unterstadt geht es ständig bergauf und bergab. Wer es bequemer will, nutzt den kostenlosen Panoramalift in Pfaffenthal.</p>",
+   "html_en": "<p>Luxembourg is easy to reach on the rail line from Germany (Trier, Koblenz), Belgium and France. Since 2020 public transport throughout Luxembourg is free – bus, tram and second-class train. A day trip is therefore worthwhile even without a car. The airport lies a few kilometres from the centre, bus and tram link it to the city.</p><p>My tip: bring comfortable shoes – it is constantly uphill and downhill between upper and lower town. For comfort use the free panoramic lift in Pfaffenthal.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Pont Adolphe",
+     "q": "Pont Adolphe Luxembourg",
+     "text": "<p>Die steinerne Bogenbrücke von 1903 spannt sich über das Tal der Pétrusse. Vom Rand der Oberstadt hast du Brücke, Schlucht und die Türme der Stadt in einem einzigen Bild.</p>",
+     "text_en": "<p>The stone arch bridge from 1903 spans the Pétrusse valley. From the edge of the upper town you get bridge, gorge and the city’s towers in a single picture.</p>",
+     "photos": [
+      "images/photos/luxemburg-pont-adolphe.webp"
+     ]
+    },
+    {
+     "name": "Der Grund",
+     "name_en": "The Grund",
+     "q": "Grund Luxembourg",
+     "text": "<p>Unten an der Alzette liegt der Grund, das alte Viertel der Unterstadt. Bunte Häuser spiegeln sich im Fluss, über dir ragen die Festungsmauern auf. Hier liegt auch die Neumünster-Abtei, ein Kulturzentrum mit Café (Google 4,6 Sterne).</p>",
+     "text_en": "<p>Down by the Alzette lies the Grund, the old quarter of the lower town. Colourful houses are reflected in the river, fortress walls tower above you. The Neumünster Abbey is here too, a cultural centre with a café (4.6 stars on Google).</p>",
+     "photos": [
+      "images/photos/luxemburg-grund.webp"
+     ]
+    },
+    {
+     "name": "Bock-Kasematten",
+     "name_en": "Bock Casemates",
+     "q": "Casemates du Bock",
+     "text": "<p>Ein weitverzweigtes Tunnelsystem im Fels. Nach dem Londoner Vertrag von 1867 wurde die Festung größtenteils geschleift, die Kasematten blieben. Auf Google 4,4 Sterne. Besucher nennen etwa 11 € Eintritt und 20–30 Minuten Besuchszeit; Treppen sind teils eng.</p>",
+     "text_en": "<p>A sprawling network of tunnels in the rock. After the Treaty of London in 1867 the fortress was largely razed, the casemates stayed. 4.4 stars on Google. Visitors mention about €11 admission and 20–30 minutes visit time; stairs are partly narrow.</p>",
+     "hours": "laut Google täglich ca. 9:45–17 Uhr (saisonabhängig)",
+     "hours_en": "daily about 9:45 am–5 pm according to Google (seasonal)"
+    },
+    {
+     "name": "Place d’Armes & Großherzoglicher Palast",
+     "text": "<p>Die Place d’Armes ist der zentrale Platz der Oberstadt mit Cafés und Straßenmusik. Der Großherzogliche Palast liegt in der Altstadt; im Sommer kannst du ihn bei Führungen besichtigen (Termine vorher prüfen).</p><p>Komm am späten Nachmittag und trink etwas auf dem Platz.</p>",
+     "text_en": "<p>Place d’Armes is the central square of the upper town with cafés and street music. The Grand Ducal Palace lies in the old town; in summer you can visit it on tours (check dates beforehand).</p><p>Come in the late afternoon and have a drink on the square.</p>",
+     "name_en": "Place d’Armes & Grand Ducal Palace",
+     "q": "Place d'Armes Luxembourg",
+     "tip": "Komm am späten Nachmittag.",
+     "tip_en": "Come in the late afternoon."
+    },
+    {
+     "name": "Kathedrale Notre-Dame",
+     "text": "<p>Die Kathedrale Notre-Dame aus dem 17. Jahrhundert ist spätgotisch mit Renaissance-Elementen. Im Inneren gibt es eine Krypta mit Gräbern der Herrscherfamilie. Der Besuch ist kostenlos (Zeiten vorher prüfen).</p><p>Plane 20 bis 30 Minuten ein.</p>",
+     "text_en": "<p>Notre-Dame Cathedral from the 17th century is late Gothic with Renaissance elements. Inside there is a crypt with tombs of the ruling family. The visit is free (check times beforehand).</p><p>Plan 20 to 30 minutes.</p>",
+     "name_en": "Notre-Dame Cathedral",
+     "q": "Notre-Dame Cathedral Luxembourg",
+     "tip": "Plane 20 bis 30 Minuten ein.",
+     "tip_en": "Plan 20 to 30 minutes."
+    },
+    {
+     "name": "Pétrusse-Tal & Spazierwege",
+     "text": "<p>Das Pétrusse-Tal ist eine grüne Schlucht mit Wegen, Brücken und Blicken auf die Festungsmauern. Ein Spaziergang verbindet die Oberstadt mit dem Grund. Im Sommer gibt es Gärten und Veranstaltungen.</p><p>Geh hinunter und fahre mit dem Aufzug wieder hinauf.</p>",
+     "text_en": "<p>The Pétrusse valley is a green gorge with paths, bridges and views of the fortress walls. A walk connects the upper town with the Grund. In summer there are gardens and events.</p><p>Walk down and take the lift back up.</p>",
+     "name_en": "Pétrusse valley & walking paths",
+     "q": "Petrusse Valley Luxembourg",
+     "tip": "Geh hinunter und fahre mit dem Lift hinauf.",
+     "tip_en": "Walk down and take the lift back up."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Corniche – schönster Balkon Europas",
+     "name_en": "Corniche – Europe’s most beautiful balcony",
+     "gem": true,
+     "q": "Chemin de la Corniche Luxembourg",
+     "text": "<p>Der Weg auf der alten Stadtmauer über dem Grund wird oft der schönste Balkon Europas genannt. Von hier siehst du Abtei, Fluss und Festungsmauern – und es ist abends deutlich ruhiger.</p>",
+     "text_en": "<p>The path on the old city wall above the Grund is often called Europe’s most beautiful balcony. From here you see abbey, river and fortress walls – and it is much quieter in the evening.</p>"
+    },
+    {
+     "name": "Panoramalift Pfaffenthal",
+     "name_en": "Pfaffenthal panoramic lift",
+     "gem": true,
+     "q": "Ascenseur Panoramique du Pfaffenthal",
+     "text": "<p>Ein Glasaufzug, der die Oberstadt mit dem Pfaffenthal verbindet – kostenlos, mit Glasboden-Aussichtsplattform oben. Auf Google 4,7 Sterne.</p>",
+     "text_en": "<p>A glass lift that links the upper town with Pfaffenthal – free, with a glass-floor viewing platform at the top. 4.7 stars on Google.</p>",
+     "hours": "laut Google täglich ca. 5:45–1 Uhr",
+     "hours_en": "daily about 5:45 am–1 am according to Google",
+     "price": "kostenlos",
+     "price_en": "free"
+    },
+    {
+     "name": "Beleuchteter Palast am Abend",
+     "name_en": "The lit-up palace in the evening",
+     "q": "Grand Ducal Palace Luxembourg",
+     "text": "<p>Abends, wenn der großherzogliche Palast beleuchtet ist, werden die Gassen ruhig – und die Stadt wirkt noch kleiner, als sie ist.</p>",
+     "text_en": "<p>In the evening, when the Grand Ducal Palace is lit up, the lanes grow quiet – and the city seems even smaller than it is.</p>"
+    },
+    {
+     "name": "Mudam",
+     "q": "Mudam Luxembourg",
+     "text": "<p>Das Museum für moderne Kunst im Park Dräi Eechelen: moderne Architektur und wechselnde Ausstellungen. Auf Google 4,2 Sterne; Geschmackssache, aber das Gebäude ist beeindruckend.</p>",
+     "text_en": "<p>The modern art museum in Parc Dräi Eechelen: modern architecture and changing exhibitions. 4.2 stars on Google; a matter of taste, but the building is impressive.</p>",
+     "hours": "laut Google Di–So 10–18 Uhr (Mi bis 21 Uhr), Mo geschlossen",
+     "hours_en": "Tue–Sun 10 am–6 pm (Wed until 9 pm) according to Google, closed Mondays"
+    },
+    {
+     "name": "Mullerthal – Kleine Luxemburger Schweiz",
+     "text": "<p>Das Mullerthal im Osten Luxemburgs ist ein Gebiet mit Felsen, Schluchten und Wäldern und gut zum Wandern. Der Mullerthal Trail führt durch die Landschaft; in Echternach gibt es eine Basilika und ein Abteiviertel. Du erreichst die Region per Bus oder Mietwagen (Fahrpläne vorher prüfen).</p><p>Plane einen vollen Tag ein.</p>",
+     "text_en": "<p>The Mullerthal in eastern Luxembourg is an area with rocks, gorges and forests and good for hiking. The Mullerthal Trail leads through the landscape; in Echternach there is a basilica and an abbey quarter. You reach the region by bus or rental car (check timetables beforehand).</p><p>Plan a full day.</p>",
+     "name_en": "Mullerthal – Little Switzerland",
+     "gem": true,
+     "q": "Mullerthal Luxembourg",
+     "tip": "Plane einen vollen Tag zum Wandern.",
+     "tip_en": "Plan a full day for hiking."
+    },
+    {
+     "name": "Burg Vianden",
+     "text": "<p>Die Burg Vianden im Norden ist eine der größten Burgen Westeuropas und thront über dem Städtchen. Sie wurde restauriert und lässt sich besichtigen; zusätzlich gibt es einen Sessellift. Ein guter Tagesausflug (Zeiten und Preise vorher prüfen).</p><p>Plane einen halben Tag ein.</p>",
+     "text_en": "<p>Vianden Castle in the north is one of the largest castles in Western Europe and towers over the town. It has been restored and can be visited; there is also a chairlift. A good day trip (check times and prices beforehand).</p><p>Plan half a day.</p>",
+     "name_en": "Vianden Castle",
+     "gem": true,
+     "q": "Vianden Castle",
+     "tip": "Plane einen halben Tag und nimm den Sessellift.",
+     "tip_en": "Plan half a day and take the chairlift."
+    },
+    {
+     "name": "Luxemburger Küche: Judd mat Gaardebounen & Bouneschlupp",
+     "text": "<p>Das Nationalgericht Judd mat Gaardebounen besteht aus geräuchertem Schweinenacken mit dicken Bohnen und Kartoffeln. Dazu gibt es Bouneschlupp (Bohnensuppe), Gromperekichelcher (Kartoffelpuffer) und Mosel-Weine. Preise ändern sich; frag vorher.</p><p>Probiere Traditionelles in kleineren Lokalen.</p>",
+     "text_en": "<p>The national dish judd mat gaardebounen consists of smoked pork neck with broad beans and potatoes. With it come bouneschlupp (bean soup), gromperekichelcher (potato fritters) and Moselle wines. Prices change; ask beforehand.</p><p>Try traditional food in smaller places.</p>",
+     "name_en": "Luxembourg cuisine: judd mat gaardebounen & bouneschlupp",
+     "q": "Judd mat Gaardebounen",
+     "tip": "Probiere Traditionelles in kleinen Lokalen.",
+     "tip_en": "Try traditional food in small places."
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Luxemburg ausmacht",
+   "h_en": "What makes Luxembourg special",
+   "box": "gyg",
+   "html": "<p>Luxemburg ist das einzige Großherzogtum der Welt, hat drei Amtssprachen und war 2020 das erste Land mit kostenlosem Bus und Bahn für alle. 963 erwarb Graf Siegfried den Bockfelsen – der Anfang der Stadt. Burgunder, Spanier, Franzosen und Österreicher bauten die Festung aus, bis man sie das „Gibraltar des Nordens“ nannte. Heute ist Luxemburg Gründungsmitglied der EU und Sitz wichtiger EU-Institutionen.</p>",
+   "html_en": "<p>Luxembourg is the only grand duchy in the world, has three official languages and in 2020 was the first country with free bus and train for everyone. In 963 Count Siegfried acquired the Bock rock – the beginning of the city. Burgundians, Spaniards, French and Austrians extended the fortress until it was called the “Gibraltar of the North”. Today Luxembourg is a founding member of the EU and home to important EU institutions.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Luxemburg",
+   "h_en": "One day in Luxembourg",
+   "items": [
+    "<strong>Vormittag</strong> – Pont Adolphe und Oberstadt",
+    "<strong>Mittag</strong> – Corniche und Abstieg in den Grund",
+    "<strong>Nachmittag</strong> – Bock-Kasematten, Neumünster-Abtei",
+    "<strong>Spätnachmittag</strong> – Panoramalift Pfaffenthal",
+    "<strong>Abend</strong> – beleuchteter Palast, ruhige Gassen"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Pont Adolphe and upper town",
+    "<strong>Midday</strong> – Corniche and descent into the Grund",
+    "<strong>Afternoon</strong> – Bock Casemates, Neumünster Abbey",
+    "<strong>Late afternoon</strong> – Pfaffenthal panoramic lift",
+    "<strong>Evening</strong> – lit-up palace, quiet lanes"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist der Nahverkehr in Luxemburg wirklich kostenlos?",
+   "q_en": "Is public transport in Luxembourg really free?",
+   "a": "<p>Ja, seit 2020 sind Bus, Tram und Zug (2. Klasse) landesweit kostenlos.</p>",
+   "a_en": "<p>Yes, since 2020 bus, tram and train (2nd class) are free nationwide.</p>"
+  },
+  {
+   "q": "Reicht ein Tag in Luxemburg-Stadt?",
+   "q_en": "Is one day enough in Luxembourg City?",
+   "a": "<p>Ja, für die Highlights. Wer Museen und Abendstimmung mitnimmt, bleibt zwei Tage.</p>",
+   "a_en": "<p>Yes, for the highlights. If you add museums and the evening mood, stay two days.</p>"
+  },
+  {
+   "q": "Ist Luxemburg teuer?",
+   "q_en": "Is Luxembourg expensive?",
+   "a": "<p>Ja, vor allem Essen und Übernachten. Dafür spart der kostenlose Nahverkehr Geld.</p>",
+   "a_en": "<p>Yes, especially food and accommodation. The free transport helps save money.</p>"
+  }
+ ]
 }

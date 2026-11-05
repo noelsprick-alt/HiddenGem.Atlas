@@ -7,8 +7,8 @@
  "city": "Gelsenkirchen & Ruhrgebiet",
  "city_en": "Gelsenkirchen & the Ruhr",
  "updated": "2026-11-05",
- "title": "Gelsenkirchen & Ruhrgebiet Guide: Arena, Himmelstreppe, Landschaftspark & Gasometer",
- "title_en": "Gelsenkirchen & Ruhr Guide: Arena, Stairway to Heaven, Landschaftspark & Gasometer",
+ "title": "Gelsenkirchen & Ruhrgebiet Guide: 13 Orte – Arena, Himmelstreppe, Zollverein, Landschaftspark & Gasometer",
+ "title_en": "Gelsenkirchen & Ruhr area Guide: 13 places – arena, Himmelstreppe, Zollverein, Landschaftspark & Gasometer",
  "desc": "Gelsenkirchen ist meine Heimatstadt: Spieltag an der Arena, Sonnenuntergang an der Himmelstreppe, Landschaftspark Duisburg-Nord, Tiger & Turtle und Gasometer – von Noel.",
  "desc_en": "Gelsenkirchen is my home town: match day at the arena, sunset at the Stairway to Heaven, Landschaftspark Duisburg-Nord, Tiger & Turtle and Gasometer – from Noel.",
  "gyg_q": "Gelsenkirchen",
@@ -66,6 +66,33 @@
      "text_en": "On every corner there is a kiosk where you get your beer and bag of crisps.",
      "name_en": "Currywurst at the kiosk",
      "q": "Currywurst an der Bude"
+    },
+    {
+     "name": "Zeche Zollverein in Essen",
+     "text": "<p>Die Zeche Zollverein in Essen ist UNESCO-Welterbe und gilt als eines der schönsten Industriedenkmäler Europas: Förderturm, Kokerei, Hallen und das Ruhr Museum in der ehemaligen Kohlenwäsche, zu dem eine lange Rolltreppe führt. Das Gelände ist weitläufig; du kannst Führungen machen oder einfach spazieren.</p><p>Das Gelände ist von Gelsenkirchen aus gut mit der Bahn erreichbar. Plane einen halben Tag ein; Zeiten und Preise der Museen vorher prüfen.</p>",
+     "text_en": "<p>Zollverein Colliery in Essen is a UNESCO World Heritage site and regarded as one of Europe’s most beautiful industrial monuments: winding tower, coking plant, halls and the Ruhr Museum in the former coal washery, reached by a long escalator. The site is spacious; you can take tours or simply stroll.</p><p>The site is easy to reach from Gelsenkirchen by train. Plan half a day; check times and prices of the museums beforehand.</p>",
+     "name_en": "Zollverein Colliery in Essen",
+     "q": "Zeche Zollverein Essen",
+     "tip": "Plane einen halben Tag ein und schau dir die Rolltreppe zum Ruhr Museum an.",
+     "tip_en": "Plan half a day and look at the escalator to the Ruhr Museum."
+    },
+    {
+     "name": "Nordsternpark & Herkules",
+     "text": "<p>Der Nordsternpark in Gelsenkirchen entstand auf dem Gelände einer früheren Zeche. Hier gibt es Wege, Grünflächen, das Fördergerüst und eine große Herkules-Statue des Künstlers Markus Lüpertz, die weit über die Gegend sichtbar ist. Der Park zeigt, wie aus Industrieflächen Erholungsräume werden.</p><p>Ein guter Ort für einen Spaziergang oder eine Radtour am Rhein-Herne-Kanal (Zugang und Zeiten vorher prüfen).</p>",
+     "text_en": "<p>Nordsternpark in Gelsenkirchen was created on the site of a former colliery. Here there are paths, green areas, the winding tower and a large statue of Hercules by the artist Markus Lüpertz, visible far across the area. The park shows how industrial land becomes recreation space.</p><p>A good place for a walk or a bike ride along the Rhine-Herne Canal (check access and times beforehand).</p>",
+     "name_en": "Nordsternpark & Hercules",
+     "q": "Nordsternpark Gelsenkirchen",
+     "tip": "Verbinde den Park mit einer Radtour am Kanal.",
+     "tip_en": "Combine the park with a bike ride along the canal."
+    },
+    {
+     "name": "Schalke-Tour & Vereinsmuseum",
+     "text": "<p>Neben dem Spieltag kannst du die Veltins-Arena auch bei einer Stadiontour besichtigen und im Vereinsmuseum die Geschichte des FC Schalke 04 erleben. Die Königsblauen sind ein fester Teil der Stadtidentität. Tour- und Museumszeiten vorher prüfen.</p><p>Auch ohne Fußballfan ist der Besuch ein Einblick, wie viel der Verein den Menschen hier bedeutet.</p>",
+     "text_en": "<p>Besides match day you can visit the Veltins-Arena on a stadium tour and experience the history of FC Schalke 04 in the club museum. The “Königsblauen” are a fixed part of the city’s identity. Check tour and museum times beforehand.</p><p>Even if you are not a football fan the visit gives an insight into how much the club means to people here.</p>",
+     "name_en": "Schalke tour & club museum",
+     "q": "Veltins-Arena Stadiontour",
+     "tip": "Prüfe Tour- und Museumszeiten vorher.",
+     "tip_en": "Check tour and museum times beforehand."
     }
    ]
   },
@@ -102,6 +129,34 @@
      "text_en": "Deep in the cellars of an old brewery.",
      "gem": true,
      "q": "Zentrum für Internationale Lichtkunst, Unna"
+    },
+    {
+     "name": "ZOOM Erlebniswelt",
+     "text": "<p>Die ZOOM Erlebniswelt in Gelsenkirchen ist ein Zoo mit drei Erlebniswelten (Alaska, Afrika, Asien), in denen Tiere in großen Anlagen zu sehen sind. Gut geeignet für einen Familientag. Preise und Öffnungszeiten vorher prüfen.</p><p>Plane drei bis vier Stunden ein.</p>",
+     "text_en": "<p>The ZOOM Erlebniswelt in Gelsenkirchen is a zoo with three worlds (Alaska, Africa, Asia) in which animals are seen in large enclosures. Well suited for a family day. Check prices and opening times beforehand.</p><p>Plan three to four hours.</p>",
+     "name_en": "ZOOM Erlebniswelt",
+     "q": "ZOOM Erlebniswelt Gelsenkirchen",
+     "tip": "Plane drei bis vier Stunden ein.",
+     "tip_en": "Plan three to four hours."
+    },
+    {
+     "name": "Rhein-Herne-Kanal & Radwege",
+     "text": "<p>Am Rhein-Herne-Kanal verlaufen Rad- und Spazierwege, die an Industriekultur, Hafenanlagen und Parks vorbeiführen. Das Ruhrgebiet ist grüner, als viele denken. Mit dem Rad kommst du von Gelsenkirchen aus zu vielen Zielen.</p><p>Leih dir ein Rad oder nimm deins mit.</p>",
+     "text_en": "<p>Along the Rhine-Herne Canal run cycle and walking paths that pass industrial heritage, harbours and parks. The Ruhr area is greener than many think. By bike you reach many destinations from Gelsenkirchen.</p><p>Rent a bike or bring your own.</p>",
+     "name_en": "Rhine-Herne Canal & cycle paths",
+     "gem": true,
+     "q": "Rhein-Herne-Kanal Radweg",
+     "tip": "Leih dir ein Rad und fahr am Kanal entlang.",
+     "tip_en": "Rent a bike and ride along the canal."
+    },
+    {
+     "name": "Ruhrgebiet-Küche: Currywurst, Pommes Schranke & Bergmannsfrühstück",
+     "text": "<p>Ruhrgebiet heißt: Currywurst, Pommes rot-weiß („Schranke“), Frikadellen und ein Bier an der Bude. Bodenständig, günstig und mit Herz. Frag nach Empfehlungen an der Bude – die Leute erzählen dir gern, wo es die beste Wurst gibt.</p><p>Preise ändern sich; frag vorher.</p>",
+     "text_en": "<p>Ruhr area means: currywurst, fries with ketchup and mayo (“Schranke”), meatballs and a beer at the kiosk. Down to earth, cheap and with heart. Ask for recommendations at the kiosk – people gladly tell you where the best sausage is.</p><p>Prices change; ask beforehand.</p>",
+     "name_en": "Ruhr cuisine: currywurst, fries & miners’ breakfast",
+     "q": "Currywurst Gelsenkirchen",
+     "tip": "Frag an der Bude nach Empfehlungen.",
+     "tip_en": "Ask for recommendations at the kiosk."
     }
    ]
   },

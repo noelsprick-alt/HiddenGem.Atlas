@@ -1,53 +1,273 @@
 {
-  "slug": "kopenhagen", "slug_en": "copenhagen", "status": "live", "blog": "blog-bc-21",
-  "cc": "DK", "flag": "🇩🇰", "city": "Kopenhagen", "city_en": "Copenhagen", "updated": "2026-11-05",
-  "title": "Kopenhagen Guide: Hafenbad, Spiralturm, CopenHill & Streetfood",
-  "title_en": "Copenhagen Guide: Harbour Bath, Spiral Tower, CopenHill & Street Food",
-  "desc": "Kopenhagen mit dem Rad: Hafenbad Islands Brygge, Erlöserkirche, CopenHill, Reffen, Torvehallerne, Christiania und Bakken – mit Anreise, Preisen und Tagesplan.",
-  "desc_en": "Copenhagen by bike: Islands Brygge harbour bath, Church of Our Saviour, CopenHill, Reffen, Torvehallerne, Christiania and Bakken – with getting there, prices and a day plan.",
-  "gyg_q": "Copenhagen",
-  "intro": "<p>Kopenhagen ist die Stadt, in der du im Hafen schwimmst, auf einer Müllverbrennungsanlage Ski fährst und überall mit dem Rad hinkommst. Sie zeigt, wie entspannt eine Großstadt sein kann.</p><p>Dieser Guide führt dich durch die Must-Sees und Orte, die Einheimische lieben, mit Anreise, Preisen in dänischen Kronen (DKK) und einem Plan für drei Tage. Alle Angaben sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>Copenhagen is the city where you swim in the harbour, ski on a waste-to-energy plant and get everywhere by bike. It shows how relaxed a big city can be.</p><p>This guide takes you through the must-sees and places locals love, with getting there, prices in Danish kroner (DKK) and a three-day plan. All details are guidelines (2026).</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"3 Tage","v_en":"3 days"},
-    {"k":"Beste Reisezeit","k_en":"Best time","v":"Mai–September zum Baden und Radfahren","v_en":"May–September for swimming and cycling"},
-    {"k":"Währung","k_en":"Currency","v":"Dänische Krone (DKK); Kartenzahlung überall","v_en":"Danish krone (DKK); cards accepted everywhere"},
-    {"k":"Sprache","k_en":"Language","v":"Dänisch; Englisch klappt problemlos","v_en":"Danish; English is no problem"},
-    {"k":"Hygge","k_en":"Hygge","v":"Kerzen, Holz, viel Zeit","v_en":"Candles, wood, plenty of time"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Kopenhagen und herum","h_en":"Getting to Copenhagen and around","box":"omio",
-     "html":"<h3>Anreise</h3><p>Der Flughafen Kopenhagen (CPH) liegt nur wenige Kilometer südöstlich; Metro und Zug bringen dich in etwa 15–20 Minuten in die Innenstadt. Aus Deutschland kommst du per Zug über Hamburg (Fahrzeit ab Hamburg grob 4,5–5 Stunden, inklusive Fährabschnitt oder Brücke je nach Verbindung – aktuelle Fahrpläne bei DB/DSB prüfen), per Flug oder mit dem Fernbus.</p><h3>In der Stadt</h3><p>Ein Leihrad nehmen und treiben lassen: Die Stadt ist flach und hat durchgehende Radwege. Daneben fahren Metro, S-Bahn und Busse mit einem gemeinsamen Zonensystem.</p>",
-     "html_en":"<h3>Arrival</h3><p>Copenhagen airport (CPH) lies only a few kilometres to the south-east; metro and train get you into the centre in about 15–20 minutes. From Germany you come by train via Hamburg (roughly 4.5–5 hours from Hamburg, including a ferry section or bridge depending on the connection – check current timetables at DB/DSB), by plane or by coach.</p><h3>In the city</h3><p>Take a rental bike and drift: the city is flat and has continuous cycle lanes. Metro, S-train and buses also run on a shared zone system.</p>"},
-    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
-     "spots":[
-      {"name":"Nyhavn","q":"Nyhavn Copenhagen","text":"<p>Der bunte Hafen entstand im 17. Jahrhundert, und Hans Christian Andersen wohnte gleich in mehreren seiner Häuser. Am schönsten am frühen Morgen, bevor die Terrassen voll sind.</p>","text_en":"<p>The colourful harbour dates from the 17th century, and Hans Christian Andersen lived in several of its houses. Most beautiful early in the morning before the terraces fill up.</p>"},
-      {"name":"Erlöserkirche (Vor Frelsers Kirke)","name_en":"Church of Our Saviour","q":"Church of Our Saviour Copenhagen","text":"<p>Hoch auf den Spiralturm der Erlöserkirche: Die Außentreppe schraubt sich um den Turm, oben hast du den Blick über die ganze Stadt. Auf Google 4,6 Sterne. Besucher nennen rund 125 DKK Eintritt und raten bei Höhenangst oder Platzangst ab.</p>","text_en":"<p>Up the spiral tower of the Church of Our Saviour: the outside stair winds around the tower and at the top you have a view over the whole city. 4.6 stars on Google. Visitors mention about 125 DKK admission and advise against it with fear of heights or claustrophobia.</p>","tip":"Die letzten Stufen sind schmal und bei Wind rutschig. Kurz vor Sonnenuntergang war es laut einem Besucher nicht voll.","tip_en":"The last steps are narrow and slippery in wind. Shortly before sunset it was not crowded according to one visitor."},
-      {"name":"Torvehallerne","q":"Torvehallerne Copenhagen","text":"<p>Zwei Markthallen mit Smørrebrød, frischem Fisch, Bäckern und Blumen. Auf Google 4,5 Sterne bei rund 17.000 Bewertungen. Die Preise liegen laut Gästen eher über dem Durchschnitt, die Qualität dafür hoch.</p>","text_en":"<p>Two market halls with smørrebrød, fresh fish, bakers and flowers. 4.5 stars on Google from about 17,000 reviews. Prices are above average according to guests, quality high.</p>","hours":"laut Google Mo–Fr 10–19 Uhr, Sa/So 10–18 Uhr","hours_en":"Mon–Fri 10 am–7 pm, Sat/Sun 10 am–6 pm according to Google"}
-     ]},
-    {"type":"spots","id":"gems","h":"Hidden Gems & Besonderes","h_en":"Hidden gems & the unusual",
-     "spots":[
-      {"name":"Hafenbad Islands Brygge","name_en":"Islands Brygge harbour bath","gem":true,"q":"Havnebadet Islands Brygge","text":"<p>Wer mutig ist, springt ins Hafenbad: ein kostenloses Hafenbad mit Sprungbecken, zwei flachen Becken und einer 75-m-Bahn. Auf Google 4,5 Sterne. Das Wasser ist im Sommer rund 20 °C, gelegentlich gibt es Quallen.</p>","text_en":"<p>If you are brave, jump into the harbour bath: a free harbour bath with a jumping pool, two shallow pools and a 75 m lane. 4.5 stars on Google. The water is around 20 °C in summer, with occasional jellyfish.</p>","hours":"laut Google täglich 6–22 Uhr (Saison)","hours_en":"daily 6 am–10 pm according to Google (season)","price":"kostenlos","price_en":"free","tip":"Bring ein Handtuch mit; bei Algen/Quallen vor Ort die Hinweise lesen.","tip_en":"Bring a towel; read the notices on site if there are algae or jellyfish."},
-      {"name":"CopenHill","gem":true,"q":"CopenHill Copenhagen","text":"<p>Ein Müllheizkraftwerk, auf dessen Dach Ski gefahren wird. Auch ohne Ski lohnt es sich: Der Lift nach oben ist laut Besuchern kostenlos, oben gibt es Café und Panoramablick. Auf Google 4,5 Sterne.</p>","text_en":"<p>A waste-to-energy plant with a ski slope on its roof. It is worthwhile even without skis: the lift up is free according to visitors, with a café and panoramic view at the top. 4.5 stars on Google.</p>","hours":"laut Google Mo 12–17, Di–Fr 12–19, Sa 10–18, So 10–17 Uhr","hours_en":"Mon noon–5 pm, Tue–Fri noon–7 pm, Sat 10 am–6 pm, Sun 10 am–5 pm according to Google","tip":"Nimm das Rad über Nyhavn und das Opernhaus – ein guter Weg.","tip_en":"Take your bike via Nyhavn and the Opera House – a good route."},
-      {"name":"Reffen – Streetfood am Wasser","name_en":"Reffen – street food by the water","q":"Reffen Copenhagen Street Food","text":"<p>Abends Streetfood bei Reffen: der größte Streetfood-Markt Nordeuropas mit Stalls aus aller Welt, Bars und Blick auf die Skyline. Auf Google 4,6 Sterne bei über 13.000 Bewertungen.</p>","text_en":"<p>Street food at Reffen in the evening: the largest street-food market in Northern Europe with stalls from around the world, bars and a view of the skyline. 4.6 stars on Google from over 13,000 reviews.</p>","tip":"Der Ort liegt etwas abseits – mit Rad oder Hafenbus hin, zum Sonnenuntergang.","tip_en":"The place is a bit remote – go by bike or harbour bus, at sunset."},
-      {"name":"Christiania","q":"Freetown Christiania","text":"<p>1971 besetzten Aktivisten ein altes Militärgelände und riefen die Freistadt Christiania aus – es gibt sie bis heute. Ein alternatives Viertel mit Werkstätten, Cafés und selbstgebauten Häusern.</p>","text_en":"<p>In 1971 activists occupied an old military site and declared the Freetown of Christiania – it still exists today. An alternative quarter with workshops, cafés and self-built houses.</p>","tip":"Beachte die Hinweisschilder vor Ort, besonders zum Fotografieren.","tip_en":"Follow the signs on site, especially regarding photography."},
-      {"name":"Bakken","q":"Dyrehavsbakken","text":"<p>Nördlich der Stadt liegt Bakken, der älteste noch betriebene Freizeitpark der Welt – der Eintritt ist frei, die Fahrgeschäfte kosten extra.</p>","text_en":"<p>North of the city lies Bakken, the oldest amusement park still in operation in the world – admission is free, the rides cost extra.</p>"}
-     ]},
-    {"type":"prose","id":"essen","h":"Essen & Trinken","h_en":"Food & drink",
-     "html":"<ul><li><strong>Smørrebrød</strong> (belegte Brote) in den Torvehallerne.</li><li><strong>Streetfood bei Reffen</strong>: viele Küchen, abends mit Blick aufs Wasser.</li><li><strong>Bäckereien</strong> mit Zimtschnecken (kanelsnegle) und Wienerbrød.</li></ul><p>Dänemark ist teuer – Mittagsmenüs und Märkte sparen Geld, Leitungswasser ist gratis.</p>",
-     "html_en":"<ul><li><strong>Smørrebrød</strong> (open sandwiches) at Torvehallerne.</li><li><strong>Street food at Reffen</strong>: many cuisines, in the evening with water views.</li><li><strong>Bakeries</strong> with cinnamon rolls (kanelsnegle) and Danish pastries.</li></ul><p>Denmark is expensive – lunch menus and markets save money, tap water is free.</p>"},
-    {"type":"prose","id":"wissen","h":"Was Dänemark ausmacht","h_en":"What makes Denmark special","box":"gyg",
-     "html":"<p>Hygge – das dänische Wort für Gemütlichkeit – ist hier eine Lebenshaltung. Dazu Design an jeder Ecke und mehr Fahrräder als Autos. Bischof Absalon gründete die Stadt im 12. Jahrhundert als Festung.</p><p><strong>Mein Tipp:</strong> Ein Leihrad nehmen und treiben lassen – durch Christianshavn, hoch auf den Spiralturm der Erlöserkirche und abends Streetfood bei Reffen.</p>",
-     "html_en":"<p>Hygge – the Danish word for cosiness – is a way of life here. Add design on every corner and more bicycles than cars. Bishop Absalon founded the city in the 12th century as a fortress.</p><p><strong>My tip:</strong> take a rental bike and drift – through Christianshavn, up the spiral tower of the Church of Our Saviour and street food at Reffen in the evening.</p>"}
-  ],
-  "itinerary":[
-   {"h":"Tag 1 – Zentrum","h_en":"Day 1 – Centre","items":["<strong>Morgens</strong> – Nyhavn früh","<strong>Vormittag</strong> – Torvehallerne","<strong>Nachmittag</strong> – Christianshavn und Spiralturm","<strong>Abend</strong> – Hafenbad oder Spaziergang am Wasser"],"items_en":["<strong>Morning</strong> – Nyhavn early","<strong>Late morning</strong> – Torvehallerne","<strong>Afternoon</strong> – Christianshavn and spiral tower","<strong>Evening</strong> – harbour bath or a walk by the water"]},
-   {"h":"Tag 2 – Besonderes","h_en":"Day 2 – The unusual","items":["<strong>Vormittag</strong> – CopenHill","<strong>Nachmittag</strong> – Christiania","<strong>Abend</strong> – Reffen zum Sonnenuntergang"],"items_en":["<strong>Morning</strong> – CopenHill","<strong>Afternoon</strong> – Christiania","<strong>Evening</strong> – Reffen at sunset"]},
-   {"h":"Tag 3 – Ausflug","h_en":"Day 3 – Excursion","items":["<strong>Tag</strong> – Bakken (freier Eintritt) oder Radtour an der Küste"],"items_en":["<strong>Day</strong> – Bakken (free admission) or a bike tour along the coast"]}
-  ],
-  "faq":[
-   {"q":"Wie viele Tage braucht man in Kopenhagen?","q_en":"How many days do you need in Copenhagen?","a":"<p>Drei Tage sind ideal, zwei reichen für die Highlights.</p>","a_en":"<p>Three days are ideal, two cover the highlights.</p>"},
-   {"q":"Ist Kopenhagen teuer?","q_en":"Is Copenhagen expensive?","a":"<p>Ja, überdurchschnittlich. Märkte, Streetfood und kostenlose Orte wie das Hafenbad und Bakken-Eintritt helfen beim Sparen.</p>","a_en":"<p>Yes, above average. Markets, street food and free places like the harbour bath and Bakken admission help save.</p>"},
-   {"q":"Kann man im Hafen wirklich baden?","q_en":"Can you really swim in the harbour?","a":"<p>Ja, an ausgewiesenen Hafenbädern wie Islands Brygge – sie sind kostenlos. Hinweise vor Ort zur Wasserqualität beachten.</p>","a_en":"<p>Yes, at designated harbour baths such as Islands Brygge – they are free. Follow notices on site about water quality.</p>"}
-  ]
+ "slug": "kopenhagen",
+ "slug_en": "copenhagen",
+ "status": "live",
+ "blog": "blog-bc-21",
+ "cc": "DK",
+ "flag": "🇩🇰",
+ "city": "Kopenhagen",
+ "city_en": "Copenhagen",
+ "updated": "2026-11-05",
+ "title": "Kopenhagen Guide: 13 Orte – Hafenbad, Spiralturm, CopenHill, Tivoli & Streetfood",
+ "title_en": "Copenhagen Guide: 13 places – harbour bath, spiral tower, CopenHill, Tivoli & street food",
+ "desc": "Kopenhagen mit dem Rad: Hafenbad Islands Brygge, Erlöserkirche, CopenHill, Reffen, Torvehallerne, Christiania und Bakken – mit Anreise, Preisen und Tagesplan.",
+ "desc_en": "Copenhagen by bike: Islands Brygge harbour bath, Church of Our Saviour, CopenHill, Reffen, Torvehallerne, Christiania and Bakken – with getting there, prices and a day plan.",
+ "gyg_q": "Copenhagen",
+ "intro": "<p>Kopenhagen ist die Stadt, in der du im Hafen schwimmst, auf einer Müllverbrennungsanlage Ski fährst und überall mit dem Rad hinkommst. Sie zeigt, wie entspannt eine Großstadt sein kann.</p><p>Dieser Guide führt dich durch die Must-Sees und Orte, die Einheimische lieben, mit Anreise, Preisen in dänischen Kronen (DKK) und einem Plan für drei Tage. Alle Angaben sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Copenhagen is the city where you swim in the harbour, ski on a waste-to-energy plant and get everywhere by bike. It shows how relaxed a big city can be.</p><p>This guide takes you through the must-sees and places locals love, with getting there, prices in Danish kroner (DKK) and a three-day plan. All details are guidelines (2026).</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "3 Tage",
+   "v_en": "3 days"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai–September zum Baden und Radfahren",
+   "v_en": "May–September for swimming and cycling"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Dänische Krone (DKK); Kartenzahlung überall",
+   "v_en": "Danish krone (DKK); cards accepted everywhere"
+  },
+  {
+   "k": "Sprache",
+   "k_en": "Language",
+   "v": "Dänisch; Englisch klappt problemlos",
+   "v_en": "Danish; English is no problem"
+  },
+  {
+   "k": "Hygge",
+   "k_en": "Hygge",
+   "v": "Kerzen, Holz, viel Zeit",
+   "v_en": "Candles, wood, plenty of time"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Kopenhagen und herum",
+   "h_en": "Getting to Copenhagen and around",
+   "box": "omio",
+   "html": "<h3>Anreise</h3><p>Der Flughafen Kopenhagen (CPH) liegt nur wenige Kilometer südöstlich; Metro und Zug bringen dich in etwa 15–20 Minuten in die Innenstadt. Aus Deutschland kommst du per Zug über Hamburg (Fahrzeit ab Hamburg grob 4,5–5 Stunden, inklusive Fährabschnitt oder Brücke je nach Verbindung – aktuelle Fahrpläne bei DB/DSB prüfen), per Flug oder mit dem Fernbus.</p><h3>In der Stadt</h3><p>Ein Leihrad nehmen und treiben lassen: Die Stadt ist flach und hat durchgehende Radwege. Daneben fahren Metro, S-Bahn und Busse mit einem gemeinsamen Zonensystem.</p>",
+   "html_en": "<h3>Arrival</h3><p>Copenhagen airport (CPH) lies only a few kilometres to the south-east; metro and train get you into the centre in about 15–20 minutes. From Germany you come by train via Hamburg (roughly 4.5–5 hours from Hamburg, including a ferry section or bridge depending on the connection – check current timetables at DB/DSB), by plane or by coach.</p><h3>In the city</h3><p>Take a rental bike and drift: the city is flat and has continuous cycle lanes. Metro, S-train and buses also run on a shared zone system.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Nyhavn",
+     "q": "Nyhavn Copenhagen",
+     "text": "<p>Der bunte Hafen entstand im 17. Jahrhundert, und Hans Christian Andersen wohnte gleich in mehreren seiner Häuser. Am schönsten am frühen Morgen, bevor die Terrassen voll sind.</p>",
+     "text_en": "<p>The colourful harbour dates from the 17th century, and Hans Christian Andersen lived in several of its houses. Most beautiful early in the morning before the terraces fill up.</p>"
+    },
+    {
+     "name": "Erlöserkirche (Vor Frelsers Kirke)",
+     "name_en": "Church of Our Saviour",
+     "q": "Church of Our Saviour Copenhagen",
+     "text": "<p>Hoch auf den Spiralturm der Erlöserkirche: Die Außentreppe schraubt sich um den Turm, oben hast du den Blick über die ganze Stadt. Auf Google 4,6 Sterne. Besucher nennen rund 125 DKK Eintritt und raten bei Höhenangst oder Platzangst ab.</p>",
+     "text_en": "<p>Up the spiral tower of the Church of Our Saviour: the outside stair winds around the tower and at the top you have a view over the whole city. 4.6 stars on Google. Visitors mention about 125 DKK admission and advise against it with fear of heights or claustrophobia.</p>",
+     "tip": "Die letzten Stufen sind schmal und bei Wind rutschig. Kurz vor Sonnenuntergang war es laut einem Besucher nicht voll.",
+     "tip_en": "The last steps are narrow and slippery in wind. Shortly before sunset it was not crowded according to one visitor."
+    },
+    {
+     "name": "Torvehallerne",
+     "q": "Torvehallerne Copenhagen",
+     "text": "<p>Zwei Markthallen mit Smørrebrød, frischem Fisch, Bäckern und Blumen. Auf Google 4,5 Sterne bei rund 17.000 Bewertungen. Die Preise liegen laut Gästen eher über dem Durchschnitt, die Qualität dafür hoch.</p>",
+     "text_en": "<p>Two market halls with smørrebrød, fresh fish, bakers and flowers. 4.5 stars on Google from about 17,000 reviews. Prices are above average according to guests, quality high.</p>",
+     "hours": "laut Google Mo–Fr 10–19 Uhr, Sa/So 10–18 Uhr",
+     "hours_en": "Mon–Fri 10 am–7 pm, Sat/Sun 10 am–6 pm according to Google"
+    },
+    {
+     "name": "Tivoli Gardens",
+     "text": "<p>Der Tivoli ist einer der ältesten Freizeitparks der Welt, mitten in der Stadt, mit Fahrgeschäften, Gärten, Konzerten und abends Beleuchtung. Auch ohne Fahrgeschäfte lohnt ein Spaziergang. Eintritt und Öffnungszeiten (saisonal) vorher prüfen.</p><p>Komm abends, wenn die Lichter angehen.</p>",
+     "text_en": "<p>Tivoli is one of the oldest amusement parks in the world, in the middle of the city, with rides, gardens, concerts and in the evening illumination. Even without rides a walk is worthwhile. Check admission and opening times (seasonal) beforehand.</p><p>Come in the evening when the lights come on.</p>",
+     "name_en": "Tivoli Gardens",
+     "q": "Tivoli Gardens Copenhagen",
+     "tip": "Komm abends, wenn die Lichter angehen.",
+     "tip_en": "Come in the evening when the lights come on."
+    },
+    {
+     "name": "Die Kleine Meerjungfrau & Kastellet",
+     "text": "<p>Die Kleine Meerjungfrau sitzt am Hafen auf einem Stein und ist kleiner, als viele denken. Auf dem Weg dorthin liegt die sternförmige Festung Kastellet mit Wällen und Mühle, ideal für einen Spaziergang am Wasser.</p><p>Verbinde beides zu einem Morgenspaziergang.</p>",
+     "text_en": "<p>The Little Mermaid sits on a rock in the harbour and is smaller than many think. On the way lies the star-shaped fortress Kastellet with ramparts and a windmill, ideal for a walk by the water.</p><p>Combine both into a morning walk.</p>",
+     "name_en": "The Little Mermaid & Kastellet",
+     "q": "Little Mermaid Copenhagen",
+     "tip": "Verbinde die Figur mit einem Spaziergang durch Kastellet.",
+     "tip_en": "Combine the statue with a walk through Kastellet."
+    },
+    {
+     "name": "Rundetårn & Schloss Rosenborg",
+     "text": "<p>Der Rundetårn (Runder Turm) hat statt Treppen einen spiralförmigen Weg nach oben und bietet Blick über die Altstadt. Das Schloss Rosenborg mit Königsgarten zeigt Kronjuwelen und Schatzkammer (Zeiten und Preise vorher prüfen).</p><p>Beides liegt in der Innenstadt und lässt sich zu Fuß verbinden.</p>",
+     "text_en": "<p>The Rundetårn (Round Tower) has a spiral ramp instead of stairs and offers a view over the old town. Rosenborg Castle with its King’s Garden shows crown jewels and treasury (check times and prices beforehand).</p><p>Both lie in the city centre and can be combined on foot.</p>",
+     "name_en": "Rundetårn & Rosenborg Castle",
+     "q": "Rundetaarn Copenhagen",
+     "tip": "Verbinde Turm, Schloss und Königsgarten zu Fuß.",
+     "tip_en": "Combine tower, castle and King’s Garden on foot."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems & Besonderes",
+   "h_en": "Hidden gems & the unusual",
+   "spots": [
+    {
+     "name": "Hafenbad Islands Brygge",
+     "name_en": "Islands Brygge harbour bath",
+     "gem": true,
+     "q": "Havnebadet Islands Brygge",
+     "text": "<p>Wer mutig ist, springt ins Hafenbad: ein kostenloses Hafenbad mit Sprungbecken, zwei flachen Becken und einer 75-m-Bahn. Auf Google 4,5 Sterne. Das Wasser ist im Sommer rund 20 °C, gelegentlich gibt es Quallen.</p>",
+     "text_en": "<p>If you are brave, jump into the harbour bath: a free harbour bath with a jumping pool, two shallow pools and a 75 m lane. 4.5 stars on Google. The water is around 20 °C in summer, with occasional jellyfish.</p>",
+     "hours": "laut Google täglich 6–22 Uhr (Saison)",
+     "hours_en": "daily 6 am–10 pm according to Google (season)",
+     "price": "kostenlos",
+     "price_en": "free",
+     "tip": "Bring ein Handtuch mit; bei Algen/Quallen vor Ort die Hinweise lesen.",
+     "tip_en": "Bring a towel; read the notices on site if there are algae or jellyfish."
+    },
+    {
+     "name": "CopenHill",
+     "gem": true,
+     "q": "CopenHill Copenhagen",
+     "text": "<p>Ein Müllheizkraftwerk, auf dessen Dach Ski gefahren wird. Auch ohne Ski lohnt es sich: Der Lift nach oben ist laut Besuchern kostenlos, oben gibt es Café und Panoramablick. Auf Google 4,5 Sterne.</p>",
+     "text_en": "<p>A waste-to-energy plant with a ski slope on its roof. It is worthwhile even without skis: the lift up is free according to visitors, with a café and panoramic view at the top. 4.5 stars on Google.</p>",
+     "hours": "laut Google Mo 12–17, Di–Fr 12–19, Sa 10–18, So 10–17 Uhr",
+     "hours_en": "Mon noon–5 pm, Tue–Fri noon–7 pm, Sat 10 am–6 pm, Sun 10 am–5 pm according to Google",
+     "tip": "Nimm das Rad über Nyhavn und das Opernhaus – ein guter Weg.",
+     "tip_en": "Take your bike via Nyhavn and the Opera House – a good route."
+    },
+    {
+     "name": "Reffen – Streetfood am Wasser",
+     "name_en": "Reffen – street food by the water",
+     "q": "Reffen Copenhagen Street Food",
+     "text": "<p>Abends Streetfood bei Reffen: der größte Streetfood-Markt Nordeuropas mit Stalls aus aller Welt, Bars und Blick auf die Skyline. Auf Google 4,6 Sterne bei über 13.000 Bewertungen.</p>",
+     "text_en": "<p>Street food at Reffen in the evening: the largest street-food market in Northern Europe with stalls from around the world, bars and a view of the skyline. 4.6 stars on Google from over 13,000 reviews.</p>",
+     "tip": "Der Ort liegt etwas abseits – mit Rad oder Hafenbus hin, zum Sonnenuntergang.",
+     "tip_en": "The place is a bit remote – go by bike or harbour bus, at sunset."
+    },
+    {
+     "name": "Christiania",
+     "q": "Freetown Christiania",
+     "text": "<p>1971 besetzten Aktivisten ein altes Militärgelände und riefen die Freistadt Christiania aus – es gibt sie bis heute. Ein alternatives Viertel mit Werkstätten, Cafés und selbstgebauten Häusern.</p>",
+     "text_en": "<p>In 1971 activists occupied an old military site and declared the Freetown of Christiania – it still exists today. An alternative quarter with workshops, cafés and self-built houses.</p>",
+     "tip": "Beachte die Hinweisschilder vor Ort, besonders zum Fotografieren.",
+     "tip_en": "Follow the signs on site, especially regarding photography."
+    },
+    {
+     "name": "Bakken",
+     "q": "Dyrehavsbakken",
+     "text": "<p>Nördlich der Stadt liegt Bakken, der älteste noch betriebene Freizeitpark der Welt – der Eintritt ist frei, die Fahrgeschäfte kosten extra.</p>",
+     "text_en": "<p>North of the city lies Bakken, the oldest amusement park still in operation in the world – admission is free, the rides cost extra.</p>"
+    },
+    {
+     "name": "Tagesausflug: Louisiana-Museum & Schloss Kronborg",
+     "text": "<p>Nördlich von Kopenhagen liegt das Louisiana-Museum für moderne Kunst direkt am Meer mit Skulpturenpark. In Helsingør steht Schloss Kronborg, bekannt als Hamlets Schloss. Beide Ziele erreichst du per Zug (Fahrpläne vorher prüfen).</p><p>Plane einen vollen Tag ein.</p>",
+     "text_en": "<p>North of Copenhagen lies the Louisiana Museum of Modern Art directly by the sea with a sculpture park. In Helsingør stands Kronborg Castle, known as Hamlet’s castle. You reach both by train (check timetables beforehand).</p><p>Plan a full day.</p>",
+     "name_en": "Day trip: Louisiana Museum & Kronborg Castle",
+     "gem": true,
+     "q": "Louisiana Museum Humlebaek",
+     "tip": "Plane einen vollen Tag per Zug.",
+     "tip_en": "Plan a full day by train."
+    },
+    {
+     "name": "Smørrebrød, Zimtschnecken & Pølser",
+     "text": "<p>Probiere Smørrebrød (belegte Roggenbrote), Kanelsnegle (Zimtschnecken), Pølser (Hotdogs) und Hering. Dänisches Essen ist liebevoll angerichtet. Preise in Kopenhagen sind hoch; frag vorher.</p><p>Ein Hotdog-Stand ist eine günstige Alternative.</p>",
+     "text_en": "<p>Try smørrebrød (open rye-bread sandwiches), kanelsnegle (cinnamon buns), pølser (hot dogs) and herring. Danish food is lovingly presented. Prices in Copenhagen are high; ask beforehand.</p><p>A hot dog stand is a cheap alternative.</p>",
+     "name_en": "Smørrebrød, cinnamon buns & pølser",
+     "q": "Smørrebrød Copenhagen",
+     "tip": "Probiere Smørrebrød am Mittag.",
+     "tip_en": "Try smørrebrød at lunch."
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "essen",
+   "h": "Essen & Trinken",
+   "h_en": "Food & drink",
+   "html": "<ul><li><strong>Smørrebrød</strong> (belegte Brote) in den Torvehallerne.</li><li><strong>Streetfood bei Reffen</strong>: viele Küchen, abends mit Blick aufs Wasser.</li><li><strong>Bäckereien</strong> mit Zimtschnecken (kanelsnegle) und Wienerbrød.</li></ul><p>Dänemark ist teuer – Mittagsmenüs und Märkte sparen Geld, Leitungswasser ist gratis.</p>",
+   "html_en": "<ul><li><strong>Smørrebrød</strong> (open sandwiches) at Torvehallerne.</li><li><strong>Street food at Reffen</strong>: many cuisines, in the evening with water views.</li><li><strong>Bakeries</strong> with cinnamon rolls (kanelsnegle) and Danish pastries.</li></ul><p>Denmark is expensive – lunch menus and markets save money, tap water is free.</p>"
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Dänemark ausmacht",
+   "h_en": "What makes Denmark special",
+   "box": "gyg",
+   "html": "<p>Hygge – das dänische Wort für Gemütlichkeit – ist hier eine Lebenshaltung. Dazu Design an jeder Ecke und mehr Fahrräder als Autos. Bischof Absalon gründete die Stadt im 12. Jahrhundert als Festung.</p><p><strong>Mein Tipp:</strong> Ein Leihrad nehmen und treiben lassen – durch Christianshavn, hoch auf den Spiralturm der Erlöserkirche und abends Streetfood bei Reffen.</p>",
+   "html_en": "<p>Hygge – the Danish word for cosiness – is a way of life here. Add design on every corner and more bicycles than cars. Bishop Absalon founded the city in the 12th century as a fortress.</p><p><strong>My tip:</strong> take a rental bike and drift – through Christianshavn, up the spiral tower of the Church of Our Saviour and street food at Reffen in the evening.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Tag 1 – Zentrum",
+   "h_en": "Day 1 – Centre",
+   "items": [
+    "<strong>Morgens</strong> – Nyhavn früh",
+    "<strong>Vormittag</strong> – Torvehallerne",
+    "<strong>Nachmittag</strong> – Christianshavn und Spiralturm",
+    "<strong>Abend</strong> – Hafenbad oder Spaziergang am Wasser"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Nyhavn early",
+    "<strong>Late morning</strong> – Torvehallerne",
+    "<strong>Afternoon</strong> – Christianshavn and spiral tower",
+    "<strong>Evening</strong> – harbour bath or a walk by the water"
+   ]
+  },
+  {
+   "h": "Tag 2 – Besonderes",
+   "h_en": "Day 2 – The unusual",
+   "items": [
+    "<strong>Vormittag</strong> – CopenHill",
+    "<strong>Nachmittag</strong> – Christiania",
+    "<strong>Abend</strong> – Reffen zum Sonnenuntergang"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – CopenHill",
+    "<strong>Afternoon</strong> – Christiania",
+    "<strong>Evening</strong> – Reffen at sunset"
+   ]
+  },
+  {
+   "h": "Tag 3 – Ausflug",
+   "h_en": "Day 3 – Excursion",
+   "items": [
+    "<strong>Tag</strong> – Bakken (freier Eintritt) oder Radtour an der Küste"
+   ],
+   "items_en": [
+    "<strong>Day</strong> – Bakken (free admission) or a bike tour along the coast"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie viele Tage braucht man in Kopenhagen?",
+   "q_en": "How many days do you need in Copenhagen?",
+   "a": "<p>Drei Tage sind ideal, zwei reichen für die Highlights.</p>",
+   "a_en": "<p>Three days are ideal, two cover the highlights.</p>"
+  },
+  {
+   "q": "Ist Kopenhagen teuer?",
+   "q_en": "Is Copenhagen expensive?",
+   "a": "<p>Ja, überdurchschnittlich. Märkte, Streetfood und kostenlose Orte wie das Hafenbad und Bakken-Eintritt helfen beim Sparen.</p>",
+   "a_en": "<p>Yes, above average. Markets, street food and free places like the harbour bath and Bakken admission help save.</p>"
+  },
+  {
+   "q": "Kann man im Hafen wirklich baden?",
+   "q_en": "Can you really swim in the harbour?",
+   "a": "<p>Ja, an ausgewiesenen Hafenbädern wie Islands Brygge – sie sind kostenlos. Hinweise vor Ort zur Wasserqualität beachten.</p>",
+   "a_en": "<p>Yes, at designated harbour baths such as Islands Brygge – they are free. Follow notices on site about water quality.</p>"
+  }
+ ]
 }

@@ -7,8 +7,8 @@
  "city": "New York",
  "city_en": "New York",
  "updated": "2026-11-05",
- "title": "New York Guide: Brooklyn Bridge, High Line, Chelsea Market & Gratis-Fähre",
- "title_en": "New York Guide: Brooklyn Bridge, High Line, Chelsea Market & the Free Ferry",
+ "title": "New York Guide: 15 Orte – Brooklyn Bridge, High Line, Chelsea Market, Gratis-Fähre & Hidden Gems",
+ "title_en": "New York Guide: 15 places – Brooklyn Bridge, High Line, Chelsea Market, free ferry & hidden gems",
  "desc": "New York mit kleinem Budget: früh über die Brooklyn Bridge, High Line, Chelsea Market, Staten Island Ferry statt Bootstour und Hidden Gems wie die Flüstergalerie – von Noel.",
  "desc_en": "New York on a budget: the Brooklyn Bridge early, High Line, Chelsea Market, Staten Island Ferry instead of a boat tour and hidden gems like the whispering gallery – from Noel.",
  "gyg_q": "New York",
@@ -77,6 +77,42 @@
      "text": "Für die Freiheitsstatue: die kostenlose Fähre statt einer teuren Bootstour.",
      "text_en": "For the Statue of Liberty: the free ferry instead of an expensive boat tour.",
      "q": "Staten Island Ferry"
+    },
+    {
+     "name": "Central Park",
+     "text": "<p>Der Central Park ist die grüne Lunge Manhattans: Wiesen, Seen, Brücken, Skulpturen und Wege. Bethesda Terrace, Bow Bridge und Strawberry Fields sind bekannte Punkte. Du kannst Räder mieten oder zu Fuß gehen; ein Spaziergang dauert zwei bis drei Stunden.</p><p>Starte morgens und nimm Wasser mit. Im Herbst ist das Laub besonders schön.</p>",
+     "text_en": "<p>Central Park is Manhattan’s green lung: lawns, lakes, bridges, sculptures and paths. Bethesda Terrace, Bow Bridge and Strawberry Fields are well-known points. You can rent bikes or walk; a walk takes two to three hours.</p><p>Start in the morning and take water. In autumn the foliage is especially beautiful.</p>",
+     "name_en": "Central Park",
+     "q": "Central Park New York",
+     "tip": "Starte morgens an der Bethesda Terrace.",
+     "tip_en": "Start in the morning at Bethesda Terrace."
+    },
+    {
+     "name": "Aussicht: Top of the Rock, Empire State & Summit",
+     "text": "<p>New York hat mehrere Aussichtspunkte: Top of the Rock am Rockefeller Center (mit Blick auf das Empire State Building), das Empire State Building selbst und das Summit One Vanderbilt. Tickets sind teuer; vergleiche Preise und buche online. Zum Sonnenuntergang ist der Blick am schönsten.</p><p>Wenn du sparen willst, wähle nur eine Plattform.</p>",
+     "text_en": "<p>New York has several viewpoints: Top of the Rock at Rockefeller Center (with a view of the Empire State Building), the Empire State Building itself and Summit One Vanderbilt. Tickets are expensive; compare prices and book online. The view is most beautiful at sunset.</p><p>If you want to save money choose just one platform.</p>",
+     "name_en": "Views: Top of the Rock, Empire State & Summit",
+     "q": "Top of the Rock New York",
+     "tip": "Wähle eine Plattform und buche für den Sonnenuntergang.",
+     "tip_en": "Choose one platform and book for sunset."
+    },
+    {
+     "name": "Times Square & Broadway",
+     "text": "<p>Der Times Square ist ein Meer aus Leuchtreklamen, laut und voll – einmal sehen, am besten abends. Rund um den Platz liegen die Broadway-Theater. Tickets für Musicals und Stücke bekommst du online oder, manchmal ermäßigt, an Tageskassen (Preise vorher prüfen).</p><p>Achte auf Taschendiebe und aufdringliche Angebote.</p>",
+     "text_en": "<p>Times Square is a sea of neon signs, loud and crowded – see it once, best in the evening. Around the square lie the Broadway theatres. Tickets for musicals and plays are available online or, sometimes discounted, at box offices (check prices beforehand).</p><p>Watch for pickpockets and pushy offers.</p>",
+     "name_en": "Times Square & Broadway",
+     "q": "Times Square New York",
+     "tip": "Komm abends und schau dir ein Broadway-Stück an.",
+     "tip_en": "Come in the evening and see a Broadway show."
+    },
+    {
+     "name": "Metropolitan Museum of Art",
+     "text": "<p>Das Met ist eines der größten Kunstmuseen der Welt mit ägyptischen Tempeln, europäischen Gemälden, Rüstungen und moderner Kunst. Es ist riesig; wähle zwei bis drei Bereiche aus. Auf dem Dach gibt es im Sommer einen Garten mit Blick auf den Central Park (Zeiten und Preise vorher prüfen).</p><p>Plane drei bis vier Stunden ein.</p>",
+     "text_en": "<p>The Met is one of the largest art museums in the world with Egyptian temples, European paintings, armour and modern art. It is huge; choose two to three areas. On the roof there is a garden with a view of Central Park in summer (check times and prices beforehand).</p><p>Plan three to four hours.</p>",
+     "name_en": "Metropolitan Museum of Art",
+     "q": "Metropolitan Museum of Art",
+     "tip": "Wähle zwei bis drei Bereiche aus.",
+     "tip_en": "Choose two to three areas."
     }
    ]
   },
@@ -109,6 +145,45 @@
      "name_en": "Phone-booth speakeasy",
      "gem": true,
      "q": "Speakeasy in der Telefonzelle"
+    },
+    {
+     "name": "Roosevelt Island Tramway",
+     "text": "<p>Die Seilbahn nach Roosevelt Island fährt über den East River und bietet Blicke auf Manhattan zum Preis eines normalen U-Bahn-Tickets. Auf der Insel gibt es Parks und ruhige Promenaden. Es ist eine günstige Alternative zu teuren Aussichtsplattformen.</p><p>Prüfe Tarif und Betriebszeiten vorher.</p>",
+     "text_en": "<p>The cable car to Roosevelt Island crosses the East River and offers views of Manhattan for the price of a normal subway ticket. On the island there are parks and calm promenades. It is a cheap alternative to expensive observation decks.</p><p>Check fare and operating times beforehand.</p>",
+     "name_en": "Roosevelt Island Tramway",
+     "gem": true,
+     "q": "Roosevelt Island Tramway",
+     "tip": "Fahr zum Sonnenuntergang hin.",
+     "tip_en": "Ride there at sunset."
+    },
+    {
+     "name": "DUMBO & Brooklyn Bridge Park",
+     "text": "<p>In DUMBO unter der Manhattan Bridge gibt es das berühmte Foto von der Washington Street mit Brückenblick. Der Brooklyn Bridge Park bietet Promenaden, Piers und Blick auf die Skyline. Cafés und Läden machen das Viertel angenehm.</p><p>Komm früh am Morgen, wenn weniger Menschen da sind.</p>",
+     "text_en": "<p>In DUMBO under the Manhattan Bridge there is the famous photo spot on Washington Street with a bridge view. Brooklyn Bridge Park offers promenades, piers and a view of the skyline. Cafés and shops make the district pleasant.</p><p>Come early in the morning when fewer people are there.</p>",
+     "name_en": "DUMBO & Brooklyn Bridge Park",
+     "gem": true,
+     "q": "DUMBO Brooklyn",
+     "tip": "Komm früh am Morgen für das Foto.",
+     "tip_en": "Come early in the morning for the photo."
+    },
+    {
+     "name": "Greenwich Village & Washington Square",
+     "text": "<p>Greenwich Village ist ein ruhiges Viertel mit Backsteinhäusern, kleinen Cafés, Jazzclubs und dem Washington Square Park mit dem Triumphbogen. Hier spielen Straßenmusiker, und Studierende der nahen Universität sitzen im Park.</p><p>Ein guter Ort für einen entspannten Nachmittag.</p>",
+     "text_en": "<p>Greenwich Village is a quiet district with brick houses, small cafés, jazz clubs and Washington Square Park with its triumphal arch. Street musicians play here, and students from the nearby university sit in the park.</p><p>A good place for a relaxed afternoon.</p>",
+     "name_en": "Greenwich Village & Washington Square",
+     "gem": true,
+     "q": "Washington Square Park",
+     "tip": "Verbring den Nachmittag im Park und in den Cafés.",
+     "tip_en": "Spend the afternoon in the park and cafés."
+    },
+    {
+     "name": "New Yorker Klassiker: Bagel, Pizza-Slice & Deli",
+     "text": "<p>Probiere einen Bagel mit Frischkäse, eine Pizza-Slice für wenige Dollar, ein Pastrami-Sandwich im Deli und Cheesecake. Viele Klassiker sind günstig und schnell. Preise ändern sich; achte auf Trinkgeld-Regeln (üblich sind 18–20 Prozent in Restaurants).</p><p>Frag Einheimische nach der besten Pizza-Ecke.</p>",
+     "text_en": "<p>Try a bagel with cream cheese, a pizza slice for a few dollars, a pastrami sandwich in a deli and cheesecake. Many classics are cheap and fast. Prices change; note tipping rules (18–20 percent is usual in restaurants).</p><p>Ask locals for the best pizza corner.</p>",
+     "name_en": "New York classics: bagel, pizza slice & deli",
+     "q": "Pizza slice New York",
+     "tip": "Rechne in Restaurants mit Trinkgeld.",
+     "tip_en": "Budget for tipping in restaurants."
     }
    ]
   },
