@@ -1,403 +1,533 @@
 {
-  "slug": "prag",
-  "slug_en": "prague",
-  "status": "live", "blog": "blog-bc-3",
-  "cc": "CZ",
-  "flag": "🇨🇿",
-  "city": "Prag",
-  "city_en": "Prague",
-  "updated": "2026-11-04",
-  "title": "Prag Guide: Hidden Gems, Gärten & Tagesplan",
-  "title_en": "Prague Guide: Hidden Gems, Gardens & Day Plan",
-  "desc": "Prag abseits der Massen: Hidden Gems wie der Vrtba-Garten und der Vyšehrader Friedhof, Anreise, Tickets, Essen, Tagesplan und Insider-Tipps – kostenlos von Noel.",
-  "desc_en": "Prague away from the crowds: hidden gems like Vrtba Garden and Vyšehrad Cemetery, getting there, tickets, food, a day plan and insider tips – free from Noel.",
-  "hero": "images/hero/prag-palastgarten-w.webp",
-  "hero_alt": "Palastgarten in Prag",
-  "hero_alt_en": "Palace garden in Prague",
-  "gyg_q": "Prague",
-  "media": [
-    "images/photos/prag-palastgarten.webp",
-    "images/video/prag-karlsbruecke.mp4",
-    "images/video/prag-mala-strana-tram.mp4"
-  ],
-  "intro": "<p>Prag kennt jeder – und gerade deshalb bleibt man hier so leicht an den falschen Ecken hängen. Dieser Guide führt dich um die Massen herum: zu Gärten hinter unscheinbaren Toren, zu einem Friedhof, der eher ein Freilichtmuseum ist, zu Biergärten mit Blick über die Stadt und zu Orten, an denen auch Prager essen.</p><p>Alles ist so aufgebaut, dass du es an einem langen Wochenende schaffst – auch wenn du nicht ewig Urlaub hast. Unten findest du einen Drei-Tage-Plan, die wichtigsten Preise und Tipps zu Anreise und Geld.</p>",
-  "intro_en": "<p>Everybody knows Prague – and that is exactly why it is so easy to get stuck in the wrong corners. This guide takes you around the crowds: to gardens behind unremarkable gates, to a cemetery that feels more like an open-air museum, to beer gardens with a view over the city and to places where locals eat too.</p><p>It is built so you can do it in a long weekend – even if you do not have endless holiday. Further down you will find a three-day plan, the key prices and tips for getting there and paying.</p>",
-  "story": "<p>In Prag war ich 2024. Das echte Prag habe ich in Malá Strana gelernt: Sobald du von der Karlsbrücke in die Seitengassen abbiegst, wird es ruhig – Kopfsteinpflaster, Palastgärten, die Straßenbahn quietscht um die Ecke. Mein Rat: um 7 Uhr über die Brücke und dann sofort in die Kleinseite, bevor die Gruppen kommen.</p>",
-  "story_en": "<p>I was in Prague in 2024. I learnt what the real Prague is in Malá Strana: as soon as you turn off Charles Bridge into the side lanes it gets quiet – cobblestones, palace gardens, the tram squealing round the corner. My advice: cross the bridge at 7 am and head straight into the Lesser Town before the groups arrive.</p>",
-  "facts": [
-    { "k": "Dauer", "k_en": "How long", "v": "2–3 Tage für die Highlights, 4 mit Tagesausflug", "v_en": "2–3 days for the highlights, 4 with a day trip" },
-    { "k": "Beste Reisezeit", "k_en": "Best time", "v": "Frühling und früher Herbst; Gärten nur April–Oktober offen", "v_en": "Spring and early autumn; gardens only open April–October" },
-    { "k": "Währung", "k_en": "Currency", "v": "Tschechische Krone (CZK), kein Euro. Karte klappt fast überall.", "v_en": "Czech koruna (CZK), not the euro. Cards work almost everywhere." },
-    { "k": "Nahverkehr", "k_en": "Transport", "v": "Ein Ticket für Metro, Tram und Bus – sofort entwerten", "v_en": "One ticket for metro, tram and bus – validate straight away" },
-    { "k": "Sprache", "k_en": "Language", "v": "Tschechisch; Englisch reicht in der Innenstadt meist", "v_en": "Czech; English usually works in the centre" },
-    { "k": "Zeitzone", "k_en": "Time zone", "v": "Wie Deutschland (MEZ)", "v_en": "Same as Germany (CET)" },
-    { "k": "Leitungswasser", "k_en": "Tap water", "v": "Trinkbar", "v_en": "Drinkable" }
-  ],
-  "blocks": [
+ "slug": "prag",
+ "slug_en": "prague",
+ "status": "live",
+ "blog": "blog-bc-3",
+ "cc": "CZ",
+ "flag": "🇨🇿",
+ "city": "Prag",
+ "city_en": "Prague",
+ "updated": "2026-11-05",
+ "title": "Prag Guide: 25 Highlights & Hidden Gems – Karlsbrücke, Gärten, Vyšehrad",
+ "title_en": "Prague Guide: 25 Highlights & Hidden Gems – Charles Bridge, Gardens, Vyšehrad",
+ "desc": "Prag in 3 Tagen: Karlsbrücke um 7 Uhr, Altstädter Ring, Kleinseite, Josefov, Petřín plus Hidden Gems wie Vrtba-Garten, Vyšehrader Friedhof und Lucerna-Passage – mit Preisen, Tipps und Tagesplan von Noel.",
+ "desc_en": "Prague in 3 days: Charles Bridge at 7 am, Old Town Square, Lesser Town, Josefov, Petřín plus hidden gems such as Vrtba Garden, Vyšehrad Cemetery and Lucerna Arcade – with prices, tips and a day plan from Noel.",
+ "hero": "images/hero/prag-palastgarten-w.webp",
+ "hero_alt": "Palastgarten in Prag",
+ "hero_alt_en": "Palace garden in Prague",
+ "gyg_q": "Prague",
+ "media": [
+  "images/photos/prag-palastgarten.webp",
+  "images/video/prag-karlsbruecke.mp4",
+  "images/video/prag-mala-strana-tram.mp4"
+ ],
+ "intro": "<p>Prag kennt jeder – und gerade deshalb bleibt man hier so leicht an den falschen Ecken hängen. Dieser Guide führt dich um die Massen herum: zu Gärten hinter unscheinbaren Toren, zu einem Friedhof, der eher ein Freilichtmuseum ist, zu Biergärten mit Blick über die Stadt und zu Orten, an denen auch Prager essen.</p><p>Alles ist so aufgebaut, dass du es an einem langen Wochenende schaffst – auch wenn du nicht ewig Urlaub hast. Unten findest du einen Drei-Tage-Plan, die wichtigsten Preise und Tipps zu Anreise und Geld.</p>",
+ "intro_en": "<p>Everybody knows Prague – and that is exactly why it is so easy to get stuck in the wrong corners. This guide takes you around the crowds: to gardens behind unremarkable gates, to a cemetery that feels more like an open-air museum, to beer gardens with a view over the city and to places where locals eat too.</p><p>It is built so you can do it in a long weekend – even if you do not have endless holiday. Further down you will find a three-day plan, the key prices and tips for getting there and paying.</p>",
+ "story": "<p>In Prag war ich 2024. Das echte Prag habe ich in Malá Strana gelernt: Sobald du von der Karlsbrücke in die Seitengassen abbiegst, wird es ruhig – Kopfsteinpflaster, Palastgärten, die Straßenbahn quietscht um die Ecke. Mein Rat: um 7 Uhr über die Brücke und dann sofort in die Kleinseite, bevor die Gruppen kommen.</p>",
+ "story_en": "<p>I was in Prague in 2024. I learnt what the real Prague is in Malá Strana: as soon as you turn off Charles Bridge into the side lanes it gets quiet – cobblestones, palace gardens, the tram squealing round the corner. My advice: cross the bridge at 7 am and head straight into the Lesser Town before the groups arrive.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage für die Highlights, 4 mit Tagesausflug",
+   "v_en": "2–3 days for the highlights, 4 with a day trip"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Frühling und früher Herbst; Gärten nur April–Oktober offen",
+   "v_en": "Spring and early autumn; gardens only open April–October"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Tschechische Krone (CZK), kein Euro. Karte klappt fast überall.",
+   "v_en": "Czech koruna (CZK), not the euro. Cards work almost everywhere."
+  },
+  {
+   "k": "Nahverkehr",
+   "k_en": "Transport",
+   "v": "Ein Ticket für Metro, Tram und Bus – sofort entwerten",
+   "v_en": "One ticket for metro, tram and bus – validate straight away"
+  },
+  {
+   "k": "Sprache",
+   "k_en": "Language",
+   "v": "Tschechisch; Englisch reicht in der Innenstadt meist",
+   "v_en": "Czech; English usually works in the centre"
+  },
+  {
+   "k": "Zeitzone",
+   "k_en": "Time zone",
+   "v": "Wie Deutschland (MEZ)",
+   "v_en": "Same as Germany (CET)"
+  },
+  {
+   "k": "Leitungswasser",
+   "k_en": "Tap water",
+   "v": "Trinkbar",
+   "v_en": "Drinkable"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Prag",
+   "h_en": "How to get to Prague",
+   "box": "omio",
+   "html": "<h3>Mit dem Flugzeug</h3><p>Die günstigste Verbindung in die Altstadt: Bus 119 bis <strong>Nádraží Veleslavín</strong>, dort in die grüne Metro-Linie A. Das dauert insgesamt rund 40 Minuten, und ein 90-Minuten-Ticket deckt beide Fahrten ab. Der Airport Express (AE) fährt in etwa 35 Minuten direkt zum Hauptbahnhof (Hlavní nádraží) und kostet extra. Tickets gibt es an den gelben Automaten im Terminal oder in der App PID Lítačka.</p><h3>Mit dem Zug</h3><p>Berlin–Prag fährst du direkt in etwa 4 bis 4,5 Stunden, mit rund acht Direktverbindungen pro Tag. Ab Dresden sind es gut zwei Stunden. Frühbuchen lohnt sich: Sparpreise liegen oft im Bereich von etwa 25–35 € in der 2. Klasse, am Reisetag kann es deutlich teurer werden.</p><h3>Mit dem Bus</h3><p>Fernbusse (zum Beispiel FlixBus) verbinden Prag mit vielen deutschen Städten – oft die günstigste, aber langsamste Variante.</p>",
+   "html_en": "<h3>By plane</h3><p>The cheapest way into the Old Town: bus 119 to <strong>Nádraží Veleslavín</strong>, then the green metro line A. In total that takes around 40 minutes, and one 90-minute ticket covers both rides. The Airport Express (AE) runs directly to the main station (Hlavní nádraží) in about 35 minutes and costs extra. Tickets are sold at the yellow machines in the terminal or in the PID Lítačka app.</p><h3>By train</h3><p>Berlin–Prague takes roughly 4 to 4.5 hours direct, with around eight direct trains a day. From Dresden it is a good two hours. Booking early pays off: saver fares are often around €25–35 in second class, while same-day prices can be much higher.</p><h3>By bus</h3><p>Long-distance buses (for example FlixBus) link Prague with many German cities – often the cheapest but slowest option.</p>"
+  },
+  {
+   "type": "prose",
+   "id": "unterwegs",
+   "h": "Unterwegs in Prag: Tickets, Geld, Fallen",
+   "h_en": "Getting around: tickets, money, traps",
+   "html": "<h3>Zu Fuß ist Prag am schönsten</h3><p>Altstadt, Kleinseite und Burg liegen eng beieinander – plane lieber Gehzeit als Bahnfahrten ein. Für die Hügel (Burg, Letná, Vyšehrad) sind Tram und Metro Gold wert.</p><h3>Tickets für Metro, Tram und Bus</h3><ul><li>Ein Ticket gilt in Metro, Tram und Bus. Es gibt 30-Minuten-, 90-Minuten-, 24-Stunden- und 72-Stunden-Tickets.</li><li>Ungefähre Preise (Stand 2026, digitale Tickets sind meist etwas günstiger): 90 Minuten rund 40–50 Kč, 24 Stunden rund 120–150 Kč, 72 Stunden rund 330–350 Kč.</li><li>Papiertickets sofort entwerten. Kontrolleure sind in Zivil unterwegs; ohne gültiges Ticket zahlst du rund 1.200 Kč.</li><li>Die Metro fährt grob von 5 Uhr bis Mitternacht, danach übernehmen die Nachttrams 91–99.</li></ul><h3>Geld</h3><p>Bezahlt wird in Kronen. Kartenzahlung klappt fast überall. Wechselstuben in der Altstadt lohnen sich selten – zieh lieber Bargeld an einem Geldautomaten einer normalen Bank. Fragt Automat oder Kartenterminal, ob du in Euro oder in Kronen zahlen willst: immer <strong>Kronen</strong> wählen. Am Biergarten im Letná-Park nehmen manche Stände nur Bargeld.</p><h3>Touristenfallen</h3><p>Die Karlsbrücke ist tagsüber überfüllt – Noels Tipp: um 7 Uhr hingehen. Der Schornsteinkuchen Trdelník wird gern als typisch tschechisch verkauft, gilt aber eher als Touristen-Snack. Probier lieber ein Mittagsmenü oder ein Gebäck vom Bäcker.</p>",
+   "html_en": "<h3>Prague is best on foot</h3><p>The Old Town, Lesser Town and castle sit close together – plan walking time rather than rides. For the hills (castle, Letná, Vyšehrad) tram and metro are worth their weight in gold.</p><h3>Tickets for metro, tram and bus</h3><ul><li>One ticket works on metro, tram and bus. There are 30-minute, 90-minute, 24-hour and 72-hour tickets.</li><li>Approximate prices (2026, digital tickets are usually a bit cheaper): 90 minutes about 40–50 CZK, 24 hours about 120–150 CZK, 72 hours about 330–350 CZK.</li><li>Validate paper tickets immediately. Inspectors wear plain clothes; without a valid ticket you pay around 1,200 CZK.</li><li>The metro runs roughly from 5 am to midnight, after that night trams 91–99 take over.</li></ul><h3>Money</h3><p>You pay in koruna. Cards work almost everywhere. Exchange offices in the Old Town are rarely worth it – withdraw cash at an ATM of a normal bank instead. If the machine or card terminal asks whether you want to pay in euros or koruna: always choose <strong>koruna</strong>. At the beer garden in Letná Park some stands take cash only.</p><h3>Tourist traps</h3><p>Charles Bridge is packed during the day – Noel’s tip: go at 7 am. The chimney cake trdelník is often sold as typically Czech but is more of a tourist snack. Try a lunch menu or a pastry from a bakery instead.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "klassiker",
+   "h": "Die Klassiker – mit meinen Tipps, wie du sie ohne Massen erlebst",
+   "h_en": "The classics – with my tips on how to see them without the crowds",
+   "spots": [
     {
-      "type": "prose",
-      "id": "anreise",
-      "h": "So kommst du nach Prag",
-      "h_en": "How to get to Prague",
-      "box": "omio",
-      "html": "<h3>Mit dem Flugzeug</h3><p>Die günstigste Verbindung in die Altstadt: Bus 119 bis <strong>Nádraží Veleslavín</strong>, dort in die grüne Metro-Linie A. Das dauert insgesamt rund 40 Minuten, und ein 90-Minuten-Ticket deckt beide Fahrten ab. Der Airport Express (AE) fährt in etwa 35 Minuten direkt zum Hauptbahnhof (Hlavní nádraží) und kostet extra. Tickets gibt es an den gelben Automaten im Terminal oder in der App PID Lítačka.</p><h3>Mit dem Zug</h3><p>Berlin–Prag fährst du direkt in etwa 4 bis 4,5 Stunden, mit rund acht Direktverbindungen pro Tag. Ab Dresden sind es gut zwei Stunden. Frühbuchen lohnt sich: Sparpreise liegen oft im Bereich von etwa 25–35 € in der 2. Klasse, am Reisetag kann es deutlich teurer werden.</p><h3>Mit dem Bus</h3><p>Fernbusse (zum Beispiel FlixBus) verbinden Prag mit vielen deutschen Städten – oft die günstigste, aber langsamste Variante.</p>",
-      "html_en": "<h3>By plane</h3><p>The cheapest way into the Old Town: bus 119 to <strong>Nádraží Veleslavín</strong>, then the green metro line A. In total that takes around 40 minutes, and one 90-minute ticket covers both rides. The Airport Express (AE) runs directly to the main station (Hlavní nádraží) in about 35 minutes and costs extra. Tickets are sold at the yellow machines in the terminal or in the PID Lítačka app.</p><h3>By train</h3><p>Berlin–Prague takes roughly 4 to 4.5 hours direct, with around eight direct trains a day. From Dresden it is a good two hours. Booking early pays off: saver fares are often around €25–35 in second class, while same-day prices can be much higher.</p><h3>By bus</h3><p>Long-distance buses (for example FlixBus) link Prague with many German cities – often the cheapest but slowest option.</p>"
+     "name": "Karlsbrücke (Karlův most)",
+     "text": "<p>Die Karlsbrücke ist das Herz von Prag und die berühmteste Brücke der Stadt: 516 Meter lang, gebaut ab 1357 unter Kaiser Karl IV., getragen von 16 Bögen und gesäumt von Statuen, die überwiegend Kopien sind. Tagsüber ist sie ein Gewimmel aus Menschen, Straßenmusikern und Künstlern – aber sie ist eine reine Fußgängerbrücke und jederzeit kostenlos.</p><p>Mein Rat steht schon in meiner Story: um 7 Uhr rauf auf die Brücke, bevor die Gruppen kommen. Dann gehört sie dir fast allein, das Licht über der Moldau ist weich, und du siehst die Prager Burg im Morgendunst. Anschließend biegst du direkt in die Gassen der Kleinseite ab – dort wird es sofort ruhig.</p><p>Ein Detail, das viele übersehen: An der Statue des heiligen Johannes von Nepomuk sind die Bronzereliefs vom Berühren blank poliert; der Überlieferung nach bringt das Glück. Die beiden Brückentürme (Altstädter und Kleinseitner Seite) kannst du besteigen und hast von dort einen der schönsten Blicke auf Brücke und Fluss – Eintritt vorher prüfen.</p>",
+     "text_en": "<p>The Charles Bridge is the heart of Prague and the city’s most famous bridge: 516 metres long, built from 1357 under Emperor Charles IV, carried by 16 arches and lined with statues that are mostly copies. By day it is a crush of people, street musicians and artists – but it is a pedestrian-only bridge and free at any time.</p><p>My advice is already in my story: be on the bridge at 7 am, before the groups arrive. Then it is almost yours alone, the light over the Vltava is soft and you see Prague Castle in the morning haze. Afterwards turn straight into the lanes of the Lesser Town – it gets quiet immediately.</p><p>One detail many people overlook: on the statue of St John of Nepomuk the bronze reliefs are polished bright from touching; tradition says it brings luck. You can climb the two bridge towers (Old Town and Lesser Town side) and get one of the best views of the bridge and river from there – check admission beforehand.</p>",
+     "name_en": "Charles Bridge (Karlův most)",
+     "q": "Charles Bridge Prague",
+     "hours": "immer begehbar",
+     "hours_en": "always open",
+     "price": "kostenlos; Brückentürme gegen Eintritt",
+     "price_en": "free; bridge towers with admission",
+     "tip": "Komm um 7 Uhr oder nach Einbruch der Dunkelheit. Tagsüber lohnt sich die Brücke vor allem als Durchgangsweg – Fotos machst du früh oder spät.",
+     "tip_en": "Come at 7 am or after dark. By day the bridge is mainly worth it as a way across – take photos early or late.",
+     "photos": [
+      "images/video/prag-karlsbruecke.mp4"
+     ]
     },
     {
-      "type": "prose",
-      "id": "unterwegs",
-      "h": "Unterwegs in Prag: Tickets, Geld, Fallen",
-      "h_en": "Getting around: tickets, money, traps",
-      "html": "<h3>Zu Fuß ist Prag am schönsten</h3><p>Altstadt, Kleinseite und Burg liegen eng beieinander – plane lieber Gehzeit als Bahnfahrten ein. Für die Hügel (Burg, Letná, Vyšehrad) sind Tram und Metro Gold wert.</p><h3>Tickets für Metro, Tram und Bus</h3><ul><li>Ein Ticket gilt in Metro, Tram und Bus. Es gibt 30-Minuten-, 90-Minuten-, 24-Stunden- und 72-Stunden-Tickets.</li><li>Ungefähre Preise (Stand 2026, digitale Tickets sind meist etwas günstiger): 90 Minuten rund 40–50 Kč, 24 Stunden rund 120–150 Kč, 72 Stunden rund 330–350 Kč.</li><li>Papiertickets sofort entwerten. Kontrolleure sind in Zivil unterwegs; ohne gültiges Ticket zahlst du rund 1.200 Kč.</li><li>Die Metro fährt grob von 5 Uhr bis Mitternacht, danach übernehmen die Nachttrams 91–99.</li></ul><h3>Geld</h3><p>Bezahlt wird in Kronen. Kartenzahlung klappt fast überall. Wechselstuben in der Altstadt lohnen sich selten – zieh lieber Bargeld an einem Geldautomaten einer normalen Bank. Fragt Automat oder Kartenterminal, ob du in Euro oder in Kronen zahlen willst: immer <strong>Kronen</strong> wählen. Am Biergarten im Letná-Park nehmen manche Stände nur Bargeld.</p><h3>Touristenfallen</h3><p>Die Karlsbrücke ist tagsüber überfüllt – Noels Tipp: um 7 Uhr hingehen. Der Schornsteinkuchen Trdelník wird gern als typisch tschechisch verkauft, gilt aber eher als Touristen-Snack. Probier lieber ein Mittagsmenü oder ein Gebäck vom Bäcker.</p>",
-      "html_en": "<h3>Prague is best on foot</h3><p>The Old Town, Lesser Town and castle sit close together – plan walking time rather than rides. For the hills (castle, Letná, Vyšehrad) tram and metro are worth their weight in gold.</p><h3>Tickets for metro, tram and bus</h3><ul><li>One ticket works on metro, tram and bus. There are 30-minute, 90-minute, 24-hour and 72-hour tickets.</li><li>Approximate prices (2026, digital tickets are usually a bit cheaper): 90 minutes about 40–50 CZK, 24 hours about 120–150 CZK, 72 hours about 330–350 CZK.</li><li>Validate paper tickets immediately. Inspectors wear plain clothes; without a valid ticket you pay around 1,200 CZK.</li><li>The metro runs roughly from 5 am to midnight, after that night trams 91–99 take over.</li></ul><h3>Money</h3><p>You pay in koruna. Cards work almost everywhere. Exchange offices in the Old Town are rarely worth it – withdraw cash at an ATM of a normal bank instead. If the machine or card terminal asks whether you want to pay in euros or koruna: always choose <strong>koruna</strong>. At the beer garden in Letná Park some stands take cash only.</p><h3>Tourist traps</h3><p>Charles Bridge is packed during the day – Noel’s tip: go at 7 am. The chimney cake trdelník is often sold as typically Czech but is more of a tourist snack. Try a lunch menu or a pastry from a bakery instead.</p>"
+     "name": "Altstädter Ring & Astronomische Uhr (Orloj)",
+     "text": "<p>Der Altstädter Ring (Staroměstské náměstí) ist das historische Wohnzimmer von Prag: ein großer Platz, umgeben von bunten Giebelhäusern, dem Altstädter Rathaus und der doppeltürmigen Teynkirche. In der Mitte steht das Jan-Hus-Denkmal, das 1915 enthüllt wurde.</p><p>Das Highlight ist die Astronomische Uhr (Orloj) am Rathausturm, die seit 1410 läuft und als älteste noch funktionierende astronomische Uhr der Welt gilt. Zu jeder vollen Stunde – laut Besucherinfos etwa von 9 bis 21 Uhr – defiliert eine Apostelfigur-Prozession am oberen Fenster vorbei, begleitet vom Tod, der die Glocke läutet. Ehrlich gesagt ist die Show kurz und der Platz dann überfüllt; wer das Spektakel erleben will, steht besser 10 Minuten vorher am Rand.</p><p>Vom Rathausturm kommst du mit dem Aufzug nach oben und hast einen weiten Blick über die roten Dächer. Eintritt und Zeiten bitte vorab prüfen; das Innere des Rathauses ist nur teilweise zugänglich.</p>",
+     "text_en": "<p>The Old Town Square (Staroměstské náměstí) is Prague’s historic living room: a large square surrounded by colourful gabled houses, the Old Town Hall and the twin-towered Týn Church. In the middle stands the Jan Hus Monument, unveiled in 1915.</p><p>The highlight is the Astronomical Clock (Orloj) on the town hall tower, which has run since 1410 and is regarded as the oldest astronomical clock still working. Every full hour – roughly 9 am to 9 pm according to visitor information – a procession of apostle figures passes the upper window, accompanied by Death ringing the bell. Frankly the show is short and the square is packed then; if you want to see it, stand at the edge 10 minutes early.</p><p>From the town hall tower you get up by lift and have a wide view over the red roofs. Please check admission and times beforehand; the town hall interior is only partly accessible.</p>",
+     "name_en": "Old Town Square & the Astronomical Clock (Orloj)",
+     "q": "Prague Astronomical Clock",
+     "hours": "Platz immer; Rathausturm laut Betreiber täglich, Zeiten prüfen",
+     "hours_en": "square always; town hall tower daily according to the operator, check times",
+     "price": "Platz kostenlos; Turm gegen Eintritt",
+     "price_en": "square free; tower with admission",
+     "tip": "Komm früh am Morgen oder spät am Abend, wenn die Reisegruppen weg sind. Mittags und zur vollen Stunde ist der Platz am vollsten.",
+     "tip_en": "Come early in the morning or late in the evening when the tour groups are gone. Midday and on the hour the square is at its fullest."
     },
     {
-      "type": "spots",
-      "id": "gaerten",
-      "h": "Gärten & stille Ecken rund um die Kleinseite",
-      "h_en": "Gardens & quiet corners around the Lesser Town",
-      "intro": "<p>Malá Strana ist das Viertel unterhalb der Burg. Sobald du von der Karlsbrücke abbiegst, wird es ruhiger – und die schönsten Orte liegen hinter Toren, an denen die meisten vorbeilaufen.</p>",
-      "intro_en": "<p>Malá Strana is the quarter below the castle. As soon as you turn off Charles Bridge it gets quieter – and the best places sit behind gates most people walk past.</p>",
-      "spots": [
-        {
-          "name": "Vrtba-Garten (Vrtbovská zahrada)",
-          "name_en": "Vrtba Garden (Vrtbovská zahrada)",
-          "gem": true,
-          "q": "Vrtba Garden Prague",
-          "text": "<p>Ein barocker Terrassengarten, versteckt hinter einem unscheinbaren Durchgang an der Karmelitská-Straße – genau deshalb ist hier selten viel los. Der Garten wurde um 1720 angelegt und steigt in Terrassen den Hang hinauf. Von der obersten Ebene schaust du über die Dächer der Kleinseite bis zur Burg.</p>",
-          "text_en": "<p>A baroque terraced garden hidden behind an unremarkable passage off Karmelitská street – which is exactly why it is rarely crowded. It was laid out around 1720 and climbs the hillside in terraces. From the top level you look over the rooftops of the Lesser Town all the way to the castle.</p>",
-          "hours": "April–Oktober täglich 10–18 Uhr; für den Winter sind keine Zeiten veröffentlicht",
-          "hours_en": "April–October daily 10 am–6 pm; no winter hours published",
-          "price": "rund 150 Kč für Erwachsene (laut Betreiber)",
-          "price_en": "about 150 CZK for adults (according to the operator)",
-          "tip": "Je früher, desto ruhiger – gleich nach der Öffnung hast du die Terrassen oft fast für dich.",
-          "tip_en": "The earlier the quieter – right after opening you often have the terraces almost to yourself."
-        },
-        {
-          "name": "Wallenstein-Garten (Valdštejnská zahrada)",
-          "name_en": "Wallenstein Garden (Valdštejnská zahrada)",
-          "q": "Wallenstein Garden Prague",
-          "text": "<p>Barocker Palastgarten direkt unter der Burg – und kostenlos. Zwischen Springbrunnen und Skulpturen laufen Pfauen herum (mit Glück auch ein weißer), im großen Teich schwimmen riesige Fische, und am Ende des Gartens wartet eine Wand aus künstlichem Tropfstein mit versteckten Gesichtern.</p>",
-          "text_en": "<p>A baroque palace garden right below the castle – and free. Peacocks wander between fountains and sculptures (with luck a white one too), huge fish swim in the big pond, and at the far end waits a wall of artificial dripstone with hidden faces.</p>",
-          "hours": "April–Oktober 7:30–18 Uhr, November–März geschlossen",
-          "hours_en": "April–October 7:30 am–6 pm, closed November–March",
-          "price": "kostenlos",
-          "price_en": "free",
-          "tip": "Der Eingang liegt bei der Metro-Station Malostranská (Linie A). Im Sommer gibt es teils kostenlose Konzerte, und in der Hauptsaison ist samstags der Palast des Senats zugänglich.",
-          "tip_en": "The entrance is by Malostranská metro station (line A). In summer there are sometimes free concerts, and in high season the Senate palace is open on Saturdays."
-        },
-        {
-          "name": "Aufstieg durch den Hirschgraben (Jelení příkop)",
-          "name_en": "The quiet way up through the Stag Moat (Jelení příkop)",
-          "q": "Jelení příkop Praha",
-          "text": "<p>Statt die Burg über die vollen Treppen zu erobern, führt dieser Weg ruhiger hinauf – unter anderem durch einen rund 84 Meter langen Fußgängertunnel, unter dem ein kleiner Bach fließt. Oben bist du direkt im Burgareal.</p>",
-          "text_en": "<p>Instead of storming the castle up the crowded stairs, this route leads up more quietly – including through a pedestrian tunnel about 84 metres long with a small stream running beneath it. At the top you are right in the castle grounds.</p>",
-          "tip": "Das Goldene Gässchen im Burgareal ist laut Besucherinfo am späten Nachmittag im Ticketsystem frei (ab 16 Uhr, im Sommer ab 17 Uhr). Aktuelle Regeln vor Ort prüfen.",
-          "tip_en": "According to visitor information the Golden Lane inside the castle is free in the late afternoon (from 4 pm, in summer from 5 pm). Check the current rules on site."
-        },
-        {
-          "name": "Prager Burg",
-          "name_en": "Prague Castle",
-          "q": "Prague Castle",
-          "text": "<p>Die Höfe und Gärten der Burg kannst du nach der Sicherheitskontrolle kostenlos betreten. Für den Veitsdom und die anderen Gebäude brauchst du ein Rundgang-Ticket. Die Gruppen kommen meist später am Vormittag – wer früh oben ist, hat deutlich mehr Platz.</p>",
-          "text_en": "<p>You can walk through the castle courtyards and gardens for free after the security check. For St Vitus Cathedral and the other buildings you need a circuit ticket. Tour groups mostly arrive later in the morning – if you are up early you get much more space.</p>",
-          "tip": "Hoch über die Nerudova-Gasse, runter durch den Hirschgraben – so läufst du keine Strecke doppelt.",
-          "tip_en": "Up via Nerudova street, down through the Stag Moat – that way you never walk a stretch twice."
-        }
-      ]
+     "name": "Kleinseite: Nerudova, Lennon-Mauer & Kampa",
+     "text": "<p>Die Kleinseite (Malá Strana) ist der Stadtteil, der mir Prag erklärt hat: Sobald du von der Karlsbrücke in die Seitengassen abbiegst, wird es ruhig – Kopfsteinpflaster, Palastgärten, die Straßenbahn quietscht um die Ecke. Die Nerudova-Gasse führt steil zur Burg hinauf, gesäumt von barocken Fassaden mit Hauszeichen statt Hausnummern.</p><p>Auf dem Weg liegen drei Stopps, die sich lohnen: die barocke Nikolauskirche (Kostel sv. Mikuláše) mit ihrer grünen Kuppel, die Lennon-Mauer, die seit den 1980ern mit Graffiti, Botschaften und Songtexten bedeckt wird, und die Insel Kampa, die nur durch einen schmalen Wasserlauf, die Čertovka („Teufelsbach“), vom Festland getrennt ist – mit einem alten Mühlrad und stillen Uferwegen. Auf Kampa kriechen außerdem die gesichtslosen Baby-Skulpturen von David Černý über den Rasen.</p><p>Mit der Tram kommst du ebenfalls hierher; ich habe einen kurzen Clip von der Straßenbahn in der Kleinseite gedreht. Plane einen halben Tag ein, am besten mit Frühstück im Café Savoy und dem Vrtba-Garten gleich zur Öffnung.</p>",
+     "text_en": "<p>The Lesser Town (Malá Strana) is the district that explained Prague to me: as soon as you turn off the Charles Bridge into the side lanes it gets quiet – cobblestones, palace gardens, the tram squeaking around the corner. Nerudova street leads steeply up to the castle, lined with baroque façades with house signs instead of numbers.</p><p>Three stops on the way are worth it: the baroque St Nicholas Church (Kostel sv. Mikuláše) with its green dome, the Lennon Wall, covered since the 1980s in graffiti, messages and lyrics, and the island of Kampa, separated from the mainland only by a narrow watercourse, the Čertovka (“Devil’s Stream”) – with an old mill wheel and quiet riverside paths. On Kampa the faceless baby sculptures by David Černý also crawl across the lawn.</p><p>The tram also brings you here; I shot a short clip of the tram in the Lesser Town. Plan half a day, ideally with breakfast at Café Savoy and the Vrtba Garden right at opening.</p>",
+     "name_en": "Lesser Town: Nerudova, Lennon Wall & Kampa",
+     "q": "Lennon Wall Prague",
+     "tip": "Geh morgens durch die Nerudova hinauf und nach der Burg über Kampa zurück – so hast du die ruhigen Ecken, bevor sie sich füllen.",
+     "tip_en": "Walk up Nerudova in the morning and return via Kampa after the castle – that way you get the quiet corners before they fill up.",
+     "photos": [
+      "images/video/prag-mala-strana-tram.mp4",
+      "images/photos/prag-palastgarten.webp"
+     ]
     },
     {
-      "type": "spots",
-      "id": "neustadt",
-      "h": "Neustadt: Passagen, Garten und Kubismus in fünf Minuten",
-      "h_en": "New Town: arcades, a garden and Cubism within five minutes",
-      "intro": "<p>Rund um die Vodičkova-Straße, nur einen Katzensprung vom Wenzelsplatz, liegen drei Orte dicht beieinander, die die meisten Besucher auslassen.</p>",
-      "intro_en": "<p>Around Vodičkova street, a stone’s throw from Wenceslas Square, three places sit close together that most visitors skip.</p>",
-      "spots": [
-        {
-          "name": "Lucerna-Passage (Pasáž Lucerna)",
-          "name_en": "Lucerna Arcade (Pasáž Lucerna)",
-          "gem": true,
-          "q": "Lucerna Passage Prague",
-          "text": "<p>Eine Passage aus den 1920er-Jahren mit Art-déco-Flair, einem historischen Kino und Cafés. Das Highlight hängt von der Decke: eine Skulptur von David Černý, die den heiligen Wenzel auf einem kopfüber hängenden Pferd zeigt – eine freche Antwort auf das Reiterdenkmal draußen am Wenzelsplatz.</p>",
-          "text_en": "<p>An arcade from the 1920s with Art Deco flair, a historic cinema and cafés. The highlight hangs from the ceiling: a sculpture by David Černý showing Saint Wenceslas on an upside-down horse – a cheeky reply to the equestrian statue outside on Wenceslas Square.</p>",
-          "tip": "Wirf auch einen Blick in das Kino Lucerna – der Saal aus den 1920ern ist für sich schon sehenswert.",
-          "tip_en": "Also peek into Kino Lucerna – the 1920s auditorium is worth seeing in itself."
-        },
-        {
-          "name": "Franziskanergarten (Františkánská zahrada)",
-          "name_en": "Franciscan Garden (Františkánská zahrada)",
-          "gem": true,
-          "q": "Franciscan Garden Prague",
-          "text": "<p>Ein stiller Garten mitten in der Neustadt mit Bänken, Rosen, Skulpturen und einem kleinen Café – ideal für eine Pause zwischen zwei Sehenswürdigkeiten. Franziskanermönche haben ihn schon im 14. Jahrhundert angelegt. Der Eingang liegt an der Vodičkova bzw. am Jungmannplatz.</p>",
-          "text_en": "<p>A quiet garden in the middle of the New Town with benches, roses, sculptures and a small café – ideal for a break between two sights. Franciscan monks laid it out as early as the 14th century. The entrance is on Vodičkova street and Jungmann Square.</p>",
-          "hours": "tagsüber geöffnet, Zeiten schwanken je nach Saison",
-          "hours_en": "open during the day, hours vary by season",
-          "tip": "Direkt davor am Jungmannplatz steht die berühmte kubistische Laterne.",
-          "tip_en": "Right in front of it on Jungmann Square stands the famous Cubist street lamp."
-        },
-        {
-          "name": "Kubistische Laterne am Jungmannplatz",
-          "name_en": "Cubist street lamp on Jungmann Square",
-          "q": "Cubist lamp Jungmannovo náměstí Prague",
-          "text": "<p>Die Straßenlaterne von 1913 (Entwurf: Emil Králíček) gilt als die einzige kubistische Laterne der Welt – ein kleiner Stopp für alle, die Architektur und Design mögen.</p>",
-          "text_en": "<p>The street lamp from 1913 (designed by Emil Králíček) is considered the only Cubist street lamp in the world – a small stop for anyone who likes architecture and design.</p>"
-        }
-      ]
+     "name": "Josefov – das Jüdische Viertel",
+     "text": "<p>Josefov, das frühere Prager Ghetto, liegt direkt neben der Altstadt und gehört zu den bedeutendsten jüdischen Kulturstätten Europas. Das Jüdische Museum verwaltet mehrere Synagogen und den Alten Jüdischen Friedhof; Eintrittskarten gibt es als Sammelticket (Preis vorab prüfen, am Samstag und an jüdischen Feiertagen sind die Stätten geschlossen).</p><p>Die Altneu-Synagoge (Staronová synagoga) stammt aus dem 13. Jahrhundert (etwa 1270) und gilt als älteste noch genutzte mittelalterliche Synagoge Europas. Der Alte Jüdische Friedhof ist beklemmend schön: Über Jahrhunderte wurden die Toten Schicht für Schicht übereinander bestattet, weshalb Tausende Grabsteine dicht an dicht und schief nebeneinanderstehen. Auch die Spanische Synagoge mit ihrem maurisch anmutenden Inneren lohnt den Blick.</p><p>Josefov ist außerdem das Viertel von Franz Kafka, der in der Nähe geboren wurde. Wenn du ein Gefühl für die Stadt jenseits der Postkartenmotive suchst, ist das ein ruhigerer, nachdenklicher Vormittag.</p>",
+     "text_en": "<p>Josefov, the former Prague ghetto, lies right next to the Old Town and is one of Europe’s most important Jewish heritage sites. The Jewish Museum manages several synagogues and the Old Jewish Cemetery; tickets are sold as a combined ticket (check the price beforehand; the sites are closed on Saturdays and on Jewish holidays).</p><p>The Old-New Synagogue (Staronová synagoga) dates from the 13th century (around 1270) and is regarded as the oldest still-active medieval synagogue in Europe. The Old Jewish Cemetery is hauntingly beautiful: over centuries the dead were buried layer upon layer, which is why thousands of gravestones stand crowded and tilted next to each other. The Spanish Synagogue with its Moorish-style interior is also worth a look.</p><p>Josefov is also the neighbourhood of Franz Kafka, who was born nearby. If you want a feeling for the city beyond the postcard motifs, this is a quieter, more thoughtful morning.</p>",
+     "name_en": "Josefov – the Jewish Quarter",
+     "gem": true,
+     "q": "Jewish Quarter Josefov Prague",
+     "hours": "laut Jüdischem Museum meist So–Fr, samstags und an jüdischen Feiertagen geschlossen",
+     "hours_en": "according to the Jewish Museum usually Sun–Fri, closed Saturdays and on Jewish holidays",
+     "price": "Sammelticket, Preis vorab auf jewishmuseum.cz prüfen",
+     "price_en": "combined ticket, check the price beforehand at jewishmuseum.cz",
+     "tip": "Plane mindestens 2–3 Stunden ein und reserviere in der Hochsaison online – der Friedhof ist am Vormittag am stillsten.",
+     "tip_en": "Allow at least 2–3 hours and book online in high season – the cemetery is quietest in the morning."
     },
     {
-      "type": "spots",
-      "id": "aussicht",
-      "h": "Aussicht & Biergarten",
-      "h_en": "Views & beer garden",
-      "spots": [
-        {
-          "name": "Letná-Park & Metronom",
-          "name_en": "Letná Park & the Metronome",
-          "q": "Metronome Letná Prague",
-          "text": "<p>Im Letná-Park steht ein riesiges Metronom genau dort, wo einmal das größte Stalin-Denkmal der Welt stand. Von hier schaust du über die Moldau auf die Altstadt und die Brücken.</p>",
-          "text_en": "<p>In Letná Park a giant metronome stands exactly where the world’s largest Stalin monument once stood. From here you look across the Vltava to the Old Town and the bridges.</p>"
-        },
-        {
-          "name": "Biergarten Letenské sady",
-          "name_en": "Letenské sady beer garden",
-          "q": "Letná Beer Garden Prague",
-          "text": "<p>Der Klassiker für den Sonnenuntergang: lange Holztische unter Kastanien, frisch gezapftes Bier und der Blick über die Stadt. Hier trinken Prager und Touristen nebeneinander.</p>",
-          "text_en": "<p>The classic for sunset: long wooden tables under chestnut trees, freshly poured beer and the view over the city. Locals and tourists drink side by side here.</p>",
-          "hours": "Hochsaison April–September",
-          "hours_en": "peak season April–September",
-          "tip": "Nimm Bargeld in Kronen mit – manche Stände nehmen keine Karte. Der Weg hinauf ist etwas steil, und abends zurück gehst du besser nicht allein durch den Park.",
-          "tip_en": "Bring cash in koruna – some stands do not take cards. The way up is a bit steep, and in the evening it is better not to walk back through the park alone."
-        },
-        {
-          "name": "Žižkov-Fernsehturm",
-          "name_en": "Žižkov Television Tower",
-          "q": "Žižkov Television Tower Prague",
-          "text": "<p>216 Meter hoch, mit Aussichtsplattform auf rund 99 Metern. Am Turm krabbeln die bekannten Baby-Skulpturen von David Černý nach oben – ein typisch schräges Prag-Motiv.</p>",
-          "text_en": "<p>216 metres tall, with an observation deck at around 99 metres. On the tower crawl David Černý’s famous baby sculptures – a typically quirky Prague motif.</p>",
-          "tip": "Verbinde den Besuch mit einem Abend in Žižkov oder Vinohrady, wo es viele Kneipen und Cafés gibt.",
-          "tip_en": "Combine the visit with an evening in Žižkov or Vinohrady, where there are plenty of pubs and cafés."
-        }
-      ]
+     "name": "Petřín: Aussichtsturm, Rosengarten & Hungermauer",
+     "text": "<p>Der Petřín ist Prags grüner Hügel über der Kleinseite – ein Park mit Obstgärten, einem Rosengarten und einem Aussichtsturm, der 1891 nach dem Vorbild des Eiffelturms gebaut wurde (rund 63 Meter hoch, etwa 299 Stufen). Von oben siehst du die ganze Stadt, die Moldau und die Burg.</p><p>Hoch fährst du bequem mit der Standseilbahn, die an der Kleinseite (Újezd) startet; laut Betreibern gilt dafür ein normales Nahverkehrsticket – aktuelle Regeln bitte vor Ort prüfen. Auf dem Hügel verläuft außerdem die Hungermauer (Hladová zeď) aus dem 14. Jahrhundert, die der Überlieferung nach als Arbeitsbeschaffung für die Armen gebaut wurde.</p><p>Der Petřín ist ideal für einen späten Nachmittag, wenn das Licht weich wird und die Kleinseite unter dir golden leuchtet. Ein Spaziergang bergab zurück zur Kleinseite dauert rund 20–30 Minuten.</p>",
+     "text_en": "<p>Petřín is Prague’s green hill above the Lesser Town – a park with orchards, a rose garden and a lookout tower built in 1891 after the model of the Eiffel Tower (about 63 metres high, roughly 299 steps). From the top you see the whole city, the Vltava and the castle.</p><p>You go up comfortably by funicular, which starts in the Lesser Town (Újezd); according to the operators a normal public transport ticket applies – please check the current rules on site. The 14th-century Hunger Wall (Hladová zeď) also runs across the hill; according to tradition it was built as a job scheme for the poor.</p><p>Petřín is ideal for a late afternoon, when the light gets soft and the Lesser Town glows golden below you. A walk downhill back to the Lesser Town takes about 20–30 minutes.</p>",
+     "name_en": "Petřín: lookout tower, rose garden & Hunger Wall",
+     "q": "Petřín Lookout Tower Prague",
+     "tip": "Fahr mit der Standseilbahn hinauf und lauf bergab zurück – das spart Kraft, und du siehst die Kleinseite von oben.",
+     "tip_en": "Take the funicular up and walk back down – it saves energy and you see the Lesser Town from above."
     },
     {
-      "type": "spots",
-      "id": "vysehrad",
-      "h": "Vyšehrad: der Friedhof der Großen",
-      "h_en": "Vyšehrad: the cemetery of the greats",
-      "spots": [
-        {
-          "name": "Vyšehrader Friedhof und Slavín",
-          "name_en": "Vyšehrad Cemetery and Slavín",
-          "gem": true,
-          "q": "Vyšehrad Cemetery Prague",
-          "text": "<p>Auf dem Hügel über der Moldau liegt der wichtigste Friedhof Tschechiens – eher ein Freilichtmuseum als ein Ort der Trauer. Hier ruhen unter anderem die Komponisten Antonín Dvořák und Bedřich Smetana, der Maler Alfons Mucha und der Schriftsteller Karel Čapek. Am östlichen Ende steht das Pantheon Slavín.</p>",
-          "text_en": "<p>On the hill above the Vltava lies the most important cemetery in Czechia – more open-air museum than place of mourning. Among those buried here are the composers Antonín Dvořák and Bedřich Smetana, the painter Alfons Mucha and the writer Karel Čapek. At the eastern end stands the Slavín pantheon.</p>",
-          "hours": "Nov–Feb 8–17 · Mär–Apr 8–18 · Mai–Sep 8–19 · Okt 8–18 Uhr",
-          "hours_en": "Nov–Feb 8 am–5 pm · Mar–Apr 8–6 pm · May–Sep 8–7 pm · Oct 8–6 pm",
-          "price": "der Friedhof ist laut Besucherberichten kostenlos, die Basilika kostet Eintritt",
-          "price_en": "the cemetery is free according to visitors, the basilica charges admission",
-          "tip": "Der Eingang liegt links der Peter-und-Paul-Kirche. Eine Namensliste am Eingang zeigt dir, wo die bekannten Gräber liegen.",
-          "tip_en": "The entrance is to the left of the Church of Saints Peter and Paul. A list of names at the entrance shows where the famous graves are."
-        },
-        {
-          "name": "Festung Vyšehrad",
-          "name_en": "Vyšehrad Fortress",
-          "q": "Vyšehrad Prague",
-          "text": "<p>Die Anlage über der Moldau – mit Basilika, Wällen, kleinen Bistros und freiem Blick auf die Stadt – wird oft die zweite Prager Burg genannt und ist deutlich ruhiger als die große Schwester.</p>",
-          "text_en": "<p>The complex above the Vltava – with its basilica, ramparts, small bistros and open views over the city – is often called Prague’s second castle and is far quieter than its big sister.</p>"
-        }
-      ]
-    },
-    {
-      "type": "spots",
-      "id": "kunst",
-      "h": "Kunst & Schräges",
-      "h_en": "Art & quirky Prague",
-      "spots": [
-        {
-          "name": "DOX – Zentrum für zeitgenössische Kunst",
-          "name_en": "DOX Centre for Contemporary Art",
-          "gem": true,
-          "q": "DOX Centre for Contemporary Art Prague",
-          "text": "<p>Ein ehemaliges Industriegebäude in Holešovice mit zeitgenössischer Kunst, Fotografie und Design. Auf dem Dach hängt ein hölzernes Luftschiff namens Gulliver – ein ungewöhnlicher Ort für Ausstellungen und Gespräche.</p>",
-          "text_en": "<p>A former industrial building in Holešovice with contemporary art, photography and design. On the roof sits a wooden airship called Gulliver – an unusual place for exhibitions and talks.</p>",
-          "hours": "Di–So 11–19 Uhr, montags geschlossen (laut Google, vorher prüfen)",
-          "hours_en": "Tue–Sun 11 am–7 pm, closed Mondays (according to Google, check before you go)",
-          "tip": "Das Viertel rundherum hat viele Cafés und Ateliers – gut für einen ruhigen Nachmittag.",
-          "tip_en": "The surrounding neighbourhood has plenty of cafés and studios – good for a calm afternoon."
-        },
-        {
-          "name": "Die Černý-Skulpturen",
-          "name_en": "The Černý sculptures",
-          "q": "Metalmorphosis David Černý Quadrio Prague",
-          "text": "<p>Der Künstler David Černý hat Prag mit schrägen Skulpturen gefüllt: Sigmund Freud hängt an einer Stange über der Straße, ein riesiger Kafka-Kopf dreht sich vor dem Einkaufszentrum Quadrio, die Babys krabbeln am Fernsehturm hoch, und in der Lucerna-Passage hängt das Pferd kopfüber. Eine Mini-Schnitzeljagd quer durch die Stadt.</p>",
-          "text_en": "<p>The artist David Černý has filled Prague with offbeat sculptures: Sigmund Freud hangs from a pole above the street, a giant Kafka head rotates in front of the Quadrio shopping centre, the babies crawl up the TV tower, and in the Lucerna arcade the horse hangs upside down. A mini scavenger hunt across the city.</p>"
-        }
-      ]
-    },
-    {
-      "type": "spots",
-      "id": "essen",
-      "h": "Essen & Trinken",
-      "h_en": "Food & drink",
-      "intro": "<p>Tschechisch essen heißt herzhaft, sättigend und Bier dazu. Die Klassiker: Svíčková (Rinderbraten mit Sahnesoße und Knödeln), Gulasch mit Knödeln und Smažený sýr (gebackener Käse). Viele Lokale bieten werktags mittags ein <em>denní menu</em> – meist Suppe plus Hauptgericht zum Festpreis und deutlich günstiger als abends. Und beim Bier: Das Pilsner wurde in Tschechien erfunden; in vielen Kneipen gibt es Tankbier, das direkt aus großen Tanks gezapft wird.</p>",
-      "intro_en": "<p>Eating Czech means hearty, filling and beer on the side. The classics: svíčková (roast beef with cream sauce and dumplings), goulash with dumplings and smažený sýr (fried cheese). On weekdays many restaurants offer a <em>denní menu</em> at lunch – usually soup plus a main course at a fixed price and much cheaper than in the evening. And beer: pilsner was invented in Czechia; many pubs serve tank beer poured straight from big tanks.</p>",
-      "spots": [
-        {
-          "name": "Café Savoy",
-          "q": "Café Savoy Prague",
-          "text": "<p>Ein Café mit prächtiger, verzierter Stuckdecke, das seit über hundert Jahren Gäste empfängt. Ideal fürs Frühstück nach dem frühen Spaziergang durch die Kleinseite.</p>",
-          "text_en": "<p>A café with a magnificent, ornate stucco ceiling that has welcomed guests for over a hundred years. Ideal for breakfast after an early walk through the Lesser Town.</p>",
-          "tip": "Am Wochenende vorher reservieren.",
-          "tip_en": "Reserve ahead at weekends."
-        },
-        {
-          "name": "Havelská Koruna",
-          "q": "Havelská Koruna Prague",
-          "text": "<p>Selbstbedienungskantine nahe der Altstadt mit tschechischen Klassikern zu fairen Preisen. Du bekommst am Eingang einen Zettel, an jeder Theke wird dein Gericht notiert, bezahlt wird am Ende. Ehrlich gesagt: Die Qualität schwankt, und zur Mittagszeit gibt es Schlangen – zum Kennenlernen der Küche aber ein guter Einstieg.</p>",
-          "text_en": "<p>A self-service canteen near the Old Town with Czech classics at fair prices. You get a slip at the entrance, every counter notes your dish, and you pay at the end. Honestly: quality varies and there are queues at lunchtime – but a good first introduction to the cuisine.</p>",
-          "hours": "täglich 10–20 Uhr",
-          "hours_en": "daily 10 am–8 pm"
-        },
-        {
-          "name": "Manifesto Market Anděl",
-          "q": "Manifesto Market Anděl Prague",
-          "text": "<p>Ein Streetfood-Markt in Containern mit Küche aus aller Welt, Bars und Konzerten. Die Qualität der Stände schwankt, aber an einem Sommerabend ist die Stimmung schwer zu schlagen.</p>",
-          "text_en": "<p>A street-food market in shipping containers with cuisine from around the world, bars and concerts. Quality varies from stall to stall, but on a summer evening the atmosphere is hard to beat.</p>",
-          "hours": "mittags bis ca. 22 Uhr",
-          "hours_en": "from lunchtime until about 10 pm"
-        }
-      ]
-    },
-    {
-      "type": "prose",
-      "id": "uebernachten",
-      "h": "Wo übernachten?",
-      "h_en": "Where to stay",
-      "html": "<ul><li><strong>Malá Strana (Kleinseite):</strong> ruhig, romantisch, nah an Burg und Gärten – dafür teurer.</li><li><strong>Staré Město (Altstadt):</strong> maximal zentral, aber laut und voll.</li><li><strong>Nové Město (Neustadt):</strong> rund um die Vodičkova – Passage, Garten und Wenzelsplatz in Laufweite.</li><li><strong>Vinohrady und Žižkov:</strong> Wohnviertel mit Cafés und Kneipen, gut an Metro und Tram angebunden, mehr Alltag.</li><li><strong>Holešovice und Letná:</strong> hip, mit Galerien, Cafés und dem Park vor der Tür.</li></ul><p>Tipp: Such die Unterkunft nach Metro- oder Tram-Anbindung statt nur nach der Entfernung zur Altstadt – die Wege in Prag sind kurz.</p>",
-      "html_en": "<ul><li><strong>Malá Strana (Lesser Town):</strong> quiet, romantic, close to the castle and gardens – but pricier.</li><li><strong>Staré Město (Old Town):</strong> as central as it gets, but loud and crowded.</li><li><strong>Nové Město (New Town):</strong> around Vodičkova street – arcade, garden and Wenceslas Square within walking distance.</li><li><strong>Vinohrady and Žižkov:</strong> residential districts with cafés and pubs, well connected by metro and tram, more everyday life.</li><li><strong>Holešovice and Letná:</strong> hip, with galleries, cafés and the park on your doorstep.</li></ul><p>Tip: choose your accommodation by metro or tram connection rather than just distance to the Old Town – distances in Prague are short.</p>"
-    },
-    {
-      "type": "spots",
-      "id": "ausfluege",
-      "h": "Tagesausflüge ab Prag",
-      "h_en": "Day trips from Prague",
-      "box": "gyg",
-      "spots": [
-        {
-          "name": "Kutná Hora und das Beinhaus von Sedlec",
-          "name_en": "Kutná Hora and the Sedlec Ossuary",
-          "q": "Sedlec Ossuary Kutná Hora",
-          "text": "<p>Etwa eine Stunde östlich von Prag liegt das Beinhaus von Sedlec mit einem Kronleuchter aus menschlichen Knochen. Dazu kommt die Altstadt von Kutná Hora, die UNESCO-Welterbe ist.</p>",
-          "text_en": "<p>About an hour east of Prague lies the Sedlec Ossuary with a chandelier made of human bones. Add to that the old town of Kutná Hora, which is a UNESCO World Heritage Site.</p>",
-          "tip": "Fährt direkt ab dem Hauptbahnhof – den aktuellen Fahrplan vorher prüfen.",
-          "tip_en": "Runs directly from the main station – check the current timetable beforehand."
-        },
-        {
-          "name": "Karlsbad (Karlovy Vary)",
-          "name_en": "Karlovy Vary",
-          "q": "Karlovy Vary colonnade",
-          "text": "<p>In Karlsbad läufst du mit einem Trinkbecher von Kolonnade zu Kolonnade und probierst das Heilwasser. Es schmeckt nicht besonders – gehört aber dazu. Zur Belohnung gibt es danach einen Becherovka, dessen Rezept angeblich nur zwei Menschen kennen. Die Stadt soll auf Kaiser Karl IV. zurückgehen, der der Legende nach bei der Jagd die heißen Quellen entdeckte.</p>",
-          "text_en": "<p>In Karlovy Vary you walk from colonnade to colonnade with a drinking cup and taste the healing water. It does not taste good – but it is part of the experience. As a reward there is a Becherovka afterwards, a liqueur whose recipe supposedly only two people know. The town is said to go back to Emperor Charles IV, who according to legend discovered the hot springs while hunting.</p>",
-          "tip": "Plane für Hin- und Rückfahrt mehrere Stunden ein – ein früher Start lohnt sich.",
-          "tip_en": "Allow several hours for the round trip – an early start pays off."
-        }
-      ]
+     "name": "Tanzendes Haus (Tančící dům)",
+     "text": "<p>Am Moldauufer in der Neustadt steht ein Gebäude, das aussieht, als würde es tanzen: das Tanzende Haus („Fred und Ginger“), entworfen von Vlado Milunić und Frank Gehry und 1996 fertiggestellt. Der gläserne Turm „Ginger“ schmiegt sich an den steinernen Turm „Fred“ – ein bewusster Bruch mit den barocken und gotischen Nachbarn.</p><p>Von außen ist es schnell abgehakt, aber der Spaziergang am Fluss lohnt sich: Von der Uferpromenade siehst du Burg und Brücken, und auf dem Dach gibt es laut Betreibern ein Restaurant und eine Aussichtsterrasse (Öffnungszeiten und Preise vorher prüfen).</p><p>Verbinde das Haus mit einem Abstecher in die Neustadt – etwa zur Lucerna-Passage und zum Franziskanergarten, die ich weiter unten beschreibe.</p>",
+     "text_en": "<p>On the Vltava embankment in the New Town stands a building that looks as if it were dancing: the Dancing House (“Fred and Ginger”), designed by Vlado Milunić and Frank Gehry and completed in 1996. The glass tower “Ginger” nestles against the stone tower “Fred” – a deliberate break with the baroque and Gothic neighbours.</p><p>From the outside it is quickly ticked off, but the walk along the river is worth it: from the promenade you see the castle and bridges, and on the roof there is, according to the operators, a restaurant and a viewing terrace (check opening hours and prices beforehand).</p><p>Combine the house with a detour into the New Town – for example to the Lucerna Arcade and the Franciscan Garden, which I describe below.</p>",
+     "name_en": "Dancing House (Tančící dům)",
+     "q": "Dancing House Prague",
+     "tip": "Komm am späten Nachmittag, dann hast du Licht auf dem Fluss und die Silhouette der Burg im Hintergrund.",
+     "tip_en": "Come in the late afternoon for light on the river and the castle silhouette behind."
     }
-  ],
-  "itinerary": [
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gaerten",
+   "h": "Gärten & stille Ecken rund um die Kleinseite",
+   "h_en": "Gardens & quiet corners around the Lesser Town",
+   "intro": "<p>Malá Strana ist das Viertel unterhalb der Burg. Sobald du von der Karlsbrücke abbiegst, wird es ruhiger – und die schönsten Orte liegen hinter Toren, an denen die meisten vorbeilaufen.</p>",
+   "intro_en": "<p>Malá Strana is the quarter below the castle. As soon as you turn off Charles Bridge it gets quieter – and the best places sit behind gates most people walk past.</p>",
+   "spots": [
     {
-      "h": "Kleinseite & Burg",
-      "h_en": "Lesser Town & castle",
-      "items": [
-        "<strong>7:00</strong> – Karlsbrücke, solange sie leer ist, dann in die Gassen der Kleinseite",
-        "<strong>9:00</strong> – Frühstück im Café Savoy",
-        "<strong>10:00</strong> – Vrtba-Garten gleich zur Öffnung",
-        "<strong>11:30</strong> – Wallenstein-Garten (April–Oktober) oder weiter durch die Gassen",
-        "<strong>13:00</strong> – Mittagsmenü in einem Lokal abseits der Hauptstraßen",
-        "<strong>14:30</strong> – Über die Nerudova zur Burg, zurück durch den Hirschgraben",
-        "<strong>19:00</strong> – Sonnenuntergang im Biergarten von Letná (April–September)"
-      ],
-      "items_en": [
-        "<strong>7:00</strong> – Charles Bridge while it is empty, then into the lanes of the Lesser Town",
-        "<strong>9:00</strong> – Breakfast at Café Savoy",
-        "<strong>10:00</strong> – Vrtba Garden right at opening",
-        "<strong>11:30</strong> – Wallenstein Garden (April–October) or keep wandering the lanes",
-        "<strong>13:00</strong> – Lunch menu at a restaurant off the main streets",
-        "<strong>14:30</strong> – Up Nerudova street to the castle, back down through the Stag Moat",
-        "<strong>19:00</strong> – Sunset at the Letná beer garden (April–September)"
-      ]
+     "name": "Vrtba-Garten (Vrtbovská zahrada)",
+     "name_en": "Vrtba Garden (Vrtbovská zahrada)",
+     "gem": true,
+     "q": "Vrtba Garden Prague",
+     "text": "<p>Ein barocker Terrassengarten, versteckt hinter einem unscheinbaren Durchgang an der Karmelitská-Straße – genau deshalb ist hier selten viel los. Der Garten wurde um 1720 angelegt und steigt in Terrassen den Hang hinauf. Von der obersten Ebene schaust du über die Dächer der Kleinseite bis zur Burg.</p><p>Der Garten gehört zum Welterbe der Prager Altstadt. Das barocke Ensemble wurde nach Plänen von František Maxmilián Kaňka angelegt; die Skulpturen stammen von Matthias Bernard Braun, die Deckenmalereien im Gartensaal von Václav Vavřinec Reiner. Genau diese Mischung aus Architektur, Bildhauerei und Aussicht macht ihn zu einem der schönsten barocken Gärten nördlich der Alpen – so sagen es zumindest die Betreiber.</p><p>Rechne mit etwa 45–60 Minuten. Der Eingang liegt unscheinbar an der Karmelitská-Straße; wenn du ihn verpasst, bist du nicht allein.</p>",
+     "text_en": "<p>A baroque terraced garden hidden behind an unremarkable passage off Karmelitská street – which is exactly why it is rarely crowded. It was laid out around 1720 and climbs the hillside in terraces. From the top level you look over the rooftops of the Lesser Town all the way to the castle.</p><p>The garden belongs to the World Heritage of Prague’s historic centre. The baroque ensemble was laid out to plans by František Maxmilián Kaňka; the sculptures are by Matthias Bernard Braun, the ceiling paintings in the garden hall by Václav Vavřinec Reiner. That very mix of architecture, sculpture and view makes it one of the most beautiful baroque gardens north of the Alps – at least that is what the operators say.</p><p>Allow about 45–60 minutes. The entrance is inconspicuous on Karmelitská street; if you miss it, you are not alone.</p>",
+     "hours": "April–Oktober täglich 10–18 Uhr; für den Winter sind keine Zeiten veröffentlicht",
+     "hours_en": "April–October daily 10 am–6 pm; no winter hours published",
+     "price": "rund 150 Kč für Erwachsene (laut Betreiber)",
+     "price_en": "about 150 CZK for adults (according to the operator)",
+     "tip": "Je früher, desto ruhiger – gleich nach der Öffnung hast du die Terrassen oft fast für dich.",
+     "tip_en": "The earlier the quieter – right after opening you often have the terraces almost to yourself."
     },
     {
-      "h": "Neustadt & Aussicht",
-      "h_en": "New Town & views",
-      "items": [
-        "<strong>9:00</strong> – Lucerna-Passage mit dem Černý-Pferd",
-        "<strong>10:00</strong> – Franziskanergarten und kubistische Laterne",
-        "<strong>12:30</strong> – Mittagessen in der Havelská Koruna oder mit Mittagsmenü",
-        "<strong>14:00</strong> – Altstadt und ihre Gassen, danach Pause im Garten",
-        "<strong>17:00</strong> – Žižkov-Fernsehturm und Abend in Vinohrady oder Žižkov"
-      ],
-      "items_en": [
-        "<strong>9:00</strong> – Lucerna arcade with the Černý horse",
-        "<strong>10:00</strong> – Franciscan Garden and the Cubist street lamp",
-        "<strong>12:30</strong> – Lunch at Havelská Koruna or a lunch menu",
-        "<strong>14:00</strong> – Old Town and its lanes, then a break in the garden",
-        "<strong>17:00</strong> – Žižkov TV tower and an evening in Vinohrady or Žižkov"
-      ]
+     "name": "Wallenstein-Garten (Valdštejnská zahrada)",
+     "name_en": "Wallenstein Garden (Valdštejnská zahrada)",
+     "q": "Wallenstein Garden Prague",
+     "text": "<p>Barocker Palastgarten direkt unter der Burg – und kostenlos. Zwischen Springbrunnen und Skulpturen laufen Pfauen herum (mit Glück auch ein weißer), im großen Teich schwimmen riesige Fische, und am Ende des Gartens wartet eine Wand aus künstlichem Tropfstein mit versteckten Gesichtern.</p><p>Der Garten gehört zum Wallenstein-Palast, den der Feldherr Albrecht von Wallenstein im 17. Jahrhundert erbauen ließ; heute sitzt hier der Senat der Tschechischen Republik. Die Bronzefiguren im Garten sind Kopien – die Originale hatten die Schweden im Dreißigjährigen Krieg mitgenommen. Besonders sehenswert sind die Sala terrena, die offene Gartenhalle, und die Voliere mit Eulen.</p><p>Der Garten ist kostenlos und gleichzeitig eine der ruhigsten grünen Oasen in Burgnähe – perfekt für eine Pause nach dem Aufstieg oder vor dem Biergarten am Abend.</p>",
+     "text_en": "<p>A baroque palace garden right below the castle – and free. Peacocks wander between fountains and sculptures (with luck a white one too), huge fish swim in the big pond, and at the far end waits a wall of artificial dripstone with hidden faces.</p><p>The garden belongs to the Wallenstein Palace, built in the 17th century for the general Albrecht von Wallenstein; today the Senate of the Czech Republic sits here. The bronze figures in the garden are copies – the originals were taken by the Swedes in the Thirty Years’ War. Especially worth seeing are the sala terrena, the open garden hall, and the aviary with owls.</p><p>The garden is free and at the same time one of the quietest green oases near the castle – perfect for a break after the climb or before the beer garden in the evening.</p>",
+     "hours": "April–Oktober 7:30–18 Uhr, November–März geschlossen",
+     "hours_en": "April–October 7:30 am–6 pm, closed November–March",
+     "price": "kostenlos",
+     "price_en": "free",
+     "tip": "Der Eingang liegt bei der Metro-Station Malostranská (Linie A). Im Sommer gibt es teils kostenlose Konzerte, und in der Hauptsaison ist samstags der Palast des Senats zugänglich.",
+     "tip_en": "The entrance is by Malostranská metro station (line A). In summer there are sometimes free concerts, and in high season the Senate palace is open on Saturdays."
     },
     {
-      "h": "Vyšehrad, Kunst oder Ausflug",
-      "h_en": "Vyšehrad, art or a day trip",
-      "items": [
-        "<strong>9:00</strong> – Vyšehrader Friedhof und Festung",
-        "<strong>12:00</strong> – Mittag im Manifesto Market Anděl",
-        "<strong>14:00</strong> – DOX in Holešovice – oder statt des Nachmittags ein Ausflug nach Kutná Hora"
-      ],
-      "items_en": [
-        "<strong>9:00</strong> – Vyšehrad Cemetery and fortress",
-        "<strong>12:00</strong> – Lunch at Manifesto Market Anděl",
-        "<strong>14:00</strong> – DOX in Holešovice – or a trip to Kutná Hora instead of the afternoon"
-      ]
+     "name": "Aufstieg durch den Hirschgraben (Jelení příkop)",
+     "name_en": "The quiet way up through the Stag Moat (Jelení příkop)",
+     "q": "Jelení příkop Praha",
+     "text": "<p>Statt die Burg über die vollen Treppen zu erobern, führt dieser Weg ruhiger hinauf – unter anderem durch einen rund 84 Meter langen Fußgängertunnel, unter dem ein kleiner Bach fließt. Oben bist du direkt im Burgareal.</p>",
+     "text_en": "<p>Instead of storming the castle up the crowded stairs, this route leads up more quietly – including through a pedestrian tunnel about 84 metres long with a small stream running beneath it. At the top you are right in the castle grounds.</p>",
+     "tip": "Das Goldene Gässchen im Burgareal ist laut Besucherinfo am späten Nachmittag im Ticketsystem frei (ab 16 Uhr, im Sommer ab 17 Uhr). Aktuelle Regeln vor Ort prüfen.",
+     "tip_en": "According to visitor information the Golden Lane inside the castle is free in the late afternoon (from 4 pm, in summer from 5 pm). Check the current rules on site."
+    },
+    {
+     "name": "Prager Burg",
+     "name_en": "Prague Castle",
+     "q": "Prague Castle",
+     "text": "<p>Die Höfe und Gärten der Burg kannst du nach der Sicherheitskontrolle kostenlos betreten. Für den Veitsdom und die anderen Gebäude brauchst du ein Rundgang-Ticket. Die Gruppen kommen meist später am Vormittag – wer früh oben ist, hat deutlich mehr Platz.</p><p>Die Burg gilt als größter zusammenhängender Burgkomplex der Welt. Im Zentrum steht der Veitsdom: Die Grundsteinlegung war 1344 unter Karl IV., fertiggestellt wurde er erst 1929 – deshalb wirkt er teils gotisch, teils neugotisch. Zum Burgareal gehören außerdem der Alte Königspalast, die Georgsbasilika und das Goldene Gässchen mit seinen winzigen, bunten Häusern.</p><p>Für die Innenräume brauchst du ein Rundgang-Ticket; die Preise liegen je nach Umfang grob im Bereich von 250–500 Kč (aktuelle Preise und Rundgänge auf hrad.cz prüfen). Höfe und Gärten sind nach der Sicherheitskontrolle frei zugänglich. Plane für den Besuch mindestens einen halben Tag ein.</p>",
+     "text_en": "<p>You can walk through the castle courtyards and gardens for free after the security check. For St Vitus Cathedral and the other buildings you need a circuit ticket. Tour groups mostly arrive later in the morning – if you are up early you get much more space.</p><p>The castle counts as the largest coherent castle complex in the world. At its centre stands St Vitus Cathedral: the foundation stone was laid in 1344 under Charles IV, but it was only completed in 1929 – which is why it looks partly Gothic, partly neo-Gothic. The castle area also includes the Old Royal Palace, St George’s Basilica and the Golden Lane with its tiny colourful houses.</p><p>For the interiors you need a circuit ticket; prices are roughly in the range of 250–500 CZK depending on scope (check current prices and circuits at hrad.cz). Courtyards and gardens are freely accessible after the security check. Allow at least half a day for the visit.</p>",
+     "tip": "Hoch über die Nerudova-Gasse, runter durch den Hirschgraben – so läufst du keine Strecke doppelt.",
+     "tip_en": "Up via Nerudova street, down through the Stag Moat – that way you never walk a stretch twice."
     }
-  ],
-  "faq": [
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "neustadt",
+   "h": "Neustadt: Passagen, Garten und Kubismus in fünf Minuten",
+   "h_en": "New Town: arcades, a garden and Cubism within five minutes",
+   "intro": "<p>Rund um die Vodičkova-Straße, nur einen Katzensprung vom Wenzelsplatz, liegen drei Orte dicht beieinander, die die meisten Besucher auslassen.</p>",
+   "intro_en": "<p>Around Vodičkova street, a stone’s throw from Wenceslas Square, three places sit close together that most visitors skip.</p>",
+   "spots": [
     {
-      "q": "Wie viele Tage braucht man in Prag?",
-      "q_en": "How many days do you need in Prague?",
-      "a": "<p>Für die Highlights reichen 2–3 Tage, mit einem Tagesausflug (zum Beispiel nach Kutná Hora) 4. Wenn du wenig Urlaub hast, klappt auch ein langes Wochenende – starte dann früh und plane die Gärten und Aussichten statt vieler Museen ein.</p>",
-      "a_en": "<p>2–3 days cover the highlights, 4 with a day trip (for example to Kutná Hora). If you have little holiday, a long weekend works too – start early and plan gardens and viewpoints rather than lots of museums.</p>"
+     "name": "Lucerna-Passage (Pasáž Lucerna)",
+     "name_en": "Lucerna Arcade (Pasáž Lucerna)",
+     "gem": true,
+     "q": "Lucerna Passage Prague",
+     "text": "<p>Eine Passage aus den 1920er-Jahren mit Art-déco-Flair, einem historischen Kino und Cafés. Das Highlight hängt von der Decke: eine Skulptur von David Černý, die den heiligen Wenzel auf einem kopfüber hängenden Pferd zeigt – eine freche Antwort auf das Reiterdenkmal draußen am Wenzelsplatz.</p>",
+     "text_en": "<p>An arcade from the 1920s with Art Deco flair, a historic cinema and cafés. The highlight hangs from the ceiling: a sculpture by David Černý showing Saint Wenceslas on an upside-down horse – a cheeky reply to the equestrian statue outside on Wenceslas Square.</p>",
+     "tip": "Wirf auch einen Blick in das Kino Lucerna – der Saal aus den 1920ern ist für sich schon sehenswert.",
+     "tip_en": "Also peek into Kino Lucerna – the 1920s auditorium is worth seeing in itself."
     },
     {
-      "q": "Wann ist die beste Reisezeit?",
-      "q_en": "When is the best time to visit?",
-      "a": "<p>Frühling und früher Herbst sind angenehm und nicht so voll und heiß wie der Hochsommer. Gärten wie Vrtba und Wallenstein sind nur von April bis Oktober geöffnet – Zeiten vorher prüfen.</p>",
-      "a_en": "<p>Spring and early autumn are pleasant and less crowded and hot than midsummer. Gardens such as Vrtba and Wallenstein are only open from April to October – check hours beforehand.</p>"
+     "name": "Franziskanergarten (Františkánská zahrada)",
+     "name_en": "Franciscan Garden (Františkánská zahrada)",
+     "gem": true,
+     "q": "Franciscan Garden Prague",
+     "text": "<p>Ein stiller Garten mitten in der Neustadt mit Bänken, Rosen, Skulpturen und einem kleinen Café – ideal für eine Pause zwischen zwei Sehenswürdigkeiten. Franziskanermönche haben ihn schon im 14. Jahrhundert angelegt. Der Eingang liegt an der Vodičkova bzw. am Jungmannplatz.</p>",
+     "text_en": "<p>A quiet garden in the middle of the New Town with benches, roses, sculptures and a small café – ideal for a break between two sights. Franciscan monks laid it out as early as the 14th century. The entrance is on Vodičkova street and Jungmann Square.</p>",
+     "hours": "tagsüber geöffnet, Zeiten schwanken je nach Saison",
+     "hours_en": "open during the day, hours vary by season",
+     "tip": "Direkt davor am Jungmannplatz steht die berühmte kubistische Laterne.",
+     "tip_en": "Right in front of it on Jungmann Square stands the famous Cubist street lamp."
     },
     {
-      "q": "Brauche ich Euro oder Kronen?",
-      "q_en": "Do I need euros or koruna?",
-      "a": "<p>Kronen (CZK). Kartenzahlung klappt fast überall. Meide Wechselstuben in der Altstadt, und wähle beim Bezahlen oder am Geldautomaten immer die Abrechnung in Kronen.</p>",
-      "a_en": "<p>Koruna (CZK). Card payment works almost everywhere. Avoid exchange offices in the Old Town, and when paying or withdrawing always choose to be charged in koruna.</p>"
-    },
-    {
-      "q": "Kann man Leitungswasser trinken?",
-      "q_en": "Can you drink the tap water?",
-      "a": "<p>Ja, das Leitungswasser in Prag ist trinkbar.</p>",
-      "a_en": "<p>Yes, tap water in Prague is drinkable.</p>"
-    },
-    {
-      "q": "Ist Prag sicher?",
-      "q_en": "Is Prague safe?",
-      "a": "<p>Im Großen und Ganzen ja. In vollen Trams, an der Karlsbrücke und in Touristenzonen gibt es Taschendiebe – trag Wertsachen eng am Körper.</p>",
-      "a_en": "<p>Broadly yes. In crowded trams, on Charles Bridge and in tourist areas there are pickpockets – keep valuables close to your body.</p>"
-    },
-    {
-      "q": "Wann ist die Karlsbrücke leer?",
-      "q_en": "When is Charles Bridge empty?",
-      "a": "<p>Am ruhigsten ist sie früh am Morgen. Noels Rat: um 7 Uhr über die Brücke und dann sofort in die Kleinseite, bevor die Gruppen kommen.</p>",
-      "a_en": "<p>It is quietest early in the morning. Noel’s advice: cross the bridge at 7 am and head straight into the Lesser Town before the groups arrive.</p>"
+     "name": "Kubistische Laterne am Jungmannplatz",
+     "name_en": "Cubist street lamp on Jungmann Square",
+     "q": "Cubist lamp Jungmannovo náměstí Prague",
+     "text": "<p>Die Straßenlaterne von 1913 (Entwurf: Emil Králíček) gilt als die einzige kubistische Laterne der Welt – ein kleiner Stopp für alle, die Architektur und Design mögen.</p>",
+     "text_en": "<p>The street lamp from 1913 (designed by Emil Králíček) is considered the only Cubist street lamp in the world – a small stop for anyone who likes architecture and design.</p>"
     }
-  ]
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "aussicht",
+   "h": "Aussicht & Biergarten",
+   "h_en": "Views & beer garden",
+   "spots": [
+    {
+     "name": "Letná-Park & Metronom",
+     "name_en": "Letná Park & the Metronome",
+     "q": "Metronome Letná Prague",
+     "text": "<p>Im Letná-Park steht ein riesiges Metronom genau dort, wo einmal das größte Stalin-Denkmal der Welt stand. Von hier schaust du über die Moldau auf die Altstadt und die Brücken.</p><p>Das Metronom (23 Meter hoch) wurde 1991 aufgestellt – an der Stelle, an der von 1955 bis 1962 ein gewaltiges Stalin-Denkmal stand. Heute ist der Ort ein beliebter Treffpunkt für Skater, Fotografen und Menschen, die einfach den Sonnenuntergang über der Moldau sehen wollen.</p><p>Der Weg vom Metronom zum Biergarten dauert nur wenige Minuten, du kannst beides also gut kombinieren.</p>",
+     "text_en": "<p>In Letná Park a giant metronome stands exactly where the world’s largest Stalin monument once stood. From here you look across the Vltava to the Old Town and the bridges.</p><p>The metronome (23 metres high) was erected in 1991 – on the spot where a gigantic Stalin monument stood from 1955 to 1962. Today the place is a popular meeting point for skaters, photographers and people who simply want to watch the sunset over the Vltava.</p><p>The walk from the metronome to the beer garden takes only a few minutes, so you can combine the two easily.</p>"
+    },
+    {
+     "name": "Biergarten Letenské sady",
+     "name_en": "Letenské sady beer garden",
+     "q": "Letná Beer Garden Prague",
+     "text": "<p>Der Klassiker für den Sonnenuntergang: lange Holztische unter Kastanien, frisch gezapftes Bier und der Blick über die Stadt. Hier trinken Prager und Touristen nebeneinander.</p>",
+     "text_en": "<p>The classic for sunset: long wooden tables under chestnut trees, freshly poured beer and the view over the city. Locals and tourists drink side by side here.</p>",
+     "hours": "Hochsaison April–September",
+     "hours_en": "peak season April–September",
+     "tip": "Nimm Bargeld in Kronen mit – manche Stände nehmen keine Karte. Der Weg hinauf ist etwas steil, und abends zurück gehst du besser nicht allein durch den Park.",
+     "tip_en": "Bring cash in koruna – some stands do not take cards. The way up is a bit steep, and in the evening it is better not to walk back through the park alone."
+    },
+    {
+     "name": "Žižkov-Fernsehturm",
+     "name_en": "Žižkov Television Tower",
+     "q": "Žižkov Television Tower Prague",
+     "text": "<p>216 Meter hoch, mit Aussichtsplattform auf rund 99 Metern. Am Turm krabbeln die bekannten Baby-Skulpturen von David Černý nach oben – ein typisch schräges Prag-Motiv.</p>",
+     "text_en": "<p>216 metres tall, with an observation deck at around 99 metres. On the tower crawl David Černý’s famous baby sculptures – a typically quirky Prague motif.</p>",
+     "tip": "Verbinde den Besuch mit einem Abend in Žižkov oder Vinohrady, wo es viele Kneipen und Cafés gibt.",
+     "tip_en": "Combine the visit with an evening in Žižkov or Vinohrady, where there are plenty of pubs and cafés."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "vysehrad",
+   "h": "Vyšehrad: der Friedhof der Großen",
+   "h_en": "Vyšehrad: the cemetery of the greats",
+   "spots": [
+    {
+     "name": "Vyšehrader Friedhof und Slavín",
+     "name_en": "Vyšehrad Cemetery and Slavín",
+     "gem": true,
+     "q": "Vyšehrad Cemetery Prague",
+     "text": "<p>Auf dem Hügel über der Moldau liegt der wichtigste Friedhof Tschechiens – eher ein Freilichtmuseum als ein Ort der Trauer. Hier ruhen unter anderem die Komponisten Antonín Dvořák und Bedřich Smetana, der Maler Alfons Mucha und der Schriftsteller Karel Čapek. Am östlichen Ende steht das Pantheon Slavín.</p><p>Der Vyšehrader Friedhof wurde 1869 angelegt und ist die letzte Ruhestätte vieler Persönlichkeiten der tschechischen Kultur. Das Pantheon Slavín am Rand des Geländes, 1893 errichtet, birgt Gräber bedeutender Künstler. Wer die Gräber der Komponisten Dvořák und Smetana sucht, findet sie anhand der Namensliste am Eingang schnell.</p><p>Besonders schön ist die Anlage am frühen Morgen oder im Herbst, wenn das Laub zwischen den Grabsteinen liegt – ein ruhiger Ort, der erstaunlich wenig besucht wird.</p>",
+     "text_en": "<p>On the hill above the Vltava lies the most important cemetery in Czechia – more open-air museum than place of mourning. Among those buried here are the composers Antonín Dvořák and Bedřich Smetana, the painter Alfons Mucha and the writer Karel Čapek. At the eastern end stands the Slavín pantheon.</p><p>Vyšehrad Cemetery was laid out in 1869 and is the final resting place of many figures of Czech culture. The Slavín pantheon at the edge of the grounds, built in 1893, holds the graves of important artists. If you are looking for the graves of the composers Dvořák and Smetana, the list of names at the entrance helps you find them quickly.</p><p>The grounds are especially lovely early in the morning or in autumn when leaves lie between the gravestones – a quiet place that is visited surprisingly little.</p>",
+     "hours": "Nov–Feb 8–17 · Mär–Apr 8–18 · Mai–Sep 8–19 · Okt 8–18 Uhr",
+     "hours_en": "Nov–Feb 8 am–5 pm · Mar–Apr 8–6 pm · May–Sep 8–7 pm · Oct 8–6 pm",
+     "price": "der Friedhof ist laut Besucherberichten kostenlos, die Basilika kostet Eintritt",
+     "price_en": "the cemetery is free according to visitors, the basilica charges admission",
+     "tip": "Der Eingang liegt links der Peter-und-Paul-Kirche. Eine Namensliste am Eingang zeigt dir, wo die bekannten Gräber liegen.",
+     "tip_en": "The entrance is to the left of the Church of Saints Peter and Paul. A list of names at the entrance shows where the famous graves are."
+    },
+    {
+     "name": "Festung Vyšehrad",
+     "name_en": "Vyšehrad Fortress",
+     "q": "Vyšehrad Prague",
+     "text": "<p>Die Anlage über der Moldau – mit Basilika, Wällen, kleinen Bistros und freiem Blick auf die Stadt – wird oft die zweite Prager Burg genannt und ist deutlich ruhiger als die große Schwester.</p><p>Zur Festung gehören die Basilika St. Peter und Paul mit ihren neugotischen Türmen, die kleine Rotunde des heiligen Martin aus dem 11. Jahrhundert und weite Wälle, von denen du die Moldau und die Stadt überblickst. Der Überlieferung nach soll hier die sagenhafte Fürstin Libuše Prag vorhergesagt haben.</p><p>Die Anlage ist kostenlos zugänglich, und mit Bistros und Picknickwiesen eignet sie sich gut für eine längere Pause. Von der Metro-Station Vyšehrad bist du in wenigen Minuten oben.</p>",
+     "text_en": "<p>The complex above the Vltava – with its basilica, ramparts, small bistros and open views over the city – is often called Prague’s second castle and is far quieter than its big sister.</p><p>The fortress includes the Basilica of Saints Peter and Paul with its neo-Gothic towers, the small Rotunda of St Martin from the 11th century and wide ramparts from which you overlook the Vltava and the city. According to legend the mythical Princess Libuše is said to have foreseen Prague here.</p><p>The grounds are free to enter, and with bistros and picnic lawns they suit a longer break. From Vyšehrad metro station you are at the top in a few minutes.</p>"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "kunst",
+   "h": "Kunst & Schräges",
+   "h_en": "Art & quirky Prague",
+   "spots": [
+    {
+     "name": "DOX – Zentrum für zeitgenössische Kunst",
+     "name_en": "DOX Centre for Contemporary Art",
+     "gem": true,
+     "q": "DOX Centre for Contemporary Art Prague",
+     "text": "<p>Ein ehemaliges Industriegebäude in Holešovice mit zeitgenössischer Kunst, Fotografie und Design. Auf dem Dach hängt ein hölzernes Luftschiff namens Gulliver – ein ungewöhnlicher Ort für Ausstellungen und Gespräche.</p><p>DOX wurde 2008 eröffnet und zeigt zeitgenössische Kunst, Fotografie und Design. Auf dem Dach des Gebäudes liegt das 42 Meter lange hölzerne Luftschiff „Gulliver“, in dem Veranstaltungen stattfinden. Der Eintritt wird je nach Ausstellung berechnet – aktuelle Preise und Programm vorab prüfen.</p><p>Holešovice hat sich in den letzten Jahren zu einem der interessantesten Viertel Prags entwickelt, mit Galerien, Cafés und dem Industrie-Charme alter Fabrikgebäude.</p>",
+     "text_en": "<p>A former industrial building in Holešovice with contemporary art, photography and design. On the roof sits a wooden airship called Gulliver – an unusual place for exhibitions and talks.</p><p>DOX opened in 2008 and shows contemporary art, photography and design. On the roof lies the 42-metre wooden airship “Gulliver”, in which events take place. Admission depends on the exhibition – check current prices and programme beforehand.</p><p>Holešovice has developed into one of Prague’s most interesting neighbourhoods in recent years, with galleries, cafés and the industrial charm of old factory buildings.</p>",
+     "hours": "Di–So 11–19 Uhr, montags geschlossen (laut Google, vorher prüfen)",
+     "hours_en": "Tue–Sun 11 am–7 pm, closed Mondays (according to Google, check before you go)",
+     "tip": "Das Viertel rundherum hat viele Cafés und Ateliers – gut für einen ruhigen Nachmittag.",
+     "tip_en": "The surrounding neighbourhood has plenty of cafés and studios – good for a calm afternoon."
+    },
+    {
+     "name": "Die Černý-Skulpturen",
+     "name_en": "The Černý sculptures",
+     "q": "Metalmorphosis David Černý Quadrio Prague",
+     "text": "<p>Der Künstler David Černý hat Prag mit schrägen Skulpturen gefüllt: Sigmund Freud hängt an einer Stange über der Straße, ein riesiger Kafka-Kopf dreht sich vor dem Einkaufszentrum Quadrio, die Babys krabbeln am Fernsehturm hoch, und in der Lucerna-Passage hängt das Pferd kopfüber. Eine Mini-Schnitzeljagd quer durch die Stadt.</p>",
+     "text_en": "<p>The artist David Černý has filled Prague with offbeat sculptures: Sigmund Freud hangs from a pole above the street, a giant Kafka head rotates in front of the Quadrio shopping centre, the babies crawl up the TV tower, and in the Lucerna arcade the horse hangs upside down. A mini scavenger hunt across the city.</p>"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "essen",
+   "h": "Essen & Trinken",
+   "h_en": "Food & drink",
+   "intro": "<p>Tschechisch essen heißt herzhaft, sättigend und Bier dazu. Die Klassiker: Svíčková (Rinderbraten mit Sahnesoße und Knödeln), Gulasch mit Knödeln und Smažený sýr (gebackener Käse). Viele Lokale bieten werktags mittags ein <em>denní menu</em> – meist Suppe plus Hauptgericht zum Festpreis und deutlich günstiger als abends. Und beim Bier: Das Pilsner wurde in Tschechien erfunden; in vielen Kneipen gibt es Tankbier, das direkt aus großen Tanks gezapft wird.</p>",
+   "intro_en": "<p>Eating Czech means hearty, filling and beer on the side. The classics: svíčková (roast beef with cream sauce and dumplings), goulash with dumplings and smažený sýr (fried cheese). On weekdays many restaurants offer a <em>denní menu</em> at lunch – usually soup plus a main course at a fixed price and much cheaper than in the evening. And beer: pilsner was invented in Czechia; many pubs serve tank beer poured straight from big tanks.</p>",
+   "spots": [
+    {
+     "name": "Café Savoy",
+     "q": "Café Savoy Prague",
+     "text": "<p>Ein Café mit prächtiger, verzierter Stuckdecke, das seit über hundert Jahren Gäste empfängt. Ideal fürs Frühstück nach dem frühen Spaziergang durch die Kleinseite.</p>",
+     "text_en": "<p>A café with a magnificent, ornate stucco ceiling that has welcomed guests for over a hundred years. Ideal for breakfast after an early walk through the Lesser Town.</p>",
+     "tip": "Am Wochenende vorher reservieren.",
+     "tip_en": "Reserve ahead at weekends."
+    },
+    {
+     "name": "Havelská Koruna",
+     "q": "Havelská Koruna Prague",
+     "text": "<p>Selbstbedienungskantine nahe der Altstadt mit tschechischen Klassikern zu fairen Preisen. Du bekommst am Eingang einen Zettel, an jeder Theke wird dein Gericht notiert, bezahlt wird am Ende. Ehrlich gesagt: Die Qualität schwankt, und zur Mittagszeit gibt es Schlangen – zum Kennenlernen der Küche aber ein guter Einstieg.</p>",
+     "text_en": "<p>A self-service canteen near the Old Town with Czech classics at fair prices. You get a slip at the entrance, every counter notes your dish, and you pay at the end. Honestly: quality varies and there are queues at lunchtime – but a good first introduction to the cuisine.</p>",
+     "hours": "täglich 10–20 Uhr",
+     "hours_en": "daily 10 am–8 pm"
+    },
+    {
+     "name": "Manifesto Market Anděl",
+     "q": "Manifesto Market Anděl Prague",
+     "text": "<p>Ein Streetfood-Markt in Containern mit Küche aus aller Welt, Bars und Konzerten. Die Qualität der Stände schwankt, aber an einem Sommerabend ist die Stimmung schwer zu schlagen.</p>",
+     "text_en": "<p>A street-food market in shipping containers with cuisine from around the world, bars and concerts. Quality varies from stall to stall, but on a summer evening the atmosphere is hard to beat.</p>",
+     "hours": "mittags bis ca. 22 Uhr",
+     "hours_en": "from lunchtime until about 10 pm"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "uebernachten",
+   "h": "Wo übernachten?",
+   "h_en": "Where to stay",
+   "html": "<ul><li><strong>Malá Strana (Kleinseite):</strong> ruhig, romantisch, nah an Burg und Gärten – dafür teurer.</li><li><strong>Staré Město (Altstadt):</strong> maximal zentral, aber laut und voll.</li><li><strong>Nové Město (Neustadt):</strong> rund um die Vodičkova – Passage, Garten und Wenzelsplatz in Laufweite.</li><li><strong>Vinohrady und Žižkov:</strong> Wohnviertel mit Cafés und Kneipen, gut an Metro und Tram angebunden, mehr Alltag.</li><li><strong>Holešovice und Letná:</strong> hip, mit Galerien, Cafés und dem Park vor der Tür.</li></ul><p>Tipp: Such die Unterkunft nach Metro- oder Tram-Anbindung statt nur nach der Entfernung zur Altstadt – die Wege in Prag sind kurz.</p>",
+   "html_en": "<ul><li><strong>Malá Strana (Lesser Town):</strong> quiet, romantic, close to the castle and gardens – but pricier.</li><li><strong>Staré Město (Old Town):</strong> as central as it gets, but loud and crowded.</li><li><strong>Nové Město (New Town):</strong> around Vodičkova street – arcade, garden and Wenceslas Square within walking distance.</li><li><strong>Vinohrady and Žižkov:</strong> residential districts with cafés and pubs, well connected by metro and tram, more everyday life.</li><li><strong>Holešovice and Letná:</strong> hip, with galleries, cafés and the park on your doorstep.</li></ul><p>Tip: choose your accommodation by metro or tram connection rather than just distance to the Old Town – distances in Prague are short.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "ausfluege",
+   "h": "Tagesausflüge ab Prag",
+   "h_en": "Day trips from Prague",
+   "box": "gyg",
+   "spots": [
+    {
+     "name": "Kutná Hora und das Beinhaus von Sedlec",
+     "name_en": "Kutná Hora and the Sedlec Ossuary",
+     "q": "Sedlec Ossuary Kutná Hora",
+     "text": "<p>Etwa eine Stunde östlich von Prag liegt das Beinhaus von Sedlec mit einem Kronleuchter aus menschlichen Knochen. Dazu kommt die Altstadt von Kutná Hora, die UNESCO-Welterbe ist.</p>",
+     "text_en": "<p>About an hour east of Prague lies the Sedlec Ossuary with a chandelier made of human bones. Add to that the old town of Kutná Hora, which is a UNESCO World Heritage Site.</p>",
+     "tip": "Fährt direkt ab dem Hauptbahnhof – den aktuellen Fahrplan vorher prüfen.",
+     "tip_en": "Runs directly from the main station – check the current timetable beforehand."
+    },
+    {
+     "name": "Karlsbad (Karlovy Vary)",
+     "name_en": "Karlovy Vary",
+     "q": "Karlovy Vary colonnade",
+     "text": "<p>In Karlsbad läufst du mit einem Trinkbecher von Kolonnade zu Kolonnade und probierst das Heilwasser. Es schmeckt nicht besonders – gehört aber dazu. Zur Belohnung gibt es danach einen Becherovka, dessen Rezept angeblich nur zwei Menschen kennen. Die Stadt soll auf Kaiser Karl IV. zurückgehen, der der Legende nach bei der Jagd die heißen Quellen entdeckte.</p>",
+     "text_en": "<p>In Karlovy Vary you walk from colonnade to colonnade with a drinking cup and taste the healing water. It does not taste good – but it is part of the experience. As a reward there is a Becherovka afterwards, a liqueur whose recipe supposedly only two people know. The town is said to go back to Emperor Charles IV, who according to legend discovered the hot springs while hunting.</p>",
+     "tip": "Plane für Hin- und Rückfahrt mehrere Stunden ein – ein früher Start lohnt sich.",
+     "tip_en": "Allow several hours for the round trip – an early start pays off."
+    }
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Kleinseite & Burg",
+   "h_en": "Lesser Town & castle",
+   "items": [
+    "<strong>7:00</strong> – Karlsbrücke, solange sie leer ist, dann in die Gassen der Kleinseite",
+    "<strong>9:00</strong> – Frühstück im Café Savoy",
+    "<strong>10:00</strong> – Vrtba-Garten gleich zur Öffnung",
+    "<strong>11:30</strong> – Wallenstein-Garten (April–Oktober) oder weiter durch die Gassen",
+    "<strong>13:00</strong> – Mittagsmenü in einem Lokal abseits der Hauptstraßen",
+    "<strong>14:30</strong> – Über die Nerudova zur Burg, zurück durch den Hirschgraben",
+    "<strong>19:00</strong> – Sonnenuntergang im Biergarten von Letná (April–September)"
+   ],
+   "items_en": [
+    "<strong>7:00</strong> – Charles Bridge while it is empty, then into the lanes of the Lesser Town",
+    "<strong>9:00</strong> – Breakfast at Café Savoy",
+    "<strong>10:00</strong> – Vrtba Garden right at opening",
+    "<strong>11:30</strong> – Wallenstein Garden (April–October) or keep wandering the lanes",
+    "<strong>13:00</strong> – Lunch menu at a restaurant off the main streets",
+    "<strong>14:30</strong> – Up Nerudova street to the castle, back down through the Stag Moat",
+    "<strong>19:00</strong> – Sunset at the Letná beer garden (April–September)"
+   ]
+  },
+  {
+   "h": "Neustadt & Aussicht",
+   "h_en": "New Town & views",
+   "items": [
+    "<strong>9:00</strong> – Lucerna-Passage mit dem Černý-Pferd",
+    "<strong>10:00</strong> – Franziskanergarten und kubistische Laterne",
+    "<strong>12:30</strong> – Mittagessen in der Havelská Koruna oder mit Mittagsmenü",
+    "<strong>14:00</strong> – Altstadt und ihre Gassen, danach Pause im Garten",
+    "<strong>17:00</strong> – Žižkov-Fernsehturm und Abend in Vinohrady oder Žižkov"
+   ],
+   "items_en": [
+    "<strong>9:00</strong> – Lucerna arcade with the Černý horse",
+    "<strong>10:00</strong> – Franciscan Garden and the Cubist street lamp",
+    "<strong>12:30</strong> – Lunch at Havelská Koruna or a lunch menu",
+    "<strong>14:00</strong> – Old Town and its lanes, then a break in the garden",
+    "<strong>17:00</strong> – Žižkov TV tower and an evening in Vinohrady or Žižkov"
+   ]
+  },
+  {
+   "h": "Vyšehrad, Kunst oder Ausflug",
+   "h_en": "Vyšehrad, art or a day trip",
+   "items": [
+    "<strong>9:00</strong> – Vyšehrader Friedhof und Festung",
+    "<strong>12:00</strong> – Mittag im Manifesto Market Anděl",
+    "<strong>14:00</strong> – DOX in Holešovice – oder statt des Nachmittags ein Ausflug nach Kutná Hora"
+   ],
+   "items_en": [
+    "<strong>9:00</strong> – Vyšehrad Cemetery and fortress",
+    "<strong>12:00</strong> – Lunch at Manifesto Market Anděl",
+    "<strong>14:00</strong> – DOX in Holešovice – or a trip to Kutná Hora instead of the afternoon"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie viele Tage braucht man in Prag?",
+   "q_en": "How many days do you need in Prague?",
+   "a": "<p>Für die Highlights reichen 2–3 Tage, mit einem Tagesausflug (zum Beispiel nach Kutná Hora) 4. Wenn du wenig Urlaub hast, klappt auch ein langes Wochenende – starte dann früh und plane die Gärten und Aussichten statt vieler Museen ein.</p>",
+   "a_en": "<p>2–3 days cover the highlights, 4 with a day trip (for example to Kutná Hora). If you have little holiday, a long weekend works too – start early and plan gardens and viewpoints rather than lots of museums.</p>"
+  },
+  {
+   "q": "Wann ist die beste Reisezeit?",
+   "q_en": "When is the best time to visit?",
+   "a": "<p>Frühling und früher Herbst sind angenehm und nicht so voll und heiß wie der Hochsommer. Gärten wie Vrtba und Wallenstein sind nur von April bis Oktober geöffnet – Zeiten vorher prüfen.</p>",
+   "a_en": "<p>Spring and early autumn are pleasant and less crowded and hot than midsummer. Gardens such as Vrtba and Wallenstein are only open from April to October – check hours beforehand.</p>"
+  },
+  {
+   "q": "Brauche ich Euro oder Kronen?",
+   "q_en": "Do I need euros or koruna?",
+   "a": "<p>Kronen (CZK). Kartenzahlung klappt fast überall. Meide Wechselstuben in der Altstadt, und wähle beim Bezahlen oder am Geldautomaten immer die Abrechnung in Kronen.</p>",
+   "a_en": "<p>Koruna (CZK). Card payment works almost everywhere. Avoid exchange offices in the Old Town, and when paying or withdrawing always choose to be charged in koruna.</p>"
+  },
+  {
+   "q": "Kann man Leitungswasser trinken?",
+   "q_en": "Can you drink the tap water?",
+   "a": "<p>Ja, das Leitungswasser in Prag ist trinkbar.</p>",
+   "a_en": "<p>Yes, tap water in Prague is drinkable.</p>"
+  },
+  {
+   "q": "Ist Prag sicher?",
+   "q_en": "Is Prague safe?",
+   "a": "<p>Im Großen und Ganzen ja. In vollen Trams, an der Karlsbrücke und in Touristenzonen gibt es Taschendiebe – trag Wertsachen eng am Körper.</p>",
+   "a_en": "<p>Broadly yes. In crowded trams, on Charles Bridge and in tourist areas there are pickpockets – keep valuables close to your body.</p>"
+  },
+  {
+   "q": "Wann ist die Karlsbrücke leer?",
+   "q_en": "When is Charles Bridge empty?",
+   "a": "<p>Am ruhigsten ist sie früh am Morgen. Noels Rat: um 7 Uhr über die Brücke und dann sofort in die Kleinseite, bevor die Gruppen kommen.</p>",
+   "a_en": "<p>It is quietest early in the morning. Noel’s advice: cross the bridge at 7 am and head straight into the Lesser Town before the groups arrive.</p>"
+  },
+  {
+   "q": "Was ist der beste Fotospot in Prag?",
+   "q_en": "What is the best photo spot in Prague?",
+   "a": "<p>Früh morgens die Karlsbrücke, am Abend der Letná-Park mit Blick über Moldau und Brücken – beide sind kostenlos. Für den Blick von oben lohnt sich der Petřín-Turm.</p>",
+   "a_en": "<p>Early in the morning the Charles Bridge, in the evening Letná Park with its view over the Vltava and the bridges – both are free. For a view from above the Petřín tower is worth it.</p>"
+  },
+  {
+   "q": "Lohnt sich die Astronomische Uhr?",
+   "q_en": "Is the Astronomical Clock worth it?",
+   "a": "<p>Die Uhr selbst ja, die Show zur vollen Stunde ist kurz und der Platz überfüllt. Besser: Uhr und Ring morgens früh oder abends ansehen und die Show nur mitnehmen, wenn du ohnehin dort bist.</p>",
+   "a_en": "<p>The clock itself yes; the show on the hour is short and the square is packed. Better: see the clock and the square early in the morning or in the evening and catch the show only if you are there anyway.</p>"
+  }
+ ]
 }
