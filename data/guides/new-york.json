@@ -1,0 +1,151 @@
+{
+ "slug": "new-york",
+ "slug_en": "new-york",
+ "status": "live",
+ "cc": "US",
+ "flag": "🇺🇸",
+ "city": "New York",
+ "city_en": "New York",
+ "updated": "2026-11-05",
+ "title": "New York Guide: Brooklyn Bridge, High Line, Chelsea Market & Gratis-Fähre",
+ "title_en": "New York Guide: Brooklyn Bridge, High Line, Chelsea Market & the Free Ferry",
+ "desc": "New York mit kleinem Budget: früh über die Brooklyn Bridge, High Line, Chelsea Market, Staten Island Ferry statt Bootstour und Hidden Gems wie die Flüstergalerie – von Noel.",
+ "desc_en": "New York on a budget: the Brooklyn Bridge early, High Line, Chelsea Market, Staten Island Ferry instead of a boat tour and hidden gems like the whispering gallery – from Noel.",
+ "gyg_q": "New York",
+ "intro": "<p>New York ist die Stadt aus tausend Filmen – und trotzdem anders, wenn du davor stehst. Viele der eindrucksvollsten Erlebnisse kosten gar nichts. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>New York is the city from a thousand films – and still different when you stand in front of it. Many of the most impressive experiences cost nothing at all. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-25",
+ "story": "<p>Ich war dort – und das Beste: Viele der eindrucksvollsten Erlebnisse der Stadt kosten gar nichts. Mein Tipp: früh morgens zu Fuß über die Brooklyn Bridge Richtung Manhattan, dann die High Line entlang und mittags in den Chelsea Market. Abends lieber Williamsburg als Times Square. Und für die Freiheitsstatue: die kostenlose Staten Island Ferry statt einer teuren Bootstour.</p>",
+ "story_en": "<p>I was there – and the best part: many of the city’s most impressive experiences cost nothing at all. My tip: walk the Brooklyn Bridge towards Manhattan early in the morning, then along the High Line and lunch at Chelsea Market. In the evening choose Williamsburg over Times Square. And for the Statue of Liberty: the free Staten Island Ferry instead of an expensive boat tour.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "4–5 Tage",
+   "v_en": "4–5 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "US-Dollar",
+   "v_en": "US dollar"
+  },
+  {
+   "k": "Nahverkehr",
+   "k_en": "Transit",
+   "v": "U-Bahn fährt rund um die Uhr",
+   "v_en": "Subway runs around the clock"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "gyg",
+   "html": "<p>New York wird von JFK, Newark und LaGuardia angeflogen; für die Einreise brauchst du als Deutscher eine ESTA-Genehmigung – aktuelle Regeln vorher prüfen. Innerhalb der Stadt ist die U-Bahn das Rückgrat.</p>",
+   "html_en": "<p>New York is served by JFK, Newark and LaGuardia; as a German citizen you need ESTA authorisation to enter – check current rules beforehand. Within the city the subway is the backbone.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Brooklyn Bridge am Morgen",
+     "text": "Früh morgens zu Fuß über die Brücke Richtung Manhattan.",
+     "text_en": "Walk across the bridge towards Manhattan early in the morning.",
+     "name_en": "Brooklyn Bridge in the morning",
+     "q": "Brooklyn Bridge am Morgen"
+    },
+    {
+     "name": "The High Line",
+     "text": "Die ehemalige Hochbahn als Park, etwa 2,5 km zwischen Meatpacking District und Hudson Yards, kostenlos. Auf Google 4,7 Sterne bei fast 69.000 Bewertungen.",
+     "text_en": "The former elevated railway turned park, about 2.5 km between the Meatpacking District and Hudson Yards, free. 4.7 stars on Google from nearly 69,000 reviews.",
+     "q": "High Line New York"
+    },
+    {
+     "name": "Chelsea Market",
+     "text": "Mittags in den Chelsea Market. Auf Google 4,6 Sterne. Besucher mögen die Vielfalt, warnen vor Gedränge am Wochenende.",
+     "text_en": "Lunch at Chelsea Market. 4.6 stars on Google. Visitors like the variety but warn about weekend crowds.",
+     "q": "Chelsea Market New York"
+    },
+    {
+     "name": "Staten Island Ferry",
+     "text": "Für die Freiheitsstatue: die kostenlose Fähre statt einer teuren Bootstour.",
+     "text_en": "For the Statue of Liberty: the free ferry instead of an expensive boat tour.",
+     "q": "Staten Island Ferry"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Verrückt, aber wahr",
+   "h_en": "Crazy but true",
+   "spots": [
+    {
+     "name": "Flüstergalerie in der Grand Central",
+     "text": "In der Grand Central kannst du deinem Freund quer durch den Raum etwas zuflüstern.",
+     "text_en": "In Grand Central you can whisper something to your friend across the room.",
+     "name_en": "Whispering gallery in Grand Central",
+     "gem": true,
+     "q": "Grand Central Terminal Whispering Gallery"
+    },
+    {
+     "name": "Geisterstation unter dem Rathaus",
+     "text": "Unter dem Rathaus liegt eine prachtvolle Geisterstation von 1904, die du aus dem Zug der Linie 6 sehen kannst.",
+     "text_en": "Beneath City Hall lies a magnificent 1904 ghost station you can see from the 6 train.",
+     "name_en": "Ghost station beneath City Hall",
+     "gem": true,
+     "q": "City Hall Subway Station"
+    },
+    {
+     "name": "Speakeasy in der Telefonzelle",
+     "text": "Eine Speakeasy-Bar erreichst du durch eine Telefonzelle in einem Hotdog-Laden – auf meiner Karte; Reservierung und aktuellen Stand vorab prüfen.",
+     "text_en": "You reach a speakeasy through a phone booth in a hot dog shop – on my map; check reservations and current status beforehand.",
+     "name_en": "Phone-booth speakeasy",
+     "gem": true,
+     "q": "Speakeasy in der Telefonzelle"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was New York ausmacht",
+   "h_en": "What makes New York special",
+   "html": "<p>Bevor es New York war, hieß es Nieuw Amsterdam. 1664 übernahmen die Engländer. Über Ellis Island kamen zwischen 1892 und 1954 rund zwölf Millionen Einwanderer in die USA.</p>",
+   "html_en": "<p>Before it was New York it was called New Amsterdam. In 1664 the English took over. Through Ellis Island about twelve million immigrants came to the USA between 1892 and 1954.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in New York",
+   "h_en": "One day in New York",
+   "items": [
+    "<strong>Früh</strong> – Brooklyn Bridge",
+    "<strong>Mittag</strong> – High Line, Chelsea Market",
+    "<strong>Nachmittag</strong> – Staten Island Ferry",
+    "<strong>Abend</strong> – Williamsburg"
+   ],
+   "items_en": [
+    "<strong>Early</strong> – Brooklyn Bridge",
+    "<strong>Midday</strong> – High Line, Chelsea Market",
+    "<strong>Afternoon</strong> – Staten Island Ferry",
+    "<strong>Evening</strong> – Williamsburg"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie sehe ich die Freiheitsstatue günstig?",
+   "q_en": "How can I see the Statue of Liberty cheaply?",
+   "a": "<p>Mit der kostenlosen Staten Island Ferry.</p>",
+   "a_en": "<p>With the free Staten Island Ferry.</p>"
+  }
+ ]
+}

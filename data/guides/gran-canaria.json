@@ -1,0 +1,130 @@
+{
+ "slug": "gran-canaria",
+ "slug_en": "gran-canaria",
+ "status": "live",
+ "cc": "ES",
+ "flag": "🇪🇸",
+ "city": "Gran Canaria",
+ "city_en": "Gran Canaria",
+ "updated": "2026-11-05",
+ "title": "Gran Canaria Guide: Maspalomas, Roque Nublo, Puerto de Mogán & Cueva Pintada",
+ "title_en": "Gran Canaria Guide: Maspalomas, Roque Nublo, Puerto de Mogán & Cueva Pintada",
+ "desc": "Gran Canaria: Sonnenaufgang in den Dünen, Roque Nublo, Fisch in Puerto de Mogán und die bemalte Höhle von Gáldar – von Noel.",
+ "desc_en": "Gran Canaria: sunrise in the dunes, Roque Nublo, fish in Puerto de Mogán and the painted cave of Gáldar – from Noel.",
+ "gyg_q": "Gran Canaria",
+ "intro": "<p>Gran Canaria heißt gern „Kontinent im Kleinformat“ – morgens Wüste, mittags Pinienwald, abends Hafen. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Gran Canaria is often called a “continent in miniature” – desert in the morning, pine forest at midday, harbour in the evening. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-13",
+ "story": "<p>Ich war auf der Insel, und genau diese Abwechslung ist es, die hängen bleibt. Mein Tipp: Sonnenaufgang in den Dünen von Maspalomas, nachmittags in die Berge zum Roque Nublo und abends Fisch im Hafen von Puerto de Mogán.</p>",
+ "story_en": "<p>I was on the island, and exactly this variety is what sticks. My tip: sunrise in the dunes of Maspalomas, the mountains and Roque Nublo in the afternoon, fish in the harbour of Puerto de Mogán at night.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "5–7 Tage",
+   "v_en": "5–7 days"
+  },
+  {
+   "k": "Klima",
+   "k_en": "Climate",
+   "v": "Ganzjährig ca. 20–25 °C",
+   "v_en": "About 20–25 °C year-round"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "gyg",
+   "html": "<p>Gran Canaria hat einen großen Flughafen im Osten; Busse verbinden die Orte. Für Berge und Hafenorte ist ein Mietwagen oder eine Tour praktisch; Straßen sind kurvig.</p>",
+   "html_en": "<p>Gran Canaria has a large airport in the east; buses link the towns. For mountains and harbour villages a rental car or a tour is practical; roads are winding.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Dünen von Maspalomas",
+     "text": "Sonnenaufgang in den Dünen. Auf Google 4,8 Sterne bei über 22.000 Bewertungen. Besucher raten zu Wasser und Sonnencreme und warnen vor Hitze mittags.",
+     "text_en": "Sunrise in the dunes. 4.8 stars on Google from over 22,000 reviews. Visitors advise water and sunscreen and warn of midday heat.",
+     "name_en": "Dunes of Maspalomas",
+     "q": "Dunas de Maspalomas"
+    },
+    {
+     "name": "Roque Nublo",
+     "text": "Der Felsfinger auf rund 1.800 Metern im Zentrum. Auf Google 4,7 Sterne. Besucher berichten, der Parkplatz sei eingeschränkt, Bus und Wanderung seien eine gute Option.",
+     "text_en": "The rock finger at about 1,800 metres in the centre. 4.7 stars on Google. Visitors report limited parking, bus and hike are a good option.",
+     "q": "Roque Nublo Gran Canaria"
+    },
+    {
+     "name": "Puerto de Mogán",
+     "text": "Abends Fisch im Hafen.",
+     "text_en": "Fish in the harbour at night.",
+     "name_en": "Puerto de Mogán",
+     "q": "Puerto de Mogán"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gem",
+   "h_en": "Hidden gem",
+   "spots": [
+    {
+     "name": "Cueva Pintada in Gáldar",
+     "text": "Ein Ort, den die meisten Strandurlauber nie sehen: die bemalte Höhle der Altkanarier. Auf Google 4,6 Sterne. Besucher empfehlen die geführte Tour (rund 6 € laut einem Gast).",
+     "text_en": "A place most beach holidaymakers never see: the painted cave of the ancient Canarians. 4.6 stars on Google. Visitors recommend the guided tour (about €6 according to one guest).",
+     "name_en": "Cueva Pintada in Gáldar",
+     "gem": true,
+     "q": "Cueva Pintada Museum Gáldar",
+     "hours": "laut Google Di–So ca. 10–18 Uhr, Mo geschlossen",
+     "hours_en": "Tue–Sun about 10 am–6 pm, closed Mondays according to Google"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Gran Canaria ausmacht",
+   "h_en": "What makes Gran Canaria special",
+   "html": "<p>Lange vor den Spaniern lebten hier die Altkanarier. Ende des 15. Jahrhunderts eroberte Kastilien die Insel. 1492 legte Kolumbus auf seiner ersten Fahrt nach Amerika in Las Palmas an.</p>",
+   "html_en": "<p>Long before the Spaniards the ancient Canarians lived here. At the end of the 15th century Castile conquered the island. In 1492 Columbus landed in Las Palmas on his first voyage to America.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag Gran Canaria",
+   "h_en": "One day on Gran Canaria",
+   "items": [
+    "<strong>Sonnenaufgang</strong> – Maspalomas",
+    "<strong>Nachmittag</strong> – Roque Nublo",
+    "<strong>Abend</strong> – Puerto de Mogán"
+   ],
+   "items_en": [
+    "<strong>Sunrise</strong> – Maspalomas",
+    "<strong>Afternoon</strong> – Roque Nublo",
+    "<strong>Evening</strong> – Puerto de Mogán"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Brauche ich einen Mietwagen?",
+   "q_en": "Do I need a rental car?",
+   "a": "<p>Für die Berge praktisch; Busse gibt es zu vielen Orten.</p>",
+   "a_en": "<p>Practical for the mountains; buses serve many places.</p>"
+  }
+ ]
+}

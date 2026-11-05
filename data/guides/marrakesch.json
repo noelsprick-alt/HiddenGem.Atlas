@@ -1,0 +1,143 @@
+{
+ "slug": "marrakesch",
+ "slug_en": "marrakech",
+ "status": "live",
+ "cc": "MA",
+ "flag": "🇲🇦",
+ "city": "Marrakesch",
+ "city_en": "Marrakech",
+ "updated": "2026-11-05",
+ "title": "Marrakesch Guide: Riad-Effekt, Djemaa el-Fna, Jardin Majorelle & Souks",
+ "title_en": "Marrakech Guide: The Riad Effect, Djemaa el-Fna, Jardin Majorelle & Souks",
+ "desc": "Marrakesch im April 2025: Chaos draußen, Stille im Riad – mit Djemaa el-Fna, Jardin Majorelle und Souks ohne Plan – von Noel.",
+ "desc_en": "Marrakech in April 2025: chaos outside, stillness in a riad – with Djemaa el-Fna, Jardin Majorelle and souks without a plan – from Noel.",
+ "gyg_q": "Marrakech",
+ "intro": "<p>Marrakesch ist laut, bunt und anstrengend – und dann gehst du durch eine unscheinbare Tür und stehst in einem Riad. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Marrakech is loud, colourful and exhausting – and then you walk through an unremarkable door and stand in a riad. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-27",
+ "hero": "images/photos/marrakesch-riad-pool.webp",
+ "hero_alt": "Riad mit Pool in Marrakesch",
+ "hero_alt_en": "Riad with a pool in Marrakech",
+ "story": "<p>Ich war im April 2025 dort, und dieser Wechsel zwischen Chaos und Ruhe ist das, was bleibt. Stille, ein Pool im Innenhof, Fliesen in allen Farben, Pflanzen in großen Töpfen. Tagsüber ein Sprung in den Pool, mittags Kaffee und ein Shake auf einer Terrasse unter Palmen. Abends ein Innenhof im Kerzenlicht, das Wasser im Pool leuchtet, die Gespräche werden leiser. Draußen tobt die Medina – drinnen bekommst du davon kaum etwas mit. Mein Tipp: Schlaf im Riad, nicht im Hotelklotz am Stadtrand.</p>",
+ "story_en": "<p>I was there in April 2025, and that switch between chaos and calm is what stays. Silence, a pool in the courtyard, tiles in every colour, plants in big pots. By day a dip in the pool, at midday coffee and a shake on a terrace under palms. In the evening a courtyard by candlelight, the pool water glowing, conversations growing quieter. Outside the medina rages – inside you barely notice. My tip: sleep in a riad, not in a hotel block on the outskirts.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "3–4 Tage",
+   "v_en": "3–4 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Marokkanischer Dirham (MAD)",
+   "v_en": "Moroccan dirham (MAD)"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Frühling und Herbst",
+   "v_en": "Spring and autumn"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "gyg",
+   "html": "<p>Marrakesch hat einen internationalen Flughafen mit Taxi- und Busverbindung in die Medina; Preise vorher klären. Innerhalb der Medina gehst du zu Fuß.</p>",
+   "html_en": "<p>Marrakech has an international airport with taxi and bus links to the medina; agree prices beforehand. Inside the medina you walk.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Riad mit Pool",
+     "text": "Der Kontrast zwischen dem Trubel draußen und der Ruhe drinnen ist das eigentliche Erlebnis.",
+     "text_en": "The contrast between the bustle outside and the calm inside is the real experience.",
+     "name_en": "Riad with a pool",
+     "gem": true,
+     "q": "Riad mit Pool",
+     "photos": [
+      "images/photos/marrakesch-riad-pool.webp",
+      "images/photos/marrakesch-terrasse.webp",
+      "images/photos/marrakesch-riad-nacht.webp"
+     ]
+    },
+    {
+     "name": "Djemaa el-Fna",
+     "text": "Nur ein paar Minuten zu Fuß entfernt: abends Garküchen, Musiker, Geschichtenerzähler, ein einziges Gewusel. Seit 2001 immaterielles UNESCO-Kulturerbe – wegen der Menschen, nicht wegen eines Gebäudes. Zum Sonnenuntergang auf eine Dachterrasse darüber.",
+     "text_en": "Just a few minutes’ walk away: in the evening food stalls, musicians, storytellers, one big bustle. Since 2001 UNESCO intangible heritage – because of the people, not a building. Go to a rooftop terrace above it at sunset.",
+     "name_en": "Djemaa el-Fna",
+     "q": "Djemaa el-Fna"
+    },
+    {
+     "name": "Jardin Majorelle",
+     "text": "Morgens, bevor es voll wird. Auf Google 4,4 Sterne bei über 61.000 Bewertungen. Besucher raten, Tickets online zu buchen und früh zu kommen.",
+     "text_en": "In the morning before it fills up. 4.4 stars on Google from over 61,000 reviews. Visitors advise booking tickets online and coming early.",
+     "q": "Jardin Majorelle Marrakech",
+     "hours": "laut Google täglich ca. 8–17:30 Uhr",
+     "hours_en": "daily about 8 am–5:30 pm according to Google"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gem",
+   "h_en": "Hidden gem",
+   "spots": [
+    {
+     "name": "Souks ohne Plan",
+     "text": "Geh in die Souks ohne Plan – verlaufen gehört dazu. Feilschen gehört dazu.",
+     "text_en": "Go into the souks without a plan – getting lost is part of it. So is haggling.",
+     "name_en": "Souks without a plan",
+     "gem": true,
+     "q": "Souks ohne Plan"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Marokko ausmacht",
+   "h_en": "What makes Morocco special",
+   "html": "<p>Minztee, den man hier „Berber-Whisky“ nennt, Souks, in denen Feilschen dazugehört, und eine Kultur, in der Arabisch, Amazigh und Französisch nebeneinander stehen. Die Mauern aus rotem Lehm machen Marrakesch zur „Roten Stadt“. Gegründet wurde sie 1070 von den Almoraviden; das Minarett der Koutoubia-Moschee darf bis heute von keinem Gebäude in der Medina überragt werden.</p>",
+   "html_en": "<p>Mint tea, jokingly called “Berber whisky”, souks where haggling is part of it, and a culture where Arabic, Amazigh and French stand side by side. The red clay walls make Marrakech the “Red City”. It was founded in 1070 by the Almoravids; the minaret of the Koutoubia Mosque may still not be overtopped by any building in the medina.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Marrakesch",
+   "h_en": "One day in Marrakech",
+   "items": [
+    "<strong>Morgens</strong> – Jardin Majorelle",
+    "<strong>Mittags</strong> – Terrasse im Riad",
+    "<strong>Nachmittag</strong> – Souks",
+    "<strong>Sonnenuntergang</strong> – Dachterrasse über Djemaa el-Fna",
+    "<strong>Abend</strong> – Garküchen"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Jardin Majorelle",
+    "<strong>Midday</strong> – riad terrace",
+    "<strong>Afternoon</strong> – souks",
+    "<strong>Sunset</strong> – rooftop above Djemaa el-Fna",
+    "<strong>Evening</strong> – food stalls"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Riad oder Hotel?",
+   "q_en": "Riad or hotel?",
+   "a": "<p>Noels Tipp: Riad in der Medina.</p>",
+   "a_en": "<p>Noel’s tip: a riad in the medina.</p>"
+  }
+ ]
+}

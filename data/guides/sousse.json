@@ -1,0 +1,116 @@
+{
+ "slug": "sousse",
+ "slug_en": "sousse",
+ "status": "live",
+ "cc": "TN",
+ "flag": "🇹🇳",
+ "city": "Sousse",
+ "city_en": "Sousse",
+ "updated": "2026-11-05",
+ "title": "Sousse Guide: Medina, Ribat-Turm & Tagesausflug nach El Jem",
+ "title_en": "Sousse Guide: Medina, Ribat Tower & Day Trip to El Jem",
+ "desc": "Sousse in Tunesien: hinter dem Hotelstrand die UNESCO-Medina, der Ribat-Turm und El Jem – von Noel.",
+ "desc_en": "Sousse in Tunisia: behind the hotel beach the UNESCO medina, the Ribat tower and El Jem – from Noel.",
+ "gyg_q": "Sousse",
+ "intro": "<p>Tunesien ist für viele nur Strandurlaub – hinter dem Hotelstrand wartet eine der schönsten Altstädte Nordafrikas. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Tunisia is just a beach holiday for many – behind the hotel beach waits one of North Africa’s most beautiful old towns. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-26",
+ "story": "<p>Ich war in Sousse – und hinter dem Hotelstrand wartet eine der schönsten Altstädte Nordafrikas. Mein Tipp: Die Medina von Sousse ist UNESCO-Welterbe – früh hineingehen, auf den Ribat steigen und über die Dächer schauen.</p>",
+ "story_en": "<p>I was in Sousse – and behind the hotel beach waits one of North Africa’s most beautiful old towns. My tip: the medina of Sousse is a UNESCO World Heritage Site – go in early, climb the Ribat and look out over the rooftops.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Tunesischer Dinar (TND)",
+   "v_en": "Tunisian dinar (TND)"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "gyg",
+   "html": "<p>Der nächste Flughafen ist Monastir; von dort kommst du per Transfer oder Taxi nach Sousse. Informiere dich vor der Reise über aktuelle Reisehinweise des Auswärtigen Amts.</p>",
+   "html_en": "<p>The nearest airport is Monastir; from there you go by transfer or taxi to Sousse. Inform yourself about the current travel advice of the German Foreign Office before travelling.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Medina und Ribat",
+     "text": "Früh hineingehen, auf den Ribat steigen und über die Dächer schauen. Auf Google 4,4 Sterne. Besucher nennen rund 8 Dinar Eintritt und viele Stufen zum Turm. Der Ribat entstand im 8. Jahrhundert.",
+     "text_en": "Go in early, climb the Ribat and look over the rooftops. 4.4 stars on Google. Visitors mention about 8 dinars admission and many steps to the tower. The Ribat dates from the 8th century.",
+     "name_en": "Medina and Ribat",
+     "q": "Ribat of Sousse",
+     "hours": "laut Google täglich ca. 8–19 Uhr",
+     "hours_en": "daily about 8 am–7 pm according to Google"
+    },
+    {
+     "name": "El Jem – römisches Amphitheater",
+     "text": "Ein Tagesausflug lohnt sich nach El Jem, wo eines der größten römischen Amphitheater der Welt steht. Auf Google 4,8 Sterne bei über 11.000 Bewertungen; Besucher raten zu früher Stunde.",
+     "text_en": "A day trip to El Jem is worthwhile, where one of the world’s largest Roman amphitheatres stands. 4.8 stars on Google from over 11,000 reviews; visitors advise going early.",
+     "name_en": "El Jem – Roman amphitheatre",
+     "q": "Amphitheatre of El Jem"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Verrückt, aber wahr",
+   "h_en": "Crazy but true",
+   "spots": [
+    {
+     "name": "Film-Kulissen",
+     "text": "Im Ribat von Monastir drehte Monty Python „Das Leben des Brian“. In Matmata kannst du in der Höhle übernachten, die Luke Skywalkers Zuhause war. Bei Tozeur verschluckt der Sand die Kulisse von Mos Espa. Alles auf meiner Karte.",
+     "text_en": "Monty Python shot “Life of Brian” in the Ribat of Monastir. In Matmata you can stay in the cave that was Luke Skywalker’s home. Near Tozeur the sand is swallowing the Mos Espa set. All on my map.",
+     "name_en": "Film sets",
+     "gem": true,
+     "q": "Film-Kulissen"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Tunesien ausmacht",
+   "h_en": "What makes Tunisia special",
+   "html": "<p>Hier lag Karthago, Roms großer Rivale. Sousse hieß in der Antike Hadrumetum, unter der Stadt liegen kilometerlange frühchristliche Katakomben. Im Dezember 2010 begann in Tunesien der Arabische Frühling.</p>",
+   "html_en": "<p>Carthage, Rome’s great rival, lay here. In antiquity Sousse was called Hadrumetum, beneath the city lie kilometres of early Christian catacombs. In December 2010 the Arab Spring began in Tunisia.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Zwei Tage Sousse",
+   "h_en": "Two days in Sousse",
+   "items": [
+    "<strong>Tag 1</strong> – Medina und Ribat",
+    "<strong>Tag 2</strong> – Ausflug nach El Jem"
+   ],
+   "items_en": [
+    "<strong>Day 1</strong> – medina and Ribat",
+    "<strong>Day 2</strong> – trip to El Jem"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lohnt sich El Jem als Tagesausflug?",
+   "q_en": "Is El Jem worth a day trip?",
+   "a": "<p>Ja – eines der größten römischen Amphitheater der Welt.</p>",
+   "a_en": "<p>Yes – one of the world’s largest Roman amphitheatres.</p>"
+  }
+ ]
+}
