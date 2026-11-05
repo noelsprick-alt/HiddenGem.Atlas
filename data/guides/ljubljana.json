@@ -1,0 +1,51 @@
+{
+  "slug": "ljubljana", "slug_en": "ljubljana", "status": "live", "blog": "blog-bc-15",
+  "cc": "SI", "flag": "🇸🇮", "city": "Ljubljana", "city_en": "Ljubljana", "updated": "2026-11-05",
+  "title": "Ljubljana Guide: Grünste Hauptstadt Europas, Plečnik & Metelkova",
+  "title_en": "Ljubljana Guide: Europe’s Greenest Capital, Plečnik & Metelkova",
+  "desc": "Ljubljana zu Fuß: Zentralmarkt, Drachenbrücke, Burg, Metelkova, Nebotičnik und die Freitags-Offene-Küche – von Noel (2024), mit Anreise, Preisen und Tagesplan.",
+  "desc_en": "Ljubljana on foot: central market, Dragon Bridge, castle, Metelkova, Nebotičnik and the Friday Open Kitchen – from Noel (2024), with getting there, prices and a day plan.",
+  "gyg_q": "Ljubljana",
+  "intro": "<p>Ljubljana ist klein, grün und autofrei in der Altstadt: Cafés am Fluss, Drachen auf Brücken und ein Architekt, der die Stadt geprägt hat. Zwei Tage reichen locker, drei sind entspannt.</p><p>Dieser Guide zeigt dir die Must-Sees, die Orte für Einheimische und alles, was du für die Anreise wissen musst. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+  "intro_en": "<p>Ljubljana is small, green and car-free in the old town: cafés by the river, dragons on bridges and an architect who shaped the city. Two days are plenty, three are relaxed.</p><p>This guide shows the must-sees, the places for locals and everything you need to know about getting there. Prices and times are guidelines (2026).</p>",
+  "story": "<p>Ich war 2024 in Ljubljana – die grünste Hauptstadt, die ich kenne: autofrei, alles zu Fuß, Cafés am Fluss. Mein Rat aus eigener Erfahrung: morgens auf den Zentralmarkt, mittags am Fluss sitzen, abends nach Metelkova, in die bunt bemalte ehemalige Kaserne voller Bars.</p>",
+  "story_en": "<p>I was in Ljubljana in 2024 – the greenest capital I know: car-free, everything on foot, cafés by the river. My advice from experience: the central market in the morning, sit by the river at lunch, in the evening to Metelkova, the colourfully painted former barracks full of bars.</p>",
+  "facts": [
+    {"k":"Dauer","k_en":"How long","v":"2–3 Tage","v_en":"2–3 days"},
+    {"k":"Beste Reisezeit","k_en":"Best time","v":"April–Oktober; Freitags-Markt von Frühling bis Herbst","v_en":"April–October; Friday market from spring to autumn"},
+    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
+    {"k":"Sprache","k_en":"Language","v":"Slowenisch; Englisch klappt überall","v_en":"Slovenian; English works everywhere"},
+    {"k":"Altstadt","k_en":"Old town","v":"Für Autos gesperrt, 2016 Grüne Hauptstadt Europas","v_en":"Closed to cars, Green Capital of Europe 2016"}
+  ],
+  "blocks": [
+    {"type":"prose","id":"anreise","h":"So kommst du nach Ljubljana","h_en":"Getting to Ljubljana","box":"omio",
+     "html":"<p>Der Flughafen Ljubljana (Brnik) liegt etwa 25 km nördlich; Busse und Shuttles fahren in die Stadt, aktuelle Fahrpläne vorher prüfen. Mit dem Zug erreichst du Ljubljana aus Österreich (Villach, Wien) und Italien, mit dem Fernbus aus Zagreb, Triest und München. Die Altstadt ist klein und autofrei, ein Auto brauchst du nicht.</p>",
+     "html_en":"<p>Ljubljana airport (Brnik) lies about 25 km to the north; buses and shuttles run into the city, check current timetables beforehand. By train you reach Ljubljana from Austria (Villach, Vienna) and Italy, by coach from Zagreb, Trieste and Munich. The old town is small and car-free, you do not need a car.</p>"},
+    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
+     "spots":[
+      {"name":"Zentralmarkt & Plečnik-Arkaden","name_en":"Central market & Plečnik arcades","q":"Plečnik's Arcades Ljubljana","text":"<p>Mein Rat: morgens auf den Zentralmarkt. Die Kolonnaden am Fluss entwarf Jože Plečnik (gebaut 1939–44); heute gibt es hier Stände, Cafés und Imbisse. Freitags von Frühling bis Herbst kochen am Markt Restaurants aus dem ganzen Land – die „Offene Küche“ (Odprta kuhna).</p>","text_en":"<p>My advice: the central market in the morning. Jože Plečnik designed the riverside colonnades (built 1939–44); today there are stalls, cafés and snacks. On Fridays from spring to autumn restaurants from all over the country cook at the market – the “Open Kitchen” (Odprta kuhna).</p>"},
+      {"name":"Drachenbrücke & Drei Brücken","name_en":"Dragon Bridge & Triple Bridge","q":"Triple Bridge Ljubljana","text":"<p>Überall sitzt ein Drache – das Stadtwappen. Der Sage nach soll ihn Jason mit den Argonauten hier besiegt haben. Die Drei Brücken stammen von Plečnik.</p>","text_en":"<p>A dragon sits everywhere – the city’s coat of arms. According to legend Jason and the Argonauts defeated it here. The Triple Bridge is by Plečnik.</p>"},
+      {"name":"Burg Ljubljana","name_en":"Ljubljana Castle","q":"Ljubljana Castle","text":"<p>Den Burghügel erreichst du zu Fuß in etwa 10–20 Minuten oder per Standseilbahn. Viele Bereiche und Aussichtspunkte sind laut Besuchern frei zugänglich, Museum und Turm kosten Eintritt. Auf Google 4,4 Sterne.</p>","text_en":"<p>You reach the castle hill on foot in about 10–20 minutes or by funicular. According to visitors many areas and viewpoints are free, museum and tower charge admission. 4.4 stars on Google.</p>","hours":"laut Google täglich ca. 9–18 Uhr","hours_en":"daily about 9 am–6 pm according to Google"},
+      {"name":"Café im Nebotičnik","name_en":"Café in the Nebotičnik","gem":false,"q":"Nebotičnik Ljubljana","text":"<p>Für den Blick von oben: das Café im Nebotičnik, einem der ersten Hochhäuser Europas. Besucher loben die 360°-Aussicht und die Kremšnita; kritisiert werden teils langsame Bedienung und der enge Lift. Auf Google 4,0 Sterne.</p>","text_en":"<p>For the view from above: the café in the Nebotičnik, one of the first skyscrapers in Europe. Visitors praise the 360° view and the kremšnita; some criticise slow service and the narrow lift. 4.0 stars on Google.</p>"}
+     ]},
+    {"type":"spots","id":"gems","h":"Hidden Gems & Abendprogramm","h_en":"Hidden gems & evening",
+     "spots":[
+      {"name":"Metelkova","gem":true,"q":"AKC Metelkova mesto","text":"<p>Abends nach Metelkova: die bunt bemalte ehemalige Kaserne voller Bars, Clubs und Street-Art. Auf Google 4,2 Sterne bei über 8.000 Bewertungen.</p>","text_en":"<p>In the evening to Metelkova: the colourfully painted former barracks full of bars, clubs and street art. 4.2 stars on Google from over 8,000 reviews.</p>","tip":"Besucher raten, tagsüber für die Graffiti zu kommen und abends aufmerksam zu sein, vor allem nachts nicht allein tiefer in die Höfe zu gehen.","tip_en":"Visitors advise coming by day for the graffiti and being alert in the evening, especially not going deeper into the courtyards alone at night."},
+      {"name":"Mittags am Fluss","name_en":"Lunch by the river","q":"Ljubljanica river cafes","text":"<p>Mittags am Fluss sitzen: Cafés und Terrassen entlang der Ljubljanica – das ist Ljubljana im Kern.</p>","text_en":"<p>Sit by the river at lunch: cafés and terraces along the Ljubljanica – that is the essence of Ljubljana.</p>"}
+     ]},
+    {"type":"prose","id":"wissen","h":"Was Ljubljana ausmacht","h_en":"What makes Ljubljana special","box":"gyg",
+     "html":"<p>Schon die Römer hatten hier eine Stadt namens Emona. Nach einem schweren Erdbeben 1895 wurde Ljubljana in vielen Teilen neu aufgebaut, viele Jugendstil-Fassaden stammen aus dieser Zeit. Das heutige Gesicht der Stadt prägte der Architekt Jože Plečnik – von ihm stammen die Drei Brücken und die Kolonnaden des Marktes.</p><p>Von hier aus sind Bled und die Küste (siehe meine Guides zu Bled und Koper) in ein bis zwei Stunden erreichbar.</p>",
+     "html_en":"<p>The Romans already had a town here called Emona. After a severe earthquake in 1895 Ljubljana was rebuilt in many parts, and many Art Nouveau façades date from that time. The architect Jože Plečnik shaped the city’s present face – the Triple Bridge and the market colonnades are his.</p><p>From here Bled and the coast (see my guides to Bled and Koper) are one to two hours away.</p>"},
+    {"type":"prose","id":"uebernachten","h":"Wo übernachten?","h_en":"Where to stay",
+     "html":"<ul><li><strong>Altstadt:</strong> Fluss, Markt und Cafés vor der Tür – ruhig, weil autofrei.</li><li><strong>Nähe Bahnhof:</strong> günstiger, 15 Minuten zu Fuß ins Zentrum.</li><li><strong>Metelkova-Gegend:</strong> alternativ und laut am Wochenende.</li></ul>",
+     "html_en":"<ul><li><strong>Old town:</strong> river, market and cafés on your doorstep – quiet because car-free.</li><li><strong>Near the station:</strong> cheaper, 15 minutes on foot to the centre.</li><li><strong>Metelkova area:</strong> alternative and loud at weekends.</li></ul>"}
+  ],
+  "itinerary":[
+   {"h":"Ein Tag nach Noels Rat","h_en":"One day following Noel’s advice","items":["<strong>Morgens</strong> – Zentralmarkt und Plečnik-Arkaden (freitags Offene Küche)","<strong>Mittags</strong> – am Fluss sitzen, Drachenbrücke","<strong>Nachmittag</strong> – Burg, Blick vom Nebotičnik","<strong>Abends</strong> – Metelkova"],"items_en":["<strong>Morning</strong> – central market and Plečnik arcades (Open Kitchen on Fridays)","<strong>Lunch</strong> – sit by the river, Dragon Bridge","<strong>Afternoon</strong> – castle, view from the Nebotičnik","<strong>Evening</strong> – Metelkova"]}
+  ],
+  "faq":[
+   {"q":"Wie viele Tage braucht man in Ljubljana?","q_en":"How many days do you need in Ljubljana?","a":"<p>Zwei Tage reichen für die Stadt, mit einem Ausflug nach Bled oder an die Küste drei bis vier.</p>","a_en":"<p>Two days cover the city, three to four with a trip to Bled or the coast.</p>"},
+   {"q":"Ist Ljubljana teuer?","q_en":"Is Ljubljana expensive?","a":"<p>Moderat. Der Markt und viele Aussichtspunkte kosten nichts, Burg und Museen Eintritt.</p>","a_en":"<p>Moderate. The market and many viewpoints cost nothing, castle and museums charge admission.</p>"},
+   {"q":"Brauche ich ein Auto?","q_en":"Do I need a car?","a":"<p>Nein. Die Altstadt ist autofrei, und für Bled und die Küste gibt es Bus und Bahn.</p>","a_en":"<p>No. The old town is car-free, and there are buses and trains to Bled and the coast.</p>"}
+  ]
+}
