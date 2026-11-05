@@ -7,8 +7,8 @@
  "city": "Vilnius",
  "city_en": "Vilnius",
  "updated": "2026-11-05",
- "title": "Vilnius Guide: Užupis, Gediminas-Turm, KGB-Museum & Berg der Kreuze",
- "title_en": "Vilnius Guide: Užupis, Gediminas Tower, KGB Museum & Hill of Crosses",
+ "title": "Vilnius Guide: 12 Orte – Užupis, Gediminas-Turm, KGB-Museum, Trakai & Hidden Gems",
+ "title_en": "Vilnius Guide: 12 places – Užupis, Gediminas Tower, KGB Museum, Trakai & hidden gems",
  "desc": "Vilnius ohne Massen: Užupis-Republik, Sonnenuntergang auf dem Gediminas-Turm, KGB-Museum, Frank-Zappa-Denkmal und Berg der Kreuze – von Noel.",
  "desc_en": "Vilnius without the crowds: Užupis Republic, sunset on Gediminas Tower, KGB museum, Frank Zappa monument and Hill of Crosses – from Noel.",
  "gyg_q": "Vilnius",
@@ -44,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Vilnius hat einen eigenen Flughafen; Fernbusse verbinden die Stadt mit Riga und Warschau. Aktuelle Verbindungen vorher prüfen.</p>",
-   "html_en": "<p>Vilnius has its own airport; coaches link the city to Riga and Warsaw. Check current connections beforehand.</p>"
+   "html": "<p>Vilnius hat einen eigenen Flughafen; Fernbusse verbinden die Stadt mit Riga und Warschau. Aktuelle Verbindungen vorher prüfen.</p><p>Der Flughafen Vilnius liegt nahe am Zentrum; Bus, Zug und Taxi bringen dich in wenigen Minuten in die Stadt (Preise vorher prüfen). Die Altstadt ist kompakt und gut zu Fuß erkundbar. Litauen nutzt den Euro.</p><p>Für Trakai und den Berg der Kreuze brauchst du Zug/Bus oder Tour beziehungsweise Auto.</p>",
+   "html_en": "<p>Vilnius has its own airport; coaches link the city to Riga and Warsaw. Check current connections beforehand.</p><p>Vilnius airport lies close to the centre; bus, train and taxi bring you into the city in a few minutes (check prices beforehand). The old town is compact and easy to explore on foot. Lithuania uses the euro.</p><p>For Trakai and the Hill of Crosses you need train/bus or a tour or car.</p>"
   },
   {
    "type": "spots",
@@ -55,19 +55,59 @@
    "spots": [
     {
      "name": "Gediminas-Turm",
-     "text": "Zum Sonnenuntergang auf den Turm. Auf Google 4,7 Sterne. Besucher nennen rund 8 € Eintritt, eine Standseilbahn (ca. 2 €) und 360°-Blick.",
-     "text_en": "Up the tower at sunset. 4.7 stars on Google. Visitors mention about €8 admission, a funicular (about €2) and a 360° view.",
+     "text": "<p>Zum Sonnenuntergang auf den Turm. Auf Google 4,7 Sterne. Besucher nennen rund 8 € Eintritt, eine Standseilbahn (ca. 2 €) und 360°-Blick.</p><p>Der Gediminas-Turm ist der Rest der Oberen Burg auf dem Burgberg und das Wahrzeichen von Vilnius. Von der Plattform oben siehst du die Altstadt mit ihren roten Dächern, die Neris und moderne Hochhäuser. Der Aufstieg erfolgt zu Fuß über einen Weg oder mit der Standseilbahn; im Turm gibt es eine kleine Ausstellung.</p><p>Zum Sonnenuntergang ist der Blick am schönsten. Öffnungszeiten und Preise ändern sich, bitte vorher prüfen.</p>",
+     "text_en": "<p>Up the tower at sunset. 4.7 stars on Google. Visitors mention about €8 admission, a funicular (about €2) and a 360° view.</p><p>The Gediminas Tower is the remnant of the Upper Castle on the castle hill and the landmark of Vilnius. From the platform at the top you see the old town with its red roofs, the Neris and modern skyscrapers. You ascend on foot by a path or by funicular; inside the tower there is a small exhibition.</p><p>At sunset the view is most beautiful. Opening times and prices change, please check beforehand.</p>",
      "name_en": "Gediminas Tower",
      "q": "Gediminas Castle Tower Vilnius",
      "hours": "laut Google täglich ca. 10–20 Uhr",
-     "hours_en": "daily about 10 am–8 pm according to Google"
+     "hours_en": "daily about 10 am–8 pm according to Google",
+     "tip": "Komm zum Sonnenuntergang und nimm den Fußweg hinauf.",
+     "tip_en": "Come at sunset and take the footpath up."
     },
     {
      "name": "Užupis",
-     "text": "Ein Spaziergang durch die selbsternannte Künstlerrepublik – mit eigener Verfassung an der Wand.",
-     "text_en": "A walk through the self-proclaimed artists’ republic – with its own constitution on a wall.",
+     "text": "<p>Ein Spaziergang durch die selbsternannte Künstlerrepublik – mit eigener Verfassung an der Wand.</p><p>Užupis ist ein Künstlerviertel jenseits des Flusses Vilnia, das sich 1997 zur Republik erklärte – mit Präsident, Flagge und einer Verfassung in vielen Sprachen auf Tafeln an der Wand. Die Artikel sind humorvoll und philosophisch, etwa über Katzen, Hunde und das Recht auf Glück. Am 1. April feiert Užupis seinen Unabhängigkeitstag.</p><p>Du findest Galerien, Cafés und den „Engel von Užupis“ auf dem Hauptplatz. Plane ein bis zwei Stunden ein.</p>",
+     "text_en": "<p>A walk through the self-proclaimed artists’ republic – with its own constitution on a wall.</p><p>Užupis is an artists’ district across the river Vilnia that declared itself a republic in 1997 – with president, flag and a constitution in many languages on wall plaques. The articles are humorous and philosophical, for example about cats, dogs and the right to happiness. On 1 April Užupis celebrates its independence day.</p><p>You find galleries, cafés and the “Angel of Užupis” on the main square. Plan one to two hours.</p>",
      "name_en": "Užupis",
-     "q": "Užupis"
+     "q": "Užupis",
+     "tip": "Lies die Verfassung an der Wand und trink einen Kaffee im Viertel.",
+     "tip_en": "Read the constitution on the wall and have a coffee in the district."
+    },
+    {
+     "name": "Altstadt von Vilnius",
+     "text": "<p>Die Altstadt von Vilnius gehört zum UNESCO-Welterbe und ist eine der größten Altstädte Osteuropas. Barocke Kirchen, enge Gassen, Innenhöfe und Plätze wechseln sich ab. Die Kathedrale am Domplatz mit ihrem Glockenturm ist ein Treffpunkt.</p><p>Die Altstadt ist gut zu Fuß erkundbar. Plane einen halben bis ganzen Tag ein und lass dich in Innenhöfe und Seitengassen treiben.</p>",
+     "text_en": "<p>Vilnius Old Town is a UNESCO World Heritage site and one of the largest old towns in Eastern Europe. Baroque churches, narrow lanes, courtyards and squares alternate. The cathedral on Cathedral Square with its bell tower is a meeting point.</p><p>The old town is easy to explore on foot. Plan half a day to a whole day and drift into courtyards and side streets.</p>",
+     "name_en": "Vilnius Old Town",
+     "q": "Vilnius Old Town",
+     "tip": "Lass dich in Innenhöfe und Seitengassen treiben.",
+     "tip_en": "Drift into courtyards and side streets."
+    },
+    {
+     "name": "Kathedrale & Domplatz",
+     "text": "<p>Die klassizistische Kathedrale mit ihrer Säulenfassade steht auf dem Domplatz, dem Herz der Stadt. Daneben erhebt sich der Glockenturm. Auf dem Platz liegt ein Stein mit dem Wort „Stebuklas“ („Wunder“); der Brauch sagt, man drehe sich dreimal auf dem Stein und wünsche sich etwas.</p><p>Das Innere der Kathedrale ist frei zugänglich; Zeiten vorher prüfen.</p>",
+     "text_en": "<p>The neoclassical cathedral with its columned façade stands on Cathedral Square, the heart of the city. Beside it rises the bell tower. On the square lies a stone with the word “Stebuklas” (“miracle”); custom says to turn around three times on the stone and make a wish.</p><p>The interior of the cathedral is freely accessible; check times beforehand.</p>",
+     "name_en": "Cathedral & Cathedral Square",
+     "q": "Vilnius Cathedral",
+     "tip": "Dreh dich auf dem Stebuklas-Stein dreimal und wünsch dir etwas.",
+     "tip_en": "Turn around three times on the Stebuklas stone and make a wish."
+    },
+    {
+     "name": "Tor der Morgenröte (Aušros Vartai)",
+     "text": "<p>Das Tor der Morgenröte ist das einzige erhaltene Stadttor der Befestigung. In einer Kapelle über dem Tor hängt ein verehrtes Marienbild, das Pilger aus vielen Ländern anzieht. Der Durchgang ist belebt, und Gläubige bleiben oft stehen und beten.</p><p>Sei respektvoll und kleide dich dezent. Zeiten vorher prüfen.</p>",
+     "text_en": "<p>The Gate of Dawn is the only surviving gate of the city’s fortifications. In a chapel above the gate hangs a revered image of Mary that draws pilgrims from many countries. The passage is busy, and believers often stop and pray.</p><p>Be respectful and dress modestly. Check times beforehand.</p>",
+     "name_en": "Gate of Dawn (Aušros Vartai)",
+     "q": "Gates of Dawn Vilnius",
+     "tip": "Sei respektvoll und kleide dich dezent.",
+     "tip_en": "Be respectful and dress modestly."
+    },
+    {
+     "name": "Universität Vilnius & Innenhöfe",
+     "text": "<p>Die Universität Vilnius wurde 1579 gegründet und gehört zu den ältesten Osteuropas. Ein Komplex aus Höfen, Arkaden und der Sankt-Johannes-Kirche mit ihrem Glockenturm. Du kannst die Höfe besichtigen, in denen Fresken und historische Räume liegen; für die Kirche und den Turm kann ein Ticket nötig sein (vorher prüfen).</p><p>Ein Spaziergang durch die Höfe ist eine ruhige Pause.</p>",
+     "text_en": "<p>Vilnius University was founded in 1579 and is among the oldest in Eastern Europe. A complex of courtyards, arcades and St John’s Church with its bell tower. You can visit the courtyards, where frescoes and historic rooms are located; a ticket may be needed for the church and tower (check beforehand).</p><p>A walk through the courtyards is a quiet break.</p>",
+     "name_en": "Vilnius University & courtyards",
+     "q": "Vilnius University",
+     "tip": "Geh durch die Höfe und steig auf den Glockenturm.",
+     "tip_en": "Walk through the courtyards and climb the bell tower."
     }
    ]
   },
@@ -102,6 +142,35 @@
      "name_en": "Hill of Crosses",
      "gem": true,
      "q": "Hill of Crosses Lithuania"
+    },
+    {
+     "name": "Trakai – Wasserburg auf der Insel",
+     "text": "<p>Rund 30 Kilometer westlich von Vilnius liegt Trakai, eine rote Backsteinburg auf einer Insel im See Galvė. Du kannst sie über eine Holzbrücke betreten, im Museum die Geschichte entdecken und im Ort Kibinai probieren – gefüllte Teigtaschen der Karäer.</p><p>Zug oder Bus fahren in rund 30 bis 45 Minuten hin (Fahrpläne vorher prüfen). Im Sommer kannst du Boote mieten.</p>",
+     "text_en": "<p>About 30 kilometres west of Vilnius lies Trakai, a red-brick castle on an island in Lake Galvė. You can enter via a wooden bridge, discover history in the museum and try kibinai in the town – filled pastries of the Karaites.</p><p>Train or bus take about 30 to 45 minutes (check timetables beforehand). In summer you can rent boats.</p>",
+     "name_en": "Trakai – island water castle",
+     "gem": true,
+     "q": "Trakai Island Castle",
+     "tip": "Fahr mit dem Zug und probiere Kibinai.",
+     "tip_en": "Take the train and try kibinai."
+    },
+    {
+     "name": "Dreikreuzehügel & Aussicht",
+     "text": "<p>Auf einem Hügel östlich der Altstadt stehen drei weiße Betonkreuze, ein Denkmal mit Geschichte. Von dort hast du einen schönen Blick über die Altstadt, besonders bei Sonnenuntergang. Der Aufstieg dauert etwa 10 bis 15 Minuten.</p><p>Ein günstiger, ruhiger Aussichtspunkt, ohne Eintritt.</p>",
+     "text_en": "<p>On a hill east of the old town stand three white concrete crosses, a memorial with history. From there you have a beautiful view over the old town, especially at sunset. The climb takes about 10 to 15 minutes.</p><p>A cheap, quiet viewpoint with no admission.</p>",
+     "name_en": "Three Crosses Hill & viewpoint",
+     "gem": true,
+     "q": "Three Crosses Hill Vilnius",
+     "tip": "Geh zum Sonnenuntergang hinauf.",
+     "tip_en": "Go up at sunset."
+    },
+    {
+     "name": "Litauische Küche: Cepelinai, Šaltibarščiai & Kibinai",
+     "text": "<p>Die litauische Küche ist herzhaft: Cepelinai sind große Kartoffelklöße mit Fleisch- oder Käsefüllung und Speck-Sahnesoße; Šaltibarščiai ist eine kalte rosa Rote-Bete-Suppe mit Kefir, die im Sommer erfrischt; dazu Schwarzbrot, Kibinai und Bier. Als Süßes probiere Šakotis, einen Baumkuchen.</p><p>Traditionelle Lokale servieren die Gerichte oft zu moderaten Preisen; frag nach Mittagsmenüs. Preise ändern sich.</p>",
+     "text_en": "<p>Lithuanian cuisine is hearty: cepelinai are large potato dumplings with meat or cheese filling and bacon-cream sauce; šaltibarščiai is a cold pink beetroot soup with kefir that refreshes in summer; with it dark bread, kibinai and beer. For something sweet try šakotis, a tree cake.</p><p>Traditional places often serve the dishes at moderate prices; ask about lunch menus. Prices change.</p>",
+     "name_en": "Lithuanian cuisine: cepelinai, šaltibarščiai & kibinai",
+     "q": "Cepelinai Vilnius restaurant",
+     "tip": "Frag nach Mittagsmenüs und probiere Cepelinai.",
+     "tip_en": "Ask about lunch menus and try cepelinai."
     }
    ]
   },
@@ -117,19 +186,21 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Vilnius",
-   "h_en": "One day in Vilnius",
+   "h": "Zwei Tage in Vilnius",
+   "h_en": "Two days in Vilnius",
    "items": [
-    "<strong>Vormittag</strong> – Altstadt, Gasse der Schriftsteller",
-    "<strong>Mittag</strong> – Užupis",
-    "<strong>Nachmittag</strong> – KGB-Museum",
-    "<strong>Sonnenuntergang</strong> – Gediminas-Turm"
+    "<strong>Vormittag</strong> – Altstadt, Tor der Morgenröte, Universität",
+    "<strong>Mittag</strong> – Cepelinai",
+    "<strong>Nachmittag</strong> – Užupis und Frank-Zappa-Denkmal",
+    "<strong>Abend</strong> – Gediminas-Turm zum Sonnenuntergang",
+    "<strong>Tag 2</strong> – KGB-Museum, Trakai oder Berg der Kreuze"
    ],
    "items_en": [
-    "<strong>Morning</strong> – old town, Writers’ Lane",
-    "<strong>Midday</strong> – Užupis",
-    "<strong>Afternoon</strong> – KGB museum",
-    "<strong>Sunset</strong> – Gediminas Tower"
+    "<strong>Morning</strong> – old town, Gate of Dawn, university",
+    "<strong>Midday</strong> – cepelinai",
+    "<strong>Afternoon</strong> – Užupis and Frank Zappa memorial",
+    "<strong>Evening</strong> – Gediminas Tower at sunset",
+    "<strong>Day 2</strong> – KGB Museum, Trakai or Hill of Crosses"
    ]
   }
  ],
@@ -139,6 +210,18 @@
    "q_en": "How do I get to the Hill of Crosses?",
    "a": "<p>Per Mietwagen oder Tour; er liegt bei Šiauliai.</p>",
    "a_en": "<p>By rental car or tour; it lies near Šiauliai.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Vilnius?",
+   "q_en": "How many days do you need in Vilnius?",
+   "a": "Zwei Tage für die Altstadt, Užupis und Museen; mit Trakai drei.",
+   "a_en": "Two days for the old town, Užupis and museums; with Trakai three."
+  },
+  {
+   "q": "Zahle ich in Euro?",
+   "q_en": "Do I pay in euros?",
+   "a": "Ja, Litauen nutzt den Euro.",
+   "a_en": "Yes, Lithuania uses the euro."
   }
  ]
 }

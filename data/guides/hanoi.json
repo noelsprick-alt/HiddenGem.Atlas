@@ -8,8 +8,8 @@
  "city": "Hanoi",
  "city_en": "Hanoi",
  "updated": "2026-11-05",
- "title": "Hanoi Guide: Pho um 6 Uhr, Hoan-Kiem-See, Eierkaffee & Bia Hơi",
- "title_en": "Hanoi Guide: Pho at 6 am, Hoan Kiem Lake, Egg Coffee & Bia Hơi",
+ "title": "Hanoi Guide: 14 Orte – Pho, Hoan-Kiem-See, Eierkaffee, Bia Hơi & Hidden Gems",
+ "title_en": "Hanoi Guide: 14 places – pho, Hoan Kiem Lake, egg coffee, bia hơi & hidden gems",
  "desc": "Hanoi im Februar 2026: Pho um 6 Uhr auf dem Plastikstuhl, Tai-Chi am See, Eierkaffee im Café Giảng und Bún chả wie Obama – von Noel.",
  "desc_en": "Hanoi in February 2026: pho at 6 am on a plastic stool, tai chi at the lake, egg coffee at Café Giảng and bún chả like Obama – from Noel.",
  "gyg_q": "Hanoi",
@@ -38,8 +38,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "gyg",
-   "html": "<p>Hanoi wird vom Flughafen Noi Bai angeflogen. Zwischen den Städten fliegst du am besten – die Inlandsflüge sind günstig.</p>",
-   "html_en": "<p>Hanoi is served by Noi Bai airport. Between cities flying is best – domestic flights are cheap.</p>"
+   "html": "<p>Hanoi wird vom Flughafen Noi Bai angeflogen. Zwischen den Städten fliegst du am besten – die Inlandsflüge sind günstig.</p><p>Der Flughafen Noi Bai liegt rund 30 bis 45 Minuten von der Altstadt entfernt; Taxi, Grab und Flughafenbusse fahren ins Zentrum (Preise vorher prüfen). In der Stadt nutzt du Grab, Taxi oder gehst zu Fuß. Bargeld in Dong ist praktisch; Geldautomaten gibt es überall.</p><p>Tipp: Lade die Grab-App vor der Ankunft, dann musst du nicht um Preise feilschen.</p>",
+   "html_en": "<p>Hanoi is served by Noi Bai airport. Between cities flying is best – domestic flights are cheap.</p><p>Noi Bai airport lies about 30 to 45 minutes from the Old Quarter; taxi, Grab and airport buses go to the centre (check prices beforehand). In the city you use Grab, taxi or walk. Cash in dong is practical; ATMs are everywhere.</p><p>Tip: download the Grab app before arrival so you do not have to haggle over prices.</p>"
   },
   {
    "type": "spots",
@@ -49,10 +49,12 @@
    "spots": [
     {
      "name": "Hoan-Kiem-See am Morgen",
-     "text": "Früh raus, wenn die Menschen Tai-Chi machen.",
-     "text_en": "Out early when people do tai chi.",
+     "text": "<p>Früh raus, wenn die Menschen Tai-Chi machen.</p><p>Der Hoan-Kiem-See liegt mitten in Hanoi und ist das Herz der Stadt. Früh am Morgen laufen, tanzen und machen Einheimische Tai-Chi am Ufer, später kommen Spaziergänger und Paare. Auf einer kleinen Insel steht der Turm der Schildkröte, und der rote Holzsteg Huc führt zum Ngoc-Son-Tempel auf einer Insel im See.</p><p>Am Wochenende sind Straßen rund um den See teils autofrei, dann ist es besonders lebendig (Zeiten vorher prüfen). Eine Runde um den See dauert etwa 30 bis 40 Minuten.</p>",
+     "text_en": "<p>Out early when people do tai chi.</p><p>Hoan Kiem Lake lies in the middle of Hanoi and is the heart of the city. Early in the morning locals jog, dance and do tai chi on the shore, later strollers and couples arrive. On a small island stands the Turtle Tower, and the red wooden Huc Bridge leads to the Ngoc Son Temple on an island in the lake.</p><p>At weekends streets around the lake are partly car-free, then it is especially lively (check times beforehand). A lap around the lake takes about 30 to 40 minutes.</p>",
      "name_en": "Hoan Kiem Lake in the morning",
-     "q": "Hoan-Kiem-See am Morgen"
+     "q": "Hoan-Kiem-See am Morgen",
+     "tip": "Sei um 6 Uhr da und lauf eine Runde um den See.",
+     "tip_en": "Be there at 6 a.m. and walk a lap around the lake."
     },
     {
      "name": "Eierkaffee im Café Giảng",
@@ -67,6 +69,42 @@
      "text_en": "In the place where Obama and Bourdain sat on plastic stools in 2016. 4.1 stars on Google; guests call it good but not the best in town.",
      "name_en": "Bún chả at Hương Liên",
      "q": "Bún chả Hương Liên Hanoi"
+    },
+    {
+     "name": "Altstadt der 36 Gassen",
+     "text": "<p>Die Altstadt von Hanoi besteht aus engen Gassen, die ursprünglich nach Handwerk und Waren benannt wurden: Silber, Seide, Bambus, Kupfer. Heute reihen sich Läden, Cafés, Garküchen und Hostels aneinander, dazwischen drängen Mopeds. Es ist laut, bunt und chaotisch – und genau das ist der Reiz.</p><p>Überquere Straßen langsam und gleichmäßig, dann weichen dir die Mopeds aus. Plane mindestens einen halben Tag zum Treiben lassen ein.</p>",
+     "text_en": "<p>Hanoi’s Old Quarter consists of narrow streets originally named after crafts and goods: silver, silk, bamboo, copper. Today shops, cafés, street kitchens and hostels line up, with mopeds pushing between them. It is loud, colourful and chaotic – and that is exactly the appeal.</p><p>Cross streets slowly and steadily, then the mopeds will dodge you. Plan at least half a day to drift.</p>",
+     "name_en": "The Old Quarter’s 36 streets",
+     "q": "Hanoi Old Quarter",
+     "tip": "Lass dich treiben und überquere Straßen langsam.",
+     "tip_en": "Let yourself drift and cross streets slowly."
+    },
+    {
+     "name": "Literaturtempel (Văn Miếu)",
+     "text": "<p>Der Literaturtempel stammt aus dem 11. Jahrhundert und war Vietnams erste Universität. Fünf Höfe, Torbögen und Steinstelen auf Schildkröten, auf denen die Namen von Absolventen verzeichnet sind. Im Hof herrscht trotz der Besucher eine ruhige Stimmung.</p><p>Komm am frühen Morgen oder nachmittags, um Gruppen zu meiden. Eintritt und Zeiten vorher prüfen.</p>",
+     "text_en": "<p>The Temple of Literature dates from the 11th century and was Vietnam’s first university. Five courtyards, gateways and stone stelae on turtles listing the names of graduates. Despite the visitors, the courtyard has a calm mood.</p><p>Come early in the morning or in the afternoon to avoid groups. Check admission and times beforehand.</p>",
+     "name_en": "Temple of Literature (Văn Miếu)",
+     "q": "Temple of Literature Hanoi",
+     "tip": "Komm früh am Morgen.",
+     "tip_en": "Come early in the morning."
+    },
+    {
+     "name": "Hỏa-Lò-Gefängnis",
+     "text": "<p>Das Hỏa-Lò-Gefängnis wurde von den Franzosen im 19. Jahrhundert gebaut und später von den Amerikanern „Hanoi Hilton“ genannt. Das Museum zeigt Zellen, Ausstellungsstücke und Geschichten aus Kolonialzeit und Krieg. Es ist ein bedrückender, aber lehrreicher Ort.</p><p>Plane ein bis zwei Stunden ein. Preise und Öffnungszeiten vorher prüfen.</p>",
+     "text_en": "<p>Hỏa Lò Prison was built by the French in the 19th century and later called the “Hanoi Hilton” by Americans. The museum shows cells, exhibits and stories from colonial times and war. It is an oppressive but instructive place.</p><p>Plan one to two hours. Check prices and opening times beforehand.</p>",
+     "name_en": "Hỏa Lò Prison",
+     "q": "Hoa Lo Prison Hanoi",
+     "tip": "Plane ein bis zwei Stunden ein.",
+     "tip_en": "Plan one to two hours."
+    },
+    {
+     "name": "Wasserpuppentheater",
+     "text": "<p>Das Wasserpuppentheater ist eine vietnamesische Tradition: Puppen tanzen auf dem Wasser, begleitet von Live-Musik und Gesang. Die Aufführungen dauern rund eine Stunde und erzählen Geschichten vom Dorfleben, Fischern und Legenden. Es ist touristisch, aber charmant.</p><p>Tickets besser im Voraus buchen; Zeiten und Preise vorher prüfen.</p>",
+     "text_en": "<p>Water puppet theatre is a Vietnamese tradition: puppets dance on water, accompanied by live music and singing. Performances last about an hour and tell stories of village life, fishermen and legends. It is touristy but charming.</p><p>Better book tickets in advance; check times and prices beforehand.</p>",
+     "name_en": "Water puppet theatre",
+     "q": "Thang Long Water Puppet Theatre",
+     "tip": "Buche Tickets im Voraus.",
+     "tip_en": "Book tickets in advance."
     }
    ]
   },
@@ -91,6 +129,54 @@
      "name_en": "Bia hơi in the old quarter",
      "gem": true,
      "q": "Bia Hơi in der Altstadt"
+    },
+    {
+     "name": "Train Street",
+     "text": "<p>In einer schmalen Gasse in Hanoi fährt der Zug dicht an Wohnhäusern und Cafés vorbei. Das ist spektakulär, aber auch gefährlich; die Regeln und der Zugang ändern sich, und zeitweise ist die Gasse für Besucher gesperrt. Informiere dich vorher über den aktuellen Stand.</p><p>Halte immer Abstand zu den Gleisen und folge den Anweisungen vor Ort. Sicherheit geht vor Foto.</p>",
+     "text_en": "<p>In a narrow lane in Hanoi the train passes very close to houses and cafés. This is spectacular but also dangerous; rules and access change, and at times the lane is closed to visitors. Find out the current situation beforehand.</p><p>Always keep a distance from the tracks and follow instructions on site. Safety before photo.</p>",
+     "name_en": "Train Street",
+     "gem": true,
+     "q": "Hanoi Train Street",
+     "tip": "Prüfe vorher den aktuellen Stand und halte Abstand.",
+     "tip_en": "Check the current situation beforehand and keep your distance."
+    },
+    {
+     "name": "Dong-Xuan-Markt & Nachtmarkt",
+     "text": "<p>Der Dong-Xuan-Markt ist die größte Markthalle der Altstadt und bietet Kleidung, Haushaltswaren, Stoffe und Lebensmittel. Am Wochenende gibt es am Abend einen Nachtmarkt auf den Straßen der Altstadt mit Essen und Souvenirs (Zeiten vorher prüfen).</p><p>Handle freundlich und frag nach dem Preis. Halte Taschen vorne.</p>",
+     "text_en": "<p>Dong Xuan Market is the biggest market hall of the Old Quarter and offers clothing, household goods, fabrics and food. At weekends there is a night market in the evening on the Old Quarter’s streets with food and souvenirs (check times beforehand).</p><p>Haggle in a friendly way and ask the price. Keep bags in front.</p>",
+     "name_en": "Dong Xuan Market & night market",
+     "gem": true,
+     "q": "Dong Xuan Market Hanoi",
+     "tip": "Komm am Wochenende abends.",
+     "tip_en": "Come on weekend evenings."
+    },
+    {
+     "name": "Tay Ho (West Lake) & Tran-Quoc-Pagode",
+     "text": "<p>Der Westsee im Norden der Stadt ist ein ruhigeres Viertel mit Cafés, Restaurants und Seepromenade. Auf einer kleinen Halbinsel im See steht die Tran-Quoc-Pagode, eine der ältesten Pagoden Hanois. Am Abend ist der Sonnenuntergang schön.</p><p>Du erreichst den See per Taxi oder Grab in rund 15 bis 20 Minuten aus der Altstadt.</p>",
+     "text_en": "<p>West Lake in the north of the city is a calmer district with cafés, restaurants and a lakeside promenade. On a small peninsula in the lake stands the Tran Quoc Pagoda, one of Hanoi’s oldest pagodas. In the evening the sunset is beautiful.</p><p>You reach the lake by taxi or Grab in about 15 to 20 minutes from the Old Quarter.</p>",
+     "name_en": "Tay Ho (West Lake) & Tran Quoc Pagoda",
+     "gem": true,
+     "q": "Tran Quoc Pagoda Hanoi",
+     "tip": "Komm zum Sonnenuntergang.",
+     "tip_en": "Come at sunset."
+    },
+    {
+     "name": "Straßenküche: Bún chả, Phở, Bánh mì & Co.",
+     "text": "<p>Hanoi ist eine Stadt zum Essen: Phở bò am Morgen, Bún chả mittags, Chả cá (gebratener Fisch mit Dill), Bánh cuốn (Reisröllchen) und Eierkaffee. Setz dich auf einen Plastikhocker und bestell, was die Einheimischen essen.</p><p>Preise sind meist niedrig; frag trotzdem nach dem Preis. Achte auf Stände mit viel Betrieb.</p>",
+     "text_en": "<p>Hanoi is a city for eating: phở bò in the morning, bún chả at midday, chả cá (fried fish with dill), bánh cuốn (rice rolls) and egg coffee. Sit on a plastic stool and order what locals eat.</p><p>Prices are usually low; ask the price anyway. Look for stalls with lots of business.</p>",
+     "name_en": "Street food: bún chả, phở, bánh mì & more",
+     "q": "Bun cha Hanoi street food",
+     "tip": "Wähle Stände mit viel Betrieb.",
+     "tip_en": "Choose stalls with lots of business."
+    },
+    {
+     "name": "Tagesausflug: Ha Long Bay oder Ninh Binh",
+     "text": "<p>Von Hanoi aus erreichst du die Halong-Bucht mit ihren Kalksteinfelsen (rund drei bis vier Stunden Fahrt) oder Ninh Binh mit Reisfeldern, Flüssen und Karstbergen (etwa zwei Stunden). Beide Orte sind per Tour oder Zug/Bus möglich.</p><p>Ninh Binh eignet sich als Tagesausflug, für Ha Long lohnt sich eher eine Übernachtung. Anbieter und Preise vorher vergleichen.</p>",
+     "text_en": "<p>From Hanoi you reach Ha Long Bay with its limestone cliffs (about three to four hours’ drive) or Ninh Binh with rice fields, rivers and karst mountains (about two hours). Both are possible by tour or train/bus.</p><p>Ninh Binh suits a day trip; for Ha Long an overnight stay is more worthwhile. Compare providers and prices beforehand.</p>",
+     "name_en": "Day trip: Ha Long Bay or Ninh Binh",
+     "q": "Ninh Binh Tam Coc",
+     "tip": "Ninh Binh als Tagesausflug, Ha Long mit Übernachtung.",
+     "tip_en": "Ninh Binh as a day trip, Ha Long with an overnight stay."
     }
    ]
   },
@@ -107,18 +193,20 @@
  "itinerary": [
   {
    "h": "Ein Tag in Hanoi",
-   "h_en": "One day in Hanoi",
+   "h_en": "A day in Hanoi",
    "items": [
-    "<strong>6 Uhr</strong> – Pho",
-    "<strong>Morgens</strong> – Hoan-Kiem-See",
-    "<strong>Nachmittag</strong> – Eierkaffee",
-    "<strong>Abend</strong> – Bia Hơi"
+    "<strong>6 Uhr</strong> – Hoan-Kiem-See, Pho auf dem Plastikstuhl",
+    "<strong>Vormittag</strong> – Literaturtempel, Altstadt",
+    "<strong>Mittag</strong> – Bún chả",
+    "<strong>Nachmittag</strong> – Hỏa-Lò-Gefängnis, Eierkaffee im Café Giảng",
+    "<strong>Abend</strong> – Wasserpuppentheater, Bia Hơi"
    ],
    "items_en": [
-    "<strong>6 am</strong> – pho",
-    "<strong>Morning</strong> – Hoan Kiem Lake",
-    "<strong>Afternoon</strong> – egg coffee",
-    "<strong>Evening</strong> – bia hơi"
+    "<strong>6 a.m.</strong> – Hoan Kiem Lake, pho on a plastic stool",
+    "<strong>Morning</strong> – Temple of Literature, Old Quarter",
+    "<strong>Midday</strong> – bún chả",
+    "<strong>Afternoon</strong> – Hỏa Lò Prison, egg coffee at Café Giảng",
+    "<strong>Evening</strong> – water puppet theatre, bia hơi"
    ]
   }
  ],
@@ -128,6 +216,18 @@
    "q_en": "How do I travel between cities?",
    "a": "<p>Am besten per Flug – günstig.</p>",
    "a_en": "<p>Best by plane – cheap.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Hanoi?",
+   "q_en": "How many days do you need in Hanoi?",
+   "a": "Zwei bis drei Tage; mit Ha Long oder Ninh Binh eher vier.",
+   "a_en": "Two to three days; with Ha Long or Ninh Binh rather four."
+  },
+  {
+   "q": "Ist Hanoi sicher?",
+   "q_en": "Is Hanoi safe?",
+   "a": "Meist ja; achte auf Taschendiebe und den Verkehr. Aktuelle Reisehinweise vorher prüfen.",
+   "a_en": "Mostly yes; watch for pickpockets and traffic. Check current travel advice beforehand."
   }
  ]
 }

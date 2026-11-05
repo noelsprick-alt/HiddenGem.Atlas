@@ -1,41 +1,226 @@
 {
-  "slug": "bruessel", "slug_en": "brussels", "status": "live",
-  "cc": "BE", "flag": "🇧🇪", "city": "Brüssel", "city_en": "Brussels", "updated": "2026-11-05",
-  "title": "Brüssel Guide: Grand-Place, Königliche Galerien, Cinquantenaire & Atomium",
-  "title_en": "Brussels Guide: Grand-Place, Royal Galleries, Cinquantenaire & Atomium",
-  "desc": "Brüssel an einem Wochenende: Grand-Place, Galeries Royales Saint-Hubert, Cinquantenaire-Park, Atomium, Marolles-Flohmarkt und was du wissen musst.",
-  "desc_en": "Brussels in a weekend: Grand-Place, Galeries Royales Saint-Hubert, Cinquantenaire Park, Atomium, Marolles flea market and what you need to know.",
-  "gyg_q": "Brussels",
-  "intro": "<p>Brüssel ist Hauptstadt Belgiens und Sitz der EU-Institutionen – und unterschätzt: prächtige Plätze, Jugendstil, Pommes, Waffeln und Schokolade.</p><p>Noel ergänzt hier noch seine persönlichen Eindrücke und Fotos. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>Brussels is Belgium’s capital and home to the EU institutions – and underrated: grand squares, Art Nouveau, fries, waffles and chocolate.</p><p>Noel will add his personal impressions and photos here. Prices and times are guidelines (2026).</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"1–2 Tage","v_en":"1–2 days"},
-    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
-    {"k":"Sprachen","k_en":"Languages","v":"Französisch und Niederländisch","v_en":"French and Dutch"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Brüssel","h_en":"Getting to Brussels","box":"omio",
-     "html":"<p>Aus NRW fährst du mit dem Zug (Thalys/ICE-Netz) oder Fernbus nach Brüssel; aktuelle Verbindungen vorher prüfen. Im Zentrum läufst du die meisten Sehenswürdigkeiten ab.</p>",
-     "html_en":"<p>From NRW you take the train (Thalys/ICE network) or coach to Brussels; check current connections beforehand. In the centre you walk most sights.</p>"},
-    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
-     "spots":[
-      {"name":"Grand-Place","q":"Grand-Place Brussels","text":"<p>Prunkvolle Zunfthäuser und das Rathaus. Auf Google 4,7 Sterne bei über 178.000 Bewertungen. Abends beleuchtet besonders schön.</p>","text_en":"<p>Ornate guildhalls and the Town Hall. 4.7 stars on Google from over 178,000 reviews. Particularly lovely when lit up in the evening.</p>"},
-      {"name":"Galeries Royales Saint-Hubert","q":"Royal Gallery of Saint Hubert","text":"<p>1847 eröffnete Einkaufspassage mit Glasdach, Pralinen-Läden und Cafés. Auf Google 4,5 Sterne.</p>","text_en":"<p>Shopping arcade opened in 1847 with a glass roof, chocolate shops and cafés. 4.5 stars on Google.</p>"},
-      {"name":"Atomium","q":"Atomium Brussels","text":"<p>Für die Weltausstellung 1958 gebaut. Auf Google 4,4 Sterne. Besucher loben den Blick von oben, nennen aber teils lange Wartezeiten am Aufzug.</p>","text_en":"<p>Built for the 1958 World Expo. 4.4 stars on Google. Visitors praise the view from the top but some mention long waits at the lift.</p>","hours":"laut Google täglich ca. 10–18 Uhr","hours_en":"daily about 10 am–6 pm according to Google"}
-     ]},
-    {"type":"spots","id":"gems","h":"Hidden Gems","h_en":"Hidden gems",
-     "spots":[
-      {"name":"Cinquantenaire-Park","name_en":"Cinquantenaire Park","gem":true,"q":"Parc du Cinquantenaire Brussels","text":"<p>Großzügiger Park mit Triumphbogen und Museen. Ruhiger als die Innenstadt. Auf Google 4,6 Sterne bei über 41.000 Bewertungen.</p>","text_en":"<p>Spacious park with triumphal arch and museums. Quieter than the city centre. 4.6 stars on Google from over 41,000 reviews.</p>","hours":"laut Google täglich ca. 6–22 Uhr","hours_en":"daily about 6 am–10 pm according to Google"},
-      {"name":"Marolles & Place du Jeu de Balle","name_en":"Marolles & Place du Jeu de Balle","gem":true,"q":"Place du Jeu de Balle Brussels","text":"<p>Der Flohmarkt im Marolles-Viertel ist ein Ort für Einheimische; Öffnungszeiten und Markttage vorher prüfen.</p>","text_en":"<p>The flea market in the Marolles district is a spot for locals; check opening times and market days beforehand.</p>"}
-     ]},
-    {"type":"prose","id":"essen","h":"Essen & Trinken","h_en":"Food & drink",
-     "html":"<ul><li><strong>Pommes</strong> mit Soße – belgisches Klassiker.</li><li><strong>Waffeln</strong> und <strong>Pralinen</strong> rund um die Galerien.</li><li><strong>Belgisches Bier</strong> in einer Brauerei-Kneipe.</li></ul>",
-     "html_en":"<ul><li><strong>Fries</strong> with sauce – a Belgian classic.</li><li><strong>Waffles</strong> and <strong>pralines</strong> around the galleries.</li><li><strong>Belgian beer</strong> in a brewery pub.</li></ul>"}
-  ],
-  "itinerary":[
-   {"h":"Ein Tag in Brüssel","h_en":"One day in Brussels","items":["<strong>Vormittag</strong> – Grand-Place, Galeries Royales","<strong>Mittag</strong> – Pommes und Waffel","<strong>Nachmittag</strong> – Cinquantenaire-Park","<strong>Abend</strong> – Grand-Place beleuchtet"],"items_en":["<strong>Morning</strong> – Grand-Place, Royal Galleries","<strong>Midday</strong> – fries and waffle","<strong>Afternoon</strong> – Cinquantenaire Park","<strong>Evening</strong> – Grand-Place lit up"]}
-  ],
-  "faq":[
-   {"q":"Reicht ein Tag in Brüssel?","q_en":"Is one day enough in Brussels?","a":"<p>Für die Highlights ja, mit Atomium und Museen zwei Tage.</p>","a_en":"<p>For the highlights yes, two days with Atomium and museums.</p>"}
-  ]
+ "slug": "bruessel",
+ "slug_en": "brussels",
+ "status": "live",
+ "cc": "BE",
+ "flag": "🇧🇪",
+ "city": "Brüssel",
+ "city_en": "Brussels",
+ "updated": "2026-11-05",
+ "title": "Brüssel Guide: 13 Orte – Grand-Place, Waffeln, Atomium, Comics & Hidden Gems",
+ "title_en": "Brussels Guide: 13 places – Grand-Place, waffles, Atomium, comics & hidden gems",
+ "desc": "Brüssel an einem Wochenende: Grand-Place, Galeries Royales Saint-Hubert, Cinquantenaire-Park, Atomium, Marolles-Flohmarkt und was du wissen musst.",
+ "desc_en": "Brussels in a weekend: Grand-Place, Galeries Royales Saint-Hubert, Cinquantenaire Park, Atomium, Marolles flea market and what you need to know.",
+ "gyg_q": "Brussels",
+ "intro": "<p>Brüssel ist Hauptstadt Belgiens und Sitz der EU-Institutionen – und unterschätzt: prächtige Plätze, Jugendstil, Pommes, Waffeln und Schokolade.</p><p>Noel ergänzt hier noch seine persönlichen Eindrücke und Fotos. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Brussels is Belgium’s capital and home to the EU institutions – and underrated: grand squares, Art Nouveau, fries, waffles and chocolate.</p><p>Noel will add his personal impressions and photos here. Prices and times are guidelines (2026).</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1–2 Tage",
+   "v_en": "1–2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Sprachen",
+   "k_en": "Languages",
+   "v": "Französisch und Niederländisch",
+   "v_en": "French and Dutch"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Brüssel",
+   "h_en": "Getting to Brussels",
+   "box": "omio",
+   "html": "<p>Aus NRW fährst du mit dem Zug (Thalys/ICE-Netz) oder Fernbus nach Brüssel; aktuelle Verbindungen vorher prüfen. Im Zentrum läufst du die meisten Sehenswürdigkeiten ab.</p><p>Brüssel ist ein Knotenpunkt für Thalys/Eurostar, ICE und Regionalzüge: Der Bahnhof Brüssel-Süd (Midi) und der Bahnhof Brüssel-Zentral liegen zentral. Der Flughafen Zaventem ist per Zug in rund 20 Minuten im Zentrum (Fahrpläne vorher prüfen). Die Innenstadt ist gut zu Fuß erkundbar; Metro, Tram und Bus ergänzen.</p><p>Auf Sprachen: Französisch und Niederländisch sind Amtssprachen, in der Touristenzone kommst du mit Englisch gut zurecht.</p>",
+   "html_en": "<p>From NRW you take the train (Thalys/ICE network) or coach to Brussels; check current connections beforehand. In the centre you walk most sights.</p><p>Brussels is a hub for Thalys/Eurostar, ICE and regional trains: the Brussels-Midi and Brussels-Central stations are central. Zaventem airport is about 20 minutes from the centre by train (check timetables beforehand). The city centre is easy to explore on foot; metro, tram and bus complement.</p><p>On languages: French and Dutch are official languages; in the tourist area you get by well with English.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Grand-Place",
+     "q": "Grand-Place Brussels",
+     "text": "<p>Prunkvolle Zunfthäuser und das Rathaus. Auf Google 4,7 Sterne bei über 178.000 Bewertungen. Abends beleuchtet besonders schön.</p><p>Die Grand-Place ist einer der schönsten Marktplätze Europas und gehört zum UNESCO-Welterbe. Rund um den Platz stehen prunkvolle Zunfthäuser mit goldenen Verzierungen, dazu das gotische Rathaus mit seinem hohen Turm. Alle zwei Jahre im August wird der Platz mit einem Blumenteppich bedeckt (Termin vorher prüfen).</p><p>Abends ist der Platz beleuchtet und besonders stimmungsvoll. Komm früh am Morgen, wenn weniger Leute da sind.</p>",
+     "text_en": "<p>Ornate guildhalls and the Town Hall. 4.7 stars on Google from over 178,000 reviews. Particularly lovely when lit up in the evening.</p><p>The Grand-Place is one of Europe’s most beautiful market squares and a UNESCO World Heritage site. Around the square stand magnificent guild houses with golden decoration, plus the Gothic town hall with its tall tower. Every two years in August the square is covered with a flower carpet (check the date beforehand).</p><p>In the evening the square is lit and especially atmospheric. Come early in the morning when fewer people are there.</p>",
+     "tip": "Komm morgens früh oder abends zur Beleuchtung.",
+     "tip_en": "Come early in the morning or in the evening for the lighting."
+    },
+    {
+     "name": "Galeries Royales Saint-Hubert",
+     "q": "Royal Gallery of Saint Hubert",
+     "text": "<p>1847 eröffnete Einkaufspassage mit Glasdach, Pralinen-Läden und Cafés. Auf Google 4,5 Sterne.</p>",
+     "text_en": "<p>Shopping arcade opened in 1847 with a glass roof, chocolate shops and cafés. 4.5 stars on Google.</p>"
+    },
+    {
+     "name": "Atomium",
+     "q": "Atomium Brussels",
+     "text": "<p>Für die Weltausstellung 1958 gebaut. Auf Google 4,4 Sterne. Besucher loben den Blick von oben, nennen aber teils lange Wartezeiten am Aufzug.</p>",
+     "text_en": "<p>Built for the 1958 World Expo. 4.4 stars on Google. Visitors praise the view from the top but some mention long waits at the lift.</p>",
+     "hours": "laut Google täglich ca. 10–18 Uhr",
+     "hours_en": "daily about 10 am–6 pm according to Google"
+    },
+    {
+     "name": "Manneken Pis, Jeanneke Pis & Zinneke Pis",
+     "text": "<p>Das Manneken Pis ist eine kleine Bronzefigur eines pinkelnden Jungen und das Wahrzeichen der Stadt. Er besitzt eine große Garderobe und wird an bestimmten Tagen in Kostüme gekleidet. Weniger bekannt sind das Jeanneke Pis (ein Mädchen) und der Zinneke Pis (ein Hund) an anderen Orten.</p><p>Die Figur ist kleiner, als viele erwarten – nimm es mit Humor. Die Kostümtermine vorher prüfen.</p>",
+     "text_en": "<p>The Manneken Pis is a small bronze figure of a peeing boy and the city’s landmark. He has a large wardrobe and is dressed in costumes on certain days. Less well known are the Jeanneke Pis (a girl) and the Zinneke Pis (a dog) at other places.</p><p>The figure is smaller than many expect – take it with humour. Check the costume dates beforehand.</p>",
+     "name_en": "Manneken Pis, Jeanneke Pis & Zinneke Pis",
+     "q": "Manneken Pis Brussels",
+     "tip": "Nimm es mit Humor – die Figur ist klein.",
+     "tip_en": "Take it with humour – the figure is small."
+    },
+    {
+     "name": "Waffeln, Pommes & Schokolade",
+     "text": "<p>Brüssel ist bekannt für Waffeln (die Brüsseler sind rechteckig und luftig, die Lütticher Waffel dichter und karamellisiert), Pommes frites mit Mayonnaise und Pralinen. Viele Läden liegen rund um die Galeries Royales Saint-Hubert und den Grand-Place.</p><p>Preise in Touristenlagen sind hoch; probiere mehrere Läden und frag nach Sorten. Preise ändern sich.</p>",
+     "text_en": "<p>Brussels is known for waffles (the Brussels one is rectangular and airy, the Liège waffle denser and caramelised), fries with mayonnaise and pralines. Many shops lie around the Galeries Royales Saint-Hubert and the Grand-Place.</p><p>Prices in tourist areas are high; try several shops and ask about flavours. Prices change.</p>",
+     "name_en": "Waffles, fries & chocolate",
+     "q": "Belgian waffles Brussels",
+     "tip": "Probiere Brüsseler und Lütticher Waffeln im Vergleich.",
+     "tip_en": "Compare Brussels and Liège waffles."
+    },
+    {
+     "name": "Belgisches Bier",
+     "text": "<p>Belgien hat eine große Biertradition: Trappistenbiere, Lambic und Gueuze (spontan vergoren), Dubbel, Tripel und viele mehr. In Brüsseler Kneipen findest du Karten mit Hunderten Sorten. Achte auf den Alkoholgehalt – viele Biere sind stark.</p><p>Eine Brauerei-Tour oder ein Besuch in einer Lambic-Brauerei zeigt, wie die Biere entstehen (Zeiten und Preise vorher prüfen).</p>",
+     "text_en": "<p>Belgium has a great beer tradition: Trappist beers, lambic and gueuze (spontaneously fermented), dubbel, tripel and many more. In Brussels pubs you find menus with hundreds of kinds. Mind the alcohol content – many beers are strong.</p><p>A brewery tour or a visit to a lambic brewery shows how the beers are made (check times and prices beforehand).</p>",
+     "name_en": "Belgian beer",
+     "q": "Delirium Cafe Brussels",
+     "tip": "Frag nach einer Empfehlung und achte auf die Stärke.",
+     "tip_en": "Ask for a recommendation and mind the strength."
+    },
+    {
+     "name": "Comic-Museum & Comic-Wandbilder",
+     "text": "<p>Brüssel ist die Hauptstadt des Comics: Tim und Struppi, die Schlümpfe und Lucky Luke stammen aus Belgien. Das Comic-Museum (Belgian Comic Strip Center) liegt in einem Jugendstilgebäude. In der Stadt zieht sich ein Comic-Wandbilder-Weg durch viele Straßen.</p><p>Plane den Museumsbesuch in einem eigenen Zeitblock und suche die Wandbilder zu Fuß. Preise und Zeiten vorher prüfen.</p>",
+     "text_en": "<p>Brussels is the capital of comics: Tintin, the Smurfs and Lucky Luke come from Belgium. The Comic Museum (Belgian Comic Strip Center) is housed in an Art Nouveau building. In the city a comic mural trail runs through many streets.</p><p>Plan the museum visit in its own time block and look for the murals on foot. Check prices and times beforehand.</p>",
+     "name_en": "Comic museum & comic murals",
+     "q": "Belgian Comic Strip Center",
+     "tip": "Such die Wandbilder zu Fuß.",
+     "tip_en": "Look for the murals on foot."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Cinquantenaire-Park",
+     "name_en": "Cinquantenaire Park",
+     "gem": true,
+     "q": "Parc du Cinquantenaire Brussels",
+     "text": "<p>Großzügiger Park mit Triumphbogen und Museen. Ruhiger als die Innenstadt. Auf Google 4,6 Sterne bei über 41.000 Bewertungen.</p>",
+     "text_en": "<p>Spacious park with triumphal arch and museums. Quieter than the city centre. 4.6 stars on Google from over 41,000 reviews.</p>",
+     "hours": "laut Google täglich ca. 6–22 Uhr",
+     "hours_en": "daily about 6 am–10 pm according to Google"
+    },
+    {
+     "name": "Marolles & Place du Jeu de Balle",
+     "name_en": "Marolles & Place du Jeu de Balle",
+     "gem": true,
+     "q": "Place du Jeu de Balle Brussels",
+     "text": "<p>Der Flohmarkt im Marolles-Viertel ist ein Ort für Einheimische; Öffnungszeiten und Markttage vorher prüfen.</p>",
+     "text_en": "<p>The flea market in the Marolles district is a spot for locals; check opening times and market days beforehand.</p>"
+    },
+    {
+     "name": "Place du Sablon & Antiquitätenmarkt",
+     "text": "<p>Der Sablon ist ein Viertel mit gotischer Kirche Notre-Dame du Sablon, Antiquitätenläden und Chocolatiers. Am Wochenende gibt es einen Antiquitätenmarkt (Tage vorher prüfen). Das Viertel ist ruhiger als der Grand-Place.</p><p>Probiere hier Pralinen von bekannten Chocolatiers und bummle durch die Gassen.</p>",
+     "text_en": "<p>The Sablon is a district with the Gothic church of Notre-Dame du Sablon, antique shops and chocolatiers. At weekends there is an antiques market (check days beforehand). The district is quieter than the Grand-Place.</p><p>Try pralines from well-known chocolatiers here and stroll through the lanes.</p>",
+     "name_en": "Place du Sablon & antiques market",
+     "gem": true,
+     "q": "Place du Grand Sablon Brussels",
+     "tip": "Komm am Wochenende zum Markt.",
+     "tip_en": "Come at the weekend for the market."
+    },
+    {
+     "name": "Mont des Arts & Aussicht",
+     "text": "<p>Der Mont des Arts ist ein Park- und Treppenensemble mit Blick über die Altstadt und die Türme der Stadt. Der Blick bei Sonnenuntergang ist besonders schön. In der Nähe liegen Museen und die Königlichen Museen der Schönen Künste.</p><p>Eine kostenlose Pause zwischen den Sehenswürdigkeiten.</p>",
+     "text_en": "<p>The Mont des Arts is an ensemble of park and stairs with a view over the old town and the city’s towers. The view at sunset is especially beautiful. Nearby are museums and the Royal Museums of Fine Arts.</p><p>A free break between sights.</p>",
+     "name_en": "Mont des Arts & viewpoint",
+     "gem": true,
+     "q": "Mont des Arts Brussels",
+     "tip": "Komm zum Sonnenuntergang.",
+     "tip_en": "Come at sunset."
+    },
+    {
+     "name": "Autoworld & Museen im Cinquantenaire",
+     "text": "<p>Im Park Cinquantenaire stehen der Triumphbogen und mehrere Museen, darunter das Museum Autoworld mit Oldtimern und das Königliche Museum der Streitkräfte. Der Park eignet sich für einen Spaziergang oder ein Picknick.</p><p>Prüfe Öffnungszeiten und Preise der Museen vorher.</p>",
+     "text_en": "<p>In Cinquantenaire Park stand the triumphal arch and several museums, including the Autoworld museum with vintage cars and the Royal Museum of the Armed Forces. The park suits a walk or a picnic.</p><p>Check opening times and prices of the museums beforehand.</p>",
+     "name_en": "Autoworld & museums in the Cinquantenaire",
+     "q": "Autoworld Brussels",
+     "tip": "Verbinde Park und Museum.",
+     "tip_en": "Combine park and museum."
+    },
+    {
+     "name": "Tagesausflug: Brügge, Gent oder Antwerpen",
+     "text": "<p>Von Brüssel aus erreichst du Brügge, Gent und Antwerpen mit dem Zug in etwa einer Stunde (Fahrpläne vorher prüfen). Brügge hat Grachten und mittelalterliche Gassen, Gent eine lebendige Altstadt mit Burg, Antwerpen den prächtigen Hauptbahnhof und Mode.</p><p>Gent hat einen eigenen Guide auf dieser Seite – dort findest du Tipps und Hidden Gems.</p>",
+     "text_en": "<p>From Brussels you reach Bruges, Ghent and Antwerp by train in about an hour (check timetables beforehand). Bruges has canals and medieval lanes, Ghent a lively old town with a castle, Antwerp the magnificent central station and fashion.</p><p>Ghent has its own guide on this site – there you find tips and hidden gems.</p>",
+     "name_en": "Day trip: Bruges, Ghent or Antwerp",
+     "q": "Brugge Belgium",
+     "tip": "Plane einen vollen Tag ein.",
+     "tip_en": "Plan a full day."
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "essen",
+   "h": "Essen & Trinken",
+   "h_en": "Food & drink",
+   "html": "<ul><li><strong>Pommes</strong> mit Soße – belgisches Klassiker.</li><li><strong>Waffeln</strong> und <strong>Pralinen</strong> rund um die Galerien.</li><li><strong>Belgisches Bier</strong> in einer Brauerei-Kneipe.</li></ul>",
+   "html_en": "<ul><li><strong>Fries</strong> with sauce – a Belgian classic.</li><li><strong>Waffles</strong> and <strong>pralines</strong> around the galleries.</li><li><strong>Belgian beer</strong> in a brewery pub.</li></ul>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Zwei Tage in Brüssel",
+   "h_en": "Two days in Brussels",
+   "items": [
+    "<strong>Vormittag</strong> – Grand-Place, Manneken Pis, Waffel",
+    "<strong>Mittag</strong> – Galeries Royales Saint-Hubert, Pralinen",
+    "<strong>Nachmittag</strong> – Sablon, Mont des Arts",
+    "<strong>Abend</strong> – Bier in einer traditionellen Kneipe",
+    "<strong>Tag 2</strong> – Atomium, Cinquantenaire, Marolles-Flohmarkt"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Grand-Place, Manneken Pis, waffle",
+    "<strong>Midday</strong> – Galeries Royales Saint-Hubert, pralines",
+    "<strong>Afternoon</strong> – Sablon, Mont des Arts",
+    "<strong>Evening</strong> – beer in a traditional pub",
+    "<strong>Day 2</strong> – Atomium, Cinquantenaire, Marolles flea market"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Reicht ein Tag in Brüssel?",
+   "q_en": "Is one day enough in Brussels?",
+   "a": "<p>Für die Highlights ja, mit Atomium und Museen zwei Tage.</p>",
+   "a_en": "<p>For the highlights yes, two days with Atomium and museums.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Brüssel?",
+   "q_en": "How many days do you need in Brussels?",
+   "a": "Zwei Tage für die Highlights; mit Ausflug drei.",
+   "a_en": "Two days for the highlights; with a trip three."
+  },
+  {
+   "q": "Zahle ich in Euro?",
+   "q_en": "Do I pay in euros?",
+   "a": "Ja, Belgien nutzt den Euro.",
+   "a_en": "Yes, Belgium uses the euro."
+  }
+ ]
 }
