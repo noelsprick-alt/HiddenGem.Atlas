@@ -1,0 +1,108 @@
+{
+ "slug": "osaka",
+ "slug_en": "osaka",
+ "status": "live",
+ "blog": "blog-bc-7",
+ "cc": "JP",
+ "flag": "🇯🇵",
+ "city": "Osaka",
+ "city_en": "Osaka",
+ "updated": "2026-11-05",
+ "title": "Osaka Guide: Dotonbori, Takoyaki, Burg & Kuromon-Markt",
+ "title_en": "Osaka Guide: Dotonbori, Takoyaki, Castle & Kuromon Market",
+ "desc": "Osaka 2022: abends Dotonbori, Takoyaki vom Stand, tagsüber Burg und Kuromon-Markt – von Noel.",
+ "desc_en": "Osaka 2022: Dotonbori in the evening, takoyaki from the stand, castle and Kuromon Market by day – from Noel.",
+ "gyg_q": "Osaka",
+ "intro": "<p>Osaka ist Japans Streetfood-Hauptstadt. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Osaka is Japan’s street-food capital. Prices and times are guidelines (2026).</p>",
+ "story": "<p>Osaka war Teil meiner Japan-Reise. Mein Tipp: abends nach Dotonbori, durch die Garküchen treiben lassen und Takoyaki direkt vom Stand essen – tagsüber die Burg und der Kuromon-Markt.</p>",
+ "story_en": "<p>Osaka was part of my Japan trip. My tip: head to Dotonbori in the evening, drift through the food stalls and eat takoyaki straight from the stand – the castle and Kuromon Market by day.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2 Tage",
+   "v_en": "2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Yen (JPY)",
+   "v_en": "Yen (JPY)"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Osaka erreichst du per Shinkansen oder Flug; von Kyoto sind es nur 15–30 Minuten mit dem Zug. Aktuelle Fahrpläne vorher prüfen.</p>",
+   "html_en": "<p>You reach Osaka by shinkansen or flight; from Kyoto it is only 15–30 minutes by train. Check current timetables beforehand.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Dotonbori",
+     "text": "Abends durch die Garküchen treiben lassen und Takoyaki direkt vom Stand essen.",
+     "text_en": "In the evening drift through the food stalls and eat takoyaki straight from the stand.",
+     "q": "Dotonbori"
+    },
+    {
+     "name": "Kuromon-Markt",
+     "text": "Tagsüber über den Markt: Meeresfrüchte und Streetfood. Auf Google 4,1 Sterne; Besucher sagen, er sei inzwischen touristisch, früh am Morgen sei es besser.",
+     "text_en": "By day across the market: seafood and street food. 4.1 stars on Google; visitors say it is touristy now, early in the morning is better.",
+     "name_en": "Kuromon Market",
+     "q": "Kuromon Market Osaka",
+     "hours": "laut Google täglich ca. 9–17 Uhr",
+     "hours_en": "daily about 9 am–5 pm according to Google"
+    },
+    {
+     "name": "Burg Osaka",
+     "text": "Tagsüber die Burg.",
+     "text_en": "The castle by day.",
+     "name_en": "Osaka Castle",
+     "q": "Osaka Castle"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Japan ausmacht",
+   "h_en": "What makes Japan special",
+   "box": "gyg",
+   "html": "<p>Siehe meine Guides zu Kyoto und Tokio.</p>",
+   "html_en": "<p>See my guides to Kyoto and Tokyo.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Osaka",
+   "h_en": "One day in Osaka",
+   "items": [
+    "<strong>Vormittag</strong> – Kuromon-Markt",
+    "<strong>Nachmittag</strong> – Burg",
+    "<strong>Abend</strong> – Dotonbori"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Kuromon Market",
+    "<strong>Afternoon</strong> – castle",
+    "<strong>Evening</strong> – Dotonbori"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Reicht ein Tag in Osaka?",
+   "q_en": "Is one day enough in Osaka?",
+   "a": "<p>Für Essen und Highlights ja.</p>",
+   "a_en": "<p>For food and highlights yes.</p>"
+  }
+ ]
+}

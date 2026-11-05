@@ -1,0 +1,133 @@
+{
+ "slug": "hanoi",
+ "slug_en": "hanoi",
+ "status": "live",
+ "blog": "blog-bc-8",
+ "cc": "VN",
+ "flag": "🇻🇳",
+ "city": "Hanoi",
+ "city_en": "Hanoi",
+ "updated": "2026-11-05",
+ "title": "Hanoi Guide: Pho um 6 Uhr, Hoan-Kiem-See, Eierkaffee & Bia Hơi",
+ "title_en": "Hanoi Guide: Pho at 6 am, Hoan Kiem Lake, Egg Coffee & Bia Hơi",
+ "desc": "Hanoi im Februar 2026: Pho um 6 Uhr auf dem Plastikstuhl, Tai-Chi am See, Eierkaffee im Café Giảng und Bún chả wie Obama – von Noel.",
+ "desc_en": "Hanoi in February 2026: pho at 6 am on a plastic stool, tai chi at the lake, egg coffee at Café Giảng and bún chả like Obama – from Noel.",
+ "gyg_q": "Hanoi",
+ "intro": "<p>Hanoi ist chaotisch, laut und köstlich. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Hanoi is chaotic, loud and delicious. Prices and times are guidelines (2026).</p>",
+ "story": "<p>So habe ich Hanoi kennengelernt: Pho um 6 Uhr morgens auf einem Plastikstuhl – besser als jedes Restaurant. Mein Rat: früh raus zum Hoan-Kiem-See, wenn die Stadt Tai-Chi macht, und abends ein Bia Hơi in der Altstadt, frisch gebraut und für Kleingeld. Im Februar 2026 bin ich einmal von Nord nach Süd durch Vietnam gereist.</p>",
+ "story_en": "<p>This is how I got to know Hanoi: pho at 6 am on a plastic stool – better than any restaurant. My advice: head to Hoan Kiem Lake early while the city does tai chi, and have a bia hơi in the old quarter at night, freshly brewed and for small change. In February 2026 I travelled once from north to south through Vietnam.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Dong (VND)",
+   "v_en": "Dong (VND)"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "gyg",
+   "html": "<p>Hanoi wird vom Flughafen Noi Bai angeflogen. Zwischen den Städten fliegst du am besten – die Inlandsflüge sind günstig.</p>",
+   "html_en": "<p>Hanoi is served by Noi Bai airport. Between cities flying is best – domestic flights are cheap.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Hoan-Kiem-See am Morgen",
+     "text": "Früh raus, wenn die Menschen Tai-Chi machen.",
+     "text_en": "Out early when people do tai chi.",
+     "name_en": "Hoan Kiem Lake in the morning",
+     "q": "Hoan-Kiem-See am Morgen"
+    },
+    {
+     "name": "Eierkaffee im Café Giảng",
+     "text": "Wo er 1946 erfunden wurde. Auf Google 4,4 Sterne bei über 17.000 Bewertungen; Gäste loben den cremigen Schaum ohne Eigeschmack.",
+     "text_en": "Where it was invented in 1946. 4.4 stars on Google from over 17,000 reviews; guests praise the creamy foam without egg taste.",
+     "name_en": "Egg coffee at Café Giảng",
+     "q": "Cafe Giảng Hanoi"
+    },
+    {
+     "name": "Bún chả in Hương Liên",
+     "text": "In dem Lokal, in dem Obama und Bourdain 2016 auf Plastikhockern saßen. Auf Google 4,1 Sterne; Gäste nennen es gut, aber nicht das Beste der Stadt.",
+     "text_en": "In the place where Obama and Bourdain sat on plastic stools in 2016. 4.1 stars on Google; guests call it good but not the best in town.",
+     "name_en": "Bún chả at Hương Liên",
+     "q": "Bún chả Hương Liên Hanoi"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Pho um 6 Uhr auf dem Plastikstuhl",
+     "text": "Besser als jedes Restaurant.",
+     "text_en": "Better than any restaurant.",
+     "name_en": "Pho at 6 am on a plastic stool",
+     "gem": true,
+     "q": "Pho um 6 Uhr auf dem Plastikstuhl"
+    },
+    {
+     "name": "Bia Hơi in der Altstadt",
+     "text": "Abends frisch gebrautes Bier für Kleingeld.",
+     "text_en": "Freshly brewed beer in the evening for small change.",
+     "name_en": "Bia hơi in the old quarter",
+     "gem": true,
+     "q": "Bia Hơi in der Altstadt"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Vietnam ausmacht",
+   "h_en": "What makes Vietnam special",
+   "box": "gyg",
+   "html": "<p>Mopeds überall, Plastikhocker am Straßenrand, auf denen das beste Essen des Landes serviert wird. Vietnam stand rund tausend Jahre unter chinesischer Herrschaft, später unter französischer Kolonialherrschaft – die Baguettes für Bánh mì sind ein Erbe davon. 1976 wurde das Land wiedervereinigt.</p>",
+   "html_en": "<p>Mopeds everywhere, plastic stools by the roadside serving the country’s best food. Vietnam was under Chinese rule for about a thousand years, later French colonial rule – the baguettes for bánh mì are a legacy. The country was reunified in 1976.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Hanoi",
+   "h_en": "One day in Hanoi",
+   "items": [
+    "<strong>6 Uhr</strong> – Pho",
+    "<strong>Morgens</strong> – Hoan-Kiem-See",
+    "<strong>Nachmittag</strong> – Eierkaffee",
+    "<strong>Abend</strong> – Bia Hơi"
+   ],
+   "items_en": [
+    "<strong>6 am</strong> – pho",
+    "<strong>Morning</strong> – Hoan Kiem Lake",
+    "<strong>Afternoon</strong> – egg coffee",
+    "<strong>Evening</strong> – bia hơi"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie reise ich zwischen den Städten?",
+   "q_en": "How do I travel between cities?",
+   "a": "<p>Am besten per Flug – günstig.</p>",
+   "a_en": "<p>Best by plane – cheap.</p>"
+  }
+ ]
+}

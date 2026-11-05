@@ -1,0 +1,105 @@
+{
+ "slug": "tokio",
+ "slug_en": "tokyo",
+ "status": "live",
+ "blog": "blog-bc-7",
+ "cc": "JP",
+ "flag": "🇯🇵",
+ "city": "Tokio",
+ "city_en": "Tokyo",
+ "updated": "2026-11-05",
+ "title": "Tokio Guide: Meiji-Schrein, Harajuku & Shibuya bei Nacht",
+ "title_en": "Tokyo Guide: Meiji Shrine, Harajuku & Shibuya at Night",
+ "desc": "Tokio 2022: tagsüber Meiji-Schrein und Harajuku, zum Sonnenuntergang nach Shibuya – von Noel.",
+ "desc_en": "Tokyo 2022: Meiji Shrine and Harajuku by day, Shibuya at sunset – from Noel.",
+ "gyg_q": "Tokyo",
+ "intro": "<p>Tokio ist laut, groß und überraschend höflich. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Tokyo is loud, huge and surprisingly polite. Prices and times are guidelines (2026).</p>",
+ "story": "<p>Shibuya bei Nacht ist für mich Tokio in seiner reinsten Form: Neon, Menschen, Energie. Am meisten beeindruckt hat mich in Japan aber, wie die Menschen miteinander umgehen – Freundlichkeit kostet nichts. Mein Rat: tagsüber Meiji-Schrein und Harajuku, zum Sonnenuntergang nach Shibuya.</p>",
+ "story_en": "<p>Shibuya at night is Tokyo in its purest form for me: neon, people, energy. What impressed me most in Japan, though, was how people treat each other – kindness costs nothing. My advice: Meiji Shrine and Harajuku by day, Shibuya at sunset.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "3–5 Tage",
+   "v_en": "3–5 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Yen (JPY)",
+   "v_en": "Yen (JPY)"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Tokio wird von den Flughäfen Narita und Haneda angeflogen; Züge und Busse bringen dich in die Stadt. Das U-Bahn-Netz ist dicht; aktuelle Tickets vorher prüfen.</p>",
+   "html_en": "<p>Tokyo is served by Narita and Haneda airports; trains and buses take you into the city. The subway network is dense; check current tickets beforehand.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Meiji-Schrein",
+     "text": "Ein Waldspaziergang mitten in Tokio. Auf Google 4,7 Sterne bei über 54.000 Bewertungen. Besucher sagen: erstaunlich ruhig, Essen und Trinken im Schreinbereich verboten.",
+     "text_en": "A forest walk in the middle of Tokyo. 4.7 stars on Google from over 54,000 reviews. Visitors say: astonishingly quiet, eating and drinking not allowed in the shrine area.",
+     "name_en": "Meiji Shrine",
+     "q": "Meiji Jingu Tokyo"
+    },
+    {
+     "name": "Harajuku",
+     "text": "Direkt neben dem Schrein: Mode, Crêpes und Straßenszene.",
+     "text_en": "Right next to the shrine: fashion, crêpes and street scene.",
+     "q": "Harajuku"
+    },
+    {
+     "name": "Shibuya Crossing",
+     "text": "Zum Sonnenuntergang nach Shibuya: Neon, Menschen, Energie. Auf Google 4,5 Sterne. Besucher empfehlen, von oben zuzuschauen und einmal selbst zu kreuzen.",
+     "text_en": "To Shibuya at sunset: neon, people, energy. 4.5 stars on Google. Visitors recommend watching from above and crossing once yourself.",
+     "q": "Shibuya Scramble Crossing"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Japan ausmacht",
+   "h_en": "What makes Japan special",
+   "box": "gyg",
+   "html": "<p>Höflichkeit ist hier kein Klischee: Menschen stellen sich ordentlich an, Fundsachen kommen zurück, Züge fahren auf die Sekunde. Gleichzeitig ist Japan herrlich verrückt.</p>",
+   "html_en": "<p>Politeness is no cliché here: people queue properly, lost items come back, trains run to the second. At the same time Japan is wonderfully crazy.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Tokio",
+   "h_en": "One day in Tokyo",
+   "items": [
+    "<strong>Tagsüber</strong> – Meiji-Schrein, Harajuku",
+    "<strong>Sonnenuntergang</strong> – Shibuya",
+    "<strong>Abend</strong> – Neon und Essen"
+   ],
+   "items_en": [
+    "<strong>By day</strong> – Meiji Shrine, Harajuku",
+    "<strong>Sunset</strong> – Shibuya",
+    "<strong>Evening</strong> – neon and food"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie viele Tage braucht man in Tokio?",
+   "q_en": "How many days in Tokyo?",
+   "a": "<p>Drei bis fünf.</p>",
+   "a_en": "<p>Three to five.</p>"
+  }
+ ]
+}

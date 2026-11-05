@@ -1,0 +1,44 @@
+{
+  "slug": "seoul", "slug_en": "seoul", "status": "live", "blog": "blog-bc-10",
+  "cc": "KR", "flag": "🇰🇷", "city": "Seoul", "city_en": "Seoul", "updated": "2026-11-05",
+  "title": "Seoul Guide: Bukchon, Gwangjang-Markt, N Seoul Tower & DMZ-Tunnel",
+  "title_en": "Seoul Guide: Bukchon, Gwangjang Market, N Seoul Tower & DMZ Tunnel",
+  "desc": "Seoul an einem Tag: Hanok-Dorf, Garküchen, N Seoul Tower, Fischmarkt Noryangjin und ein Tunnel unter der Grenze – von Noel.",
+  "desc_en": "Seoul in a day: Hanok village, food stalls, N Seoul Tower, Noryangjin fish market and a tunnel under the border – from Noel.",
+  "gyg_q": "Seoul",
+  "intro": "<p>Wo Tokio leise ist, ist Seoul laut, schnell und hungrig. Eine Stadt mit rund zehn Millionen Menschen, in der du trotzdem mit der U-Bahn auf einen Granitgipfel fährst.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+  "intro_en": "<p>Where Tokyo is quiet, Seoul is loud, fast and hungry. A city of around ten million people where you can still take the subway to a granite peak.</p><p>Prices and times are guidelines (2026).</p>",
+  "story": "<p>Nach Japan war Seoul meine nächste Station – und der Kontrast hätte kaum größer sein können. Wo Tokio leise ist, ist Seoul laut, schnell und hungrig. Mein Tipp für einen Tag: morgens durch das Bukchon Hanok Village, mittags zu den Garküchen im Gwangjang-Markt und abends hoch auf den Namsan zum N Seoul Tower, wenn die Stadt zu leuchten beginnt.</p>",
+  "story_en": "<p>After Japan, Seoul was my next stop – and the contrast could hardly have been bigger. Where Tokyo is quiet, Seoul is loud, fast and hungry. My tip for a day: Bukchon Hanok Village in the morning, the food stalls of Gwangjang Market for lunch and up Namsan to N Seoul Tower at night when the city starts to glow.</p>",
+  "facts": [
+    {"k":"Dauer","k_en":"How long","v":"3–5 Tage","v_en":"3–5 days"},
+    {"k":"Währung","k_en":"Currency","v":"Südkoreanischer Won (KRW)","v_en":"South Korean won (KRW)"},
+    {"k":"Schrift","k_en":"Script","v":"Hangeul, 1443 entwickelt – an einem Nachmittag lesbar","v_en":"Hangeul, developed in 1443 – readable in an afternoon"}
+  ],
+  "blocks": [
+    {"type":"prose","id":"anreise","h":"So kommst du nach Seoul und herum","h_en":"Getting to Seoul and around","box":"gyg",
+     "html":"<p>Seoul wird vom Flughafen Incheon angeflogen; mit Express-Zug oder Bus kommst du in die Stadt. In der Stadt ist die U-Bahn das Rückgrat: schnell, sauber, beschriftet auch auf Englisch.</p>",
+     "html_en":"<p>Seoul is served by Incheon airport; express train or bus takes you into the city. In the city the subway is the backbone: fast, clean, signed in English too.</p>"},
+    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
+     "spots":[
+      {"name":"Bukchon Hanok Village","q":"Bukchon Hanok Village Seoul","text":"<p>Morgens durch die alten Holzhäuser. Auf Google 4,4 Sterne. Besucher raten, früh zu kommen und leise zu sein – es ist ein Wohnviertel; laut Google gelten Besuchszeiten (ca. 10–17 Uhr).</p>","text_en":"<p>Through the old wooden houses in the morning. 4.4 stars on Google. Visitors advise coming early and keeping quiet – it is a residential area; Google lists visiting hours (about 10 am–5 pm).</p>"},
+      {"name":"Gwangjang-Markt","name_en":"Gwangjang Market","q":"Gwangjang Market Seoul","text":"<p>Mittags zu den Garküchen: Mungobohnen-Pfannkuchen (Bindaetteok) auf Hockern. Auf Google 4,2 Sterne bei über 44.000 Bewertungen – touristisch, aber lohnend.</p>","text_en":"<p>For lunch to the food stalls: mung bean pancakes (bindaetteok) on stools. 4.2 stars on Google from over 44,000 reviews – touristy but worthwhile.</p>"},
+      {"name":"N Seoul Tower am Namsan","name_en":"N Seoul Tower on Namsan","q":"N Seoul Tower","text":"<p>Abends hoch auf den Namsan, wenn die Stadt zu leuchten beginnt. Auf Google 4,5 Sterne. Besucher sparen sich die Seilbahn und laufen den Weg nach oben.</p>","text_en":"<p>Up Namsan in the evening when the city starts to glow. 4.5 stars on Google. Visitors skip the cable car and walk up.</p>","hours":"laut Google täglich ca. 10–22:30 Uhr","hours_en":"daily about 10 am–10:30 pm according to Google"}
+     ]},
+    {"type":"spots","id":"gems","h":"Verrückt, aber wahr","h_en":"Crazy but true",
+     "spots":[
+      {"name":"Dritter Tunnel an der Grenze","name_en":"Third Tunnel at the border","gem":true,"q":"The Third Tunnel DMZ Korea","text":"<p>An der Grenze zu Nordkorea kannst du mit Helm in einen Tunnel laufen, den Nordkorea heimlich unter der Grenze gegraben hat – entdeckt 1978. Auf Google 4,6 Sterne. Besucher berichten von steilem Abstieg und niedriger Decke; Fotografieren ist im Tunnel verboten.</p>","text_en":"<p>At the border with North Korea you can walk into a tunnel with a helmet that North Korea secretly dug under the border – discovered in 1978. 4.6 stars on Google. Visitors report a steep descent and low ceiling; photography is forbidden inside the tunnel.</p>","hours":"laut Google Di–So ca. 9–14:40 Uhr, Mo geschlossen","hours_en":"Tue–Sun about 9 am–2:40 pm, closed Mondays according to Google","tip":"Meist nur im Rahmen einer DMZ-Tour; vorab buchen.","tip_en":"Usually only as part of a DMZ tour; book in advance."},
+      {"name":"Noryangjin-Fischmarkt","name_en":"Noryangjin fish market","q":"Noryangjin Fisheries Wholesale Market","text":"<p>Hier suchst du dir dein Essen lebend aus dem Becken aus. Auf Google 3,9 Sterne: Besucher mögen die Frische, warnen aber vor unklaren Zubereitungsgebühren – Preise vorher klären.</p>","text_en":"<p>Here you pick your food alive from the tank. 3.9 stars on Google: visitors like the freshness but warn about unclear cooking fees – agree prices beforehand.</p>"}
+     ]},
+    {"type":"prose","id":"wissen","h":"Was Südkorea ausmacht","h_en":"What makes South Korea special","box":"gyg",
+     "html":"<p>Seoul ist seit 1394 Hauptstadt, damals der Joseon-Dynastie – der Palast Gyeongbokgung stammt aus dieser Zeit. König Sejong ließ 1443 das Alphabet Hangeul entwickeln, damit auch einfache Leute lesen konnten. Nach dem Koreakrieg lag die Stadt in Trümmern; der rasante Wiederaufstieg wird bis heute „Wunder am Han-Fluss“ genannt.</p>",
+     "html_en":"<p>Seoul has been the capital since 1394, then of the Joseon dynasty – Gyeongbokgung Palace dates from that time. King Sejong had the Hangeul alphabet developed in 1443 so that ordinary people could read too. After the Korean War the city lay in ruins; the rapid recovery is still called the “Miracle on the Han River”.</p>"}
+  ],
+  "itinerary":[
+   {"h":"Ein Tag nach Noels Tipp","h_en":"One day following Noel’s tip","items":["<strong>Morgens</strong> – Bukchon Hanok Village","<strong>Mittags</strong> – Garküchen im Gwangjang-Markt","<strong>Abends</strong> – Namsan und N Seoul Tower"],"items_en":["<strong>Morning</strong> – Bukchon Hanok Village","<strong>Lunch</strong> – food stalls at Gwangjang Market","<strong>Evening</strong> – Namsan and N Seoul Tower"]}
+  ],
+  "faq":[
+   {"q":"Wie lange braucht man in Seoul?","q_en":"How long do you need in Seoul?","a":"<p>Drei bis fünf Tage; mit DMZ-Tour einen mehr.</p>","a_en":"<p>Three to five days; one more with a DMZ tour.</p>"},
+   {"q":"Kann man die DMZ allein besuchen?","q_en":"Can I visit the DMZ alone?","a":"<p>Meist nur mit geführter Tour; vorab buchen.</p>","a_en":"<p>Usually only on a guided tour; book in advance.</p>"}
+  ]
+}

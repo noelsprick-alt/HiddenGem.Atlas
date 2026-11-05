@@ -1,0 +1,121 @@
+{
+ "slug": "hoi-an",
+ "slug_en": "hoi-an",
+ "status": "live",
+ "blog": "blog-bc-6",
+ "cc": "VN",
+ "flag": "🇻🇳",
+ "city": "Hoi An",
+ "city_en": "Hoi An",
+ "updated": "2026-11-05",
+ "title": "Hoi An Guide: Vollmond-Laternen, Cao Lầu & Bánh mì Phượng",
+ "title_en": "Hoi An Guide: Full-Moon Lanterns, Cao Lầu & Bánh mì Phượng",
+ "desc": "Hoi An im Februar 2026: tausende Laternen bei Vollmond in der autofreien Altstadt – von Noel, mit Tipps zu Datum, Essen und Anreise.",
+ "desc_en": "Hoi An in February 2026: thousands of lanterns at full moon in the car-free old town – from Noel, with tips on date, food and getting there.",
+ "gyg_q": "Hoi An",
+ "intro": "<p>Einmal im Monat gehen bei Vollmond in Hoi Ans Altstadt die Lichter aus – und tausende Laternen an. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Once a month at full moon the lights go out in Hoi An’s old town – and thousands of lanterns go on. Prices and times are guidelines (2026).</p>",
+ "story": "<p>Ich war im Februar 2026 dort, und genau dafür lohnt sich die Reise. Zwischen Hanoi und Saigon war Hoi An meine mittlere Station. Bei Vollmond leuchten tausende Laternen in der autofreien Altstadt – für mich der Grund, warum sich die ganze Reise gelohnt hat.</p>",
+ "story_en": "<p>I was there in February 2026, and that is exactly what the trip is worth it for. Between Hanoi and Saigon, Hoi An was my middle stop. At full moon thousands of lanterns glow in the car-free old town – for me the reason the whole trip was worth it.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Dong (VND)",
+   "v_en": "Dong (VND)"
+  },
+  {
+   "k": "Welterbe",
+   "k_en": "World Heritage",
+   "v": "Altstadt seit 1999",
+   "v_en": "Old town since 1999"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "gyg",
+   "html": "<p>Der nächste Flughafen ist Da Nang; von dort fährst du per Taxi, Bus oder Transfer nach Hoi An (Dauer vorher prüfen). Die Altstadt ist autofrei.</p>",
+   "html_en": "<p>The nearest airport is Da Nang; from there you go by taxi, bus or transfer to Hoi An (check duration beforehand). The old town is car-free.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Laternen bei Vollmond",
+     "text": "Plane deinen Besuch um den 14. Tag des Mondmonats. Setz abends eine Kerze in einer Papierlaterne auf dem Fluss aus.",
+     "text_en": "Plan your visit around the 14th day of the lunar month. Float a candle in a paper lantern on the river in the evening.",
+     "name_en": "Lanterns at full moon",
+     "gem": true,
+     "q": "Laternen bei Vollmond"
+    },
+    {
+     "name": "Japanische Brücke",
+     "text": "Erinnert an die Händler aus aller Welt. Auf Google 4,3 Sterne bei über 29.000 Bewertungen; tagsüber voll.",
+     "text_en": "Recalls the merchants from around the world. 4.3 stars on Google from over 29,000 reviews; busy by day.",
+     "name_en": "Japanese Covered Bridge",
+     "q": "Japanese Covered Bridge Hoi An"
+    },
+    {
+     "name": "Bánh mì Phượng",
+     "text": "Anthony Bourdain nannte es einst das beste Bánh mì seines Lebens. Auf Google 4,3 Sterne; Besucher nennen kurze Schlangen und 25–50k VND.",
+     "text_en": "Anthony Bourdain once called it the best of his life. 4.3 stars on Google; visitors mention short queues and 25–50k VND.",
+     "name_en": "Bánh mì Phượng",
+     "q": "Banh Mi Phuong Hoi An"
+    },
+    {
+     "name": "Cao Lầu",
+     "text": "Nudeln, die der Überlieferung nach nur mit Wasser aus einem bestimmten alten Brunnen gelingen.",
+     "text_en": "Noodles that, according to tradition, only work with water from a certain old well.",
+     "name_en": "Cao Lầu",
+     "q": "Cao Lầu"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Hoi An ausmacht",
+   "h_en": "What makes Hoi An special",
+   "box": "gyg",
+   "html": "<p>Vom 15. bis 19. Jahrhundert war Hoi An einer der wichtigsten Handelshäfen Südostasiens. Dann versandete der Fluss, der Handel zog weiter, und die Stadt blieb wie eingefroren – das hat sie gerettet. Nirgendwo in Vietnam lässt du dir so schnell einen Anzug schneidern.</p>",
+   "html_en": "<p>From the 15th to 19th century Hoi An was one of Southeast Asia’s most important trading ports. Then the river silted up, trade moved on and the city stayed as if frozen – which saved it. Nowhere in Vietnam can you get a suit tailored as quickly.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Hoi An",
+   "h_en": "One day in Hoi An",
+   "items": [
+    "<strong>Vormittag</strong> – Altstadt, Bánh mì",
+    "<strong>Nachmittag</strong> – Japanische Brücke, Cao Lầu",
+    "<strong>Abend</strong> – Laternen auf dem Fluss"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – old town, bánh mì",
+    "<strong>Afternoon</strong> – Japanese Bridge, cao lầu",
+    "<strong>Evening</strong> – lanterns on the river"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wann ist Vollmond-Laternenfest?",
+   "q_en": "When is the full-moon lantern festival?",
+   "a": "<p>Um den 14. Tag des Mondmonats – prüfe das Datum vorab.</p>",
+   "a_en": "<p>Around the 14th day of the lunar month – check the date beforehand.</p>"
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "slug": "kyoto",
+ "slug_en": "kyoto",
+ "status": "live",
+ "blog": "blog-bc-7",
+ "cc": "JP",
+ "flag": "🇯🇵",
+ "city": "Kyoto",
+ "city_en": "Kyoto",
+ "updated": "2026-11-05",
+ "title": "Kyoto Guide: Fushimi Inari um 6 Uhr, Higashiyama & der Tempel der 1.200 Steinfiguren",
+ "title_en": "Kyoto Guide: Fushimi Inari at 6 am, Higashiyama & the Temple of 1,200 Stone Figures",
+ "desc": "Kyoto 2022: Fushimi Inari fast allein, Higashiyama, Otagi Nenbutsu-ji mit 1.200 Steinfiguren – von Noel, mit Anreise und Tagesplan.",
+ "desc_en": "Kyoto 2022: Fushimi Inari almost alone, Higashiyama, Otagi Nenbutsu-ji with 1,200 stone figures – from Noel, with getting there and a day plan.",
+ "gyg_q": "Kyoto",
+ "intro": "<p>Kyoto war über tausend Jahre die Hauptstadt des Kaisers. Heute teilst du die Highlights mit vielen Menschen – wenn du früh kommst, nicht. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Kyoto was the emperor’s capital for over a thousand years. Today you share the highlights with many people – unless you come early. Prices and times are guidelines (2026).</p>",
+ "story": "<p>Um 6 Uhr morgens gehörten mir die tausend Tore von Fushimi Inari fast allein – für mich der Moment, in dem Kyoto Sinn ergab. Mein Rat: die ersten Stunden für Fushimi Inari, danach Higashiyama, solange die Gassen noch ruhig sind. Was in Japan am meisten bleibt, ist etwas Kleines: wie die Menschen miteinander umgehen. Freundlichkeit kostet nichts.</p>",
+ "story_en": "<p>At 6 am the thousand gates of Fushimi Inari were almost all mine – for me, the moment Kyoto made sense. My advice: give the first hours to Fushimi Inari, then Higashiyama while the lanes are still quiet. What stays most in Japan is something small: how people treat each other. Kindness costs nothing.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Yen (JPY)",
+   "v_en": "Yen (JPY)"
+  },
+  {
+   "k": "Hidden Gem",
+   "k_en": "Hidden gem",
+   "v": "Tempel der 1.200 Steinfiguren",
+   "v_en": "Temple of 1,200 stone figures"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Kyoto erreichst du mit dem Shinkansen von Tokio (rund 2,5 Stunden) oder von Osaka in etwa 15–30 Minuten; aktuelle Fahrpläne und Tickets vorher prüfen. In der Stadt helfen Bus, U-Bahn und Taxi; Fushimi Inari liegt direkt an der JR-Nara-Linie.</p>",
+   "html_en": "<p>You reach Kyoto by shinkansen from Tokyo (about 2.5 hours) or from Osaka in around 15–30 minutes; check current timetables and tickets beforehand. In town bus, subway and taxi help; Fushimi Inari lies directly on the JR Nara line.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Fushimi Inari Taisha",
+     "text": "Um 6 Uhr morgens gehörten mir die tausend Tore fast allein. Der Schrein ist laut Google rund um die Uhr offen und kostenlos; Besucher raten, so früh wie möglich zu kommen und Wasser mitzunehmen. Auf Google 4,6 Sterne bei über 93.000 Bewertungen.",
+     "text_en": "At 6 am the thousand gates were almost all mine. The shrine is open around the clock and free according to Google; visitors advise coming as early as possible and bringing water. 4.6 stars on Google from over 93,000 reviews.",
+     "q": "Fushimi Inari Taisha Kyoto"
+    },
+    {
+     "name": "Higashiyama",
+     "text": "Danach Higashiyama, solange die Gassen noch ruhig sind: Holzhäuser, Tempel und Teehäuser am Berghang.",
+     "text_en": "Then Higashiyama while the lanes are still quiet: wooden houses, temples and teahouses on the hillside.",
+     "q": "Higashiyama"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gem",
+   "h_en": "Hidden gem",
+   "spots": [
+    {
+     "name": "Tempel der 1.200 Steinfiguren (Otagi Nenbutsu-ji)",
+     "text": "Auf meiner Karte findest du den Tempel der 1.200 Steinfiguren in Arashiyama – jede Figur mit eigenem Gesichtsausdruck. Besucher nennen 30–60 Minuten Besuchszeit. Auf Google 4,6 Sterne.",
+     "text_en": "On my map you find the temple of 1,200 stone figures in Arashiyama – each figure with its own expression. Visitors name 30–60 minutes. 4.6 stars on Google.",
+     "name_en": "Temple of 1,200 stone figures (Otagi Nenbutsu-ji)",
+     "gem": true,
+     "q": "Otagi Nenbutsu-ji Kyoto",
+     "hours": "laut Google Mo/Di/Do/Fr/So ca. 9–16 Uhr, Mi und Sa geschlossen",
+     "hours_en": "Mon/Tue/Thu/Fri/Sun about 9 am–4 pm, closed Wed and Sat according to Google"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Japan ausmacht",
+   "h_en": "What makes Japan special",
+   "box": "gyg",
+   "html": "<p>Kyoto war von 794 bis 1869 die Hauptstadt des Kaisers. Ab dem 17. Jahrhundert schottete sich Japan rund 200 Jahre fast vollständig ab. Erst mit der Meiji-Restauration 1868 öffnete sich das Land – deshalb stehen Holztempel und Hochhäuser heute oft nebeneinander.</p>",
+   "html_en": "<p>Kyoto was the emperor’s capital from 794 to 1869. From the 17th century Japan sealed itself off almost completely for about 200 years. Only with the Meiji Restoration in 1868 did the country open – which is why wooden temples and skyscrapers often stand side by side today.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Kyoto",
+   "h_en": "One day in Kyoto",
+   "items": [
+    "<strong>6 Uhr</strong> – Fushimi Inari",
+    "<strong>Vormittag</strong> – Higashiyama",
+    "<strong>Nachmittag</strong> – Arashiyama, Steinfiguren-Tempel"
+   ],
+   "items_en": [
+    "<strong>6 am</strong> – Fushimi Inari",
+    "<strong>Morning</strong> – Higashiyama",
+    "<strong>Afternoon</strong> – Arashiyama, stone-figure temple"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wann ist Fushimi Inari am leersten?",
+   "q_en": "When is Fushimi Inari emptiest?",
+   "a": "<p>Früh am Morgen – Noel war um 6 Uhr dort.</p>",
+   "a_en": "<p>Early in the morning – Noel was there at 6 am.</p>"
+  }
+ ]
+}

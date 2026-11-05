@@ -1,0 +1,98 @@
+{
+ "slug": "saigon",
+ "slug_en": "saigon",
+ "status": "live",
+ "blog": "blog-bc-8",
+ "cc": "VN",
+ "flag": "🇻🇳",
+ "city": "Saigon (Ho-Chi-Minh-Stadt)",
+ "city_en": "Saigon (Ho Chi Minh City)",
+ "updated": "2026-11-05",
+ "title": "Saigon Guide: District 1 treiben lassen & Nguyễn Huệ am Abend",
+ "title_en": "Saigon Guide: Drifting through District 1 & Nguyễn Huệ at Night",
+ "desc": "Saigon im Februar 2026: keinen Plan machen, im District 1 treiben lassen, abends auf die Flaniermeile Nguyễn Huệ – von Noel.",
+ "desc_en": "Saigon in February 2026: make no plan, drift through District 1, stroll Nguyễn Huệ boulevard at night – from Noel.",
+ "gyg_q": "Ho Chi Minh City",
+ "intro": "<p>Saigon hört nie auf – und genau das ist der Reiz. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Saigon never stops – and that is exactly the appeal. Prices and times are guidelines (2026).</p>",
+ "story": "<p>Saigon war das Gegenteil von Hoi An: Die Stadt hört nie auf, und genau das ist der Reiz. Mein Rat dort: keinen Plan machen, im District 1 treiben lassen und abends auf die Flaniermeile Nguyễn Huệ.</p>",
+ "story_en": "<p>Saigon was the opposite of Hoi An: the city never stops, and that is exactly the appeal. My advice there: make no plan, drift through District 1 and stroll Nguyễn Huệ boulevard at night.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Dong (VND)",
+   "v_en": "Dong (VND)"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "gyg",
+   "html": "<p>Saigon (Ho-Chi-Minh-Stadt) hat einen großen Flughafen Tan Son Nhat; Inlandsflüge von Hanoi und Da Nang sind günstig.</p>",
+   "html_en": "<p>Saigon (Ho Chi Minh City) has a large airport, Tan Son Nhat; domestic flights from Hanoi and Da Nang are cheap.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "District 1",
+     "text": "Keinen Plan machen, treiben lassen.",
+     "text_en": "Make no plan, drift.",
+     "name_en": "District 1",
+     "q": "District 1"
+    },
+    {
+     "name": "Nguyễn Huệ am Abend",
+     "text": "Die Flaniermeile abends: Familien, Musik, Licht.",
+     "text_en": "The boulevard in the evening: families, music, light.",
+     "name_en": "Nguyễn Huệ at night",
+     "q": "Nguyen Hue Walking Street"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Vietnam ausmacht",
+   "h_en": "What makes Vietnam special",
+   "box": "gyg",
+   "html": "<p>Mit den Reformen ab 1986 begann der Aufschwung, den du heute in jeder Straße von Saigon spürst. Mehr in meinen Guides zu Hanoi und Hoi An.</p>",
+   "html_en": "<p>With the reforms from 1986 the boom began that you feel in every street of Saigon today. More in my guides to Hanoi and Hoi An.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Saigon",
+   "h_en": "One day in Saigon",
+   "items": [
+    "<strong>Tagsüber</strong> – District 1 treiben lassen",
+    "<strong>Abend</strong> – Nguyễn Huệ"
+   ],
+   "items_en": [
+    "<strong>By day</strong> – drift through District 1",
+    "<strong>Evening</strong> – Nguyễn Huệ"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Brauche ich einen Plan in Saigon?",
+   "q_en": "Do I need a plan in Saigon?",
+   "a": "<p>Noels Rat: nein, treiben lassen.</p>",
+   "a_en": "<p>Noel’s advice: no, drift.</p>"
+  }
+ ]
+}
