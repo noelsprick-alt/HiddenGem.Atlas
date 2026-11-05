@@ -1,0 +1,105 @@
+{
+ "slug": "luebeck",
+ "slug_en": "luebeck",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Lübeck",
+ "city_en": "Lübeck",
+ "updated": "2026-11-05",
+ "title": "Lübeck Guide: Holstentor, versteckte Höfe & Marzipan bei Niederegger",
+ "title_en": "Lübeck Guide: Holstentor, Hidden Courtyards & Marzipan at Niederegger",
+ "desc": "Lübeck, die Königin der Hanse: Holstentor, versteckte Gänge und Höfe der Altstadt und Marzipan bei Niederegger – von Noel.",
+ "desc_en": "Lübeck, queen of the Hanseatic League: Holstentor, hidden passages and courtyards of the old town and marzipan at Niederegger – from Noel.",
+ "gyg_q": "Lübeck",
+ "intro": "<p>Lübeck war im Mittelalter die „Königin“ der Hanse. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>In the Middle Ages Lübeck was the “queen” of the Hanseatic League. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-28",
+ "story": "<p>Mein Tipp für Lübeck: durch die versteckten Gänge und Höfe der Altstadt und Marzipan bei Niederegger.</p>",
+ "story_en": "<p>My tip for Lübeck: through the hidden passages and courtyards of the old town and marzipan at Niederegger.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1–2 Tage",
+   "v_en": "1–2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Lübeck erreichst du per Regionalzug von Hamburg in rund 45 Minuten; die Altstadtinsel läufst du.</p>",
+   "html_en": "<p>You reach Lübeck by regional train from Hamburg in about 45 minutes; you walk the old-town island.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Holstentor",
+     "text": "Das Wahrzeichen von 1478.",
+     "text_en": "The landmark from 1478.",
+     "q": "Holstentor"
+    },
+    {
+     "name": "Niederegger – Marzipan",
+     "text": "Das Stammhaus mit Café. Auf Google 4,4 Sterne bei über 8.500 Bewertungen; Gäste loben Kuchen und Mandelkuchen, im Advent ist es voll.",
+     "text_en": "The original house with café. 4.4 stars on Google from over 8,500 reviews; guests praise cake and almond cake, it is busy in Advent.",
+     "q": "Café Niederegger Stammhaus Lübeck"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Versteckte Gänge und Höfe",
+     "text": "Durch die Gänge und Höfe der Altstadt – die meisten Besucher laufen daran vorbei.",
+     "text_en": "Through the passages and courtyards of the old town – most visitors walk past them.",
+     "name_en": "Hidden passages and courtyards",
+     "gem": true,
+     "q": "Versteckte Gänge und Höfe"
+    }
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Lübeck",
+   "h_en": "One day in Lübeck",
+   "items": [
+    "<strong>Vormittag</strong> – Holstentor, Altstadt",
+    "<strong>Mittag</strong> – Gänge und Höfe",
+    "<strong>Nachmittag</strong> – Marzipan bei Niederegger"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Holstentor, old town",
+    "<strong>Midday</strong> – passages and courtyards",
+    "<strong>Afternoon</strong> – marzipan at Niederegger"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie weit ist Lübeck von Hamburg?",
+   "q_en": "How far is Lübeck from Hamburg?",
+   "a": "<p>Rund 45 Minuten mit dem Regionalzug.</p>",
+   "a_en": "<p>About 45 minutes by regional train.</p>"
+  }
+ ]
+}

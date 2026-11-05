@@ -1,0 +1,106 @@
+{
+ "slug": "ruegen",
+ "slug_en": "ruegen",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Rügen",
+ "city_en": "Rügen",
+ "updated": "2026-11-05",
+ "title": "Rügen Guide: Kreidefelsen, Königsstuhl, Rasender Roland & Prora",
+ "title_en": "Rügen Guide: Chalk Cliffs, Königsstuhl, Rasender Roland & Prora",
+ "desc": "Rügen: zu Fuß an den Kreidefelsen entlang zum Königsstuhl, mit dem Rasenden Roland nach Binz und das Betonmonument Prora – von Noel.",
+ "desc_en": "Rügen: on foot along the chalk cliffs to the Königsstuhl, the Rasender Roland steam train to Binz and the concrete monument Prora – from Noel.",
+ "gyg_q": "Rügen",
+ "intro": "<p>Rügen ist Deutschlands größte Insel: Kreide, Buchenwald und Bäderarchitektur. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Rügen is Germany’s largest island: chalk, beech forest and spa architecture. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-28",
+ "story": "<p>Mein Tipp: zu Fuß an den Kreidefelsen entlang zum Königsstuhl und mit dem Rasenden Roland, der alten Dampfbahn, nach Binz.</p>",
+ "story_en": "<p>My tip: walk along the chalk cliffs to the Königsstuhl and ride the Rasender Roland, the old steam train, to Binz.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "3–5 Tage",
+   "v_en": "3–5 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Rügen erreichst du über den Rügendamm; die Insel hat Bahnstrecken und Busse. Für Nationalpark Jasmund ist ein Auto oder Bus praktisch.</p>",
+   "html_en": "<p>You reach Rügen via the Rügendamm; the island has rail lines and buses. For Jasmund National Park a car or bus is practical.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Kreidefelsen und Königsstuhl",
+     "text": "Zu Fuß an den Kreidefelsen entlang. Auf Google 3,9 Sterne: Besucher loben den Waldweg, kritisieren den kostenpflichtigen Aussichtspunkt (ein Gast nennt 12 €) und raten teils zur Victoria-Sicht (kostenlos) als Alternative.",
+     "text_en": "On foot along the chalk cliffs. 3.9 stars on Google: visitors praise the forest path, criticise the paid viewing platform (one guest names €12) and some recommend the free Victoria viewpoint as an alternative.",
+     "name_en": "Chalk cliffs and Königsstuhl",
+     "q": "Königsstuhl Rügen"
+    },
+    {
+     "name": "Rasender Roland nach Binz",
+     "text": "Die alte Dampfbahn.",
+     "text_en": "The old steam railway.",
+     "name_en": "Rasender Roland to Binz",
+     "q": "Rasender Roland nach Binz"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Prora",
+     "text": "Ein 4,5 Kilometer langer Betonbau, der nie fertig wurde – auf meiner Karte.",
+     "text_en": "A 4.5-kilometre concrete building that was never finished – on my map.",
+     "gem": true,
+     "q": "Prora"
+    }
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag auf Rügen",
+   "h_en": "One day on Rügen",
+   "items": [
+    "<strong>Vormittag</strong> – Königsstuhl und Kreidefelsen",
+    "<strong>Nachmittag</strong> – Rasender Roland nach Binz",
+    "<strong>Spätnachmittag</strong> – Prora"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Königsstuhl and chalk cliffs",
+    "<strong>Afternoon</strong> – Rasender Roland to Binz",
+    "<strong>Late afternoon</strong> – Prora"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist der Königsstuhl den Eintritt wert?",
+   "q_en": "Is the Königsstuhl worth the admission?",
+   "a": "<p>Meinungen gehen auseinander; der Waldweg ist der Hauptgrund.</p>",
+   "a_en": "<p>Opinions differ; the forest path is the main reason.</p>"
+  }
+ ]
+}

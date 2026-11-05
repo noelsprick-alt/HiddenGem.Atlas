@@ -1,0 +1,109 @@
+{
+ "slug": "schwarzwald",
+ "slug_en": "black-forest",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Schwarzwald",
+ "city_en": "Black Forest",
+ "updated": "2026-11-05",
+ "title": "Schwarzwald Guide: Schwarzwaldhochstraße, Mummelsee & Triberger Wasserfälle",
+ "title_en": "Black Forest Guide: Schwarzwaldhochstraße, Mummelsee & Triberg Waterfalls",
+ "desc": "Schwarzwald: Heimat der Kuckucksuhr – Schwarzwaldhochstraße mit Stopp am Mummelsee und Eichhörnchen an den Triberger Wasserfällen – von Noel.",
+ "desc_en": "Black Forest: home of the cuckoo clock – Schwarzwaldhochstraße with a stop at Mummelsee and squirrels at the Triberg waterfalls – from Noel.",
+ "gyg_q": "Schwarzwald",
+ "intro": "<p>Der Schwarzwald ist Wald, Fachwerk und Kuckucksuhren. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>The Black Forest is forest, half-timbering and cuckoo clocks. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-30",
+ "story": "<p>Mein Tipp: die Schwarzwaldhochstraße mit Stopp am Mummelsee.</p>",
+ "story_en": "<p>My tip: the Schwarzwaldhochstraße with a stop at the Mummelsee.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "gyg",
+   "html": "<p>Für den Schwarzwald ist ein Auto praktisch; Freiburg ist ein guter Ausgangspunkt.</p>",
+   "html_en": "<p>A car is practical for the Black Forest; Freiburg is a good base.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Schwarzwaldhochstraße & Mummelsee",
+     "text": "Die Panoramastraße mit Stopp am Mummelsee.",
+     "text_en": "The panoramic road with a stop at the Mummelsee.",
+     "name_en": "Schwarzwaldhochstraße & Mummelsee",
+     "q": "Schwarzwaldhochstraße & Mummelsee"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Triberger Wasserfälle",
+     "text": "Hier fressen dir Eichhörnchen aus der Hand – auf meiner Karte.",
+     "text_en": "Squirrels eat out of your hand here – on my map.",
+     "name_en": "Triberg Waterfalls",
+     "gem": true,
+     "q": "Triberger Wasserfälle"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was den Süden ausmacht",
+   "h_en": "What makes the south special",
+   "html": "<p>Kuckucksuhren werden im Schwarzwald seit dem 18. Jahrhundert gebaut.</p>",
+   "html_en": "<p>Cuckoo clocks have been built in the Black Forest since the 18th century.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag im Schwarzwald",
+   "h_en": "One day in the Black Forest",
+   "items": [
+    "<strong>Vormittag</strong> – Schwarzwaldhochstraße",
+    "<strong>Mittag</strong> – Mummelsee",
+    "<strong>Nachmittag</strong> – Triberg"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Schwarzwaldhochstraße",
+    "<strong>Midday</strong> – Mummelsee",
+    "<strong>Afternoon</strong> – Triberg"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Brauche ich ein Auto?",
+   "q_en": "Do I need a car?",
+   "a": "<p>Praktisch ja.</p>",
+   "a_en": "<p>Practically yes.</p>"
+  }
+ ]
+}

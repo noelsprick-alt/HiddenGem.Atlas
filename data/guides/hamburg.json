@@ -1,0 +1,125 @@
+{
+ "slug": "hamburg",
+ "slug_en": "hamburg",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Hamburg",
+ "city_en": "Hamburg",
+ "updated": "2026-11-05",
+ "title": "Hamburg Guide: Fischmarkt, HADAG-Fähre & Elbphilharmonie Plaza",
+ "title_en": "Hamburg Guide: Fish Market, HADAG Ferry & Elbphilharmonie Plaza",
+ "desc": "Hamburg nach Noels Tipp: sonntags früh zum Fischmarkt, Hafenrundfahrt zum Nahverkehrstarif und abends auf die Elbphilharmonie-Plaza.",
+ "desc_en": "Hamburg by Noel’s tip: the fish market early on Sunday, a harbour tour for the price of a bus ticket and the Elbphilharmonie Plaza in the evening.",
+ "gyg_q": "Hamburg",
+ "intro": "<p>Der Norden ist für mich raue Luft, Backstein und Fischbrötchen. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>The north is rough air, brick and fish rolls for me. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-28",
+ "story": "<p>Ich war in Hamburg, Bremen, Lübeck und Rügen – und jede Ecke erzählt von der Zeit, als hier die mächtigsten Kaufleute Europas saßen. Mein Tipp für Hamburg: sonntags ganz früh zum Fischmarkt, danach mit der HADAG-Fähre ab den Landungsbrücken – Hafenrundfahrt zum Nahverkehrstarif. Abends auf die Plaza der Elbphilharmonie.</p>",
+ "story_en": "<p>I was in Hamburg, Bremen, Lübeck and Rügen – and every corner tells of the time when Europe’s mightiest merchants sat here. My tip for Hamburg: the fish market very early on a Sunday, then the HADAG ferry from the Landungsbrücken – a harbour tour for the price of a bus ticket. In the evening, up to the Elbphilharmonie Plaza.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Hamburg erreichst du per ICE, Flug oder Fernbus. In der Stadt fahren S-Bahn, U-Bahn und die HADAG-Fähren im Nahverkehrstarif.</p>",
+   "html_en": "<p>You reach Hamburg by ICE, flight or coach. In the city S-Bahn, U-Bahn and the HADAG ferries run on the local transit fare.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Fischmarkt am Sonntagmorgen",
+     "text": "Sonntags ganz früh zum Altonaer Fischmarkt.",
+     "text_en": "Very early on Sunday to the Altona fish market.",
+     "name_en": "Fish market on Sunday morning",
+     "q": "Hamburger Fischmarkt"
+    },
+    {
+     "name": "HADAG-Fähre ab Landungsbrücken",
+     "text": "Hafenrundfahrt zum Nahverkehrstarif.",
+     "text_en": "A harbour tour for the price of a bus ticket.",
+     "name_en": "HADAG ferry from the Landungsbrücken",
+     "q": "HADAG-Fähre ab Landungsbrücken"
+    },
+    {
+     "name": "Elbphilharmonie Plaza",
+     "text": "Abends der 360°-Blick auf Hafen und Stadt. Auf Google 4,6 Sterne. Besucher berichten, dass für die Plaza ein kostenloses Ticket nötig ist; vorab Infos prüfen.",
+     "text_en": "In the evening the 360° view of harbour and city. 4.6 stars on Google. Visitors report that a free ticket is needed for the Plaza; check info beforehand.",
+     "q": "Elbphilharmonie Plaza Hamburg",
+     "hours": "laut Google täglich ca. 10–23:30 Uhr",
+     "hours_en": "daily about 10 am–11:30 pm according to Google"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Speicherstadt",
+     "text": "Das größte historische Lagerhausviertel der Welt, seit 2015 UNESCO-Welterbe.",
+     "text_en": "The world’s largest historic warehouse district, UNESCO World Heritage since 2015.",
+     "gem": true,
+     "q": "Speicherstadt"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was den Norden ausmacht",
+   "h_en": "What makes the north special",
+   "html": "<p>Ein „Moin“ reicht zu jeder Tageszeit. Im Mittelalter beherrschte die Hanse den Handel in Nord- und Ostsee. Die Häuser sind aus rotem Backstein, das Wetter wechselt im Stundentakt.</p>",
+   "html_en": "<p>A “Moin” works at any time of day. In the Middle Ages the Hanseatic League dominated trade in the North and Baltic Seas. The houses are red brick, the weather changes hourly.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Sonntag in Hamburg",
+   "h_en": "A Sunday in Hamburg",
+   "items": [
+    "<strong>Früh</strong> – Fischmarkt",
+    "<strong>Vormittag</strong> – HADAG-Fähre",
+    "<strong>Nachmittag</strong> – Speicherstadt",
+    "<strong>Abend</strong> – Elbphilharmonie Plaza"
+   ],
+   "items_en": [
+    "<strong>Early</strong> – fish market",
+    "<strong>Morning</strong> – HADAG ferry",
+    "<strong>Afternoon</strong> – Speicherstadt",
+    "<strong>Evening</strong> – Elbphilharmonie Plaza"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wann ist der Fischmarkt?",
+   "q_en": "When is the fish market?",
+   "a": "<p>Sonntags ganz früh; Zeiten vorher prüfen.</p>",
+   "a_en": "<p>Very early on Sundays; check times beforehand.</p>"
+  }
+ ]
+}

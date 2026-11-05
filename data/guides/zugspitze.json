@@ -1,0 +1,104 @@
+{
+ "slug": "zugspitze",
+ "slug_en": "zugspitze",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Zugspitze & Garmisch",
+ "city_en": "Zugspitze & Garmisch",
+ "updated": "2026-11-05",
+ "title": "Zugspitze Guide: Zahnradbahn, Eibsee & Partnachklamm",
+ "title_en": "Zugspitze Guide: Cog Railway, Eibsee & Partnach Gorge",
+ "desc": "Zugspitze, 2.962 Meter: mit der Zahnradbahn hoch, mit der Seilbahn runter, Runde um den Eibsee und früh in die Partnachklamm – von Noel.",
+ "desc_en": "Zugspitze, 2,962 metres: up by cog railway, down by cable car, a loop around the Eibsee and early into the Partnach Gorge – from Noel.",
+ "gyg_q": "Zugspitze",
+ "intro": "<p>Die Zugspitze ist Deutschlands höchster Berg. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>The Zugspitze is Germany’s highest mountain. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-30",
+ "story": "<p>Mein Tipp: mit der Zahnradbahn hoch, mit der Seilbahn runter – und eine Runde um den Eibsee. Früh in die Partnachklamm, dann hast du die Schlucht fast für dich.</p>",
+ "story_en": "<p>My tip: up by cog railway, down by cable car – and a loop around the Eibsee. Get to the Partnach Gorge early and you’ll have it almost to yourself.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2 Tage",
+   "v_en": "2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Garmisch-Partenkirchen erreichst du per Zug aus München. Zugspitzbahn und Eibsee ab Garmisch; Preise und Fahrzeiten vorher prüfen.</p>",
+   "html_en": "<p>You reach Garmisch-Partenkirchen by train from Munich. Zugspitze railway and Eibsee start from Garmisch; check prices and times beforehand.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Zugspitze – Zahnradbahn hoch, Seilbahn runter",
+     "text": "Mit 2.962 Metern der höchste Berg Deutschlands.",
+     "text_en": "At 2,962 metres Germany’s highest mountain.",
+     "q": "Zugspitze – Zahnradbahn hoch, Seilbahn runter"
+    },
+    {
+     "name": "Eibsee-Runde",
+     "text": "Eine Runde um den See.",
+     "text_en": "A loop around the lake.",
+     "q": "Eibsee-Runde"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Partnachklamm",
+     "text": "Früh kommen, dann hast du die Schlucht fast für dich. Auf Google 4,7 Sterne bei fast 18.000 Bewertungen; Besucher nennen rund 10 € Eintritt und 20–30 Minuten Zugang vom Parkplatz.",
+     "text_en": "Come early and you have the gorge almost to yourself. 4.7 stars on Google from nearly 18,000 reviews; visitors mention about €10 admission and 20–30 minutes from the car park.",
+     "gem": true,
+     "q": "Partnachklamm Garmisch"
+    }
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag an der Zugspitze",
+   "h_en": "One day at the Zugspitze",
+   "items": [
+    "<strong>Früh</strong> – Partnachklamm",
+    "<strong>Vormittag</strong> – Zahnradbahn zur Zugspitze",
+    "<strong>Nachmittag</strong> – Seilbahn runter, Eibsee"
+   ],
+   "items_en": [
+    "<strong>Early</strong> – Partnach Gorge",
+    "<strong>Morning</strong> – cog railway to the Zugspitze",
+    "<strong>Afternoon</strong> – cable car down, Eibsee"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie komme ich auf die Zugspitze?",
+   "q_en": "How do I get up the Zugspitze?",
+   "a": "<p>Mit Zahnradbahn und Seilbahn.</p>",
+   "a_en": "<p>By cog railway and cable car.</p>"
+  }
+ ]
+}

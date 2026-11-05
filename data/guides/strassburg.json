@@ -1,0 +1,112 @@
+{
+ "slug": "strassburg",
+ "slug_en": "strasbourg",
+ "status": "live",
+ "cc": "FR",
+ "flag": "🇫🇷",
+ "city": "Straßburg",
+ "city_en": "Strasbourg",
+ "updated": "2026-11-05",
+ "title": "Straßburg Guide: La Petite France, Barrage Vauban & die astronomische Uhr",
+ "title_en": "Strasbourg Guide: La Petite France, Barrage Vauban & the Astronomical Clock",
+ "desc": "Straßburg: morgens durch La Petite France, Dachterrasse des Barrage Vauban und um 12:30 Uhr die Apostel an der astronomischen Uhr – von Noel.",
+ "desc_en": "Strasbourg: La Petite France in the morning, the Barrage Vauban terrace and at 12:30 the apostles at the astronomical clock – from Noel.",
+ "gyg_q": "Strasbourg",
+ "intro": "<p>In Straßburg spricht man französisch und kocht deutsch. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>In Strasbourg they speak French and cook German. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-30",
+ "story": "<p>Mein Tipp: morgens durch La Petite France und auf die Dachterrasse der Barrage Vauban.</p>",
+ "story_en": "<p>My tip: through La Petite France in the morning and up to the roof terrace of the Barrage Vauban.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1 Tag",
+   "v_en": "1 day"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Von Freiburg bist du über den Rhein in wenigen Minuten im Elsass; Straßburg erreichst du per Zug.</p>",
+   "html_en": "<p>From Freiburg you are in Alsace in a few minutes across the Rhine; you reach Strasbourg by train.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "La Petite France",
+     "text": "Morgens durch das Fachwerkviertel.",
+     "text_en": "Through the half-timbered quarter in the morning.",
+     "q": "La Petite France"
+    },
+    {
+     "name": "Barrage Vauban",
+     "text": "Die Dachterrasse mit Blick auf Petite France und Münster – kostenlos. Auf Google 4,6 Sterne. Besucher nennen Öffnung bis ca. 19 Uhr.",
+     "text_en": "The roof terrace with a view of Petite France and the cathedral – free. 4.6 stars on Google. Visitors mention opening until about 7 pm.",
+     "q": "Barrage Vauban Strasbourg"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Astronomische Uhr im Münster",
+     "text": "Jeden Tag um 12:30 Uhr ziehen die Apostel vorbei, und ein Hahn kräht – auf meiner Karte.",
+     "text_en": "Every day at 12:30 the apostles pass by and a rooster crows – on my map.",
+     "name_en": "Astronomical clock in the cathedral",
+     "gem": true,
+     "q": "Astronomische Uhr im Münster"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Straßburg ausmacht",
+   "h_en": "What makes Strasbourg special",
+   "html": "<p>Straßburg wechselte zwischen 1870 und 1945 viermal die Nationalität – heute tagt hier das Europäische Parlament.</p>",
+   "html_en": "<p>Between 1870 and 1945 Strasbourg changed nationality four times – today the European Parliament meets here.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Straßburg",
+   "h_en": "One day in Strasbourg",
+   "items": [
+    "<strong>Morgens</strong> – La Petite France, Barrage Vauban",
+    "<strong>12:30</strong> – Uhr im Münster"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – La Petite France, Barrage Vauban",
+    "<strong>12:30</strong> – clock in the cathedral"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lohnt Straßburg als Tagesausflug?",
+   "q_en": "Is Strasbourg worth a day trip?",
+   "a": "<p>Ja, besonders ab Freiburg.</p>",
+   "a_en": "<p>Yes, especially from Freiburg.</p>"
+  }
+ ]
+}

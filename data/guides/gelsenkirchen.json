@@ -1,0 +1,142 @@
+{
+ "slug": "gelsenkirchen",
+ "slug_en": "gelsenkirchen",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Gelsenkirchen & Ruhrgebiet",
+ "city_en": "Gelsenkirchen & the Ruhr",
+ "updated": "2026-11-05",
+ "title": "Gelsenkirchen & Ruhrgebiet Guide: Arena, Himmelstreppe, Landschaftspark & Gasometer",
+ "title_en": "Gelsenkirchen & Ruhr Guide: Arena, Stairway to Heaven, Landschaftspark & Gasometer",
+ "desc": "Gelsenkirchen ist meine Heimatstadt: Spieltag an der Arena, Sonnenuntergang an der Himmelstreppe, Landschaftspark Duisburg-Nord, Tiger & Turtle und Gasometer – von Noel.",
+ "desc_en": "Gelsenkirchen is my home town: match day at the arena, sunset at the Stairway to Heaven, Landschaftspark Duisburg-Nord, Tiger & Turtle and Gasometer – from Noel.",
+ "gyg_q": "Gelsenkirchen",
+ "intro": "<p>Gelsenkirchen ist Noels Heimatstadt. Wer verstehen will, wie der Pott tickt, braucht keinen Reiseführer. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Gelsenkirchen is Noel’s home town. If you want to understand how the Ruhr ticks you do not need a guidebook. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-31",
+ "story": "<p>Gelsenkirchen ist meine Heimatstadt. Wer verstehen will, wie der Pott tickt, braucht keinen Reiseführer – sondern einen Spieltag, eine Halde zum Sonnenuntergang und eine Currywurst an der Bude. An einem Spieltag zur Arena in Gelsenkirchen – Königsblau und Gänsehaut, auch wenn du kein Fußballfan bist. Danach zum Sonnenuntergang auf die Halde Rheinelbe mit der Himmelstreppe, einer Treppe aus Betonblöcken, die einfach im Himmel endet.</p>",
+ "story_en": "<p>Gelsenkirchen is my home town. If you want to understand how the Ruhr ticks you do not need a guidebook – you need a match day, a spoil tip at sunset and a currywurst at the kiosk. On a match day to the arena in Gelsenkirchen – royal blue and goosebumps, even if you are no football fan. Afterwards to the Rheinelbe spoil tip at sunset with the Stairway to Heaven, a staircase of concrete blocks that simply ends in the sky.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Spieltag",
+   "k_en": "Match day",
+   "v": "Königsblau in der Arena",
+   "v_en": "Royal blue in the arena"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "gyg",
+   "html": "<p>Gelsenkirchen und das Ruhrgebiet erreichst du gut per Bahn, S-Bahn und Auto; das Netz ist dicht.</p>",
+   "html_en": "<p>You reach Gelsenkirchen and the Ruhr well by train, S-Bahn and car; the network is dense.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Arena am Spieltag",
+     "text": "Königsblau und Gänsehaut, auch wenn du kein Fußballfan bist.",
+     "text_en": "Royal blue and goosebumps, even if you are no football fan.",
+     "name_en": "Arena on match day",
+     "q": "Arena am Spieltag"
+    },
+    {
+     "name": "Halde Rheinelbe & Himmelstreppe",
+     "text": "Zum Sonnenuntergang: eine Treppe aus Betonblöcken, die einfach im Himmel endet. Auf Google 4,5 Sterne; frei zugänglich.",
+     "text_en": "At sunset: a staircase of concrete blocks that simply ends in the sky. 4.5 stars on Google; freely accessible.",
+     "q": "Halde Rheinelbe Gelsenkirchen"
+    },
+    {
+     "name": "Currywurst an der Bude",
+     "text": "An jeder Ecke steht eine Bude, wo du dein Bier und deine Tüte Chips holst.",
+     "text_en": "On every corner there is a kiosk where you get your beer and bag of crisps.",
+     "name_en": "Currywurst at the kiosk",
+     "q": "Currywurst an der Bude"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Landschaftspark Duisburg-Nord",
+     "text": "Bei Nacht, wenn das alte Hüttenwerk bunt angestrahlt wird.",
+     "text_en": "At night when the old ironworks is lit in colour.",
+     "gem": true,
+     "q": "Landschaftspark Duisburg-Nord"
+    },
+    {
+     "name": "Tiger & Turtle",
+     "text": "Eine Achterbahn, die du zu Fuß gehst.",
+     "text_en": "A roller coaster you walk.",
+     "gem": true,
+     "q": "Tiger & Turtle"
+    },
+    {
+     "name": "Gasometer Oberhausen",
+     "text": "Das Dach des Gasometers.",
+     "text_en": "The roof of the gasometer.",
+     "gem": true,
+     "q": "Gasometer Oberhausen"
+    },
+    {
+     "name": "Zentrum für Internationale Lichtkunst, Unna",
+     "text": "Tief in den Kellern einer alten Brauerei.",
+     "text_en": "Deep in the cellars of an old brewery.",
+     "gem": true,
+     "q": "Zentrum für Internationale Lichtkunst, Unna"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was den Pott ausmacht",
+   "h_en": "What makes the Ruhr special",
+   "html": "<p>Über 150 Jahre war das Ruhrgebiet das industrielle Herz Deutschlands. Im Dezember 2018 schloss in Bottrop die letzte Steinkohlezeche. Die Zeche Zollverein in Essen ist seit 2001 UNESCO-Welterbe, 2010 war das Ruhrgebiet Kulturhauptstadt Europas. Aus Zechen wurden Museen, aus Halden Aussichtspunkte, aus Hochöfen Kletterparks.</p>",
+   "html_en": "<p>For over 150 years the Ruhr was Germany’s industrial heart. In December 2018 the last hard-coal mine closed in Bottrop. Zeche Zollverein in Essen has been a UNESCO World Heritage Site since 2001, in 2010 the Ruhr was European Capital of Culture. Mines became museums, spoil tips viewpoints, blast furnaces climbing parks.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag im Pott",
+   "h_en": "One day in the Ruhr",
+   "items": [
+    "<strong>Nachmittag</strong> – Halde Rheinelbe",
+    "<strong>Sonnenuntergang</strong> – Himmelstreppe",
+    "<strong>Abend</strong> – Landschaftspark Duisburg-Nord"
+   ],
+   "items_en": [
+    "<strong>Afternoon</strong> – Rheinelbe spoil tip",
+    "<strong>Sunset</strong> – Stairway to Heaven",
+    "<strong>Evening</strong> – Landschaftspark Duisburg-Nord"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie viele Orte gibt es auf Noels Karte?",
+   "q_en": "How many places are on Noel’s map?",
+   "a": "<p>Über 60 Orte im Pott.</p>",
+   "a_en": "<p>Over 60 places in the Ruhr.</p>"
+  }
+ ]
+}

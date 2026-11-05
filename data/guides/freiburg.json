@@ -1,0 +1,103 @@
+{
+ "slug": "freiburg",
+ "slug_en": "freiburg",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Freiburg",
+ "city_en": "Freiburg",
+ "updated": "2026-11-05",
+ "title": "Freiburg Guide: Münstermarkt, Schlossberg & die Bächle",
+ "title_en": "Freiburg Guide: Münstermarkt, Schlossberg & the Bächle",
+ "desc": "Freiburg, eine der sonnigsten Städte Deutschlands: samstags Münstermarkt mit Langer Roter, Schlossberg und Vorsicht vor den Bächle – von Noel.",
+ "desc_en": "Freiburg, one of Germany’s sunniest cities: Saturday Münstermarkt with a Lange Rote, Schlossberg and beware of the Bächle – from Noel.",
+ "gyg_q": "Freiburg",
+ "intro": "<p>Freiburg gilt als eine der sonnigsten Städte Deutschlands. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Freiburg is considered one of Germany’s sunniest cities. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-30",
+ "story": "<p>Mein Tipp: samstags auf den Münstermarkt – eine „Lange Rote“ auf die Hand, danach hoch auf den Schlossberg. Und Vorsicht vor den Bächle: Wer reintritt, heiratet angeblich einen Freiburger.</p>",
+ "story_en": "<p>My tip: the Saturday Münstermarkt – grab a “Lange Rote” sausage, then climb the Schlossberg. And watch out for the Bächle: legend says whoever steps in will marry someone from Freiburg.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2 Tage",
+   "v_en": "2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Freiburg erreichst du per ICE oder Regionalzug; die Altstadt ist klein und autofrei.</p>",
+   "html_en": "<p>You reach Freiburg by ICE or regional train; the old town is small and car-free.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Münstermarkt",
+     "text": "Samstags eine „Lange Rote“ auf die Hand.",
+     "text_en": "On Saturday a “Lange Rote” sausage in your hand.",
+     "name_en": "Münstermarkt",
+     "q": "Münstermarkt"
+    },
+    {
+     "name": "Schlossberg",
+     "text": "Mit Blick über Münster und Schwarzwald. Auf Google 4,7 Sterne. Besucher empfehlen den Aufstieg zu Fuß oder die Schlossbergbahn; der Turm ist 35 Meter hoch.",
+     "text_en": "With a view over the Minster and the Black Forest. 4.7 stars on Google. Visitors recommend walking up or taking the Schlossbergbahn; the tower is 35 metres high.",
+     "q": "Schlossberg Freiburg"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Die Bächle",
+     "text": "Die kleinen Wasserläufe in den Gassen gibt es seit dem Mittelalter. Wer reintritt, heiratet angeblich einen Freiburger.",
+     "text_en": "The small water channels in the lanes have existed since the Middle Ages. Whoever steps in will supposedly marry someone from Freiburg.",
+     "gem": true,
+     "q": "Die Bächle"
+    }
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Freiburg",
+   "h_en": "One day in Freiburg",
+   "items": [
+    "<strong>Vormittag</strong> – Münstermarkt",
+    "<strong>Nachmittag</strong> – Schlossberg"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Münstermarkt",
+    "<strong>Afternoon</strong> – Schlossberg"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wann ist der Münstermarkt?",
+   "q_en": "When is the Münstermarkt?",
+   "a": "<p>Samstags – Zeiten vorher prüfen.</p>",
+   "a_en": "<p>On Saturdays – check times beforehand.</p>"
+  }
+ ]
+}

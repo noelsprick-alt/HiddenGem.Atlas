@@ -1,0 +1,128 @@
+{
+ "slug": "bremen",
+ "slug_en": "bremen",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Bremen",
+ "city_en": "Bremen",
+ "updated": "2026-11-05",
+ "title": "Bremen Guide: Schnoor, Böttcherstraße, Roland & Schlachte",
+ "title_en": "Bremen Guide: Schnoor, Böttcherstraße, Roland & Schlachte",
+ "desc": "Bremen wirkt kleiner und älter, als es ist: Schnoorviertel, Böttcherstraße, Roland, Ratskeller mit Wein von 1653 und Sonnenuntergang an der Schlachte – von Noel.",
+ "desc_en": "Bremen feels smaller and older than it is: Schnoor quarter, Böttcherstraße, Roland, Ratskeller with wine from 1653 and sunset at the Schlachte – from Noel.",
+ "gyg_q": "Bremen",
+ "intro": "<p>Bremen ist Hansestadt mit Märchenflair. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Bremen is a Hanseatic city with a fairy-tale touch. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-28",
+ "story": "<p>Mein Tipp: Nimm dir Zeit für das Schnoorviertel und die Böttcherstraße – zwei Ecken, in denen Bremen kleiner und älter wirkt, als es ist. Zum Sonnenuntergang an die Schlachte.</p>",
+ "story_en": "<p>My tip: take your time in the Schnoor quarter and on Böttcherstraße – two corners where Bremen feels smaller and older than it is. Sunset at the Schlachte.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1–2 Tage",
+   "v_en": "1–2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Bremen erreichst du per Zug aus Hamburg in rund einer Stunde; Altstadt zu Fuß.</p>",
+   "html_en": "<p>You reach Bremen by train from Hamburg in about an hour; old town on foot.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Schnoorviertel",
+     "text": "Enge Gassen, kleine Läden, Cafés. Auf Google 4,7 Sterne bei über 20.000 Bewertungen. Besucher raten zu einem Samstag, da sonntags vieles geschlossen ist.",
+     "text_en": "Narrow lanes, small shops, cafés. 4.7 stars on Google from over 20,000 reviews. Visitors advise a Saturday since much is closed on Sundays.",
+     "name_en": "Schnoor quarter",
+     "q": "Schnoor Bremen"
+    },
+    {
+     "name": "Böttcherstraße",
+     "text": "Eine kleine Backstein-Gasse mit Kunst und Handwerk.",
+     "text_en": "A small brick lane with art and craft.",
+     "q": "Böttcherstraße"
+    },
+    {
+     "name": "Roland am Marktplatz",
+     "text": "Seit 1404 wacht der steinerne Roland über die Freiheit der Stadt.",
+     "text_en": "Since 1404 the stone Roland has watched over the city’s freedom.",
+     "name_en": "Roland on the market square",
+     "q": "Roland am Marktplatz"
+    },
+    {
+     "name": "Schlachte zum Sonnenuntergang",
+     "text": "Promenade an der Weser.",
+     "text_en": "Promenade on the Weser river.",
+     "name_en": "Schlachte at sunset",
+     "q": "Schlachte zum Sonnenuntergang"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Gullydeckel mit Tierstimmen",
+     "text": "In Bremen gibt es einen Gullydeckel, der mit Tierstimmen antwortet, wenn du eine Münze einwirfst.",
+     "text_en": "In Bremen there is a manhole cover that answers with animal voices when you insert a coin.",
+     "name_en": "Manhole cover with animal voices",
+     "gem": true,
+     "q": "Gullydeckel mit Tierstimmen"
+    },
+    {
+     "name": "Ratskeller – Wein von 1653",
+     "text": "Im Ratskeller lagert ein Wein von 1653.",
+     "text_en": "A wine from 1653 is stored in the Ratskeller.",
+     "name_en": "Ratskeller – wine from 1653",
+     "gem": true,
+     "q": "Ratskeller – Wein von 1653"
+    }
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Bremen",
+   "h_en": "One day in Bremen",
+   "items": [
+    "<strong>Vormittag</strong> – Marktplatz, Roland",
+    "<strong>Mittag</strong> – Böttcherstraße, Schnoor",
+    "<strong>Abend</strong> – Schlachte"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – market square, Roland",
+    "<strong>Midday</strong> – Böttcherstraße, Schnoor",
+    "<strong>Evening</strong> – Schlachte"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lohnt Bremen als Tagesausflug?",
+   "q_en": "Is Bremen worth a day trip?",
+   "a": "<p>Ja – von Hamburg rund eine Stunde Fahrt.</p>",
+   "a_en": "<p>Yes – about an hour from Hamburg.</p>"
+  }
+ ]
+}
