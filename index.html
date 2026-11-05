@@ -6123,6 +6123,18 @@ function bcOpen(id){
   const b = HG.col('blog').find(x => x.id === id); if (!b) return;
   const ig = (HG.set().ig) || 'https://www.instagram.com/hiddengem.atlas/';
   openDetail('blog-' + b.id, stripTags(Lz(b, 'tag')) || t('bl_lbl'), Lz(b, 'title'), stripTags(Lz(b, 'meta')), b.link || ig, b.link ? t('bl_open') : t('bl_ig'), 'blog/' + b.id);
+  bcGuideLinks('blog-' + b.id);
+}
+// Komplette Stadt-Guides zu diesem Beitrag unter den Button hängen
+function bcGuideLinks(key){
+  const lg = (typeof lang !== 'undefined' && lang === 'en') ? 'en' : 'de';
+  const add = list => {
+    const wrap = document.getElementById('dt-ext-wrap'); if (!wrap || dtKey !== key) return;
+    const hits = (list || []).filter(g => g.blog === key); if (!hits.length) return;
+    wrap.insertAdjacentHTML('beforeend', hits.map(g => `<a class="dt-ext" href="${esc(g.url)}" style="margin-left:8px">${esc(g.flag || '')} ${lg === 'en' ? 'Full guide' : 'Zum kompletten Guide'}: ${esc(g.city)} →</a>`).join(''));
+  };
+  if (GUIDE_CACHE[lg]) return add(GUIDE_CACHE[lg]);
+  fetch(lg + '/guides.json').then(r => r.ok ? r.json() : []).then(j => { GUIDE_CACHE[lg] = j; add(j); }).catch(() => {});
 }
 HG.openers['blog'] = bcOpen;
 

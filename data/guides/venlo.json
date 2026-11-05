@@ -1,0 +1,107 @@
+{
+ "slug": "venlo",
+ "slug_en": "venlo",
+ "status": "live",
+ "cc": "NL",
+ "flag": "🇳🇱",
+ "city": "Venlo",
+ "city_en": "Venlo",
+ "updated": "2026-11-05",
+ "title": "Venlo Guide: Markt, Stadhuis, Maas & Fritten – der perfekte Tagesausflug aus NRW",
+ "title_en": "Venlo Guide: Market, Stadhuis, Meuse & Fries – the Perfect Day Trip from NRW",
+ "desc": "Venlo als Tagesausflug aus NRW: Markt, Stadhuis, Kaffee an der Maas und danach Fritten mit Fritessaus – von Noel.",
+ "desc_en": "Venlo as a day trip from NRW: market, Stadhuis, coffee on the Meuse and then fries with frietsaus – from Noel.",
+ "gyg_q": "Venlo",
+ "intro": "<p>Venlo liegt direkt hinter der Grenze und ist ein entspannter Tagesausflug. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Venlo lies just across the border and is a relaxed day trip. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-24",
+ "story": "<p>Mein Tipp: Venlo ist der perfekte Tagesausflug aus NRW – Markt, Stadhuis und ein Kaffee an der Maas, danach eine Portion Fritten mit Fritessaus.</p>",
+ "story_en": "<p>My tip: Venlo is the perfect day trip from NRW – the market, the Stadhuis and a coffee on the Meuse, then a cone of fries with frietsaus.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1 Tag",
+   "v_en": "1 day"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Venlo erreichst du aus NRW per Regionalzug oder Auto in kurzer Zeit; die Altstadt läufst du.</p>",
+   "html_en": "<p>You reach Venlo from NRW by regional train or car in a short time; you walk the old town.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Markt und Stadhuis",
+     "text": "Der Marktplatz mit dem Rathaus ist das Herz der Stadt.",
+     "text_en": "The market square with the town hall is the heart of the city.",
+     "name_en": "Market and Stadhuis",
+     "q": "Markt und Stadhuis"
+    },
+    {
+     "name": "Kaffee an der Maas",
+     "text": "Ein Kaffee an der Maas.",
+     "text_en": "A coffee on the Meuse.",
+     "name_en": "Coffee on the Meuse",
+     "q": "Kaffee an der Maas"
+    },
+    {
+     "name": "Fritten mit Fritessaus",
+     "text": "Danach eine Portion Fritten mit Fritessaus.",
+     "text_en": "Afterwards a cone of fries with frietsaus.",
+     "name_en": "Fries with frietsaus",
+     "q": "Fritten mit Fritessaus"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was die Niederlande ausmacht",
+   "h_en": "What makes the Netherlands special",
+   "html": "<p>Mehr dazu in meinem Amsterdam-Guide. Und in Baarle läuft die Grenze zu Belgien quer durch Wohnzimmer und Cafés – auf meiner Karte.</p>",
+   "html_en": "<p>More in my Amsterdam guide. And in Baarle the border with Belgium runs straight through living rooms and cafés – on my map.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Venlo",
+   "h_en": "One day in Venlo",
+   "items": [
+    "<strong>Vormittag</strong> – Markt, Stadhuis",
+    "<strong>Mittag</strong> – Kaffee an der Maas",
+    "<strong>Nachmittag</strong> – Fritten"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – market, Stadhuis",
+    "<strong>Midday</strong> – coffee on the Meuse",
+    "<strong>Afternoon</strong> – fries"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lohnt Venlo als Tagesausflug?",
+   "q_en": "Is Venlo worth a day trip?",
+   "a": "<p>Ja, ein entspannter Ausflug direkt hinter der Grenze.</p>",
+   "a_en": "<p>Yes, a relaxed trip just across the border.</p>"
+  }
+ ]
+}

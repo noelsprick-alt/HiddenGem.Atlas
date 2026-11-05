@@ -110,7 +110,7 @@ export function renderGuides(ctx) {
       if (faq.length) ld.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: strip(f.a) } })) });
       page({ lang, p, title: `${title} | HiddenGem.Atlas`, desc: trim(gv(g, 'desc', lang) || gv(g, 'intro', lang), 158), h1: `${g.flag || ''} ${esc(title)}`, lead: '',
         body: `<div class="guide"><p><a href="${U}${hubP}">${T.back}</a></p>${byline}${hero}${tocHtml}${main}</div>`, type: 'article', image: img, crumbs: [{ n: T.hub, p: hubP }, { n: city }], alt, ld });
-      idx.push({ slug: gSlug(g, lang), city, flag: g.flag || '', title, img: img || '', url: p });
+      idx.push({ slug: gSlug(g, lang), blog: g.blog || '', city, flag: g.flag || '', title, img: img || '', url: p });
       count++;
     }
     const HU = up(hubP);

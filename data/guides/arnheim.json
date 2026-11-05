@@ -1,0 +1,98 @@
+{
+ "slug": "arnheim",
+ "slug_en": "arnhem",
+ "status": "live",
+ "cc": "NL",
+ "flag": "🇳🇱",
+ "city": "Arnheim",
+ "city_en": "Arnhem",
+ "updated": "2026-11-05",
+ "title": "Arnheim Guide: Hoge Veluwe mit weißen Gratis-Rädern & die Brücke von Arnheim",
+ "title_en": "Arnhem Guide: Hoge Veluwe with White Free Bikes & the Bridge at Arnhem",
+ "desc": "Arnheim: mit den weißen Gratis-Rädern durch den Nationalpark Hoge Veluwe – von Noel, mit Anreise und Tagesplan.",
+ "desc_en": "Arnhem: through Hoge Veluwe National Park on the white free bikes – from Noel, with getting there and a day plan.",
+ "gyg_q": "Arnhem",
+ "intro": "<p>Arnheim ist von NRW aus leicht erreichbar und Tor zum Nationalpark Hoge Veluwe. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Arnhem is easy to reach from NRW and the gateway to Hoge Veluwe National Park. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-24",
+ "story": "<p>Mein Tipp für Arnheim: mit den weißen Gratis-Rädern durch den Nationalpark Hoge Veluwe. Die Niederlande sind für mich das Land der kurzen Wege – von NRW aus bist du in einer Stunde da.</p>",
+ "story_en": "<p>My tip for Arnhem: through Hoge Veluwe National Park on the white free bikes. For me the Netherlands is the land of short distances – from NRW you are there in an hour.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1 Tag",
+   "v_en": "1 day"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Arnheim liegt an der Bahnstrecke Düsseldorf–Amsterdam; aktuelle Verbindungen vorher prüfen. Zum Nationalpark Hoge Veluwe fahren Busse; vor Ort stehen die weißen Räder zur Verfügung (aktuelle Bedingungen und Eintritt vorher prüfen).</p>",
+   "html_en": "<p>Arnhem lies on the Düsseldorf–Amsterdam rail line; check current connections beforehand. Buses run to Hoge Veluwe National Park; the white bikes are available on site (check current conditions and admission beforehand).</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Nationalpark Hoge Veluwe mit den weißen Rädern",
+     "text": "Mit den weißen Gratis-Rädern durch den Park – Heide, Wald und Dünen.",
+     "text_en": "Through the park on the white free bikes – heath, forest and dunes.",
+     "name_en": "Hoge Veluwe National Park on the white bikes",
+     "q": "Hoge Veluwe National Park"
+    },
+    {
+     "name": "Die Brücke von Arnheim",
+     "text": "Um die Brücke von Arnheim wurde 1944 eine der berühmtesten Schlachten des Krieges geschlagen.",
+     "text_en": "One of the war’s most famous battles was fought around the Arnhem bridge in 1944.",
+     "name_en": "The Bridge at Arnhem",
+     "q": "John Frost Bridge Arnhem"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was die Niederlande ausmacht",
+   "h_en": "What makes the Netherlands special",
+   "html": "<p>Mehr dazu in meinem Amsterdam-Guide.</p>",
+   "html_en": "<p>More in my Amsterdam guide.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Arnheim",
+   "h_en": "One day in Arnhem",
+   "items": [
+    "<strong>Vormittag</strong> – Anreise, Altstadt und Brücke",
+    "<strong>Nachmittag</strong> – Hoge Veluwe mit den weißen Rädern"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – arrival, old town and bridge",
+    "<strong>Afternoon</strong> – Hoge Veluwe on the white bikes"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Sind die weißen Räder wirklich gratis?",
+   "q_en": "Are the white bikes really free?",
+   "a": "<p>Noels Tipp nennt sie Gratis-Räder; prüfe die aktuellen Bedingungen vor Ort.</p>",
+   "a_en": "<p>Noel’s tip calls them free bikes; check the current conditions on site.</p>"
+  }
+ ]
+}
