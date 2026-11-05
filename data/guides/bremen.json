@@ -7,8 +7,8 @@
  "city": "Bremen",
  "city_en": "Bremen",
  "updated": "2026-11-05",
- "title": "Bremen Guide: Schnoor, Böttcherstraße, Roland & Schlachte",
- "title_en": "Bremen Guide: Schnoor, Böttcherstraße, Roland & Schlachte",
+ "title": "Bremen Guide: 12 Orte – Schnoor, Böttcherstraße, Roland, Schlachte & Hidden Gems",
+ "title_en": "Bremen Guide: 12 places – Schnoor, Böttcherstraße, Roland, Schlachte & hidden gems",
  "desc": "Bremen wirkt kleiner und älter, als es ist: Schnoorviertel, Böttcherstraße, Roland, Ratskeller mit Wein von 1653 und Sonnenuntergang an der Schlachte – von Noel.",
  "desc_en": "Bremen feels smaller and older than it is: Schnoor quarter, Böttcherstraße, Roland, Ratskeller with wine from 1653 and sunset at the Schlachte – from Noel.",
  "gyg_q": "Bremen",
@@ -38,8 +38,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Bremen erreichst du per Zug aus Hamburg in rund einer Stunde; Altstadt zu Fuß.</p>",
-   "html_en": "<p>You reach Bremen by train from Hamburg in about an hour; old town on foot.</p>"
+   "html": "<p>Bremen erreichst du per Zug aus Hamburg in rund einer Stunde; Altstadt zu Fuß.</p><p>Bremen liegt gut angebunden: Der Hauptbahnhof ist zentral, von dort läufst du in wenigen Minuten zum Marktplatz. Die Altstadt ist kompakt und gut zu Fuß erkundbar; für das Viertel und den Bürgerpark nimmst du Tram oder Bus. Fahrpläne vorher prüfen.</p><p>Der Bremer Flughafen liegt nah an der Stadt.</p>",
+   "html_en": "<p>You reach Bremen by train from Hamburg in about an hour; old town on foot.</p><p>Bremen is well connected: the main station is central, from there you walk to the market square in a few minutes. The old town is compact and easy to explore on foot; for the Viertel and the Bürgerpark you take tram or bus. Check timetables beforehand.</p><p>Bremen airport is close to the city.</p>"
   },
   {
    "type": "spots",
@@ -49,10 +49,12 @@
    "spots": [
     {
      "name": "Schnoorviertel",
-     "text": "Enge Gassen, kleine Läden, Cafés. Auf Google 4,7 Sterne bei über 20.000 Bewertungen. Besucher raten zu einem Samstag, da sonntags vieles geschlossen ist.",
-     "text_en": "Narrow lanes, small shops, cafés. 4.7 stars on Google from over 20,000 reviews. Visitors advise a Saturday since much is closed on Sundays.",
+     "text": "<p>Enge Gassen, kleine Läden, Cafés. Auf Google 4,7 Sterne bei über 20.000 Bewertungen. Besucher raten zu einem Samstag, da sonntags vieles geschlossen ist.</p><p>Das Schnoorviertel ist das älteste erhaltene Wohnviertel Bremens: kleine, schmale Häuser aus dem 15. und 16. Jahrhundert stehen dicht an dicht in engen Gassen. Heute findest du hier Cafés, Kunsthandwerk, Goldschmiede und kleine Restaurants. Der Name kommt vermutlich von den „Schnüren“, also den Tauen der früheren Seiler.</p><p>Am schönsten ist ein Spaziergang am Vormittag, wenn die Gassen noch leer sind. Viele Läden haben sonntags geschlossen (vorher prüfen).</p>",
+     "text_en": "<p>Narrow lanes, small shops, cafés. 4.7 stars on Google from over 20,000 reviews. Visitors advise a Saturday since much is closed on Sundays.</p><p>The Schnoor quarter is Bremen’s oldest surviving residential district: small, narrow houses from the 15th and 16th centuries stand close together in narrow lanes. Today you find cafés, crafts, goldsmiths and small restaurants here. The name probably comes from the “Schnüre”, the ropes of the former rope-makers.</p><p>A walk in the morning is most beautiful when the lanes are still empty. Many shops are closed on Sundays (check beforehand).</p>",
      "name_en": "Schnoor quarter",
-     "q": "Schnoor Bremen"
+     "q": "Schnoor Bremen",
+     "tip": "Komm am Vormittag oder am Samstag.",
+     "tip_en": "Come in the morning or on a Saturday."
     },
     {
      "name": "Böttcherstraße",
@@ -62,10 +64,12 @@
     },
     {
      "name": "Roland am Marktplatz",
-     "text": "Seit 1404 wacht der steinerne Roland über die Freiheit der Stadt.",
-     "text_en": "Since 1404 the stone Roland has watched over the city’s freedom.",
+     "text": "<p>Seit 1404 wacht der steinerne Roland über die Freiheit der Stadt.</p><p>Der Roland auf dem Marktplatz ist eine rund zehn Meter hohe Steinfigur von 1404 und gilt als Symbol der Bremer Freiheit und Marktrechte. Zusammen mit dem Rathaus gehört er zum UNESCO-Welterbe. Gegenüber steht der St.-Petri-Dom mit seinen Türmen.</p><p>Der Marktplatz ist das Herz der Stadt; rund um ihn liegen Cafés und die Bremer Stadtmusikanten.</p>",
+     "text_en": "<p>Since 1404 the stone Roland has watched over the city’s freedom.</p><p>The Roland on the market square is a stone figure about ten metres high from 1404 and is regarded as a symbol of Bremen’s freedom and market rights. Together with the town hall it is a UNESCO World Heritage site. Opposite stands St Peter’s Cathedral with its towers.</p><p>The market square is the heart of the city; around it are cafés and the Bremen Town Musicians.</p>",
      "name_en": "Roland on the market square",
-     "q": "Roland am Marktplatz"
+     "q": "Roland am Marktplatz",
+     "tip": "Schau dir Rathaus und Roland zusammen an.",
+     "tip_en": "See the town hall and Roland together."
     },
     {
      "name": "Schlachte zum Sonnenuntergang",
@@ -73,6 +77,33 @@
      "text_en": "Promenade on the Weser river.",
      "name_en": "Schlachte at sunset",
      "q": "Schlachte zum Sonnenuntergang"
+    },
+    {
+     "name": "Bremer Stadtmusikanten",
+     "text": "<p>Die Bronzefigur der Stadtmusikanten neben dem Rathaus zeigt Esel, Hund, Katze und Hahn aufeinander. Der Brauch: Greif mit beiden Händen die Vorderhufe des Esels und wünsch dir etwas – daher sind seine Hufe blank. Das Märchen der Brüder Grimm ist weltbekannt.</p><p>Komm früh oder spät, wenn weniger Menschen da sind.</p>",
+     "text_en": "<p>The bronze figure of the Town Musicians next to the town hall shows donkey, dog, cat and rooster on top of each other. The custom: hold the donkey’s front hooves with both hands and make a wish – hence its shiny hooves. The fairy tale by the Brothers Grimm is world famous.</p><p>Come early or late when fewer people are there.</p>",
+     "name_en": "Bremen Town Musicians",
+     "q": "Bremer Stadtmusikanten Statue",
+     "tip": "Greif die Hufe und wünsch dir etwas.",
+     "tip_en": "Hold the hooves and make a wish."
+    },
+    {
+     "name": "Rathaus & Dom",
+     "text": "<p>Das Bremer Rathaus ist ein Renaissance-Gebäude mit reich verzierter Fassade und gehört mit dem Roland zum UNESCO-Welterbe. Innen kannst du an einer Führung teilnehmen und prächtige Säle sehen (Zeiten vorher prüfen). Der St.-Petri-Dom lädt zum Aufstieg auf den Turm ein.</p><p>Plane eine Stunde für Rathaus und Dom ein.</p>",
+     "text_en": "<p>Bremen’s town hall is a Renaissance building with a richly decorated façade and, with the Roland, a UNESCO World Heritage site. Inside you can join a tour and see magnificent halls (check times beforehand). St Peter’s Cathedral invites you to climb the tower.</p><p>Plan an hour for town hall and cathedral.</p>",
+     "name_en": "Town hall & cathedral",
+     "q": "Bremer Rathaus",
+     "tip": "Buche eine Rathausführung.",
+     "tip_en": "Book a town hall tour."
+    },
+    {
+     "name": "Schlachte & Weserpromenade",
+     "text": "<p>Die Schlachte ist die Promenade an der Weser mit Biergärten, Restaurants und Schiffen. Im Sommer sitzen Menschen am Wasser, im Winter gibt es Weihnachtsmarkt und Schlachte-Zauber (Termine vorher prüfen). Vom Wasser sieht man alte Speicher und Schiffe.</p><p>Komm am späten Nachmittag und bleib bis zum Sonnenuntergang.</p>",
+     "text_en": "<p>The Schlachte is the promenade on the Weser with beer gardens, restaurants and ships. In summer people sit by the water, in winter there is a Christmas market and “Schlachte-Zauber” (check dates beforehand). From the water you see old warehouses and ships.</p><p>Come in the late afternoon and stay until sunset.</p>",
+     "name_en": "Schlachte & Weser promenade",
+     "q": "Schlachte Bremen",
+     "tip": "Komm am späten Nachmittag.",
+     "tip_en": "Come in the late afternoon."
     }
    ]
   },
@@ -97,6 +128,35 @@
      "name_en": "Ratskeller – wine from 1653",
      "gem": true,
      "q": "Ratskeller – Wein von 1653"
+    },
+    {
+     "name": "Viertel (Das Viertel) – Kneipen & Kultur",
+     "text": "<p>Das Viertel, auch „Ostertor/Steintor“ genannt, ist Bremens lebendiges Szeneviertel mit Cafés, Kneipen, Programmkinos und Läden. Am Wochenende sind die Straßen abends voll.</p><p>Für einen Abend bei Bier und Musik ist es der beste Ort.</p>",
+     "text_en": "<p>Das Viertel, also called “Ostertor/Steintor”, is Bremen’s lively scene district with cafés, pubs, arthouse cinemas and shops. At weekends the streets are full in the evening.</p><p>For an evening with beer and music it is the best place.</p>",
+     "name_en": "Das Viertel – pubs & culture",
+     "gem": true,
+     "q": "Das Viertel Bremen",
+     "tip": "Komm abends am Wochenende.",
+     "tip_en": "Come on weekend evenings."
+    },
+    {
+     "name": "Wallanlagen & Mühle am Wall",
+     "text": "<p>Die Wallanlagen sind ein grüner Park auf den früheren Stadtbefestigungen mit Teichen, Wegen und einer Windmühle. Sie eignen sich für einen ruhigen Spaziergang mitten in der Stadt.</p><p>Verbinde den Spaziergang mit einem Kaffee am Wasser.</p>",
+     "text_en": "<p>The Wallanlagen are a green park on the former city fortifications with ponds, paths and a windmill. They suit a quiet walk in the middle of the city.</p><p>Combine the walk with a coffee by the water.</p>",
+     "name_en": "Wallanlagen & mill on the ramparts",
+     "gem": true,
+     "q": "Wallanlagen Bremen",
+     "tip": "Verbinde den Spaziergang mit einem Kaffee.",
+     "tip_en": "Combine the walk with a coffee."
+    },
+    {
+     "name": "Bremer Spezialitäten: Kaffee, Kohl & Pinkel",
+     "text": "<p>Bremen ist eine Kaffeestadt (Rösterei-Tradition). Als Gericht gibt es Grünkohl mit Pinkel (geräucherte Grützwurst) im Winter, Knipp und Bremer Klaben (Rosinenbrot). Probiere dazu ein Bier von Beck’s oder ein regionales Craftbier.</p><p>Preise ändern sich; frag vorher.</p>",
+     "text_en": "<p>Bremen is a coffee city (roasting tradition). As a dish there is kale with pinkel (smoked groats sausage) in winter, knipp and Bremer Klaben (raisin bread). Try a beer from Beck’s or a regional craft beer with it.</p><p>Prices change; ask beforehand.</p>",
+     "name_en": "Bremen specialities: coffee, kale & pinkel",
+     "q": "Grünkohl Pinkel Bremen",
+     "tip": "Probiere im Winter Grünkohl mit Pinkel.",
+     "tip_en": "Try kale with pinkel in winter."
     }
    ]
   }
@@ -104,16 +164,18 @@
  "itinerary": [
   {
    "h": "Ein Tag in Bremen",
-   "h_en": "One day in Bremen",
+   "h_en": "A day in Bremen",
    "items": [
-    "<strong>Vormittag</strong> – Marktplatz, Roland",
-    "<strong>Mittag</strong> – Böttcherstraße, Schnoor",
-    "<strong>Abend</strong> – Schlachte"
+    "<strong>Vormittag</strong> – Marktplatz, Rathaus, Roland, Stadtmusikanten",
+    "<strong>Mittag</strong> – Böttcherstraße",
+    "<strong>Nachmittag</strong> – Schnoor, Ratskeller",
+    "<strong>Abend</strong> – Schlachte zum Sonnenuntergang, Viertel"
    ],
    "items_en": [
-    "<strong>Morning</strong> – market square, Roland",
-    "<strong>Midday</strong> – Böttcherstraße, Schnoor",
-    "<strong>Evening</strong> – Schlachte"
+    "<strong>Morning</strong> – market square, town hall, Roland, Town Musicians",
+    "<strong>Midday</strong> – Böttcherstraße",
+    "<strong>Afternoon</strong> – Schnoor, Ratskeller",
+    "<strong>Evening</strong> – Schlachte at sunset, Viertel"
    ]
   }
  ],
@@ -123,6 +185,12 @@
    "q_en": "Is Bremen worth a day trip?",
    "a": "<p>Ja – von Hamburg rund eine Stunde Fahrt.</p>",
    "a_en": "<p>Yes – about an hour from Hamburg.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Bremen?",
+   "q_en": "How many days do you need in Bremen?",
+   "a": "Ein bis zwei Tage.",
+   "a_en": "One to two days."
   }
  ]
 }

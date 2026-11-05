@@ -7,8 +7,8 @@
  "city": "Budapest",
  "city_en": "Budapest",
  "updated": "2026-11-05",
- "title": "Budapest Guide: Széchenyi-Bad, Ruinenbars & Krankenhaus im Felsen",
- "title_en": "Budapest Guide: Széchenyi Baths, Ruin Bars & the Hospital in the Rock",
+ "title": "Budapest Guide: 14 Orte – Széchenyi-Bad, Ruinenbars, Krankenhaus im Felsen & Hidden Gems",
+ "title_en": "Budapest Guide: 14 places – Széchenyi Bath, ruin bars, Hospital in the Rock & hidden gems",
  "desc": "Budapest an einem Tag der Gegensätze: morgens ins Széchenyi-Bad, abends in die Ruinenbar Szimpla Kert, dazu Krankenhaus im Felsen und Flipper-Museum – von Noel.",
  "desc_en": "Budapest on a day of contrasts: Széchenyi baths in the morning, ruin bar Szimpla Kert in the evening, plus the Hospital in the Rock and pinball museum – from Noel.",
  "gyg_q": "Budapest",
@@ -38,8 +38,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Budapest erreichst du per Zug (z. B. aus Wien oder Bratislava), Flug oder Fernbus; aktuelle Verbindungen vorher prüfen.</p>",
-   "html_en": "<p>You reach Budapest by train (e.g. from Vienna or Bratislava), flight or coach; check current connections beforehand.</p>"
+   "html": "<p>Budapest erreichst du per Zug (z. B. aus Wien oder Bratislava), Flug oder Fernbus; aktuelle Verbindungen vorher prüfen.</p><p>Der Flughafen Budapest liegt rund 30 Minuten vom Zentrum entfernt; Bus 100E, Taxi und Bahn verbinden ihn mit der Stadt (Preise vorher prüfen). In der Stadt nutzt du Metro, Tram, Bus und Fähren; die Innenstadt ist gut zu Fuß erkundbar. Die Währung ist der Forint.</p><p>Tipp: Nutze offizielle Taxis oder Apps, um überhöhte Preise zu vermeiden.</p>",
+   "html_en": "<p>You reach Budapest by train (e.g. from Vienna or Bratislava), flight or coach; check current connections beforehand.</p><p>Budapest airport lies about 30 minutes from the centre; bus 100E, taxi and train connect it with the city (check prices beforehand). In the city you use metro, tram, bus and ferries; the city centre is easy to explore on foot. The currency is the forint.</p><p>Tip: use official taxis or apps to avoid inflated prices.</p>"
   },
   {
    "type": "spots",
@@ -49,12 +49,14 @@
    "spots": [
     {
      "name": "Széchenyi-Bad",
-     "text": "Morgens ins Bad. Auf Google 4,2 Sterne bei über 67.000 Bewertungen. Besucher raten zu einem Wochentag-Morgen (ruhiger), Badeschuhe und Handtuch mitzubringen.",
-     "text_en": "Into the baths in the morning. 4.2 stars on Google from over 67,000 reviews. Visitors advise a weekday morning (calmer) and bringing flip-flops and a towel.",
+     "text": "<p>Morgens ins Bad. Auf Google 4,2 Sterne bei über 67.000 Bewertungen. Besucher raten zu einem Wochentag-Morgen (ruhiger), Badeschuhe und Handtuch mitzubringen.</p><p>Das Széchenyi-Bad ist eines der größten Thermalbäder Europas mit gelber neobarocker Fassade, Außenbecken mit warmem Wasser und Saunen. Besonders schön ist es am Morgen oder im Winter, wenn Dampf über den Becken steht. Es gibt Umkleiden, Kabinen und Schließfächer.</p><p>Nimm Badekleidung, Handtuch und Badeschuhe mit. Tickets online buchen; Preise und Zeiten vorher prüfen.</p>",
+     "text_en": "<p>Into the baths in the morning. 4.2 stars on Google from over 67,000 reviews. Visitors advise a weekday morning (calmer) and bringing flip-flops and a towel.</p><p>The Széchenyi Bath is one of Europe’s largest thermal baths with a yellow neo-Baroque façade, outdoor pools with warm water and saunas. It is especially beautiful in the morning or in winter when steam rises over the pools. There are changing rooms, cabins and lockers.</p><p>Bring swimwear, a towel and bath shoes. Book tickets online; check prices and times beforehand.</p>",
      "name_en": "Széchenyi Baths",
      "q": "Széchenyi Thermal Bath Budapest",
      "hours": "laut Google ca. 7–20 Uhr (Fr bis 22 Uhr)",
-     "hours_en": "about 7 am–8 pm (Fri until 10 pm) according to Google"
+     "hours_en": "about 7 am–8 pm (Fri until 10 pm) according to Google",
+     "tip": "Komm am Wochentagmorgen und buche online.",
+     "tip_en": "Come on a weekday morning and book online."
     },
     {
      "name": "Szimpla Kert",
@@ -68,6 +70,42 @@
      "text_en": "After dark to the Danube bank when the parliament is lit up.",
      "name_en": "Parliament at night",
      "q": "Parlament bei Nacht"
+    },
+    {
+     "name": "Fischerbastei & Matthiaskirche",
+     "text": "<p>Auf dem Burgberg stehen die neoromanische Fischerbastei mit ihren Türmen und die Matthiaskirche mit farbigem Dach. Von der Terrasse blickst du über die Donau und auf das Parlament. Teile der Bastion sind frei zugänglich, andere kosten Eintritt (vorher prüfen).</p><p>Komm früh am Morgen oder bei Sonnenuntergang.</p>",
+     "text_en": "<p>On Castle Hill stand the neo-Romanesque Fisherman’s Bastion with its towers and the Matthias Church with a colourful roof. From the terrace you look over the Danube and at the Parliament. Parts of the bastion are freely accessible, others cost admission (check beforehand).</p><p>Come early in the morning or at sunset.</p>",
+     "name_en": "Fisherman’s Bastion & Matthias Church",
+     "q": "Fisherman's Bastion Budapest",
+     "tip": "Komm früh oder zum Sonnenuntergang.",
+     "tip_en": "Come early or at sunset."
+    },
+    {
+     "name": "Burgpalast & Kettenbrücke",
+     "text": "<p>Der Burgpalast ist eine große Anlage mit Museen und Gärten. Die Kettenbrücke verbindet Buda und Pest und ist abends beleuchtet. Du kannst mit der Standseilbahn hinauf oder zu Fuß gehen.</p><p>Geh über die Brücke am Abend.</p>",
+     "text_en": "<p>Buda Castle is a large complex with museums and gardens. The Chain Bridge connects Buda and Pest and is lit in the evening. You can go up by funicular or on foot.</p><p>Walk across the bridge in the evening.</p>",
+     "name_en": "Buda Castle & Chain Bridge",
+     "q": "Chain Bridge Budapest",
+     "tip": "Geh abends über die Brücke.",
+     "tip_en": "Walk across the bridge in the evening."
+    },
+    {
+     "name": "Große Markthalle",
+     "text": "<p>Die Große Markthalle ist ein Gebäude aus dem 19. Jahrhundert mit Obst, Paprika, Wurst, Gewürzen und Souvenirs. Oben gibt es ungarisches Streetfood wie Lángos, Gulasch und Kürtőskalács. Preise sind teils touristisch.</p><p>Probiere Lángos und vergleiche Preise.</p>",
+     "text_en": "<p>The Great Market Hall is a 19th-century building with fruit, paprika, sausage, spices and souvenirs. Upstairs there is Hungarian street food like lángos, goulash and kürtőskalács. Prices are partly touristy.</p><p>Try lángos and compare prices.</p>",
+     "name_en": "Great Market Hall",
+     "q": "Great Market Hall Budapest",
+     "tip": "Probiere Lángos und vergleiche Preise.",
+     "tip_en": "Try lángos and compare prices."
+    },
+    {
+     "name": "Donau-Promenade & Schuhe am Donauufer",
+     "text": "<p>Entlang der Donau auf der Pester Seite verläuft eine Promenade mit Blick auf Burg und Brücken. Das Denkmal „Schuhe am Donauufer“ erinnert an die Opfer des Holocaust. Ein ruhiger Ort zum Innehalten.</p><p>Sei respektvoll.</p>",
+     "text_en": "<p>Along the Danube on the Pest side runs a promenade with a view of the castle and bridges. The “Shoes on the Danube Bank” memorial commemorates the victims of the Holocaust. A quiet place to pause.</p><p>Be respectful.</p>",
+     "name_en": "Danube promenade & Shoes on the Danube Bank",
+     "q": "Shoes on the Danube Bank",
+     "tip": "Sei respektvoll an diesem Ort.",
+     "tip_en": "Be respectful at this place."
     }
    ]
   },
@@ -102,6 +140,45 @@
      "name_en": "Children’s railway in the forest",
      "gem": true,
      "q": "Kindereisenbahn im Wald"
+    },
+    {
+     "name": "Gellértberg & Zitadelle",
+     "text": "<p>Der Gellértberg bietet einen der besten Blicke über die Stadt. Oben stehen die Zitadelle und die Freiheitsstatue. Du kannst zu Fuß hinaufgehen (rund 20 bis 30 Minuten) und bei Sonnenuntergang oben sein.</p><p>Nimm Wasser mit.</p>",
+     "text_en": "<p>Gellért Hill offers one of the best views over the city. At the top stand the Citadella and the Liberty Statue. You can walk up (about 20 to 30 minutes) and be at the top at sunset.</p><p>Take water.</p>",
+     "name_en": "Gellért Hill & Citadella",
+     "gem": true,
+     "q": "Gellert Hill Budapest",
+     "tip": "Geh zum Sonnenuntergang hinauf.",
+     "tip_en": "Go up at sunset."
+    },
+    {
+     "name": "Jüdisches Viertel & Große Synagoge",
+     "text": "<p>Im Jüdischen Viertel liegt die Große Synagoge, die größte Europas, daneben Gedenkstätten, Cafés und Ruinenbars. Es ist ein Viertel mit Geschichte und Nachtleben. Zeiten und Preise der Synagoge vorher prüfen.</p><p>Geh tagsüber zur Synagoge und abends in die Bars.</p>",
+     "text_en": "<p>In the Jewish Quarter lies the Great Synagogue, the largest in Europe, next to memorials, cafés and ruin bars. It is a district with history and nightlife. Check times and prices of the synagogue beforehand.</p><p>Go to the synagogue by day and to the bars in the evening.</p>",
+     "name_en": "Jewish Quarter & Great Synagogue",
+     "gem": true,
+     "q": "Dohany Street Synagogue",
+     "tip": "Geh tagsüber zur Synagoge.",
+     "tip_en": "Go to the synagogue by day."
+    },
+    {
+     "name": "Thermalbad Gellért & Rudas",
+     "text": "<p>Neben dem Széchenyi-Bad gibt es das Gellért-Bad im Jugendstil und das Rudas-Bad mit türkischen Kuppeln und einer Dachterrasse mit Blick auf die Donau. Preise und Regeln (zum Beispiel getrennte Tage) vorher prüfen.</p><p>Ein Thermalbad ist eine gute Pause nach einem Sightseeing-Tag.</p>",
+     "text_en": "<p>Besides the Széchenyi Bath there is the Gellért Bath in Art Nouveau style and the Rudas Bath with Turkish domes and a roof terrace overlooking the Danube. Check prices and rules (for example separate days) beforehand.</p><p>A thermal bath is a good break after a sightseeing day.</p>",
+     "name_en": "Gellért & Rudas thermal baths",
+     "gem": true,
+     "q": "Rudas Baths Budapest",
+     "tip": "Prüfe vorher Regeln und Preise.",
+     "tip_en": "Check rules and prices beforehand."
+    },
+    {
+     "name": "Ungarische Küche: Gulasch, Lángos & Kürtőskalács",
+     "text": "<p>Probiere Gulaschsuppe, Paprikahuhn, Lángos (frittiertes Fladenbrot mit Knoblauch und Käse), Kürtőskalács (Baumstriezel) und Dobos-Torte. Dazu passen Weine wie Tokajer oder Egri Bikavér.</p><p>Preise ändern sich; frag vorher.</p>",
+     "text_en": "<p>Try goulash soup, chicken paprikash, lángos (fried flatbread with garlic and cheese), kürtőskalács (chimney cake) and Dobos cake. Wines like Tokaji or Egri Bikavér go with it.</p><p>Prices change; ask beforehand.</p>",
+     "name_en": "Hungarian cuisine: goulash, lángos & kürtőskalács",
+     "q": "Hungarian goulash Budapest",
+     "tip": "Probiere Gulasch und Lángos.",
+     "tip_en": "Try goulash and lángos."
     }
    ]
   },
@@ -117,17 +194,21 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag der Gegensätze",
-   "h_en": "A day of contrasts",
+   "h": "Zwei Tage in Budapest",
+   "h_en": "Two days in Budapest",
    "items": [
     "<strong>Morgens</strong> – Széchenyi-Bad",
-    "<strong>Nachmittag</strong> – Krankenhaus im Felsen oder Flipper-Museum",
-    "<strong>Abend</strong> – Donauufer, dann Szimpla Kert"
+    "<strong>Mittag</strong> – Große Markthalle, Lángos",
+    "<strong>Nachmittag</strong> – Burgberg, Fischerbastei",
+    "<strong>Abend</strong> – Parlament bei Nacht, Szimpla Kert",
+    "<strong>Tag 2</strong> – Krankenhaus im Felsen, Gellértberg, Flipper-Museum"
    ],
    "items_en": [
-    "<strong>Morning</strong> – Széchenyi baths",
-    "<strong>Afternoon</strong> – Hospital in the Rock or pinball museum",
-    "<strong>Evening</strong> – Danube bank, then Szimpla Kert"
+    "<strong>Morning</strong> – Széchenyi Bath",
+    "<strong>Midday</strong> – Great Market Hall, lángos",
+    "<strong>Afternoon</strong> – Castle Hill, Fisherman’s Bastion",
+    "<strong>Evening</strong> – Parliament at night, Szimpla Kert",
+    "<strong>Day 2</strong> – Hospital in the Rock, Gellért Hill, Pinball Museum"
    ]
   }
  ],
@@ -137,6 +218,12 @@
    "q_en": "How many days in Budapest?",
    "a": "<p>Zwei bis drei.</p>",
    "a_en": "<p>Two to three.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Budapest?",
+   "q_en": "How many days do you need in Budapest?",
+   "a": "Zwei bis drei Tage.",
+   "a_en": "Two to three days."
   }
  ]
 }

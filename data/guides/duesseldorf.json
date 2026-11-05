@@ -7,8 +7,8 @@
  "city": "Düsseldorf",
  "city_en": "Düsseldorf",
  "updated": "2026-11-05",
- "title": "Düsseldorf Guide: Flingern, Little Tokyo, Japan-Tag & Rheinturm",
- "title_en": "Düsseldorf Guide: Flingern, Little Tokyo, Japan Day & Rhine Tower",
+ "title": "Düsseldorf Guide: 12 Orte – Flingern, Little Tokyo, Rheinturm, Altbier & Hidden Gems",
+ "title_en": "Düsseldorf Guide: 12 places – Flingern, Little Tokyo, Rhine Tower, Altbier & hidden gems",
  "desc": "Düsseldorf mehr als Kö und Altstadt: Radschläger, Rheinturm als Uhr, Little Tokyo, Japan-Tag am Rhein, Altbier mit dem Köbes und mein Lieblingsviertel Flingern – von Noel.",
  "desc_en": "Düsseldorf more than Kö and old town: wheel-turners, the Rhine Tower as a clock, Little Tokyo, Japan Day on the Rhine, altbier with the Köbes and my favourite district Flingern – from Noel.",
  "gyg_q": "Düsseldorf",
@@ -47,8 +47,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Düsseldorf hat einen Flughafen und einen großen Hauptbahnhof; im Stadtgebiet fahren U-Bahn, Tram und Bus. Die Altstadt läufst du.</p>",
-   "html_en": "<p>Düsseldorf has an airport and a large central station; within the city run subway, tram and bus. You walk the old town.</p>"
+   "html": "<p>Düsseldorf hat einen Flughafen und einen großen Hauptbahnhof; im Stadtgebiet fahren U-Bahn, Tram und Bus. Die Altstadt läufst du.</p><p>Düsseldorf liegt zentral im Rheinland: Der Hauptbahnhof ist Knotenpunkt für ICE und Regionalzüge, der Flughafen liegt nördlich der Stadt. Die Altstadt erreichst du zu Fuß oder mit Straßenbahn und U-Bahn. Fahrpläne vorher prüfen.</p><p>Rad und zu Fuß sind in der Innenstadt oft am einfachsten.</p>",
+   "html_en": "<p>Düsseldorf has an airport and a large central station; within the city run subway, tram and bus. You walk the old town.</p><p>Düsseldorf lies centrally in the Rhineland: the main station is a hub for ICE and regional trains, the airport lies north of the city. You reach the old town on foot or by tram and U-Bahn. Check timetables beforehand.</p><p>Bike and walking are often easiest in the city centre.</p>"
   },
   {
    "type": "spots",
@@ -87,6 +87,33 @@
      "text_en": "In the old town’s brewery pubs the Köbes serves you – a waiter with a blue apron and a loose tongue. He puts down a new alt unasked; a beer mat on the glass ends the game.",
      "name_en": "Altbier and the Köbes",
      "q": "Altbier und der Köbes"
+    },
+    {
+     "name": "Altstadt & „längste Theke der Welt“",
+     "text": "<p>Die Düsseldorfer Altstadt ist bekannt als „längste Theke der Welt“: Hunderte Kneipen und Brauhäuser auf engem Raum. Hier trinkst du das Altbier, ein dunkles obergäriges Bier, in traditionellen Häusern wie Uerige oder Schumacher. Die Gassen sind abends voll.</p><p>Trinke langsam und genieße die Atmosphäre.</p>",
+     "text_en": "<p>Düsseldorf’s old town is known as the “longest bar in the world”: hundreds of pubs and brewhouses in a small space. Here you drink Altbier, a dark top-fermented beer, in traditional houses like Uerige or Schumacher. The lanes are full in the evening.</p><p>Drink slowly and enjoy the atmosphere.</p>",
+     "name_en": "Old Town & “longest bar in the world”",
+     "q": "Altstadt Düsseldorf",
+     "tip": "Probiere Altbier in einem traditionellen Brauhaus.",
+     "tip_en": "Try Altbier in a traditional brewhouse."
+    },
+    {
+     "name": "Rheinuferpromenade & MedienHafen",
+     "text": "<p>Die Rheinuferpromenade ist die Flaniermeile am Fluss mit Blick auf Brücken und Schiffe. Der MedienHafen bietet moderne Architektur, darunter die geschwungenen Gehry-Bauten, Restaurants und Bars. Ein Spaziergang führt in rund 30 Minuten dorthin.</p><p>Komm am späten Nachmittag und bleib zum Abend.</p>",
+     "text_en": "<p>The Rhine promenade is the strolling mile on the river with a view of bridges and ships. The MedienHafen offers modern architecture, including the curved Gehry buildings, restaurants and bars. A walk leads there in about 30 minutes.</p><p>Come in the late afternoon and stay until evening.</p>",
+     "name_en": "Rhine promenade & MedienHafen",
+     "q": "MedienHafen Düsseldorf",
+     "tip": "Komm am späten Nachmittag.",
+     "tip_en": "Come in the late afternoon."
+    },
+    {
+     "name": "Königsallee („Kö“)",
+     "text": "<p>Die Königsallee ist die bekannte Einkaufsstraße mit Luxusläden und einem Stadtgraben mit Brücken. Auch ohne Shopping lohnt sich ein Spaziergang. Am Ende liegt der Hofgarten.</p><p>Spaziere vom Hofgarten bis zur Altstadt.</p>",
+     "text_en": "<p>The Königsallee is the well-known shopping street with luxury shops and a city moat with bridges. Even without shopping a walk is worthwhile. At the end lies the Hofgarten.</p><p>Stroll from the Hofgarten to the old town.</p>",
+     "name_en": "Königsallee (“Kö”)",
+     "q": "Königsallee Düsseldorf",
+     "tip": "Spaziere bis zum Hofgarten.",
+     "tip_en": "Stroll to the Hofgarten."
     }
    ]
   },
@@ -117,6 +144,35 @@
      "q": "EKŌ-Haus Düsseldorf",
      "hours": "laut Google Di–Sa ca. 13–17 Uhr",
      "hours_en": "Tue–Sat about 1–5 pm according to Google"
+    },
+    {
+     "name": "Carlsplatz & Markt",
+     "text": "<p>Der Carlsplatz ist ein Marktplatz in der Altstadt mit Ständen für Obst, Gemüse, Feinkost und Blumen. Cafés und Imbisse machen ihn zu einem guten Ort für eine Pause (Markttage vorher prüfen).</p><p>Komm am Vormittag.</p>",
+     "text_en": "<p>Carlsplatz is a market square in the old town with stalls for fruit, vegetables, delicacies and flowers. Cafés and snack bars make it a good place for a break (check market days beforehand).</p><p>Come in the morning.</p>",
+     "name_en": "Carlsplatz & market",
+     "gem": true,
+     "q": "Carlsplatz Düsseldorf",
+     "tip": "Komm am Vormittag.",
+     "tip_en": "Come in the morning."
+    },
+    {
+     "name": "Hofgarten & Schloss Benrath",
+     "text": "<p>Der Hofgarten ist Deutschlands älteste öffentliche Parkanlage im Zentrum. Das Schloss Benrath im Süden ist ein Rokoko-Schloss mit Park und Teich, erreichbar mit Bahn oder Tram (Öffnungszeiten vorher prüfen).</p><p>Verbinde Park und Schloss zu einem halben Tag.</p>",
+     "text_en": "<p>The Hofgarten is Germany’s oldest public park in the centre. Benrath Palace in the south is a Rococo palace with park and pond, reachable by train or tram (check opening times beforehand).</p><p>Combine park and palace into half a day.</p>",
+     "name_en": "Hofgarten & Benrath Palace",
+     "gem": true,
+     "q": "Schloss Benrath",
+     "tip": "Plane einen halben Tag für das Schloss ein.",
+     "tip_en": "Plan half a day for the palace."
+    },
+    {
+     "name": "Japanische Küche: Ramen, Sushi & Konditorei",
+     "text": "<p>Rund um die Immermannstraße findest du Ramen-Läden, Sushi-Restaurants, Bäckereien und Supermärkte. Probiere Ramen, Onigiri und japanisches Gebäck. Preise ändern sich; frag vorher.</p><p>Komm mittags für Mittagsmenüs.</p>",
+     "text_en": "<p>Around Immermannstraße you find ramen shops, sushi restaurants, bakeries and supermarkets. Try ramen, onigiri and Japanese pastries. Prices change; ask beforehand.</p><p>Come at lunch for lunch menus.</p>",
+     "name_en": "Japanese cuisine: ramen, sushi & bakeries",
+     "q": "Little Tokyo Düsseldorf ramen",
+     "tip": "Komm mittags für Mittagsmenüs.",
+     "tip_en": "Come at lunch for lunch menus."
     }
    ]
   },
@@ -133,18 +189,18 @@
  "itinerary": [
   {
    "h": "Ein Tag in Düsseldorf",
-   "h_en": "One day in Düsseldorf",
+   "h_en": "A day in Düsseldorf",
    "items": [
-    "<strong>Vormittag</strong> – Rheinufer, Rheinturm",
-    "<strong>Mittag</strong> – Immermannstraße (Ramen)",
-    "<strong>Nachmittag</strong> – Flingern, Café Hüftgold",
-    "<strong>Abend</strong> – Altbier mit dem Köbes"
+    "<strong>Vormittag</strong> – Altstadt, Carlsplatz",
+    "<strong>Mittag</strong> – Little Tokyo",
+    "<strong>Nachmittag</strong> – Rheinuferpromenade, MedienHafen, Rheinturm",
+    "<strong>Abend</strong> – Altbier in der Altstadt"
    ],
    "items_en": [
-    "<strong>Morning</strong> – Rhine bank, Rhine Tower",
-    "<strong>Midday</strong> – Immermannstraße (ramen)",
-    "<strong>Afternoon</strong> – Flingern, Café Hüftgold",
-    "<strong>Evening</strong> – altbier with the Köbes"
+    "<strong>Morning</strong> – old town, Carlsplatz",
+    "<strong>Midday</strong> – Little Tokyo",
+    "<strong>Afternoon</strong> – Rhine promenade, MedienHafen, Rhine Tower",
+    "<strong>Evening</strong> – Altbier in the old town"
    ]
   }
  ],
@@ -154,6 +210,12 @@
    "q_en": "When is Japan Day?",
    "a": "<p>Im Mai, mit Feuerwerk über dem Rhein; Datum vorab prüfen.</p>",
    "a_en": "<p>In May, with fireworks over the Rhine; check the date beforehand.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Düsseldorf?",
+   "q_en": "How many days do you need in Düsseldorf?",
+   "a": "Ein bis zwei Tage.",
+   "a_en": "One to two days."
   }
  ]
 }

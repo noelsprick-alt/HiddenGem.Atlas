@@ -7,8 +7,8 @@
  "city": "Berlin",
  "city_en": "Berlin",
  "updated": "2026-11-05",
- "title": "Berlin Guide: Mauerpark, Markthalle Neun, Tempelhofer Feld & Teufelsberg",
- "title_en": "Berlin Guide: Mauerpark, Markthalle Neun, Tempelhofer Feld & Teufelsberg",
+ "title": "Berlin Guide: 14 Orte – Mauerpark, Markthalle Neun, Teufelsberg, East Side Gallery & Hidden Gems",
+ "title_en": "Berlin Guide: 14 places – Mauerpark, Markthalle Neun, Teufelsberg, East Side Gallery & hidden gems",
  "desc": "Berlin ist unfertig – und will es bleiben: Mauerpark-Karaoke, Markthalle Neun, RAW-Gelände, Tempelhofer Feld und Teufelsberg – von Noel.",
  "desc_en": "Berlin is unfinished – and wants to stay so: Mauerpark karaoke, Markthalle Neun, RAW site, Tempelhofer Feld and Teufelsberg – from Noel.",
  "gyg_q": "Berlin",
@@ -38,8 +38,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Berlin erreichst du per ICE, Flug (BER) oder Fernbus. In der Stadt: S-Bahn, U-Bahn, Tram und Fahrrad.</p>",
-   "html_en": "<p>You reach Berlin by ICE, flight (BER) or coach. In the city: S-Bahn, U-Bahn, tram and bicycle.</p>"
+   "html": "<p>Berlin erreichst du per ICE, Flug (BER) oder Fernbus. In der Stadt: S-Bahn, U-Bahn, Tram und Fahrrad.</p><p>Der Flughafen BER ist per Flughafenexpress und S-Bahn mit dem Zentrum verbunden; der Hauptbahnhof liegt mitten im Regierungsviertel. In der Stadt nutzt du S-Bahn, U-Bahn, Tram und Bus (Ticketzonen A/B/C beachten). Fahrpläne und Tarife vorher prüfen.</p><p>Berlin ist groß; plane die Wege realistisch.</p>",
+   "html_en": "<p>You reach Berlin by ICE, flight (BER) or coach. In the city: S-Bahn, U-Bahn, tram and bicycle.</p><p>BER airport is connected to the centre by airport express and S-Bahn; the main station lies in the middle of the government district. In the city you use S-Bahn, U-Bahn, tram and bus (note ticket zones A/B/C). Check timetables and fares beforehand.</p><p>Berlin is big; plan distances realistically.</p>"
   },
   {
    "type": "spots",
@@ -76,6 +76,51 @@
      "text_en": "In the evening around the RAW site.",
      "name_en": "Friedrichshain & RAW site",
      "q": "Friedrichshain & RAW-Gelände"
+    },
+    {
+     "name": "Brandenburger Tor & Reichstag",
+     "text": "<p>Das Brandenburger Tor ist das Wahrzeichen Berlins und ein Symbol der deutschen Teilung und Einheit. Ganz in der Nähe steht das Reichstagsgebäude mit der Glaskuppel, die du nach Anmeldung besuchen kannst (Anmeldung online vorher nötig). Der Blick von oben auf das Regierungsviertel lohnt sich.</p><p>Plane den Reichstagsbesuch im Voraus. Zeiten und Regeln vorher prüfen.</p>",
+     "text_en": "<p>The Brandenburg Gate is Berlin’s landmark and a symbol of German division and unity. Very close stands the Reichstag building with its glass dome, which you can visit after registration (online registration needed beforehand). The view from above over the government district is worthwhile.</p><p>Plan the Reichstag visit in advance. Check times and rules beforehand.</p>",
+     "name_en": "Brandenburg Gate & Reichstag",
+     "q": "Brandenburger Tor Berlin",
+     "tip": "Melde dich vorher für die Kuppel an.",
+     "tip_en": "Register beforehand for the dome."
+    },
+    {
+     "name": "East Side Gallery",
+     "text": "<p>Die East Side Gallery ist ein rund 1,3 Kilometer langer Rest der Berliner Mauer, bemalt von Künstlern aus aller Welt. Das berühmte Bild des Bruderkusses ist hier zu sehen. Die Wand ist frei zugänglich. Komm früh, um Gruppen zu meiden.</p><p>Respektiere die Kunstwerke und schreibe nicht darauf.</p>",
+     "text_en": "<p>The East Side Gallery is a roughly 1.3-kilometre remnant of the Berlin Wall painted by artists from around the world. The famous brotherly-kiss painting can be seen here. The wall is freely accessible. Come early to avoid groups.</p><p>Respect the artworks and do not write on them.</p>",
+     "name_en": "East Side Gallery",
+     "q": "East Side Gallery Berlin",
+     "tip": "Komm früh am Morgen.",
+     "tip_en": "Come early in the morning."
+    },
+    {
+     "name": "Gedenkstätte Berliner Mauer",
+     "text": "<p>An der Bernauer Straße liegt die Gedenkstätte mit erhaltenem Mauerstreifen, Aussichtsturm und Dokumentationszentrum. Hier erfährst du, wie die Teilung Familien trennte und welche Fluchtversuche es gab. Der Besuch ist kostenlos.</p><p>Plane ein bis zwei Stunden ein.</p>",
+     "text_en": "<p>On Bernauer Straße lies the memorial with a preserved wall strip, viewing tower and documentation centre. Here you learn how the division separated families and what escape attempts there were. The visit is free.</p><p>Plan one to two hours.</p>",
+     "name_en": "Berlin Wall Memorial",
+     "q": "Berlin Wall Memorial Bernauer Strasse",
+     "tip": "Plane ein bis zwei Stunden ein.",
+     "tip_en": "Plan one to two hours."
+    },
+    {
+     "name": "Museumsinsel",
+     "text": "<p>Die Museumsinsel ist UNESCO-Welterbe mit mehreren Museen, darunter das Pergamonmuseum (wegen Sanierung teilweise geschlossen – aktuellen Stand vorher prüfen), das Neue Museum mit der Büste der Nofretete und die Alte Nationalgalerie. Rund um die Insel liegen Dom und Spree.</p><p>Wähle ein oder zwei Museen aus. Tickets online buchen.</p>",
+     "text_en": "<p>Museum Island is a UNESCO World Heritage site with several museums, including the Pergamon Museum (partly closed for renovation – check the current status beforehand), the Neues Museum with the bust of Nefertiti and the Alte Nationalgalerie. Around the island lie the cathedral and the Spree.</p><p>Choose one or two museums. Book tickets online.</p>",
+     "name_en": "Museum Island",
+     "q": "Museumsinsel Berlin",
+     "tip": "Wähle ein bis zwei Museen und buche online.",
+     "tip_en": "Choose one or two museums and book online."
+    },
+    {
+     "name": "Currywurst, Döner & Berliner Küche",
+     "text": "<p>Berlin hat eigene Klassiker: Currywurst mit Pommes, den Döner (in Berlin erfunden, so die Überlieferung), Berliner Pfannkuchen und Buletten. In Märkten wie der Markthalle Neun gibt es Streetfood aus aller Welt. Preise ändern sich; frag vorher.</p><p>Probiere beides und frag Einheimische nach Empfehlungen.</p>",
+     "text_en": "<p>Berlin has its own classics: currywurst with fries, döner (according to tradition invented in Berlin), Berliner pancakes and meatballs. At markets like the Markthalle Neun there is street food from all over the world. Prices change; ask beforehand.</p><p>Try both and ask locals for recommendations.</p>",
+     "name_en": "Currywurst, döner & Berlin cuisine",
+     "q": "Currywurst Berlin",
+     "tip": "Probiere Currywurst und Döner im Vergleich.",
+     "tip_en": "Compare currywurst and döner."
     }
    ]
   },
@@ -100,6 +145,36 @@
      "name_en": "Spreepark & pool in the Spree",
      "gem": true,
      "q": "Spreepark & Pool in der Spree"
+    },
+    {
+     "name": "Kreuzberg & Neukölln – Kieze entdecken",
+     "text": "<p>Kreuzberg und Neukölln sind multikulturelle Viertel mit Cafés, Bars, Märkten und Streetart. Der Türkische Markt am Maybachufer (Di und Fr) ist ein Highlight (Zeiten vorher prüfen). Die Gegend ist lebendig, abends voll und manchmal laut.</p><p>Gehe am Nachmittag los und lass dich treiben.</p>",
+     "text_en": "<p>Kreuzberg and Neukölln are multicultural districts with cafés, bars, markets and street art. The Turkish Market on Maybachufer (Tue and Fri) is a highlight (check times beforehand). The area is lively, full in the evening and sometimes loud.</p><p>Set off in the afternoon and drift.</p>",
+     "name_en": "Kreuzberg & Neukölln – exploring the Kieze",
+     "gem": true,
+     "q": "Turkish Market Maybachufer Berlin",
+     "tip": "Komm zum Markt am Maybachufer.",
+     "tip_en": "Come to the Maybachufer market."
+    },
+    {
+     "name": "Berliner Clubszene & Berghain-Kultur",
+     "text": "<p>Berlin ist für sein Nachtleben berühmt; viele Clubs haben strenge Türpolitik und Foto-Regeln. Wenn du feiern willst, informiere dich vorher über Stil und Regeln des Clubs. Es gibt auch Bars und Livemusik ohne strenge Tür.</p><p>Sei respektvoll, bring Bargeld mit und plane flexibel.</p>",
+     "text_en": "<p>Berlin is famous for its nightlife; many clubs have strict door policies and photo rules. If you want to party, find out beforehand about the club’s style and rules. There are also bars and live music without a strict door.</p><p>Be respectful, bring cash and plan flexibly.</p>",
+     "name_en": "Berlin club scene",
+     "gem": true,
+     "q": "Berlin club scene",
+     "tip": "Informiere dich vorher über Regeln und sei respektvoll.",
+     "tip_en": "Find out the rules beforehand and be respectful."
+    },
+    {
+     "name": "Tiergarten & Siegessäule",
+     "text": "<p>Der Tiergarten ist der große Stadtpark im Zentrum. Mitten im Park steht die Siegessäule, auf die du steigen kannst. Wege führen durch Wiesen und Wälder; ein Spaziergang ist eine gute Pause.</p><p>Verbinde den Besuch mit Brandenburger Tor und Reichstag.</p>",
+     "text_en": "<p>The Tiergarten is the large city park in the centre. In the middle of the park stands the Victory Column, which you can climb. Paths lead through meadows and woods; a walk is a good break.</p><p>Combine the visit with the Brandenburg Gate and Reichstag.</p>",
+     "name_en": "Tiergarten & Victory Column",
+     "gem": true,
+     "q": "Siegessäule Berlin",
+     "tip": "Steig auf die Siegessäule.",
+     "tip_en": "Climb the Victory Column."
     }
    ]
   },
@@ -115,19 +190,19 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Berlin",
-   "h_en": "One day in Berlin",
+   "h": "Zwei Tage in Berlin",
+   "h_en": "Two days in Berlin",
    "items": [
-    "<strong>Vormittag</strong> – Mauerpark (sonntags)",
-    "<strong>Mittag</strong> – Markthalle Neun",
-    "<strong>Nachmittag</strong> – Tempelhofer Feld oder Teufelsberg",
-    "<strong>Abend</strong> – RAW-Gelände"
+    "<strong>Tag 1</strong> – Brandenburger Tor, Reichstag, Museumsinsel, Gedenkstätte Berliner Mauer",
+    "<strong>Tag 2</strong> – East Side Gallery, Markthalle Neun, Kreuzberg",
+    "<strong>Sonntag</strong> – Mauerpark, Tempelhofer Feld",
+    "<strong>Abend</strong> – RAW-Gelände oder Bars"
    ],
    "items_en": [
-    "<strong>Morning</strong> – Mauerpark (Sundays)",
-    "<strong>Midday</strong> – Markthalle Neun",
-    "<strong>Afternoon</strong> – Tempelhofer Feld or Teufelsberg",
-    "<strong>Evening</strong> – RAW site"
+    "<strong>Day 1</strong> – Brandenburg Gate, Reichstag, Museum Island, Berlin Wall Memorial",
+    "<strong>Day 2</strong> – East Side Gallery, Markthalle Neun, Kreuzberg",
+    "<strong>Sunday</strong> – Mauerpark, Tempelhofer Feld",
+    "<strong>Evening</strong> – RAW site or bars"
    ]
   }
  ],
@@ -137,6 +212,12 @@
    "q_en": "When is Mauerpark best?",
    "a": "<p>Sonntags – Flohmarkt und Karaoke.</p>",
    "a_en": "<p>On Sundays – flea market and karaoke.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Berlin?",
+   "q_en": "How many days do you need in Berlin?",
+   "a": "Drei bis vier Tage.",
+   "a_en": "Three to four days."
   }
  ]
 }

@@ -1,47 +1,221 @@
 {
-  "slug": "bled", "slug_en": "bled", "status": "live", "blog": "blog-bc-4",
-  "cc": "SI", "flag": "🇸🇮", "city": "Bled", "city_en": "Bled", "updated": "2026-11-05",
-  "title": "Bled Guide: See im Morgennebel, Ojstrica & Vintgar-Klamm",
-  "title_en": "Bled Guide: Lake in the Morning Mist, Ojstrica & Vintgar Gorge",
-  "desc": "Bleder See ohne Reisebusse: früh aufstehen, Ojstrica-Aussicht, Vintgar-Klamm, Bleder Cremeschnitte, Burg und Pletna – von Noel (2024), mit Anreise und Tagesplan.",
-  "desc_en": "Lake Bled without the tour buses: get up early, Ojstrica viewpoint, Vintgar Gorge, Bled cream cake, castle and pletna – from Noel (2024), with getting there and a day plan.",
-  "gyg_q": "Lake Bled",
-  "intro": "<p>Der Bleder See ist das Postkartenmotiv Sloweniens: Insel, Kirche, Burg auf dem Felsen. Tagsüber teilst du ihn mit Reisebussen. Dieser Guide zeigt dir, wie du ihn trotzdem für dich hast und was du in der Umgebung nicht verpassen solltest.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026) – Eintritte vorab online prüfen.</p>",
-  "intro_en": "<p>Lake Bled is Slovenia’s postcard motif: island, church, castle on the rock. By day you share it with tour buses. This guide shows how to have it to yourself anyway and what not to miss around it.</p><p>Prices and times are guidelines (2026) – check admissions online beforehand.</p>",
-  "story": "<p>Ich war 2024 in Slowenien, und mein Hidden Gem in Bled ist kein Ort, sondern eine Uhrzeit: der See im Morgennebel. Vor den ersten Bussen ist es still, nur ein paar Angler und das Wasser. Danach bin ich hoch zum Aussichtspunkt Ojstrica gelaufen – und habe erst dann gefrühstückt.</p>",
-  "story_en": "<p>I was in Slovenia in 2024, and my hidden gem in Bled is not a place but a time of day: the lake in the morning mist. Before the first buses it is quiet, just a few anglers and the water. Then I walked up to the Ojstrica viewpoint – and only then had breakfast.</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"1–2 Tage","v_en":"1–2 days"},
-    {"k":"Beste Reisezeit","k_en":"Best time","v":"Mai–Oktober; Vintgar-Klamm nur in der Saison","v_en":"May–October; Vintgar Gorge only in season"},
-    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
-    {"k":"Hidden Gem","k_en":"Hidden gem","v":"Der See im Morgennebel vor den ersten Bussen","v_en":"The lake in the morning mist before the first buses"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Bled","h_en":"Getting to Bled","box":"omio",
-     "html":"<p>Bled liegt etwa 55 km nordwestlich von Ljubljana. Von Ljubljana fahren Busse (rund eine Stunde) und Züge nach Lesce-Bled mit Weiterfahrt per Bus; Fahrpläne vorher prüfen. Mit dem Auto geht es in etwa einer Stunde, Parkplätze am See sind im Sommer knapp. Ein Tagesausflug ab Ljubljana ist machbar, mit Übernachtung bekommst du die Morgenstille.</p>",
-     "html_en":"<p>Bled lies about 55 km north-west of Ljubljana. Buses (around an hour) and trains to Lesce-Bled with a bus onward run from Ljubljana; check timetables beforehand. By car it takes about an hour, parking at the lake is scarce in summer. A day trip from Ljubljana is doable, but staying overnight gets you the morning stillness.</p>"},
-    {"type":"spots","id":"see","h":"Am See & darüber","h_en":"At the lake & above it",
-     "spots":[
-      {"name":"Der See im Morgennebel","name_en":"The lake in the morning mist","gem":true,"q":"Lake Bled","text":"<p>Vor den ersten Reisebussen gehört der See dir allein – nur ein paar Angler und das Wasser. Also früh aufstehen. Die Insel im Bleder See ist übrigens die einzige natürliche Insel Sloweniens.</p>","text_en":"<p>Before the first tour buses the lake is all yours – just a few anglers and the water. So get up early. The island in Lake Bled is, by the way, the only natural island in Slovenia.</p>","tip":"Ein Spaziergang um den See dauert etwa 1,5 bis 2 Stunden. Die Pletna-Ruderer bringen dich zur Insel; sie haben ihr Privileg der Legende nach von Kaiserin Maria Theresia.","tip_en":"A walk around the lake takes about 1.5 to 2 hours. The pletna rowers take you to the island; according to legend they got their privilege from Empress Maria Theresa."},
-      {"name":"Ojstrica-Aussichtspunkt","name_en":"Ojstrica viewpoint","gem":true,"q":"Ojstrica Viewpoint Bled","text":"<p>Danach bin ich hoch zum Aussichtspunkt Ojstrica gelaufen. Besucher beschreiben den Aufstieg vom See als rund 30 Minuten und steil, die letzten Meter über Fels. Auf Google 4,8 Sterne.</p>","text_en":"<p>After that I walked up to the Ojstrica viewpoint. Visitors describe the climb from the lake as about 30 minutes and steep, the last stretch over rock. 4.8 stars on Google.</p>","tip":"Feste Schuhe – nach Regen rutschig. Früh am Morgen ist es leerer.","tip_en":"Sturdy shoes – slippery after rain. It is emptier early in the morning."},
-      {"name":"Burg Bled","name_en":"Bled Castle","q":"Bled Castle","text":"<p>Die Burg wurde schon im Jahr 1004 erwähnt und gilt als älteste Burg Sloweniens. Auf Google 4,4 Sterne. Der Eintritt ist laut Besuchern recht hoch (ein Besucher nennt 28 €), der Blick vom Hof aber der klassische Postkartenblick.</p>","text_en":"<p>The castle was already mentioned in 1004 and is considered the oldest in Slovenia. 4.4 stars on Google. According to visitors admission is fairly high (one visitor names €28), but the view from the courtyard is the classic postcard view.</p>","hours":"laut Google täglich ca. 8–18 Uhr","hours_en":"daily about 8 am–6 pm according to Google","tip":"Gegen 10 Uhr ist es noch ruhiger als zur Mittagszeit.","tip_en":"Around 10 am it is calmer than at midday."}
-     ]},
-    {"type":"spots","id":"umgebung","h":"Umgebung & Essen","h_en":"Surroundings & food",
-     "spots":[
-      {"name":"Vintgar-Klamm","name_en":"Vintgar Gorge","q":"Soteska Vintgar","text":"<p>Holzstege über türkisfarbenem Wasser, Wasserfälle und Felswände. Auf Google 4,5 Sterne bei über 24.000 Bewertungen. Die Route ist rund 5–6 km lang. Besucher raten, Tickets vorab online für ein Zeitfenster zu buchen und für den Shuttle vom Parkplatz zum Eingang 15–20 Minuten extra einzuplanen.</p>","text_en":"<p>Wooden walkways above turquoise water, waterfalls and rock walls. 4.5 stars on Google from over 24,000 reviews. The route is roughly 5–6 km long. Visitors advise booking tickets online in advance for a time slot and allowing an extra 15–20 minutes for the shuttle from the car park to the entrance.</p>"},
-      {"name":"Bleder Cremeschnitte","name_en":"Bled cream cake","q":"Kavarna Park Bled","text":"<p>Die Bleder Cremeschnitte (Kremšnita) wird seit 1953 nach demselben Rezept gebacken. Im Café Park am See gibt es sie mit Seeblick; auf Google hat Kavarna Park 4,1 Sterne, Gäste loben vor allem den Kuchen.</p>","text_en":"<p>The Bled cream cake (kremšnita) has been baked to the same recipe since 1953. At Café Park by the lake you get it with a lake view; Kavarna Park has 4.1 stars on Google, guests mainly praise the cake.</p>","tip":"Der Preis fürs Café am See ist gehoben – ein Stück Kuchen reicht für den Blick.","tip_en":"Prices at the lakeside café are upscale – one slice is enough for the view."},
-      {"name":"Russische Kapelle am Vršič & Burg Predjama","name_en":"Russian Chapel at Vršič & Predjama Castle","q":"Predjama Castle","text":"<p>Auf meiner Karte findest du außerdem die Russische Kapelle am Vršič-Pass und Burg Predjama, die in eine Felswand gebaut wurde. Beide lassen sich als Ausflug mit dem Auto kombinieren.</p>","text_en":"<p>On my map you will also find the Russian Chapel on the Vršič Pass and Predjama Castle, which was built into a rock wall. Both can be combined as a trip by car.</p>"}
-     ]},
-    {"type":"prose","id":"wissen","h":"Was Slowenien ausmacht","h_en":"What makes Slovenia special","box":"gyg",
-     "html":"<p>Mehr als die Hälfte des Landes ist Wald, und Slowenien ist das einzige Land mit „love“ im Namen. Zwischen Alpen, Karsthöhlen und Adria liegen oft nur zwei Stunden Fahrt. Jugoslawiens Staatschef Tito ließ sich am Bleder Ufer eine Sommervilla bauen. 1991 wurde Slowenien nach einem Zehn-Tage-Krieg unabhängig.</p>",
-     "html_en":"<p>More than half the country is forest, and Slovenia is the only country with “love” in its name. Between Alps, karst caves and Adriatic it is often only two hours’ drive. Yugoslavia’s leader Tito had a summer villa built on the shore at Bled. In 1991 Slovenia became independent after a Ten-Day War.</p>"}
-  ],
-  "itinerary":[
-   {"h":"Ein Tag in Bled","h_en":"One day in Bled","items":["<strong>Früh</strong> – See im Morgennebel, Spaziergang","<strong>Vormittag</strong> – Ojstrica, danach Frühstück","<strong>Mittag</strong> – Pletna zur Insel oder Burg","<strong>Nachmittag</strong> – Vintgar-Klamm (Zeitfenster buchen)","<strong>Spätnachmittag</strong> – Cremeschnitte am See"],"items_en":["<strong>Early</strong> – lake in the morning mist, walk","<strong>Morning</strong> – Ojstrica, then breakfast","<strong>Midday</strong> – pletna to the island or castle","<strong>Afternoon</strong> – Vintgar Gorge (book a time slot)","<strong>Late afternoon</strong> – cream cake by the lake"]}
-  ],
-  "faq":[
-   {"q":"Reicht ein Tag in Bled?","q_en":"Is one day enough in Bled?","a":"<p>Ja, wenn du früh startest: See, Ojstrica, Vintgar und Kuchen passen in einen langen Tag.</p>","a_en":"<p>Yes, if you start early: lake, Ojstrica, Vintgar and cake fit into one long day.</p>"},
-   {"q":"Wann ist der See am leersten?","q_en":"When is the lake emptiest?","a":"<p>Morgens vor den ersten Reisebussen – Noels Hidden Gem ist genau diese Uhrzeit.</p>","a_en":"<p>In the morning before the first tour buses – Noel’s hidden gem is exactly that time of day.</p>"},
-   {"q":"Ist Bled ab Ljubljana als Tagesausflug machbar?","q_en":"Is Bled doable as a day trip from Ljubljana?","a":"<p>Ja, per Bus oder Zug mit Bus in etwa einer Stunde. Wer die Morgenstille will, übernachtet vor Ort.</p>","a_en":"<p>Yes, by bus or train plus bus in about an hour. If you want the morning stillness, stay overnight.</p>"}
-  ]
+ "slug": "bled",
+ "slug_en": "bled",
+ "status": "live",
+ "blog": "blog-bc-4",
+ "cc": "SI",
+ "flag": "🇸🇮",
+ "city": "Bled",
+ "city_en": "Bled",
+ "updated": "2026-11-05",
+ "title": "Bled Guide: 11 Orte – See im Morgennebel, Ojstrica, Vintgar-Klamm & Bohinj",
+ "title_en": "Bled Guide: 11 places – lake in the morning mist, Ojstrica, Vintgar Gorge & Bohinj",
+ "desc": "Bleder See ohne Reisebusse: früh aufstehen, Ojstrica-Aussicht, Vintgar-Klamm, Bleder Cremeschnitte, Burg und Pletna – von Noel (2024), mit Anreise und Tagesplan.",
+ "desc_en": "Lake Bled without the tour buses: get up early, Ojstrica viewpoint, Vintgar Gorge, Bled cream cake, castle and pletna – from Noel (2024), with getting there and a day plan.",
+ "gyg_q": "Lake Bled",
+ "intro": "<p>Der Bleder See ist das Postkartenmotiv Sloweniens: Insel, Kirche, Burg auf dem Felsen. Tagsüber teilst du ihn mit Reisebussen. Dieser Guide zeigt dir, wie du ihn trotzdem für dich hast und was du in der Umgebung nicht verpassen solltest.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026) – Eintritte vorab online prüfen.</p>",
+ "intro_en": "<p>Lake Bled is Slovenia’s postcard motif: island, church, castle on the rock. By day you share it with tour buses. This guide shows how to have it to yourself anyway and what not to miss around it.</p><p>Prices and times are guidelines (2026) – check admissions online beforehand.</p>",
+ "story": "<p>Ich war 2024 in Slowenien, und mein Hidden Gem in Bled ist kein Ort, sondern eine Uhrzeit: der See im Morgennebel. Vor den ersten Bussen ist es still, nur ein paar Angler und das Wasser. Danach bin ich hoch zum Aussichtspunkt Ojstrica gelaufen – und habe erst dann gefrühstückt.</p>",
+ "story_en": "<p>I was in Slovenia in 2024, and my hidden gem in Bled is not a place but a time of day: the lake in the morning mist. Before the first buses it is quiet, just a few anglers and the water. Then I walked up to the Ojstrica viewpoint – and only then had breakfast.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1–2 Tage",
+   "v_en": "1–2 days"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai–Oktober; Vintgar-Klamm nur in der Saison",
+   "v_en": "May–October; Vintgar Gorge only in season"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Hidden Gem",
+   "k_en": "Hidden gem",
+   "v": "Der See im Morgennebel vor den ersten Bussen",
+   "v_en": "The lake in the morning mist before the first buses"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Bled",
+   "h_en": "Getting to Bled",
+   "box": "omio",
+   "html": "<p>Bled liegt etwa 55 km nordwestlich von Ljubljana. Von Ljubljana fahren Busse (rund eine Stunde) und Züge nach Lesce-Bled mit Weiterfahrt per Bus; Fahrpläne vorher prüfen. Mit dem Auto geht es in etwa einer Stunde, Parkplätze am See sind im Sommer knapp. Ein Tagesausflug ab Ljubljana ist machbar, mit Übernachtung bekommst du die Morgenstille.</p>",
+   "html_en": "<p>Bled lies about 55 km north-west of Ljubljana. Buses (around an hour) and trains to Lesce-Bled with a bus onward run from Ljubljana; check timetables beforehand. By car it takes about an hour, parking at the lake is scarce in summer. A day trip from Ljubljana is doable, but staying overnight gets you the morning stillness.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "see",
+   "h": "Am See & darüber",
+   "h_en": "At the lake & above it",
+   "spots": [
+    {
+     "name": "Der See im Morgennebel",
+     "name_en": "The lake in the morning mist",
+     "gem": true,
+     "q": "Lake Bled",
+     "text": "<p>Vor den ersten Reisebussen gehört der See dir allein – nur ein paar Angler und das Wasser. Also früh aufstehen. Die Insel im Bleder See ist übrigens die einzige natürliche Insel Sloweniens.</p>",
+     "text_en": "<p>Before the first tour buses the lake is all yours – just a few anglers and the water. So get up early. The island in Lake Bled is, by the way, the only natural island in Slovenia.</p>",
+     "tip": "Ein Spaziergang um den See dauert etwa 1,5 bis 2 Stunden. Die Pletna-Ruderer bringen dich zur Insel; sie haben ihr Privileg der Legende nach von Kaiserin Maria Theresia.",
+     "tip_en": "A walk around the lake takes about 1.5 to 2 hours. The pletna rowers take you to the island; according to legend they got their privilege from Empress Maria Theresa."
+    },
+    {
+     "name": "Ojstrica-Aussichtspunkt",
+     "name_en": "Ojstrica viewpoint",
+     "gem": true,
+     "q": "Ojstrica Viewpoint Bled",
+     "text": "<p>Danach bin ich hoch zum Aussichtspunkt Ojstrica gelaufen. Besucher beschreiben den Aufstieg vom See als rund 30 Minuten und steil, die letzten Meter über Fels. Auf Google 4,8 Sterne.</p>",
+     "text_en": "<p>After that I walked up to the Ojstrica viewpoint. Visitors describe the climb from the lake as about 30 minutes and steep, the last stretch over rock. 4.8 stars on Google.</p>",
+     "tip": "Feste Schuhe – nach Regen rutschig. Früh am Morgen ist es leerer.",
+     "tip_en": "Sturdy shoes – slippery after rain. It is emptier early in the morning."
+    },
+    {
+     "name": "Burg Bled",
+     "name_en": "Bled Castle",
+     "q": "Bled Castle",
+     "text": "<p>Die Burg wurde schon im Jahr 1004 erwähnt und gilt als älteste Burg Sloweniens. Auf Google 4,4 Sterne. Der Eintritt ist laut Besuchern recht hoch (ein Besucher nennt 28 €), der Blick vom Hof aber der klassische Postkartenblick.</p>",
+     "text_en": "<p>The castle was already mentioned in 1004 and is considered the oldest in Slovenia. 4.4 stars on Google. According to visitors admission is fairly high (one visitor names €28), but the view from the courtyard is the classic postcard view.</p>",
+     "hours": "laut Google täglich ca. 8–18 Uhr",
+     "hours_en": "daily about 8 am–6 pm according to Google",
+     "tip": "Gegen 10 Uhr ist es noch ruhiger als zur Mittagszeit.",
+     "tip_en": "Around 10 am it is calmer than at midday."
+    },
+    {
+     "name": "Pletna-Boot zur Insel",
+     "text": "<p>Zur Insel im Bleder See fährst du mit einer „Pletna“, einem traditionellen Holzboot, das von einem Ruderer gerudert wird. Auf der Insel steht die Marienkirche mit dem Wunschglockenturm; wer die Glocke läutet, darf sich etwas wünschen. Die Fahrt dauert rund eine Stunde mit Aufenthalt (Preise vorher prüfen).</p><p>Alternativ kannst du ein Ruderboot mieten oder um den See spazieren.</p>",
+     "text_en": "<p>To the island in Lake Bled you go by “pletna”, a traditional wooden boat rowed by a boatman. On the island stands the Church of the Assumption with the wishing bell tower; whoever rings the bell may make a wish. The trip takes about an hour including a stay (check prices beforehand).</p><p>Alternatively you can rent a rowing boat or walk around the lake.</p>",
+     "name_en": "Pletna boat to the island",
+     "q": "Pletna Bled",
+     "tip": "Fahr früh am Morgen und läute die Wunschglocke.",
+     "tip_en": "Go early in the morning and ring the wishing bell."
+    },
+    {
+     "name": "Rundweg um den See",
+     "text": "<p>Ein Weg führt rund sechs Kilometer um den See und dauert etwa 1,5 bis 2 Stunden. Du siehst Burg, Insel und Berge aus wechselnden Blickwinkeln. Der Weg ist flach und gut zu gehen.</p><p>Starte früh am Morgen, wenn es ruhig ist.</p>",
+     "text_en": "<p>A path leads about six kilometres around the lake and takes about 1.5 to 2 hours. You see castle, island and mountains from changing angles. The path is flat and easy to walk.</p><p>Start early in the morning when it is quiet.</p>",
+     "name_en": "Walk around the lake",
+     "q": "Lake Bled walk",
+     "tip": "Starte früh am Morgen.",
+     "tip_en": "Start early in the morning."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "umgebung",
+   "h": "Umgebung & Essen",
+   "h_en": "Surroundings & food",
+   "spots": [
+    {
+     "name": "Vintgar-Klamm",
+     "name_en": "Vintgar Gorge",
+     "q": "Soteska Vintgar",
+     "text": "<p>Holzstege über türkisfarbenem Wasser, Wasserfälle und Felswände. Auf Google 4,5 Sterne bei über 24.000 Bewertungen. Die Route ist rund 5–6 km lang. Besucher raten, Tickets vorab online für ein Zeitfenster zu buchen und für den Shuttle vom Parkplatz zum Eingang 15–20 Minuten extra einzuplanen.</p>",
+     "text_en": "<p>Wooden walkways above turquoise water, waterfalls and rock walls. 4.5 stars on Google from over 24,000 reviews. The route is roughly 5–6 km long. Visitors advise booking tickets online in advance for a time slot and allowing an extra 15–20 minutes for the shuttle from the car park to the entrance.</p>"
+    },
+    {
+     "name": "Bleder Cremeschnitte",
+     "name_en": "Bled cream cake",
+     "q": "Kavarna Park Bled",
+     "text": "<p>Die Bleder Cremeschnitte (Kremšnita) wird seit 1953 nach demselben Rezept gebacken. Im Café Park am See gibt es sie mit Seeblick; auf Google hat Kavarna Park 4,1 Sterne, Gäste loben vor allem den Kuchen.</p>",
+     "text_en": "<p>The Bled cream cake (kremšnita) has been baked to the same recipe since 1953. At Café Park by the lake you get it with a lake view; Kavarna Park has 4.1 stars on Google, guests mainly praise the cake.</p>",
+     "tip": "Der Preis fürs Café am See ist gehoben – ein Stück Kuchen reicht für den Blick.",
+     "tip_en": "Prices at the lakeside café are upscale – one slice is enough for the view."
+    },
+    {
+     "name": "Russische Kapelle am Vršič & Burg Predjama",
+     "name_en": "Russian Chapel at Vršič & Predjama Castle",
+     "q": "Predjama Castle",
+     "text": "<p>Auf meiner Karte findest du außerdem die Russische Kapelle am Vršič-Pass und Burg Predjama, die in eine Felswand gebaut wurde. Beide lassen sich als Ausflug mit dem Auto kombinieren.</p>",
+     "text_en": "<p>On my map you will also find the Russian Chapel on the Vršič Pass and Predjama Castle, which was built into a rock wall. Both can be combined as a trip by car.</p>"
+    },
+    {
+     "name": "Bohinj-See",
+     "text": "<p>Der Bohinjer See liegt rund 25 Kilometer von Bled entfernt im Triglav-Nationalpark und ist ruhiger und natürlicher als Bled. Hier kannst du schwimmen, wandern und Kajak fahren. Eine Seilbahn führt auf den Vogel mit weitem Blick.</p><p>Plane einen halben bis ganzen Tag ein. Bus oder Auto möglich (Fahrpläne vorher prüfen).</p>",
+     "text_en": "<p>Lake Bohinj lies about 25 kilometres from Bled in the Triglav National Park and is calmer and more natural than Bled. Here you can swim, hike and kayak. A cable car leads to Vogel with a wide view.</p><p>Plan half a day to a whole day. Bus or car possible (check timetables beforehand).</p>",
+     "name_en": "Lake Bohinj",
+     "q": "Lake Bohinj",
+     "tip": "Plane einen halben Tag und schwimme im See.",
+     "tip_en": "Plan half a day and swim in the lake."
+    },
+    {
+     "name": "Savica-Wasserfall",
+     "text": "<p>Der Savica-Wasserfall liegt oberhalb des Bohinjer Sees und stürzt in eine Schlucht. Von einem Parkplatz führen Stufen hinab zum Fall (rund 500 Stufen). Es ist ein beliebtes Ziel für Naturfreunde (Eintritt und Zeiten vorher prüfen).</p><p>Trage feste Schuhe.</p>",
+     "text_en": "<p>The Savica waterfall lies above Lake Bohinj and plunges into a gorge. From a car park steps lead down to the fall (about 500 steps). It is a popular destination for nature lovers (check admission and times beforehand).</p><p>Wear sturdy shoes.</p>",
+     "name_en": "Savica waterfall",
+     "q": "Savica Waterfall",
+     "tip": "Trage feste Schuhe.",
+     "tip_en": "Wear sturdy shoes."
+    },
+    {
+     "name": "Triglav-Nationalpark & Wanderungen",
+     "text": "<p>Der Triglav-Nationalpark umfasst die Julischen Alpen mit Wanderwegen für jede Kondition, von kurzen Spaziergängen bis zu Hochtouren. Der Berg Triglav ist Sloweniens höchster Gipfel und Nationalsymbol. Informiere dich vorher über Wetter und Schwierigkeit der Touren.</p><p>Hochtouren nur mit passender Ausrüstung oder Bergführer.</p>",
+     "text_en": "<p>Triglav National Park includes the Julian Alps with hiking trails for every fitness level, from short walks to high-alpine tours. Mount Triglav is Slovenia’s highest peak and national symbol. Find out beforehand about weather and difficulty of the tours.</p><p>High-alpine tours only with suitable equipment or a mountain guide.</p>",
+     "name_en": "Triglav National Park & hikes",
+     "q": "Triglav National Park",
+     "tip": "Plane Touren nach Wetter und Kondition.",
+     "tip_en": "Plan tours according to weather and fitness."
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Slowenien ausmacht",
+   "h_en": "What makes Slovenia special",
+   "box": "gyg",
+   "html": "<p>Mehr als die Hälfte des Landes ist Wald, und Slowenien ist das einzige Land mit „love“ im Namen. Zwischen Alpen, Karsthöhlen und Adria liegen oft nur zwei Stunden Fahrt. Jugoslawiens Staatschef Tito ließ sich am Bleder Ufer eine Sommervilla bauen. 1991 wurde Slowenien nach einem Zehn-Tage-Krieg unabhängig.</p>",
+   "html_en": "<p>More than half the country is forest, and Slovenia is the only country with “love” in its name. Between Alps, karst caves and Adriatic it is often only two hours’ drive. Yugoslavia’s leader Tito had a summer villa built on the shore at Bled. In 1991 Slovenia became independent after a Ten-Day War.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Bled",
+   "h_en": "One day in Bled",
+   "items": [
+    "<strong>Früh</strong> – See im Morgennebel, Spaziergang",
+    "<strong>Vormittag</strong> – Ojstrica, danach Frühstück",
+    "<strong>Mittag</strong> – Pletna zur Insel oder Burg",
+    "<strong>Nachmittag</strong> – Vintgar-Klamm (Zeitfenster buchen)",
+    "<strong>Spätnachmittag</strong> – Cremeschnitte am See"
+   ],
+   "items_en": [
+    "<strong>Early</strong> – lake in the morning mist, walk",
+    "<strong>Morning</strong> – Ojstrica, then breakfast",
+    "<strong>Midday</strong> – pletna to the island or castle",
+    "<strong>Afternoon</strong> – Vintgar Gorge (book a time slot)",
+    "<strong>Late afternoon</strong> – cream cake by the lake"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Reicht ein Tag in Bled?",
+   "q_en": "Is one day enough in Bled?",
+   "a": "<p>Ja, wenn du früh startest: See, Ojstrica, Vintgar und Kuchen passen in einen langen Tag.</p>",
+   "a_en": "<p>Yes, if you start early: lake, Ojstrica, Vintgar and cake fit into one long day.</p>"
+  },
+  {
+   "q": "Wann ist der See am leersten?",
+   "q_en": "When is the lake emptiest?",
+   "a": "<p>Morgens vor den ersten Reisebussen – Noels Hidden Gem ist genau diese Uhrzeit.</p>",
+   "a_en": "<p>In the morning before the first tour buses – Noel’s hidden gem is exactly that time of day.</p>"
+  },
+  {
+   "q": "Ist Bled ab Ljubljana als Tagesausflug machbar?",
+   "q_en": "Is Bled doable as a day trip from Ljubljana?",
+   "a": "<p>Ja, per Bus oder Zug mit Bus in etwa einer Stunde. Wer die Morgenstille will, übernachtet vor Ort.</p>",
+   "a_en": "<p>Yes, by bus or train plus bus in about an hour. If you want the morning stillness, stay overnight.</p>"
+  }
+ ]
 }
