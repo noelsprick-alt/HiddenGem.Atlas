@@ -8,8 +8,8 @@
  "city": "Kyoto",
  "city_en": "Kyoto",
  "updated": "2026-11-05",
- "title": "Kyoto Guide: Fushimi Inari um 6 Uhr, Higashiyama & der Tempel der 1.200 Steinfiguren",
- "title_en": "Kyoto Guide: Fushimi Inari at 6 am, Higashiyama & the Temple of 1,200 Stone Figures",
+ "title": "Kyoto Guide: 12 Orte – Fushimi Inari, Higashiyama, Arashiyama & Hidden Gems",
+ "title_en": "Kyoto Guide: 12 places – Fushimi Inari, Higashiyama, Arashiyama & hidden gems",
  "desc": "Kyoto 2022: Fushimi Inari fast allein, Higashiyama, Otagi Nenbutsu-ji mit 1.200 Steinfiguren – von Noel, mit Anreise und Tagesplan.",
  "desc_en": "Kyoto 2022: Fushimi Inari almost alone, Higashiyama, Otagi Nenbutsu-ji with 1,200 stone figures – from Noel, with getting there and a day plan.",
  "gyg_q": "Kyoto",
@@ -35,6 +35,12 @@
    "k_en": "Hidden gem",
    "v": "Tempel der 1.200 Steinfiguren",
    "v_en": "Temple of 1,200 stone figures"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "März bis Mai und Oktober bis November",
+   "v_en": "March to May and October to November"
   }
  ],
  "blocks": [
@@ -44,8 +50,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Kyoto erreichst du mit dem Shinkansen von Tokio (rund 2,5 Stunden) oder von Osaka in etwa 15–30 Minuten; aktuelle Fahrpläne und Tickets vorher prüfen. In der Stadt helfen Bus, U-Bahn und Taxi; Fushimi Inari liegt direkt an der JR-Nara-Linie.</p>",
-   "html_en": "<p>You reach Kyoto by shinkansen from Tokyo (about 2.5 hours) or from Osaka in around 15–30 minutes; check current timetables and tickets beforehand. In town bus, subway and taxi help; Fushimi Inari lies directly on the JR Nara line.</p>"
+   "html": "<p>Kyoto erreichst du mit dem Shinkansen von Tokio (rund 2,5 Stunden) oder von Osaka in etwa 15–30 Minuten; aktuelle Fahrpläne und Tickets vorher prüfen. In der Stadt helfen Bus, U-Bahn und Taxi; Fushimi Inari liegt direkt an der JR-Nara-Linie.</p><p>Kyoto erreichst du von Osaka mit dem Zug in rund 30 Minuten, vom Flughafen Kansai (KIX) mit dem Haruka-Express in etwa 75 Minuten (Fahrpläne vorher prüfen). In der Stadt fahren Bahnen, Metro und Busse; die Busse sind in der Hauptsaison stark überfüllt – nutze, wenn möglich, Züge und Metro oder miete ein Fahrrad.</p><p>Der Bahnhof Kyoto ist der zentrale Knotenpunkt. Eine IC-Karte (ICOCA) erleichtert das Bezahlen. Tempel und Schreine öffnen meist gegen 8 bis 9 Uhr und schließen am späten Nachmittag.</p>",
+   "html_en": "<p>You reach Kyoto by shinkansen from Tokyo (about 2.5 hours) or from Osaka in around 15–30 minutes; check current timetables and tickets beforehand. In town bus, subway and taxi help; Fushimi Inari lies directly on the JR Nara line.</p><p>You reach Kyoto from Osaka by train in about 30 minutes, from Kansai Airport (KIX) by the Haruka Express in about 75 minutes (check timetables beforehand). In the city trains, metro and buses run; buses are heavily overcrowded in high season – use trains and metro where possible or rent a bike.</p><p>Kyoto station is the central hub. An IC card (ICOCA) makes paying easier. Temples and shrines usually open around 8 to 9 a.m. and close in the late afternoon.</p>"
   },
   {
    "type": "spots",
@@ -55,15 +61,73 @@
    "spots": [
     {
      "name": "Fushimi Inari Taisha",
-     "text": "Um 6 Uhr morgens gehörten mir die tausend Tore fast allein. Der Schrein ist laut Google rund um die Uhr offen und kostenlos; Besucher raten, so früh wie möglich zu kommen und Wasser mitzunehmen. Auf Google 4,6 Sterne bei über 93.000 Bewertungen.",
-     "text_en": "At 6 am the thousand gates were almost all mine. The shrine is open around the clock and free according to Google; visitors advise coming as early as possible and bringing water. 4.6 stars on Google from over 93,000 reviews.",
-     "q": "Fushimi Inari Taisha Kyoto"
+     "text": "<p>Um 6 Uhr morgens gehörten mir die tausend Tore fast allein. Der Schrein ist laut Google rund um die Uhr offen und kostenlos; Besucher raten, so früh wie möglich zu kommen und Wasser mitzunehmen. Auf Google 4,6 Sterne bei über 93.000 Bewertungen.</p><p>Der Fushimi Inari Taisha ist dem Reisgott Inari gewidmet und berühmt für seine tausenden roten Torii, die einen Weg den Berg hinauf säumen. Der Rundweg bis zum Gipfel (rund 230 Meter über dem Schrein) dauert etwa zwei bis drei Stunden; schon die ersten 20 bis 30 Minuten durch die dichten Tore reichen für das klassische Bild. Fuchsstatuen, die Boten Inaris, stehen überall.</p><p>Nimm Wasser mit und trage bequeme Schuhe. Wer wirklich Ruhe will, kommt bei Sonnenaufgang oder sehr früh am Morgen; ab 9 Uhr wird es voll. Der Schrein ist rund um die Uhr geöffnet und kostenlos.</p>",
+     "text_en": "<p>At 6 am the thousand gates were almost all mine. The shrine is open around the clock and free according to Google; visitors advise coming as early as possible and bringing water. 4.6 stars on Google from over 93,000 reviews.</p><p>Fushimi Inari Taisha is dedicated to the rice god Inari and famous for its thousands of red torii lining a path up the mountain. The loop to the summit (about 230 metres above the shrine) takes about two to three hours; the first 20 to 30 minutes through the dense gates are enough for the classic picture. Fox statues, Inari’s messengers, stand everywhere.</p><p>Take water and wear comfortable shoes. If you really want peace, come at sunrise or very early in the morning; from 9 a.m. it gets crowded. The shrine is open around the clock and free.</p>",
+     "q": "Fushimi Inari Taisha Kyoto",
+     "tip": "Komm bei Sonnenaufgang und lauf höher, als die meisten gehen – oben wird es leerer.",
+     "tip_en": "Come at sunrise and walk higher than most – it gets emptier at the top."
     },
     {
      "name": "Higashiyama",
-     "text": "Danach Higashiyama, solange die Gassen noch ruhig sind: Holzhäuser, Tempel und Teehäuser am Berghang.",
-     "text_en": "Then Higashiyama while the lanes are still quiet: wooden houses, temples and teahouses on the hillside.",
-     "q": "Higashiyama"
+     "text": "<p>Danach Higashiyama, solange die Gassen noch ruhig sind: Holzhäuser, Tempel und Teehäuser am Berghang.</p><p>Higashiyama ist Kyotos bekanntestes altes Viertel am Berghang. Die Gassen Ninenzaka und Sannenzaka führen zum Kiyomizu-dera, dazwischen reihen sich Holzhäuser, Teehäuser, Keramikläden und Süßigkeitenstände. Wer früh kommt, erlebt die Stille, bevor die Reisegruppen eintreffen.</p><p>Ziehe bequeme Schuhe an, denn es geht viel bergauf. Kyoto-Matcha-Eis und Mochi sind hier beliebt. Bleib nicht nur auf den Hauptstraßen – in den Seitengassen findest du kleine Schreine und ruhige Ecken.</p>",
+     "text_en": "<p>Then Higashiyama while the lanes are still quiet: wooden houses, temples and teahouses on the hillside.</p><p>Higashiyama is Kyoto’s best-known old district on the hillside. The lanes Ninenzaka and Sannenzaka lead to Kiyomizu-dera; in between are wooden houses, tea houses, ceramics shops and sweet stalls. If you come early you experience the quiet before the tour groups arrive.</p><p>Wear comfortable shoes, because there is a lot of uphill. Kyoto matcha ice cream and mochi are popular here. Do not stay only on the main streets – in the side lanes you find small shrines and quiet corners.</p>",
+     "q": "Higashiyama",
+     "tip": "Komm vor 8 Uhr – dann sind die Gassen leer und das Licht ist weich.",
+     "tip_en": "Come before 8 a.m. – then the lanes are empty and the light is soft."
+    },
+    {
+     "name": "Kiyomizu-dera",
+     "text": "<p>Der Kiyomizu-dera ist ein Tempel aus dem Jahr 778, berühmt für seine große Holzterrasse, die ohne Nägel auf hohen Stützen über dem Hang ruht. Von dort blickst du über den Wald und die Stadt. Im Frühling blühen die Kirschbäume, im Herbst leuchtet das Laub; dann ist der Tempel abends teilweise beleuchtet.</p><p>Der Eintritt ist kostenpflichtig (Preise vorher prüfen). Unten am Tempel entspringt der Otowa-Wasserfall mit drei Strömen, aus denen Besucher trinken. Plane ein bis zwei Stunden ein.</p>",
+     "text_en": "<p>Kiyomizu-dera is a temple from the year 778, famous for its large wooden terrace that rests without nails on tall pillars over the slope. From there you look over the forest and the city. In spring the cherry trees bloom, in autumn the foliage glows; then the temple is partly lit in the evening.</p><p>Admission is charged (check prices beforehand). Below the temple the Otowa waterfall springs with three streams from which visitors drink. Plan one to two hours.</p>",
+     "name_en": "Kiyomizu-dera",
+     "q": "Kiyomizu-dera Kyoto",
+     "tip": "Geh früh am Morgen oder bei Abendbeleuchtung – tagsüber ist es voll.",
+     "tip_en": "Go early in the morning or at evening illumination – by day it is crowded."
+    },
+    {
+     "name": "Gion & Hanamikōji",
+     "text": "<p>Gion ist Kyotos traditionelles Vergnügungsviertel mit Holzhäusern, Teehäusern und Restaurants. Mit etwas Glück siehst du Geiko und Maiko (Geishas in Ausbildung), wenn sie am Abend zu ihren Terminen gehen. Die Hanamikōji-dōri ist die bekannteste Gasse.</p><p>Respektiere die Menschen: Bedränge Geiko und Maiko nicht und fotografiere sie nicht aus der Nähe. In einigen privaten Gassen gelten Fotoverbote und Bußgelder – beachte Schilder. Am schönsten ist Gion in der Dämmerung.</p>",
+     "text_en": "<p>Gion is Kyoto’s traditional entertainment district with wooden houses, tea houses and restaurants. With luck you see geiko and maiko (geisha in training) when they go to their appointments in the evening. Hanamikōji-dōri is the best-known lane.</p><p>Respect the people: do not crowd geiko and maiko and do not photograph them from close up. In some private lanes photo bans and fines apply – heed signs. Gion is most beautiful at dusk.</p>",
+     "name_en": "Gion & Hanamikōji",
+     "q": "Gion Hanamikoji Kyoto",
+     "tip": "Komm in der Dämmerung und beachte die Schilder in den privaten Gassen.",
+     "tip_en": "Come at dusk and heed the signs in the private lanes."
+    },
+    {
+     "name": "Arashiyama – Bambushain & Tenryū-ji",
+     "text": "<p>Der Bambushain von Arashiyama ist ein schmaler Weg zwischen meterhohen grünen Bambusstämmen, die im Wind rauschen. Direkt daneben liegt der Tenryū-ji, ein UNESCO-Tempel mit einem schönen Garten. Die Togetsukyō-Brücke über den Katsura-Fluss und kleine Läden machen das Viertel zum beliebten Ausflugsziel.</p><p>Der Bambushain ist ab Mittag oft überfüllt; komm bei Sonnenaufgang. Hinter dem Tempel führt ein Weg weiter durch Bambus ins ruhigere Hinterland. Plane einen halben Tag ein; die Anreise ist mit der Bahn einfach.</p>",
+     "text_en": "<p>The Arashiyama Bamboo Grove is a narrow path between metre-high green bamboo stems that rustle in the wind. Right next to it lies Tenryū-ji, a UNESCO temple with a beautiful garden. The Togetsukyō Bridge over the Katsura River and small shops make the district a popular destination.</p><p>The bamboo grove is often overcrowded from noon; come at sunrise. Behind the temple a path continues through bamboo into the quieter hinterland. Plan half a day; getting there by train is easy.</p>",
+     "name_en": "Arashiyama – bamboo grove & Tenryū-ji",
+     "q": "Arashiyama Bamboo Grove",
+     "tip": "Komm vor 8 Uhr und kombiniere ihn mit dem Tempel der 1.200 Steinfiguren.",
+     "tip_en": "Come before 8 a.m. and combine it with the temple of the 1,200 stone figures."
+    },
+    {
+     "name": "Kinkaku-ji – der Goldene Pavillon",
+     "text": "<p>Der Kinkaku-ji ist ein Zen-Tempel, dessen oberste Stockwerke mit Blattgold überzogen sind und sich im Teich spiegeln. Das heutige Gebäude wurde 1955 nach einem Brand neu errichtet. Ein Rundweg führt durch den Garten, und du kannst einen Tee trinken.</p><p>Der Pavillon ist sehr beliebt; komm morgens zur Öffnung. Eintritt und Öffnungszeiten vorher prüfen. Plane eine Stunde ein.</p>",
+     "text_en": "<p>Kinkaku-ji is a Zen temple whose upper floors are covered in gold leaf and reflected in the pond. The current building was rebuilt in 1955 after a fire. A circular path leads through the garden, and you can drink a tea.</p><p>The pavilion is very popular; come in the morning at opening. Check admission and opening times beforehand. Plan an hour.</p>",
+     "name_en": "Kinkaku-ji – the Golden Pavilion",
+     "q": "Kinkaku-ji Kyoto",
+     "tip": "Komm zur Öffnung – später stehen die Menschen Schlange.",
+     "tip_en": "Come at opening – later people queue."
+    },
+    {
+     "name": "Philosophenweg & Ginkaku-ji",
+     "text": "<p>Der Philosophenweg ist ein ruhiger Spazierweg entlang eines Kanals, gesäumt von Kirschbäumen, mit kleinen Tempeln und Cafés. Er führt zum Ginkaku-ji, dem Silbernen Pavillon, der trotz des Namens nicht versilbert ist, aber einen schönen Moosgarten und einen Sandgarten hat.</p><p>Am schönsten ist der Weg zur Kirschblüte im Frühling oder zum Herbstlaub. Plane zwei bis drei Stunden ein; kombiniere ihn mit Higashiyama.</p>",
+     "text_en": "<p>The Philosopher’s Path is a quiet walk along a canal lined with cherry trees, with small temples and cafés. It leads to Ginkaku-ji, the Silver Pavilion, which despite its name is not silvered but has a lovely moss garden and a sand garden.</p><p>The path is most beautiful during the cherry blossom in spring or in autumn foliage. Plan two to three hours; combine it with Higashiyama.</p>",
+     "name_en": "Philosopher’s Path & Ginkaku-ji",
+     "q": "Philosopher's Path Kyoto",
+     "tip": "Starte am Ginkaku-ji früh und laufe in Richtung Süden.",
+     "tip_en": "Start at Ginkaku-ji early and walk south."
+    },
+    {
+     "name": "Nishiki-Markt – Kyotos Küche",
+     "text": "<p>Der Nishiki-Markt ist eine überdachte Gasse mit rund 100 Läden, in der seit Jahrhunderten Lebensmittel verkauft werden. Du findest eingelegtes Gemüse (Tsukemono), Tofu, Fisch, Süßigkeiten und Streetfood. Probiere Tamagoyaki am Spieß, Sojamilch-Donuts und Matcha-Süßigkeiten.</p><p>Der Markt ist eng und mittags voll. Beachte: In der Gasse solltest du nicht im Gehen essen – iss am Stand. Viele Läden schließen am späten Nachmittag. Plane eine Stunde ein.</p>",
+     "text_en": "<p>Nishiki Market is a covered lane with about 100 shops where food has been sold for centuries. You find pickled vegetables (tsukemono), tofu, fish, sweets and street food. Try tamagoyaki on a stick, soy-milk doughnuts and matcha sweets.</p><p>The market is narrow and crowded at midday. Note: in the lane you should not eat while walking – eat at the stall. Many shops close in the late afternoon. Plan an hour.</p>",
+     "name_en": "Nishiki Market – Kyoto’s kitchen",
+     "q": "Nishiki Market Kyoto",
+     "tip": "Komm am Vormittag und iss am Stand.",
+     "tip_en": "Come in the morning and eat at the stall."
     }
    ]
   },
@@ -82,6 +146,36 @@
      "q": "Otagi Nenbutsu-ji Kyoto",
      "hours": "laut Google Mo/Di/Do/Fr/So ca. 9–16 Uhr, Mi und Sa geschlossen",
      "hours_en": "Mon/Tue/Thu/Fri/Sun about 9 am–4 pm, closed Wed and Sat according to Google"
+    },
+    {
+     "name": "Nijō-jō – Nachtigallenboden",
+     "text": "<p>Die Burg Nijō wurde 1603 für den Shōgun Tokugawa Ieyasu erbaut und ist UNESCO-Welterbe. Das Besondere sind die „Nachtigallenböden“ (Uguisubari): Holzböden, die bei jedem Schritt zwitschern, um Eindringlinge zu verraten. Die Räume des Ninomaru-Palastes sind mit Wandmalereien in Gold ausgestattet.</p><p>Der Garten ist besonders im Frühling schön. Plane zwei Stunden ein; Eintritt vorher prüfen. Ein Audioguide lohnt sich.</p>",
+     "text_en": "<p>Nijō Castle was built in 1603 for the shōgun Tokugawa Ieyasu and is a UNESCO World Heritage site. Special are the “nightingale floors” (uguisubari): wooden floors that chirp with every step to betray intruders. The rooms of the Ninomaru Palace are decorated with murals in gold.</p><p>The garden is especially beautiful in spring. Plan two hours; check admission beforehand. An audio guide is worthwhile.</p>",
+     "name_en": "Nijō Castle – the nightingale floors",
+     "gem": true,
+     "q": "Nijo Castle Kyoto",
+     "tip": "Hol dir einen Audioguide und komm gleich zur Öffnung.",
+     "tip_en": "Get an audio guide and come right at opening."
+    },
+    {
+     "name": "Kurama–Kibune – Bergwanderung",
+     "text": "<p>Nördlich von Kyoto liegen die Bergdörfer Kurama und Kibune. Zwischen den beiden Orten führt ein Wanderweg über einen Bergrücken, vorbei an Tempeln, Zedern und Wurzeln. Du kannst die Wanderung in rund zwei Stunden machen und mit der kleinen Eizan-Bahn anreisen.</p><p>In Kibune liegen Restaurants, deren Terrassen im Sommer über dem Fluss schweben (Kawadoko). Wer im Sommer kommt, bekommt kühle Luft; im Herbst ist das Laub besonders schön. Nimm feste Schuhe mit.</p>",
+     "text_en": "<p>North of Kyoto lie the mountain villages of Kurama and Kibune. Between the two a hiking trail leads over a ridge, past temples, cedars and roots. You can do the hike in about two hours and travel there with the small Eizan railway.</p><p>In Kibune there are restaurants whose terraces float above the river in summer (kawadoko). If you come in summer you get cool air; in autumn the foliage is especially beautiful. Take sturdy shoes.</p>",
+     "name_en": "Kurama–Kibune – mountain hike",
+     "gem": true,
+     "q": "Kurama Kibune hike Kyoto",
+     "tip": "Starte in Kurama und iss mittags in Kibune.",
+     "tip_en": "Start in Kurama and eat lunch in Kibune."
+    },
+    {
+     "name": "Ōhara & Sanzen-in",
+     "text": "<p>Ōhara ist ein ländlicher Ort nördlich von Kyoto mit dem Tempel Sanzen-in, bekannt für seinen moosbewachsenen Garten und kleine Jizō-Figuren. Der Weg zum Tempel führt durch ein Dorf mit Läden und Pickle-Ständen.</p><p>Die Anreise erfolgt mit dem Bus (rund 45 Minuten, Fahrpläne vorher prüfen). Ōhara ist ruhig und eine gute Gelegenheit, dem Trubel in Kyoto zu entkommen. Plane einen halben Tag ein.</p>",
+     "text_en": "<p>Ōhara is a rural place north of Kyoto with the temple Sanzen-in, known for its moss-covered garden and small Jizō figures. The path to the temple leads through a village with shops and pickle stalls.</p><p>You get there by bus (about 45 minutes, check timetables beforehand). Ōhara is quiet and a good chance to escape the bustle in Kyoto. Plan half a day.</p>",
+     "name_en": "Ōhara & Sanzen-in",
+     "gem": true,
+     "q": "Sanzen-in Ohara Kyoto",
+     "tip": "Fahr früh hin und iss dort zu Mittag.",
+     "tip_en": "Go early and eat lunch there."
     }
    ]
   },
@@ -97,17 +191,35 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Kyoto",
-   "h_en": "One day in Kyoto",
+   "h": "Tag 1 – Berg & Altstadt",
+   "h_en": "Day 1 – Mountain & old town",
    "items": [
-    "<strong>6 Uhr</strong> – Fushimi Inari",
-    "<strong>Vormittag</strong> – Higashiyama",
-    "<strong>Nachmittag</strong> – Arashiyama, Steinfiguren-Tempel"
+    "<strong>Früh (6 Uhr)</strong> – Fushimi Inari",
+    "<strong>Vormittag</strong> – Higashiyama und Kiyomizu-dera",
+    "<strong>Mittag</strong> – Nishiki-Markt",
+    "<strong>Abend</strong> – Gion in der Dämmerung"
    ],
    "items_en": [
-    "<strong>6 am</strong> – Fushimi Inari",
-    "<strong>Morning</strong> – Higashiyama",
-    "<strong>Afternoon</strong> – Arashiyama, stone-figure temple"
+    "<strong>Early (6 a.m.)</strong> – Fushimi Inari",
+    "<strong>Morning</strong> – Higashiyama and Kiyomizu-dera",
+    "<strong>Midday</strong> – Nishiki Market",
+    "<strong>Evening</strong> – Gion at dusk"
+   ]
+  },
+  {
+   "h": "Tag 2 – Arashiyama & Gold",
+   "h_en": "Day 2 – Arashiyama & gold",
+   "items": [
+    "<strong>Früh</strong> – Bambushain und Tenryū-ji",
+    "<strong>Vormittag</strong> – Tempel der 1.200 Steinfiguren",
+    "<strong>Nachmittag</strong> – Kinkaku-ji",
+    "<strong>Abend</strong> – Nijō-jō oder Philosophenweg"
+   ],
+   "items_en": [
+    "<strong>Early</strong> – bamboo grove and Tenryū-ji",
+    "<strong>Morning</strong> – temple of the 1,200 stone figures",
+    "<strong>Afternoon</strong> – Kinkaku-ji",
+    "<strong>Evening</strong> – Nijō Castle or Philosopher’s Path"
    ]
   }
  ],
@@ -117,6 +229,18 @@
    "q_en": "When is Fushimi Inari emptiest?",
    "a": "<p>Früh am Morgen – Noel war um 6 Uhr dort.</p>",
    "a_en": "<p>Early in the morning – Noel was there at 6 am.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Kyoto?",
+   "q_en": "How many days do you need in Kyoto?",
+   "a": "Für die Highlights drei Tage; mit Ausflügen wie Kurama–Kibune und Ōhara vier bis fünf.",
+   "a_en": "For the highlights three days; with excursions such as Kurama–Kibune and Ōhara four to five."
+  },
+  {
+   "q": "Wann ist die beste Reisezeit für Kyoto?",
+   "q_en": "When is the best time to visit Kyoto?",
+   "a": "Zur Kirschblüte (Ende März bis Anfang April) und im Herbst (November) – dann ist es aber sehr voll. Frühling und Herbst früh morgens sind am besten.",
+   "a_en": "During cherry blossom (late March to early April) and in autumn (November) – but then it is very crowded. Spring and autumn early in the morning are best."
   }
  ]
 }

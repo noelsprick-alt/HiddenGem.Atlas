@@ -7,8 +7,8 @@
  "city": "Sousse",
  "city_en": "Sousse",
  "updated": "2026-11-05",
- "title": "Sousse Guide: Medina, Ribat-Turm & Tagesausflug nach El Jem",
- "title_en": "Sousse Guide: Medina, Ribat Tower & Day Trip to El Jem",
+ "title": "Sousse Guide: 11 Orte – Medina, Ribat, El Jem, Kairouan & mehr",
+ "title_en": "Sousse Guide: 11 places – medina, Ribat, El Jem, Kairouan & more",
  "desc": "Sousse in Tunesien: hinter dem Hotelstrand die UNESCO-Medina, der Ribat-Turm und El Jem – von Noel.",
  "desc_en": "Sousse in Tunisia: behind the hotel beach the UNESCO medina, the Ribat tower and El Jem – from Noel.",
  "gyg_q": "Sousse",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Tunesischer Dinar (TND)",
    "v_en": "Tunisian dinar (TND)"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "April bis Juni und September bis Oktober",
+   "v_en": "April to June and September to October"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "gyg",
-   "html": "<p>Der nächste Flughafen ist Monastir; von dort kommst du per Transfer oder Taxi nach Sousse. Informiere dich vor der Reise über aktuelle Reisehinweise des Auswärtigen Amts.</p>",
-   "html_en": "<p>The nearest airport is Monastir; from there you go by transfer or taxi to Sousse. Inform yourself about the current travel advice of the German Foreign Office before travelling.</p>"
+   "html": "<p>Der nächste Flughafen ist Monastir; von dort kommst du per Transfer oder Taxi nach Sousse. Informiere dich vor der Reise über aktuelle Reisehinweise des Auswärtigen Amts.</p><p>Von Monastir (Flughafen) oder Enfidha fährst du in rund 20 bis 40 Minuten nach Sousse; ein Taxi oder Transfer ist am einfachsten. In der Stadt nutzt du Taxis (mit Taxameter) oder die Metro du Sahel für Ausflüge entlang der Küste. Louages (Sammeltaxis) fahren zwischen Städten.</p><p>Als Währung dient der Tunesische Dinar; er darf nicht ausgeführt werden, tausche vor Ort nur, was du brauchst. Prüfe vor der Reise die aktuellen Reise- und Sicherheitshinweise des Auswärtigen Amts.</p>",
+   "html_en": "<p>The nearest airport is Monastir; from there you go by transfer or taxi to Sousse. Inform yourself about the current travel advice of the German Foreign Office before travelling.</p><p>From Monastir (airport) or Enfidha you drive to Sousse in about 20 to 40 minutes; a taxi or transfer is easiest. In the city you use taxis (with meter) or the Metro du Sahel for trips along the coast. Louages (shared taxis) run between towns.</p><p>The currency is the Tunisian dinar; it may not be exported, so only exchange what you need on site. Check the current travel and safety advice of the German Foreign Office before the trip.</p>"
   },
   {
    "type": "spots",
@@ -49,19 +55,59 @@
    "spots": [
     {
      "name": "Medina und Ribat",
-     "text": "Früh hineingehen, auf den Ribat steigen und über die Dächer schauen. Auf Google 4,4 Sterne. Besucher nennen rund 8 Dinar Eintritt und viele Stufen zum Turm. Der Ribat entstand im 8. Jahrhundert.",
-     "text_en": "Go in early, climb the Ribat and look over the rooftops. 4.4 stars on Google. Visitors mention about 8 dinars admission and many steps to the tower. The Ribat dates from the 8th century.",
+     "text": "<p>Früh hineingehen, auf den Ribat steigen und über die Dächer schauen. Auf Google 4,4 Sterne. Besucher nennen rund 8 Dinar Eintritt und viele Stufen zum Turm. Der Ribat entstand im 8. Jahrhundert.</p><p>Die Medina von Sousse gehört seit 1988 zum UNESCO-Welterbe: ein Labyrinth aus Gassen, Souks, Moscheen und Wohnhäusern innerhalb der Stadtmauer. Der Ribat von 821 war eine befestigte Klosterburg und ist einer der ältesten Bauten dieser Art in Nordafrika. Vom Turm hast du einen weiten Blick auf Medina, Hafen und Meer.</p><p>Die Medina ist am schönsten am frühen Morgen, bevor die Hitze und die Händler aufdrehen. Trage bequeme Schuhe; viele Gassen sind uneben. Prüfe Öffnungszeiten und Eintritt vorher.</p>",
+     "text_en": "<p>Go in early, climb the Ribat and look over the rooftops. 4.4 stars on Google. Visitors mention about 8 dinars admission and many steps to the tower. The Ribat dates from the 8th century.</p><p>The medina of Sousse has been a UNESCO World Heritage Site since 1988: a labyrinth of lanes, souks, mosques and houses within the city wall. The Ribat of 821 was a fortified monastery fortress and is one of the oldest buildings of its kind in North Africa. From the tower you have a wide view of medina, harbour and sea.</p><p>The medina is most beautiful in the early morning, before the heat and the traders turn up. Wear comfortable shoes; many lanes are uneven. Check opening times and admission beforehand.</p>",
      "name_en": "Medina and Ribat",
      "q": "Ribat of Sousse",
      "hours": "laut Google täglich ca. 8–19 Uhr",
-     "hours_en": "daily about 8 am–7 pm according to Google"
+     "hours_en": "daily about 8 am–7 pm according to Google",
+     "tip": "Komm früh am Morgen und steig zuerst auf den Ribat-Turm.",
+     "tip_en": "Come early in the morning and climb the Ribat tower first."
     },
     {
      "name": "El Jem – römisches Amphitheater",
-     "text": "Ein Tagesausflug lohnt sich nach El Jem, wo eines der größten römischen Amphitheater der Welt steht. Auf Google 4,8 Sterne bei über 11.000 Bewertungen; Besucher raten zu früher Stunde.",
-     "text_en": "A day trip to El Jem is worthwhile, where one of the world’s largest Roman amphitheatres stands. 4.8 stars on Google from over 11,000 reviews; visitors advise going early.",
+     "text": "<p>Ein Tagesausflug lohnt sich nach El Jem, wo eines der größten römischen Amphitheater der Welt steht. Auf Google 4,8 Sterne bei über 11.000 Bewertungen; Besucher raten zu früher Stunde.</p><p>Das Amphitheater von El Jem stammt aus dem 3. Jahrhundert und bot Platz für rund 30.000 Zuschauer – es gehört zu den größten und am besten erhaltenen römischen Amphitheatern der Welt. Du kannst auf die Ränge steigen, durch die Gänge unter der Arena gehen und die Akustik erleben.</p><p>El Jem liegt rund 60 Kilometer südlich von Sousse; die Anreise erfolgt mit Zug, Louage (Sammeltaxi) oder Mietwagen. Plane mit Hin- und Rückfahrt einen halben bis ganzen Tag ein. Komm früh, bevor die Hitze steigt, und nimm Wasser und Sonnenschutz mit.</p>",
+     "text_en": "<p>A day trip to El Jem is worthwhile, where one of the world’s largest Roman amphitheatres stands. 4.8 stars on Google from over 11,000 reviews; visitors advise going early.</p><p>The amphitheatre of El Jem dates from the 3rd century and had room for about 30,000 spectators – it is among the largest and best-preserved Roman amphitheatres in the world. You can climb the stands, walk through the corridors under the arena and experience the acoustics.</p><p>El Jem lies about 60 kilometres south of Sousse; you get there by train, louage (shared taxi) or rental car. With the return trip plan half a day to a full day. Come early before the heat rises and take water and sun protection.</p>",
      "name_en": "El Jem – Roman amphitheatre",
-     "q": "Amphitheatre of El Jem"
+     "q": "Amphitheatre of El Jem",
+     "tip": "Fahr früh mit dem Zug oder Louage und nimm genug Wasser mit.",
+     "tip_en": "Go early by train or louage and take enough water."
+    },
+    {
+     "name": "Große Moschee von Sousse",
+     "text": "<p>Die Große Moschee wurde im 9. Jahrhundert erbaut und ist ein schlichter, festungsartiger Bau mit einem großen Hof. Die klare Architektur ohne Minarett-Schmuck wirkt ruhig und streng. Nichtmuslime dürfen teilweise den Hof betreten; Regeln und Zeiten vorher prüfen.</p><p>Kleide dich angemessen (Schultern und Knie bedecken) und verhalte dich ruhig. Plane eine halbe Stunde ein; die Moschee liegt in der Medina neben dem Ribat.</p>",
+     "text_en": "<p>The Great Mosque was built in the 9th century and is a plain, fortress-like building with a large courtyard. The clear architecture without minaret decoration feels calm and severe. Non-Muslims may partly enter the courtyard; check rules and times beforehand.</p><p>Dress appropriately (cover shoulders and knees) and behave quietly. Plan half an hour; the mosque lies in the medina next to the Ribat.</p>",
+     "name_en": "Great Mosque of Sousse",
+     "q": "Great Mosque of Sousse",
+     "tip": "Kombiniere sie mit dem Ribat in einem Rundgang.",
+     "tip_en": "Combine it with the Ribat in one tour."
+    },
+    {
+     "name": "Archäologisches Museum in der Kasbah",
+     "text": "<p>Das Archäologische Museum von Sousse liegt in der Kasbah und besitzt eine der größten Sammlungen römischer Mosaike Tunesiens – bunte Bodenmosaike mit Göttern, Tieren und Szenen aus dem Alltag. Das Gebäude selbst, mit Turm und Innenhof, ist schon sehenswert.</p><p>Plane etwa ein bis zwei Stunden ein; Eintritt und Öffnungszeiten ändern sich. Ein guter Tipp bei Hitze, weil es drinnen angenehm kühl ist.</p>",
+     "text_en": "<p>The Archaeological Museum of Sousse lies in the Kasbah and holds one of the largest collections of Roman mosaics in Tunisia – colourful floor mosaics with gods, animals and scenes from everyday life. The building itself, with tower and courtyard, is already worth seeing.</p><p>Plan about one to two hours; admission and opening times change. A good tip in heat because it is pleasantly cool inside.</p>",
+     "name_en": "Archaeological Museum in the Kasbah",
+     "q": "Sousse Archaeological Museum",
+     "tip": "Perfekt für die heiße Mittagszeit.",
+     "tip_en": "Perfect for the hot midday hours."
+    },
+    {
+     "name": "Souks & Gassen der Medina",
+     "text": "<p>In den Souks der Medina findest du Gewürze, Lederwaren, Keramik, Teppiche, Stoffe, Schmuck und Souvenirs. Händler rufen dich an, und das Handeln gehört dazu: Starte mit rund der Hälfte des genannten Preises, bleibe freundlich und lächle. Ein kleiner Tee gehört oft zum Handel.</p><p>Du musst nichts kaufen, wenn du nicht willst – ein klares, freundliches „Nein, danke“ reicht. Vergleiche Preise, bevor du kaufst, und trage nur wenig Bargeld bei dir.</p>",
+     "text_en": "<p>In the souks of the medina you find spices, leather goods, ceramics, carpets, fabrics, jewellery and souvenirs. Traders call out to you, and haggling is part of it: start at about half the quoted price, stay friendly and smile. A small tea often belongs to the deal.</p><p>You do not have to buy anything if you do not want to – a clear, friendly “no, thank you” is enough. Compare prices before you buy and carry only little cash.</p>",
+     "name_en": "Souks & lanes of the medina",
+     "q": "Souks Sousse Medina",
+     "tip": "Vergleiche Preise in mehreren Läden, bevor du kaufst.",
+     "tip_en": "Compare prices in several shops before you buy."
+    },
+    {
+     "name": "Katakomben des Guten Hirten",
+     "text": "<p>Die Katakomben von Sousse sind eine frühchristliche Begräbnisstätte aus dem 3. Jahrhundert, mit langen unterirdischen Gängen und Tausenden von Gräbern. Du kannst einen Teil der Anlage besichtigen. Die Katakomben gelten als eine der größten im Mittelmeerraum außerhalb Roms.</p><p>Der Besuch ist ruhig und beklemmend zugleich. Prüfe vorher Öffnungszeiten und Eintritt; Taschenlampe oder Handylicht sind nützlich.</p>",
+     "text_en": "<p>The catacombs of Sousse are an early Christian burial site from the 3rd century, with long underground corridors and thousands of graves. You can visit part of the complex. The catacombs are considered among the largest in the Mediterranean outside Rome.</p><p>The visit is quiet and oppressive at once. Check opening times and admission beforehand; a torch or phone light is useful.</p>",
+     "name_en": "Catacombs of the Good Shepherd",
+     "q": "Catacombs of Sousse",
+     "tip": "Nimm eine Taschenlampe oder Handylicht mit.",
+     "tip_en": "Bring a torch or phone light."
     }
    ]
   },
@@ -78,6 +124,46 @@
      "name_en": "Film sets",
      "gem": true,
      "q": "Film-Kulissen"
+    },
+    {
+     "name": "Monastir – Ribat & Mausoleum",
+     "text": "<p>Rund 20 Kilometer südlich liegt Monastir mit einem weiteren Ribat aus dem 8. Jahrhundert, der Kulisse für „Das Leben des Brian“. Daneben steht das Mausoleum von Habib Bourguiba, dem ersten Präsidenten Tunesiens, mit goldener Kuppel und Marmor. Ein Spaziergang durch den Ort führt dich zum Strand und zur Marina.</p><p>Monastir ist gut mit der kleinen Küstenbahn (Metro du Sahel) erreichbar. Plane einen halben Tag ein; Zeiten vorher prüfen.</p>",
+     "text_en": "<p>About 20 kilometres south lies Monastir with another Ribat from the 8th century, the backdrop for “Life of Brian”. Next to it stands the mausoleum of Habib Bourguiba, Tunisia’s first president, with golden dome and marble. A walk through the town leads you to the beach and the marina.</p><p>Monastir is easily reached by the small coastal railway (Metro du Sahel). Plan half a day; check times beforehand.</p>",
+     "name_en": "Monastir – Ribat & mausoleum",
+     "gem": true,
+     "q": "Monastir Ribat Tunisia",
+     "tip": "Fahr mit der Metro du Sahel und lauf zum Meer.",
+     "tip_en": "Take the Metro du Sahel and walk to the sea."
+    },
+    {
+     "name": "Kairouan – heilige Stadt",
+     "text": "<p>Kairouan gilt als vierte heilige Stadt des Islam und liegt rund 60 Kilometer westlich von Sousse. Die Große Moschee von Kairouan, im 7. Jahrhundert gegründet, ist eine der ältesten und wichtigsten Moscheen Nordafrikas. Du kannst den Hof und teils den Innenraum besichtigen (Regeln und Zeiten vorher prüfen).</p><p>Die Medina ist UNESCO-Welterbe und bekannt für Teppiche und Süßgebäck (Makroud). Ein Tagesausflug mit Auto oder Louage lohnt sich; kleide dich respektvoll.</p>",
+     "text_en": "<p>Kairouan is considered the fourth holy city of Islam and lies about 60 kilometres west of Sousse. The Great Mosque of Kairouan, founded in the 7th century, is one of the oldest and most important mosques in North Africa. You can visit the courtyard and partly the interior (check rules and times beforehand).</p><p>The medina is a UNESCO World Heritage Site and known for carpets and sweet pastries (makroud). A day trip by car or louage is worthwhile; dress respectfully.</p>",
+     "name_en": "Kairouan – the holy city",
+     "gem": true,
+     "q": "Great Mosque of Kairouan",
+     "tip": "Fahr früh und probiere Makroud in der Medina.",
+     "tip_en": "Go early and try makroud in the medina."
+    },
+    {
+     "name": "Port El Kantaoui – Hafen & Promenade",
+     "text": "<p>Port El Kantaoui ist ein Yachthafen nördlich von Sousse mit Promenade, Cafés, Restaurants und Booten. Abends ist es angenehm zum Spazierengehen; Ausflugsboote fahren am Tag aufs Meer. Der Ort wurde in den 1970er-Jahren als Urlaubsort gebaut und ist touristisch.</p><p>Wenn du eine Pause von der Medina brauchst, ist die Promenade ein ruhiger Ort für einen Tee mit Blick aufs Wasser. Plane einen Abend ein.</p>",
+     "text_en": "<p>Port El Kantaoui is a marina north of Sousse with promenade, cafés, restaurants and boats. In the evening it is pleasant for walking; excursion boats go out to sea by day. The place was built in the 1970s as a holiday resort and is touristy.</p><p>If you need a break from the medina the promenade is a quiet place for a tea with a view of the water. Plan an evening.</p>",
+     "name_en": "Port El Kantaoui – harbour & promenade",
+     "gem": true,
+     "q": "Port El Kantaoui",
+     "tip": "Komm am Abend und trink einen Minztee am Wasser.",
+     "tip_en": "Come in the evening and drink a mint tea by the water."
+    },
+    {
+     "name": "Tunesisch essen: Brik, Lablabi & Couscous",
+     "text": "<p>Tunesische Küche ist würzig und mediterran: Brik (knuspriger Teigtasche mit Ei und Thunfisch), Lablabi (Kichererbsensuppe mit Brot und Harissa), Couscous mit Fleisch oder Fisch und Salat mit Oliven und Thunfisch. Als Nachtisch passen Makroud oder frisches Obst.</p><p>Trinke Minztee mit Pinienkernen. Ein einfaches Essen in kleinen Lokalen kostet meist wenig; frag vorher nach dem Preis. Harissa ist scharf – gib sie vorsichtig zu.</p>",
+     "text_en": "<p>Tunisian cuisine is spicy and Mediterranean: brik (crispy pastry pocket with egg and tuna), lablabi (chickpea soup with bread and harissa), couscous with meat or fish and salad with olives and tuna. Makroud or fresh fruit suit as dessert.</p><p>Drink mint tea with pine nuts. A simple meal in small eateries usually costs little; ask the price beforehand. Harissa is hot – add it carefully.</p>",
+     "name_en": "Eating Tunisian: brik, lablabi & couscous",
+     "gem": true,
+     "q": "Restaurant Sousse medina",
+     "tip": "Probiere Brik und frag nach der Schärfe von Harissa.",
+     "tip_en": "Try brik and ask how hot the harissa is."
     }
    ]
   },
@@ -93,15 +179,33 @@
  ],
  "itinerary": [
   {
-   "h": "Zwei Tage Sousse",
-   "h_en": "Two days in Sousse",
+   "h": "Tag 1 – Medina",
+   "h_en": "Day 1 – Medina",
    "items": [
-    "<strong>Tag 1</strong> – Medina und Ribat",
-    "<strong>Tag 2</strong> – Ausflug nach El Jem"
+    "<strong>Früh</strong> – Medina, Ribat und Große Moschee",
+    "<strong>Mittag</strong> – Pause im Café, Brik oder Lablabi",
+    "<strong>Nachmittag</strong> – Archäologisches Museum und Souks",
+    "<strong>Abend</strong> – Port El Kantaoui"
    ],
    "items_en": [
-    "<strong>Day 1</strong> – medina and Ribat",
-    "<strong>Day 2</strong> – trip to El Jem"
+    "<strong>Early</strong> – medina, Ribat and Great Mosque",
+    "<strong>Midday</strong> – break in a café, brik or lablabi",
+    "<strong>Afternoon</strong> – Archaeological Museum and souks",
+    "<strong>Evening</strong> – Port El Kantaoui"
+   ]
+  },
+  {
+   "h": "Tag 2 – Ausflug",
+   "h_en": "Day 2 – Excursion",
+   "items": [
+    "<strong>Früh</strong> – El Jem mit Zug oder Louage",
+    "<strong>Mittag</strong> – Rückfahrt oder Weiterfahrt nach Kairouan",
+    "<strong>Abend</strong> – Monastir oder Strand"
+   ],
+   "items_en": [
+    "<strong>Early</strong> – El Jem by train or louage",
+    "<strong>Midday</strong> – return or onward to Kairouan",
+    "<strong>Evening</strong> – Monastir or beach"
    ]
   }
  ],
@@ -111,6 +215,18 @@
    "q_en": "Is El Jem worth a day trip?",
    "a": "<p>Ja – eines der größten römischen Amphitheater der Welt.</p>",
    "a_en": "<p>Yes – one of the world’s largest Roman amphitheatres.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Sousse?",
+   "q_en": "How many days do you need in Sousse?",
+   "a": "Zwei Tage für Medina und Ausflug nach El Jem; mit Kairouan und Monastir drei bis vier.",
+   "a_en": "Two days for medina and trip to El Jem; with Kairouan and Monastir three to four."
+  },
+  {
+   "q": "Brauche ich Bargeld in Sousse?",
+   "q_en": "Do I need cash in Sousse?",
+   "a": "Ja, in Souks und kleinen Lokalen wird bar gezahlt (Dinar). Größere Hotels nehmen Karten.",
+   "a_en": "Yes, in souks and small eateries you pay cash (dinar). Larger hotels take cards."
   }
  ]
 }

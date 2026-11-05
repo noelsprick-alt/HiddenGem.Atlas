@@ -7,8 +7,8 @@
  "city": "Bad Gastein & Lungau",
  "city_en": "Bad Gastein & Lungau",
  "updated": "2026-11-05",
- "title": "Bad Gastein & Lungau Guide: Wasserfall, Landawirsee und Kaiserschmarrn auf der Hütte",
- "title_en": "Bad Gastein & Lungau Guide: Waterfall, Landawirsee and Kaiserschmarrn at the Hut",
+ "title": "Bad Gastein & Lungau Guide: 10 Orte – Wasserfall, Landawirsee, Therme & Hütte",
+ "title_en": "Bad Gastein & Lungau Guide: 10 places – waterfall, Landawirsee, spa & hut",
  "desc": "Bad Gastein und Lungau: Belle-Époque-Ort mit Wasserfall mittendrin, Bergsee auf 1.968 Metern, Hüttenübernachtung – von Noel, der in Bad Gastein an der Rezeption gearbeitet hat.",
  "desc_en": "Bad Gastein and Lungau: a Belle Époque village with a waterfall in its middle, a mountain lake at 1,968 metres, a hut overnight – from Noel, who worked at a reception in Bad Gastein.",
  "gyg_q": "Bad Gastein",
@@ -35,6 +35,12 @@
    "k_en": "For the lake",
    "v": "Trittsicherheit, gutes Schuhwerk, Handtuch",
    "v_en": "Sure-footedness, good shoes, towel"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Juni bis Oktober zum Wandern; Dezember bis März zum Skifahren",
+   "v_en": "June to October for hiking; December to March for skiing"
   }
  ],
  "blocks": [
@@ -44,8 +50,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Bad Gastein liegt an der Tauernbahn und ist per Zug aus Salzburg erreichbar; aktuelle Verbindungen vorher prüfen. Der Lungau liegt im Süden des Salzburger Landes und ist am besten per Auto oder Bus erreichbar.</p>",
-   "html_en": "<p>Bad Gastein lies on the Tauern railway and is reachable by train from Salzburg; check current connections beforehand. The Lungau lies in the south of Salzburg state and is best reached by car or bus.</p>"
+   "html": "<p>Bad Gastein liegt an der Tauernbahn und ist per Zug aus Salzburg erreichbar; aktuelle Verbindungen vorher prüfen. Der Lungau liegt im Süden des Salzburger Landes und ist am besten per Auto oder Bus erreichbar.</p><p>Bad Gastein erreichst du mit dem Zug aus Salzburg in rund 1,5 Stunden (Fahrpläne vorher prüfen); der Bahnhof liegt mitten im Ort. Für den Lungau und die Wanderungen ist ein Auto praktisch, Busse fahren aber ebenfalls. In der Region gibt es oft Gästekarten, die Bus und Bahn einschließen – frag bei der Unterkunft.</p><p>Bergbahnen haben feste Betriebszeiten und schließen bei schlechtem Wetter; prüfe vorher die Betriebsmeldung.</p>",
+   "html_en": "<p>Bad Gastein lies on the Tauern railway and is reachable by train from Salzburg; check current connections beforehand. The Lungau lies in the south of Salzburg state and is best reached by car or bus.</p><p>You reach Bad Gastein by train from Salzburg in about 1.5 hours (check timetables beforehand); the station is in the middle of the village. For the Lungau and the hikes a car is practical, but buses also run. In the region there are often guest cards that include bus and rail – ask your accommodation.</p><p>Cable cars have fixed operating times and close in bad weather; check the operating notice beforehand.</p>"
   },
   {
    "type": "spots",
@@ -55,15 +61,17 @@
    "spots": [
     {
      "name": "Gasteiner Wasserfall",
-     "text": "Der Wasserfall mitten im Ort. Auf Google 4,7 Sterne bei über 3.000 Bewertungen; frei zugänglich, Besucher erwähnen Aussichtspunkte entlang der Schlucht.",
-     "text_en": "The waterfall in the middle of the village. 4.7 stars on Google from over 3,000 reviews; freely accessible, visitors mention viewpoints along the gorge.",
+     "text": "<p>Der Wasserfall mitten im Ort. Auf Google 4,7 Sterne bei über 3.000 Bewertungen; frei zugänglich, Besucher erwähnen Aussichtspunkte entlang der Schlucht.</p><p>Der Gasteiner Wasserfall donnert in mehreren Stufen mitten durch den Ort – rund um ihn stehen Belle-Époque-Hotels, Cafés und Aussichtspunkte. Mit mehr als 300 Metern Gesamthöhe (laut Ortsangaben) ist er einer der spektakulärsten Wasserfälle, die direkt in einer Stadt liegen. Es gibt Brücken und Wege, von denen du ihn von unten und oben sehen kannst.</p><p>Die Gischt kühlt die Luft spürbar ab, und im Winter bilden sich Eisfahnen. Ein Spaziergang um den Wasserfall dauert eine halbe bis eine Stunde; abends sind einige Bereiche beleuchtet. Trage rutschfeste Schuhe, da der Weg nass sein kann.</p>",
+     "text_en": "<p>The waterfall in the middle of the village. 4.7 stars on Google from over 3,000 reviews; freely accessible, visitors mention viewpoints along the gorge.</p><p>The Gastein waterfall thunders in several stages through the middle of the village – around it stand Belle Époque hotels, cafés and viewpoints. With a total height of more than 300 metres (according to local information) it is one of the most spectacular waterfalls lying directly in a town. There are bridges and paths from which you can see it from below and above.</p><p>The spray cools the air noticeably, and in winter ice banners form. A walk around the waterfall takes half an hour to an hour; in the evening some areas are lit. Wear non-slip shoes, as the path can be wet.</p>",
      "name_en": "Gastein waterfall",
-     "q": "Gasteiner Wasserfall Bad Gastein"
+     "q": "Gasteiner Wasserfall Bad Gastein",
+     "tip": "Geh früh oder am Abend, wenn es ruhig ist – und wirf einen Blick auf die Hotels drumherum.",
+     "tip_en": "Go early or in the evening when it is quiet – and look at the hotels around it."
     },
     {
      "name": "Landawirsee im Lungau",
-     "text": "Ein Bergsee auf 1.968 Metern, glasklar. Für den Landawirsee brauchst du Trittsicherheit und gutes Schuhwerk. Plan die Hütte als Etappe ein – und nimm ein Handtuch mit. Du wirst reingehen wollen.",
-     "text_en": "A mountain lake at 1,968 metres, crystal clear. For the Landawirsee you need sure-footedness and good shoes. Plan the hut as a stage – and bring a towel. You will want to go in.",
+     "text": "<p>Ein Bergsee auf 1.968 Metern, glasklar. Für den Landawirsee brauchst du Trittsicherheit und gutes Schuhwerk. Plan die Hütte als Etappe ein – und nimm ein Handtuch mit. Du wirst reingehen wollen.</p><p>Der Landawirsee liegt im Lungau auf knapp 1.970 Metern in einer Karlandschaft, umgeben von Felswänden und Almwiesen. Das Wasser ist glasklar und kalt. Der Aufstieg ist nicht extrem lang, aber steil und verlangt Trittsicherheit; Wanderschuhe und Wetterschutz sind Pflicht. Plane je nach Startpunkt mehrere Stunden ein (Zeiten vorher prüfen).</p><p>Die Landawirseehütte liegt am Weg und ist ein gutes Ziel für eine Rast und Übernachtung (vorher reservieren). Pack Handtuch und Wechselkleidung ein, wenn du ins Wasser willst – es ist erfrischend. Gewitter am Nachmittag sind im Sommer möglich: starte früh.</p>",
+     "text_en": "<p>A mountain lake at 1,968 metres, crystal clear. For the Landawirsee you need sure-footedness and good shoes. Plan the hut as a stage – and bring a towel. You will want to go in.</p><p>Lake Landawirsee lies in the Lungau at just under 1,970 metres in a cirque landscape surrounded by rock walls and alpine meadows. The water is crystal clear and cold. The ascent is not extremely long but steep and requires sure-footedness; hiking boots and weather protection are a must. Plan several hours depending on the starting point (check times beforehand).</p><p>The Landawirsee hut lies on the way and is a good destination for a rest and overnight stay (reserve beforehand). Pack a towel and a change of clothes if you want to get in the water – it is refreshing. Afternoon thunderstorms are possible in summer: start early.</p>",
      "name_en": "Landawirsee in the Lungau",
      "gem": true,
      "q": "Landawirsee im Lungau",
@@ -71,18 +79,94 @@
       "images/video/landawirsee-baden.mp4",
       "images/video/lungau-gipfelkreuz.mp4",
       "images/video/lungau-grat.mp4"
-     ]
+     ],
+     "tip": "Starte früh, prüfe den Wetterbericht und reserviere die Hütte, wenn du übernachten willst.",
+     "tip_en": "Start early, check the weather forecast and reserve the hut if you want to stay overnight."
     },
     {
      "name": "Kaiserschmarrn auf der Landawirseehütte",
-     "text": "Danach Kaiserschmarrn und ein kühles Bier aus der Region, Übernachtung auf der Hütte.",
-     "text_en": "Afterwards Kaiserschmarrn and a cool regional beer, overnight stay at the hut.",
+     "text": "<p>Danach Kaiserschmarrn und ein kühles Bier aus der Region, Übernachtung auf der Hütte.</p><p>Der Kaiserschmarrn ist ein Klassiker der Alpenküche: ein luftiger, zerrissener Pfannkuchen mit Rosinen, Puderzucker und Zwetschgenröster oder Apfelmus. Auf der Hütte schmeckt er nach der Wanderung doppelt gut. Dazu gibt es Bier oder Almdudler aus der Region.</p><p>Die Hütte bietet einfache Zimmer oder Lager (Preise und Reservierung vorher prüfen). Wer übernachtet, erlebt Sonnenuntergang und Sternenhimmel in der Stille der Berge.</p>",
+     "text_en": "<p>Afterwards Kaiserschmarrn and a cool regional beer, overnight stay at the hut.</p><p>Kaiserschmarrn is a classic of Alpine cuisine: a fluffy, torn pancake with raisins, icing sugar and plum compote or apple sauce. At the hut it tastes twice as good after the hike. With it there is beer or Almdudler from the region.</p><p>The hut offers simple rooms or dormitories (check prices and reservation beforehand). If you stay overnight you experience sunset and starry sky in the silence of the mountains.</p>",
      "name_en": "Kaiserschmarrn at Landawirseehütte",
      "q": "Kaiserschmarrn auf der Landawirseehütte",
      "photos": [
       "images/photos/landawirsee-kaiserschmarrn.webp",
       "images/video/lungau-alm.mp4"
      ]
+    },
+    {
+     "name": "Belle-Époque-Architektur & Straubinger Platz",
+     "text": "<p>Bad Gastein war im 19. Jahrhundert ein mondäner Kurort für Kaiser, Könige und Künstler. Prachtvolle Hotels im Stil der Belle Époque säumen den Hang über dem Wasserfall. Einige sind restauriert und eröffnet, andere stehen leer – dieser Kontrast aus Glanz und Verfall macht den Reiz des Ortes aus.</p><p>Ein Spaziergang durch den Ort mit Blick auf die Fassaden, kleine Cafés und Kunstgalerien dauert zwei Stunden. Am Straubinger Platz und in den Gassen rund um den Wasserfall findest du die schönsten Ansichten.</p>",
+     "text_en": "<p>In the 19th century Bad Gastein was a fashionable spa resort for emperors, kings and artists. Magnificent hotels in Belle Époque style line the slope above the waterfall. Some are restored and open, others stand empty – this contrast of glamour and decay is the appeal of the place.</p><p>A walk through the village with a view of the façades, small cafés and art galleries takes two hours. At Straubinger Platz and in the lanes around the waterfall you find the most beautiful views.</p>",
+     "name_en": "Belle Époque architecture & Straubinger Platz",
+     "q": "Straubinger Platz Bad Gastein",
+     "tip": "Geh abends zum Wasserfall und schau in die Lichter der Hotels.",
+     "tip_en": "Go to the waterfall in the evening and look at the lights of the hotels."
+    },
+    {
+     "name": "Felsentherme Bad Gastein",
+     "text": "<p>Die Felsentherme ist ein modernes Thermalbad direkt im Fels, mit warmem, mineralhaltigem Gasteiner Thermalwasser, Becken innen und außen und einem Saunabereich. Wer nach einer Bergtour entspannen will, ist hier richtig; vom Außenbecken blickst du auf die Berge.</p><p>Preise und Öffnungszeiten ändern sich (vorher prüfen). Das Wasser wird seit Jahrhunderten genutzt; plane zwei bis drei Stunden ein und nimm Badekleidung mit.</p>",
+     "text_en": "<p>The Felsentherme is a modern thermal spa right in the rock, with warm, mineral-rich Gastein thermal water, pools inside and outside and a sauna area. If you want to relax after a mountain tour, this is the right place; from the outdoor pool you look onto the mountains.</p><p>Prices and opening times change (check beforehand). The water has been used for centuries; plan two to three hours and bring swimwear.</p>",
+     "name_en": "Felsentherme Bad Gastein",
+     "q": "Felsentherme Bad Gastein",
+     "tip": "Plane die Therme für den Nachmittag nach einer Wanderung ein.",
+     "tip_en": "Plan the spa for the afternoon after a hike."
+    },
+    {
+     "name": "Stubnerkogel & Hängebrücke",
+     "text": "<p>Die Stubnerkogelbahn bringt dich in Minuten vom Ort auf rund 2.200 Meter. Oben erwartet dich eine Hängebrücke, die über eine Schlucht führt, ein Aussichtspunkt mit Blick auf das Gasteiner Tal und Wanderwege durch Almgelände. Im Winter ist es ein Skigebiet.</p><p>Die Fahrt lohnt sich bei klarem Wetter; prüfe Betriebszeiten und Wetter vorher. Nimm eine Jacke mit – oben ist es deutlich kühler.</p>",
+     "text_en": "<p>The Stubnerkogel cable car takes you in minutes from the village to about 2,200 metres. At the top await a suspension bridge crossing a gorge, a viewpoint overlooking the Gastein valley and hiking paths through alpine terrain. In winter it is a ski area.</p><p>The ride is worthwhile in clear weather; check operating times and weather beforehand. Bring a jacket – it is much cooler at the top.</p>",
+     "name_en": "Stubnerkogel & suspension bridge",
+     "q": "Stubnerkogel Bad Gastein",
+     "tip": "Fahr bei klarem Wetter hinauf und früh am Tag.",
+     "tip_en": "Go up in clear weather and early in the day."
+    }
+   ]
+  },
+  {
+   "id": "gems",
+   "h": "Hidden Gems & Lungau",
+   "h_en": "Hidden gems & Lungau",
+   "spots": [
+    {
+     "name": "Graukogel – ruhiger Wandergipfel",
+     "text": "<p>Der Graukogel bei Bad Gastein ist ein Berg mit rund 2.490 Metern. Eine Bahn führt auf die Mittelstation, von der Wanderwege weitergehen; der Gipfel erfordert Trittsicherheit und Kondition. Das Gelände ist ruhiger als der Stubnerkogel, und die Aussicht auf die Hohen Tauern ist weit.</p><p>Plane bei Gipfelplänen einen ganzen Tag ein und prüfe das Wetter. Nimm Wasser und Proviant mit; Hütten bieten Verpflegung.</p>",
+     "text_en": "<p>The Graukogel near Bad Gastein is a mountain of about 2,490 metres. A lift leads to the mid-station from which hiking trails continue; the summit requires sure-footedness and fitness. The terrain is quieter than the Stubnerkogel, and the view of the Hohe Tauern is wide.</p><p>If you plan a summit, allow a whole day and check the weather. Take water and snacks; huts offer refreshments.</p>",
+     "name_en": "Graukogel – a quieter hiking summit",
+     "gem": true,
+     "q": "Graukogel Bad Gastein",
+     "tip": "Starte früh und nutze die Mittelstation, wenn du kürzer wandern willst.",
+     "tip_en": "Start early and use the mid-station if you want a shorter hike."
+    },
+    {
+     "name": "Kaiserin-Elisabeth-Promenade",
+     "text": "<p>Die Promenade entlang der Gasteiner Ache war früher ein Spazierweg für Kurgäste. Heute kannst du in Ruhe am Wasser entlang gehen, an Bänken und kleinen Brücken vorbei, und das Rauschen des Flusses genießen.</p><p>Der Weg ist flach und eignet sich auch für eine kurze Pause zwischen zwei Terminen. Im Herbst ist das Laub besonders schön.</p>",
+     "text_en": "<p>The promenade along the Gasteiner Ache used to be a walk for spa guests. Today you can walk quietly along the water, past benches and small bridges, and enjoy the sound of the river.</p><p>The path is flat and also suits a short break between two plans. In autumn the foliage is especially beautiful.</p>",
+     "name_en": "Empress Elisabeth Promenade",
+     "gem": true,
+     "q": "Kaiserin-Elisabeth-Promenade Bad Gastein",
+     "tip": "Geh am Vormittag und kombiniere sie mit einem Café-Besuch.",
+     "tip_en": "Go in the morning and combine it with a café visit."
+    },
+    {
+     "name": "Burg Mauterndorf im Lungau",
+     "text": "<p>Rund 45 Autominuten südlich liegt der Lungau, eine ruhige Region, die als Biosphärenpark gilt. In Mauterndorf steht die gleichnamige Burg, eine mittelalterliche Festung mit Türmen, Rittersaal und Museum. Der Ort ist klein, mit Cafés und Gasthäusern.</p><p>Wenn du den Lungau länger erkunden willst, plane einen halben bis ganzen Tag ein. Im Sommer gibt es Wanderwege und Feste; Zeiten und Eintritt der Burg vorher prüfen.</p>",
+     "text_en": "<p>About 45 minutes’ drive south lies the Lungau, a quiet region considered a biosphere park. In Mauterndorf stands the castle of the same name, a medieval fortress with towers, knights’ hall and museum. The village is small, with cafés and inns.</p><p>If you want to explore the Lungau longer, plan half a day to a full day. In summer there are hiking trails and festivals; check castle times and admission beforehand.</p>",
+     "name_en": "Mauterndorf Castle in the Lungau",
+     "gem": true,
+     "q": "Burg Mauterndorf",
+     "tip": "Kombiniere die Burg mit einem Abstecher zur Landawirsee-Wanderung.",
+     "tip_en": "Combine the castle with a detour to the Landawirsee hike."
+    },
+    {
+     "name": "Gasteiner Heilstollen – Wärme im Berg",
+     "text": "<p>Der Gasteiner Heilstollen liegt im Berg bei Böckstein: Besucher fahren mit einer kleinen Bahn in den Stollen, wo es warm und feucht ist und das Gestein geringe Mengen Radon abgibt. Die Anwendungen werden bei Gelenk- und Atemwegserkrankungen genutzt; die Wirkung wird medizinisch unterschiedlich beurteilt.</p><p>Besprich den Besuch vorher mit einer Ärztin oder einem Arzt – für Schwangere und bei bestimmten Erkrankungen ist er nicht geeignet. Prüfe Termine und Anmeldung vorher; ohne Voranmeldung geht es oft nicht.</p>",
+     "text_en": "<p>The Gastein Healing Gallery lies in the mountain near Böckstein: visitors take a small train into the tunnel, where it is warm and humid and the rock gives off small amounts of radon. The treatments are used for joint and respiratory conditions; the effect is assessed differently in medicine.</p><p>Discuss the visit with a doctor beforehand – it is not suitable for pregnant women and with certain conditions. Check dates and registration beforehand; it often does not work without prior registration.</p>",
+     "name_en": "Gastein Healing Gallery – warmth in the mountain",
+     "gem": true,
+     "q": "Gasteiner Heilstollen",
+     "tip": "Frag vorher bei deiner Ärztin oder deinem Arzt nach, ob es für dich geeignet ist.",
+     "tip_en": "Ask your doctor beforehand whether it is suitable for you."
     }
    ]
   },
@@ -101,14 +185,18 @@
    "h": "Wochenende Gastein & Lungau",
    "h_en": "Weekend Gastein & Lungau",
    "items": [
-    "<strong>Tag 1</strong> – Bad Gastein, Wasserfall, abends Belle-Époque-Kulisse",
-    "<strong>Tag 2</strong> – Aufstieg zum Landawirsee, Baden, Übernachtung auf der Hütte",
-    "<strong>Tag 3</strong> – Abstieg über die Alm"
+    "<strong>Tag 1 Vormittag</strong> – Wasserfall und Belle-Époque-Spaziergang",
+    "<strong>Tag 1 Nachmittag</strong> – Felsentherme",
+    "<strong>Tag 2 früh</strong> – Aufstieg zum Landawirsee",
+    "<strong>Tag 2 Mittag</strong> – Kaiserschmarrn auf der Hütte",
+    "<strong>Tag 3 optional</strong> – Stubnerkogel oder Burg Mauterndorf"
    ],
    "items_en": [
-    "<strong>Day 1</strong> – Bad Gastein, waterfall, Belle Époque backdrop in the evening",
-    "<strong>Day 2</strong> – climb to Landawirsee, swim, overnight at the hut",
-    "<strong>Day 3</strong> – descent via the alp"
+    "<strong>Day 1 morning</strong> – waterfall and Belle Époque walk",
+    "<strong>Day 1 afternoon</strong> – Felsentherme",
+    "<strong>Day 2 early</strong> – ascent to Landawirsee",
+    "<strong>Day 2 midday</strong> – Kaiserschmarrn at the hut",
+    "<strong>Day 3 optional</strong> – Stubnerkogel or Mauterndorf Castle"
    ]
   }
  ],
@@ -118,6 +206,18 @@
    "q_en": "Is the Landawirsee for beginners?",
    "a": "<p>Du brauchst Trittsicherheit und gutes Schuhwerk.</p>",
    "a_en": "<p>You need sure-footedness and good shoes.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Bad Gastein?",
+   "q_en": "How many days do you need in Bad Gastein?",
+   "a": "Zwei bis drei Tage für Ort, Therme und eine Bergtour.",
+   "a_en": "Two to three days for village, spa and a mountain tour."
+  },
+  {
+   "q": "Ist Bad Gastein auch im Winter schön?",
+   "q_en": "Is Bad Gastein also nice in winter?",
+   "a": "Ja, im Winter gibt es Skigebiete (Stubnerkogel, Graukogel) und der Wasserfall wird zu Eis; die Thermen sind dann besonders gemütlich.",
+   "a_en": "Yes, in winter there are ski areas (Stubnerkogel, Graukogel) and the waterfall turns to ice; the spas are especially cosy then."
   }
  ]
 }

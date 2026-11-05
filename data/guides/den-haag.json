@@ -1,42 +1,225 @@
 {
-  "slug": "den-haag", "slug_en": "the-hague", "status": "live", "blog": "blog-bc-24",
-  "cc": "NL", "flag": "🇳🇱", "city": "Den Haag & Scheveningen", "city_en": "The Hague & Scheveningen", "updated": "2026-11-05",
-  "title": "Den Haag & Scheveningen Guide: Mauritshuis, Panorama Mesdag & Strand",
-  "title_en": "The Hague & Scheveningen Guide: Mauritshuis, Panorama Mesdag & Beach",
-  "desc": "Stadt und Meer an einem Tag: vormittags Vermeers Mädchen mit dem Perlenohrring, nachmittags mit der Tram an den Strand von Scheveningen – von Noel.",
-  "desc_en": "City and sea in one day: Vermeer’s Girl with a Pearl Earring in the morning, then the tram to Scheveningen beach in the afternoon – from Noel.",
-  "gyg_q": "The Hague",
-  "intro": "<p>Den Haag ist Regierungssitz, Kunststadt und Strandstadt in einem. Weil Scheveningen mit der Tram erreichbar ist, kannst du Museum und Meer an einem Tag kombinieren.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>The Hague is seat of government, art city and beach town in one. Because Scheveningen is reachable by tram, you can combine museum and sea in one day.</p><p>Prices and times are guidelines (2026).</p>",
-  "story": "<p>Mein Tipp für Den Haag: vormittags Vermeers „Mädchen mit dem Perlenohrring“ im Mauritshuis, nachmittags mit der Tram an den Strand von Scheveningen. Stadt und Meer an einem Tag – das ist für mich das Land der kurzen Wege.</p>",
-  "story_en": "<p>My tip for The Hague: Vermeer’s “Girl with a Pearl Earring” at the Mauritshuis in the morning, then the tram to Scheveningen beach in the afternoon. City and sea in one day – that is my land of short distances.</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"1–2 Tage","v_en":"1–2 days"},
-    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
-    {"k":"Beste Reisezeit","k_en":"Best time","v":"Mai–September für den Strand","v_en":"May–September for the beach"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Den Haag","h_en":"Getting to The Hague","box":"omio",
-     "html":"<p>Aus Deutschland fährst du über Amsterdam oder Rotterdam; ab dort fahren Intercity-Züge nach Den Haag Centraal. Von dort bringt dich die Tram in rund 20–30 Minuten nach Scheveningen. Aktuelle Fahrpläne vorher prüfen.</p>",
-     "html_en":"<p>From Germany you travel via Amsterdam or Rotterdam; from there intercity trains run to Den Haag Centraal. From there the tram takes you to Scheveningen in about 20–30 minutes. Check current timetables beforehand.</p>"},
-    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
-     "spots":[
-      {"name":"Mauritshuis","q":"Mauritshuis Den Haag","text":"<p>Vormittags Vermeers „Mädchen mit dem Perlenohrring“. Das Mauritshuis ist kompakt, Besucher berichten von 1–2,5 Stunden Besuchszeit und weniger Gedränge als in Amsterdam. Auf Google 4,7 Sterne bei über 20.000 Bewertungen.</p>","text_en":"<p>Vermeer’s “Girl with a Pearl Earring” in the morning. The Mauritshuis is compact, visitors report 1–2.5 hours and less crowding than in Amsterdam. 4.7 stars on Google from over 20,000 reviews.</p>","hours":"laut Google Di–So 10–18 Uhr, Mo ab 13 Uhr","hours_en":"Tue–Sun 10 am–6 pm, Mon from 1 pm according to Google","tip":"Online buchen; mit Museumskarte frei.","tip_en":"Book online; free with a museum card."},
-      {"name":"Strand & Pier Scheveningen","name_en":"Scheveningen beach & pier","q":"Scheveningen Pier","text":"<p>Nachmittags mit der Tram an den Strand. Die Pier hat Aussichtsdeck, Riesenrad, Bungee und Restaurants. Auf Google 4,4 Sterne bei rund 46.000 Bewertungen.</p>","text_en":"<p>In the afternoon take the tram to the beach. The pier has a viewing deck, Ferris wheel, bungee and restaurants. 4.4 stars on Google from about 46,000 reviews.</p>","tip":"Auch bei Wind gut: unteres Deck mit Imbissen.","tip_en":"Good even in wind: lower deck with food stalls."}
-     ]},
-    {"type":"spots","id":"gems","h":"Hidden Gem","h_en":"Hidden gem",
-     "spots":[
-      {"name":"Panorama Mesdag","gem":true,"q":"Panorama Mesdag Den Haag","text":"<p>Ein 360°-Gemälde des Strandes von Scheveningen im 19. Jahrhundert. Besucher nennen es eines der unterschätztesten Museen der Niederlande. Auf Google 4,7 Sterne bei über 5.400 Bewertungen.</p>","text_en":"<p>A 360° painting of Scheveningen beach in the 19th century. Visitors call it one of the most underrated museums in the Netherlands. 4.7 stars on Google from over 5,400 reviews.</p>","hours":"laut Google Di–So 10–17 Uhr, Mo geschlossen","hours_en":"Tue–Sun 10 am–5 pm, closed Mondays according to Google"}
-     ]},
-    {"type":"prose","id":"wissen","h":"Was die Niederlande ausmacht","h_en":"What makes the Netherlands special","box":"gyg",
-     "html":"<p>Amsterdam ist die Hauptstadt, regiert wird aber aus Den Haag. Mehr zu Land und Geschichte in meinem Amsterdam-Guide.</p>",
-     "html_en":"<p>Amsterdam is the capital, but the government sits in The Hague. More on the country and history in my Amsterdam guide.</p>"}
-  ],
-  "itinerary":[
-   {"h":"Stadt und Meer an einem Tag","h_en":"City and sea in one day","items":["<strong>Vormittag</strong> – Mauritshuis","<strong>Mittag</strong> – Panorama Mesdag","<strong>Nachmittag</strong> – Tram nach Scheveningen, Pier und Strand"],"items_en":["<strong>Morning</strong> – Mauritshuis","<strong>Midday</strong> – Panorama Mesdag","<strong>Afternoon</strong> – tram to Scheveningen, pier and beach"]}
-  ],
-  "faq":[
-   {"q":"Reicht ein Tag in Den Haag?","q_en":"Is one day enough in The Hague?","a":"<p>Ja, wenn du Museum und Strand kombinierst.</p>","a_en":"<p>Yes, if you combine museum and beach.</p>"},
-   {"q":"Wie komme ich nach Scheveningen?","q_en":"How do I get to Scheveningen?","a":"<p>Mit der Tram ab Den Haag in rund 20–30 Minuten.</p>","a_en":"<p>By tram from The Hague in about 20–30 minutes.</p>"}
-  ]
+ "slug": "den-haag",
+ "slug_en": "the-hague",
+ "status": "live",
+ "blog": "blog-bc-24",
+ "cc": "NL",
+ "flag": "🇳🇱",
+ "city": "Den Haag & Scheveningen",
+ "city_en": "The Hague & Scheveningen",
+ "updated": "2026-11-05",
+ "title": "Den Haag & Scheveningen Guide: 11 Orte – Mauritshuis, Binnenhof, Strand & Hidden Gems",
+ "title_en": "The Hague & Scheveningen Guide: 11 places – Mauritshuis, Binnenhof, beach & hidden gems",
+ "desc": "Stadt und Meer an einem Tag: vormittags Vermeers Mädchen mit dem Perlenohrring, nachmittags mit der Tram an den Strand von Scheveningen – von Noel.",
+ "desc_en": "City and sea in one day: Vermeer’s Girl with a Pearl Earring in the morning, then the tram to Scheveningen beach in the afternoon – from Noel.",
+ "gyg_q": "The Hague",
+ "intro": "<p>Den Haag ist Regierungssitz, Kunststadt und Strandstadt in einem. Weil Scheveningen mit der Tram erreichbar ist, kannst du Museum und Meer an einem Tag kombinieren.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>The Hague is seat of government, art city and beach town in one. Because Scheveningen is reachable by tram, you can combine museum and sea in one day.</p><p>Prices and times are guidelines (2026).</p>",
+ "story": "<p>Mein Tipp für Den Haag: vormittags Vermeers „Mädchen mit dem Perlenohrring“ im Mauritshuis, nachmittags mit der Tram an den Strand von Scheveningen. Stadt und Meer an einem Tag – das ist für mich das Land der kurzen Wege.</p>",
+ "story_en": "<p>My tip for The Hague: Vermeer’s “Girl with a Pearl Earring” at the Mauritshuis in the morning, then the tram to Scheveningen beach in the afternoon. City and sea in one day – that is my land of short distances.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1–2 Tage",
+   "v_en": "1–2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai–September für den Strand",
+   "v_en": "May–September for the beach"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Den Haag",
+   "h_en": "Getting to The Hague",
+   "box": "omio",
+   "html": "<p>Aus Deutschland fährst du über Amsterdam oder Rotterdam; ab dort fahren Intercity-Züge nach Den Haag Centraal. Von dort bringt dich die Tram in rund 20–30 Minuten nach Scheveningen. Aktuelle Fahrpläne vorher prüfen.</p><p>Den Haag erreichst du mit dem Zug aus Amsterdam oder Rotterdam; die Hauptbahnhöfe Den Haag Centraal und Den Haag HS liegen im Zentrum (Fahrpläne vorher prüfen). Straßenbahnen und Busse fahren dicht getaktet, auch nach Scheveningen; Zahlung mit Kreditkarte oder OV-chipkaart.</p><p>Aus NRW fährst du am besten mit Umstieg, oft über Arnheim oder Utrecht; plane die Fahrzeit mit etwa drei bis vier Stunden ein. Die Stadt ist flach – Leihräder sind eine gute Möglichkeit.</p>",
+   "html_en": "<p>From Germany you travel via Amsterdam or Rotterdam; from there intercity trains run to Den Haag Centraal. From there the tram takes you to Scheveningen in about 20–30 minutes. Check current timetables beforehand.</p><p>You reach The Hague by train from Amsterdam or Rotterdam; the main stations Den Haag Centraal and Den Haag HS are in the centre (check timetables beforehand). Trams and buses run at close intervals, also to Scheveningen; payment by credit card or OV chip card.</p><p>From NRW you travel best with a change, often via Arnhem or Utrecht; plan about three to four hours of travel. The city is flat – rental bikes are a good option.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Mauritshuis",
+     "q": "Mauritshuis Den Haag",
+     "text": "<p>Vormittags Vermeers „Mädchen mit dem Perlenohrring“. Das Mauritshuis ist kompakt, Besucher berichten von 1–2,5 Stunden Besuchszeit und weniger Gedränge als in Amsterdam. Auf Google 4,7 Sterne bei über 20.000 Bewertungen.</p><p>Das Mauritshuis ist ein Barockpalast am Hofvijver, in dem die Königliche Gemäldegalerie hängt. Neben Vermeers „Mädchen mit dem Perlenohrring“ siehst du Rembrandts „Anatomie des Dr. Tulp“ und Carel Fabritius’ „Der Distelfink“. Die Sammlung ist klein, aber hochkarätig: Du kannst sie in ein bis zwei Stunden in Ruhe ansehen.</p><p>Tickets lassen sich online mit Zeitfenster buchen; das erspart Wartezeit. Das Café im Haus hat einen schönen Blick auf den Teich. Prüfe Preise und Öffnungszeiten vorher.</p>",
+     "text_en": "<p>Vermeer’s “Girl with a Pearl Earring” in the morning. The Mauritshuis is compact, visitors report 1–2.5 hours and less crowding than in Amsterdam. 4.7 stars on Google from over 20,000 reviews.</p><p>The Mauritshuis is a Baroque palace on the Hofvijver in which the Royal Picture Gallery hangs. Besides Vermeer’s “Girl with a Pearl Earring” you see Rembrandt’s “The Anatomy Lesson of Dr Tulp” and Carel Fabritius’s “The Goldfinch”. The collection is small but top class: you can see it calmly in one to two hours.</p><p>Tickets can be booked online with a time slot; that saves waiting. The café in the house has a lovely view of the pond. Check prices and opening times beforehand.</p>",
+     "hours": "laut Google Di–So 10–18 Uhr, Mo ab 13 Uhr",
+     "hours_en": "Tue–Sun 10 am–6 pm, Mon from 1 pm according to Google",
+     "tip": "Buche Tickets mit Zeitfenster und komm zur Öffnung.",
+     "tip_en": "Book tickets with a time slot and come at opening."
+    },
+    {
+     "name": "Strand & Pier Scheveningen",
+     "name_en": "Scheveningen beach & pier",
+     "q": "Scheveningen Pier",
+     "text": "<p>Nachmittags mit der Tram an den Strand. Die Pier hat Aussichtsdeck, Riesenrad, Bungee und Restaurants. Auf Google 4,4 Sterne bei rund 46.000 Bewertungen.</p><p>Scheveningen ist der Badeort von Den Haag mit langem Sandstrand, Promenade, dem Kurhaus (ein Grandhotel von 1885) und der Pier, die rund 400 Meter ins Meer ragt. Von der Pier kannst du mit dem Riesenrad fahren, bungeejumpen oder in Restaurants einkehren. Die Straßenbahn fährt vom Zentrum in etwa 20 bis 30 Minuten.</p><p>Im Sommer ist der Strand voll, im Herbst und Winter kannst du bei Wind spazieren und in einem Strandpavillon heiße Schokolade trinken. Ein Fischbrötchen oder frischer Hering gehört dazu. Der Strand ist breit; achte bei Flut auf die Gezeiten.</p>",
+     "text_en": "<p>In the afternoon take the tram to the beach. The pier has a viewing deck, Ferris wheel, bungee and restaurants. 4.4 stars on Google from about 46,000 reviews.</p><p>Scheveningen is The Hague’s seaside resort with a long sandy beach, promenade, the Kurhaus (a grand hotel of 1885) and the pier that juts about 400 metres into the sea. From the pier you can ride the Ferris wheel, bungee jump or eat in restaurants. The tram runs from the centre in about 20 to 30 minutes.</p><p>In summer the beach is crowded; in autumn and winter you can walk in the wind and drink hot chocolate in a beach pavilion. A fish roll or fresh herring is part of it. The beach is wide; watch the tides at high water.</p>",
+     "tip": "Fahr am Nachmittag, bleib zum Sonnenuntergang und iss Fisch am Hafen.",
+     "tip_en": "Go in the afternoon, stay for sunset and eat fish at the harbour."
+    },
+    {
+     "name": "Binnenhof & Hofvijver",
+     "text": "<p>Der Binnenhof ist das politische Herz der Niederlande: ein mittelalterlicher Gebäudekomplex, in dem das Parlament tagt. Der Rittersaal aus dem 13. Jahrhundert ist das Herzstück. Wegen umfangreicher Renovierungen sind die Gebäude derzeit teilweise nicht zugänglich und das Parlament ist temporär umgezogen; prüfe vorher, welche Führungen möglich sind.</p><p>Auch von außen lohnt sich der Platz: Der Hofvijver, der Teich vor dem Binnenhof, spiegelt die Gebäude. Ein Spaziergang um den Teich ist besonders am Abend schön.</p>",
+     "text_en": "<p>The Binnenhof is the political heart of the Netherlands: a medieval complex of buildings in which parliament meets. The Knights’ Hall from the 13th century is the centrepiece. Because of extensive renovations the buildings are currently partly inaccessible and parliament has temporarily moved; check beforehand which tours are possible.</p><p>Even from outside the square is worthwhile: the Hofvijver, the pond in front of the Binnenhof, mirrors the buildings. A walk around the pond is especially nice in the evening.</p>",
+     "name_en": "Binnenhof & Hofvijver",
+     "q": "Binnenhof Den Haag",
+     "tip": "Prüfe vorher Führungen und komm zum Abendlicht an den Hofvijver.",
+     "tip_en": "Check tours beforehand and come to the Hofvijver in evening light."
+    },
+    {
+     "name": "Friedenspalast (Vredespaleis)",
+     "text": "<p>Der Friedenspalast ist Sitz des Internationalen Gerichtshofs der Vereinten Nationen und des Ständigen Schiedshofs. Das neugotische Gebäude wurde 1913 eröffnet; sein Bau wurde von Andrew Carnegie unterstützt. Ein Besucherzentrum erklärt Geschichte und Arbeit der Gerichte; Führungen im Gebäude sind begrenzt (vorher prüfen).</p><p>Auch von außen beeindruckt der Palast mit Türmen, Garten und goldenem Tor. Plane eine halbe bis eine Stunde ein.</p>",
+     "text_en": "<p>The Peace Palace is the seat of the International Court of Justice of the United Nations and the Permanent Court of Arbitration. The neo-Gothic building opened in 1913; its construction was supported by Andrew Carnegie. A visitor centre explains the history and work of the courts; tours inside the building are limited (check beforehand).</p><p>Even from outside the palace impresses with towers, garden and golden gate. Plan half an hour to an hour.</p>",
+     "name_en": "Peace Palace",
+     "q": "Peace Palace The Hague",
+     "tip": "Plane den Besuch im Besucherzentrum und buche eine Führung, falls möglich.",
+     "tip_en": "Plan the visit at the visitor centre and book a tour if possible."
+    },
+    {
+     "name": "Escher in Het Paleis",
+     "text": "<p>Im früheren Winterpalast der Königin Emma in der Lange Voorhout zeigt das Museum die Werke von M. C. Escher: unmögliche Treppen, Spiegelungen, Muster. Interaktive Installationen machen die optischen Täuschungen erlebbar; besonders Kinder lieben das Haus.</p><p>Plane etwa ein bis zwei Stunden ein; Tickets online buchen. Preise und Zeiten vorher prüfen.</p>",
+     "text_en": "<p>In the former winter palace of Queen Emma on the Lange Voorhout the museum shows the works of M. C. Escher: impossible staircases, reflections, patterns. Interactive installations make the optical illusions tangible; children especially love the house.</p><p>Plan about one to two hours; book tickets online. Check prices and times beforehand.</p>",
+     "name_en": "Escher in Het Paleis",
+     "q": "Escher in Het Paleis Den Haag",
+     "tip": "Perfekt bei Regen und mit Kindern.",
+     "tip_en": "Perfect in rain and with children."
+    },
+    {
+     "name": "Kunstmuseum Den Haag – Mondrian",
+     "text": "<p>Das Kunstmuseum (früher Gemeentemuseum) besitzt die weltweit größte Sammlung von Piet Mondrian, darunter sein letztes Werk „Victory Boogie Woogie“. Dazu kommen Mode, Design und Musikinstrumente. Das Gebäude von Berlage ist selbst ein Kunstwerk.</p><p>Wenn du Kunstgeschichte magst, plane zwei bis drei Stunden ein. Das Museum liegt etwas außerhalb des Zentrums und ist per Tram erreichbar. Eintritt und Zeiten vorher prüfen.</p>",
+     "text_en": "<p>The Kunstmuseum (formerly Gemeentemuseum) holds the world’s largest collection of Piet Mondrian, including his last work “Victory Boogie Woogie”. Fashion, design and musical instruments are added. The building by Berlage is itself a work of art.</p><p>If you like art history, plan two to three hours. The museum lies slightly outside the centre and can be reached by tram. Check admission and times beforehand.</p>",
+     "name_en": "Kunstmuseum Den Haag – Mondrian",
+     "q": "Kunstmuseum Den Haag",
+     "tip": "Fahr mit der Tram und plane zwei bis drei Stunden ein.",
+     "tip_en": "Take the tram and plan two to three hours."
+    },
+    {
+     "name": "Madurodam – die Niederlande im Miniaturformat",
+     "text": "<p>Madurodam ist ein Miniaturpark, in dem du die berühmtesten Bauwerke und Landschaften der Niederlande im Maßstab 1:25 siehst – Windmühlen, Grachtenhäuser, Flughafen und Hafen. Besonders Familien mit Kindern haben viel Spaß.</p><p>Plane zwei bis drei Stunden ein; Eintritt und Öffnungszeiten ändern sich. Der Park liegt in der Nähe von Scheveningen und lässt sich gut mit einem Strandbesuch verbinden.</p>",
+     "text_en": "<p>Madurodam is a miniature park in which you see the most famous buildings and landscapes of the Netherlands at a scale of 1:25 – windmills, canal houses, airport and port. Families with children in particular have a lot of fun.</p><p>Plan two to three hours; admission and opening times change. The park lies near Scheveningen and combines well with a beach visit.</p>",
+     "name_en": "Madurodam – the Netherlands in miniature",
+     "q": "Madurodam Den Haag",
+     "tip": "Kombiniere Madurodam mit einem Strandtag in Scheveningen.",
+     "tip_en": "Combine Madurodam with a beach day in Scheveningen."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gem",
+   "h_en": "Hidden gem",
+   "spots": [
+    {
+     "name": "Panorama Mesdag",
+     "gem": true,
+     "q": "Panorama Mesdag Den Haag",
+     "text": "<p>Ein 360°-Gemälde des Strandes von Scheveningen im 19. Jahrhundert. Besucher nennen es eines der unterschätztesten Museen der Niederlande. Auf Google 4,7 Sterne bei über 5.400 Bewertungen.</p><p>Das Panorama Mesdag ist ein 14 Meter hohes und rund 120 Meter langes Rundgemälde von 1881, das den Strand von Scheveningen mit Dünen, Fischern und Meer zeigt. Du stehst auf einer Plattform in der Mitte, und mit Sand und Vorbauten wirkt die Illusion so echt, dass du glaubst, in den Dünen zu stehen.</p><p>Plane eine halbe bis eine Stunde ein; Eintritt und Öffnungszeiten ändern sich. Es ist ein stilles, unterschätztes Highlight – ideal bei Regen.</p>",
+     "text_en": "<p>A 360° painting of Scheveningen beach in the 19th century. Visitors call it one of the most underrated museums in the Netherlands. 4.7 stars on Google from over 5,400 reviews.</p><p>The Panorama Mesdag is a circular painting 14 metres high and about 120 metres long from 1881, showing the beach at Scheveningen with dunes, fishermen and sea. You stand on a platform in the middle, and with sand and foreground props the illusion is so real that you believe you are standing in the dunes.</p><p>Plan half an hour to an hour; admission and opening times change. It is a quiet, underrated highlight – ideal in rain.</p>",
+     "hours": "laut Google Di–So 10–17 Uhr, Mo geschlossen",
+     "hours_en": "Tue–Sun 10 am–5 pm, closed Mondays according to Google",
+     "tip": "Perfekt bei Regen und leicht mit dem Mauritshuis zu kombinieren.",
+     "tip_en": "Perfect in rain and easy to combine with the Mauritshuis."
+    },
+    {
+     "name": "Scheveningen Haven – Fisch frisch vom Kutter",
+     "text": "<p>Der Hafen von Scheveningen ist noch immer ein Fischereihafen mit bunten Kuttern, Fischrestaurants und kleinen Räuchereien. Probiere hier frischen Hering (traditionell roh mit Zwiebeln), Kibbeling und Garnelen. Am Wochenende ist es lebendig.</p><p>Ein Spaziergang am Hafen führt dich zu Kneipen und Cafés mit Blick auf die Boote. Preise ändern sich; frag vorher nach dem Preis für Fisch nach Gewicht.</p>",
+     "text_en": "<p>The harbour of Scheveningen is still a fishing harbour with colourful cutters, fish restaurants and small smokehouses. Try fresh herring here (traditionally raw with onions), kibbeling and prawns. At weekends it is lively.</p><p>A walk along the harbour leads you to pubs and cafés with a view of the boats. Prices change; ask beforehand about the price of fish by weight.</p>",
+     "name_en": "Scheveningen harbour – fish fresh from the boat",
+     "gem": true,
+     "q": "Scheveningen Haven",
+     "tip": "Iss Hering oder Kibbeling am Hafen und trink einen Kaffee mit Blick auf die Boote.",
+     "tip_en": "Eat herring or kibbeling at the harbour and drink a coffee overlooking the boats."
+    },
+    {
+     "name": "Haagse Markt – Multikulti-Markt",
+     "text": "<p>Der Haagse Markt gilt als einer der größten Freiluftmärkte der Niederlande: Hunderte Stände mit Obst, Gemüse, Stoffen, Kleidung, Gewürzen und Fertiggerichten aus aller Welt. Hier siehst du das multikulturelle Den Haag.</p><p>Der Markt ist an bestimmten Tagen der Woche geöffnet (meist Dienstag bis Samstag; vorher prüfen). Komm am Vormittag mit Bargeld und iss etwas Warmes vom Stand.</p>",
+     "text_en": "<p>The Haagse Markt is considered one of the largest open-air markets in the Netherlands: hundreds of stalls with fruit, vegetables, fabrics, clothing, spices and ready meals from all over the world. Here you see the multicultural The Hague.</p><p>The market is open on certain days of the week (usually Tuesday to Saturday; check beforehand). Come in the morning with cash and eat something warm from a stall.</p>",
+     "name_en": "Haagse Markt – multicultural market",
+     "gem": true,
+     "q": "Haagse Markt Den Haag",
+     "tip": "Komm vormittags mit Bargeld und hungrig.",
+     "tip_en": "Come in the morning with cash and hungry."
+    },
+    {
+     "name": "Noordeinde-Palast & Haagse Hopjes",
+     "text": "<p>Der Paleis Noordeinde ist der Arbeitspalast des Königs. Du siehst ihn von außen, mit Garde und Platz davor; rund um den Palast liegen schöne Gassen mit Boutiquen, Cafés und Galerien. Das Viertel ist ruhiger als der Binnenhof.</p><p>Zu Den Haag gehört auch ein kleines Souvenir: Haagse Hopjes, Karamellbonbons mit Kaffeegeschmack, die in der Stadt entstanden. Du findest sie in Läden und Bäckereien.</p>",
+     "text_en": "<p>Noordeinde Palace is the king’s working palace. You see it from outside, with guard and square in front; around the palace lie lovely lanes with boutiques, cafés and galleries. The district is quieter than the Binnenhof.</p><p>A small souvenir also belongs to The Hague: Haagse Hopjes, caramel sweets with coffee flavour that originated in the city. You find them in shops and bakeries.</p>",
+     "name_en": "Noordeinde Palace & Haagse Hopjes",
+     "gem": true,
+     "q": "Paleis Noordeinde",
+     "tip": "Nimm dir Hopjes als Mitbringsel mit.",
+     "tip_en": "Take Hopjes with you as a souvenir."
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was die Niederlande ausmacht",
+   "h_en": "What makes the Netherlands special",
+   "box": "gyg",
+   "html": "<p>Amsterdam ist die Hauptstadt, regiert wird aber aus Den Haag. Mehr zu Land und Geschichte in meinem Amsterdam-Guide.</p>",
+   "html_en": "<p>Amsterdam is the capital, but the government sits in The Hague. More on the country and history in my Amsterdam guide.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Stadt und Meer",
+   "h_en": "City and sea",
+   "items": [
+    "<strong>Vormittag</strong> – Mauritshuis und Hofvijver, Binnenhof von außen",
+    "<strong>Mittag</strong> – Panorama Mesdag oder Escher in Het Paleis",
+    "<strong>Nachmittag</strong> – Tram nach Scheveningen, Strand und Pier",
+    "<strong>Abend</strong> – Fisch im Hafen, Sonnenuntergang am Strand"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Mauritshuis and Hofvijver, Binnenhof from outside",
+    "<strong>Midday</strong> – Panorama Mesdag or Escher in Het Paleis",
+    "<strong>Afternoon</strong> – tram to Scheveningen, beach and pier",
+    "<strong>Evening</strong> – fish at the harbour, sunset on the beach"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Reicht ein Tag in Den Haag?",
+   "q_en": "Is one day enough in The Hague?",
+   "a": "<p>Ja, wenn du Museum und Strand kombinierst.</p>",
+   "a_en": "<p>Yes, if you combine museum and beach.</p>"
+  },
+  {
+   "q": "Wie komme ich nach Scheveningen?",
+   "q_en": "How do I get to Scheveningen?",
+   "a": "<p>Mit der Tram ab Den Haag in rund 20–30 Minuten.</p>",
+   "a_en": "<p>By tram from The Hague in about 20–30 minutes.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Den Haag?",
+   "q_en": "How many days do you need in The Hague?",
+   "a": "Ein Tag für Mauritshuis und Strand, zwei Tage mit weiteren Museen und Madurodam.",
+   "a_en": "One day for Mauritshuis and beach, two days with more museums and Madurodam."
+  },
+  {
+   "q": "Ist der Friedenspalast zugänglich?",
+   "q_en": "Is the Peace Palace accessible?",
+   "a": "Das Besucherzentrum ist meist geöffnet; Führungen im Gebäude sind begrenzt und müssen oft vorab gebucht werden.",
+   "a_en": "The visitor centre is usually open; tours inside the building are limited and often need to be booked in advance."
+  }
+ ]
 }

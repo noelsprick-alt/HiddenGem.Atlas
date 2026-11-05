@@ -8,8 +8,8 @@
  "city": "Tokio",
  "city_en": "Tokyo",
  "updated": "2026-11-05",
- "title": "Tokio Guide: Meiji-Schrein, Harajuku & Shibuya bei Nacht",
- "title_en": "Tokyo Guide: Meiji Shrine, Harajuku & Shibuya at Night",
+ "title": "Tokio Guide: 11 Orte – Meiji-Schrein, Shibuya, Golden Gai & Hidden Gems",
+ "title_en": "Tokyo Guide: 11 places – Meiji Shrine, Shibuya, Golden Gai & hidden gems",
  "desc": "Tokio 2022: tagsüber Meiji-Schrein und Harajuku, zum Sonnenuntergang nach Shibuya – von Noel.",
  "desc_en": "Tokyo 2022: Meiji Shrine and Harajuku by day, Shibuya at sunset – from Noel.",
  "gyg_q": "Tokyo",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Yen (JPY)",
    "v_en": "Yen (JPY)"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "März bis Mai (Kirschblüte) und Oktober bis November",
+   "v_en": "March to May (cherry blossom) and October to November"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Tokio wird von den Flughäfen Narita und Haneda angeflogen; Züge und Busse bringen dich in die Stadt. Das U-Bahn-Netz ist dicht; aktuelle Tickets vorher prüfen.</p>",
-   "html_en": "<p>Tokyo is served by Narita and Haneda airports; trains and buses take you into the city. The subway network is dense; check current tickets beforehand.</p>"
+   "html": "<p>Tokio wird von den Flughäfen Narita und Haneda angeflogen; Züge und Busse bringen dich in die Stadt. Das U-Bahn-Netz ist dicht; aktuelle Tickets vorher prüfen.</p><p>Vom Flughafen Haneda bist du mit Zug oder Monorail in rund 30 bis 40 Minuten im Zentrum; vom Flughafen Narita dauert es mit dem Narita Express oder Skyliner rund 60 bis 90 Minuten (Fahrpläne und Preise vorher prüfen). In der Stadt nutzt du die JR Yamanote Line (der Ring) und die Metro; eine IC-Karte (Suica oder Pasmo) macht das Bezahlen leicht.</p><p>In Tokio ist Bargeld weiterhin wichtig: Kleine Lokale und Tempel nehmen oft nur Yen. Geldautomaten in Convenience-Stores wie 7-Eleven akzeptieren meist ausländische Karten.</p>",
+   "html_en": "<p>Tokyo is served by Narita and Haneda airports; trains and buses take you into the city. The subway network is dense; check current tickets beforehand.</p><p>From Haneda airport you reach the centre by train or monorail in about 30 to 40 minutes; from Narita airport it takes about 60 to 90 minutes by Narita Express or Skyliner (check timetables and prices beforehand). In the city you use the JR Yamanote Line (the loop) and the metro; an IC card (Suica or Pasmo) makes paying easy.</p><p>Cash is still important in Tokyo: small eateries and temples often take only yen. ATMs in convenience stores such as 7-Eleven usually accept foreign cards.</p>"
   },
   {
    "type": "spots",
@@ -49,22 +55,110 @@
    "spots": [
     {
      "name": "Meiji-Schrein",
-     "text": "Ein Waldspaziergang mitten in Tokio. Auf Google 4,7 Sterne bei über 54.000 Bewertungen. Besucher sagen: erstaunlich ruhig, Essen und Trinken im Schreinbereich verboten.",
-     "text_en": "A forest walk in the middle of Tokyo. 4.7 stars on Google from over 54,000 reviews. Visitors say: astonishingly quiet, eating and drinking not allowed in the shrine area.",
+     "text": "<p>Ein Waldspaziergang mitten in Tokio. Auf Google 4,7 Sterne bei über 54.000 Bewertungen. Besucher sagen: erstaunlich ruhig, Essen und Trinken im Schreinbereich verboten.</p><p>Der Meiji-Schrein wurde 1920 für Kaiser Meiji und Kaiserin Shōken errichtet und liegt in einem rund 70 Hektar großen Wald mit etwa 100.000 gespendeten Bäumen. Du betrittst ihn durch ein riesiges Torii und gehst auf Kiesweg zwischen hohen Bäumen zum Hauptgebäude. Am Weg stehen aufgestapelte Sake-Fässer, die dem Schrein gespendet wurden.</p><p>Mit etwas Glück siehst du eine traditionelle Hochzeitsprozession. Verhalte dich ruhig, verbeuge dich leicht am Torii und fotografiere respektvoll. Plane etwa eine Stunde ein; der Eintritt in den Schreinbezirk ist kostenlos.</p>",
+     "text_en": "<p>A forest walk in the middle of Tokyo. 4.7 stars on Google from over 54,000 reviews. Visitors say: astonishingly quiet, eating and drinking not allowed in the shrine area.</p><p>Meiji Shrine was built in 1920 for Emperor Meiji and Empress Shōken and lies in a forest of about 70 hectares with roughly 100,000 donated trees. You enter through a huge torii and walk on a gravel path between tall trees to the main building. Along the way stand stacked sake barrels donated to the shrine.</p><p>With luck you see a traditional wedding procession. Behave quietly, bow slightly at the torii and photograph respectfully. Plan about an hour; entry to the shrine grounds is free.</p>",
      "name_en": "Meiji Shrine",
-     "q": "Meiji Jingu Tokyo"
+     "q": "Meiji Jingu Tokyo",
+     "tip": "Komm morgens, wenn der Wald fast leer ist, und geh danach nach Harajuku.",
+     "tip_en": "Come in the morning when the forest is almost empty and go to Harajuku afterwards."
     },
     {
      "name": "Harajuku",
-     "text": "Direkt neben dem Schrein: Mode, Crêpes und Straßenszene.",
-     "text_en": "Right next to the shrine: fashion, crêpes and street scene.",
-     "q": "Harajuku"
+     "text": "<p>Direkt neben dem Schrein: Mode, Crêpes und Straßenszene.</p><p>Harajuku ist das Viertel der Jugendkultur. In der Takeshita-dōri, einer engen Fußgängerstraße, reihen sich bunte Läden, Crêpe-Stände, Süßigkeiten und Streetwear aneinander; am Wochenende ist es sehr voll. Ein paar Schritte weiter zeigt die Omotesandō ein anderes Gesicht: eine breite Allee mit Designerläden und moderner Architektur.</p><p>Probiere einen Crêpe mit Sahne und Früchten, schau in die Secondhand-Läden und gönn dir einen Matcha-Kaffee. Plane zwei bis drei Stunden ein; wochentags ist es entspannter.</p>",
+     "text_en": "<p>Right next to the shrine: fashion, crêpes and street scene.</p><p>Harajuku is the district of youth culture. On Takeshita-dōri, a narrow pedestrian street, colourful shops, crêpe stalls, sweets and streetwear line up; at weekends it is very crowded. A few steps further Omotesandō shows another face: a wide avenue with designer shops and modern architecture.</p><p>Try a crêpe with cream and fruit, look into the second-hand shops and treat yourself to a matcha coffee. Plan two to three hours; on weekdays it is more relaxed.</p>",
+     "q": "Harajuku",
+     "tip": "Komm unter der Woche und geh die Omotesandō entlang, wenn du Ruhe brauchst.",
+     "tip_en": "Come on a weekday and walk along Omotesandō when you need quiet."
     },
     {
      "name": "Shibuya Crossing",
-     "text": "Zum Sonnenuntergang nach Shibuya: Neon, Menschen, Energie. Auf Google 4,5 Sterne. Besucher empfehlen, von oben zuzuschauen und einmal selbst zu kreuzen.",
-     "text_en": "To Shibuya at sunset: neon, people, energy. 4.5 stars on Google. Visitors recommend watching from above and crossing once yourself.",
-     "q": "Shibuya Scramble Crossing"
+     "text": "<p>Zum Sonnenuntergang nach Shibuya: Neon, Menschen, Energie. Auf Google 4,5 Sterne. Besucher empfehlen, von oben zuzuschauen und einmal selbst zu kreuzen.</p><p>Die Shibuya Crossing gilt als eine der meistfrequentierten Kreuzungen der Welt: Wenn alle Ampeln auf Rot stehen, laufen Hunderte Menschen gleichzeitig aus allen Richtungen über die Straße. Du kannst selbst hinübergehen oder von oben zuschauen, zum Beispiel vom Shibuya Sky, einer Aussichtsplattform auf rund 230 Metern Höhe (Tickets im Voraus online buchen, Preise prüfen).</p><p>Besonders schön ist die Zeit kurz vor und nach Sonnenuntergang, wenn die Neonreklamen angehen. Am Bahnhof steht die Hachikō-Statue, ein beliebter Treffpunkt. Plane eine Stunde ein.</p>",
+     "text_en": "<p>To Shibuya at sunset: neon, people, energy. 4.5 stars on Google. Visitors recommend watching from above and crossing once yourself.</p><p>The Shibuya Crossing is considered one of the busiest crossings in the world: when all the lights are red, hundreds of people cross the street from all directions at the same time. You can cross yourself or watch from above, for example from Shibuya Sky, a viewing platform at about 230 metres (book tickets online in advance, check prices).</p><p>The time shortly before and after sunset is especially beautiful when the neon signs come on. At the station stands the Hachikō statue, a popular meeting point. Plan an hour.</p>",
+     "q": "Shibuya Scramble Crossing",
+     "tip": "Buche Shibuya Sky für Sonnenuntergang – die Slots sind schnell weg.",
+     "tip_en": "Book Shibuya Sky for sunset – the slots go fast."
+    },
+    {
+     "name": "Senso-ji & Asakusa",
+     "text": "<p>Der Sensō-ji in Asakusa ist Tokios ältester Tempel; er geht auf das 7. Jahrhundert zurück. Du betrittst ihn durch das große rote Kaminarimon-Tor mit der riesigen Laterne und gehst die Nakamise-dōri entlang, eine Einkaufsstraße mit Souvenirs, Snacks und Gebäck. Am Hauptgebäude kannst du Räucherstäbchen entzünden und Omikuji (Orakelzettel) ziehen.</p><p>Der Tempel ist tagsüber sehr voll; früh am Morgen oder abends, wenn er beleuchtet ist, ist er ruhiger. In der Nähe kannst du Streetfood probieren und den Blick auf den Skytree genießen.</p>",
+     "text_en": "<p>Sensō-ji in Asakusa is Tokyo’s oldest temple; it goes back to the 7th century. You enter through the large red Kaminarimon gate with its giant lantern and walk along Nakamise-dōri, a shopping street with souvenirs, snacks and pastries. At the main hall you can light incense and draw omikuji (fortune slips).</p><p>The temple is very crowded by day; early in the morning or in the evening, when it is lit, it is quieter. Nearby you can try street food and enjoy the view of the Skytree.</p>",
+     "name_en": "Sensō-ji & Asakusa",
+     "q": "Senso-ji Temple Asakusa",
+     "tip": "Komm vor 8 Uhr oder nach Sonnenuntergang, wenn es ruhiger ist.",
+     "tip_en": "Come before 8 a.m. or after sunset when it is quieter."
+    },
+    {
+     "name": "Shinjuku: Goldene Gasse, Omoide Yokochō & Rathaus-Aussicht",
+     "text": "<p>Shinjuku ist das Hochhausviertel mit dem größten Bahnhof der Welt. Direkt dahinter liegen enge Gassen mit kleinen Lokalen: Omoide Yokochō („Erinnerungsgasse“) mit Yakitori-Ständen und Golden Gai, ein Gewirr aus rund 200 winzigen Bars, in denen oft nur wenige Gäste Platz haben. Manche Bars verlangen einen Aufpreis oder sind nur für Stammgäste – schau auf die Schilder.</p><p>Eine kostenlose Aussicht bietet das Tokyo Metropolitan Government Building: Die Aussichtsplattform liegt auf rund 200 Metern (Öffnungszeiten vorher prüfen). Plane den Abend für Shinjuku ein.</p>",
+     "text_en": "<p>Shinjuku is the high-rise district with the largest station in the world. Right behind it lie narrow lanes with small eateries: Omoide Yokochō (“Memory Lane”) with yakitori stalls and Golden Gai, a tangle of about 200 tiny bars that often seat only a few guests. Some bars charge a cover or are for regulars only – look at the signs.</p><p>A free view is offered by the Tokyo Metropolitan Government Building: the observation deck lies at about 200 metres (check opening hours beforehand). Plan the evening for Shinjuku.</p>",
+     "name_en": "Shinjuku: Golden Gai, Omoide Yokochō & city-hall view",
+     "q": "Golden Gai Shinjuku",
+     "tip": "Schau auf die Schilder an den Bars und frag nach dem Aufpreis, bevor du eintrittst.",
+     "tip_en": "Look at the signs on the bars and ask about the cover charge before you enter."
+    },
+    {
+     "name": "Tsukiji Outer Market",
+     "text": "<p>Der große Fischmarkt zog 2018 nach Toyosu um, aber der Außenmarkt von Tsukiji existiert weiter: enge Gassen mit Dutzenden Ständen und kleinen Lokalen für Sushi, Tamagoyaki (Eieromelett), gegrillte Meeresfrüchte und Streetfood. Es ist ein guter Ort für ein frühes Frühstück.</p><p>Komm morgens, denn viele Stände schließen am Mittag oder Nachmittag. In den engen Gassen darfst du nicht im Gehen essen – iss am Stand. Plane eine bis zwei Stunden ein.</p>",
+     "text_en": "<p>The big fish market moved to Toyosu in 2018, but the outer market of Tsukiji continues to exist: narrow lanes with dozens of stalls and small eateries for sushi, tamagoyaki (egg omelette), grilled seafood and street food. It is a good place for an early breakfast.</p><p>Come in the morning, because many stalls close at midday or in the afternoon. In the narrow lanes you should not eat while walking – eat at the stall. Plan one to two hours.</p>",
+     "name_en": "Tsukiji Outer Market",
+     "q": "Tsukiji Outer Market",
+     "tip": "Komm vor 10 Uhr und iss am Stand, nicht im Gehen.",
+     "tip_en": "Come before 10 a.m. and eat at the stall, not while walking."
+    },
+    {
+     "name": "Kaiserlicher Palast – Ost-Gärten",
+     "text": "<p>Die Ostgärten des Kaiserpalastes (Higashi Gyoen) sind der frühere Bereich der Edo-Burg und kostenlos zugänglich. Du siehst alte Wallanlagen, Steinmauern, Wassergräben und gepflegte Gärten; einige Gebäude und Gräben sind erhalten. Der Palast selbst ist nicht öffentlich zugänglich.</p><p>Die Gärten sind ruhig und eignen sich gut für einen Spaziergang nach den Menschenmassen in Shibuya. Öffnungszeiten und Schließtage (oft montags und freitags) vorher prüfen.</p>",
+     "text_en": "<p>The East Gardens of the Imperial Palace (Higashi Gyoen) are the former area of Edo Castle and free to enter. You see old ramparts, stone walls, moats and well-kept gardens; some buildings and moats have survived. The palace itself is not open to the public.</p><p>The gardens are quiet and suit a walk after the crowds in Shibuya. Check opening times and closing days (often Monday and Friday) beforehand.</p>",
+     "name_en": "Imperial Palace East Gardens",
+     "q": "Imperial Palace East Gardens Tokyo",
+     "tip": "Prüfe die Schließtage und plane einen ruhigen Vormittag ein.",
+     "tip_en": "Check the closing days and plan a quiet morning."
+    }
+   ]
+  },
+  {
+   "id": "gems",
+   "h": "Hidden Gems in Tokio",
+   "h_en": "Hidden gems in Tokyo",
+   "spots": [
+    {
+     "name": "Nakameguro – Kanal, Cafés & Kirschblüte",
+     "text": "<p>Nakameguro liegt am Meguro-Fluss, an dessen Ufern im Frühling hunderte Kirschbäume blühen. Das Viertel ist ruhig, mit kleinen Cafés, Boutiquen und Bars entlang des Wassers. Im Frühjahr ist es voll, sonst ein entspannter Ort für einen Spaziergang und Kaffee.</p><p>Komm am Nachmittag, spaziere am Fluss entlang und such dir ein Café mit Blick aufs Wasser. Die Kirschblüte ist meist Ende März bis Anfang April, der genaue Zeitpunkt variiert.</p>",
+     "text_en": "<p>Nakameguro lies on the Meguro River, on whose banks hundreds of cherry trees bloom in spring. The district is quiet, with small cafés, boutiques and bars along the water. In spring it is crowded, otherwise a relaxed place for a walk and coffee.</p><p>Come in the afternoon, walk along the river and find a café with a view of the water. The cherry blossom is usually late March to early April; the exact timing varies.</p>",
+     "name_en": "Nakameguro – canal, cafés & cherry blossom",
+     "gem": true,
+     "q": "Nakameguro Meguro River",
+     "tip": "Komm zur Kirschblüte unter der Woche oder früh am Morgen.",
+     "tip_en": "Come during the cherry blossom on a weekday or early in the morning."
+    },
+    {
+     "name": "Shimokitazawa – Vintage und Livemusik",
+     "text": "<p>Shimokitazawa ist ein Viertel voller Secondhand-Läden, kleiner Cafés, Plattenläden und Livemusik-Clubs. Die Gassen sind verwinkelt und werden von jungen Leuten, Künstlern und Studierenden geprägt. Es ist eine entspannte Alternative zu Shibuya und Harajuku.</p><p>Plane einen Nachmittag ein, stöbere in Vintage-Läden und trinke einen Kaffee. Am Abend gibt es Livemusik in kleinen Clubs. Viele Läden öffnen erst gegen 12 Uhr.</p>",
+     "text_en": "<p>Shimokitazawa is a district full of second-hand shops, small cafés, record shops and live-music clubs. The lanes are winding and shaped by young people, artists and students. It is a relaxed alternative to Shibuya and Harajuku.</p><p>Plan an afternoon, browse vintage shops and drink a coffee. In the evening there is live music in small clubs. Many shops only open around noon.</p>",
+     "name_en": "Shimokitazawa – vintage & live music",
+     "gem": true,
+     "q": "Shimokitazawa Tokyo",
+     "tip": "Komm am Nachmittag, wenn die Läden offen sind, und bleib bis zum Abend.",
+     "tip_en": "Come in the afternoon when the shops are open and stay until the evening."
+    },
+    {
+     "name": "Yanaka – das alte Tokio",
+     "text": "<p>Yanaka ist eines der wenigen Viertel, die im Krieg und beim Erdbeben nicht zerstört wurden. Hier findest du kleine Holzhäuser, Tempel, einen Friedhof, enge Gassen und die Einkaufsstraße Yanaka Ginza. Katzen sind hier ein Thema – viele streunen durch die Gassen.</p><p>Das Viertel wirkt ruhig und authentisch, wie Tokio vor Jahrzehnten. Plane einen halben Tag ein und kombiniere ihn mit dem Ueno-Park.</p>",
+     "text_en": "<p>Yanaka is one of the few districts that were not destroyed in the war and the earthquake. Here you find small wooden houses, temples, a cemetery, narrow lanes and the shopping street Yanaka Ginza. Cats are a theme here – many roam the lanes.</p><p>The district feels quiet and authentic, like Tokyo decades ago. Plan half a day and combine it with Ueno Park.</p>",
+     "name_en": "Yanaka – old Tokyo",
+     "gem": true,
+     "q": "Yanaka Ginza Tokyo",
+     "tip": "Verbinde Yanaka mit dem Ueno-Park und plane einen halben Tag ein.",
+     "tip_en": "Combine Yanaka with Ueno Park and plan half a day."
+    },
+    {
+     "name": "Akihabara – Elektronik, Anime & Arcades",
+     "text": "<p>Akihabara ist Tokios Viertel für Elektronik, Manga, Anime und Spielhallen. Mehrstöckige Arcades, Läden für Figuren und Karten, Retro-Games und Maid-Cafés prägen das Bild. Auch wenn du kein Fan bist, ist ein Spaziergang ein Erlebnis.</p><p>Die Läden öffnen gegen 10 bis 11 Uhr; die Arcades sind bis spät abends offen. Nimm Bargeld mit und plane zwei bis drei Stunden ein.</p>",
+     "text_en": "<p>Akihabara is Tokyo’s district for electronics, manga, anime and arcades. Multi-storey arcades, shops for figures and cards, retro games and maid cafés shape the picture. Even if you are not a fan, a walk is an experience.</p><p>Shops open around 10 to 11 a.m.; the arcades stay open until late. Bring cash and plan two to three hours.</p>",
+     "name_en": "Akihabara – electronics, anime & arcades",
+     "q": "Akihabara Tokyo",
+     "tip": "Komm am späten Nachmittag und bleib bis zum Abend, wenn alles leuchtet.",
+     "tip_en": "Come in the late afternoon and stay until evening when everything glows."
     }
    ]
   },
@@ -80,17 +174,47 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Tokio",
-   "h_en": "One day in Tokyo",
+   "h": "Tag 1 – Klassiker",
+   "h_en": "Day 1 – Classics",
    "items": [
-    "<strong>Tagsüber</strong> – Meiji-Schrein, Harajuku",
-    "<strong>Sonnenuntergang</strong> – Shibuya",
-    "<strong>Abend</strong> – Neon und Essen"
+    "<strong>Morgens</strong> – Meiji-Schrein",
+    "<strong>Vormittag</strong> – Harajuku und Omotesandō",
+    "<strong>Nachmittag</strong> – Shibuya, Shibuya Sky zum Sonnenuntergang",
+    "<strong>Abend</strong> – Shinjuku: Omoide Yokochō und Golden Gai"
    ],
    "items_en": [
-    "<strong>By day</strong> – Meiji Shrine, Harajuku",
-    "<strong>Sunset</strong> – Shibuya",
-    "<strong>Evening</strong> – neon and food"
+    "<strong>Early morning</strong> – Meiji Shrine",
+    "<strong>Morning</strong> – Harajuku and Omotesandō",
+    "<strong>Afternoon</strong> – Shibuya, Shibuya Sky at sunset",
+    "<strong>Evening</strong> – Shinjuku: Omoide Yokochō and Golden Gai"
+   ]
+  },
+  {
+   "h": "Tag 2 – Altes & Neues",
+   "h_en": "Day 2 – Old & new",
+   "items": [
+    "<strong>Früh</strong> – Tsukiji Outer Market",
+    "<strong>Vormittag</strong> – Senso-ji und Asakusa",
+    "<strong>Nachmittag</strong> – Yanaka und Ueno-Park",
+    "<strong>Abend</strong> – Akihabara"
+   ],
+   "items_en": [
+    "<strong>Early</strong> – Tsukiji Outer Market",
+    "<strong>Morning</strong> – Sensō-ji and Asakusa",
+    "<strong>Afternoon</strong> – Yanaka and Ueno Park",
+    "<strong>Evening</strong> – Akihabara"
+   ]
+  },
+  {
+   "h": "Tag 3 – Viertel",
+   "h_en": "Day 3 – Districts",
+   "items": [
+    "<strong>Vormittag</strong> – Kaiserpalast-Ostgärten",
+    "<strong>Nachmittag</strong> – Nakameguro und Shimokitazawa"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Imperial Palace East Gardens",
+    "<strong>Afternoon</strong> – Nakameguro and Shimokitazawa"
    ]
   }
  ],
@@ -100,6 +224,18 @@
    "q_en": "How many days in Tokyo?",
    "a": "<p>Drei bis fünf.</p>",
    "a_en": "<p>Three to five.</p>"
+  },
+  {
+   "q": "Brauche ich Bargeld in Tokio?",
+   "q_en": "Do I need cash in Tokyo?",
+   "a": "Ja, kleine Läden und Tempel nehmen oft nur Yen. In Convenience-Stores kannst du meist mit ausländischen Karten Geld abheben.",
+   "a_en": "Yes, small shops and temples often take only yen. In convenience stores you can usually withdraw money with foreign cards."
+  },
+  {
+   "q": "Welche Verkehrskarte brauche ich?",
+   "q_en": "Which transport card do I need?",
+   "a": "Eine Suica- oder Pasmo-Karte (auch als Handy-Version) reicht für Bahn, Metro und Bus.",
+   "a_en": "A Suica or Pasmo card (also as a phone version) is enough for train, metro and bus."
   }
  ]
 }
