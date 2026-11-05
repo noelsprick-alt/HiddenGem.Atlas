@@ -1,42 +1,215 @@
 {
-  "slug": "antwerpen", "slug_en": "antwerp", "status": "live", "blog": "blog-bc-24",
-  "cc": "BE", "flag": "🇧🇪", "city": "Antwerpen", "city_en": "Antwerp", "updated": "2026-11-05",
-  "title": "Antwerpen Guide: Centraal, Cogels-Osylei, MAS & Vlaeykensgang",
-  "title_en": "Antwerp Guide: Centraal, Cogels-Osylei, MAS & Vlaeykensgang",
-  "desc": "Antwerpen in einem Tag: schönster Bahnhof der Welt, Jugendstil-Straße Cogels-Osylei, Dachterrasse des MAS, versteckte Gasse und ein Bolleke – von Noel.",
-  "desc_en": "Antwerp in a day: one of the world’s most beautiful stations, Art Nouveau street Cogels-Osylei, MAS rooftop, a hidden alley and a bolleke – from Noel.",
-  "gyg_q": "Antwerp",
-  "hero": "images/photos/antwerpen-grote-markt.webp", "hero_alt": "Grote Markt in Antwerpen", "hero_alt_en": "Grote Markt in Antwerp",
-  "intro": "<p>Antwerpen ist Hafenstadt, Modestadt und Diamantenstadt – und trotzdem entspannt. Schon die Ankunft ist ein Erlebnis.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>Antwerp is a port city, fashion city and diamond city – and yet relaxed. The arrival alone is an experience.</p><p>Prices and times are guidelines (2026).</p>",
-  "story": "<p>Mein Tipp für Antwerpen: Schon die Ankunft ist ein Erlebnis – Antwerpen-Centraal gehört zu den schönsten Bahnhöfen der Welt. Danach durch die Jugendstil-Fassaden der Cogels-Osylei und abends ein Bolleke bei De Koninck.</p>",
-  "story_en": "<p>My tip for Antwerp: arriving is already an experience – Antwerp Central is one of the most beautiful stations in the world. Then the Art Nouveau façades of Cogels-Osylei and a “bolleke” at De Koninck at night.</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"1–2 Tage","v_en":"1–2 days"},
-    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
-    {"k":"Sprache","k_en":"Language","v":"Niederländisch (Flämisch), Englisch klappt gut","v_en":"Dutch (Flemish), English works well"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Antwerpen","h_en":"Getting to Antwerp","box":"omio",
-     "html":"<p>Antwerpen erreichst du aus NRW per Zug (z. B. über Brüssel oder mit dem Thalys/Eurostar-Netz) oder per Fernbus; aktuelle Verbindungen vorher prüfen. Die Altstadt ist kompakt, das meiste läufst du.</p>",
-     "html_en":"<p>You reach Antwerp from NRW by train (e.g. via Brussels or the Thalys/Eurostar network) or coach; check current connections beforehand. The old town is compact, you walk most of it.</p>"},
-    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
-     "spots":[
-      {"name":"Antwerpen-Centraal","q":"Antwerpen-Centraal station","text":"<p>Die „Eisenbahn-Kathedrale“: hohe Kuppel, breite Treppen, Palastgefühl. Auf Google 4,6 Sterne bei über 6.500 Bewertungen – sehenswert, auch wenn du nicht mit dem Zug fährst.</p>","text_en":"<p>The “railway cathedral”: high dome, wide staircases, palace feeling. 4.6 stars on Google from over 6,500 reviews – worth seeing even if you are not taking a train.</p>"},
-      {"name":"MAS – Museum aan de Stroom","name_en":"MAS – Museum aan de Stroom","q":"MAS Museum aan de Stroom Antwerpen","text":"<p>Das Museum ist Antwerpens Hafengeschichte in einem roten Turm. Auf Google 4,5 Sterne. Die Dachterrasse ist laut Besuchern kostenlos und hat 360°-Blick, besonders zum Sonnenuntergang.</p>","text_en":"<p>The museum puts Antwerp’s port history in a red tower. 4.5 stars on Google. The rooftop is free according to visitors and has a 360° view, especially at sunset.</p>","hours":"laut Google Di–So 10–17 Uhr, Mo geschlossen","hours_en":"Tue–Sun 10 am–5 pm, closed Mondays according to Google"}
-     ]},
-    {"type":"spots","id":"gems","h":"Hidden Gems","h_en":"Hidden gems",
-     "spots":[
-      {"name":"Cogels-Osylei","gem":true,"q":"Cogels-Osylei Antwerpen","text":"<p>Die Jugendstil-Fassaden im Viertel Zurenborg: Straße um Straße mit prächtigen Häusern. Besucher erreichen sie leicht ab Berchem oder Centraal und nennen die Cafés an den Enden. Auf Google 4,9 Sterne (wenige Bewertungen).</p>","text_en":"<p>The Art Nouveau façades in the Zurenborg quarter: street after street of magnificent houses. Visitors easily reach it from Berchem or Centraal and mention the cafés at the ends. 4.9 stars on Google (few reviews).</p>"},
-      {"name":"Vlaeykensgang","gem":true,"q":"Vlaeykensgang Antwerpen","text":"<p>Eine versteckte historische Gasse mitten in der Altstadt, ruhig und fotogen. Auf Google 4,6 Sterne.</p>","text_en":"<p>A hidden historic alley in the heart of the old town, quiet and photogenic. 4.6 stars on Google.</p>"},
-      {"name":"Bolleke bei De Koninck","name_en":"A bolleke at De Koninck","q":"De Koninck Antwerp City Brewery","text":"<p>Abends ein Bolleke, das bernsteinfarbene Bier der Stadt. Die Stadtbrauerei bietet laut Besuchern eine interaktive Tour mit Verkostung. Auf Google 4,4 Sterne.</p>","text_en":"<p>In the evening a bolleke, the city’s amber beer. The city brewery offers an interactive tour with tasting according to visitors. 4.4 stars on Google.</p>","hours":"laut Google Di/Mi 11–19 Uhr, Do–So 11–22 Uhr, Mo zu","hours_en":"Tue/Wed 11 am–7 pm, Thu–Sun 11 am–10 pm, closed Mondays according to Google","tip":"Tour online buchen.","tip_en":"Book the tour online."}
-     ]}
-  ],
-  "itinerary":[
-   {"h":"Ein Tag in Antwerpen","h_en":"One day in Antwerp","items":["<strong>Ankunft</strong> – Centraal","<strong>Vormittag</strong> – Altstadt, Vlaeykensgang","<strong>Nachmittag</strong> – MAS-Dachterrasse","<strong>Spätnachmittag</strong> – Cogels-Osylei","<strong>Abend</strong> – Bolleke"],"items_en":["<strong>Arrival</strong> – Centraal","<strong>Morning</strong> – old town, Vlaeykensgang","<strong>Afternoon</strong> – MAS rooftop","<strong>Late afternoon</strong> – Cogels-Osylei","<strong>Evening</strong> – bolleke"]}
-  ],
-  "faq":[
-   {"q":"Reicht ein Tag in Antwerpen?","q_en":"Is one day enough in Antwerp?","a":"<p>Für die Highlights ja, mit Museen bleib zwei Tage.</p>","a_en":"<p>For the highlights yes, with museums stay two days.</p>"},
-   {"q":"Ist die MAS-Dachterrasse kostenlos?","q_en":"Is the MAS rooftop free?","a":"<p>Laut Besuchern ja; vorher aktuelle Infos prüfen.</p>","a_en":"<p>According to visitors yes; check current info beforehand.</p>"}
-  ]
+ "slug": "antwerpen",
+ "slug_en": "antwerp",
+ "status": "live",
+ "blog": "blog-bc-24",
+ "cc": "BE",
+ "flag": "🇧🇪",
+ "city": "Antwerpen",
+ "city_en": "Antwerp",
+ "updated": "2026-11-05",
+ "title": "Antwerpen Guide: 12 Orte – Centraal, Cogels-Osylei, MAS, Rubens & Hidden Gems",
+ "title_en": "Antwerp Guide: 12 places – Centraal, Cogels-Osylei, MAS, Rubens & hidden gems",
+ "desc": "Antwerpen in einem Tag: schönster Bahnhof der Welt, Jugendstil-Straße Cogels-Osylei, Dachterrasse des MAS, versteckte Gasse und ein Bolleke – von Noel.",
+ "desc_en": "Antwerp in a day: one of the world’s most beautiful stations, Art Nouveau street Cogels-Osylei, MAS rooftop, a hidden alley and a bolleke – from Noel.",
+ "gyg_q": "Antwerp",
+ "hero": "images/photos/antwerpen-grote-markt.webp",
+ "hero_alt": "Grote Markt in Antwerpen",
+ "hero_alt_en": "Grote Markt in Antwerp",
+ "intro": "<p>Antwerpen ist Hafenstadt, Modestadt und Diamantenstadt – und trotzdem entspannt. Schon die Ankunft ist ein Erlebnis.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Antwerp is a port city, fashion city and diamond city – and yet relaxed. The arrival alone is an experience.</p><p>Prices and times are guidelines (2026).</p>",
+ "story": "<p>Mein Tipp für Antwerpen: Schon die Ankunft ist ein Erlebnis – Antwerpen-Centraal gehört zu den schönsten Bahnhöfen der Welt. Danach durch die Jugendstil-Fassaden der Cogels-Osylei und abends ein Bolleke bei De Koninck.</p>",
+ "story_en": "<p>My tip for Antwerp: arriving is already an experience – Antwerp Central is one of the most beautiful stations in the world. Then the Art Nouveau façades of Cogels-Osylei and a “bolleke” at De Koninck at night.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1–2 Tage",
+   "v_en": "1–2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Sprache",
+   "k_en": "Language",
+   "v": "Niederländisch (Flämisch), Englisch klappt gut",
+   "v_en": "Dutch (Flemish), English works well"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Antwerpen",
+   "h_en": "Getting to Antwerp",
+   "box": "omio",
+   "html": "<p>Antwerpen erreichst du aus NRW per Zug (z. B. über Brüssel oder mit dem Thalys/Eurostar-Netz) oder per Fernbus; aktuelle Verbindungen vorher prüfen. Die Altstadt ist kompakt, das meiste läufst du.</p><p>Antwerpen ist von Brüssel, Gent, Amsterdam und Köln gut per Zug erreichbar; der Hauptbahnhof liegt zentral. Die Altstadt lässt sich zu Fuß erkunden, für Zurenborg und Het Zuid nimmst du Tram oder Bus.</p><p>Fahrpläne vorher prüfen.</p>",
+   "html_en": "<p>You reach Antwerp from NRW by train (e.g. via Brussels or the Thalys/Eurostar network) or coach; check current connections beforehand. The old town is compact, you walk most of it.</p><p>Antwerp is easy to reach by train from Brussels, Ghent, Amsterdam and Cologne; the central station is in the middle of the city. The old town can be explored on foot; for Zurenborg and Het Zuid you take tram or bus.</p><p>Check timetables beforehand.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Antwerpen-Centraal",
+     "q": "Antwerpen-Centraal station",
+     "text": "<p>Die „Eisenbahn-Kathedrale“: hohe Kuppel, breite Treppen, Palastgefühl. Auf Google 4,6 Sterne bei über 6.500 Bewertungen – sehenswert, auch wenn du nicht mit dem Zug fährst.</p><p>Der Bahnhof Antwerpen-Centraal wurde 1905 eröffnet und gilt wegen seiner Kuppel, der Treppen und der Eisenbogen als einer der schönsten Bahnhöfe der Welt. Die Haupthalle ist hoch und hell; mehrere Ebenen führen zu den Gleisen. Auch wenn du nicht reist, lohnt sich ein Blick hinein.</p><p>Plane eine Viertelstunde ein, um die Halle und die Treppen zu sehen und zu fotografieren.</p>",
+     "text_en": "<p>The “railway cathedral”: high dome, wide staircases, palace feeling. 4.6 stars on Google from over 6,500 reviews – worth seeing even if you are not taking a train.</p><p>Antwerpen-Centraal station opened in 1905 and is considered one of the most beautiful stations in the world because of its dome, stairs and iron arches. The main hall is high and bright; several levels lead to the platforms. Even if you are not travelling it is worth a look inside.</p><p>Plan a quarter of an hour to see and photograph the hall and the stairs.</p>",
+     "tip": "Geh die große Treppe hinauf und fotografiere von oben.",
+     "tip_en": "Go up the grand staircase and photograph from above."
+    },
+    {
+     "name": "MAS – Museum aan de Stroom",
+     "name_en": "MAS – Museum aan de Stroom",
+     "q": "MAS Museum aan de Stroom Antwerpen",
+     "text": "<p>Das Museum ist Antwerpens Hafengeschichte in einem roten Turm. Auf Google 4,5 Sterne. Die Dachterrasse ist laut Besuchern kostenlos und hat 360°-Blick, besonders zum Sonnenuntergang.</p>",
+     "text_en": "<p>The museum puts Antwerp’s port history in a red tower. 4.5 stars on Google. The rooftop is free according to visitors and has a 360° view, especially at sunset.</p>",
+     "hours": "laut Google Di–So 10–17 Uhr, Mo geschlossen",
+     "hours_en": "Tue–Sun 10 am–5 pm, closed Mondays according to Google"
+    },
+    {
+     "name": "Grote Markt & Rathaus",
+     "text": "<p>Der Grote Markt ist der Hauptplatz mit Zunfthäusern und dem Renaissance-Rathaus. In der Mitte steht der Brabo-Brunnen: Der Held Brabo wirft eine abgeschlagene Hand in die Schelde – so die Legende der Namensherkunft. Cafés und Terrassen laden zum Sitzen ein.</p><p>Besuche den Platz morgens oder am frühen Abend.</p>",
+     "text_en": "<p>The Grote Markt is the main square with guild houses and the Renaissance town hall. In the middle stands the Brabo Fountain: the hero Brabo throws a severed hand into the Scheldt – so the legend of the name’s origin goes. Cafés and terraces invite you to sit.</p><p>Visit the square in the morning or early evening.</p>",
+     "name_en": "Grote Markt & town hall",
+     "q": "Grote Markt Antwerp",
+     "tip": "Komm morgens oder am frühen Abend.",
+     "tip_en": "Come in the morning or early evening."
+    },
+    {
+     "name": "Kathedrale Unserer Lieben Frau",
+     "text": "<p>Die gotische Kathedrale mit ihrem hohen Turm ist das Wahrzeichen der Stadt. Im Innern hängen Gemälde von Peter Paul Rubens, darunter die Kreuzabnahme. Der Besuch ist kostenpflichtig (Preise und Zeiten vorher prüfen).</p><p>Plane etwa eine Stunde ein.</p>",
+     "text_en": "<p>The Gothic cathedral with its high tower is the city’s landmark. Inside hang paintings by Peter Paul Rubens, including the Descent from the Cross. The visit is charged (check prices and times beforehand).</p><p>Plan about an hour.</p>",
+     "name_en": "Cathedral of Our Lady",
+     "q": "Cathedral of Our Lady Antwerp",
+     "tip": "Schau dir Rubens’ Kreuzabnahme an.",
+     "tip_en": "See Rubens’ Descent from the Cross."
+    },
+    {
+     "name": "Rubenshuis",
+     "text": "<p>Das Rubenshuis war Wohnhaus und Atelier von Peter Paul Rubens. Du siehst Wohnräume, den Innenhof mit Garten und Gemälde des Künstlers. Das Haus vermittelt, wie ein Maler des 17. Jahrhunderts lebte und arbeitete.</p><p>Eintritt und Zeiten vorher prüfen.</p>",
+     "text_en": "<p>The Rubens House was the home and studio of Peter Paul Rubens. You see living rooms, the courtyard with garden and paintings by the artist. The house conveys how a 17th-century painter lived and worked.</p><p>Check admission and times beforehand.</p>",
+     "name_en": "Rubens House",
+     "q": "Rubenshuis Antwerp",
+     "tip": "Plane etwa eine Stunde ein.",
+     "tip_en": "Plan about an hour."
+    },
+    {
+     "name": "Diamantenviertel & Modeviertel",
+     "text": "<p>Antwerpen ist ein Zentrum des Diamantenhandels; rund um den Hauptbahnhof liegt das Diamantenviertel mit Juwelieren. Im Modeviertel um die Nationalestraat findest du Boutiquen und Designer. Der Bereich ist ein Fenster in die Mode- und Handelsgeschichte.</p><p>Bummle durch die Straßen und schau dir die Schaufenster an.</p>",
+     "text_en": "<p>Antwerp is a centre of the diamond trade; around the central station lies the diamond district with jewellers. In the fashion district around Nationalestraat you find boutiques and designers. The area is a window into fashion and trade history.</p><p>Stroll through the streets and look at the shop windows.</p>",
+     "name_en": "Diamond district & fashion district",
+     "q": "Antwerp Diamond District",
+     "tip": "Bummle durch die Straßen am Nachmittag.",
+     "tip_en": "Stroll through the streets in the afternoon."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Cogels-Osylei",
+     "gem": true,
+     "q": "Cogels-Osylei Antwerpen",
+     "text": "<p>Die Jugendstil-Fassaden im Viertel Zurenborg: Straße um Straße mit prächtigen Häusern. Besucher erreichen sie leicht ab Berchem oder Centraal und nennen die Cafés an den Enden. Auf Google 4,9 Sterne (wenige Bewertungen).</p>",
+     "text_en": "<p>The Art Nouveau façades in the Zurenborg quarter: street after street of magnificent houses. Visitors easily reach it from Berchem or Centraal and mention the cafés at the ends. 4.9 stars on Google (few reviews).</p>"
+    },
+    {
+     "name": "Vlaeykensgang",
+     "gem": true,
+     "q": "Vlaeykensgang Antwerpen",
+     "text": "<p>Eine versteckte historische Gasse mitten in der Altstadt, ruhig und fotogen. Auf Google 4,6 Sterne.</p>",
+     "text_en": "<p>A hidden historic alley in the heart of the old town, quiet and photogenic. 4.6 stars on Google.</p>"
+    },
+    {
+     "name": "Bolleke bei De Koninck",
+     "name_en": "A bolleke at De Koninck",
+     "q": "De Koninck Antwerp City Brewery",
+     "text": "<p>Abends ein Bolleke, das bernsteinfarbene Bier der Stadt. Die Stadtbrauerei bietet laut Besuchern eine interaktive Tour mit Verkostung. Auf Google 4,4 Sterne.</p>",
+     "text_en": "<p>In the evening a bolleke, the city’s amber beer. The city brewery offers an interactive tour with tasting according to visitors. 4.4 stars on Google.</p>",
+     "hours": "laut Google Di/Mi 11–19 Uhr, Do–So 11–22 Uhr, Mo zu",
+     "hours_en": "Tue/Wed 11 am–7 pm, Thu–Sun 11 am–10 pm, closed Mondays according to Google",
+     "tip": "Tour online buchen.",
+     "tip_en": "Book the tour online."
+    },
+    {
+     "name": "Het Zuid & Kunstviertel",
+     "text": "<p>Im Süden der Stadt liegt Het Zuid, ein Viertel mit Museen wie dem Königlichen Museum der Schönen Künste (KMSKA), Galerien, Cafés und Restaurants. Es wirkt entspannter als die Altstadt.</p><p>Verbinde Museumsbesuch und Kaffeepause.</p>",
+     "text_en": "<p>In the south of the city lies Het Zuid, a district with museums such as the Royal Museum of Fine Arts (KMSKA), galleries, cafés and restaurants. It feels more relaxed than the old town.</p><p>Combine a museum visit and a coffee break.</p>",
+     "name_en": "Het Zuid & art quarter",
+     "gem": true,
+     "q": "Het Zuid Antwerp",
+     "tip": "Verbinde Museum und Kaffeepause.",
+     "tip_en": "Combine museum and coffee break."
+    },
+    {
+     "name": "Schelde-Ufer & Het Steen",
+     "text": "<p>Am Fluss liegt die mittelalterliche Burg Het Steen, und an der Promenade kannst du entlang des Wassers spazieren. Von hier siehst du Frachtschiffe und die Stadtsilhouette. Besonders schön ist es am Abend.</p><p>Plane einen Spaziergang am Wasser ein.</p>",
+     "text_en": "<p>On the river lies the medieval castle Het Steen, and on the promenade you can stroll along the water. From here you see cargo ships and the city skyline. It is especially beautiful in the evening.</p><p>Plan a walk by the water.</p>",
+     "name_en": "Scheldt riverbank & Het Steen",
+     "gem": true,
+     "q": "Het Steen Antwerp",
+     "tip": "Komm am Abend zum Spaziergang.",
+     "tip_en": "Come for an evening walk."
+    },
+    {
+     "name": "Belgische Küche: Frites, Waffeln & Antwerpse Handjes",
+     "text": "<p>Probiere Pommes frites mit Soße, Waffeln, Pralinen und die Antwerpse Handjes, kleine Keks-Hände aus Mürbeteig, die an die Brabo-Legende erinnern. Dazu passt ein Bier wie das Bolleke von De Koninck.</p><p>In der Altstadt gibt es viele Lokale; frag nach Preisen.</p>",
+     "text_en": "<p>Try fries with sauce, waffles, pralines and the Antwerpse handjes, small shortbread hands that recall the Brabo legend. A beer like the Bolleke from De Koninck goes with it.</p><p>There are many places in the old town; ask for prices.</p>",
+     "name_en": "Belgian cuisine: fries, waffles & Antwerpse handjes",
+     "q": "Antwerpse Handjes",
+     "tip": "Probiere die Keks-Hände als Mitbringsel.",
+     "tip_en": "Try the biscuit hands as a souvenir."
+    }
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Antwerpen",
+   "h_en": "A day in Antwerp",
+   "items": [
+    "<strong>Vormittag</strong> – Centraal, Diamantenviertel",
+    "<strong>Mittag</strong> – Grote Markt, Kathedrale",
+    "<strong>Nachmittag</strong> – Rubenshuis, Vlaeykensgang",
+    "<strong>Abend</strong> – MAS-Dachterrasse, Bolleke"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Centraal, diamond district",
+    "<strong>Midday</strong> – Grote Markt, cathedral",
+    "<strong>Afternoon</strong> – Rubens House, Vlaeykensgang",
+    "<strong>Evening</strong> – MAS rooftop, Bolleke"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Reicht ein Tag in Antwerpen?",
+   "q_en": "Is one day enough in Antwerp?",
+   "a": "<p>Für die Highlights ja, mit Museen bleib zwei Tage.</p>",
+   "a_en": "<p>For the highlights yes, with museums stay two days.</p>"
+  },
+  {
+   "q": "Ist die MAS-Dachterrasse kostenlos?",
+   "q_en": "Is the MAS rooftop free?",
+   "a": "<p>Laut Besuchern ja; vorher aktuelle Infos prüfen.</p>",
+   "a_en": "<p>According to visitors yes; check current info beforehand.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Antwerpen?",
+   "q_en": "How many days do you need in Antwerp?",
+   "a": "Ein bis zwei Tage.",
+   "a_en": "One to two days."
+  }
+ ]
 }

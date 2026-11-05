@@ -1,49 +1,255 @@
 {
-  "slug": "amsterdam", "slug_en": "amsterdam", "status": "live", "blog": "blog-bc-24",
-  "cc": "NL", "flag": "🇳🇱", "city": "Amsterdam", "city_en": "Amsterdam", "updated": "2026-11-05",
-  "title": "Amsterdam Guide: Jordaan, NDSM-Werft, Foodhallen & A'DAM Lookout",
-  "title_en": "Amsterdam Guide: Jordaan, NDSM Wharf, Foodhallen & A'DAM Lookout",
-  "desc": "Amsterdam ohne Touristenstress: früh in den Jordaan, mit der Gratis-Fähre zur NDSM-Werft, Foodhallen in der alten Tram-Remise und der Blick vom A'DAM Lookout – von Noel.",
-  "desc_en": "Amsterdam without the tourist stress: the Jordaan early, the free ferry to NDSM Wharf, Foodhallen in the old tram depot and the view from A'DAM Lookout – from Noel.",
-  "gyg_q": "Amsterdam",
-  "intro": "<p>Amsterdam ist von NRW aus in wenigen Stunden erreichbar und fühlt sich trotzdem wie eine andere Welt an: Grachten, Fahrräder, Giebelhäuser. Der Trick ist, der Altstadt-Masse zu entgehen – früh aufstehen, Viertel wechseln und mit der Gratis-Fähre auf die andere Seite des IJ fahren.</p><p>Dieser Guide zeigt dir Must-Sees, Hidden Gems und praktische Tipps. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>Amsterdam is a few hours from NRW and still feels like another world: canals, bicycles, gabled houses. The trick is to dodge the old-town crowds – get up early, switch neighbourhoods and take the free ferry across the IJ.</p><p>This guide shows must-sees, hidden gems and practical tips. Prices and times are guidelines (2026).</p>",
-  "story": "<p>Die Niederlande sind für mich das Land der kurzen Wege – von NRW aus bist du in einer Stunde da, und jede Stadt fühlt sich anders an. In Amsterdam gilt mein Rat: früh in den Jordaan, wenn die Grachten noch dir gehören, und mittags in die Foodhallen in einer alten Straßenbahn-Remise. Für den Blick von oben: A'DAM Lookout – Mutige nehmen die Schaukel über der Dachkante.</p>",
-  "story_en": "<p>For me the Netherlands is the land of short distances – from NRW you are there in an hour, and every city feels different. In Amsterdam my advice is: the Jordaan early, while the canals are still yours, and lunch at the Foodhallen in an old tram depot. For the view from above: A'DAM Lookout – the brave take the swing over the edge.</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"2–3 Tage","v_en":"2–3 days"},
-    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
-    {"k":"Beste Reisezeit","k_en":"Best time","v":"April–Mai (Tulpen), September","v_en":"April–May (tulips), September"},
-    {"k":"Fortbewegung","k_en":"Getting around","v":"Zu Fuß, Tram, Fähre; Fahrrad nur mit Erfahrung","v_en":"On foot, tram, ferry; bike only if experienced"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Amsterdam und herum","h_en":"Getting to Amsterdam and around","box":"omio",
-     "html":"<p>Aus NRW fährst du mit dem Zug (ICE/IC über Arnheim) in rund zwei bis drei Stunden nach Amsterdam Centraal; aktuelle Verbindungen vorher prüfen. Der Flughafen Schiphol hat eine direkte Bahnverbindung zum Hauptbahnhof. In der Stadt reichen Füße, Tram und Fähre. Die Fähren hinter dem Hauptbahnhof über das IJ sind kostenlos.</p><p>Achtung: Auf Radwegen herrscht Tempo. Bleib beim Fotografieren nicht auf dem roten Asphalt stehen.</p>",
-     "html_en":"<p>From NRW you take the train (ICE/IC via Arnhem) to Amsterdam Centraal in about two to three hours; check current connections beforehand. Schiphol airport has a direct rail link to the central station. In town, feet, tram and ferry are enough. The ferries behind the central station across the IJ are free.</p><p>Careful: cyclists move fast. Do not stop on the red asphalt to take photos.</p>"},
-    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
-     "spots":[
-      {"name":"Jordaan & Grachten am Morgen","name_en":"Jordaan & canals in the morning","q":"Jordaan Amsterdam","text":"<p>Früh in den Jordaan, wenn die Grachten noch dir gehören: kleine Brücken, Hausboote und Cafés, bevor die Gruppen kommen. Samstags lohnt der Markt am Noordermarkt.</p>","text_en":"<p>The Jordaan early, while the canals are still yours: small bridges, houseboats and cafés before the groups arrive. On Saturdays the Noordermarkt market is worth a visit.</p>"},
-      {"name":"A'DAM Lookout","q":"A'DAM Lookout Amsterdam","text":"<p>Aussichtsturm in Amsterdam-Noord mit 360°-Blick über die Stadt, Bar und der Schaukel „Over the Edge“ über der Dachkante. Auf Google 4,6 Sterne bei über 31.000 Bewertungen. Erreichbar mit der Gratis-Fähre ab Hauptbahnhof.</p>","text_en":"<p>A tower in Amsterdam-Noord with a 360° view over the city, a bar and the “Over the Edge” swing above the roof edge. 4.6 stars on Google from over 31,000 reviews. Reach it with the free ferry from the central station.</p>","hours":"laut Google täglich ca. 10–22 Uhr","hours_en":"daily about 10 am–10 pm according to Google","tip":"Besucher nennen für die Schaukel einen Aufpreis (ein Gast: 30 €). Vor Sonnenuntergang hochfahren.","tip_en":"Visitors mention a surcharge for the swing (one guest: €30). Go up before sunset."},
-      {"name":"Foodhallen","q":"Foodhallen Amsterdam","text":"<p>Mittags in die Foodhallen: eine Streetfood-Halle in einer restaurierten Straßenbahn-Remise. Auf Google 4,4 Sterne bei über 23.000 Bewertungen. Gäste loben die Vielfalt (Bitterballen, Tacos, indonesische Gerichte), kritisieren teils Preise und volle Tische.</p>","text_en":"<p>Lunch at the Foodhallen: a street-food hall in a restored tram depot. 4.4 stars on Google from over 23,000 reviews. Guests praise the variety (bitterballen, tacos, Indonesian dishes), some criticise prices and full tables.</p>","hours":"laut Google täglich ca. 12–23 Uhr","hours_en":"daily about 12 pm–11 pm according to Google","tip":"Früh kommen, um einen Sitzplatz zu bekommen.","tip_en":"Come early to get a seat."}
-     ]},
-    {"type":"spots","id":"gems","h":"Hidden Gems","h_en":"Hidden gems",
-     "spots":[
-      {"name":"NDSM-Werft","name_en":"NDSM Wharf","gem":true,"q":"NDSM Amsterdam","text":"<p>Mit der kostenlosen Fähre (Linie F4 hinter dem Hauptbahnhof, rund 15 Minuten laut Besuchern) auf die andere Seite des IJ: eine ehemalige Werft voller Street-Art, Bars und Kreativszene. Der Eintritt zum Gelände ist frei. Auf Google 4,5 Sterne bei fast 10.000 Bewertungen.</p>","text_en":"<p>With the free ferry (line F4 behind the central station, about 15 minutes according to visitors) to the other side of the IJ: a former shipyard full of street art, bars and creative scene. Entry to the site is free. 4.5 stars on Google from nearly 10,000 reviews.</p>","price":"kostenlos","price_en":"free"},
-      {"name":"Kuriositäten: Katzenboot & Affen-Bar","name_en":"Oddities: cat boat & monkey bar","q":"Poezenboot Amsterdam","text":"<p>In Amsterdam gibt es ein Hausboot nur für Katzen (das Poezenboot) und eine Bar, in der Seeleute angeblich mit Affen bezahlten. Beides habe ich auf meine Karte gesetzt – Öffnungszeiten vorher prüfen.</p>","text_en":"<p>In Amsterdam there is a houseboat only for cats (the Poezenboot) and a bar where sailors supposedly paid with monkeys. I put both on my map – check opening times beforehand.</p>"}
-     ]},
-    {"type":"prose","id":"wissen","h":"Was die Niederlande ausmacht","h_en":"What makes the Netherlands special","box":"gyg",
-     "html":"<p>Es gibt mehr Fahrräder als Einwohner, und ein großer Teil des Landes liegt unter dem Meeresspiegel – geschützt von Deichen, Dünen und Pumpwerken. Im 17. Jahrhundert war die kleine Republik eine Weltmacht: Die 1602 gegründete Ostindien-Kompanie gilt als erste Aktiengesellschaft der Welt, Rembrandt und Vermeer malten in dieser Zeit. Hauptstadt ist Amsterdam, regiert wird aber aus Den Haag.</p>",
-     "html_en":"<p>There are more bicycles than inhabitants, and a large part of the country lies below sea level – protected by dikes, dunes and pumping stations. In the 17th century the small republic was a world power: the East India Company founded in 1602 is considered the world’s first joint-stock company, Rembrandt and Vermeer painted in this era. Amsterdam is the capital, but the government sits in The Hague.</p>"},
-    {"type":"prose","id":"uebernachten","h":"Wo übernachten?","h_en":"Where to stay",
-     "html":"<ul><li><strong>Jordaan / Grachtengürtel:</strong> schön, aber teuer.</li><li><strong>Amsterdam-Noord:</strong> ruhiger, nah an NDSM und A'DAM Lookout, Fähre kostenlos.</li><li><strong>Nähe Hauptbahnhof:</strong> praktisch für Anreise, abends touristisch.</li></ul><p>Amsterdam ist teuer – früh buchen.</p>",
-     "html_en":"<ul><li><strong>Jordaan / canal ring:</strong> beautiful but expensive.</li><li><strong>Amsterdam-Noord:</strong> quieter, close to NDSM and A'DAM Lookout, ferry free.</li><li><strong>Near the central station:</strong> practical for arrival, touristy at night.</li></ul><p>Amsterdam is expensive – book early.</p>"}
-  ],
-  "itinerary":[
-   {"h":"Ein Tag nach Noels Rat","h_en":"One day following Noel’s advice","items":["<strong>Früh</strong> – Jordaan und Grachten","<strong>Mittag</strong> – Foodhallen","<strong>Nachmittag</strong> – Gratis-Fähre nach Noord, NDSM-Werft","<strong>Spätnachmittag</strong> – A'DAM Lookout"],"items_en":["<strong>Early</strong> – Jordaan and canals","<strong>Midday</strong> – Foodhallen","<strong>Afternoon</strong> – free ferry to Noord, NDSM Wharf","<strong>Late afternoon</strong> – A'DAM Lookout"]}
-  ],
-  "faq":[
-   {"q":"Wie lange braucht man in Amsterdam?","q_en":"How long do you need in Amsterdam?","a":"<p>Zwei Tage für die Highlights, drei mit Museen und Noord.</p>","a_en":"<p>Two days for the highlights, three with museums and Noord.</p>"},
-   {"q":"Ist die Fähre zur NDSM wirklich kostenlos?","q_en":"Is the ferry to NDSM really free?","a":"<p>Ja, die IJ-Fähren hinter dem Hauptbahnhof sind laut Besuchern kostenlos.</p>","a_en":"<p>Yes, the IJ ferries behind the central station are free according to visitors.</p>"},
-   {"q":"Brauche ich ein Auto?","q_en":"Do I need a car?","a":"<p>Nein. Zug, Tram und Fähre reichen, Parken ist teuer.</p>","a_en":"<p>No. Train, tram and ferry are enough, parking is expensive.</p>"}
-  ]
+ "slug": "amsterdam",
+ "slug_en": "amsterdam",
+ "status": "live",
+ "blog": "blog-bc-24",
+ "cc": "NL",
+ "flag": "🇳🇱",
+ "city": "Amsterdam",
+ "city_en": "Amsterdam",
+ "updated": "2026-11-05",
+ "title": "Amsterdam Guide: 14 Orte – Jordaan, NDSM, Foodhallen, Rijksmuseum & Hidden Gems",
+ "title_en": "Amsterdam Guide: 14 places – Jordaan, NDSM, Foodhallen, Rijksmuseum & hidden gems",
+ "desc": "Amsterdam ohne Touristenstress: früh in den Jordaan, mit der Gratis-Fähre zur NDSM-Werft, Foodhallen in der alten Tram-Remise und der Blick vom A'DAM Lookout – von Noel.",
+ "desc_en": "Amsterdam without the tourist stress: the Jordaan early, the free ferry to NDSM Wharf, Foodhallen in the old tram depot and the view from A'DAM Lookout – from Noel.",
+ "gyg_q": "Amsterdam",
+ "intro": "<p>Amsterdam ist von NRW aus in wenigen Stunden erreichbar und fühlt sich trotzdem wie eine andere Welt an: Grachten, Fahrräder, Giebelhäuser. Der Trick ist, der Altstadt-Masse zu entgehen – früh aufstehen, Viertel wechseln und mit der Gratis-Fähre auf die andere Seite des IJ fahren.</p><p>Dieser Guide zeigt dir Must-Sees, Hidden Gems und praktische Tipps. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Amsterdam is a few hours from NRW and still feels like another world: canals, bicycles, gabled houses. The trick is to dodge the old-town crowds – get up early, switch neighbourhoods and take the free ferry across the IJ.</p><p>This guide shows must-sees, hidden gems and practical tips. Prices and times are guidelines (2026).</p>",
+ "story": "<p>Die Niederlande sind für mich das Land der kurzen Wege – von NRW aus bist du in einer Stunde da, und jede Stadt fühlt sich anders an. In Amsterdam gilt mein Rat: früh in den Jordaan, wenn die Grachten noch dir gehören, und mittags in die Foodhallen in einer alten Straßenbahn-Remise. Für den Blick von oben: A'DAM Lookout – Mutige nehmen die Schaukel über der Dachkante.</p>",
+ "story_en": "<p>For me the Netherlands is the land of short distances – from NRW you are there in an hour, and every city feels different. In Amsterdam my advice is: the Jordaan early, while the canals are still yours, and lunch at the Foodhallen in an old tram depot. For the view from above: A'DAM Lookout – the brave take the swing over the edge.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "April–Mai (Tulpen), September",
+   "v_en": "April–May (tulips), September"
+  },
+  {
+   "k": "Fortbewegung",
+   "k_en": "Getting around",
+   "v": "Zu Fuß, Tram, Fähre; Fahrrad nur mit Erfahrung",
+   "v_en": "On foot, tram, ferry; bike only if experienced"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Amsterdam und herum",
+   "h_en": "Getting to Amsterdam and around",
+   "box": "omio",
+   "html": "<p>Aus NRW fährst du mit dem Zug (ICE/IC über Arnheim) in rund zwei bis drei Stunden nach Amsterdam Centraal; aktuelle Verbindungen vorher prüfen. Der Flughafen Schiphol hat eine direkte Bahnverbindung zum Hauptbahnhof. In der Stadt reichen Füße, Tram und Fähre. Die Fähren hinter dem Hauptbahnhof über das IJ sind kostenlos.</p><p>Achtung: Auf Radwegen herrscht Tempo. Bleib beim Fotografieren nicht auf dem roten Asphalt stehen.</p>",
+   "html_en": "<p>From NRW you take the train (ICE/IC via Arnhem) to Amsterdam Centraal in about two to three hours; check current connections beforehand. Schiphol airport has a direct rail link to the central station. In town, feet, tram and ferry are enough. The ferries behind the central station across the IJ are free.</p><p>Careful: cyclists move fast. Do not stop on the red asphalt to take photos.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Jordaan & Grachten am Morgen",
+     "name_en": "Jordaan & canals in the morning",
+     "q": "Jordaan Amsterdam",
+     "text": "<p>Früh in den Jordaan, wenn die Grachten noch dir gehören: kleine Brücken, Hausboote und Cafés, bevor die Gruppen kommen. Samstags lohnt der Markt am Noordermarkt.</p>",
+     "text_en": "<p>The Jordaan early, while the canals are still yours: small bridges, houseboats and cafés before the groups arrive. On Saturdays the Noordermarkt market is worth a visit.</p>"
+    },
+    {
+     "name": "A'DAM Lookout",
+     "q": "A'DAM Lookout Amsterdam",
+     "text": "<p>Aussichtsturm in Amsterdam-Noord mit 360°-Blick über die Stadt, Bar und der Schaukel „Over the Edge“ über der Dachkante. Auf Google 4,6 Sterne bei über 31.000 Bewertungen. Erreichbar mit der Gratis-Fähre ab Hauptbahnhof.</p>",
+     "text_en": "<p>A tower in Amsterdam-Noord with a 360° view over the city, a bar and the “Over the Edge” swing above the roof edge. 4.6 stars on Google from over 31,000 reviews. Reach it with the free ferry from the central station.</p>",
+     "hours": "laut Google täglich ca. 10–22 Uhr",
+     "hours_en": "daily about 10 am–10 pm according to Google",
+     "tip": "Besucher nennen für die Schaukel einen Aufpreis (ein Gast: 30 €). Vor Sonnenuntergang hochfahren.",
+     "tip_en": "Visitors mention a surcharge for the swing (one guest: €30). Go up before sunset."
+    },
+    {
+     "name": "Foodhallen",
+     "q": "Foodhallen Amsterdam",
+     "text": "<p>Mittags in die Foodhallen: eine Streetfood-Halle in einer restaurierten Straßenbahn-Remise. Auf Google 4,4 Sterne bei über 23.000 Bewertungen. Gäste loben die Vielfalt (Bitterballen, Tacos, indonesische Gerichte), kritisieren teils Preise und volle Tische.</p>",
+     "text_en": "<p>Lunch at the Foodhallen: a street-food hall in a restored tram depot. 4.4 stars on Google from over 23,000 reviews. Guests praise the variety (bitterballen, tacos, Indonesian dishes), some criticise prices and full tables.</p>",
+     "hours": "laut Google täglich ca. 12–23 Uhr",
+     "hours_en": "daily about 12 pm–11 pm according to Google",
+     "tip": "Früh kommen, um einen Sitzplatz zu bekommen.",
+     "tip_en": "Come early to get a seat."
+    },
+    {
+     "name": "Rijksmuseum",
+     "text": "<p>Das Rijksmuseum zeigt niederländische Kunst und Geschichte, darunter Rembrandts „Nachtwache“ und Werke von Vermeer. Das Gebäude ist selbst sehenswert. Die Sammlung ist groß; wähle Höhepunkte, wenn du wenig Zeit hast.</p><p>Tickets online buchen; Zeiten und Preise vorher prüfen.</p>",
+     "text_en": "<p>The Rijksmuseum shows Dutch art and history, including Rembrandt’s “Night Watch” and works by Vermeer. The building is worth seeing itself. The collection is large; choose highlights if you have little time.</p><p>Book tickets online; check times and prices beforehand.</p>",
+     "name_en": "Rijksmuseum",
+     "q": "Rijksmuseum Amsterdam",
+     "tip": "Buche Tickets online und plane zwei bis drei Stunden ein.",
+     "tip_en": "Book tickets online and plan two to three hours."
+    },
+    {
+     "name": "Anne-Frank-Haus",
+     "text": "<p>Das Anne-Frank-Haus ist das Hinterhaus, in dem Anne Frank sich während des Zweiten Weltkriegs versteckte. Die Besichtigung ist bewegend. Tickets sind nur online mit Zeitfenster erhältlich und oft Wochen im Voraus ausverkauft (aktuelle Regeln vorher prüfen).</p><p>Plane den Besuch früh und rechne mit ruhiger Atmosphäre.</p>",
+     "text_en": "<p>The Anne Frank House is the annex where Anne Frank hid during the Second World War. The visit is moving. Tickets are available only online with a time slot and are often sold out weeks ahead (check current rules beforehand).</p><p>Plan the visit early and expect a quiet atmosphere.</p>",
+     "name_en": "Anne Frank House",
+     "q": "Anne Frank House Amsterdam",
+     "tip": "Buche Wochen im Voraus.",
+     "tip_en": "Book weeks in advance."
+    },
+    {
+     "name": "Vondelpark",
+     "text": "<p>Der Vondelpark ist der größte Stadtpark Amsterdams mit Teichen, Wiesen und Cafés. Im Sommer picknicken Menschen und es gibt Konzerte. Eine gute Pause zwischen Museen.</p><p>Leih dir ein Fahrrad und fahr durch den Park.</p>",
+     "text_en": "<p>Vondelpark is Amsterdam’s largest city park with ponds, lawns and cafés. In summer people picnic and there are concerts. A good break between museums.</p><p>Rent a bicycle and ride through the park.</p>",
+     "name_en": "Vondelpark",
+     "q": "Vondelpark Amsterdam",
+     "tip": "Leih dir ein Fahrrad.",
+     "tip_en": "Rent a bicycle."
+    },
+    {
+     "name": "Grachtenfahrt",
+     "text": "<p>Eine Grachtenfahrt zeigt dir Amsterdam vom Wasser aus: Brücken, Giebelhäuser und Hausboote. Es gibt Rundfahrten mit Audioguide, kleine Boote und Abendfahrten. Abendfahrten sind stimmungsvoll, wenn die Brücken beleuchtet sind.</p><p>Vergleiche Anbieter und Preise.</p>",
+     "text_en": "<p>A canal cruise shows you Amsterdam from the water: bridges, gabled houses and houseboats. There are tours with audio guide, small boats and evening cruises. Evening cruises are atmospheric when the bridges are lit.</p><p>Compare providers and prices.</p>",
+     "name_en": "Canal cruise",
+     "q": "Amsterdam canal cruise",
+     "tip": "Wähle eine Abendfahrt.",
+     "tip_en": "Choose an evening cruise."
+    },
+    {
+     "name": "Fahrrad fahren in Amsterdam",
+     "text": "<p>Amsterdam ist eine Fahrradstadt; du kannst Räder mieten und die Stadt wie Einheimische erkunden. Achte auf Fahrradwege, Straßenbahnschienen und Fußgänger. Radfahrer haben oft Vorrang, aber der Verkehr ist dicht.</p><p>Schließe das Rad gut ab und beachte Regeln.</p>",
+     "text_en": "<p>Amsterdam is a cycling city; you can rent bikes and explore the city like locals. Watch for cycle paths, tram tracks and pedestrians. Cyclists often have priority, but traffic is dense.</p><p>Lock your bike well and follow the rules.</p>",
+     "name_en": "Cycling in Amsterdam",
+     "q": "Bike rental Amsterdam",
+     "tip": "Schließe das Rad immer gut ab.",
+     "tip_en": "Always lock your bike well."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "NDSM-Werft",
+     "name_en": "NDSM Wharf",
+     "gem": true,
+     "q": "NDSM Amsterdam",
+     "text": "<p>Mit der kostenlosen Fähre (Linie F4 hinter dem Hauptbahnhof, rund 15 Minuten laut Besuchern) auf die andere Seite des IJ: eine ehemalige Werft voller Street-Art, Bars und Kreativszene. Der Eintritt zum Gelände ist frei. Auf Google 4,5 Sterne bei fast 10.000 Bewertungen.</p>",
+     "text_en": "<p>With the free ferry (line F4 behind the central station, about 15 minutes according to visitors) to the other side of the IJ: a former shipyard full of street art, bars and creative scene. Entry to the site is free. 4.5 stars on Google from nearly 10,000 reviews.</p>",
+     "price": "kostenlos",
+     "price_en": "free"
+    },
+    {
+     "name": "Kuriositäten: Katzenboot & Affen-Bar",
+     "name_en": "Oddities: cat boat & monkey bar",
+     "q": "Poezenboot Amsterdam",
+     "text": "<p>In Amsterdam gibt es ein Hausboot nur für Katzen (das Poezenboot) und eine Bar, in der Seeleute angeblich mit Affen bezahlten. Beides habe ich auf meine Karte gesetzt – Öffnungszeiten vorher prüfen.</p>",
+     "text_en": "<p>In Amsterdam there is a houseboat only for cats (the Poezenboot) and a bar where sailors supposedly paid with monkeys. I put both on my map – check opening times beforehand.</p>"
+    },
+    {
+     "name": "Begijnhof – ruhiger Hof",
+     "text": "<p>Das Begijnhof ist ein historischer Hof mit kleinen Häusern, einem Garten und der ältesten erhaltenen Holzhausfassade der Stadt, mitten im Zentrum. Es ist ruhig und ein Ort zum Durchatmen. Bewohner leben hier; sei leise.</p><p>Du betrittst den Hof durch einen kleinen Durchgang.</p>",
+     "text_en": "<p>The Begijnhof is a historic courtyard with small houses, a garden and the oldest surviving wooden house façade in the city, right in the centre. It is quiet and a place to catch your breath. Residents live here; be quiet.</p><p>You enter the courtyard through a small passage.</p>",
+     "name_en": "Begijnhof – quiet courtyard",
+     "gem": true,
+     "q": "Begijnhof Amsterdam",
+     "tip": "Sei leise – hier wohnen Menschen.",
+     "tip_en": "Be quiet – people live here."
+    },
+    {
+     "name": "De Pijp & Albert-Cuyp-Markt",
+     "text": "<p>De Pijp ist ein lebhaftes Viertel mit Cafés, Restaurants und dem Albert-Cuyp-Markt, auf dem Stroopwafels, Käse, Fisch und Blumen verkauft werden (Markttage vorher prüfen). Es fühlt sich weniger touristisch an.</p><p>Probiere frische Stroopwafels.</p>",
+     "text_en": "<p>De Pijp is a lively district with cafés, restaurants and the Albert Cuyp Market, where stroopwafels, cheese, fish and flowers are sold (check market days beforehand). It feels less touristy.</p><p>Try fresh stroopwafels.</p>",
+     "name_en": "De Pijp & Albert Cuyp Market",
+     "gem": true,
+     "q": "Albert Cuyp Market Amsterdam",
+     "tip": "Probiere frische Stroopwafels.",
+     "tip_en": "Try fresh stroopwafels."
+    },
+    {
+     "name": "Tagesausflug: Zaanse Schans, Haarlem oder Zandvoort",
+     "text": "<p>Von Amsterdam aus erreichst du Zaanse Schans mit Windmühlen, Haarlem mit Altstadt und Zandvoort mit Strand in rund 20 bis 30 Minuten (Fahrpläne vorher prüfen). Alle drei sind unkompliziert per Zug oder Bus erreichbar.</p><p>Plane einen halben bis ganzen Tag ein.</p>",
+     "text_en": "<p>From Amsterdam you reach Zaanse Schans with windmills, Haarlem with its old town and Zandvoort with a beach in about 20 to 30 minutes (check timetables beforehand). All three are easy to reach by train or bus.</p><p>Plan half a day to a whole day.</p>",
+     "name_en": "Day trip: Zaanse Schans, Haarlem or Zandvoort",
+     "q": "Zaanse Schans",
+     "tip": "Plane einen halben Tag ein.",
+     "tip_en": "Plan half a day."
+    },
+    {
+     "name": "Holländische Küche: Stroopwafel, Bitterballen, Herring",
+     "text": "<p>Probiere Stroopwafels, Bitterballen (frittierte Ragoutbällchen), Pommes mit Mayo, Poffertjes und – für Mutige – rohen Hering mit Zwiebeln. Viele Brauncafés servieren Bier und Snacks. Käse wie Gouda und Edamer gibt es überall.</p><p>Preise ändern sich; frag vorher.</p>",
+     "text_en": "<p>Try stroopwafels, bitterballen (fried ragout balls), fries with mayo, poffertjes and – for the brave – raw herring with onions. Many brown cafés serve beer and snacks. Cheese like Gouda and Edam is available everywhere.</p><p>Prices change; ask beforehand.</p>",
+     "name_en": "Dutch cuisine: stroopwafel, bitterballen, herring",
+     "q": "Bitterballen Amsterdam",
+     "tip": "Probiere Bitterballen in einem Brauncafé.",
+     "tip_en": "Try bitterballen in a brown café."
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was die Niederlande ausmacht",
+   "h_en": "What makes the Netherlands special",
+   "box": "gyg",
+   "html": "<p>Es gibt mehr Fahrräder als Einwohner, und ein großer Teil des Landes liegt unter dem Meeresspiegel – geschützt von Deichen, Dünen und Pumpwerken. Im 17. Jahrhundert war die kleine Republik eine Weltmacht: Die 1602 gegründete Ostindien-Kompanie gilt als erste Aktiengesellschaft der Welt, Rembrandt und Vermeer malten in dieser Zeit. Hauptstadt ist Amsterdam, regiert wird aber aus Den Haag.</p>",
+   "html_en": "<p>There are more bicycles than inhabitants, and a large part of the country lies below sea level – protected by dikes, dunes and pumping stations. In the 17th century the small republic was a world power: the East India Company founded in 1602 is considered the world’s first joint-stock company, Rembrandt and Vermeer painted in this era. Amsterdam is the capital, but the government sits in The Hague.</p>"
+  },
+  {
+   "type": "prose",
+   "id": "uebernachten",
+   "h": "Wo übernachten?",
+   "h_en": "Where to stay",
+   "html": "<ul><li><strong>Jordaan / Grachtengürtel:</strong> schön, aber teuer.</li><li><strong>Amsterdam-Noord:</strong> ruhiger, nah an NDSM und A'DAM Lookout, Fähre kostenlos.</li><li><strong>Nähe Hauptbahnhof:</strong> praktisch für Anreise, abends touristisch.</li></ul><p>Amsterdam ist teuer – früh buchen.</p>",
+   "html_en": "<ul><li><strong>Jordaan / canal ring:</strong> beautiful but expensive.</li><li><strong>Amsterdam-Noord:</strong> quieter, close to NDSM and A'DAM Lookout, ferry free.</li><li><strong>Near the central station:</strong> practical for arrival, touristy at night.</li></ul><p>Amsterdam is expensive – book early.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag nach Noels Rat",
+   "h_en": "One day following Noel’s advice",
+   "items": [
+    "<strong>Früh</strong> – Jordaan und Grachten",
+    "<strong>Mittag</strong> – Foodhallen",
+    "<strong>Nachmittag</strong> – Gratis-Fähre nach Noord, NDSM-Werft",
+    "<strong>Spätnachmittag</strong> – A'DAM Lookout"
+   ],
+   "items_en": [
+    "<strong>Early</strong> – Jordaan and canals",
+    "<strong>Midday</strong> – Foodhallen",
+    "<strong>Afternoon</strong> – free ferry to Noord, NDSM Wharf",
+    "<strong>Late afternoon</strong> – A'DAM Lookout"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie lange braucht man in Amsterdam?",
+   "q_en": "How long do you need in Amsterdam?",
+   "a": "<p>Zwei Tage für die Highlights, drei mit Museen und Noord.</p>",
+   "a_en": "<p>Two days for the highlights, three with museums and Noord.</p>"
+  },
+  {
+   "q": "Ist die Fähre zur NDSM wirklich kostenlos?",
+   "q_en": "Is the ferry to NDSM really free?",
+   "a": "<p>Ja, die IJ-Fähren hinter dem Hauptbahnhof sind laut Besuchern kostenlos.</p>",
+   "a_en": "<p>Yes, the IJ ferries behind the central station are free according to visitors.</p>"
+  },
+  {
+   "q": "Brauche ich ein Auto?",
+   "q_en": "Do I need a car?",
+   "a": "<p>Nein. Zug, Tram und Fähre reichen, Parken ist teuer.</p>",
+   "a_en": "<p>No. Train, tram and ferry are enough, parking is expensive.</p>"
+  }
+ ]
 }

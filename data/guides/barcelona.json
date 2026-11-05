@@ -1,45 +1,249 @@
 {
-  "slug": "barcelona", "slug_en": "barcelona", "status": "live", "blog": "blog-bc-11",
-  "cc": "ES", "flag": "🇪🇸", "city": "Barcelona", "city_en": "Barcelona", "updated": "2026-11-05",
-  "title": "Barcelona Guide: Port Vell am Morgen, Bunkers del Carmel & Bar Marsella",
-  "title_en": "Barcelona Guide: Port Vell in the Morning, Bunkers del Carmel & Bar Marsella",
-  "desc": "Barcelona 2023: ein ruhiger Morgen am Port Vell, Sonnenuntergang auf den Bunkers del Carmel, Absinth-Bar von 1820, Sagrada Família und Tipps zum Essen – von Noel.",
-  "desc_en": "Barcelona 2023: a quiet morning at Port Vell, sunset at the Bunkers del Carmel, an absinthe bar from 1820, Sagrada Família and food tips – from Noel.",
-  "gyg_q": "Barcelona",
-  "intro": "<p>Barcelona ist Strand und Großstadt in einem, dazu Gaudís Häuser, die aussehen, als wären sie gewachsen statt gebaut. Hier spricht man Katalanisch, trinkt mittags Vermut und isst spät – vor 21 Uhr ist kaum ein Restaurant voll.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>Barcelona is beach and big city in one, plus Gaudí’s houses that look as if they grew rather than were built. People speak Catalan, drink vermouth at midday and eat late – hardly a restaurant is full before 9 pm.</p><p>Prices and times are guidelines (2026).</p>",
-  "story": "<p>Es gibt Reisen, die du machst – und Reisen, die etwas mit dir machen. Barcelona 2023 war für mich die zweite Sorte. Um 7 Uhr morgens saß ich allein am Port Vell und habe Postkarten geschrieben, während meine Freunde schon am Flughafen waren. Barcelona ist für mich die Reise, die alles verändert hat – und das wegen eines einzigen, ruhigen Morgens. Mein Rat: Stell dir einmal den Wecker, geh zum Hafen, bevor die Stadt aufwacht – und schreib jemandem eine Postkarte.</p>",
-  "story_en": "<p>There are trips you take – and trips that do something to you. Barcelona 2023 was the second kind for me. At 7 am I sat alone at Port Vell writing postcards while my friends were already at the airport. Barcelona is the trip that changed everything for me – because of a single quiet morning. My advice: set your alarm once, go to the harbour before the city wakes up – and write someone a postcard.</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"3–4 Tage","v_en":"3–4 days"},
-    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
-    {"k":"Sprachen","k_en":"Languages","v":"Katalanisch und Spanisch","v_en":"Catalan and Spanish"},
-    {"k":"Hidden Gem","k_en":"Hidden gem","v":"Ein Morgen am Hafen, bevor die Stadt aufwacht","v_en":"A morning at the harbour before the city wakes up"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Barcelona und herum","h_en":"Getting to Barcelona and around","box":"omio",
-     "html":"<p>Barcelona hat einen großen Flughafen mit Bus- und Zugverbindung in die Stadt; aktuelle Verbindungen vorher prüfen. In der Stadt reichen Metro, Bus und zu Fuß. Vorsicht vor Taschendieben in den Touristenzonen.</p>",
-     "html_en":"<p>Barcelona has a large airport with bus and train links to the city; check current connections beforehand. In town the metro, bus and walking are enough. Beware of pickpockets in tourist zones.</p>"},
-    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
-     "spots":[
-      {"name":"Port Vell am frühen Morgen","name_en":"Port Vell in the early morning","q":"Port Vell Barcelona","text":"<p>Um 7 Uhr morgens allein am Hafen sitzen und Postkarten schreiben – das war mein Moment. Auf Google 4,6 Sterne.</p>","text_en":"<p>Sitting alone at the harbour at 7 am writing postcards – that was my moment. 4.6 stars on Google.</p>"},
-      {"name":"Sagrada Família","name_en":"Sagrada Família","q":"Sagrada Familia Barcelona","text":"<p>Seit 1882 wird an Gaudís Basilika gebaut. Auf Google 4,8 Sterne bei über 330.000 Bewertungen. Besucher raten, Tickets früh online zu buchen.</p>","text_en":"<p>Gaudí’s basilica has been under construction since 1882. 4.8 stars on Google from over 330,000 reviews. Visitors advise booking tickets online early.</p>","hours":"laut Google ca. 9–20 Uhr (Sa bis 18, So ab 10:30)","hours_en":"about 9 am–8 pm according to Google (Sat until 6 pm, Sun from 10:30 am)"}
-     ]},
-    {"type":"spots","id":"gems","h":"Hidden Gems","h_en":"Hidden gems",
-     "spots":[
-      {"name":"Bunkers del Carmel","gem":true,"q":"Turó de la Rovira Barcelona","text":"<p>Zum Sonnenuntergang auf die Bunkers del Carmel: ehemalige Flugabwehrstellung mit 360°-Blick über die Stadt. Auf Google (MUHBA Turó de la Rovira) 4,6 Sterne bei über 17.000 Bewertungen.</p>","text_en":"<p>To the Bunkers del Carmel for sunset: a former anti-aircraft position with a 360° view over the city. 4.6 stars on Google (MUHBA Turó de la Rovira) from over 17,000 reviews.</p>","tip":"Der Aufstieg ist steil; Wasser mitnehmen.","tip_en":"The climb is steep; bring water."},
-      {"name":"Bar Marsella – Absinth seit 1820","name_en":"Bar Marsella – absinthe since 1820","gem":true,"q":"Bar Marsella Barcelona","text":"<p>Eine Absinth-Bar von 1820 im Raval. Auf Google 4,4 Sterne. Keine Musik, alte Spiegel, Marmortische – Besucher mögen den unpolierten Charme.</p>","text_en":"<p>An absinthe bar from 1820 in the Raval. 4.4 stars on Google. No music, old mirrors, marble tables – visitors like the unpolished charm.</p>","hours":"laut Google Di–So ab 17 Uhr, Mo geschlossen","hours_en":"Tue–Sun from 5 pm, closed Mondays according to Google"},
-      {"name":"Speakeasy hinter der Kühlschranktür","name_en":"Speakeasy behind a fridge door","gem":true,"q":"speakeasy Barcelona fridge door","text":"<p>Eine Speakeasy hinter einer Kühlschranktür steht auf meiner Karte – schau dort nach dem aktuellen Namen und Reservierung.</p>","text_en":"<p>A speakeasy behind a fridge door is on my map – check there for the current name and reservations.</p>"}
-     ]},
-    {"type":"prose","id":"wissen","h":"Was Barcelona ausmacht","h_en":"What makes Barcelona special","box":"gyg",
-     "html":"<p>Die Römer gründeten hier die Siedlung Barcino. Im 19. Jahrhundert wuchs Barcelona durch die Industrie rasant, und das neue Viertel Eixample mit seinen achteckigen Blöcken entstand. Für die Olympischen Spiele 1992 öffnete sich die Stadt zum Meer: Viele der heutigen Stadtstrände wurden erst damals angelegt.</p>",
-     "html_en":"<p>The Romans founded the settlement of Barcino here. In the 19th century Barcelona grew rapidly through industry, and the new Eixample district with its octagonal blocks emerged. For the 1992 Olympics the city opened up to the sea: many of today’s city beaches were only created then.</p>"}
-  ],
-  "itinerary":[
-   {"h":"Ein Tag nach Noels Rat","h_en":"One day following Noel’s advice","items":["<strong>7 Uhr</strong> – Port Vell, Postkarte schreiben","<strong>Vormittag</strong> – Sagrada Família (Ticket vorab)","<strong>Mittag</strong> – Vermut und spätes Essen","<strong>Sonnenuntergang</strong> – Bunkers del Carmel","<strong>Abend</strong> – Bar Marsella oder Speakeasy"],"items_en":["<strong>7 am</strong> – Port Vell, write a postcard","<strong>Morning</strong> – Sagrada Família (ticket in advance)","<strong>Midday</strong> – vermouth and late food","<strong>Sunset</strong> – Bunkers del Carmel","<strong>Evening</strong> – Bar Marsella or speakeasy"]}
-  ],
-  "faq":[
-   {"q":"Wie viele Tage braucht man in Barcelona?","q_en":"How many days do you need in Barcelona?","a":"<p>Drei bis vier Tage für Stadt und Strand.</p>","a_en":"<p>Three to four days for city and beach.</p>"},
-   {"q":"Wann isst man in Barcelona?","q_en":"When do people eat in Barcelona?","a":"<p>Spät – vor 21 Uhr ist kaum ein Restaurant voll.</p>","a_en":"<p>Late – hardly a restaurant is full before 9 pm.</p>"}
-  ]
+ "slug": "barcelona",
+ "slug_en": "barcelona",
+ "status": "live",
+ "blog": "blog-bc-11",
+ "cc": "ES",
+ "flag": "🇪🇸",
+ "city": "Barcelona",
+ "city_en": "Barcelona",
+ "updated": "2026-11-05",
+ "title": "Barcelona Guide: 14 Orte – Port Vell, Sagrada Família, Bunkers del Carmel & Hidden Gems",
+ "title_en": "Barcelona Guide: 14 places – Port Vell, Sagrada Família, Bunkers del Carmel & hidden gems",
+ "desc": "Barcelona 2023: ein ruhiger Morgen am Port Vell, Sonnenuntergang auf den Bunkers del Carmel, Absinth-Bar von 1820, Sagrada Família und Tipps zum Essen – von Noel.",
+ "desc_en": "Barcelona 2023: a quiet morning at Port Vell, sunset at the Bunkers del Carmel, an absinthe bar from 1820, Sagrada Família and food tips – from Noel.",
+ "gyg_q": "Barcelona",
+ "intro": "<p>Barcelona ist Strand und Großstadt in einem, dazu Gaudís Häuser, die aussehen, als wären sie gewachsen statt gebaut. Hier spricht man Katalanisch, trinkt mittags Vermut und isst spät – vor 21 Uhr ist kaum ein Restaurant voll.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Barcelona is beach and big city in one, plus Gaudí’s houses that look as if they grew rather than were built. People speak Catalan, drink vermouth at midday and eat late – hardly a restaurant is full before 9 pm.</p><p>Prices and times are guidelines (2026).</p>",
+ "story": "<p>Es gibt Reisen, die du machst – und Reisen, die etwas mit dir machen. Barcelona 2023 war für mich die zweite Sorte. Um 7 Uhr morgens saß ich allein am Port Vell und habe Postkarten geschrieben, während meine Freunde schon am Flughafen waren. Barcelona ist für mich die Reise, die alles verändert hat – und das wegen eines einzigen, ruhigen Morgens. Mein Rat: Stell dir einmal den Wecker, geh zum Hafen, bevor die Stadt aufwacht – und schreib jemandem eine Postkarte.</p>",
+ "story_en": "<p>There are trips you take – and trips that do something to you. Barcelona 2023 was the second kind for me. At 7 am I sat alone at Port Vell writing postcards while my friends were already at the airport. Barcelona is the trip that changed everything for me – because of a single quiet morning. My advice: set your alarm once, go to the harbour before the city wakes up – and write someone a postcard.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "3–4 Tage",
+   "v_en": "3–4 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Sprachen",
+   "k_en": "Languages",
+   "v": "Katalanisch und Spanisch",
+   "v_en": "Catalan and Spanish"
+  },
+  {
+   "k": "Hidden Gem",
+   "k_en": "Hidden gem",
+   "v": "Ein Morgen am Hafen, bevor die Stadt aufwacht",
+   "v_en": "A morning at the harbour before the city wakes up"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Barcelona und herum",
+   "h_en": "Getting to Barcelona and around",
+   "box": "omio",
+   "html": "<p>Barcelona hat einen großen Flughafen mit Bus- und Zugverbindung in die Stadt; aktuelle Verbindungen vorher prüfen. In der Stadt reichen Metro, Bus und zu Fuß. Vorsicht vor Taschendieben in den Touristenzonen.</p><p>Der Flughafen El Prat liegt rund 20 Kilometer vom Zentrum entfernt; Aerobus, Zug (R2) und Taxi bringen dich in die Stadt (Preise und Fahrpläne vorher prüfen). In der Stadt fährst du mit Metro, Bus und Tram; eine Mehrfahrtenkarte lohnt sich. Die Innenstadt ist gut zu Fuß erkundbar.</p><p>Vorsicht vor Taschendieben in Metro, Ramblas und an Sehenswürdigkeiten.</p>",
+   "html_en": "<p>Barcelona has a large airport with bus and train links to the city; check current connections beforehand. In town the metro, bus and walking are enough. Beware of pickpockets in tourist zones.</p><p>El Prat airport lies about 20 kilometres from the centre; Aerobus, train (R2) and taxi take you into the city (check prices and timetables beforehand). In the city you travel by metro, bus and tram; a multi-trip card pays off. The city centre is easy to explore on foot.</p><p>Beware of pickpockets in the metro, on La Rambla and at sights.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Port Vell am frühen Morgen",
+     "name_en": "Port Vell in the early morning",
+     "q": "Port Vell Barcelona",
+     "text": "<p>Um 7 Uhr morgens allein am Hafen sitzen und Postkarten schreiben – das war mein Moment. Auf Google 4,6 Sterne.</p>",
+     "text_en": "<p>Sitting alone at the harbour at 7 am writing postcards – that was my moment. 4.6 stars on Google.</p>"
+    },
+    {
+     "name": "Sagrada Família",
+     "name_en": "Sagrada Família",
+     "q": "Sagrada Familia Barcelona",
+     "text": "<p>Seit 1882 wird an Gaudís Basilika gebaut. Auf Google 4,8 Sterne bei über 330.000 Bewertungen. Besucher raten, Tickets früh online zu buchen.</p><p>Die Sagrada Família ist Antoni Gaudís Hauptwerk und eine Basilika, an der seit 1882 gebaut wird. Innen wirken die Säulen wie ein Wald aus Stein, und das Licht fällt in Blau, Grün, Rot und Gold durch die Glasfenster. Du kannst je nach Ticket auch auf einen der Türme steigen (Tickets und Zeiten vorher online prüfen und früh buchen).</p><p>Der Vormittag ist ruhiger; am Nachmittag fällt das warme Licht auf die Westseite. Plane mindestens ein bis zwei Stunden ein.</p>",
+     "text_en": "<p>Gaudí’s basilica has been under construction since 1882. 4.8 stars on Google from over 330,000 reviews. Visitors advise booking tickets online early.</p><p>The Sagrada Família is Antoni Gaudí’s masterpiece and a basilica that has been under construction since 1882. Inside, the columns look like a forest of stone, and light falls in blue, green, red and gold through the stained-glass windows. Depending on the ticket you can also climb one of the towers (check tickets and times online beforehand and book early).</p><p>The morning is quieter; in the afternoon warm light falls on the west side. Plan at least one to two hours.</p>",
+     "hours": "laut Google ca. 9–20 Uhr (Sa bis 18, So ab 10:30)",
+     "hours_en": "about 9 am–8 pm according to Google (Sat until 6 pm, Sun from 10:30 am)",
+     "tip": "Buche früh online und plane den Vormittag ein.",
+     "tip_en": "Book early online and plan the morning."
+    },
+    {
+     "name": "Park Güell",
+     "text": "<p>Der Park Güell ist ein Gaudí-Park auf einem Hügel mit buntem Mosaik, geschwungenen Bänken, Säulenhallen und Blick über die Stadt. Der Eingang zum Monumentalbereich ist kostenpflichtig und zeitlich begrenzt; der restliche Park ist frei zugänglich (aktuelle Regeln vorher prüfen).</p><p>Komm früh am Morgen und plane Wege und Steigung ein. Tickets online buchen.</p>",
+     "text_en": "<p>Park Güell is a Gaudí park on a hill with colourful mosaics, undulating benches, colonnades and a view over the city. Entry to the monumental zone is charged and time-limited; the rest of the park is freely accessible (check current rules beforehand).</p><p>Come early in the morning and plan for paths and slopes. Book tickets online.</p>",
+     "name_en": "Park Güell",
+     "q": "Park Güell Barcelona",
+     "tip": "Buche Tickets online und komm früh.",
+     "tip_en": "Book tickets online and come early."
+    },
+    {
+     "name": "Barri Gòtic & La Rambla",
+     "text": "<p>Das Gotische Viertel besteht aus engen mittelalterlichen Gassen rund um die Kathedrale, Plätzen wie der Plaça Reial und versteckten Höfen. Die Ramblas sind die bekannte Promenade, auf der es voll und touristisch ist; achte auf Taschendiebe. Nebenstraßen sind oft schöner als die Hauptstraße.</p><p>Geh abends durch die Gassen und probiere Tapas abseits der Rambla.</p>",
+     "text_en": "<p>The Gothic Quarter consists of narrow medieval lanes around the cathedral, squares like Plaça Reial and hidden courtyards. La Rambla is the well-known promenade, which is crowded and touristy; watch for pickpockets. Side streets are often nicer than the main street.</p><p>Walk through the lanes in the evening and try tapas away from La Rambla.</p>",
+     "name_en": "Gothic Quarter & La Rambla",
+     "q": "Barri Gotic Barcelona",
+     "tip": "Halte Wertsachen sicher und geh in die Nebengassen.",
+     "tip_en": "Keep valuables safe and go into the side lanes."
+    },
+    {
+     "name": "La Boqueria & Mercat de Sant Antoni",
+     "text": "<p>Die Boqueria ist die berühmteste Markthalle der Stadt mit Obst, Säften, Schinken, Meeresfrüchten und Süßem. Sie ist sehr touristisch; die Stände am Rand sind teurer. Etwas weiter westlich liegt der Mercat de Sant Antoni, ein weniger touristischer Markt, sonntags mit Büchermarkt.</p><p>Probiere Jamón und frischen Saft; vergleiche Preise. Preise ändern sich.</p>",
+     "text_en": "<p>La Boqueria is the city’s most famous market hall with fruit, juices, ham, seafood and sweets. It is very touristy; the stalls at the edge are more expensive. A little further west lies the Mercat de Sant Antoni, a less touristy market, on Sundays with a book market.</p><p>Try jamón and fresh juice; compare prices. Prices change.</p>",
+     "name_en": "La Boqueria & Sant Antoni market",
+     "q": "Mercat de la Boqueria",
+     "tip": "Probiere Jamón und weiche für günstigere Stände aus.",
+     "tip_en": "Try jamón and switch to cheaper stalls."
+    },
+    {
+     "name": "Casa Batlló & Casa Milà (La Pedrera)",
+     "text": "<p>Auf dem Passeig de Gràcia stehen zwei Gaudí-Häuser: Casa Batlló mit knochenartiger Fassade und farbigem Keramikdach und Casa Milà (La Pedrera) mit wellenförmiger Steinfassade und Dachterrasse mit Schornsteinen. Beide kannst du besichtigen; Tickets sind teuer, aber oft mit Audioguide.</p><p>Entscheide dich für eines, wenn du wenig Zeit hast. Preise und Zeiten vorher prüfen.</p>",
+     "text_en": "<p>On Passeig de Gràcia stand two Gaudí houses: Casa Batlló with a bone-like façade and colourful ceramic roof and Casa Milà (La Pedrera) with a wave-shaped stone façade and a roof terrace with chimneys. You can visit both; tickets are expensive but often come with an audio guide.</p><p>Choose one if you have little time. Check prices and times beforehand.</p>",
+     "name_en": "Casa Batlló & Casa Milà (La Pedrera)",
+     "q": "Casa Batllo Barcelona",
+     "tip": "Wähle eines der Häuser, wenn die Zeit knapp ist.",
+     "tip_en": "Choose one house if time is short."
+    },
+    {
+     "name": "Barceloneta, Strand & Tapas",
+     "text": "<p>Barceloneta ist das frühere Fischerviertel mit Stadtstrand, Promenade und kleinen Tapas-Bars. Der Strand ist im Sommer voll; achte auf deine Sachen. Probiere Patatas bravas, Pimientos de Padrón, Croquetas und Meeresfrüchte.</p><p>Das Essen beginnt in Spanien spät: Mittagessen oft nach 14 Uhr, Abendessen nach 21 Uhr.</p>",
+     "text_en": "<p>Barceloneta is the former fishing quarter with city beach, promenade and small tapas bars. The beach is crowded in summer; watch your things. Try patatas bravas, pimientos de Padrón, croquetas and seafood.</p><p>Meals start late in Spain: lunch often after 2 p.m., dinner after 9 p.m.</p>",
+     "name_en": "Barceloneta, beach & tapas",
+     "q": "Barceloneta Barcelona",
+     "tip": "Iss spät wie die Einheimischen und achte auf deine Sachen.",
+     "tip_en": "Eat late like the locals and watch your things."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Bunkers del Carmel",
+     "gem": true,
+     "q": "Turó de la Rovira Barcelona",
+     "text": "<p>Zum Sonnenuntergang auf die Bunkers del Carmel: ehemalige Flugabwehrstellung mit 360°-Blick über die Stadt. Auf Google (MUHBA Turó de la Rovira) 4,6 Sterne bei über 17.000 Bewertungen.</p>",
+     "text_en": "<p>To the Bunkers del Carmel for sunset: a former anti-aircraft position with a 360° view over the city. 4.6 stars on Google (MUHBA Turó de la Rovira) from over 17,000 reviews.</p>",
+     "tip": "Der Aufstieg ist steil; Wasser mitnehmen.",
+     "tip_en": "The climb is steep; bring water."
+    },
+    {
+     "name": "Bar Marsella – Absinth seit 1820",
+     "name_en": "Bar Marsella – absinthe since 1820",
+     "gem": true,
+     "q": "Bar Marsella Barcelona",
+     "text": "<p>Eine Absinth-Bar von 1820 im Raval. Auf Google 4,4 Sterne. Keine Musik, alte Spiegel, Marmortische – Besucher mögen den unpolierten Charme.</p>",
+     "text_en": "<p>An absinthe bar from 1820 in the Raval. 4.4 stars on Google. No music, old mirrors, marble tables – visitors like the unpolished charm.</p>",
+     "hours": "laut Google Di–So ab 17 Uhr, Mo geschlossen",
+     "hours_en": "Tue–Sun from 5 pm, closed Mondays according to Google"
+    },
+    {
+     "name": "Speakeasy hinter der Kühlschranktür",
+     "name_en": "Speakeasy behind a fridge door",
+     "gem": true,
+     "q": "speakeasy Barcelona fridge door",
+     "text": "<p>Eine Speakeasy hinter einer Kühlschranktür steht auf meiner Karte – schau dort nach dem aktuellen Namen und Reservierung.</p>",
+     "text_en": "<p>A speakeasy behind a fridge door is on my map – check there for the current name and reservations.</p>"
+    },
+    {
+     "name": "Gràcia – Plätze & Cafés",
+     "text": "<p>Gràcia war früher ein eigenständiges Dorf und hat heute kleine Plätze, Boutiquen, Cafés und Bars. Auf der Plaça del Sol und der Plaça de la Virreina sitzen die Einheimischen draußen. Im August feiert das Viertel das Fest „Festa Major de Gràcia“ mit geschmückten Straßen (Termine vorher prüfen).</p><p>Ein guter Ort für einen Nachmittag abseits der Menschenmassen.</p>",
+     "text_en": "<p>Gràcia was once an independent village and today has small squares, boutiques, cafés and bars. On Plaça del Sol and Plaça de la Virreina locals sit outside. In August the district celebrates the “Festa Major de Gràcia” with decorated streets (check dates beforehand).</p><p>A good place for an afternoon away from the crowds.</p>",
+     "name_en": "Gràcia – squares & cafés",
+     "gem": true,
+     "q": "Plaça del Sol Gracia",
+     "tip": "Verbring den Nachmittag auf einem der Plätze.",
+     "tip_en": "Spend the afternoon on one of the squares."
+    },
+    {
+     "name": "Montjuïc – Garten, Brunnen & Aussicht",
+     "text": "<p>Der Hügel Montjuïc bietet Gärten, Museen, die Burg und den Magischen Brunnen mit Licht- und Wasserspiel am Abend (Zeiten vorher prüfen). Du erreichst ihn per Seilbahn, Bus oder zu Fuß über Rolltreppen. Der Blick über Hafen und Stadt lohnt sich.</p><p>Komm am späten Nachmittag und bleib bis zum Abend.</p>",
+     "text_en": "<p>Montjuïc hill offers gardens, museums, the castle and the Magic Fountain with its light and water show in the evening (check times beforehand). You reach it by cable car, bus or on foot via escalators. The view over harbour and city is worthwhile.</p><p>Come in the late afternoon and stay until evening.</p>",
+     "name_en": "Montjuïc – gardens, fountain & view",
+     "gem": true,
+     "q": "Montjuic Barcelona",
+     "tip": "Komm am späten Nachmittag und bleib bis zum Abend.",
+     "tip_en": "Come in the late afternoon and stay until evening."
+    },
+    {
+     "name": "Sant Pau – Jugendstil-Krankenhaus",
+     "text": "<p>Das Hospital de Sant Pau ist ein UNESCO-Welterbe-Komplex des Architekten Domènech i Montaner mit Pavillons, Mosaiken und Gärten. Es ist weniger überlaufen als die Sagrada Família, die am Ende der Allee liegt. Du kannst die Anlage besichtigen (Zeiten und Preise vorher prüfen).</p><p>Ein guter Tipp für Architekturfans.</p>",
+     "text_en": "<p>The Hospital de Sant Pau is a UNESCO World Heritage complex by the architect Domènech i Montaner with pavilions, mosaics and gardens. It is less crowded than the Sagrada Família, which lies at the end of the avenue. You can visit the complex (check times and prices beforehand).</p><p>A good tip for architecture fans.</p>",
+     "name_en": "Sant Pau – Art Nouveau hospital",
+     "gem": true,
+     "q": "Hospital de Sant Pau Barcelona",
+     "tip": "Verbinde Sant Pau mit der Sagrada Família.",
+     "tip_en": "Combine Sant Pau with the Sagrada Família."
+    },
+    {
+     "name": "Tagesausflug: Montserrat oder Sitges",
+     "text": "<p>Montserrat ist ein Gebirge mit markanten Felsformationen und einem Kloster, rund eine Stunde von Barcelona entfernt (Zahnradbahn oder Seilbahn; Fahrpläne vorher prüfen). Sitges ist ein Badeort an der Küste mit Strand und weißer Altstadt, gut per Zug erreichbar.</p><p>Plane einen vollen Tag ein. Nimm Wasser und eine Jacke mit.</p>",
+     "text_en": "<p>Montserrat is a mountain range with striking rock formations and a monastery, about an hour from Barcelona (rack railway or cable car; check timetables beforehand). Sitges is a seaside resort on the coast with beach and white old town, easy to reach by train.</p><p>Plan a full day. Take water and a jacket.</p>",
+     "name_en": "Day trip: Montserrat or Sitges",
+     "q": "Montserrat Monastery",
+     "tip": "Starte früh und plane einen vollen Tag.",
+     "tip_en": "Start early and plan a full day."
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Barcelona ausmacht",
+   "h_en": "What makes Barcelona special",
+   "box": "gyg",
+   "html": "<p>Die Römer gründeten hier die Siedlung Barcino. Im 19. Jahrhundert wuchs Barcelona durch die Industrie rasant, und das neue Viertel Eixample mit seinen achteckigen Blöcken entstand. Für die Olympischen Spiele 1992 öffnete sich die Stadt zum Meer: Viele der heutigen Stadtstrände wurden erst damals angelegt.</p>",
+   "html_en": "<p>The Romans founded the settlement of Barcino here. In the 19th century Barcelona grew rapidly through industry, and the new Eixample district with its octagonal blocks emerged. For the 1992 Olympics the city opened up to the sea: many of today’s city beaches were only created then.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Drei Tage in Barcelona",
+   "h_en": "Three days in Barcelona",
+   "items": [
+    "<strong>Tag 1</strong> – Port Vell früh, Barri Gòtic, Boqueria, Barceloneta",
+    "<strong>Tag 2</strong> – Sagrada Família, Sant Pau, Casa Batlló",
+    "<strong>Tag 3</strong> – Park Güell, Gràcia, Sonnenuntergang auf den Bunkers del Carmel",
+    "<strong>Abend</strong> – Bar Marsella oder Tapas in Gràcia"
+   ],
+   "items_en": [
+    "<strong>Day 1</strong> – Port Vell early, Gothic Quarter, Boqueria, Barceloneta",
+    "<strong>Day 2</strong> – Sagrada Família, Sant Pau, Casa Batlló",
+    "<strong>Day 3</strong> – Park Güell, Gràcia, sunset at the Bunkers del Carmel",
+    "<strong>Evening</strong> – Bar Marsella or tapas in Gràcia"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie viele Tage braucht man in Barcelona?",
+   "q_en": "How many days do you need in Barcelona?",
+   "a": "<p>Drei bis vier Tage für Stadt und Strand.</p>",
+   "a_en": "<p>Three to four days for city and beach.</p>"
+  },
+  {
+   "q": "Wann isst man in Barcelona?",
+   "q_en": "When do people eat in Barcelona?",
+   "a": "<p>Spät – vor 21 Uhr ist kaum ein Restaurant voll.</p>",
+   "a_en": "<p>Late – hardly a restaurant is full before 9 pm.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Barcelona?",
+   "q_en": "How many days do you need in Barcelona?",
+   "a": "Drei bis vier Tage.",
+   "a_en": "Three to four days."
+  }
+ ]
 }

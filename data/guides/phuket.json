@@ -1,46 +1,250 @@
 {
-  "slug": "phuket", "slug_en": "phuket", "status": "live", "blog": "blog-bc-9",
-  "cc": "TH", "flag": "🇹🇭", "city": "Phuket", "city_en": "Phuket", "updated": "2026-11-05",
-  "title": "Phuket Guide: Big Buddha, Altstadt, Phang-Nga-Bucht & Markt-Abenteuer",
-  "title_en": "Phuket Guide: Big Buddha, Old Town, Phang Nga Bay & Market Adventures",
-  "desc": "Phuket für den Einstieg in Thailand: Big Buddha, sino-portugiesische Altstadt, Phang-Nga-Bucht per Kanu und frittierte Grillen vom Markt – von Noel (Februar 2026).",
-  "desc_en": "Phuket as your Thailand starter: Big Buddha, Sino-Portuguese old town, Phang Nga Bay by canoe and fried crickets from the market – from Noel (February 2026).",
-  "hero": "images/photos/phuket-big-buddha.webp", "hero_alt": "Big Buddha auf Phuket", "hero_alt_en": "Big Buddha in Phuket", "gyg_q": "Phuket",
-  "media": ["images/photos/phuket-kata-abend.webp", "images/photos/thailand-obstmarkt.webp", "images/photos/thailand-insekten.webp", "images/photos/thailand-seidenraupen.webp", "images/photos/andamanensee-gewitter.webp", "images/video/phuket-sonnenuntergang.mp4", "images/video/phuket-schrein.mp4", "images/video/phuket-seerosen.mp4"],
-  "intro": "<p>Phuket ist Thailands größte Insel und für viele der Einstieg ins Land. Strände gibt es genug – aber die besten Momente liegen oft abseits davon: auf dem Markt, im Schrein, im Kanu.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>Phuket is Thailand’s largest island and for many the entry to the country. There are plenty of beaches – but the best moments are often away from them: at the market, in a shrine, in a canoe.</p><p>Prices and times are guidelines (2026).</p>",
-  "story": "<p>Knapp drei Wochen Thailand im Februar 2026: erst Phuket, dann Krabi. Ich hatte mit Strand gerechnet. Der Big Buddha sitzt 45 Meter hoch aus weißem Marmor über der Insel – von unten wirkt er fast unwirklich. In der Altstadt von Phuket bin ich zwischen bunten sino-portugiesischen Häusern in einen chinesischen Schrein gestolpert, mit goldenen Drachen und Räucherstäbchen. Und auf dem Markt lagen sie dann: frittierte Grillen und Seidenraupen-Puppen, bezahlt wird pro Löffel. Daneben Durian, Drachenfrucht und Longan, als wäre das alles das Normalste der Welt. Hier ist es das auch.</p>",
-  "story_en": "<p>Almost three weeks in Thailand in February 2026: first Phuket, then Krabi. I had expected beach. The Big Buddha sits 45 metres high in white marble above the island – from below he looks almost unreal. In Phuket’s old town I stumbled between colourful Sino-Portuguese houses into a Chinese shrine with golden dragons and incense sticks. And at the market there they were: fried crickets and silkworm pupae, paid by the spoonful. Next to them durian, dragon fruit and longan, as if it were all the most normal thing in the world. Here it is.</p>",
-  "facts": [
-    {"k":"Dauer","k_en":"How long","v":"3–5 Tage","v_en":"3–5 days"},
-    {"k":"Beste Reisezeit","k_en":"Best time","v":"November–April (trockener); Februar hat Noel erlebt","v_en":"November–April (drier); Noel went in February"},
-    {"k":"Währung","k_en":"Currency","v":"Thai Baht (THB)","v_en":"Thai baht (THB)"},
-    {"k":"Hidden Gem","k_en":"Hidden gem","v":"Abends Altstadt statt Bangla Road","v_en":"Old town in the evening rather than Bangla Road"}
-  ],
-  "blocks": [
-    {"type":"prose","id":"anreise","h":"So kommst du nach Phuket und herum","h_en":"Getting to Phuket and around","box":"gyg",
-     "html":"<p>Phuket hat einen internationalen Flughafen, der von Bangkok und anderen Drehkreuzen angeflogen wird. Auf der Insel sind Roller, Taxi-Apps und Songthaews üblich; Preise für Taxis vorher klären. Wer Roller fährt, braucht passenden Führerschein und Helm – das Risiko ist real, informiere dich vorab.</p>",
-     "html_en":"<p>Phuket has an international airport served from Bangkok and other hubs. On the island scooters, taxi apps and songthaews are common; agree taxi prices beforehand. If you ride a scooter you need a valid licence and a helmet – the risk is real, inform yourself beforehand.</p>"},
-    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
-     "spots":[
-      {"name":"Big Buddha","q":"Phuket Big Buddha","text":"<p>45 Meter hoch aus weißem Marmor über der Insel. Auf Google 4,6 Sterne bei über 40.000 Bewertungen. Der Eintritt ist laut Besuchern frei; achte auf angemessene Kleidung (Schultern und Knie bedeckt).</p>","text_en":"<p>45 metres high in white marble above the island. 4.6 stars on Google from over 40,000 reviews. Admission is free according to visitors; dress appropriately (shoulders and knees covered).</p>","hours":"laut Google täglich ca. 6–18:30 Uhr","hours_en":"daily about 6 am–6:30 pm according to Google","photos":["images/photos/phuket-big-buddha.webp"],"tip":"Affen rund um die Anlage: lose Sachen gut verstauen.","tip_en":"Monkeys around the site: keep loose items stowed."},
-      {"name":"Altstadt & chinesischer Schrein","name_en":"Old town & Chinese shrine","q":"Old Phuket Town","text":"<p>Zwischen bunten sino-portugiesischen Häusern bin ich in einen chinesischen Schrein gestolpert – goldene Drachen und Räucherstäbchen. Abends lieber hier schlendern als über die Bangla Road.</p>","text_en":"<p>Between colourful Sino-Portuguese houses I stumbled into a Chinese shrine – golden dragons and incense sticks. In the evening stroll here rather than along Bangla Road.</p>"}
-     ]},
-    {"type":"spots","id":"gems","h":"Hidden Gems & Erlebnisse","h_en":"Hidden gems & experiences",
-     "spots":[
-      {"name":"Phang-Nga-Bucht per Kanu","name_en":"Phang Nga Bay by canoe","gem":true,"q":"Phang Nga Bay","text":"<p>Kalkfelsen, Höhlen und stilles Wasser: Besucher beschreiben Kanutouren durch die Bucht als Highlight. Auf Google 4,7 Sterne. Touren starten laut Besuchern früh am Morgen und dauern bis zum späten Nachmittag.</p>","text_en":"<p>Limestone cliffs, caves and calm water: visitors describe canoe tours through the bay as a highlight. 4.7 stars on Google. Tours start early in the morning and last until late afternoon according to visitors.</p>","tip":"Früh buchen; die guten Zeiten sind schnell weg.","tip_en":"Book early; the good slots go quickly."},
-      {"name":"Markt: Grillen, Seidenraupen, Durian","name_en":"Market: crickets, silkworms, durian","q":"Phuket Town Market","text":"<p>Frittierte Grillen und Seidenraupen-Puppen, bezahlt wird pro Löffel. Daneben Durian, Drachenfrucht und Longan.</p>","text_en":"<p>Fried crickets and silkworm pupae, paid by the spoonful. Next to them durian, dragon fruit and longan.</p>","photos":["images/photos/thailand-insekten.webp","images/photos/thailand-seidenraupen.webp","images/photos/thailand-obstmarkt.webp"]},
-      {"name":"Kata Beach am Abend","name_en":"Kata Beach in the evening","q":"Kata Beach Phuket","text":"<p>Wenn die Tagesgäste weg sind, wird es ruhig am Strand.</p>","text_en":"<p>When the day guests are gone, the beach grows quiet.</p>","photos":["images/photos/phuket-kata-abend.webp"]}
-     ]},
-    {"type":"prose","id":"wissen","h":"Was Thailand ausmacht","h_en":"What makes Thailand special","box":"gyg",
-     "html":"<p>Thailand ist das einzige Land Südostasiens, das nie von einer europäischen Macht kolonisiert wurde – darauf sind die Menschen bis heute stolz. Über 90 Prozent sind Buddhisten, und überall stehen kleine Geisterhäuschen mit Opfergaben vor Häusern und Geschäften. Bis 1939 hieß das Land Siam.</p><p>Mein Fazit: Phuket für den Einstieg, Krabi für die Landschaft. Siehe meinen Krabi-Guide.</p>",
-     "html_en":"<p>Thailand is the only country in Southeast Asia never colonised by a European power – people are proud of that to this day. Over 90 percent are Buddhists, and small spirit houses with offerings stand outside houses and shops everywhere. Until 1939 the country was called Siam.</p><p>My verdict: Phuket for the start, Krabi for the landscape. See my Krabi guide.</p>"}
-  ],
-  "itinerary":[
-   {"h":"Ein Tag auf Phuket","h_en":"One day on Phuket","items":["<strong>Vormittag</strong> – Big Buddha","<strong>Nachmittag</strong> – Altstadt und Schrein, Markt","<strong>Abend</strong> – Altstadt statt Bangla Road"],"items_en":["<strong>Morning</strong> – Big Buddha","<strong>Afternoon</strong> – old town and shrine, market","<strong>Evening</strong> – old town instead of Bangla Road"]}
-  ],
-  "faq":[
-   {"q":"Phuket oder Krabi?","q_en":"Phuket or Krabi?","a":"<p>Noels Fazit: Phuket für den Einstieg, Krabi für die Landschaft.</p>","a_en":"<p>Noel’s verdict: Phuket for the start, Krabi for the landscape.</p>"},
-   {"q":"Wann ist die beste Reisezeit?","q_en":"When is the best time?","a":"<p>Grob November bis April ist trockener; Noel war im Februar dort.</p>","a_en":"<p>Roughly November to April is drier; Noel went in February.</p>"}
-  ]
+ "slug": "phuket",
+ "slug_en": "phuket",
+ "status": "live",
+ "blog": "blog-bc-9",
+ "cc": "TH",
+ "flag": "🇹🇭",
+ "city": "Phuket",
+ "city_en": "Phuket",
+ "updated": "2026-11-05",
+ "title": "Phuket Guide: 12 Orte – Big Buddha, Altstadt, Phi Phi, Märkte & Hidden Gems",
+ "title_en": "Phuket Guide: 12 places – Big Buddha, old town, Phi Phi, markets & hidden gems",
+ "desc": "Phuket für den Einstieg in Thailand: Big Buddha, sino-portugiesische Altstadt, Phang-Nga-Bucht per Kanu und frittierte Grillen vom Markt – von Noel (Februar 2026).",
+ "desc_en": "Phuket as your Thailand starter: Big Buddha, Sino-Portuguese old town, Phang Nga Bay by canoe and fried crickets from the market – from Noel (February 2026).",
+ "hero": "images/photos/phuket-big-buddha.webp",
+ "hero_alt": "Big Buddha auf Phuket",
+ "hero_alt_en": "Big Buddha in Phuket",
+ "gyg_q": "Phuket",
+ "media": [
+  "images/photos/phuket-kata-abend.webp",
+  "images/photos/thailand-obstmarkt.webp",
+  "images/photos/thailand-insekten.webp",
+  "images/photos/thailand-seidenraupen.webp",
+  "images/photos/andamanensee-gewitter.webp",
+  "images/video/phuket-sonnenuntergang.mp4",
+  "images/video/phuket-schrein.mp4",
+  "images/video/phuket-seerosen.mp4"
+ ],
+ "intro": "<p>Phuket ist Thailands größte Insel und für viele der Einstieg ins Land. Strände gibt es genug – aber die besten Momente liegen oft abseits davon: auf dem Markt, im Schrein, im Kanu.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Phuket is Thailand’s largest island and for many the entry to the country. There are plenty of beaches – but the best moments are often away from them: at the market, in a shrine, in a canoe.</p><p>Prices and times are guidelines (2026).</p>",
+ "story": "<p>Knapp drei Wochen Thailand im Februar 2026: erst Phuket, dann Krabi. Ich hatte mit Strand gerechnet. Der Big Buddha sitzt 45 Meter hoch aus weißem Marmor über der Insel – von unten wirkt er fast unwirklich. In der Altstadt von Phuket bin ich zwischen bunten sino-portugiesischen Häusern in einen chinesischen Schrein gestolpert, mit goldenen Drachen und Räucherstäbchen. Und auf dem Markt lagen sie dann: frittierte Grillen und Seidenraupen-Puppen, bezahlt wird pro Löffel. Daneben Durian, Drachenfrucht und Longan, als wäre das alles das Normalste der Welt. Hier ist es das auch.</p>",
+ "story_en": "<p>Almost three weeks in Thailand in February 2026: first Phuket, then Krabi. I had expected beach. The Big Buddha sits 45 metres high in white marble above the island – from below he looks almost unreal. In Phuket’s old town I stumbled between colourful Sino-Portuguese houses into a Chinese shrine with golden dragons and incense sticks. And at the market there they were: fried crickets and silkworm pupae, paid by the spoonful. Next to them durian, dragon fruit and longan, as if it were all the most normal thing in the world. Here it is.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "3–5 Tage",
+   "v_en": "3–5 days"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "November–April (trockener); Februar hat Noel erlebt",
+   "v_en": "November–April (drier); Noel went in February"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Thai Baht (THB)",
+   "v_en": "Thai baht (THB)"
+  },
+  {
+   "k": "Hidden Gem",
+   "k_en": "Hidden gem",
+   "v": "Abends Altstadt statt Bangla Road",
+   "v_en": "Old town in the evening rather than Bangla Road"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du nach Phuket und herum",
+   "h_en": "Getting to Phuket and around",
+   "box": "gyg",
+   "html": "<p>Phuket hat einen internationalen Flughafen, der von Bangkok und anderen Drehkreuzen angeflogen wird. Auf der Insel sind Roller, Taxi-Apps und Songthaews üblich; Preise für Taxis vorher klären. Wer Roller fährt, braucht passenden Führerschein und Helm – das Risiko ist real, informiere dich vorab.</p><p>Der Flughafen Phuket liegt im Norden der Insel; Taxis, Grab und Minibusse bringen dich zu den Stränden (Preise vorher prüfen, Fahrzeit je nach Ziel 30 bis 90 Minuten). Auf der Insel brauchst du Taxi, Grab, Roller oder Mietwagen; Linksverkehr beachten. Die Währung ist der Thai-Baht.</p><p>Die Regenzeit liegt etwa zwischen Mai und Oktober.</p>",
+   "html_en": "<p>Phuket has an international airport served from Bangkok and other hubs. On the island scooters, taxi apps and songthaews are common; agree taxi prices beforehand. If you ride a scooter you need a valid licence and a helmet – the risk is real, inform yourself beforehand.</p><p>Phuket airport lies in the north of the island; taxis, Grab and minibuses take you to the beaches (check prices beforehand; travel time 30 to 90 minutes depending on destination). On the island you need a taxi, Grab, scooter or rental car; note left-hand traffic. The currency is the Thai baht.</p><p>The rainy season is roughly between May and October.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Big Buddha",
+     "q": "Phuket Big Buddha",
+     "text": "<p>45 Meter hoch aus weißem Marmor über der Insel. Auf Google 4,6 Sterne bei über 40.000 Bewertungen. Der Eintritt ist laut Besuchern frei; achte auf angemessene Kleidung (Schultern und Knie bedeckt).</p><p>Der Big Buddha thront auf dem Nakkerd-Hügel im Süden der Insel: 45 Meter hoch, aus weißem Marmor, mit weitem Blick über Chalong, Kata und Karon. Der Weg hinauf führt über eine Straße; oben gibt es kleine Läden, Glocken und Tempelanlagen. Der Eintritt ist laut Besuchern frei; Spenden sind willkommen.</p><p>Trage Kleidung, die Schultern und Knie bedeckt. Komm morgens oder am späten Nachmittag, wenn es kühler ist.</p>",
+     "text_en": "<p>45 metres high in white marble above the island. 4.6 stars on Google from over 40,000 reviews. Admission is free according to visitors; dress appropriately (shoulders and knees covered).</p><p>The Big Buddha sits on Nakkerd Hill in the south of the island: 45 metres high, made of white marble, with a wide view over Chalong, Kata and Karon. The way up leads by road; at the top there are small shops, bells and temple grounds. Entry is free according to visitors; donations are welcome.</p><p>Wear clothing that covers shoulders and knees. Come in the morning or late afternoon when it is cooler.</p>",
+     "hours": "laut Google täglich ca. 6–18:30 Uhr",
+     "hours_en": "daily about 6 am–6:30 pm according to Google",
+     "photos": [
+      "images/photos/phuket-big-buddha.webp"
+     ],
+     "tip": "Komm morgens oder zum späten Nachmittag und bedecke Schultern und Knie.",
+     "tip_en": "Come in the morning or late afternoon and cover shoulders and knees."
+    },
+    {
+     "name": "Altstadt & chinesischer Schrein",
+     "name_en": "Old town & Chinese shrine",
+     "q": "Old Phuket Town",
+     "text": "<p>Zwischen bunten sino-portugiesischen Häusern bin ich in einen chinesischen Schrein gestolpert – goldene Drachen und Räucherstäbchen. Abends lieber hier schlendern als über die Bangla Road.</p>",
+     "text_en": "<p>Between colourful Sino-Portuguese houses I stumbled into a Chinese shrine – golden dragons and incense sticks. In the evening stroll here rather than along Bangla Road.</p>"
+    },
+    {
+     "name": "Wat Chalong",
+     "text": "<p>Wat Chalong ist der bedeutendste Tempel der Insel mit goldenen Buddhas, einer Pagode und bunten Hallen. Besucher legen Blattgold an und zünden Räucherstäbchen an. Der Tempel liegt nahe am Big Buddha und lässt sich gut mit ihm verbinden.</p><p>Ziehe die Schuhe aus und kleide dich respektvoll.</p>",
+     "text_en": "<p>Wat Chalong is the most important temple on the island with golden Buddhas, a pagoda and colourful halls. Visitors apply gold leaf and light incense. The temple lies near the Big Buddha and combines well with it.</p><p>Take off your shoes and dress respectfully.</p>",
+     "name_en": "Wat Chalong",
+     "q": "Wat Chalong Phuket",
+     "tip": "Verbinde den Besuch mit dem Big Buddha.",
+     "tip_en": "Combine the visit with the Big Buddha."
+    },
+    {
+     "name": "Phuket Old Town – Thalang Road & Soi Romanee",
+     "text": "<p>Die Altstadt hat sino-portugiesische Häuser in Pastellfarben, Cafés, Galerien und Streetart. Soi Romanee ist die bunteste Gasse. Sonntags gibt es auf der Thalang Road einen Markt mit Essen und Kunsthandwerk (Zeiten vorher prüfen).</p><p>Abends lieber hier schlendern als über die Bangla Road – ruhiger, schöner, und das Essen ist günstig.</p>",
+     "text_en": "<p>The old town has Sino-Portuguese houses in pastel colours, cafés, galleries and street art. Soi Romanee is the most colourful lane. On Sundays there is a market on Thalang Road with food and crafts (check times beforehand).</p><p>In the evening stroll here rather than on Bangla Road – calmer, prettier, and the food is cheap.</p>",
+     "name_en": "Phuket Old Town – Thalang Road & Soi Romanee",
+     "q": "Soi Romanee Phuket Old Town",
+     "tip": "Komm sonntags zum Markt.",
+     "tip_en": "Come on Sundays for the market."
+    },
+    {
+     "name": "Promthep Cape & Sonnenuntergang",
+     "text": "<p>Das Kap Promthep ganz im Süden gilt als der beliebteste Sonnenuntergangsort der Insel. Von den Felsen blickst du auf das Meer, und am Abend füllt sich der Aussichtspunkt. Kleine Stände verkaufen Snacks und Getränke.</p><p>Komm früh, um einen Platz zu finden. Prüfe die Sonnenuntergangszeit vorher.</p>",
+     "text_en": "<p>Promthep Cape at the very south is considered the island’s most popular sunset spot. From the rocks you look at the sea, and in the evening the viewpoint fills. Small stalls sell snacks and drinks.</p><p>Come early to find a spot. Check the sunset time beforehand.</p>",
+     "name_en": "Promthep Cape & sunset",
+     "q": "Promthep Cape",
+     "tip": "Komm eine Stunde vor Sonnenuntergang.",
+     "tip_en": "Come an hour before sunset."
+    },
+    {
+     "name": "Karon, Kata & Strände im Süden",
+     "text": "<p>Die Strände Karon, Kata und Kata Noi liegen im Südwesten und sind weniger überlaufen als Patong. Es gibt Sonnenliegen, Restaurants und Surfwellen in der Regenzeit. In der Regenzeit sind Strömungen gefährlich – achte auf die Flaggen.</p><p>Die beste Reisezeit für Strände ist von November bis April.</p>",
+     "text_en": "<p>Karon, Kata and Kata Noi beaches lie in the south-west and are less crowded than Patong. There are sun loungers, restaurants and surf waves in the rainy season. In the rainy season currents are dangerous – watch the flags.</p><p>The best travel time for beaches is November to April.</p>",
+     "name_en": "Karon, Kata & southern beaches",
+     "q": "Kata Beach Phuket",
+     "tip": "Achte auf die Flaggen und die Strömung.",
+     "tip_en": "Watch the flags and the current."
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems & Erlebnisse",
+   "h_en": "Hidden gems & experiences",
+   "spots": [
+    {
+     "name": "Phang-Nga-Bucht per Kanu",
+     "name_en": "Phang Nga Bay by canoe",
+     "gem": true,
+     "q": "Phang Nga Bay",
+     "text": "<p>Kalkfelsen, Höhlen und stilles Wasser: Besucher beschreiben Kanutouren durch die Bucht als Highlight. Auf Google 4,7 Sterne. Touren starten laut Besuchern früh am Morgen und dauern bis zum späten Nachmittag.</p>",
+     "text_en": "<p>Limestone cliffs, caves and calm water: visitors describe canoe tours through the bay as a highlight. 4.7 stars on Google. Tours start early in the morning and last until late afternoon according to visitors.</p>",
+     "tip": "Früh buchen; die guten Zeiten sind schnell weg.",
+     "tip_en": "Book early; the good slots go quickly."
+    },
+    {
+     "name": "Markt: Grillen, Seidenraupen, Durian",
+     "name_en": "Market: crickets, silkworms, durian",
+     "q": "Phuket Town Market",
+     "text": "<p>Frittierte Grillen und Seidenraupen-Puppen, bezahlt wird pro Löffel. Daneben Durian, Drachenfrucht und Longan.</p>",
+     "text_en": "<p>Fried crickets and silkworm pupae, paid by the spoonful. Next to them durian, dragon fruit and longan.</p>",
+     "photos": [
+      "images/photos/thailand-insekten.webp",
+      "images/photos/thailand-seidenraupen.webp",
+      "images/photos/thailand-obstmarkt.webp"
+     ]
+    },
+    {
+     "name": "Kata Beach am Abend",
+     "name_en": "Kata Beach in the evening",
+     "q": "Kata Beach Phuket",
+     "text": "<p>Wenn die Tagesgäste weg sind, wird es ruhig am Strand.</p>",
+     "text_en": "<p>When the day guests are gone, the beach grows quiet.</p>",
+     "photos": [
+      "images/photos/phuket-kata-abend.webp"
+     ]
+    },
+    {
+     "name": "Boat-Tour: Phi-Phi-Inseln & Inselhopping",
+     "text": "<p>Von Phuket aus fahren Boote zu den Phi-Phi-Inseln, Koh Racha und weiteren Inseln. Touren starten früh am Morgen und dauern bis zum späten Nachmittag. Schnorcheln ist bei vielen Touren inbegriffen. Maya Bay hat Besuchsregeln, die sich ändern (vorher prüfen).</p><p>Vergleiche Anbieter, achte auf Sicherheit und kleine Gruppen. Preise ändern sich.</p>",
+     "text_en": "<p>From Phuket boats go to the Phi Phi Islands, Koh Racha and other islands. Tours start early in the morning and last until the late afternoon. Snorkelling is included on many tours. Maya Bay has visiting rules that change (check beforehand).</p><p>Compare providers, pay attention to safety and small groups. Prices change.</p>",
+     "name_en": "Boat tour: Phi Phi Islands & island hopping",
+     "gem": true,
+     "q": "Phi Phi Islands tour Phuket",
+     "tip": "Buche früh und achte auf kleine Gruppen.",
+     "tip_en": "Book early and look for small groups."
+    },
+    {
+     "name": "Phuket Elephant Sanctuary & ethischer Tierschutz",
+     "text": "<p>Wenn du Elefanten sehen willst, wähle ein Schutzgebiet, das Tiere nicht reiten lässt und auf Tierwohl achtet. Dort beobachtest du Elefanten in naturnaher Umgebung. Informiere dich vorher über die Standards des Anbieters; Buchungen sind meist im Voraus nötig.</p><p>Vermeide Shows und Reiten.</p>",
+     "text_en": "<p>If you want to see elephants, choose a sanctuary that does not allow riding and focuses on animal welfare. There you observe elephants in a natural environment. Find out about the provider’s standards beforehand; bookings are usually needed in advance.</p><p>Avoid shows and riding.</p>",
+     "name_en": "Elephant sanctuary & ethical animal care",
+     "gem": true,
+     "q": "Phuket Elephant Sanctuary",
+     "tip": "Wähle Orte ohne Reiten und Shows.",
+     "tip_en": "Choose places without riding and shows."
+    },
+    {
+     "name": "Thai-Küche: Pad Thai, Mango Sticky Rice & Nachtmärkte",
+     "text": "<p>Probiere Pad Thai, Tom Yum, Massaman-Curry, Mango Sticky Rice und frisches Obst. Nachtmärkte wie der Naka Market oder der Sonntagsmarkt in der Altstadt bieten günstiges Essen. Sag, wie scharf du es willst.</p><p>Preise sind meist niedrig; frag vorher.</p>",
+     "text_en": "<p>Try pad thai, tom yum, massaman curry, mango sticky rice and fresh fruit. Night markets like the Naka Market or the Sunday market in the old town offer cheap food. Say how spicy you want it.</p><p>Prices are usually low; ask beforehand.</p>",
+     "name_en": "Thai cuisine: pad thai, mango sticky rice & night markets",
+     "q": "Naka Weekend Market Phuket",
+     "tip": "Sag, wie scharf du es willst.",
+     "tip_en": "Say how spicy you want it."
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Thailand ausmacht",
+   "h_en": "What makes Thailand special",
+   "box": "gyg",
+   "html": "<p>Thailand ist das einzige Land Südostasiens, das nie von einer europäischen Macht kolonisiert wurde – darauf sind die Menschen bis heute stolz. Über 90 Prozent sind Buddhisten, und überall stehen kleine Geisterhäuschen mit Opfergaben vor Häusern und Geschäften. Bis 1939 hieß das Land Siam.</p><p>Mein Fazit: Phuket für den Einstieg, Krabi für die Landschaft. Siehe meinen Krabi-Guide.</p>",
+   "html_en": "<p>Thailand is the only country in Southeast Asia never colonised by a European power – people are proud of that to this day. Over 90 percent are Buddhists, and small spirit houses with offerings stand outside houses and shops everywhere. Until 1939 the country was called Siam.</p><p>My verdict: Phuket for the start, Krabi for the landscape. See my Krabi guide.</p>"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag auf Phuket",
+   "h_en": "A day on Phuket",
+   "items": [
+    "<strong>Vormittag</strong> – Big Buddha und Wat Chalong",
+    "<strong>Mittag</strong> – Kata Beach",
+    "<strong>Nachmittag</strong> – Promthep Cape",
+    "<strong>Abend</strong> – Altstadt und Markt"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Big Buddha and Wat Chalong",
+    "<strong>Midday</strong> – Kata Beach",
+    "<strong>Afternoon</strong> – Promthep Cape",
+    "<strong>Evening</strong> – old town and market"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Phuket oder Krabi?",
+   "q_en": "Phuket or Krabi?",
+   "a": "<p>Noels Fazit: Phuket für den Einstieg, Krabi für die Landschaft.</p>",
+   "a_en": "<p>Noel’s verdict: Phuket for the start, Krabi for the landscape.</p>"
+  },
+  {
+   "q": "Wann ist die beste Reisezeit?",
+   "q_en": "When is the best time?",
+   "a": "<p>Grob November bis April ist trockener; Noel war im Februar dort.</p>",
+   "a_en": "<p>Roughly November to April is drier; Noel went in February.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man auf Phuket?",
+   "q_en": "How many days do you need on Phuket?",
+   "a": "Drei bis fünf Tage.",
+   "a_en": "Three to five days."
+  }
+ ]
 }
