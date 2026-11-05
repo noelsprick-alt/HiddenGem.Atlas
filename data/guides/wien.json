@@ -7,8 +7,8 @@
  "city": "Wien",
  "city_en": "Vienna",
  "updated": "2026-11-05",
- "title": "Wien Guide: Kaffeehaus-Vormittag, Naschmarkt & Loos Bar",
- "title_en": "Vienna Guide: A Coffee-House Morning, Naschmarkt & Loos Bar",
+ "title": "Wien Guide: 12 Orte – Kaffeehaus, Naschmarkt, Schönbrunn & Heuriger",
+ "title_en": "Vienna Guide: 12 places – coffee house, Naschmarkt, Schönbrunn & Heuriger",
  "desc": "Wien nach Noels Rat: ein Vormittag im Kaffeehaus, Naschmarkt und abends ein Drink in der winzigen Loos Bar.",
  "desc_en": "Vienna by Noel’s advice: a morning in a coffee house, the Naschmarkt and an evening drink in the tiny Loos Bar.",
  "gyg_q": "Vienna",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Euro",
    "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "April bis Oktober; Dezember für Weihnachtsmärkte",
+   "v_en": "April to October; December for Christmas markets"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Wien erreichst du per Zug (Westbahnhof/Hauptbahnhof), Flug oder Fernbus. Innerhalb der Stadt reichen U-Bahn, Tram und Füße.</p>",
-   "html_en": "<p>You reach Vienna by train, flight or coach. Within the city subway, tram and feet are enough.</p>"
+   "html": "<p>Wien erreichst du per Zug (Westbahnhof/Hauptbahnhof), Flug oder Fernbus. Innerhalb der Stadt reichen U-Bahn, Tram und Füße.</p><p>Vom Flughafen Wien-Schwechat fährst du mit der S-Bahn oder dem City Airport Train in rund 20 bis 30 Minuten ins Zentrum (Fahrpläne und Preise vorher prüfen). In der Stadt sind U-Bahn, Straßenbahn und Bus dicht getaktet; Tageskarten und die Wien-Karte (mit Ermäßigungen) lohnen sich.</p><p>Die Innenstadt (1. Bezirk) ist klein und zu Fuß gut erkundbar. Nachts fahren Nachtbusse. Trinkwasser aus der Leitung ist in Wien hervorragend und kommt aus den Alpen.</p>",
+   "html_en": "<p>You reach Vienna by train, flight or coach. Within the city subway, tram and feet are enough.</p><p>From Vienna-Schwechat airport you take the S-Bahn or the City Airport Train in about 20 to 30 minutes into the centre (check timetables and prices beforehand). In the city metro, tram and bus run at close intervals; day tickets and the Vienna Card (with discounts) are worthwhile.</p><p>The inner city (1st district) is small and easy to explore on foot. At night night buses run. Tap water in Vienna is excellent and comes from the Alps.</p>"
   },
   {
    "type": "spots",
@@ -49,24 +55,120 @@
    "spots": [
     {
      "name": "Kaffeehaus-Vormittag",
-     "text": "Ohne Eile, mit Zeitung und Melange. Die Wiener Kaffeehauskultur gehört zum immateriellen Kulturerbe der UNESCO.",
-     "text_en": "No rush, a newspaper and a melange. Viennese coffee-house culture is UNESCO intangible heritage.",
+     "text": "<p>Ohne Eile, mit Zeitung und Melange. Die Wiener Kaffeehauskultur gehört zum immateriellen Kulturerbe der UNESCO.</p><p>Das Wiener Kaffeehaus ist eine Institution: Marmortische, Thonet-Stühle, Zeitungen am Holz, Kellner im Anzug. Du bestellst einen Kaffee – zum Beispiel eine Melange (ähnlich einem Milchkaffee) oder einen kleinen Braunen – und bekommst ein Glas Wasser dazu. Niemand drängt dich zu gehen, du kannst stundenlang sitzen.</p><p>Berühmte Häuser sind das Café Central, das Café Landtmann, das Café Sperl und das Café Hawelka. Probiere dazu ein Stück Torte oder einen Apfelstrudel. Das Trinkgeld beträgt üblicherweise rund 5–10 Prozent (aufrunden).</p>",
+     "text_en": "<p>No rush, a newspaper and a melange. Viennese coffee-house culture is UNESCO intangible heritage.</p><p>The Viennese coffee house is an institution: marble tables, Thonet chairs, newspapers on wooden holders, waiters in suits. You order a coffee – for example a melange (similar to a milky coffee) or a small brown – and get a glass of water with it. Nobody pushes you to leave; you can sit for hours.</p><p>Famous houses are Café Central, Café Landtmann, Café Sperl and Café Hawelka. Try a slice of cake or an apple strudel with it. The tip is usually about 5–10 per cent (round up).</p>",
      "name_en": "A coffee-house morning",
-     "q": "Kaffeehaus-Vormittag"
+     "q": "Kaffeehaus-Vormittag",
+     "tip": "Geh am Vormittag unter der Woche – dann bekommst du ohne Wartezeit einen Platz.",
+     "tip_en": "Go on a weekday morning – then you get a seat without waiting."
     },
     {
      "name": "Naschmarkt",
-     "text": "Danach über den Naschmarkt – Stände, Essen, Gewürze.",
-     "text_en": "Then across the Naschmarkt – stalls, food, spices.",
-     "q": "Naschmarkt"
+     "text": "<p>Danach über den Naschmarkt – Stände, Essen, Gewürze.</p><p>Der Naschmarkt ist Wiens bekanntester Markt: rund 1,5 Kilometer lang, mit etwa 120 Ständen und Lokalen. Du findest Gewürze, Oliven, Käse, Obst, Fisch, Süßigkeiten und internationale Küche. Samstags gibt es zusätzlich einen großen Flohmarkt am Ende des Marktes.</p><p>Die Preise sind in den Restaurants oft höher als in kleinen Bistros der Nebenstraßen. Komm vormittags zum Einkaufen und iss ein Frühstück oder ein Mittagessen dort. Prüfe, ob alle Stände geöffnet haben; sonntags ist der Markt geschlossen.</p>",
+     "text_en": "<p>Then across the Naschmarkt – stalls, food, spices.</p><p>The Naschmarkt is Vienna’s best-known market: about 1.5 kilometres long, with about 120 stalls and restaurants. You find spices, olives, cheese, fruit, fish, sweets and international cuisine. On Saturdays there is also a large flea market at the end of the market.</p><p>Prices in the restaurants are often higher than in small bistros on side streets. Come in the morning for shopping and eat a breakfast or lunch there. Check whether all stalls are open; the market is closed on Sundays.</p>",
+     "q": "Naschmarkt",
+     "tip": "Komm samstags für Markt und Flohmarkt zusammen, aber früh.",
+     "tip_en": "Come on Saturday for market and flea market together, but early."
     },
     {
      "name": "Loos American Bar",
-     "text": "Abends ein Drink in der winzigen Bar von Adolf Loos. Auf Google 4,1 Sterne; Besucher loben die Einrichtung, Meinungen zu Cocktails und Service sind gemischt.",
-     "text_en": "An evening drink in Adolf Loos’s tiny bar. 4.1 stars on Google; visitors praise the interior, opinions on cocktails and service are mixed.",
+     "text": "<p>Abends ein Drink in der winzigen Bar von Adolf Loos. Auf Google 4,1 Sterne; Besucher loben die Einrichtung, Meinungen zu Cocktails und Service sind gemischt.</p><p>Die Loos American Bar ist ein kleines Juwel: Sie wurde 1908 vom Architekten Adolf Loos entworfen und misst nur rund 27 Quadratmeter. Dunkles Holz, Marmor, Spiegel und Onyx machen den Raum edel und eng. Hier trinkst du klassische Cocktails in einer Bar, die zum Stück Architekturgeschichte geworden ist.</p><p>Die Bar ist sehr klein – du musst eventuell warten oder früh am Abend kommen. Die Preise sind gehoben. Prüfe Öffnungszeiten vorher.</p>",
+     "text_en": "<p>An evening drink in Adolf Loos’s tiny bar. 4.1 stars on Google; visitors praise the interior, opinions on cocktails and service are mixed.</p><p>The Loos American Bar is a small jewel: it was designed in 1908 by the architect Adolf Loos and measures only about 27 square metres. Dark wood, marble, mirrors and onyx make the space elegant and tight. Here you drink classic cocktails in a bar that has become a piece of architectural history.</p><p>The bar is very small – you may have to wait or come early in the evening. Prices are upscale. Check opening times beforehand.</p>",
      "q": "Loos American Bar Wien",
      "hours": "laut Google täglich ca. 12–4 Uhr",
-     "hours_en": "daily about 12 pm–4 am according to Google"
+     "hours_en": "daily about 12 pm–4 am according to Google",
+     "tip": "Komm früh am Abend, wenn noch Platz ist.",
+     "tip_en": "Come early in the evening when there is still room."
+    },
+    {
+     "name": "Stephansdom",
+     "text": "<p>Der Stephansdom, im Volksmund „Steffl“, ist das Wahrzeichen Wiens: eine gotische Kathedrale mit buntem Mosaikdach und einem rund 136 Meter hohen Südturm. Du kannst den Turm besteigen (rund 343 Stufen) oder mit dem Aufzug im Nordturm zur Pummerin fahren, der großen Glocke. Unter dem Dom liegen Katakomben.</p><p>Eintritt und Öffnungszeiten ändern sich (vorher prüfen). Komm früh am Morgen, wenn die Schlangen kurz sind; der Platz davor ist im Sommer voll.</p>",
+     "text_en": "<p>St Stephen’s Cathedral, colloquially “Steffl”, is the landmark of Vienna: a Gothic cathedral with a colourful mosaic roof and a south tower about 136 metres high. You can climb the tower (about 343 steps) or take the lift in the north tower to the Pummerin, the great bell. Beneath the cathedral lie catacombs.</p><p>Admission and opening times change (check beforehand). Come early in the morning when the queues are short; the square in front is crowded in summer.</p>",
+     "name_en": "St Stephen’s Cathedral",
+     "q": "Stephansdom Wien",
+     "tip": "Besteige den Turm früh am Morgen, dann ist die Sicht klar und die Schlange kurz.",
+     "tip_en": "Climb the tower early in the morning, then the view is clear and the queue short."
+    },
+    {
+     "name": "Schloss Schönbrunn & Gloriette",
+     "text": "<p>Schönbrunn war die Sommerresidenz der Habsburger: ein riesiges gelbes Schloss mit rund 1.400 Räumen, von denen du bei Führungen einen Teil siehst. Der Schlosspark im französischen Stil mit Brunnen, Alleen und der Gloriette auf dem Hügel ist weitläufig und kostenlos zugänglich. Von der Gloriette hast du einen Blick auf Schloss und Stadt.</p><p>Im Park liegt auch der Tiergarten Schönbrunn, der als ältester bestehender Zoo der Welt gilt. Plane einen halben bis ganzen Tag ein; Tickets für das Schloss solltest du online reservieren. Preise vorher prüfen.</p>",
+     "text_en": "<p>Schönbrunn was the summer residence of the Habsburgs: a huge yellow palace with about 1,400 rooms, of which you see a part on tours. The palace park in French style with fountains, avenues and the Gloriette on the hill is extensive and free to enter. From the Gloriette you have a view of palace and city.</p><p>In the park also lies the Schönbrunn Zoo, which is considered the oldest existing zoo in the world. Plan half a day to a full day; you should reserve tickets for the palace online. Check prices beforehand.</p>",
+     "name_en": "Schönbrunn Palace & Gloriette",
+     "q": "Schloss Schönbrunn",
+     "tip": "Reserviere das Ticket online und besuche den Park am späten Nachmittag.",
+     "tip_en": "Reserve the ticket online and visit the park in the late afternoon."
+    },
+    {
+     "name": "Hofburg & Spanische Hofreitschule",
+     "text": "<p>Die Hofburg war über Jahrhunderte das Machtzentrum der Habsburger. Heute beherbergt sie die Kaiserappartements, das Sisi Museum, die Schatzkammer und die Spanische Hofreitschule, in der die berühmten Lipizzaner-Pferde trainieren. Eine Vorführung oder das Morgentraining kannst du besuchen (Tickets frühzeitig buchen).</p><p>Plane einen halben Tag ein. Rund um die Hofburg liegen der Heldenplatz und der Volksgarten – gute Orte für eine Pause.</p>",
+     "text_en": "<p>The Hofburg was the centre of Habsburg power for centuries. Today it houses the Imperial Apartments, the Sisi Museum, the Treasury and the Spanish Riding School, where the famous Lipizzaner horses train. You can visit a performance or the morning training (book tickets early).</p><p>Plan half a day. Around the Hofburg lie the Heldenplatz and the Volksgarten – good places for a break.</p>",
+     "name_en": "Hofburg & Spanish Riding School",
+     "q": "Hofburg Wien",
+     "tip": "Buche Tickets früh und plane einen Halbtag ein.",
+     "tip_en": "Book tickets early and plan half a day."
+    },
+    {
+     "name": "Belvedere – Klimts „Der Kuss“",
+     "text": "<p>Das Obere Belvedere ist ein Barockschloss, in dem Gustav Klimts berühmtes Gemälde „Der Kuss“ hängt. Dazu kommen Werke von Schiele, Kokoschka und anderen. Das Schloss und der Garten mit Blick auf die Stadt sind ein schönes Ensemble.</p><p>Tickets online buchen; früh am Morgen oder spät am Nachmittag ist es ruhiger. Der Garten ist teilweise kostenlos zugänglich. Prüfe Preise und Zeiten vorher.</p>",
+     "text_en": "<p>The Upper Belvedere is a Baroque palace in which Gustav Klimt’s famous painting “The Kiss” hangs. Works by Schiele, Kokoschka and others are added. The palace and the garden with a view of the city form a lovely ensemble.</p><p>Book tickets online; early in the morning or late in the afternoon it is quieter. The garden is partly free to enter. Check prices and times beforehand.</p>",
+     "name_en": "Belvedere – Klimt’s “The Kiss”",
+     "q": "Belvedere Wien",
+     "tip": "Komm früh am Morgen vor dem Ansturm.",
+     "tip_en": "Come early in the morning before the rush."
+    },
+    {
+     "name": "Prater & Riesenrad",
+     "text": "<p>Der Wiener Prater ist ein großer Park mit dem Vergnügungspark Wurstelprater und dem Riesenrad von 1897, das durch den Film „Der dritte Mann“ berühmt wurde. Eine Fahrt dauert etwa 15 bis 20 Minuten; von oben siehst du die Stadt.</p><p>Zu Fuß oder mit dem Rad kannst du dem Park weit in den Grünbereich folgen. Im Wurstelprater gibt es Karussells, Imbisse und Spiele. Preise vorher prüfen.</p>",
+     "text_en": "<p>The Vienna Prater is a large park with the amusement park Wurstelprater and the Giant Ferris Wheel of 1897, made famous by the film “The Third Man”. A ride takes about 15 to 20 minutes; from the top you see the city.</p><p>On foot or by bike you can follow the park far into the green area. In the Wurstelprater there are carousels, snacks and games. Check prices beforehand.</p>",
+     "name_en": "Prater & Giant Ferris Wheel",
+     "q": "Wiener Riesenrad",
+     "tip": "Fahr zum Sonnenuntergang, dann leuchtet die Stadt.",
+     "tip_en": "Ride at sunset, then the city glows."
+    }
+   ]
+  },
+  {
+   "id": "gems",
+   "h": "Hidden Gems & Genuss",
+   "h_en": "Hidden gems & treats",
+   "spots": [
+    {
+     "name": "Heuriger in Grinzing, Nussdorf & Neustift",
+     "text": "<p>Ein Heuriger ist ein Weinlokal, in dem Winzer ihren eigenen Wein ausschenken. Die Tradition reicht Jahrhunderte zurück; in Wiens Außenbezirken wie Grinzing, Nussdorf und Neustift am Walde findest du sie. Ein grüner Busch über der Tür zeigt an, dass ausgeschenkt wird („Ausg’steckt“).</p><p>Du bedienst dich oft am Buffet mit Brotaufstrich, Schweinebraten, Salaten und Käse. Probiere einen Grünen Veltliner oder einen Gemischten Satz. Die Fahrt dauert mit Tram oder Bus rund 30 Minuten; viele Heurigen öffnen nur am Nachmittag und Abend.</p>",
+     "text_en": "<p>A Heuriger is a wine tavern in which winemakers pour their own wine. The tradition goes back centuries; in Vienna’s outer districts such as Grinzing, Nussdorf and Neustift am Walde you find them. A green bush above the door shows that wine is being served (“Ausg’steckt”).</p><p>You often help yourself at the buffet with spreads, roast pork, salads and cheese. Try a Grüner Veltliner or a Gemischter Satz. The trip takes about 30 minutes by tram or bus; many Heurigen open only in the afternoon and evening.</p>",
+     "name_en": "Heuriger in Grinzing, Nussdorf & Neustift",
+     "gem": true,
+     "q": "Heuriger Nussdorf Wien",
+     "tip": "Fahr am späten Nachmittag, bleib bis zum Sonnenuntergang und nimm die Bim zurück.",
+     "tip_en": "Go in the late afternoon, stay until sunset and take the tram back."
+    },
+    {
+     "name": "Hundertwasserhaus & Kunst Haus Wien",
+     "text": "<p>Das Hundertwasserhaus ist ein buntes Wohnhaus mit schiefen Linien, Mosaiken, Bäumen auf dem Dach und unregelmäßigen Fenstern, entworfen vom Künstler Friedensreich Hundertwasser. Du kannst es von außen ansehen; das Haus ist bewohnt, Innenräume sind nicht zugänglich.</p><p>Nebenan zeigt das Kunst Haus Wien Hundertwassers Werk. In der Nähe gibt es Cafés und kleine Läden. Plane eine Stunde ein.</p>",
+     "text_en": "<p>The Hundertwasser House is a colourful residential building with crooked lines, mosaics, trees on the roof and irregular windows, designed by the artist Friedensreich Hundertwasser. You can see it from outside; the house is inhabited, interiors are not accessible.</p><p>Next door the Kunst Haus Wien shows Hundertwasser’s work. Nearby there are cafés and small shops. Plan an hour.</p>",
+     "name_en": "Hundertwasser House & Kunst Haus Wien",
+     "gem": true,
+     "q": "Hundertwasserhaus Wien",
+     "tip": "Komm vormittags für Fotos ohne Menschenmassen.",
+     "tip_en": "Come in the morning for photos without crowds."
+    },
+    {
+     "name": "Sachertorte, Schnitzel & Co.",
+     "text": "<p>Zu Wien gehören Süßes und Deftiges: die Sachertorte (Schokoladenkuchen mit Aprikosenmarmelade) aus dem Hotel Sacher oder ihre Konkurrenz im Café Demel, dazu Apfelstrudel und Kaiserschmarrn. Als Hauptgericht gilt das Wiener Schnitzel – paniertes Kalbfleisch, das so dünn geklopft wird, dass es über den Tellerrand ragt.</p><p>Das echte Wiener Schnitzel ist laut österreichischem Lebensmittelbuch vom Kalb; Schnitzel vom Schwein heißen „Wiener Art“. Die Preise in Touristenlagen sind hoch; kleine Beisln in Nebenstraßen sind oft günstiger.</p>",
+     "text_en": "<p>Vienna means sweet and hearty: the Sachertorte (chocolate cake with apricot jam) from the Hotel Sacher or its competition at Café Demel, plus apple strudel and Kaiserschmarrn. As a main course the Wiener Schnitzel counts – breaded veal pounded so thin that it overhangs the plate.</p><p>According to the Austrian food code the real Wiener Schnitzel is veal; pork schnitzel is called “Wiener Art”. Prices in tourist areas are high; small Beisln on side streets are often cheaper.</p>",
+     "name_en": "Sachertorte, schnitzel & co.",
+     "q": "Café Demel Wien",
+     "tip": "Iss das Schnitzel in einem Beisl abseits der Hauptstraßen.",
+     "tip_en": "Eat the schnitzel in a Beisl off the main streets."
+    },
+    {
+     "name": "Tagesausflug nach Bratislava",
+     "text": "<p>Die slowakische Hauptstadt liegt rund eine Stunde von Wien entfernt und ist mit dem Zug oder Schiff gut erreichbar (Fahrpläne vorher prüfen). Bratislava hat eine kleine Altstadt, eine Burg über der Donau und eine entspannte Atmosphäre. Mehr dazu findest du in meinem Bratislava-Guide.</p><p>Die Fahrt lohnt sich, wenn du einen zweiten Tag Zeit hast und etwas Neues sehen willst.</p>",
+     "text_en": "<p>The Slovak capital lies about an hour from Vienna and is easily reachable by train or ship (check timetables beforehand). Bratislava has a small old town, a castle above the Danube and a relaxed atmosphere. You find more in my Bratislava guide.</p><p>The trip is worthwhile if you have a second day and want to see something new.</p>",
+     "name_en": "Day trip to Bratislava",
+     "q": "Bratislava",
+     "tip": "Fahr früh hin und iss dort zu Mittag.",
+     "tip_en": "Go early and eat lunch there."
     }
    ]
   },
@@ -82,17 +184,33 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Wien",
-   "h_en": "One day in Vienna",
+   "h": "Tag 1 – Altstadt & Kaffeehaus",
+   "h_en": "Day 1 – Old town & coffee house",
    "items": [
-    "<strong>Vormittag</strong> – Kaffeehaus",
-    "<strong>Mittag</strong> – Naschmarkt",
+    "<strong>Vormittag</strong> – Kaffeehaus, Stephansdom",
+    "<strong>Mittag</strong> – Hofburg oder Spanische Hofreitschule",
+    "<strong>Nachmittag</strong> – Naschmarkt und Belvedere",
     "<strong>Abend</strong> – Loos Bar"
    ],
    "items_en": [
-    "<strong>Morning</strong> – coffee house",
-    "<strong>Midday</strong> – Naschmarkt",
+    "<strong>Morning</strong> – coffee house, St Stephen’s",
+    "<strong>Midday</strong> – Hofburg or Spanish Riding School",
+    "<strong>Afternoon</strong> – Naschmarkt and Belvedere",
     "<strong>Evening</strong> – Loos Bar"
+   ]
+  },
+  {
+   "h": "Tag 2 – Schönbrunn & Heuriger",
+   "h_en": "Day 2 – Schönbrunn & Heuriger",
+   "items": [
+    "<strong>Vormittag</strong> – Schloss Schönbrunn, Park, Gloriette",
+    "<strong>Mittag</strong> – Prater und Riesenrad",
+    "<strong>Abend</strong> – Heuriger in Nussdorf oder Grinzing"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Schönbrunn Palace, park, Gloriette",
+    "<strong>Midday</strong> – Prater and Giant Ferris Wheel",
+    "<strong>Evening</strong> – Heuriger in Nussdorf or Grinzing"
    ]
   }
  ],
@@ -102,6 +220,18 @@
    "q_en": "Can I combine Bratislava with Vienna?",
    "a": "<p>Ja, nur rund eine Stunde Fahrt.</p>",
    "a_en": "<p>Yes, only about an hour’s ride.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Wien?",
+   "q_en": "How many days do you need in Vienna?",
+   "a": "Zwei bis drei Tage für die Highlights, mit Ausflug nach Bratislava vier.",
+   "a_en": "Two to three days for the highlights, with a trip to Bratislava four."
+  },
+  {
+   "q": "Lohnt die Wien-Karte?",
+   "q_en": "Is the Vienna Card worthwhile?",
+   "a": "Wenn du viele Öffis nutzt und mehrere Museen besuchst, lohnt sie sich oft; rechne vorher nach.",
+   "a_en": "If you use a lot of public transport and visit several museums it often pays off; calculate beforehand."
   }
  ]
 }

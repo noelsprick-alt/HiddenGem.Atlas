@@ -7,8 +7,8 @@
  "city": "Straßburg",
  "city_en": "Strasbourg",
  "updated": "2026-11-05",
- "title": "Straßburg Guide: La Petite France, Barrage Vauban & die astronomische Uhr",
- "title_en": "Strasbourg Guide: La Petite France, Barrage Vauban & the Astronomical Clock",
+ "title": "Straßburg Guide: 11 Orte – La Petite France, Münster, Neustadt & Winstub",
+ "title_en": "Strasbourg Guide: 11 places – La Petite France, cathedral, Neustadt & winstub",
  "desc": "Straßburg: morgens durch La Petite France, Dachterrasse des Barrage Vauban und um 12:30 Uhr die Apostel an der astronomischen Uhr – von Noel.",
  "desc_en": "Strasbourg: La Petite France in the morning, the Barrage Vauban terrace and at 12:30 the apostles at the astronomical clock – from Noel.",
  "gyg_q": "Strasbourg",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Euro",
    "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai bis Oktober; Dezember für den Weihnachtsmarkt",
+   "v_en": "May to October; December for the Christmas market"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Von Freiburg bist du über den Rhein in wenigen Minuten im Elsass; Straßburg erreichst du per Zug.</p>",
-   "html_en": "<p>From Freiburg you are in Alsace in a few minutes across the Rhine; you reach Strasbourg by train.</p>"
+   "html": "<p>Von Freiburg bist du über den Rhein in wenigen Minuten im Elsass; Straßburg erreichst du per Zug.</p><p>Aus Deutschland erreichst du Straßburg mit dem Zug (zum Beispiel über Karlsruhe oder Offenburg) in rund 1,5 bis 3 Stunden, je nach Ausgangsort (Fahrpläne vorher prüfen). Die Altstadt ist eine Insel in der Ill, kompakt und zu Fuß erkundbar; Straßenbahnen helfen bei längeren Strecken.</p><p>Mit dem Auto parkst du am besten in einem Park-and-Ride am Stadtrand und fährst mit der Tram. Straßburg ist auch ein guter Ausgangspunkt für die elsässische Weinstraße.</p>",
+   "html_en": "<p>From Freiburg you are in Alsace in a few minutes across the Rhine; you reach Strasbourg by train.</p><p>From Germany you reach Strasbourg by train (for example via Karlsruhe or Offenburg) in about 1.5 to 3 hours, depending on your starting point (check timetables beforehand). The old town is an island in the Ill, compact and explorable on foot; trams help over longer distances.</p><p>By car it is best to park at a park-and-ride on the edge and take the tram. Strasbourg is also a good starting point for the Alsace wine route.</p>"
   },
   {
    "type": "spots",
@@ -49,15 +55,55 @@
    "spots": [
     {
      "name": "La Petite France",
-     "text": "Morgens durch das Fachwerkviertel.",
-     "text_en": "Through the half-timbered quarter in the morning.",
-     "q": "La Petite France"
+     "text": "<p>Morgens durch das Fachwerkviertel.</p><p>La Petite France ist das ehemalige Gerber- und Fischerviertel auf einer Insel in der Ill: Fachwerkhäuser mit Blumenkästen, enge Gassen und Wasserkanäle prägen das Bild. Der Name stammt wohl von einem früheren Krankenhaus für Syphilis-Kranke („Franzosenkrankheit“), nicht von Frankreich als Ganzem – ein Detail, das Fremdenführer gern erzählen.</p><p>Am schönsten ist das Viertel am frühen Morgen, bevor die Reisegruppen kommen; dann spiegeln sich die Häuser im Wasser, und du hörst fast nur Vögel. Gehe auch in die Rue du Bain-aux-Plantes und zum Place Benjamin Zix, wo du die klassischen Fotomotive findest.</p>",
+     "text_en": "<p>Through the half-timbered quarter in the morning.</p><p>La Petite France is the former tanners’ and fishermen’s district on an island in the Ill: half-timbered houses with flower boxes, narrow lanes and water canals shape the picture. The name probably comes from a former hospital for syphilis patients (“French disease”), not from France as a whole – a detail guides like to tell.</p><p>The district is most beautiful in the early morning, before the tour groups arrive; then the houses are reflected in the water and you hear almost only birds. Also walk to Rue du Bain-aux-Plantes and Place Benjamin Zix, where you find the classic photo motifs.</p>",
+     "q": "La Petite France",
+     "tip": "Komm vor 9 Uhr – dann hast du Gassen und Kanäle fast für dich.",
+     "tip_en": "Come before 9 a.m. – then you have lanes and canals almost to yourself."
     },
     {
      "name": "Barrage Vauban",
-     "text": "Die Dachterrasse mit Blick auf Petite France und Münster – kostenlos. Auf Google 4,6 Sterne. Besucher nennen Öffnung bis ca. 19 Uhr.",
-     "text_en": "The roof terrace with a view of Petite France and the cathedral – free. 4.6 stars on Google. Visitors mention opening until about 7 pm.",
-     "q": "Barrage Vauban Strasbourg"
+     "text": "<p>Die Dachterrasse mit Blick auf Petite France und Münster – kostenlos. Auf Google 4,6 Sterne. Besucher nennen Öffnung bis ca. 19 Uhr.</p><p>Der Barrage Vauban ist eine überdachte Brücke aus dem späten 17. Jahrhundert, die als Teil der Stadtbefestigung gebaut wurde. Auf dem Dach liegt eine Terrasse, die du kostenlos betreten kannst. Von dort hast du einen Blick auf die Ill, La Petite France, die Gedeckten Brücken und das Münster.</p><p>Im Inneren siehst du Skulpturen aus dem Museum der Stadt. Die Terrasse ist bis etwa zum frühen Abend geöffnet (Zeiten vorher prüfen); Sonnenuntergang ist besonders schön.</p>",
+     "text_en": "<p>The roof terrace with a view of Petite France and the cathedral – free. 4.6 stars on Google. Visitors mention opening until about 7 pm.</p><p>The Barrage Vauban is a covered bridge from the late 17th century, built as part of the city fortifications. On the roof lies a terrace that you can enter free of charge. From there you have a view of the Ill, La Petite France, the Covered Bridges and the cathedral.</p><p>Inside you see sculptures from the city’s museum. The terrace is open until about early evening (check times beforehand); sunset is especially beautiful.</p>",
+     "q": "Barrage Vauban Strasbourg",
+     "tip": "Geh kurz vor Sonnenuntergang hinauf – dann liegt das Licht warm auf dem Münster.",
+     "tip_en": "Go up shortly before sunset – then the light lies warm on the cathedral."
+    },
+    {
+     "name": "Kathedrale Notre-Dame de Strasbourg",
+     "text": "<p>Das Münster aus rotem Vogesen-Sandstein ist ein Meisterwerk der Gotik. Sein Turm war mit rund 142 Metern bis 1874 das höchste Bauwerk der Welt. Die filigrane Fassade, die Rosette und die bunten Fenster im Inneren sind beeindruckend. Du kannst zu einer Aussichtsplattform steigen (rund 330 Stufen, Eintritt; Zeiten vorher prüfen).</p><p>Von oben überblickst du die Altstadt, den Rhein und die Vogesen. Am schönsten ist die Fassade am späten Nachmittag, wenn das Licht den Stein zum Leuchten bringt. Plane eine Stunde für das Innere und eine für den Turm ein.</p>",
+     "text_en": "<p>The cathedral of red Vosges sandstone is a masterpiece of Gothic. With its tower about 142 metres high it was the tallest building in the world until 1874. The filigree façade, the rose window and the colourful windows inside are impressive. You can climb to a viewing platform (about 330 steps, admission; check times beforehand).</p><p>From above you survey the old town, the Rhine and the Vosges. The façade is most beautiful in the late afternoon when the light makes the stone glow. Plan an hour for the interior and one for the tower.</p>",
+     "name_en": "Strasbourg Cathedral (Notre-Dame)",
+     "q": "Cathédrale Notre-Dame de Strasbourg",
+     "tip": "Kombiniere den Turm mit der astronomischen Uhr.",
+     "tip_en": "Combine the tower with the astronomical clock."
+    },
+    {
+     "name": "Place Kléber, Place Gutenberg & Maison Kammerzell",
+     "text": "<p>Die Place Kléber ist der große zentrale Platz der Stadt, an dem Straßenbahnen, Cafés und der Weihnachtsbaum zusammenkommen. Wenige Schritte entfernt liegt die Place Gutenberg mit der Statue des Druckerpioniers, der in Straßburg arbeitete. Am Münsterplatz steht das Maison Kammerzell, ein kunstvolles Fachwerkhaus mit reich geschnitzter Fassade, in dem sich ein Restaurant befindet.</p><p>Ein Spaziergang zwischen diesen Plätzen ist leicht, flach und lohnt sich zu jeder Tageszeit. Setz dich in ein Café und beobachte das Treiben.</p>",
+     "text_en": "<p>Place Kléber is the great central square of the city where trams, cafés and the Christmas tree come together. A few steps away lies Place Gutenberg with the statue of the printing pioneer who worked in Strasbourg. On the cathedral square stands the Maison Kammerzell, an elaborate half-timbered house with a richly carved façade, which houses a restaurant.</p><p>A walk between these squares is easy, flat and worthwhile at any time of day. Sit in a café and watch the bustle.</p>",
+     "name_en": "Place Kléber, Place Gutenberg & Maison Kammerzell",
+     "q": "Maison Kammerzell Strasbourg",
+     "tip": "Geh am Abend, wenn die Plätze beleuchtet sind.",
+     "tip_en": "Go in the evening when the squares are lit."
+    },
+    {
+     "name": "Palais Rohan & Museen",
+     "text": "<p>Das Palais Rohan neben dem Münster ist ein Barockpalast aus dem 18. Jahrhundert, der heute drei Museen beherbergt: Archäologie, Dekorative Kunst und Schöne Künste. Die Räume sind prächtig ausgestattet; Gemälde, Möbel und Porzellan erzählen vom Leben des Kardinals.</p><p>Plane ein bis zwei Stunden ein; ein Besuch lohnt sich bei Regen oder wenn du mehr über die Geschichte der Region erfahren willst. Eintritt und Öffnungszeiten ändern sich, bitte prüfen.</p>",
+     "text_en": "<p>The Palais Rohan next to the cathedral is a Baroque palace from the 18th century that today houses three museums: archaeology, decorative arts and fine arts. The rooms are splendidly furnished; paintings, furniture and porcelain tell of the cardinal’s life.</p><p>Plan one to two hours; a visit is worthwhile in the rain or if you want to learn more about the history of the region. Admission and opening times change, please check.</p>",
+     "name_en": "Palais Rohan & museums",
+     "q": "Palais Rohan Strasbourg",
+     "tip": "Perfekter Regentag-Tipp direkt neben dem Münster.",
+     "tip_en": "A perfect rainy-day tip right next to the cathedral."
+    },
+    {
+     "name": "Bootstour auf der Ill",
+     "text": "<p>Eine Bootstour auf der Ill dauert rund eine Stunde und führt durch Schleusen, an La Petite France, den Gedeckten Brücken, dem Europaviertel und dem Palais de l'Europe vorbei. Du siehst die Stadt aus einer Perspektive, die du zu Fuß nicht bekommst.</p><p>Es gibt Audioguides in mehreren Sprachen. Preise und Abfahrtszeiten vorher prüfen; im Sommer sind die Boote oft voll, buche früh.</p>",
+     "text_en": "<p>A boat tour on the Ill lasts about an hour and leads through locks, past La Petite France, the Covered Bridges, the European Quarter and the Palais de l’Europe. You see the city from a perspective you cannot get on foot.</p><p>There are audio guides in several languages. Check prices and departure times beforehand; in summer the boats are often full, so book early.</p>",
+     "name_en": "Boat tour on the Ill",
+     "q": "Batorama Strasbourg",
+     "tip": "Buche vormittags, dann ist das Licht schön und die Boote sind weniger voll.",
+     "tip_en": "Book in the morning, then the light is lovely and the boats less full."
     }
    ]
   },
@@ -69,11 +115,53 @@
    "spots": [
     {
      "name": "Astronomische Uhr im Münster",
-     "text": "Jeden Tag um 12:30 Uhr ziehen die Apostel vorbei, und ein Hahn kräht – auf meiner Karte.",
-     "text_en": "Every day at 12:30 the apostles pass by and a rooster crows – on my map.",
+     "text": "<p>Jeden Tag um 12:30 Uhr ziehen die Apostel vorbei, und ein Hahn kräht – auf meiner Karte.</p><p>Die astronomische Uhr im Straßburger Münster wurde im 16. Jahrhundert gebaut und im 19. Jahrhundert erneuert. Sie zeigt Zeit, Mondphasen, Sternenbilder und viele astronomische Daten. Jeden Tag um 12:30 Uhr setzt sich ein Figurenspiel in Gang: Die Apostel ziehen am Christus vorbei, und ein Hahn kräht.</p><p>Da viele Besucher kommen, solltest du früh dort sein und dir einen Platz sichern. Die Uhr ist im Münster zu sehen; für das Figurenspiel wird ein kleiner Eintritt verlangt (Preise und Zeiten vorher prüfen).</p>",
+     "text_en": "<p>Every day at 12:30 the apostles pass by and a rooster crows – on my map.</p><p>The astronomical clock in Strasbourg Cathedral was built in the 16th century and renewed in the 19th century. It shows time, moon phases, constellations and many astronomical data. Every day at 12:30 a figure play starts: the apostles pass before Christ, and a rooster crows.</p><p>Because many visitors come, you should be there early and secure a spot. The clock is in the cathedral; a small admission is charged for the figure play (check prices and times beforehand).</p>",
      "name_en": "Astronomical clock in the cathedral",
      "gem": true,
-     "q": "Astronomische Uhr im Münster"
+     "q": "Astronomische Uhr im Münster",
+     "tip": "Sei 20–30 Minuten vor 12:30 Uhr da, sonst stehst du in der zweiten Reihe.",
+     "tip_en": "Be there 20–30 minutes before 12:30, otherwise you stand in the second row."
+    },
+    {
+     "name": "Neustadt – das deutsche Viertel",
+     "text": "<p>Nach 1871 baute das Deutsche Reich östlich der Altstadt ein neues Stadtviertel, die Neustadt, mit breiten Straßen, Villen und repräsentativen Bauten wie dem Kaiserpalast (Palais du Rhin) und der Universität. Die Architektur wirkt deutsch und kontrastiert mit der Altstadt; die Neustadt gehört seit 2017 mit zum UNESCO-Welterbe.</p><p>Ein Spaziergang durch die Neustadt ist ruhiger als in der Altstadt und gut für Architektur-Fans. Plane eine bis zwei Stunden ein und iss anschließend in einem Café.</p>",
+     "text_en": "<p>After 1871 the German Empire built a new district east of the old town, the Neustadt, with broad streets, villas and prestigious buildings such as the Imperial Palace (Palais du Rhin) and the university. The architecture looks German and contrasts with the old town; since 2017 the Neustadt is part of the UNESCO World Heritage.</p><p>A walk through the Neustadt is quieter than in the old town and good for architecture fans. Plan one to two hours and eat in a café afterwards.</p>",
+     "name_en": "Neustadt – the German quarter",
+     "gem": true,
+     "q": "Neustadt Strasbourg",
+     "tip": "Geh zu Fuß vom Place de la République in Richtung Universität.",
+     "tip_en": "Walk from Place de la République towards the university."
+    },
+    {
+     "name": "Jardin des Deux Rives – Brücke nach Deutschland",
+     "text": "<p>Ein Grenzgarten am Rhein: Eine geschwungene Fußgängerbrücke führt über den Fluss nach Kehl in Deutschland. Der Park ist ein schöner Ort zum Spazieren, Joggen und für ein Picknick. Von der Brücke siehst du Frachtschiffe und das Wasser.</p><p>Die Anreise erfolgt mit der Straßenbahn oder dem Rad. Es ist ein guter Ort, um ein bisschen Ruhe zu finden, wenn dir die Altstadt zu voll ist. Plane eine Stunde ein.</p>",
+     "text_en": "<p>A border garden on the Rhine: a curved pedestrian bridge leads over the river to Kehl in Germany. The park is a lovely place for walking, jogging and picnics. From the bridge you see cargo ships and the water.</p><p>You get there by tram or bike. It is a good place to find some quiet if the old town is too crowded. Plan an hour.</p>",
+     "name_en": "Jardin des Deux Rives – bridge to Germany",
+     "gem": true,
+     "q": "Jardin des Deux Rives Strasbourg",
+     "tip": "Nimm die Tram bis Port du Rhin und geh über die Brücke.",
+     "tip_en": "Take the tram to Port du Rhin and walk across the bridge."
+    },
+    {
+     "name": "Winstub-Essen: Flammkuchen, Choucroute & Baeckeoffe",
+     "text": "<p>Die elsässische Küche ist deftig: Flammkuchen (Tarte flambée) mit Speck und Zwiebeln, Choucroute garnie (Sauerkraut mit Fleisch), Baeckeoffe (Eintopf mit Kartoffeln und Fleisch im Tontopf) und Münsterkäse. Du isst sie in einer Winstub – traditionellen Lokalen mit Holzvertäfelung und viel Charakter.</p><p>Zum Essen passt elsässischer Weißwein, zum Beispiel Riesling oder Gewürztraminer. Reserviere am Wochenende; frag nach dem Tagesmenü, das oft günstiger ist.</p>",
+     "text_en": "<p>Alsatian cuisine is hearty: flammkuchen (tarte flambée) with bacon and onions, choucroute garnie (sauerkraut with meat), baeckeoffe (stew with potatoes and meat in a clay pot) and Munster cheese. You eat them in a winstub – traditional places with wood panelling and lots of character.</p><p>Alsatian white wine goes well with the food, for example Riesling or Gewürztraminer. Reserve at weekends; ask about the daily menu, which is often cheaper.</p>",
+     "name_en": "Winstub food: flammkuchen, choucroute & baeckeoffe",
+     "gem": true,
+     "q": "Winstub Strasbourg",
+     "tip": "Reserviere am Wochenende und probiere den Tagesmenü-Vorschlag.",
+     "tip_en": "Reserve at weekends and try the daily-menu suggestion."
+    },
+    {
+     "name": "Weihnachtsmarkt – Capitale de Noël",
+     "text": "<p>Straßburg bezeichnet sich als „Hauptstadt der Weihnacht“; der Christkindelsmärik besteht seit dem 16. Jahrhundert und gehört zu den ältesten Weihnachtsmärkten Europas. Rund um das Münster und auf mehreren Plätzen stehen Stände mit Glühwein, Bredele (Plätzchen), Kunsthandwerk und Dekoration.</p><p>Im Dezember ist die Stadt sehr voll – besonders an Wochenenden. Komm unter der Woche oder früh am Tag, buche Unterkunft rechtzeitig und plane Zeit für die Lichter am Abend ein.</p>",
+     "text_en": "<p>Strasbourg calls itself the “Capital of Christmas”; the Christkindelsmärik has existed since the 16th century and is among the oldest Christmas markets in Europe. Around the cathedral and on several squares stand stalls with mulled wine, bredele (biscuits), handicrafts and decoration.</p><p>In December the city is very crowded – especially at weekends. Come on a weekday or early in the day, book accommodation in good time and plan time for the lights in the evening.</p>",
+     "name_en": "Christmas market – Capitale de Noël",
+     "gem": true,
+     "q": "Marché de Noël Strasbourg",
+     "tip": "Komm unter der Woche und früh am Tag; abends bleibst du für die Lichter.",
+     "tip_en": "Come on a weekday and early in the day; stay in the evening for the lights."
     }
    ]
   },
@@ -89,15 +177,21 @@
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Straßburg",
-   "h_en": "One day in Strasbourg",
+   "h": "Tag in Straßburg",
+   "h_en": "A day in Strasbourg",
    "items": [
-    "<strong>Morgens</strong> – La Petite France, Barrage Vauban",
-    "<strong>12:30</strong> – Uhr im Münster"
+    "<strong>Morgens</strong> – La Petite France und Barrage Vauban",
+    "<strong>Vormittag</strong> – Münster, Turm und Place Gutenberg",
+    "<strong>Mittag</strong> – astronomische Uhr um 12:30 Uhr, Winstub-Mittagessen",
+    "<strong>Nachmittag</strong> – Palais Rohan oder Bootstour, Neustadt",
+    "<strong>Abend</strong> – Spaziergang bei Beleuchtung, Flammkuchen"
    ],
    "items_en": [
-    "<strong>Morning</strong> – La Petite France, Barrage Vauban",
-    "<strong>12:30</strong> – clock in the cathedral"
+    "<strong>Early morning</strong> – La Petite France and Barrage Vauban",
+    "<strong>Morning</strong> – cathedral, tower and Place Gutenberg",
+    "<strong>Midday</strong> – astronomical clock at 12:30, winstub lunch",
+    "<strong>Afternoon</strong> – Palais Rohan or boat tour, Neustadt",
+    "<strong>Evening</strong> – walk in the lights, flammkuchen"
    ]
   }
  ],
@@ -107,6 +201,18 @@
    "q_en": "Is Strasbourg worth a day trip?",
    "a": "<p>Ja, besonders ab Freiburg.</p>",
    "a_en": "<p>Yes, especially from Freiburg.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Straßburg?",
+   "q_en": "How many days do you need in Strasbourg?",
+   "a": "Ein langer Tag reicht für die Altstadt, zwei Tage mit Neustadt, Museen und Boot.",
+   "a_en": "One long day is enough for the old town, two days with Neustadt, museums and boat."
+  },
+  {
+   "q": "Zahle ich in Euro?",
+   "q_en": "Do I pay in euros?",
+   "a": "Ja, Frankreich nutzt den Euro; Karten werden fast überall akzeptiert.",
+   "a_en": "Yes, France uses the euro; cards are accepted almost everywhere."
   }
  ]
 }

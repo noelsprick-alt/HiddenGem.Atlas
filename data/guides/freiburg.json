@@ -7,8 +7,8 @@
  "city": "Freiburg",
  "city_en": "Freiburg",
  "updated": "2026-11-05",
- "title": "Freiburg Guide: Münstermarkt, Schlossberg & die Bächle",
- "title_en": "Freiburg Guide: Münstermarkt, Schlossberg & the Bächle",
+ "title": "Freiburg Guide: 10 Orte – Münstermarkt, Schlossberg, Bächle & Kaiserstuhl",
+ "title_en": "Freiburg Guide: 10 places – Münstermarkt, Schlossberg, Bächle & Kaiserstuhl",
  "desc": "Freiburg, eine der sonnigsten Städte Deutschlands: samstags Münstermarkt mit Langer Roter, Schlossberg und Vorsicht vor den Bächle – von Noel.",
  "desc_en": "Freiburg, one of Germany’s sunniest cities: Saturday Münstermarkt with a Lange Rote, Schlossberg and beware of the Bächle – from Noel.",
  "gyg_q": "Freiburg",
@@ -29,6 +29,12 @@
    "k_en": "Currency",
    "v": "Euro",
    "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "Mai bis Oktober; Freiburg gehört zu den sonnenreichsten Städten Deutschlands",
+   "v_en": "May to October; Freiburg is among the sunniest cities in Germany"
   }
  ],
  "blocks": [
@@ -38,8 +44,8 @@
    "h": "So kommst du hin und herum",
    "h_en": "Getting there and around",
    "box": "omio",
-   "html": "<p>Freiburg erreichst du per ICE oder Regionalzug; die Altstadt ist klein und autofrei.</p>",
-   "html_en": "<p>You reach Freiburg by ICE or regional train; the old town is small and car-free.</p>"
+   "html": "<p>Freiburg erreichst du per ICE oder Regionalzug; die Altstadt ist klein und autofrei.</p><p>Freiburg liegt am Fuß des Schwarzwalds und ist per Zug aus Karlsruhe, Basel oder Offenburg gut zu erreichen (Fahrpläne vorher prüfen). Die Altstadt ist klein und autofrei; du gehst zu Fuß oder nutzt die Straßenbahn. Fahrräder sind in Freiburg Alltagsverkehr – Leihräder gibt es am Bahnhof.</p><p>Der Bahnhof liegt etwa 10 Minuten zu Fuß von der Altstadt. Parken in der Innenstadt ist teuer; nutze die Parkhäuser am Rand.</p>",
+   "html_en": "<p>You reach Freiburg by ICE or regional train; the old town is small and car-free.</p><p>Freiburg lies at the foot of the Black Forest and is easy to reach by train from Karlsruhe, Basel or Offenburg (check timetables beforehand). The old town is small and car-free; you walk or use the tram. Bikes are everyday transport in Freiburg – rental bikes are available at the station.</p><p>The station is about a 10-minute walk from the old town. Parking in the city centre is expensive; use the car parks on the edge.</p>"
   },
   {
    "type": "spots",
@@ -49,16 +55,47 @@
    "spots": [
     {
      "name": "Münstermarkt",
-     "text": "Samstags eine „Lange Rote“ auf die Hand.",
-     "text_en": "On Saturday a “Lange Rote” sausage in your hand.",
+     "text": "<p>Samstags eine „Lange Rote“ auf die Hand.</p><p>Der Münstermarkt auf dem Münsterplatz ist der Herzschlag der Stadt: Bauern aus der Region verkaufen Obst, Gemüse, Käse, Blumen und Wurst; die „Lange Rote“, eine Bratwurst im Brötchen, ist der Klassiker. Der Markt findet Montag bis Samstag statt, samstags ist er am größten und lebendigsten (Zeiten vorher prüfen).</p><p>Hinter den Ständen ragt das Münster auf – das macht das Bild besonders schön. Komm vormittags, bevor die Mittagsmenge kommt, und nimm Bargeld mit.</p>",
+     "text_en": "<p>On Saturday a “Lange Rote” sausage in your hand.</p><p>The Münstermarkt on the cathedral square is the heartbeat of the city: farmers from the region sell fruit, vegetables, cheese, flowers and sausage; the “Lange Rote”, a bratwurst in a bread roll, is the classic. The market takes place Monday to Saturday, and on Saturday it is biggest and liveliest (check times beforehand).</p><p>Behind the stalls the cathedral rises – that makes the picture especially beautiful. Come in the morning before the midday crowd, and bring cash.</p>",
      "name_en": "Münstermarkt",
-     "q": "Münstermarkt"
+     "q": "Münstermarkt",
+     "tip": "Samstags früh kommen, eine Lange Rote essen und danach auf den Schlossberg.",
+     "tip_en": "Come early on Saturday, eat a Lange Rote and go up the Schlossberg afterwards."
     },
     {
      "name": "Schlossberg",
-     "text": "Mit Blick über Münster und Schwarzwald. Auf Google 4,7 Sterne. Besucher empfehlen den Aufstieg zu Fuß oder die Schlossbergbahn; der Turm ist 35 Meter hoch.",
-     "text_en": "With a view over the Minster and the Black Forest. 4.7 stars on Google. Visitors recommend walking up or taking the Schlossbergbahn; the tower is 35 metres high.",
-     "q": "Schlossberg Freiburg"
+     "text": "<p>Mit Blick über Münster und Schwarzwald. Auf Google 4,7 Sterne. Besucher empfehlen den Aufstieg zu Fuß oder die Schlossbergbahn; der Turm ist 35 Meter hoch.</p><p>Der Schlossberg ist Freiburgs Hausberg am östlichen Rand der Altstadt. Du kannst zu Fuß hinaufgehen (rund 20–30 Minuten) oder die Schlossbergbahn nehmen. Oben stehen Aussichtspunkte, ein Café und der Turm. Von dort siehst du über Altstadt, Münster und den Schwarzwald.</p><p>Besonders schön ist der Sonnenuntergang, wenn die Dächer rot leuchten. Nimm eine Jacke mit; oben weht ein frischer Wind. Der Turm hat knapp 35 Meter Höhe und bietet zusätzliche Perspektiven.</p>",
+     "text_en": "<p>With a view over the Minster and the Black Forest. 4.7 stars on Google. Visitors recommend walking up or taking the Schlossbergbahn; the tower is 35 metres high.</p><p>The Schlossberg is Freiburg’s local mountain on the eastern edge of the old town. You can walk up (about 20–30 minutes) or take the Schlossberg railway. At the top there are viewpoints, a café and the tower. From there you see over the old town, the cathedral and the Black Forest.</p><p>Sunset is especially beautiful when the roofs glow red. Bring a jacket; a fresh wind blows at the top. The tower is just under 35 metres high and offers additional perspectives.</p>",
+     "q": "Schlossberg Freiburg",
+     "tip": "Geh zum Sonnenuntergang hinauf und nimm Wasser mit.",
+     "tip_en": "Go up at sunset and take water."
+    },
+    {
+     "name": "Freiburger Münster & Turm",
+     "text": "<p>Das Freiburger Münster ist ein gotisches Meisterwerk mit einem rund 116 Meter hohen Turm, dessen durchbrochener Helm als einzigartig gilt. Der Kunsthistoriker Jacob Burckhardt nannte ihn einst „den schönsten Turm der Christenheit“. Innen findest du Glasfenster, Skulpturen und Altäre aus mehreren Jahrhunderten.</p><p>Du kannst den Turm besteigen (rund 330 Stufen; Zeiten und Eintritt vorher prüfen) und oben die Dächer und den Schwarzwald sehen. Plane etwa eine Stunde für Kirche und Turm ein.</p>",
+     "text_en": "<p>Freiburg Minster is a Gothic masterpiece with a tower about 116 metres high whose openwork spire is considered unique. The art historian Jacob Burckhardt once called it “the most beautiful tower in Christendom”. Inside you find stained glass, sculptures and altars from several centuries.</p><p>You can climb the tower (about 330 steps; check times and admission beforehand) and see the roofs and the Black Forest at the top. Plan about an hour for church and tower.</p>",
+     "name_en": "Freiburg Minster & tower",
+     "q": "Freiburger Münster",
+     "tip": "Besteige den Turm gleich morgens, dann ist die Sicht oft klarer.",
+     "tip_en": "Climb the tower in the morning, then the view is often clearer."
+    },
+    {
+     "name": "Historisches Kaufhaus, Rathaus & Stadttore",
+     "text": "<p>Das Historische Kaufhaus am Münsterplatz ist ein rotes Gebäude aus dem 16. Jahrhundert mit Arkaden und Wappen. Rathaus, Martinstor und Schwabentor gehören ebenfalls zu den schönen Bauten der Altstadt. Rund um sie finden sich Cafés, Läden und Plätze.</p><p>Ein Spaziergang mit diesen Stationen dauert etwa zwei Stunden und führt dich durch die wichtigsten Gassen. Der Rathausplatz ist besonders im Sommer ein schöner Ort für eine Pause.</p>",
+     "text_en": "<p>The Historical Merchants’ Hall on the cathedral square is a red building from the 16th century with arcades and coats of arms. Town hall, Martinstor and Schwabentor also belong to the beautiful buildings of the old town. Around them you find cafés, shops and squares.</p><p>A walk with these stops takes about two hours and leads you through the most important lanes. The town hall square is a lovely place for a break, especially in summer.</p>",
+     "name_en": "Historical Merchants’ Hall, town hall & city gates",
+     "q": "Historisches Kaufhaus Freiburg",
+     "tip": "Starte am Münsterplatz und laufe im Kreis durch die Altstadt.",
+     "tip_en": "Start at the cathedral square and walk a loop through the old town."
+    },
+    {
+     "name": "Augustinermuseum",
+     "text": "<p>Das Augustinermuseum in einem ehemaligen Kloster zeigt mittelalterliche Kunst, Gemälde und Skulpturen aus Südwestdeutschland. Besonders sehenswert sind die originalen Münsterfiguren und die Glasmalerei. Das Museum ist gut für einen Regentag.</p><p>Plane ein bis zwei Stunden ein; Eintritt und Öffnungszeiten ändern sich (vorher prüfen, montags oft geschlossen).</p>",
+     "text_en": "<p>The Augustinermuseum in a former monastery shows medieval art, paintings and sculptures from south-west Germany. Especially worth seeing are the original minster figures and the stained glass. The museum is good for a rainy day.</p><p>Plan one to two hours; admission and opening times change (check beforehand, often closed on Mondays).</p>",
+     "name_en": "Augustiner Museum",
+     "q": "Augustinermuseum Freiburg",
+     "tip": "Perfekter Regentag-Tipp nahe am Münster.",
+     "tip_en": "A perfect rainy-day tip close to the minster."
     }
    ]
   },
@@ -70,25 +107,70 @@
    "spots": [
     {
      "name": "Die Bächle",
-     "text": "Die kleinen Wasserläufe in den Gassen gibt es seit dem Mittelalter. Wer reintritt, heiratet angeblich einen Freiburger.",
-     "text_en": "The small water channels in the lanes have existed since the Middle Ages. Whoever steps in will supposedly marry someone from Freiburg.",
+     "text": "<p>Die kleinen Wasserläufe in den Gassen gibt es seit dem Mittelalter. Wer reintritt, heiratet angeblich einen Freiburger.</p><p>Die Freiburger Bächle sind schmale Wasserrinnen, die durch die Altstadt laufen. Sie dienten im Mittelalter der Brandbekämpfung und der Wasserversorgung für Tiere. Der Aberglaube sagt: Wer aus Versehen hineintritt, heiratet einen Freiburger oder eine Freiburgerin. Kinder planschen darin, Hunde trinken.</p><p>Achte beim Gehen auf den Boden – besonders an den Plätzen. Wenn du eine Mosaik-Aufschrift siehst, bist du an den Stadtrand-Wegen. Fotografiere die Bächle am besten bei Sonne, wenn das Wasser glitzert.</p>",
+     "text_en": "<p>The small water channels in the lanes have existed since the Middle Ages. Whoever steps in will supposedly marry someone from Freiburg.</p><p>The Freiburg Bächle are narrow water channels that run through the old town. In the Middle Ages they served fire-fighting and water supply for animals. The superstition says: whoever steps in by accident marries a Freiburger. Children splash in them, dogs drink.</p><p>Watch the ground while walking – especially on squares. Photograph the Bächle best in sun when the water glitters.</p>",
      "gem": true,
-     "q": "Die Bächle"
+     "q": "Die Bächle",
+     "tip": "Achte auf den Boden – und lach, wenn du aus Versehen hineintrittst.",
+     "tip_en": "Watch the ground – and laugh if you step in by accident."
+    },
+    {
+     "name": "Gerberau & Fischerau – das Kanalviertel",
+     "text": "<p>In der Gerberau und Fischerau, an der Ostseite der Altstadt, laufen Bächle und kleine Kanäle zwischen Fachwerkhäusern und Cafés. Hier arbeiteten früher Gerber und Fischer; heute findest du Bars, Restaurants und kleine Läden. Es ist ruhiger als die Hauptstraßen und sehr fotogen.</p><p>Am Abend wirkt das Viertel besonders stimmungsvoll. Setz dich in ein Lokal am Wasser und lass den Tag ausklingen.</p>",
+     "text_en": "<p>In Gerberau and Fischerau, on the east side of the old town, Bächle and small canals run between half-timbered houses and cafés. Tanners and fishermen once worked here; today you find bars, restaurants and small shops. It is quieter than the main streets and very photogenic.</p><p>In the evening the district feels especially atmospheric. Sit in a place by the water and let the day end.</p>",
+     "name_en": "Gerberau & Fischerau – the canal quarter",
+     "gem": true,
+     "q": "Gerberau Freiburg",
+     "tip": "Komm am Abend für Stimmung und Lichter.",
+     "tip_en": "Come in the evening for atmosphere and lights."
+    },
+    {
+     "name": "Vauban – Öko-Stadtteil",
+     "text": "<p>Der Stadtteil Vauban im Süden der Stadt gilt als Vorzeigeprojekt für nachhaltiges Wohnen: Passivhäuser, Solarsiedlungen, autoarme Straßen, viel Grün. Es ist ein Quartier, das auf ehemaligem Kasernengelände entstand und heute ein lebendiges Viertel mit Cafés und kleinen Läden ist.</p><p>Du erreichst es mit der Straßenbahn; plane einen halben Nachmittag ein. Es ist ein gutes Ziel, wenn dich Stadtplanung und Nachhaltigkeit interessieren.</p>",
+     "text_en": "<p>The Vauban district in the south of the city is considered a showcase project for sustainable living: passive houses, solar estates, low-car streets, lots of green. It is a quarter that arose on former barracks land and is today a lively district with cafés and small shops.</p><p>You reach it by tram; plan half an afternoon. It is a good destination if urban planning and sustainability interest you.</p>",
+     "name_en": "Vauban – eco district",
+     "gem": true,
+     "q": "Vauban Freiburg",
+     "tip": "Fahr mit der Straßenbahn hin und iss in einem der Cafés.",
+     "tip_en": "Take the tram there and eat in one of the cafés."
+    },
+    {
+     "name": "Schauinsland – Bergbahn & Aussicht",
+     "text": "<p>Der Schauinsland ist Freiburgs Hausberg im Süden mit rund 1.280 Metern Höhe. Die Schauinslandbahn fährt von Freiburg-Günterstal hinauf (Fahrzeiten und Preise vorher prüfen). Oben gibt es einen Aussichtsturm, Wanderwege und einen weiten Blick über Rheinebene, Vogesen und Schwarzwald.</p><p>Im Sommer ist es oben deutlich kühler als in der Stadt; im Winter liegt oft Schnee. Plane einen halben Tag ein.</p>",
+     "text_en": "<p>The Schauinsland is Freiburg’s local mountain in the south at about 1,280 metres. The Schauinsland cable car runs up from Freiburg-Günterstal (check times and prices beforehand). At the top there is a lookout tower, hiking trails and a wide view over the Rhine plain, the Vosges and the Black Forest.</p><p>In summer it is much cooler at the top than in the city; in winter there is often snow. Plan half a day.</p>",
+     "name_en": "Schauinsland – cable car & views",
+     "q": "Schauinslandbahn Freiburg",
+     "tip": "Fahr bei klarem Wetter hinauf und nimm eine Jacke mit.",
+     "tip_en": "Go up in clear weather and bring a jacket."
+    },
+    {
+     "name": "Kaiserstuhl – Weinberge vor der Haustür",
+     "text": "<p>Rund 30 Minuten westlich von Freiburg liegt der Kaiserstuhl, ein Vulkangebirge mit Weinbergen, Terrassen und kleinen Dörfern. Die Region gehört zu den wärmsten Deutschlands und ist bekannt für Spätburgunder und Grauburgunder. Du kannst auf markierten Wegen wandern und in Weingütern oder Straußwirtschaften einkehren.</p><p>Mit dem Auto, Rad oder Zug ist der Ausflug leicht; Fahrpläne vorher prüfen. Ein schöner Gegensatz zur Stadt.</p>",
+     "text_en": "<p>About 30 minutes west of Freiburg lies the Kaiserstuhl, a volcanic massif with vineyards, terraces and small villages. The region is among the warmest in Germany and known for Spätburgunder and Grauburgunder. You can hike on marked paths and stop at wineries or Straußwirtschaften.</p><p>By car, bike or train the trip is easy; check timetables beforehand. A lovely contrast to the city.</p>",
+     "name_en": "Kaiserstuhl – vineyards on the doorstep",
+     "gem": true,
+     "q": "Kaiserstuhl Weinberge",
+     "tip": "Plane einen Nachmittag und probiere Wein vor Ort.",
+     "tip_en": "Plan an afternoon and taste wine on site."
     }
    ]
   }
  ],
  "itinerary": [
   {
-   "h": "Ein Tag in Freiburg",
-   "h_en": "One day in Freiburg",
+   "h": "Tag in Freiburg",
+   "h_en": "A day in Freiburg",
    "items": [
-    "<strong>Vormittag</strong> – Münstermarkt",
-    "<strong>Nachmittag</strong> – Schlossberg"
+    "<strong>Vormittag</strong> – Münstermarkt, Lange Rote, Münster und Turm",
+    "<strong>Mittag</strong> – Mittagessen in der Altstadt, Kaufhaus und Rathausplatz",
+    "<strong>Nachmittag</strong> – Augustinermuseum oder Gerberau und Fischerau",
+    "<strong>Abend</strong> – Schlossberg zum Sonnenuntergang"
    ],
    "items_en": [
-    "<strong>Morning</strong> – Münstermarkt",
-    "<strong>Afternoon</strong> – Schlossberg"
+    "<strong>Morning</strong> – Münstermarkt, Lange Rote, minster and tower",
+    "<strong>Midday</strong> – lunch in the old town, merchants’ hall and town hall square",
+    "<strong>Afternoon</strong> – Augustinermuseum or Gerberau and Fischerau",
+    "<strong>Evening</strong> – Schlossberg at sunset"
    ]
   }
  ],
@@ -98,6 +180,18 @@
    "q_en": "When is the Münstermarkt?",
    "a": "<p>Samstags – Zeiten vorher prüfen.</p>",
    "a_en": "<p>On Saturdays – check times beforehand.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Freiburg?",
+   "q_en": "How many days do you need in Freiburg?",
+   "a": "Ein Tag reicht für die Altstadt, zwei Tage mit Schauinsland und Kaiserstuhl.",
+   "a_en": "One day is enough for the old town, two days with the Schauinsland and Kaiserstuhl."
+  },
+  {
+   "q": "Was bedeutet „Bächle“?",
+   "q_en": "What does “Bächle” mean?",
+   "a": "Bächle sind die schmalen Wasserrinnen in den Gassen der Altstadt; sie sind seit dem Mittelalter ein Wahrzeichen der Stadt.",
+   "a_en": "Bächle are the narrow water channels in the lanes of the old town; since the Middle Ages they have been a landmark of the city."
   }
  ]
 }
