@@ -1,0 +1,107 @@
+{
+ "slug": "wien",
+ "slug_en": "vienna",
+ "status": "live",
+ "cc": "AT",
+ "flag": "🇦🇹",
+ "city": "Wien",
+ "city_en": "Vienna",
+ "updated": "2026-11-05",
+ "title": "Wien Guide: Kaffeehaus-Vormittag, Naschmarkt & Loos Bar",
+ "title_en": "Vienna Guide: A Coffee-House Morning, Naschmarkt & Loos Bar",
+ "desc": "Wien nach Noels Rat: ein Vormittag im Kaffeehaus, Naschmarkt und abends ein Drink in der winzigen Loos Bar.",
+ "desc_en": "Vienna by Noel’s advice: a morning in a coffee house, the Naschmarkt and an evening drink in the tiny Loos Bar.",
+ "gyg_q": "Vienna",
+ "intro": "<p>Wien ist Kaffeehauskultur, Habsburger-Pracht und Gemütlichkeit. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Vienna is coffee-house culture, Habsburg splendour and cosiness. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-19",
+ "story": "<p>Mein Tipp: Ein Vormittag im Kaffeehaus gehört dazu – ohne Eile, mit Zeitung und Melange. Danach über den Naschmarkt und abends ein Drink in der winzigen Loos Bar. Und wenn du Zeit hast: Bratislava ist nur rund eine Stunde entfernt.</p>",
+ "story_en": "<p>My tip: a morning in a coffee house is part of the deal – no rush, a newspaper and a melange. Then the Naschmarkt and a drink in the tiny Loos Bar at night. And if you have time: Bratislava is only about an hour away.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Wien erreichst du per Zug (Westbahnhof/Hauptbahnhof), Flug oder Fernbus. Innerhalb der Stadt reichen U-Bahn, Tram und Füße.</p>",
+   "html_en": "<p>You reach Vienna by train, flight or coach. Within the city subway, tram and feet are enough.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Kaffeehaus-Vormittag",
+     "text": "Ohne Eile, mit Zeitung und Melange. Die Wiener Kaffeehauskultur gehört zum immateriellen Kulturerbe der UNESCO.",
+     "text_en": "No rush, a newspaper and a melange. Viennese coffee-house culture is UNESCO intangible heritage.",
+     "name_en": "A coffee-house morning",
+     "q": "Kaffeehaus-Vormittag"
+    },
+    {
+     "name": "Naschmarkt",
+     "text": "Danach über den Naschmarkt – Stände, Essen, Gewürze.",
+     "text_en": "Then across the Naschmarkt – stalls, food, spices.",
+     "q": "Naschmarkt"
+    },
+    {
+     "name": "Loos American Bar",
+     "text": "Abends ein Drink in der winzigen Bar von Adolf Loos. Auf Google 4,1 Sterne; Besucher loben die Einrichtung, Meinungen zu Cocktails und Service sind gemischt.",
+     "text_en": "An evening drink in Adolf Loos’s tiny bar. 4.1 stars on Google; visitors praise the interior, opinions on cocktails and service are mixed.",
+     "q": "Loos American Bar Wien",
+     "hours": "laut Google täglich ca. 12–4 Uhr",
+     "hours_en": "daily about 12 pm–4 am according to Google"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Österreich ausmacht",
+   "h_en": "What makes Austria special",
+   "html": "<p>Über 600 Jahre regierten die Habsburger von Wien aus ein Reich, das zeitweise von Spanien bis in die Ukraine reichte – bis 1918.</p>",
+   "html_en": "<p>For over 600 years the Habsburgs ruled from Vienna an empire that at times reached from Spain to Ukraine – until 1918.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Wien",
+   "h_en": "One day in Vienna",
+   "items": [
+    "<strong>Vormittag</strong> – Kaffeehaus",
+    "<strong>Mittag</strong> – Naschmarkt",
+    "<strong>Abend</strong> – Loos Bar"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – coffee house",
+    "<strong>Midday</strong> – Naschmarkt",
+    "<strong>Evening</strong> – Loos Bar"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Kann ich Bratislava mit Wien verbinden?",
+   "q_en": "Can I combine Bratislava with Vienna?",
+   "a": "<p>Ja, nur rund eine Stunde Fahrt.</p>",
+   "a_en": "<p>Yes, only about an hour’s ride.</p>"
+  }
+ ]
+}

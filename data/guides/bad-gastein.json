@@ -1,0 +1,123 @@
+{
+ "slug": "bad-gastein",
+ "slug_en": "bad-gastein",
+ "status": "live",
+ "cc": "AT",
+ "flag": "🇦🇹",
+ "city": "Bad Gastein & Lungau",
+ "city_en": "Bad Gastein & Lungau",
+ "updated": "2026-11-05",
+ "title": "Bad Gastein & Lungau Guide: Wasserfall, Landawirsee und Kaiserschmarrn auf der Hütte",
+ "title_en": "Bad Gastein & Lungau Guide: Waterfall, Landawirsee and Kaiserschmarrn at the Hut",
+ "desc": "Bad Gastein und Lungau: Belle-Époque-Ort mit Wasserfall mittendrin, Bergsee auf 1.968 Metern, Hüttenübernachtung – von Noel, der in Bad Gastein an der Rezeption gearbeitet hat.",
+ "desc_en": "Bad Gastein and Lungau: a Belle Époque village with a waterfall in its middle, a mountain lake at 1,968 metres, a hut overnight – from Noel, who worked at a reception in Bad Gastein.",
+ "gyg_q": "Bad Gastein",
+ "intro": "<p>Österreich ist für Noel kein Urlaubsland wie jedes andere: Er hat in Bad Gastein an der Hotelrezeption gearbeitet. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Austria is no ordinary holiday country for Noel: he worked at a hotel reception in Bad Gastein. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-19",
+ "story": "<p>Österreich ist für mich kein Urlaubsland wie jedes andere: Ich habe in Bad Gastein an der Hotelrezeption gearbeitet – die Reisewelt von der anderen Seite des Tresens. Ein Ort, durch dessen Zentrum ein Wasserfall rauscht, umgeben von Belle-Époque-Hotels, die aussehen wie aus einer anderen Zeit. Mein Hidden Gem: der Wasserfall, der mitten durch den Ort rauscht. Abends, wenn die Tagesgäste weg sind, wirkt die Belle-Époque-Kulisse fast melancholisch.</p><p>Im August 2026 ging es in den Lungau, eine der ruhigsten Ecken des Salzburger Landes. Der Weg führt über Wiesen und Grate, oben steht ein Gipfelkreuz, und darunter liegt der Landawirsee – glasklar und, sagen wir, erfrischend. Ich bin trotzdem rein. Komplett. Kopf zuerst. Danach gab es Kaiserschmarrn auf der Landawirseehütte, dazu ein kühles Bier aus der Region. Übernachtet wurde auf der Hütte. Und auf dem Rückweg stand eine Herde weißer Kühe mit ihren Kälbern mitten auf der Alm und hat uns sehr genau beobachtet.</p>",
+ "story_en": "<p>Austria is no ordinary holiday country for me: I worked at a hotel reception in Bad Gastein – the travel world from the other side of the counter. A place with a waterfall rushing through its centre, surrounded by Belle Époque hotels that look like from another time. My hidden gem: the waterfall that rushes right through the village. In the evening, when the day-trippers are gone, the Belle Époque backdrop feels almost melancholic.</p><p>In August 2026 we went to the Lungau, one of the quietest corners of Salzburg state. The way leads over meadows and ridges, a summit cross stands at the top and below lies the Landawirsee – crystal clear and, let’s say, refreshing. I went in anyway. Completely. Head first. Afterwards there was Kaiserschmarrn at the Landawirseehütte with a cool regional beer. We stayed overnight at the hut. And on the way back a herd of white cows with their calves stood in the middle of the alp and watched us very closely.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "Wochenende bis 1 Woche",
+   "v_en": "Weekend to 1 week"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Für den See",
+   "k_en": "For the lake",
+   "v": "Trittsicherheit, gutes Schuhwerk, Handtuch",
+   "v_en": "Sure-footedness, good shoes, towel"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Bad Gastein liegt an der Tauernbahn und ist per Zug aus Salzburg erreichbar; aktuelle Verbindungen vorher prüfen. Der Lungau liegt im Süden des Salzburger Landes und ist am besten per Auto oder Bus erreichbar.</p>",
+   "html_en": "<p>Bad Gastein lies on the Tauern railway and is reachable by train from Salzburg; check current connections beforehand. The Lungau lies in the south of Salzburg state and is best reached by car or bus.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Gasteiner Wasserfall",
+     "text": "Der Wasserfall mitten im Ort. Auf Google 4,7 Sterne bei über 3.000 Bewertungen; frei zugänglich, Besucher erwähnen Aussichtspunkte entlang der Schlucht.",
+     "text_en": "The waterfall in the middle of the village. 4.7 stars on Google from over 3,000 reviews; freely accessible, visitors mention viewpoints along the gorge.",
+     "name_en": "Gastein waterfall",
+     "q": "Gasteiner Wasserfall Bad Gastein"
+    },
+    {
+     "name": "Landawirsee im Lungau",
+     "text": "Ein Bergsee auf 1.968 Metern, glasklar. Für den Landawirsee brauchst du Trittsicherheit und gutes Schuhwerk. Plan die Hütte als Etappe ein – und nimm ein Handtuch mit. Du wirst reingehen wollen.",
+     "text_en": "A mountain lake at 1,968 metres, crystal clear. For the Landawirsee you need sure-footedness and good shoes. Plan the hut as a stage – and bring a towel. You will want to go in.",
+     "name_en": "Landawirsee in the Lungau",
+     "gem": true,
+     "q": "Landawirsee im Lungau",
+     "photos": [
+      "images/video/landawirsee-baden.mp4",
+      "images/video/lungau-gipfelkreuz.mp4",
+      "images/video/lungau-grat.mp4"
+     ]
+    },
+    {
+     "name": "Kaiserschmarrn auf der Landawirseehütte",
+     "text": "Danach Kaiserschmarrn und ein kühles Bier aus der Region, Übernachtung auf der Hütte.",
+     "text_en": "Afterwards Kaiserschmarrn and a cool regional beer, overnight stay at the hut.",
+     "name_en": "Kaiserschmarrn at Landawirseehütte",
+     "q": "Kaiserschmarrn auf der Landawirseehütte",
+     "photos": [
+      "images/photos/landawirsee-kaiserschmarrn.webp",
+      "images/video/lungau-alm.mp4"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Österreich ausmacht",
+   "h_en": "What makes Austria special",
+   "html": "<p>Rund zwei Drittel des Landes sind Alpen. Die Wiener Kaffeehauskultur gehört zum immateriellen Kulturerbe der UNESCO. Bad Gastein war im 19. Jahrhundert das Bad der Kaiser und Könige, Kaiserin Sisi kam zur Kur. Seit 1955 ist Österreich neutral. Wenn du nur ein Wochenende hast: Fahr in die Berge. Ein See auf fast 2.000 Metern schlägt jede Fußgängerzone.</p>",
+   "html_en": "<p>About two thirds of the country are Alps. Viennese coffee-house culture is UNESCO intangible heritage. In the 19th century Bad Gastein was the spa of emperors and kings, Empress Sisi came for a cure. Austria has been neutral since 1955. If you only have a weekend: go to the mountains. A lake at almost 2,000 metres beats any pedestrian zone.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Wochenende Gastein & Lungau",
+   "h_en": "Weekend Gastein & Lungau",
+   "items": [
+    "<strong>Tag 1</strong> – Bad Gastein, Wasserfall, abends Belle-Époque-Kulisse",
+    "<strong>Tag 2</strong> – Aufstieg zum Landawirsee, Baden, Übernachtung auf der Hütte",
+    "<strong>Tag 3</strong> – Abstieg über die Alm"
+   ],
+   "items_en": [
+    "<strong>Day 1</strong> – Bad Gastein, waterfall, Belle Époque backdrop in the evening",
+    "<strong>Day 2</strong> – climb to Landawirsee, swim, overnight at the hut",
+    "<strong>Day 3</strong> – descent via the alp"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Ist der Landawirsee für Anfänger?",
+   "q_en": "Is the Landawirsee for beginners?",
+   "a": "<p>Du brauchst Trittsicherheit und gutes Schuhwerk.</p>",
+   "a_en": "<p>You need sure-footedness and good shoes.</p>"
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "slug": "berlin",
+ "slug_en": "berlin",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Berlin",
+ "city_en": "Berlin",
+ "updated": "2026-11-05",
+ "title": "Berlin Guide: Mauerpark, Markthalle Neun, Tempelhofer Feld & Teufelsberg",
+ "title_en": "Berlin Guide: Mauerpark, Markthalle Neun, Tempelhofer Feld & Teufelsberg",
+ "desc": "Berlin ist unfertig – und will es bleiben: Mauerpark-Karaoke, Markthalle Neun, RAW-Gelände, Tempelhofer Feld und Teufelsberg – von Noel.",
+ "desc_en": "Berlin is unfinished – and wants to stay so: Mauerpark karaoke, Markthalle Neun, RAW site, Tempelhofer Feld and Teufelsberg – from Noel.",
+ "gyg_q": "Berlin",
+ "intro": "<p>In kaum einer Stadt stehst du so oft an einem Ort, an dem Weltgeschichte passiert ist – und eine Stunde später in einer Bar auf einem Parkhausdach. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>In hardly any city do you so often stand where world history happened – and an hour later in a bar on a car-park roof. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-29",
+ "story": "<p>Ich war in Berlin, und genau diese Mischung macht die Stadt aus. Mein Tipp: sonntags in den Mauerpark – Flohmarkt und Karaoke im Amphitheater sind Berlin in Reinform. Dazu Streetfood in der Markthalle Neun und abends Friedrichshain rund ums RAW-Gelände. Und einmal mit dem Rad über die Landebahn des Tempelhofer Felds.</p>",
+ "story_en": "<p>I was in Berlin, and exactly this mix makes the city. My tip: Mauerpark on a Sunday – flea market and karaoke in the amphitheatre are Berlin at its purest. Add street food at Markthalle Neun and Friedrichshain around the RAW site at night. And once cycle across the runway of Tempelhofer Feld.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "3–4 Tage",
+   "v_en": "3–4 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Berlin erreichst du per ICE, Flug (BER) oder Fernbus. In der Stadt: S-Bahn, U-Bahn, Tram und Fahrrad.</p>",
+   "html_en": "<p>You reach Berlin by ICE, flight (BER) or coach. In the city: S-Bahn, U-Bahn, tram and bicycle.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Mauerpark am Sonntag",
+     "text": "Flohmarkt und Karaoke im Amphitheater. Auf Google 4,5 Sterne bei über 25.000 Bewertungen.",
+     "text_en": "Flea market and karaoke in the amphitheatre. 4.5 stars on Google from over 25,000 reviews.",
+     "name_en": "Mauerpark on a Sunday",
+     "q": "Mauerpark Berlin"
+    },
+    {
+     "name": "Markthalle Neun",
+     "text": "Streetfood in der Markthalle. Auf Google 4,4 Sterne. Besucher nennen den Donnerstagabend als Streetfood-Abend.",
+     "text_en": "Street food in the market hall. 4.4 stars on Google. Visitors mention Thursday evening as street-food night.",
+     "q": "Markthalle Neun Berlin",
+     "hours": "laut Google Mo–Sa ca. 9–20 Uhr (Do bis 22 Uhr)",
+     "hours_en": "Mon–Sat about 9 am–8 pm (Thu until 10 pm) according to Google"
+    },
+    {
+     "name": "Tempelhofer Feld",
+     "text": "Mit dem Rad über die Landebahn des ehemaligen Flughafens. Auf Google 4,6 Sterne.",
+     "text_en": "Cycle across the runway of the former airport. 4.6 stars on Google.",
+     "q": "Tempelhofer Feld",
+     "hours": "laut Google täglich ca. 7–18 Uhr",
+     "hours_en": "daily about 7 am–6 pm according to Google"
+    },
+    {
+     "name": "Friedrichshain & RAW-Gelände",
+     "text": "Abends rund ums RAW-Gelände.",
+     "text_en": "In the evening around the RAW site.",
+     "name_en": "Friedrichshain & RAW site",
+     "q": "Friedrichshain & RAW-Gelände"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Verrückte Orte",
+   "h_en": "Crazy places",
+   "spots": [
+    {
+     "name": "Teufelsberg",
+     "text": "Ein Berg aus Kriegsschutt mit einer verlassenen US-Abhörstation obendrauf. Auf Google 4,3 Sterne. Besucher nennen rund 12 € Eintritt und einen Waldweg vom S-Bahnhof Grunewald.",
+     "text_en": "A mountain of war rubble with an abandoned US listening station on top. 4.3 stars on Google. Visitors mention about €12 admission and a forest path from Grunewald station.",
+     "name_en": "Teufelsberg",
+     "gem": true,
+     "q": "Teufelsberg Berlin"
+    },
+    {
+     "name": "Spreepark & Pool in der Spree",
+     "text": "Der Spreepark, der Freizeitpark der DDR, dessen Betreiber nach Peru floh – und ein Pool, der als alter Schiffsrumpf in der Spree schwimmt. Beides auf meiner Karte.",
+     "text_en": "Spreepark, the GDR amusement park whose operator fled to Peru – and a pool floating in the Spree as an old ship hull. Both on my map.",
+     "name_en": "Spreepark & pool in the Spree",
+     "gem": true,
+     "q": "Spreepark & Pool in der Spree"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Berlin ausmacht",
+   "h_en": "What makes Berlin special",
+   "html": "<p>1948/49 versorgten die Alliierten West-Berlin über die Luftbrücke. 1961 wurde die Mauer gebaut, rund 155 Kilometer lang; am 9. November 1989 fiel sie. Die Currywurst ist auch ein Berliner Kind: Herta Heuwer verkaufte sie 1949 zum ersten Mal.</p>",
+   "html_en": "<p>In 1948/49 the Allies supplied West Berlin via the Airlift. In 1961 the Wall was built, about 155 kilometres long; on 9 November 1989 it fell. The currywurst is also a Berlin child: Herta Heuwer sold it for the first time in 1949.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Berlin",
+   "h_en": "One day in Berlin",
+   "items": [
+    "<strong>Vormittag</strong> – Mauerpark (sonntags)",
+    "<strong>Mittag</strong> – Markthalle Neun",
+    "<strong>Nachmittag</strong> – Tempelhofer Feld oder Teufelsberg",
+    "<strong>Abend</strong> – RAW-Gelände"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Mauerpark (Sundays)",
+    "<strong>Midday</strong> – Markthalle Neun",
+    "<strong>Afternoon</strong> – Tempelhofer Feld or Teufelsberg",
+    "<strong>Evening</strong> – RAW site"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wann ist der Mauerpark am besten?",
+   "q_en": "When is Mauerpark best?",
+   "a": "<p>Sonntags – Flohmarkt und Karaoke.</p>",
+   "a_en": "<p>On Sundays – flea market and karaoke.</p>"
+  }
+ ]
+}

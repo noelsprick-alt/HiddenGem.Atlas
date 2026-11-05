@@ -1,0 +1,159 @@
+{
+ "slug": "duesseldorf",
+ "slug_en": "duesseldorf",
+ "status": "live",
+ "cc": "DE",
+ "flag": "🇩🇪",
+ "city": "Düsseldorf",
+ "city_en": "Düsseldorf",
+ "updated": "2026-11-05",
+ "title": "Düsseldorf Guide: Flingern, Little Tokyo, Japan-Tag & Rheinturm",
+ "title_en": "Düsseldorf Guide: Flingern, Little Tokyo, Japan Day & Rhine Tower",
+ "desc": "Düsseldorf mehr als Kö und Altstadt: Radschläger, Rheinturm als Uhr, Little Tokyo, Japan-Tag am Rhein, Altbier mit dem Köbes und mein Lieblingsviertel Flingern – von Noel.",
+ "desc_en": "Düsseldorf more than Kö and old town: wheel-turners, the Rhine Tower as a clock, Little Tokyo, Japan Day on the Rhine, altbier with the Köbes and my favourite district Flingern – from Noel.",
+ "gyg_q": "Düsseldorf",
+ "intro": "<p>Düsseldorf ist mehr als Kö und Altstadt. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Düsseldorf is more than the Kö and old town. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-5",
+ "hero": "images/photos/duesseldorf-rheinufer.webp",
+ "hero_alt": "Rheinufer in Düsseldorf",
+ "hero_alt_en": "Rhine bank in Düsseldorf",
+ "story": "<p>Ich bin oft dort – und das sind fünf Dinge, die mich immer wieder überraschen. Mein Lieblingstag zum Runterkommen: Flingern. Samstags über den Markt am Hermannplatz, Kuchen im Café Hüftgold, stöbern bei LANGBRETT in der alten Tankstelle und abends in den SKAND Klub. Kein Sightseeing, einfach ein Viertel, das sich nach Zuhause anfühlt. Im Mai 2025 war ich beim Japan-Tag mittendrin – Japan vor der Haustür. Ich war 2022 in Japan, und am Japan-Tag hatte ich für ein paar Stunden genau dieses Gefühl wieder: diese Mischung aus Ordnung, Verspieltheit und Freundlichkeit.</p>",
+ "story_en": "<p>I am there often – and these are five things that keep surprising me. My favourite day to unwind: Flingern. The Saturday market at Hermannplatz, cake at Café Hüftgold, browsing LANGBRETT in the old petrol station and The SKAND Klub at night. No sightseeing, just a district that feels like home. In May 2025 I was in the middle of Japan Day – Japan on my doorstep. I was in Japan in 2022, and on Japan Day I had exactly that feeling again for a few hours: that mix of order, playfulness and friendliness.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1–2 Tage",
+   "v_en": "1–2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Japan-Tag",
+   "k_en": "Japan Day",
+   "v": "Mai, mit Feuerwerk am Rhein",
+   "v_en": "May, with fireworks on the Rhine"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Düsseldorf hat einen Flughafen und einen großen Hauptbahnhof; im Stadtgebiet fahren U-Bahn, Tram und Bus. Die Altstadt läufst du.</p>",
+   "html_en": "<p>Düsseldorf has an airport and a large central station; within the city run subway, tram and bus. You walk the old town.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees & fünf Überraschungen",
+   "h_en": "Must-sees & five surprises",
+   "spots": [
+    {
+     "name": "Die Radschläger",
+     "text": "Das Stadtsymbol sind Kinder, die Rad schlagen – nach der Legende wegen des Siegs in der Schlacht von Worringen 1288. An vielen Ecken findest du kleine Figuren.",
+     "text_en": "The city symbol is children turning cartwheels – according to legend because of the victory in the Battle of Worringen in 1288. You find small figures on many corners.",
+     "name_en": "The wheel-turners",
+     "q": "Die Radschläger"
+    },
+    {
+     "name": "Rheinturm – eine Uhr",
+     "text": "Die Lichtpunkte am Schaft zeigen die Uhrzeit an (größte Dezimaluhr der Welt). Auf Google 4,5 Sterne.",
+     "text_en": "The light points on the shaft show the time (the world’s largest decimal clock). 4.5 stars on Google.",
+     "name_en": "Rhine Tower – a clock",
+     "q": "Rheinturm Düsseldorf"
+    },
+    {
+     "name": "Little Tokyo & Japan-Tag",
+     "text": "Rund um die Immermannstraße lebt eine der größten japanischen Gemeinden Europas; im Mai gibt es den Japan-Tag mit Feuerwerk. Plan: tagsüber am Rheinufer treiben lassen, Mittagessen auf der Immermannstraße, abends rechtzeitig einen Platz am Wasser sichern.",
+     "text_en": "Around Immermannstraße lives one of the largest Japanese communities in Europe; in May there is Japan Day with fireworks. Plan: drift along the Rhine bank by day, lunch on Immermannstraße, secure a spot at the water in good time in the evening.",
+     "name_en": "Little Tokyo & Japan Day",
+     "q": "Little Tokyo & Japan-Tag",
+     "photos": [
+      "images/video/duesseldorf-little-tokyo.mp4",
+      "images/photos/duesseldorf-rheinufer.webp"
+     ]
+    },
+    {
+     "name": "Altbier und der Köbes",
+     "text": "In den Brauhäusern der Altstadt bedient dich der Köbes – ein Kellner mit blauer Schürze und loser Zunge. Er stellt dir ungefragt ein neues Alt hin; ein Bierdeckel auf dem Glas beendet das Spiel.",
+     "text_en": "In the old town’s brewery pubs the Köbes serves you – a waiter with a blue apron and a loose tongue. He puts down a new alt unasked; a beer mat on the glass ends the game.",
+     "name_en": "Altbier and the Köbes",
+     "q": "Altbier und der Köbes"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gems",
+   "h_en": "Hidden gems",
+   "spots": [
+    {
+     "name": "Flingern – mein Lieblingsviertel",
+     "text": "Samstags über den Markt am Hermannplatz, Kuchen im Café Hüftgold (Google 4,4 Sterne), stöbern bei LANGBRETT in der alten Tankstelle und abends in den SKAND Klub.",
+     "text_en": "On Saturday across the market at Hermannplatz, cake at Café Hüftgold (4.4 stars on Google), browsing LANGBRETT in the old petrol station and The SKAND Klub at night.",
+     "name_en": "Flingern – my favourite district",
+     "gem": true,
+     "q": "Café Hüftgold Düsseldorf",
+     "photos": [
+      "images/video/flingern-reel.mp4",
+      "images/video/flingern-strasse.mp4"
+     ]
+    },
+    {
+     "name": "EKŌ-Haus in Niederkassel",
+     "text": "Ein japanischer buddhistischer Tempel mit Garten und Teehaus. Auf Google 4,6 Sterne. Besucher raten, für das Holzhaus zu reservieren, nur Barzahlung.",
+     "text_en": "A Japanese Buddhist temple with garden and tea house. 4.6 stars on Google. Visitors advise reserving for the wooden house, cash only.",
+     "name_en": "EKŌ-Haus in Niederkassel",
+     "gem": true,
+     "q": "EKŌ-Haus Düsseldorf",
+     "hours": "laut Google Di–Sa ca. 13–17 Uhr",
+     "hours_en": "Tue–Sat about 1–5 pm according to Google"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Warum Düsseldorf so japanisch ist",
+   "h_en": "Why Düsseldorf is so Japanese",
+   "html": "<p>Ab den 1950er-Jahren eröffneten japanische Firmen ihre Europa-Zentralen am Rhein. Mit den Firmen kamen Familien, Schulen und Restaurants. Den Japan-Tag gibt es seit 2002.</p>",
+   "html_en": "<p>From the 1950s Japanese companies opened their European headquarters on the Rhine. With the companies came families, schools and restaurants. Japan Day has existed since 2002.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Düsseldorf",
+   "h_en": "One day in Düsseldorf",
+   "items": [
+    "<strong>Vormittag</strong> – Rheinufer, Rheinturm",
+    "<strong>Mittag</strong> – Immermannstraße (Ramen)",
+    "<strong>Nachmittag</strong> – Flingern, Café Hüftgold",
+    "<strong>Abend</strong> – Altbier mit dem Köbes"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Rhine bank, Rhine Tower",
+    "<strong>Midday</strong> – Immermannstraße (ramen)",
+    "<strong>Afternoon</strong> – Flingern, Café Hüftgold",
+    "<strong>Evening</strong> – altbier with the Köbes"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wann ist der Japan-Tag?",
+   "q_en": "When is Japan Day?",
+   "a": "<p>Im Mai, mit Feuerwerk über dem Rhein; Datum vorab prüfen.</p>",
+   "a_en": "<p>In May, with fireworks over the Rhine; check the date beforehand.</p>"
+  }
+ ]
+}
