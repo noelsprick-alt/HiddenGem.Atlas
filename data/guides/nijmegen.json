@@ -1,0 +1,36 @@
+{
+  "slug": "nijmegen", "slug_en": "nijmegen", "status": "live", "blog": "blog-bc-24",
+  "cc": "NL", "flag": "🇳🇱", "city": "Nijmegen", "city_en": "Nijmegen", "updated": "2026-11-05",
+  "title": "Nijmegen Guide: Waalkade, Valkhof & die älteste Stadt der Niederlande",
+  "title_en": "Nijmegen Guide: Waalkade, Valkhof & the Netherlands’ Oldest City",
+  "desc": "Nijmegen, nur einen Katzensprung hinter der Grenze: Abend an der Waalkade, Valkhofpark und Brückenblick – von Noel.",
+  "desc_en": "Nijmegen, just across the border: an evening on the Waalkade, Valkhof Park and bridge views – from Noel.",
+  "gyg_q": "Nijmegen",
+  "intro": "<p>Nijmegen gilt als älteste Stadt der Niederlande und liegt nur einen Katzensprung von der deutschen Grenze entfernt – ein perfekter Kurztrip aus NRW.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+  "intro_en": "<p>Nijmegen is considered the oldest city in the Netherlands and lies just a stone’s throw from the German border – a perfect short trip from NRW.</p><p>Prices and times are guidelines (2026).</p>",
+  "story": "<p>Mein Tipp: ein Abend an der Waalkade – Nijmegen ist die älteste Stadt der Niederlande und von der Grenze nur einen Katzensprung entfernt.</p>",
+  "story_en": "<p>My tip: an evening on the Waalkade – Nijmegen is the oldest city in the Netherlands and only a stone’s throw from the German border.</p>",
+  "facts": [
+    {"k":"Dauer","k_en":"How long","v":"1 Tag oder Wochenende","v_en":"1 day or weekend"},
+    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"}
+  ],
+  "blocks": [
+    {"type":"prose","id":"anreise","h":"So kommst du nach Nijmegen","h_en":"Getting to Nijmegen","box":"omio",
+     "html":"<p>Aus NRW erreichst du Nijmegen mit Regionalzug oder Auto in kurzer Zeit (Fahrpläne vorher prüfen). Die Altstadt ist klein und gut zu Fuß erkundbar.</p>",
+     "html_en":"<p>From NRW you reach Nijmegen by regional train or car in a short time (check timetables beforehand). The old town is small and easy to explore on foot.</p>"},
+    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
+     "spots":[
+      {"name":"Waalkade","q":"Waalkade Nijmegen","text":"<p>Die Promenade am Fluss Waal: Cafés, Terrassen und Blick auf die Brücken. Abends ist es hier am schönsten.</p>","text_en":"<p>The promenade along the river Waal: cafés, terraces and views of the bridges. It is nicest here in the evening.</p>"},
+      {"name":"Valkhofpark","q":"Valkhof Park Nijmegen","text":"<p>Der Park liegt auf einem Hügel über dem Waal, einst Sitz von Karls des Großen Pfalz. Er bewahrt die St.-Nikolaus-Kapelle und Ruinen. Auf Google 4,5 Sterne. Besucher mögen den Blick auf die Waalbrücke.</p>","text_en":"<p>The park lies on a hill above the Waal, once the site of Charlemagne’s palace. It preserves St Nicholas’ Chapel and ruins. 4.5 stars on Google. Visitors like the view of the Waal Bridge.</p>","hours":"laut Google durchgehend zugänglich","hours_en":"accessible around the clock according to Google"}
+     ]},
+    {"type":"prose","id":"wissen","h":"Was Nijmegen ausmacht","h_en":"What makes Nijmegen special","box":"gyg",
+     "html":"<p>Nijmegen gilt als älteste Stadt der Niederlande. Mehr zum Land in meinem Amsterdam-Guide.</p>",
+     "html_en":"<p>Nijmegen is considered the oldest city in the Netherlands. More about the country in my Amsterdam guide.</p>"}
+  ],
+  "itinerary":[
+   {"h":"Ein Tag in Nijmegen","h_en":"One day in Nijmegen","items":["<strong>Vormittag</strong> – Altstadt","<strong>Nachmittag</strong> – Valkhofpark","<strong>Abend</strong> – Waalkade"],"items_en":["<strong>Morning</strong> – old town","<strong>Afternoon</strong> – Valkhof Park","<strong>Evening</strong> – Waalkade"]}
+  ],
+  "faq":[
+   {"q":"Lohnt sich Nijmegen als Tagesausflug aus NRW?","q_en":"Is Nijmegen worth a day trip from NRW?","a":"<p>Ja, die Wege sind kurz und die Altstadt ist kompakt.</p>","a_en":"<p>Yes, distances are short and the old town is compact.</p>"}
+  ]
+}

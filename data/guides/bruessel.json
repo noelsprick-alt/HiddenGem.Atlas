@@ -1,0 +1,41 @@
+{
+  "slug": "bruessel", "slug_en": "brussels", "status": "live",
+  "cc": "BE", "flag": "🇧🇪", "city": "Brüssel", "city_en": "Brussels", "updated": "2026-11-05",
+  "title": "Brüssel Guide: Grand-Place, Königliche Galerien, Cinquantenaire & Atomium",
+  "title_en": "Brussels Guide: Grand-Place, Royal Galleries, Cinquantenaire & Atomium",
+  "desc": "Brüssel an einem Wochenende: Grand-Place, Galeries Royales Saint-Hubert, Cinquantenaire-Park, Atomium, Marolles-Flohmarkt und was du wissen musst.",
+  "desc_en": "Brussels in a weekend: Grand-Place, Galeries Royales Saint-Hubert, Cinquantenaire Park, Atomium, Marolles flea market and what you need to know.",
+  "gyg_q": "Brussels",
+  "intro": "<p>Brüssel ist Hauptstadt Belgiens und Sitz der EU-Institutionen – und unterschätzt: prächtige Plätze, Jugendstil, Pommes, Waffeln und Schokolade.</p><p>Noel ergänzt hier noch seine persönlichen Eindrücke und Fotos. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+  "intro_en": "<p>Brussels is Belgium’s capital and home to the EU institutions – and underrated: grand squares, Art Nouveau, fries, waffles and chocolate.</p><p>Noel will add his personal impressions and photos here. Prices and times are guidelines (2026).</p>",
+  "facts": [
+    {"k":"Dauer","k_en":"How long","v":"1–2 Tage","v_en":"1–2 days"},
+    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
+    {"k":"Sprachen","k_en":"Languages","v":"Französisch und Niederländisch","v_en":"French and Dutch"}
+  ],
+  "blocks": [
+    {"type":"prose","id":"anreise","h":"So kommst du nach Brüssel","h_en":"Getting to Brussels","box":"omio",
+     "html":"<p>Aus NRW fährst du mit dem Zug (Thalys/ICE-Netz) oder Fernbus nach Brüssel; aktuelle Verbindungen vorher prüfen. Im Zentrum läufst du die meisten Sehenswürdigkeiten ab.</p>",
+     "html_en":"<p>From NRW you take the train (Thalys/ICE network) or coach to Brussels; check current connections beforehand. In the centre you walk most sights.</p>"},
+    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
+     "spots":[
+      {"name":"Grand-Place","q":"Grand-Place Brussels","text":"<p>Prunkvolle Zunfthäuser und das Rathaus. Auf Google 4,7 Sterne bei über 178.000 Bewertungen. Abends beleuchtet besonders schön.</p>","text_en":"<p>Ornate guildhalls and the Town Hall. 4.7 stars on Google from over 178,000 reviews. Particularly lovely when lit up in the evening.</p>"},
+      {"name":"Galeries Royales Saint-Hubert","q":"Royal Gallery of Saint Hubert","text":"<p>1847 eröffnete Einkaufspassage mit Glasdach, Pralinen-Läden und Cafés. Auf Google 4,5 Sterne.</p>","text_en":"<p>Shopping arcade opened in 1847 with a glass roof, chocolate shops and cafés. 4.5 stars on Google.</p>"},
+      {"name":"Atomium","q":"Atomium Brussels","text":"<p>Für die Weltausstellung 1958 gebaut. Auf Google 4,4 Sterne. Besucher loben den Blick von oben, nennen aber teils lange Wartezeiten am Aufzug.</p>","text_en":"<p>Built for the 1958 World Expo. 4.4 stars on Google. Visitors praise the view from the top but some mention long waits at the lift.</p>","hours":"laut Google täglich ca. 10–18 Uhr","hours_en":"daily about 10 am–6 pm according to Google"}
+     ]},
+    {"type":"spots","id":"gems","h":"Hidden Gems","h_en":"Hidden gems",
+     "spots":[
+      {"name":"Cinquantenaire-Park","name_en":"Cinquantenaire Park","gem":true,"q":"Parc du Cinquantenaire Brussels","text":"<p>Großzügiger Park mit Triumphbogen und Museen. Ruhiger als die Innenstadt. Auf Google 4,6 Sterne bei über 41.000 Bewertungen.</p>","text_en":"<p>Spacious park with triumphal arch and museums. Quieter than the city centre. 4.6 stars on Google from over 41,000 reviews.</p>","hours":"laut Google täglich ca. 6–22 Uhr","hours_en":"daily about 6 am–10 pm according to Google"},
+      {"name":"Marolles & Place du Jeu de Balle","name_en":"Marolles & Place du Jeu de Balle","gem":true,"q":"Place du Jeu de Balle Brussels","text":"<p>Der Flohmarkt im Marolles-Viertel ist ein Ort für Einheimische; Öffnungszeiten und Markttage vorher prüfen.</p>","text_en":"<p>The flea market in the Marolles district is a spot for locals; check opening times and market days beforehand.</p>"}
+     ]},
+    {"type":"prose","id":"essen","h":"Essen & Trinken","h_en":"Food & drink",
+     "html":"<ul><li><strong>Pommes</strong> mit Soße – belgisches Klassiker.</li><li><strong>Waffeln</strong> und <strong>Pralinen</strong> rund um die Galerien.</li><li><strong>Belgisches Bier</strong> in einer Brauerei-Kneipe.</li></ul>",
+     "html_en":"<ul><li><strong>Fries</strong> with sauce – a Belgian classic.</li><li><strong>Waffles</strong> and <strong>pralines</strong> around the galleries.</li><li><strong>Belgian beer</strong> in a brewery pub.</li></ul>"}
+  ],
+  "itinerary":[
+   {"h":"Ein Tag in Brüssel","h_en":"One day in Brussels","items":["<strong>Vormittag</strong> – Grand-Place, Galeries Royales","<strong>Mittag</strong> – Pommes und Waffel","<strong>Nachmittag</strong> – Cinquantenaire-Park","<strong>Abend</strong> – Grand-Place beleuchtet"],"items_en":["<strong>Morning</strong> – Grand-Place, Royal Galleries","<strong>Midday</strong> – fries and waffle","<strong>Afternoon</strong> – Cinquantenaire Park","<strong>Evening</strong> – Grand-Place lit up"]}
+  ],
+  "faq":[
+   {"q":"Reicht ein Tag in Brüssel?","q_en":"Is one day enough in Brussels?","a":"<p>Für die Highlights ja, mit Atomium und Museen zwei Tage.</p>","a_en":"<p>For the highlights yes, two days with Atomium and museums.</p>"}
+  ]
+}

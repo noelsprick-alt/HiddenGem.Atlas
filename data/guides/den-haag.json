@@ -1,0 +1,42 @@
+{
+  "slug": "den-haag", "slug_en": "the-hague", "status": "live", "blog": "blog-bc-24",
+  "cc": "NL", "flag": "🇳🇱", "city": "Den Haag & Scheveningen", "city_en": "The Hague & Scheveningen", "updated": "2026-11-05",
+  "title": "Den Haag & Scheveningen Guide: Mauritshuis, Panorama Mesdag & Strand",
+  "title_en": "The Hague & Scheveningen Guide: Mauritshuis, Panorama Mesdag & Beach",
+  "desc": "Stadt und Meer an einem Tag: vormittags Vermeers Mädchen mit dem Perlenohrring, nachmittags mit der Tram an den Strand von Scheveningen – von Noel.",
+  "desc_en": "City and sea in one day: Vermeer’s Girl with a Pearl Earring in the morning, then the tram to Scheveningen beach in the afternoon – from Noel.",
+  "gyg_q": "The Hague",
+  "intro": "<p>Den Haag ist Regierungssitz, Kunststadt und Strandstadt in einem. Weil Scheveningen mit der Tram erreichbar ist, kannst du Museum und Meer an einem Tag kombinieren.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+  "intro_en": "<p>The Hague is seat of government, art city and beach town in one. Because Scheveningen is reachable by tram, you can combine museum and sea in one day.</p><p>Prices and times are guidelines (2026).</p>",
+  "story": "<p>Mein Tipp für Den Haag: vormittags Vermeers „Mädchen mit dem Perlenohrring“ im Mauritshuis, nachmittags mit der Tram an den Strand von Scheveningen. Stadt und Meer an einem Tag – das ist für mich das Land der kurzen Wege.</p>",
+  "story_en": "<p>My tip for The Hague: Vermeer’s “Girl with a Pearl Earring” at the Mauritshuis in the morning, then the tram to Scheveningen beach in the afternoon. City and sea in one day – that is my land of short distances.</p>",
+  "facts": [
+    {"k":"Dauer","k_en":"How long","v":"1–2 Tage","v_en":"1–2 days"},
+    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
+    {"k":"Beste Reisezeit","k_en":"Best time","v":"Mai–September für den Strand","v_en":"May–September for the beach"}
+  ],
+  "blocks": [
+    {"type":"prose","id":"anreise","h":"So kommst du nach Den Haag","h_en":"Getting to The Hague","box":"omio",
+     "html":"<p>Aus Deutschland fährst du über Amsterdam oder Rotterdam; ab dort fahren Intercity-Züge nach Den Haag Centraal. Von dort bringt dich die Tram in rund 20–30 Minuten nach Scheveningen. Aktuelle Fahrpläne vorher prüfen.</p>",
+     "html_en":"<p>From Germany you travel via Amsterdam or Rotterdam; from there intercity trains run to Den Haag Centraal. From there the tram takes you to Scheveningen in about 20–30 minutes. Check current timetables beforehand.</p>"},
+    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
+     "spots":[
+      {"name":"Mauritshuis","q":"Mauritshuis Den Haag","text":"<p>Vormittags Vermeers „Mädchen mit dem Perlenohrring“. Das Mauritshuis ist kompakt, Besucher berichten von 1–2,5 Stunden Besuchszeit und weniger Gedränge als in Amsterdam. Auf Google 4,7 Sterne bei über 20.000 Bewertungen.</p>","text_en":"<p>Vermeer’s “Girl with a Pearl Earring” in the morning. The Mauritshuis is compact, visitors report 1–2.5 hours and less crowding than in Amsterdam. 4.7 stars on Google from over 20,000 reviews.</p>","hours":"laut Google Di–So 10–18 Uhr, Mo ab 13 Uhr","hours_en":"Tue–Sun 10 am–6 pm, Mon from 1 pm according to Google","tip":"Online buchen; mit Museumskarte frei.","tip_en":"Book online; free with a museum card."},
+      {"name":"Strand & Pier Scheveningen","name_en":"Scheveningen beach & pier","q":"Scheveningen Pier","text":"<p>Nachmittags mit der Tram an den Strand. Die Pier hat Aussichtsdeck, Riesenrad, Bungee und Restaurants. Auf Google 4,4 Sterne bei rund 46.000 Bewertungen.</p>","text_en":"<p>In the afternoon take the tram to the beach. The pier has a viewing deck, Ferris wheel, bungee and restaurants. 4.4 stars on Google from about 46,000 reviews.</p>","tip":"Auch bei Wind gut: unteres Deck mit Imbissen.","tip_en":"Good even in wind: lower deck with food stalls."}
+     ]},
+    {"type":"spots","id":"gems","h":"Hidden Gem","h_en":"Hidden gem",
+     "spots":[
+      {"name":"Panorama Mesdag","gem":true,"q":"Panorama Mesdag Den Haag","text":"<p>Ein 360°-Gemälde des Strandes von Scheveningen im 19. Jahrhundert. Besucher nennen es eines der unterschätztesten Museen der Niederlande. Auf Google 4,7 Sterne bei über 5.400 Bewertungen.</p>","text_en":"<p>A 360° painting of Scheveningen beach in the 19th century. Visitors call it one of the most underrated museums in the Netherlands. 4.7 stars on Google from over 5,400 reviews.</p>","hours":"laut Google Di–So 10–17 Uhr, Mo geschlossen","hours_en":"Tue–Sun 10 am–5 pm, closed Mondays according to Google"}
+     ]},
+    {"type":"prose","id":"wissen","h":"Was die Niederlande ausmacht","h_en":"What makes the Netherlands special","box":"gyg",
+     "html":"<p>Amsterdam ist die Hauptstadt, regiert wird aber aus Den Haag. Mehr zu Land und Geschichte in meinem Amsterdam-Guide.</p>",
+     "html_en":"<p>Amsterdam is the capital, but the government sits in The Hague. More on the country and history in my Amsterdam guide.</p>"}
+  ],
+  "itinerary":[
+   {"h":"Stadt und Meer an einem Tag","h_en":"City and sea in one day","items":["<strong>Vormittag</strong> – Mauritshuis","<strong>Mittag</strong> – Panorama Mesdag","<strong>Nachmittag</strong> – Tram nach Scheveningen, Pier und Strand"],"items_en":["<strong>Morning</strong> – Mauritshuis","<strong>Midday</strong> – Panorama Mesdag","<strong>Afternoon</strong> – tram to Scheveningen, pier and beach"]}
+  ],
+  "faq":[
+   {"q":"Reicht ein Tag in Den Haag?","q_en":"Is one day enough in The Hague?","a":"<p>Ja, wenn du Museum und Strand kombinierst.</p>","a_en":"<p>Yes, if you combine museum and beach.</p>"},
+   {"q":"Wie komme ich nach Scheveningen?","q_en":"How do I get to Scheveningen?","a":"<p>Mit der Tram ab Den Haag in rund 20–30 Minuten.</p>","a_en":"<p>By tram from The Hague in about 20–30 minutes.</p>"}
+  ]
+}

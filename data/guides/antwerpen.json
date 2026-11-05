@@ -1,0 +1,42 @@
+{
+  "slug": "antwerpen", "slug_en": "antwerp", "status": "live", "blog": "blog-bc-24",
+  "cc": "BE", "flag": "🇧🇪", "city": "Antwerpen", "city_en": "Antwerp", "updated": "2026-11-05",
+  "title": "Antwerpen Guide: Centraal, Cogels-Osylei, MAS & Vlaeykensgang",
+  "title_en": "Antwerp Guide: Centraal, Cogels-Osylei, MAS & Vlaeykensgang",
+  "desc": "Antwerpen in einem Tag: schönster Bahnhof der Welt, Jugendstil-Straße Cogels-Osylei, Dachterrasse des MAS, versteckte Gasse und ein Bolleke – von Noel.",
+  "desc_en": "Antwerp in a day: one of the world’s most beautiful stations, Art Nouveau street Cogels-Osylei, MAS rooftop, a hidden alley and a bolleke – from Noel.",
+  "gyg_q": "Antwerp",
+  "hero": "images/photos/antwerpen-grote-markt.webp", "hero_alt": "Grote Markt in Antwerpen", "hero_alt_en": "Grote Markt in Antwerp",
+  "intro": "<p>Antwerpen ist Hafenstadt, Modestadt und Diamantenstadt – und trotzdem entspannt. Schon die Ankunft ist ein Erlebnis.</p><p>Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+  "intro_en": "<p>Antwerp is a port city, fashion city and diamond city – and yet relaxed. The arrival alone is an experience.</p><p>Prices and times are guidelines (2026).</p>",
+  "story": "<p>Mein Tipp für Antwerpen: Schon die Ankunft ist ein Erlebnis – Antwerpen-Centraal gehört zu den schönsten Bahnhöfen der Welt. Danach durch die Jugendstil-Fassaden der Cogels-Osylei und abends ein Bolleke bei De Koninck.</p>",
+  "story_en": "<p>My tip for Antwerp: arriving is already an experience – Antwerp Central is one of the most beautiful stations in the world. Then the Art Nouveau façades of Cogels-Osylei and a “bolleke” at De Koninck at night.</p>",
+  "facts": [
+    {"k":"Dauer","k_en":"How long","v":"1–2 Tage","v_en":"1–2 days"},
+    {"k":"Währung","k_en":"Currency","v":"Euro","v_en":"Euro"},
+    {"k":"Sprache","k_en":"Language","v":"Niederländisch (Flämisch), Englisch klappt gut","v_en":"Dutch (Flemish), English works well"}
+  ],
+  "blocks": [
+    {"type":"prose","id":"anreise","h":"So kommst du nach Antwerpen","h_en":"Getting to Antwerp","box":"omio",
+     "html":"<p>Antwerpen erreichst du aus NRW per Zug (z. B. über Brüssel oder mit dem Thalys/Eurostar-Netz) oder per Fernbus; aktuelle Verbindungen vorher prüfen. Die Altstadt ist kompakt, das meiste läufst du.</p>",
+     "html_en":"<p>You reach Antwerp from NRW by train (e.g. via Brussels or the Thalys/Eurostar network) or coach; check current connections beforehand. The old town is compact, you walk most of it.</p>"},
+    {"type":"spots","id":"must","h":"Must-Sees","h_en":"Must-sees",
+     "spots":[
+      {"name":"Antwerpen-Centraal","q":"Antwerpen-Centraal station","text":"<p>Die „Eisenbahn-Kathedrale“: hohe Kuppel, breite Treppen, Palastgefühl. Auf Google 4,6 Sterne bei über 6.500 Bewertungen – sehenswert, auch wenn du nicht mit dem Zug fährst.</p>","text_en":"<p>The “railway cathedral”: high dome, wide staircases, palace feeling. 4.6 stars on Google from over 6,500 reviews – worth seeing even if you are not taking a train.</p>"},
+      {"name":"MAS – Museum aan de Stroom","name_en":"MAS – Museum aan de Stroom","q":"MAS Museum aan de Stroom Antwerpen","text":"<p>Das Museum ist Antwerpens Hafengeschichte in einem roten Turm. Auf Google 4,5 Sterne. Die Dachterrasse ist laut Besuchern kostenlos und hat 360°-Blick, besonders zum Sonnenuntergang.</p>","text_en":"<p>The museum puts Antwerp’s port history in a red tower. 4.5 stars on Google. The rooftop is free according to visitors and has a 360° view, especially at sunset.</p>","hours":"laut Google Di–So 10–17 Uhr, Mo geschlossen","hours_en":"Tue–Sun 10 am–5 pm, closed Mondays according to Google"}
+     ]},
+    {"type":"spots","id":"gems","h":"Hidden Gems","h_en":"Hidden gems",
+     "spots":[
+      {"name":"Cogels-Osylei","gem":true,"q":"Cogels-Osylei Antwerpen","text":"<p>Die Jugendstil-Fassaden im Viertel Zurenborg: Straße um Straße mit prächtigen Häusern. Besucher erreichen sie leicht ab Berchem oder Centraal und nennen die Cafés an den Enden. Auf Google 4,9 Sterne (wenige Bewertungen).</p>","text_en":"<p>The Art Nouveau façades in the Zurenborg quarter: street after street of magnificent houses. Visitors easily reach it from Berchem or Centraal and mention the cafés at the ends. 4.9 stars on Google (few reviews).</p>"},
+      {"name":"Vlaeykensgang","gem":true,"q":"Vlaeykensgang Antwerpen","text":"<p>Eine versteckte historische Gasse mitten in der Altstadt, ruhig und fotogen. Auf Google 4,6 Sterne.</p>","text_en":"<p>A hidden historic alley in the heart of the old town, quiet and photogenic. 4.6 stars on Google.</p>"},
+      {"name":"Bolleke bei De Koninck","name_en":"A bolleke at De Koninck","q":"De Koninck Antwerp City Brewery","text":"<p>Abends ein Bolleke, das bernsteinfarbene Bier der Stadt. Die Stadtbrauerei bietet laut Besuchern eine interaktive Tour mit Verkostung. Auf Google 4,4 Sterne.</p>","text_en":"<p>In the evening a bolleke, the city’s amber beer. The city brewery offers an interactive tour with tasting according to visitors. 4.4 stars on Google.</p>","hours":"laut Google Di/Mi 11–19 Uhr, Do–So 11–22 Uhr, Mo zu","hours_en":"Tue/Wed 11 am–7 pm, Thu–Sun 11 am–10 pm, closed Mondays according to Google","tip":"Tour online buchen.","tip_en":"Book the tour online."}
+     ]}
+  ],
+  "itinerary":[
+   {"h":"Ein Tag in Antwerpen","h_en":"One day in Antwerp","items":["<strong>Ankunft</strong> – Centraal","<strong>Vormittag</strong> – Altstadt, Vlaeykensgang","<strong>Nachmittag</strong> – MAS-Dachterrasse","<strong>Spätnachmittag</strong> – Cogels-Osylei","<strong>Abend</strong> – Bolleke"],"items_en":["<strong>Arrival</strong> – Centraal","<strong>Morning</strong> – old town, Vlaeykensgang","<strong>Afternoon</strong> – MAS rooftop","<strong>Late afternoon</strong> – Cogels-Osylei","<strong>Evening</strong> – bolleke"]}
+  ],
+  "faq":[
+   {"q":"Reicht ein Tag in Antwerpen?","q_en":"Is one day enough in Antwerp?","a":"<p>Für die Highlights ja, mit Museen bleib zwei Tage.</p>","a_en":"<p>For the highlights yes, with museums stay two days.</p>"},
+   {"q":"Ist die MAS-Dachterrasse kostenlos?","q_en":"Is the MAS rooftop free?","a":"<p>Laut Besuchern ja; vorher aktuelle Infos prüfen.</p>","a_en":"<p>According to visitors yes; check current info beforehand.</p>"}
+  ]
+}
