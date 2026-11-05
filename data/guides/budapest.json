@@ -1,0 +1,142 @@
+{
+ "slug": "budapest",
+ "slug_en": "budapest",
+ "status": "live",
+ "cc": "HU",
+ "flag": "🇭🇺",
+ "city": "Budapest",
+ "city_en": "Budapest",
+ "updated": "2026-11-05",
+ "title": "Budapest Guide: Széchenyi-Bad, Ruinenbars & Krankenhaus im Felsen",
+ "title_en": "Budapest Guide: Széchenyi Baths, Ruin Bars & the Hospital in the Rock",
+ "desc": "Budapest an einem Tag der Gegensätze: morgens ins Széchenyi-Bad, abends in die Ruinenbar Szimpla Kert, dazu Krankenhaus im Felsen und Flipper-Museum – von Noel.",
+ "desc_en": "Budapest on a day of contrasts: Széchenyi baths in the morning, ruin bar Szimpla Kert in the evening, plus the Hospital in the Rock and pinball museum – from Noel.",
+ "gyg_q": "Budapest",
+ "intro": "<p>Budapest erlebst du am besten in Badehose und abends mit einem Bier in einer halb verfallenen Bar. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Budapest is best experienced in swimming trunks and with a beer in the evening in a half-derelict bar. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-16",
+ "story": "<p>Ich war dort – und kaum eine Stadt kann so gut Gegensätze an einem einzigen Tag. Mein Tipp: morgens ins Széchenyi-Bad, abends in eine Ruinenbar wie das Szimpla Kert – mehr Gegensatz an einem Tag geht kaum. Und einmal nach Einbruch der Dunkelheit ans Donauufer, wenn das Parlament angestrahlt ist.</p>",
+ "story_en": "<p>I was there – and hardly a city does contrasts on a single day as well. My tip: the Széchenyi baths in the morning, a ruin bar like Szimpla Kert at night – you won’t find a bigger contrast in one day. And once after dark walk the Danube bank when the parliament is lit up.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Forint (HUF)",
+   "v_en": "Forint (HUF)"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Budapest erreichst du per Zug (z. B. aus Wien oder Bratislava), Flug oder Fernbus; aktuelle Verbindungen vorher prüfen.</p>",
+   "html_en": "<p>You reach Budapest by train (e.g. from Vienna or Bratislava), flight or coach; check current connections beforehand.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Széchenyi-Bad",
+     "text": "Morgens ins Bad. Auf Google 4,2 Sterne bei über 67.000 Bewertungen. Besucher raten zu einem Wochentag-Morgen (ruhiger), Badeschuhe und Handtuch mitzubringen.",
+     "text_en": "Into the baths in the morning. 4.2 stars on Google from over 67,000 reviews. Visitors advise a weekday morning (calmer) and bringing flip-flops and a towel.",
+     "name_en": "Széchenyi Baths",
+     "q": "Széchenyi Thermal Bath Budapest",
+     "hours": "laut Google ca. 7–20 Uhr (Fr bis 22 Uhr)",
+     "hours_en": "about 7 am–8 pm (Fri until 10 pm) according to Google"
+    },
+    {
+     "name": "Szimpla Kert",
+     "text": "Die berühmteste Ruinenbar: Sperrmüll-Möbel, Lichterketten, Hinterhöfe voller Menschen. Auf Google 4,6 Sterne bei über 75.000 Bewertungen.",
+     "text_en": "The most famous ruin bar: scrap furniture, fairy lights, courtyards full of people. 4.6 stars on Google from over 75,000 reviews.",
+     "q": "Szimpla Kert Budapest"
+    },
+    {
+     "name": "Parlament bei Nacht",
+     "text": "Nach Einbruch der Dunkelheit ans Donauufer, wenn das Parlament angestrahlt ist.",
+     "text_en": "After dark to the Danube bank when the parliament is lit up.",
+     "name_en": "Parliament at night",
+     "q": "Parlament bei Nacht"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Verrückte Orte",
+   "h_en": "Crazy places",
+   "spots": [
+    {
+     "name": "Krankenhaus im Felsen",
+     "text": "Ein geheimes Krankenhaus im Felsen unter der Burg, das bis 2002 Staatsgeheimnis war. Auf Google 4,6 Sterne. Nur mit Führung (rund 50–60 Minuten); Fotografieren verboten.",
+     "text_en": "A secret hospital in the rock beneath the castle that was a state secret until 2002. 4.6 stars on Google. Guided tour only (about 50–60 minutes); no photography.",
+     "name_en": "Hospital in the Rock",
+     "gem": true,
+     "q": "Hospital in the Rock Budapest"
+    },
+    {
+     "name": "Flipper-Museum",
+     "text": "Ein Museum, in dem du mit einem Ticket an allen Automaten spielen darfst. Auf Google 4,9 Sterne bei über 7.800 Bewertungen.",
+     "text_en": "A museum where one ticket lets you play all the machines. 4.9 stars on Google from over 7,800 reviews.",
+     "name_en": "Pinball Museum",
+     "gem": true,
+     "q": "Flippermúzeum Budapest",
+     "hours": "laut Google Mi–So nachmittags/abends, Mo/Di zu",
+     "hours_en": "Wed–Sun afternoon/evening, closed Mon/Tue according to Google"
+    },
+    {
+     "name": "Kindereisenbahn im Wald",
+     "text": "Eine Waldeisenbahn, die von Kindern betrieben wird – auf meiner Karte.",
+     "text_en": "A forest railway run by children – on my map.",
+     "name_en": "Children’s railway in the forest",
+     "gem": true,
+     "q": "Kindereisenbahn im Wald"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Budapest ausmacht",
+   "h_en": "What makes Budapest special",
+   "html": "<p>Unter der Stadt sprudeln über hundert Thermalquellen. Budapest gibt es als eine Stadt erst seit 1873, als Buda, Pest und Óbuda vereinigt wurden. Das Parlament ist das größte Gebäude Ungarns.</p>",
+   "html_en": "<p>Over a hundred thermal springs bubble beneath the city. Budapest has existed as one city only since 1873, when Buda, Pest and Óbuda were united. The parliament is Hungary’s largest building.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag der Gegensätze",
+   "h_en": "A day of contrasts",
+   "items": [
+    "<strong>Morgens</strong> – Széchenyi-Bad",
+    "<strong>Nachmittag</strong> – Krankenhaus im Felsen oder Flipper-Museum",
+    "<strong>Abend</strong> – Donauufer, dann Szimpla Kert"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Széchenyi baths",
+    "<strong>Afternoon</strong> – Hospital in the Rock or pinball museum",
+    "<strong>Evening</strong> – Danube bank, then Szimpla Kert"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie viele Tage braucht man in Budapest?",
+   "q_en": "How many days in Budapest?",
+   "a": "<p>Zwei bis drei.</p>",
+   "a_en": "<p>Two to three.</p>"
+  }
+ ]
+}

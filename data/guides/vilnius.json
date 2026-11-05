@@ -1,0 +1,144 @@
+{
+ "slug": "vilnius",
+ "slug_en": "vilnius",
+ "status": "live",
+ "cc": "LT",
+ "flag": "🇱🇹",
+ "city": "Vilnius",
+ "city_en": "Vilnius",
+ "updated": "2026-11-05",
+ "title": "Vilnius Guide: Užupis, Gediminas-Turm, KGB-Museum & Berg der Kreuze",
+ "title_en": "Vilnius Guide: Užupis, Gediminas Tower, KGB Museum & Hill of Crosses",
+ "desc": "Vilnius ohne Massen: Užupis-Republik, Sonnenuntergang auf dem Gediminas-Turm, KGB-Museum, Frank-Zappa-Denkmal und Berg der Kreuze – von Noel.",
+ "desc_en": "Vilnius without the crowds: Užupis Republic, sunset on Gediminas Tower, KGB museum, Frank Zappa monument and Hill of Crosses – from Noel.",
+ "gyg_q": "Vilnius",
+ "intro": "<p>Vilnius ist die Überraschung des Baltikums: eine barocke Altstadt, die locker mit Prag mithalten kann – nur ohne die Massen. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Vilnius is the Baltic surprise: a baroque old town that easily rivals Prague – just without the crowds. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-18",
+ "story": "<p>Mein Tipp: ein Spaziergang durch Užupis – die selbsternannte Künstlerrepublik hat sogar eine eigene Verfassung an der Wand („Eine Katze ist nicht verpflichtet, ihren Besitzer zu lieben“). Danach auf den Gediminas-Turm zum Sonnenuntergang.</p>",
+ "story_en": "<p>My tip: a walk through Užupis – the self-proclaimed artists’ republic even has its own constitution on a wall (“A cat is not obliged to love its owner”). Then up Gediminas Tower for sunset.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "2–3 Tage",
+   "v_en": "2–3 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Welterbe",
+   "k_en": "World Heritage",
+   "v": "Altstadt",
+   "v_en": "Old town"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Vilnius hat einen eigenen Flughafen; Fernbusse verbinden die Stadt mit Riga und Warschau. Aktuelle Verbindungen vorher prüfen.</p>",
+   "html_en": "<p>Vilnius has its own airport; coaches link the city to Riga and Warsaw. Check current connections beforehand.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "Gediminas-Turm",
+     "text": "Zum Sonnenuntergang auf den Turm. Auf Google 4,7 Sterne. Besucher nennen rund 8 € Eintritt, eine Standseilbahn (ca. 2 €) und 360°-Blick.",
+     "text_en": "Up the tower at sunset. 4.7 stars on Google. Visitors mention about €8 admission, a funicular (about €2) and a 360° view.",
+     "name_en": "Gediminas Tower",
+     "q": "Gediminas Castle Tower Vilnius",
+     "hours": "laut Google täglich ca. 10–20 Uhr",
+     "hours_en": "daily about 10 am–8 pm according to Google"
+    },
+    {
+     "name": "Užupis",
+     "text": "Ein Spaziergang durch die selbsternannte Künstlerrepublik – mit eigener Verfassung an der Wand.",
+     "text_en": "A walk through the self-proclaimed artists’ republic – with its own constitution on a wall.",
+     "name_en": "Užupis",
+     "q": "Užupis"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Verrückte Orte",
+   "h_en": "Crazy places",
+   "spots": [
+    {
+     "name": "KGB-Museum",
+     "text": "Mit den echten Zellen. Auf Google 4,6 Sterne. Besucher nennen rund 6 € und 1,5 Stunden; ein bewegender Ort.",
+     "text_en": "With the real cells. 4.6 stars on Google. Visitors mention about €6 and 1.5 hours; a moving place.",
+     "name_en": "KGB Museum",
+     "gem": true,
+     "q": "Museum of Occupations and Freedom Fights Vilnius",
+     "hours": "laut Google Mi–So, Mo/Di geschlossen",
+     "hours_en": "Wed–Sun, closed Mon/Tue according to Google"
+    },
+    {
+     "name": "Frank-Zappa-Denkmal & Gasse der Schriftsteller",
+     "text": "Das weltweit erste Frank-Zappa-Denkmal (Zappa war nie in Litauen) und die Gasse der Schriftsteller mit hunderten kleinen Kunstwerken an der Wand.",
+     "text_en": "The world’s first Frank Zappa monument (Zappa was never in Lithuania) and Writers’ Lane with hundreds of small artworks on the wall.",
+     "name_en": "Frank Zappa monument & Writers’ Lane",
+     "gem": true,
+     "q": "Frank-Zappa-Denkmal & Gasse der Schriftsteller"
+    },
+    {
+     "name": "Berg der Kreuze",
+     "text": "Etwas weiter weg: Tausende Kreuze. Auf Google 4,6 Sterne. Besucher: nur mit Auto/Tour erreichbar, rund um die Uhr offen, kein Ticket.",
+     "text_en": "A bit further away: thousands of crosses. 4.6 stars on Google. Visitors: reachable only by car/tour, open around the clock, no ticket.",
+     "name_en": "Hill of Crosses",
+     "gem": true,
+     "q": "Hill of Crosses Lithuania"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Litauen ausmacht",
+   "h_en": "What makes Lithuania special",
+   "html": "<p>Litauen ist das Land, in dem Basketball fast eine Religion ist, in dem man Kepta duona (frittiertes Knoblauchbrot) zum Bier isst. Der Legende nach träumte Großfürst Gediminas von einem eisernen Wolf und gründete daraufhin die Stadt. 1989 bildeten zwei Millionen Menschen eine Menschenkette von Vilnius bis Tallinn, und 1990 erklärte Litauen als erste Sowjetrepublik seine Unabhängigkeit.</p>",
+   "html_en": "<p>Lithuania is the country where basketball is almost a religion and where you eat kepta duona (fried garlic bread) with beer. According to legend Grand Duke Gediminas dreamed of an iron wolf and then founded the city. In 1989 two million people formed a human chain from Vilnius to Tallinn, and in 1990 Lithuania declared independence as the first Soviet republic.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Vilnius",
+   "h_en": "One day in Vilnius",
+   "items": [
+    "<strong>Vormittag</strong> – Altstadt, Gasse der Schriftsteller",
+    "<strong>Mittag</strong> – Užupis",
+    "<strong>Nachmittag</strong> – KGB-Museum",
+    "<strong>Sonnenuntergang</strong> – Gediminas-Turm"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – old town, Writers’ Lane",
+    "<strong>Midday</strong> – Užupis",
+    "<strong>Afternoon</strong> – KGB museum",
+    "<strong>Sunset</strong> – Gediminas Tower"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wie komme ich zum Berg der Kreuze?",
+   "q_en": "How do I get to the Hill of Crosses?",
+   "a": "<p>Per Mietwagen oder Tour; er liegt bei Šiauliai.</p>",
+   "a_en": "<p>By rental car or tour; it lies near Šiauliai.</p>"
+  }
+ ]
+}

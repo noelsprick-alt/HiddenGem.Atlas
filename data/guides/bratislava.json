@@ -1,0 +1,125 @@
+{
+ "slug": "bratislava",
+ "slug_en": "bratislava",
+ "status": "live",
+ "cc": "SK",
+ "flag": "🇸🇰",
+ "city": "Bratislava",
+ "city_en": "Bratislava",
+ "updated": "2026-11-05",
+ "title": "Bratislava Guide: UFO-Deck, Altstadt, Burg & Čumil",
+ "title_en": "Bratislava Guide: UFO Deck, Old Town, Castle & Čumil",
+ "desc": "Bratislava, klein und schräg: Altstadt in einer Stunde, Sonnenuntergang auf dem UFO-Deck, Burg und kombinierbar mit Wien – von Noel.",
+ "desc_en": "Bratislava, small and quirky: old town in an hour, sunset on the UFO deck, castle and combinable with Vienna – from Noel.",
+ "gyg_q": "Bratislava",
+ "intro": "<p>Die meisten fahren zwischen Wien und Budapest an Bratislava vorbei. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Most people pass Bratislava between Vienna and Budapest. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-17",
+ "story": "<p>Ich war dort – und Bratislava ist klein, entspannt und herrlich schräg. Mein Tipp: Bratislava lässt sich wunderbar mit Wien kombinieren – die beiden Hauptstädte liegen nur rund eine Stunde auseinander. Abends hoch aufs UFO-Deck der SNP-Brücke zum Sonnenuntergang.</p>",
+ "story_en": "<p>I was there – and Bratislava is small, relaxed and wonderfully quirky. My tip: Bratislava combines perfectly with Vienna – the two capitals are only about an hour apart. In the evening go up to the UFO deck on the SNP bridge for sunset.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1–2 Tage",
+   "v_en": "1–2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Von Wien fährst du in rund einer Stunde mit Zug oder Bus nach Bratislava; aktuelle Fahrpläne vorher prüfen.</p>",
+   "html_en": "<p>From Vienna it takes about an hour by train or bus to Bratislava; check current timetables beforehand.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
+    {
+     "name": "UFO-Deck der SNP-Brücke",
+     "text": "Abends zum Sonnenuntergang. Auf Google 4,5 Sterne. Besucher nennen rund 12,50 € Eintritt und 360°-Blick.",
+     "text_en": "In the evening for sunset. 4.5 stars on Google. Visitors mention about €12.50 admission and 360° views.",
+     "name_en": "UFO deck on the SNP bridge",
+     "q": "UFO Observation Deck Bratislava",
+     "hours": "laut Google täglich ca. 10–23 Uhr",
+     "hours_en": "daily about 10 am–11 pm according to Google"
+    },
+    {
+     "name": "Burg Bratislava",
+     "text": "Weiter Blick über Donau und Stadt. Auf Google 4,5 Sterne. Gelände und Gärten sind laut Besuchern frei zugänglich.",
+     "text_en": "Wide view over the Danube and city. 4.5 stars on Google. Grounds and gardens are free to enter according to visitors.",
+     "name_en": "Bratislava Castle",
+     "q": "Bratislava Castle"
+    },
+    {
+     "name": "Altstadt & Čumil",
+     "text": "Die Altstadt ist in einer Stunde durchlaufen – voller Bronzefiguren, allen voran Čumil, der Arbeiter, der aus einem Gully schaut.",
+     "text_en": "The old town can be walked in an hour – full of bronze figures, above all Čumil, the worker peeking out of a manhole.",
+     "name_en": "Old town & Čumil",
+     "q": "Altstadt & Čumil"
+    }
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gem",
+   "h_en": "Hidden gem",
+   "spots": [
+    {
+     "name": "Das Funkhaus (umgedrehte Pyramide)",
+     "text": "Das Funkhaus in Form einer umgedrehten Pyramide landet regelmäßig auf Listen der hässlichsten Gebäude der Welt.",
+     "text_en": "The radio building shaped like an inverted pyramid regularly lands on lists of the world’s ugliest buildings.",
+     "name_en": "The Radio Building (inverted pyramid)",
+     "gem": true,
+     "q": "Das Funkhaus (umgedrehte Pyramide)"
+    }
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Bratislava ausmacht",
+   "h_en": "What makes Bratislava special",
+   "html": "<p>Bratislava ist die einzige Hauptstadt der Welt, die an zwei Länder grenzt: Österreich und Ungarn. Als Pressburg war sie fast 300 Jahre Krönungsstadt der ungarischen Könige (1563–1830, darunter Maria Theresia). Seit 1993 ist sie Hauptstadt der Slowakei.</p>",
+   "html_en": "<p>Bratislava is the only capital in the world bordering two countries: Austria and Hungary. As Pressburg it was the coronation city of the Hungarian kings for nearly 300 years (1563–1830, including Maria Theresa). Since 1993 it has been Slovakia’s capital.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Ein Tag in Bratislava",
+   "h_en": "One day in Bratislava",
+   "items": [
+    "<strong>Vormittag</strong> – Altstadt, Čumil",
+    "<strong>Nachmittag</strong> – Burg",
+    "<strong>Abend</strong> – UFO-Deck"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – old town, Čumil",
+    "<strong>Afternoon</strong> – castle",
+    "<strong>Evening</strong> – UFO deck"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lässt sich Bratislava mit Wien kombinieren?",
+   "q_en": "Can I combine Bratislava with Vienna?",
+   "a": "<p>Ja, nur rund eine Stunde Fahrt.</p>",
+   "a_en": "<p>Yes, only about an hour’s ride.</p>"
+  }
+ ]
+}
