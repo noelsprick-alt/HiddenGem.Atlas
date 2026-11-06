@@ -105,7 +105,7 @@ const OUT = []; // {path, html, alt:{de,en}}
 const sitemap = [];
 const up = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 
-function page({ lang, p, title, desc, h1, lead, body, crumbs, ld = [], alt, type = 'website', image }) {
+function page({ lang, p, title, desc, h1, lead, body, crumbs, ld = [], alt, type = 'website', image, lastmod }) {
   const U = up(p), t = TX[lang];
   { const SFX = ' | HiddenGem.Atlas'; let core = title.endsWith(SFX) ? title.slice(0, -SFX.length) : title; const max = 68 - SFX.length;
     if (core.length > max) core = core.slice(0, max).replace(/[\s,:;-]+\S*$/, '') + '…'; title = core + SFX; }
@@ -140,7 +140,7 @@ ${body}
 <script data-goatcounter="https://${GOAT}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body></html>`;
   OUT.push({ path: p + 'index.html', html: out });
-  sitemap.push({ p, alt: alt ? { [lang]: p, [other(lang)]: alt } : null, lang });
+  sitemap.push({ p, alt: alt ? { [lang]: p, [other(lang)]: alt } : null, lang, lastmod });
 }
 
 const trim = (s, n) => { s = strip(s); return s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…'; };
@@ -297,10 +297,13 @@ const guideN = renderGuides({ GUIDES, ROOT, BASE, TODAY, OUT, page, up, other, e
 for (const d of ['de', 'en']) fs.rmSync(path.join(ROOT, d), { recursive: true, force: true });
 for (const o of OUT) { const f = path.join(ROOT, o.path); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, o.html); }
 
-const urlTag = (p, alt) => `<url><loc>${BASE}${p}</loc><lastmod>${TODAY}</lastmod>${alt ? Object.entries(alt).map(([l, ap]) => `<xhtml:link rel="alternate" hreflang="${l}" href="${BASE}${ap}"/>`).join('') : ''}</url>`;
-const sm = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n<url><loc>${BASE}</loc><lastmod>${TODAY}</lastmod></url>\n${sitemap.map((s) => urlTag(s.p, s.alt)).join('\n')}\n</urlset>\n`;
-fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sm);
-fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${BASE}sitemap.xml\n`);
+// lastmod nur, wenn echt bekannt (Guides: Feld "updated") – sonst weglassen, damit Google dem Datum vertraut.
+const urlTag = (s) => `<url><loc>${BASE}${s.p}</loc>${s.lastmod ? `<lastmod>${s.lastmod}</lastmod>` : ''}${s.alt ? Object.entries(s.alt).map(([l, ap]) => `<xhtml:link rel="alternate" hreflang="${l}" href="${BASE}${ap}"/>`).join('') : ''}</url>`;
+const smWrap = (list, home) => `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${home ? `<url><loc>${BASE}</loc><lastmod>${TODAY}</lastmod></url>\n` : ''}${list.map(urlTag).join('\n')}\n</urlset>\n`;
+fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), smWrap(sitemap, true));
+// Eigene Sitemap nur mit Guides + Blog (die wichtigsten Seiten) – in der Search Console zuerst einreichen.
+fs.writeFileSync(path.join(ROOT, 'sitemap-guides.xml'), smWrap(sitemap.filter((x) => /\/(guide|blog)\//.test(x.p)), true));
+fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${BASE}sitemap.xml\nSitemap: ${BASE}sitemap-guides.xml\n`);
 
 fs.writeFileSync(path.join(ROOT, 'seo.css'), `@font-face{font-family:'DM Sans';font-weight:100 1000;font-display:swap;src:url(fonts/dm-sans-latin-wght-normal.woff2) format('woff2')}
 @font-face{font-family:'Cormorant Garamond';font-weight:400;font-display:swap;src:url(fonts/cormorant-garamond-latin-400-normal.woff2) format('woff2')}
@@ -326,6 +329,10 @@ footer{border-top:1px solid var(--line);padding:24px 16px;text-align:center;font
 .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin:1em 0}.facts div{background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:15px}.facts b{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
 .spot{border-left:3px solid var(--line);padding:2px 0 2px 14px;margin:1.4em 0}.spot.gem{border-left-color:var(--gold)}.spot h3{font:600 19px/1.3 'DM Sans',system-ui,sans-serif;margin:.2em 0}
 .gembadge{background:var(--gold);color:#16140f;border-radius:12px;padding:1px 9px;font-size:12px;font-weight:600;margin-left:8px;vertical-align:middle;white-space:nowrap}
+.usp{display:flex;flex-wrap:wrap;gap:8px;margin:.6em 0 1em}.usp .chip{display:inline-block;background:var(--bg2);border:1px solid var(--line);border-radius:20px;padding:6px 12px;font-size:14px;color:var(--text);text-decoration:none}.usp a.chip:hover{border-color:var(--gold)}.usp .chip a{color:var(--gold)}
+.freebadge{background:#2e7d4f;color:#fff;border-radius:12px;padding:1px 9px;font-size:12px;font-weight:600;margin-left:8px;vertical-align:middle;white-space:nowrap}
+.deal,.freebox,.mapsbox{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:1.4em 0}.deal{border-color:var(--gold)}.deal h2,.freebox h2,.mapsbox h2{margin-top:.2em}.deal .ad{float:right;font-size:11px;color:var(--text2)}.freebox ul{columns:2;column-gap:24px;padding-left:18px}.freebox li{break-inside:avoid;margin:.2em 0}.mapsbox h3{font-size:16px;margin:.9em 0 .2em}button.btn{border:0;cursor:pointer;font:inherit;font-weight:600}
+@media(max-width:600px){.freebox ul{columns:1}}
 .spot .tip{background:var(--bg2);border-radius:8px;padding:7px 11px;font-size:15px}.spot .meta{margin:.3em 0}.spot .gm{font-size:14px;margin:.4em 0}.spot .gtext p{margin:.4em 0}
 .media{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin:1em 0}.media img,.media video{width:100%;border-radius:10px;display:block;aspect-ratio:3/4;object-fit:cover;background:var(--bg2)}
 .sbox{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:4px 18px 12px;margin:1.6em 0}

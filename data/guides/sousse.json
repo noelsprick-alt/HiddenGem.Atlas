@@ -55,19 +55,20 @@
    "spots": [
     {
      "name": "Medina und Ribat",
-     "text": "<p>Früh hineingehen, auf den Ribat steigen und über die Dächer schauen. Auf Google 4,4 Sterne. Besucher nennen rund 8 Dinar Eintritt und viele Stufen zum Turm. Der Ribat entstand im 8. Jahrhundert.</p><p>Die Medina von Sousse gehört seit 1988 zum UNESCO-Welterbe: ein Labyrinth aus Gassen, Souks, Moscheen und Wohnhäusern innerhalb der Stadtmauer. Der Ribat von 821 war eine befestigte Klosterburg und ist einer der ältesten Bauten dieser Art in Nordafrika. Vom Turm hast du einen weiten Blick auf Medina, Hafen und Meer.</p><p>Die Medina ist am schönsten am frühen Morgen, bevor die Hitze und die Händler aufdrehen. Trage bequeme Schuhe; viele Gassen sind uneben. Prüfe Öffnungszeiten und Eintritt vorher.</p>",
-     "text_en": "<p>Go in early, climb the Ribat and look over the rooftops. 4.4 stars on Google. Visitors mention about 8 dinars admission and many steps to the tower. The Ribat dates from the 8th century.</p><p>The medina of Sousse has been a UNESCO World Heritage Site since 1988: a labyrinth of lanes, souks, mosques and houses within the city wall. The Ribat of 821 was a fortified monastery fortress and is one of the oldest buildings of its kind in North Africa. From the tower you have a wide view of medina, harbour and sea.</p><p>The medina is most beautiful in the early morning, before the heat and the traders turn up. Wear comfortable shoes; many lanes are uneven. Check opening times and admission beforehand.</p>",
+     "text": "<p>Früh hineingehen, auf den Ribat steigen und über die Dächer schauen. Eintritt rund 8 Dinar; zum Turm geht es viele Stufen hinauf. Der Ribat entstand im 8. Jahrhundert.</p><p>Die Medina von Sousse gehört seit 1988 zum UNESCO-Welterbe: ein Labyrinth aus Gassen, Souks, Moscheen und Wohnhäusern innerhalb der Stadtmauer. Der Ribat von 821 war eine befestigte Klosterburg und ist einer der ältesten Bauten dieser Art in Nordafrika. Vom Turm hast du einen weiten Blick auf Medina, Hafen und Meer.</p><p>Die Medina ist am schönsten am frühen Morgen, bevor die Hitze und die Händler aufdrehen. Trage bequeme Schuhe; viele Gassen sind uneben. Prüfe Öffnungszeiten und Eintritt vorher.</p>",
+     "text_en": "<p>Go in early, climb the Ribat and look over the rooftops. Admission is about 8 dinars; many steps lead up to the tower. The Ribat dates from the 8th century.</p><p>The medina of Sousse has been a UNESCO World Heritage Site since 1988: a labyrinth of lanes, souks, mosques and houses within the city wall. The Ribat of 821 was a fortified monastery fortress and is one of the oldest buildings of its kind in North Africa. From the tower you have a wide view of medina, harbour and sea.</p><p>The medina is most beautiful in the early morning, before the heat and the traders turn up. Wear comfortable shoes; many lanes are uneven. Check opening times and admission beforehand.</p>",
      "name_en": "Medina and Ribat",
      "q": "Ribat of Sousse",
-     "hours": "laut Google täglich ca. 8–19 Uhr",
-     "hours_en": "daily about 8 am–7 pm according to Google",
+     "hours": "täglich ca. 8–19 Uhr",
+     "hours_en": "daily about 8 am–7 pm",
      "tip": "Komm früh am Morgen und steig zuerst auf den Ribat-Turm.",
-     "tip_en": "Come early in the morning and climb the Ribat tower first."
+     "tip_en": "Come early in the morning and climb the Ribat tower first.",
+     "free": true
     },
     {
      "name": "El Jem – römisches Amphitheater",
-     "text": "<p>Ein Tagesausflug lohnt sich nach El Jem, wo eines der größten römischen Amphitheater der Welt steht. Auf Google 4,8 Sterne bei über 11.000 Bewertungen; Besucher raten zu früher Stunde.</p><p>Das Amphitheater von El Jem stammt aus dem 3. Jahrhundert und bot Platz für rund 30.000 Zuschauer – es gehört zu den größten und am besten erhaltenen römischen Amphitheatern der Welt. Du kannst auf die Ränge steigen, durch die Gänge unter der Arena gehen und die Akustik erleben.</p><p>El Jem liegt rund 60 Kilometer südlich von Sousse; die Anreise erfolgt mit Zug, Louage (Sammeltaxi) oder Mietwagen. Plane mit Hin- und Rückfahrt einen halben bis ganzen Tag ein. Komm früh, bevor die Hitze steigt, und nimm Wasser und Sonnenschutz mit.</p>",
-     "text_en": "<p>A day trip to El Jem is worthwhile, where one of the world’s largest Roman amphitheatres stands. 4.8 stars on Google from over 11,000 reviews; visitors advise going early.</p><p>The amphitheatre of El Jem dates from the 3rd century and had room for about 30,000 spectators – it is among the largest and best-preserved Roman amphitheatres in the world. You can climb the stands, walk through the corridors under the arena and experience the acoustics.</p><p>El Jem lies about 60 kilometres south of Sousse; you get there by train, louage (shared taxi) or rental car. With the return trip plan half a day to a full day. Come early before the heat rises and take water and sun protection.</p>",
+     "text": "<p>Ein Tagesausflug lohnt sich nach El Jem, wo eines der größten römischen Amphitheater der Welt steht. Komm früh am Tag.</p><p>Das Amphitheater von El Jem stammt aus dem 3. Jahrhundert und bot Platz für rund 30.000 Zuschauer – es gehört zu den größten und am besten erhaltenen römischen Amphitheatern der Welt. Du kannst auf die Ränge steigen, durch die Gänge unter der Arena gehen und die Akustik erleben.</p><p>El Jem liegt rund 60 Kilometer südlich von Sousse; die Anreise erfolgt mit Zug, Louage (Sammeltaxi) oder Mietwagen. Plane mit Hin- und Rückfahrt einen halben bis ganzen Tag ein. Komm früh, bevor die Hitze steigt, und nimm Wasser und Sonnenschutz mit.</p>",
+     "text_en": "<p>A day trip to El Jem is worthwhile, where one of the world’s largest Roman amphitheatres stands. Come early in the day.</p><p>The amphitheatre of El Jem dates from the 3rd century and had room for about 30,000 spectators – it is among the largest and best-preserved Roman amphitheatres in the world. You can climb the stands, walk through the corridors under the arena and experience the acoustics.</p><p>El Jem lies about 60 kilometres south of Sousse; you get there by train, louage (shared taxi) or rental car. With the return trip plan half a day to a full day. Come early before the heat rises and take water and sun protection.</p>",
      "name_en": "El Jem – Roman amphitheatre",
      "q": "Amphitheatre of El Jem",
      "tip": "Fahr früh mit dem Zug oder Louage und nimm genug Wasser mit.",
@@ -98,7 +99,8 @@
      "name_en": "Souks & lanes of the medina",
      "q": "Souks Sousse Medina",
      "tip": "Vergleiche Preise in mehreren Läden, bevor du kaufst.",
-     "tip_en": "Compare prices in several shops before you buy."
+     "tip_en": "Compare prices in several shops before you buy.",
+     "free": true
     },
     {
      "name": "Katakomben des Guten Hirten",
@@ -153,7 +155,8 @@
      "gem": true,
      "q": "Port El Kantaoui",
      "tip": "Komm am Abend und trink einen Minztee am Wasser.",
-     "tip_en": "Come in the evening and drink a mint tea by the water."
+     "tip_en": "Come in the evening and drink a mint tea by the water.",
+     "free": true
     },
     {
      "name": "Tunesisch essen: Brik, Lablabi & Couscous",

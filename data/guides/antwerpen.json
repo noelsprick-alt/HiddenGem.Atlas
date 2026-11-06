@@ -59,8 +59,8 @@
     {
      "name": "Antwerpen-Centraal",
      "q": "Antwerpen-Centraal station",
-     "text": "<p>Die „Eisenbahn-Kathedrale“: hohe Kuppel, breite Treppen, Palastgefühl. Auf Google 4,6 Sterne bei über 6.500 Bewertungen – sehenswert, auch wenn du nicht mit dem Zug fährst.</p><p>Der Bahnhof Antwerpen-Centraal wurde 1905 eröffnet und gilt wegen seiner Kuppel, der Treppen und der Eisenbogen als einer der schönsten Bahnhöfe der Welt. Die Haupthalle ist hoch und hell; mehrere Ebenen führen zu den Gleisen. Auch wenn du nicht reist, lohnt sich ein Blick hinein.</p><p>Plane eine Viertelstunde ein, um die Halle und die Treppen zu sehen und zu fotografieren.</p>",
-     "text_en": "<p>The “railway cathedral”: high dome, wide staircases, palace feeling. 4.6 stars on Google from over 6,500 reviews – worth seeing even if you are not taking a train.</p><p>Antwerpen-Centraal station opened in 1905 and is considered one of the most beautiful stations in the world because of its dome, stairs and iron arches. The main hall is high and bright; several levels lead to the platforms. Even if you are not travelling it is worth a look inside.</p><p>Plan a quarter of an hour to see and photograph the hall and the stairs.</p>",
+     "text": "<p>Die „Eisenbahn-Kathedrale“: hohe Kuppel, breite Treppen, Palastgefühl. Sehenswert, auch wenn du nicht mit dem Zug fährst.</p><p>Der Bahnhof Antwerpen-Centraal wurde 1905 eröffnet und gilt wegen seiner Kuppel, der Treppen und der Eisenbogen als einer der schönsten Bahnhöfe der Welt. Die Haupthalle ist hoch und hell; mehrere Ebenen führen zu den Gleisen. Auch wenn du nicht reist, lohnt sich ein Blick hinein.</p><p>Plane eine Viertelstunde ein, um die Halle und die Treppen zu sehen und zu fotografieren.</p>",
+     "text_en": "<p>The “railway cathedral”: high dome, wide staircases, palace feeling – worth seeing even if you are not taking a train.</p><p>Antwerpen-Centraal station opened in 1905 and is considered one of the most beautiful stations in the world because of its dome, stairs and iron arches. The main hall is high and bright; several levels lead to the platforms. Even if you are not travelling it is worth a look inside.</p><p>Plan a quarter of an hour to see and photograph the hall and the stairs.</p>",
      "tip": "Geh die große Treppe hinauf und fotografiere von oben.",
      "tip_en": "Go up the grand staircase and photograph from above."
     },
@@ -68,10 +68,11 @@
      "name": "MAS – Museum aan de Stroom",
      "name_en": "MAS – Museum aan de Stroom",
      "q": "MAS Museum aan de Stroom Antwerpen",
-     "text": "<p>Das Museum ist Antwerpens Hafengeschichte in einem roten Turm. Auf Google 4,5 Sterne. Die Dachterrasse ist laut Besuchern kostenlos und hat 360°-Blick, besonders zum Sonnenuntergang.</p>",
-     "text_en": "<p>The museum puts Antwerp’s port history in a red tower. 4.5 stars on Google. The rooftop is free according to visitors and has a 360° view, especially at sunset.</p>",
-     "hours": "laut Google Di–So 10–17 Uhr, Mo geschlossen",
-     "hours_en": "Tue–Sun 10 am–5 pm, closed Mondays according to Google"
+     "text": "<p>Das Museum ist Antwerpens Hafengeschichte in einem roten Turm. Die Dachterrasse ist kostenlos und hat 360°-Blick, besonders zum Sonnenuntergang.</p>",
+     "text_en": "<p>The museum puts Antwerp’s port history in a red tower. The rooftop is free and has a 360° view, especially at sunset.</p>",
+     "hours": "Di–So 10–17 Uhr, Mo geschlossen",
+     "hours_en": "Tue–Sun 10 am–5 pm, closed Mondays",
+     "free": true
     },
     {
      "name": "Grote Markt & Rathaus",
@@ -80,7 +81,8 @@
      "name_en": "Grote Markt & town hall",
      "q": "Grote Markt Antwerp",
      "tip": "Komm morgens oder am frühen Abend.",
-     "tip_en": "Come in the morning or early evening."
+     "tip_en": "Come in the morning or early evening.",
+     "free": true
     },
     {
      "name": "Kathedrale Unserer Lieben Frau",
@@ -107,7 +109,8 @@
      "name_en": "Diamond district & fashion district",
      "q": "Antwerp Diamond District",
      "tip": "Bummle durch die Straßen am Nachmittag.",
-     "tip_en": "Stroll through the streets in the afternoon."
+     "tip_en": "Stroll through the streets in the afternoon.",
+     "free": true
     }
    ]
   },
@@ -121,24 +124,24 @@
      "name": "Cogels-Osylei",
      "gem": true,
      "q": "Cogels-Osylei Antwerpen",
-     "text": "<p>Die Jugendstil-Fassaden im Viertel Zurenborg: Straße um Straße mit prächtigen Häusern. Besucher erreichen sie leicht ab Berchem oder Centraal und nennen die Cafés an den Enden. Auf Google 4,9 Sterne (wenige Bewertungen).</p>",
-     "text_en": "<p>The Art Nouveau façades in the Zurenborg quarter: street after street of magnificent houses. Visitors easily reach it from Berchem or Centraal and mention the cafés at the ends. 4.9 stars on Google (few reviews).</p>"
+     "text": "<p>Die Jugendstil-Fassaden im Viertel Zurenborg: Straße um Straße mit prächtigen Häusern. Du erreichst sie leicht ab Berchem oder Centraal, an den Enden der Straße warten Cafés.</p>",
+     "text_en": "<p>The Art Nouveau façades in the Zurenborg quarter: street after street of magnificent houses. You reach it easily from Berchem or Centraal, with cafés waiting at either end of the street.</p>"
     },
     {
      "name": "Vlaeykensgang",
      "gem": true,
      "q": "Vlaeykensgang Antwerpen",
-     "text": "<p>Eine versteckte historische Gasse mitten in der Altstadt, ruhig und fotogen. Auf Google 4,6 Sterne.</p>",
-     "text_en": "<p>A hidden historic alley in the heart of the old town, quiet and photogenic. 4.6 stars on Google.</p>"
+     "text": "<p>Eine versteckte historische Gasse mitten in der Altstadt, ruhig und fotogen.</p>",
+     "text_en": "<p>A hidden historic alley in the heart of the old town, quiet and photogenic.</p>"
     },
     {
      "name": "Bolleke bei De Koninck",
      "name_en": "A bolleke at De Koninck",
      "q": "De Koninck Antwerp City Brewery",
-     "text": "<p>Abends ein Bolleke, das bernsteinfarbene Bier der Stadt. Die Stadtbrauerei bietet laut Besuchern eine interaktive Tour mit Verkostung. Auf Google 4,4 Sterne.</p>",
-     "text_en": "<p>In the evening a bolleke, the city’s amber beer. The city brewery offers an interactive tour with tasting according to visitors. 4.4 stars on Google.</p>",
-     "hours": "laut Google Di/Mi 11–19 Uhr, Do–So 11–22 Uhr, Mo zu",
-     "hours_en": "Tue/Wed 11 am–7 pm, Thu–Sun 11 am–10 pm, closed Mondays according to Google",
+     "text": "<p>Abends ein Bolleke, das bernsteinfarbene Bier der Stadt. Die Stadtbrauerei bietet eine interaktive Tour mit Verkostung.</p>",
+     "text_en": "<p>In the evening a bolleke, the city’s amber beer. The city brewery offers an interactive tour with tasting.</p>",
+     "hours": "Di/Mi 11–19 Uhr, Do–So 11–22 Uhr, Mo zu",
+     "hours_en": "Tue/Wed 11 am–7 pm, Thu–Sun 11 am–10 pm, closed Mondays",
      "tip": "Tour online buchen.",
      "tip_en": "Book the tour online."
     },
@@ -150,7 +153,8 @@
      "gem": true,
      "q": "Het Zuid Antwerp",
      "tip": "Verbinde Museum und Kaffeepause.",
-     "tip_en": "Combine museum and coffee break."
+     "tip_en": "Combine museum and coffee break.",
+     "free": true
     },
     {
      "name": "Schelde-Ufer & Het Steen",
@@ -160,7 +164,8 @@
      "gem": true,
      "q": "Het Steen Antwerp",
      "tip": "Komm am Abend zum Spaziergang.",
-     "tip_en": "Come for an evening walk."
+     "tip_en": "Come for an evening walk.",
+     "free": true
     },
     {
      "name": "Belgische Küche: Frites, Waffeln & Antwerpse Handjes",
@@ -202,8 +207,8 @@
   {
    "q": "Ist die MAS-Dachterrasse kostenlos?",
    "q_en": "Is the MAS rooftop free?",
-   "a": "<p>Laut Besuchern ja; vorher aktuelle Infos prüfen.</p>",
-   "a_en": "<p>According to visitors yes; check current info beforehand.</p>"
+   "a": "<p>Ja; vorher aktuelle Infos prüfen.</p>",
+   "a_en": "<p>Yes; check current info beforehand.</p>"
   },
   {
    "q": "Wie viele Tage braucht man in Antwerpen?",

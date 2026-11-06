@@ -61,12 +61,13 @@
    "spots": [
     {
      "name": "Gasteiner Wasserfall",
-     "text": "<p>Der Wasserfall mitten im Ort. Auf Google 4,7 Sterne bei über 3.000 Bewertungen; frei zugänglich, Besucher erwähnen Aussichtspunkte entlang der Schlucht.</p><p>Der Gasteiner Wasserfall donnert in mehreren Stufen mitten durch den Ort – rund um ihn stehen Belle-Époque-Hotels, Cafés und Aussichtspunkte. Mit mehr als 300 Metern Gesamthöhe (laut Ortsangaben) ist er einer der spektakulärsten Wasserfälle, die direkt in einer Stadt liegen. Es gibt Brücken und Wege, von denen du ihn von unten und oben sehen kannst.</p><p>Die Gischt kühlt die Luft spürbar ab, und im Winter bilden sich Eisfahnen. Ein Spaziergang um den Wasserfall dauert eine halbe bis eine Stunde; abends sind einige Bereiche beleuchtet. Trage rutschfeste Schuhe, da der Weg nass sein kann.</p>",
-     "text_en": "<p>The waterfall in the middle of the village. 4.7 stars on Google from over 3,000 reviews; freely accessible, visitors mention viewpoints along the gorge.</p><p>The Gastein waterfall thunders in several stages through the middle of the village – around it stand Belle Époque hotels, cafés and viewpoints. With a total height of more than 300 metres (according to local information) it is one of the most spectacular waterfalls lying directly in a town. There are bridges and paths from which you can see it from below and above.</p><p>The spray cools the air noticeably, and in winter ice banners form. A walk around the waterfall takes half an hour to an hour; in the evening some areas are lit. Wear non-slip shoes, as the path can be wet.</p>",
+     "text": "<p>Der Wasserfall mitten im Ort. Frei zugänglich, mit Aussichtspunkten entlang der Schlucht.</p><p>Der Gasteiner Wasserfall donnert in mehreren Stufen mitten durch den Ort – rund um ihn stehen Belle-Époque-Hotels, Cafés und Aussichtspunkte. Mit mehr als 300 Metern Gesamthöhe ist er einer der spektakulärsten Wasserfälle, die direkt in einer Stadt liegen. Es gibt Brücken und Wege, von denen du ihn von unten und oben sehen kannst.</p><p>Die Gischt kühlt die Luft spürbar ab, und im Winter bilden sich Eisfahnen. Ein Spaziergang um den Wasserfall dauert eine halbe bis eine Stunde; abends sind einige Bereiche beleuchtet. Trage rutschfeste Schuhe, da der Weg nass sein kann.</p>",
+     "text_en": "<p>The waterfall in the middle of the village. Freely accessible, with viewpoints along the gorge.</p><p>The Gastein waterfall thunders in several stages through the middle of the village – around it stand Belle Époque hotels, cafés and viewpoints. With a total height of more than 300 metres it is one of the most spectacular waterfalls lying directly in a town. There are bridges and paths from which you can see it from below and above.</p><p>The spray cools the air noticeably, and in winter ice banners form. A walk around the waterfall takes half an hour to an hour; in the evening some areas are lit. Wear non-slip shoes, as the path can be wet.</p>",
      "name_en": "Gastein waterfall",
      "q": "Gasteiner Wasserfall Bad Gastein",
      "tip": "Geh früh oder am Abend, wenn es ruhig ist – und wirf einen Blick auf die Hotels drumherum.",
-     "tip_en": "Go early or in the evening when it is quiet – and look at the hotels around it."
+     "tip_en": "Go early or in the evening when it is quiet – and look at the hotels around it.",
+     "free": true
     },
     {
      "name": "Landawirsee im Lungau",
@@ -81,7 +82,8 @@
       "images/video/lungau-grat.mp4"
      ],
      "tip": "Starte früh, prüfe den Wetterbericht und reserviere die Hütte, wenn du übernachten willst.",
-     "tip_en": "Start early, check the weather forecast and reserve the hut if you want to stay overnight."
+     "tip_en": "Start early, check the weather forecast and reserve the hut if you want to stay overnight.",
+     "free": true
     },
     {
      "name": "Kaiserschmarrn auf der Landawirseehütte",
@@ -101,7 +103,8 @@
      "name_en": "Belle Époque architecture & Straubinger Platz",
      "q": "Straubinger Platz Bad Gastein",
      "tip": "Geh abends zum Wasserfall und schau in die Lichter der Hotels.",
-     "tip_en": "Go to the waterfall in the evening and look at the lights of the hotels."
+     "tip_en": "Go to the waterfall in the evening and look at the lights of the hotels.",
+     "free": true
     },
     {
      "name": "Felsentherme Bad Gastein",
@@ -146,7 +149,8 @@
      "gem": true,
      "q": "Kaiserin-Elisabeth-Promenade Bad Gastein",
      "tip": "Geh am Vormittag und kombiniere sie mit einem Café-Besuch.",
-     "tip_en": "Go in the morning and combine it with a café visit."
+     "tip_en": "Go in the morning and combine it with a café visit.",
+     "free": true
     },
     {
      "name": "Burg Mauterndorf im Lungau",

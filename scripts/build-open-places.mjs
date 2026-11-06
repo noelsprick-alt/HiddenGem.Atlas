@@ -147,7 +147,7 @@ for (const r of RAW.items) {
 }
 out.sort((a, b) => a.cc.localeCompare(b.cc) || String(a.town || '').localeCompare(String(b.town || '')));
 cands.sort((a, b) => b.prio - a.prio);
-fs.writeFileSync(path.join(ROOT, 'data/moments-open.json'), JSON.stringify({ source: 'Wikidata (CC0) – geprüft: mehrere unabhängige Quellen + Google ab 4,1 Sternen. Texte auf Klick aus Wikipedia (CC BY-SA)', items: out }));
+fs.writeFileSync(path.join(ROOT, 'data/moments-open.json'), JSON.stringify({ source: 'Wikidata (CC0) – geprüft: mehrere unabhängige Quellen. Texte auf Klick aus Wikipedia (CC BY-SA)', items: out }));
 fs.writeFileSync(path.join(ROOT, 'data-src/open-candidates.json'), JSON.stringify(cands));
 fs.writeFileSync(path.join(ROOT, 'data-src/open-build-report.json'), JSON.stringify(report, null, 1));
 console.log(JSON.stringify({ raw: report.raw, candidates: report.candidates, onMap: out.length, unchecked: report.unchecked, googleNo: report.googleNo, byTheme: report.byTheme }));

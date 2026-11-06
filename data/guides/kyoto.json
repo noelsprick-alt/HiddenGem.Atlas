@@ -61,11 +61,12 @@
    "spots": [
     {
      "name": "Fushimi Inari Taisha",
-     "text": "<p>Um 6 Uhr morgens gehörten mir die tausend Tore fast allein. Der Schrein ist laut Google rund um die Uhr offen und kostenlos; Besucher raten, so früh wie möglich zu kommen und Wasser mitzunehmen. Auf Google 4,6 Sterne bei über 93.000 Bewertungen.</p><p>Der Fushimi Inari Taisha ist dem Reisgott Inari gewidmet und berühmt für seine tausenden roten Torii, die einen Weg den Berg hinauf säumen. Der Rundweg bis zum Gipfel (rund 230 Meter über dem Schrein) dauert etwa zwei bis drei Stunden; schon die ersten 20 bis 30 Minuten durch die dichten Tore reichen für das klassische Bild. Fuchsstatuen, die Boten Inaris, stehen überall.</p><p>Nimm Wasser mit und trage bequeme Schuhe. Wer wirklich Ruhe will, kommt bei Sonnenaufgang oder sehr früh am Morgen; ab 9 Uhr wird es voll. Der Schrein ist rund um die Uhr geöffnet und kostenlos.</p>",
-     "text_en": "<p>At 6 am the thousand gates were almost all mine. The shrine is open around the clock and free according to Google; visitors advise coming as early as possible and bringing water. 4.6 stars on Google from over 93,000 reviews.</p><p>Fushimi Inari Taisha is dedicated to the rice god Inari and famous for its thousands of red torii lining a path up the mountain. The loop to the summit (about 230 metres above the shrine) takes about two to three hours; the first 20 to 30 minutes through the dense gates are enough for the classic picture. Fox statues, Inari’s messengers, stand everywhere.</p><p>Take water and wear comfortable shoes. If you really want peace, come at sunrise or very early in the morning; from 9 a.m. it gets crowded. The shrine is open around the clock and free.</p>",
+     "text": "<p>Um 6 Uhr morgens gehörten mir die tausend Tore fast allein. Der Schrein ist rund um die Uhr offen und kostenlos; komm so früh wie möglich und nimm Wasser mit.</p><p>Der Fushimi Inari Taisha ist dem Reisgott Inari gewidmet und berühmt für seine tausenden roten Torii, die einen Weg den Berg hinauf säumen. Der Rundweg bis zum Gipfel (rund 230 Meter über dem Schrein) dauert etwa zwei bis drei Stunden; schon die ersten 20 bis 30 Minuten durch die dichten Tore reichen für das klassische Bild. Fuchsstatuen, die Boten Inaris, stehen überall.</p><p>Nimm Wasser mit und trage bequeme Schuhe. Wer wirklich Ruhe will, kommt bei Sonnenaufgang oder sehr früh am Morgen; ab 9 Uhr wird es voll. Der Schrein ist rund um die Uhr geöffnet und kostenlos.</p>",
+     "text_en": "<p>At 6 am the thousand gates were almost all mine. The shrine is open around the clock and free; come as early as possible and bring water.</p><p>Fushimi Inari Taisha is dedicated to the rice god Inari and famous for its thousands of red torii lining a path up the mountain. The loop to the summit (about 230 metres above the shrine) takes about two to three hours; the first 20 to 30 minutes through the dense gates are enough for the classic picture. Fox statues, Inari’s messengers, stand everywhere.</p><p>Take water and wear comfortable shoes. If you really want peace, come at sunrise or very early in the morning; from 9 a.m. it gets crowded. The shrine is open around the clock and free.</p>",
      "q": "Fushimi Inari Taisha Kyoto",
      "tip": "Komm bei Sonnenaufgang und lauf höher, als die meisten gehen – oben wird es leerer.",
-     "tip_en": "Come at sunrise and walk higher than most – it gets emptier at the top."
+     "tip_en": "Come at sunrise and walk higher than most – it gets emptier at the top.",
+     "free": true
     },
     {
      "name": "Higashiyama",
@@ -73,7 +74,8 @@
      "text_en": "<p>Then Higashiyama while the lanes are still quiet: wooden houses, temples and teahouses on the hillside.</p><p>Higashiyama is Kyoto’s best-known old district on the hillside. The lanes Ninenzaka and Sannenzaka lead to Kiyomizu-dera; in between are wooden houses, tea houses, ceramics shops and sweet stalls. If you come early you experience the quiet before the tour groups arrive.</p><p>Wear comfortable shoes, because there is a lot of uphill. Kyoto matcha ice cream and mochi are popular here. Do not stay only on the main streets – in the side lanes you find small shrines and quiet corners.</p>",
      "q": "Higashiyama",
      "tip": "Komm vor 8 Uhr – dann sind die Gassen leer und das Licht ist weich.",
-     "tip_en": "Come before 8 a.m. – then the lanes are empty and the light is soft."
+     "tip_en": "Come before 8 a.m. – then the lanes are empty and the light is soft.",
+     "free": true
     },
     {
      "name": "Kiyomizu-dera",
@@ -91,7 +93,8 @@
      "name_en": "Gion & Hanamikōji",
      "q": "Gion Hanamikoji Kyoto",
      "tip": "Komm in der Dämmerung und beachte die Schilder in den privaten Gassen.",
-     "tip_en": "Come at dusk and heed the signs in the private lanes."
+     "tip_en": "Come at dusk and heed the signs in the private lanes.",
+     "free": true
     },
     {
      "name": "Arashiyama – Bambushain & Tenryū-ji",
@@ -100,7 +103,8 @@
      "name_en": "Arashiyama – bamboo grove & Tenryū-ji",
      "q": "Arashiyama Bamboo Grove",
      "tip": "Komm vor 8 Uhr und kombiniere ihn mit dem Tempel der 1.200 Steinfiguren.",
-     "tip_en": "Come before 8 a.m. and combine it with the temple of the 1,200 stone figures."
+     "tip_en": "Come before 8 a.m. and combine it with the temple of the 1,200 stone figures.",
+     "free": true
     },
     {
      "name": "Kinkaku-ji – der Goldene Pavillon",
@@ -118,7 +122,8 @@
      "name_en": "Philosopher’s Path & Ginkaku-ji",
      "q": "Philosopher's Path Kyoto",
      "tip": "Starte am Ginkaku-ji früh und laufe in Richtung Süden.",
-     "tip_en": "Start at Ginkaku-ji early and walk south."
+     "tip_en": "Start at Ginkaku-ji early and walk south.",
+     "free": true
     },
     {
      "name": "Nishiki-Markt – Kyotos Küche",
@@ -127,7 +132,8 @@
      "name_en": "Nishiki Market – Kyoto’s kitchen",
      "q": "Nishiki Market Kyoto",
      "tip": "Komm am Vormittag und iss am Stand.",
-     "tip_en": "Come in the morning and eat at the stall."
+     "tip_en": "Come in the morning and eat at the stall.",
+     "free": true
     }
    ]
   },
@@ -139,13 +145,13 @@
    "spots": [
     {
      "name": "Tempel der 1.200 Steinfiguren (Otagi Nenbutsu-ji)",
-     "text": "Auf meiner Karte findest du den Tempel der 1.200 Steinfiguren in Arashiyama – jede Figur mit eigenem Gesichtsausdruck. Besucher nennen 30–60 Minuten Besuchszeit. Auf Google 4,6 Sterne.",
-     "text_en": "On my map you find the temple of 1,200 stone figures in Arashiyama – each figure with its own expression. Visitors name 30–60 minutes. 4.6 stars on Google.",
+     "text": "Auf meiner Karte findest du den Tempel der 1.200 Steinfiguren in Arashiyama – jede Figur mit eigenem Gesichtsausdruck. Plane 30–60 Minuten ein.",
+     "text_en": "On my map you find the temple of 1,200 stone figures in Arashiyama – each figure with its own expression. Plan 30–60 minutes.",
      "name_en": "Temple of 1,200 stone figures (Otagi Nenbutsu-ji)",
      "gem": true,
      "q": "Otagi Nenbutsu-ji Kyoto",
-     "hours": "laut Google Mo/Di/Do/Fr/So ca. 9–16 Uhr, Mi und Sa geschlossen",
-     "hours_en": "Mon/Tue/Thu/Fri/Sun about 9 am–4 pm, closed Wed and Sat according to Google"
+     "hours": "Mo/Di/Do/Fr/So ca. 9–16 Uhr, Mi und Sa geschlossen",
+     "hours_en": "Mon/Tue/Thu/Fri/Sun about 9 am–4 pm, closed Wed and Sat"
     },
     {
      "name": "Nijō-jō – Nachtigallenboden",

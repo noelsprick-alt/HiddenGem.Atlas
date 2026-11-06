@@ -75,7 +75,8 @@
      "name_en": "Nguyễn Huệ at night",
      "q": "Nguyen Hue Walking Street",
      "tip": "Komm zum Sonnenuntergang und bleib bis in die Dunkelheit – dann leuchtet die Promenade.",
-     "tip_en": "Come at sunset and stay until dark – then the promenade glows."
+     "tip_en": "Come at sunset and stay until dark – then the promenade glows.",
+     "free": true
     },
     {
      "name": "Ben-Thanh-Markt (Chợ Bến Thành)",
@@ -84,7 +85,8 @@
      "name_en": "Ben Thanh Market",
      "q": "Ben Thanh Market Ho Chi Minh City",
      "tip": "Komm vormittags, wenn es kühler und weniger voll ist, und iss dort eine Nudelsuppe.",
-     "tip_en": "Come in the morning when it is cooler and less crowded, and eat a noodle soup there."
+     "tip_en": "Come in the morning when it is cooler and less crowded, and eat a noodle soup there.",
+     "free": true
     },
     {
      "name": "Kriegsrestemuseum (War Remnants Museum)",
@@ -102,7 +104,8 @@
      "name_en": "Notre-Dame Cathedral & Central Post Office",
      "q": "Saigon Central Post Office",
      "tip": "Schreib am Postamt eine Postkarte – die Marken sind günstig, und der Raum ist schöner als der Platz davor.",
-     "tip_en": "Write a postcard at the post office – stamps are cheap, and the hall is nicer than the square outside."
+     "tip_en": "Write a postcard at the post office – stamps are cheap, and the hall is nicer than the square outside.",
+     "free": true
     },
     {
      "name": "Wiedervereinigungspalast (Independence Palace)",
@@ -147,7 +150,8 @@
      "gem": true,
      "q": "Jade Emperor Pagoda Ho Chi Minh City",
      "tip": "Komm vormittags, wenn weniger Reisegruppen da sind, und zieh dich passend an.",
-     "tip_en": "Come in the morning when fewer tour groups are there, and dress appropriately."
+     "tip_en": "Come in the morning when fewer tour groups are there, and dress appropriately.",
+     "free": true
     },
     {
      "name": "Cholon – Chinatown, Thiên-Hậu-Tempel & Binh-Tay-Markt",
@@ -157,7 +161,8 @@
      "gem": true,
      "q": "Cholon Chinatown Ho Chi Minh City",
      "tip": "Fahr am Vormittag hin und iss in einem kleinen Lokal – hier gibt es chinesisch geprägte Küche.",
-     "tip_en": "Go in the morning and eat at a small local place – the cuisine here has Chinese roots."
+     "tip_en": "Go in the morning and eat at a small local place – the cuisine here has Chinese roots.",
+     "free": true
     },
     {
      "name": "Vĩnh Khánh – Straße der Meeresfrüchte (Bezirk 4)",

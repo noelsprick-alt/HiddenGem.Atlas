@@ -64,25 +64,26 @@
      "name_en": "Jordaan & canals in the morning",
      "q": "Jordaan Amsterdam",
      "text": "<p>Früh in den Jordaan, wenn die Grachten noch dir gehören: kleine Brücken, Hausboote und Cafés, bevor die Gruppen kommen. Samstags lohnt der Markt am Noordermarkt.</p>",
-     "text_en": "<p>The Jordaan early, while the canals are still yours: small bridges, houseboats and cafés before the groups arrive. On Saturdays the Noordermarkt market is worth a visit.</p>"
+     "text_en": "<p>The Jordaan early, while the canals are still yours: small bridges, houseboats and cafés before the groups arrive. On Saturdays the Noordermarkt market is worth a visit.</p>",
+     "free": true
     },
     {
      "name": "A'DAM Lookout",
      "q": "A'DAM Lookout Amsterdam",
-     "text": "<p>Aussichtsturm in Amsterdam-Noord mit 360°-Blick über die Stadt, Bar und der Schaukel „Over the Edge“ über der Dachkante. Auf Google 4,6 Sterne bei über 31.000 Bewertungen. Erreichbar mit der Gratis-Fähre ab Hauptbahnhof.</p>",
-     "text_en": "<p>A tower in Amsterdam-Noord with a 360° view over the city, a bar and the “Over the Edge” swing above the roof edge. 4.6 stars on Google from over 31,000 reviews. Reach it with the free ferry from the central station.</p>",
-     "hours": "laut Google täglich ca. 10–22 Uhr",
-     "hours_en": "daily about 10 am–10 pm according to Google",
-     "tip": "Besucher nennen für die Schaukel einen Aufpreis (ein Gast: 30 €). Vor Sonnenuntergang hochfahren.",
-     "tip_en": "Visitors mention a surcharge for the swing (one guest: €30). Go up before sunset."
+     "text": "<p>Aussichtsturm in Amsterdam-Noord mit 360°-Blick über die Stadt, Bar und der Schaukel „Over the Edge“ über der Dachkante. Erreichbar mit der Gratis-Fähre ab Hauptbahnhof.</p>",
+     "text_en": "<p>A tower in Amsterdam-Noord with a 360° view over the city, a bar and the “Over the Edge” swing above the roof edge. Reach it with the free ferry from the central station.</p>",
+     "hours": "täglich ca. 10–22 Uhr",
+     "hours_en": "daily about 10 am–10 pm",
+     "tip": "Für die Schaukel kommt ein Aufpreis dazu (rund 30 €). Vor Sonnenuntergang hochfahren.",
+     "tip_en": "The swing costs extra (around €30). Go up before sunset."
     },
     {
      "name": "Foodhallen",
      "q": "Foodhallen Amsterdam",
-     "text": "<p>Mittags in die Foodhallen: eine Streetfood-Halle in einer restaurierten Straßenbahn-Remise. Auf Google 4,4 Sterne bei über 23.000 Bewertungen. Gäste loben die Vielfalt (Bitterballen, Tacos, indonesische Gerichte), kritisieren teils Preise und volle Tische.</p>",
-     "text_en": "<p>Lunch at the Foodhallen: a street-food hall in a restored tram depot. 4.4 stars on Google from over 23,000 reviews. Guests praise the variety (bitterballen, tacos, Indonesian dishes), some criticise prices and full tables.</p>",
-     "hours": "laut Google täglich ca. 12–23 Uhr",
-     "hours_en": "daily about 12 pm–11 pm according to Google",
+     "text": "<p>Mittags in die Foodhallen: eine Streetfood-Halle in einer restaurierten Straßenbahn-Remise. Die Auswahl ist riesig – Bitterballen, Tacos, indonesische Gerichte –, die Preise sind eher gehoben und die Tische mittags schnell voll.</p>",
+     "text_en": "<p>Lunch at the Foodhallen: a street-food hall in a restored tram depot. The choice is huge – bitterballen, tacos, Indonesian dishes – prices are on the higher side and tables fill up fast at lunch.</p>",
+     "hours": "täglich ca. 12–23 Uhr",
+     "hours_en": "daily about 12 pm–11 pm",
      "tip": "Früh kommen, um einen Sitzplatz zu bekommen.",
      "tip_en": "Come early to get a seat."
     },
@@ -111,7 +112,8 @@
      "name_en": "Vondelpark",
      "q": "Vondelpark Amsterdam",
      "tip": "Leih dir ein Fahrrad.",
-     "tip_en": "Rent a bicycle."
+     "tip_en": "Rent a bicycle.",
+     "free": true
     },
     {
      "name": "Grachtenfahrt",
@@ -144,10 +146,11 @@
      "name_en": "NDSM Wharf",
      "gem": true,
      "q": "NDSM Amsterdam",
-     "text": "<p>Mit der kostenlosen Fähre (Linie F4 hinter dem Hauptbahnhof, rund 15 Minuten laut Besuchern) auf die andere Seite des IJ: eine ehemalige Werft voller Street-Art, Bars und Kreativszene. Der Eintritt zum Gelände ist frei. Auf Google 4,5 Sterne bei fast 10.000 Bewertungen.</p>",
-     "text_en": "<p>With the free ferry (line F4 behind the central station, about 15 minutes according to visitors) to the other side of the IJ: a former shipyard full of street art, bars and creative scene. Entry to the site is free. 4.5 stars on Google from nearly 10,000 reviews.</p>",
+     "text": "<p>Mit der kostenlosen Fähre (Linie F4 hinter dem Hauptbahnhof, rund 15 Minuten) auf die andere Seite des IJ: eine ehemalige Werft voller Street-Art, Bars und Kreativszene. Der Eintritt zum Gelände ist frei.</p>",
+     "text_en": "<p>With the free ferry (line F4 behind the central station, about 15 minutes) to the other side of the IJ: a former shipyard full of street art, bars and creative scene. Entry to the site is free.</p>",
      "price": "kostenlos",
-     "price_en": "free"
+     "price_en": "free",
+     "free": true
     },
     {
      "name": "Kuriositäten: Katzenboot & Affen-Bar",
@@ -164,7 +167,8 @@
      "gem": true,
      "q": "Begijnhof Amsterdam",
      "tip": "Sei leise – hier wohnen Menschen.",
-     "tip_en": "Be quiet – people live here."
+     "tip_en": "Be quiet – people live here.",
+     "free": true
     },
     {
      "name": "De Pijp & Albert-Cuyp-Markt",
@@ -174,7 +178,8 @@
      "gem": true,
      "q": "Albert Cuyp Market Amsterdam",
      "tip": "Probiere frische Stroopwafels.",
-     "tip_en": "Try fresh stroopwafels."
+     "tip_en": "Try fresh stroopwafels.",
+     "free": true
     },
     {
      "name": "Tagesausflug: Zaanse Schans, Haarlem oder Zandvoort",
@@ -242,8 +247,8 @@
   {
    "q": "Ist die Fähre zur NDSM wirklich kostenlos?",
    "q_en": "Is the ferry to NDSM really free?",
-   "a": "<p>Ja, die IJ-Fähren hinter dem Hauptbahnhof sind laut Besuchern kostenlos.</p>",
-   "a_en": "<p>Yes, the IJ ferries behind the central station are free according to visitors.</p>"
+   "a": "<p>Ja, die IJ-Fähren hinter dem Hauptbahnhof sind kostenlos.</p>",
+   "a_en": "<p>Yes, the IJ ferries behind the central station are free.</p>"
   },
   {
    "q": "Brauche ich ein Auto?",

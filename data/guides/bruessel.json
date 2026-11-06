@@ -53,24 +53,26 @@
     {
      "name": "Grand-Place",
      "q": "Grand-Place Brussels",
-     "text": "<p>Prunkvolle Zunfthäuser und das Rathaus. Auf Google 4,7 Sterne bei über 178.000 Bewertungen. Abends beleuchtet besonders schön.</p><p>Die Grand-Place ist einer der schönsten Marktplätze Europas und gehört zum UNESCO-Welterbe. Rund um den Platz stehen prunkvolle Zunfthäuser mit goldenen Verzierungen, dazu das gotische Rathaus mit seinem hohen Turm. Alle zwei Jahre im August wird der Platz mit einem Blumenteppich bedeckt (Termin vorher prüfen).</p><p>Abends ist der Platz beleuchtet und besonders stimmungsvoll. Komm früh am Morgen, wenn weniger Leute da sind.</p>",
-     "text_en": "<p>Ornate guildhalls and the Town Hall. 4.7 stars on Google from over 178,000 reviews. Particularly lovely when lit up in the evening.</p><p>The Grand-Place is one of Europe’s most beautiful market squares and a UNESCO World Heritage site. Around the square stand magnificent guild houses with golden decoration, plus the Gothic town hall with its tall tower. Every two years in August the square is covered with a flower carpet (check the date beforehand).</p><p>In the evening the square is lit and especially atmospheric. Come early in the morning when fewer people are there.</p>",
+     "text": "<p>Prunkvolle Zunfthäuser und das Rathaus. Abends beleuchtet besonders schön.</p><p>Die Grand-Place ist einer der schönsten Marktplätze Europas und gehört zum UNESCO-Welterbe. Rund um den Platz stehen prunkvolle Zunfthäuser mit goldenen Verzierungen, dazu das gotische Rathaus mit seinem hohen Turm. Alle zwei Jahre im August wird der Platz mit einem Blumenteppich bedeckt (Termin vorher prüfen).</p><p>Abends ist der Platz beleuchtet und besonders stimmungsvoll. Komm früh am Morgen, wenn weniger Leute da sind.</p>",
+     "text_en": "<p>Ornate guildhalls and the Town Hall. Particularly lovely when lit up in the evening.</p><p>The Grand-Place is one of Europe’s most beautiful market squares and a UNESCO World Heritage site. Around the square stand magnificent guild houses with golden decoration, plus the Gothic town hall with its tall tower. Every two years in August the square is covered with a flower carpet (check the date beforehand).</p><p>In the evening the square is lit and especially atmospheric. Come early in the morning when fewer people are there.</p>",
      "tip": "Komm morgens früh oder abends zur Beleuchtung.",
-     "tip_en": "Come early in the morning or in the evening for the lighting."
+     "tip_en": "Come early in the morning or in the evening for the lighting.",
+     "free": true
     },
     {
      "name": "Galeries Royales Saint-Hubert",
      "q": "Royal Gallery of Saint Hubert",
-     "text": "<p>1847 eröffnete Einkaufspassage mit Glasdach, Pralinen-Läden und Cafés. Auf Google 4,5 Sterne.</p>",
-     "text_en": "<p>Shopping arcade opened in 1847 with a glass roof, chocolate shops and cafés. 4.5 stars on Google.</p>"
+     "text": "<p>1847 eröffnete Einkaufspassage mit Glasdach, Pralinen-Läden und Cafés.</p>",
+     "text_en": "<p>Shopping arcade opened in 1847 with a glass roof, chocolate shops and cafés.</p>",
+     "free": true
     },
     {
      "name": "Atomium",
      "q": "Atomium Brussels",
-     "text": "<p>Für die Weltausstellung 1958 gebaut. Auf Google 4,4 Sterne. Besucher loben den Blick von oben, nennen aber teils lange Wartezeiten am Aufzug.</p>",
-     "text_en": "<p>Built for the 1958 World Expo. 4.4 stars on Google. Visitors praise the view from the top but some mention long waits at the lift.</p>",
-     "hours": "laut Google täglich ca. 10–18 Uhr",
-     "hours_en": "daily about 10 am–6 pm according to Google"
+     "text": "<p>Für die Weltausstellung 1958 gebaut. Der Blick von oben lohnt sich, am Aufzug kann es aber Wartezeiten geben.</p>",
+     "text_en": "<p>Built for the 1958 World Expo. The view from the top is worth it, but expect waits at the lift.</p>",
+     "hours": "täglich ca. 10–18 Uhr",
+     "hours_en": "daily about 10 am–6 pm"
     },
     {
      "name": "Manneken Pis, Jeanneke Pis & Zinneke Pis",
@@ -79,7 +81,8 @@
      "name_en": "Manneken Pis, Jeanneke Pis & Zinneke Pis",
      "q": "Manneken Pis Brussels",
      "tip": "Nimm es mit Humor – die Figur ist klein.",
-     "tip_en": "Take it with humour – the figure is small."
+     "tip_en": "Take it with humour – the figure is small.",
+     "free": true
     },
     {
      "name": "Waffeln, Pommes & Schokolade",
@@ -121,10 +124,11 @@
      "name_en": "Cinquantenaire Park",
      "gem": true,
      "q": "Parc du Cinquantenaire Brussels",
-     "text": "<p>Großzügiger Park mit Triumphbogen und Museen. Ruhiger als die Innenstadt. Auf Google 4,6 Sterne bei über 41.000 Bewertungen.</p>",
-     "text_en": "<p>Spacious park with triumphal arch and museums. Quieter than the city centre. 4.6 stars on Google from over 41,000 reviews.</p>",
-     "hours": "laut Google täglich ca. 6–22 Uhr",
-     "hours_en": "daily about 6 am–10 pm according to Google"
+     "text": "<p>Großzügiger Park mit Triumphbogen und Museen. Ruhiger als die Innenstadt.</p>",
+     "text_en": "<p>Spacious park with triumphal arch and museums. Quieter than the city centre.</p>",
+     "hours": "täglich ca. 6–22 Uhr",
+     "hours_en": "daily about 6 am–10 pm",
+     "free": true
     },
     {
      "name": "Marolles & Place du Jeu de Balle",
@@ -132,7 +136,8 @@
      "gem": true,
      "q": "Place du Jeu de Balle Brussels",
      "text": "<p>Der Flohmarkt im Marolles-Viertel ist ein Ort für Einheimische; Öffnungszeiten und Markttage vorher prüfen.</p>",
-     "text_en": "<p>The flea market in the Marolles district is a spot for locals; check opening times and market days beforehand.</p>"
+     "text_en": "<p>The flea market in the Marolles district is a spot for locals; check opening times and market days beforehand.</p>",
+     "free": true
     },
     {
      "name": "Place du Sablon & Antiquitätenmarkt",
@@ -142,7 +147,8 @@
      "gem": true,
      "q": "Place du Grand Sablon Brussels",
      "tip": "Komm am Wochenende zum Markt.",
-     "tip_en": "Come at the weekend for the market."
+     "tip_en": "Come at the weekend for the market.",
+     "free": true
     },
     {
      "name": "Mont des Arts & Aussicht",
@@ -152,7 +158,8 @@
      "gem": true,
      "q": "Mont des Arts Brussels",
      "tip": "Komm zum Sonnenuntergang.",
-     "tip_en": "Come at sunset."
+     "tip_en": "Come at sunset.",
+     "free": true
     },
     {
      "name": "Autoworld & Museen im Cinquantenaire",

@@ -60,15 +60,17 @@
      "name_en": "Münstermarkt",
      "q": "Münstermarkt",
      "tip": "Samstags früh kommen, eine Lange Rote essen und danach auf den Schlossberg.",
-     "tip_en": "Come early on Saturday, eat a Lange Rote and go up the Schlossberg afterwards."
+     "tip_en": "Come early on Saturday, eat a Lange Rote and go up the Schlossberg afterwards.",
+     "free": true
     },
     {
      "name": "Schlossberg",
-     "text": "<p>Mit Blick über Münster und Schwarzwald. Auf Google 4,7 Sterne. Besucher empfehlen den Aufstieg zu Fuß oder die Schlossbergbahn; der Turm ist 35 Meter hoch.</p><p>Der Schlossberg ist Freiburgs Hausberg am östlichen Rand der Altstadt. Du kannst zu Fuß hinaufgehen (rund 20–30 Minuten) oder die Schlossbergbahn nehmen. Oben stehen Aussichtspunkte, ein Café und der Turm. Von dort siehst du über Altstadt, Münster und den Schwarzwald.</p><p>Besonders schön ist der Sonnenuntergang, wenn die Dächer rot leuchten. Nimm eine Jacke mit; oben weht ein frischer Wind. Der Turm hat knapp 35 Meter Höhe und bietet zusätzliche Perspektiven.</p>",
-     "text_en": "<p>With a view over the Minster and the Black Forest. 4.7 stars on Google. Visitors recommend walking up or taking the Schlossbergbahn; the tower is 35 metres high.</p><p>The Schlossberg is Freiburg’s local mountain on the eastern edge of the old town. You can walk up (about 20–30 minutes) or take the Schlossberg railway. At the top there are viewpoints, a café and the tower. From there you see over the old town, the cathedral and the Black Forest.</p><p>Sunset is especially beautiful when the roofs glow red. Bring a jacket; a fresh wind blows at the top. The tower is just under 35 metres high and offers additional perspectives.</p>",
+     "text": "<p>Mit Blick über Münster und Schwarzwald. Mein Tipp: zu Fuß hinauf oder mit der Schlossbergbahn; der Turm ist 35 Meter hoch.</p><p>Der Schlossberg ist Freiburgs Hausberg am östlichen Rand der Altstadt. Du kannst zu Fuß hinaufgehen (rund 20–30 Minuten) oder die Schlossbergbahn nehmen. Oben stehen Aussichtspunkte, ein Café und der Turm. Von dort siehst du über Altstadt, Münster und den Schwarzwald.</p><p>Besonders schön ist der Sonnenuntergang, wenn die Dächer rot leuchten. Nimm eine Jacke mit; oben weht ein frischer Wind. Der Turm hat knapp 35 Meter Höhe und bietet zusätzliche Perspektiven.</p>",
+     "text_en": "<p>With a view over the Minster and the Black Forest. My tip: walk up or take the Schlossbergbahn; the tower is 35 metres high.</p><p>The Schlossberg is Freiburg’s local mountain on the eastern edge of the old town. You can walk up (about 20–30 minutes) or take the Schlossberg railway. At the top there are viewpoints, a café and the tower. From there you see over the old town, the cathedral and the Black Forest.</p><p>Sunset is especially beautiful when the roofs glow red. Bring a jacket; a fresh wind blows at the top. The tower is just under 35 metres high and offers additional perspectives.</p>",
      "q": "Schlossberg Freiburg",
      "tip": "Geh zum Sonnenuntergang hinauf und nimm Wasser mit.",
-     "tip_en": "Go up at sunset and take water."
+     "tip_en": "Go up at sunset and take water.",
+     "free": true
     },
     {
      "name": "Freiburger Münster & Turm",
@@ -112,7 +114,8 @@
      "gem": true,
      "q": "Die Bächle",
      "tip": "Achte auf den Boden – und lach, wenn du aus Versehen hineintrittst.",
-     "tip_en": "Watch the ground – and laugh if you step in by accident."
+     "tip_en": "Watch the ground – and laugh if you step in by accident.",
+     "free": true
     },
     {
      "name": "Gerberau & Fischerau – das Kanalviertel",
@@ -122,7 +125,8 @@
      "gem": true,
      "q": "Gerberau Freiburg",
      "tip": "Komm am Abend für Stimmung und Lichter.",
-     "tip_en": "Come in the evening for atmosphere and lights."
+     "tip_en": "Come in the evening for atmosphere and lights.",
+     "free": true
     },
     {
      "name": "Vauban – Öko-Stadtteil",
@@ -132,7 +136,8 @@
      "gem": true,
      "q": "Vauban Freiburg",
      "tip": "Fahr mit der Straßenbahn hin und iss in einem der Cafés.",
-     "tip_en": "Take the tram there and eat in one of the cafés."
+     "tip_en": "Take the tram there and eat in one of the cafés.",
+     "free": true
     },
     {
      "name": "Schauinsland – Bergbahn & Aussicht",

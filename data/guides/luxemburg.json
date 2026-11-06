@@ -78,26 +78,28 @@
      "text_en": "<p>The stone arch bridge from 1903 spans the Pétrusse valley. From the edge of the upper town you get bridge, gorge and the city’s towers in a single picture.</p>",
      "photos": [
       "images/photos/luxemburg-pont-adolphe.webp"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Der Grund",
      "name_en": "The Grund",
      "q": "Grund Luxembourg",
-     "text": "<p>Unten an der Alzette liegt der Grund, das alte Viertel der Unterstadt. Bunte Häuser spiegeln sich im Fluss, über dir ragen die Festungsmauern auf. Hier liegt auch die Neumünster-Abtei, ein Kulturzentrum mit Café (Google 4,6 Sterne).</p>",
-     "text_en": "<p>Down by the Alzette lies the Grund, the old quarter of the lower town. Colourful houses are reflected in the river, fortress walls tower above you. The Neumünster Abbey is here too, a cultural centre with a café (4.6 stars on Google).</p>",
+     "text": "<p>Unten an der Alzette liegt der Grund, das alte Viertel der Unterstadt. Bunte Häuser spiegeln sich im Fluss, über dir ragen die Festungsmauern auf. Hier liegt auch die Neumünster-Abtei, ein Kulturzentrum mit Café.</p>",
+     "text_en": "<p>Down by the Alzette lies the Grund, the old quarter of the lower town. Colourful houses are reflected in the river, fortress walls tower above you. The Neumünster Abbey is here too, a cultural centre with a café.</p>",
      "photos": [
       "images/photos/luxemburg-grund.webp"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Bock-Kasematten",
      "name_en": "Bock Casemates",
      "q": "Casemates du Bock",
-     "text": "<p>Ein weitverzweigtes Tunnelsystem im Fels. Nach dem Londoner Vertrag von 1867 wurde die Festung größtenteils geschleift, die Kasematten blieben. Auf Google 4,4 Sterne. Besucher nennen etwa 11 € Eintritt und 20–30 Minuten Besuchszeit; Treppen sind teils eng.</p>",
-     "text_en": "<p>A sprawling network of tunnels in the rock. After the Treaty of London in 1867 the fortress was largely razed, the casemates stayed. 4.4 stars on Google. Visitors mention about €11 admission and 20–30 minutes visit time; stairs are partly narrow.</p>",
-     "hours": "laut Google täglich ca. 9:45–17 Uhr (saisonabhängig)",
-     "hours_en": "daily about 9:45 am–5 pm according to Google (seasonal)"
+     "text": "<p>Ein weitverzweigtes Tunnelsystem im Fels. Nach dem Londoner Vertrag von 1867 wurde die Festung größtenteils geschleift, die Kasematten blieben. Eintritt etwa 11 €, Besuchszeit 20–30 Minuten; Treppen sind teils eng.</p>",
+     "text_en": "<p>A sprawling network of tunnels in the rock. After the Treaty of London in 1867 the fortress was largely razed, the casemates stayed. Admission is about €11, visit time 20–30 minutes; stairs are partly narrow.</p>",
+     "hours": "täglich ca. 9:45–17 Uhr (saisonabhängig)",
+     "hours_en": "daily about 9:45 am–5 pm (seasonal)"
     },
     {
      "name": "Place d’Armes & Großherzoglicher Palast",
@@ -115,7 +117,8 @@
      "name_en": "Notre-Dame Cathedral",
      "q": "Notre-Dame Cathedral Luxembourg",
      "tip": "Plane 20 bis 30 Minuten ein.",
-     "tip_en": "Plan 20 to 30 minutes."
+     "tip_en": "Plan 20 to 30 minutes.",
+     "free": true
     },
     {
      "name": "Pétrusse-Tal & Spazierwege",
@@ -140,19 +143,21 @@
      "gem": true,
      "q": "Chemin de la Corniche Luxembourg",
      "text": "<p>Der Weg auf der alten Stadtmauer über dem Grund wird oft der schönste Balkon Europas genannt. Von hier siehst du Abtei, Fluss und Festungsmauern – und es ist abends deutlich ruhiger.</p>",
-     "text_en": "<p>The path on the old city wall above the Grund is often called Europe’s most beautiful balcony. From here you see abbey, river and fortress walls – and it is much quieter in the evening.</p>"
+     "text_en": "<p>The path on the old city wall above the Grund is often called Europe’s most beautiful balcony. From here you see abbey, river and fortress walls – and it is much quieter in the evening.</p>",
+     "free": true
     },
     {
      "name": "Panoramalift Pfaffenthal",
      "name_en": "Pfaffenthal panoramic lift",
      "gem": true,
      "q": "Ascenseur Panoramique du Pfaffenthal",
-     "text": "<p>Ein Glasaufzug, der die Oberstadt mit dem Pfaffenthal verbindet – kostenlos, mit Glasboden-Aussichtsplattform oben. Auf Google 4,7 Sterne.</p>",
-     "text_en": "<p>A glass lift that links the upper town with Pfaffenthal – free, with a glass-floor viewing platform at the top. 4.7 stars on Google.</p>",
-     "hours": "laut Google täglich ca. 5:45–1 Uhr",
-     "hours_en": "daily about 5:45 am–1 am according to Google",
+     "text": "<p>Ein Glasaufzug, der die Oberstadt mit dem Pfaffenthal verbindet – kostenlos, mit Glasboden-Aussichtsplattform oben.</p>",
+     "text_en": "<p>A glass lift that links the upper town with Pfaffenthal – free, with a glass-floor viewing platform at the top.</p>",
+     "hours": "täglich ca. 5:45–1 Uhr",
+     "hours_en": "daily about 5:45 am–1 am",
      "price": "kostenlos",
-     "price_en": "free"
+     "price_en": "free",
+     "free": true
     },
     {
      "name": "Beleuchteter Palast am Abend",
@@ -164,10 +169,10 @@
     {
      "name": "Mudam",
      "q": "Mudam Luxembourg",
-     "text": "<p>Das Museum für moderne Kunst im Park Dräi Eechelen: moderne Architektur und wechselnde Ausstellungen. Auf Google 4,2 Sterne; Geschmackssache, aber das Gebäude ist beeindruckend.</p>",
-     "text_en": "<p>The modern art museum in Parc Dräi Eechelen: modern architecture and changing exhibitions. 4.2 stars on Google; a matter of taste, but the building is impressive.</p>",
-     "hours": "laut Google Di–So 10–18 Uhr (Mi bis 21 Uhr), Mo geschlossen",
-     "hours_en": "Tue–Sun 10 am–6 pm (Wed until 9 pm) according to Google, closed Mondays"
+     "text": "<p>Das Museum für moderne Kunst im Park Dräi Eechelen: moderne Architektur und wechselnde Ausstellungen.</p>",
+     "text_en": "<p>The modern art museum in Parc Dräi Eechelen: modern architecture and changing exhibitions. A matter of taste, but the building is impressive.</p>",
+     "hours": "Di–So 10–18 Uhr (Mi bis 21 Uhr), Mo geschlossen",
+     "hours_en": "Tue–Sun 10 am–6 pm (Wed until 9 pm), closed Mondays"
     },
     {
      "name": "Mullerthal – Kleine Luxemburger Schweiz",

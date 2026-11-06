@@ -59,12 +59,13 @@
      "text_en": "<p>The landmark from 1478.</p><p>The Holstentor was completed in 1478 and, with its two round towers, is the landmark of the city. It once stood on the edge of the city fortifications, today it is the way into the centre from the old-town island. Over the centuries the gate has sunk – you see this in the slightly crooked line of the building.</p><p>Inside is a museum showing the history of the city and the Hanseatic League (check times and prices beforehand). The best photo works from the opposite side of the water, best in the morning or in soft evening light.</p>",
      "q": "Holstentor",
      "tip": "Foto von der anderen Seite, dann spaziere über die Brücke und durch das Tor.",
-     "tip_en": "Take the photo from the other side, then walk across the bridge and through the gate."
+     "tip_en": "Take the photo from the other side, then walk across the bridge and through the gate.",
+     "free": true
     },
     {
      "name": "Niederegger – Marzipan",
-     "text": "<p>Das Stammhaus mit Café. Auf Google 4,4 Sterne bei über 8.500 Bewertungen; Gäste loben Kuchen und Mandelkuchen, im Advent ist es voll.</p><p>Niederegger gibt es seit 1806; das Stammhaus am Markt ist Café, Laden und kleines Marzipanmuseum in einem. Probier den Marzipan-Klassiker, Nusskuchen oder Torten und schau dir im Obergeschoss die Marzipanfiguren an. Marzipan ist ein Lübecker Wahrzeichen; viele Besucher nehmen eine Packung mit.</p><p>Vor allem zur Weihnachtszeit und an Wochenenden gibt es Wartezeiten. Komm früh am Vormittag oder unter der Woche; frag nach Probierstücken.</p>",
-     "text_en": "<p>The original house with café. 4.4 stars on Google from over 8,500 reviews; guests praise cake and almond cake, it is busy in Advent.</p><p>Niederegger has existed since 1806; the main house on the market square is a café, shop and small marzipan museum in one. Try the marzipan classic, nut cake or tortes and look at the marzipan figures upstairs. Marzipan is a Lübeck landmark; many visitors take a pack home.</p><p>Especially at Christmas time and on weekends there are queues. Come early in the morning or on a weekday; ask for samples.</p>",
+     "text": "<p>Das Stammhaus mit Café. Gäste kommen für Kuchen und Mandelkuchen; im Advent ist es voll.</p><p>Niederegger gibt es seit 1806; das Stammhaus am Markt ist Café, Laden und kleines Marzipanmuseum in einem. Probier den Marzipan-Klassiker, Nusskuchen oder Torten und schau dir im Obergeschoss die Marzipanfiguren an. Marzipan ist ein Lübecker Wahrzeichen; viele Besucher nehmen eine Packung mit.</p><p>Vor allem zur Weihnachtszeit und an Wochenenden gibt es Wartezeiten. Komm früh am Vormittag oder unter der Woche; frag nach Probierstücken.</p>",
+     "text_en": "<p>The original house with café – come for the cake and almond cake; it is busy in Advent.</p><p>Niederegger has existed since 1806; the main house on the market square is a café, shop and small marzipan museum in one. Try the marzipan classic, nut cake or tortes and look at the marzipan figures upstairs. Marzipan is a Lübeck landmark; many visitors take a pack home.</p><p>Especially at Christmas time and on weekends there are queues. Come early in the morning or on a weekday; ask for samples.</p>",
      "q": "Café Niederegger Stammhaus Lübeck",
      "tip": "Komm früh oder unter der Woche, im Advent ist es sehr voll.",
      "tip_en": "Come early or on a weekday, in Advent it is very crowded."
@@ -121,7 +122,8 @@
      "gem": true,
      "q": "Versteckte Gänge und Höfe",
      "tip": "Schau nach niedrigen Toren und Schildern an den Fassaden – oft sind es Durchgänge.",
-     "tip_en": "Look for low gates and signs on the façades – they are often passageways."
+     "tip_en": "Look for low gates and signs on the façades – they are often passageways.",
+     "free": true
     },
     {
      "name": "Schiffergesellschaft – das Haus von 1535",
@@ -141,7 +143,8 @@
      "gem": true,
      "q": "Salzspeicher Lübeck",
      "tip": "Geh zum Sonnenuntergang hin, dann leuchtet der Backstein.",
-     "tip_en": "Go at sunset, then the brick glows."
+     "tip_en": "Go at sunset, then the brick glows.",
+     "free": true
     },
     {
      "name": "Heiligen-Geist-Hospital",
@@ -161,7 +164,8 @@
      "gem": true,
      "q": "Travemünde Strand",
      "tip": "Fahr im Frühling oder Herbst und iss ein Fischbrötchen an der Promenade.",
-     "tip_en": "Go in spring or autumn and eat a fish roll on the promenade."
+     "tip_en": "Go in spring or autumn and eat a fish roll on the promenade.",
+     "free": true
     }
    ]
   }

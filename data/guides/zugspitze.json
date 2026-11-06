@@ -67,7 +67,8 @@
      "text_en": "<p>A loop around the lake.</p><p>The Eibsee lies at the foot of the Zugspitze and is one of the most beautiful lakes in Bavaria: turquoise-green water, small islands and forest on the shore. The circular path is about seven to eight kilometres long, runs over boardwalks and through the forest, and takes about two hours. You can also swim in the lake when the temperature allows, or rent a boat.</p><p>Parking at the lake is limited and charged; by train or bus from Garmisch you arrive easily. Start early in the morning – then the water is mirror-smooth and the path is empty.</p>",
      "q": "Eibsee-Runde",
      "tip": "Gehe die Runde vor oder nach der Fahrt auf den Gipfel – mit Zeitpuffer.",
-     "tip_en": "Walk the loop before or after the trip to the summit – with a time buffer."
+     "tip_en": "Walk the loop before or after the trip to the summit – with a time buffer.",
+     "free": true
     },
     {
      "name": "Gipfel: Aussicht, Gletscher & Gipfelkreuz",
@@ -85,7 +86,8 @@
      "name_en": "Garmisch-Partenkirchen – Ludwigstraße & Lüftlmalerei",
      "q": "Ludwigstraße Garmisch-Partenkirchen",
      "tip": "Nutze den Ort als Basis – hier fährt die Bahn los.",
-     "tip_en": "Use the town as a base – the railway starts here."
+     "tip_en": "Use the town as a base – the railway starts here.",
+     "free": true
     },
     {
      "name": "Olympia-Skistadion & Große Olympiaschanze",
@@ -106,8 +108,8 @@
    "spots": [
     {
      "name": "Partnachklamm",
-     "text": "<p>Früh kommen, dann hast du die Schlucht fast für dich. Auf Google 4,7 Sterne bei fast 18.000 Bewertungen; Besucher nennen rund 10 € Eintritt und 20–30 Minuten Zugang vom Parkplatz.</p><p>Die Partnachklamm ist eine rund 700 Meter lange Schlucht, deren Felswände bis zu 80 Meter hoch sind. Der Weg führt über Stege und durch Tunnel direkt am tosenden Wasser entlang – im Sommer erfrischend, im Winter mit Eiszapfen und gefrorenen Wasserfällen. Der Eintritt ist gering (Preise vorher prüfen), die Strecke kurz.</p><p>Du erreichst die Klamm vom Olympia-Skistadion in Garmisch in etwa 20 bis 30 Minuten zu Fuß. Trage rutschfeste Schuhe und eine Jacke – es ist nass und kühl. Bei Hochwasser oder Lawinengefahr kann die Klamm gesperrt sein.</p>",
-     "text_en": "<p>Come early and you have the gorge almost to yourself. 4.7 stars on Google from nearly 18,000 reviews; visitors mention about €10 admission and 20–30 minutes from the car park.</p><p>The Partnach Gorge is a gorge about 700 metres long whose rock walls are up to 80 metres high. The path leads over walkways and through tunnels right beside the roaring water – refreshing in summer, with icicles and frozen waterfalls in winter. Admission is low (check prices beforehand), the route short.</p><p>You reach the gorge from the Olympic ski stadium in Garmisch in about 20 to 30 minutes on foot. Wear non-slip shoes and a jacket – it is wet and cool. In high water or avalanche danger the gorge may be closed.</p>",
+     "text": "<p>Früh kommen, dann hast du die Schlucht fast für dich. Eintritt rund 10 €, vom Parkplatz sind es 20–30 Minuten zu Fuß.</p><p>Die Partnachklamm ist eine rund 700 Meter lange Schlucht, deren Felswände bis zu 80 Meter hoch sind. Der Weg führt über Stege und durch Tunnel direkt am tosenden Wasser entlang – im Sommer erfrischend, im Winter mit Eiszapfen und gefrorenen Wasserfällen. Der Eintritt ist gering (Preise vorher prüfen), die Strecke kurz.</p><p>Du erreichst die Klamm vom Olympia-Skistadion in Garmisch in etwa 20 bis 30 Minuten zu Fuß. Trage rutschfeste Schuhe und eine Jacke – es ist nass und kühl. Bei Hochwasser oder Lawinengefahr kann die Klamm gesperrt sein.</p>",
+     "text_en": "<p>Come early and you have the gorge almost to yourself. Admission is about €10, and it is a 20–30-minute walk from the car park.</p><p>The Partnach Gorge is a gorge about 700 metres long whose rock walls are up to 80 metres high. The path leads over walkways and through tunnels right beside the roaring water – refreshing in summer, with icicles and frozen waterfalls in winter. Admission is low (check prices beforehand), the route short.</p><p>You reach the gorge from the Olympic ski stadium in Garmisch in about 20 to 30 minutes on foot. Wear non-slip shoes and a jacket – it is wet and cool. In high water or avalanche danger the gorge may be closed.</p>",
      "gem": true,
      "q": "Partnachklamm Garmisch",
      "tip": "Komm früh, nimm eine Jacke mit und prüfe vorher, ob die Klamm geöffnet ist.",
@@ -121,7 +123,8 @@
      "gem": true,
      "q": "Badersee Grainau",
      "tip": "Komm früh oder unter der Woche – an heißen Wochenenden ist es voll.",
-     "tip_en": "Come early or on a weekday – on hot weekends it is crowded."
+     "tip_en": "Come early or on a weekday – on hot weekends it is crowded.",
+     "free": true
     },
     {
      "name": "Höllentalklamm – wilder als die Partnachklamm",
@@ -141,7 +144,8 @@
      "gem": true,
      "q": "Kramer Plateauweg",
      "tip": "Ein guter Wetter-Plan-B, wenn der Gipfel in Wolken steckt.",
-     "tip_en": "A good weather plan B when the summit is in cloud."
+     "tip_en": "A good weather plan B when the summit is in cloud.",
+     "free": true
     },
     {
      "name": "Schloss Linderhof & Neuschwanstein als Ausflug",

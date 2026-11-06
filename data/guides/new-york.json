@@ -58,25 +58,28 @@
      "text": "Früh morgens zu Fuß über die Brücke Richtung Manhattan.",
      "text_en": "Walk across the bridge towards Manhattan early in the morning.",
      "name_en": "Brooklyn Bridge in the morning",
-     "q": "Brooklyn Bridge am Morgen"
+     "q": "Brooklyn Bridge am Morgen",
+     "free": true
     },
     {
      "name": "The High Line",
-     "text": "Die ehemalige Hochbahn als Park, etwa 2,5 km zwischen Meatpacking District und Hudson Yards, kostenlos. Auf Google 4,7 Sterne bei fast 69.000 Bewertungen.",
-     "text_en": "The former elevated railway turned park, about 2.5 km between the Meatpacking District and Hudson Yards, free. 4.7 stars on Google from nearly 69,000 reviews.",
-     "q": "High Line New York"
+     "text": "Die ehemalige Hochbahn als Park, etwa 2,5 km zwischen Meatpacking District und Hudson Yards, kostenlos.",
+     "text_en": "The former elevated railway turned park, about 2.5 km between the Meatpacking District and Hudson Yards, free.",
+     "q": "High Line New York",
+     "free": true
     },
     {
      "name": "Chelsea Market",
-     "text": "Mittags in den Chelsea Market. Auf Google 4,6 Sterne. Besucher mögen die Vielfalt, warnen vor Gedränge am Wochenende.",
-     "text_en": "Lunch at Chelsea Market. 4.6 stars on Google. Visitors like the variety but warn about weekend crowds.",
+     "text": "Mittags in den Chelsea Market. Riesige Auswahl – am Wochenende aber Gedränge.",
+     "text_en": "Lunch at Chelsea Market. Huge variety – but crowded at weekends.",
      "q": "Chelsea Market New York"
     },
     {
      "name": "Staten Island Ferry",
      "text": "Für die Freiheitsstatue: die kostenlose Fähre statt einer teuren Bootstour.",
      "text_en": "For the Statue of Liberty: the free ferry instead of an expensive boat tour.",
-     "q": "Staten Island Ferry"
+     "q": "Staten Island Ferry",
+     "free": true
     },
     {
      "name": "Central Park",
@@ -85,7 +88,8 @@
      "name_en": "Central Park",
      "q": "Central Park New York",
      "tip": "Starte morgens an der Bethesda Terrace.",
-     "tip_en": "Start in the morning at Bethesda Terrace."
+     "tip_en": "Start in the morning at Bethesda Terrace.",
+     "free": true
     },
     {
      "name": "Aussicht: Top of the Rock, Empire State & Summit",
@@ -103,7 +107,8 @@
      "name_en": "Times Square & Broadway",
      "q": "Times Square New York",
      "tip": "Komm abends und schau dir ein Broadway-Stück an.",
-     "tip_en": "Come in the evening and see a Broadway show."
+     "tip_en": "Come in the evening and see a Broadway show.",
+     "free": true
     },
     {
      "name": "Metropolitan Museum of Art",
@@ -128,7 +133,8 @@
      "text_en": "In Grand Central you can whisper something to your friend across the room.",
      "name_en": "Whispering gallery in Grand Central",
      "gem": true,
-     "q": "Grand Central Terminal Whispering Gallery"
+     "q": "Grand Central Terminal Whispering Gallery",
+     "free": true
     },
     {
      "name": "Geisterstation unter dem Rathaus",
@@ -164,7 +170,8 @@
      "gem": true,
      "q": "DUMBO Brooklyn",
      "tip": "Komm früh am Morgen für das Foto.",
-     "tip_en": "Come early in the morning for the photo."
+     "tip_en": "Come early in the morning for the photo.",
+     "free": true
     },
     {
      "name": "Greenwich Village & Washington Square",
@@ -174,7 +181,8 @@
      "gem": true,
      "q": "Washington Square Park",
      "tip": "Verbring den Nachmittag im Park und in den Cafés.",
-     "tip_en": "Spend the afternoon in the park and cafés."
+     "tip_en": "Spend the afternoon in the park and cafés.",
+     "free": true
     },
     {
      "name": "New Yorker Klassiker: Bagel, Pizza-Slice & Deli",

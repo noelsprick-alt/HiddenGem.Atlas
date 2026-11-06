@@ -58,7 +58,8 @@
      "text": "<p>Der Marktplatz mit dem Rathaus ist das Herz der Stadt.</p><p>Das Stadhuis am Markt stammt aus dem Jahr 1597 und ist ein Renaissancebau mit Treppengiebel, Säulenportal und einem Glockenspiel, das zu bestimmten Zeiten erklingt. Es ist eines der schönsten Gebäude der Stadt und ein beliebtes Fotomotiv.</p><p>Rund um den Markt liegen Cafés mit Terrassen, kleine Läden und die Gassen der Altstadt. Setz dich hin, bestell einen Kaffee und beobachte das Treiben – das ist der Kern des Venlo-Tages. Im Sommer ist es hier besonders lebendig.</p>",
      "text_en": "<p>The market square with the town hall is the heart of the city.</p><p>The Stadhuis on the market square dates from 1597 and is a Renaissance building with stepped gable, columned portal and a carillon that sounds at certain times. It is one of the most beautiful buildings in the city and a popular photo motif.</p><p>Around the market lie cafés with terraces, small shops and the lanes of the old town. Sit down, order a coffee and watch the bustle – that is the core of the Venlo day. In summer it is especially lively here.</p>",
      "name_en": "Market and Stadhuis",
-     "q": "Markt und Stadhuis"
+     "q": "Markt und Stadhuis",
+     "free": true
     },
     {
      "name": "Kaffee an der Maas",
@@ -108,7 +109,8 @@
      "name_en": "Shopping & lanes: Vleesstraat and Lomstraat",
      "q": "Vleesstraat Venlo",
      "tip": "Plane einen Bummel am Vormittag und die Pause am Markt am Mittag.",
-     "tip_en": "Plan a stroll in the morning and the break at the market at noon."
+     "tip_en": "Plan a stroll in the morning and the break at the market at noon.",
+     "free": true
     }
    ]
   },
@@ -135,7 +137,8 @@
      "gem": true,
      "q": "Nationaal Park De Maasduinen",
      "tip": "Starte mit dem Rad in Venlo und fahr in den Park – ein halber Tag reicht.",
-     "tip_en": "Start by bike in Venlo and ride into the park – half a day is enough."
+     "tip_en": "Start by bike in Venlo and ride into the park – half a day is enough.",
+     "free": true
     },
     {
      "name": "Schloss und Gärten Arcen",
@@ -153,7 +156,8 @@
      "name_en": "Roermond – old town & outlet",
      "q": "Roermond centrum",
      "tip": "Fahr unter der Woche, wenn es im Outlet und in der Altstadt ruhiger ist.",
-     "tip_en": "Go on a weekday when it is calmer in the outlet and the old town."
+     "tip_en": "Go on a weekday when it is calmer in the outlet and the old town.",
+     "free": true
     }
    ]
   },

@@ -63,17 +63,18 @@
      "name": "Port Vell am frühen Morgen",
      "name_en": "Port Vell in the early morning",
      "q": "Port Vell Barcelona",
-     "text": "<p>Um 7 Uhr morgens allein am Hafen sitzen und Postkarten schreiben – das war mein Moment. Auf Google 4,6 Sterne.</p>",
-     "text_en": "<p>Sitting alone at the harbour at 7 am writing postcards – that was my moment. 4.6 stars on Google.</p>"
+     "text": "<p>Um 7 Uhr morgens allein am Hafen sitzen und Postkarten schreiben – das war mein Moment.</p>",
+     "text_en": "<p>Sitting alone at the harbour at 7 am writing postcards – that was my moment.</p>",
+     "free": true
     },
     {
      "name": "Sagrada Família",
      "name_en": "Sagrada Família",
      "q": "Sagrada Familia Barcelona",
-     "text": "<p>Seit 1882 wird an Gaudís Basilika gebaut. Auf Google 4,8 Sterne bei über 330.000 Bewertungen. Besucher raten, Tickets früh online zu buchen.</p><p>Die Sagrada Família ist Antoni Gaudís Hauptwerk und eine Basilika, an der seit 1882 gebaut wird. Innen wirken die Säulen wie ein Wald aus Stein, und das Licht fällt in Blau, Grün, Rot und Gold durch die Glasfenster. Du kannst je nach Ticket auch auf einen der Türme steigen (Tickets und Zeiten vorher online prüfen und früh buchen).</p><p>Der Vormittag ist ruhiger; am Nachmittag fällt das warme Licht auf die Westseite. Plane mindestens ein bis zwei Stunden ein.</p>",
-     "text_en": "<p>Gaudí’s basilica has been under construction since 1882. 4.8 stars on Google from over 330,000 reviews. Visitors advise booking tickets online early.</p><p>The Sagrada Família is Antoni Gaudí’s masterpiece and a basilica that has been under construction since 1882. Inside, the columns look like a forest of stone, and light falls in blue, green, red and gold through the stained-glass windows. Depending on the ticket you can also climb one of the towers (check tickets and times online beforehand and book early).</p><p>The morning is quieter; in the afternoon warm light falls on the west side. Plan at least one to two hours.</p>",
-     "hours": "laut Google ca. 9–20 Uhr (Sa bis 18, So ab 10:30)",
-     "hours_en": "about 9 am–8 pm according to Google (Sat until 6 pm, Sun from 10:30 am)",
+     "text": "<p>Seit 1882 wird an Gaudís Basilika gebaut. Mein Tipp: Tickets früh online buchen.</p><p>Die Sagrada Família ist Antoni Gaudís Hauptwerk und eine Basilika, an der seit 1882 gebaut wird. Innen wirken die Säulen wie ein Wald aus Stein, und das Licht fällt in Blau, Grün, Rot und Gold durch die Glasfenster. Du kannst je nach Ticket auch auf einen der Türme steigen (Tickets und Zeiten vorher online prüfen und früh buchen).</p><p>Der Vormittag ist ruhiger; am Nachmittag fällt das warme Licht auf die Westseite. Plane mindestens ein bis zwei Stunden ein.</p>",
+     "text_en": "<p>Gaudí’s basilica has been under construction since 1882. My tip: book tickets online early.</p><p>The Sagrada Família is Antoni Gaudí’s masterpiece and a basilica that has been under construction since 1882. Inside, the columns look like a forest of stone, and light falls in blue, green, red and gold through the stained-glass windows. Depending on the ticket you can also climb one of the towers (check tickets and times online beforehand and book early).</p><p>The morning is quieter; in the afternoon warm light falls on the west side. Plan at least one to two hours.</p>",
+     "hours": "ca. 9–20 Uhr (Sa bis 18, So ab 10:30)",
+     "hours_en": "about 9 am–8 pm (Sat until 6 pm, Sun from 10:30 am)",
      "tip": "Buche früh online und plane den Vormittag ein.",
      "tip_en": "Book early online and plan the morning."
     },
@@ -84,7 +85,8 @@
      "name_en": "Park Güell",
      "q": "Park Güell Barcelona",
      "tip": "Buche Tickets online und komm früh.",
-     "tip_en": "Book tickets online and come early."
+     "tip_en": "Book tickets online and come early.",
+     "free": true
     },
     {
      "name": "Barri Gòtic & La Rambla",
@@ -93,7 +95,8 @@
      "name_en": "Gothic Quarter & La Rambla",
      "q": "Barri Gotic Barcelona",
      "tip": "Halte Wertsachen sicher und geh in die Nebengassen.",
-     "tip_en": "Keep valuables safe and go into the side lanes."
+     "tip_en": "Keep valuables safe and go into the side lanes.",
+     "free": true
     },
     {
      "name": "La Boqueria & Mercat de Sant Antoni",
@@ -120,7 +123,8 @@
      "name_en": "Barceloneta, beach & tapas",
      "q": "Barceloneta Barcelona",
      "tip": "Iss spät wie die Einheimischen und achte auf deine Sachen.",
-     "tip_en": "Eat late like the locals and watch your things."
+     "tip_en": "Eat late like the locals and watch your things.",
+     "free": true
     }
    ]
   },
@@ -134,20 +138,21 @@
      "name": "Bunkers del Carmel",
      "gem": true,
      "q": "Turó de la Rovira Barcelona",
-     "text": "<p>Zum Sonnenuntergang auf die Bunkers del Carmel: ehemalige Flugabwehrstellung mit 360°-Blick über die Stadt. Auf Google (MUHBA Turó de la Rovira) 4,6 Sterne bei über 17.000 Bewertungen.</p>",
-     "text_en": "<p>To the Bunkers del Carmel for sunset: a former anti-aircraft position with a 360° view over the city. 4.6 stars on Google (MUHBA Turó de la Rovira) from over 17,000 reviews.</p>",
+     "text": "<p>Zum Sonnenuntergang auf die Bunkers del Carmel: ehemalige Flugabwehrstellung mit 360°-Blick über die Stadt.</p>",
+     "text_en": "<p>To the Bunkers del Carmel for sunset: a former anti-aircraft position with a 360° view over the city.</p>",
      "tip": "Der Aufstieg ist steil; Wasser mitnehmen.",
-     "tip_en": "The climb is steep; bring water."
+     "tip_en": "The climb is steep; bring water.",
+     "free": true
     },
     {
      "name": "Bar Marsella – Absinth seit 1820",
      "name_en": "Bar Marsella – absinthe since 1820",
      "gem": true,
      "q": "Bar Marsella Barcelona",
-     "text": "<p>Eine Absinth-Bar von 1820 im Raval. Auf Google 4,4 Sterne. Keine Musik, alte Spiegel, Marmortische – Besucher mögen den unpolierten Charme.</p>",
-     "text_en": "<p>An absinthe bar from 1820 in the Raval. 4.4 stars on Google. No music, old mirrors, marble tables – visitors like the unpolished charm.</p>",
-     "hours": "laut Google Di–So ab 17 Uhr, Mo geschlossen",
-     "hours_en": "Tue–Sun from 5 pm, closed Mondays according to Google"
+     "text": "<p>Eine Absinth-Bar von 1820 im Raval. Keine Musik, alte Spiegel, Marmortische – unpolierter Charme statt Instagram-Bar.</p>",
+     "text_en": "<p>An absinthe bar from 1820 in the Raval. No music, old mirrors, marble tables – unpolished charm instead of an Instagram bar.</p>",
+     "hours": "Di–So ab 17 Uhr, Mo geschlossen",
+     "hours_en": "Tue–Sun from 5 pm, closed Mondays"
     },
     {
      "name": "Speakeasy hinter der Kühlschranktür",
@@ -165,7 +170,8 @@
      "gem": true,
      "q": "Plaça del Sol Gracia",
      "tip": "Verbring den Nachmittag auf einem der Plätze.",
-     "tip_en": "Spend the afternoon on one of the squares."
+     "tip_en": "Spend the afternoon on one of the squares.",
+     "free": true
     },
     {
      "name": "Montjuïc – Garten, Brunnen & Aussicht",
@@ -175,7 +181,8 @@
      "gem": true,
      "q": "Montjuic Barcelona",
      "tip": "Komm am späten Nachmittag und bleib bis zum Abend.",
-     "tip_en": "Come in the late afternoon and stay until evening."
+     "tip_en": "Come in the late afternoon and stay until evening.",
+     "free": true
     },
     {
      "name": "Sant Pau – Jugendstil-Krankenhaus",

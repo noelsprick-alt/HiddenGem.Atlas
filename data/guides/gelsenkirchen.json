@@ -56,9 +56,10 @@
     },
     {
      "name": "Halde Rheinelbe & Himmelstreppe",
-     "text": "Zum Sonnenuntergang: eine Treppe aus Betonblöcken, die einfach im Himmel endet. Auf Google 4,5 Sterne; frei zugänglich.",
-     "text_en": "At sunset: a staircase of concrete blocks that simply ends in the sky. 4.5 stars on Google; freely accessible.",
-     "q": "Halde Rheinelbe Gelsenkirchen"
+     "text": "Zum Sonnenuntergang: eine Treppe aus Betonblöcken, die einfach im Himmel endet.",
+     "text_en": "At sunset: a staircase of concrete blocks that simply ends in the sky. Freely accessible.",
+     "q": "Halde Rheinelbe Gelsenkirchen",
+     "free": true
     },
     {
      "name": "Currywurst an der Bude",
@@ -83,7 +84,8 @@
      "name_en": "Nordsternpark & Hercules",
      "q": "Nordsternpark Gelsenkirchen",
      "tip": "Verbinde den Park mit einer Radtour am Kanal.",
-     "tip_en": "Combine the park with a bike ride along the canal."
+     "tip_en": "Combine the park with a bike ride along the canal.",
+     "free": true
     },
     {
      "name": "Schalke-Tour & Vereinsmuseum",
@@ -147,7 +149,8 @@
      "gem": true,
      "q": "Rhein-Herne-Kanal Radweg",
      "tip": "Leih dir ein Rad und fahr am Kanal entlang.",
-     "tip_en": "Rent a bike and ride along the canal."
+     "tip_en": "Rent a bike and ride along the canal.",
+     "free": true
     },
     {
      "name": "Ruhrgebiet-Küche: Currywurst, Pommes Schranke & Bergmannsfrühstück",

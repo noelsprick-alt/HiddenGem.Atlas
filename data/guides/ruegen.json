@@ -55,12 +55,13 @@
    "spots": [
     {
      "name": "Kreidefelsen und Königsstuhl",
-     "text": "<p>Zu Fuß an den Kreidefelsen entlang. Auf Google 3,9 Sterne: Besucher loben den Waldweg, kritisieren den kostenpflichtigen Aussichtspunkt (ein Gast nennt 12 €) und raten teils zur Victoria-Sicht (kostenlos) als Alternative.</p><p>Die Kreidefelsen liegen im Nationalpark Jasmund an der Nordostküste Rügens. Der Königsstuhl ist mit rund 118 Metern der bekannteste Punkt: ein weißer Felsen, der steil ins Meer abfällt. Der Nationalpark-Weg führt durch Buchenwälder, die zum UNESCO-Welterbe gehören, und zu mehreren Aussichtspunkten.</p><p>Der Aussichtspunkt direkt am Königsstuhl ist kostenpflichtig (Preise vorher prüfen); kostenlos erreichst du Alternativen wie die Victoria-Sicht und die Wissower Klinken. Gute Schuhe sind nötig, besonders nach Regen: Der Weg ist rutschig, und die Kreideküste ist instabil – bleib auf den Wegen und halte Abstand zur Kante.</p>",
-     "text_en": "<p>On foot along the chalk cliffs. 3.9 stars on Google: visitors praise the forest path, criticise the paid viewing platform (one guest names €12) and some recommend the free Victoria viewpoint as an alternative.</p><p>The chalk cliffs lie in the Jasmund National Park on the north-east coast of Rügen. The Königsstuhl at about 118 metres is the best-known point: a white rock that drops steeply into the sea. The national park path leads through beech forests that are part of the UNESCO World Heritage and to several viewpoints.</p><p>The viewpoint directly at the Königsstuhl is charged (check prices beforehand); free alternatives such as the Victoria-Sicht and the Wissower Klinken are reachable. Good shoes are necessary, especially after rain: the path is slippery, and the chalk coast is unstable – stay on the paths and keep away from the edge.</p>",
+     "text": "<p>Zu Fuß an den Kreidefelsen entlang.</p><p>Die Kreidefelsen liegen im Nationalpark Jasmund an der Nordostküste Rügens. Der Königsstuhl ist mit rund 118 Metern der bekannteste Punkt: ein weißer Felsen, der steil ins Meer abfällt. Der Nationalpark-Weg führt durch Buchenwälder, die zum UNESCO-Welterbe gehören, und zu mehreren Aussichtspunkten.</p><p>Der Aussichtspunkt direkt am Königsstuhl ist kostenpflichtig (Preise vorher prüfen); kostenlos erreichst du Alternativen wie die Victoria-Sicht und die Wissower Klinken. Gute Schuhe sind nötig, besonders nach Regen: Der Weg ist rutschig, und die Kreideküste ist instabil – bleib auf den Wegen und halte Abstand zur Kante.</p>",
+     "text_en": "<p>On foot along the chalk cliffs. The forest path is beautiful; the viewing platform costs extra (around €12) – the free Victoria viewpoint is a good alternative.</p><p>The chalk cliffs lie in the Jasmund National Park on the north-east coast of Rügen. The Königsstuhl at about 118 metres is the best-known point: a white rock that drops steeply into the sea. The national park path leads through beech forests that are part of the UNESCO World Heritage and to several viewpoints.</p><p>The viewpoint directly at the Königsstuhl is charged (check prices beforehand); free alternatives such as the Victoria-Sicht and the Wissower Klinken are reachable. Good shoes are necessary, especially after rain: the path is slippery, and the chalk coast is unstable – stay on the paths and keep away from the edge.</p>",
      "name_en": "Chalk cliffs and Königsstuhl",
      "q": "Königsstuhl Rügen",
      "tip": "Komm früh am Tag oder spät am Nachmittag – tagsüber im Sommer sind die Wege voll.",
-     "tip_en": "Come early in the day or late in the afternoon – by day in summer the paths are crowded."
+     "tip_en": "Come early in the day or late in the afternoon – by day in summer the paths are crowded.",
+     "free": true
     },
     {
      "name": "Rasender Roland nach Binz",
@@ -78,7 +79,8 @@
      "name_en": "Hochuferweg Sassnitz – Königsstuhl",
      "q": "Hochuferweg Sassnitz Königsstuhl",
      "tip": "Starte in Sassnitz und fahr abends mit dem Bus zurück.",
-     "tip_en": "Start in Sassnitz and take the bus back in the evening."
+     "tip_en": "Start in Sassnitz and take the bus back in the evening.",
+     "free": true
     },
     {
      "name": "Binz & Bäderarchitektur",
@@ -132,7 +134,8 @@
      "gem": true,
      "q": "Kap Arkona Rügen",
      "tip": "Fahr bei klarem Wetter hin und lauf zu Fuß nach Vitt.",
-     "tip_en": "Go in clear weather and walk to Vitt."
+     "tip_en": "Go in clear weather and walk to Vitt.",
+     "free": true
     },
     {
      "name": "Hiddensee – autofreie Insel",
@@ -152,7 +155,8 @@
      "gem": true,
      "q": "Seebrücke Sellin",
      "tip": "Komm zum Sonnenuntergang und nimm dir Zeit.",
-     "tip_en": "Come at sunset and take your time."
+     "tip_en": "Come at sunset and take your time.",
+     "free": true
     },
     {
      "name": "Fischbrötchen & Sanddorn",

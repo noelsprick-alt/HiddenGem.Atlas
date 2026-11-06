@@ -59,31 +59,32 @@
     {
      "name": "Titov trg",
      "q": "Titov trg Koper",
-     "text": "<p>Das Herz der Altstadt: Platz mit Praetorianerpalast, Glockenturm, Loggia und Cafés. Auf Google hat der Platz 4,8 Sterne. Im Dezember sorgen Lichter und Weihnachtsstimmung für Atmosphäre.</p>",
-     "text_en": "<p>The heart of the old town: a square with Praetorian Palace, bell tower, loggia and cafés. On Google the square has 4.8 stars. In December lights and Christmas atmosphere create ambience.</p>"
+     "text": "<p>Das Herz der Altstadt: Platz mit Praetorianerpalast, Glockenturm, Loggia und Cafés. Im Dezember sorgen Lichter und Weihnachtsstimmung für Atmosphäre.</p>",
+     "text_en": "<p>The heart of the old town: a square with Praetorian Palace, bell tower, loggia and cafés. In December lights and Christmas atmosphere create ambience.</p>"
     },
     {
      "name": "Praetorianerpalast",
      "name_en": "Praetorian Palace",
      "q": "Praetorian Palace Koper",
-     "text": "<p>Ein Beispiel venezianischer Gotik (15. Jahrhundert) direkt am Platz. Besucher mögen die Bögen und den Balkon, auf den man steigen kann. Auf Google 4,7 Sterne.</p>",
-     "text_en": "<p>An example of Venetian Gothic (15th century) right on the square. Visitors like the arches and the balcony you can climb. 4.7 stars on Google.</p>",
-     "hours": "laut Google täglich ca. 9–17 Uhr",
-     "hours_en": "daily about 9 am–5 pm according to Google"
+     "text": "<p>Ein Beispiel venezianischer Gotik (15. Jahrhundert) direkt am Platz. Schön sind die Bögen und der Balkon, auf den man steigen kann.</p>",
+     "text_en": "<p>An example of Venetian Gothic (15th century) right on the square. The arches are beautiful, and you can climb onto the balcony.</p>",
+     "hours": "täglich ca. 9–17 Uhr",
+     "hours_en": "daily about 9 am–5 pm"
     },
     {
      "name": "Glockenturm der Kathedrale",
      "name_en": "Cathedral bell tower",
      "q": "Bell Tower Koper",
-     "text": "<p>Der Turm neben der Kathedrale beherbergt eine Glocke von 1333, eine der ältesten Sloweniens. Der Aufstieg kostet laut Besuchern rund 8 € und belohnt dich mit Blick über Altstadt und Adria. Auf Google 4,6 Sterne.</p>",
-     "text_en": "<p>The tower next to the cathedral houses a bell from 1333, one of the oldest in Slovenia. The climb costs about €8 according to visitors and rewards you with a view over the old town and Adriatic. 4.6 stars on Google.</p>"
+     "text": "<p>Der Turm neben der Kathedrale beherbergt eine Glocke von 1333, eine der ältesten Sloweniens. Der Aufstieg kostet rund 8 € und belohnt dich mit Blick über Altstadt und Adria.</p>",
+     "text_en": "<p>The tower next to the cathedral houses a bell from 1333, one of the oldest in Slovenia. The climb costs about €8 and rewards you with a view over the old town and Adriatic.</p>"
     },
     {
      "name": "Stadtstrand & Hafenpromenade",
      "name_en": "Town beach & harbour promenade",
      "q": "Koper beach promenade",
      "text": "<p>Mein Tipp: ein Sprung ins Meer am Stadtstrand und ein Spaziergang an der Hafenpromenade, wenn die Sonne tief steht.</p>",
-     "text_en": "<p>My tip: a dip in the sea at the town beach and a walk along the harbour promenade when the sun is low.</p>"
+     "text_en": "<p>My tip: a dip in the sea at the town beach and a walk along the harbour promenade when the sun is low.</p>",
+     "free": true
     },
     {
      "name": "Kathedrale des heiligen Nazarius",
@@ -92,7 +93,8 @@
      "name_en": "Cathedral of St Nazarius",
      "q": "Koper Cathedral",
      "tip": "Starte hier und steig anschließend auf den Turm.",
-     "tip_en": "Start here and then climb the tower."
+     "tip_en": "Start here and then climb the tower.",
+     "free": true
     },
     {
      "name": "Altstadtgassen & Muda-Tor",
@@ -101,7 +103,8 @@
      "name_en": "Old-town lanes & Muda Gate",
      "q": "Koper Old Town",
      "tip": "Lass dich durch die Gassen treiben.",
-     "tip_en": "Let yourself drift through the lanes."
+     "tip_en": "Let yourself drift through the lanes.",
+     "free": true
     },
     {
      "name": "Markt & istrische Küche",
@@ -124,10 +127,11 @@
      "name": "Piran – Tartini-Platz",
      "name_en": "Piran – Tartini Square",
      "q": "Tartinijev trg Piran",
-     "text": "<p>Der schönste Küstenort Sloweniens: venezianische Architektur rund um den Tartini-Platz und die Kirche St. Georg mit Turm. Auf Google 4,7 Sterne bei über 12.000 Bewertungen. Besucher berichten, dass es Anfang Juni noch nicht überlaufen war und die Restaurantpreise in etwa wie in Kroatien liegen.</p>",
-     "text_en": "<p>The prettiest coastal town in Slovenia: Venetian architecture around Tartini Square and St George’s Church with its tower. 4.7 stars on Google from over 12,000 reviews. Visitors report it was not yet crowded in early June and restaurant prices are roughly like Croatia.</p>",
+     "text": "<p>Der schönste Küstenort Sloweniens: venezianische Architektur rund um den Tartini-Platz und die Kirche St. Georg mit Turm. Anfang Juni ist es noch nicht überlaufen, und die Restaurantpreise liegen etwa auf kroatischem Niveau.</p>",
+     "text_en": "<p>The prettiest coastal town in Slovenia: Venetian architecture around Tartini Square and St George’s Church with its tower. In early June it is not yet crowded, and restaurant prices are roughly on a par with Croatia.</p>",
      "tip": "Früh am Tag kommen; die Hauptsaison im Juli und August ist deutlich voller.",
-     "tip_en": "Come early in the day; peak season in July and August is much busier."
+     "tip_en": "Come early in the day; peak season in July and August is much busier.",
+     "free": true
     },
     {
      "name": "Izola",
@@ -140,10 +144,10 @@
      "name_en": "Strunjan Nature Reserve",
      "gem": true,
      "q": "Nature Reserve Strunjan",
-     "text": "<p>Ein Küstenweg mit Klippen, Olivenhainen und Salinen. Besucher beschreiben einen gut markierten Rundweg von etwa 5–7 km mit rund 100 Höhenmetern und einem ruhigen Strand, den man nur zu Fuß oder per Boot erreicht. Auf Google 4,8 Sterne.</p>",
-     "text_en": "<p>A coastal path with cliffs, olive groves and salt pans. Visitors describe a well-marked circular route of about 5–7 km with roughly 100 metres of ascent and a quiet beach reached only on foot or by boat. 4.8 stars on Google.</p>",
-     "tip": "Parke bei den Salinen (laut Besucher ca. 1,80 €/Stunde) und plane 5–6 Stunden. Bei Regen ist der Weg rutschig.",
-     "tip_en": "Park at the salt pans (about €1.80 an hour according to a visitor) and allow 5–6 hours. The path is slippery in rain."
+     "text": "<p>Ein Küstenweg mit Klippen, Olivenhainen und Salinen. Ein gut markierter Rundweg von etwa 5–7 km mit rund 100 Höhenmetern führt zu einem ruhigen Strand, den man nur zu Fuß oder per Boot erreicht.</p>",
+     "text_en": "<p>A coastal path with cliffs, olive groves and salt pans. A well-marked circular route of about 5–7 km with roughly 100 metres of ascent leads to a quiet beach reached only on foot or by boat.</p>",
+     "tip": "Parke bei den Salinen (ca. 1,80 €/Stunde) und plane 5–6 Stunden. Bei Regen ist der Weg rutschig.",
+     "tip_en": "Park at the salt pans (about €1.80 an hour) and allow 5–6 hours. The path is slippery in rain."
     },
     {
      "name": "Parenzana-Radweg",
@@ -153,7 +157,8 @@
      "gem": true,
      "q": "Parenzana Trail Koper",
      "tip": "Leih dir ein Rad und fahr eine Teilstrecke.",
-     "tip_en": "Rent a bike and ride a section."
+     "tip_en": "Rent a bike and ride a section.",
+     "free": true
     },
     {
      "name": "Salinen von Sečovlje",
@@ -181,8 +186,8 @@
    "id": "essen",
    "h": "Essen & Trinken",
    "h_en": "Food & drink",
-   "html": "<ul><li><strong>Meeresfrüchte und Fisch</strong> in den Küstenorten, oft mit italienischem Einschlag.</li><li><strong>Eis oder Kaffee</strong> an der Loggia am Titov trg.</li><li><strong>Weine der Küste</strong> wie Malvazija oder Refošk.</li></ul><p>Die Preise liegen laut Besuchern ähnlich wie in Kroatien oder leicht darunter.</p>",
-   "html_en": "<ul><li><strong>Seafood and fish</strong> in the coastal towns, often with an Italian touch.</li><li><strong>Ice cream or coffee</strong> at the loggia on Titov trg.</li><li><strong>Coastal wines</strong> such as Malvazija or Refošk.</li></ul><p>Prices are similar to Croatia or slightly below according to visitors.</p>"
+   "html": "<ul><li><strong>Meeresfrüchte und Fisch</strong> in den Küstenorten, oft mit italienischem Einschlag.</li><li><strong>Eis oder Kaffee</strong> an der Loggia am Titov trg.</li><li><strong>Weine der Küste</strong> wie Malvazija oder Refošk.</li></ul><p>Die Preise liegen ähnlich wie in Kroatien oder leicht darunter.</p>",
+   "html_en": "<ul><li><strong>Seafood and fish</strong> in the coastal towns, often with an Italian touch.</li><li><strong>Ice cream or coffee</strong> at the loggia on Titov trg.</li><li><strong>Coastal wines</strong> such as Malvazija or Refošk.</li></ul><p>Prices are similar to Croatia or slightly below.</p>"
   },
   {
    "type": "prose",

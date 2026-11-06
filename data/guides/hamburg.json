@@ -60,7 +60,8 @@
      "name_en": "Fish market on Sunday morning",
      "q": "Hamburger Fischmarkt",
      "tip": "Komm vor 7 Uhr und frühstücke in der Fischauktionshalle.",
-     "tip_en": "Come before 7 a.m. and have breakfast in the Fischauktionshalle."
+     "tip_en": "Come before 7 a.m. and have breakfast in the Fischauktionshalle.",
+     "free": true
     },
     {
      "name": "HADAG-Fähre ab Landungsbrücken",
@@ -73,13 +74,14 @@
     },
     {
      "name": "Elbphilharmonie Plaza",
-     "text": "<p>Abends der 360°-Blick auf Hafen und Stadt. Auf Google 4,6 Sterne. Besucher berichten, dass für die Plaza ein kostenloses Ticket nötig ist; vorab Infos prüfen.</p><p>Die Elbphilharmonie wurde 2017 eröffnet und steht auf einem alten Kaispeicher. Die Plaza liegt auf 37 Metern Höhe und bietet eine Außenpromenade rund um das Gebäude mit Blick auf Hafen, Stadt und Elbe. Der Zugang ist kostenlos, aber mit einem Ticket verbunden, das du online oder vor Ort holst (aktuelle Bedingungen vorher prüfen).</p><p>Eine lange gebogene Rolltreppe führt hinauf. Komm am Abend zum Sonnenuntergang und bleib bis zur Dunkelheit – dann leuchten die Lichter des Hafens. Konzerte im Großen Saal sind begehrt; wer Tickets möchte, sollte lange im Voraus planen.</p>",
-     "text_en": "<p>In the evening the 360° view of harbour and city. 4.6 stars on Google. Visitors report that a free ticket is needed for the Plaza; check info beforehand.</p><p>The Elbphilharmonie opened in 2017 and stands on an old quay warehouse. The Plaza lies at a height of 37 metres and offers an outdoor promenade around the building with a view of harbour, city and Elbe. Access is free but tied to a ticket that you get online or on site (check current conditions beforehand).</p><p>A long curved escalator leads up. Come in the evening at sunset and stay until dark – then the harbour lights glow. Concerts in the Great Hall are in demand; if you want tickets you should plan well in advance.</p>",
+     "text": "<p>Abends der 360°-Blick auf Hafen und Stadt. Für die Plaza brauchst du ein kostenloses Ticket; vorab Infos prüfen.</p><p>Die Elbphilharmonie wurde 2017 eröffnet und steht auf einem alten Kaispeicher. Die Plaza liegt auf 37 Metern Höhe und bietet eine Außenpromenade rund um das Gebäude mit Blick auf Hafen, Stadt und Elbe. Der Zugang ist kostenlos, aber mit einem Ticket verbunden, das du online oder vor Ort holst (aktuelle Bedingungen vorher prüfen).</p><p>Eine lange gebogene Rolltreppe führt hinauf. Komm am Abend zum Sonnenuntergang und bleib bis zur Dunkelheit – dann leuchten die Lichter des Hafens. Konzerte im Großen Saal sind begehrt; wer Tickets möchte, sollte lange im Voraus planen.</p>",
+     "text_en": "<p>In the evening the 360° view of harbour and city. You need a free ticket for the Plaza; check info beforehand.</p><p>The Elbphilharmonie opened in 2017 and stands on an old quay warehouse. The Plaza lies at a height of 37 metres and offers an outdoor promenade around the building with a view of harbour, city and Elbe. Access is free but tied to a ticket that you get online or on site (check current conditions beforehand).</p><p>A long curved escalator leads up. Come in the evening at sunset and stay until dark – then the harbour lights glow. Concerts in the Great Hall are in demand; if you want tickets you should plan well in advance.</p>",
      "q": "Elbphilharmonie Plaza Hamburg",
-     "hours": "laut Google täglich ca. 10–23:30 Uhr",
-     "hours_en": "daily about 10 am–11:30 pm according to Google",
+     "hours": "täglich ca. 10–23:30 Uhr",
+     "hours_en": "daily about 10 am–11:30 pm",
      "tip": "Hol dir das Plaza-Ticket früh und komm zum Sonnenuntergang.",
-     "tip_en": "Get the Plaza ticket early and come at sunset."
+     "tip_en": "Get the Plaza ticket early and come at sunset.",
+     "free": true
     },
     {
      "name": "St. Michaelis (Michel) & Turmaussicht",
@@ -97,7 +99,8 @@
      "name_en": "Reeperbahn, St Pauli & Beatles-Platz",
      "q": "Reeperbahn Hamburg",
      "tip": "Komm abends, behalte Wertsachen im Blick und meide Lockangebote.",
-     "tip_en": "Come in the evening, keep valuables in view and avoid lure offers."
+     "tip_en": "Come in the evening, keep valuables in view and avoid lure offers.",
+     "free": true
     },
     {
      "name": "Alster, Jungfernstieg & Rathaus",
@@ -133,7 +136,8 @@
      "gem": true,
      "q": "Alter Elbtunnel Hamburg",
      "tip": "Geh am Abend durch den Tunnel und fotografiere die Skyline von drüben.",
-     "tip_en": "Walk through the tunnel in the evening and photograph the skyline from the other side."
+     "tip_en": "Walk through the tunnel in the evening and photograph the skyline from the other side.",
+     "free": true
     },
     {
      "name": "Blankenese – Treppenviertel & Elbstrand",
@@ -143,7 +147,8 @@
      "gem": true,
      "q": "Blankenese Treppenviertel",
      "tip": "Fahr mit der S-Bahn und laufe das Treppenviertel hinunter zum Strand.",
-     "tip_en": "Take the S-Bahn and walk down the stair quarter to the beach."
+     "tip_en": "Take the S-Bahn and walk down the stair quarter to the beach.",
+     "free": true
     },
     {
      "name": "Planten un Blomen & Wasserlichtkonzerte",
@@ -153,7 +158,8 @@
      "gem": true,
      "q": "Planten un Blomen Hamburg",
      "tip": "Komm an einem Sommerabend zu den Wasserlichtkonzerten.",
-     "tip_en": "Come on a summer evening for the water-light concerts."
+     "tip_en": "Come on a summer evening for the water-light concerts.",
+     "free": true
     },
     {
      "name": "Miniatur Wunderland",

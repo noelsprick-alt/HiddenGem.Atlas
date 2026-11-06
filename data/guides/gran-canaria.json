@@ -55,20 +55,22 @@
    "spots": [
     {
      "name": "Dünen von Maspalomas",
-     "text": "<p>Sonnenaufgang in den Dünen. Auf Google 4,8 Sterne bei über 22.000 Bewertungen. Besucher raten zu Wasser und Sonnencreme und warnen vor Hitze mittags.</p><p>Die Dünen von Maspalomas sind ein Naturschutzgebiet an der Südspitze der Insel: goldener Sand in Wellen, dahinter das Meer und ein kleiner Palmenhain mit Lagune. Am schönsten ist ein Spaziergang bei Sonnenaufgang, wenn der Wind die Oberfläche glättet und die Schatten lang sind. Mittags wird es heiß und schattenlos.</p><p>Halte dich an die markierten Wege, nimm reichlich Wasser mit und trage Sonnenschutz. Am Ende der Dünen liegt der Strand Playa del Inglés; der Leuchtturm von Maspalomas ist ein guter Treffpunkt.</p>",
-     "text_en": "<p>Sunrise in the dunes. 4.8 stars on Google from over 22,000 reviews. Visitors advise water and sunscreen and warn of midday heat.</p><p>The dunes of Maspalomas are a nature reserve at the southern tip of the island: golden sand in waves, the sea behind and a small palm grove with a lagoon. A walk at sunrise is most beautiful, when the wind has smoothed the surface and the shadows are long. At midday it becomes hot and shadeless.</p><p>Stick to the marked paths, take plenty of water and wear sun protection. At the end of the dunes lies Playa del Inglés beach; the Maspalomas lighthouse is a good meeting point.</p>",
+     "text": "<p>Sonnenaufgang in den Dünen. Nimm Wasser und Sonnencreme mit und meide die Mittagshitze.</p><p>Die Dünen von Maspalomas sind ein Naturschutzgebiet an der Südspitze der Insel: goldener Sand in Wellen, dahinter das Meer und ein kleiner Palmenhain mit Lagune. Am schönsten ist ein Spaziergang bei Sonnenaufgang, wenn der Wind die Oberfläche glättet und die Schatten lang sind. Mittags wird es heiß und schattenlos.</p><p>Halte dich an die markierten Wege, nimm reichlich Wasser mit und trage Sonnenschutz. Am Ende der Dünen liegt der Strand Playa del Inglés; der Leuchtturm von Maspalomas ist ein guter Treffpunkt.</p>",
+     "text_en": "<p>Sunrise in the dunes. Bring water and sunscreen and avoid the midday heat.</p><p>The dunes of Maspalomas are a nature reserve at the southern tip of the island: golden sand in waves, the sea behind and a small palm grove with a lagoon. A walk at sunrise is most beautiful, when the wind has smoothed the surface and the shadows are long. At midday it becomes hot and shadeless.</p><p>Stick to the marked paths, take plenty of water and wear sun protection. At the end of the dunes lies Playa del Inglés beach; the Maspalomas lighthouse is a good meeting point.</p>",
      "name_en": "Dunes of Maspalomas",
      "q": "Dunas de Maspalomas",
      "tip": "Komm vor Sonnenaufgang und bring Wasser mit.",
-     "tip_en": "Come before sunrise and bring water."
+     "tip_en": "Come before sunrise and bring water.",
+     "free": true
     },
     {
      "name": "Roque Nublo",
-     "text": "<p>Der Felsfinger auf rund 1.800 Metern im Zentrum. Auf Google 4,7 Sterne. Besucher berichten, der Parkplatz sei eingeschränkt, Bus und Wanderung seien eine gute Option.</p><p>Der Roque Nublo ist ein rund 80 Meter hoher Basaltfelsen auf etwa 1.800 Metern Höhe und das Wahrzeichen der Insel. Der Weg vom Parkplatz La Goleta dauert hin und zurück ungefähr zwei bis drei Stunden und ist meist gut zu gehen, aber an manchen Stellen steinig. Von oben blickst du über Wolkenmeer, Berge und bei klarem Wetter bis zum Teide auf Teneriffa.</p><p>Das Wetter ändert sich oben schnell: Nimm eine Jacke mit, auch wenn unten die Sonne scheint. Plane den Aufstieg am Vormittag, wenn die Wolken oft noch unter dir liegen. Parkplätze sind begrenzt (Zufahrt und Regeln vorher prüfen).</p>",
-     "text_en": "<p>The rock finger at about 1,800 metres in the centre. 4.7 stars on Google. Visitors report limited parking, bus and hike are a good option.</p><p>The Roque Nublo is a basalt rock about 80 metres high at roughly 1,800 metres and the landmark of the island. The path from the La Goleta car park takes about two to three hours there and back and is mostly easy to walk, but stony in places. From the top you look over a sea of clouds, mountains and, in clear weather, as far as the Teide on Tenerife.</p><p>The weather changes quickly up there: take a jacket even if the sun shines below. Plan the climb in the morning, when the clouds often still lie below you. Parking is limited (check access and rules beforehand).</p>",
+     "text": "<p>Der Felsfinger auf rund 1.800 Metern im Zentrum. Der Parkplatz ist klein – Bus plus Wanderung ist eine gute Alternative.</p><p>Der Roque Nublo ist ein rund 80 Meter hoher Basaltfelsen auf etwa 1.800 Metern Höhe und das Wahrzeichen der Insel. Der Weg vom Parkplatz La Goleta dauert hin und zurück ungefähr zwei bis drei Stunden und ist meist gut zu gehen, aber an manchen Stellen steinig. Von oben blickst du über Wolkenmeer, Berge und bei klarem Wetter bis zum Teide auf Teneriffa.</p><p>Das Wetter ändert sich oben schnell: Nimm eine Jacke mit, auch wenn unten die Sonne scheint. Plane den Aufstieg am Vormittag, wenn die Wolken oft noch unter dir liegen. Parkplätze sind begrenzt (Zufahrt und Regeln vorher prüfen).</p>",
+     "text_en": "<p>The rock finger at about 1,800 metres in the centre. The car park is small – bus plus hike is a good alternative.</p><p>The Roque Nublo is a basalt rock about 80 metres high at roughly 1,800 metres and the landmark of the island. The path from the La Goleta car park takes about two to three hours there and back and is mostly easy to walk, but stony in places. From the top you look over a sea of clouds, mountains and, in clear weather, as far as the Teide on Tenerife.</p><p>The weather changes quickly up there: take a jacket even if the sun shines below. Plan the climb in the morning, when the clouds often still lie below you. Parking is limited (check access and rules beforehand).</p>",
      "q": "Roque Nublo Gran Canaria",
      "tip": "Starte am Vormittag und nimm eine Jacke mit.",
-     "tip_en": "Start in the morning and take a jacket."
+     "tip_en": "Start in the morning and take a jacket.",
+     "free": true
     },
     {
      "name": "Puerto de Mogán",
@@ -77,7 +79,8 @@
      "name_en": "Puerto de Mogán",
      "q": "Puerto de Mogán",
      "tip": "Komm abends zum Fischessen und bummle durch die Kanäle.",
-     "tip_en": "Come in the evening for fish and stroll through the canals."
+     "tip_en": "Come in the evening for fish and stroll through the canals.",
+     "free": true
     },
     {
      "name": "Las Palmas: Vegueta & Triana",
@@ -95,7 +98,8 @@
      "name_en": "Teror & Gran Canaria’s mountain villages",
      "q": "Teror Gran Canaria",
      "tip": "Komm am Sonntag zum Markt.",
-     "tip_en": "Come on Sunday for the market."
+     "tip_en": "Come on Sunday for the market.",
+     "free": true
     }
    ]
   },
@@ -107,13 +111,13 @@
    "spots": [
     {
      "name": "Cueva Pintada in Gáldar",
-     "text": "<p>Ein Ort, den die meisten Strandurlauber nie sehen: die bemalte Höhle der Altkanarier. Auf Google 4,6 Sterne. Besucher empfehlen die geführte Tour (rund 6 € laut einem Gast).</p><p>Die Cueva Pintada in Gáldar ist eine Ausgrabungsstätte der Altkanarier: Eine bemalte Höhle mit geometrischen Mustern in Rot, Schwarz und Weiß, die als frühe Kultur der Insel gilt. Ein Museum und ein Archäologiepark erklären Alltag und Kultur der Ureinwohner.</p><p>Informiere dich vorher über Führungen, Sprachen und Zugang. Plane ein bis zwei Stunden ein.</p>",
-     "text_en": "<p>A place most beach holidaymakers never see: the painted cave of the ancient Canarians. 4.6 stars on Google. Visitors recommend the guided tour (about €6 according to one guest).</p><p>The Cueva Pintada in Gáldar is an archaeological site of the ancient Canarians: a painted cave with geometric patterns in red, black and white, regarded as an early culture of the island. A museum and an archaeological park explain daily life and culture of the indigenous people.</p><p>Find out beforehand about guided tours, languages and access. Plan one to two hours.</p>",
+     "text": "<p>Ein Ort, den die meisten Strandurlauber nie sehen: die bemalte Höhle der Altkanarier. Mein Tipp: die geführte Tour (rund 6 €).</p><p>Die Cueva Pintada in Gáldar ist eine Ausgrabungsstätte der Altkanarier: Eine bemalte Höhle mit geometrischen Mustern in Rot, Schwarz und Weiß, die als frühe Kultur der Insel gilt. Ein Museum und ein Archäologiepark erklären Alltag und Kultur der Ureinwohner.</p><p>Informiere dich vorher über Führungen, Sprachen und Zugang. Plane ein bis zwei Stunden ein.</p>",
+     "text_en": "<p>A place most beach holidaymakers never see: the painted cave of the ancient Canarians. My tip: the guided tour (about €6).</p><p>The Cueva Pintada in Gáldar is an archaeological site of the ancient Canarians: a painted cave with geometric patterns in red, black and white, regarded as an early culture of the island. A museum and an archaeological park explain daily life and culture of the indigenous people.</p><p>Find out beforehand about guided tours, languages and access. Plan one to two hours.</p>",
      "name_en": "Cueva Pintada in Gáldar",
      "gem": true,
      "q": "Cueva Pintada Museum Gáldar",
-     "hours": "laut Google Di–So ca. 10–18 Uhr, Mo geschlossen",
-     "hours_en": "Tue–Sun about 10 am–6 pm, closed Mondays according to Google",
+     "hours": "Di–So ca. 10–18 Uhr, Mo geschlossen",
+     "hours_en": "Tue–Sun about 10 am–6 pm, closed Mondays",
      "tip": "Buche die geführte Tour und prüfe die Sprachen.",
      "tip_en": "Book the guided tour and check languages."
     },
@@ -154,7 +158,8 @@
      "name_en": "Playa de Amadores & southern beaches",
      "q": "Playa de Amadores",
      "tip": "Komm morgens, dann ist es ruhiger.",
-     "tip_en": "Come in the morning, when it is quieter."
+     "tip_en": "Come in the morning, when it is quieter.",
+     "free": true
     },
     {
      "name": "Papas arrugadas & Mojo – kanarische Küche",

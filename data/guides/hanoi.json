@@ -54,19 +54,20 @@
      "name_en": "Hoan Kiem Lake in the morning",
      "q": "Hoan-Kiem-See am Morgen",
      "tip": "Sei um 6 Uhr da und lauf eine Runde um den See.",
-     "tip_en": "Be there at 6 a.m. and walk a lap around the lake."
+     "tip_en": "Be there at 6 a.m. and walk a lap around the lake.",
+     "free": true
     },
     {
      "name": "Eierkaffee im Café Giảng",
-     "text": "Wo er 1946 erfunden wurde. Auf Google 4,4 Sterne bei über 17.000 Bewertungen; Gäste loben den cremigen Schaum ohne Eigeschmack.",
-     "text_en": "Where it was invented in 1946. 4.4 stars on Google from over 17,000 reviews; guests praise the creamy foam without egg taste.",
+     "text": "Wo er 1946 erfunden wurde. Cremiger Schaum ohne Eigeschmack – probier ihn.",
+     "text_en": "Where it was invented in 1946: creamy foam without an egg taste – try it.",
      "name_en": "Egg coffee at Café Giảng",
      "q": "Cafe Giảng Hanoi"
     },
     {
      "name": "Bún chả in Hương Liên",
-     "text": "In dem Lokal, in dem Obama und Bourdain 2016 auf Plastikhockern saßen. Auf Google 4,1 Sterne; Gäste nennen es gut, aber nicht das Beste der Stadt.",
-     "text_en": "In the place where Obama and Bourdain sat on plastic stools in 2016. 4.1 stars on Google; guests call it good but not the best in town.",
+     "text": "In dem Lokal, in dem Obama und Bourdain 2016 auf Plastikhockern saßen.",
+     "text_en": "In the place where Obama and Bourdain sat on plastic stools in 2016 – good, but not the best in town.",
      "name_en": "Bún chả at Hương Liên",
      "q": "Bún chả Hương Liên Hanoi"
     },
@@ -77,7 +78,8 @@
      "name_en": "The Old Quarter’s 36 streets",
      "q": "Hanoi Old Quarter",
      "tip": "Lass dich treiben und überquere Straßen langsam.",
-     "tip_en": "Let yourself drift and cross streets slowly."
+     "tip_en": "Let yourself drift and cross streets slowly.",
+     "free": true
     },
     {
      "name": "Literaturtempel (Văn Miếu)",
@@ -138,7 +140,8 @@
      "gem": true,
      "q": "Hanoi Train Street",
      "tip": "Prüfe vorher den aktuellen Stand und halte Abstand.",
-     "tip_en": "Check the current situation beforehand and keep your distance."
+     "tip_en": "Check the current situation beforehand and keep your distance.",
+     "free": true
     },
     {
      "name": "Dong-Xuan-Markt & Nachtmarkt",
@@ -148,7 +151,8 @@
      "gem": true,
      "q": "Dong Xuan Market Hanoi",
      "tip": "Komm am Wochenende abends.",
-     "tip_en": "Come on weekend evenings."
+     "tip_en": "Come on weekend evenings.",
+     "free": true
     },
     {
      "name": "Tay Ho (West Lake) & Tran-Quoc-Pagode",
@@ -158,7 +162,8 @@
      "gem": true,
      "q": "Tran Quoc Pagoda Hanoi",
      "tip": "Komm zum Sonnenuntergang.",
-     "tip_en": "Come at sunset."
+     "tip_en": "Come at sunset.",
+     "free": true
     },
     {
      "name": "Straßenküche: Bún chả, Phở, Bánh mì & Co.",

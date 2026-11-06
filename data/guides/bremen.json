@@ -49,12 +49,13 @@
    "spots": [
     {
      "name": "Schnoorviertel",
-     "text": "<p>Enge Gassen, kleine Läden, Cafés. Auf Google 4,7 Sterne bei über 20.000 Bewertungen. Besucher raten zu einem Samstag, da sonntags vieles geschlossen ist.</p><p>Das Schnoorviertel ist das älteste erhaltene Wohnviertel Bremens: kleine, schmale Häuser aus dem 15. und 16. Jahrhundert stehen dicht an dicht in engen Gassen. Heute findest du hier Cafés, Kunsthandwerk, Goldschmiede und kleine Restaurants. Der Name kommt vermutlich von den „Schnüren“, also den Tauen der früheren Seiler.</p><p>Am schönsten ist ein Spaziergang am Vormittag, wenn die Gassen noch leer sind. Viele Läden haben sonntags geschlossen (vorher prüfen).</p>",
-     "text_en": "<p>Narrow lanes, small shops, cafés. 4.7 stars on Google from over 20,000 reviews. Visitors advise a Saturday since much is closed on Sundays.</p><p>The Schnoor quarter is Bremen’s oldest surviving residential district: small, narrow houses from the 15th and 16th centuries stand close together in narrow lanes. Today you find cafés, crafts, goldsmiths and small restaurants here. The name probably comes from the “Schnüre”, the ropes of the former rope-makers.</p><p>A walk in the morning is most beautiful when the lanes are still empty. Many shops are closed on Sundays (check beforehand).</p>",
+     "text": "<p>Enge Gassen, kleine Läden, Cafés. Komm am besten samstags, sonntags ist vieles geschlossen.</p><p>Das Schnoorviertel ist das älteste erhaltene Wohnviertel Bremens: kleine, schmale Häuser aus dem 15. und 16. Jahrhundert stehen dicht an dicht in engen Gassen. Heute findest du hier Cafés, Kunsthandwerk, Goldschmiede und kleine Restaurants. Der Name kommt vermutlich von den „Schnüren“, also den Tauen der früheren Seiler.</p><p>Am schönsten ist ein Spaziergang am Vormittag, wenn die Gassen noch leer sind. Viele Läden haben sonntags geschlossen (vorher prüfen).</p>",
+     "text_en": "<p>Narrow lanes, small shops, cafés. Best come on a Saturday – much is closed on Sundays.</p><p>The Schnoor quarter is Bremen’s oldest surviving residential district: small, narrow houses from the 15th and 16th centuries stand close together in narrow lanes. Today you find cafés, crafts, goldsmiths and small restaurants here. The name probably comes from the “Schnüre”, the ropes of the former rope-makers.</p><p>A walk in the morning is most beautiful when the lanes are still empty. Many shops are closed on Sundays (check beforehand).</p>",
      "name_en": "Schnoor quarter",
      "q": "Schnoor Bremen",
      "tip": "Komm am Vormittag oder am Samstag.",
-     "tip_en": "Come in the morning or on a Saturday."
+     "tip_en": "Come in the morning or on a Saturday.",
+     "free": true
     },
     {
      "name": "Böttcherstraße",
@@ -69,14 +70,16 @@
      "name_en": "Roland on the market square",
      "q": "Roland am Marktplatz",
      "tip": "Schau dir Rathaus und Roland zusammen an.",
-     "tip_en": "See the town hall and Roland together."
+     "tip_en": "See the town hall and Roland together.",
+     "free": true
     },
     {
      "name": "Schlachte zum Sonnenuntergang",
      "text": "Promenade an der Weser.",
      "text_en": "Promenade on the Weser river.",
      "name_en": "Schlachte at sunset",
-     "q": "Schlachte zum Sonnenuntergang"
+     "q": "Schlachte zum Sonnenuntergang",
+     "free": true
     },
     {
      "name": "Bremer Stadtmusikanten",
@@ -103,7 +106,8 @@
      "name_en": "Schlachte & Weser promenade",
      "q": "Schlachte Bremen",
      "tip": "Komm am späten Nachmittag.",
-     "tip_en": "Come in the late afternoon."
+     "tip_en": "Come in the late afternoon.",
+     "free": true
     }
    ]
   },
@@ -137,7 +141,8 @@
      "gem": true,
      "q": "Das Viertel Bremen",
      "tip": "Komm abends am Wochenende.",
-     "tip_en": "Come on weekend evenings."
+     "tip_en": "Come on weekend evenings.",
+     "free": true
     },
     {
      "name": "Wallanlagen & Mühle am Wall",

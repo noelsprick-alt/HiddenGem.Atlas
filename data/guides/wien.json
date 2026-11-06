@@ -68,15 +68,16 @@
      "text_en": "<p>Then across the Naschmarkt – stalls, food, spices.</p><p>The Naschmarkt is Vienna’s best-known market: about 1.5 kilometres long, with about 120 stalls and restaurants. You find spices, olives, cheese, fruit, fish, sweets and international cuisine. On Saturdays there is also a large flea market at the end of the market.</p><p>Prices in the restaurants are often higher than in small bistros on side streets. Come in the morning for shopping and eat a breakfast or lunch there. Check whether all stalls are open; the market is closed on Sundays.</p>",
      "q": "Naschmarkt",
      "tip": "Komm samstags für Markt und Flohmarkt zusammen, aber früh.",
-     "tip_en": "Come on Saturday for market and flea market together, but early."
+     "tip_en": "Come on Saturday for market and flea market together, but early.",
+     "free": true
     },
     {
      "name": "Loos American Bar",
-     "text": "<p>Abends ein Drink in der winzigen Bar von Adolf Loos. Auf Google 4,1 Sterne; Besucher loben die Einrichtung, Meinungen zu Cocktails und Service sind gemischt.</p><p>Die Loos American Bar ist ein kleines Juwel: Sie wurde 1908 vom Architekten Adolf Loos entworfen und misst nur rund 27 Quadratmeter. Dunkles Holz, Marmor, Spiegel und Onyx machen den Raum edel und eng. Hier trinkst du klassische Cocktails in einer Bar, die zum Stück Architekturgeschichte geworden ist.</p><p>Die Bar ist sehr klein – du musst eventuell warten oder früh am Abend kommen. Die Preise sind gehoben. Prüfe Öffnungszeiten vorher.</p>",
-     "text_en": "<p>An evening drink in Adolf Loos’s tiny bar. 4.1 stars on Google; visitors praise the interior, opinions on cocktails and service are mixed.</p><p>The Loos American Bar is a small jewel: it was designed in 1908 by the architect Adolf Loos and measures only about 27 square metres. Dark wood, marble, mirrors and onyx make the space elegant and tight. Here you drink classic cocktails in a bar that has become a piece of architectural history.</p><p>The bar is very small – you may have to wait or come early in the evening. Prices are upscale. Check opening times beforehand.</p>",
+     "text": "<p>Abends ein Drink in der winzigen Bar von Adolf Loos.</p><p>Die Loos American Bar ist ein kleines Juwel: Sie wurde 1908 vom Architekten Adolf Loos entworfen und misst nur rund 27 Quadratmeter. Dunkles Holz, Marmor, Spiegel und Onyx machen den Raum edel und eng. Hier trinkst du klassische Cocktails in einer Bar, die zum Stück Architekturgeschichte geworden ist.</p><p>Die Bar ist sehr klein – du musst eventuell warten oder früh am Abend kommen. Die Preise sind gehoben. Prüfe Öffnungszeiten vorher.</p>",
+     "text_en": "<p>An evening drink in Adolf Loos’s tiny bar. The interior is the star – cocktails and service vary.</p><p>The Loos American Bar is a small jewel: it was designed in 1908 by the architect Adolf Loos and measures only about 27 square metres. Dark wood, marble, mirrors and onyx make the space elegant and tight. Here you drink classic cocktails in a bar that has become a piece of architectural history.</p><p>The bar is very small – you may have to wait or come early in the evening. Prices are upscale. Check opening times beforehand.</p>",
      "q": "Loos American Bar Wien",
-     "hours": "laut Google täglich ca. 12–4 Uhr",
-     "hours_en": "daily about 12 pm–4 am according to Google",
+     "hours": "täglich ca. 12–4 Uhr",
+     "hours_en": "daily about 12 pm–4 am",
      "tip": "Komm früh am Abend, wenn noch Platz ist.",
      "tip_en": "Come early in the evening when there is still room."
     },
@@ -87,7 +88,8 @@
      "name_en": "St Stephen’s Cathedral",
      "q": "Stephansdom Wien",
      "tip": "Besteige den Turm früh am Morgen, dann ist die Sicht klar und die Schlange kurz.",
-     "tip_en": "Climb the tower early in the morning, then the view is clear and the queue short."
+     "tip_en": "Climb the tower early in the morning, then the view is clear and the queue short.",
+     "free": true
     },
     {
      "name": "Schloss Schönbrunn & Gloriette",
@@ -96,7 +98,8 @@
      "name_en": "Schönbrunn Palace & Gloriette",
      "q": "Schloss Schönbrunn",
      "tip": "Reserviere das Ticket online und besuche den Park am späten Nachmittag.",
-     "tip_en": "Reserve the ticket online and visit the park in the late afternoon."
+     "tip_en": "Reserve the ticket online and visit the park in the late afternoon.",
+     "free": true
     },
     {
      "name": "Hofburg & Spanische Hofreitschule",
@@ -114,7 +117,8 @@
      "name_en": "Belvedere – Klimt’s “The Kiss”",
      "q": "Belvedere Wien",
      "tip": "Komm früh am Morgen vor dem Ansturm.",
-     "tip_en": "Come early in the morning before the rush."
+     "tip_en": "Come early in the morning before the rush.",
+     "free": true
     },
     {
      "name": "Prater & Riesenrad",
@@ -154,8 +158,8 @@
     },
     {
      "name": "Sachertorte, Schnitzel & Co.",
-     "text": "<p>Zu Wien gehören Süßes und Deftiges: die Sachertorte (Schokoladenkuchen mit Aprikosenmarmelade) aus dem Hotel Sacher oder ihre Konkurrenz im Café Demel, dazu Apfelstrudel und Kaiserschmarrn. Als Hauptgericht gilt das Wiener Schnitzel – paniertes Kalbfleisch, das so dünn geklopft wird, dass es über den Tellerrand ragt.</p><p>Das echte Wiener Schnitzel ist laut österreichischem Lebensmittelbuch vom Kalb; Schnitzel vom Schwein heißen „Wiener Art“. Die Preise in Touristenlagen sind hoch; kleine Beisln in Nebenstraßen sind oft günstiger.</p>",
-     "text_en": "<p>Vienna means sweet and hearty: the Sachertorte (chocolate cake with apricot jam) from the Hotel Sacher or its competition at Café Demel, plus apple strudel and Kaiserschmarrn. As a main course the Wiener Schnitzel counts – breaded veal pounded so thin that it overhangs the plate.</p><p>According to the Austrian food code the real Wiener Schnitzel is veal; pork schnitzel is called “Wiener Art”. Prices in tourist areas are high; small Beisln on side streets are often cheaper.</p>",
+     "text": "<p>Zu Wien gehören Süßes und Deftiges: die Sachertorte (Schokoladenkuchen mit Aprikosenmarmelade) aus dem Hotel Sacher oder ihre Konkurrenz im Café Demel, dazu Apfelstrudel und Kaiserschmarrn. Als Hauptgericht gilt das Wiener Schnitzel – paniertes Kalbfleisch, das so dünn geklopft wird, dass es über den Tellerrand ragt.</p><p>Das echte Wiener Schnitzel ist vom Kalb; Schnitzel vom Schwein heißen „Wiener Art“. Die Preise in Touristenlagen sind hoch; kleine Beisln in Nebenstraßen sind oft günstiger.</p>",
+     "text_en": "<p>Vienna means sweet and hearty: the Sachertorte (chocolate cake with apricot jam) from the Hotel Sacher or its competition at Café Demel, plus apple strudel and Kaiserschmarrn. As a main course the Wiener Schnitzel counts – breaded veal pounded so thin that it overhangs the plate.</p><p>The real Wiener Schnitzel is veal; pork schnitzel is called “Wiener Art”. Prices in tourist areas are high; small Beisln on side streets are often cheaper.</p>",
      "name_en": "Sachertorte, schnitzel & co.",
      "q": "Café Demel Wien",
      "tip": "Iss das Schnitzel in einem Beisl abseits der Hauptstraßen.",

@@ -60,7 +60,8 @@
      "name_en": "Schwarzwaldhochstraße & Mummelsee",
      "q": "Schwarzwaldhochstraße & Mummelsee",
      "tip": "Fahr früh am Morgen oder unter der Woche – an Sommer-Wochenenden ist die Straße voll.",
-     "tip_en": "Go early in the morning or on a weekday – on summer weekends the road is busy."
+     "tip_en": "Go early in the morning or on a weekday – on summer weekends the road is busy.",
+     "free": true
     },
     {
      "name": "Hornisgrinde – höchster Gipfel des Nordschwarzwalds",
@@ -78,7 +79,8 @@
      "name_en": "Titisee & Feldberg",
      "q": "Titisee Feldberg Schwarzwald",
      "tip": "Starte am Feldberg früh und fahr am Nachmittag zum Titisee – dann ist es dort noch gut aushaltbar.",
-     "tip_en": "Start at the Feldberg early and drive to Titisee in the afternoon – it is still bearable there then."
+     "tip_en": "Start at the Feldberg early and drive to Titisee in the afternoon – it is still bearable there then.",
+     "free": true
     },
     {
      "name": "Baden-Baden",
@@ -150,7 +152,8 @@
      "gem": true,
      "q": "Ravennaschlucht Hinterzarten",
      "tip": "Geh am Morgen – dann ist der Weg leer, und die Sonne scheint ins Tal.",
-     "tip_en": "Go in the morning – then the path is empty and the sun shines into the valley."
+     "tip_en": "Go in the morning – then the path is empty and the sun shines into the valley.",
+     "free": true
     },
     {
      "name": "Wutachschlucht – Wildnis im Südschwarzwald",
@@ -160,7 +163,8 @@
      "gem": true,
      "q": "Wutachschlucht",
      "tip": "Starte früh, nimm Wasser und Proviant mit und prüfe vorher gesperrte Abschnitte.",
-     "tip_en": "Start early, take water and snacks and check closed sections beforehand."
+     "tip_en": "Start early, take water and snacks and check closed sections beforehand.",
+     "free": true
     },
     {
      "name": "Baumwipfelpfad Bad Wildbad",

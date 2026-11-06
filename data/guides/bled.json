@@ -67,26 +67,28 @@
      "text": "<p>Vor den ersten Reisebussen gehört der See dir allein – nur ein paar Angler und das Wasser. Also früh aufstehen. Die Insel im Bleder See ist übrigens die einzige natürliche Insel Sloweniens.</p>",
      "text_en": "<p>Before the first tour buses the lake is all yours – just a few anglers and the water. So get up early. The island in Lake Bled is, by the way, the only natural island in Slovenia.</p>",
      "tip": "Ein Spaziergang um den See dauert etwa 1,5 bis 2 Stunden. Die Pletna-Ruderer bringen dich zur Insel; sie haben ihr Privileg der Legende nach von Kaiserin Maria Theresia.",
-     "tip_en": "A walk around the lake takes about 1.5 to 2 hours. The pletna rowers take you to the island; according to legend they got their privilege from Empress Maria Theresa."
+     "tip_en": "A walk around the lake takes about 1.5 to 2 hours. The pletna rowers take you to the island; according to legend they got their privilege from Empress Maria Theresa.",
+     "free": true
     },
     {
      "name": "Ojstrica-Aussichtspunkt",
      "name_en": "Ojstrica viewpoint",
      "gem": true,
      "q": "Ojstrica Viewpoint Bled",
-     "text": "<p>Danach bin ich hoch zum Aussichtspunkt Ojstrica gelaufen. Besucher beschreiben den Aufstieg vom See als rund 30 Minuten und steil, die letzten Meter über Fels. Auf Google 4,8 Sterne.</p>",
-     "text_en": "<p>After that I walked up to the Ojstrica viewpoint. Visitors describe the climb from the lake as about 30 minutes and steep, the last stretch over rock. 4.8 stars on Google.</p>",
+     "text": "<p>Danach bin ich hoch zum Aussichtspunkt Ojstrica gelaufen. Der Aufstieg vom See dauert rund 30 Minuten und ist steil, die letzten Meter gehen über Fels.</p>",
+     "text_en": "<p>After that I walked up to the Ojstrica viewpoint. The climb from the lake takes about 30 minutes and is steep, the last stretch goes over rock.</p>",
      "tip": "Feste Schuhe – nach Regen rutschig. Früh am Morgen ist es leerer.",
-     "tip_en": "Sturdy shoes – slippery after rain. It is emptier early in the morning."
+     "tip_en": "Sturdy shoes – slippery after rain. It is emptier early in the morning.",
+     "free": true
     },
     {
      "name": "Burg Bled",
      "name_en": "Bled Castle",
      "q": "Bled Castle",
-     "text": "<p>Die Burg wurde schon im Jahr 1004 erwähnt und gilt als älteste Burg Sloweniens. Auf Google 4,4 Sterne. Der Eintritt ist laut Besuchern recht hoch (ein Besucher nennt 28 €), der Blick vom Hof aber der klassische Postkartenblick.</p>",
-     "text_en": "<p>The castle was already mentioned in 1004 and is considered the oldest in Slovenia. 4.4 stars on Google. According to visitors admission is fairly high (one visitor names €28), but the view from the courtyard is the classic postcard view.</p>",
-     "hours": "laut Google täglich ca. 8–18 Uhr",
-     "hours_en": "daily about 8 am–6 pm according to Google",
+     "text": "<p>Die Burg wurde schon im Jahr 1004 erwähnt und gilt als älteste Burg Sloweniens. Der Eintritt ist recht hoch (rund 28 €), der Blick vom Hof aber der klassische Postkartenblick.</p>",
+     "text_en": "<p>The castle was already mentioned in 1004 and is considered the oldest in Slovenia. Admission is fairly high (around €28), but the view from the courtyard is the classic postcard view.</p>",
+     "hours": "täglich ca. 8–18 Uhr",
+     "hours_en": "daily about 8 am–6 pm",
      "tip": "Gegen 10 Uhr ist es noch ruhiger als zur Mittagszeit.",
      "tip_en": "Around 10 am it is calmer than at midday."
     },
@@ -106,7 +108,8 @@
      "name_en": "Walk around the lake",
      "q": "Lake Bled walk",
      "tip": "Starte früh am Morgen.",
-     "tip_en": "Start early in the morning."
+     "tip_en": "Start early in the morning.",
+     "free": true
     }
    ]
   },
@@ -120,15 +123,15 @@
      "name": "Vintgar-Klamm",
      "name_en": "Vintgar Gorge",
      "q": "Soteska Vintgar",
-     "text": "<p>Holzstege über türkisfarbenem Wasser, Wasserfälle und Felswände. Auf Google 4,5 Sterne bei über 24.000 Bewertungen. Die Route ist rund 5–6 km lang. Besucher raten, Tickets vorab online für ein Zeitfenster zu buchen und für den Shuttle vom Parkplatz zum Eingang 15–20 Minuten extra einzuplanen.</p>",
-     "text_en": "<p>Wooden walkways above turquoise water, waterfalls and rock walls. 4.5 stars on Google from over 24,000 reviews. The route is roughly 5–6 km long. Visitors advise booking tickets online in advance for a time slot and allowing an extra 15–20 minutes for the shuttle from the car park to the entrance.</p>"
+     "text": "<p>Holzstege über türkisfarbenem Wasser, Wasserfälle und Felswände. Die Route ist rund 5–6 km lang. Mein Tipp: Tickets vorab online für ein Zeitfenster buchen und für den Shuttle vom Parkplatz zum Eingang 15–20 Minuten extra einplanen.</p>",
+     "text_en": "<p>Wooden walkways above turquoise water, waterfalls and rock walls. The route is roughly 5–6 km long. My tip: book tickets online in advance for a time slot and allow an extra 15–20 minutes for the shuttle from the car park to the entrance.</p>"
     },
     {
      "name": "Bleder Cremeschnitte",
      "name_en": "Bled cream cake",
      "q": "Kavarna Park Bled",
-     "text": "<p>Die Bleder Cremeschnitte (Kremšnita) wird seit 1953 nach demselben Rezept gebacken. Im Café Park am See gibt es sie mit Seeblick; auf Google hat Kavarna Park 4,1 Sterne, Gäste loben vor allem den Kuchen.</p>",
-     "text_en": "<p>The Bled cream cake (kremšnita) has been baked to the same recipe since 1953. At Café Park by the lake you get it with a lake view; Kavarna Park has 4.1 stars on Google, guests mainly praise the cake.</p>",
+     "text": "<p>Die Bleder Cremeschnitte (Kremšnita) wird seit 1953 nach demselben Rezept gebacken. Im Café Park am See gibt es sie mit Seeblick – der Kuchen ist der Grund, warum man hier sitzt.</p>",
+     "text_en": "<p>The Bled cream cake (kremšnita) has been baked to the same recipe since 1953. At Café Park by the lake you get it with a lake view – the cake is the reason to sit here.</p>",
      "tip": "Der Preis fürs Café am See ist gehoben – ein Stück Kuchen reicht für den Blick.",
      "tip_en": "Prices at the lakeside café are upscale – one slice is enough for the view."
     },
@@ -146,7 +149,8 @@
      "name_en": "Lake Bohinj",
      "q": "Lake Bohinj",
      "tip": "Plane einen halben Tag und schwimme im See.",
-     "tip_en": "Plan half a day and swim in the lake."
+     "tip_en": "Plan half a day and swim in the lake.",
+     "free": true
     },
     {
      "name": "Savica-Wasserfall",
@@ -164,7 +168,8 @@
      "name_en": "Triglav National Park & hikes",
      "q": "Triglav National Park",
      "tip": "Plane Touren nach Wetter und Kondition.",
-     "tip_en": "Plan tours according to weather and fitness."
+     "tip_en": "Plan tours according to weather and fitness.",
+     "free": true
     }
    ]
   },

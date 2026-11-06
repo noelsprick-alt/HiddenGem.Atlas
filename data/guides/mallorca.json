@@ -70,8 +70,8 @@
    "id": "anreise",
    "h": "So kommst du nach Mallorca und herum",
    "h_en": "Getting to Mallorca and around",
-   "html": "<h3>Anreise</h3><p>Flughafen ist Palma de Mallorca (PMI). Von dort fahren Busse in die Innenstadt (EMT-Flughafenlinie; laut Anbietern rund 5 € pro Fahrt, Linien und Preise vorab prüfen) – zu Fuß in die Altstadt brauchst du vom Zentrum nicht lang.</p><h3>Bus</h3><p>Innerhalb von Palma fahren die EMT-Busse (Einzelfahrt etwa 2 € bar). Zwischen den Orten die TIB-Überlandbusse: kurze Strecken ab etwa 3 €, längere bis etwa 10–13,50 € bar; mit der aufladbaren Karte sind sie günstiger bzw. nach Angabe von Anbietern teils kostenlos – das ändert sich, also vorher auf der TIB-Seite prüfen. Nach Valldemossa fährt die Linie 210 ab dem Busbahnhof Estació Intermodal (etwa 30–40 Minuten).</p><h3>Historischer Zug nach Sóller</h3><p>Der Holzzug Palma–Sóller kostet laut Anbietern etwa 22–23 € einfach, die Straßenbahn weiter nach Port de Sóller etwa 9–10 €. Kombitickets sind meist günstiger. Beide sind nicht in den Verkehrs-Freikarten enthalten.</p><h3>Mietwagen</h3><p>Für Buchten wie Cala Màrmols oder s'Almunia und für die Dörfer der Tramuntana lohnt sich ein Auto. In der Hochsaison sind Parkplätze an den Highlights früh voll – Noels Rat: früh los.</p>",
-   "html_en": "<h3>Arrival</h3><p>The airport is Palma de Mallorca (PMI). Buses run from there to the city centre (EMT airport line; around €5 a trip according to operators, check lines and prices beforehand) – from the centre it is a short walk into the old town.</p><h3>Bus</h3><p>Inside Palma the EMT buses (single about €2 cash). Between towns the TIB intercity buses: short trips from about €3, longer ones up to around €10–13.50 cash; with the rechargeable card they are cheaper or, according to providers, partly free – this changes, so check the TIB site first. To Valldemossa runs line 210 from the Estació Intermodal bus station (about 30–40 minutes).</p><h3>Historic train to Sóller</h3><p>The wooden train Palma–Sóller costs about €22–23 one way according to operators, the tram onward to Port de Sóller about €9–10. Combined tickets are usually cheaper. Neither is covered by the free-travel cards.</p><h3>Rental car</h3><p>For coves like Cala Màrmols or s'Almunia and the villages of the Tramuntana a car pays off. In high season parking at the highlights fills early – Noel’s advice: start early.</p>"
+   "html": "<h3>Anreise</h3><p>Flughafen ist Palma de Mallorca (PMI). Von dort fahren Busse in die Innenstadt (EMT-Flughafenlinie; rund 5 € pro Fahrt, Linien und Preise vorab prüfen) – zu Fuß in die Altstadt brauchst du vom Zentrum nicht lang.</p><h3>Bus</h3><p>Innerhalb von Palma fahren die EMT-Busse (Einzelfahrt etwa 2 € bar). Zwischen den Orten die TIB-Überlandbusse: kurze Strecken ab etwa 3 €, längere bis etwa 10–13,50 € bar; mit der aufladbaren Karte sind sie günstiger bzw. nach Angabe von Anbietern teils kostenlos – das ändert sich, also vorher auf der TIB-Seite prüfen. Nach Valldemossa fährt die Linie 210 ab dem Busbahnhof Estació Intermodal (etwa 30–40 Minuten).</p><h3>Historischer Zug nach Sóller</h3><p>Der Holzzug Palma–Sóller kostet etwa 22–23 € einfach, die Straßenbahn weiter nach Port de Sóller etwa 9–10 €. Kombitickets sind meist günstiger. Beide sind nicht in den Verkehrs-Freikarten enthalten.</p><h3>Mietwagen</h3><p>Für Buchten wie Cala Màrmols oder s'Almunia und für die Dörfer der Tramuntana lohnt sich ein Auto. In der Hochsaison sind Parkplätze an den Highlights früh voll – Noels Rat: früh los.</p>",
+   "html_en": "<h3>Arrival</h3><p>The airport is Palma de Mallorca (PMI). Buses run from there to the city centre (EMT airport line; around €5 a trip, check lines and prices beforehand) – from the centre it is a short walk into the old town.</p><h3>Bus</h3><p>Inside Palma the EMT buses (single about €2 cash). Between towns the TIB intercity buses: short trips from about €3, longer ones up to around €10–13.50 cash; with the rechargeable card they are cheaper or partly free – this changes, so check the TIB site first. To Valldemossa runs line 210 from the Estació Intermodal bus station (about 30–40 minutes).</p><h3>Historic train to Sóller</h3><p>The wooden train Palma–Sóller costs about €22–23 one way, the tram onward to Port de Sóller about €9–10. Combined tickets are usually cheaper. Neither is covered by the free-travel cards.</p><h3>Rental car</h3><p>For coves like Cala Màrmols or s'Almunia and the villages of the Tramuntana a car pays off. In high season parking at the highlights fills early – Noel’s advice: start early.</p>"
   },
   {
    "type": "spots",
@@ -89,24 +89,26 @@
      "text_en": "<p>A cove in the south with no road and no kiosk – you only get there on foot or by boat. The scramble down over the rocks is worth it: turquoise water and a rock arch as if someone had put it there. The walk from the lighthouse at Cap de ses Salines takes roughly 1 to 2 hours each way depending on your pace and is stony throughout.</p><p>Take enough water, sun protection and sturdy shoes – there is no shade and no supplies on the way. The cove lies near the Cap de ses Salines nature area; in high summer it is worth starting early in the morning.</p>",
      "hours": "Strand frei zugänglich; keine Toiletten, kein Kiosk",
      "hours_en": "beach freely accessible; no toilets, no kiosk",
-     "tip": "Feste Schuhe statt Flip-Flops, viel Wasser, Hut und Sonnencreme – es gibt kaum Schatten. Im Sommer früh los. Bleib auf dem offiziellen Weg: Auf einer Abkürzung über Privatgrund hat sich laut Besuchern schon ein Eigentümer beschwert. Und nimm einen Rucksack statt einer Strandtasche, damit du beim steilen Abstieg die Hände frei hast.",
-     "tip_en": "Sturdy shoes instead of flip-flops, plenty of water, hat and sunscreen – there is hardly any shade. In summer start early. Stay on the official path: visitors report that an owner has already complained about a shortcut across private land. And take a rucksack instead of a beach tote so you have your hands free on the steep descent.",
+     "tip": "Feste Schuhe statt Flip-Flops, viel Wasser, Hut und Sonnencreme – es gibt kaum Schatten. Im Sommer früh los. Bleib auf dem offiziellen Weg: Auf einer Abkürzung über Privatgrund hat sich schon ein Eigentümer beschwert. Und nimm einen Rucksack statt einer Strandtasche, damit du beim steilen Abstieg die Hände frei hast.",
+     "tip_en": "Sturdy shoes instead of flip-flops, plenty of water, hat and sunscreen – there is hardly any shade. In summer start early. Stay on the official path: shortcuts across private land have caused trouble with owners before. And take a rucksack instead of a beach tote so you have your hands free on the steep descent.",
      "photos": [
       "images/photos/cala-marmols-abstieg.webp",
       "images/video/cala-marmols.mp4"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Cala s'Almunia",
      "gem": true,
      "q": "Cala s'Almunia Santanyí",
-     "text": "<p>Bei der Cala s'Almunia liegen die alten Bootshäuser der Fischer direkt am Wasser. Es ist eher eine kleine Felsbucht als ein Sandstrand – dafür glasklar und gut zum Schnorcheln. Der Zugang führt über Stufen, und der Weg vom Parkplatz dauert nach Besucherberichten rund 10–20 Minuten.</p><p>Der Reiz liegt im Gesamtbild: die alten Bootshäuser, das klare Wasser und die Ruhe. Besucher raten, Badeschuhe mitzunehmen, weil der Einstieg felsig ist. Vor allem am späten Nachmittag, wenn weniger Leute da sind, ist die Stimmung besonders schön.</p>",
-     "text_en": "<p>At Cala s'Almunia the fishermen’s old boathouses sit right on the water. It is more a small rocky cove than a sandy beach – but crystal clear and good for snorkelling. Access is via steps, and the walk from the car park takes about 10–20 minutes according to visitors.</p><p>The appeal lies in the overall picture: the old boathouses, the clear water and the calm. Visitors advise bringing swim shoes because the entry is rocky. Especially in the late afternoon, when fewer people are there, the mood is particularly lovely.</p>",
+     "text": "<p>Bei der Cala s'Almunia liegen die alten Bootshäuser der Fischer direkt am Wasser. Es ist eher eine kleine Felsbucht als ein Sandstrand – dafür glasklar und gut zum Schnorcheln. Der Zugang führt über Stufen, der Weg vom Parkplatz dauert rund 10–20 Minuten.</p><p>Der Reiz liegt im Gesamtbild: die alten Bootshäuser, das klare Wasser und die Ruhe. Nimm Badeschuhe mit, der Einstieg ist felsig. Vor allem am späten Nachmittag, wenn weniger Leute da sind, ist die Stimmung besonders schön.</p>",
+     "text_en": "<p>At Cala s'Almunia the fishermen’s old boathouses sit right on the water. It is more a small rocky cove than a sandy beach – but crystal clear and good for snorkelling. Access is via steps, and the walk from the car park takes about 10–20 minutes.</p><p>The appeal lies in the overall picture: the old boathouses, the clear water and the calm. Bring swim shoes – the entry is rocky. Especially in the late afternoon, when fewer people are there, the mood is particularly lovely.</p>",
      "tip": "Wasserschuhe mitnehmen, die Felsen sind scharf. Im Hochsommer ist die Bucht kein Geheimtipp mehr – früh am Morgen oder im Frühjahr/September hast du deutlich mehr Platz.",
      "tip_en": "Bring water shoes, the rocks are sharp. In high summer the cove is no secret any more – early morning or spring/September gives you much more space.",
      "photos": [
       "images/video/cala-almunia.mp4"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Es Pontàs",
@@ -114,8 +116,8 @@
      "q": "Mirador del Pontàs Cala Santanyí",
      "text": "<p>Ein riesiger Felsbogen im Meer, der wie eine Brücke aussieht. Vom Aussichtspunkt (Mirador) siehst du ihn und die Steilküste – am schönsten bei Sonnenaufgang oder Sonnenuntergang. Der Fußweg ab Cala Santanyí ist kurz, etwa 10–15 Minuten, aber felsig.</p>",
      "text_en": "<p>A huge rock arch in the sea that looks like a bridge. From the viewpoint (Mirador) you see it and the cliff coast – most beautiful at sunrise or sunset. The walk from Cala Santanyí is short, about 10–15 minutes, but rocky.</p>",
-     "tip": "Gib in Google Maps „Mirador del Pontàs“ ein – der Eintrag „Es Pontàs“ führt laut Besuchern an einen falschen Ort bzw. auf Privatgrund. Schwimmen nur bei ruhigem Wasser und nur gute Schwimmer.",
-     "tip_en": "Enter “Mirador del Pontàs” in Google Maps – the entry “Es Pontàs” leads to a wrong spot or private land according to visitors. Swim only in calm water and only if you are a strong swimmer."
+     "tip": "Gib in Google Maps „Mirador del Pontàs“ ein – der Eintrag „Es Pontàs“ führt an einen falschen Ort bzw. auf Privatgrund. Schwimmen nur bei ruhigem Wasser und nur gute Schwimmer.",
+     "tip_en": "Enter “Mirador del Pontàs” in Google Maps – the entry “Es Pontàs” leads to a wrong spot or private land. Swim only in calm water and only if you are a strong swimmer."
     },
     {
      "name": "Es Trenc – der lange, wilde Strand",
@@ -124,7 +126,8 @@
      "name_en": "Es Trenc – the long, wild beach",
      "q": "Es Trenc beach Mallorca",
      "tip": "Komm vormittags oder im Frühjahr/Herbst; im Hochsommer ist das Parken der Engpass.",
-     "tip_en": "Come in the morning or in spring/autumn; in high summer parking is the bottleneck."
+     "tip_en": "Come in the morning or in spring/autumn; in high summer parking is the bottleneck.",
+     "free": true
     }
    ]
   },
@@ -152,10 +155,10 @@
      "name_en": "Paella cooking class at Moltak",
      "gem": true,
      "q": "MOLTAK Carrer de la Indústria 9 Palma",
-     "text": "<p>Bei Moltak habe ich in einer alten Windmühle Paella kochen gelernt – Schürze an, große Pfanne, jede Menge Gelächter. In Googles Bewertungen steht Moltak mit 5,0 Sternen bei rund 800 Bewertungen; Gäste loben vor allem die lockere Atmosphäre und dass man die Rezepte mitnehmen kann.</p>",
-     "text_en": "<p>At Moltak I learned to cook paella in an old windmill – apron on, big pan, lots of laughter. On Google Moltak has a 5.0-star rating from around 800 reviews; guests mainly praise the relaxed atmosphere and that you can take the recipes home.</p>",
-     "hours": "laut Google täglich geöffnet (Mittag und Abend)",
-     "hours_en": "open daily according to Google (lunch and evening)",
+     "text": "<p>Bei Moltak habe ich in einer alten Windmühle Paella kochen gelernt – Schürze an, große Pfanne, jede Menge Gelächter. Das Beste: die lockere Atmosphäre – und du nimmst die Rezepte mit nach Hause.</p>",
+     "text_en": "<p>At Moltak I learned to cook paella in an old windmill – apron on, big pan, lots of laughter. The best part: the relaxed atmosphere – and you take the recipes home.</p>",
+     "hours": "täglich geöffnet (Mittag und Abend)",
+     "hours_en": "open daily (lunch and evening)",
      "tip": "Vorher buchen – gerade abends sind die Plätze begehrt. Plane einen Tag ohne langen Ausflug dafür ein.",
      "tip_en": "Book ahead – evening slots especially are popular. Plan a day without a long excursion for it.",
      "photos": [
@@ -231,7 +234,8 @@
      "gem": true,
      "q": "Deià Mallorca",
      "tip": "Fahr früh hin oder im Frühling/Herbst, dann hast du das Dorf fast für dich.",
-     "tip_en": "Go early or in spring/autumn, then you have the village almost to yourself."
+     "tip_en": "Go early or in spring/autumn, then you have the village almost to yourself.",
+     "free": true
     },
     {
      "name": "Cap de Formentor",
@@ -256,10 +260,10 @@
      "name": "Qanat de Treurer",
      "gem": true,
      "q": "Restaurant Qanat de Treurer Algaida",
-     "text": "<p>Fine Dining zwischen Olivenbäumen bei Algaida, mit einer Terrasse, die zur goldenen Stunde leuchtet. Bei Google steht das Restaurant mit 4,8 Sternen (rund 60 Bewertungen); Gäste erwähnen besonders die Terrasse, das Grillmenü und die Olivenöl-Führung.</p>",
-     "text_en": "<p>Fine dining among olive trees near Algaida, with a terrace that glows at golden hour. On Google the restaurant has 4.8 stars (around 60 reviews); guests particularly mention the terrace, the barbecue night and the olive-oil tour.</p>",
-     "hours": "laut Google nur abends (ca. 18:30–21:30), montags geschlossen",
-     "hours_en": "evenings only according to Google (about 6:30–9:30 pm), closed Mondays",
+     "text": "<p>Fine Dining zwischen Olivenbäumen bei Algaida, mit einer Terrasse, die zur goldenen Stunde leuchtet. Besonders schön: die Terrasse, das Grillmenü und die Olivenöl-Führung.</p>",
+     "text_en": "<p>Fine dining among olive trees near Algaida, with a terrace that glows at golden hour. Especially good: the terrace, the barbecue night and the olive-oil tour.</p>",
+     "hours": "nur abends (ca. 18:30–21:30), montags geschlossen",
+     "hours_en": "evenings only (about 6:30–9:30 pm), closed Mondays",
      "price": "gehobene Preisklasse",
      "price_en": "upscale prices",
      "tip": "Reservieren, und komm früh genug, um die Terrasse zur goldenen Stunde zu erwischen.",
@@ -281,7 +285,8 @@
      "photos": [
       "images/video/vilafranca-markt.mp4",
       "images/video/vilafranca-prozession.mp4"
-     ]
+     ],
+     "free": true
     }
    ]
   },

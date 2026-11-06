@@ -63,11 +63,12 @@
     },
     {
      "name": "Barrage Vauban",
-     "text": "<p>Die Dachterrasse mit Blick auf Petite France und Münster – kostenlos. Auf Google 4,6 Sterne. Besucher nennen Öffnung bis ca. 19 Uhr.</p><p>Der Barrage Vauban ist eine überdachte Brücke aus dem späten 17. Jahrhundert, die als Teil der Stadtbefestigung gebaut wurde. Auf dem Dach liegt eine Terrasse, die du kostenlos betreten kannst. Von dort hast du einen Blick auf die Ill, La Petite France, die Gedeckten Brücken und das Münster.</p><p>Im Inneren siehst du Skulpturen aus dem Museum der Stadt. Die Terrasse ist bis etwa zum frühen Abend geöffnet (Zeiten vorher prüfen); Sonnenuntergang ist besonders schön.</p>",
-     "text_en": "<p>The roof terrace with a view of Petite France and the cathedral – free. 4.6 stars on Google. Visitors mention opening until about 7 pm.</p><p>The Barrage Vauban is a covered bridge from the late 17th century, built as part of the city fortifications. On the roof lies a terrace that you can enter free of charge. From there you have a view of the Ill, La Petite France, the Covered Bridges and the cathedral.</p><p>Inside you see sculptures from the city’s museum. The terrace is open until about early evening (check times beforehand); sunset is especially beautiful.</p>",
+     "text": "<p>Die Dachterrasse mit Blick auf Petite France und Münster – kostenlos. Geöffnet bis ca. 19 Uhr.</p><p>Der Barrage Vauban ist eine überdachte Brücke aus dem späten 17. Jahrhundert, die als Teil der Stadtbefestigung gebaut wurde. Auf dem Dach liegt eine Terrasse, die du kostenlos betreten kannst. Von dort hast du einen Blick auf die Ill, La Petite France, die Gedeckten Brücken und das Münster.</p><p>Im Inneren siehst du Skulpturen aus dem Museum der Stadt. Die Terrasse ist bis etwa zum frühen Abend geöffnet (Zeiten vorher prüfen); Sonnenuntergang ist besonders schön.</p>",
+     "text_en": "<p>The roof terrace with a view of Petite France and the cathedral – free. Open until about 7 pm.</p><p>The Barrage Vauban is a covered bridge from the late 17th century, built as part of the city fortifications. On the roof lies a terrace that you can enter free of charge. From there you have a view of the Ill, La Petite France, the Covered Bridges and the cathedral.</p><p>Inside you see sculptures from the city’s museum. The terrace is open until about early evening (check times beforehand); sunset is especially beautiful.</p>",
      "q": "Barrage Vauban Strasbourg",
      "tip": "Geh kurz vor Sonnenuntergang hinauf – dann liegt das Licht warm auf dem Münster.",
-     "tip_en": "Go up shortly before sunset – then the light lies warm on the cathedral."
+     "tip_en": "Go up shortly before sunset – then the light lies warm on the cathedral.",
+     "free": true
     },
     {
      "name": "Kathedrale Notre-Dame de Strasbourg",
@@ -76,7 +77,8 @@
      "name_en": "Strasbourg Cathedral (Notre-Dame)",
      "q": "Cathédrale Notre-Dame de Strasbourg",
      "tip": "Kombiniere den Turm mit der astronomischen Uhr.",
-     "tip_en": "Combine the tower with the astronomical clock."
+     "tip_en": "Combine the tower with the astronomical clock.",
+     "free": true
     },
     {
      "name": "Place Kléber, Place Gutenberg & Maison Kammerzell",
@@ -85,7 +87,8 @@
      "name_en": "Place Kléber, Place Gutenberg & Maison Kammerzell",
      "q": "Maison Kammerzell Strasbourg",
      "tip": "Geh am Abend, wenn die Plätze beleuchtet sind.",
-     "tip_en": "Go in the evening when the squares are lit."
+     "tip_en": "Go in the evening when the squares are lit.",
+     "free": true
     },
     {
      "name": "Palais Rohan & Museen",
@@ -131,7 +134,8 @@
      "gem": true,
      "q": "Neustadt Strasbourg",
      "tip": "Geh zu Fuß vom Place de la République in Richtung Universität.",
-     "tip_en": "Walk from Place de la République towards the university."
+     "tip_en": "Walk from Place de la République towards the university.",
+     "free": true
     },
     {
      "name": "Jardin des Deux Rives – Brücke nach Deutschland",
@@ -141,7 +145,8 @@
      "gem": true,
      "q": "Jardin des Deux Rives Strasbourg",
      "tip": "Nimm die Tram bis Port du Rhin und geh über die Brücke.",
-     "tip_en": "Take the tram to Port du Rhin and walk across the bridge."
+     "tip_en": "Take the tram to Port du Rhin and walk across the bridge.",
+     "free": true
     },
     {
      "name": "Winstub-Essen: Flammkuchen, Choucroute & Baeckeoffe",
@@ -161,7 +166,8 @@
      "gem": true,
      "q": "Marché de Noël Strasbourg",
      "tip": "Komm unter der Woche und früh am Tag; abends bleibst du für die Lichter.",
-     "tip_en": "Come on a weekday and early in the day; stay in the evening for the lights."
+     "tip_en": "Come on a weekday and early in the day; stay in the evening for the lights.",
+     "free": true
     }
    ]
   },

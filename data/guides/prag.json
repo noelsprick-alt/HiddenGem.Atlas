@@ -107,20 +107,22 @@
      "tip_en": "Come at 7 am or after dark. By day the bridge is mainly worth it as a way across – take photos early or late.",
      "photos": [
       "images/video/prag-karlsbruecke.mp4"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Altstädter Ring & Astronomische Uhr (Orloj)",
-     "text": "<p>Der Altstädter Ring (Staroměstské náměstí) ist das historische Wohnzimmer von Prag: ein großer Platz, umgeben von bunten Giebelhäusern, dem Altstädter Rathaus und der doppeltürmigen Teynkirche. In der Mitte steht das Jan-Hus-Denkmal, das 1915 enthüllt wurde.</p><p>Das Highlight ist die Astronomische Uhr (Orloj) am Rathausturm, die seit 1410 läuft und als älteste noch funktionierende astronomische Uhr der Welt gilt. Zu jeder vollen Stunde – laut Besucherinfos etwa von 9 bis 21 Uhr – defiliert eine Apostelfigur-Prozession am oberen Fenster vorbei, begleitet vom Tod, der die Glocke läutet. Ehrlich gesagt ist die Show kurz und der Platz dann überfüllt; wer das Spektakel erleben will, steht besser 10 Minuten vorher am Rand.</p><p>Vom Rathausturm kommst du mit dem Aufzug nach oben und hast einen weiten Blick über die roten Dächer. Eintritt und Zeiten bitte vorab prüfen; das Innere des Rathauses ist nur teilweise zugänglich.</p>",
-     "text_en": "<p>The Old Town Square (Staroměstské náměstí) is Prague’s historic living room: a large square surrounded by colourful gabled houses, the Old Town Hall and the twin-towered Týn Church. In the middle stands the Jan Hus Monument, unveiled in 1915.</p><p>The highlight is the Astronomical Clock (Orloj) on the town hall tower, which has run since 1410 and is regarded as the oldest astronomical clock still working. Every full hour – roughly 9 am to 9 pm according to visitor information – a procession of apostle figures passes the upper window, accompanied by Death ringing the bell. Frankly the show is short and the square is packed then; if you want to see it, stand at the edge 10 minutes early.</p><p>From the town hall tower you get up by lift and have a wide view over the red roofs. Please check admission and times beforehand; the town hall interior is only partly accessible.</p>",
+     "text": "<p>Der Altstädter Ring (Staroměstské náměstí) ist das historische Wohnzimmer von Prag: ein großer Platz, umgeben von bunten Giebelhäusern, dem Altstädter Rathaus und der doppeltürmigen Teynkirche. In der Mitte steht das Jan-Hus-Denkmal, das 1915 enthüllt wurde.</p><p>Das Highlight ist die Astronomische Uhr (Orloj) am Rathausturm, die seit 1410 läuft und als älteste noch funktionierende astronomische Uhr der Welt gilt. Zu jeder vollen Stunde – etwa von 9 bis 21 Uhr – defiliert eine Apostelfigur-Prozession am oberen Fenster vorbei, begleitet vom Tod, der die Glocke läutet. Ehrlich gesagt ist die Show kurz und der Platz dann überfüllt; wer das Spektakel erleben will, steht besser 10 Minuten vorher am Rand.</p><p>Vom Rathausturm kommst du mit dem Aufzug nach oben und hast einen weiten Blick über die roten Dächer. Eintritt und Zeiten bitte vorab prüfen; das Innere des Rathauses ist nur teilweise zugänglich.</p>",
+     "text_en": "<p>The Old Town Square (Staroměstské náměstí) is Prague’s historic living room: a large square surrounded by colourful gabled houses, the Old Town Hall and the twin-towered Týn Church. In the middle stands the Jan Hus Monument, unveiled in 1915.</p><p>The highlight is the Astronomical Clock (Orloj) on the town hall tower, which has run since 1410 and is regarded as the oldest astronomical clock still working. Every full hour – roughly 9 am to 9 pm – a procession of apostle figures passes the upper window, accompanied by Death ringing the bell. Frankly the show is short and the square is packed then; if you want to see it, stand at the edge 10 minutes early.</p><p>From the town hall tower you get up by lift and have a wide view over the red roofs. Please check admission and times beforehand; the town hall interior is only partly accessible.</p>",
      "name_en": "Old Town Square & the Astronomical Clock (Orloj)",
      "q": "Prague Astronomical Clock",
-     "hours": "Platz immer; Rathausturm laut Betreiber täglich, Zeiten prüfen",
-     "hours_en": "square always; town hall tower daily according to the operator, check times",
+     "hours": "Platz immer; Rathausturm täglich, Zeiten prüfen",
+     "hours_en": "square always; town hall tower daily, check times",
      "price": "Platz kostenlos; Turm gegen Eintritt",
      "price_en": "square free; tower with admission",
      "tip": "Komm früh am Morgen oder spät am Abend, wenn die Reisegruppen weg sind. Mittags und zur vollen Stunde ist der Platz am vollsten.",
-     "tip_en": "Come early in the morning or late in the evening when the tour groups are gone. Midday and on the hour the square is at its fullest."
+     "tip_en": "Come early in the morning or late in the evening when the tour groups are gone. Midday and on the hour the square is at its fullest.",
+     "free": true
     },
     {
      "name": "Kleinseite: Nerudova, Lennon-Mauer & Kampa",
@@ -142,8 +144,8 @@
      "name_en": "Josefov – the Jewish Quarter",
      "gem": true,
      "q": "Jewish Quarter Josefov Prague",
-     "hours": "laut Jüdischem Museum meist So–Fr, samstags und an jüdischen Feiertagen geschlossen",
-     "hours_en": "according to the Jewish Museum usually Sun–Fri, closed Saturdays and on Jewish holidays",
+     "hours": "meist So–Fr, samstags und an jüdischen Feiertagen geschlossen",
+     "hours_en": "usually Sun–Fri, closed Saturdays and on Jewish holidays",
      "price": "Sammelticket, Preis vorab auf jewishmuseum.cz prüfen",
      "price_en": "combined ticket, check the price beforehand at jewishmuseum.cz",
      "tip": "Plane mindestens 2–3 Stunden ein und reserviere in der Hochsaison online – der Friedhof ist am Vormittag am stillsten.",
@@ -151,8 +153,8 @@
     },
     {
      "name": "Petřín: Aussichtsturm, Rosengarten & Hungermauer",
-     "text": "<p>Der Petřín ist Prags grüner Hügel über der Kleinseite – ein Park mit Obstgärten, einem Rosengarten und einem Aussichtsturm, der 1891 nach dem Vorbild des Eiffelturms gebaut wurde (rund 63 Meter hoch, etwa 299 Stufen). Von oben siehst du die ganze Stadt, die Moldau und die Burg.</p><p>Hoch fährst du bequem mit der Standseilbahn, die an der Kleinseite (Újezd) startet; laut Betreibern gilt dafür ein normales Nahverkehrsticket – aktuelle Regeln bitte vor Ort prüfen. Auf dem Hügel verläuft außerdem die Hungermauer (Hladová zeď) aus dem 14. Jahrhundert, die der Überlieferung nach als Arbeitsbeschaffung für die Armen gebaut wurde.</p><p>Der Petřín ist ideal für einen späten Nachmittag, wenn das Licht weich wird und die Kleinseite unter dir golden leuchtet. Ein Spaziergang bergab zurück zur Kleinseite dauert rund 20–30 Minuten.</p>",
-     "text_en": "<p>Petřín is Prague’s green hill above the Lesser Town – a park with orchards, a rose garden and a lookout tower built in 1891 after the model of the Eiffel Tower (about 63 metres high, roughly 299 steps). From the top you see the whole city, the Vltava and the castle.</p><p>You go up comfortably by funicular, which starts in the Lesser Town (Újezd); according to the operators a normal public transport ticket applies – please check the current rules on site. The 14th-century Hunger Wall (Hladová zeď) also runs across the hill; according to tradition it was built as a job scheme for the poor.</p><p>Petřín is ideal for a late afternoon, when the light gets soft and the Lesser Town glows golden below you. A walk downhill back to the Lesser Town takes about 20–30 minutes.</p>",
+     "text": "<p>Der Petřín ist Prags grüner Hügel über der Kleinseite – ein Park mit Obstgärten, einem Rosengarten und einem Aussichtsturm, der 1891 nach dem Vorbild des Eiffelturms gebaut wurde (rund 63 Meter hoch, etwa 299 Stufen). Von oben siehst du die ganze Stadt, die Moldau und die Burg.</p><p>Hoch fährst du bequem mit der Standseilbahn, die an der Kleinseite (Újezd) startet; meist gilt dafür ein normales Nahverkehrsticket – aktuelle Regeln bitte vor Ort prüfen. Auf dem Hügel verläuft außerdem die Hungermauer (Hladová zeď) aus dem 14. Jahrhundert, die der Überlieferung nach als Arbeitsbeschaffung für die Armen gebaut wurde.</p><p>Der Petřín ist ideal für einen späten Nachmittag, wenn das Licht weich wird und die Kleinseite unter dir golden leuchtet. Ein Spaziergang bergab zurück zur Kleinseite dauert rund 20–30 Minuten.</p>",
+     "text_en": "<p>Petřín is Prague’s green hill above the Lesser Town – a park with orchards, a rose garden and a lookout tower built in 1891 after the model of the Eiffel Tower (about 63 metres high, roughly 299 steps). From the top you see the whole city, the Vltava and the castle.</p><p>You go up comfortably by funicular, which starts in the Lesser Town (Újezd); a normal public transport ticket usually applies – please check the current rules on site. The 14th-century Hunger Wall (Hladová zeď) also runs across the hill; according to tradition it was built as a job scheme for the poor.</p><p>Petřín is ideal for a late afternoon, when the light gets soft and the Lesser Town glows golden below you. A walk downhill back to the Lesser Town takes about 20–30 minutes.</p>",
      "name_en": "Petřín: lookout tower, rose garden & Hunger Wall",
      "q": "Petřín Lookout Tower Prague",
      "tip": "Fahr mit der Standseilbahn hinauf und lauf bergab zurück – das spart Kraft, und du siehst die Kleinseite von oben.",
@@ -160,8 +162,8 @@
     },
     {
      "name": "Tanzendes Haus (Tančící dům)",
-     "text": "<p>Am Moldauufer in der Neustadt steht ein Gebäude, das aussieht, als würde es tanzen: das Tanzende Haus („Fred und Ginger“), entworfen von Vlado Milunić und Frank Gehry und 1996 fertiggestellt. Der gläserne Turm „Ginger“ schmiegt sich an den steinernen Turm „Fred“ – ein bewusster Bruch mit den barocken und gotischen Nachbarn.</p><p>Von außen ist es schnell abgehakt, aber der Spaziergang am Fluss lohnt sich: Von der Uferpromenade siehst du Burg und Brücken, und auf dem Dach gibt es laut Betreibern ein Restaurant und eine Aussichtsterrasse (Öffnungszeiten und Preise vorher prüfen).</p><p>Verbinde das Haus mit einem Abstecher in die Neustadt – etwa zur Lucerna-Passage und zum Franziskanergarten, die ich weiter unten beschreibe.</p>",
-     "text_en": "<p>On the Vltava embankment in the New Town stands a building that looks as if it were dancing: the Dancing House (“Fred and Ginger”), designed by Vlado Milunić and Frank Gehry and completed in 1996. The glass tower “Ginger” nestles against the stone tower “Fred” – a deliberate break with the baroque and Gothic neighbours.</p><p>From the outside it is quickly ticked off, but the walk along the river is worth it: from the promenade you see the castle and bridges, and on the roof there is, according to the operators, a restaurant and a viewing terrace (check opening hours and prices beforehand).</p><p>Combine the house with a detour into the New Town – for example to the Lucerna Arcade and the Franciscan Garden, which I describe below.</p>",
+     "text": "<p>Am Moldauufer in der Neustadt steht ein Gebäude, das aussieht, als würde es tanzen: das Tanzende Haus („Fred und Ginger“), entworfen von Vlado Milunić und Frank Gehry und 1996 fertiggestellt. Der gläserne Turm „Ginger“ schmiegt sich an den steinernen Turm „Fred“ – ein bewusster Bruch mit den barocken und gotischen Nachbarn.</p><p>Von außen ist es schnell abgehakt, aber der Spaziergang am Fluss lohnt sich: Von der Uferpromenade siehst du Burg und Brücken, und auf dem Dach gibt es ein Restaurant und eine Aussichtsterrasse (Öffnungszeiten und Preise vorher prüfen).</p><p>Verbinde das Haus mit einem Abstecher in die Neustadt – etwa zur Lucerna-Passage und zum Franziskanergarten, die ich weiter unten beschreibe.</p>",
+     "text_en": "<p>On the Vltava embankment in the New Town stands a building that looks as if it were dancing: the Dancing House (“Fred and Ginger”), designed by Vlado Milunić and Frank Gehry and completed in 1996. The glass tower “Ginger” nestles against the stone tower “Fred” – a deliberate break with the baroque and Gothic neighbours.</p><p>From the outside it is quickly ticked off, but the walk along the river is worth it: from the promenade you see the castle and bridges, and on the roof there is a restaurant and a viewing terrace (check opening hours and prices beforehand).</p><p>Combine the house with a detour into the New Town – for example to the Lucerna Arcade and the Franciscan Garden, which I describe below.</p>",
      "name_en": "Dancing House (Tančící dům)",
      "q": "Dancing House Prague",
      "tip": "Komm am späten Nachmittag, dann hast du Licht auf dem Fluss und die Silhouette der Burg im Hintergrund.",
@@ -186,8 +188,8 @@
      "text_en": "<p>A baroque terraced garden hidden behind an unremarkable passage off Karmelitská street – which is exactly why it is rarely crowded. It was laid out around 1720 and climbs the hillside in terraces. From the top level you look over the rooftops of the Lesser Town all the way to the castle.</p><p>The garden belongs to the World Heritage of Prague’s historic centre. The baroque ensemble was laid out to plans by František Maxmilián Kaňka; the sculptures are by Matthias Bernard Braun, the ceiling paintings in the garden hall by Václav Vavřinec Reiner. That very mix of architecture, sculpture and view makes it one of the most beautiful baroque gardens north of the Alps – at least that is what the operators say.</p><p>Allow about 45–60 minutes. The entrance is inconspicuous on Karmelitská street; if you miss it, you are not alone.</p>",
      "hours": "April–Oktober täglich 10–18 Uhr; für den Winter sind keine Zeiten veröffentlicht",
      "hours_en": "April–October daily 10 am–6 pm; no winter hours published",
-     "price": "rund 150 Kč für Erwachsene (laut Betreiber)",
-     "price_en": "about 150 CZK for adults (according to the operator)",
+     "price": "rund 150 Kč für Erwachsene",
+     "price_en": "about 150 CZK for adults",
      "tip": "Je früher, desto ruhiger – gleich nach der Öffnung hast du die Terrassen oft fast für dich.",
      "tip_en": "The earlier the quieter – right after opening you often have the terraces almost to yourself."
     },
@@ -202,7 +204,8 @@
      "price": "kostenlos",
      "price_en": "free",
      "tip": "Der Eingang liegt bei der Metro-Station Malostranská (Linie A). Im Sommer gibt es teils kostenlose Konzerte, und in der Hauptsaison ist samstags der Palast des Senats zugänglich.",
-     "tip_en": "The entrance is by Malostranská metro station (line A). In summer there are sometimes free concerts, and in high season the Senate palace is open on Saturdays."
+     "tip_en": "The entrance is by Malostranská metro station (line A). In summer there are sometimes free concerts, and in high season the Senate palace is open on Saturdays.",
+     "free": true
     },
     {
      "name": "Aufstieg durch den Hirschgraben (Jelení příkop)",
@@ -210,8 +213,8 @@
      "q": "Jelení příkop Praha",
      "text": "<p>Statt die Burg über die vollen Treppen zu erobern, führt dieser Weg ruhiger hinauf – unter anderem durch einen rund 84 Meter langen Fußgängertunnel, unter dem ein kleiner Bach fließt. Oben bist du direkt im Burgareal.</p>",
      "text_en": "<p>Instead of storming the castle up the crowded stairs, this route leads up more quietly – including through a pedestrian tunnel about 84 metres long with a small stream running beneath it. At the top you are right in the castle grounds.</p>",
-     "tip": "Das Goldene Gässchen im Burgareal ist laut Besucherinfo am späten Nachmittag im Ticketsystem frei (ab 16 Uhr, im Sommer ab 17 Uhr). Aktuelle Regeln vor Ort prüfen.",
-     "tip_en": "According to visitor information the Golden Lane inside the castle is free in the late afternoon (from 4 pm, in summer from 5 pm). Check the current rules on site."
+     "tip": "Das Goldene Gässchen im Burgareal ist am späten Nachmittag im Ticketsystem frei (ab 16 Uhr, im Sommer ab 17 Uhr). Aktuelle Regeln vor Ort prüfen.",
+     "tip_en": "The Golden Lane inside the castle is free in the late afternoon (from 4 pm, in summer from 5 pm). Check the current rules on site."
     },
     {
      "name": "Prager Burg",
@@ -220,7 +223,8 @@
      "text": "<p>Die Höfe und Gärten der Burg kannst du nach der Sicherheitskontrolle kostenlos betreten. Für den Veitsdom und die anderen Gebäude brauchst du ein Rundgang-Ticket. Die Gruppen kommen meist später am Vormittag – wer früh oben ist, hat deutlich mehr Platz.</p><p>Die Burg gilt als größter zusammenhängender Burgkomplex der Welt. Im Zentrum steht der Veitsdom: Die Grundsteinlegung war 1344 unter Karl IV., fertiggestellt wurde er erst 1929 – deshalb wirkt er teils gotisch, teils neugotisch. Zum Burgareal gehören außerdem der Alte Königspalast, die Georgsbasilika und das Goldene Gässchen mit seinen winzigen, bunten Häusern.</p><p>Für die Innenräume brauchst du ein Rundgang-Ticket; die Preise liegen je nach Umfang grob im Bereich von 250–500 Kč (aktuelle Preise und Rundgänge auf hrad.cz prüfen). Höfe und Gärten sind nach der Sicherheitskontrolle frei zugänglich. Plane für den Besuch mindestens einen halben Tag ein.</p>",
      "text_en": "<p>You can walk through the castle courtyards and gardens for free after the security check. For St Vitus Cathedral and the other buildings you need a circuit ticket. Tour groups mostly arrive later in the morning – if you are up early you get much more space.</p><p>The castle counts as the largest coherent castle complex in the world. At its centre stands St Vitus Cathedral: the foundation stone was laid in 1344 under Charles IV, but it was only completed in 1929 – which is why it looks partly Gothic, partly neo-Gothic. The castle area also includes the Old Royal Palace, St George’s Basilica and the Golden Lane with its tiny colourful houses.</p><p>For the interiors you need a circuit ticket; prices are roughly in the range of 250–500 CZK depending on scope (check current prices and circuits at hrad.cz). Courtyards and gardens are freely accessible after the security check. Allow at least half a day for the visit.</p>",
      "tip": "Hoch über die Nerudova-Gasse, runter durch den Hirschgraben – so läufst du keine Strecke doppelt.",
-     "tip_en": "Up via Nerudova street, down through the Stag Moat – that way you never walk a stretch twice."
+     "tip_en": "Up via Nerudova street, down through the Stag Moat – that way you never walk a stretch twice.",
+     "free": true
     }
    ]
   },
@@ -252,14 +256,16 @@
      "hours": "tagsüber geöffnet, Zeiten schwanken je nach Saison",
      "hours_en": "open during the day, hours vary by season",
      "tip": "Direkt davor am Jungmannplatz steht die berühmte kubistische Laterne.",
-     "tip_en": "Right in front of it on Jungmann Square stands the famous Cubist street lamp."
+     "tip_en": "Right in front of it on Jungmann Square stands the famous Cubist street lamp.",
+     "free": true
     },
     {
      "name": "Kubistische Laterne am Jungmannplatz",
      "name_en": "Cubist street lamp on Jungmann Square",
      "q": "Cubist lamp Jungmannovo náměstí Prague",
      "text": "<p>Die Straßenlaterne von 1913 (Entwurf: Emil Králíček) gilt als die einzige kubistische Laterne der Welt – ein kleiner Stopp für alle, die Architektur und Design mögen.</p>",
-     "text_en": "<p>The street lamp from 1913 (designed by Emil Králíček) is considered the only Cubist street lamp in the world – a small stop for anyone who likes architecture and design.</p>"
+     "text_en": "<p>The street lamp from 1913 (designed by Emil Králíček) is considered the only Cubist street lamp in the world – a small stop for anyone who likes architecture and design.</p>",
+     "free": true
     }
    ]
   },
@@ -274,7 +280,8 @@
      "name_en": "Letná Park & the Metronome",
      "q": "Metronome Letná Prague",
      "text": "<p>Im Letná-Park steht ein riesiges Metronom genau dort, wo einmal das größte Stalin-Denkmal der Welt stand. Von hier schaust du über die Moldau auf die Altstadt und die Brücken.</p><p>Das Metronom (23 Meter hoch) wurde 1991 aufgestellt – an der Stelle, an der von 1955 bis 1962 ein gewaltiges Stalin-Denkmal stand. Heute ist der Ort ein beliebter Treffpunkt für Skater, Fotografen und Menschen, die einfach den Sonnenuntergang über der Moldau sehen wollen.</p><p>Der Weg vom Metronom zum Biergarten dauert nur wenige Minuten, du kannst beides also gut kombinieren.</p>",
-     "text_en": "<p>In Letná Park a giant metronome stands exactly where the world’s largest Stalin monument once stood. From here you look across the Vltava to the Old Town and the bridges.</p><p>The metronome (23 metres high) was erected in 1991 – on the spot where a gigantic Stalin monument stood from 1955 to 1962. Today the place is a popular meeting point for skaters, photographers and people who simply want to watch the sunset over the Vltava.</p><p>The walk from the metronome to the beer garden takes only a few minutes, so you can combine the two easily.</p>"
+     "text_en": "<p>In Letná Park a giant metronome stands exactly where the world’s largest Stalin monument once stood. From here you look across the Vltava to the Old Town and the bridges.</p><p>The metronome (23 metres high) was erected in 1991 – on the spot where a gigantic Stalin monument stood from 1955 to 1962. Today the place is a popular meeting point for skaters, photographers and people who simply want to watch the sunset over the Vltava.</p><p>The walk from the metronome to the beer garden takes only a few minutes, so you can combine the two easily.</p>",
+     "free": true
     },
     {
      "name": "Biergarten Letenské sady",
@@ -313,17 +320,19 @@
      "text_en": "<p>On the hill above the Vltava lies the most important cemetery in Czechia – more open-air museum than place of mourning. Among those buried here are the composers Antonín Dvořák and Bedřich Smetana, the painter Alfons Mucha and the writer Karel Čapek. At the eastern end stands the Slavín pantheon.</p><p>Vyšehrad Cemetery was laid out in 1869 and is the final resting place of many figures of Czech culture. The Slavín pantheon at the edge of the grounds, built in 1893, holds the graves of important artists. If you are looking for the graves of the composers Dvořák and Smetana, the list of names at the entrance helps you find them quickly.</p><p>The grounds are especially lovely early in the morning or in autumn when leaves lie between the gravestones – a quiet place that is visited surprisingly little.</p>",
      "hours": "Nov–Feb 8–17 · Mär–Apr 8–18 · Mai–Sep 8–19 · Okt 8–18 Uhr",
      "hours_en": "Nov–Feb 8 am–5 pm · Mar–Apr 8–6 pm · May–Sep 8–7 pm · Oct 8–6 pm",
-     "price": "der Friedhof ist laut Besucherberichten kostenlos, die Basilika kostet Eintritt",
-     "price_en": "the cemetery is free according to visitors, the basilica charges admission",
+     "price": "der Friedhof ist kostenlos, die Basilika kostet Eintritt",
+     "price_en": "the cemetery is free, the basilica charges admission",
      "tip": "Der Eingang liegt links der Peter-und-Paul-Kirche. Eine Namensliste am Eingang zeigt dir, wo die bekannten Gräber liegen.",
-     "tip_en": "The entrance is to the left of the Church of Saints Peter and Paul. A list of names at the entrance shows where the famous graves are."
+     "tip_en": "The entrance is to the left of the Church of Saints Peter and Paul. A list of names at the entrance shows where the famous graves are.",
+     "free": true
     },
     {
      "name": "Festung Vyšehrad",
      "name_en": "Vyšehrad Fortress",
      "q": "Vyšehrad Prague",
      "text": "<p>Die Anlage über der Moldau – mit Basilika, Wällen, kleinen Bistros und freiem Blick auf die Stadt – wird oft die zweite Prager Burg genannt und ist deutlich ruhiger als die große Schwester.</p><p>Zur Festung gehören die Basilika St. Peter und Paul mit ihren neugotischen Türmen, die kleine Rotunde des heiligen Martin aus dem 11. Jahrhundert und weite Wälle, von denen du die Moldau und die Stadt überblickst. Der Überlieferung nach soll hier die sagenhafte Fürstin Libuše Prag vorhergesagt haben.</p><p>Die Anlage ist kostenlos zugänglich, und mit Bistros und Picknickwiesen eignet sie sich gut für eine längere Pause. Von der Metro-Station Vyšehrad bist du in wenigen Minuten oben.</p>",
-     "text_en": "<p>The complex above the Vltava – with its basilica, ramparts, small bistros and open views over the city – is often called Prague’s second castle and is far quieter than its big sister.</p><p>The fortress includes the Basilica of Saints Peter and Paul with its neo-Gothic towers, the small Rotunda of St Martin from the 11th century and wide ramparts from which you overlook the Vltava and the city. According to legend the mythical Princess Libuše is said to have foreseen Prague here.</p><p>The grounds are free to enter, and with bistros and picnic lawns they suit a longer break. From Vyšehrad metro station you are at the top in a few minutes.</p>"
+     "text_en": "<p>The complex above the Vltava – with its basilica, ramparts, small bistros and open views over the city – is often called Prague’s second castle and is far quieter than its big sister.</p><p>The fortress includes the Basilica of Saints Peter and Paul with its neo-Gothic towers, the small Rotunda of St Martin from the 11th century and wide ramparts from which you overlook the Vltava and the city. According to legend the mythical Princess Libuše is said to have foreseen Prague here.</p><p>The grounds are free to enter, and with bistros and picnic lawns they suit a longer break. From Vyšehrad metro station you are at the top in a few minutes.</p>",
+     "free": true
     }
    ]
   },
@@ -340,8 +349,8 @@
      "q": "DOX Centre for Contemporary Art Prague",
      "text": "<p>Ein ehemaliges Industriegebäude in Holešovice mit zeitgenössischer Kunst, Fotografie und Design. Auf dem Dach hängt ein hölzernes Luftschiff namens Gulliver – ein ungewöhnlicher Ort für Ausstellungen und Gespräche.</p><p>DOX wurde 2008 eröffnet und zeigt zeitgenössische Kunst, Fotografie und Design. Auf dem Dach des Gebäudes liegt das 42 Meter lange hölzerne Luftschiff „Gulliver“, in dem Veranstaltungen stattfinden. Der Eintritt wird je nach Ausstellung berechnet – aktuelle Preise und Programm vorab prüfen.</p><p>Holešovice hat sich in den letzten Jahren zu einem der interessantesten Viertel Prags entwickelt, mit Galerien, Cafés und dem Industrie-Charme alter Fabrikgebäude.</p>",
      "text_en": "<p>A former industrial building in Holešovice with contemporary art, photography and design. On the roof sits a wooden airship called Gulliver – an unusual place for exhibitions and talks.</p><p>DOX opened in 2008 and shows contemporary art, photography and design. On the roof lies the 42-metre wooden airship “Gulliver”, in which events take place. Admission depends on the exhibition – check current prices and programme beforehand.</p><p>Holešovice has developed into one of Prague’s most interesting neighbourhoods in recent years, with galleries, cafés and the industrial charm of old factory buildings.</p>",
-     "hours": "Di–So 11–19 Uhr, montags geschlossen (laut Google, vorher prüfen)",
-     "hours_en": "Tue–Sun 11 am–7 pm, closed Mondays (according to Google, check before you go)",
+     "hours": "Di–So 11–19 Uhr, montags geschlossen, vorher prüfen)",
+     "hours_en": "Tue–Sun 11 am–7 pm, closed Mondays (, check before you go)",
      "tip": "Das Viertel rundherum hat viele Cafés und Ateliers – gut für einen ruhigen Nachmittag.",
      "tip_en": "The surrounding neighbourhood has plenty of cafés and studios – good for a calm afternoon."
     },

@@ -65,8 +65,8 @@
     },
     {
      "name": "Rheinturm – eine Uhr",
-     "text": "Die Lichtpunkte am Schaft zeigen die Uhrzeit an (größte Dezimaluhr der Welt). Auf Google 4,5 Sterne.",
-     "text_en": "The light points on the shaft show the time (the world’s largest decimal clock). 4.5 stars on Google.",
+     "text": "Die Lichtpunkte am Schaft zeigen die Uhrzeit an (größte Dezimaluhr der Welt).",
+     "text_en": "The light points on the shaft show the time (the world’s largest decimal clock).",
      "name_en": "Rhine Tower – a clock",
      "q": "Rheinturm Düsseldorf"
     },
@@ -95,7 +95,8 @@
      "name_en": "Old Town & “longest bar in the world”",
      "q": "Altstadt Düsseldorf",
      "tip": "Probiere Altbier in einem traditionellen Brauhaus.",
-     "tip_en": "Try Altbier in a traditional brewhouse."
+     "tip_en": "Try Altbier in a traditional brewhouse.",
+     "free": true
     },
     {
      "name": "Rheinuferpromenade & MedienHafen",
@@ -104,7 +105,8 @@
      "name_en": "Rhine promenade & MedienHafen",
      "q": "MedienHafen Düsseldorf",
      "tip": "Komm am späten Nachmittag.",
-     "tip_en": "Come in the late afternoon."
+     "tip_en": "Come in the late afternoon.",
+     "free": true
     },
     {
      "name": "Königsallee („Kö“)",
@@ -125,25 +127,26 @@
    "spots": [
     {
      "name": "Flingern – mein Lieblingsviertel",
-     "text": "Samstags über den Markt am Hermannplatz, Kuchen im Café Hüftgold (Google 4,4 Sterne), stöbern bei LANGBRETT in der alten Tankstelle und abends in den SKAND Klub.",
-     "text_en": "On Saturday across the market at Hermannplatz, cake at Café Hüftgold (4.4 stars on Google), browsing LANGBRETT in the old petrol station and The SKAND Klub at night.",
+     "text": "Samstags über den Markt am Hermannplatz, Kuchen im Café Hüftgold, stöbern bei LANGBRETT in der alten Tankstelle und abends in den SKAND Klub.",
+     "text_en": "On Saturday across the market at Hermannplatz, cake at Café Hüftgold, browsing LANGBRETT in the old petrol station and The SKAND Klub at night.",
      "name_en": "Flingern – my favourite district",
      "gem": true,
      "q": "Café Hüftgold Düsseldorf",
      "photos": [
       "images/video/flingern-reel.mp4",
       "images/video/flingern-strasse.mp4"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "EKŌ-Haus in Niederkassel",
-     "text": "Ein japanischer buddhistischer Tempel mit Garten und Teehaus. Auf Google 4,6 Sterne. Besucher raten, für das Holzhaus zu reservieren, nur Barzahlung.",
-     "text_en": "A Japanese Buddhist temple with garden and tea house. 4.6 stars on Google. Visitors advise reserving for the wooden house, cash only.",
+     "text": "Ein japanischer buddhistischer Tempel mit Garten und Teehaus. Für das Holzhaus reservieren; nur Barzahlung.",
+     "text_en": "A Japanese Buddhist temple with garden and tea house. Reserve for the wooden house; cash only.",
      "name_en": "EKŌ-Haus in Niederkassel",
      "gem": true,
      "q": "EKŌ-Haus Düsseldorf",
-     "hours": "laut Google Di–Sa ca. 13–17 Uhr",
-     "hours_en": "Tue–Sat about 1–5 pm according to Google"
+     "hours": "Di–Sa ca. 13–17 Uhr",
+     "hours_en": "Tue–Sat about 1–5 pm"
     },
     {
      "name": "Carlsplatz & Markt",
@@ -153,7 +156,8 @@
      "gem": true,
      "q": "Carlsplatz Düsseldorf",
      "tip": "Komm am Vormittag.",
-     "tip_en": "Come in the morning."
+     "tip_en": "Come in the morning.",
+     "free": true
     },
     {
      "name": "Hofgarten & Schloss Benrath",

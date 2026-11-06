@@ -56,26 +56,28 @@
     {
      "name": "Bukchon Hanok Village",
      "q": "Bukchon Hanok Village Seoul",
-     "text": "<p>Morgens durch die alten Holzhäuser. Auf Google 4,4 Sterne. Besucher raten, früh zu kommen und leise zu sein – es ist ein Wohnviertel; laut Google gelten Besuchszeiten (ca. 10–17 Uhr).</p><p>Bukchon Hanok Village liegt zwischen den Palästen Gyeongbokgung und Changdeokgung und besteht aus traditionellen Holzhäusern (Hanok) mit geschwungenen Ziegeldächern. Das Viertel ist ein Wohngebiet; Besucher sollen leise sein und Hausregeln beachten. In einigen Hanok kannst du Tee trinken oder Kunsthandwerk sehen.</p><p>Komm früh am Morgen. Den besten Blick bekommst du in den Gassen mit Aussicht auf die Stadt.</p>",
-     "text_en": "<p>Through the old wooden houses in the morning. 4.4 stars on Google. Visitors advise coming early and keeping quiet – it is a residential area; Google lists visiting hours (about 10 am–5 pm).</p><p>Bukchon Hanok Village lies between the palaces Gyeongbokgung and Changdeokgung and consists of traditional wooden houses (hanok) with curved tiled roofs. The district is a residential area; visitors should be quiet and follow house rules. In some hanok you can drink tea or see crafts.</p><p>Come early in the morning. You get the best view in the lanes with a view over the city.</p>",
+     "text": "<p>Morgens durch die alten Holzhäuser. Komm früh und sei leise – es ist ein Wohnviertel; es gelten Besuchszeiten (ca. 10–17 Uhr).</p><p>Bukchon Hanok Village liegt zwischen den Palästen Gyeongbokgung und Changdeokgung und besteht aus traditionellen Holzhäusern (Hanok) mit geschwungenen Ziegeldächern. Das Viertel ist ein Wohngebiet; Besucher sollen leise sein und Hausregeln beachten. In einigen Hanok kannst du Tee trinken oder Kunsthandwerk sehen.</p><p>Komm früh am Morgen. Den besten Blick bekommst du in den Gassen mit Aussicht auf die Stadt.</p>",
+     "text_en": "<p>Through the old wooden houses in the morning. Come early and keep quiet – it is a residential area; visiting hours apply (about 10 am–5 pm).</p><p>Bukchon Hanok Village lies between the palaces Gyeongbokgung and Changdeokgung and consists of traditional wooden houses (hanok) with curved tiled roofs. The district is a residential area; visitors should be quiet and follow house rules. In some hanok you can drink tea or see crafts.</p><p>Come early in the morning. You get the best view in the lanes with a view over the city.</p>",
      "tip": "Komm früh und sei leise – es ist ein Wohnviertel.",
-     "tip_en": "Come early and be quiet – it is a residential area."
+     "tip_en": "Come early and be quiet – it is a residential area.",
+     "free": true
     },
     {
      "name": "Gwangjang-Markt",
      "name_en": "Gwangjang Market",
      "q": "Gwangjang Market Seoul",
-     "text": "<p>Mittags zu den Garküchen: Mungobohnen-Pfannkuchen (Bindaetteok) auf Hockern. Auf Google 4,2 Sterne bei über 44.000 Bewertungen – touristisch, aber lohnend.</p>",
-     "text_en": "<p>For lunch to the food stalls: mung bean pancakes (bindaetteok) on stools. 4.2 stars on Google from over 44,000 reviews – touristy but worthwhile.</p>"
+     "text": "<p>Mittags zu den Garküchen: Mungobohnen-Pfannkuchen (Bindaetteok) auf Hockern. Touristisch, aber lohnend.</p>",
+     "text_en": "<p>For lunch to the food stalls: mung bean pancakes (bindaetteok) on stools – touristy but worthwhile.</p>",
+     "free": true
     },
     {
      "name": "N Seoul Tower am Namsan",
      "name_en": "N Seoul Tower on Namsan",
      "q": "N Seoul Tower",
-     "text": "<p>Abends hoch auf den Namsan, wenn die Stadt zu leuchten beginnt. Auf Google 4,5 Sterne. Besucher sparen sich die Seilbahn und laufen den Weg nach oben.</p>",
-     "text_en": "<p>Up Namsan in the evening when the city starts to glow. 4.5 stars on Google. Visitors skip the cable car and walk up.</p>",
-     "hours": "laut Google täglich ca. 10–22:30 Uhr",
-     "hours_en": "daily about 10 am–10:30 pm according to Google"
+     "text": "<p>Abends hoch auf den Namsan, wenn die Stadt zu leuchten beginnt. Mein Tipp: Spar dir die Seilbahn und lauf den Weg nach oben.</p>",
+     "text_en": "<p>Up Namsan in the evening when the city starts to glow. My tip: skip the cable car and walk up.</p>",
+     "hours": "täglich ca. 10–22:30 Uhr",
+     "hours_en": "daily about 10 am–10:30 pm"
     },
     {
      "name": "Gyeongbokgung-Palast",
@@ -102,7 +104,8 @@
      "name_en": "Hongdae – student district & live music",
      "q": "Hongdae Seoul",
      "tip": "Komm abends und probiere Karaoke (Noraebang).",
-     "tip_en": "Come in the evening and try karaoke (noraebang)."
+     "tip_en": "Come in the evening and try karaoke (noraebang).",
+     "free": true
     },
     {
      "name": "Insadong & Teehäuser",
@@ -126,10 +129,10 @@
      "name_en": "Third Tunnel at the border",
      "gem": true,
      "q": "The Third Tunnel DMZ Korea",
-     "text": "<p>An der Grenze zu Nordkorea kannst du mit Helm in einen Tunnel laufen, den Nordkorea heimlich unter der Grenze gegraben hat – entdeckt 1978. Auf Google 4,6 Sterne. Besucher berichten von steilem Abstieg und niedriger Decke; Fotografieren ist im Tunnel verboten.</p>",
-     "text_en": "<p>At the border with North Korea you can walk into a tunnel with a helmet that North Korea secretly dug under the border – discovered in 1978. 4.6 stars on Google. Visitors report a steep descent and low ceiling; photography is forbidden inside the tunnel.</p>",
-     "hours": "laut Google Di–So ca. 9–14:40 Uhr, Mo geschlossen",
-     "hours_en": "Tue–Sun about 9 am–2:40 pm, closed Mondays according to Google",
+     "text": "<p>An der Grenze zu Nordkorea kannst du mit Helm in einen Tunnel laufen, den Nordkorea heimlich unter der Grenze gegraben hat – entdeckt 1978. Der Abstieg ist steil und die Decke niedrig; Fotografieren ist im Tunnel verboten.</p>",
+     "text_en": "<p>At the border with North Korea you can walk into a tunnel with a helmet that North Korea secretly dug under the border – discovered in 1978. The descent is steep and the ceiling low; photography is forbidden inside the tunnel.</p>",
+     "hours": "Di–So ca. 9–14:40 Uhr, Mo geschlossen",
+     "hours_en": "Tue–Sun about 9 am–2:40 pm, closed Mondays",
      "tip": "Meist nur im Rahmen einer DMZ-Tour; vorab buchen.",
      "tip_en": "Usually only as part of a DMZ tour; book in advance."
     },
@@ -137,8 +140,9 @@
      "name": "Noryangjin-Fischmarkt",
      "name_en": "Noryangjin fish market",
      "q": "Noryangjin Fisheries Wholesale Market",
-     "text": "<p>Hier suchst du dir dein Essen lebend aus dem Becken aus. Auf Google 3,9 Sterne: Besucher mögen die Frische, warnen aber vor unklaren Zubereitungsgebühren – Preise vorher klären.</p>",
-     "text_en": "<p>Here you pick your food alive from the tank. 3.9 stars on Google: visitors like the freshness but warn about unclear cooking fees – agree prices beforehand.</p>"
+     "text": "<p>Hier suchst du dir dein Essen lebend aus dem Becken aus.</p>",
+     "text_en": "<p>Here you pick your food alive from the tank. Super fresh – but agree the cooking fee beforehand.</p>",
+     "free": true
     },
     {
      "name": "Ihwa-Dorf & Naksan-Park",
@@ -148,7 +152,8 @@
      "gem": true,
      "q": "Naksan Park Seoul",
      "tip": "Geh zum Sonnenuntergang und sei rücksichtsvoll.",
-     "tip_en": "Go at sunset and be considerate."
+     "tip_en": "Go at sunset and be considerate.",
+     "free": true
     },
     {
      "name": "Cheonggyecheon-Bach",
@@ -158,7 +163,8 @@
      "gem": true,
      "q": "Cheonggyecheon Stream",
      "tip": "Geh am Abend, wenn der Bach beleuchtet ist.",
-     "tip_en": "Go in the evening when the stream is lit."
+     "tip_en": "Go in the evening when the stream is lit.",
+     "free": true
     },
     {
      "name": "Koreanische Küche: Kimchi, Bibimbap & BBQ",

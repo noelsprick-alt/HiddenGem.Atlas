@@ -61,12 +61,13 @@
      "gem": true,
      "q": "Laternen bei Vollmond",
      "tip": "Komm am Vollmondabend früh und such dir einen Platz am Fluss.",
-     "tip_en": "Come early on the full-moon evening and find a spot by the river."
+     "tip_en": "Come early on the full-moon evening and find a spot by the river.",
+     "free": true
     },
     {
      "name": "Japanische Brücke",
-     "text": "<p>Erinnert an die Händler aus aller Welt. Auf Google 4,3 Sterne bei über 29.000 Bewertungen; tagsüber voll.</p><p>Die Japanische Brücke ist ein überdachtes Holzbrückchen aus dem späten 16. oder frühen 17. Jahrhundert, das die japanische und die chinesische Händlergemeinde Hoi Ans verbinden soll. Auf der Brücke steht ein kleiner Tempel. Sie gehört zum Altstadt-Ticket (Details vorher prüfen).</p><p>Tagsüber ist es voll; komm frühmorgens oder abends, wenn die Laternen leuchten. Das Foto von der Seite zeigt sie am besten.</p>",
-     "text_en": "<p>Recalls the merchants from around the world. 4.3 stars on Google from over 29,000 reviews; busy by day.</p><p>The Japanese Bridge is a covered wooden bridge from the late 16th or early 17th century that was meant to connect Hoi An’s Japanese and Chinese merchant communities. On the bridge stands a small temple. It is part of the old-town ticket (check details beforehand).</p><p>By day it is crowded; come early in the morning or in the evening when the lanterns glow. A photo from the side shows it best.</p>",
+     "text": "<p>Erinnert an die Händler aus aller Welt. Tagsüber voll.</p><p>Die Japanische Brücke ist ein überdachtes Holzbrückchen aus dem späten 16. oder frühen 17. Jahrhundert, das die japanische und die chinesische Händlergemeinde Hoi Ans verbinden soll. Auf der Brücke steht ein kleiner Tempel. Sie gehört zum Altstadt-Ticket (Details vorher prüfen).</p><p>Tagsüber ist es voll; komm frühmorgens oder abends, wenn die Laternen leuchten. Das Foto von der Seite zeigt sie am besten.</p>",
+     "text_en": "<p>Recalls the merchants from around the world. Busy by day.</p><p>The Japanese Bridge is a covered wooden bridge from the late 16th or early 17th century that was meant to connect Hoi An’s Japanese and Chinese merchant communities. On the bridge stands a small temple. It is part of the old-town ticket (check details beforehand).</p><p>By day it is crowded; come early in the morning or in the evening when the lanterns glow. A photo from the side shows it best.</p>",
      "name_en": "Japanese Covered Bridge",
      "q": "Japanese Covered Bridge Hoi An",
      "tip": "Komm vor 8 Uhr oder nach Sonnenuntergang.",
@@ -74,8 +75,8 @@
     },
     {
      "name": "Bánh mì Phượng",
-     "text": "Anthony Bourdain nannte es einst das beste Bánh mì seines Lebens. Auf Google 4,3 Sterne; Besucher nennen kurze Schlangen und 25–50k VND.",
-     "text_en": "Anthony Bourdain once called it the best of his life. 4.3 stars on Google; visitors mention short queues and 25–50k VND.",
+     "text": "Anthony Bourdain nannte es einst das beste Bánh mì seines Lebens.",
+     "text_en": "Anthony Bourdain once called it the best of his life. Queues are short, expect 25–50k VND.",
      "name_en": "Bánh mì Phượng",
      "q": "Banh Mi Phuong Hoi An"
     },
@@ -93,7 +94,8 @@
      "name_en": "Old-town lanes, assembly halls & Tan Ky House",
      "q": "Hoi An Ancient Town",
      "tip": "Geh um 6–7 Uhr los, dann sind die Gassen leer und golden.",
-     "tip_en": "Set off at 6–7 a.m., then the lanes are empty and golden."
+     "tip_en": "Set off at 6–7 a.m., then the lanes are empty and golden.",
+     "free": true
     },
     {
      "name": "Maßschneider in Hoi An",
@@ -111,7 +113,8 @@
      "name_en": "An Bang Beach",
      "q": "An Bang Beach Hoi An",
      "tip": "Fahr mit dem Rad hin und bleib zum Sonnenuntergang.",
-     "tip_en": "Cycle there and stay for sunset."
+     "tip_en": "Cycle there and stay for sunset.",
+     "free": true
     },
     {
      "name": "White Rose, Mì Quảng & mehr: Essen in Hoi An",

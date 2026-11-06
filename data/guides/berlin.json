@@ -49,26 +49,29 @@
    "spots": [
     {
      "name": "Mauerpark am Sonntag",
-     "text": "Flohmarkt und Karaoke im Amphitheater. Auf Google 4,5 Sterne bei über 25.000 Bewertungen.",
-     "text_en": "Flea market and karaoke in the amphitheatre. 4.5 stars on Google from over 25,000 reviews.",
+     "text": "Flohmarkt und Karaoke im Amphitheater.",
+     "text_en": "Flea market and karaoke in the amphitheatre.",
      "name_en": "Mauerpark on a Sunday",
-     "q": "Mauerpark Berlin"
+     "q": "Mauerpark Berlin",
+     "free": true
     },
     {
      "name": "Markthalle Neun",
-     "text": "Streetfood in der Markthalle. Auf Google 4,4 Sterne. Besucher nennen den Donnerstagabend als Streetfood-Abend.",
-     "text_en": "Street food in the market hall. 4.4 stars on Google. Visitors mention Thursday evening as street-food night.",
+     "text": "Streetfood in der Markthalle. Donnerstagabend ist Streetfood-Abend.",
+     "text_en": "Street food in the market hall. Thursday evening is street-food night.",
      "q": "Markthalle Neun Berlin",
-     "hours": "laut Google Mo–Sa ca. 9–20 Uhr (Do bis 22 Uhr)",
-     "hours_en": "Mon–Sat about 9 am–8 pm (Thu until 10 pm) according to Google"
+     "hours": "Mo–Sa ca. 9–20 Uhr (Do bis 22 Uhr)",
+     "hours_en": "Mon–Sat about 9 am–8 pm (Thu until 10 pm)",
+     "free": true
     },
     {
      "name": "Tempelhofer Feld",
-     "text": "Mit dem Rad über die Landebahn des ehemaligen Flughafens. Auf Google 4,6 Sterne.",
-     "text_en": "Cycle across the runway of the former airport. 4.6 stars on Google.",
+     "text": "Mit dem Rad über die Landebahn des ehemaligen Flughafens.",
+     "text_en": "Cycle across the runway of the former airport.",
      "q": "Tempelhofer Feld",
-     "hours": "laut Google täglich ca. 7–18 Uhr",
-     "hours_en": "daily about 7 am–6 pm according to Google"
+     "hours": "täglich ca. 7–18 Uhr",
+     "hours_en": "daily about 7 am–6 pm",
+     "free": true
     },
     {
      "name": "Friedrichshain & RAW-Gelände",
@@ -93,7 +96,8 @@
      "name_en": "East Side Gallery",
      "q": "East Side Gallery Berlin",
      "tip": "Komm früh am Morgen.",
-     "tip_en": "Come early in the morning."
+     "tip_en": "Come early in the morning.",
+     "free": true
     },
     {
      "name": "Gedenkstätte Berliner Mauer",
@@ -102,7 +106,8 @@
      "name_en": "Berlin Wall Memorial",
      "q": "Berlin Wall Memorial Bernauer Strasse",
      "tip": "Plane ein bis zwei Stunden ein.",
-     "tip_en": "Plan one to two hours."
+     "tip_en": "Plan one to two hours.",
+     "free": true
     },
     {
      "name": "Museumsinsel",
@@ -132,8 +137,8 @@
    "spots": [
     {
      "name": "Teufelsberg",
-     "text": "Ein Berg aus Kriegsschutt mit einer verlassenen US-Abhörstation obendrauf. Auf Google 4,3 Sterne. Besucher nennen rund 12 € Eintritt und einen Waldweg vom S-Bahnhof Grunewald.",
-     "text_en": "A mountain of war rubble with an abandoned US listening station on top. 4.3 stars on Google. Visitors mention about €12 admission and a forest path from Grunewald station.",
+     "text": "Ein Berg aus Kriegsschutt mit einer verlassenen US-Abhörstation obendrauf. Eintritt rund 12 €; vom S-Bahnhof Grunewald führt ein Waldweg hinauf.",
+     "text_en": "A mountain of war rubble with an abandoned US listening station on top. Admission is about €12; a forest path leads up from Grunewald station.",
      "name_en": "Teufelsberg",
      "gem": true,
      "q": "Teufelsberg Berlin"
@@ -174,7 +179,8 @@
      "gem": true,
      "q": "Siegessäule Berlin",
      "tip": "Steig auf die Siegessäule.",
-     "tip_en": "Climb the Victory Column."
+     "tip_en": "Climb the Victory Column.",
+     "free": true
     }
    ]
   },

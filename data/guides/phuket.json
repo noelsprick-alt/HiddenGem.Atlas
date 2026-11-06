@@ -75,22 +75,24 @@
     {
      "name": "Big Buddha",
      "q": "Phuket Big Buddha",
-     "text": "<p>45 Meter hoch aus weißem Marmor über der Insel. Auf Google 4,6 Sterne bei über 40.000 Bewertungen. Der Eintritt ist laut Besuchern frei; achte auf angemessene Kleidung (Schultern und Knie bedeckt).</p><p>Der Big Buddha thront auf dem Nakkerd-Hügel im Süden der Insel: 45 Meter hoch, aus weißem Marmor, mit weitem Blick über Chalong, Kata und Karon. Der Weg hinauf führt über eine Straße; oben gibt es kleine Läden, Glocken und Tempelanlagen. Der Eintritt ist laut Besuchern frei; Spenden sind willkommen.</p><p>Trage Kleidung, die Schultern und Knie bedeckt. Komm morgens oder am späten Nachmittag, wenn es kühler ist.</p>",
-     "text_en": "<p>45 metres high in white marble above the island. 4.6 stars on Google from over 40,000 reviews. Admission is free according to visitors; dress appropriately (shoulders and knees covered).</p><p>The Big Buddha sits on Nakkerd Hill in the south of the island: 45 metres high, made of white marble, with a wide view over Chalong, Kata and Karon. The way up leads by road; at the top there are small shops, bells and temple grounds. Entry is free according to visitors; donations are welcome.</p><p>Wear clothing that covers shoulders and knees. Come in the morning or late afternoon when it is cooler.</p>",
-     "hours": "laut Google täglich ca. 6–18:30 Uhr",
-     "hours_en": "daily about 6 am–6:30 pm according to Google",
+     "text": "<p>45 Meter hoch aus weißem Marmor über der Insel. Der Eintritt ist frei; achte auf angemessene Kleidung (Schultern und Knie bedeckt).</p><p>Der Big Buddha thront auf dem Nakkerd-Hügel im Süden der Insel: 45 Meter hoch, aus weißem Marmor, mit weitem Blick über Chalong, Kata und Karon. Der Weg hinauf führt über eine Straße; oben gibt es kleine Läden, Glocken und Tempelanlagen. Der Eintritt ist frei; Spenden sind willkommen.</p><p>Trage Kleidung, die Schultern und Knie bedeckt. Komm morgens oder am späten Nachmittag, wenn es kühler ist.</p>",
+     "text_en": "<p>45 metres high in white marble above the island. Admission is free; dress appropriately (shoulders and knees covered).</p><p>The Big Buddha sits on Nakkerd Hill in the south of the island: 45 metres high, made of white marble, with a wide view over Chalong, Kata and Karon. The way up leads by road; at the top there are small shops, bells and temple grounds. Entry is free; donations are welcome.</p><p>Wear clothing that covers shoulders and knees. Come in the morning or late afternoon when it is cooler.</p>",
+     "hours": "täglich ca. 6–18:30 Uhr",
+     "hours_en": "daily about 6 am–6:30 pm",
      "photos": [
       "images/photos/phuket-big-buddha.webp"
      ],
      "tip": "Komm morgens oder zum späten Nachmittag und bedecke Schultern und Knie.",
-     "tip_en": "Come in the morning or late afternoon and cover shoulders and knees."
+     "tip_en": "Come in the morning or late afternoon and cover shoulders and knees.",
+     "free": true
     },
     {
      "name": "Altstadt & chinesischer Schrein",
      "name_en": "Old town & Chinese shrine",
      "q": "Old Phuket Town",
      "text": "<p>Zwischen bunten sino-portugiesischen Häusern bin ich in einen chinesischen Schrein gestolpert – goldene Drachen und Räucherstäbchen. Abends lieber hier schlendern als über die Bangla Road.</p>",
-     "text_en": "<p>Between colourful Sino-Portuguese houses I stumbled into a Chinese shrine – golden dragons and incense sticks. In the evening stroll here rather than along Bangla Road.</p>"
+     "text_en": "<p>Between colourful Sino-Portuguese houses I stumbled into a Chinese shrine – golden dragons and incense sticks. In the evening stroll here rather than along Bangla Road.</p>",
+     "free": true
     },
     {
      "name": "Wat Chalong",
@@ -99,7 +101,8 @@
      "name_en": "Wat Chalong",
      "q": "Wat Chalong Phuket",
      "tip": "Verbinde den Besuch mit dem Big Buddha.",
-     "tip_en": "Combine the visit with the Big Buddha."
+     "tip_en": "Combine the visit with the Big Buddha.",
+     "free": true
     },
     {
      "name": "Phuket Old Town – Thalang Road & Soi Romanee",
@@ -117,7 +120,8 @@
      "name_en": "Promthep Cape & sunset",
      "q": "Promthep Cape",
      "tip": "Komm eine Stunde vor Sonnenuntergang.",
-     "tip_en": "Come an hour before sunset."
+     "tip_en": "Come an hour before sunset.",
+     "free": true
     },
     {
      "name": "Karon, Kata & Strände im Süden",
@@ -141,8 +145,8 @@
      "name_en": "Phang Nga Bay by canoe",
      "gem": true,
      "q": "Phang Nga Bay",
-     "text": "<p>Kalkfelsen, Höhlen und stilles Wasser: Besucher beschreiben Kanutouren durch die Bucht als Highlight. Auf Google 4,7 Sterne. Touren starten laut Besuchern früh am Morgen und dauern bis zum späten Nachmittag.</p>",
-     "text_en": "<p>Limestone cliffs, caves and calm water: visitors describe canoe tours through the bay as a highlight. 4.7 stars on Google. Tours start early in the morning and last until late afternoon according to visitors.</p>",
+     "text": "<p>Kalkfelsen, Höhlen und stilles Wasser: Eine Kanutour durch die Bucht ist das Highlight. Touren starten früh am Morgen und dauern bis zum späten Nachmittag.</p>",
+     "text_en": "<p>Limestone cliffs, caves and calm water: a canoe tour through the bay is the highlight. Tours start early in the morning and last until late afternoon.</p>",
      "tip": "Früh buchen; die guten Zeiten sind schnell weg.",
      "tip_en": "Book early; the good slots go quickly."
     },
@@ -156,7 +160,8 @@
       "images/photos/thailand-insekten.webp",
       "images/photos/thailand-seidenraupen.webp",
       "images/photos/thailand-obstmarkt.webp"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Kata Beach am Abend",
@@ -166,7 +171,8 @@
      "text_en": "<p>When the day guests are gone, the beach grows quiet.</p>",
      "photos": [
       "images/photos/phuket-kata-abend.webp"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Boat-Tour: Phi-Phi-Inseln & Inselhopping",

@@ -56,10 +56,10 @@
     {
      "name": "Mauritshuis",
      "q": "Mauritshuis Den Haag",
-     "text": "<p>Vormittags Vermeers „Mädchen mit dem Perlenohrring“. Das Mauritshuis ist kompakt, Besucher berichten von 1–2,5 Stunden Besuchszeit und weniger Gedränge als in Amsterdam. Auf Google 4,7 Sterne bei über 20.000 Bewertungen.</p><p>Das Mauritshuis ist ein Barockpalast am Hofvijver, in dem die Königliche Gemäldegalerie hängt. Neben Vermeers „Mädchen mit dem Perlenohrring“ siehst du Rembrandts „Anatomie des Dr. Tulp“ und Carel Fabritius’ „Der Distelfink“. Die Sammlung ist klein, aber hochkarätig: Du kannst sie in ein bis zwei Stunden in Ruhe ansehen.</p><p>Tickets lassen sich online mit Zeitfenster buchen; das erspart Wartezeit. Das Café im Haus hat einen schönen Blick auf den Teich. Prüfe Preise und Öffnungszeiten vorher.</p>",
-     "text_en": "<p>Vermeer’s “Girl with a Pearl Earring” in the morning. The Mauritshuis is compact, visitors report 1–2.5 hours and less crowding than in Amsterdam. 4.7 stars on Google from over 20,000 reviews.</p><p>The Mauritshuis is a Baroque palace on the Hofvijver in which the Royal Picture Gallery hangs. Besides Vermeer’s “Girl with a Pearl Earring” you see Rembrandt’s “The Anatomy Lesson of Dr Tulp” and Carel Fabritius’s “The Goldfinch”. The collection is small but top class: you can see it calmly in one to two hours.</p><p>Tickets can be booked online with a time slot; that saves waiting. The café in the house has a lovely view of the pond. Check prices and opening times beforehand.</p>",
-     "hours": "laut Google Di–So 10–18 Uhr, Mo ab 13 Uhr",
-     "hours_en": "Tue–Sun 10 am–6 pm, Mon from 1 pm according to Google",
+     "text": "<p>Vormittags Vermeers „Mädchen mit dem Perlenohrring“. Das Mauritshuis ist kompakt: Plane 1–2,5 Stunden ein, es ist deutlich weniger voll als die großen Museen in Amsterdam.</p><p>Das Mauritshuis ist ein Barockpalast am Hofvijver, in dem die Königliche Gemäldegalerie hängt. Neben Vermeers „Mädchen mit dem Perlenohrring“ siehst du Rembrandts „Anatomie des Dr. Tulp“ und Carel Fabritius’ „Der Distelfink“. Die Sammlung ist klein, aber hochkarätig: Du kannst sie in ein bis zwei Stunden in Ruhe ansehen.</p><p>Tickets lassen sich online mit Zeitfenster buchen; das erspart Wartezeit. Das Café im Haus hat einen schönen Blick auf den Teich. Prüfe Preise und Öffnungszeiten vorher.</p>",
+     "text_en": "<p>Vermeer’s “Girl with a Pearl Earring” in the morning. The Mauritshuis is compact: plan 1–2.5 hours, it is far less crowded than the big museums in Amsterdam.</p><p>The Mauritshuis is a Baroque palace on the Hofvijver in which the Royal Picture Gallery hangs. Besides Vermeer’s “Girl with a Pearl Earring” you see Rembrandt’s “The Anatomy Lesson of Dr Tulp” and Carel Fabritius’s “The Goldfinch”. The collection is small but top class: you can see it calmly in one to two hours.</p><p>Tickets can be booked online with a time slot; that saves waiting. The café in the house has a lovely view of the pond. Check prices and opening times beforehand.</p>",
+     "hours": "Di–So 10–18 Uhr, Mo ab 13 Uhr",
+     "hours_en": "Tue–Sun 10 am–6 pm, Mon from 1 pm",
      "tip": "Buche Tickets mit Zeitfenster und komm zur Öffnung.",
      "tip_en": "Book tickets with a time slot and come at opening."
     },
@@ -67,10 +67,11 @@
      "name": "Strand & Pier Scheveningen",
      "name_en": "Scheveningen beach & pier",
      "q": "Scheveningen Pier",
-     "text": "<p>Nachmittags mit der Tram an den Strand. Die Pier hat Aussichtsdeck, Riesenrad, Bungee und Restaurants. Auf Google 4,4 Sterne bei rund 46.000 Bewertungen.</p><p>Scheveningen ist der Badeort von Den Haag mit langem Sandstrand, Promenade, dem Kurhaus (ein Grandhotel von 1885) und der Pier, die rund 400 Meter ins Meer ragt. Von der Pier kannst du mit dem Riesenrad fahren, bungeejumpen oder in Restaurants einkehren. Die Straßenbahn fährt vom Zentrum in etwa 20 bis 30 Minuten.</p><p>Im Sommer ist der Strand voll, im Herbst und Winter kannst du bei Wind spazieren und in einem Strandpavillon heiße Schokolade trinken. Ein Fischbrötchen oder frischer Hering gehört dazu. Der Strand ist breit; achte bei Flut auf die Gezeiten.</p>",
-     "text_en": "<p>In the afternoon take the tram to the beach. The pier has a viewing deck, Ferris wheel, bungee and restaurants. 4.4 stars on Google from about 46,000 reviews.</p><p>Scheveningen is The Hague’s seaside resort with a long sandy beach, promenade, the Kurhaus (a grand hotel of 1885) and the pier that juts about 400 metres into the sea. From the pier you can ride the Ferris wheel, bungee jump or eat in restaurants. The tram runs from the centre in about 20 to 30 minutes.</p><p>In summer the beach is crowded; in autumn and winter you can walk in the wind and drink hot chocolate in a beach pavilion. A fish roll or fresh herring is part of it. The beach is wide; watch the tides at high water.</p>",
+     "text": "<p>Nachmittags mit der Tram an den Strand. Die Pier hat Aussichtsdeck, Riesenrad, Bungee und Restaurants.</p><p>Scheveningen ist der Badeort von Den Haag mit langem Sandstrand, Promenade, dem Kurhaus (ein Grandhotel von 1885) und der Pier, die rund 400 Meter ins Meer ragt. Von der Pier kannst du mit dem Riesenrad fahren, bungeejumpen oder in Restaurants einkehren. Die Straßenbahn fährt vom Zentrum in etwa 20 bis 30 Minuten.</p><p>Im Sommer ist der Strand voll, im Herbst und Winter kannst du bei Wind spazieren und in einem Strandpavillon heiße Schokolade trinken. Ein Fischbrötchen oder frischer Hering gehört dazu. Der Strand ist breit; achte bei Flut auf die Gezeiten.</p>",
+     "text_en": "<p>In the afternoon take the tram to the beach. The pier has a viewing deck, Ferris wheel, bungee and restaurants.</p><p>Scheveningen is The Hague’s seaside resort with a long sandy beach, promenade, the Kurhaus (a grand hotel of 1885) and the pier that juts about 400 metres into the sea. From the pier you can ride the Ferris wheel, bungee jump or eat in restaurants. The tram runs from the centre in about 20 to 30 minutes.</p><p>In summer the beach is crowded; in autumn and winter you can walk in the wind and drink hot chocolate in a beach pavilion. A fish roll or fresh herring is part of it. The beach is wide; watch the tides at high water.</p>",
      "tip": "Fahr am Nachmittag, bleib zum Sonnenuntergang und iss Fisch am Hafen.",
-     "tip_en": "Go in the afternoon, stay for sunset and eat fish at the harbour."
+     "tip_en": "Go in the afternoon, stay for sunset and eat fish at the harbour.",
+     "free": true
     },
     {
      "name": "Binnenhof & Hofvijver",
@@ -79,7 +80,8 @@
      "name_en": "Binnenhof & Hofvijver",
      "q": "Binnenhof Den Haag",
      "tip": "Prüfe vorher Führungen und komm zum Abendlicht an den Hofvijver.",
-     "tip_en": "Check tours beforehand and come to the Hofvijver in evening light."
+     "tip_en": "Check tours beforehand and come to the Hofvijver in evening light.",
+     "free": true
     },
     {
      "name": "Friedenspalast (Vredespaleis)",
@@ -129,10 +131,10 @@
      "name": "Panorama Mesdag",
      "gem": true,
      "q": "Panorama Mesdag Den Haag",
-     "text": "<p>Ein 360°-Gemälde des Strandes von Scheveningen im 19. Jahrhundert. Besucher nennen es eines der unterschätztesten Museen der Niederlande. Auf Google 4,7 Sterne bei über 5.400 Bewertungen.</p><p>Das Panorama Mesdag ist ein 14 Meter hohes und rund 120 Meter langes Rundgemälde von 1881, das den Strand von Scheveningen mit Dünen, Fischern und Meer zeigt. Du stehst auf einer Plattform in der Mitte, und mit Sand und Vorbauten wirkt die Illusion so echt, dass du glaubst, in den Dünen zu stehen.</p><p>Plane eine halbe bis eine Stunde ein; Eintritt und Öffnungszeiten ändern sich. Es ist ein stilles, unterschätztes Highlight – ideal bei Regen.</p>",
-     "text_en": "<p>A 360° painting of Scheveningen beach in the 19th century. Visitors call it one of the most underrated museums in the Netherlands. 4.7 stars on Google from over 5,400 reviews.</p><p>The Panorama Mesdag is a circular painting 14 metres high and about 120 metres long from 1881, showing the beach at Scheveningen with dunes, fishermen and sea. You stand on a platform in the middle, and with sand and foreground props the illusion is so real that you believe you are standing in the dunes.</p><p>Plan half an hour to an hour; admission and opening times change. It is a quiet, underrated highlight – ideal in rain.</p>",
-     "hours": "laut Google Di–So 10–17 Uhr, Mo geschlossen",
-     "hours_en": "Tue–Sun 10 am–5 pm, closed Mondays according to Google",
+     "text": "<p>Ein 360°-Gemälde des Strandes von Scheveningen im 19. Jahrhundert. Für mich eines der unterschätztesten Museen der Niederlande.</p><p>Das Panorama Mesdag ist ein 14 Meter hohes und rund 120 Meter langes Rundgemälde von 1881, das den Strand von Scheveningen mit Dünen, Fischern und Meer zeigt. Du stehst auf einer Plattform in der Mitte, und mit Sand und Vorbauten wirkt die Illusion so echt, dass du glaubst, in den Dünen zu stehen.</p><p>Plane eine halbe bis eine Stunde ein; Eintritt und Öffnungszeiten ändern sich. Es ist ein stilles, unterschätztes Highlight – ideal bei Regen.</p>",
+     "text_en": "<p>A 360° painting of Scheveningen beach in the 19th century. For me one of the most underrated museums in the Netherlands.</p><p>The Panorama Mesdag is a circular painting 14 metres high and about 120 metres long from 1881, showing the beach at Scheveningen with dunes, fishermen and sea. You stand on a platform in the middle, and with sand and foreground props the illusion is so real that you believe you are standing in the dunes.</p><p>Plan half an hour to an hour; admission and opening times change. It is a quiet, underrated highlight – ideal in rain.</p>",
+     "hours": "Di–So 10–17 Uhr, Mo geschlossen",
+     "hours_en": "Tue–Sun 10 am–5 pm, closed Mondays",
      "tip": "Perfekt bei Regen und leicht mit dem Mauritshuis zu kombinieren.",
      "tip_en": "Perfect in rain and easy to combine with the Mauritshuis."
     },
@@ -144,7 +146,8 @@
      "gem": true,
      "q": "Scheveningen Haven",
      "tip": "Iss Hering oder Kibbeling am Hafen und trink einen Kaffee mit Blick auf die Boote.",
-     "tip_en": "Eat herring or kibbeling at the harbour and drink a coffee overlooking the boats."
+     "tip_en": "Eat herring or kibbeling at the harbour and drink a coffee overlooking the boats.",
+     "free": true
     },
     {
      "name": "Haagse Markt – Multikulti-Markt",
@@ -154,7 +157,8 @@
      "gem": true,
      "q": "Haagse Markt Den Haag",
      "tip": "Komm vormittags mit Bargeld und hungrig.",
-     "tip_en": "Come in the morning with cash and hungry."
+     "tip_en": "Come in the morning with cash and hungry.",
+     "free": true
     },
     {
      "name": "Noordeinde-Palast & Haagse Hopjes",

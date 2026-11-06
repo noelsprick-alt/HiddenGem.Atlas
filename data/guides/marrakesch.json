@@ -76,15 +76,16 @@
      "name_en": "Djemaa el-Fna",
      "q": "Djemaa el-Fna",
      "tip": "Komm zum Sonnenuntergang auf eine Dachterrasse und iss dann unten.",
-     "tip_en": "Come at sunset to a rooftop terrace and eat down below afterwards."
+     "tip_en": "Come at sunset to a rooftop terrace and eat down below afterwards.",
+     "free": true
     },
     {
      "name": "Jardin Majorelle",
-     "text": "<p>Morgens, bevor es voll wird. Auf Google 4,4 Sterne bei über 61.000 Bewertungen. Besucher raten, Tickets online zu buchen und früh zu kommen.</p><p>Der Jardin Majorelle ist ein Garten mit kobaltblauen Gebäuden, Kakteen, Bambus und Palmen, den der Maler Jacques Majorelle anlegte und später Yves Saint Laurent und Pierre Bergé retteten. Das berühmte „Majorelle-Blau“ gibt dem Ort seine Wirkung. Im Garten befindet sich auch das Berbermuseum.</p><p>Kaufe Tickets online und komm morgens zur Öffnung, denn der Garten füllt sich schnell. Das benachbarte Yves-Saint-Laurent-Museum ist ein eigener Besuch wert (Preise und Zeiten vorher prüfen).</p>",
-     "text_en": "<p>In the morning before it fills up. 4.4 stars on Google from over 61,000 reviews. Visitors advise booking tickets online and coming early.</p><p>The Jardin Majorelle is a garden with cobalt-blue buildings, cacti, bamboo and palms, laid out by the painter Jacques Majorelle and later saved by Yves Saint Laurent and Pierre Bergé. The famous “Majorelle blue” gives the place its effect. In the garden there is also the Berber Museum.</p><p>Buy tickets online and come in the morning at opening, as the garden fills quickly. The neighbouring Yves Saint Laurent Museum is worth its own visit (check prices and times beforehand).</p>",
+     "text": "<p>Morgens, bevor es voll wird. Mein Tipp: Tickets online buchen und früh kommen.</p><p>Der Jardin Majorelle ist ein Garten mit kobaltblauen Gebäuden, Kakteen, Bambus und Palmen, den der Maler Jacques Majorelle anlegte und später Yves Saint Laurent und Pierre Bergé retteten. Das berühmte „Majorelle-Blau“ gibt dem Ort seine Wirkung. Im Garten befindet sich auch das Berbermuseum.</p><p>Kaufe Tickets online und komm morgens zur Öffnung, denn der Garten füllt sich schnell. Das benachbarte Yves-Saint-Laurent-Museum ist ein eigener Besuch wert (Preise und Zeiten vorher prüfen).</p>",
+     "text_en": "<p>In the morning before it fills up. My tip: book tickets online and come early.</p><p>The Jardin Majorelle is a garden with cobalt-blue buildings, cacti, bamboo and palms, laid out by the painter Jacques Majorelle and later saved by Yves Saint Laurent and Pierre Bergé. The famous “Majorelle blue” gives the place its effect. In the garden there is also the Berber Museum.</p><p>Buy tickets online and come in the morning at opening, as the garden fills quickly. The neighbouring Yves Saint Laurent Museum is worth its own visit (check prices and times beforehand).</p>",
      "q": "Jardin Majorelle Marrakech",
-     "hours": "laut Google täglich ca. 8–17:30 Uhr",
-     "hours_en": "daily about 8 am–5:30 pm according to Google",
+     "hours": "täglich ca. 8–17:30 Uhr",
+     "hours_en": "daily about 8 am–5:30 pm",
      "tip": "Online-Ticket buchen und zur Öffnung kommen.",
      "tip_en": "Book an online ticket and come at opening."
     },
@@ -113,7 +114,8 @@
      "name_en": "Koutoubia Mosque",
      "q": "Koutoubia Mosque",
      "tip": "Geh abends durch die Gärten, wenn das Licht warm ist.",
-     "tip_en": "Walk through the gardens in the evening when the light is warm."
+     "tip_en": "Walk through the gardens in the evening when the light is warm.",
+     "free": true
     },
     {
      "name": "Hammam erleben",
@@ -138,7 +140,8 @@
      "text_en": "Go into the souks without a plan – getting lost is part of it. So is haggling.",
      "name_en": "Souks without a plan",
      "gem": true,
-     "q": "Souks ohne Plan"
+     "q": "Souks ohne Plan",
+     "free": true
     },
     {
      "name": "Le Jardin Secret & stille Medina-Gärten",
@@ -158,7 +161,8 @@
      "gem": true,
      "q": "Menara Gardens Marrakech",
      "tip": "Komm am späten Nachmittag, wenn das Licht weich ist.",
-     "tip_en": "Come in the late afternoon when the light is soft."
+     "tip_en": "Come in the late afternoon when the light is soft.",
+     "free": true
     },
     {
      "name": "Gerberviertel & Handwerksgassen",
@@ -168,7 +172,8 @@
      "gem": true,
      "q": "Tanneries Marrakech",
      "tip": "Vereinbare den Preis vorher oder geh allein.",
-     "tip_en": "Agree the price beforehand or go alone."
+     "tip_en": "Agree the price beforehand or go alone.",
+     "free": true
     },
     {
      "name": "Tagesausflug: Atlasgebirge, Ourika-Tal & Essaouira",

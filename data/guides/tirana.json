@@ -77,8 +77,8 @@
    "h": "So kommst du nach Tirana und herum",
    "h_en": "Getting to Tirana and around",
    "box": "omio",
-   "html": "<h3>Vom Flughafen</h3><p>Der Flughafen Tirana (TIA) liegt rund 17 km außerhalb. Der Flughafenbus kostet laut Reiseportalen etwa 300 Lek (rund 3 €), braucht etwa 30 Minuten und fährt ungefähr stündlich; Betriebszeiten und Haltestelle in der Stadt weichen je nach Quelle ab – vorher prüfen. Ein Taxi kostet etwa 20–28 € (Preis vorher klären), die Fahrt dauert rund 25 Minuten.</p><h3>In der Stadt</h3><p>Die Innenstadt ist gut zu Fuß machbar. Für weitere Strecken sind Taxis günstig: Die meisten Fahrten im Zentrum liegen bei etwa 300–500 Lek. Die App Bolt wird dafür häufig empfohlen – so siehst du den Preis vorher. Zu Bunk'Art 1 und zur Dajti-Seilbahn am Stadtrand kommst du mit Bus, Shuttle oder Taxi.</p><h3>Nach Durrës</h3><p>Durrës liegt rund 35 km westlich. Der Bus braucht etwa 30–40 Minuten und kostet nach Reiseportalen um 150 Lek.</p>",
-   "html_en": "<h3>From the airport</h3><p>Tirana airport (TIA) lies about 17 km outside the city. The airport bus costs around 300 lek (roughly €3) according to travel portals, takes about 30 minutes and runs roughly hourly; operating hours and the city stop differ by source – check beforehand. A taxi costs about €20–28 (agree the price first), the ride takes about 25 minutes.</p><h3>In the city</h3><p>The centre is easy on foot. For longer distances taxis are cheap: most rides in the centre are around 300–500 lek. The Bolt app is often recommended – you see the price in advance. To Bunk'Art 1 and the Dajti cable car on the edge of town you take a bus, shuttle or taxi.</p><h3>To Durrës</h3><p>Durrës lies about 35 km west. The bus takes about 30–40 minutes and costs around 150 lek according to travel portals.</p>"
+   "html": "<h3>Vom Flughafen</h3><p>Der Flughafen Tirana (TIA) liegt rund 17 km außerhalb. Der Flughafenbus kostet etwa 300 Lek (rund 3 €), braucht etwa 30 Minuten und fährt ungefähr stündlich; Betriebszeiten und Haltestelle in der Stadt vorher prüfen. Ein Taxi kostet etwa 20–28 € (Preis vorher klären), die Fahrt dauert rund 25 Minuten.</p><h3>In der Stadt</h3><p>Die Innenstadt ist gut zu Fuß machbar. Für weitere Strecken sind Taxis günstig: Die meisten Fahrten im Zentrum liegen bei etwa 300–500 Lek. Die App Bolt wird dafür häufig empfohlen – so siehst du den Preis vorher. Zu Bunk'Art 1 und zur Dajti-Seilbahn am Stadtrand kommst du mit Bus, Shuttle oder Taxi.</p><h3>Nach Durrës</h3><p>Durrës liegt rund 35 km westlich. Der Bus braucht etwa 30–40 Minuten und kostet um 150 Lek.</p>",
+   "html_en": "<h3>From the airport</h3><p>Tirana airport (TIA) lies about 17 km outside the city. The airport bus costs around 300 lek (roughly €3), takes about 30 minutes and runs roughly hourly; check operating hours and the city stop beforehand. A taxi costs about €20–28 (agree the price first), the ride takes about 25 minutes.</p><h3>In the city</h3><p>The centre is easy on foot. For longer distances taxis are cheap: most rides in the centre are around 300–500 lek. The Bolt app is often recommended – you see the price in advance. To Bunk'Art 1 and the Dajti cable car on the edge of town you take a bus, shuttle or taxi.</p><h3>To Durrës</h3><p>Durrës lies about 35 km west. The bus takes about 30–40 minutes and costs around 150 lek.</p>"
   },
   {
    "type": "spots",
@@ -92,10 +92,10 @@
      "name": "Bunk'Art 1",
      "gem": true,
      "q": "Bunk'Art 1 Tirana",
-     "text": "<p>Ein riesiger Atombunker am Stadtrand, gebaut für Hoxha und seine Regierung. Im Berg verbergen sich viele Räume, die heute Geschichte erzählen – vom Alltag in der Diktatur bis zu Ausstellungen zur jüngeren Geschichte Albaniens. Besucher berichten, dass man etwa 80 Minuten bis 2 Stunden einplanen sollte. Bei Google steht Bunk'Art 1 mit 4,6 Sternen bei über 5.000 Bewertungen.</p><p>Gebaut wurde die Anlage in den 1970er-Jahren; sie reicht mit vielen Etagen tief in den Berg und hat über hundert Räume. Der Rundgang führt dich durch Schlafzimmer, Kommandoräume, Besprechungsräume und einen Konferenzsaal – alles so eingerichtet, wie es für den Ernstfall gedacht war. Ein Teil der Ausstellung zeigt Uniformen, Waffen und Alltagsgegenstände aus der Zeit.</p><p>Dazu kommt der Blick in die Propaganda: Plakate, Filmausschnitte und Informationen über die Bunkerbauten im ganzen Land. Plane mindestens zwei Stunden ein, Pullover mit – drinnen ist es kühl, und viele Gänge sind schmal. Die Anfahrt ist mit dem Bus (ca. 30–40 Minuten vom Zentrum) möglich, aber umständlich; ein Taxi oder Bolt ist bequemer.</p>",
-     "text_en": "<p>A huge nuclear bunker on the edge of town built for Hoxha and his government. Many rooms hidden inside the mountain now tell history – from everyday life under the dictatorship to exhibitions on Albania’s recent history. Visitors report that you should allow roughly 80 minutes to 2 hours. On Google Bunk'Art 1 has 4.6 stars from over 5,000 reviews.</p><p>The complex was built in the 1970s; it reaches deep into the mountain on many levels and has over a hundred rooms. The tour takes you through bedrooms, command rooms, meeting rooms and a conference hall – all furnished as intended for an emergency. Part of the exhibition shows uniforms, weapons and everyday objects of the time.</p><p>On top comes a look at propaganda: posters, film clips and information about the bunker building across the country. Plan at least two hours and bring a jumper – it is cool inside, and many corridors are narrow. You can get there by bus (about 30–40 minutes from the centre), but it is awkward; a taxi or Bolt is more convenient.</p>",
-     "hours": "täglich ab 9:30 Uhr; Schluss laut Google 16:30 Uhr, laut Museum im Sommer 2025 18:00 Uhr – vorher prüfen",
-     "hours_en": "daily from 9:30 am; closing 4:30 pm according to Google, 6 pm in summer 2025 according to the museum – check beforehand",
+     "text": "<p>Ein riesiger Atombunker am Stadtrand, gebaut für Hoxha und seine Regierung. Im Berg verbergen sich viele Räume, die heute Geschichte erzählen – vom Alltag in der Diktatur bis zu Ausstellungen zur jüngeren Geschichte Albaniens. Plane etwa 80 Minuten bis 2 Stunden ein.</p><p>Gebaut wurde die Anlage in den 1970er-Jahren; sie reicht mit vielen Etagen tief in den Berg und hat über hundert Räume. Der Rundgang führt dich durch Schlafzimmer, Kommandoräume, Besprechungsräume und einen Konferenzsaal – alles so eingerichtet, wie es für den Ernstfall gedacht war. Ein Teil der Ausstellung zeigt Uniformen, Waffen und Alltagsgegenstände aus der Zeit.</p><p>Dazu kommt der Blick in die Propaganda: Plakate, Filmausschnitte und Informationen über die Bunkerbauten im ganzen Land. Plane mindestens zwei Stunden ein, Pullover mit – drinnen ist es kühl, und viele Gänge sind schmal. Die Anfahrt ist mit dem Bus (ca. 30–40 Minuten vom Zentrum) möglich, aber umständlich; ein Taxi oder Bolt ist bequemer.</p>",
+     "text_en": "<p>A huge nuclear bunker on the edge of town built for Hoxha and his government. Many rooms hidden inside the mountain now tell history – from everyday life under the dictatorship to exhibitions on Albania’s recent history. Allow roughly 80 minutes to 2 hours.</p><p>The complex was built in the 1970s; it reaches deep into the mountain on many levels and has over a hundred rooms. The tour takes you through bedrooms, command rooms, meeting rooms and a conference hall – all furnished as intended for an emergency. Part of the exhibition shows uniforms, weapons and everyday objects of the time.</p><p>On top comes a look at propaganda: posters, film clips and information about the bunker building across the country. Plan at least two hours and bring a jumper – it is cool inside, and many corridors are narrow. You can get there by bus (about 30–40 minutes from the centre), but it is awkward; a taxi or Bolt is more convenient.</p>",
+     "hours": "täglich ab 9:30 Uhr; Schluss 16:30 Uhr, im Sommer meist 18:00 Uhr – vorher prüfen",
+     "hours_en": "daily from 9:30 am; closing 4:30 pm, usually 6 pm in summer – check beforehand",
      "tip": "Nimm einen Pullover mit, plane zwei Stunden ein und fahr mit Bolt/Taxi hin – zurück geht der Bus.",
      "tip_en": "Bring a jumper, plan two hours and go by Bolt/taxi – the bus works for the way back.",
      "photos": [
@@ -107,10 +107,10 @@
      "q": "Bunk'Art 2 Tirana",
      "text": "<p>Nur ein paar Schritte vom Skanderbeg-Platz erinnert Bunk'Art 2 an die Zeit der Diktatur – ein ehemaliger Bunker unter dem Innenministerium, heute Museum und Gedenkort für die Opfer der Geheimpolizei. Der Eingang führt über Treppen nach unten; es ist eng und nicht barrierefrei.</p><p>Der Bunker liegt unter dem früheren Innenministerium und ist anders aufgebaut als Bunk'Art 1: Hier geht es weniger um den Atombunker an sich als um die Polizei und die Geheimpolizei – Überwachung, Verhaftungen, Verhöre, Opfer und Haft. Die Ausstellung ist dicht, die Räume niedrig und bedrückend, und viele Stücke stammen aus echten Archiven.</p><p>Das ist schwere Kost – wenn du nur eines von beiden besuchen willst, lies in der FAQ unten nach, welches besser zu dir passt. Plane etwa eineinhalb bis zwei Stunden ein und einen ruhigen Kaffee danach am Skanderbeg-Platz.</p>",
      "text_en": "<p>Just a few steps from Skanderbeg Square, Bunk'Art 2 recalls the dictatorship – a former bunker beneath the Interior Ministry, now a museum and memorial for the victims of the secret police. The entrance leads down stairs; it is cramped and not step-free.</p><p>The bunker lies beneath the former Ministry of the Interior and is organised differently from Bunk'Art 1: here it is less about the nuclear bunker itself and more about the police and secret police – surveillance, arrests, interrogations, victims and imprisonment. The exhibition is dense, the rooms low and oppressive, and many pieces come from real archives.</p><p>This is heavy material – if you only want to visit one of the two, read the FAQ below to see which fits you better. Plan about one and a half to two hours and a quiet coffee afterwards at Skanderbeg Square.</p>",
-     "hours": "laut Google täglich ca. 9:30–18:30 Uhr",
-     "hours_en": "daily about 9:30 am–6:30 pm according to Google",
-     "price": "ca. 900 Lek (laut einer Besucherin im Juli 2026, Karte oder bar)",
-     "price_en": "about 900 lek (according to a visitor in July 2026, card or cash)",
+     "hours": "täglich ca. 9:30–18:30 Uhr",
+     "hours_en": "daily about 9:30 am–6:30 pm",
+     "price": "ca. 900 Lek (Karte oder bar)",
+     "price_en": "about 900 lek (card or cash)",
      "tip": "Wenn du zwei Bunker-Museen zu viel findest: Bunk'Art 2 liegt im Zentrum und ist der leichtere Einstieg.",
      "tip_en": "If two bunker museums are too many: Bunk'Art 2 is in the centre and is the easier introduction."
     },
@@ -118,12 +118,12 @@
      "name": "House of Leaves (Haus der Blätter)",
      "name_en": "House of Leaves",
      "q": "House of Leaves Museum Tirana",
-     "text": "<p>Ein früheres Entbindungsheim, später Hauptquartier der Geheimpolizei Sigurimi – heute ein Museum über Überwachung und Spitzel. Laut Besuchern ist die Präsentation klarer als in Bunk'Art 2 und der Ort selbst der echte Schauplatz. Fotografieren ist drinnen nicht erlaubt.</p><p>Das Gebäude diente ab den 1940er-Jahren der Geheimpolizei Sigurimi und wurde zur Überwachungszentrale; im Museum siehst du Abhörtechnik, Fotos, Dokumente und nachgestellte Räume. Besonders eindrücklich ist die Seite der Überwachten: Wie lebte man, wenn man nie sicher sein konnte, wer zuhört?</p><p>Fotografieren ist oft nur eingeschränkt erlaubt – am Eingang nachfragen. Schau, ob du eine Audio- oder Führungsoption bekommst, sonst bleibt viel Hintergrund im Text. Die Ausstellung ist kleiner als die Bunk'Art-Museen, passt also gut an einen Nachmittag mit Kaffeepause danach.</p>",
-     "text_en": "<p>A former maternity hospital, later headquarters of the secret police Sigurimi – today a museum about surveillance and informers. According to visitors the presentation is clearer than at Bunk'Art 2 and the place itself the real setting. Photography is not allowed inside.</p><p>From the 1940s the building served the secret police Sigurimi and became a surveillance centre; in the museum you see listening technology, photos, documents and reconstructed rooms. Especially striking is the side of the watched: what was life like when you could never be sure who was listening?</p><p>Photography is often only partly allowed – ask at the entrance. Check whether you can get an audio or guided option, otherwise much of the background stays in the text. The exhibition is smaller than the Bunk'Art museums, so it fits an afternoon well with a coffee break afterwards.</p>",
-     "hours": "täglich ca. 9–19 Uhr (laut Google)",
-     "hours_en": "daily about 9 am–7 pm (according to Google)",
-     "price": "ca. 700 Lek, laut Besuchern bar",
-     "price_en": "about 700 lek, cash according to visitors",
+     "text": "<p>Ein früheres Entbindungsheim, später Hauptquartier der Geheimpolizei Sigurimi – heute ein Museum über Überwachung und Spitzel. Die Präsentation ist klarer als in Bunk'Art 2, und der Ort selbst ist der echte Schauplatz. Fotografieren ist drinnen nicht erlaubt.</p><p>Das Gebäude diente ab den 1940er-Jahren der Geheimpolizei Sigurimi und wurde zur Überwachungszentrale; im Museum siehst du Abhörtechnik, Fotos, Dokumente und nachgestellte Räume. Besonders eindrücklich ist die Seite der Überwachten: Wie lebte man, wenn man nie sicher sein konnte, wer zuhört?</p><p>Fotografieren ist oft nur eingeschränkt erlaubt – am Eingang nachfragen. Schau, ob du eine Audio- oder Führungsoption bekommst, sonst bleibt viel Hintergrund im Text. Die Ausstellung ist kleiner als die Bunk'Art-Museen, passt also gut an einen Nachmittag mit Kaffeepause danach.</p>",
+     "text_en": "<p>A former maternity hospital, later headquarters of the secret police Sigurimi – today a museum about surveillance and informers. The presentation is clearer than at Bunk'Art 2, and the place itself is the real setting. Photography is not allowed inside.</p><p>From the 1940s the building served the secret police Sigurimi and became a surveillance centre; in the museum you see listening technology, photos, documents and reconstructed rooms. Especially striking is the side of the watched: what was life like when you could never be sure who was listening?</p><p>Photography is often only partly allowed – ask at the entrance. Check whether you can get an audio or guided option, otherwise much of the background stays in the text. The exhibition is smaller than the Bunk'Art museums, so it fits an afternoon well with a coffee break afterwards.</p>",
+     "hours": "täglich ca. 9–19 Uhr",
+     "hours_en": "daily about 9 am–7 pm ()",
+     "price": "ca. 700 Lek, bar",
+     "price_en": "about 700 lek, cash",
      "tip": "Frag nach Fotoregeln am Eingang – und plane danach eine Pause im Café ein.",
      "tip_en": "Ask about the photo rules at the entrance – and plan a break in a café afterwards."
     },
@@ -150,8 +150,8 @@
      "q": "Blloku Tirana",
      "text": "<p>Das früher abgeriegelte Viertel der Parteielite – bis 1991 durften normale Albaner hier nicht rein. Heute sitzt man hier mit Matcha und Kuchen im Café, es gibt Bars, Terrassenlokale und Läden. Größer kann der Kontrast zu Bunk'Art kaum sein.</p><p>Im Zentrum des früheren Sperrbezirks steht die frühere Villa des Diktators, die heute – wie viele Gebäude hier – anderen Zwecken dient; ein Spaziergang zeigt dir, wie nah Macht und Alltag beieinanderlagen. Heute ist Blloku das Ausgehviertel: Cafés, Bars, Restaurants, Boutiquen, Street Art – und abends viele junge Leute.</p><p>Preise sind höher als im Rest der Stadt, aber immer noch moderat. Wer früh frühstücken will, findet hier gute Cafés; wer abends feiern möchte, kommt nach 21 Uhr.</p>",
      "text_en": "<p>The former closed quarter of the party elite – until 1991 ordinary Albanians were not allowed in. Today you sit here with matcha and cake in a café, and there are bars, terrace restaurants and shops. It hardly gets bigger a contrast with Bunk'Art.</p><p>In the middle of the former restricted zone stands the dictator’s former villa, which today – like many buildings here – serves other purposes; a stroll shows you how close power and everyday life lay together. Today Blloku is the going-out district: cafés, bars, restaurants, boutiques, street art – and in the evening lots of young people.</p><p>Prices are higher than in the rest of the city but still moderate. If you want an early breakfast you find good cafés here; if you want to party, come after 9 p.m.</p>",
-     "tip": "Fërgesë (Gericht aus Paprika, Tomate und Käse) in einem Terrassenlokal kostet laut Reiseportalen mit Brot und Bier etwa 800–1.000 Lek.",
-     "tip_en": "Fërgesë (a dish of pepper, tomato and cheese) at a terrace restaurant costs around 800–1,000 lek with bread and beer according to travel portals.",
+     "tip": "Fërgesë (Gericht aus Paprika, Tomate und Käse) in einem Terrassenlokal kostet mit Brot und Bier etwa 800–1.000 Lek.",
+     "tip_en": "Fërgesë (a dish of pepper, tomato and cheese) at a terrace restaurant costs around 800–1,000 lek with bread and beer.",
      "photos": [
       "images/video/tirana-matcha-cafe.mp4"
      ]
@@ -161,30 +161,31 @@
      "name_en": "Komiteti – the bar that doubles as a communism museum",
      "gem": true,
      "q": "Komiteti Bar Tirana",
-     "text": "<p>Morgens Café, später Bar – eingerichtet wie ein Museum der kommunistischen Zeit mit alten Geräten, Pflanzen an den Wänden und viel Raki. Auf Google hat Komiteti 4,5 Sterne bei rund 1.600 Bewertungen; Gäste heben besonders die Raki-Auswahl und die Atmosphäre hervor.</p><p>Das Besondere ist die Einrichtung: alte Geräte, Dekoration und Erinnerungsstücke aus der Zeit des Kommunismus, die zu einer ungewöhnlichen Bar zusammenfinden. Morgens ist es ein ruhiges Café, später wird es lauter, am Abend sind Raki, Bier und einfache Gerichte beliebt. Der Name erinnert an das Parteikomitee.</p><p>Komm eher früh am Abend, wenn du noch einen Platz drinnen willst; Reservierung kann bei großen Gruppen sinnvoll sein.</p>",
-     "text_en": "<p>Café in the morning, bar later – furnished like a museum of the communist era with old equipment, plants on the walls and plenty of raki. On Google Komiteti has 4.5 stars from around 1,600 reviews; guests especially mention the choice of raki and the atmosphere.</p><p>What makes it special is the furnishing: old devices, decoration and memorabilia from the communist era that come together as an unusual bar. In the morning it is a quiet café, later it gets louder, and in the evening raki, beer and simple dishes are popular. The name recalls the party committee.</p><p>Come rather early in the evening if you still want a seat inside; a reservation can make sense for large groups.</p>",
-     "hours": "laut Google täglich 7:00–24:00 Uhr",
-     "hours_en": "daily 7 am–midnight according to Google"
+     "text": "<p>Morgens Café, später Bar – eingerichtet wie ein Museum der kommunistischen Zeit mit alten Geräten, Pflanzen an den Wänden und viel Raki. Das Highlight: die Raki-Auswahl und die Atmosphäre.</p><p>Das Besondere ist die Einrichtung: alte Geräte, Dekoration und Erinnerungsstücke aus der Zeit des Kommunismus, die zu einer ungewöhnlichen Bar zusammenfinden. Morgens ist es ein ruhiges Café, später wird es lauter, am Abend sind Raki, Bier und einfache Gerichte beliebt. Der Name erinnert an das Parteikomitee.</p><p>Komm eher früh am Abend, wenn du noch einen Platz drinnen willst; Reservierung kann bei großen Gruppen sinnvoll sein.</p>",
+     "text_en": "<p>Café in the morning, bar later – furnished like a museum of the communist era with old equipment, plants on the walls and plenty of raki. The highlight: the choice of raki and the atmosphere.</p><p>What makes it special is the furnishing: old devices, decoration and memorabilia from the communist era that come together as an unusual bar. In the morning it is a quiet café, later it gets louder, and in the evening raki, beer and simple dishes are popular. The name recalls the party committee.</p><p>Come rather early in the evening if you still want a seat inside; a reservation can make sense for large groups.</p>",
+     "hours": "täglich 7:00–24:00 Uhr",
+     "hours_en": "daily 7 am–midnight"
     },
     {
      "name": "Die Pyramide von Tirana",
      "name_en": "The Pyramid of Tirana",
      "q": "Pyramid of Tirana",
-     "text": "<p>Das frühere Hoxha-Mausoleum (1988 als Museum eröffnet) ist heute ein Kultur- und Jugendzentrum. Du kannst außen hinaufklettern und hast oben einen Blick über die Stadt – Besucher schwärmen vom Sonnenuntergang.</p><p>Das Gebäude von 1988 wurde als Museum für den Diktator Enver Hoxha eröffnet und nach 1991 zum Kulturzentrum umgewidmet. Lange stand es verfallen und mit Graffiti bedeckt, wurde aber in den letzten Jahren saniert und als Kultur- und Jugendzentrum wiedereröffnet; der Zugang zum Dach ist heute geregelt (Zeiten und Bedingungen vorher prüfen).</p><p>Wenn du hochkommst, siehst du über die Stadt bis zu den Bergen im Osten – am schönsten bei Sonnenuntergang. Im Inneren gibt es Räume für Veranstaltungen, die je nach Programm geöffnet sind.</p>",
-     "text_en": "<p>The former Hoxha mausoleum (opened as a museum in 1988) is now a culture and youth centre. You can climb up the outside and have a view over the city at the top – visitors rave about the sunset.</p><p>The building of 1988 opened as a museum for the dictator Enver Hoxha and was converted to a cultural centre after 1991. For a long time it stood derelict and covered in graffiti, but in recent years it was renovated and reopened as a culture and youth centre; access to the roof is regulated today (check times and conditions beforehand).</p><p>If you get to the top you see across the city to the mountains in the east – most beautiful at sunset. Inside there are rooms for events that are open depending on the programme.</p>",
-     "hours": "Außenbereich laut Google rund um die Uhr zugänglich",
-     "hours_en": "outside area open around the clock according to Google",
+     "text": "<p>Das frühere Hoxha-Mausoleum (1988 als Museum eröffnet) ist heute ein Kultur- und Jugendzentrum. Du kannst außen hinaufklettern und hast oben einen Blick über die Stadt – zum Sonnenuntergang am schönsten.</p><p>Das Gebäude von 1988 wurde als Museum für den Diktator Enver Hoxha eröffnet und nach 1991 zum Kulturzentrum umgewidmet. Lange stand es verfallen und mit Graffiti bedeckt, wurde aber in den letzten Jahren saniert und als Kultur- und Jugendzentrum wiedereröffnet; der Zugang zum Dach ist heute geregelt (Zeiten und Bedingungen vorher prüfen).</p><p>Wenn du hochkommst, siehst du über die Stadt bis zu den Bergen im Osten – am schönsten bei Sonnenuntergang. Im Inneren gibt es Räume für Veranstaltungen, die je nach Programm geöffnet sind.</p>",
+     "text_en": "<p>The former Hoxha mausoleum (opened as a museum in 1988) is now a culture and youth centre. You can climb up the outside and have a view over the city at the top – most beautiful at sunset.</p><p>The building of 1988 opened as a museum for the dictator Enver Hoxha and was converted to a cultural centre after 1991. For a long time it stood derelict and covered in graffiti, but in recent years it was renovated and reopened as a culture and youth centre; access to the roof is regulated today (check times and conditions beforehand).</p><p>If you get to the top you see across the city to the mountains in the east – most beautiful at sunset. Inside there are rooms for events that are open depending on the programme.</p>",
+     "hours": "Außenbereich rund um die Uhr zugänglich",
+     "hours_en": "outside area open around the clock",
      "tip": "Plane den Aufstieg für den Sonnenuntergang – aber trag feste Schuhe.",
-     "tip_en": "Plan the climb for sunset – but wear sturdy shoes."
+     "tip_en": "Plan the climb for sunset – but wear sturdy shoes.",
+     "free": true
     },
     {
      "name": "Dajti Ekspres (Seilbahn)",
      "name_en": "Dajti Ekspres (cable car)",
      "q": "Dajti Ekspres cable car Tirana",
-     "text": "<p>Die Seilbahn fährt in rund 15 Minuten auf den Hausberg der Stadt, den Dajti. Oben warten Panoramablick, Cafés und Restaurants sowie Minigolf und Spielplätze. Besucher nennen etwa 1.400–1.500 Lek für Hin- und Rückfahrt.</p><p>Oben beginnt der Dajti-Nationalpark: Wanderwege durch Wald, Aussichtspunkte und – je nach Jahreszeit – Wiesen voller Blumen. Im Winter liegt dort sogar Schnee. Wenn du wanderst, nimm Wasser, feste Schuhe und eine Jacke mit – oben ist es spürbar kühler als in der Stadt.</p><p>Die Seilbahn fährt in der Regel nicht bei starkem Wind; vorher auf der Website oder vor Ort nach dem Betrieb fragen. Die Fahrt ist ein Erlebnis für sich – du schwebst über Dächer, Wälder und Hänge.</p>",
-     "text_en": "<p>The cable car takes about 15 minutes up to the city’s local mountain, Dajti. At the top are panoramic views, cafés and restaurants as well as mini golf and playgrounds. Visitors mention about 1,400–1,500 lek for a round trip.</p><p>At the top the Dajti National Park begins: hiking trails through forest, viewpoints and – depending on the season – meadows full of flowers. In winter there is even snow. If you hike, take water, sturdy shoes and a jacket – it is noticeably cooler at the top than in the city.</p><p>The cable car usually does not run in strong wind; check the website or ask on site beforehand. The ride is an experience in itself – you glide over roofs, forests and slopes.</p>",
-     "hours": "laut Google Mi–So (Dienstag geschlossen), ca. 9–18 Uhr",
-     "hours_en": "Wed–Sun according to Google (closed Tuesday), about 9 am–6 pm",
+     "text": "<p>Die Seilbahn fährt in rund 15 Minuten auf den Hausberg der Stadt, den Dajti. Oben warten Panoramablick, Cafés und Restaurants sowie Minigolf und Spielplätze. Hin- und Rückfahrt kosten etwa 1.400–1.500 Lek.</p><p>Oben beginnt der Dajti-Nationalpark: Wanderwege durch Wald, Aussichtspunkte und – je nach Jahreszeit – Wiesen voller Blumen. Im Winter liegt dort sogar Schnee. Wenn du wanderst, nimm Wasser, feste Schuhe und eine Jacke mit – oben ist es spürbar kühler als in der Stadt.</p><p>Die Seilbahn fährt in der Regel nicht bei starkem Wind; vorher auf der Website oder vor Ort nach dem Betrieb fragen. Die Fahrt ist ein Erlebnis für sich – du schwebst über Dächer, Wälder und Hänge.</p>",
+     "text_en": "<p>The cable car takes about 15 minutes up to the city’s local mountain, Dajti. At the top are panoramic views, cafés and restaurants as well as mini golf and playgrounds. A round trip costs about 1,400–1,500 lek.</p><p>At the top the Dajti National Park begins: hiking trails through forest, viewpoints and – depending on the season – meadows full of flowers. In winter there is even snow. If you hike, take water, sturdy shoes and a jacket – it is noticeably cooler at the top than in the city.</p><p>The cable car usually does not run in strong wind; check the website or ask on site beforehand. The ride is an experience in itself – you glide over roofs, forests and slopes.</p>",
+     "hours": "Mi–So (Dienstag geschlossen), ca. 9–18 Uhr",
+     "hours_en": "Wed–Sun (closed Tuesday), about 9 am–6 pm",
      "tip": "Im Juli/August bilden sich am späten Vormittag Schlangen – früh fahren. Das lässt sich gut mit Bunk'Art 1 verbinden, das in der Nähe liegt.",
      "tip_en": "In July/August queues form in late morning – go early. It combines well with Bunk'Art 1, which is nearby."
     },
@@ -222,7 +223,8 @@
      "name_en": "Grand Park & the artificial lake",
      "q": "Grand Park of Tirana",
      "tip": "Plane ihn als ruhigen Nachmittag nach einem Museumsvormittag – am späten Nachmittag ist es am angenehmsten.",
-     "tip_en": "Plan it as a calm afternoon after a museum morning – late afternoon is the most pleasant time."
+     "tip_en": "Plan it as a calm afternoon after a museum morning – late afternoon is the most pleasant time.",
+     "free": true
     }
    ]
   },
@@ -239,12 +241,12 @@
      "name": "Römisches Amphitheater von Durrës",
      "name_en": "Roman amphitheatre of Durrës",
      "q": "Amphitheatre of Durrës",
-     "text": "<p>Ein römisches Amphitheater liegt mitten zwischen Wohnhäusern, dazu stehen Säulen eines byzantinischen Forums an der Straßenecke. Es ist nicht riesig, und Besucher sagen, dass der Zustand mäßig ist – etwa 20–30 Minuten reichen. Auf Google hat es 4,1 Sterne.</p><p>Das Amphitheater stammt aus dem 2. Jahrhundert n. Chr. und war mit Platz für Tausende Zuschauer das größte der Region. Bei Ausgrabungen fand man später einen Zugang zu Katakomben mit frühchristlichen Mosaiken, die man heute besichtigen kann. Die Mischung aus Antike und Wohnhäusern ist das, was Durrës so besonders macht.</p><p>Direkt in der Nähe liegen Reste des byzantinischen Forums, die Stadtmauer und der Venezianische Turm; alles ist zu Fuß in wenigen Minuten erreichbar. Plane etwa eine Stunde für das Amphitheater ein.</p>",
-     "text_en": "<p>A Roman amphitheatre sits among residential buildings, and the columns of a Byzantine forum stand at a street corner. It is not huge, and visitors say its condition is modest – about 20–30 minutes are enough. On Google it has 4.1 stars.</p><p>The amphitheatre dates from the 2nd century AD and, with room for thousands of spectators, was the largest in the region. Excavations later revealed an access to catacombs with early Christian mosaics that you can visit today. The mix of antiquity and apartment blocks is what makes Durrës so special.</p><p>Close by lie remains of the Byzantine forum, the city wall and the Venetian Tower; everything is a few minutes’ walk away. Plan about an hour for the amphitheatre.</p>",
-     "hours": "laut Google täglich ca. 9–19 Uhr",
-     "hours_en": "daily about 9 am–7 pm according to Google",
-     "tip": "Eintritt laut Besuchern nur bar – nimm Lek mit.",
-     "tip_en": "Admission is cash only according to visitors – bring lek.",
+     "text": "<p>Ein römisches Amphitheater liegt mitten zwischen Wohnhäusern, dazu stehen Säulen eines byzantinischen Forums an der Straßenecke. Es ist nicht riesig und eher mäßig in Schuss – etwa 20–30 Minuten reichen.</p><p>Das Amphitheater stammt aus dem 2. Jahrhundert n. Chr. und war mit Platz für Tausende Zuschauer das größte der Region. Bei Ausgrabungen fand man später einen Zugang zu Katakomben mit frühchristlichen Mosaiken, die man heute besichtigen kann. Die Mischung aus Antike und Wohnhäusern ist das, was Durrës so besonders macht.</p><p>Direkt in der Nähe liegen Reste des byzantinischen Forums, die Stadtmauer und der Venezianische Turm; alles ist zu Fuß in wenigen Minuten erreichbar. Plane etwa eine Stunde für das Amphitheater ein.</p>",
+     "text_en": "<p>A Roman amphitheatre sits among residential buildings, and the columns of a Byzantine forum stand at a street corner. It is not huge and in modest condition – about 20–30 minutes are enough.</p><p>The amphitheatre dates from the 2nd century AD and, with room for thousands of spectators, was the largest in the region. Excavations later revealed an access to catacombs with early Christian mosaics that you can visit today. The mix of antiquity and apartment blocks is what makes Durrës so special.</p><p>Close by lie remains of the Byzantine forum, the city wall and the Venetian Tower; everything is a few minutes’ walk away. Plan about an hour for the amphitheatre.</p>",
+     "hours": "täglich ca. 9–19 Uhr",
+     "hours_en": "daily about 9 am–7 pm",
+     "tip": "Eintritt nur bar – nimm Lek mit.",
+     "tip_en": "Admission is cash only – bring lek.",
      "photos": [
       "images/photos/durres-strasse.webp",
       "images/photos/durres-flagge.webp"
@@ -261,7 +263,8 @@
      "tip_en": "This is an abandoned building: be careful with stairs and scaffolding and do not enter dilapidated areas alone.",
      "photos": [
       "images/photos/durres-verlassene-villa.webp"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Strand am Abend",
@@ -273,7 +276,8 @@
       "images/video/durres-strand-nacht.mp4",
       "images/photos/durres-hunde.webp",
       "images/video/durres-essen.mp4"
-     ]
+     ],
+     "free": true
     }
    ]
   },
@@ -298,8 +302,8 @@
    "id": "essen",
    "h": "Essen, Trinken & Preise",
    "h_en": "Food, drink & prices",
-   "html": "<ul><li><strong>Byrek</strong> (Blätterteig mit Füllung) vom Bäcker ab dem Morgen: etwa 100–200 Lek.</li><li><strong>Fërgesë</strong> in Blloku: etwa 800–1.000 Lek mit Brot und Bier.</li><li><strong>Espresso</strong> kostet oft weniger als 1 €.</li><li><strong>Abendessen</strong> mit zwei Gängen und Wein in einem guten Restaurant: grob 2.000–3.500 Lek pro Person.</li><li><strong>Raki</strong> ist der Nationalschnaps – ausprobieren, am besten im Komiteti.</li></ul><p>Preise nach Reiseportalen, Stand 2026 – sie können abweichen. Trinkgeld: 5–10 % oder aufrunden.</p>",
-   "html_en": "<ul><li><strong>Byrek</strong> (filled pastry) from a bakery from the morning on: about 100–200 lek.</li><li><strong>Fërgesë</strong> in Blloku: about 800–1,000 lek with bread and beer.</li><li><strong>Espresso</strong> often costs less than €1.</li><li><strong>Dinner</strong> with two courses and wine in a good restaurant: roughly 2,000–3,500 lek per person.</li><li><strong>Raki</strong> is the national spirit – try it, ideally at Komiteti.</li></ul><p>Prices according to travel portals, 2026 – they may differ. Tipping: 5–10 % or round up.</p>"
+   "html": "<ul><li><strong>Byrek</strong> (Blätterteig mit Füllung) vom Bäcker ab dem Morgen: etwa 100–200 Lek.</li><li><strong>Fërgesë</strong> in Blloku: etwa 800–1.000 Lek mit Brot und Bier.</li><li><strong>Espresso</strong> kostet oft weniger als 1 €.</li><li><strong>Abendessen</strong> mit zwei Gängen und Wein in einem guten Restaurant: grob 2.000–3.500 Lek pro Person.</li><li><strong>Raki</strong> ist der Nationalschnaps – ausprobieren, am besten im Komiteti.</li></ul><p>Preise Stand 2026 – sie können abweichen. Trinkgeld: 5–10 % oder aufrunden.</p>",
+   "html_en": "<ul><li><strong>Byrek</strong> (filled pastry) from a bakery from the morning on: about 100–200 lek.</li><li><strong>Fërgesë</strong> in Blloku: about 800–1,000 lek with bread and beer.</li><li><strong>Espresso</strong> often costs less than €1.</li><li><strong>Dinner</strong> with two courses and wine in a good restaurant: roughly 2,000–3,500 lek per person.</li><li><strong>Raki</strong> is the national spirit – try it, ideally at Komiteti.</li></ul><p>Prices as of 2026 – they may differ. Tipping: 5–10 % or round up.</p>"
   },
   {
    "type": "prose",
@@ -374,8 +378,8 @@
   {
    "q": "Brauche ich Euro oder Lek?",
    "q_en": "Do I need euros or lek?",
-   "a": "<p>Offizielle Währung ist der Lek. In Touristenbereichen wird oft auch Euro akzeptiert, den Wechselkurs bekommst du aber meist besser in Lek. Manche Museen und Eintritte (z. B. House of Leaves, Amphitheater in Durrës) nehmen laut Besuchern nur Bargeld.</p>",
-   "a_en": "<p>The official currency is the lek. In tourist areas euros are often accepted too, but you usually get a better rate in lek. Some museums and admissions (for example House of Leaves, the amphitheatre in Durrës) are cash only according to visitors.</p>"
+   "a": "<p>Offizielle Währung ist der Lek. In Touristenbereichen wird oft auch Euro akzeptiert, den Wechselkurs bekommst du aber meist besser in Lek. Manche Museen und Eintritte (z. B. House of Leaves, Amphitheater in Durrës) nehmen nur Bargeld.</p>",
+   "a_en": "<p>The official currency is the lek. In tourist areas euros are often accepted too, but you usually get a better rate in lek. Some museums and admissions (for example House of Leaves, the amphitheatre in Durrës) are cash only.</p>"
   },
   {
    "q": "Ist Tirana sicher?",

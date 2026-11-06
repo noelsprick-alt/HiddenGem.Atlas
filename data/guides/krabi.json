@@ -94,8 +94,8 @@
     {
      "name": "Railay Beach",
      "q": "Railay Beach Krabi",
-     "text": "<p>Railay Beach ist nur per Boot erreichbar, und genau das macht den Reiz aus. Auf Google 4,4 Sterne bei über 5.000 Bewertungen. Besucher nennen Kalkfelsen, Türkiswasser und die Longtail-Fahrt als Highlight.</p>",
-     "text_en": "<p>Railay Beach can only be reached by boat, and that is exactly its charm. 4.4 stars on Google from over 5,000 reviews. Visitors mention limestone cliffs, turquoise water and the longtail ride as highlights.</p>",
+     "text": "<p>Railay Beach ist nur per Boot erreichbar, und genau das macht den Reiz aus. Highlights: Kalkfelsen, Türkiswasser und die Longtail-Fahrt.</p>",
+     "text_en": "<p>Railay Beach can only be reached by boat, and that is exactly its charm. Highlights: limestone cliffs, turquoise water and the longtail ride.</p>",
      "tip": "Tagsüber voll; früh oder spät kommen.",
      "tip_en": "Busy by day; come early or late."
     },
@@ -103,8 +103,8 @@
      "name": "Muay Thai im Boxstadion Ao Nang",
      "name_en": "Muay Thai at Ao Nang stadium",
      "q": "Ao Nang Krabi Stadium Muay Thai",
-     "text": "<p>Ein Abend im Boxstadion von Ao Nang: Lärm, Schweiß, Ringrichter, voll besetzte Ränge – das ganze Programm. Auf Google 3,7 Sterne; Gäste nennen kleine Arena und Kinderkämpfe, andere lobten die Stimmung.</p>",
-     "text_en": "<p>An evening at Ao Nang’s boxing stadium: noise, sweat, referees, packed stands – the full programme. 3.7 stars on Google; guests mention a small arena and kids’ fights, others praised the atmosphere.</p>",
+     "text": "<p>Ein Abend im Boxstadion von Ao Nang: Lärm, Schweiß, Ringrichter, voll besetzte Ränge – das ganze Programm.</p>",
+     "text_en": "<p>An evening at Ao Nang’s boxing stadium: noise, sweat, referees, packed stands – the full programme. The arena is small and there are kids’ fights too, but the atmosphere is the real show.</p>",
      "photos": [
       "images/video/aonang-muay-thai.mp4"
      ],
@@ -127,7 +127,8 @@
      "name_en": "Ao Nang & night market",
      "q": "Ao Nang Night Market",
      "tip": "Komm abends zum Nachtmarkt.",
-     "tip_en": "Come in the evening to the night market."
+     "tip_en": "Come in the evening to the night market.",
+     "free": true
     },
     {
      "name": "Vier-Inseln-Tour (4 Islands)",
@@ -151,10 +152,10 @@
      "name_en": "Hot springs in the forest",
      "gem": true,
      "q": "Saline Hot Spring Khlong Thom",
-     "text": "<p>In den heißen Quellen sitzt du im warmen Wasser mitten im Wald, über dir Baumwurzeln. Auf Google 4,3 Sterne; Ausländer zahlen laut Besuchern rund 200 THB. Ruhig, wenig los.</p>",
-     "text_en": "<p>In the hot springs you sit in warm water in the middle of the forest, tree roots above you. 4.3 stars on Google; foreigners pay about 200 THB according to visitors. Calm, few people.</p>",
-     "hours": "laut Google täglich ca. 5–20 Uhr",
-     "hours_en": "daily about 5 am–8 pm according to Google",
+     "text": "<p>In den heißen Quellen sitzt du im warmen Wasser mitten im Wald, über dir Baumwurzeln. Ruhig, wenig los.</p>",
+     "text_en": "<p>In the hot springs you sit in warm water in the middle of the forest, tree roots above you. Foreigners pay about 200 THB. Calm, few people.</p>",
+     "hours": "täglich ca. 5–20 Uhr",
+     "hours_en": "daily about 5 am–8 pm",
      "photos": [
       "images/photos/krabi-heisse-quellen.webp"
      ]
@@ -187,10 +188,10 @@
      "name": "Tiger Cave Temple",
      "name_en": "Tiger Cave Temple",
      "q": "Wat Tham Suea Krabi",
-     "text": "<p>1.260 Stufen zum Gipfel mit weitem Blick. Auf Google 4,6 Sterne bei über 14.000 Bewertungen. Besucher nennen 50 THB Eintritt und raten zu viel Wasser; Affen sind unterwegs, Taschen sichern.</p>",
-     "text_en": "<p>1,260 steps to the top with a wide view. 4.6 stars on Google from over 14,000 reviews. Visitors name 50 THB admission and advise bringing lots of water; monkeys are around, secure your bags.</p>",
-     "hours": "laut Google täglich ca. 6–18 Uhr",
-     "hours_en": "daily about 6 am–6 pm according to Google"
+     "text": "<p>1.260 Stufen zum Gipfel mit weitem Blick. Eintritt rund 50 THB; nimm viel Wasser mit. Affen sind unterwegs – Taschen sichern.</p>",
+     "text_en": "<p>1,260 steps to the top with a wide view. Admission is about 50 THB; bring lots of water. Monkeys are around – secure your bags.</p>",
+     "hours": "täglich ca. 6–18 Uhr",
+     "hours_en": "daily about 6 am–6 pm"
     },
     {
      "name": "Emerald Pool & Blue Pool",

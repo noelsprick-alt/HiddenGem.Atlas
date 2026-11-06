@@ -55,12 +55,13 @@
    "spots": [
     {
      "name": "Meiji-Schrein",
-     "text": "<p>Ein Waldspaziergang mitten in Tokio. Auf Google 4,7 Sterne bei über 54.000 Bewertungen. Besucher sagen: erstaunlich ruhig, Essen und Trinken im Schreinbereich verboten.</p><p>Der Meiji-Schrein wurde 1920 für Kaiser Meiji und Kaiserin Shōken errichtet und liegt in einem rund 70 Hektar großen Wald mit etwa 100.000 gespendeten Bäumen. Du betrittst ihn durch ein riesiges Torii und gehst auf Kiesweg zwischen hohen Bäumen zum Hauptgebäude. Am Weg stehen aufgestapelte Sake-Fässer, die dem Schrein gespendet wurden.</p><p>Mit etwas Glück siehst du eine traditionelle Hochzeitsprozession. Verhalte dich ruhig, verbeuge dich leicht am Torii und fotografiere respektvoll. Plane etwa eine Stunde ein; der Eintritt in den Schreinbezirk ist kostenlos.</p>",
-     "text_en": "<p>A forest walk in the middle of Tokyo. 4.7 stars on Google from over 54,000 reviews. Visitors say: astonishingly quiet, eating and drinking not allowed in the shrine area.</p><p>Meiji Shrine was built in 1920 for Emperor Meiji and Empress Shōken and lies in a forest of about 70 hectares with roughly 100,000 donated trees. You enter through a huge torii and walk on a gravel path between tall trees to the main building. Along the way stand stacked sake barrels donated to the shrine.</p><p>With luck you see a traditional wedding procession. Behave quietly, bow slightly at the torii and photograph respectfully. Plan about an hour; entry to the shrine grounds is free.</p>",
+     "text": "<p>Ein Waldspaziergang mitten in Tokio. Erstaunlich ruhig; Essen und Trinken im Schreinbereich verboten.</p><p>Der Meiji-Schrein wurde 1920 für Kaiser Meiji und Kaiserin Shōken errichtet und liegt in einem rund 70 Hektar großen Wald mit etwa 100.000 gespendeten Bäumen. Du betrittst ihn durch ein riesiges Torii und gehst auf Kiesweg zwischen hohen Bäumen zum Hauptgebäude. Am Weg stehen aufgestapelte Sake-Fässer, die dem Schrein gespendet wurden.</p><p>Mit etwas Glück siehst du eine traditionelle Hochzeitsprozession. Verhalte dich ruhig, verbeuge dich leicht am Torii und fotografiere respektvoll. Plane etwa eine Stunde ein; der Eintritt in den Schreinbezirk ist kostenlos.</p>",
+     "text_en": "<p>A forest walk in the middle of Tokyo. Astonishingly quiet; eating and drinking are not allowed in the shrine area.</p><p>Meiji Shrine was built in 1920 for Emperor Meiji and Empress Shōken and lies in a forest of about 70 hectares with roughly 100,000 donated trees. You enter through a huge torii and walk on a gravel path between tall trees to the main building. Along the way stand stacked sake barrels donated to the shrine.</p><p>With luck you see a traditional wedding procession. Behave quietly, bow slightly at the torii and photograph respectfully. Plan about an hour; entry to the shrine grounds is free.</p>",
      "name_en": "Meiji Shrine",
      "q": "Meiji Jingu Tokyo",
      "tip": "Komm morgens, wenn der Wald fast leer ist, und geh danach nach Harajuku.",
-     "tip_en": "Come in the morning when the forest is almost empty and go to Harajuku afterwards."
+     "tip_en": "Come in the morning when the forest is almost empty and go to Harajuku afterwards.",
+     "free": true
     },
     {
      "name": "Harajuku",
@@ -72,8 +73,8 @@
     },
     {
      "name": "Shibuya Crossing",
-     "text": "<p>Zum Sonnenuntergang nach Shibuya: Neon, Menschen, Energie. Auf Google 4,5 Sterne. Besucher empfehlen, von oben zuzuschauen und einmal selbst zu kreuzen.</p><p>Die Shibuya Crossing gilt als eine der meistfrequentierten Kreuzungen der Welt: Wenn alle Ampeln auf Rot stehen, laufen Hunderte Menschen gleichzeitig aus allen Richtungen über die Straße. Du kannst selbst hinübergehen oder von oben zuschauen, zum Beispiel vom Shibuya Sky, einer Aussichtsplattform auf rund 230 Metern Höhe (Tickets im Voraus online buchen, Preise prüfen).</p><p>Besonders schön ist die Zeit kurz vor und nach Sonnenuntergang, wenn die Neonreklamen angehen. Am Bahnhof steht die Hachikō-Statue, ein beliebter Treffpunkt. Plane eine Stunde ein.</p>",
-     "text_en": "<p>To Shibuya at sunset: neon, people, energy. 4.5 stars on Google. Visitors recommend watching from above and crossing once yourself.</p><p>The Shibuya Crossing is considered one of the busiest crossings in the world: when all the lights are red, hundreds of people cross the street from all directions at the same time. You can cross yourself or watch from above, for example from Shibuya Sky, a viewing platform at about 230 metres (book tickets online in advance, check prices).</p><p>The time shortly before and after sunset is especially beautiful when the neon signs come on. At the station stands the Hachikō statue, a popular meeting point. Plan an hour.</p>",
+     "text": "<p>Zum Sonnenuntergang nach Shibuya: Neon, Menschen, Energie. Mein Tipp: erst von oben zuschauen, dann einmal selbst kreuzen.</p><p>Die Shibuya Crossing gilt als eine der meistfrequentierten Kreuzungen der Welt: Wenn alle Ampeln auf Rot stehen, laufen Hunderte Menschen gleichzeitig aus allen Richtungen über die Straße. Du kannst selbst hinübergehen oder von oben zuschauen, zum Beispiel vom Shibuya Sky, einer Aussichtsplattform auf rund 230 Metern Höhe (Tickets im Voraus online buchen, Preise prüfen).</p><p>Besonders schön ist die Zeit kurz vor und nach Sonnenuntergang, wenn die Neonreklamen angehen. Am Bahnhof steht die Hachikō-Statue, ein beliebter Treffpunkt. Plane eine Stunde ein.</p>",
+     "text_en": "<p>To Shibuya at sunset: neon, people, energy. My tip: watch from above first, then cross once yourself.</p><p>The Shibuya Crossing is considered one of the busiest crossings in the world: when all the lights are red, hundreds of people cross the street from all directions at the same time. You can cross yourself or watch from above, for example from Shibuya Sky, a viewing platform at about 230 metres (book tickets online in advance, check prices).</p><p>The time shortly before and after sunset is especially beautiful when the neon signs come on. At the station stands the Hachikō statue, a popular meeting point. Plan an hour.</p>",
      "q": "Shibuya Scramble Crossing",
      "tip": "Buche Shibuya Sky für Sonnenuntergang – die Slots sind schnell weg.",
      "tip_en": "Book Shibuya Sky for sunset – the slots go fast."
@@ -94,7 +95,8 @@
      "name_en": "Shinjuku: Golden Gai, Omoide Yokochō & city-hall view",
      "q": "Golden Gai Shinjuku",
      "tip": "Schau auf die Schilder an den Bars und frag nach dem Aufpreis, bevor du eintrittst.",
-     "tip_en": "Look at the signs on the bars and ask about the cover charge before you enter."
+     "tip_en": "Look at the signs on the bars and ask about the cover charge before you enter.",
+     "free": true
     },
     {
      "name": "Tsukiji Outer Market",
@@ -112,7 +114,8 @@
      "name_en": "Imperial Palace East Gardens",
      "q": "Imperial Palace East Gardens Tokyo",
      "tip": "Prüfe die Schließtage und plane einen ruhigen Vormittag ein.",
-     "tip_en": "Check the closing days and plan a quiet morning."
+     "tip_en": "Check the closing days and plan a quiet morning.",
+     "free": true
     }
    ]
   },

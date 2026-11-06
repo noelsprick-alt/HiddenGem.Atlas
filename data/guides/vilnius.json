@@ -55,12 +55,12 @@
    "spots": [
     {
      "name": "Gediminas-Turm",
-     "text": "<p>Zum Sonnenuntergang auf den Turm. Auf Google 4,7 Sterne. Besucher nennen rund 8 € Eintritt, eine Standseilbahn (ca. 2 €) und 360°-Blick.</p><p>Der Gediminas-Turm ist der Rest der Oberen Burg auf dem Burgberg und das Wahrzeichen von Vilnius. Von der Plattform oben siehst du die Altstadt mit ihren roten Dächern, die Neris und moderne Hochhäuser. Der Aufstieg erfolgt zu Fuß über einen Weg oder mit der Standseilbahn; im Turm gibt es eine kleine Ausstellung.</p><p>Zum Sonnenuntergang ist der Blick am schönsten. Öffnungszeiten und Preise ändern sich, bitte vorher prüfen.</p>",
-     "text_en": "<p>Up the tower at sunset. 4.7 stars on Google. Visitors mention about €8 admission, a funicular (about €2) and a 360° view.</p><p>The Gediminas Tower is the remnant of the Upper Castle on the castle hill and the landmark of Vilnius. From the platform at the top you see the old town with its red roofs, the Neris and modern skyscrapers. You ascend on foot by a path or by funicular; inside the tower there is a small exhibition.</p><p>At sunset the view is most beautiful. Opening times and prices change, please check beforehand.</p>",
+     "text": "<p>Zum Sonnenuntergang auf den Turm. Eintritt rund 8 €, Standseilbahn ca. 2 €, oben 360°-Blick.</p><p>Der Gediminas-Turm ist der Rest der Oberen Burg auf dem Burgberg und das Wahrzeichen von Vilnius. Von der Plattform oben siehst du die Altstadt mit ihren roten Dächern, die Neris und moderne Hochhäuser. Der Aufstieg erfolgt zu Fuß über einen Weg oder mit der Standseilbahn; im Turm gibt es eine kleine Ausstellung.</p><p>Zum Sonnenuntergang ist der Blick am schönsten. Öffnungszeiten und Preise ändern sich, bitte vorher prüfen.</p>",
+     "text_en": "<p>Up the tower at sunset. Admission is about €8, the funicular about €2, and a 360° view at the top.</p><p>The Gediminas Tower is the remnant of the Upper Castle on the castle hill and the landmark of Vilnius. From the platform at the top you see the old town with its red roofs, the Neris and modern skyscrapers. You ascend on foot by a path or by funicular; inside the tower there is a small exhibition.</p><p>At sunset the view is most beautiful. Opening times and prices change, please check beforehand.</p>",
      "name_en": "Gediminas Tower",
      "q": "Gediminas Castle Tower Vilnius",
-     "hours": "laut Google täglich ca. 10–20 Uhr",
-     "hours_en": "daily about 10 am–8 pm according to Google",
+     "hours": "täglich ca. 10–20 Uhr",
+     "hours_en": "daily about 10 am–8 pm",
      "tip": "Komm zum Sonnenuntergang und nimm den Fußweg hinauf.",
      "tip_en": "Come at sunset and take the footpath up."
     },
@@ -71,7 +71,8 @@
      "name_en": "Užupis",
      "q": "Užupis",
      "tip": "Lies die Verfassung an der Wand und trink einen Kaffee im Viertel.",
-     "tip_en": "Read the constitution on the wall and have a coffee in the district."
+     "tip_en": "Read the constitution on the wall and have a coffee in the district.",
+     "free": true
     },
     {
      "name": "Altstadt von Vilnius",
@@ -80,7 +81,8 @@
      "name_en": "Vilnius Old Town",
      "q": "Vilnius Old Town",
      "tip": "Lass dich in Innenhöfe und Seitengassen treiben.",
-     "tip_en": "Drift into courtyards and side streets."
+     "tip_en": "Drift into courtyards and side streets.",
+     "free": true
     },
     {
      "name": "Kathedrale & Domplatz",
@@ -89,7 +91,8 @@
      "name_en": "Cathedral & Cathedral Square",
      "q": "Vilnius Cathedral",
      "tip": "Dreh dich auf dem Stebuklas-Stein dreimal und wünsch dir etwas.",
-     "tip_en": "Turn around three times on the Stebuklas stone and make a wish."
+     "tip_en": "Turn around three times on the Stebuklas stone and make a wish.",
+     "free": true
     },
     {
      "name": "Tor der Morgenröte (Aušros Vartai)",
@@ -119,13 +122,13 @@
    "spots": [
     {
      "name": "KGB-Museum",
-     "text": "Mit den echten Zellen. Auf Google 4,6 Sterne. Besucher nennen rund 6 € und 1,5 Stunden; ein bewegender Ort.",
-     "text_en": "With the real cells. 4.6 stars on Google. Visitors mention about €6 and 1.5 hours; a moving place.",
+     "text": "Mit den echten Zellen. Eintritt rund 6 €, plane 1,5 Stunden ein; ein bewegender Ort.",
+     "text_en": "With the real cells. Admission is about €6, plan 1.5 hours; a moving place.",
      "name_en": "KGB Museum",
      "gem": true,
      "q": "Museum of Occupations and Freedom Fights Vilnius",
-     "hours": "laut Google Mi–So, Mo/Di geschlossen",
-     "hours_en": "Wed–Sun, closed Mon/Tue according to Google"
+     "hours": "Mi–So, Mo/Di geschlossen",
+     "hours_en": "Wed–Sun, closed Mon/Tue"
     },
     {
      "name": "Frank-Zappa-Denkmal & Gasse der Schriftsteller",
@@ -133,15 +136,17 @@
      "text_en": "The world’s first Frank Zappa monument (Zappa was never in Lithuania) and Writers’ Lane with hundreds of small artworks on the wall.",
      "name_en": "Frank Zappa monument & Writers’ Lane",
      "gem": true,
-     "q": "Frank-Zappa-Denkmal & Gasse der Schriftsteller"
+     "q": "Frank-Zappa-Denkmal & Gasse der Schriftsteller",
+     "free": true
     },
     {
      "name": "Berg der Kreuze",
-     "text": "Etwas weiter weg: Tausende Kreuze. Auf Google 4,6 Sterne. Besucher: nur mit Auto/Tour erreichbar, rund um die Uhr offen, kein Ticket.",
-     "text_en": "A bit further away: thousands of crosses. 4.6 stars on Google. Visitors: reachable only by car/tour, open around the clock, no ticket.",
+     "text": "Etwas weiter weg: Tausende Kreuze. Nur mit Auto oder Tour erreichbar, rund um die Uhr offen, kein Ticket nötig.",
+     "text_en": "A bit further away: thousands of crosses. Reachable only by car or tour, open around the clock, no ticket needed.",
      "name_en": "Hill of Crosses",
      "gem": true,
-     "q": "Hill of Crosses Lithuania"
+     "q": "Hill of Crosses Lithuania",
+     "free": true
     },
     {
      "name": "Trakai – Wasserburg auf der Insel",
@@ -161,7 +166,8 @@
      "gem": true,
      "q": "Three Crosses Hill Vilnius",
      "tip": "Geh zum Sonnenuntergang hinauf.",
-     "tip_en": "Go up at sunset."
+     "tip_en": "Go up at sunset.",
+     "free": true
     },
     {
      "name": "Litauische Küche: Cepelinai, Šaltibarščiai & Kibinai",

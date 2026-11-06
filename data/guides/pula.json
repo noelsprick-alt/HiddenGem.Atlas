@@ -78,12 +78,12 @@
      "name": "Die Arena von Pula",
      "name_en": "Pula Arena",
      "q": "Pula Arena",
-     "text": "<p>Eines der besterhaltenen römischen Amphitheater der Welt, gebaut im 1. Jahrhundert und mitten in der Stadt. Auf Google hat sie 4,6 Sterne bei über 76.000 Bewertungen. Drinnen kannst du dich frei bewegen; im Untergeschoss gibt es eine Ausstellung (unter anderem zu Olivenöl).</p>",
-     "text_en": "<p>One of the best-preserved Roman amphitheatres in the world, built in the 1st century and right in the middle of the city. On Google it has 4.6 stars from over 76,000 reviews. Inside you can move freely; the basement has an exhibition (including one on olive oil).</p>",
-     "hours": "laut Google täglich ca. 8–21 Uhr (saisonabhängig)",
-     "hours_en": "daily about 8 am–9 pm according to Google (seasonal)",
-     "price": "ca. 10 € laut Besuchern",
-     "price_en": "about €10 according to visitors",
+     "text": "<p>Eines der besterhaltenen römischen Amphitheater der Welt, gebaut im 1. Jahrhundert und mitten in der Stadt. Drinnen kannst du dich frei bewegen; im Untergeschoss gibt es eine Ausstellung (unter anderem zu Olivenöl).</p>",
+     "text_en": "<p>One of the best-preserved Roman amphitheatres in the world, built in the 1st century and right in the middle of the city. Inside you can move freely; the basement has an exhibition (including one on olive oil).</p>",
+     "hours": "täglich ca. 8–21 Uhr (saisonabhängig)",
+     "hours_en": "daily about 8 am–9 pm (seasonal)",
+     "price": "ca. 10 €",
+     "price_en": "about €10",
      "tip": "Abends wird die Arena angestrahlt – komm zum Sonnenuntergang und schau dir danach das Licht an. Im Sommer gibt es Konzerte.",
      "tip_en": "In the evening the arena is lit up – come at sunset and see the light afterwards. In summer there are concerts.",
      "photos": [
@@ -95,21 +95,22 @@
      "name": "Forum & Augustustempel",
      "name_en": "Forum & Temple of Augustus",
      "q": "Temple of Augustus Pula",
-     "text": "<p>Das alte römische Forum ist heute ein Platz mit Cafés. Ich saß dort mit einem Kaffee direkt gegenüber vom Augustustempel – er steht seit rund 2.000 Jahren. Innen gibt es für ca. 2 € eine kleine Sammlung römischer Skulpturen. Auf Google 4,6 Sterne.</p>",
-     "text_en": "<p>The old Roman forum is now a square with cafés. I sat there with a coffee right opposite the Temple of Augustus – it has stood for about 2,000 years. Inside there is a small collection of Roman sculptures for about €2. 4.6 stars on Google.</p>",
+     "text": "<p>Das alte römische Forum ist heute ein Platz mit Cafés. Ich saß dort mit einem Kaffee direkt gegenüber vom Augustustempel – er steht seit rund 2.000 Jahren. Innen gibt es für ca. 2 € eine kleine Sammlung römischer Skulpturen.</p>",
+     "text_en": "<p>The old Roman forum is now a square with cafés. I sat there with a coffee right opposite the Temple of Augustus – it has stood for about 2,000 years. Inside there is a small collection of Roman sculptures for about €2.</p>",
      "photos": [
       "images/photos/pula-forum-kaffee.webp"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Zerostrasse & Festung",
      "name_en": "Zerostrasse tunnels & citadel",
      "gem": true,
      "q": "Zerostrasse Pula",
-     "text": "<p>Ein zweigeschossiges Tunnelsystem unter dem Kastell mit Fotos und kühler Luft – perfekt an heißen Tagen. Das Ticket schließt laut Besuchern die Festung oben ein. Auf Google 4,4 Sterne.</p>",
-     "text_en": "<p>A two-level tunnel system beneath the citadel with photos and cool air – perfect on hot days. According to visitors the ticket includes the fortress above. 4.4 stars on Google.</p>",
-     "hours": "laut Google täglich ca. 9–17 Uhr",
-     "hours_en": "daily about 9 am–5 pm according to Google",
+     "text": "<p>Ein zweigeschossiges Tunnelsystem unter dem Kastell mit Fotos und kühler Luft – perfekt an heißen Tagen. Das Ticket schließt die Festung oben ein.</p>",
+     "text_en": "<p>A two-level tunnel system beneath the citadel with photos and cool air – perfect on hot days. The ticket includes the fortress above.</p>",
+     "hours": "täglich ca. 9–17 Uhr",
+     "hours_en": "daily about 9 am–5 pm",
      "tip": "Die Infotafeln drehen sich viel um die Stadtgeschichte inkl. Straßenbahn – nimm es als kühle Pause, nicht als Museum.",
      "tip_en": "The info boards cover a lot of city history including trams – take it as a cool break rather than a museum."
     },
@@ -117,13 +118,14 @@
      "name": "Markthalle (Tržnica)",
      "name_en": "Market hall (Tržnica)",
      "q": "City Market Pula Narodni trg",
-     "text": "<p>Ein paar Straßen weiter liegt in der Markthalle der Fang des Tages auf Eis, draußen stapeln sich die Orangen. Die Eisenhalle wurde 1903 eröffnet; drinnen gibt es Fisch und Fleisch, oben Bistros, draußen Obst, Trüffel, Olivenöl und Honig. Auf Google 4,5 Sterne.</p>",
-     "text_en": "<p>A few streets on, the market hall has the day’s catch on ice, and oranges are stacked outside. The iron hall opened in 1903; inside there is fish and meat, bistros upstairs, outside fruit, truffles, olive oil and honey. 4.5 stars on Google.</p>",
-     "hours": "laut Google täglich ca. 7–13 Uhr",
-     "hours_en": "daily about 7 am–1 pm according to Google",
+     "text": "<p>Ein paar Straßen weiter liegt in der Markthalle der Fang des Tages auf Eis, draußen stapeln sich die Orangen. Die Eisenhalle wurde 1903 eröffnet; drinnen gibt es Fisch und Fleisch, oben Bistros, draußen Obst, Trüffel, Olivenöl und Honig.</p>",
+     "text_en": "<p>A few streets on, the market hall has the day’s catch on ice, and oranges are stacked outside. The iron hall opened in 1903; inside there is fish and meat, bistros upstairs, outside fruit, truffles, olive oil and honey.</p>",
+     "hours": "täglich ca. 7–13 Uhr",
+     "hours_en": "daily about 7 am–1 pm",
      "photos": [
       "images/photos/pula-fischmarkt.webp"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Der stille Klosterhof",
@@ -158,8 +160,8 @@
      "name": "Verudela",
      "gem": true,
      "q": "Verudela Pula",
-     "text": "<p>Felsplatten statt Sandstrand, Wellen, die gegen die Steine krachen, und Abende, an denen der Himmel erst orange und dann violett wird. Auf Google 4,7 Sterne; Besucher loben das klare Wasser, bemängeln aber die Steine.</p>",
-     "text_en": "<p>Rock slabs instead of sandy beach, waves crashing against the stones and evenings when the sky turns first orange and then violet. 4.7 stars on Google; visitors praise the clear water but note the stones.</p>",
+     "text": "<p>Felsplatten statt Sandstrand, Wellen, die gegen die Steine krachen, und Abende, an denen der Himmel erst orange und dann violett wird.</p>",
+     "text_en": "<p>Rock slabs instead of sandy beach, waves crashing against the stones and evenings when the sky turns first orange and then violet. Crystal-clear water – but bring shoes for the stones.</p>",
      "tip": "Wasserschuhe mitnehmen. Zum Sonnenuntergang kommen – und feste Schuhe für die Felsen.",
      "tip_en": "Bring water shoes. Come for sunset – and wear sturdy shoes for the rocks.",
      "photos": [
@@ -168,13 +170,14 @@
       "images/photos/pula-brandung.webp",
       "images/photos/pula-felsloch.webp",
       "images/video/pula-verudela-abend.mp4"
-     ]
+     ],
+     "free": true
     },
     {
      "name": "Fort Bourguignon",
      "q": "Fort Bourguignon Pula",
-     "text": "<p>Eine der österreichischen Festungen, die in der zweiten Hälfte des 19. Jahrhunderts rund um Pula entstanden (ursprünglich Fort Monsival, 1861–66 gebaut) – ein Lost-Place-Flair am Rand von Verudela. Auf Google 4,1 Sterne.</p>",
-     "text_en": "<p>One of the Austrian fortresses built around Pula in the second half of the 19th century (originally Fort Monsival, built 1861–66) – lost-place flair on the edge of Verudela. 4.1 stars on Google.</p>",
+     "text": "<p>Eine der österreichischen Festungen, die in der zweiten Hälfte des 19. Jahrhunderts rund um Pula entstanden (ursprünglich Fort Monsival, 1861–66 gebaut) – ein Lost-Place-Flair am Rand von Verudela.</p>",
+     "text_en": "<p>One of the Austrian fortresses built around Pula in the second half of the 19th century (originally Fort Monsival, built 1861–66) – lost-place flair on the edge of Verudela.</p>",
      "tip": "Ein Ort für Neugierige; trittsicher sein und keine abgesperrten Bereiche betreten.",
      "tip_en": "A place for the curious; watch your footing and do not enter closed-off areas."
     },
@@ -182,10 +185,11 @@
      "name": "Kap Kamenjak",
      "name_en": "Cape Kamenjak",
      "q": "Kamenjak Premantura",
-     "text": "<p>Eine Halbinsel am südlichen Zipfel Istriens mit vielen kleinen Buchten, türkisem Wasser und Wanderwegen. Auf Google 4,5 Sterne. Für Autos wird laut Besuchern ein Eintritt von rund 10–20 € fällig, zu Fuß oder mit dem Rad ist es kostenlos; die Schotterwege sind staubig.</p>",
-     "text_en": "<p>A peninsula at Istria’s southern tip with many small coves, turquoise water and hiking trails. 4.5 stars on Google. Visitors report an admission of roughly €10–20 for cars, on foot or by bike it is free; the gravel tracks are dusty.</p>",
+     "text": "<p>Eine Halbinsel am südlichen Zipfel Istriens mit vielen kleinen Buchten, türkisem Wasser und Wanderwegen. Für Autos wird ein Eintritt von rund 10–20 € fällig, zu Fuß oder mit dem Rad ist es kostenlos; die Schotterwege sind staubig.</p>",
+     "text_en": "<p>A peninsula at Istria’s southern tip with many small coves, turquoise water and hiking trails. Cars pay roughly €10–20 admission, on foot or by bike it is free; the gravel tracks are dusty.</p>",
      "tip": "Wasserschuhe und Sonnenschirm einpacken – es gibt wenig Schatten. Früh kommen und mit dem Rad erkunden.",
-     "tip_en": "Pack water shoes and a parasol – there is little shade. Come early and explore by bike."
+     "tip_en": "Pack water shoes and a parasol – there is little shade. Come early and explore by bike.",
+     "free": true
     },
     {
      "name": "Brijuni-Inseln",
@@ -209,8 +213,8 @@
      "name_en": "Hum – the smallest town in the world",
      "gem": true,
      "q": "Hum Istria",
-     "text": "<p>Im Hinterland steht Hum, das sich die kleinste Stadt der Welt nennt, mit rund 30 Einwohnern. Gäste erwähnen die glagolitische Schrift, ein kleines Museum, Likör und Marmelade zum Probieren sowie die Aussicht. Auf Google 4,7 Sterne.</p>",
-     "text_en": "<p>In the hinterland stands Hum, which calls itself the smallest town in the world, with about 30 residents. Guests mention the Glagolitic script, a small museum, liqueur and jam to taste and the view. 4.7 stars on Google.</p>",
+     "text": "<p>Im Hinterland steht Hum, das sich die kleinste Stadt der Welt nennt, mit rund 30 Einwohnern. Es gibt die glagolitische Schrift, ein kleines Museum, Likör und Marmelade zum Probieren sowie die Aussicht.</p>",
+     "text_en": "<p>In the hinterland stands Hum, which calls itself the smallest town in the world, with about 30 residents. There is the Glagolitic script, a small museum, liqueur and jam to taste and the view.</p>",
      "tip": "Plane Hum mit Motovun (Trüffel) als Tagesausflug mit Auto oder Tour – öffentlich ist es schwierig.",
      "tip_en": "Combine Hum with Motovun (truffles) as a day trip by car or tour – it is hard by public transport."
     },
@@ -221,7 +225,8 @@
      "name_en": "Rovinj – old town by the sea",
      "q": "Rovinj Croatia",
      "tip": "Steig zur Kirche hinauf für den Blick.",
-     "tip_en": "Climb to the church for the view."
+     "tip_en": "Climb to the church for the view.",
+     "free": true
     }
    ]
   },

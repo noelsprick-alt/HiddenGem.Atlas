@@ -67,12 +67,13 @@
      "text": "<p>Um die Brücke von Arnheim wurde 1944 eine der berühmtesten Schlachten des Krieges geschlagen.</p><p>Die Brücke über den Niederrhein heißt heute John-Frost-Brücke, benannt nach dem britischen Oberstleutnant, der sie im September 1944 bei der Operation Market Garden verteidigte. Die Schlacht war Teil des alliierten Versuchs, die Rheinbrücken zu erobern, und endete mit einer Niederlage der Alliierten; sie wurde später durch den Film „Die Brücke von Arnheim“ (A Bridge Too Far) bekannt.</p><p>Heute siehst du die Brücke vom Ufer aus; unten gibt es Gedenktafeln und ein Denkmal. Wenn du dich für die Geschichte interessierst, kombiniere den Besuch mit dem Airborne Museum in Oosterbeek. Rund um den Jahrestag im September gibt es Gedenkveranstaltungen.</p>",
      "text_en": "<p>One of the war’s most famous battles was fought around the Arnhem bridge in 1944.</p><p>The bridge over the Lower Rhine is today called the John Frost Bridge, named after the British lieutenant colonel who defended it in September 1944 during Operation Market Garden. The battle was part of the Allied attempt to capture the Rhine bridges and ended with an Allied defeat; it later became known through the film “A Bridge Too Far”.</p><p>Today you see the bridge from the bank; below there are memorial plaques and a monument. If you are interested in the history, combine the visit with the Airborne Museum in Oosterbeek. Around the anniversary in September there are commemorative events.</p>",
      "name_en": "The Bridge at Arnhem",
-     "q": "John Frost Bridge Arnhem"
+     "q": "John Frost Bridge Arnhem",
+     "free": true
     },
     {
      "name": "Kröller-Müller Museum & Skulpturengarten",
-     "text": "<p>Mitten im Nationalpark liegt das Kröller-Müller Museum mit einer der größten Van-Gogh-Sammlungen der Welt – nach dem Van-Gogh-Museum in Amsterdam gilt es als die zweitgrößte. Dazu kommen Werke von Seurat, Mondrian, Picasso und anderen. Das Museum ist ruhig, hell und nicht überlaufen.</p><p>Hinter dem Haus erstreckt sich der Skulpturengarten, einer der größten Europas: über 160 Werke (laut Museum, grob) in Wald und Wiese, zum Beispiel von Rodin und Henry Moore. Mit dem weißen Rad ist er in wenigen Minuten erreichbar; plane zwei bis drei Stunden ein. Eintritt und Öffnungszeiten vorher prüfen; montags ist das Museum oft geschlossen.</p>",
-     "text_en": "<p>In the middle of the national park lies the Kröller-Müller Museum with one of the largest Van Gogh collections in the world – after the Van Gogh Museum in Amsterdam it is considered the second largest. Works by Seurat, Mondrian, Picasso and others are added. The museum is quiet, bright and not overcrowded.</p><p>Behind the house extends the sculpture garden, one of the largest in Europe: over 160 works (according to the museum, roughly) in woodland and meadow, for example by Rodin and Henry Moore. With the white bike it is a few minutes away; plan two to three hours. Check admission and opening times beforehand; the museum is often closed on Mondays.</p>",
+     "text": "<p>Mitten im Nationalpark liegt das Kröller-Müller Museum mit einer der größten Van-Gogh-Sammlungen der Welt – nach dem Van-Gogh-Museum in Amsterdam gilt es als die zweitgrößte. Dazu kommen Werke von Seurat, Mondrian, Picasso und anderen. Das Museum ist ruhig, hell und nicht überlaufen.</p><p>Hinter dem Haus erstreckt sich der Skulpturengarten, einer der größten Europas: über 160 Werke in Wald und Wiese, zum Beispiel von Rodin und Henry Moore. Mit dem weißen Rad ist er in wenigen Minuten erreichbar; plane zwei bis drei Stunden ein. Eintritt und Öffnungszeiten vorher prüfen; montags ist das Museum oft geschlossen.</p>",
+     "text_en": "<p>In the middle of the national park lies the Kröller-Müller Museum with one of the largest Van Gogh collections in the world – after the Van Gogh Museum in Amsterdam it is considered the second largest. Works by Seurat, Mondrian, Picasso and others are added. The museum is quiet, bright and not overcrowded.</p><p>Behind the house extends the sculpture garden, one of the largest in Europe: over 160 works in woodland and meadow, for example by Rodin and Henry Moore. With the white bike it is a few minutes away; plan two to three hours. Check admission and opening times beforehand; the museum is often closed on Mondays.</p>",
      "name_en": "Kröller-Müller Museum & sculpture garden",
      "q": "Kröller-Müller Museum",
      "tip": "Fahr zum Skulpturengarten nach dem Museum, wenn du noch Kraft hast – bei Sonne ist er besonders schön.",
@@ -94,7 +95,8 @@
      "name_en": "Eusebius Church & old town",
      "q": "Eusebiuskerk Arnhem",
      "tip": "Der Turm ist nicht immer geöffnet – prüfe Zeiten vorher und plane ihn für gutes Wetter.",
-     "tip_en": "The tower is not always open – check times beforehand and plan it for good weather."
+     "tip_en": "The tower is not always open – check times beforehand and plan it for good weather.",
+     "free": true
     },
     {
      "name": "Nederlands Openluchtmuseum",
@@ -121,7 +123,8 @@
      "name_en": "Sonsbeek Park",
      "q": "Sonsbeek park Arnhem",
      "tip": "Pack ein Picknick ein und setz dich an einen der Teiche.",
-     "tip_en": "Pack a picnic and sit by one of the ponds."
+     "tip_en": "Pack a picnic and sit by one of the ponds.",
+     "free": true
     }
    ]
   },
@@ -148,7 +151,8 @@
      "gem": true,
      "q": "Klarendal Arnhem",
      "tip": "Komm am Nachmittag und an einem Tag, an dem die Läden geöffnet sind – nicht montags.",
-     "tip_en": "Come in the afternoon and on a day when shops are open – not on Monday."
+     "tip_en": "Come in the afternoon and on a day when shops are open – not on Monday.",
+     "free": true
     },
     {
      "name": "Posbank & Veluwezoom – Heide mit Aussicht",

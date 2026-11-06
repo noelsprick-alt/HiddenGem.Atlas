@@ -49,19 +49,19 @@
    "spots": [
     {
      "name": "Széchenyi-Bad",
-     "text": "<p>Morgens ins Bad. Auf Google 4,2 Sterne bei über 67.000 Bewertungen. Besucher raten zu einem Wochentag-Morgen (ruhiger), Badeschuhe und Handtuch mitzubringen.</p><p>Das Széchenyi-Bad ist eines der größten Thermalbäder Europas mit gelber neobarocker Fassade, Außenbecken mit warmem Wasser und Saunen. Besonders schön ist es am Morgen oder im Winter, wenn Dampf über den Becken steht. Es gibt Umkleiden, Kabinen und Schließfächer.</p><p>Nimm Badekleidung, Handtuch und Badeschuhe mit. Tickets online buchen; Preise und Zeiten vorher prüfen.</p>",
-     "text_en": "<p>Into the baths in the morning. 4.2 stars on Google from over 67,000 reviews. Visitors advise a weekday morning (calmer) and bringing flip-flops and a towel.</p><p>The Széchenyi Bath is one of Europe’s largest thermal baths with a yellow neo-Baroque façade, outdoor pools with warm water and saunas. It is especially beautiful in the morning or in winter when steam rises over the pools. There are changing rooms, cabins and lockers.</p><p>Bring swimwear, a towel and bath shoes. Book tickets online; check prices and times beforehand.</p>",
+     "text": "<p>Morgens ins Bad. Mein Tipp: ein Wochentag-Morgen (ruhiger); Badeschuhe und Handtuch mitbringen.</p><p>Das Széchenyi-Bad ist eines der größten Thermalbäder Europas mit gelber neobarocker Fassade, Außenbecken mit warmem Wasser und Saunen. Besonders schön ist es am Morgen oder im Winter, wenn Dampf über den Becken steht. Es gibt Umkleiden, Kabinen und Schließfächer.</p><p>Nimm Badekleidung, Handtuch und Badeschuhe mit. Tickets online buchen; Preise und Zeiten vorher prüfen.</p>",
+     "text_en": "<p>Into the baths in the morning. My tip: a weekday morning (calmer); bring flip-flops and a towel.</p><p>The Széchenyi Bath is one of Europe’s largest thermal baths with a yellow neo-Baroque façade, outdoor pools with warm water and saunas. It is especially beautiful in the morning or in winter when steam rises over the pools. There are changing rooms, cabins and lockers.</p><p>Bring swimwear, a towel and bath shoes. Book tickets online; check prices and times beforehand.</p>",
      "name_en": "Széchenyi Baths",
      "q": "Széchenyi Thermal Bath Budapest",
-     "hours": "laut Google ca. 7–20 Uhr (Fr bis 22 Uhr)",
-     "hours_en": "about 7 am–8 pm (Fri until 10 pm) according to Google",
+     "hours": "ca. 7–20 Uhr (Fr bis 22 Uhr)",
+     "hours_en": "about 7 am–8 pm (Fri until 10 pm)",
      "tip": "Komm am Wochentagmorgen und buche online.",
      "tip_en": "Come on a weekday morning and book online."
     },
     {
      "name": "Szimpla Kert",
-     "text": "Die berühmteste Ruinenbar: Sperrmüll-Möbel, Lichterketten, Hinterhöfe voller Menschen. Auf Google 4,6 Sterne bei über 75.000 Bewertungen.",
-     "text_en": "The most famous ruin bar: scrap furniture, fairy lights, courtyards full of people. 4.6 stars on Google from over 75,000 reviews.",
+     "text": "Die berühmteste Ruinenbar: Sperrmüll-Möbel, Lichterketten, Hinterhöfe voller Menschen.",
+     "text_en": "The most famous ruin bar: scrap furniture, fairy lights, courtyards full of people.",
      "q": "Szimpla Kert Budapest"
     },
     {
@@ -78,7 +78,8 @@
      "name_en": "Fisherman’s Bastion & Matthias Church",
      "q": "Fisherman's Bastion Budapest",
      "tip": "Komm früh oder zum Sonnenuntergang.",
-     "tip_en": "Come early or at sunset."
+     "tip_en": "Come early or at sunset.",
+     "free": true
     },
     {
      "name": "Burgpalast & Kettenbrücke",
@@ -96,7 +97,8 @@
      "name_en": "Great Market Hall",
      "q": "Great Market Hall Budapest",
      "tip": "Probiere Lángos und vergleiche Preise.",
-     "tip_en": "Try lángos and compare prices."
+     "tip_en": "Try lángos and compare prices.",
+     "free": true
     },
     {
      "name": "Donau-Promenade & Schuhe am Donauufer",
@@ -105,7 +107,8 @@
      "name_en": "Danube promenade & Shoes on the Danube Bank",
      "q": "Shoes on the Danube Bank",
      "tip": "Sei respektvoll an diesem Ort.",
-     "tip_en": "Be respectful at this place."
+     "tip_en": "Be respectful at this place.",
+     "free": true
     }
    ]
   },
@@ -117,21 +120,21 @@
    "spots": [
     {
      "name": "Krankenhaus im Felsen",
-     "text": "Ein geheimes Krankenhaus im Felsen unter der Burg, das bis 2002 Staatsgeheimnis war. Auf Google 4,6 Sterne. Nur mit Führung (rund 50–60 Minuten); Fotografieren verboten.",
-     "text_en": "A secret hospital in the rock beneath the castle that was a state secret until 2002. 4.6 stars on Google. Guided tour only (about 50–60 minutes); no photography.",
+     "text": "Ein geheimes Krankenhaus im Felsen unter der Burg, das bis 2002 Staatsgeheimnis war. Nur mit Führung (rund 50–60 Minuten); Fotografieren verboten.",
+     "text_en": "A secret hospital in the rock beneath the castle that was a state secret until 2002. Guided tour only (about 50–60 minutes); no photography.",
      "name_en": "Hospital in the Rock",
      "gem": true,
      "q": "Hospital in the Rock Budapest"
     },
     {
      "name": "Flipper-Museum",
-     "text": "Ein Museum, in dem du mit einem Ticket an allen Automaten spielen darfst. Auf Google 4,9 Sterne bei über 7.800 Bewertungen.",
-     "text_en": "A museum where one ticket lets you play all the machines. 4.9 stars on Google from over 7,800 reviews.",
+     "text": "Ein Museum, in dem du mit einem Ticket an allen Automaten spielen darfst.",
+     "text_en": "A museum where one ticket lets you play all the machines.",
      "name_en": "Pinball Museum",
      "gem": true,
      "q": "Flippermúzeum Budapest",
-     "hours": "laut Google Mi–So nachmittags/abends, Mo/Di zu",
-     "hours_en": "Wed–Sun afternoon/evening, closed Mon/Tue according to Google"
+     "hours": "Mi–So nachmittags/abends, Mo/Di zu",
+     "hours_en": "Wed–Sun afternoon/evening, closed Mon/Tue"
     },
     {
      "name": "Kindereisenbahn im Wald",
@@ -149,7 +152,8 @@
      "gem": true,
      "q": "Gellert Hill Budapest",
      "tip": "Geh zum Sonnenuntergang hinauf.",
-     "tip_en": "Go up at sunset."
+     "tip_en": "Go up at sunset.",
+     "free": true
     },
     {
      "name": "Jüdisches Viertel & Große Synagoge",
@@ -159,7 +163,8 @@
      "gem": true,
      "q": "Dohany Street Synagogue",
      "tip": "Geh tagsüber zur Synagoge.",
-     "tip_en": "Go to the synagogue by day."
+     "tip_en": "Go to the synagogue by day.",
+     "free": true
     },
     {
      "name": "Thermalbad Gellért & Rudas",

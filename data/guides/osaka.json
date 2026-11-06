@@ -63,14 +63,15 @@
     },
     {
      "name": "Kuromon-Markt",
-     "text": "<p>Tagsüber über den Markt: Meeresfrüchte und Streetfood. Auf Google 4,1 Sterne; Besucher sagen, er sei inzwischen touristisch, früh am Morgen sei es besser.</p><p>Der Kuromon-Markt wird auch „Osakas Küche“ genannt: eine überdachte Markthalle mit rund 150 Ständen für Fisch, Meeresfrüchte, Gemüse und fertige Gerichte. Du kannst frisch gegrillte Jakobsmuscheln, Sushi, Obst am Stiel und Tamagoyaki probieren.</p><p>Heute ist der Markt auch bei Touristen sehr beliebt, deshalb wird es mittags voll – ein Besuch am frühen Vormittag ist besser. Viele Stände haben begrenzte Öffnungszeiten; manche schließen am Nachmittag.</p>",
-     "text_en": "<p>By day across the market: seafood and street food. 4.1 stars on Google; visitors say it is touristy now, early in the morning is better.</p><p>Kuromon Market is also called “Osaka’s kitchen”: a covered market hall with about 150 stalls for fish, seafood, vegetables and ready meals. You can try freshly grilled scallops, sushi, fruit on a stick and tamagoyaki.</p><p>Today the market is also very popular with tourists, so it gets crowded at midday – a visit in the early morning is better. Many stalls have limited opening hours; some close in the afternoon.</p>",
+     "text": "<p>Tagsüber über den Markt: Meeresfrüchte und Streetfood.</p><p>Der Kuromon-Markt wird auch „Osakas Küche“ genannt: eine überdachte Markthalle mit rund 150 Ständen für Fisch, Meeresfrüchte, Gemüse und fertige Gerichte. Du kannst frisch gegrillte Jakobsmuscheln, Sushi, Obst am Stiel und Tamagoyaki probieren.</p><p>Heute ist der Markt auch bei Touristen sehr beliebt, deshalb wird es mittags voll – ein Besuch am frühen Vormittag ist besser. Viele Stände haben begrenzte Öffnungszeiten; manche schließen am Nachmittag.</p>",
+     "text_en": "<p>By day across the market: seafood and street food. It has become touristy – early in the morning is better.</p><p>Kuromon Market is also called “Osaka’s kitchen”: a covered market hall with about 150 stalls for fish, seafood, vegetables and ready meals. You can try freshly grilled scallops, sushi, fruit on a stick and tamagoyaki.</p><p>Today the market is also very popular with tourists, so it gets crowded at midday – a visit in the early morning is better. Many stalls have limited opening hours; some close in the afternoon.</p>",
      "name_en": "Kuromon Market",
      "q": "Kuromon Market Osaka",
-     "hours": "laut Google täglich ca. 9–17 Uhr",
-     "hours_en": "daily about 9 am–5 pm according to Google",
+     "hours": "täglich ca. 9–17 Uhr",
+     "hours_en": "daily about 9 am–5 pm",
      "tip": "Komm vor 10 Uhr und nimm Bargeld für kleine Probierportionen mit.",
-     "tip_en": "Come before 10 a.m. and bring cash for small tasting portions."
+     "tip_en": "Come before 10 a.m. and bring cash for small tasting portions.",
+     "free": true
     },
     {
      "name": "Burg Osaka",
@@ -123,7 +124,8 @@
      "gem": true,
      "q": "Hozenji Yokocho Osaka",
      "tip": "Komm nach dem Abendessen und genieße die Ruhe nach dem Trubel.",
-     "tip_en": "Come after dinner and enjoy the calm after the bustle."
+     "tip_en": "Come after dinner and enjoy the calm after the bustle.",
+     "free": true
     },
     {
      "name": "Nakazakichō – Retro-Cafés in alten Häusern",
@@ -143,7 +145,8 @@
      "gem": true,
      "q": "Namba Yasaka Shrine",
      "tip": "Geh früh am Morgen oder am späten Nachmittag, wenn es ruhig ist.",
-     "tip_en": "Go early in the morning or late in the afternoon when it is quiet."
+     "tip_en": "Go early in the morning or late in the afternoon when it is quiet.",
+     "free": true
     }
    ]
   },
@@ -159,7 +162,8 @@
      "name_en": "Nara – temples & tame deer",
      "q": "Nara Park Todai-ji",
      "tip": "Fahr früh, bevor die Gruppen kommen, und halte Essen aus der Tasche.",
-     "tip_en": "Go early before the groups arrive and keep food out of your bag."
+     "tip_en": "Go early before the groups arrive and keep food out of your bag.",
+     "free": true
     }
    ]
   },

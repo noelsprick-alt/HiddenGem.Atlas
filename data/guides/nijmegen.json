@@ -64,10 +64,11 @@
     {
      "name": "Valkhofpark",
      "q": "Valkhof Park Nijmegen",
-     "text": "<p>Der Park liegt auf einem Hügel über dem Waal, einst Sitz von Karls des Großen Pfalz. Er bewahrt die St.-Nikolaus-Kapelle und Ruinen. Auf Google 4,5 Sterne. Besucher mögen den Blick auf die Waalbrücke.</p><p>Der Valkhof war im Mittelalter eine Kaiserpfalz: Karl der Große soll hier um das Jahr 777 einen Palast bauen lassen haben, später baute Friedrich Barbarossa eine Burg. Erhalten sind heute die kleine St.-Nikolaus-Kapelle (11. Jahrhundert) und Ruinen der Barbarossa-Burg. Von einer Terrasse siehst du auf den Waal und die Brücke.</p><p>Direkt im Park liegt das Museum Het Valkhof. Der Park ist durchgehend zugänglich; er ist ruhig, besonders am Morgen oder am Abend.</p>",
-     "text_en": "<p>The park lies on a hill above the Waal, once the site of Charlemagne’s palace. It preserves St Nicholas’ Chapel and ruins. 4.5 stars on Google. Visitors like the view of the Waal Bridge.</p><p>In the Middle Ages the Valkhof was an imperial palace: Charlemagne is said to have had a palace built here around 777, and later Frederick Barbarossa built a castle. Preserved today are the small St Nicholas Chapel (11th century) and ruins of the Barbarossa castle. From a terrace you look over the Waal and the bridge.</p><p>Right in the park lies the Museum Het Valkhof. The park is accessible all day; it is quiet, especially in the morning or evening.</p>",
-     "hours": "laut Google durchgehend zugänglich",
-     "hours_en": "accessible around the clock according to Google"
+     "text": "<p>Der Park liegt auf einem Hügel über dem Waal, einst Sitz von Karls des Großen Pfalz. Er bewahrt die St.-Nikolaus-Kapelle und Ruinen. Schön ist der Blick auf die Waalbrücke.</p><p>Der Valkhof war im Mittelalter eine Kaiserpfalz: Karl der Große soll hier um das Jahr 777 einen Palast bauen lassen haben, später baute Friedrich Barbarossa eine Burg. Erhalten sind heute die kleine St.-Nikolaus-Kapelle (11. Jahrhundert) und Ruinen der Barbarossa-Burg. Von einer Terrasse siehst du auf den Waal und die Brücke.</p><p>Direkt im Park liegt das Museum Het Valkhof. Der Park ist durchgehend zugänglich; er ist ruhig, besonders am Morgen oder am Abend.</p>",
+     "text_en": "<p>The park lies on a hill above the Waal, once the site of Charlemagne’s palace. It preserves St Nicholas’ Chapel and ruins. The view of the Waal Bridge is lovely.</p><p>In the Middle Ages the Valkhof was an imperial palace: Charlemagne is said to have had a palace built here around 777, and later Frederick Barbarossa built a castle. Preserved today are the small St Nicholas Chapel (11th century) and ruins of the Barbarossa castle. From a terrace you look over the Waal and the bridge.</p><p>Right in the park lies the Museum Het Valkhof. The park is accessible all day; it is quiet, especially in the morning or evening.</p>",
+     "hours": "durchgehend zugänglich",
+     "hours_en": "accessible around the clock",
+     "free": true
     },
     {
      "name": "Museum Het Valkhof",
@@ -85,7 +86,8 @@
      "name_en": "Waal Bridge & “De Oversteek” – the 1944 river crossing",
      "q": "Waalbrug Nijmegen",
      "tip": "Geh zu Fuß über die Brücke und schau zurück auf die Waalkade – das beste Foto.",
-     "tip_en": "Walk across the bridge and look back at the Waalkade – the best photo."
+     "tip_en": "Walk across the bridge and look back at the Waalkade – the best photo.",
+     "free": true
     },
     {
      "name": "Grote Markt, Stevenskerk & Waag",
@@ -94,7 +96,8 @@
      "name_en": "Grote Markt, St Stephen’s Church & Waag",
      "q": "Grote Markt Nijmegen",
      "tip": "Kombiniere Marktbesuch mit Kaffee auf der Terrasse und Turmbesteigung, falls geöffnet.",
-     "tip_en": "Combine a market visit with coffee on a terrace and the tower climb, if open."
+     "tip_en": "Combine a market visit with coffee on a terrace and the tower climb, if open.",
+     "free": true
     },
     {
      "name": "Altstadt-Gassen: Lange Hezelstraat & Hoogstraat",
@@ -103,7 +106,8 @@
      "name_en": "Old-town lanes: Lange Hezelstraat & Hoogstraat",
      "q": "Lange Hezelstraat Nijmegen",
      "tip": "Komm vormittags oder am späten Nachmittag, wenn es ruhiger ist.",
-     "tip_en": "Come in the morning or late afternoon when it is quieter."
+     "tip_en": "Come in the morning or late afternoon when it is quieter.",
+     "free": true
     },
     {
      "name": "Vierdaagse & Via Gladiola",

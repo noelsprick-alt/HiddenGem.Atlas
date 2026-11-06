@@ -67,24 +67,26 @@
      "name": "Nyhavn",
      "q": "Nyhavn Copenhagen",
      "text": "<p>Der bunte Hafen entstand im 17. Jahrhundert, und Hans Christian Andersen wohnte gleich in mehreren seiner Häuser. Am schönsten am frühen Morgen, bevor die Terrassen voll sind.</p>",
-     "text_en": "<p>The colourful harbour dates from the 17th century, and Hans Christian Andersen lived in several of its houses. Most beautiful early in the morning before the terraces fill up.</p>"
+     "text_en": "<p>The colourful harbour dates from the 17th century, and Hans Christian Andersen lived in several of its houses. Most beautiful early in the morning before the terraces fill up.</p>",
+     "free": true
     },
     {
      "name": "Erlöserkirche (Vor Frelsers Kirke)",
      "name_en": "Church of Our Saviour",
      "q": "Church of Our Saviour Copenhagen",
-     "text": "<p>Hoch auf den Spiralturm der Erlöserkirche: Die Außentreppe schraubt sich um den Turm, oben hast du den Blick über die ganze Stadt. Auf Google 4,6 Sterne. Besucher nennen rund 125 DKK Eintritt und raten bei Höhenangst oder Platzangst ab.</p>",
-     "text_en": "<p>Up the spiral tower of the Church of Our Saviour: the outside stair winds around the tower and at the top you have a view over the whole city. 4.6 stars on Google. Visitors mention about 125 DKK admission and advise against it with fear of heights or claustrophobia.</p>",
-     "tip": "Die letzten Stufen sind schmal und bei Wind rutschig. Kurz vor Sonnenuntergang war es laut einem Besucher nicht voll.",
-     "tip_en": "The last steps are narrow and slippery in wind. Shortly before sunset it was not crowded according to one visitor."
+     "text": "<p>Hoch auf den Spiralturm der Erlöserkirche: Die Außentreppe schraubt sich um den Turm, oben hast du den Blick über die ganze Stadt. Eintritt rund 125 DKK; bei Höhen- oder Platzangst eher nichts für dich.</p>",
+     "text_en": "<p>Up the spiral tower of the Church of Our Saviour: the outside stair winds around the tower and at the top you have a view over the whole city. Admission is about 125 DKK; not for you if you are afraid of heights or confined spaces.</p>",
+     "tip": "Die letzten Stufen sind schmal und bei Wind rutschig. Kurz vor Sonnenuntergang war es nicht voll.",
+     "tip_en": "The last steps are narrow and slippery in wind. Shortly before sunset it was not crowded."
     },
     {
      "name": "Torvehallerne",
      "q": "Torvehallerne Copenhagen",
-     "text": "<p>Zwei Markthallen mit Smørrebrød, frischem Fisch, Bäckern und Blumen. Auf Google 4,5 Sterne bei rund 17.000 Bewertungen. Die Preise liegen laut Gästen eher über dem Durchschnitt, die Qualität dafür hoch.</p>",
-     "text_en": "<p>Two market halls with smørrebrød, fresh fish, bakers and flowers. 4.5 stars on Google from about 17,000 reviews. Prices are above average according to guests, quality high.</p>",
-     "hours": "laut Google Mo–Fr 10–19 Uhr, Sa/So 10–18 Uhr",
-     "hours_en": "Mon–Fri 10 am–7 pm, Sat/Sun 10 am–6 pm according to Google"
+     "text": "<p>Zwei Markthallen mit Smørrebrød, frischem Fisch, Bäckern und Blumen. Die Preise liegen eher über dem Durchschnitt, die Qualität dafür hoch.</p>",
+     "text_en": "<p>Two market halls with smørrebrød, fresh fish, bakers and flowers. Prices are above average, quality high.</p>",
+     "hours": "Mo–Fr 10–19 Uhr, Sa/So 10–18 Uhr",
+     "hours_en": "Mon–Fri 10 am–7 pm, Sat/Sun 10 am–6 pm",
+     "free": true
     },
     {
      "name": "Tivoli Gardens",
@@ -102,7 +104,8 @@
      "name_en": "The Little Mermaid & Kastellet",
      "q": "Little Mermaid Copenhagen",
      "tip": "Verbinde die Figur mit einem Spaziergang durch Kastellet.",
-     "tip_en": "Combine the statue with a walk through Kastellet."
+     "tip_en": "Combine the statue with a walk through Kastellet.",
+     "free": true
     },
     {
      "name": "Rundetårn & Schloss Rosenborg",
@@ -126,34 +129,37 @@
      "name_en": "Islands Brygge harbour bath",
      "gem": true,
      "q": "Havnebadet Islands Brygge",
-     "text": "<p>Wer mutig ist, springt ins Hafenbad: ein kostenloses Hafenbad mit Sprungbecken, zwei flachen Becken und einer 75-m-Bahn. Auf Google 4,5 Sterne. Das Wasser ist im Sommer rund 20 °C, gelegentlich gibt es Quallen.</p>",
-     "text_en": "<p>If you are brave, jump into the harbour bath: a free harbour bath with a jumping pool, two shallow pools and a 75 m lane. 4.5 stars on Google. The water is around 20 °C in summer, with occasional jellyfish.</p>",
-     "hours": "laut Google täglich 6–22 Uhr (Saison)",
-     "hours_en": "daily 6 am–10 pm according to Google (season)",
+     "text": "<p>Wer mutig ist, springt ins Hafenbad: ein kostenloses Hafenbad mit Sprungbecken, zwei flachen Becken und einer 75-m-Bahn. Das Wasser ist im Sommer rund 20 °C, gelegentlich gibt es Quallen.</p>",
+     "text_en": "<p>If you are brave, jump into the harbour bath: a free harbour bath with a jumping pool, two shallow pools and a 75 m lane. The water is around 20 °C in summer, with occasional jellyfish.</p>",
+     "hours": "täglich 6–22 Uhr (Saison)",
+     "hours_en": "daily 6 am–10 pm (season)",
      "price": "kostenlos",
      "price_en": "free",
      "tip": "Bring ein Handtuch mit; bei Algen/Quallen vor Ort die Hinweise lesen.",
-     "tip_en": "Bring a towel; read the notices on site if there are algae or jellyfish."
+     "tip_en": "Bring a towel; read the notices on site if there are algae or jellyfish.",
+     "free": true
     },
     {
      "name": "CopenHill",
      "gem": true,
      "q": "CopenHill Copenhagen",
-     "text": "<p>Ein Müllheizkraftwerk, auf dessen Dach Ski gefahren wird. Auch ohne Ski lohnt es sich: Der Lift nach oben ist laut Besuchern kostenlos, oben gibt es Café und Panoramablick. Auf Google 4,5 Sterne.</p>",
-     "text_en": "<p>A waste-to-energy plant with a ski slope on its roof. It is worthwhile even without skis: the lift up is free according to visitors, with a café and panoramic view at the top. 4.5 stars on Google.</p>",
-     "hours": "laut Google Mo 12–17, Di–Fr 12–19, Sa 10–18, So 10–17 Uhr",
-     "hours_en": "Mon noon–5 pm, Tue–Fri noon–7 pm, Sat 10 am–6 pm, Sun 10 am–5 pm according to Google",
+     "text": "<p>Ein Müllheizkraftwerk, auf dessen Dach Ski gefahren wird. Auch ohne Ski lohnt es sich: Der Lift nach oben ist kostenlos, oben gibt es Café und Panoramablick.</p>",
+     "text_en": "<p>A waste-to-energy plant with a ski slope on its roof. It is worthwhile even without skis: the lift up is free, with a café and panoramic view at the top.</p>",
+     "hours": "Mo 12–17, Di–Fr 12–19, Sa 10–18, So 10–17 Uhr",
+     "hours_en": "Mon noon–5 pm, Tue–Fri noon–7 pm, Sat 10 am–6 pm, Sun 10 am–5 pm",
      "tip": "Nimm das Rad über Nyhavn und das Opernhaus – ein guter Weg.",
-     "tip_en": "Take your bike via Nyhavn and the Opera House – a good route."
+     "tip_en": "Take your bike via Nyhavn and the Opera House – a good route.",
+     "free": true
     },
     {
      "name": "Reffen – Streetfood am Wasser",
      "name_en": "Reffen – street food by the water",
      "q": "Reffen Copenhagen Street Food",
-     "text": "<p>Abends Streetfood bei Reffen: der größte Streetfood-Markt Nordeuropas mit Stalls aus aller Welt, Bars und Blick auf die Skyline. Auf Google 4,6 Sterne bei über 13.000 Bewertungen.</p>",
-     "text_en": "<p>Street food at Reffen in the evening: the largest street-food market in Northern Europe with stalls from around the world, bars and a view of the skyline. 4.6 stars on Google from over 13,000 reviews.</p>",
+     "text": "<p>Abends Streetfood bei Reffen: der größte Streetfood-Markt Nordeuropas mit Stalls aus aller Welt, Bars und Blick auf die Skyline.</p>",
+     "text_en": "<p>Street food at Reffen in the evening: the largest street-food market in Northern Europe with stalls from around the world, bars and a view of the skyline.</p>",
      "tip": "Der Ort liegt etwas abseits – mit Rad oder Hafenbus hin, zum Sonnenuntergang.",
-     "tip_en": "The place is a bit remote – go by bike or harbour bus, at sunset."
+     "tip_en": "The place is a bit remote – go by bike or harbour bus, at sunset.",
+     "free": true
     },
     {
      "name": "Christiania",
@@ -161,13 +167,15 @@
      "text": "<p>1971 besetzten Aktivisten ein altes Militärgelände und riefen die Freistadt Christiania aus – es gibt sie bis heute. Ein alternatives Viertel mit Werkstätten, Cafés und selbstgebauten Häusern.</p>",
      "text_en": "<p>In 1971 activists occupied an old military site and declared the Freetown of Christiania – it still exists today. An alternative quarter with workshops, cafés and self-built houses.</p>",
      "tip": "Beachte die Hinweisschilder vor Ort, besonders zum Fotografieren.",
-     "tip_en": "Follow the signs on site, especially regarding photography."
+     "tip_en": "Follow the signs on site, especially regarding photography.",
+     "free": true
     },
     {
      "name": "Bakken",
      "q": "Dyrehavsbakken",
      "text": "<p>Nördlich der Stadt liegt Bakken, der älteste noch betriebene Freizeitpark der Welt – der Eintritt ist frei, die Fahrgeschäfte kosten extra.</p>",
-     "text_en": "<p>North of the city lies Bakken, the oldest amusement park still in operation in the world – admission is free, the rides cost extra.</p>"
+     "text_en": "<p>North of the city lies Bakken, the oldest amusement park still in operation in the world – admission is free, the rides cost extra.</p>",
+     "free": true
     },
     {
      "name": "Tagesausflug: Louisiana-Museum & Schloss Kronborg",

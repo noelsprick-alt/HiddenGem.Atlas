@@ -1,209 +1,214 @@
 {
-  "slug": "bratislava",
-  "slug_en": "bratislava",
-  "status": "live",
-  "cc": "SK",
-  "flag": "🇸🇰",
-  "city": "Bratislava",
-  "city_en": "Bratislava",
-  "updated": "2026-11-05",
-  "title": "Bratislava Guide: 10 Orte – UFO-Deck, Altstadt, Burg, Blaue Kirche & Devín",
-  "title_en": "Bratislava Guide: 10 places – UFO deck, old town, castle, Blue Church & Devín",
-  "desc": "Bratislava, klein und schräg: Altstadt in einer Stunde, Sonnenuntergang auf dem UFO-Deck, Burg und kombinierbar mit Wien – von Noel.",
-  "desc_en": "Bratislava, small and quirky: old town in an hour, sunset on the UFO deck, castle and combinable with Vienna – from Noel.",
-  "gyg_q": "Bratislava",
-  "intro": "<p>Die meisten fahren zwischen Wien und Budapest an Bratislava vorbei. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
-  "intro_en": "<p>Most people pass Bratislava between Vienna and Budapest. Prices and times are guidelines (2026).</p>",
-  "blog": "blog-bc-17",
-  "story": "<p>Ich war dort – und Bratislava ist klein, entspannt und herrlich schräg. Mein Tipp: Bratislava lässt sich wunderbar mit Wien kombinieren – die beiden Hauptstädte liegen nur rund eine Stunde auseinander. Abends hoch aufs UFO-Deck der SNP-Brücke zum Sonnenuntergang.</p>",
-  "story_en": "<p>I was there – and Bratislava is small, relaxed and wonderfully quirky. My tip: Bratislava combines perfectly with Vienna – the two capitals are only about an hour apart. In the evening go up to the UFO deck on the SNP bridge for sunset.</p>",
-  "facts": [
+ "slug": "bratislava",
+ "slug_en": "bratislava",
+ "status": "live",
+ "cc": "SK",
+ "flag": "🇸🇰",
+ "city": "Bratislava",
+ "city_en": "Bratislava",
+ "updated": "2026-11-05",
+ "title": "Bratislava Guide: 10 Orte – UFO-Deck, Altstadt, Burg, Blaue Kirche & Devín",
+ "title_en": "Bratislava Guide: 10 places – UFO deck, old town, castle, Blue Church & Devín",
+ "desc": "Bratislava, klein und schräg: Altstadt in einer Stunde, Sonnenuntergang auf dem UFO-Deck, Burg und kombinierbar mit Wien – von Noel.",
+ "desc_en": "Bratislava, small and quirky: old town in an hour, sunset on the UFO deck, castle and combinable with Vienna – from Noel.",
+ "gyg_q": "Bratislava",
+ "intro": "<p>Die meisten fahren zwischen Wien und Budapest an Bratislava vorbei. Preise und Zeiten sind Richtwerte (Stand 2026).</p>",
+ "intro_en": "<p>Most people pass Bratislava between Vienna and Budapest. Prices and times are guidelines (2026).</p>",
+ "blog": "blog-bc-17",
+ "story": "<p>Ich war dort – und Bratislava ist klein, entspannt und herrlich schräg. Mein Tipp: Bratislava lässt sich wunderbar mit Wien kombinieren – die beiden Hauptstädte liegen nur rund eine Stunde auseinander. Abends hoch aufs UFO-Deck der SNP-Brücke zum Sonnenuntergang.</p>",
+ "story_en": "<p>I was there – and Bratislava is small, relaxed and wonderfully quirky. My tip: Bratislava combines perfectly with Vienna – the two capitals are only about an hour apart. In the evening go up to the UFO deck on the SNP bridge for sunset.</p>",
+ "facts": [
+  {
+   "k": "Dauer",
+   "k_en": "How long",
+   "v": "1–2 Tage",
+   "v_en": "1–2 days"
+  },
+  {
+   "k": "Währung",
+   "k_en": "Currency",
+   "v": "Euro",
+   "v_en": "Euro"
+  },
+  {
+   "k": "Beste Reisezeit",
+   "k_en": "Best time",
+   "v": "April bis Oktober; Dezember für den Weihnachtsmarkt",
+   "v_en": "April to October; December for the Christmas market"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "prose",
+   "id": "anreise",
+   "h": "So kommst du hin und herum",
+   "h_en": "Getting there and around",
+   "box": "omio",
+   "html": "<p>Von Wien fährst du in rund einer Stunde mit Zug oder Bus nach Bratislava; aktuelle Fahrpläne vorher prüfen.</p><p>Von Wien fährt der Zug in etwa einer Stunde nach Bratislava; Alternativen sind Bus oder Flussschiff auf der Donau (Fahrpläne vorher prüfen). Die Altstadt liegt rund 10 bis 15 Minuten zu Fuß vom Bahnhof Hlavná stanica entfernt oder ist mit der Straßenbahn erreichbar. Die Währung ist der Euro.</p><p>Die Altstadt ist klein und zu Fuß gut erkundbar. Für Slavín, Devín und die Blaue Kirche brauchst du Bus oder Tram.</p>",
+   "html_en": "<p>From Vienna it takes about an hour by train or bus to Bratislava; check current timetables beforehand.</p><p>From Vienna the train takes about an hour to Bratislava; alternatives are bus or river boat on the Danube (check timetables beforehand). The old town is about a 10 to 15 minute walk from the main station (Hlavná stanica) or reachable by tram. The currency is the euro.</p><p>The old town is small and easy to explore on foot. For Slavín, Devín and the Blue Church you need bus or tram.</p>"
+  },
+  {
+   "type": "spots",
+   "id": "must",
+   "h": "Must-Sees",
+   "h_en": "Must-sees",
+   "spots": [
     {
-      "k": "Dauer",
-      "k_en": "How long",
-      "v": "1–2 Tage",
-      "v_en": "1–2 days"
+     "name": "UFO-Deck der SNP-Brücke",
+     "text": "<p>Abends zum Sonnenuntergang. Eintritt rund 12,50 €, dafür 360°-Blick.</p><p>Das UFO sitzt wie eine Untertasse auf dem Pylon der SNP-Brücke, rund 95 Meter über der Donau. Die Aussichtsplattform bietet einen 360-Grad-Blick auf Altstadt, Burg, Donau und Plattenbauviertel. Im Restaurant und in der Bar kannst du essen und trinken; ein Besuch am Abend zum Sonnenuntergang ist besonders schön.</p><p>Der Eintritt ist kostenpflichtig; Preise und Zeiten vorher prüfen. Der Aufzug läuft im Pylon – plane Wartezeit zu Stoßzeiten ein.</p>",
+     "text_en": "<p>In the evening for sunset. Admission is about €12.50, and you get a 360° view.</p><p>The UFO sits like a flying saucer on the pylon of the SNP Bridge, about 95 metres above the Danube. The viewing platform offers a 360-degree view of old town, castle, Danube and prefabricated housing districts. In the restaurant and bar you can eat and drink; an evening visit at sunset is especially beautiful.</p><p>Admission is charged; check prices and times beforehand. The lift runs in the pylon – allow waiting time at peak hours.</p>",
+     "name_en": "UFO deck on the SNP bridge",
+     "q": "UFO Observation Deck Bratislava",
+     "hours": "täglich ca. 10–23 Uhr",
+     "hours_en": "daily about 10 am–11 pm",
+     "tip": "Komm zum Sonnenuntergang und trink etwas an der Bar.",
+     "tip_en": "Come at sunset and have a drink at the bar."
     },
     {
-      "k": "Währung",
-      "k_en": "Currency",
-      "v": "Euro",
-      "v_en": "Euro"
+     "name": "Burg Bratislava",
+     "text": "<p>Weiter Blick über Donau und Stadt. Gelände und Gärten sind frei zugänglich.</p><p>Die Burg Bratislava thront auf einem Hügel über der Donau und sieht aus wie ein umgedrehter Tisch mit vier Türmen. Der Burgberg war über Jahrhunderte Sitz von Königen; im Innern befindet sich das Historische Museum. Die Gärten und Terrassen sind frei zugänglich und bieten Ausblicke auf Donau, Altstadt und die Hügel.</p><p>Der Aufstieg von der Altstadt dauert zu Fuß etwa 15 Minuten. Am schönsten ist es am späten Nachmittag. Prüfe Öffnungszeiten und Eintritt für das Museum vorher.</p>",
+     "text_en": "<p>Wide view over the Danube and city. Grounds and gardens are free to enter.</p><p>Bratislava Castle sits on a hill above the Danube and looks like an upturned table with four towers. For centuries the castle hill was the seat of kings; inside is the Historical Museum. The gardens and terraces are freely accessible and offer views of the Danube, old town and hills.</p><p>The ascent from the old town takes about 15 minutes on foot. It is most beautiful in the late afternoon. Check opening times and admission for the museum beforehand.</p>",
+     "name_en": "Bratislava Castle",
+     "q": "Bratislava Castle",
+     "tip": "Geh am späten Nachmittag hinauf und bleib bis zum Sonnenuntergang.",
+     "tip_en": "Go up in the late afternoon and stay until sunset.",
+     "free": true
     },
     {
-      "k": "Beste Reisezeit",
-      "k_en": "Best time",
-      "v": "April bis Oktober; Dezember für den Weihnachtsmarkt",
-      "v_en": "April to October; December for the Christmas market"
+     "name": "Altstadt & Čumil",
+     "text": "<p>Die Altstadt ist in einer Stunde durchlaufen – voller Bronzefiguren, allen voran Čumil, der Arbeiter, der aus einem Gully schaut.</p><p>Die Altstadt ist klein und voller Bronzefiguren: Čumil, der „Beobachter“, ist ein Arbeiter, der aus einem Gully schaut; daneben stehen der Napoleon-Soldat auf einer Bank, der „Schöne Náci“ und der Paparazzo an der Hausecke. Die Statuen wirken witzig und machen den Spaziergang zur Schatzsuche.</p><p>Rund um den Hauptplatz mit dem Alten Rathaus und dem Maximilian-Brunnen finden sich Cafés und Restaurants. Plane eine bis zwei Stunden ein und iss anschließend eine Portion Bryndzové halušky.</p>",
+     "text_en": "<p>The old town can be walked in an hour – full of bronze figures, above all Čumil, the worker peeking out of a manhole.</p><p>The old town is small and full of bronze figures: Čumil, the “Watcher”, is a worker peeking out of a manhole; next to him stand the Napoleonic soldier on a bench, the “Schöne Náci” and the paparazzo on a corner. The statues are funny and turn the walk into a treasure hunt.</p><p>Around the main square with the Old Town Hall and the Maximilian Fountain you find cafés and restaurants. Plan one to two hours and then eat a portion of bryndzové halušky.</p>",
+     "name_en": "Old town & Čumil",
+     "q": "Altstadt & Čumil",
+     "tip": "Such alle Figuren und mach ein Foto mit Čumil.",
+     "tip_en": "Find all the figures and take a photo with Čumil.",
+     "free": true
+    },
+    {
+     "name": "Michaelertor & Hauptplatz",
+     "text": "<p>Das Michaelertor ist das einzige erhaltene Stadttor der mittelalterlichen Befestigung; sein Turm trägt eine barocke Spitze und eine Statue des Erzengels Michael. Du kannst hinaufsteigen und bekommst eine schöne Sicht über die Altstadt. Von hier führt die Michalská-Straße zum Hauptplatz.</p><p>Der Hauptplatz (Hlavné námestie) ist das Zentrum: Altes Rathaus, Maximilian-Brunnen, Terrassen und im Advent der Weihnachtsmarkt.</p>",
+     "text_en": "<p>Michael’s Gate is the only surviving city gate of the medieval fortifications; its tower carries a Baroque spire and a statue of the archangel Michael. You can climb it and get a beautiful view over the old town. From here Michalská Street leads to the Main Square.</p><p>The Main Square (Hlavné námestie) is the centre: Old Town Hall, Maximilian Fountain, terraces and in Advent the Christmas market.</p>",
+     "name_en": "Michael’s Gate & Main Square",
+     "q": "Michalská brána Bratislava",
+     "tip": "Steig auf den Turm und geh dann zum Hauptplatz.",
+     "tip_en": "Climb the tower and then go to the Main Square.",
+     "free": true
+    },
+    {
+     "name": "Martinsdom (St. Martin)",
+     "text": "<p>Der gotische Martinsdom war über Jahrhunderte Krönungskirche der ungarischen Könige: Zwischen 1563 und 1830 wurden hier Könige und Königinnen gekrönt. Auf dem Turm sitzt eine goldene Krone auf einem Kissen. Im Inneren siehst du gotische Gewölbe und Altäre.</p><p>Direkt neben dem Dom verläuft die Straße am Donau-Ufer. Prüfe Öffnungszeiten vorher, da sie variieren.</p>",
+     "text_en": "<p>The Gothic St Martin’s Cathedral was for centuries the coronation church of the Hungarian kings: between 1563 and 1830 kings and queens were crowned here. On the tower sits a golden crown on a cushion. Inside you see Gothic vaults and altars.</p><p>Right next to the cathedral runs the road on the Danube bank. Check opening times beforehand as they vary.</p>",
+     "name_en": "St Martin’s Cathedral",
+     "q": "St Martin's Cathedral Bratislava",
+     "tip": "Schau dir die goldene Krone auf dem Turm an.",
+     "tip_en": "Look at the golden crown on the tower."
+    },
+    {
+     "name": "Blaue Kirche (Kirche der heiligen Elisabeth)",
+     "text": "<p>Die Blaue Kirche ist ein Jugendstil-Märchen: Fassade, Dach und Türme sind in Himmelblau und Weiß gehalten, mit Mosaiken und Ornamenten. Sie wurde Anfang des 20. Jahrhunderts vom Architekten Ödön Lechner entworfen. Das Innere ist klein und liebevoll gestaltet.</p><p>Die Kirche liegt etwas abseits der Altstadt, ist aber zu Fuß erreichbar. Sie ist nicht immer geöffnet – prüfe Zeiten vorher.</p>",
+     "text_en": "<p>The Blue Church is an Art Nouveau fairytale: façade, roof and towers are in sky blue and white, with mosaics and ornaments. It was designed in the early 20th century by the architect Ödön Lechner. The interior is small and lovingly designed.</p><p>The church lies slightly away from the old town but is reachable on foot. It is not always open – check times beforehand.</p>",
+     "name_en": "Blue Church (Church of St Elizabeth)",
+     "gem": true,
+     "q": "Blue Church Bratislava",
+     "tip": "Komm am Vormittag und prüfe die Öffnungszeiten.",
+     "tip_en": "Come in the morning and check the opening times.",
+     "free": true
     }
-  ],
-  "blocks": [
+   ]
+  },
+  {
+   "type": "spots",
+   "id": "gems",
+   "h": "Hidden Gem",
+   "h_en": "Hidden gem",
+   "spots": [
     {
-      "type": "prose",
-      "id": "anreise",
-      "h": "So kommst du hin und herum",
-      "h_en": "Getting there and around",
-      "box": "omio",
-      "html": "<p>Von Wien fährst du in rund einer Stunde mit Zug oder Bus nach Bratislava; aktuelle Fahrpläne vorher prüfen.</p><p>Von Wien fährt der Zug in etwa einer Stunde nach Bratislava; Alternativen sind Bus oder Flussschiff auf der Donau (Fahrpläne vorher prüfen). Die Altstadt liegt rund 10 bis 15 Minuten zu Fuß vom Bahnhof Hlavná stanica entfernt oder ist mit der Straßenbahn erreichbar. Die Währung ist der Euro.</p><p>Die Altstadt ist klein und zu Fuß gut erkundbar. Für Slavín, Devín und die Blaue Kirche brauchst du Bus oder Tram.</p>",
-      "html_en": "<p>From Vienna it takes about an hour by train or bus to Bratislava; check current timetables beforehand.</p><p>From Vienna the train takes about an hour to Bratislava; alternatives are bus or river boat on the Danube (check timetables beforehand). The old town is about a 10 to 15 minute walk from the main station (Hlavná stanica) or reachable by tram. The currency is the euro.</p><p>The old town is small and easy to explore on foot. For Slavín, Devín and the Blue Church you need bus or tram.</p>"
+     "name": "Das Funkhaus (umgedrehte Pyramide)",
+     "text": "<p>Das Funkhaus in Form einer umgedrehten Pyramide landet regelmäßig auf Listen der hässlichsten Gebäude der Welt.</p><p>Das Gebäude des Slowakischen Rundfunks, 1983 fertiggestellt, hat die Form einer umgedrehten Pyramide und ist ein markantes Beispiel für Brutalismus. Es gilt bei Fotografen und Architekturfans als Kuriosum und taucht gern in Listen der „hässlichsten Gebäude“ auf; hier lohnt sich ein kurzer Abstecher, wenn du Architektur magst.</p><p>Von außen kannst du es jederzeit ansehen; ein Innenbesuch ist nicht üblich.</p>",
+     "text_en": "<p>The radio building shaped like an inverted pyramid regularly lands on lists of the world’s ugliest buildings.</p><p>The building of Slovak Radio, completed in 1983, has the shape of an inverted pyramid and is a striking example of brutalism. It counts among photographers and architecture fans as a curiosity and likes to appear on lists of the “ugliest buildings”; a short detour is worthwhile if you like architecture.</p><p>You can look at it from outside at any time; an interior visit is not usual.</p>",
+     "name_en": "The Radio Building (inverted pyramid)",
+     "gem": true,
+     "q": "Das Funkhaus (umgedrehte Pyramide)"
     },
     {
-      "type": "spots",
-      "id": "must",
-      "h": "Must-Sees",
-      "h_en": "Must-sees",
-      "spots": [
-        {
-          "name": "UFO-Deck der SNP-Brücke",
-          "text": "<p>Abends zum Sonnenuntergang. Auf Google 4,5 Sterne. Besucher nennen rund 12,50 € Eintritt und 360°-Blick.</p><p>Das UFO sitzt wie eine Untertasse auf dem Pylon der SNP-Brücke, rund 95 Meter über der Donau. Die Aussichtsplattform bietet einen 360-Grad-Blick auf Altstadt, Burg, Donau und Plattenbauviertel. Im Restaurant und in der Bar kannst du essen und trinken; ein Besuch am Abend zum Sonnenuntergang ist besonders schön.</p><p>Der Eintritt ist kostenpflichtig; Preise und Zeiten vorher prüfen. Der Aufzug läuft im Pylon – plane Wartezeit zu Stoßzeiten ein.</p>",
-          "text_en": "<p>In the evening for sunset. 4.5 stars on Google. Visitors mention about €12.50 admission and 360° views.</p><p>The UFO sits like a flying saucer on the pylon of the SNP Bridge, about 95 metres above the Danube. The viewing platform offers a 360-degree view of old town, castle, Danube and prefabricated housing districts. In the restaurant and bar you can eat and drink; an evening visit at sunset is especially beautiful.</p><p>Admission is charged; check prices and times beforehand. The lift runs in the pylon – allow waiting time at peak hours.</p>",
-          "name_en": "UFO deck on the SNP bridge",
-          "q": "UFO Observation Deck Bratislava",
-          "hours": "laut Google täglich ca. 10–23 Uhr",
-          "hours_en": "daily about 10 am–11 pm according to Google",
-          "tip": "Komm zum Sonnenuntergang und trink etwas an der Bar.",
-          "tip_en": "Come at sunset and have a drink at the bar."
-        },
-        {
-          "name": "Burg Bratislava",
-          "text": "<p>Weiter Blick über Donau und Stadt. Auf Google 4,5 Sterne. Gelände und Gärten sind laut Besuchern frei zugänglich.</p><p>Die Burg Bratislava thront auf einem Hügel über der Donau und sieht aus wie ein umgedrehter Tisch mit vier Türmen. Der Burgberg war über Jahrhunderte Sitz von Königen; im Innern befindet sich das Historische Museum. Die Gärten und Terrassen sind frei zugänglich und bieten Ausblicke auf Donau, Altstadt und die Hügel.</p><p>Der Aufstieg von der Altstadt dauert zu Fuß etwa 15 Minuten. Am schönsten ist es am späten Nachmittag. Prüfe Öffnungszeiten und Eintritt für das Museum vorher.</p>",
-          "text_en": "<p>Wide view over the Danube and city. 4.5 stars on Google. Grounds and gardens are free to enter according to visitors.</p><p>Bratislava Castle sits on a hill above the Danube and looks like an upturned table with four towers. For centuries the castle hill was the seat of kings; inside is the Historical Museum. The gardens and terraces are freely accessible and offer views of the Danube, old town and hills.</p><p>The ascent from the old town takes about 15 minutes on foot. It is most beautiful in the late afternoon. Check opening times and admission for the museum beforehand.</p>",
-          "name_en": "Bratislava Castle",
-          "q": "Bratislava Castle",
-          "tip": "Geh am späten Nachmittag hinauf und bleib bis zum Sonnenuntergang.",
-          "tip_en": "Go up in the late afternoon and stay until sunset."
-        },
-        {
-          "name": "Altstadt & Čumil",
-          "text": "<p>Die Altstadt ist in einer Stunde durchlaufen – voller Bronzefiguren, allen voran Čumil, der Arbeiter, der aus einem Gully schaut.</p><p>Die Altstadt ist klein und voller Bronzefiguren: Čumil, der „Beobachter“, ist ein Arbeiter, der aus einem Gully schaut; daneben stehen der Napoleon-Soldat auf einer Bank, der „Schöne Náci“ und der Paparazzo an der Hausecke. Die Statuen wirken witzig und machen den Spaziergang zur Schatzsuche.</p><p>Rund um den Hauptplatz mit dem Alten Rathaus und dem Maximilian-Brunnen finden sich Cafés und Restaurants. Plane eine bis zwei Stunden ein und iss anschließend eine Portion Bryndzové halušky.</p>",
-          "text_en": "<p>The old town can be walked in an hour – full of bronze figures, above all Čumil, the worker peeking out of a manhole.</p><p>The old town is small and full of bronze figures: Čumil, the “Watcher”, is a worker peeking out of a manhole; next to him stand the Napoleonic soldier on a bench, the “Schöne Náci” and the paparazzo on a corner. The statues are funny and turn the walk into a treasure hunt.</p><p>Around the main square with the Old Town Hall and the Maximilian Fountain you find cafés and restaurants. Plan one to two hours and then eat a portion of bryndzové halušky.</p>",
-          "name_en": "Old town & Čumil",
-          "q": "Altstadt & Čumil",
-          "tip": "Such alle Figuren und mach ein Foto mit Čumil.",
-          "tip_en": "Find all the figures and take a photo with Čumil."
-        },
-        {
-          "name": "Michaelertor & Hauptplatz",
-          "text": "<p>Das Michaelertor ist das einzige erhaltene Stadttor der mittelalterlichen Befestigung; sein Turm trägt eine barocke Spitze und eine Statue des Erzengels Michael. Du kannst hinaufsteigen und bekommst eine schöne Sicht über die Altstadt. Von hier führt die Michalská-Straße zum Hauptplatz.</p><p>Der Hauptplatz (Hlavné námestie) ist das Zentrum: Altes Rathaus, Maximilian-Brunnen, Terrassen und im Advent der Weihnachtsmarkt.</p>",
-          "text_en": "<p>Michael’s Gate is the only surviving city gate of the medieval fortifications; its tower carries a Baroque spire and a statue of the archangel Michael. You can climb it and get a beautiful view over the old town. From here Michalská Street leads to the Main Square.</p><p>The Main Square (Hlavné námestie) is the centre: Old Town Hall, Maximilian Fountain, terraces and in Advent the Christmas market.</p>",
-          "name_en": "Michael’s Gate & Main Square",
-          "q": "Michalská brána Bratislava",
-          "tip": "Steig auf den Turm und geh dann zum Hauptplatz.",
-          "tip_en": "Climb the tower and then go to the Main Square."
-        },
-        {
-          "name": "Martinsdom (St. Martin)",
-          "text": "<p>Der gotische Martinsdom war über Jahrhunderte Krönungskirche der ungarischen Könige: Zwischen 1563 und 1830 wurden hier Könige und Königinnen gekrönt. Auf dem Turm sitzt eine goldene Krone auf einem Kissen. Im Inneren siehst du gotische Gewölbe und Altäre.</p><p>Direkt neben dem Dom verläuft die Straße am Donau-Ufer. Prüfe Öffnungszeiten vorher, da sie variieren.</p>",
-          "text_en": "<p>The Gothic St Martin’s Cathedral was for centuries the coronation church of the Hungarian kings: between 1563 and 1830 kings and queens were crowned here. On the tower sits a golden crown on a cushion. Inside you see Gothic vaults and altars.</p><p>Right next to the cathedral runs the road on the Danube bank. Check opening times beforehand as they vary.</p>",
-          "name_en": "St Martin’s Cathedral",
-          "q": "St Martin's Cathedral Bratislava",
-          "tip": "Schau dir die goldene Krone auf dem Turm an.",
-          "tip_en": "Look at the golden crown on the tower."
-        },
-        {
-          "name": "Blaue Kirche (Kirche der heiligen Elisabeth)",
-          "text": "<p>Die Blaue Kirche ist ein Jugendstil-Märchen: Fassade, Dach und Türme sind in Himmelblau und Weiß gehalten, mit Mosaiken und Ornamenten. Sie wurde Anfang des 20. Jahrhunderts vom Architekten Ödön Lechner entworfen. Das Innere ist klein und liebevoll gestaltet.</p><p>Die Kirche liegt etwas abseits der Altstadt, ist aber zu Fuß erreichbar. Sie ist nicht immer geöffnet – prüfe Zeiten vorher.</p>",
-          "text_en": "<p>The Blue Church is an Art Nouveau fairytale: façade, roof and towers are in sky blue and white, with mosaics and ornaments. It was designed in the early 20th century by the architect Ödön Lechner. The interior is small and lovingly designed.</p><p>The church lies slightly away from the old town but is reachable on foot. It is not always open – check times beforehand.</p>",
-          "name_en": "Blue Church (Church of St Elizabeth)",
-          "gem": true,
-          "q": "Blue Church Bratislava",
-          "tip": "Komm am Vormittag und prüfe die Öffnungszeiten.",
-          "tip_en": "Come in the morning and check the opening times."
-        }
-      ]
+     "name": "Slavín – Gedenkstätte mit Aussicht",
+     "text": "<p>Auf einem Hügel nördlich der Burg liegt Slavín, ein Kriegerdenkmal für gefallene sowjetische Soldaten aus dem Zweiten Weltkrieg. Der Aufstieg lohnt sich wegen der Aussicht auf Donau, Altstadt und die Stadt, besonders zum Sonnenuntergang.</p><p>Der Ort ist ruhig, die Anlage gepflegt. Du erreichst ihn zu Fuß oder mit Bus; plane eine bis zwei Stunden ein.</p>",
+     "text_en": "<p>On a hill north of the castle lies Slavín, a war memorial for fallen Soviet soldiers of the Second World War. The climb is worthwhile for the view of the Danube, old town and the city, especially at sunset.</p><p>The place is quiet, the site well kept. You reach it on foot or by bus; plan one to two hours.</p>",
+     "name_en": "Slavín – memorial with a view",
+     "gem": true,
+     "q": "Slavín Bratislava",
+     "tip": "Geh zum Sonnenuntergang hinauf.",
+     "tip_en": "Go up at sunset.",
+     "free": true
     },
     {
-      "type": "spots",
-      "id": "gems",
-      "h": "Hidden Gem",
-      "h_en": "Hidden gem",
-      "spots": [
-        {
-          "name": "Das Funkhaus (umgedrehte Pyramide)",
-          "text": "<p>Das Funkhaus in Form einer umgedrehten Pyramide landet regelmäßig auf Listen der hässlichsten Gebäude der Welt.</p><p>Das Gebäude des Slowakischen Rundfunks, 1983 fertiggestellt, hat die Form einer umgedrehten Pyramide und ist ein markantes Beispiel für Brutalismus. Es gilt bei Fotografen und Architekturfans als Kuriosum und taucht gern in Listen der „hässlichsten Gebäude“ auf; hier lohnt sich ein kurzer Abstecher, wenn du Architektur magst.</p><p>Von außen kannst du es jederzeit ansehen; ein Innenbesuch ist nicht üblich.</p>",
-          "text_en": "<p>The radio building shaped like an inverted pyramid regularly lands on lists of the world’s ugliest buildings.</p><p>The building of Slovak Radio, completed in 1983, has the shape of an inverted pyramid and is a striking example of brutalism. It counts among photographers and architecture fans as a curiosity and likes to appear on lists of the “ugliest buildings”; a short detour is worthwhile if you like architecture.</p><p>You can look at it from outside at any time; an interior visit is not usual.</p>",
-          "name_en": "The Radio Building (inverted pyramid)",
-          "gem": true,
-          "q": "Das Funkhaus (umgedrehte Pyramide)"
-        },
-        {
-          "name": "Slavín – Gedenkstätte mit Aussicht",
-          "text": "<p>Auf einem Hügel nördlich der Burg liegt Slavín, ein Kriegerdenkmal für gefallene sowjetische Soldaten aus dem Zweiten Weltkrieg. Der Aufstieg lohnt sich wegen der Aussicht auf Donau, Altstadt und die Stadt, besonders zum Sonnenuntergang.</p><p>Der Ort ist ruhig, die Anlage gepflegt. Du erreichst ihn zu Fuß oder mit Bus; plane eine bis zwei Stunden ein.</p>",
-          "text_en": "<p>On a hill north of the castle lies Slavín, a war memorial for fallen Soviet soldiers of the Second World War. The climb is worthwhile for the view of the Danube, old town and the city, especially at sunset.</p><p>The place is quiet, the site well kept. You reach it on foot or by bus; plan one to two hours.</p>",
-          "name_en": "Slavín – memorial with a view",
-          "gem": true,
-          "q": "Slavín Bratislava",
-          "tip": "Geh zum Sonnenuntergang hinauf.",
-          "tip_en": "Go up at sunset."
-        },
-        {
-          "name": "Burgruine Devín",
-          "text": "<p>Rund neun Kilometer westlich liegt die Ruine Devín am Zusammenfluss von Donau und March, wo einst die Grenze zwischen Römischem Reich und Barbarenland verlief. Die Burg steht auf einem Felsen mit Blick auf zwei Flüsse; Türme und Mauern sind begehbar.</p><p>Du erreichst sie mit dem Bus (Fahrplan vorher prüfen). Plane einen halben Tag ein und nimm Wasser mit. Ein guter Ausflug, wenn du Natur und Geschichte verbinden willst.</p>",
-          "text_en": "<p>About nine kilometres west lies Devín Castle ruin at the confluence of the Danube and the March, where the border between the Roman Empire and barbarian land once ran. The castle stands on a rock overlooking two rivers; towers and walls are walkable.</p><p>You reach it by bus (check timetable beforehand). Plan half a day and take water. A good trip if you want to combine nature and history.</p>",
-          "name_en": "Devín Castle ruins",
-          "gem": true,
-          "q": "Devín Castle Bratislava",
-          "tip": "Fahr mit dem Bus und plane einen halben Tag ein.",
-          "tip_en": "Take the bus and plan half a day."
-        },
-        {
-          "name": "Bryndzové halušky & slowakische Küche",
-          "text": "<p>Das Nationalgericht Bryndzové halušky sind kleine Kartoffelklöße mit salzigem Schafskäse (Bryndza) und knusprigem Speck. Dazu passen Kofola (die slowakische Cola) oder ein lokales Bier. Als Dessert probiere Mohnstrudel oder süße Palatschinken.</p><p>Traditionelle Lokale in der Altstadt servieren die Klassiker zu moderaten Preisen; frag nach Tagesmenüs, die oft günstiger sind. Preise ändern sich, frag vorher.</p>",
-          "text_en": "<p>The national dish bryndzové halušky are small potato dumplings with salty sheep cheese (bryndza) and crispy bacon. Kofola (the Slovak cola) or a local beer goes with it. For dessert try poppy-seed strudel or sweet pancakes.</p><p>Traditional places in the old town serve the classics at moderate prices; ask about daily menus, which are often cheaper. Prices change, ask beforehand.</p>",
-          "name_en": "Bryndzové halušky & Slovak cuisine",
-          "gem": false,
-          "q": "Bryndzové halušky Bratislava",
-          "tip": "Probiere die Halušky in einem traditionellen Lokal.",
-          "tip_en": "Try the halušky in a traditional place."
-        }
-      ]
+     "name": "Burgruine Devín",
+     "text": "<p>Rund neun Kilometer westlich liegt die Ruine Devín am Zusammenfluss von Donau und March, wo einst die Grenze zwischen Römischem Reich und Barbarenland verlief. Die Burg steht auf einem Felsen mit Blick auf zwei Flüsse; Türme und Mauern sind begehbar.</p><p>Du erreichst sie mit dem Bus (Fahrplan vorher prüfen). Plane einen halben Tag ein und nimm Wasser mit. Ein guter Ausflug, wenn du Natur und Geschichte verbinden willst.</p>",
+     "text_en": "<p>About nine kilometres west lies Devín Castle ruin at the confluence of the Danube and the March, where the border between the Roman Empire and barbarian land once ran. The castle stands on a rock overlooking two rivers; towers and walls are walkable.</p><p>You reach it by bus (check timetable beforehand). Plan half a day and take water. A good trip if you want to combine nature and history.</p>",
+     "name_en": "Devín Castle ruins",
+     "gem": true,
+     "q": "Devín Castle Bratislava",
+     "tip": "Fahr mit dem Bus und plane einen halben Tag ein.",
+     "tip_en": "Take the bus and plan half a day."
     },
     {
-      "type": "prose",
-      "id": "wissen",
-      "h": "Was Bratislava ausmacht",
-      "h_en": "What makes Bratislava special",
-      "html": "<p>Bratislava ist die einzige Hauptstadt der Welt, die an zwei Länder grenzt: Österreich und Ungarn. Als Pressburg war sie fast 300 Jahre Krönungsstadt der ungarischen Könige (1563–1830, darunter Maria Theresia). Seit 1993 ist sie Hauptstadt der Slowakei.</p>",
-      "html_en": "<p>Bratislava is the only capital in the world bordering two countries: Austria and Hungary. As Pressburg it was the coronation city of the Hungarian kings for nearly 300 years (1563–1830, including Maria Theresa). Since 1993 it has been Slovakia’s capital.</p>",
-      "box": "gyg"
+     "name": "Bryndzové halušky & slowakische Küche",
+     "text": "<p>Das Nationalgericht Bryndzové halušky sind kleine Kartoffelklöße mit salzigem Schafskäse (Bryndza) und knusprigem Speck. Dazu passen Kofola (die slowakische Cola) oder ein lokales Bier. Als Dessert probiere Mohnstrudel oder süße Palatschinken.</p><p>Traditionelle Lokale in der Altstadt servieren die Klassiker zu moderaten Preisen; frag nach Tagesmenüs, die oft günstiger sind. Preise ändern sich, frag vorher.</p>",
+     "text_en": "<p>The national dish bryndzové halušky are small potato dumplings with salty sheep cheese (bryndza) and crispy bacon. Kofola (the Slovak cola) or a local beer goes with it. For dessert try poppy-seed strudel or sweet pancakes.</p><p>Traditional places in the old town serve the classics at moderate prices; ask about daily menus, which are often cheaper. Prices change, ask beforehand.</p>",
+     "name_en": "Bryndzové halušky & Slovak cuisine",
+     "gem": false,
+     "q": "Bryndzové halušky Bratislava",
+     "tip": "Probiere die Halušky in einem traditionellen Lokal.",
+     "tip_en": "Try the halušky in a traditional place."
     }
-  ],
-  "itinerary": [
-    {
-      "h": "Tag in Bratislava",
-      "h_en": "A day in Bratislava",
-      "items": [
-        "<strong>Vormittag</strong> – Michaelertor, Hauptplatz, Čumil und Figuren",
-        "<strong>Mittag</strong> – Bryndzové halušky",
-        "<strong>Nachmittag</strong> – Martinsdom, Burg, Blaue Kirche",
-        "<strong>Abend</strong> – UFO-Deck zum Sonnenuntergang"
-      ],
-      "items_en": [
-        "<strong>Morning</strong> – Michael’s Gate, Main Square, Čumil and figures",
-        "<strong>Midday</strong> – bryndzové halušky",
-        "<strong>Afternoon</strong> – St Martin’s Cathedral, castle, Blue Church",
-        "<strong>Evening</strong> – UFO deck at sunset"
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "q": "Lässt sich Bratislava mit Wien kombinieren?",
-      "q_en": "Can I combine Bratislava with Vienna?",
-      "a": "<p>Ja, nur rund eine Stunde Fahrt.</p>",
-      "a_en": "<p>Yes, only about an hour’s ride.</p>"
-    },
-    {
-      "q": "Wie viele Tage braucht man in Bratislava?",
-      "q_en": "How many days do you need in Bratislava?",
-      "a": "Ein Tag reicht für die Altstadt, mit Devín und Slavín anderthalb bis zwei.",
-      "a_en": "One day is enough for the old town, with Devín and Slavín one and a half to two."
-    },
-    {
-      "q": "Zahle ich in Euro?",
-      "q_en": "Do I pay in euros?",
-      "a": "Ja, die Slowakei nutzt den Euro.",
-      "a_en": "Yes, Slovakia uses the euro."
-    }
-  ]
+   ]
+  },
+  {
+   "type": "prose",
+   "id": "wissen",
+   "h": "Was Bratislava ausmacht",
+   "h_en": "What makes Bratislava special",
+   "html": "<p>Bratislava ist die einzige Hauptstadt der Welt, die an zwei Länder grenzt: Österreich und Ungarn. Als Pressburg war sie fast 300 Jahre Krönungsstadt der ungarischen Könige (1563–1830, darunter Maria Theresia). Seit 1993 ist sie Hauptstadt der Slowakei.</p>",
+   "html_en": "<p>Bratislava is the only capital in the world bordering two countries: Austria and Hungary. As Pressburg it was the coronation city of the Hungarian kings for nearly 300 years (1563–1830, including Maria Theresa). Since 1993 it has been Slovakia’s capital.</p>",
+   "box": "gyg"
+  }
+ ],
+ "itinerary": [
+  {
+   "h": "Tag in Bratislava",
+   "h_en": "A day in Bratislava",
+   "items": [
+    "<strong>Vormittag</strong> – Michaelertor, Hauptplatz, Čumil und Figuren",
+    "<strong>Mittag</strong> – Bryndzové halušky",
+    "<strong>Nachmittag</strong> – Martinsdom, Burg, Blaue Kirche",
+    "<strong>Abend</strong> – UFO-Deck zum Sonnenuntergang"
+   ],
+   "items_en": [
+    "<strong>Morning</strong> – Michael’s Gate, Main Square, Čumil and figures",
+    "<strong>Midday</strong> – bryndzové halušky",
+    "<strong>Afternoon</strong> – St Martin’s Cathedral, castle, Blue Church",
+    "<strong>Evening</strong> – UFO deck at sunset"
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Lässt sich Bratislava mit Wien kombinieren?",
+   "q_en": "Can I combine Bratislava with Vienna?",
+   "a": "<p>Ja, nur rund eine Stunde Fahrt.</p>",
+   "a_en": "<p>Yes, only about an hour’s ride.</p>"
+  },
+  {
+   "q": "Wie viele Tage braucht man in Bratislava?",
+   "q_en": "How many days do you need in Bratislava?",
+   "a": "Ein Tag reicht für die Altstadt, mit Devín und Slavín anderthalb bis zwei.",
+   "a_en": "One day is enough for the old town, with Devín and Slavín one and a half to two."
+  },
+  {
+   "q": "Zahle ich in Euro?",
+   "q_en": "Do I pay in euros?",
+   "a": "Ja, die Slowakei nutzt den Euro.",
+   "a_en": "Yes, Slovakia uses the euro."
+  }
+ ]
 }
