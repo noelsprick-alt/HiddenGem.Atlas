@@ -1,8 +1,8 @@
 {
-  "updated": "05.11.2026",
-  "generated": "2026-11-05T12:59:20.354Z",
+  "updated": "06.11.2026",
+  "generated": "2026-11-06T12:46:51.520Z",
   "maxAgeDays": 14,
-  "count": 4,
+  "count": 3,
   "items": [
     {
       "id": "auto-geheimtipps-in-deutschland-6-idyllische-orte-u",
@@ -45,20 +45,6 @@
       "desc": "Wer zum ersten Mal in Japan ist, dem wird auffallen, wie leise es selbst in vollen Zügen oder auf belebten Marktstraßen ist. Während uns Stille manchmal peinlich ist, wird in Japan Ruhe als unverzichtbarer Teil des Alltags betrachtet. ...",
       "title_en": "TRAVELBOOK author on site: Japan and the culture of silence - a traveler reports",
       "desc_en": "Anyone visiting Japan for the first time will notice how quiet it is, even in crowded places or on busy market streets. While we are sometimes embarrassed by silence, in Japan quiet is considered an indispensable part of everyday life. ..."
-    },
-    {
-      "id": "auto-idealer-ausgangspunkt-fur-zahlreiche-aktivitat",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-23",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/reiseziele/gemeinde-bayern-inzell-geheimtipp",
-      "title": "Idealer Ausgangspunkt für zahlreiche Aktivitäten: Dieses Städtchen in Bayern ist ein echter Geheimtipp",
-      "desc": "Ganz im Süden Deutschlands liegt eine kleine Gemeinde, die nicht nur ideal für ein paar erholsame Tage in Bayern ist - sie markiert auch den perfekten Ausgangspunkt für zahlreiche Aktivitäten in der Region. Die Rede ist von Inzell. ...",
-      "title_en": "Ideal starting point for numerous activities: This little town in Bavaria is a real insider tip",
-      "desc_en": "There is a small community in the very south of Germany that is not only ideal for a few relaxing days in Bavaria - it is also the perfect starting point for numerous activities in the region. We're talking about Inzell. ..."
     }
   ]
 }
