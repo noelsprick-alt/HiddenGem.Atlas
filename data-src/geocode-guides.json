@@ -1,0 +1,3773 @@
+{
+ "amsterdam": {
+  "spots": {
+   "Jordaan & Grachten am Morgen": {
+    "lat": 52.37542,
+    "lon": 4.8811,
+    "km": 0.8,
+    "q": "Jordaan Amsterdam"
+   },
+   "A'DAM Lookout": {
+    "lat": 52.38386,
+    "lon": 4.9021,
+    "km": 1.4,
+    "q": "A'DAM Lookout Amsterdam"
+   },
+   "Foodhallen": {
+    "lat": 52.36695,
+    "lon": 4.8682,
+    "km": 1.8,
+    "q": "Foodhallen Amsterdam"
+   },
+   "Rijksmuseum": {
+    "lat": 52.35984,
+    "lon": 4.88504,
+    "km": 1.6,
+    "q": "Rijksmuseum Amsterdam"
+   },
+   "Anne-Frank-Haus": {
+    "lat": 52.37516,
+    "lon": 4.88408,
+    "km": 0.6,
+    "q": "Anne Frank House Amsterdam"
+   },
+   "Vondelpark": {
+    "lat": 52.3572,
+    "lon": 4.86412,
+    "km": 2.6,
+    "q": "Vondelpark Amsterdam"
+   },
+   "Grachtenfahrt": {
+    "lat": 52.36353,
+    "lon": 4.88055,
+    "km": 1.3,
+    "q": "Amsterdam canal cruise"
+   },
+   "Fahrrad fahren in Amsterdam": {
+    "lat": 52.37238,
+    "lon": 4.89687,
+    "km": 0.3,
+    "q": "Bike rental Amsterdam"
+   },
+   "NDSM-Werft": {
+    "lat": 52.40037,
+    "lon": 4.89295,
+    "km": 3,
+    "q": "NDSM Amsterdam"
+   },
+   "Kuriositäten: Katzenboot & Affen-Bar": {
+    "lat": 52.37813,
+    "lon": 4.89311,
+    "km": 0.6,
+    "q": "Poezenboot Amsterdam"
+   },
+   "Begijnhof – ruhiger Hof": {
+    "lat": 52.36943,
+    "lon": 4.89004,
+    "km": 0.4,
+    "q": "Begijnhof Amsterdam"
+   },
+   "De Pijp & Albert-Cuyp-Markt": {
+    "lat": 52.35523,
+    "lon": 4.89178,
+    "km": 2,
+    "q": "Albert Cuyp Market Amsterdam"
+   },
+   "Tagesausflug: Zaanse Schans, Haarlem oder Zandvoort": {
+    "lat": 52.47505,
+    "lon": 4.81798,
+    "km": 12.4,
+    "q": "Zaanse Schans"
+   },
+   "Holländische Küche: Stroopwafel, Bitterballen, Herring": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 52.37308,
+   "lon": 4.89245
+  }
+ },
+ "antwerpen": {
+  "spots": {
+   "Antwerpen-Centraal": {
+    "lat": 51.21599,
+    "lon": 4.4211,
+    "km": 1.6,
+    "q": "Antwerpen-Centraal station"
+   },
+   "MAS – Museum aan de Stroom": {
+    "lat": 51.22894,
+    "lon": 4.40473,
+    "km": 0.9,
+    "q": "MAS, Antwerp"
+   },
+   "Grote Markt & Rathaus": {
+    "lat": 51.22117,
+    "lon": 4.40035,
+    "km": 0,
+    "q": "Grote Markt Antwerp"
+   },
+   "Kathedrale Unserer Lieben Frau": {
+    "lat": 51.22029,
+    "lon": 4.40136,
+    "km": 0.1,
+    "q": "Cathedral of Our Lady Antwerp"
+   },
+   "Rubenshuis": {
+    "lat": 51.21701,
+    "lon": 4.40964,
+    "km": 0.8,
+    "q": "Rubenshuis Antwerp"
+   },
+   "Diamantenviertel & Modeviertel": {
+    "lat": 51.21443,
+    "lon": 4.41764,
+    "km": 1.5,
+    "q": "Antwerp Diamond District"
+   },
+   "Cogels-Osylei": {
+    "lat": 51.20457,
+    "lon": 4.43316,
+    "km": 3,
+    "q": "Cogels-Osylei Antwerpen"
+   },
+   "Vlaeykensgang": {
+    "lat": 51.22011,
+    "lon": 4.39882,
+    "km": 0.1,
+    "q": "Vlaeykensgang Antwerpen"
+   },
+   "Bolleke bei De Koninck": {
+    "lat": 51.1996,
+    "lon": 4.4156,
+    "km": 2.6,
+    "q": "De Koninck Antwerp City Brewery"
+   },
+   "Het Zuid & Kunstviertel": {
+    "lat": 51.20861,
+    "lon": 4.39162,
+    "km": 1.5,
+    "q": "Het Zuid Antwerp"
+   },
+   "Schelde-Ufer & Het Steen": {
+    "lat": 51.22277,
+    "lon": 4.39742,
+    "km": 0.2,
+    "q": "Het Steen Antwerp"
+   },
+   "Belgische Küche: Frites, Waffeln & Antwerpse Handjes": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 51.22111,
+   "lon": 4.39971
+  }
+ },
+ "arnheim": {
+  "spots": {
+   "Nationalpark Hoge Veluwe mit den weißen Rädern": {
+    "lat": 52.07971,
+    "lon": 5.83108,
+    "km": 11.9,
+    "q": "Hoge Veluwe National Park"
+   },
+   "Die Brücke von Arnheim": {
+    "lat": 51.97482,
+    "lon": 5.91163,
+    "km": 1.1,
+    "q": "John Frost Bridge Arnhem"
+   },
+   "Kröller-Müller Museum & Skulpturengarten": {
+    "lat": 52.09591,
+    "lon": 5.81783,
+    "km": 14,
+    "q": "Kröller-Müller Museum"
+   },
+   "Airborne Museum Hartenstein & Friedhof Oosterbeek": {
+    "lat": 51.98771,
+    "lon": 5.83269,
+    "km": 5.4,
+    "q": "Airborne Museum Hartenstein Oosterbeek"
+   },
+   "Eusebiuskerk & Altstadt": {
+    "lat": 51.97867,
+    "lon": 5.91135,
+    "km": 0.6,
+    "q": "Eusebiuskerk Arnhem"
+   },
+   "Nederlands Openluchtmuseum": {
+    "lat": 52.01065,
+    "lon": 5.91071,
+    "km": 2.9,
+    "q": "Nederlands Openluchtmuseum Arnhem"
+   },
+   "Burgers' Zoo": {
+    "lat": 52.00999,
+    "lon": 5.9006,
+    "km": 2.9,
+    "q": "Burgers Zoo Arnhem"
+   },
+   "Sonsbeek-Park": {
+    "lat": 51.99132,
+    "lon": 5.90381,
+    "km": 0.9,
+    "q": "Sonsbeek park Arnhem"
+   },
+   "Jachthuis Sint Hubertus & Hirschbrunft": {
+    "lat": 52.12155,
+    "lon": 5.83283,
+    "km": 16.2,
+    "q": "Jachthuis Sint Hubertus"
+   },
+   "Klarendal – Arnheims Modeviertel": {
+    "lat": 51.99001,
+    "lon": 5.9233,
+    "km": 1.1,
+    "q": "Klarendal Arnhem"
+   },
+   "Posbank & Veluwezoom – Heide mit Aussicht": {
+    "lat": 52.02853,
+    "lon": 6.02179,
+    "km": 9,
+    "q": "Posbank Veluwezoom"
+   },
+   "Arnhemse Meisjes – das Gebäck aus Arnheim": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 51.98426,
+   "lon": 5.91086
+  }
+ },
+ "bad-gastein": {
+  "spots": {
+   "Gasteiner Wasserfall": {
+    "lat": 47.11354,
+    "lon": 13.13636,
+    "km": 3.5,
+    "q": "Gasteiner Wasserfall Bad Gastein"
+   },
+   "Landawirsee im Lungau": {
+    "miss": true
+   },
+   "Kaiserschmarrn auf der Landawirseehütte": {
+    "miss": true
+   },
+   "Belle-Époque-Architektur & Straubinger Platz": {
+    "lat": 47.11422,
+    "lon": 13.13697,
+    "km": 3.5,
+    "q": "Straubinger Platz Bad Gastein"
+   },
+   "Felsentherme Bad Gastein": {
+    "lat": 47.11103,
+    "lon": 13.13338,
+    "km": 3.4,
+    "q": "Felsentherme Bad Gastein"
+   },
+   "Stubnerkogel & Hängebrücke": {
+    "lat": 47.13695,
+    "lon": 13.08602,
+    "km": 7.9,
+    "q": "Stubnerkogel Bad Gastein"
+   },
+   "Graukogel – ruhiger Wandergipfel": {
+    "lat": 47.11109,
+    "lon": 13.15623,
+    "km": 2.7,
+    "q": "Graukogel Bad Gastein"
+   },
+   "Kaiserin-Elisabeth-Promenade": {
+    "lat": 47.10544,
+    "lon": 13.12914,
+    "km": 3.1,
+    "q": "Kaiserin-Elisabeth-Promenade Bad Gastein"
+   },
+   "Burg Mauterndorf im Lungau": {
+    "lat": 47.13741,
+    "lon": 13.67815,
+    "km": 39.5,
+    "q": "Burg Mauterndorf"
+   },
+   "Gasteiner Heilstollen – Wärme im Berg": {
+    "lat": 47.08008,
+    "lon": 13.09727,
+    "km": 4.9,
+    "q": "Gasteiner Heilstollen"
+   }
+  },
+  "center": {
+   "lat": 47.08711,
+   "lon": 13.16085
+  }
+ },
+ "barcelona": {
+  "spots": {
+   "Port Vell am frühen Morgen": {
+    "lat": 41.37019,
+    "lon": 2.1869,
+    "km": 1.6,
+    "q": "Port Vell Barcelona"
+   },
+   "Sagrada Família": {
+    "lat": 41.4035,
+    "lon": 2.17443,
+    "km": 2.3,
+    "q": "Sagrada Familia Barcelona"
+   },
+   "Park Güell": {
+    "lat": 41.41423,
+    "lon": 2.15246,
+    "km": 4.1,
+    "q": "Park Güell Barcelona"
+   },
+   "Barri Gòtic & La Rambla": {
+    "lat": 41.38384,
+    "lon": 2.17451,
+    "km": 0.3,
+    "q": "Barri Gotic Barcelona"
+   },
+   "La Boqueria & Mercat de Sant Antoni": {
+    "lat": 41.38174,
+    "lon": 2.17155,
+    "km": 0.5,
+    "q": "Mercat de la Boqueria"
+   },
+   "Casa Batlló & Casa Milà (La Pedrera)": {
+    "lat": 41.39154,
+    "lon": 2.1647,
+    "km": 1.4,
+    "q": "Casa Batllo Barcelona"
+   },
+   "Barceloneta, Strand & Tapas": {
+    "lat": 41.38207,
+    "lon": 2.18542,
+    "km": 0.7,
+    "q": "Barceloneta Barcelona"
+   },
+   "Bunkers del Carmel": {
+    "lat": 41.41926,
+    "lon": 2.16154,
+    "km": 4.3,
+    "q": "Turó de la Rovira Barcelona"
+   },
+   "Bar Marsella – Absinth seit 1820": {
+    "lat": 41.37824,
+    "lon": 2.17124,
+    "km": 0.7,
+    "q": "Bar Marsella Barcelona"
+   },
+   "Speakeasy hinter der Kühlschranktür": {
+    "miss": true
+   },
+   "Gràcia – Plätze & Cafés": {
+    "lat": 41.40162,
+    "lon": 2.15671,
+    "km": 2.7,
+    "q": "Plaça del Sol Gracia"
+   },
+   "Montjuïc – Garten, Brunnen & Aussicht": {
+    "lat": 41.36315,
+    "lon": 2.16561,
+    "km": 2.4,
+    "q": "Montjuic Barcelona"
+   },
+   "Sant Pau – Jugendstil-Krankenhaus": {
+    "lat": 41.41398,
+    "lon": 2.17555,
+    "km": 3.5,
+    "q": "Hospital de Sant Pau Barcelona"
+   },
+   "Tagesausflug: Montserrat oder Sitges": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 41.38258,
+   "lon": 2.17707
+  }
+ },
+ "berlin": {
+  "spots": {
+   "Mauerpark am Sonntag": {
+    "lat": 52.54372,
+    "lon": 13.40193,
+    "km": 3,
+    "q": "Mauerpark Berlin"
+   },
+   "Markthalle Neun": {
+    "lat": 52.50217,
+    "lon": 13.43149,
+    "km": 3,
+    "q": "Markthalle Neun Berlin"
+   },
+   "Tempelhofer Feld": {
+    "lat": 52.47442,
+    "lon": 13.4026,
+    "km": 4.8,
+    "q": "Tempelhofer Feld"
+   },
+   "Friedrichshain & RAW-Gelände": {
+    "lat": 52.50701,
+    "lon": 13.4543,
+    "km": 4.2,
+    "q": "Friedrichshain & RAW-Gelände"
+   },
+   "Brandenburger Tor & Reichstag": {
+    "lat": 52.51627,
+    "lon": 13.3777,
+    "km": 1.2,
+    "q": "Brandenburger Tor Berlin"
+   },
+   "East Side Gallery": {
+    "lat": 52.50445,
+    "lon": 13.44084,
+    "km": 3.4,
+    "q": "East Side Gallery Berlin"
+   },
+   "Gedenkstätte Berliner Mauer": {
+    "lat": 52.53379,
+    "lon": 13.38745,
+    "km": 1.9,
+    "q": "Berlin Wall Memorial Bernauer Strasse"
+   },
+   "Museumsinsel": {
+    "lat": 52.51802,
+    "lon": 13.39938,
+    "km": 0.3,
+    "q": "Museumsinsel Berlin"
+   },
+   "Currywurst, Döner & Berliner Küche": {
+    "lat": 52.51789,
+    "lon": 13.54197,
+    "km": 9.9,
+    "q": "Currywurst Berlin"
+   },
+   "Teufelsberg": {
+    "lat": 52.49772,
+    "lon": 13.24295,
+    "km": 10.5,
+    "q": "Teufelsberg Berlin"
+   },
+   "Spreepark & Pool in der Spree": {
+    "lat": 52.48493,
+    "lon": 13.48899,
+    "km": 7.3,
+    "q": "Spreepark, Berlin"
+   },
+   "Kreuzberg & Neukölln – Kieze entdecken": {
+    "lat": 52.49764,
+    "lon": 13.41191,
+    "km": 2.5,
+    "q": "Kreuzberg, Berlin"
+   },
+   "Berliner Clubszene & Berghain-Kultur": {
+    "miss": true
+   },
+   "Tiergarten & Siegessäule": {
+    "lat": 52.51451,
+    "lon": 13.35011,
+    "km": 3.1,
+    "q": "Siegessäule Berlin"
+   }
+  },
+  "center": {
+   "lat": 52.51739,
+   "lon": 13.39513
+  }
+ },
+ "bled": {
+  "spots": {
+   "Der See im Morgennebel": {
+    "lat": 46.36391,
+    "lon": 14.09381,
+    "km": 1.3,
+    "q": "Lake Bled"
+   },
+   "Ojstrica-Aussichtspunkt": {
+    "miss": true
+   },
+   "Burg Bled": {
+    "lat": 46.3697,
+    "lon": 14.10052,
+    "km": 0.7,
+    "q": "Bled Castle"
+   },
+   "Pletna-Boot zur Insel": {
+    "lat": 46.36056,
+    "lon": 14.09974,
+    "km": 1.2,
+    "q": "Pletna Bled"
+   },
+   "Rundweg um den See": {
+    "miss": true
+   },
+   "Vintgar-Klamm": {
+    "lat": 46.39862,
+    "lon": 14.09275,
+    "km": 3.6,
+    "q": "Soteska Vintgar"
+   },
+   "Bleder Cremeschnitte": {
+    "lat": 46.36759,
+    "lon": 14.10862,
+    "km": 0.1,
+    "q": "Kavarna Park Bled"
+   },
+   "Russische Kapelle am Vršič & Burg Predjama": {
+    "lat": 45.81573,
+    "lon": 14.12659,
+    "km": 61.5,
+    "q": "Predjama Castle"
+   },
+   "Bohinj-See": {
+    "lat": 46.28227,
+    "lon": 13.86453,
+    "km": 21.1,
+    "q": "Lake Bohinj"
+   },
+   "Savica-Wasserfall": {
+    "lat": 46.29316,
+    "lon": 13.79631,
+    "km": 25.5,
+    "q": "Savica Waterfall"
+   },
+   "Triglav-Nationalpark & Wanderungen": {
+    "lat": 46.33605,
+    "lon": 13.81387,
+    "km": 23,
+    "q": "Triglav National Park"
+   }
+  },
+  "center": {
+   "lat": 46.36842,
+   "lon": 14.11006
+  }
+ },
+ "bratislava": {
+  "spots": {
+   "UFO-Deck der SNP-Brücke": {
+    "miss": true
+   },
+   "Burg Bratislava": {
+    "lat": 48.14259,
+    "lon": 17.10047,
+    "km": 0.6,
+    "q": "Bratislava Castle"
+   },
+   "Altstadt & Čumil": {
+    "lat": 48.14284,
+    "lon": 17.10886,
+    "km": 0.1,
+    "q": "Altstadt & Čumil"
+   },
+   "Michaelertor & Hauptplatz": {
+    "lat": 48.14517,
+    "lon": 17.10674,
+    "km": 0.2,
+    "q": "Michalská brána Bratislava"
+   },
+   "Martinsdom (St. Martin)": {
+    "lat": 48.14198,
+    "lon": 17.10488,
+    "km": 0.3,
+    "q": "St Martin's Cathedral Bratislava"
+   },
+   "Blaue Kirche (Kirche der heiligen Elisabeth)": {
+    "lat": 48.14336,
+    "lon": 17.11674,
+    "km": 0.6,
+    "q": "Blue Church Bratislava"
+   },
+   "Das Funkhaus (umgedrehte Pyramide)": {
+    "miss": true
+   },
+   "Slavín – Gedenkstätte mit Aussicht": {
+    "lat": 48.1539,
+    "lon": 17.09959,
+    "km": 1.3,
+    "q": "Slavín Bratislava"
+   },
+   "Burgruine Devín": {
+    "lat": 48.17311,
+    "lon": 16.98037,
+    "km": 10,
+    "q": "Devín Castle Bratislava"
+   },
+   "Bryndzové halušky & slowakische Küche": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 48.1435,
+   "lon": 17.10829
+  }
+ },
+ "bremen": {
+  "spots": {
+   "Schnoorviertel": {
+    "lat": 53.07284,
+    "lon": 8.80967,
+    "km": 0.4,
+    "q": "Schnoor Bremen"
+   },
+   "Böttcherstraße": {
+    "lat": 53.07507,
+    "lon": 8.80576,
+    "km": 0.1,
+    "q": "Böttcherstraße"
+   },
+   "Roland am Marktplatz": {
+    "lat": 53.58392,
+    "lon": 9.69781,
+    "km": 81.8,
+    "q": "Roland am Marktplatz"
+   },
+   "Schlachte zum Sonnenuntergang": {
+    "miss": true
+   },
+   "Bremer Stadtmusikanten": {
+    "lat": 53.07621,
+    "lon": 8.80753,
+    "km": 0,
+    "q": "Bremen Town Musicians, Bremen"
+   },
+   "Rathaus & Dom": {
+    "lat": 53.07607,
+    "lon": 8.80774,
+    "km": 0,
+    "q": "Bremer Rathaus"
+   },
+   "Schlachte & Weserpromenade": {
+    "lat": 53.07699,
+    "lon": 8.80139,
+    "km": 0.4,
+    "q": "Schlachte Bremen"
+   },
+   "Gullydeckel mit Tierstimmen": {
+    "miss": true
+   },
+   "Ratskeller – Wein von 1653": {
+    "lat": 53.07617,
+    "lon": 8.8073,
+    "km": 0,
+    "q": "Ratskeller, Bremen"
+   },
+   "Viertel (Das Viertel) – Kneipen & Kultur": {
+    "lat": 53.07489,
+    "lon": 8.80311,
+    "km": 0.3,
+    "q": "Das Viertel Bremen"
+   },
+   "Wallanlagen & Mühle am Wall": {
+    "lat": 53.08016,
+    "lon": 8.80647,
+    "km": 0.5,
+    "q": "Wallanlagen Bremen"
+   },
+   "Bremer Spezialitäten: Kaffee, Kohl & Pinkel": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 53.07582,
+   "lon": 8.80716
+  }
+ },
+ "bruessel": {
+  "spots": {
+   "Grand-Place": {
+    "lat": 50.84673,
+    "lon": 4.35241,
+    "km": 0,
+    "q": "Grand-Place Brussels"
+   },
+   "Galeries Royales Saint-Hubert": {
+    "lat": 50.84819,
+    "lon": 4.35513,
+    "km": 0.2,
+    "q": "Galeries Royales Saint-Hubert, Brussels"
+   },
+   "Atomium": {
+    "lat": 50.89492,
+    "lon": 4.34138,
+    "km": 5.4,
+    "q": "Atomium Brussels"
+   },
+   "Manneken Pis, Jeanneke Pis & Zinneke Pis": {
+    "lat": 50.84499,
+    "lon": 4.34999,
+    "km": 0.3,
+    "q": "Manneken Pis Brussels"
+   },
+   "Waffeln, Pommes & Schokolade": {
+    "lat": 50.84814,
+    "lon": 4.35112,
+    "km": 0.2,
+    "q": "Belgian waffles Brussels"
+   },
+   "Belgisches Bier": {
+    "lat": 50.84845,
+    "lon": 4.35383,
+    "km": 0.2,
+    "q": "Delirium Cafe Brussels"
+   },
+   "Comic-Museum & Comic-Wandbilder": {
+    "lat": 50.85125,
+    "lon": 4.36018,
+    "km": 0.7,
+    "q": "Belgian Comic Strip Center"
+   },
+   "Cinquantenaire-Park": {
+    "lat": 50.84104,
+    "lon": 4.39349,
+    "km": 2.9,
+    "q": "Parc du Cinquantenaire Brussels"
+   },
+   "Marolles & Place du Jeu de Balle": {
+    "lat": 50.837,
+    "lon": 4.34584,
+    "km": 1.2,
+    "q": "Place du Jeu de Balle Brussels"
+   },
+   "Place du Sablon & Antiquitätenmarkt": {
+    "lat": 50.84118,
+    "lon": 4.35486,
+    "km": 0.6,
+    "q": "Place du Grand Sablon Brussels"
+   },
+   "Mont des Arts & Aussicht": {
+    "lat": 50.84386,
+    "lon": 4.35677,
+    "km": 0.4,
+    "q": "Mont des Arts Brussels"
+   },
+   "Autoworld & Museen im Cinquantenaire": {
+    "lat": 50.83946,
+    "lon": 4.39355,
+    "km": 3,
+    "q": "Autoworld Brussels"
+   },
+   "Tagesausflug: Brügge, Gent oder Antwerpen": {
+    "lat": 51.20855,
+    "lon": 3.22677,
+    "km": 88.4,
+    "q": "Brugge Belgium"
+   }
+  },
+  "center": {
+   "lat": 50.84674,
+   "lon": 4.35249
+  }
+ },
+ "budapest": {
+  "spots": {
+   "Széchenyi-Bad": {
+    "lat": 47.51844,
+    "lon": 19.08252,
+    "km": 3.9,
+    "q": "Széchenyi Thermal Bath Budapest"
+   },
+   "Szimpla Kert": {
+    "lat": 47.49693,
+    "lon": 19.06331,
+    "km": 1.7,
+    "q": "Szimpla Kert Budapest"
+   },
+   "Parlament bei Nacht": {
+    "miss": true
+   },
+   "Fischerbastei & Matthiaskirche": {
+    "lat": 47.50231,
+    "lon": 19.0347,
+    "km": 0.6,
+    "q": "Fisherman's Bastion Budapest"
+   },
+   "Burgpalast & Kettenbrücke": {
+    "lat": 47.49898,
+    "lon": 19.04365,
+    "km": 0.3,
+    "q": "Chain Bridge Budapest"
+   },
+   "Große Markthalle": {
+    "lat": 47.48658,
+    "lon": 19.05899,
+    "km": 1.9,
+    "q": "Great Market Hall Budapest"
+   },
+   "Donau-Promenade & Schuhe am Donauufer": {
+    "lat": 47.50397,
+    "lon": 19.04479,
+    "km": 0.8,
+    "q": "Shoes on the Danube Bank"
+   },
+   "Krankenhaus im Felsen": {
+    "lat": 47.50079,
+    "lon": 19.03142,
+    "km": 0.7,
+    "q": "Hospital in the Rock Budapest"
+   },
+   "Flipper-Museum": {
+    "lat": 47.51465,
+    "lon": 19.0544,
+    "km": 2.1,
+    "q": "Flippermúzeum Budapest"
+   },
+   "Kindereisenbahn im Wald": {
+    "miss": true
+   },
+   "Gellértberg & Zitadelle": {
+    "lat": 47.48692,
+    "lon": 19.04456,
+    "km": 1.3,
+    "q": "Gellert Hill Budapest"
+   },
+   "Jüdisches Viertel & Große Synagoge": {
+    "lat": 47.4961,
+    "lon": 19.06087,
+    "km": 1.6,
+    "q": "Dohany Street Synagogue"
+   },
+   "Thermalbad Gellért & Rudas": {
+    "lat": 47.48967,
+    "lon": 19.04641,
+    "km": 1,
+    "q": "Rudas Baths Budapest"
+   },
+   "Ungarische Küche: Gulasch, Lángos & Kürtőskalács": {
+    "lat": 47.49722,
+    "lon": 19.03401,
+    "km": 0.5,
+    "q": "Hungarian cuisine, Budapest"
+   }
+  },
+  "center": {
+   "lat": 47.49788,
+   "lon": 19.04024
+  }
+ },
+ "den-haag": {
+  "spots": {
+   "Mauritshuis": {
+    "lat": 52.08039,
+    "lon": 4.31431,
+    "km": 3.1,
+    "q": "Mauritshuis Den Haag"
+   },
+   "Strand & Pier Scheveningen": {
+    "lat": 52.1153,
+    "lon": 4.28343,
+    "km": 4.6,
+    "q": "Scheveningen Pier"
+   },
+   "Binnenhof & Hofvijver": {
+    "lat": 52.07933,
+    "lon": 4.31237,
+    "km": 3,
+    "q": "Binnenhof Den Haag"
+   },
+   "Friedenspalast (Vredespaleis)": {
+    "lat": 52.08639,
+    "lon": 4.29563,
+    "km": 2.2,
+    "q": "Peace Palace The Hague"
+   },
+   "Escher in Het Paleis": {
+    "lat": 52.08342,
+    "lon": 4.31426,
+    "km": 3.2,
+    "q": "Escher in Het Paleis Den Haag"
+   },
+   "Kunstmuseum Den Haag – Mondrian": {
+    "lat": 52.08972,
+    "lon": 4.28073,
+    "km": 1.8,
+    "q": "Kunstmuseum Den Haag"
+   },
+   "Madurodam – die Niederlande im Miniaturformat": {
+    "lat": 52.09954,
+    "lon": 4.29738,
+    "km": 3.3,
+    "q": "Madurodam Den Haag"
+   },
+   "Panorama Mesdag": {
+    "lat": 52.08471,
+    "lon": 4.30328,
+    "km": 2.5,
+    "q": "Panorama Mesdag Den Haag"
+   },
+   "Scheveningen Haven – Fisch frisch vom Kutter": {
+    "lat": 52.10019,
+    "lon": 4.26598,
+    "km": 2.8,
+    "q": "Scheveningen Haven"
+   },
+   "Haagse Markt – Multikulti-Markt": {
+    "lat": 52.0644,
+    "lon": 4.29932,
+    "km": 2.3,
+    "q": "Haagse Markt Den Haag"
+   },
+   "Noordeinde-Palast & Haagse Hopjes": {
+    "lat": 52.08075,
+    "lon": 4.30648,
+    "km": 2.6,
+    "q": "Paleis Noordeinde"
+   }
+  },
+  "center": {
+   "lat": 52.07495,
+   "lon": 4.26968
+  }
+ },
+ "duesseldorf": {
+  "spots": {
+   "Die Radschläger": {
+    "miss": true
+   },
+   "Rheinturm – eine Uhr": {
+    "lat": 51.21796,
+    "lon": 6.76165,
+    "km": 1.3,
+    "q": "Rheinturm Düsseldorf"
+   },
+   "Little Tokyo & Japan-Tag": {
+    "lat": 51.22239,
+    "lon": 6.78604,
+    "km": 0.8,
+    "q": "Little Tokyo, Düsseldorf"
+   },
+   "Altbier und der Köbes": {
+    "miss": true
+   },
+   "Altstadt & „längste Theke der Welt“": {
+    "lat": 51.1739,
+    "lon": 6.77544,
+    "km": 5.7,
+    "q": "Altstadt Düsseldorf"
+   },
+   "Rheinuferpromenade & MedienHafen": {
+    "lat": 51.21416,
+    "lon": 6.74646,
+    "km": 2.4,
+    "q": "MedienHafen Düsseldorf"
+   },
+   "Königsallee („Kö“)": {
+    "lat": 51.22637,
+    "lon": 6.7793,
+    "km": 0.2,
+    "q": "Königsallee Düsseldorf"
+   },
+   "Flingern – mein Lieblingsviertel": {
+    "lat": 51.22864,
+    "lon": 6.80372,
+    "km": 1.9,
+    "q": "Café Hüftgold Düsseldorf"
+   },
+   "EKŌ-Haus in Niederkassel": {
+    "lat": 51.23961,
+    "lon": 6.7455,
+    "km": 2.7,
+    "q": "EKŌ-Haus Düsseldorf"
+   },
+   "Carlsplatz & Markt": {
+    "lat": 51.22343,
+    "lon": 6.77357,
+    "km": 0.3,
+    "q": "Carlsplatz Düsseldorf"
+   },
+   "Hofgarten & Schloss Benrath": {
+    "lat": 51.16104,
+    "lon": 6.87023,
+    "km": 9.7,
+    "q": "Schloss Benrath"
+   },
+   "Japanische Küche: Ramen, Sushi & Konditorei": {
+    "lat": 51.22148,
+    "lon": 6.78745,
+    "km": 0.9,
+    "q": "Little Tokyo Düsseldorf ramen"
+   }
+  },
+  "center": {
+   "lat": 51.2254,
+   "lon": 6.77631
+  }
+ },
+ "egmond-aan-zee": {
+  "spots": {
+   "Der Strand von Egmond aan Zee": {
+    "lat": 52.62528,
+    "lon": 4.62112,
+    "km": 0.8,
+    "q": "Egmond aan Zee beach"
+   },
+   "Leuchtturm J.C.J. van Speijk": {
+    "miss": true
+   },
+   "Aussichtsturm (Uitkijktoren) im Wald": {
+    "miss": true
+   },
+   "Nordholländisches Dünenreservat": {
+    "lat": 52.55242,
+    "lon": 4.6271,
+    "km": 7.3,
+    "q": "Noordhollands Duinreservaat"
+   },
+   "Mit dem Rad durch die Dünen (Knotenpunkt-Netz)": {
+    "miss": true
+   },
+   "Surfen, Kiten & Strandsport": {
+    "miss": true
+   },
+   "Egmond im Winter – Sturm, Wellen & Halbmarathon": {
+    "miss": true
+   },
+   "Abtei von Egmond (Egmond-Binnen)": {
+    "lat": 52.595,
+    "lon": 4.66004,
+    "km": 3.5,
+    "q": "Abdij van Egmond Egmond-Binnen"
+   },
+   "Museum Prins Hendrik de Zeevaarder": {
+    "miss": true
+   },
+   "Bunkermuseum & Burgruine": {
+    "lat": 52.62447,
+    "lon": 4.62282,
+    "km": 0.7,
+    "q": "Bunkermuseum Egmond aan Zee"
+   },
+   "Toast Egmond": {
+    "lat": 52.61822,
+    "lon": 4.62398,
+    "km": 0.1,
+    "q": "Toast Egmond Voorstraat 122"
+   },
+   "Pompadour Ontbijt- & Lunchroom": {
+    "miss": true
+   },
+   "Strandpavillons: Uitkijk, Evi Beach, Bad Egmond, De Zilvermeeuw": {
+    "miss": true
+   },
+   "Het Wapen van Egmond": {
+    "lat": 52.6177,
+    "lon": 4.62184,
+    "km": 0.3,
+    "q": "Het Wapen van Egmond, Egmond aan Zee"
+   },
+   "Piet Kerssens – Echte Bakker": {
+    "lat": 52.61814,
+    "lon": 4.62364,
+    "km": 0.1,
+    "q": "Piet Kerssens, Egmond aan Zee"
+   },
+   "Niederländische Strandküche: Kibbeling, Hering & Poffertjes": {
+    "miss": true
+   },
+   "Alkmaar": {
+    "lat": 52.63156,
+    "lon": 4.75028,
+    "km": 8.5,
+    "q": "Alkmaar cheese market"
+   },
+   "Haarlem und Amsterdam": {
+    "lat": 52.35741,
+    "lon": 4.65762,
+    "km": 29.1,
+    "q": "Haarlem centre"
+   },
+   "Zee Aquarium in Bergen aan Zee": {
+    "lat": 52.66043,
+    "lon": 4.62931,
+    "km": 4.7,
+    "q": "Zee Aquarium Bergen aan Zee"
+   },
+   "Schoorlse Duinen & Hoge Berg": {
+    "miss": true
+   },
+   "Bergen & Bergen aan Zee": {
+    "lat": 52.66616,
+    "lon": 4.68066,
+    "km": 6.5,
+    "q": "Bergen Noord-Holland"
+   }
+  },
+  "center": {
+   "lat": 52.61831,
+   "lon": 4.62563
+  }
+ },
+ "freiburg": {
+  "spots": {
+   "Münstermarkt": {
+    "lat": 47.99583,
+    "lon": 7.8528,
+    "km": 0.3,
+    "q": "Münstermarkt"
+   },
+   "Schlossberg": {
+    "lat": 47.99749,
+    "lon": 7.86755,
+    "km": 1.4,
+    "q": "Schlossberg Freiburg"
+   },
+   "Freiburger Münster & Turm": {
+    "lat": 47.99555,
+    "lon": 7.85292,
+    "km": 0.3,
+    "q": "Freiburger Münster"
+   },
+   "Historisches Kaufhaus, Rathaus & Stadttore": {
+    "lat": 47.99497,
+    "lon": 7.85267,
+    "km": 0.3,
+    "q": "Historisches Kaufhaus Freiburg"
+   },
+   "Augustinermuseum": {
+    "lat": 47.99381,
+    "lon": 7.85325,
+    "km": 0.4,
+    "q": "Augustinermuseum Freiburg"
+   },
+   "Die Bächle": {
+    "miss": true
+   },
+   "Gerberau & Fischerau – das Kanalviertel": {
+    "lat": 47.99294,
+    "lon": 7.85328,
+    "km": 0.5,
+    "q": "Gerberau Freiburg"
+   },
+   "Vauban – Öko-Stadtteil": {
+    "lat": 47.97637,
+    "lon": 7.8236,
+    "km": 2.9,
+    "q": "Vauban Freiburg"
+   },
+   "Schauinsland – Bergbahn & Aussicht": {
+    "lat": 47.92281,
+    "lon": 7.87841,
+    "km": 8.4,
+    "q": "Schauinslandbahn Freiburg"
+   },
+   "Kaiserstuhl – Weinberge vor der Haustür": {
+    "lat": 48.08272,
+    "lon": 7.65492,
+    "km": 17.4,
+    "q": "Kaiserstuhl Weinberge"
+   }
+  },
+  "center": {
+   "lat": 47.99609,
+   "lon": 7.8494
+  }
+ },
+ "gelsenkirchen": {
+  "spots": {
+   "Arena am Spieltag": {
+    "miss": true
+   },
+   "Halde Rheinelbe & Himmelstreppe": {
+    "lat": 51.48747,
+    "lon": 7.1123,
+    "km": 2.9,
+    "q": "Halde Rheinelbe Gelsenkirchen"
+   },
+   "Currywurst an der Bude": {
+    "miss": true
+   },
+   "Zeche Zollverein in Essen": {
+    "lat": 51.50372,
+    "lon": 7.05157,
+    "km": 3.2,
+    "q": "Zeche Zollverein Essen"
+   },
+   "Nordsternpark & Herkules": {
+    "lat": 51.52274,
+    "lon": 7.03561,
+    "km": 4.4,
+    "q": "Nordsternpark Gelsenkirchen"
+   },
+   "Schalke-Tour & Vereinsmuseum": {
+    "miss": true
+   },
+   "Landschaftspark Duisburg-Nord": {
+    "lat": 51.48175,
+    "lon": 6.78396,
+    "km": 21.8,
+    "q": "Landschaftspark Duisburg-Nord"
+   },
+   "Tiger & Turtle": {
+    "lat": 51.37704,
+    "lon": 6.73523,
+    "km": 29.1,
+    "q": "Tiger & Turtle"
+   },
+   "Gasometer Oberhausen": {
+    "lat": 51.49407,
+    "lon": 6.87049,
+    "km": 15.7,
+    "q": "Gasometer Oberhausen"
+   },
+   "Zentrum für Internationale Lichtkunst, Unna": {
+    "lat": 51.53499,
+    "lon": 7.68527,
+    "km": 40.9,
+    "q": "Zentrum für Internationale Lichtkunst, Unna"
+   },
+   "ZOOM Erlebniswelt": {
+    "lat": 51.54434,
+    "lon": 7.11212,
+    "km": 3.9,
+    "q": "ZOOM Erlebniswelt Gelsenkirchen"
+   },
+   "Rhein-Herne-Kanal & Radwege": {
+    "lat": 51.52297,
+    "lon": 7.04513,
+    "km": 3.8,
+    "q": "Rhein-Herne-Kanal, Gelsenkirchen"
+   },
+   "Ruhrgebiet-Küche: Currywurst, Pommes Schranke & Bergmannsfrühstück": {
+    "lat": 51.39752,
+    "lon": 7.18199,
+    "km": 14,
+    "q": "Ruhr cuisine"
+   }
+  },
+  "center": {
+   "lat": 51.51103,
+   "lon": 7.09601
+  }
+ },
+ "gent": {
+  "spots": {
+   "Sint-Michielsbrug – der Drei-Türme-Blick": {
+    "lat": 51.05387,
+    "lon": 3.72056,
+    "km": 0.3,
+    "q": "Sint-Michielsbrug Gent"
+   },
+   "Graslei und Korenlei": {
+    "lat": 51.05481,
+    "lon": 3.72077,
+    "km": 0.3,
+    "q": "Graslei Gent"
+   },
+   "Korenmarkt, Sint-Niklaaskerk & altes Postgebäude": {
+    "lat": 51.05398,
+    "lon": 3.72289,
+    "km": 0.1,
+    "q": "Sint-Niklaaskerk Gent"
+   },
+   "Rathaus (Stadhuis)": {
+    "lat": 51.05453,
+    "lon": 3.72527,
+    "km": 0.1,
+    "q": "Stadhuis Gent"
+   },
+   "Belfried (Belfort)": {
+    "lat": 51.05363,
+    "lon": 3.72468,
+    "km": 0,
+    "q": "Belfort van Gent"
+   },
+   "St.-Bavo-Kathedrale und der Genter Altar": {
+    "miss": true
+   },
+   "Gravensteen – die Burg der Grafen": {
+    "lat": 51.05718,
+    "lon": 3.72077,
+    "km": 0.5,
+    "q": "Gravensteen Gent"
+   },
+   "Groentenmarkt & Groot Vleeshuis": {
+    "lat": 51.05592,
+    "lon": 3.72168,
+    "km": 0.3,
+    "q": "Groot Vleeshuis Gent"
+   },
+   "Werregarenstraatje – die legale Graffiti-Gasse": {
+    "lat": 51.05542,
+    "lon": 3.72463,
+    "km": 0.2,
+    "q": "Werregarenstraat Gent"
+   },
+   "Sint-Pietersabdij – die ruhige Abtei mit Obstgarten": {
+    "lat": 51.04232,
+    "lon": 3.72669,
+    "km": 1.3,
+    "q": "St Peter's Abbey Gent"
+   },
+   "Groot Begijnhof Sint-Elisabeth – Gents stiller Welterbe-Winkel": {
+    "lat": 51.05688,
+    "lon": 3.74754,
+    "km": 1.6,
+    "q": "Groot Begijnhof Sint-Elisabeth Gent"
+   },
+   "Patershol – Gents mittelalterliches Viertel": {
+    "lat": 51.05792,
+    "lon": 3.72263,
+    "km": 0.5,
+    "q": "Patershol Gent"
+   },
+   "Sint-Jacobskerk & Vrijdagmarkt": {
+    "lat": 51.05655,
+    "lon": 3.72765,
+    "km": 0.4,
+    "q": "St James’ Church, Ghent"
+   },
+   "Belgische Waffel & Cuberdons": {
+    "lat": 51.05286,
+    "lon": 3.71952,
+    "km": 0.4,
+    "q": "waffles Gent"
+   },
+   "Tierenteyn-Verlent – Genter Senf seit 1790": {
+    "lat": 51.05563,
+    "lon": 3.72242,
+    "km": 0.3,
+    "q": "Tierenteyn-Verlent Groentenmarkt Gent"
+   },
+   "Matcha-Café nahe der Kathedrale & bunter Design-Laden": {
+    "miss": true
+   },
+   "Abendessen: Weinbar und Meeresfrüchte": {
+    "lat": 51.22041,
+    "lon": 4.45524,
+    "km": 54.2,
+    "q": "Dinner"
+   },
+   "’t Dreupelkot – Genever in über 200 Sorten": {
+    "lat": 51.05627,
+    "lon": 3.72234,
+    "km": 0.3,
+    "q": "'t Dreupelkot Groentenmarkt Gent"
+   },
+   "Dulle Griet – 1,5 Liter Bier im Stiefel": {
+    "lat": 51.05657,
+    "lon": 3.72527,
+    "km": 0.3,
+    "q": "Dulle Griet Gent Vrijdagmarkt"
+   },
+   "Stadsbrouwerij Gruut – Bier mit Kräutern statt Hopfen": {
+    "lat": 51.05754,
+    "lon": 3.73023,
+    "km": 0.6,
+    "q": "Stadsbrouwerij Gruut Gent"
+   }
+  },
+  "center": {
+   "lat": 51.05383,
+   "lon": 3.72501
+  }
+ },
+ "gran-canaria": {
+  "spots": {
+   "Dünen von Maspalomas": {
+    "lat": 27.74388,
+    "lon": -15.5829,
+    "km": 23.9,
+    "q": "Dunas de Maspalomas"
+   },
+   "Roque Nublo": {
+    "lat": 28.15257,
+    "lon": -15.42168,
+    "km": 28.2,
+    "q": "Roque Nublo Gran Canaria"
+   },
+   "Puerto de Mogán": {
+    "lat": 27.8174,
+    "lon": -15.76522,
+    "km": 22.1,
+    "q": "Puerto de Mogán"
+   },
+   "Las Palmas: Vegueta & Triana": {
+    "lat": 28.09936,
+    "lon": -15.41447,
+    "km": 24.5,
+    "q": "Vegueta Las Palmas"
+   },
+   "Teror & Gran Canarias Bergdörfer": {
+    "lat": 28.05976,
+    "lon": -15.55338,
+    "km": 12.4,
+    "q": "Teror Gran Canaria"
+   },
+   "Cueva Pintada in Gáldar": {
+    "lat": 28.14402,
+    "lon": -15.65508,
+    "km": 21.2,
+    "q": "Cueva Pintada Museum Gáldar"
+   },
+   "Agaete, Dedo de Dios & Puerto de las Nieves": {
+    "lat": 28.10014,
+    "lon": -15.71303,
+    "km": 19,
+    "q": "Puerto de las Nieves Agaete"
+   },
+   "Tejeda & Artenara – Höhlenhäuser im Gebirge": {
+    "lat": 27.98153,
+    "lon": -15.59779,
+    "km": 2.7,
+    "q": "Tejeda Gran Canaria"
+   },
+   "Fataga-Tal & Arteara": {
+    "lat": 27.8872,
+    "lon": -15.56384,
+    "km": 8.9,
+    "q": "Fataga Gran Canaria"
+   },
+   "Playa de Amadores & Strände im Süden": {
+    "lat": 27.78992,
+    "lon": -15.72383,
+    "km": 22,
+    "q": "Playa de Amadores"
+   },
+   "Papas arrugadas & Mojo – kanarische Küche": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 27.958,
+   "lon": -15.60623
+  }
+ },
+ "hamburg": {
+  "spots": {
+   "Fischmarkt am Sonntagmorgen": {
+    "miss": true
+   },
+   "HADAG-Fähre ab Landungsbrücken": {
+    "miss": true
+   },
+   "Elbphilharmonie Plaza": {
+    "miss": true
+   },
+   "St. Michaelis (Michel) & Turmaussicht": {
+    "lat": 53.54843,
+    "lon": 9.97889,
+    "km": 1.5,
+    "q": "St. Michaelis Hamburg"
+   },
+   "Reeperbahn, St. Pauli & Beatles-Platz": {
+    "lat": 53.54964,
+    "lon": 9.95745,
+    "km": 2.9,
+    "q": "Reeperbahn Hamburg"
+   },
+   "Alster, Jungfernstieg & Rathaus": {
+    "lat": 53.5521,
+    "lon": 9.9934,
+    "km": 0.6,
+    "q": "Jungfernstieg Hamburg"
+   },
+   "Speicherstadt": {
+    "lat": 53.54401,
+    "lon": 9.98698,
+    "km": 1.2,
+    "q": "Speicherstadt"
+   },
+   "Alter Elbtunnel – zu Fuß unter der Elbe": {
+    "lat": 53.54587,
+    "lon": 9.9666,
+    "km": 2.3,
+    "q": "Alter Elbtunnel Hamburg"
+   },
+   "Blankenese – Treppenviertel & Elbstrand": {
+    "lat": 53.55732,
+    "lon": 9.80802,
+    "km": 12.8,
+    "q": "Blankenese Treppenviertel"
+   },
+   "Planten un Blomen & Wasserlichtkonzerte": {
+    "lat": 53.56196,
+    "lon": 9.98133,
+    "km": 1.9,
+    "q": "Planten un Blomen Hamburg"
+   },
+   "Miniatur Wunderland": {
+    "lat": 53.54382,
+    "lon": 9.98894,
+    "km": 1.1,
+    "q": "Miniatur Wunderland Hamburg"
+   },
+   "Hamburger Küche: Fischbrötchen, Labskaus & Franzbrötchen": {
+    "lat": 53.54608,
+    "lon": 9.97069,
+    "km": 2.1,
+    "q": "Fischbrötchen Hamburg Landungsbrücken"
+   }
+  },
+  "center": {
+   "lat": 53.55017,
+   "lon": 10.00132
+  }
+ },
+ "hanoi": {
+  "spots": {
+   "Hoan-Kiem-See am Morgen": {
+    "miss": true
+   },
+   "Eierkaffee im Café Giảng": {
+    "lat": 21.03361,
+    "lon": 105.85462,
+    "km": 0.6,
+    "q": "Cafe Giảng Hanoi"
+   },
+   "Bún chả in Hương Liên": {
+    "miss": true
+   },
+   "Altstadt der 36 Gassen": {
+    "lat": 21.03532,
+    "lon": 105.85004,
+    "km": 0.9,
+    "q": "Hanoi Old Quarter"
+   },
+   "Literaturtempel (Văn Miếu)": {
+    "lat": 21.02879,
+    "lon": 105.83595,
+    "km": 1.9,
+    "q": "Temple of Literature Hanoi"
+   },
+   "Hỏa-Lò-Gefängnis": {
+    "lat": 21.02542,
+    "lon": 105.84651,
+    "km": 0.8,
+    "q": "Hoa Lo Prison Hanoi"
+   },
+   "Wasserpuppentheater": {
+    "lat": 21.0317,
+    "lon": 105.85345,
+    "km": 0.4,
+    "q": "Thang Long Water Puppet Theatre"
+   },
+   "Pho um 6 Uhr auf dem Plastikstuhl": {
+    "miss": true
+   },
+   "Bia Hơi in der Altstadt": {
+    "miss": true
+   },
+   "Train Street": {
+    "lat": 21.02958,
+    "lon": 105.84332,
+    "km": 1.1,
+    "q": "Hanoi Train Street"
+   },
+   "Dong-Xuan-Markt & Nachtmarkt": {
+    "lat": 21.03826,
+    "lon": 105.84967,
+    "km": 1.2,
+    "q": "Dong Xuan Market Hanoi"
+   },
+   "Tay Ho (West Lake) & Tran-Quoc-Pagode": {
+    "lat": 21.04788,
+    "lon": 105.83684,
+    "km": 2.8,
+    "q": "Tran Quoc Pagoda Hanoi"
+   },
+   "Straßenküche: Bún chả, Phở, Bánh mì & Co.": {
+    "lat": 21.09651,
+    "lon": 105.85291,
+    "km": 7.6,
+    "q": "Street food, Hanoi"
+   },
+   "Tagesausflug: Ha Long Bay oder Ninh Binh": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 21.02833,
+   "lon": 105.85404
+  }
+ },
+ "hoi-an": {
+  "spots": {
+   "Laternen bei Vollmond": {
+    "miss": true
+   },
+   "Japanische Brücke": {
+    "miss": true
+   },
+   "Bánh mì Phượng": {
+    "lat": 15.87848,
+    "lon": 108.33201,
+    "km": 0.1,
+    "q": "Banh Mi Phuong Hoi An"
+   },
+   "Cao Lầu": {
+    "lat": 15.8784,
+    "lon": 108.32814,
+    "km": 0.4,
+    "q": "Cao Lầu"
+   },
+   "Altstadt-Gassen, Versammlungshallen & Tan-Ky-Haus": {
+    "lat": 15.87795,
+    "lon": 108.32399,
+    "km": 0.9,
+    "q": "Hoi An Ancient Town"
+   },
+   "Maßschneider in Hoi An": {
+    "lat": 16.0199,
+    "lon": 108.22654,
+    "km": 19.2,
+    "q": "Tailor Hoi An"
+   },
+   "An Bang Beach": {
+    "lat": 15.91166,
+    "lon": 108.34032,
+    "km": 3.7,
+    "q": "An Bang Beach Hoi An"
+   },
+   "White Rose, Mì Quảng & mehr: Essen in Hoi An": {
+    "lat": 15.88296,
+    "lon": 108.32501,
+    "km": 0.8,
+    "q": "White Rose restaurant Hoi An"
+   },
+   "Trà Quế – Gemüsedorf & Kochkurs": {
+    "lat": 15.90218,
+    "lon": 108.33773,
+    "km": 2.6,
+    "q": "Tra Que Vegetable Village"
+   },
+   "Cẩm Thanh – Kokoswald & Korbboote": {
+    "lat": 15.88952,
+    "lon": 108.36181,
+    "km": 3.4,
+    "q": "Cẩm Thanh, Hoi An"
+   },
+   "My Son – Cham-Tempel": {
+    "lat": 15.98947,
+    "lon": 108.24993,
+    "km": 15,
+    "q": "My Son, Hoi An"
+   }
+  },
+  "center": {
+   "lat": 15.87959,
+   "lon": 108.33194
+  }
+ },
+ "kopenhagen": {
+  "spots": {
+   "Nyhavn": {
+    "lat": 55.67974,
+    "lon": 12.59089,
+    "km": 1.5,
+    "q": "Nyhavn Copenhagen"
+   },
+   "Erlöserkirche (Vor Frelsers Kirke)": {
+    "lat": 55.67291,
+    "lon": 12.59425,
+    "km": 2.2,
+    "q": "Church of Our Saviour Copenhagen"
+   },
+   "Torvehallerne": {
+    "lat": 55.68387,
+    "lon": 12.56955,
+    "km": 0.3,
+    "q": "Torvehallerne Copenhagen"
+   },
+   "Tivoli Gardens": {
+    "lat": 55.67342,
+    "lon": 12.56918,
+    "km": 1.5,
+    "q": "Tivoli Gardens Copenhagen"
+   },
+   "Die Kleine Meerjungfrau & Kastellet": {
+    "lat": 55.69287,
+    "lon": 12.59929,
+    "km": 2,
+    "q": "Little Mermaid Copenhagen"
+   },
+   "Rundetårn & Schloss Rosenborg": {
+    "lat": 55.68136,
+    "lon": 12.57579,
+    "km": 0.7,
+    "q": "Rundetaarn Copenhagen"
+   },
+   "Hafenbad Islands Brygge": {
+    "lat": 55.66852,
+    "lon": 12.57751,
+    "km": 2.1,
+    "q": "Havnebadet Islands Brygge"
+   },
+   "CopenHill": {
+    "lat": 55.68487,
+    "lon": 12.6211,
+    "km": 3.2,
+    "q": "CopenHill Copenhagen"
+   },
+   "Reffen – Streetfood am Wasser": {
+    "lat": 55.69357,
+    "lon": 12.60897,
+    "km": 2.6,
+    "q": "Reffen Copenhagen Street Food"
+   },
+   "Christiania": {
+    "lat": 55.67721,
+    "lon": 12.61045,
+    "km": 2.7,
+    "q": "Freetown Christiania"
+   },
+   "Bakken": {
+    "lat": 55.7757,
+    "lon": 12.57526,
+    "km": 9.9,
+    "q": "Dyrehavsbakken"
+   },
+   "Tagesausflug: Louisiana-Museum & Schloss Kronborg": {
+    "lat": 55.96935,
+    "lon": 12.54316,
+    "km": 31.5,
+    "q": "Louisiana Museum Humlebaek"
+   },
+   "Smørrebrød, Zimtschnecken & Pølser": {
+    "lat": 55.69251,
+    "lon": 12.5017,
+    "km": 4.3,
+    "q": "Smørrebrød Copenhagen"
+   }
+  },
+  "center": {
+   "lat": 55.68672,
+   "lon": 12.57007
+  }
+ },
+ "koper": {
+  "spots": {
+   "Titov trg": {
+    "lat": 45.54815,
+    "lon": 13.72958,
+    "km": 0.1,
+    "q": "Titov trg Koper"
+   },
+   "Praetorianerpalast": {
+    "lat": 45.54791,
+    "lon": 13.72958,
+    "km": 0.1,
+    "q": "Praetorian Palace Koper"
+   },
+   "Glockenturm der Kathedrale": {
+    "lat": 45.54817,
+    "lon": 13.72983,
+    "km": 0.1,
+    "q": "Bell Tower Koper"
+   },
+   "Stadtstrand & Hafenpromenade": {
+    "miss": true
+   },
+   "Kathedrale des heiligen Nazarius": {
+    "lat": 45.54827,
+    "lon": 13.73031,
+    "km": 0,
+    "q": "Koper Cathedral"
+   },
+   "Altstadtgassen & Muda-Tor": {
+    "miss": true
+   },
+   "Markt & istrische Küche": {
+    "lat": 45.55018,
+    "lon": 13.73015,
+    "km": 0.2,
+    "q": "Koper market"
+   },
+   "Piran – Tartini-Platz": {
+    "lat": 45.52853,
+    "lon": 13.56842,
+    "km": 12.8,
+    "q": "Tartinijev trg Piran"
+   },
+   "Izola": {
+    "lat": 45.54814,
+    "lon": 13.69097,
+    "km": 3.1,
+    "q": "Izola, Koper"
+   },
+   "Naturreservat Strunjan": {
+    "lat": 45.53387,
+    "lon": 13.61679,
+    "km": 9,
+    "q": "Nature Reserve Strunjan"
+   },
+   "Parenzana-Radweg": {
+    "miss": true
+   },
+   "Salinen von Sečovlje": {
+    "miss": true
+   },
+   "Tagesausflug nach Triest": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 45.54799,
+   "lon": 13.73048
+  }
+ },
+ "krabi": {
+  "spots": {
+   "Kajak zwischen Kalkfelsen": {
+    "miss": true
+   },
+   "Railay Beach": {
+    "lat": 8.01141,
+    "lon": 98.83653,
+    "km": 32.1,
+    "q": "Railay Beach Krabi"
+   },
+   "Muay Thai im Boxstadion Ao Nang": {
+    "lat": 8.04616,
+    "lon": 98.81331,
+    "km": 33.4,
+    "q": "Ao Nang Krabi Stadium Muay Thai"
+   },
+   "Phra Nang Beach & Höhle": {
+    "lat": 8.00594,
+    "lon": 98.83766,
+    "km": 32.2,
+    "q": "Phra Nang Beach Krabi"
+   },
+   "Ao Nang & Nachtmarkt": {
+    "lat": 8.04303,
+    "lon": 98.81204,
+    "km": 33.6,
+    "q": "Ao Nang Night Market"
+   },
+   "Vier-Inseln-Tour (4 Islands)": {
+    "miss": true
+   },
+   "Heiße Quellen im Wald": {
+    "lat": 7.90461,
+    "lon": 99.10839,
+    "km": 23,
+    "q": "Saline Hot Spring Khlong Thom"
+   },
+   "Höhle mit Stirnlampe": {
+    "miss": true
+   },
+   "Café auf dem Hügel": {
+    "miss": true
+   },
+   "Tiger Cave Temple": {
+    "lat": 8.12515,
+    "lon": 98.92591,
+    "km": 20.3,
+    "q": "Wat Tham Suea Krabi"
+   },
+   "Emerald Pool & Blue Pool": {
+    "lat": 7.9251,
+    "lon": 99.26819,
+    "km": 27.1,
+    "q": "Emerald Pool Krabi"
+   },
+   "Hong-Inseln": {
+    "miss": true
+   },
+   "Thai-Massage & Kochkurs": {
+    "lat": 8.01762,
+    "lon": 98.83404,
+    "km": 32.1,
+    "q": "Thai massage, Krabi"
+   }
+  },
+  "center": {
+   "lat": 8.11117,
+   "lon": 99.10973
+  }
+ },
+ "kyoto": {
+  "spots": {
+   "Fushimi Inari Taisha": {
+    "lat": 34.96752,
+    "lon": 135.77971,
+    "km": 5,
+    "q": "Fushimi Inari Taisha Kyoto"
+   },
+   "Higashiyama": {
+    "lat": 34.99709,
+    "lon": 135.77646,
+    "km": 1.8,
+    "q": "Higashiyama"
+   },
+   "Kiyomizu-dera": {
+    "lat": 34.9943,
+    "lon": 135.78444,
+    "km": 2.4,
+    "q": "Kiyomizu-dera Kyoto"
+   },
+   "Gion & Hanamikōji": {
+    "lat": 35.00469,
+    "lon": 135.7784,
+    "km": 1.2,
+    "q": "Gion, Kyoto"
+   },
+   "Arashiyama – Bambushain & Tenryū-ji": {
+    "lat": 35.01674,
+    "lon": 135.67115,
+    "km": 8.9,
+    "q": "Arashiyama Bamboo Grove"
+   },
+   "Kinkaku-ji – der Goldene Pavillon": {
+    "lat": 35.03953,
+    "lon": 135.72954,
+    "km": 4.7,
+    "q": "Kinkaku-ji Kyoto"
+   },
+   "Philosophenweg & Ginkaku-ji": {
+    "lat": 35.01717,
+    "lon": 135.79607,
+    "km": 2.6,
+    "q": "Philosophenweg, Kyoto"
+   },
+   "Nishiki-Markt – Kyotos Küche": {
+    "lat": 35.00502,
+    "lon": 135.76557,
+    "km": 0.8,
+    "q": "Nishiki Market Kyoto"
+   },
+   "Tempel der 1.200 Steinfiguren (Otagi Nenbutsu-ji)": {
+    "lat": 35.03116,
+    "lon": 135.66123,
+    "km": 10,
+    "q": "Otagi Nenbutsu-ji Kyoto"
+   },
+   "Nijō-jō – Nachtigallenboden": {
+    "lat": 35.01401,
+    "lon": 135.74854,
+    "km": 1.8,
+    "q": "Nijo Castle Kyoto"
+   },
+   "Kurama–Kibune – Bergwanderung": {
+    "lat": 35.12259,
+    "lon": 135.76425,
+    "km": 12.3,
+    "q": "Kurama–Kibune, Kyoto"
+   },
+   "Ōhara & Sanzen-in": {
+    "lat": 35.11964,
+    "lon": 135.83492,
+    "km": 13.5,
+    "q": "Sanzen-in Ohara Kyoto"
+   }
+  },
+  "center": {
+   "lat": 35.01158,
+   "lon": 135.76814
+  }
+ },
+ "ljubljana": {
+  "spots": {
+   "Zentralmarkt & Plečnik-Arkaden": {
+    "miss": true
+   },
+   "Drachenbrücke & Drei Brücken": {
+    "lat": 46.05113,
+    "lon": 14.50621,
+    "km": 0.1,
+    "q": "Triple Bridge Ljubljana"
+   },
+   "Burg Ljubljana": {
+    "lat": 46.04878,
+    "lon": 14.50854,
+    "km": 0.2,
+    "q": "Ljubljana Castle"
+   },
+   "Café im Nebotičnik": {
+    "lat": 46.05316,
+    "lon": 14.50359,
+    "km": 0.4,
+    "q": "Nebotičnik Ljubljana"
+   },
+   "Prešeren-Platz & Altstadt": {
+    "miss": true
+   },
+   "Kathedrale & Rathaus": {
+    "lat": 46.05076,
+    "lon": 14.50825,
+    "km": 0.1,
+    "q": "Ljubljana Cathedral"
+   },
+   "Tivoli-Park & Rožnik": {
+    "lat": 46.05515,
+    "lon": 14.49573,
+    "km": 1,
+    "q": "Tivoli Park Ljubljana"
+   },
+   "Slowenische Küche: Kranjska klobasa, Štruklji & Kremšnita": {
+    "miss": true
+   },
+   "Metelkova": {
+    "lat": 46.05691,
+    "lon": 14.51693,
+    "km": 1.1,
+    "q": "Metelkova, Ljubljana"
+   },
+   "Mittags am Fluss": {
+    "miss": true
+   },
+   "Plečnik-Haus & Nationalbibliothek": {
+    "lat": 46.04236,
+    "lon": 14.50213,
+    "km": 0.9,
+    "q": "Plečnik House Ljubljana"
+   },
+   "Tagesausflug: Postojna-Höhle & Predjama": {
+    "lat": 45.78271,
+    "lon": 14.20386,
+    "km": 37.9,
+    "q": "Postojna Cave"
+   },
+   "Tagesausflug: Škocjan-Höhlen & Piran": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 46.05003,
+   "lon": 14.50693
+  }
+ },
+ "luebeck": {
+  "spots": {
+   "Holstentor": {
+    "lat": 53.86627,
+    "lon": 10.67968,
+    "km": 0.3,
+    "q": "Holstentor"
+   },
+   "Niederegger – Marzipan": {
+    "lat": 53.86655,
+    "lon": 10.68577,
+    "km": 0.1,
+    "q": "Niederegger, Lübeck"
+   },
+   "Marienkirche": {
+    "lat": 53.86777,
+    "lon": 10.6851,
+    "km": 0.2,
+    "q": "Marienkirche Lübeck"
+   },
+   "Rathaus am Markt": {
+    "lat": 53.86713,
+    "lon": 10.68546,
+    "km": 0.1,
+    "q": "Rathaus Lübeck"
+   },
+   "Europäisches Hansemuseum": {
+    "lat": 53.8739,
+    "lon": 10.68953,
+    "km": 0.9,
+    "q": "Europäisches Hansemuseum Lübeck"
+   },
+   "Buddenbrookhaus & Literatur": {
+    "lat": 53.86835,
+    "lon": 10.68579,
+    "km": 0.2,
+    "q": "Buddenbrookhaus Lübeck"
+   },
+   "Versteckte Gänge und Höfe": {
+    "miss": true
+   },
+   "Schiffergesellschaft – das Haus von 1535": {
+    "lat": 53.87117,
+    "lon": 10.68809,
+    "km": 0.6,
+    "q": "Schiffergesellschaft Lübeck"
+   },
+   "Salzspeicher & Hafenufer an der Trave": {
+    "lat": 53.86586,
+    "lon": 10.6802,
+    "km": 0.3,
+    "q": "Salzspeicher Lübeck"
+   },
+   "Heiligen-Geist-Hospital": {
+    "lat": 53.87138,
+    "lon": 10.68991,
+    "km": 0.6,
+    "q": "Heiligen-Geist-Hospital Lübeck"
+   },
+   "Travemünde – Ostsee-Strand": {
+    "lat": 53.96487,
+    "lon": 10.87596,
+    "km": 16.6,
+    "q": "Travemünde Strand"
+   }
+  },
+  "center": {
+   "lat": 53.86644,
+   "lon": 10.68474
+  }
+ },
+ "luxemburg": {
+  "spots": {
+   "Pont Adolphe": {
+    "lat": 49.60846,
+    "lon": 6.12692,
+    "km": 4.6,
+    "q": "Pont Adolphe Luxembourg"
+   },
+   "Der Grund": {
+    "lat": 49.61028,
+    "lon": 6.1359,
+    "km": 5.3,
+    "q": "Grund Luxembourg"
+   },
+   "Bock-Kasematten": {
+    "lat": 49.61166,
+    "lon": 6.13669,
+    "km": 5.4,
+    "q": "Casemates du Bock"
+   },
+   "Place d’Armes & Großherzoglicher Palast": {
+    "lat": 49.61124,
+    "lon": 6.12954,
+    "km": 4.9,
+    "q": "Place d'Armes Luxembourg"
+   },
+   "Kathedrale Notre-Dame": {
+    "lat": 49.60981,
+    "lon": 6.13156,
+    "km": 5,
+    "q": "Notre-Dame Cathedral Luxembourg"
+   },
+   "Pétrusse-Tal & Spazierwege": {
+    "miss": true
+   },
+   "Corniche – schönster Balkon Europas": {
+    "lat": 49.61077,
+    "lon": 6.13474,
+    "km": 5.2,
+    "q": "Chemin de la Corniche Luxembourg"
+   },
+   "Panoramalift Pfaffenthal": {
+    "lat": 49.61559,
+    "lon": 6.13065,
+    "km": 5.1,
+    "q": "Ascenseur Panoramique du Pfaffenthal"
+   },
+   "Beleuchteter Palast am Abend": {
+    "lat": 49.61094,
+    "lon": 6.13287,
+    "km": 5.1,
+    "q": "Grand Ducal Palace Luxembourg"
+   },
+   "Mudam": {
+    "lat": 49.61686,
+    "lon": 6.14028,
+    "km": 5.8,
+    "q": "Mudam Luxembourg"
+   },
+   "Mullerthal – Kleine Luxemburger Schweiz": {
+    "lat": 49.79027,
+    "lon": 6.30711,
+    "km": 27.4,
+    "q": "Mullerthal Luxembourg"
+   },
+   "Burg Vianden": {
+    "lat": 49.91295,
+    "lon": 6.13761,
+    "km": 35.1,
+    "q": "Vianden Castle"
+   },
+   "Luxemburger Küche: Judd mat Gaardebounen & Bouneschlupp": {
+    "lat": 49.49654,
+    "lon": 5.97583,
+    "km": 13.2,
+    "q": "Luxembourg cuisine"
+   }
+  },
+  "center": {
+   "lat": 49.60105,
+   "lon": 6.06399
+  }
+ },
+ "mallorca": {
+  "spots": {
+   "Cala Màrmols": {
+    "lat": 39.28889,
+    "lon": 3.08981,
+    "km": 40.2,
+    "q": "Cala Màrmols Santanyí"
+   },
+   "Cala s'Almunia": {
+    "lat": 39.32096,
+    "lon": 3.12642,
+    "km": 38.7,
+    "q": "Cala s'Almunia Santanyí"
+   },
+   "Es Pontàs": {
+    "lat": 39.46581,
+    "lon": 3.27777,
+    "km": 37.6,
+    "q": "Es Pontàs, Mallorca"
+   },
+   "Es Trenc – der lange, wilde Strand": {
+    "lat": 39.34045,
+    "lon": 2.99511,
+    "km": 31.8,
+    "q": "Es Trenc"
+   },
+   "La Seu – die Kathedrale von Palma": {
+    "lat": 39.56747,
+    "lon": 2.64817,
+    "km": 20.8,
+    "q": "Catedral de Mallorca"
+   },
+   "Paella-Kochkurs bei Moltak": {
+    "miss": true
+   },
+   "Palma: Almudaina-Palast, Altstadt-Gassen & Markthallen": {
+    "lat": 39.57387,
+    "lon": 2.6535,
+    "km": 20.1,
+    "q": "Mercat de l'Olivar Palma"
+   },
+   "Castell de Bellver": {
+    "lat": 39.56386,
+    "lon": 2.61878,
+    "km": 23.3,
+    "q": "Castell de Bellver Palma"
+   },
+   "Valldemossa": {
+    "lat": 39.64806,
+    "lon": 2.65503,
+    "km": 19.9,
+    "q": "Valldemossa Mallorca"
+   },
+   "Sóller & der historische Zug": {
+    "lat": 39.79948,
+    "lon": 2.69962,
+    "km": 26,
+    "q": "Sóller, Mallorca"
+   },
+   "Serra de Tramuntana & GR 221": {
+    "lat": 39.51909,
+    "lon": 2.53427,
+    "km": 31.7,
+    "q": "Serra de Tramuntana Mallorca"
+   },
+   "Sa Calobra & Torrent de Pareis": {
+    "lat": 39.85226,
+    "lon": 2.80572,
+    "km": 27.4,
+    "q": "Sa Calobra Torrent de Pareis"
+   },
+   "Deià & Cala Deià": {
+    "lat": 39.52535,
+    "lon": 2.73885,
+    "km": 15.8,
+    "q": "Deià Mallorca"
+   },
+   "Cap de Formentor": {
+    "lat": 39.6022,
+    "lon": 2.61739,
+    "km": 22.8,
+    "q": "Cap de Formentor Mallorca"
+   },
+   "Qanat de Treurer": {
+    "lat": 39.53818,
+    "lon": 2.91124,
+    "km": 8.7,
+    "q": "Restaurant Qanat de Treurer Algaida"
+   },
+   "Mittwochsmarkt in Vilafranca de Bonany": {
+    "lat": 39.57031,
+    "lon": 3.089,
+    "km": 18.3,
+    "q": "Vilafranca de Bonany Mallorca"
+   }
+  },
+  "center": {
+   "lat": 39.61343,
+   "lon": 2.88292
+  }
+ },
+ "marrakesch": {
+  "spots": {
+   "Riad mit Pool": {
+    "miss": true
+   },
+   "Djemaa el-Fna": {
+    "lat": 31.62583,
+    "lon": -7.98892,
+    "km": 0,
+    "q": "Djemaa el-Fna"
+   },
+   "Jardin Majorelle": {
+    "lat": 31.64147,
+    "lon": -8.00291,
+    "km": 2.2,
+    "q": "Jardin Majorelle Marrakech"
+   },
+   "Bahia-Palast": {
+    "lat": 31.62163,
+    "lon": -7.98194,
+    "km": 0.8,
+    "q": "Bahia Palace Marrakech"
+   },
+   "Saadier-Gräber": {
+    "lat": 31.61726,
+    "lon": -7.98855,
+    "km": 1,
+    "q": "Saadian Tombs Marrakech"
+   },
+   "Koutoubia-Moschee": {
+    "lat": 31.62375,
+    "lon": -7.99336,
+    "km": 0.5,
+    "q": "Koutoubia Mosque"
+   },
+   "Hammam erleben": {
+    "lat": 31.62663,
+    "lon": -7.9738,
+    "km": 1.5,
+    "q": "Hammam Marrakech"
+   },
+   "Souks ohne Plan": {
+    "miss": true
+   },
+   "Le Jardin Secret & stille Medina-Gärten": {
+    "lat": 31.63087,
+    "lon": -7.99005,
+    "km": 0.6,
+    "q": "Le Jardin Secret Marrakech"
+   },
+   "Menara-Gärten": {
+    "lat": 31.61411,
+    "lon": -8.01917,
+    "km": 3.1,
+    "q": "Menara Gardens Marrakech"
+   },
+   "Gerberviertel & Handwerksgassen": {
+    "lat": 31.63371,
+    "lon": -7.97887,
+    "km": 1.3,
+    "q": "Tanneries Marrakech"
+   },
+   "Tagesausflug: Atlasgebirge, Ourika-Tal & Essaouira": {
+    "lat": 31.19641,
+    "lon": -7.78006,
+    "km": 51.7,
+    "q": "Ourika Valley Marrakech"
+   },
+   "Tajine, Couscous & Minztee": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 31.62583,
+   "lon": -7.98916
+  }
+ },
+ "new-york": {
+  "spots": {
+   "Brooklyn Bridge am Morgen": {
+    "miss": true
+   },
+   "The High Line": {
+    "lat": 40.74715,
+    "lon": -74.00527,
+    "km": 3.8,
+    "q": "High Line New York"
+   },
+   "Chelsea Market": {
+    "lat": 40.74205,
+    "lon": -74.0049,
+    "km": 3.3,
+    "q": "Chelsea Market New York"
+   },
+   "Staten Island Ferry": {
+    "lat": 40.6442,
+    "lon": -74.07285,
+    "km": 9.5,
+    "q": "Staten Island Ferry"
+   },
+   "Central Park": {
+    "lat": 40.78277,
+    "lon": -73.96536,
+    "km": 8.5,
+    "q": "Central Park New York"
+   },
+   "Aussicht: Top of the Rock, Empire State & Summit": {
+    "lat": 40.75903,
+    "lon": -73.9794,
+    "km": 5.6,
+    "q": "Top of the Rock New York"
+   },
+   "Times Square & Broadway": {
+    "lat": 40.75701,
+    "lon": -73.98597,
+    "km": 5.2,
+    "q": "Times Square New York"
+   },
+   "Metropolitan Museum of Art": {
+    "lat": 40.77944,
+    "lon": -73.96338,
+    "km": 8.2,
+    "q": "Metropolitan Museum of Art"
+   },
+   "Flüstergalerie in der Grand Central": {
+    "miss": true
+   },
+   "Geisterstation unter dem Rathaus": {
+    "lat": 40.71216,
+    "lon": -74.00702,
+    "km": 0.1,
+    "q": "City Hall Subway Station"
+   },
+   "Speakeasy in der Telefonzelle": {
+    "miss": true
+   },
+   "Roosevelt Island Tramway": {
+    "lat": 40.75922,
+    "lon": -73.9592,
+    "km": 6.5,
+    "q": "Roosevelt Island Tramway"
+   },
+   "DUMBO & Brooklyn Bridge Park": {
+    "lat": 40.70291,
+    "lon": -73.99012,
+    "km": 1.7,
+    "q": "DUMBO Brooklyn"
+   },
+   "Greenwich Village & Washington Square": {
+    "lat": 40.7309,
+    "lon": -73.9976,
+    "km": 2.1,
+    "q": "Washington Square Park"
+   },
+   "New Yorker Klassiker: Bagel, Pizza-Slice & Deli": {
+    "lat": 40.69902,
+    "lon": -73.91465,
+    "km": 7.9,
+    "q": "Pizza slice New York"
+   }
+  },
+  "center": {
+   "lat": 40.71273,
+   "lon": -74.00602
+  }
+ },
+ "nijmegen": {
+  "spots": {
+   "Waalkade": {
+    "lat": 51.84992,
+    "lon": 5.86251,
+    "km": 1.8,
+    "q": "Waalkade Nijmegen"
+   },
+   "Valkhofpark": {
+    "lat": 51.84779,
+    "lon": 5.87026,
+    "km": 2.2,
+    "q": "Valkhof Park Nijmegen"
+   },
+   "Museum Het Valkhof": {
+    "lat": 51.8466,
+    "lon": 5.87139,
+    "km": 2.3,
+    "q": "Museum Het Valkhof Nijmegen"
+   },
+   "Waalbrücke & „De Oversteek“ – die Flussüberquerung 1944": {
+    "lat": 51.85151,
+    "lon": 5.87119,
+    "km": 2.4,
+    "q": "Waalbrug Nijmegen"
+   },
+   "Grote Markt, Stevenskerk & Waag": {
+    "lat": 51.84737,
+    "lon": 5.86419,
+    "km": 1.8,
+    "q": "Grote Markt Nijmegen"
+   },
+   "Altstadt-Gassen: Lange Hezelstraat & Hoogstraat": {
+    "lat": 51.84812,
+    "lon": 5.85894,
+    "km": 1.5,
+    "q": "Lange Hezelstraat Nijmegen"
+   },
+   "Vierdaagse & Via Gladiola": {
+    "lat": 51.84142,
+    "lon": 5.86748,
+    "km": 2,
+    "q": "Vierdaagse Nijmegen"
+   },
+   "Kronenburgerpark & Kruittoren": {
+    "lat": 51.84637,
+    "lon": 5.85749,
+    "km": 1.3,
+    "q": "Kronenburgerpark Nijmegen"
+   },
+   "Ooijpolder – Radtour am Fluss": {
+    "lat": 51.84637,
+    "lon": 5.87801,
+    "km": 2.7,
+    "q": "Ooijpolder Nijmegen"
+   },
+   "Bevrijdingsmuseum & Kriegsfriedhof Groesbeek": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 51.84257,
+   "lon": 5.83896
+  }
+ },
+ "osaka": {
+  "spots": {
+   "Dotonbori": {
+    "lat": 34.66903,
+    "lon": 135.50157,
+    "km": 2.7,
+    "q": "Dotonbori"
+   },
+   "Kuromon-Markt": {
+    "lat": 34.66533,
+    "lon": 135.50698,
+    "km": 3.2,
+    "q": "Kuromon Market Osaka"
+   },
+   "Burg Osaka": {
+    "lat": 34.68718,
+    "lon": 135.5254,
+    "km": 2.3,
+    "q": "Osaka Castle"
+   },
+   "Shinsekai & Tsutenkaku-Turm": {
+    "lat": 34.65209,
+    "lon": 135.50619,
+    "km": 4.7,
+    "q": "Shinsekai Osaka"
+   },
+   "Umeda Sky Building & Floating Garden": {
+    "lat": 34.70529,
+    "lon": 135.49053,
+    "km": 1.6,
+    "q": "Umeda Sky Building"
+   },
+   "Shinsaibashi & Amerikamura": {
+    "lat": 34.67452,
+    "lon": 135.50036,
+    "km": 2.1,
+    "q": "Shinsaibashi Osaka"
+   },
+   "Hōzenji Yokochō – die Gasse hinter Dotonbori": {
+    "lat": 34.66797,
+    "lon": 135.50332,
+    "km": 2.9,
+    "q": "Hozenji Yokocho Osaka"
+   },
+   "Nakazakichō – Retro-Cafés in alten Häusern": {
+    "lat": 34.70721,
+    "lon": 135.50564,
+    "km": 1.5,
+    "q": "Nakazakicho Osaka"
+   },
+   "Namba-Yasaka-Schrein – der Löwenkopf": {
+    "lat": 34.66148,
+    "lon": 135.49673,
+    "km": 3.6,
+    "q": "Namba Yasaka Shrine"
+   },
+   "Nara – Tempel & zahme Hirsche": {
+    "lat": 34.68404,
+    "lon": 135.83996,
+    "km": 31,
+    "q": "Nara Park Todai-ji"
+   }
+  },
+  "center": {
+   "lat": 34.69376,
+   "lon": 135.50145
+  }
+ },
+ "phuket": {
+  "spots": {
+   "Big Buddha": {
+    "lat": 7.82774,
+    "lon": 98.31281,
+    "km": 12.9,
+    "q": "Phuket Big Buddha"
+   },
+   "Altstadt & chinesischer Schrein": {
+    "lat": 7.88539,
+    "lon": 98.38877,
+    "km": 6.9,
+    "q": "Old Phuket Town"
+   },
+   "Wat Chalong": {
+    "lat": 7.84626,
+    "lon": 98.33747,
+    "km": 10.2,
+    "q": "Wat Chalong Phuket"
+   },
+   "Phuket Old Town – Thalang Road & Soi Romanee": {
+    "lat": 7.88478,
+    "lon": 98.38922,
+    "km": 7,
+    "q": "Phuket Old Town, Phuket"
+   },
+   "Promthep Cape & Sonnenuntergang": {
+    "lat": 7.76432,
+    "lon": 98.3054,
+    "km": 19.9,
+    "q": "Promthep Cape"
+   },
+   "Karon, Kata & Strände im Süden": {
+    "lat": 7.81936,
+    "lon": 98.29805,
+    "km": 14.4,
+    "q": "Kata Beach Phuket"
+   },
+   "Phang-Nga-Bucht per Kanu": {
+    "lat": 8.29167,
+    "lon": 98.55277,
+    "km": 45.2,
+    "q": "Phang Nga Bay"
+   },
+   "Markt: Grillen, Seidenraupen, Durian": {
+    "lat": 7.883,
+    "lon": 98.38687,
+    "km": 7,
+    "q": "Phuket Town Market"
+   },
+   "Kata Beach am Abend": {
+    "lat": 7.81936,
+    "lon": 98.29805,
+    "km": 14.4,
+    "q": "Kata Beach Phuket"
+   },
+   "Boat-Tour: Phi-Phi-Inseln & Inselhopping": {
+    "lat": 8.09475,
+    "lon": 98.61543,
+    "km": 33.8,
+    "q": "Boat tour"
+   },
+   "Phuket Elephant Sanctuary & ethischer Tierschutz": {
+    "lat": 8.02216,
+    "lon": 98.38801,
+    "km": 10.3,
+    "q": "Phuket Elephant Sanctuary"
+   },
+   "Thai-Küche: Pad Thai, Mango Sticky Rice & Nachtmärkte": {
+    "lat": 8.04354,
+    "lon": 98.81944,
+    "km": 52.7,
+    "q": "Thai cuisine"
+   }
+  },
+  "center": {
+   "lat": 7.9366,
+   "lon": 98.35293
+  }
+ },
+ "prag": {
+  "spots": {
+   "Karlsbrücke (Karlův most)": {
+    "lat": 50.08663,
+    "lon": 14.41015,
+    "km": 0.8,
+    "q": "Charles Bridge Prague"
+   },
+   "Altstädter Ring & Astronomische Uhr (Orloj)": {
+    "lat": 50.08698,
+    "lon": 14.42071,
+    "km": 0.1,
+    "q": "Prague Astronomical Clock"
+   },
+   "Kleinseite: Nerudova, Lennon-Mauer & Kampa": {
+    "lat": 50.08624,
+    "lon": 14.40681,
+    "km": 1,
+    "q": "Lennon Wall Prague"
+   },
+   "Josefov – das Jüdische Viertel": {
+    "lat": 50.08975,
+    "lon": 14.4181,
+    "km": 0.3,
+    "q": "Jewish Quarter Josefov Prague"
+   },
+   "Petřín: Aussichtsturm, Rosengarten & Hungermauer": {
+    "lat": 50.08166,
+    "lon": 14.39493,
+    "km": 2,
+    "q": "Petřín, Prague"
+   },
+   "Tanzendes Haus (Tančící dům)": {
+    "lat": 50.07543,
+    "lon": 14.41417,
+    "km": 1.4,
+    "q": "Dancing House Prague"
+   },
+   "Vrtba-Garten (Vrtbovská zahrada)": {
+    "lat": 50.08649,
+    "lon": 14.40248,
+    "km": 1.3,
+    "q": "Vrtba Garden Prague"
+   },
+   "Wallenstein-Garten (Valdštejnská zahrada)": {
+    "lat": 50.09016,
+    "lon": 14.40643,
+    "km": 1.1,
+    "q": "Wallenstein Garden Prague"
+   },
+   "Aufstieg durch den Hirschgraben (Jelení příkop)": {
+    "lat": 50.09221,
+    "lon": 14.40279,
+    "km": 1.4,
+    "q": "Jelení příkop Praha"
+   },
+   "Prager Burg": {
+    "lat": 50.09081,
+    "lon": 14.40052,
+    "km": 1.5,
+    "q": "Prague Castle"
+   },
+   "Lucerna-Passage (Pasáž Lucerna)": {
+    "miss": true
+   },
+   "Franziskanergarten (Františkánská zahrada)": {
+    "lat": 50.08215,
+    "lon": 14.42393,
+    "km": 0.6,
+    "q": "Franciscan Garden Prague"
+   },
+   "Kubistische Laterne am Jungmannplatz": {
+    "miss": true
+   },
+   "Letná-Park & Metronom": {
+    "lat": 50.0964,
+    "lon": 14.41414,
+    "km": 1.1,
+    "q": "Letná Park, Prague"
+   },
+   "Biergarten Letenské sady": {
+    "lat": 50.09598,
+    "lon": 14.42567,
+    "km": 1,
+    "q": "Letenské sady beer garden, Prague"
+   },
+   "Žižkov-Fernsehturm": {
+    "lat": 50.08102,
+    "lon": 14.45106,
+    "km": 2.2,
+    "q": "Žižkov Television Tower Prague"
+   },
+   "Vyšehrader Friedhof und Slavín": {
+    "lat": 50.06465,
+    "lon": 14.41795,
+    "km": 2.5,
+    "q": "Vyšehrad Cemetery Prague"
+   },
+   "Festung Vyšehrad": {
+    "lat": 50.06421,
+    "lon": 14.41945,
+    "km": 2.6,
+    "q": "Vyšehrad Prague"
+   },
+   "DOX – Zentrum für zeitgenössische Kunst": {
+    "lat": 50.10679,
+    "lon": 14.44755,
+    "km": 2.9,
+    "q": "DOX, Prague"
+   },
+   "Die Černý-Skulpturen": {
+    "miss": true
+   },
+   "Café Savoy": {
+    "lat": 50.08093,
+    "lon": 14.40722,
+    "km": 1.2,
+    "q": "Café Savoy Prague"
+   },
+   "Havelská Koruna": {
+    "lat": 50.08553,
+    "lon": 14.42166,
+    "km": 0.2,
+    "q": "Havelská Koruna Prague"
+   },
+   "Manifesto Market Anděl": {
+    "lat": 50.06935,
+    "lon": 14.40413,
+    "km": 2.4,
+    "q": "Manifesto Market Anděl Prague"
+   },
+   "Kutná Hora und das Beinhaus von Sedlec": {
+    "miss": true
+   },
+   "Karlsbad (Karlovy Vary)": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 50.08747,
+   "lon": 14.42125
+  }
+ },
+ "pula": {
+  "spots": {
+   "Die Arena von Pula": {
+    "lat": 44.84745,
+    "lon": 13.8313,
+    "km": 2.8,
+    "q": "Pula Arena"
+   },
+   "Forum & Augustustempel": {
+    "lat": 44.87018,
+    "lon": 13.84184,
+    "km": 0.3,
+    "q": "Temple of Augustus Pula"
+   },
+   "Zerostrasse & Festung": {
+    "lat": 44.87032,
+    "lon": 13.84568,
+    "km": 0,
+    "q": "Zerostrasse Pula"
+   },
+   "Markthalle (Tržnica)": {
+    "lat": 44.8668,
+    "lon": 13.84958,
+    "km": 0.5,
+    "q": "City Market Pula Narodni trg"
+   },
+   "Der stille Klosterhof": {
+    "miss": true
+   },
+   "Sergier-Triumphbogen": {
+    "miss": true
+   },
+   "Verudela": {
+    "lat": 44.83735,
+    "lon": 13.83509,
+    "km": 3.7,
+    "q": "Verudela Pula"
+   },
+   "Fort Bourguignon": {
+    "lat": 44.84707,
+    "lon": 13.83352,
+    "km": 2.7,
+    "q": "Fort Bourguignon Pula"
+   },
+   "Kap Kamenjak": {
+    "lat": 44.78198,
+    "lon": 13.91151,
+    "km": 11.1,
+    "q": "Kamenjak Premantura"
+   },
+   "Brijuni-Inseln": {
+    "lat": 44.91343,
+    "lon": 13.75203,
+    "km": 8.8,
+    "q": "Brijuni National Park"
+   },
+   "Hum – die kleinste Stadt der Welt": {
+    "lat": 45.34853,
+    "lon": 14.05036,
+    "km": 55.6,
+    "q": "Hum Istria"
+   },
+   "Rovinj – Altstadt am Meer": {
+    "lat": 45.08258,
+    "lon": 13.63435,
+    "km": 28.9,
+    "q": "Rovinj Croatia"
+   }
+  },
+  "center": {
+   "lat": 44.87023,
+   "lon": 13.84553
+  }
+ },
+ "ruegen": {
+  "spots": {
+   "Kreidefelsen und Königsstuhl": {
+    "lat": 54.57305,
+    "lon": 13.66224,
+    "km": 22.2,
+    "q": "Königsstuhl Rügen"
+   },
+   "Rasender Roland nach Binz": {
+    "miss": true
+   },
+   "Hochuferweg Sassnitz – Königsstuhl": {
+    "lat": 54.54523,
+    "lon": 13.67793,
+    "km": 21.3,
+    "q": "Hochuferweg Sassnitz Königsstuhl"
+   },
+   "Binz & Bäderarchitektur": {
+    "lat": 54.40309,
+    "lon": 13.61716,
+    "km": 15.8,
+    "q": "Binz Seebrücke"
+   },
+   "Jagdschloss Granitz": {
+    "lat": 54.38059,
+    "lon": 13.62727,
+    "km": 17.4,
+    "q": "Jagdschloss Granitz"
+   },
+   "Putbus – die weiße Stadt": {
+    "lat": 54.35478,
+    "lon": 13.47354,
+    "km": 12.2,
+    "q": "Putbus Circus"
+   },
+   "Prora": {
+    "lat": 54.43269,
+    "lon": 13.57963,
+    "km": 12.6,
+    "q": "Prora"
+   },
+   "Kap Arkona & Fischerdorf Vitt": {
+    "lat": 54.67678,
+    "lon": 13.43782,
+    "km": 25.1,
+    "q": "Kap Arkona Rügen"
+   },
+   "Hiddensee – autofreie Insel": {
+    "lat": 54.5316,
+    "lon": 13.09492,
+    "km": 20.9,
+    "q": "Hiddensee"
+   },
+   "Sellin – die Seebrücke": {
+    "lat": 54.38349,
+    "lon": 13.69945,
+    "km": 21.6,
+    "q": "Seebrücke Sellin"
+   },
+   "Fischbrötchen & Sanddorn": {
+    "lat": 54.38212,
+    "lon": 13.69749,
+    "km": 21.5,
+    "q": "Fischbrötchen Rügen"
+   }
+  },
+  "center": {
+   "lat": 54.4529,
+   "lon": 13.38823
+  }
+ },
+ "saigon": {
+  "spots": {
+   "District 1": {
+    "lat": 10.77539,
+    "lon": 106.69963,
+    "km": 1.9,
+    "q": "District 1"
+   },
+   "Nguyễn Huệ am Abend": {
+    "lat": 10.77372,
+    "lon": 106.70405,
+    "km": 1.4,
+    "q": "Nguyen Hue Walking Street"
+   },
+   "Ben-Thanh-Markt (Chợ Bến Thành)": {
+    "lat": 10.77253,
+    "lon": 106.69804,
+    "km": 2,
+    "q": "Ben Thanh Market Ho Chi Minh City"
+   },
+   "Kriegsrestemuseum (War Remnants Museum)": {
+    "lat": 10.77936,
+    "lon": 106.69228,
+    "km": 2.7,
+    "q": "War Remnants Museum Ho Chi Minh City"
+   },
+   "Kathedrale Notre-Dame & Hauptpost": {
+    "lat": 10.77996,
+    "lon": 106.69999,
+    "km": 1.9,
+    "q": "Saigon Central Post Office"
+   },
+   "Wiedervereinigungspalast (Independence Palace)": {
+    "lat": 10.77703,
+    "lon": 106.69549,
+    "km": 2.3,
+    "q": "Independence Palace Ho Chi Minh City"
+   },
+   "Bitexco Financial Tower & Saigon Skydeck": {
+    "lat": 10.77186,
+    "lon": 106.70446,
+    "km": 1.3,
+    "q": "Bitexco Financial Tower, Saigon"
+   },
+   "Café-Apartments, Nguyễn Huệ 42": {
+    "miss": true
+   },
+   "Jade-Kaiser-Pagode (Chùa Ngọc Hoàng)": {
+    "lat": 10.79153,
+    "lon": 106.69769,
+    "km": 2.9,
+    "q": "Jade Emperor Pagoda Ho Chi Minh City"
+   },
+   "Cholon – Chinatown, Thiên-Hậu-Tempel & Binh-Tay-Markt": {
+    "lat": 10.75182,
+    "lon": 106.65897,
+    "km": 6.8,
+    "q": "Cholon, Saigon"
+   },
+   "Vĩnh Khánh – Straße der Meeresfrüchte (Bezirk 4)": {
+    "lat": 10.76086,
+    "lon": 106.70464,
+    "km": 1.9,
+    "q": "Vinh Khanh Street Ho Chi Minh City"
+   },
+   "Cu-Chi-Tunnel": {
+    "lat": 11.06304,
+    "lon": 106.52912,
+    "km": 38.1,
+    "q": "Cu Chi Tunnels"
+   },
+   "Mekong-Delta": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 10.77373,
+   "lon": 106.7166
+  }
+ },
+ "schwarzwald": {
+  "spots": {
+   "Schwarzwaldhochstraße & Mummelsee": {
+    "lat": 48.59652,
+    "lon": 8.20121,
+    "km": 37.1,
+    "q": "Schwarzwaldhochstraße & Mummelsee"
+   },
+   "Hornisgrinde – höchster Gipfel des Nordschwarzwalds": {
+    "lat": 48.6057,
+    "lon": 8.20212,
+    "km": 38.2,
+    "q": "Hornisgrinde"
+   },
+   "Titisee & Feldberg": {
+    "lat": 47.90143,
+    "lon": 8.18361,
+    "km": 40.3,
+    "q": "Titisee Feldberg Schwarzwald"
+   },
+   "Baden-Baden": {
+    "lat": 48.76312,
+    "lon": 8.24222,
+    "km": 55.9,
+    "q": "Baden-Baden Friedrichsbad"
+   },
+   "Triberg: Kuckucksuhren & Schwarzwälder Kirschtorte": {
+    "lat": 48.1292,
+    "lon": 8.22979,
+    "km": 15.7,
+    "q": "Triberg Schwarzwaldmuseum"
+   },
+   "Gengenbach – Fachwerkstadt": {
+    "lat": 48.40354,
+    "lon": 8.01531,
+    "km": 19.1,
+    "q": "Gengenbach"
+   },
+   "Vogtsbauernhof Freilichtmuseum (Gutach)": {
+    "lat": 48.272,
+    "lon": 8.19718,
+    "km": 2.6,
+    "q": "Vogtsbauernhof Gutach"
+   },
+   "Triberger Wasserfälle": {
+    "lat": 48.12636,
+    "lon": 8.22765,
+    "km": 15.9,
+    "q": "Triberger Wasserfälle"
+   },
+   "Ravennaschlucht & Viadukt": {
+    "lat": 47.91868,
+    "lon": 8.08024,
+    "km": 38.8,
+    "q": "Ravennaschlucht Hinterzarten"
+   },
+   "Wutachschlucht – Wildnis im Südschwarzwald": {
+    "lat": 47.86088,
+    "lon": 8.28347,
+    "km": 45.6,
+    "q": "Wutachschlucht"
+   },
+   "Baumwipfelpfad Bad Wildbad": {
+    "lat": 48.75027,
+    "lon": 8.532,
+    "km": 60.5,
+    "q": "Baumwipfelpfad Bad Wildbad"
+   }
+  },
+  "center": {
+   "lat": 48.26344,
+   "lon": 8.16475
+  }
+ },
+ "seoul": {
+  "spots": {
+   "Bukchon Hanok Village": {
+    "lat": 37.58239,
+    "lon": 126.98586,
+    "km": 1.9,
+    "q": "Bukchon Hanok Village Seoul"
+   },
+   "Gwangjang-Markt": {
+    "lat": 37.57019,
+    "lon": 126.9995,
+    "km": 1.9,
+    "q": "Gwangjang Market Seoul"
+   },
+   "N Seoul Tower am Namsan": {
+    "lat": 37.53495,
+    "lon": 126.98709,
+    "km": 3.6,
+    "q": "N Seoul Tower"
+   },
+   "Gyeongbokgung-Palast": {
+    "lat": 37.57975,
+    "lon": 126.97668,
+    "km": 1.5,
+    "q": "Gyeongbokgung Palace"
+   },
+   "Myeongdong & Kosmetik": {
+    "lat": 37.5609,
+    "lon": 126.98638,
+    "km": 1,
+    "q": "Myeongdong Seoul"
+   },
+   "Hongdae – Studentenviertel & Livemusik": {
+    "lat": 37.55792,
+    "lon": 126.92614,
+    "km": 4.7,
+    "q": "Hongdae Seoul"
+   },
+   "Insadong & Teehäuser": {
+    "lat": 37.57352,
+    "lon": 126.9856,
+    "km": 1,
+    "q": "Insadong Seoul"
+   },
+   "Dritter Tunnel an der Grenze": {
+    "miss": true
+   },
+   "Noryangjin-Fischmarkt": {
+    "lat": 37.51472,
+    "lon": 126.93774,
+    "km": 6.8,
+    "q": "Noryangjin Fisheries Wholesale Market"
+   },
+   "Ihwa-Dorf & Naksan-Park": {
+    "lat": 37.58053,
+    "lon": 127.00761,
+    "km": 3,
+    "q": "Naksan Park Seoul"
+   },
+   "Cheonggyecheon-Bach": {
+    "lat": 37.57229,
+    "lon": 127.03673,
+    "km": 5.2,
+    "q": "Cheonggyecheon Stream"
+   },
+   "Koreanische Küche: Kimchi, Bibimbap & BBQ": {
+    "lat": 37.56321,
+    "lon": 126.98542,
+    "km": 0.7,
+    "q": "Korean BBQ Seoul"
+   },
+   "Ausflug: Suwon-Festung oder Nami-Insel": {
+    "lat": 37.28763,
+    "lon": 126.9965,
+    "km": 31.1,
+    "q": "Hwaseong Fortress Suwon"
+   }
+  },
+  "center": {
+   "lat": 37.56668,
+   "lon": 126.97829
+  }
+ },
+ "sousse": {
+  "spots": {
+   "Medina und Ribat": {
+    "lat": 35.82765,
+    "lon": 10.63858,
+    "km": 0.2,
+    "q": "Ribat of Sousse"
+   },
+   "El Jem – römisches Amphitheater": {
+    "lat": 35.29641,
+    "lon": 10.70751,
+    "km": 59.5,
+    "q": "Amphitheatre of El Jem"
+   },
+   "Große Moschee von Sousse": {
+    "miss": true
+   },
+   "Archäologisches Museum in der Kasbah": {
+    "lat": 35.82316,
+    "lon": 10.63542,
+    "km": 0.8,
+    "q": "Sousse Archaeological Museum"
+   },
+   "Souks & Gassen der Medina": {
+    "lat": 35.8258,
+    "lon": 10.63906,
+    "km": 0.4,
+    "q": "Souks Sousse Medina"
+   },
+   "Katakomben des Guten Hirten": {
+    "miss": true
+   },
+   "Film-Kulissen": {
+    "miss": true
+   },
+   "Monastir – Ribat & Mausoleum": {
+    "lat": 35.77616,
+    "lon": 10.83291,
+    "km": 18.3,
+    "q": "Monastir Ribat Tunisia"
+   },
+   "Kairouan – heilige Stadt": {
+    "lat": 35.68154,
+    "lon": 10.10424,
+    "km": 51.1,
+    "q": "Great Mosque of Kairouan"
+   },
+   "Port El Kantaoui – Hafen & Promenade": {
+    "lat": 35.8937,
+    "lon": 10.59652,
+    "km": 8.2,
+    "q": "Port El Kantaoui"
+   },
+   "Tunesisch essen: Brik, Lablabi & Couscous": {
+    "lat": 35.82814,
+    "lon": 10.63944,
+    "km": 0.1,
+    "q": "Restaurant Sousse medina"
+   }
+  },
+  "center": {
+   "lat": 35.82883,
+   "lon": 10.64053
+  }
+ },
+ "strassburg": {
+  "spots": {
+   "La Petite France": {
+    "lat": 48.58136,
+    "lon": 7.74218,
+    "km": 0.7,
+    "q": "La Petite France"
+   },
+   "Barrage Vauban": {
+    "lat": 48.5796,
+    "lon": 7.738,
+    "km": 1.1,
+    "q": "Barrage Vauban Strasbourg"
+   },
+   "Kathedrale Notre-Dame de Strasbourg": {
+    "lat": 48.58189,
+    "lon": 7.75105,
+    "km": 0.3,
+    "q": "Cathédrale Notre-Dame de Strasbourg"
+   },
+   "Place Kléber, Place Gutenberg & Maison Kammerzell": {
+    "lat": 48.58197,
+    "lon": 7.74975,
+    "km": 0.3,
+    "q": "Maison Kammerzell Strasbourg"
+   },
+   "Palais Rohan & Museen": {
+    "lat": 48.58101,
+    "lon": 7.75265,
+    "km": 0.4,
+    "q": "Palais Rohan Strasbourg"
+   },
+   "Bootstour auf der Ill": {
+    "lat": 48.58017,
+    "lon": 7.75209,
+    "km": 0.5,
+    "q": "Batorama Strasbourg"
+   },
+   "Astronomische Uhr im Münster": {
+    "miss": true
+   },
+   "Neustadt – das deutsche Viertel": {
+    "lat": 48.58343,
+    "lon": 7.73882,
+    "km": 0.9,
+    "q": "Neustadt Strasbourg"
+   },
+   "Jardin des Deux Rives – Brücke nach Deutschland": {
+    "lat": 48.56762,
+    "lon": 7.80025,
+    "km": 4.1,
+    "q": "Jardin des Deux Rives Strasbourg"
+   },
+   "Winstub-Essen: Flammkuchen, Choucroute & Baeckeoffe": {
+    "lat": 48.16649,
+    "lon": 7.29863,
+    "km": 57.2,
+    "q": "Winstub food"
+   },
+   "Weihnachtsmarkt – Capitale de Noël": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 48.58461,
+   "lon": 7.75071
+  }
+ },
+ "tirana": {
+  "spots": {
+   "Bunk'Art 1": {
+    "lat": 41.35314,
+    "lon": 19.86121,
+    "km": 4.5,
+    "q": "Bunk'Art 1 Tirana"
+   },
+   "Bunk'Art 2": {
+    "lat": 41.32702,
+    "lon": 19.81955,
+    "km": 0.2,
+    "q": "Bunk'Art 2 Tirana"
+   },
+   "House of Leaves (Haus der Blätter)": {
+    "lat": 41.32647,
+    "lon": 19.81633,
+    "km": 0.3,
+    "q": "House of Leaves Museum Tirana"
+   },
+   "Betonpilze – die Mini-Bunker überall": {
+    "miss": true
+   },
+   "Blloku": {
+    "lat": 41.32133,
+    "lon": 19.81607,
+    "km": 0.8,
+    "q": "Blloku Tirana"
+   },
+   "Komiteti – Bar mit Kommunismus-Museum": {
+    "lat": 41.30992,
+    "lon": 19.79938,
+    "km": 2.6,
+    "q": "Komiteti Bar Tirana"
+   },
+   "Die Pyramide von Tirana": {
+    "lat": 41.32302,
+    "lon": 19.82159,
+    "km": 0.7,
+    "q": "Pyramid of Tirana"
+   },
+   "Dajti Ekspres (Seilbahn)": {
+    "lat": 41.35083,
+    "lon": 19.86116,
+    "km": 4.4,
+    "q": "Dajti Ekspres, Tirana"
+   },
+   "Skanderbeg-Platz, Uhrturm & Et'hem-Bey-Moschee": {
+    "lat": 41.32814,
+    "lon": 19.81843,
+    "km": 0,
+    "q": "Skanderbeg Square Tirana"
+   },
+   "Nationales Historisches Museum": {
+    "lat": 41.32943,
+    "lon": 19.81667,
+    "km": 0.2,
+    "q": "National History Museum Tirana"
+   },
+   "Pazari i Ri – der neue Basar": {
+    "lat": 41.33025,
+    "lon": 19.82435,
+    "km": 0.6,
+    "q": "Pazari i Ri Tirana"
+   },
+   "Grand Park & der künstliche See": {
+    "lat": 41.31149,
+    "lon": 19.82945,
+    "km": 2.1,
+    "q": "Grand Park of Tirana"
+   },
+   "Römisches Amphitheater von Durrës": {
+    "lat": 41.31212,
+    "lon": 19.445,
+    "km": 31.2,
+    "q": "Amphitheatre of Durrës"
+   },
+   "Die verlassene Villa auf dem Hügel": {
+    "lat": 41.31325,
+    "lon": 19.44623,
+    "km": 31.1,
+    "q": "Durrës Albania"
+   },
+   "Strand am Abend": {
+    "miss": true
+   },
+   "Krujë – Skanderbeg-Burg & Basar": {
+    "lat": 41.50704,
+    "lon": 19.79334,
+    "km": 20,
+    "q": "Kruja Castle Albania"
+   }
+  },
+  "center": {
+   "lat": 41.32838,
+   "lon": 19.81798
+  }
+ },
+ "tokio": {
+  "spots": {
+   "Meiji-Schrein": {
+    "lat": 35.67484,
+    "lon": 139.69963,
+    "km": 5.8,
+    "q": "Meiji Jingu Tokyo"
+   },
+   "Harajuku": {
+    "lat": 35.6687,
+    "lon": 139.70534,
+    "km": 5.4,
+    "q": "Harajuku"
+   },
+   "Shibuya Crossing": {
+    "lat": 35.6595,
+    "lon": 139.7005,
+    "km": 6,
+    "q": "Shibuya Scramble Crossing"
+   },
+   "Senso-ji & Asakusa": {
+    "lat": 35.7134,
+    "lon": 139.79553,
+    "km": 5,
+    "q": "Senso-ji Temple Asakusa"
+   },
+   "Shinjuku: Goldene Gasse, Omoide Yokochō & Rathaus-Aussicht": {
+    "lat": 35.69399,
+    "lon": 139.7047,
+    "km": 5.7,
+    "q": "Golden Gai Shinjuku"
+   },
+   "Tsukiji Outer Market": {
+    "lat": 35.66539,
+    "lon": 139.77047,
+    "km": 1.4,
+    "q": "Tsukiji Outer Market"
+   },
+   "Kaiserlicher Palast – Ost-Gärten": {
+    "lat": 35.6867,
+    "lon": 139.7574,
+    "km": 1.2,
+    "q": "Imperial Palace East Gardens Tokyo"
+   },
+   "Nakameguro – Kanal, Cafés & Kirschblüte": {
+    "lat": 35.64414,
+    "lon": 139.69883,
+    "km": 6.9,
+    "q": "Nakameguro, Tokyo"
+   },
+   "Shimokitazawa – Vintage und Livemusik": {
+    "lat": 35.66168,
+    "lon": 139.66633,
+    "km": 9,
+    "q": "Shimokitazawa Tokyo"
+   },
+   "Yanaka – das alte Tokio": {
+    "lat": 35.72767,
+    "lon": 139.76532,
+    "km": 5.7,
+    "q": "Yanaka Ginza Tokyo"
+   },
+   "Akihabara – Elektronik, Anime & Arcades": {
+    "lat": 35.70189,
+    "lon": 139.77437,
+    "km": 2.9,
+    "q": "Akihabara Tokyo"
+   }
+  },
+  "center": {
+   "lat": 35.67686,
+   "lon": 139.76389
+  }
+ },
+ "venlo": {
+  "spots": {
+   "Markt und Stadhuis": {
+    "miss": true
+   },
+   "Kaffee an der Maas": {
+    "miss": true
+   },
+   "Fritten mit Fritessaus": {
+    "miss": true
+   },
+   "Sint-Martinuskerk": {
+    "lat": 51.34352,
+    "lon": 6.13751,
+    "km": 5.5,
+    "q": "Sint-Martinuskerk Venlo"
+   },
+   "Limburgs Museum": {
+    "lat": 51.36673,
+    "lon": 6.1719,
+    "km": 3.2,
+    "q": "Limburgs Museum Venlo"
+   },
+   "Museum van Bommel van Dam": {
+    "lat": 51.36743,
+    "lon": 6.17131,
+    "km": 3.1,
+    "q": "Museum van Bommel van Dam Venlo"
+   },
+   "Einkaufen & Gassen: Vleesstraat und Lomstraat": {
+    "lat": 51.36875,
+    "lon": 6.16838,
+    "km": 2.9,
+    "q": "Vleesstraat Venlo"
+   },
+   "Limburger Vlaai – der Kuchen der Region": {
+    "lat": 50.82245,
+    "lon": 5.69397,
+    "km": 71,
+    "q": "Limburg vlaai"
+   },
+   "Nationalpark De Maasduinen": {
+    "lat": 51.64272,
+    "lon": 6.03985,
+    "km": 28.9,
+    "q": "De Maasduinen National Park, Venlo"
+   },
+   "Schloss und Gärten Arcen": {
+    "lat": 51.46797,
+    "lon": 6.18468,
+    "km": 8.7,
+    "q": "Kasteeltuinen Arcen"
+   },
+   "Roermond – Altstadt & Outlet": {
+    "lat": 51.19257,
+    "lon": 5.99385,
+    "km": 24.8,
+    "q": "Roermond centrum"
+   }
+  },
+  "center": {
+   "lat": 51.39245,
+   "lon": 6.15117
+  }
+ },
+ "vilnius": {
+  "spots": {
+   "Gediminas-Turm": {
+    "lat": 54.68676,
+    "lon": 25.29068,
+    "km": 0.5,
+    "q": "Gediminas Tower, Vilnius"
+   },
+   "Užupis": {
+    "lat": 54.68128,
+    "lon": 25.29938,
+    "km": 1.2,
+    "q": "Užupis"
+   },
+   "Altstadt von Vilnius": {
+    "lat": 54.68285,
+    "lon": 25.28562,
+    "km": 0.5,
+    "q": "Vilnius Old Town"
+   },
+   "Kathedrale & Domplatz": {
+    "lat": 54.68589,
+    "lon": 25.28779,
+    "km": 0.3,
+    "q": "Vilnius Cathedral"
+   },
+   "Tor der Morgenröte (Aušros Vartai)": {
+    "lat": 54.67431,
+    "lon": 25.28956,
+    "km": 1.5,
+    "q": "Gates of Dawn Vilnius"
+   },
+   "Universität Vilnius & Innenhöfe": {
+    "lat": 54.68282,
+    "lon": 25.28783,
+    "km": 0.6,
+    "q": "Vilnius University"
+   },
+   "KGB-Museum": {
+    "lat": 54.68802,
+    "lon": 25.27069,
+    "km": 0.8,
+    "q": "Museum of Occupations and Freedom Fights Vilnius"
+   },
+   "Frank-Zappa-Denkmal & Gasse der Schriftsteller": {
+    "miss": true
+   },
+   "Berg der Kreuze": {
+    "lat": 54.68674,
+    "lon": 25.29755,
+    "km": 0.9,
+    "q": "Hill of Crosses, Vilnius"
+   },
+   "Trakai – Wasserburg auf der Insel": {
+    "lat": 54.65273,
+    "lon": 24.93392,
+    "km": 22.8,
+    "q": "Trakai Island Castle"
+   },
+   "Dreikreuzehügel & Aussicht": {
+    "lat": 54.68674,
+    "lon": 25.29755,
+    "km": 0.9,
+    "q": "Three Crosses Hill Vilnius"
+   },
+   "Litauische Küche: Cepelinai, Šaltibarščiai & Kibinai": {
+    "miss": true
+   }
+  },
+  "center": {
+   "lat": 54.68705,
+   "lon": 25.28291
+  }
+ },
+ "wien": {
+  "spots": {
+   "Kaffeehaus-Vormittag": {
+    "miss": true
+   },
+   "Naschmarkt": {
+    "lat": 48.19818,
+    "lon": 16.36262,
+    "km": 1.3,
+    "q": "Naschmarkt"
+   },
+   "Loos American Bar": {
+    "miss": true
+   },
+   "Stephansdom": {
+    "lat": 48.20849,
+    "lon": 16.37313,
+    "km": 0,
+    "q": "Stephansdom Wien"
+   },
+   "Schloss Schönbrunn & Gloriette": {
+    "lat": 48.18499,
+    "lon": 16.31157,
+    "km": 5.2,
+    "q": "Schloss Schönbrunn"
+   },
+   "Hofburg & Spanische Hofreitschule": {
+    "lat": 48.20768,
+    "lon": 16.3662,
+    "km": 0.5,
+    "q": "Hofburg Wien"
+   },
+   "Belvedere – Klimts „Der Kuss“": {
+    "lat": 48.19392,
+    "lon": 16.3804,
+    "km": 1.7,
+    "q": "Belvedere Wien"
+   },
+   "Prater & Riesenrad": {
+    "lat": 48.21674,
+    "lon": 16.39591,
+    "km": 2,
+    "q": "Wiener Riesenrad"
+   },
+   "Heuriger in Grinzing, Nussdorf & Neustift": {
+    "lat": 48.25895,
+    "lon": 16.3621,
+    "km": 5.7,
+    "q": "Heuriger Nussdorf Wien"
+   },
+   "Hundertwasserhaus & Kunst Haus Wien": {
+    "lat": 48.2074,
+    "lon": 16.39387,
+    "km": 1.6,
+    "q": "Hundertwasserhaus Wien"
+   },
+   "Sachertorte, Schnitzel & Co.": {
+    "lat": 48.20861,
+    "lon": 16.36721,
+    "km": 0.4,
+    "q": "Café Demel Wien"
+   },
+   "Tagesausflug nach Bratislava": {
+    "lat": 48.10552,
+    "lon": 17.04231,
+    "km": 51,
+    "q": "Bratislava"
+   }
+  },
+  "center": {
+   "lat": 48.20835,
+   "lon": 16.3725
+  }
+ },
+ "zugspitze": {
+  "spots": {
+   "Zugspitze – Zahnradbahn hoch, Seilbahn runter": {
+    "lat": 47.42119,
+    "lon": 10.98561,
+    "km": 0.1,
+    "q": "Zugspitze, Zugspitze"
+   },
+   "Eibsee-Runde": {
+    "miss": true
+   },
+   "Gipfel: Aussicht, Gletscher & Gipfelkreuz": {
+    "lat": 47.42121,
+    "lon": 10.9863,
+    "km": 0,
+    "q": "Zugspitze Gipfel"
+   },
+   "Garmisch-Partenkirchen – Ludwigstraße & Lüftlmalerei": {
+    "lat": 47.49248,
+    "lon": 11.11289,
+    "km": 12.4,
+    "q": "Ludwigstraße Garmisch-Partenkirchen"
+   },
+   "Olympia-Skistadion & Große Olympiaschanze": {
+    "lat": 47.48034,
+    "lon": 11.1187,
+    "km": 11.9,
+    "q": "Große Olympiaschanze Garmisch"
+   },
+   "Partnachklamm": {
+    "lat": 47.46465,
+    "lon": 11.12212,
+    "km": 11.3,
+    "q": "Partnachklamm Garmisch"
+   },
+   "Badersee – der ruhige Moorsee": {
+    "lat": 47.47336,
+    "lon": 11.01635,
+    "km": 6.2,
+    "q": "Badersee Grainau"
+   },
+   "Höllentalklamm – wilder als die Partnachklamm": {
+    "lat": 47.44421,
+    "lon": 11.04092,
+    "km": 4.8,
+    "q": "Höllentalklamm Garmisch"
+   },
+   "Kramer-Plateauweg": {
+    "miss": true
+   },
+   "Schloss Linderhof & Neuschwanstein als Ausflug": {
+    "lat": 47.57165,
+    "lon": 10.96076,
+    "km": 16.8,
+    "q": "Schloss Linderhof"
+   }
+  },
+  "center": {
+   "lat": 47.42121,
+   "lon": 10.9863
+  }
+ }
+}
