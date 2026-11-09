@@ -103,9 +103,11 @@ const other = (l) => (l === 'de' ? 'en' : 'de');
 // ---------- Rendering ----------
 const OUT = []; // {path, html, alt:{de,en}}
 const sitemap = [];
+// Dünne Seiten (wenig eigener Inhalt) bleiben erreichbar, werden aber nicht indexiert und nicht in die Sitemap geschrieben.
+const THIN = { n: 0 };
 const up = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 
-function page({ lang, p, title, desc, h1, lead, body, crumbs, ld = [], alt, type = 'website', image, lastmod }) {
+function page({ lang, p, title, desc, h1, lead, body, crumbs, ld = [], alt, type = 'website', image, lastmod, noindex = false }) {
   const U = up(p), t = TX[lang];
   { const SFX = ' | HiddenGem.Atlas'; let core = title.endsWith(SFX) ? title.slice(0, -SFX.length) : title; const max = 68 - SFX.length;
     if (core.length > max) core = core.slice(0, max).replace(/[\s,:;-]+\S*$/, '') + '…'; title = core + SFX; }
@@ -119,7 +121,7 @@ function page({ lang, p, title, desc, h1, lead, body, crumbs, ld = [], alt, type
 <html lang="${lang}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
-<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="robots" content="${noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'}">
 <link rel="canonical" href="${url}">
 ${altTags}
 <meta property="og:type" content="${type}"><meta property="og:site_name" content="HiddenGem.Atlas"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${img}"><meta property="og:locale" content="${lang === 'de' ? 'de_DE' : 'en_GB'}">
@@ -140,7 +142,7 @@ ${body}
 <script data-goatcounter="https://${GOAT}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body></html>`;
   OUT.push({ path: p + 'index.html', html: out });
-  sitemap.push({ p, alt: alt ? { [lang]: p, [other(lang)]: alt } : null, lang, lastmod });
+  if (noindex) THIN.n++; else sitemap.push({ p, alt: alt ? { [lang]: p, [other(lang)]: alt } : null, lang, lastmod });
 }
 
 const trim = (s, n) => { s = strip(s); return s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…'; };
@@ -178,7 +180,7 @@ for (const lang of ['de', 'en']) {
     if (rest.length) body += `<h2>${lang === 'de' ? 'Weitere Sehenswürdigkeiten' : 'More sights'}</h2><ul class="pl two">${rest.map((m) => li(m, lang, U, true)).join('')}</ul>${list.length - feat.length > rest.length ? `<p><a href="${U}index.html#/momente">${t.toMap}: ${nf(list.length, lang)} →</a></p>` : ''}`;
     if (towns[0]) body += gygBox(lang, townOf(towns[0][1][0], lang), cc);
     page({ lang, p, title, desc: trim(desc, 158), h1: `${flag(cc)} ${esc(cn)}`, lead: esc(lang === 'de' ? `${nf(list.length, lang)} Orte in ${cn}: ${stats.join(' · ') || 'Sehenswürdigkeiten'} - von Noel gesammelt und auf einer Karte planbar.` : `${nf(list.length, lang)} places in ${cn}: ${stats.join(' · ') || 'sights'} - collected by Noel and plannable on a map.`),
-      body, crumbs: [{ n: t.countries, p: PATHS[lang].hub }, { n: cn }], alt: PATHS[o].c(cc), ld: [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, url: BASE + p, inLanguage: lang, about: { '@type': 'Country', name: cn }, mainEntity: { '@type': 'ItemList', itemListElement: sortP(list).slice(0, 30).map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: F(m, 'city', lang) })) } }] });
+      body, noindex: list.length < 8 && !un.length && !gem.length && !cur.length, crumbs: [{ n: t.countries, p: PATHS[lang].hub }, { n: cn }], alt: PATHS[o].c(cc), ld: [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, url: BASE + p, inLanguage: lang, about: { '@type': 'Country', name: cn }, mainEntity: { '@type': 'ItemList', itemListElement: sortP(list).slice(0, 30).map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: F(m, 'city', lang) })) } }] });
 
     // UNESCO je Land
     if (un.length >= 2) {
@@ -201,7 +203,7 @@ for (const lang of ['de', 'en']) {
       const tph = photosOf(sortP(a).map((m) => m.id)); if (tph.length) b = b.replace('</p>', '</p>' + gallery(tph, tn, U3));
       if (rts.length) b += `<h2>${t.routes}</h2><ul class="pl">${rts.map((r) => `<li><a href="${U3}${PATHS[lang].r(r.id)}">${esc(F(r, 'title', lang))}</a></li>`).join('')}</ul>`;
       b += gygBox(lang, tn, cc) + omioBox(lang, tn, cc);
-      page({ lang, p: tp, title: tt, desc: trim(dd, 158), image: tph[0], h1: esc(tn), lead: esc(lang === 'de' ? `${a.length} Orte in ${tn}, ${cn}.` : `${a.length} places in ${tn}, ${cn}.`), body: b,
+      page({ lang, p: tp, title: tt, desc: trim(dd, 158), image: tph[0], noindex: a.length < 4 && !tph.length && !rts.length, h1: esc(tn), lead: esc(lang === 'de' ? `${a.length} Orte in ${tn}, ${cn}.` : `${a.length} places in ${tn}, ${cn}.`), body: b,
         crumbs: [{ n: t.countries, p: PATHS[lang].hub }, { n: cn, p }, { n: tn }], alt: PATHS[o].t(cc, tw),
         ld: [{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: tt, url: BASE + tp, inLanguage: lang, about: { '@type': 'City', name: tn }, mainEntity: { '@type': 'ItemList', itemListElement: sortP(a).slice(0, 30).map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: F(m, 'city', lang) })) } }] });
     }
@@ -222,7 +224,7 @@ for (const lang of ['de', 'en']) {
     if (near.length) b += `<h2>${t.near}</h2><ul class="pl two">${near.map((x) => li(x, lang, U, false)).join('')}</ul>`;
     if (m.gyg || (m.kind === 'gem' && tn)) b += gygBox(lang, tn || nm, m.cc, m.gyg);
     b += omioBox(lang, tn, m.cc);
-    page({ lang, p, title, desc, h1: esc(nm), lead: esc(ti), body: b, type: 'article', image: ph[0],
+    page({ lang, p, title, desc, h1: esc(nm), lead: esc(ti), body: b, type: 'article', image: ph[0], noindex: !detail && !ph.length,
       crumbs: [{ n: t.countries, p: PATHS[lang].hub }, { n: cn, p: PATHS[lang].c(m.cc) }, { n: nm }], alt: PATHS[other(lang)].p(m.id),
       ld: [{ '@context': 'https://schema.org', '@type': 'TouristAttraction', name: nm, description: ti, url: BASE + p, inLanguage: lang, geo: { '@type': 'GeoCoordinates', latitude: m.lat, longitude: m.lon }, address: { '@type': 'PostalAddress', addressLocality: tn, addressCountry: m.cc }, isAccessibleForFree: m.price === 'free' ? true : undefined }] });
   }
@@ -304,7 +306,9 @@ sitemap.push({ p: 'quiz/' });
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), smWrap(sitemap, true));
 // Eigene Sitemap nur mit Guides + Blog (die wichtigsten Seiten) – in der Search Console zuerst einreichen.
 fs.writeFileSync(path.join(ROOT, 'sitemap-guides.xml'), smWrap(sitemap.filter((x) => /\/(guide|blog)\//.test(x.p)), true));
-fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${BASE}sitemap.xml\nSitemap: ${BASE}sitemap-guides.xml\n`);
+// Textversion (eine URL pro Zeile) – Ausweichlösung, falls die Search Console XML-Sitemaps auf GitHub Pages nicht abruft.
+fs.writeFileSync(path.join(ROOT, 'sitemap.txt'), [BASE, BASE + 'quiz/'].concat(sitemap.filter((x) => /\/(guide|blog)\//.test(x.p)).map((x) => BASE + x.p)).join('\n') + '\n');
+fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${BASE}sitemap.xml\nSitemap: ${BASE}sitemap-guides.xml\nSitemap: ${BASE}sitemap.txt\n`);
 
 fs.writeFileSync(path.join(ROOT, 'seo.css'), `@font-face{font-family:'DM Sans';font-weight:100 1000;font-display:swap;src:url(fonts/dm-sans-latin-wght-normal.woff2) format('woff2')}
 @font-face{font-family:'Cormorant Garamond';font-weight:400;font-display:swap;src:url(fonts/cormorant-garamond-latin-400-normal.woff2) format('woff2')}
@@ -343,6 +347,7 @@ footer{border-top:1px solid var(--line);padding:24px 16px;text-align:center;font
 .about{border-top:1px solid var(--line);margin-top:2em;padding-top:1em}
 @media(max-width:620px){.pl.two{columns:1}}
 `);
+console.log(`Dünne Seiten (noindex, nicht in Sitemap): ${THIN.n}`);
 console.log(`Seiten: ${OUT.length} (Länder ${countries.length}×2, Blog ${blogN}, Guides ${guideN}) · Sitemap-URLs: ${sitemap.length + 1} · Basis ${BASE}`);
 
 // Fragenbank für das Reise-Quiz (quiz/index.html) neu bauen

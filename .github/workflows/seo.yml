@@ -32,7 +32,7 @@ jobs:
       - run: |
           git config user.name "hiddengemat-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add de en sitemap.xml robots.txt seo.css
+          git add de en g 404.html sitemap.xml sitemap-guides.xml sitemap.txt robots.txt seo.css data/quiz.json
           git diff --staged --name-only -- de en > /tmp/changed.txt || true
           git diff --name-only HEAD~1 HEAD -- index.html >> /tmp/changed.txt 2>/dev/null || true
           if ! git diff --staged --quiet; then

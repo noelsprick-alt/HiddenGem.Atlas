@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://noelsprick-alt.github.io/HiddenGem.Atlas/sitemap.xml
 Sitemap: https://noelsprick-alt.github.io/HiddenGem.Atlas/sitemap-guides.xml
+Sitemap: https://noelsprick-alt.github.io/HiddenGem.Atlas/sitemap.txt
