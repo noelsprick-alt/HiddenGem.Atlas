@@ -128,6 +128,7 @@
    ]
   },
   {
+   "type": "spots",
    "id": "gems",
    "h": "Hidden Gems & echtes Saigon",
    "h_en": "Hidden gems & real Saigon",
@@ -177,6 +178,7 @@
    ]
   },
   {
+   "type": "spots",
    "id": "ausflug",
    "h": "Tagesausflüge von Saigon",
    "h_en": "Day trips from Saigon",

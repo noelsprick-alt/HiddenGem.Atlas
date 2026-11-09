@@ -125,7 +125,8 @@
      "name_en": "Currywurst, döner & Berlin cuisine",
      "q": "Currywurst Berlin",
      "tip": "Probiere Currywurst und Döner im Vergleich.",
-     "tip_en": "Compare currywurst and döner."
+     "tip_en": "Compare currywurst and döner.",
+     "ll": false
     }
    ]
   },

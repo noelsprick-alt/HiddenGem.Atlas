@@ -120,6 +120,7 @@
    ]
   },
   {
+   "type": "spots",
    "id": "gems",
    "h": "Hidden Gems in Tokio",
    "h_en": "Hidden gems in Tokyo",

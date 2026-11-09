@@ -173,7 +173,11 @@
      "name_en": "Palma: Almudaina Palace, old-town lanes & market halls",
      "q": "Mercat de l'Olivar Palma",
      "tip": "Plane die Altstadt am Vormittag und die Märkte als Mittagspause – nachmittags brennt im Sommer die Sonne, und viele Läden machen Siesta.",
-     "tip_en": "Plan the old town for the morning and the markets as a lunch break – in summer the afternoon sun is fierce and many shops close for siesta."
+     "tip_en": "Plan the old town for the morning and the markets as a lunch break – in summer the afternoon sun is fierce and many shops close for siesta.",
+     "ll": [
+      39.5675,
+      2.6476
+     ]
     },
     {
      "name": "Castell de Bellver",
@@ -235,7 +239,11 @@
      "q": "Deià Mallorca",
      "tip": "Fahr früh hin oder im Frühling/Herbst, dann hast du das Dorf fast für dich.",
      "tip_en": "Go early or in spring/autumn, then you have the village almost to yourself.",
-     "free": true
+     "free": true,
+     "ll": [
+      39.7486,
+      2.6489
+     ]
     },
     {
      "name": "Cap de Formentor",
@@ -244,7 +252,11 @@
      "name_en": "Cap de Formentor",
      "q": "Cap de Formentor Mallorca",
      "tip": "Fahr früh am Morgen oder zum Sonnenuntergang – tagsüber im Sommer stauen sich die Autos.",
-     "tip_en": "Go early in the morning or at sunset – by day in summer the cars queue."
+     "tip_en": "Go early in the morning or at sunset – by day in summer the cars queue.",
+     "ll": [
+      39.962,
+      3.213
+     ]
     }
    ]
   },

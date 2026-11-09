@@ -166,7 +166,8 @@
      "gem": true,
      "q": "Fischbrötchen Rügen",
      "tip": "Probiere Sanddorn-Saft oder -Eis in einem Hofladen.",
-     "tip_en": "Try sea buckthorn juice or ice cream in a farm shop."
+     "tip_en": "Try sea buckthorn juice or ice cream in a farm shop.",
+     "ll": false
     }
    ]
   }

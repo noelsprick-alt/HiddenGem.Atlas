@@ -115,6 +115,7 @@
    ]
   },
   {
+   "type": "spots",
    "id": "gems",
    "h": "Hidden Gems & Limburger Genuss",
    "h_en": "Hidden gems & Limburg treats",
@@ -127,7 +128,8 @@
      "gem": true,
      "q": "Limburgse vlaai bakkerij Venlo",
      "tip": "Probiere zwei Sorten und nimm einen ganzen Vlaai mit nach Hause.",
-     "tip_en": "Try two kinds and take a whole vlaai home."
+     "tip_en": "Try two kinds and take a whole vlaai home.",
+     "ll": false
     },
     {
      "name": "Nationalpark De Maasduinen",

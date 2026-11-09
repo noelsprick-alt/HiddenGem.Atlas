@@ -71,7 +71,11 @@
      "q": "Roland am Marktplatz",
      "tip": "Schau dir Rathaus und Roland zusammen an.",
      "tip_en": "See the town hall and Roland together.",
-     "free": true
+     "free": true,
+     "ll": [
+      53.0758,
+      8.8072
+     ]
     },
     {
      "name": "Schlachte zum Sonnenuntergang",

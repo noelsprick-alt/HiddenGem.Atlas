@@ -70,7 +70,11 @@
      "q": "Roque Nublo Gran Canaria",
      "tip": "Starte am Vormittag und nimm eine Jacke mit.",
      "tip_en": "Start in the morning and take a jacket.",
-     "free": true
+     "free": true,
+     "ll": [
+      27.9706,
+      -15.6125
+     ]
     },
     {
      "name": "Puerto de Mogán",

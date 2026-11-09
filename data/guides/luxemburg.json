@@ -201,7 +201,8 @@
      "name_en": "Luxembourg cuisine: judd mat gaardebounen & bouneschlupp",
      "q": "Judd mat Gaardebounen",
      "tip": "Probiere Traditionelles in kleinen Lokalen.",
-     "tip_en": "Try traditional food in small places."
+     "tip_en": "Try traditional food in small places.",
+     "ll": false
     }
    ]
   },

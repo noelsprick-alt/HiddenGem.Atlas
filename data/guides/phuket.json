@@ -182,7 +182,8 @@
      "gem": true,
      "q": "Phi Phi Islands tour Phuket",
      "tip": "Buche früh und achte auf kleine Gruppen.",
-     "tip_en": "Book early and look for small groups."
+     "tip_en": "Book early and look for small groups.",
+     "ll": false
     },
     {
      "name": "Phuket Elephant Sanctuary & ethischer Tierschutz",
@@ -201,7 +202,8 @@
      "name_en": "Thai cuisine: pad thai, mango sticky rice & night markets",
      "q": "Naka Weekend Market Phuket",
      "tip": "Sag, wie scharf du es willst.",
-     "tip_en": "Say how spicy you want it."
+     "tip_en": "Say how spicy you want it.",
+     "ll": false
     }
    ]
   },

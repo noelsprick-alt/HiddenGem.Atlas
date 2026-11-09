@@ -317,7 +317,8 @@
      "tip_en": "Buy cuberdons fresh and eat them within a few days; as a souvenir they only suit short trips.",
      "photos": [
       "images/photos/gent-waffel.webp"
-     ]
+     ],
+     "ll": false
     },
     {
      "name": "Tierenteyn-Verlent – Genter Senf seit 1790",
@@ -355,7 +356,8 @@
      "photos": [
       "images/photos/gent-weinbar.webp",
       "images/photos/gent-meeresfruechte.webp"
-     ]
+     ],
+     "ll": false
     },
     {
      "name": "’t Dreupelkot – Genever in über 200 Sorten",

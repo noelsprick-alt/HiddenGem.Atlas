@@ -10,7 +10,8 @@ export function loadGuides(root) {
   if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir).filter((f) => f.endsWith('.json') && !f.startsWith('_')).sort()
     .map((f) => { try { return JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); } catch (e) { console.error('Guide-Fehler', f, e.message); return null; } })
-    .filter((g) => g && g.status === 'live' && g.slug);
+    .filter((g) => g && g.status === 'live' && g.slug)
+    .map((g) => { for (const b of g.blocks || []) if (Array.isArray(b.spots) && b.spots.length && b.type !== 'spots') b.type = 'spots'; return g; }); // Blöcke mit Spots immer als Spots rendern
 }
 
 const GT = {
@@ -26,8 +27,10 @@ const GT = {
     free: 'Kostenlos erlebbar', freeH: '🆓 Kostenlos erleben', freeP: (n, c) => `${n} Orte in ${c}, die du ohne Eintritt oder komplett gratis erleben kannst (bei manchen kostet nur ein Teil, z. B. Turm oder Museum):`,
     dealH: '🎟️ Exklusiv für dich: 5 % Rabatt', dealP: (c) => `Mit meinem Code <b>HIDDENGEMATLAS5</b> sparst du 5 % auf jede Tour, jedes Ticket und jede Aktivität bei GetYourGuide – auch in ${c}. Einfach beim Bezahlen eingeben.`, dealB: (c) => `Touren in ${c} ansehen`, copy: 'Code kopieren', copied: 'Kopiert ✓',
     mapsH: '📍 Diesen Guide in Google Maps speichern', mapsA: 'Schnell: Route öffnen', mapsAp: 'Öffnet alle Orte als Route in Google Maps – dort kannst du sie mit „Speichern“ in eine Liste legen.', mapsPart: 'Teil',
-    mapsB: 'Dauerhaft: als eigene Karte (3 Minuten)', mapsSteps: ['Lade die Ortsliste herunter (CSV).', 'Öffne <a href="https://www.google.com/maps/d/" target="_blank" rel="noopener">Google My Maps</a> → „Neue Karte erstellen“ → „Importieren“ → Datei auswählen.', 'Als Position die Spalte „Ort“, als Titel „Name“ wählen – fertig.', 'In der Google-Maps-App findest du die Karte unter „Gespeichert“ → „Karten“, auch unterwegs.'], csv: 'Ortsliste herunterladen (CSV)', mapsCh: 'Einzeln speichern', mapsC: 'Bei jedem Ort führt „In Google Maps öffnen & speichern“ direkt zum Ort – dort auf „Speichern“ tippen.',
-    csvH: ['Name', 'Ort', 'Kategorie', 'Kostenlos', 'Tipp', 'Guide'], cMust: 'Must-See', cGem: 'Hidden Gem', yes: 'ja' },
+    mapsB: 'Dauerhaft: als eigene Karte (2 Minuten)', mapsSteps: ['Lade die Datei mit allen Pins herunter (KML-Button unten).', 'Öffne <a href="https://www.google.com/maps/d/" target="_blank" rel="noopener">Google My Maps</a> → „Neue Karte erstellen“ → „Importieren“ → Datei auswählen.', 'Fertig – alle Orte stehen exakt an der richtigen Stelle, mit Nummer, Tipp und Link zum Guide.', 'In der Google-Maps-App findest du die Karte unter „Gespeichert“ → „Karten“, auch unterwegs.'], csv: 'Ortsliste herunterladen (CSV)', mapsCh: 'Einzeln speichern', mapsC: 'Bei jedem Ort führt „In Google Maps öffnen & speichern“ direkt zum Ort – dort auf „Speichern“ tippen.',
+    csvH: ['Name', 'Ort', 'Kategorie', 'Kostenlos', 'Tipp', 'Guide', 'Breitengrad', 'Längengrad'], cMust: 'Must-See', cGem: 'Hidden Gem', yes: 'ja',
+    mapT: (n) => `🗺️ Karte: alle ${n} Orte`, mapP: 'Tippe auf eine Nummer für Details. Gelb = Must-See, Lila = Hidden Gem, 🆓 = kostenlos.', mapLoad: 'Karte wird geladen …',
+    kml: 'Alle Pins für Google Maps (KML)', kmlP: 'Ein Klick → in Google My Maps importieren → alle Orte als eigene Karte in deiner Google-Maps-App.', how: 'So geht’s', print: 'Als PDF speichern / drucken', more2: 'Zum Ort im Guide', uspMap: 'Interaktive Karte' },
   en: { hub: 'City guides', back: '← All city guides', by: 'By Noel', upd: 'updated', toc: 'Table of contents', facts: 'At a glance',
     disc: 'This guide contains affiliate links (GetYourGuide, Omio). If you book through them I earn a small commission – you never pay a cent more.',
     story: (c) => `My story in ${c}`, gem: 'Hidden gem', tip: 'Tip', maps: 'Open & save in Google Maps', itin: 'Your plan', day: 'Day', faq: 'FAQ', more: 'More guides',
@@ -40,8 +43,10 @@ const GT = {
     free: 'Free to experience', freeH: '🆓 Free things to do', freeP: (n, c) => `${n} places in ${c} you can enjoy without an entry fee or completely free (for some, only a part costs extra, e.g. a tower or museum):`,
     dealH: '🎟️ Exclusive for you: 5% off', dealP: (c) => `With my code <b>HIDDENGEMATLAS5</b> you save 5% on every tour, ticket and activity on GetYourGuide – in ${c} too. Just enter it at checkout.`, dealB: (c) => `See tours in ${c}`, copy: 'Copy code', copied: 'Copied ✓',
     mapsH: '📍 Save this guide to Google Maps', mapsA: 'Quick: open as a route', mapsAp: 'Opens all places as a route in Google Maps – tap “Save” there to put them in a list.', mapsPart: 'Part',
-    mapsB: 'Permanent: as your own map (3 minutes)', mapsSteps: ['Download the place list (CSV).', 'Open <a href="https://www.google.com/maps/d/" target="_blank" rel="noopener">Google My Maps</a> → “Create a new map” → “Import” → choose the file.', 'Pick the column “Place” for position and “Name” for the title – done.', 'In the Google Maps app the map appears under “Saved” → “Maps”, also on the go.'], csv: 'Download place list (CSV)', mapsCh: 'Save one by one', mapsC: '“Open & save in Google Maps” under each place takes you straight there – tap “Save”.',
-    csvH: ['Name', 'Place', 'Category', 'Free', 'Tip', 'Guide'], cMust: 'Must-see', cGem: 'Hidden gem', yes: 'yes' },
+    mapsB: 'Permanent: as your own map (2 minutes)', mapsSteps: ['Download the file with all pins (KML button below).', 'Open <a href="https://www.google.com/maps/d/" target="_blank" rel="noopener">Google My Maps</a> → “Create a new map” → “Import” → choose the file.', 'Done – every place sits exactly where it should, with number, tip and a link back to the guide.', 'In the Google Maps app the map appears under “Saved” → “Maps”, also on the go.'], csv: 'Download place list (CSV)', mapsCh: 'Save one by one', mapsC: '“Open & save in Google Maps” under each place takes you straight there – tap “Save”.',
+    csvH: ['Name', 'Place', 'Category', 'Free', 'Tip', 'Guide', 'Latitude', 'Longitude'], cMust: 'Must-see', cGem: 'Hidden gem', yes: 'yes',
+    mapT: (n) => `🗺️ Map: all ${n} places`, mapP: 'Tap a number for details. Yellow = must-see, purple = hidden gem, 🆓 = free.', mapLoad: 'Loading map …',
+    kml: 'All pins for Google Maps (KML)', kmlP: 'One click → import into Google My Maps → every place as your own map in the Google Maps app.', how: 'How it works', print: 'Save as PDF / print', more2: 'See it in the guide', uspMap: 'Interactive map' },
 };
 
 export function renderGuides(ctx) {
@@ -60,6 +65,18 @@ export function renderGuides(ctx) {
   };
   const mapsUrl = (q) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
   const firstImg = (g) => [g.hero, ...(g.media || [])].filter(Boolean).map((s) => (/\.mp4$/i.test(s) ? posterOf(s) : s)).find(fexists);
+  // Koordinaten: s.ll im Guide (manuell; false = kein Pin, z. B. allgemeine Essens-Tipps) > data-src/geocode-guides.json (OpenStreetMap-Action). Ausreißer werden verworfen.
+  const GEO = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'data-src/geocode-guides.json'), 'utf8')); } catch (e) { return {}; } })();
+  const kmD = (a, b) => { const R = 6371, x = (b[0] - a[0]) * Math.PI / 180, y = (b[1] - a[1]) * Math.PI / 180; const h = Math.sin(x / 2) ** 2 + Math.cos(a[0] * Math.PI / 180) * Math.cos(b[0] * Math.PI / 180) * Math.sin(y / 2) ** 2; return 2 * R * Math.asin(Math.sqrt(h)); };
+  const coordsOf = (g, spots) => {
+    const raw = spots.map((s) => { if (s.ll === false) return null; if (Array.isArray(s.ll) && s.ll.length === 2) return s.ll.map(Number); const h = GEO[g.slug]?.spots?.[s.name]; return h && !h.miss ? [h.lat, h.lon] : null; });
+    const ok = raw.filter(Boolean); if (ok.length < 3) return spots.map(() => null);
+    const med = (a) => { const b = [...a].sort((x, y) => x - y); return b[Math.floor(b.length / 2)]; };
+    const c = [med(ok.map((x) => x[0])), med(ok.map((x) => x[1]))];
+    const lim = /mallorca|gran-canaria|ruegen|rugen|schwarzwald|black-forest|lungau|gastein|krabi|phuket|zugspitze|garmisch|ruhr/i.test(g.slug + ' ' + (g.slug_en || '')) ? 90 : 40;
+    return raw.map((x, i) => (x && (Array.isArray(spots[i].ll) || kmD(c, x) <= lim) ? x : null));
+  };
+  const xml = (v) => String(v ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   let count = 0;
 
   for (const lang of ['de', 'en']) {
@@ -81,8 +98,23 @@ export function renderGuides(ctx) {
           + `<p class="gm"><a href="${esc(mapsUrl(q))}" target="_blank" rel="noopener">📍 ${T.maps}</a></p></div>`;
       };
 
-      // Intro + Story
+      const LL = coordsOf(g, allSpots); const nLL = LL.filter(Boolean).length;
+      const kmlName = `hiddengem-atlas-${gSlug(g, lang)}.kml`;
+      // Intro + interaktive Karte + Story
       main += `<div class="gtext">${gv(g, 'intro', lang)}</div>`;
+      if (nLL >= 3) {
+        const pts = allSpots.map((x, i) => { if (!LL[i]) return null; const nm = gv(x, 'name', lang); const ph = (x.photos || []).find((f) => fexists(f) && !/\.mp4$/i.test(f));
+          return { a: LL[i][0], o: LL[i][1], n: i + 1, c: x.gem ? 'pg' : 'pm', f: x.free ? 1 : 0, t: nm,
+            h: `${ph ? `<img src="${U}${ph}" alt="" loading="lazy">` : ''}<b>${i + 1}. ${esc(nm)}</b>${x.free ? ' 🆓' : ''}<br><a href="#${sid(x)}">${T.more2} ↓</a> · <a href="${esc(mapsUrl(x.q || `${nm} ${city}`))}" target="_blank" rel="noopener">Google Maps ↗</a>` }; }).filter(Boolean);
+        main += `<section class="gmapbox" id="karte"><h2>${esc(T.mapT(nLL))}</h2><p class="meta">${T.mapP}</p><div id="gmap" class="gmap" aria-label="${esc(T.mapT(nLL))}"><span>${T.mapLoad}</span></div>`
+          + `<p class="gmapbtns"><a class="btn" href="${kmlName}" download>⬇️ ${T.kml}</a> <a class="btn alt" href="#maps">${T.how}</a> <button class="btn alt noprint" type="button" onclick="window.print()">🖨️ ${T.print}</button></p><p class="meta">${T.kmlP}</p>`
+          + `<script type="application/json" id="gpts">${JSON.stringify(pts).replace(/</g, '\\u003c')}</script></section>`;
+        toc.push(['karte', T.mapT(nLL)]);
+        // KML-Datei (Google My Maps / Google Earth)
+        const pm = allSpots.map((x, i) => (LL[i] ? `<Placemark><name>${i + 1}. ${xml(gv(x, 'name', lang))}</name><styleUrl>#${x.gem ? 'gem' : 'must'}</styleUrl><description>${xml([x.gem ? T.cGem : T.cMust, x.free ? `🆓 ${T.free}` : '', strip(gv(x, 'tip', lang) || ''), `${BASE}${p}#${sid(x)}`].filter(Boolean).join(' · '))}</description><Point><coordinates>${LL[i][1]},${LL[i][0]},0</coordinates></Point></Placemark>` : '')).join('');
+        const st = (id, col) => `<Style id="${id}"><IconStyle><color>${col}</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>`;
+        OUT.push({ path: p + kmlName, html: `<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>${xml(`${title} – HiddenGem.Atlas`)}</name><description>${xml(BASE + p)}</description>${st('must', 'ff4cd8ff')}${st('gem', 'ffd0569b')}${pm}</Document></kml>\n` });
+      }
       const storyHtml = gv(g, 'story', lang);
       if (storyHtml) main += `<section class="sbox"><h2 id="story">${esc(T.story(city))}</h2><div class="gtext">${storyHtml}</div>${mediaHtml(g.media, city, U)}<p class="meta">${T.cap}</p></section>`, toc.push(['story', T.story(city)]);
       else if ((g.media || []).length) main += mediaHtml(g.media, city, U);
@@ -111,10 +143,10 @@ export function renderGuides(ctx) {
         const dir = (c) => `https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=${encodeURIComponent(c[0])}&destination=${encodeURIComponent(c[c.length - 1])}${c.length > 2 ? `&waypoints=${encodeURIComponent(c.slice(1, -1).join('|'))}` : ''}`;
         const csvName = `hiddengem-atlas-${gSlug(g, lang)}.csv`;
         const cq = (v) => `"${String(v).replace(/"/g, '""')}"`;
-        const rows = [T.csvH.map(cq).join(',')].concat(allSpots.map((x, i) => [gv(x, 'name', lang), qs[i], x.gem ? T.cGem : T.cMust, x.free ? T.yes : '', strip(gv(x, 'tip', lang) || ''), `${BASE}${p}#${sid(x)}`].map(cq).join(',')));
+        const rows = [T.csvH.map(cq).join(',')].concat(allSpots.map((x, i) => [gv(x, 'name', lang), qs[i], x.gem ? T.cGem : T.cMust, x.free ? T.yes : '', strip(gv(x, 'tip', lang) || ''), `${BASE}${p}#${sid(x)}`, LL[i] ? LL[i][0] : '', LL[i] ? LL[i][1] : ''].map(cq).join(',')));
         OUT.push({ path: p + csvName, html: '\uFEFF' + rows.join('\r\n') + '\r\n' });
         main += `<section class="mapsbox" id="maps"><h2>${T.mapsH}</h2><h3>1. ${T.mapsA}</h3><p class="meta">${T.mapsAp}</p><p>${chunks.map((c, i) => `<a class="btn" href="${esc(dir(c))}" target="_blank" rel="noopener">🗺️ ${chunks.length > 1 ? `${T.mapsPart} ${i + 1} (${c.length})` : T.mapsA}</a>`).join(' ')}</p>`
-          + `<h3>2. ${T.mapsB}</h3><ol>${T.mapsSteps.map((x) => `<li>${x}</li>`).join('')}</ol><p><a class="btn alt" href="${csvName}" download>⬇️ ${T.csv}</a></p><h3>3. ${T.mapsCh}</h3><p class="meta">${T.mapsC}</p></section>`;
+          + `<h3>2. ${T.mapsB}</h3><ol>${T.mapsSteps.map((x) => `<li>${x}</li>`).join('')}</ol><p>${nLL >= 3 ? `<a class="btn" href="${kmlName}" download>⬇️ ${T.kml}</a> ` : ''}<a class="btn alt" href="${csvName}" download>⬇️ ${T.csv}</a></p><h3>3. ${T.mapsCh}</h3><p class="meta">${T.mapsC}</p></section>`;
       }
 
       // Tagesplan
@@ -142,7 +174,14 @@ export function renderGuides(ctx) {
       const langs = [['de', 'DE', U + gPath(g, 'de')], ['en', 'EN', U + gPath(g, 'en')], ['es', 'ES', esUrl]].map(([l, lab, href]) => (l === lang ? `<b>${lab}</b>` : `<a href="${esc(href)}" hreflang="${l}"${l === 'es' ? ` title="${esc(T.esAuto)}" rel="noopener" target="_blank"` : ''}>${lab}</a>`)).join(' · ');
       const freeN = allSpots.filter((x) => x.free).length;
       const bgId2 = (g.blocks || []).find((b) => b.type !== 'spots' && /wissen|ausmacht|hintergrund/i.test(b.id + ' ' + (b.h || '')))?.id || (gv(g, 'story', lang) ? 'story' : '');
-      const usp = `<nav class="usp" aria-label="Guide"><span class="chip">🌍 ${T.uspLang}: ${langs}</span><a class="chip" href="#maps">📍 ${T.uspMaps}</a>${freeN ? `<a class="chip" href="#free">🆓 ${T.uspFree(freeN)}</a>` : ''}<a class="chip" href="#deal">🎟️ ${T.uspDeal}</a>${bgId2 ? `<a class="chip" href="#${esc(bgId2)}">📖 ${T.uspBg}</a>` : ''}</nav>`;
+      const usp = `<nav class="usp" aria-label="Guide"><span class="chip">🌍 ${T.uspLang}: ${langs}</span>${nLL >= 3 ? `<a class="chip" href="#karte">🗺️ ${T.uspMap}</a>` : ''}<a class="chip" href="#maps">📍 ${T.uspMaps}</a>${freeN ? `<a class="chip" href="#free">🆓 ${T.uspFree(freeN)}</a>` : ''}<a class="chip" href="#deal">🎟️ ${T.uspDeal}</a>${bgId2 ? `<a class="chip" href="#${esc(bgId2)}">📖 ${T.uspBg}</a>` : ''}</nav>`;
+      const mapJs = nLL >= 3 ? `<script>(function(){var el=document.getElementById('gmap');if(!el)return;var P=JSON.parse(document.getElementById('gpts').textContent),done=0;
+function init(){if(done)return;done=1;el.innerHTML='';var m=L.map(el,{scrollWheelZoom:false});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap'}).addTo(m);var b=[];
+P.forEach(function(p){var ic=L.divIcon({className:'gpin',html:'<span class="pin '+p.c+'">'+p.n+(p.f?'<i>🆓</i>':'')+'</span>',iconSize:[30,30],iconAnchor:[15,15],popupAnchor:[0,-12]});L.marker([p.a,p.o],{icon:ic,title:p.n+'. '+p.t}).addTo(m).bindPopup(p.h,{maxWidth:240});b.push([p.a,p.o]);});
+m.fitBounds(b,{padding:[28,28],maxZoom:16});}
+function load(){if(window.L)return init();var c=document.createElement('link');c.rel='stylesheet';c.href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css';document.head.appendChild(c);var s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';s.onload=init;document.head.appendChild(s);}
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(e){if(e[0].isIntersecting){io.disconnect();load();}},{rootMargin:'600px'});io.observe(el);}else load();
+window.addEventListener('beforeprint',load);})();</script>` : '';
       const copyJs = `<script>document.querySelectorAll('button.copy').forEach(function(b){b.addEventListener('click',function(){try{navigator.clipboard.writeText(b.dataset.code);b.textContent=b.dataset.ok;}catch(e){}});});</script>`;
       const tocHtml = `<details class="toc" open><summary>${T.toc}</summary><ol>${toc.map(([id, l]) => `<li><a href="#${esc(id)}">${esc(l)}</a></li>`).join('')}</ol></details>`;
       const alt = gPath(g, o), img = firstImg(g);
@@ -150,7 +189,7 @@ export function renderGuides(ctx) {
       if (allSpots.length) ld.push({ '@context': 'https://schema.org', '@type': 'ItemList', name: title, itemListElement: allSpots.map((x, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@type': 'TouristAttraction', name: gv(x, 'name', lang), url: `${BASE}${p}#${sid(x)}`, ...(x.free ? { isAccessibleForFree: true } : {}) } })) });
       if (faq.length) ld.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: strip(f.a) } })) });
       page({ lang, p, title: `${title} | HiddenGem.Atlas`, desc: trim(gv(g, 'desc', lang) || gv(g, 'intro', lang), 158), h1: `${g.flag || ''} ${esc(title)}`, lead: '',
-        body: `<div class="guide"><p><a href="${U}${hubP}">${T.back}</a></p>${byline}${usp}${hero}${tocHtml}${main}</div>${copyJs}`, type: 'article', lastmod: g.updated || TODAY, image: img, crumbs: [{ n: T.hub, p: hubP }, { n: city }], alt, ld });
+        body: `<div class="guide"><p><a href="${U}${hubP}">${T.back}</a></p>${byline}${usp}${hero}${tocHtml}${main}</div>${copyJs}${mapJs}`, type: 'article', lastmod: g.updated || TODAY, image: img, crumbs: [{ n: T.hub, p: hubP }, { n: city }], alt, ld });
       idx.push({ slug: gSlug(g, lang), blog: g.blog || '', city, flag: g.flag || '', title, img: img || '', url: p });
       count++;
     }

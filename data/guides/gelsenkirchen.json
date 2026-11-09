@@ -159,7 +159,8 @@
      "name_en": "Ruhr cuisine: currywurst, fries & miners’ breakfast",
      "q": "Currywurst Gelsenkirchen",
      "tip": "Frag an der Bude nach Empfehlungen.",
-     "tip_en": "Ask for recommendations at the kiosk."
+     "tip_en": "Ask for recommendations at the kiosk.",
+     "ll": false
     }
    ]
   },

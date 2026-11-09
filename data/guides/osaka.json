@@ -112,6 +112,7 @@
    ]
   },
   {
+   "type": "spots",
    "id": "gems",
    "h": "Hidden Gems in Osaka",
    "h_en": "Hidden gems in Osaka",
@@ -151,6 +152,7 @@
    ]
   },
   {
+   "type": "spots",
    "id": "ausflug",
    "h": "Tagesausflug von Osaka",
    "h_en": "Day trip from Osaka",

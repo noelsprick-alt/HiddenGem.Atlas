@@ -172,7 +172,8 @@
      "name_en": "Street food: bún chả, phở, bánh mì & more",
      "q": "Bun cha Hanoi street food",
      "tip": "Wähle Stände mit viel Betrieb.",
-     "tip_en": "Choose stalls with lots of business."
+     "tip_en": "Choose stalls with lots of business.",
+     "ll": false
     },
     {
      "name": "Tagesausflug: Ha Long Bay oder Ninh Binh",

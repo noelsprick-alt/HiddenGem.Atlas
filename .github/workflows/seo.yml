@@ -9,6 +9,7 @@ on:
       - 'scripts/build-seo.mjs'
       - 'scripts/guides.mjs'
       - 'data/guides/**'
+      - 'data-src/geocode-guides.json'
   workflow_dispatch:
     inputs:
       all:

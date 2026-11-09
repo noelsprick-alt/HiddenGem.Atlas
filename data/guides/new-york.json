@@ -191,7 +191,8 @@
      "name_en": "New York classics: bagel, pizza slice & deli",
      "q": "Pizza slice New York",
      "tip": "Rechne in Restaurants mit Trinkgeld.",
-     "tip_en": "Budget for tipping in restaurants."
+     "tip_en": "Budget for tipping in restaurants.",
+     "ll": false
     }
    ]
   },

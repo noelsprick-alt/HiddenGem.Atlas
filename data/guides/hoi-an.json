@@ -104,7 +104,8 @@
      "name_en": "Tailors in Hoi An",
      "q": "Tailor Hoi An",
      "tip": "Plane gleich am ersten Tag und frag nach mindestens zwei Anproben.",
-     "tip_en": "Plan it on the first day and ask for at least two fittings."
+     "tip_en": "Plan it on the first day and ask for at least two fittings.",
+     "ll": false
     },
     {
      "name": "An Bang Beach",
@@ -128,6 +129,7 @@
    ]
   },
   {
+   "type": "spots",
    "id": "gems",
    "h": "Hidden Gems rund um Hoi An",
    "h_en": "Hidden gems around Hoi An",
@@ -160,7 +162,11 @@
      "gem": true,
      "q": "My Son Sanctuary",
      "tip": "Starte früh am Morgen, bevor die Busse kommen.",
-     "tip_en": "Start early in the morning before the buses arrive."
+     "tip_en": "Start early in the morning before the buses arrive.",
+     "ll": [
+      15.764,
+      108.124
+     ]
     }
    ]
   },

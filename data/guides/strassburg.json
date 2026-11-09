@@ -156,7 +156,8 @@
      "gem": true,
      "q": "Winstub Strasbourg",
      "tip": "Reserviere am Wochenende und probiere den Tagesmenü-Vorschlag.",
-     "tip_en": "Reserve at weekends and try the daily-menu suggestion."
+     "tip_en": "Reserve at weekends and try the daily-menu suggestion.",
+     "ll": false
     },
     {
      "name": "Weihnachtsmarkt – Capitale de Noël",

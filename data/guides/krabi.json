@@ -220,7 +220,8 @@
      "name_en": "Thai massage & cooking class",
      "q": "Thai cooking class Krabi",
      "tip": "Buche den Kochkurs für den Vormittag.",
-     "tip_en": "Book the cooking class for the morning."
+     "tip_en": "Book the cooking class for the morning.",
+     "ll": false
     }
    ]
   },
