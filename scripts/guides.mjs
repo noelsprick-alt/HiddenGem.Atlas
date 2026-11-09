@@ -159,5 +159,31 @@ export function renderGuides(ctx) {
     page({ lang, p: hubP, title: T.hubTitle, desc: T.hubDesc, h1: T.hub, lead: T.hubLead, body: `<ul class="gcards">${cards.join('')}</ul>`, crumbs: [{ n: T.hub }], alt: `${o}/guide/` });
     OUT.push({ path: `${lang}/guides.json`, html: JSON.stringify(idx) });
   }
+
+  // ---- Weiterleitungen: falsche Slugs, Kurzlinks, 404-Fallback (für Instagram-DMs & Tippfehler) ----
+  const redir = (to) => `<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="robots" content="noindex"><link rel="canonical" href="${BASE}${to}"><meta http-equiv="refresh" content="0;url=${BASE}${to}"><script>location.replace(${JSON.stringify(BASE + to)}+location.hash)</script><title>HiddenGem.Atlas</title></head><body><a href="${BASE}${to}">${BASE}${to}</a></body></html>`;
+  const alias = {}; // kleingeschriebener Schlüssel -> Zielpfad
+  const reserved = new Set(['de', 'en', 'g', 'data', 'data-src', 'images', 'fonts', 'scripts', 'social']);
+  for (const g of GUIDES) {
+    const de = g.slug, en = g.slug_en || g.slug;
+    // /en/guide/<de-slug>/ -> EN, /de/guide/<en-slug>/ -> DE
+    if (de !== en) { OUT.push({ path: `en/guide/${de}/index.html`, html: redir(gPath(g, 'en')) }); OUT.push({ path: `de/guide/${en}/index.html`, html: redir(gPath(g, 'de')) }); }
+    // Kurzlinks /g/<slug>/ -> englischer Guide (Instagram-Publikum ist überwiegend englischsprachig)
+    for (const sl of new Set([de, en])) OUT.push({ path: `g/${sl}/index.html`, html: redir(gPath(g, 'en')) });
+    for (const sl of new Set([de, en])) {
+      alias[sl] = gPath(g, 'en'); alias[`g/${sl}`] = gPath(g, 'en');
+      alias[`en/guide/${sl}`] = gPath(g, 'en'); alias[`de/guide/${sl}`] = gPath(g, 'de');
+    }
+  }
+  alias['guide'] = 'en/guide/'; alias['guides'] = 'en/guide/'; alias['en/guide'] = 'en/guide/'; alias['de/guide'] = 'de/guide/'; alias['quiz'] = 'quiz/';
+  const basePath = new URL(BASE).pathname; // z. B. /HiddenGem.Atlas/
+  OUT.push({ path: '404.html', html: `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>HiddenGem.Atlas – page not found</title>
+<style>body{font-family:system-ui,sans-serif;background:#fdf8f0;color:#1a1208;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0;padding:16px;text-align:center}a{color:#c97a2a;font-weight:600}</style>
+<script>(function(){var A=${JSON.stringify(alias)};var B=${JSON.stringify(basePath.toLowerCase().split('/').filter(Boolean).pop() || '')};
+var s=decodeURIComponent(location.pathname).toLowerCase().split('/').filter(function(x){return x&&x!=='index.html';});
+var k=s.indexOf(B);if(k>=0)s=s.slice(k+1);var r=s.join('/').split(' ').join('-');
+var t=A[r]||A[s[s.length-1]];var gi=s.indexOf('guide');if(!t&&gi>=0&&s[gi+1])t=A[s[gi+1]];
+if(t){location.replace(${JSON.stringify(BASE)}+t+location.hash);}})();</script></head>
+<body><div><h1>🧭 Oops – this page moved</h1><p>All free city guides: <a href="${BASE}en/guide/">English</a> · <a href="${BASE}de/guide/">Deutsch</a></p><p><a href="${BASE}">HiddenGem.Atlas</a></p></div></body></html>` });
   return count;
 }
