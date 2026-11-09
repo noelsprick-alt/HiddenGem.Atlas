@@ -300,6 +300,7 @@ for (const o of OUT) { const f = path.join(ROOT, o.path); fs.mkdirSync(path.dirn
 // lastmod nur, wenn echt bekannt (Guides: Feld "updated") – sonst weglassen, damit Google dem Datum vertraut.
 const urlTag = (s) => `<url><loc>${BASE}${s.p}</loc>${s.lastmod ? `<lastmod>${s.lastmod}</lastmod>` : ''}${s.alt ? Object.entries(s.alt).map(([l, ap]) => `<xhtml:link rel="alternate" hreflang="${l}" href="${BASE}${ap}"/>`).join('') : ''}</url>`;
 const smWrap = (list, home) => `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${home ? `<url><loc>${BASE}</loc><lastmod>${TODAY}</lastmod></url>\n` : ''}${list.map(urlTag).join('\n')}\n</urlset>\n`;
+sitemap.push({ p: 'quiz/' });
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), smWrap(sitemap, true));
 // Eigene Sitemap nur mit Guides + Blog (die wichtigsten Seiten) – in der Search Console zuerst einreichen.
 fs.writeFileSync(path.join(ROOT, 'sitemap-guides.xml'), smWrap(sitemap.filter((x) => /\/(guide|blog)\//.test(x.p)), true));
@@ -343,3 +344,6 @@ footer{border-top:1px solid var(--line);padding:24px 16px;text-align:center;font
 @media(max-width:620px){.pl.two{columns:1}}
 `);
 console.log(`Seiten: ${OUT.length} (Länder ${countries.length}×2, Blog ${blogN}, Guides ${guideN}) · Sitemap-URLs: ${sitemap.length + 1} · Basis ${BASE}`);
+
+// Fragenbank für das Reise-Quiz (quiz/index.html) neu bauen
+await import('./build-quiz.mjs');

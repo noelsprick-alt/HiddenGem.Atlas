@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Travel Quiz – 12,000+ questions, challenge your friends | HiddenGem.Atlas</title>
+<meta name="description" content="How well do you know the world? Free travel quiz with over 12,000 questions on capitals, flags, UNESCO sites, hidden gems and travel trivia. Play solo, daily or challenge your friends – in English, German or Spanish.">
+<link rel="canonical" href="https://noelsprick-alt.github.io/HiddenGem.Atlas/quiz/">
+<meta property="og:title" content="HiddenGem.Atlas Travel Quiz – can you beat me?">
+<meta property="og:description" content="12,000+ travel questions. Play solo, daily or challenge a friend.">
+<meta property="og:image" content="https://noelsprick-alt.github.io/HiddenGem.Atlas/social/stories/story-all-guides.jpg">
+<meta name="theme-color" content="#1a0e04">
+<style>
+@font-face{font-family:'DM Sans';font-weight:100 1000;font-display:swap;src:url(../fonts/dm-sans-latin-wght-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant';font-weight:600;font-display:swap;src:url(../fonts/cormorant-garamond-latin-600-normal.woff2) format('woff2')}
+:root{--bg:#fdf8f0;--bg2:#f7f0e4;--card:#fff;--text:#1a1208;--text2:#5c4a2a;--gold:#c97a2a;--yel:#ffd84c;--line:rgba(90,60,20,.16);--ok:#2e7d4f;--bad:#c0392b;--dark:#1a0e04}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16110a;--bg2:#211910;--card:#2a2014;--text:#f3ead9;--text2:#c9b793;--gold:#e8923a;--line:rgba(240,220,180,.14)}}
+:root[data-theme="dark"]{--bg:#16110a;--bg2:#211910;--card:#2a2014;--text:#f3ead9;--text2:#c9b793;--gold:#e8923a;--line:rgba(240,220,180,.14)}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,sans-serif;font-size:17px;line-height:1.45}
+a{color:var(--gold)}
+header{background:var(--dark);color:#f3ead9;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+header a.logo{color:#f3ead9;text-decoration:none;font-family:'Cormorant',serif;font-size:24px}
+header a.logo em{color:var(--gold);font-style:italic}
+.langs button{background:none;border:1px solid rgba(255,255,255,.35);color:#f3ead9;border-radius:14px;padding:3px 10px;margin-left:4px;cursor:pointer;font:inherit;font-size:14px}
+.langs button.on{background:var(--gold);border-color:var(--gold);color:#fff}
+main{max-width:680px;margin:0 auto;padding:16px 16px 60px}
+h1,h2{font-family:'Cormorant',serif;font-weight:600;line-height:1.1;margin:.3em 0}
+h1{font-size:40px}h2{font-size:28px}
+.lead{color:var(--text2)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:12px;padding:13px 18px;font:inherit;font-weight:700;cursor:pointer;background:var(--gold);color:#fff;text-decoration:none;min-height:48px}
+.btn.alt{background:transparent;color:var(--gold);border:2px solid var(--gold)}
+.btn.big{width:100%;font-size:18px;margin:6px 0}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>*{flex:1 1 200px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.chip{border:1px solid var(--line);background:var(--bg2);color:var(--text);border-radius:20px;padding:7px 13px;font:inherit;font-size:15px;cursor:pointer}
+.chip.on{background:var(--yel);border-color:var(--yel);color:#111;font-weight:700}
+input[type=text]{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--text);font:inherit}
+.meta{color:var(--text2);font-size:14px}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--text2);margin-bottom:6px}
+.bar{height:8px;background:var(--bg2);border-radius:8px;overflow:hidden;margin:6px 0 12px}
+.bar i{display:block;height:100%;background:var(--gold);width:100%;transition:width .2s linear}
+.qtext{font-size:22px;font-weight:700;margin:6px 0 4px}
+.qsub{color:var(--text2);margin-bottom:10px;font-style:italic}
+.flag{font-size:110px;text-align:center;line-height:1.1}
+.opts{display:grid;gap:10px;margin-top:10px}
+.opt{text-align:left;border:2px solid var(--line);background:var(--card);color:var(--text);border-radius:14px;padding:13px 15px;font:inherit;font-weight:600;cursor:pointer;min-height:54px}
+.opt:hover{border-color:var(--gold)}
+.opt.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+.opt.bad{background:var(--bad);border-color:var(--bad);color:#fff}
+.opt:disabled{cursor:default}
+.fb{margin-top:12px;font-weight:600}
+.score{font-family:'Cormorant',serif;font-size:64px;color:var(--gold);line-height:1;margin:6px 0}
+.grid{font-size:21px;letter-spacing:1px;margin:6px 0;white-space:nowrap}
+.banner{background:var(--yel);color:#111;border-radius:14px;padding:12px 14px;font-weight:700;margin:10px 0}
+table{width:100%;border-collapse:collapse}
+td,th{padding:8px;border-bottom:1px solid var(--line);text-align:left}
+.hidden{display:none}
+.streak{color:var(--gold);font-weight:700}
+footer{max-width:680px;margin:0 auto;padding:0 16px 40px;color:var(--text2);font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="../">Hidden<em>Gem</em>.Atlas</a>
+  <div class="langs"><button data-l="en">EN</button><button data-l="de">DE</button><button data-l="es">ES</button></div>
+</header>
+<main id="app"><noscript><h1>Travel Quiz</h1><p>Please enable JavaScript to play the HiddenGem.Atlas travel quiz with over 12,000 questions.</p></noscript></main>
+<footer><span id="ft"></span> · <a id="ftg" href="../en/guide/">City guides</a> · <a href="https://www.instagram.com/hiddengem.atlas/" rel="noopener" target="_blank">@hiddengem.atlas</a></footer>
+<script>
+(function () {
+  'use strict';
+  var LS = { get: function (k, d) { try { var v = localStorage.getItem('hgq-' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }, set: function (k, v) { try { localStorage.setItem('hgq-' + k, JSON.stringify(v)); } catch (e) {} } };
+  var P = new URLSearchParams(location.search);
+  var lang = P.get('l') || LS.get('lang', null) || ((navigator.language || 'en').slice(0, 2));
+  if (['en', 'de', 'es'].indexOf(lang) < 0) lang = 'en';
+  var T = {
+    en: { title: 'Travel Quiz', lead: 'How well do you know the world? {n} questions on capitals, flags, UNESCO sites, hidden gems and travel trivia.', name: 'Your name', solo: 'Play solo (10 questions)', daily: 'Daily challenge', duel: 'Challenge a friend', party: 'Party mode (2–6 players, one phone)', cat: 'Category', start: 'Start', next: 'Next', q: 'Question', pts: 'points', correct: 'Correct!', wrong: 'Wrong – the answer is', timeup: 'Time’s up – the answer is', result: 'Your result', again: 'Play again', home: 'Home', shareDuel: 'Send duel link', copy: 'Copy result', copied: 'Copied ✓', wa: 'Send via WhatsApp', challenged: '{name} challenged you: {s} points ({k}/10). Can you beat it?', accept: 'Accept challenge', you: 'You', win: 'You win! 🏆', lose: '{name} wins this time.', draw: 'Draw!', rematch: 'Rematch', players: 'Players', addP: 'Add player', turn: '{name}, your turn!', ready: 'I’m ready', board: 'Scoreboard', best: 'Your best', games: 'games', dailyDone: 'You already played today’s challenge – come back tomorrow or play solo.', guideCta: 'Free {city} guide →', allGuides: 'All free city guides', shareText: 'I scored {s} points ({k}/10) in the HiddenGem.Atlas travel quiz {g}\nCan you beat me? 👉 {u}', dailyText: 'HiddenGem Travel Quiz – Daily #{d}: {k}/10 {g}\nPlay: {u}', streak: 'streak', ft: 'Questions based on the HiddenGem.Atlas places database',
+      cats: { mix: 'Mix', c: 'Capitals', f: 'Flags', k: 'Continents', w: 'Landmarks', u: 'UNESCO', g: 'Hidden gems', x: 'Wild stories', t: 'Travel trivia' },
+      qc: 'What is the capital of {c}?', qf: 'Which country does this flag belong to?', qk: 'On which continent is {c}?', qw: 'In which country is “{x}”?', qwt: 'Where in {c} is “{x}”?', qwd: 'Which place is this?', qwds: '“{d}” – in {t}, {c}', qu: 'In which country is the UNESCO World Heritage Site “{x}”?', quy: 'Since which year has “{x}” been a UNESCO World Heritage Site?', qut: 'Is “{x}” natural or cultural World Heritage?', nat: 'Natural heritage', cul: 'Cultural heritage', qg: 'Which city is “{x}” in?', qx: 'Where does this happen?',
+      conts: { EU: 'Europe', AS: 'Asia', AF: 'Africa', NA: 'North & Central America', SA: 'South America', OC: 'Oceania' } },
+    de: { title: 'Reise-Quiz', lead: 'Wie gut kennst du die Welt? {n} Fragen zu Hauptstädten, Flaggen, UNESCO-Welterbe, Hidden Gems und Reisewissen.', name: 'Dein Name', solo: 'Solo spielen (10 Fragen)', daily: 'Tages-Challenge', duel: 'Freund herausfordern', party: 'Party-Modus (2–6 Spieler, ein Handy)', cat: 'Kategorie', start: 'Los geht’s', next: 'Weiter', q: 'Frage', pts: 'Punkte', correct: 'Richtig!', wrong: 'Falsch – richtig ist', timeup: 'Zeit abgelaufen – richtig ist', result: 'Dein Ergebnis', again: 'Nochmal spielen', home: 'Start', shareDuel: 'Duell-Link senden', copy: 'Ergebnis kopieren', copied: 'Kopiert ✓', wa: 'Per WhatsApp senden', challenged: '{name} fordert dich heraus: {s} Punkte ({k}/10). Schaffst du mehr?', accept: 'Herausforderung annehmen', you: 'Du', win: 'Du gewinnst! 🏆', lose: 'Diesmal gewinnt {name}.', draw: 'Unentschieden!', rematch: 'Revanche', players: 'Spieler', addP: 'Spieler hinzufügen', turn: '{name}, du bist dran!', ready: 'Bereit', board: 'Rangliste', best: 'Dein Rekord', games: 'Spiele', dailyDone: 'Die heutige Challenge hast du schon gespielt – morgen gibt’s eine neue, oder spiel solo.', guideCta: 'Kostenloser {city}-Guide →', allGuides: 'Alle kostenlosen Stadt-Guides', shareText: 'Ich habe {s} Punkte ({k}/10) im HiddenGem.Atlas Reise-Quiz {g}\nSchlägst du mich? 👉 {u}', dailyText: 'HiddenGem Reise-Quiz – Tag #{d}: {k}/10 {g}\nSpielen: {u}', streak: 'Serie', ft: 'Fragen aus der Ortsdatenbank von HiddenGem.Atlas',
+      cats: { mix: 'Mix', c: 'Hauptstädte', f: 'Flaggen', k: 'Kontinente', w: 'Sehenswürdigkeiten', u: 'UNESCO', g: 'Hidden Gems', x: 'Verrückte Geschichten', t: 'Reisewissen' },
+      qc: 'Was ist die Hauptstadt von {c}?', qf: 'Zu welchem Land gehört diese Flagge?', qk: 'Auf welchem Kontinent liegt {c}?', qw: 'In welchem Land liegt „{x}“?', qwt: 'Wo in {c} liegt „{x}“?', qwd: 'Welcher Ort ist das?', qwds: '„{d}“ – in {t}, {c}', qu: 'In welchem Land liegt das UNESCO-Welterbe „{x}“?', quy: 'Seit welchem Jahr ist „{x}“ UNESCO-Welterbe?', qut: 'Ist „{x}“ Natur- oder Kulturerbe?', nat: 'Naturerbe', cul: 'Kulturerbe', qg: 'In welcher Stadt liegt „{x}“?', qx: 'Wo passiert das?',
+      conts: { EU: 'Europa', AS: 'Asien', AF: 'Afrika', NA: 'Nord- & Mittelamerika', SA: 'Südamerika', OC: 'Ozeanien' } },
+    es: { title: 'Quiz de viajes', lead: '¿Cuánto conoces el mundo? {n} preguntas sobre capitales, banderas, Patrimonio de la UNESCO, joyas ocultas y cultura viajera.', name: 'Tu nombre', solo: 'Jugar solo (10 preguntas)', daily: 'Reto diario', duel: 'Retar a un amigo', party: 'Modo fiesta (2–6 jugadores, un móvil)', cat: 'Categoría', start: 'Empezar', next: 'Siguiente', q: 'Pregunta', pts: 'puntos', correct: '¡Correcto!', wrong: 'Incorrecto – la respuesta es', timeup: 'Se acabó el tiempo – la respuesta es', result: 'Tu resultado', again: 'Jugar otra vez', home: 'Inicio', shareDuel: 'Enviar reto', copy: 'Copiar resultado', copied: 'Copiado ✓', wa: 'Enviar por WhatsApp', challenged: '{name} te reta: {s} puntos ({k}/10). ¿Puedes superarlo?', accept: 'Aceptar reto', you: 'Tú', win: '¡Ganas! 🏆', lose: 'Esta vez gana {name}.', draw: '¡Empate!', rematch: 'Revancha', players: 'Jugadores', addP: 'Añadir jugador', turn: '¡{name}, te toca!', ready: 'Listo', board: 'Clasificación', best: 'Tu récord', games: 'partidas', dailyDone: 'Ya jugaste el reto de hoy – vuelve mañana o juega solo.', guideCta: 'Guía gratis de {city} →', allGuides: 'Todas las guías gratis', shareText: 'Hice {s} puntos ({k}/10) en el quiz de viajes de HiddenGem.Atlas {g}\n¿Me superas? 👉 {u}', dailyText: 'HiddenGem Quiz de viajes – Día #{d}: {k}/10 {g}\nJuega: {u}', streak: 'racha', ft: 'Preguntas basadas en la base de lugares de HiddenGem.Atlas',
+      cats: { mix: 'Mix', c: 'Capitales', f: 'Banderas', k: 'Continentes', w: 'Lugares', u: 'UNESCO', g: 'Joyas ocultas', x: 'Historias locas', t: 'Cultura viajera' },
+      qc: '¿Cuál es la capital de {c}?', qf: '¿De qué país es esta bandera?', qk: '¿En qué continente está {c}?', qw: '¿En qué país está «{x}»?', qwt: '¿Dónde está «{x}» en {c}?', qwd: '¿Qué lugar es este?', qwds: '«{d}» – en {t}, {c}', qu: '¿En qué país está el Patrimonio Mundial «{x}»?', quy: '¿Desde qué año es «{x}» Patrimonio Mundial?', qut: '¿«{x}» es patrimonio natural o cultural?', nat: 'Patrimonio natural', cul: 'Patrimonio cultural', qg: '¿En qué ciudad está «{x}»?', qx: '¿Dónde pasa esto?',
+      conts: { EU: 'Europa', AS: 'Asia', AF: 'África', NA: 'Norte y Centroamérica', SA: 'Sudamérica', OC: 'Oceanía' } }
+  };
+  var D = null, app = document.getElementById('app'), t = T[lang];
+  var BASE = location.href.split('/quiz/')[0] + '/';
+  function f(s, o) { return String(s).replace(/\{(\w+)\}/g, function (m, k) { return o && o[k] != null ? o[k] : m; }); }
+  function h(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  var DN = null; try { DN = new Intl.DisplayNames([lang], { type: 'region' }); } catch (e) {}
+  function cn(cc) { try { var n = DN && DN.of(cc); return n && n !== cc ? n : cc; } catch (e) { return cc; } }
+  function flag(cc) { return cc.toUpperCase().replace(/./g, function (c) { return String.fromCodePoint(127397 + c.charCodeAt(0)); }); }
+  function cap(cc) { var c = D.caps[cc]; return c ? (lang === 'de' && c[1] ? c[1] : c[0]) : ''; }
+  // --- Zufall mit Seed (gleiche Fragen für beide Duell-Spieler) ---
+  function rng(seed) { var a = seed >>> 0; return function () { a = (a + 0x6D2B79F5) >>> 0; var x = a; x = Math.imul(x ^ (x >>> 15), x | 1); x ^= x + Math.imul(x ^ (x >>> 7), x | 61); return ((x ^ (x >>> 14)) >>> 0) / 4294967296; }; }
+  function pick(r, a) { return a[Math.floor(r() * a.length)]; }
+  function shuffle(r, a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(r() * (i + 1)); var x = a[i]; a[i] = a[j]; a[j] = x; } return a; }
+  function uniq(a) { var s = {}; return a.filter(function (x) { var k = String(x).toLowerCase(); if (s[k]) return false; s[k] = 1; return true; }); }
+  var byCont = {}, towns = {}, namesByCc = {}, curTowns = [];
+  function prep() {
+    Object.keys(D.cont).forEach(function (cc) { (byCont[D.cont[cc]] = byCont[D.cont[cc]] || []).push(cc); });
+    D.q.forEach(function (q) {
+      if (q[0] === 'w') { if (q[3]) { (towns[q[2]] = towns[q[2]] || {})[q[3]] = 1; } (namesByCc[q[2]] = namesByCc[q[2]] || []).push(q[1]); }
+      if (q[0] === 'x') curTowns.push([q[3], q[4]]);
+    });
+    D.byType = {}; D.q.forEach(function (q) { (D.byType[q[0]] = D.byType[q[0]] || []).push(q); });
+  }
+  function others(r, answer, pool, n) { var o = uniq(shuffle(r, pool).filter(function (x) { return String(x).toLowerCase() !== String(answer).toLowerCase(); })).slice(0, n || 3); return o; }
+  function sameCont(cc) { return (byCont[D.cont[cc]] || []).filter(function (x) { return x !== cc; }); }
+  function countryOpts(r, cc) { var pool = sameCont(cc); if (pool.length < 3) pool = Object.keys(D.cont); return others(r, cc, pool).map(cn); }
+  function mk(r, text, sub, answer, wrong, extra) { var opts = shuffle(r, [answer].concat(wrong)); return { text: text, sub: sub || '', opts: opts, a: opts.indexOf(answer), extra: extra || null }; }
+  // --- Fragen bauen ---
+  var builders = {
+    c: function (r) { var cc = pick(r, Object.keys(D.caps)); var pool = sameCont(cc).filter(function (x) { return D.caps[x]; }).map(cap); if (pool.length < 3) pool = Object.keys(D.caps).map(cap); return mk(r, f(t.qc, { c: cn(cc) }), '', cap(cc), others(r, cap(cc), pool)); },
+    f: function (r) { var ccs = Object.keys(D.cont).filter(function (x) { return ['XK', 'HK', 'PS'].indexOf(x) < 0; }); var cc = pick(r, ccs); return mk(r, t.qf, '', cn(cc), countryOpts(r, cc), { flag: flag(cc) }); },
+    k: function (r) { var ccs = Object.keys(D.cont).filter(function (x) { return D.amb.indexOf(x) < 0; }); var cc = pick(r, ccs); var ks = Object.keys(t.conts); return mk(r, f(t.qk, { c: cn(cc) }), '', t.conts[D.cont[cc]], others(r, t.conts[D.cont[cc]], ks.map(function (k) { return t.conts[k]; }))); },
+    w: function (r) {
+      var q = pick(r, D.byType.w), name = q[1], cc = q[2], town = q[3], desc = lang === 'de' ? q[4] : q[5];
+      var tw = Object.keys(towns[cc] || {}), names = uniq(namesByCc[cc] || []);
+      var v = r();
+      if (v < 0.3 && desc && names.length >= 4) return mk(r, t.qwd, f(t.qwds, { d: desc, t: town || cn(cc), c: cn(cc) }), name, others(r, name, names));
+      if (v < 0.5 && town && tw.length >= 4) return mk(r, f(t.qwt, { x: name, c: cn(cc) }), '', town, others(r, town, tw));
+      return mk(r, f(t.qw, { x: name }), '', cn(cc), countryOpts(r, cc));
+    },
+    u: function (r) {
+      var q = pick(r, D.byType.u), name = q[1], cc = q[2], y = q[3], typ = q[4], v = r();
+      if (v < 0.25 && typ !== 2) { var a = typ ? t.nat : t.cul; return mk(r, f(t.qut, { x: name }), '', a, [typ ? t.cul : t.nat]); }
+      if (v < 0.5) { var ys = shuffle(r, [-9, -6, -4, -3, -2, 2, 3, 4, 6, 9]).map(function (d) { return y + d; }).filter(function (z) { return z >= 1978 && z <= 2025; }).slice(0, 3); return mk(r, f(t.quy, { x: name }), '', String(y), ys.map(String)); }
+      return mk(r, f(t.qu, { x: name }), '', cn(cc), countryOpts(r, cc));
+    },
+    g: function (r) {
+      var q = pick(r, D.byType.g), g = D.guides[q[3]], city = lang === 'de' ? g[1] : g[0];
+      var pool = D.guides.filter(function (x) { return x !== g && D.cont[x[4]] === D.cont[g[4]]; }).map(function (x) { return lang === 'de' ? x[1] : x[0]; });
+      if (pool.length < 3) pool = D.guides.filter(function (x) { return x !== g; }).map(function (x) { return lang === 'de' ? x[1] : x[0]; });
+      return mk(r, f(t.qg, { x: lang === 'de' ? q[1] : q[2] }), '', city, others(r, city, pool), { guide: lang === 'de' ? g[3] : g[2], city: city });
+    },
+    x: function (r) {
+      var q = pick(r, D.byType.x), txt = (lang === 'de' ? q[1] : q[2]).split(q[3]).join('…'), lab = function (tw, cc) { return tw + ' (' + cn(cc) + ')'; };
+      var ans = lab(q[3], q[4]);
+      var pool = curTowns.filter(function (z) { return z[0] !== q[3] && D.cont[z[1]] === D.cont[q[4]]; }).map(function (z) { return lab(z[0], z[1]); });
+      if (uniq(pool).length < 3) pool = curTowns.filter(function (z) { return z[0] !== q[3]; }).map(function (z) { return lab(z[0], z[1]); });
+      return mk(r, t.qx, txt, ans, others(r, ans, pool));
+    },
+    t: function (r) { var q = pick(r, D.byType.t); var o = lang === 'de' ? q[3] : q[4]; var qt = lang === 'de' ? q[1] : q[2]; return mk(r, qt, '', o[0], o.slice(1)); }
+  };
+  var MIX = [['c', 15], ['f', 12], ['k', 5], ['w', 24], ['u', 12], ['g', 12], ['x', 8], ['t', 12]];
+  function round(seed, cat) {
+    var r = rng(seed), out = [], seen = {};
+    for (var i = 0, tries = 0; out.length < 10 && tries < 200; tries++) {
+      var ty = cat;
+      if (cat === 'mix') { var w = r() * 100, acc = 0; for (var j = 0; j < MIX.length; j++) { acc += MIX[j][1]; if (w < acc) { ty = MIX[j][0]; break; } } }
+      var q = builders[ty](r); var key = q.text + q.sub + q.opts[q.a]; if (!q || q.opts.length < 2 || seen[key]) continue; seen[key] = 1; q.type = ty; out.push(q);
+    }
+    return out;
+  }
+  // --- Zustand ---
+  var S = { cat: LS.get('cat', 'mix'), name: LS.get('name', ''), players: [], mode: 'solo' };
+  var duel = P.get('d') ? { seed: +P.get('d'), cat: P.get('c') || 'mix', s: +P.get('s') || 0, k: +P.get('k') || 0, name: (P.get('n') || '').slice(0, 20) || 'A friend' } : null;
+  var dayN = Math.floor((Date.now() - Date.UTC(2026, 10, 9)) / 864e5) + 1, daySeed = +(new Date().toISOString().slice(0, 10).replace(/-/g, ''));
+  function setLang(l) { lang = l; t = T[l]; LS.set('lang', l); try { DN = new Intl.DisplayNames([l], { type: 'region' }); } catch (e) {} document.documentElement.lang = l; paintLangs(); home(); }
+  function paintLangs() { document.querySelectorAll('.langs button').forEach(function (b) { b.classList.toggle('on', b.dataset.l === lang); }); document.getElementById('ft').textContent = t.ft; var g = document.getElementById('ftg'); g.textContent = t.allGuides; g.href = BASE + (lang === 'de' ? 'de' : 'en') + '/guide/'; }
+  document.querySelectorAll('.langs button').forEach(function (b) { b.onclick = function () { setLang(b.dataset.l); }; });
+  function fmt(n) { try { return n.toLocaleString(lang); } catch (e) { return String(n); } }
+  function catChips() { return '<div class="chips">' + Object.keys(t.cats).map(function (k) { return '<button class="chip' + (S.cat === k ? ' on' : '') + '" data-c="' + k + '">' + h(t.cats[k]) + '</button>'; }).join('') + '</div>'; }
+  function bindChips() { app.querySelectorAll('.chip[data-c]').forEach(function (b) { b.onclick = function () { S.cat = b.dataset.c; LS.set('cat', S.cat); app.querySelectorAll('.chip[data-c]').forEach(function (x) { x.classList.toggle('on', x === b); }); }; }); }
+  function home() {
+    var best = LS.get('best', 0), games = LS.get('games', 0);
+    var html = '<h1>🧭 ' + h(t.title) + '</h1><p class="lead">' + h(f(t.lead, { n: fmt(D.n) })) + '</p>';
+    if (duel) html += '<div class="banner">⚔️ ' + h(f(t.challenged, { name: duel.name, s: fmt(duel.s), k: duel.k })) + '</div><button class="btn big" id="acc">' + h(t.accept) + '</button>';
+    html += '<div class="card"><label class="meta" for="nm">' + h(t.name) + '</label><input type="text" id="nm" maxlength="20" value="' + h(S.name) + '" placeholder="Noel"><p class="meta" style="margin:10px 0 0">' + h(t.cat) + '</p>' + catChips()
+      + '<button class="btn big" id="solo">▶️ ' + h(t.solo) + '</button><div class="row"><button class="btn alt" id="daily">📅 ' + h(t.daily) + ' #' + dayN + '</button><button class="btn alt" id="party">🎉 ' + h(t.party) + '</button></div>'
+      + (games ? '<p class="meta">' + h(t.best) + ': ' + fmt(best) + ' ' + h(t.pts) + ' · ' + games + ' ' + h(t.games) + '</p>' : '') + '</div>';
+    app.innerHTML = html; bindChips();
+    var nm = document.getElementById('nm'); nm.oninput = function () { S.name = nm.value.trim(); LS.set('name', S.name); };
+    document.getElementById('solo').onclick = function () { S.mode = 'solo'; play([{ n: S.name || t.you }], Math.floor(Math.random() * 2e9), S.cat); };
+    document.getElementById('daily').onclick = function () { if (LS.get('day', 0) === daySeed) { alertBox(t.dailyDone); return; } S.mode = 'daily'; play([{ n: S.name || t.you }], daySeed, 'mix'); };
+    document.getElementById('party').onclick = partySetup;
+    if (duel) document.getElementById('acc').onclick = function () { S.mode = 'duel'; play([{ n: S.name || t.you }], duel.seed, duel.cat); };
+  }
+  function alertBox(msg) { var d = document.createElement('div'); d.className = 'banner'; d.textContent = msg; app.prepend(d); }
+  function partySetup() {
+    var ps = S.players.length ? S.players : [S.name || 'Player 1', 'Player 2'];
+    function paint() {
+      app.innerHTML = '<h2>🎉 ' + h(t.party) + '</h2><div class="card"><p class="meta">' + h(t.players) + '</p>' + ps.map(function (p, i) { return '<input type="text" maxlength="20" data-i="' + i + '" value="' + h(p) + '" style="margin:5px 0">'; }).join('')
+        + (ps.length < 6 ? '<button class="btn alt" id="add" style="margin-top:6px">＋ ' + h(t.addP) + '</button>' : '') + '<p class="meta" style="margin-top:12px">' + h(t.cat) + '</p>' + catChips() + '<button class="btn big" id="go">▶️ ' + h(t.start) + '</button><button class="btn alt big" id="bk">' + h(t.home) + '</button></div>';
+      bindChips();
+      app.querySelectorAll('input[data-i]').forEach(function (inp) { inp.oninput = function () { ps[+inp.dataset.i] = inp.value; }; });
+      var a = document.getElementById('add'); if (a) a.onclick = function () { ps.push('Player ' + (ps.length + 1)); paint(); };
+      document.getElementById('bk').onclick = home;
+      document.getElementById('go').onclick = function () { S.players = ps.map(function (p, i) { return (p || '').trim() || 'Player ' + (i + 1); }); S.mode = 'party'; var base = Math.floor(Math.random() * 2e9); play(S.players.map(function (n, i) { return { n: n, seed: base + i * 7919 }; }), base, S.cat); };
+    }
+    paint();
+  }
+  // --- Spiel ---
+  var timer = null;
+  function play(players, seed, cat) {
+    var pi = 0;
+    players.forEach(function (p) { p.score = 0; p.k = 0; p.grid = ''; p.streak = 0; });
+    function nextPlayer() {
+      if (pi >= players.length) return finish(players, seed, cat);
+      var p = players[pi], qs = round(p.seed || seed, cat), qi = 0;
+      if (players.length > 1) { app.innerHTML = '<div class="card" style="text-align:center"><h2>' + h(f(t.turn, { name: p.n })) + '</h2><button class="btn big" id="rd">' + h(t.ready) + '</button></div>'; document.getElementById('rd').onclick = ask; } else ask();
+      function ask() {
+        if (qi >= qs.length) { pi++; return nextPlayer(); }
+        var q = qs[qi], left = 15, t0 = Date.now(), done = false;
+        app.innerHTML = '<div class="top"><span>' + h(t.q) + ' ' + (qi + 1) + '/10' + (players.length > 1 ? ' · ' + h(p.n) : '') + '</span><span>' + fmt(p.score) + ' ' + h(t.pts) + (p.streak > 1 ? ' · <span class="streak">🔥 ' + p.streak + '</span>' : '') + '</span></div><div class="bar"><i id="tb"></i></div>'
+          + (q.extra && q.extra.flag ? '<div class="flag">' + q.extra.flag + '</div>' : '') + '<div class="qtext">' + h(q.text) + '</div>' + (q.sub ? '<div class="qsub">' + h(q.sub) + '</div>' : '')
+          + '<div class="opts">' + q.opts.map(function (o, i) { return '<button class="opt" data-i="' + i + '">' + h(o) + '</button>'; }).join('') + '</div><div class="fb" id="fb"></div>';
+        var tb = document.getElementById('tb');
+        clearInterval(timer); timer = setInterval(function () { var el = (Date.now() - t0) / 1000; tb.style.width = Math.max(0, 100 - el / left * 100) + '%'; if (el >= left) answer(-1); }, 100);
+        app.querySelectorAll('.opt').forEach(function (b) { b.onclick = function () { answer(+b.dataset.i); }; });
+        function answer(i) {
+          if (done) return; done = true; clearInterval(timer);
+          var el = (Date.now() - t0) / 1000, ok = i === q.a;
+          app.querySelectorAll('.opt').forEach(function (b, j) { b.disabled = true; if (j === q.a) b.classList.add('ok'); else if (j === i) b.classList.add('bad'); });
+          if (ok) { p.k++; p.streak++; p.score += 100 + Math.round(50 * Math.max(0, left - el) / left) + (p.streak >= 3 ? 20 : 0); p.grid += '🟩'; } else { p.streak = 0; p.grid += '🟥'; }
+          var fb = ok ? '✅ ' + t.correct : (i < 0 ? '⏱️ ' + t.timeup : '❌ ' + t.wrong) + ' ' + q.opts[q.a] + '.';
+          var cta = q.extra && q.extra.guide ? ' <a href="' + BASE + q.extra.guide + '" target="_blank" rel="noopener">' + h(f(t.guideCta, { city: q.extra.city })) + '</a>' : '';
+          document.getElementById('fb').innerHTML = h(fb) + cta + '<div style="margin-top:12px"><button class="btn big" id="nx">' + h(t.next) + ' →</button></div>';
+          document.getElementById('nx').onclick = function () { qi++; ask(); };
+        }
+      }
+    }
+    nextPlayer();
+  }
+  function finish(players, seed, cat) {
+    var p = players[0], html = '';
+    LS.set('games', LS.get('games', 0) + players.length);
+    if (S.mode === 'party') {
+      var sorted = players.slice().sort(function (a, b) { return b.score - a.score; });
+      html = '<h2>🏆 ' + h(t.board) + '</h2><div class="card"><table>' + sorted.map(function (x, i) { return '<tr><td>' + (['🥇', '🥈', '🥉'][i] || (i + 1) + '.') + '</td><td><b>' + h(x.n) + '</b><br><span class="meta">' + x.grid + '</span></td><td style="text-align:right">' + fmt(x.score) + '<br><span class="meta">' + x.k + '/10</span></td></tr>'; }).join('') + '</table></div>'
+        + '<button class="btn big" id="again">🔁 ' + h(t.again) + '</button><button class="btn alt big" id="hm">' + h(t.home) + '</button>';
+      app.innerHTML = html;
+      document.getElementById('again').onclick = function () { var base = Math.floor(Math.random() * 2e9); play(S.players.map(function (n, i) { return { n: n, seed: base + i * 7919 }; }), base, cat); };
+      document.getElementById('hm').onclick = home; return;
+    }
+    if (p.score > LS.get('best', 0)) LS.set('best', p.score);
+    if (S.mode === 'daily') LS.set('day', daySeed);
+    var link = BASE + 'quiz/?d=' + seed + '&c=' + cat + '&s=' + p.score + '&k=' + p.k + '&n=' + encodeURIComponent(p.n) + '&l=' + lang;
+    var text = S.mode === 'daily' ? f(t.dailyText, { d: dayN, k: p.k, g: p.grid, u: BASE + 'quiz/' }) : f(t.shareText, { s: fmt(p.score), k: p.k, g: p.grid, u: link });
+    html = '<h2>' + h(t.result) + '</h2><div class="card" style="text-align:center"><div class="score">' + fmt(p.score) + '</div><div>' + p.k + '/10 · ' + h(t.pts) + '</div><div class="grid">' + p.grid + '</div>';
+    if (S.mode === 'duel' && duel) { var res = p.score > duel.s ? t.win : p.score < duel.s ? f(t.lose, { name: duel.name }) : t.draw; html += '<div class="banner">' + h(t.you) + ' ' + fmt(p.score) + ' vs ' + h(duel.name) + ' ' + fmt(duel.s) + ' – ' + h(res) + '</div>'; }
+    html += '</div><button class="btn big" id="sh">⚔️ ' + h(S.mode === 'duel' ? t.rematch : t.shareDuel) + '</button><div class="row"><a class="btn alt" id="wa" target="_blank" rel="noopener">💬 ' + h(t.wa) + '</a><button class="btn alt" id="cp">📋 ' + h(t.copy) + '</button></div>'
+      + '<button class="btn big" id="again" style="margin-top:12px">🔁 ' + h(t.again) + '</button><button class="btn alt big" id="hm">' + h(t.home) + '</button>'
+      + '<div class="card"><a href="' + BASE + (lang === 'de' ? 'de' : 'en') + '/guide/">🗺️ ' + h(t.allGuides) + ' →</a></div>';
+    app.innerHTML = html;
+    document.getElementById('wa').href = 'https://wa.me/?text=' + encodeURIComponent(text);
+    document.getElementById('cp').onclick = function () { var b = this; try { navigator.clipboard.writeText(text).then(function () { b.textContent = t.copied; }); } catch (e) {} };
+    document.getElementById('sh').onclick = function () {
+      var u = S.mode === 'duel' ? BASE + 'quiz/?d=' + Math.floor(Math.random() * 2e9) + '&c=' + cat + '&l=' + lang : link;
+      if (S.mode === 'duel') { duel = null; S.mode = 'solo'; history.replaceState(null, '', BASE + 'quiz/'); return play([{ n: p.n }], +new URL(u).searchParams.get('d'), cat); }
+      if (navigator.share) navigator.share({ title: 'HiddenGem.Atlas Travel Quiz', text: text }).catch(function () {}); else { try { navigator.clipboard.writeText(text); } catch (e) {} this.textContent = t.copied; }
+    };
+    document.getElementById('again').onclick = function () { duel = null; S.mode = 'solo'; play([{ n: p.n }], Math.floor(Math.random() * 2e9), cat); };
+    document.getElementById('hm').onclick = function () { duel = null; history.replaceState(null, '', BASE + 'quiz/'); home(); };
+  }
+  paintLangs();
+  fetch('../data/quiz.json').then(function (r) { return r.json(); }).then(function (d) { D = d; prep(); home(); }).catch(function () { app.innerHTML = '<p>Quiz could not be loaded – please reload.</p>'; });
+})();
+</script>
+</body>
+</html>
