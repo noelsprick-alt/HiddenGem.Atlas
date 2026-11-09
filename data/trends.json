@@ -1,9 +1,23 @@
 {
-  "updated": "08.11.2026",
-  "generated": "2026-11-08T11:47:05.518Z",
+  "updated": "09.11.2026",
+  "generated": "2026-11-09T13:42:34.092Z",
   "maxAgeDays": 14,
   "count": 3,
   "items": [
+    {
+      "id": "auto-trauminsel-unweit-von-australien-die-insel-rot",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-11-09",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/ziele/inseln/geheimtipp-insel-roti-in-indonesien",
+      "title": "Trauminsel unweit von Australien: Die Insel Roti in Indonesien ist noch ein echter Geheimtipp",
+      "desc": "Indonesien haben Südostasien-Liebhaber längst erkundet oder mindestens auf ihre Reisewunschzettel geschrieben. Doch für die meisten bedeutet ein Traumurlaub in dieser Region der Besuch Balis oder seiner benachbarten Insel. Eine Insel in ...",
+      "title_en": "Dream island not far from Australia: The island of Roti in Indonesia is still a real insider tip",
+      "desc_en": "Southeast Asia lovers have long since explored Indonesia or at least written it on their travel wish lists. But for most people, a dream vacation in this region means visiting Bali or its neighboring island. An island in..."
+    },
     {
       "id": "auto-geheimtipps-in-deutschland-6-idyllische-orte-u",
       "cat": "Reise",
@@ -31,20 +45,6 @@
       "desc": "Matcha statt Kaffee, 30 Minuten Bewegung am Tag, 10.000 Schritte, mindestens zwei Liter Wasser und bitte acht Stunden Schlaf: Gesundheit ist heutzutage ein echter Fulltime-Job. Ein Buzzword, das uns dabei ziemlich sicher um die Ohren ...",
       "title_en": "Does vacation have to be healthy now?: What the trend for longevity hotels is all about",
       "desc_en": "Matcha instead of coffee, 30 minutes of exercise a day, 10,000 steps, at least two liters of water and, please, eight hours of sleep: health is a real full-time job these days. A buzzword that will almost certainly ring around our ears..."
-    },
-    {
-      "id": "auto-travelbook-autorin-vor-ort-japan-und-die-kultu",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-10-26",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/ziele/laender/japan-kultur-der-stille",
-      "title": "TRAVELBOOK-Autorin vor Ort: Japan und die Kultur der Stille - eine Reisende berichtet",
-      "desc": "Wer zum ersten Mal in Japan ist, dem wird auffallen, wie leise es selbst in vollen Zügen oder auf belebten Marktstraßen ist. Während uns Stille manchmal peinlich ist, wird in Japan Ruhe als unverzichtbarer Teil des Alltags betrachtet. ...",
-      "title_en": "TRAVELBOOK author on site: Japan and the culture of silence - a traveler reports",
-      "desc_en": "Anyone visiting Japan for the first time will notice how quiet it is, even in crowded places or on busy market streets. While we are sometimes embarrassed by silence, in Japan quiet is considered an indispensable part of everyday life. ..."
     }
   ]
 }
