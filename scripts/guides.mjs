@@ -29,7 +29,7 @@ const GT = {
     mapsH: '📍 Diesen Guide in Google Maps speichern', mapsA: 'Schnell: Route öffnen', mapsAp: 'Öffnet alle Orte als Route in Google Maps – dort kannst du sie mit „Speichern“ in eine Liste legen.', mapsPart: 'Teil',
     mapsB: 'Dauerhaft: als eigene Karte (2 Minuten)', mapsSteps: ['Lade die Datei mit allen Pins herunter (KML-Button unten).', 'Öffne <a href="https://www.google.com/maps/d/" target="_blank" rel="noopener">Google My Maps</a> → „Neue Karte erstellen“ → „Importieren“ → Datei auswählen.', 'Fertig – alle Orte stehen exakt an der richtigen Stelle, mit Nummer, Tipp und Link zum Guide.', 'In der Google-Maps-App findest du die Karte unter „Gespeichert“ → „Karten“, auch unterwegs.'], csv: 'Ortsliste herunterladen (CSV)', mapsCh: 'Einzeln speichern', mapsC: 'Bei jedem Ort führt „In Google Maps öffnen & speichern“ direkt zum Ort – dort auf „Speichern“ tippen.',
     csvH: ['Name', 'Ort', 'Kategorie', 'Kostenlos', 'Tipp', 'Guide', 'Breitengrad', 'Längengrad'], cMust: 'Must-See', cGem: 'Hidden Gem', yes: 'ja',
-    mapT: (n) => `🗺️ Karte: alle ${n} Orte`, mapP: 'Tippe auf eine Nummer für Details. Gelb = Must-See, Lila = Hidden Gem, 🆓 = kostenlos.', mapLoad: 'Karte wird geladen …',
+    mapT: (n) => `🗺️ Karte: ${n} Orte auf einen Blick`, mapP: 'Tippe auf eine Nummer für Details. Gelb = Must-See, Lila = Hidden Gem, 🆓 = kostenlos.', mapLoad: 'Karte wird geladen …',
     kml: 'Alle Pins für Google Maps (KML)', kmlP: 'Ein Klick → in Google My Maps importieren → alle Orte als eigene Karte in deiner Google-Maps-App.', how: 'So geht’s', print: 'Als PDF speichern / drucken', more2: 'Zum Ort im Guide', uspMap: 'Interaktive Karte' },
   en: { hub: 'City guides', back: '← All city guides', by: 'By Noel', upd: 'updated', toc: 'Table of contents', facts: 'At a glance',
     disc: 'This guide contains affiliate links (GetYourGuide, Omio). If you book through them I earn a small commission – you never pay a cent more.',
@@ -45,7 +45,7 @@ const GT = {
     mapsH: '📍 Save this guide to Google Maps', mapsA: 'Quick: open as a route', mapsAp: 'Opens all places as a route in Google Maps – tap “Save” there to put them in a list.', mapsPart: 'Part',
     mapsB: 'Permanent: as your own map (2 minutes)', mapsSteps: ['Download the file with all pins (KML button below).', 'Open <a href="https://www.google.com/maps/d/" target="_blank" rel="noopener">Google My Maps</a> → “Create a new map” → “Import” → choose the file.', 'Done – every place sits exactly where it should, with number, tip and a link back to the guide.', 'In the Google Maps app the map appears under “Saved” → “Maps”, also on the go.'], csv: 'Download place list (CSV)', mapsCh: 'Save one by one', mapsC: '“Open & save in Google Maps” under each place takes you straight there – tap “Save”.',
     csvH: ['Name', 'Place', 'Category', 'Free', 'Tip', 'Guide', 'Latitude', 'Longitude'], cMust: 'Must-see', cGem: 'Hidden gem', yes: 'yes',
-    mapT: (n) => `🗺️ Map: all ${n} places`, mapP: 'Tap a number for details. Yellow = must-see, purple = hidden gem, 🆓 = free.', mapLoad: 'Loading map …',
+    mapT: (n) => `🗺️ Map: ${n} places at a glance`, mapP: 'Tap a number for details. Yellow = must-see, purple = hidden gem, 🆓 = free.', mapLoad: 'Loading map …',
     kml: 'All pins for Google Maps (KML)', kmlP: 'One click → import into Google My Maps → every place as your own map in the Google Maps app.', how: 'How it works', print: 'Save as PDF / print', more2: 'See it in the guide', uspMap: 'Interactive map' },
 };
 
