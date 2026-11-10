@@ -6,7 +6,7 @@
  "flag": "🇭🇺",
  "city": "Budapest",
  "city_en": "Budapest",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Budapest Guide: 14 Orte – Széchenyi-Bad, Ruinenbars, Krankenhaus im Felsen & Hidden Gems",
  "title_en": "Budapest Guide: 14 places – Széchenyi Bath, ruin bars, Hospital in the Rock & hidden gems",
  "desc": "Budapest an einem Tag der Gegensätze: morgens ins Széchenyi-Bad, abends in die Ruinenbar Szimpla Kert, dazu Krankenhaus im Felsen und Flipper-Museum – von Noel.",
@@ -69,7 +69,10 @@
      "text": "Nach Einbruch der Dunkelheit ans Donauufer, wenn das Parlament angestrahlt ist.",
      "text_en": "After dark to the Danube bank when the parliament is lit up.",
      "name_en": "Parliament at night",
-     "q": "Parlament bei Nacht"
+     "q": "Parlament bei Nacht",
+     "photos": [
+      "images/photos/budapest-parlament-nacht.webp"
+     ]
     },
     {
      "name": "Fischerbastei & Matthiaskirche",
@@ -88,7 +91,10 @@
      "name_en": "Buda Castle & Chain Bridge",
      "q": "Chain Bridge Budapest",
      "tip": "Geh abends über die Brücke.",
-     "tip_en": "Walk across the bridge in the evening."
+     "tip_en": "Walk across the bridge in the evening.",
+     "photos": [
+      "images/photos/budapest-kettenbruecke-nacht.webp"
+     ]
     },
     {
      "name": "Große Markthalle",
@@ -98,7 +104,10 @@
      "q": "Great Market Hall Budapest",
      "tip": "Probiere Lángos und vergleiche Preise.",
      "tip_en": "Try lángos and compare prices.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/budapest-markthalle.webp"
+     ]
     },
     {
      "name": "Donau-Promenade & Schuhe am Donauufer",
@@ -164,7 +173,10 @@
      "q": "Dohany Street Synagogue",
      "tip": "Geh tagsüber zur Synagoge.",
      "tip_en": "Go to the synagogue by day.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/budapest-grosse-synagoge.webp"
+     ]
     },
     {
      "name": "Thermalbad Gellért & Rudas",
@@ -183,7 +195,10 @@
      "name_en": "Hungarian cuisine: goulash, lángos & kürtőskalács",
      "q": "Hungarian goulash Budapest",
      "tip": "Probiere Gulasch und Lángos.",
-     "tip_en": "Try goulash and lángos."
+     "tip_en": "Try goulash and lángos.",
+     "photos": [
+      "images/photos/budapest-langos.webp"
+     ]
     }
    ]
   },
@@ -230,5 +245,6 @@
    "a": "Zwei bis drei Tage.",
    "a_en": "Two to three days."
   }
- ]
+ ],
+ "hero": "images/photos/budapest-parlament-nacht.webp"
 }

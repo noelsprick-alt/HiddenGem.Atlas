@@ -6,7 +6,7 @@
  "flag": "🇱🇹",
  "city": "Vilnius",
  "city_en": "Vilnius",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Vilnius Guide: 12 Orte – Užupis, Gediminas-Turm, KGB-Museum, Trakai & Hidden Gems",
  "title_en": "Vilnius Guide: 12 places – Užupis, Gediminas Tower, KGB Museum, Trakai & hidden gems",
  "desc": "Vilnius ohne Massen: Užupis-Republik, Sonnenuntergang auf dem Gediminas-Turm, KGB-Museum, Frank-Zappa-Denkmal und Berg der Kreuze – von Noel.",
@@ -72,7 +72,11 @@
      "q": "Užupis",
      "tip": "Lies die Verfassung an der Wand und trink einen Kaffee im Viertel.",
      "tip_en": "Read the constitution on the wall and have a coffee in the district.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/vilnius-uzupis-schild.webp",
+      "images/photos/vilnius-uzupis-kunst.webp"
+     ]
     },
     {
      "name": "Altstadt von Vilnius",
@@ -82,7 +86,11 @@
      "q": "Vilnius Old Town",
      "tip": "Lass dich in Innenhöfe und Seitengassen treiben.",
      "tip_en": "Drift into courtyards and side streets.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/vilnius-lokys.webp",
+      "images/photos/vilnius-praesidentenpalast.webp"
+     ]
     },
     {
      "name": "Kathedrale & Domplatz",
@@ -101,7 +109,10 @@
      "name_en": "Gate of Dawn (Aušros Vartai)",
      "q": "Gates of Dawn Vilnius",
      "tip": "Sei respektvoll und kleide dich dezent.",
-     "tip_en": "Be respectful and dress modestly."
+     "tip_en": "Be respectful and dress modestly.",
+     "photos": [
+      "images/photos/vilnius-tor-der-morgenroete.webp"
+     ]
     },
     {
      "name": "Universität Vilnius & Innenhöfe",
@@ -176,7 +187,11 @@
      "name_en": "Lithuanian cuisine: cepelinai, šaltibarščiai & kibinai",
      "q": "Cepelinai Vilnius restaurant",
      "tip": "Frag nach Mittagsmenüs und probiere Cepelinai.",
-     "tip_en": "Ask about lunch menus and try cepelinai."
+     "tip_en": "Ask about lunch menus and try cepelinai.",
+     "photos": [
+      "images/photos/vilnius-svyturys-bier.webp",
+      "images/photos/vilnius-litauisch-essen.webp"
+     ]
     }
    ]
   },
@@ -229,5 +244,6 @@
    "a": "Ja, Litauen nutzt den Euro.",
    "a_en": "Yes, Lithuania uses the euro."
   }
- ]
+ ],
+ "hero": "images/photos/vilnius-tor-der-morgenroete.webp"
 }

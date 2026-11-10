@@ -6,9 +6,9 @@
  "flag": "🇩🇪",
  "city": "Hamburg",
  "city_en": "Hamburg",
- "updated": "2026-11-05",
- "title": "Hamburg Guide: 12 Orte – Fischmarkt, Hafen, Speicherstadt & Hidden Gems",
- "title_en": "Hamburg Guide: 12 places – fish market, harbour, Speicherstadt & hidden gems",
+ "updated": "2026-11-10",
+ "title": "Hamburg Guide: 13 Orte – Fischmarkt, Hafen, Speicherstadt & Hidden Gems",
+ "title_en": "Hamburg Guide: 13 places – fish market, harbour, Speicherstadt & hidden gems",
  "desc": "Hamburg nach Noels Tipp: sonntags früh zum Fischmarkt, Hafenrundfahrt zum Nahverkehrstarif und abends auf die Elbphilharmonie-Plaza.",
  "desc_en": "Hamburg by Noel’s tip: the fish market early on Sunday, a harbour tour for the price of a bus ticket and the Elbphilharmonie Plaza in the evening.",
  "gyg_q": "Hamburg",
@@ -100,7 +100,11 @@
      "q": "Reeperbahn Hamburg",
      "tip": "Komm abends, behalte Wertsachen im Blick und meide Lockangebote.",
      "tip_en": "Come in the evening, keep valuables in view and avoid lure offers.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/hamburg-reeperbahn-nacht.webp",
+      "images/photos/hamburg-penny-kiez.webp"
+     ]
     },
     {
      "name": "Alster, Jungfernstieg & Rathaus",
@@ -178,6 +182,25 @@
      "q": "Fischbrötchen Hamburg Landungsbrücken",
      "tip": "Iss ein Fischbrötchen am Hafen und ein Franzbrötchen zum Kaffee.",
      "tip_en": "Eat a fish roll at the harbour and a franzbrötchen with coffee."
+    },
+    {
+     "name": "Schanzenviertel – Schulterblatt & Rote Flora",
+     "name_en": "Schanzenviertel – Schulterblatt & Rote Flora",
+     "q": "Schulterblatt Hamburg",
+     "ll": [
+      53.5622,
+      9.9619
+     ],
+     "gem": false,
+     "free": true,
+     "text": "<p>Das Szeneviertel rund um die Straße Schulterblatt und das ehemalige Theater Rote Flora: Cafés mit Tischen auf dem Gehweg, Street-Art, kleine Läden, Imbisse aus aller Welt und abends volle Bars. Entspannter als die Reeperbahn – und nur rund 15 Minuten zu Fuß entfernt.</p><p>Morgens ist das Viertel ruhig und ideal zum Frühstücken, ab dem späten Nachmittag füllen sich die Plätze. Samstags lohnt der Flohmarkt Flohschanze am Neuen Kamp.</p>",
+     "text_en": "<p>The hip quarter around Schulterblatt street and the former Rote Flora theatre: cafés with pavement tables, street art, small shops, food from all over the world and packed bars at night. More relaxed than the Reeperbahn – and only about 15 minutes away on foot.</p><p>Mornings are quiet and perfect for breakfast; from late afternoon the squares fill up. On Saturdays, the Flohschanze flea market at Neuer Kamp is worth a stop.</p>",
+     "tip": "S-Bahn/U-Bahn bis Sternschanze – von dort zwei Minuten zum Schulterblatt.",
+     "tip_en": "Take the S-/U-Bahn to Sternschanze – Schulterblatt is two minutes away.",
+     "photos": [
+      "images/photos/hamburg-rote-flora.webp",
+      "images/photos/hamburg-schulterblatt.webp"
+     ]
     }
    ]
   },
@@ -230,5 +253,6 @@
    "a": "Wenn du viel Bahn fährst und mehrere Eintritte planst, oft ja; rechne vorher nach.",
    "a_en": "If you travel a lot by train and plan several admissions, often yes; calculate beforehand."
   }
- ]
+ ],
+ "hero": "images/photos/hamburg-reeperbahn-nacht.webp"
 }

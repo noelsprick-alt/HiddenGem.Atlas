@@ -6,7 +6,7 @@
  "flag": "🇩🇪",
  "city": "Rügen",
  "city_en": "Rügen",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Rügen Guide: 11 Orte – Kreidefelsen, Rasender Roland, Prora & Hiddensee",
  "title_en": "Rügen Guide: 11 places – chalk cliffs, Rasender Roland, Prora & Hiddensee",
  "desc": "Rügen: zu Fuß an den Kreidefelsen entlang zum Königsstuhl, mit dem Rasenden Roland nach Binz und das Betonmonument Prora – von Noel.",
@@ -80,7 +80,12 @@
      "q": "Hochuferweg Sassnitz Königsstuhl",
      "tip": "Starte in Sassnitz und fahr abends mit dem Bus zurück.",
      "tip_en": "Start in Sassnitz and take the bus back in the evening.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/ruegen-kreidekueste.webp",
+      "images/photos/ruegen-sassnitz-hafen.webp",
+      "images/photos/ruegen-feuersteine.webp"
+     ]
     },
     {
      "name": "Binz & Bäderarchitektur",
@@ -89,7 +94,12 @@
      "name_en": "Binz & resort architecture",
      "q": "Binz Seebrücke",
      "tip": "Fahr mit dem Rasenden Roland hin und bummle die Promenade entlang.",
-     "tip_en": "Take the Rasender Roland there and stroll along the promenade."
+     "tip_en": "Take the Rasender Roland there and stroll along the promenade.",
+     "photos": [
+      "images/photos/ruegen-binz-seebruecke-abend.webp",
+      "images/photos/ruegen-binz-strand.webp",
+      "images/photos/ruegen-binz-strandbar.webp"
+     ]
     },
     {
      "name": "Jagdschloss Granitz",
@@ -235,5 +245,6 @@
    "a": "Nicht zwingend – Bahn, Bus und Rad reichen für viele Orte, aber für Kap Arkona und den Norden ist ein Auto bequem.",
    "a_en": "Not necessarily – train, bus and bike cover many places, but for Cape Arkona and the north a car is convenient."
   }
- ]
+ ],
+ "hero": "images/photos/ruegen-binz-seebruecke-abend.webp"
 }

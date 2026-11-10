@@ -6,7 +6,7 @@
  "flag": "🇳🇱",
  "city": "Egmond aan Zee",
  "city_en": "Egmond aan Zee",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Egmond aan Zee Guide: 21 Orte – Strand, Dünen, Abtei & Tagesausflüge",
  "title_en": "Egmond aan Zee Guide: 21 places – beach, dunes, abbey & day trips",
  "desc": "Egmond aan Zee an der Nordsee: breiter Strand, Leuchtturm, Dünenreservat, Abtei, Strandpavillons und Cafés – Anreise, Tipps und Tagesplan.",
@@ -76,7 +76,11 @@
      "text_en": "<p>A long, wide sandy beach: clean, spacious and not overcrowded even in the holiday season – parking is scarcer. The water is often cold for swimming.</p><p>The beach is wide and flat, good for walking at low tide, while at high tide the waves come close to the pavilions. Stairs and paths lead down from the promenade; in summer there are lifeguards at supervised sections – pay attention to the flags and do not set up your towel too close to the water.</p><p>The water is the North Sea and often fresh even in summer. A windbreak is worth it even when the sun is out. And because Egmond faces west you can watch the sunset directly over the sea.</p>",
      "tip": "Schau auf die Gezeiten – bei Ebbe ist der Strand am breitesten, bei Flut wird es eng.",
      "tip_en": "Check the tides – the beach is widest at low tide, tight at high tide.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/egmond-aan-zee-strand-wellen.webp",
+      "images/photos/egmond-aan-zee-strand-gischt.webp"
+     ]
     },
     {
      "name": "Leuchtturm J.C.J. van Speijk",
@@ -105,7 +109,11 @@
      "name_en": "North Holland Dune Reserve",
      "q": "Noordhollands Duinreservaat",
      "text": "<p>Eines der größten Naturgebiete der Niederlande – zum Wandern, Radfahren und für Vogelbeobachtung. Hier leben Hochlandrinder und Wildpferde.</p><p>Das Reservat erstreckt sich über viele Kilometer entlang der Küste. Es gibt markierte Wanderwege, Radrouten und Aussichtspunkte; mit etwas Glück siehst du Rehe, Füchse oder Greifvögel. Bleib auf den Wegen, denn die Dünen sind empfindlich, und halte Hunde an der Leine, wo es verlangt wird.</p><p>Wenn du die Dünen ohne Menschenmengen erleben willst, geh am Vormittag oder abends los. Nimm Wasser und Proviant mit, denn unterwegs gibt es oft nichts zu kaufen.</p>",
-     "text_en": "<p>One of the largest nature areas in the Netherlands – for walking, cycling and birdwatching. Highland cattle and wild horses live here.</p><p>The reserve stretches for many kilometres along the coast. There are marked hiking trails, cycle routes and viewpoints; with luck you see deer, foxes or birds of prey. Stay on the paths, because the dunes are fragile, and keep dogs on a lead where required.</p><p>If you want to experience the dunes without crowds, set off in the morning or evening. Take water and snacks, because there is often nothing to buy along the way.</p>"
+     "text_en": "<p>One of the largest nature areas in the Netherlands – for walking, cycling and birdwatching. Highland cattle and wild horses live here.</p><p>The reserve stretches for many kilometres along the coast. There are marked hiking trails, cycle routes and viewpoints; with luck you see deer, foxes or birds of prey. Stay on the paths, because the dunes are fragile, and keep dogs on a lead where required.</p><p>If you want to experience the dunes without crowds, set off in the morning or evening. Take water and snacks, because there is often nothing to buy along the way.</p>",
+     "photos": [
+      "images/photos/egmond-aan-zee-duenen-nacht.webp",
+      "images/photos/egmond-aan-zee-duenen-strand.webp"
+     ]
     },
     {
      "name": "Mit dem Rad durch die Dünen (Knotenpunkt-Netz)",
@@ -124,7 +132,10 @@
      "name_en": "Surfing, kiting & beach sports",
      "q": "Egmond aan Zee surfschool",
      "tip": "Frag in der Schule nach Windprognose und Wassertemperatur – und ob ein Anzug im Preis enthalten ist.",
-     "tip_en": "Ask the school about the wind forecast and water temperature – and whether a wetsuit is included in the price."
+     "tip_en": "Ask the school about the wind forecast and water temperature – and whether a wetsuit is included in the price.",
+     "photos": [
+      "images/photos/egmond-aan-zee-kiter.webp"
+     ]
     },
     {
      "name": "Egmond im Winter – Sturm, Wellen & Halbmarathon",
@@ -205,7 +216,11 @@
      "text": "<p>Mehrere Strandpavillons liegen direkt am Meer. Im Uitkijk sitzt du hinter einer großen Fensterfront mit Meerblick und isst Fisch, im Evi Beach brennt im Winter der Kamin. Die Preise sind für die Lage typisch strandnah.</p>",
      "text_en": "<p>Several beach pavilions sit right on the sea. At Uitkijk you sit behind a big window front with a sea view and eat fish, at Evi Beach the stove burns in winter. Prices are typical for a beach location.</p>",
      "tip": "Auch im Winter lohnt sich ein Pavillon: Einige sind beheizt und geschlossen, sodass du bei Wind trocken auf das Meer schauen kannst.",
-     "tip_en": "A pavilion is worth it in winter too: some are heated and enclosed so you can look at the sea dry in the wind."
+     "tip_en": "A pavilion is worth it in winter too: some are heated and enclosed so you can look at the sea dry in the wind.",
+     "photos": [
+      "images/photos/egmond-aan-zee-strandpavillon-sonnenuntergang.webp",
+      "images/photos/egmond-aan-zee-strandpavillon-bier.webp"
+     ]
     },
     {
      "name": "Het Wapen van Egmond",
@@ -229,7 +244,12 @@
      "name_en": "Dutch beach food: kibbeling, herring & poffertjes",
      "q": "Kibbeling Egmond aan Zee",
      "tip": "Probiere Kibbeling zuerst – und teile dir ein Portion Poffertjes, die sind süß und sättigend.",
-     "tip_en": "Try kibbeling first – and share a portion of poffertjes, they are sweet and filling."
+     "tip_en": "Try kibbeling first – and share a portion of poffertjes, they are sweet and filling.",
+     "photos": [
+      "images/photos/egmond-aan-zee-fischbroetchen.webp",
+      "images/photos/egmond-aan-zee-snack.webp",
+      "images/photos/egmond-aan-zee-broodje.webp"
+     ]
     }
    ]
   },
@@ -356,5 +376,6 @@
    "a": "Egmond liegt an der Westküste, du siehst die Sonne also direkt im Meer untergehen – am Strand, an einem Pavillon oder vom kleinen Aussichtsturm im Wald.",
    "a_en": "Egmond is on the west coast, so you see the sun set directly into the sea – on the beach, at a pavilion or from the small lookout tower in the woods."
   }
- ]
+ ],
+ "hero": "images/photos/egmond-aan-zee-strand-wellen.webp"
 }

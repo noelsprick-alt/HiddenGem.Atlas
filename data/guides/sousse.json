@@ -6,7 +6,7 @@
  "flag": "🇹🇳",
  "city": "Sousse",
  "city_en": "Sousse",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Sousse Guide: 11 Orte – Medina, Ribat, El Jem, Kairouan & mehr",
  "title_en": "Sousse Guide: 11 places – medina, Ribat, El Jem, Kairouan & more",
  "desc": "Sousse in Tunesien: hinter dem Hotelstrand die UNESCO-Medina, der Ribat-Turm und El Jem – von Noel.",
@@ -63,7 +63,10 @@
      "hours_en": "daily about 8 am–7 pm",
      "tip": "Komm früh am Morgen und steig zuerst auf den Ribat-Turm.",
      "tip_en": "Come early in the morning and climb the Ribat tower first.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/sousse-medina-dachterrasse.webp"
+     ]
     },
     {
      "name": "El Jem – römisches Amphitheater",
@@ -72,7 +75,11 @@
      "name_en": "El Jem – Roman amphitheatre",
      "q": "Amphitheatre of El Jem",
      "tip": "Fahr früh mit dem Zug oder Louage und nimm genug Wasser mit.",
-     "tip_en": "Go early by train or louage and take enough water."
+     "tip_en": "Go early by train or louage and take enough water.",
+     "photos": [
+      "images/photos/sousse-el-jem-kamel.webp",
+      "images/photos/sousse-el-jem-arena.webp"
+     ]
     },
     {
      "name": "Große Moschee von Sousse",
@@ -231,5 +238,6 @@
    "a": "Ja, in Souks und kleinen Lokalen wird bar gezahlt (Dinar). Größere Hotels nehmen Karten.",
    "a_en": "Yes, in souks and small eateries you pay cash (dinar). Larger hotels take cards."
   }
- ]
+ ],
+ "hero": "images/photos/sousse-medina-dachterrasse.webp"
 }

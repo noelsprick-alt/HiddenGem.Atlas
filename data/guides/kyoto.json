@@ -7,7 +7,7 @@
  "flag": "🇯🇵",
  "city": "Kyoto",
  "city_en": "Kyoto",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Kyoto Guide: 12 Orte – Fushimi Inari, Higashiyama, Arashiyama & Hidden Gems",
  "title_en": "Kyoto Guide: 12 places – Fushimi Inari, Higashiyama, Arashiyama & hidden gems",
  "desc": "Kyoto 2022: Fushimi Inari fast allein, Higashiyama, Otagi Nenbutsu-ji mit 1.200 Steinfiguren – von Noel, mit Anreise und Tagesplan.",
@@ -66,7 +66,11 @@
      "q": "Fushimi Inari Taisha Kyoto",
      "tip": "Komm bei Sonnenaufgang und lauf höher, als die meisten gehen – oben wird es leerer.",
      "tip_en": "Come at sunrise and walk higher than most – it gets emptier at the top.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/kyoto-fushimi-inari.webp",
+      "images/photos/kyoto-fushimi-inari-tore.webp"
+     ]
     },
     {
      "name": "Higashiyama",
@@ -84,7 +88,11 @@
      "name_en": "Kiyomizu-dera",
      "q": "Kiyomizu-dera Kyoto",
      "tip": "Geh früh am Morgen oder bei Abendbeleuchtung – tagsüber ist es voll.",
-     "tip_en": "Go early in the morning or at evening illumination – by day it is crowded."
+     "tip_en": "Go early in the morning or at evening illumination – by day it is crowded.",
+     "photos": [
+      "images/photos/kyoto-kiyomizu-sonnenuntergang.webp",
+      "images/photos/kyoto-kiyomizu-tor.webp"
+     ]
     },
     {
      "name": "Gion & Hanamikōji",
@@ -113,7 +121,12 @@
      "name_en": "Kinkaku-ji – the Golden Pavilion",
      "q": "Kinkaku-ji Kyoto",
      "tip": "Komm zur Öffnung – später stehen die Menschen Schlange.",
-     "tip_en": "Come at opening – later people queue."
+     "tip_en": "Come at opening – later people queue.",
+     "photos": [
+      "images/photos/kyoto-kinkakuji.webp",
+      "images/photos/kyoto-kinkakuji-teich.webp",
+      "images/photos/kyoto-kinkakuji-garten.webp"
+     ]
     },
     {
      "name": "Philosophenweg & Ginkaku-ji",
@@ -133,7 +146,11 @@
      "q": "Nishiki Market Kyoto",
      "tip": "Komm am Vormittag und iss am Stand.",
      "tip_en": "Come in the morning and eat at the stall.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/kyoto-nishiki-tenmangu.webp",
+      "images/photos/kyoto-nishiki-markt.webp"
+     ]
     }
    ]
   },
@@ -248,5 +265,6 @@
    "a": "Zur Kirschblüte (Ende März bis Anfang April) und im Herbst (November) – dann ist es aber sehr voll. Frühling und Herbst früh morgens sind am besten.",
    "a_en": "During cherry blossom (late March to early April) and in autumn (November) – but then it is very crowded. Spring and autumn early in the morning are best."
   }
- ]
+ ],
+ "hero": "images/photos/kyoto-kinkakuji.webp"
 }

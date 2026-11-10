@@ -7,9 +7,9 @@
  "flag": "🇻🇳",
  "city": "Hanoi",
  "city_en": "Hanoi",
- "updated": "2026-11-05",
- "title": "Hanoi Guide: 14 Orte – Pho, Hoan-Kiem-See, Eierkaffee, Bia Hơi & Hidden Gems",
- "title_en": "Hanoi Guide: 14 places – pho, Hoan Kiem Lake, egg coffee, bia hơi & hidden gems",
+ "updated": "2026-11-10",
+ "title": "Hanoi Guide: 15 Orte – Pho, Hoan-Kiem-See, Eierkaffee, Bia Hơi & Hidden Gems",
+ "title_en": "Hanoi Guide: 15 places – pho, Hoan Kiem Lake, egg coffee, bia hơi & hidden gems",
  "desc": "Hanoi im Februar 2026: Pho um 6 Uhr auf dem Plastikstuhl, Tai-Chi am See, Eierkaffee im Café Giảng und Bún chả wie Obama – von Noel.",
  "desc_en": "Hanoi in February 2026: pho at 6 am on a plastic stool, tai chi at the lake, egg coffee at Café Giảng and bún chả like Obama – from Noel.",
  "gyg_q": "Hanoi",
@@ -88,7 +88,10 @@
      "name_en": "Temple of Literature (Văn Miếu)",
      "q": "Temple of Literature Hanoi",
      "tip": "Komm früh am Morgen.",
-     "tip_en": "Come early in the morning."
+     "tip_en": "Come early in the morning.",
+     "photos": [
+      "images/photos/hanoi-literaturtempel-altar.webp"
+     ]
     },
     {
      "name": "Hỏa-Lò-Gefängnis",
@@ -183,6 +186,24 @@
      "q": "Ninh Binh Tam Coc",
      "tip": "Ninh Binh als Tagesausflug, Ha Long mit Übernachtung.",
      "tip_en": "Ninh Binh as a day trip, Ha Long with an overnight stay."
+    },
+    {
+     "name": "St.-Joseph-Kathedrale",
+     "name_en": "St. Joseph's Cathedral",
+     "q": "St. Joseph's Cathedral Hanoi",
+     "ll": [
+      21.0287,
+      105.849
+     ],
+     "gem": false,
+     "free": true,
+     "text": "<p>Die neugotische Kathedrale wurde 1886 geweiht und erinnert mit ihren zwei grauen Türmen an Notre-Dame in Paris. Sie steht mitten im Altstadtviertel, nur wenige Minuten vom Hoan-Kiem-See entfernt, und ist bis heute eine aktive Kirche.</p><p>Der Platz davor ist am Abend Treffpunkt: Rundherum verkaufen kleine Cafés trà chanh, eiskalten Tee mit Limette, den man auf Plastikhockern trinkt und dabei auf die beleuchtete Fassade schaut.</p>",
+     "text_en": "<p>The neo-Gothic cathedral was consecrated in 1886 and, with its two grey towers, recalls Notre-Dame in Paris. It stands in the Old Quarter, a few minutes from Hoan Kiem Lake, and is still an active church.</p><p>The square in front is a meeting point at night: small cafés around it sell trà chanh, iced lime tea, which you drink on plastic stools while looking at the lit-up façade.</p>",
+     "tip": "Zur Messe angemessen kleiden – Schultern und Knie bedeckt.",
+     "tip_en": "Dress respectfully for mass – shoulders and knees covered.",
+     "photos": [
+      "images/photos/hanoi-st-joseph-kathedrale.webp"
+     ]
     }
    ]
   },
@@ -235,5 +256,6 @@
    "a": "Meist ja; achte auf Taschendiebe und den Verkehr. Aktuelle Reisehinweise vorher prüfen.",
    "a_en": "Mostly yes; watch for pickpockets and traffic. Check current travel advice beforehand."
   }
- ]
+ ],
+ "hero": "images/photos/hanoi-st-joseph-kathedrale.webp"
 }

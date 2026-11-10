@@ -7,7 +7,7 @@
  "flag": "🇳🇱",
  "city": "Nijmegen",
  "city_en": "Nijmegen",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Nijmegen Guide: 10 Orte – Waalkade, Valkhof & älteste Stadt der Niederlande",
  "title_en": "Nijmegen Guide: 10 places – Waalkade, Valkhof & the oldest city in the Netherlands",
  "desc": "Nijmegen, nur einen Katzensprung hinter der Grenze: Abend an der Waalkade, Valkhofpark und Brückenblick – von Noel.",
@@ -59,7 +59,10 @@
      "text": "<p>Die Promenade am Fluss Waal: Cafés, Terrassen und Blick auf die Brücken. Abends ist es hier am schönsten.</p><p>Die Waalkade verläuft am Südufer des Waal, des Hauptarms des Rheins in den Niederlanden. Vom Ufer siehst du die große Waalbrücke und, auf der anderen Seite, die moderne Stadtbrücke „De Oversteek“. Im Sommer sitzen die Leute draußen, im Winter ziehen sie ins warme Café.</p><p>Spaziere abends die Promenade entlang und such dir ein Lokal mit Terrasse. Ein Fahrrad ist die beste Art, am Fluss weiter bis in die Ooijpolder zu fahren.</p>",
      "text_en": "<p>The promenade along the river Waal: cafés, terraces and views of the bridges. It is nicest here in the evening.</p><p>The Waalkade runs along the south bank of the Waal, the main arm of the Rhine in the Netherlands. From the bank you see the large Waal Bridge and, on the other side, the modern city bridge “De Oversteek”. In summer people sit outside, in winter they move to the warm café.</p><p>Stroll along the promenade in the evening and find a place with a terrace. A bike is the best way to continue along the river into the Ooijpolder.</p>",
      "tip": "Komm zum Sonnenuntergang und such dir einen Platz mit Blick auf die Brücke.",
-     "tip_en": "Come at sunset and find a spot with a view of the bridge."
+     "tip_en": "Come at sunset and find a spot with a view of the bridge.",
+     "photos": [
+      "images/photos/nijmegen-waalkade-essen.webp"
+     ]
     },
     {
      "name": "Valkhofpark",
@@ -107,7 +110,12 @@
      "q": "Lange Hezelstraat Nijmegen",
      "tip": "Komm vormittags oder am späten Nachmittag, wenn es ruhiger ist.",
      "tip_en": "Come in the morning or late afternoon when it is quieter.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/nijmegen-gasse.webp",
+      "images/photos/nijmegen-lange-hezelstraat.webp",
+      "images/photos/nijmegen-kaeseladen.webp"
+     ]
     },
     {
      "name": "Vierdaagse & Via Gladiola",
@@ -134,7 +142,10 @@
      "gem": true,
      "q": "Kronenburgerpark Nijmegen",
      "tip": "Nimm dir Kaffee mit und mach hier eine kurze Pause.",
-     "tip_en": "Bring a coffee and take a short break here."
+     "tip_en": "Bring a coffee and take a short break here.",
+     "photos": [
+      "images/photos/nijmegen-kruittoren.webp"
+     ]
     },
     {
      "name": "Ooijpolder – Radtour am Fluss",
@@ -218,5 +229,6 @@
    "a": "Schon die Römer gründeten hier eine Siedlung (Noviomagus), und die Stadt feierte 2005 ihr 2000-jähriges Bestehen. Römische Funde siehst du im Museum Het Valkhof.",
    "a_en": "The Romans already founded a settlement here (Noviomagus), and the city celebrated its 2,000th anniversary in 2005. You see Roman finds in the Museum Het Valkhof."
   }
- ]
+ ],
+ "hero": "images/photos/nijmegen-kruittoren.webp"
 }

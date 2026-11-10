@@ -6,9 +6,9 @@
  "flag": "🇩🇪",
  "city": "Berlin",
  "city_en": "Berlin",
- "updated": "2026-11-05",
- "title": "Berlin Guide: 14 Orte – Mauerpark, Markthalle Neun, Teufelsberg, East Side Gallery & Hidden Gems",
- "title_en": "Berlin Guide: 14 places – Mauerpark, Markthalle Neun, Teufelsberg, East Side Gallery & hidden gems",
+ "updated": "2026-11-10",
+ "title": "Berlin Guide: 16 Orte – Mauerpark, Markthalle Neun, Teufelsberg, East Side Gallery & Hidden Gems",
+ "title_en": "Berlin Guide: 16 places – Mauerpark, Markthalle Neun, Teufelsberg, East Side Gallery & hidden gems",
  "desc": "Berlin ist unfertig – und will es bleiben: Mauerpark-Karaoke, Markthalle Neun, RAW-Gelände, Tempelhofer Feld und Teufelsberg – von Noel.",
  "desc_en": "Berlin is unfinished – and wants to stay so: Mauerpark karaoke, Markthalle Neun, RAW site, Tempelhofer Feld and Teufelsberg – from Noel.",
  "gyg_q": "Berlin",
@@ -78,7 +78,11 @@
      "text": "Abends rund ums RAW-Gelände.",
      "text_en": "In the evening around the RAW site.",
      "name_en": "Friedrichshain & RAW site",
-     "q": "Friedrichshain & RAW-Gelände"
+     "q": "Friedrichshain & RAW-Gelände",
+     "photos": [
+      "images/photos/berlin-raw-gelaende.webp",
+      "images/photos/berlin-spaeti-friedrichshain.webp"
+     ]
     },
     {
      "name": "Brandenburger Tor & Reichstag",
@@ -87,7 +91,11 @@
      "name_en": "Brandenburg Gate & Reichstag",
      "q": "Brandenburger Tor Berlin",
      "tip": "Melde dich vorher für die Kuppel an.",
-     "tip_en": "Register beforehand for the dome."
+     "tip_en": "Register beforehand for the dome.",
+     "photos": [
+      "images/photos/berlin-brandenburger-tor.webp",
+      "images/photos/berlin-reichstag-schnee.webp"
+     ]
     },
     {
      "name": "East Side Gallery",
@@ -116,7 +124,11 @@
      "name_en": "Museum Island",
      "q": "Museumsinsel Berlin",
      "tip": "Wähle ein bis zwei Museen und buche online.",
-     "tip_en": "Choose one or two museums and book online."
+     "tip_en": "Choose one or two museums and book online.",
+     "photos": [
+      "images/photos/berlin-berliner-dom.webp",
+      "images/photos/berlin-lustgarten.webp"
+     ]
     },
     {
      "name": "Currywurst, Döner & Berliner Küche",
@@ -182,6 +194,42 @@
      "tip": "Steig auf die Siegessäule.",
      "tip_en": "Climb the Victory Column.",
      "free": true
+    },
+    {
+     "name": "Monkey Bar – Rooftop über dem Zoo",
+     "name_en": "Monkey Bar – rooftop above the zoo",
+     "q": "Monkey Bar Berlin",
+     "ll": [
+      52.5053,
+      13.3373
+     ],
+     "gem": false,
+     "free": false,
+     "text": "<p>Die Bar liegt im 10. Stock des Hotels im Bikini-Haus direkt am Bahnhof Zoo. Durch die Glasfront schaust du auf das Affengehege des Zoologischen Gartens, auf die Gedächtniskirche und über die Dächer der City West – daher der Name.</p><p>Am schönsten ist es zum Sonnenuntergang, wenn die Kirche angestrahlt wird. Auf der Terrasse wird es im Sommer schnell voll; unter der Woche und früh am Abend ist es entspannter.</p>",
+     "text_en": "<p>The bar sits on the 10th floor of the hotel in the Bikini building right by Zoo station. Through the glass front you look straight onto the monkey enclosure of Berlin Zoo, the Memorial Church and the rooftops of City West – hence the name.</p><p>It is best at sunset when the church lights up. The terrace fills up fast in summer; weekdays and early evenings are more relaxed.</p>",
+     "tip": "Früh kommen (vor 19 Uhr) oder einen Tisch reservieren.",
+     "tip_en": "Come early (before 7 pm) or book a table.",
+     "photos": [
+      "images/photos/berlin-monkey-bar.webp"
+     ]
+    },
+    {
+     "name": "Strandbad Plötzensee",
+     "name_en": "Plötzensee lake beach",
+     "q": "Strandbad Plötzensee",
+     "ll": [
+      52.544,
+      13.3285
+     ],
+     "gem": true,
+     "free": false,
+     "text": "<p>Ein Natursee im Wedding mit hellem Sandstrand, Liegewiese, Kiosk und Badestegen – Strandgefühl mitten in der Stadt, keine halbe Stunde von Mitte entfernt. An heißen Tagen treffen sich hier Familien, Studenten und Feierabend-Schwimmer.</p><p>Das Strandbad ist in der Badesaison (ca. Mai bis September) bewirtschaftet und kostet Eintritt. Wer es ruhiger mag, kommt morgens oder am frühen Abend.</p>",
+     "text_en": "<p>A natural lake in Wedding with a pale sandy beach, lawns, a kiosk and jetties – beach vibes in the middle of the city, less than half an hour from Mitte. On hot days families, students and after-work swimmers all meet here.</p><p>The lido is staffed in the bathing season (roughly May to September) and charges an entry fee. For a quieter swim, come in the morning or early evening.</p>",
+     "tip": "Am Wochenende früh da sein – bei 30 °C ist die Wiese mittags voll.",
+     "tip_en": "Arrive early on weekends – at 30 °C the lawn is full by noon.",
+     "photos": [
+      "images/photos/berlin-ploetzensee.webp"
+     ]
     }
    ]
   },
@@ -226,5 +274,6 @@
    "a": "Drei bis vier Tage.",
    "a_en": "Three to four days."
   }
- ]
+ ],
+ "hero": "images/photos/berlin-brandenburger-tor.webp"
 }

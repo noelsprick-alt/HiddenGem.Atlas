@@ -7,9 +7,9 @@
  "flag": "🇻🇳",
  "city": "Hoi An",
  "city_en": "Hoi An",
- "updated": "2026-11-05",
- "title": "Hoi An Guide: 11 Orte – Laternen, Cao Lầu, My Son & Hidden Gems",
- "title_en": "Hoi An Guide: 11 places – lanterns, cao lầu, My Son & hidden gems",
+ "updated": "2026-11-10",
+ "title": "Hoi An Guide: 12 Orte – Laternen, Cao Lầu, My Son & Hidden Gems",
+ "title_en": "Hoi An Guide: 12 places – lanterns, cao lầu, My Son & hidden gems",
  "desc": "Hoi An im Februar 2026: tausende Laternen bei Vollmond in der autofreien Altstadt – von Noel, mit Tipps zu Datum, Essen und Anreise.",
  "desc_en": "Hoi An in February 2026: thousands of lanterns at full moon in the car-free old town – from Noel, with tips on date, food and getting there.",
  "gyg_q": "Hoi An",
@@ -95,7 +95,10 @@
      "q": "Hoi An Ancient Town",
      "tip": "Geh um 6–7 Uhr los, dann sind die Gassen leer und golden.",
      "tip_en": "Set off at 6–7 a.m., then the lanes are empty and golden.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/hoi-an-altstadt-laternen.webp"
+     ]
     },
     {
      "name": "Maßschneider in Hoi An",
@@ -115,7 +118,11 @@
      "q": "An Bang Beach Hoi An",
      "tip": "Fahr mit dem Rad hin und bleib zum Sonnenuntergang.",
      "tip_en": "Cycle there and stay for sunset.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/hoi-an-an-bang-garnelen.webp",
+      "images/photos/hoi-an-an-bang-abend.webp"
+     ]
     },
     {
      "name": "White Rose, Mì Quảng & mehr: Essen in Hoi An",
@@ -124,7 +131,10 @@
      "name_en": "White rose, mì Quảng & more: eating in Hoi An",
      "q": "White Rose restaurant Hoi An",
      "tip": "Iss da, wo Einheimische sitzen – und frag nach dem Preis.",
-     "tip_en": "Eat where locals sit – and ask the price."
+     "tip_en": "Eat where locals sit – and ask the price.",
+     "photos": [
+      "images/photos/hoi-an-markthalle.webp"
+     ]
     }
    ]
   },
@@ -166,6 +176,25 @@
      "ll": [
       15.764,
       108.124
+     ]
+    },
+    {
+     "name": "Cù Lao Chàm (Cham-Inseln)",
+     "name_en": "Cù Lao Chàm (Cham Islands)",
+     "q": "Cu Lao Cham",
+     "ll": [
+      15.9436,
+      108.5107
+     ],
+     "gem": true,
+     "free": false,
+     "text": "<p>Die Inselgruppe liegt rund 15 Kilometer vor der Küste und gehört zum UNESCO-Biosphärenreservat Cù Lao Chàm – Hội An. Mit dem Schnellboot ab Cửa Đại bist du in etwa 20 bis 30 Minuten dort: klares Wasser zum Schnorcheln, Felsen im Meer, ein kleines Fischerdorf und Affen in den Bäumen.</p><p>Die meisten kommen mit einer Tagestour inklusive Schnorcheln und Mittagessen. In der Regenzeit (etwa Oktober bis Februar) fallen Bootsfahrten bei hohem Wellengang häufig aus.</p>",
+     "text_en": "<p>The island group lies about 15 kilometres off the coast and is part of the UNESCO Cù Lao Chàm – Hội An Biosphere Reserve. A speedboat from Cửa Đại gets you there in about 20 to 30 minutes: clear water for snorkelling, rocks in the sea, a small fishing village and monkeys in the trees.</p><p>Most people visit on a day tour with snorkelling and lunch. In the rainy season (roughly October to February) boats are often cancelled when the sea is rough.</p>",
+     "tip": "Morgens fahren – dann ist das Meer am ruhigsten und das Wasser am klarsten.",
+     "tip_en": "Go in the morning – the sea is calmest and the water clearest.",
+     "photos": [
+      "images/photos/hoi-an-cham-islands-felsen.webp",
+      "images/photos/hoi-an-cham-islands-affe.webp"
      ]
     }
    ]
@@ -217,5 +246,6 @@
    "a": "Für den Besuch mehrerer Sehenswürdigkeiten ja; die Gassen selbst kannst du frei durchlaufen. Preise und Regeln vorher prüfen.",
    "a_en": "For visiting several sights yes; you can walk the lanes themselves freely. Check prices and rules beforehand."
   }
- ]
+ ],
+ "hero": "images/photos/hoi-an-altstadt-laternen.webp"
 }

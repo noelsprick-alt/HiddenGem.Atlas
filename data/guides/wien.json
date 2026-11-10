@@ -6,7 +6,7 @@
  "flag": "🇦🇹",
  "city": "Wien",
  "city_en": "Vienna",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Wien Guide: 12 Orte – Kaffeehaus, Naschmarkt, Schönbrunn & Heuriger",
  "title_en": "Vienna Guide: 12 places – coffee house, Naschmarkt, Schönbrunn & Heuriger",
  "desc": "Wien nach Noels Rat: ein Vormittag im Kaffeehaus, Naschmarkt und abends ein Drink in der winzigen Loos Bar.",
@@ -60,7 +60,10 @@
      "name_en": "A coffee-house morning",
      "q": "Kaffeehaus-Vormittag",
      "tip": "Geh am Vormittag unter der Woche – dann bekommst du ohne Wartezeit einen Platz.",
-     "tip_en": "Go on a weekday morning – then you get a seat without waiting."
+     "tip_en": "Go on a weekday morning – then you get a seat without waiting.",
+     "photos": [
+      "images/photos/wien-kaffeehaus.webp"
+     ]
     },
     {
      "name": "Naschmarkt",
@@ -69,7 +72,10 @@
      "q": "Naschmarkt",
      "tip": "Komm samstags für Markt und Flohmarkt zusammen, aber früh.",
      "tip_en": "Come on Saturday for market and flea market together, but early.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/wien-naschmarkt.webp"
+     ]
     },
     {
      "name": "Loos American Bar",
@@ -99,7 +105,12 @@
      "q": "Schloss Schönbrunn",
      "tip": "Reserviere das Ticket online und besuche den Park am späten Nachmittag.",
      "tip_en": "Reserve the ticket online and visit the park in the late afternoon.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/wien-gloriette.webp",
+      "images/photos/wien-schoenbrunn.webp",
+      "images/photos/wien-schoenbrunn-winter.webp"
+     ]
     },
     {
      "name": "Hofburg & Spanische Hofreitschule",
@@ -108,7 +119,10 @@
      "name_en": "Hofburg & Spanish Riding School",
      "q": "Hofburg Wien",
      "tip": "Buche Tickets früh und plane einen Halbtag ein.",
-     "tip_en": "Book tickets early and plan half a day."
+     "tip_en": "Book tickets early and plan half a day.",
+     "photos": [
+      "images/photos/wien-maria-theresien-platz.webp"
+     ]
     },
     {
      "name": "Belvedere – Klimts „Der Kuss“",
@@ -238,5 +252,6 @@
    "a": "Wenn du viele Öffis nutzt und mehrere Museen besuchst, lohnt sie sich oft; rechne vorher nach.",
    "a_en": "If you use a lot of public transport and visit several museums it often pays off; calculate beforehand."
   }
- ]
+ ],
+ "hero": "images/photos/wien-gloriette.webp"
 }

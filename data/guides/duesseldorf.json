@@ -6,9 +6,9 @@
  "flag": "🇩🇪",
  "city": "Düsseldorf",
  "city_en": "Düsseldorf",
- "updated": "2026-11-05",
- "title": "Düsseldorf Guide: 12 Orte – Flingern, Little Tokyo, Rheinturm, Altbier & Hidden Gems",
- "title_en": "Düsseldorf Guide: 12 places – Flingern, Little Tokyo, Rhine Tower, Altbier & hidden gems",
+ "updated": "2026-11-10",
+ "title": "Düsseldorf Guide: 13 Orte – Flingern, Little Tokyo, Rheinturm, Altbier & Hidden Gems",
+ "title_en": "Düsseldorf Guide: 13 places – Flingern, Little Tokyo, Rhine Tower, Altbier & hidden gems",
  "desc": "Düsseldorf mehr als Kö und Altstadt: Radschläger, Rheinturm als Uhr, Little Tokyo, Japan-Tag am Rhein, Altbier mit dem Köbes und mein Lieblingsviertel Flingern – von Noel.",
  "desc_en": "Düsseldorf more than Kö and old town: wheel-turners, the Rhine Tower as a clock, Little Tokyo, Japan Day on the Rhine, altbier with the Köbes and my favourite district Flingern – from Noel.",
  "gyg_q": "Düsseldorf",
@@ -106,7 +106,11 @@
      "q": "MedienHafen Düsseldorf",
      "tip": "Komm am späten Nachmittag.",
      "tip_en": "Come in the late afternoon.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/duesseldorf-rheinufer.webp",
+      "images/photos/duesseldorf-stadtstrand.webp"
+     ]
     },
     {
      "name": "Königsallee („Kö“)",
@@ -157,7 +161,10 @@
      "q": "Carlsplatz Düsseldorf",
      "tip": "Komm am Vormittag.",
      "tip_en": "Come in the morning.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/duesseldorf-carlsplatz-streetfood.webp"
+     ]
     },
     {
      "name": "Hofgarten & Schloss Benrath",
@@ -177,6 +184,25 @@
      "q": "Little Tokyo Düsseldorf ramen",
      "tip": "Komm mittags für Mittagsmenüs.",
      "tip_en": "Come at lunch for lunch menus."
+    },
+    {
+     "name": "Nordpark & Japanischer Garten",
+     "name_en": "Nordpark & Japanese Garden",
+     "q": "Japanischer Garten Nordpark Düsseldorf",
+     "ll": [
+      51.2553,
+      6.7467
+     ],
+     "gem": true,
+     "free": true,
+     "text": "<p>Der Nordpark am Rhein ist einer der schönsten Parks der Stadt: lange Wasserachse, Seerosenbecken, Pergolen und Blumenbeete. Mittendrin liegt der Japanische Garten, ein Geschenk der japanischen Gemeinde Düsseldorfs – mit Teichen, Steinlaternen, Brücken und sorgfältig geschnittenen Kiefern.</p><p>Der Eintritt ist frei. Im Frühjahr und Herbst ist das Licht am schönsten; der Park lässt sich gut mit dem Aquazoo Löbbecke Museum oder einem Spaziergang am Rhein verbinden.</p>",
+     "text_en": "<p>Nordpark on the Rhine is one of the city's loveliest parks: a long water axis, lily ponds, pergolas and flower beds. In the middle lies the Japanese Garden, a gift from Düsseldorf's Japanese community – with ponds, stone lanterns, bridges and carefully shaped pines.</p><p>Entry is free. The light is best in spring and autumn; combine it with the Aquazoo Löbbecke Museum or a walk along the Rhine.</p>",
+     "tip": "U78/U79 bis „Nordpark/Aquazoo“ – von dort sind es fünf Minuten zu Fuß.",
+     "tip_en": "Take U78/U79 to “Nordpark/Aquazoo” – it is a five-minute walk from there.",
+     "photos": [
+      "images/photos/duesseldorf-japanischer-garten.webp",
+      "images/photos/duesseldorf-nordpark-wasserachse.webp"
+     ]
     }
    ]
   },

@@ -7,7 +7,7 @@
  "flag": "🇯🇵",
  "city": "Osaka",
  "city_en": "Osaka",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Osaka Guide: 10 Orte – Dotonbori, Burg, Shinsekai & Hidden Gems",
  "title_en": "Osaka Guide: 10 places – Dotonbori, castle, Shinsekai & hidden gems",
  "desc": "Osaka 2022: abends Dotonbori, Takoyaki vom Stand, tagsüber Burg und Kuromon-Markt – von Noel.",
@@ -59,7 +59,12 @@
      "text_en": "<p>In the evening drift through the food stalls and eat takoyaki straight from the stand.</p><p>Dotonbori is the heart of Osaka’s entertainment district: a canal lined with neon signs, restaurants and food stalls. The most famous motif is the Glico Running Man sign above the water; a giant crab on the front of the Kani Doraku restaurant is the second. After dark everything glows, and the street is full.</p><p>Try takoyaki (octopus balls) and okonomiyaki (savoury pancake) right at the stall. The city’s motto is “kuidaore” – to eat until you drop. Plan an evening and let yourself drift; come around 6 p.m. when the lights come on.</p>",
      "q": "Dotonbori",
      "tip": "Komm bei Dämmerung und nimm kleine Portionen an mehreren Ständen statt eines großen Essens.",
-     "tip_en": "Come at dusk and take small portions at several stalls instead of one big meal."
+     "tip_en": "Come at dusk and take small portions at several stalls instead of one big meal.",
+     "photos": [
+      "images/photos/osaka-dotonbori-kanal.webp",
+      "images/photos/osaka-dotonbori-krabbe.webp",
+      "images/photos/osaka-dotonbori-abend.webp"
+     ]
     },
     {
      "name": "Kuromon-Markt",
@@ -126,7 +131,11 @@
      "q": "Hozenji Yokocho Osaka",
      "tip": "Komm nach dem Abendessen und genieße die Ruhe nach dem Trubel.",
      "tip_en": "Come after dinner and enjoy the calm after the bustle.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/osaka-hozenji-yokocho.webp",
+      "images/photos/osaka-hozenji-gasse.webp"
+     ]
     },
     {
      "name": "Nakazakichō – Retro-Cafés in alten Häusern",
@@ -242,5 +251,6 @@
    "a": "Ja, kleine Stände und Imbisse nehmen oft nur Yen. Geldautomaten in Convenience-Stores (7-Eleven, Lawson) funktionieren meist mit ausländischen Karten.",
    "a_en": "Yes, small stalls and snack bars often take only yen. ATMs in convenience stores (7-Eleven, Lawson) usually work with foreign cards."
   }
- ]
+ ],
+ "hero": "images/photos/osaka-dotonbori-kanal.webp"
 }

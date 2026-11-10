@@ -6,9 +6,9 @@
  "flag": "🇩🇪",
  "city": "Zugspitze & Garmisch",
  "city_en": "Zugspitze & Garmisch",
- "updated": "2026-11-05",
- "title": "Zugspitze Guide: 10 Orte – Zahnradbahn, Eibsee, Klammen & Hidden Gems",
- "title_en": "Zugspitze Guide: 10 places – cog railway, Eibsee, gorges & hidden gems",
+ "updated": "2026-11-10",
+ "title": "Zugspitze Guide: 11 Orte – Zahnradbahn, Eibsee, Klammen & Hidden Gems",
+ "title_en": "Zugspitze Guide: 11 places – cog railway, Eibsee, gorges & hidden gems",
  "desc": "Zugspitze, 2.962 Meter: mit der Zahnradbahn hoch, mit der Seilbahn runter, Runde um den Eibsee und früh in die Partnachklamm – von Noel.",
  "desc_en": "Zugspitze, 2,962 metres: up by cog railway, down by cable car, a loop around the Eibsee and early into the Partnach Gorge – from Noel.",
  "gyg_q": "Zugspitze",
@@ -77,7 +77,11 @@
      "name_en": "Summit: view, glacier & summit cross",
      "q": "Zugspitze Gipfel",
      "tip": "Prüfe vor der Abfahrt die Webcams – klare Sicht ist alles.",
-     "tip_en": "Check the webcams before leaving – clear visibility is everything."
+     "tip_en": "Check the webcams before leaving – clear visibility is everything.",
+     "photos": [
+      "images/photos/zugspitze-gipfelkreuz.webp",
+      "images/photos/zugspitze-muenchner-haus.webp"
+     ]
     },
     {
      "name": "Garmisch-Partenkirchen – Ludwigstraße & Lüftlmalerei",
@@ -155,6 +159,26 @@
      "q": "Schloss Linderhof",
      "tip": "Reserviere Tickets online und starte früh.",
      "tip_en": "Reserve tickets online and start early."
+    },
+    {
+     "name": "Zu Fuß auf die Zugspitze: Gatterl, Knorrhütte & Zugspitzplatt",
+     "name_en": "Hiking up the Zugspitze: Gatterl, Knorrhütte & Zugspitzplatt",
+     "q": "Knorrhütte",
+     "ll": [
+      47.4099,
+      11.0122
+     ],
+     "gem": true,
+     "free": true,
+     "text": "<p>Eine beliebte Route startet in Ehrwald auf der Tiroler Seite: über die Ehrwalder Alm und den Grenzübergang Gatterl zur Knorrhütte, dann über das steinige Zugspitzplatt hinauf. Unterwegs: Schafe auf den Almwiesen, Karstlandschaft und immer wieder Blicke auf die Wettersteinwand. Das letzte Stück zum Gipfel ist steil und mit Drahtseilen gesichert.</p><p>Die meisten planen zwei Tage mit Übernachtung auf der Knorrhütte (vorher reservieren). Trittsicherheit, Schwindelfreiheit, Helm und ein stabiler Wetterbericht sind Pflicht. Runter geht es bequem mit der Seilbahn.</p>",
+     "text_en": "<p>A popular route starts in Ehrwald on the Tyrolean side: via the Ehrwalder Alm and the Gatterl border pass to the Knorrhütte, then up across the rocky Zugspitzplatt. On the way: sheep on the alpine meadows, karst scenery and views of the Wetterstein wall. The final section to the summit is steep and secured with steel cables.</p><p>Most people plan two days with a night at the Knorrhütte (book ahead). Sure-footedness, a head for heights, a helmet and a stable forecast are a must. Coming down is easy by cable car.</p>",
+     "tip": "Hüttenplatz früh reservieren und bei Gewitterwarnung nicht starten.",
+     "tip_en": "Book the hut early and do not set off if storms are forecast.",
+     "photos": [
+      "images/photos/zugspitze-aufstieg-gatterl.webp",
+      "images/photos/zugspitze-schaf-zugspitzplatt.webp",
+      "images/photos/zugspitze-zugspitzplatt.webp"
+     ]
     }
    ]
   }
@@ -210,5 +234,6 @@
    "a": "Oben liegt oft Schnee, auch im Sommer. Warme Jacke, Mütze, feste Schuhe und Sonnenschutz sind sinnvoll.",
    "a_en": "There is often snow at the top, even in summer. A warm jacket, hat, sturdy shoes and sun protection make sense."
   }
- ]
+ ],
+ "hero": "images/photos/zugspitze-wetterstein-panorama.webp"
 }

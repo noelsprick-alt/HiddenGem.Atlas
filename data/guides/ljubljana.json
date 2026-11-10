@@ -7,7 +7,7 @@
  "flag": "🇸🇮",
  "city": "Ljubljana",
  "city_en": "Ljubljana",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Ljubljana Guide: 13 Orte – Zentralmarkt, Plečnik, Burg, Metelkova & Hidden Gems",
  "title_en": "Ljubljana Guide: 13 places – Central Market, Plečnik, castle, Metelkova & hidden gems",
  "desc": "Ljubljana zu Fuß: Zentralmarkt, Drachenbrücke, Burg, Metelkova, Nebotičnik und die Freitags-Offene-Küche – von Noel (2024), mit Anreise, Preisen und Tagesplan.",
@@ -79,7 +79,12 @@
      "q": "Triple Bridge Ljubljana",
      "text": "<p>Überall sitzt ein Drache – das Stadtwappen. Der Sage nach soll ihn Jason mit den Argonauten hier besiegt haben. Die Drei Brücken stammen von Plečnik.</p>",
      "text_en": "<p>A dragon sits everywhere – the city’s coat of arms. According to legend Jason and the Argonauts defeated it here. The Triple Bridge is by Plečnik.</p>",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/ljubljana-drei-bruecken.webp",
+      "images/photos/ljubljana-drachenbruecke.webp",
+      "images/photos/ljubljana-ljubljanica.webp"
+     ]
     },
     {
      "name": "Burg Ljubljana",
@@ -107,7 +112,11 @@
      "q": "Preseren Square Ljubljana",
      "tip": "Komm abends, wenn die Plätze lebendig werden.",
      "tip_en": "Come in the evening when the squares come alive.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/ljubljana-preseren-platz.webp",
+      "images/photos/ljubljana-altstadt-platz.webp"
+     ]
     },
     {
      "name": "Kathedrale & Rathaus",
@@ -117,7 +126,10 @@
      "q": "Ljubljana Cathedral",
      "tip": "Schau dir die Bronzetüren an.",
      "tip_en": "Look at the bronze doors.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/ljubljana-kathedrale.webp"
+     ]
     },
     {
      "name": "Tivoli-Park & Rožnik",
@@ -153,14 +165,22 @@
      "text": "<p>Abends nach Metelkova: die bunt bemalte ehemalige Kaserne voller Bars, Clubs und Street-Art.</p>",
      "text_en": "<p>In the evening to Metelkova: the colourfully painted former barracks full of bars, clubs and street art.</p>",
      "tip": "Komm tagsüber für die Graffiti und sei abends aufmerksam – nachts nicht allein tiefer in die Höfe gehen.",
-     "tip_en": "Come by day for the graffiti and stay alert in the evening – do not go deeper into the courtyards alone at night."
+     "tip_en": "Come by day for the graffiti and stay alert in the evening – do not go deeper into the courtyards alone at night.",
+     "photos": [
+      "images/photos/ljubljana-metelkova.webp",
+      "images/photos/ljubljana-metelkova-tuer.webp"
+     ]
     },
     {
      "name": "Mittags am Fluss",
      "name_en": "Lunch by the river",
      "q": "Ljubljanica river cafes",
      "text": "<p>Mittags am Fluss sitzen: Cafés und Terrassen entlang der Ljubljanica – das ist Ljubljana im Kern.</p>",
-     "text_en": "<p>Sit by the river at lunch: cafés and terraces along the Ljubljanica – that is the essence of Ljubljana.</p>"
+     "text_en": "<p>Sit by the river at lunch: cafés and terraces along the Ljubljanica – that is the essence of Ljubljana.</p>",
+     "photos": [
+      "images/photos/ljubljana-fluss-nacht.webp",
+      "images/photos/ljubljana-altstadt-nacht.webp"
+     ]
     },
     {
      "name": "Plečnik-Haus & Nationalbibliothek",
@@ -251,5 +271,6 @@
    "a": "<p>Nein. Die Altstadt ist autofrei, und für Bled und die Küste gibt es Bus und Bahn.</p>",
    "a_en": "<p>No. The old town is car-free, and there are buses and trains to Bled and the coast.</p>"
   }
- ]
+ ],
+ "hero": "images/photos/ljubljana-drei-bruecken.webp"
 }

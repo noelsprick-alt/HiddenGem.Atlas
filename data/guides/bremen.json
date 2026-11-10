@@ -6,7 +6,7 @@
  "flag": "🇩🇪",
  "city": "Bremen",
  "city_en": "Bremen",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Bremen Guide: 12 Orte – Schnoor, Böttcherstraße, Roland, Schlachte & Hidden Gems",
  "title_en": "Bremen Guide: 12 places – Schnoor, Böttcherstraße, Roland, Schlachte & hidden gems",
  "desc": "Bremen wirkt kleiner und älter, als es ist: Schnoorviertel, Böttcherstraße, Roland, Ratskeller mit Wein von 1653 und Sonnenuntergang an der Schlachte – von Noel.",
@@ -61,7 +61,11 @@
      "name": "Böttcherstraße",
      "text": "Eine kleine Backstein-Gasse mit Kunst und Handwerk.",
      "text_en": "A small brick lane with art and craft.",
-     "q": "Böttcherstraße"
+     "q": "Böttcherstraße",
+     "photos": [
+      "images/photos/bremen-boettcherstrasse-lichtbringer.webp",
+      "images/photos/bremen-boettcherstrasse.webp"
+     ]
     },
     {
      "name": "Roland am Marktplatz",
@@ -75,6 +79,9 @@
      "ll": [
       53.0758,
       8.8072
+     ],
+     "photos": [
+      "images/photos/bremen-roland.webp"
      ]
     },
     {
@@ -201,5 +208,6 @@
    "a": "Ein bis zwei Tage.",
    "a_en": "One to two days."
   }
- ]
+ ],
+ "hero": "images/photos/bremen-roland.webp"
 }

@@ -6,9 +6,9 @@
  "flag": "🇸🇮",
  "city": "Koper",
  "city_en": "Koper",
- "updated": "2026-11-05",
- "title": "Koper Guide: 13 Orte – Venezianische Altstadt, Piran, Strunjan & Hidden Gems",
- "title_en": "Koper Guide: 13 places – Venetian old town, Piran, Strunjan & hidden gems",
+ "updated": "2026-11-10",
+ "title": "Koper Guide: 14 Orte – Venezianische Altstadt, Piran, Strunjan & Hidden Gems",
+ "title_en": "Koper Guide: 14 places – Venetian old town, Piran, Strunjan & hidden gems",
  "desc": "Sloweniens kleines Stück Adria: Titov trg, Glockenturm, Praetorianerpalast, Stadtstrand, Piran und Strunjan – mit Anreise, Preisen und Tagesplan.",
  "desc_en": "Slovenia’s little slice of the Adriatic: Titov trg, bell tower, Praetorian Palace, town beach, Piran and Strunjan – with getting there, prices and a day plan.",
  "gyg_q": "Koper",
@@ -60,7 +60,10 @@
      "name": "Titov trg",
      "q": "Titov trg Koper",
      "text": "<p>Das Herz der Altstadt: Platz mit Praetorianerpalast, Glockenturm, Loggia und Cafés. Im Dezember sorgen Lichter und Weihnachtsstimmung für Atmosphäre.</p>",
-     "text_en": "<p>The heart of the old town: a square with Praetorian Palace, bell tower, loggia and cafés. In December lights and Christmas atmosphere create ambience.</p>"
+     "text_en": "<p>The heart of the old town: a square with Praetorian Palace, bell tower, loggia and cafés. In December lights and Christmas atmosphere create ambience.</p>",
+     "photos": [
+      "images/photos/koper-brunnen-nacht.webp"
+     ]
     },
     {
      "name": "Praetorianerpalast",
@@ -84,7 +87,12 @@
      "q": "Koper beach promenade",
      "text": "<p>Mein Tipp: ein Sprung ins Meer am Stadtstrand und ein Spaziergang an der Hafenpromenade, wenn die Sonne tief steht.</p>",
      "text_en": "<p>My tip: a dip in the sea at the town beach and a walk along the harbour promenade when the sun is low.</p>",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/koper-promenade-spritz.webp",
+      "images/photos/koper-sonnenuntergang.webp",
+      "images/photos/koper-hafen-nacht.webp"
+     ]
     },
     {
      "name": "Kathedrale des heiligen Nazarius",
@@ -113,7 +121,12 @@
      "name_en": "Market & Istrian cuisine",
      "q": "Koper market",
      "tip": "Kaufe Olivenöl und Käse als Mitbringsel.",
-     "tip_en": "Buy olive oil and cheese as souvenirs."
+     "tip_en": "Buy olive oil and cheese as souvenirs.",
+     "photos": [
+      "images/photos/koper-fischmarkt.webp",
+      "images/photos/koper-markt.webp",
+      "images/photos/koper-meeresfruechte.webp"
+     ]
     }
    ]
   },
@@ -178,6 +191,25 @@
      "q": "Trieste Italy",
      "tip": "Prüfe vorher Fahrpläne und Grenzregeln.",
      "tip_en": "Check timetables and border rules beforehand."
+    },
+    {
+     "name": "Burg Socerb & Kraški rob",
+     "name_en": "Socerb Castle & Karst Edge",
+     "q": "Grad Socerb",
+     "ll": [
+      45.5894,
+      13.8611
+     ],
+     "gem": true,
+     "free": true,
+     "text": "<p>Die Burg Socerb thront auf der Karstkante (Kraški rob) hoch über Koper und Triest. Von hier reicht der Blick über die ganze Bucht bis nach Italien – an guten Tagen starten Gleitschirmflieger direkt unterhalb der Mauern. In der Burg gibt es ein Restaurant.</p><p>Ein kurzer Spaziergang führt zur Höhle Sveta jama, einer der wenigen Höhlen mit einer Kirche im Inneren. Am schönsten ist der Ausflug zum Sonnenuntergang, wenn die Bucht golden leuchtet.</p>",
+     "text_en": "<p>Socerb Castle sits on the Karst Edge (Kraški rob) high above Koper and Trieste. The view takes in the whole bay all the way to Italy – on good days paragliders launch right below the walls. The castle has a restaurant.</p><p>A short walk leads to Sveta jama, one of the few caves with a church inside. The trip is best at sunset when the bay glows golden.</p>",
+     "tip": "Mit dem Auto ca. 20 Minuten ab Koper; oben gibt es einen kleinen Parkplatz.",
+     "tip_en": "About 20 minutes by car from Koper; there is a small car park at the top.",
+     "photos": [
+      "images/photos/koper-socerb-aussicht.webp",
+      "images/photos/koper-socerb-turm.webp"
+     ]
     }
    ]
   },
@@ -246,5 +278,6 @@
    "a": "<p>Nein, die Orte sind klein, und Busse verbinden Koper, Izola und Piran.</p>",
    "a_en": "<p>No, the towns are small and buses connect Koper, Izola and Piran.</p>"
   }
- ]
+ ],
+ "hero": "images/photos/koper-socerb-aussicht.webp"
 }

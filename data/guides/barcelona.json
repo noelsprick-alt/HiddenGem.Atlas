@@ -7,7 +7,7 @@
  "flag": "🇪🇸",
  "city": "Barcelona",
  "city_en": "Barcelona",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Barcelona Guide: 14 Orte – Port Vell, Sagrada Família, Bunkers del Carmel & Hidden Gems",
  "title_en": "Barcelona Guide: 14 places – Port Vell, Sagrada Família, Bunkers del Carmel & hidden gems",
  "desc": "Barcelona 2023: ein ruhiger Morgen am Port Vell, Sonnenuntergang auf den Bunkers del Carmel, Absinth-Bar von 1820, Sagrada Família und Tipps zum Essen – von Noel.",
@@ -65,7 +65,10 @@
      "q": "Port Vell Barcelona",
      "text": "<p>Um 7 Uhr morgens allein am Hafen sitzen und Postkarten schreiben – das war mein Moment.</p>",
      "text_en": "<p>Sitting alone at the harbour at 7 am writing postcards – that was my moment.</p>",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/barcelona-port-vell.webp"
+     ]
     },
     {
      "name": "Sagrada Família",
@@ -105,7 +108,11 @@
      "name_en": "La Boqueria & Sant Antoni market",
      "q": "Mercat de la Boqueria",
      "tip": "Probiere Jamón und weiche für günstigere Stände aus.",
-     "tip_en": "Try jamón and switch to cheaper stalls."
+     "tip_en": "Try jamón and switch to cheaper stalls.",
+     "photos": [
+      "images/photos/barcelona-boqueria-meeresfruechte.webp",
+      "images/photos/barcelona-boqueria-schinken.webp"
+     ]
     },
     {
      "name": "Casa Batlló & Casa Milà (La Pedrera)",
@@ -124,7 +131,10 @@
      "q": "Barceloneta Barcelona",
      "tip": "Iss spät wie die Einheimischen und achte auf deine Sachen.",
      "tip_en": "Eat late like the locals and watch your things.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/barcelona-tapas.webp"
+     ]
     }
    ]
   },
@@ -252,5 +262,6 @@
    "a": "Drei bis vier Tage.",
    "a_en": "Three to four days."
   }
- ]
+ ],
+ "hero": "images/photos/barcelona-aussicht.webp"
 }

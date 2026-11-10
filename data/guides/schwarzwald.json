@@ -6,9 +6,9 @@
  "flag": "🇩🇪",
  "city": "Schwarzwald",
  "city_en": "Black Forest",
- "updated": "2026-11-05",
- "title": "Schwarzwald Guide: 11 Orte – Hochstraße, Triberg, Gengenbach & Schluchten",
- "title_en": "Black Forest Guide: 11 places – High Road, Triberg, Gengenbach & gorges",
+ "updated": "2026-11-10",
+ "title": "Schwarzwald Guide: 12 Orte – Hochstraße, Triberg, Gengenbach & Schluchten",
+ "title_en": "Black Forest Guide: 12 places – High Road, Triberg, Gengenbach & gorges",
  "desc": "Schwarzwald: Heimat der Kuckucksuhr – Schwarzwaldhochstraße mit Stopp am Mummelsee und Eichhörnchen an den Triberger Wasserfällen – von Noel.",
  "desc_en": "Black Forest: home of the cuckoo clock – Schwarzwaldhochstraße with a stop at Mummelsee and squirrels at the Triberg waterfalls – from Noel.",
  "gyg_q": "Schwarzwald",
@@ -175,6 +175,26 @@
      "q": "Baumwipfelpfad Bad Wildbad",
      "tip": "Komm vormittags und kombiniere ihn mit der Hochstraße.",
      "tip_en": "Come in the morning and combine it with the High Road."
+    },
+    {
+     "name": "Menzenschwander Wasserfälle",
+     "name_en": "Menzenschwand waterfalls",
+     "q": "Menzenschwander Wasserfälle",
+     "ll": [
+      47.8405,
+      8.0627
+     ],
+     "gem": true,
+     "free": true,
+     "text": "<p>Im Ortsteil Menzenschwand (St. Blasien) stürzt die junge Alb über mehrere Stufen ins Tal. Holzstege und der schmale Geißenpfad führen ganz nah an das Wasser heran – moosige Felsen, Tannen und im Frühsommer leuchtend lila Fingerhut am Wegrand.</p><p>Die Wasserfälle sind kostenlos und deutlich ruhiger als die bekannten Triberger Fälle. Der kurze Rundweg ist in etwa einer Stunde machbar und lässt sich mit dem Feldberg oder dem Schluchsee verbinden.</p>",
+     "text_en": "<p>In the village of Menzenschwand (St. Blasien) the young Alb river tumbles down several steps into the valley. Wooden walkways and the narrow Geißenpfad trail lead right up to the water – mossy rocks, fir trees and bright purple foxgloves along the path in early summer.</p><p>The falls are free and far quieter than the famous Triberg falls. The short loop takes about an hour and pairs well with the Feldberg or Lake Schluchsee.</p>",
+     "tip": "Rutschfeste Schuhe anziehen – die Stege sind nach Regen glatt.",
+     "tip_en": "Wear grippy shoes – the walkways are slippery after rain.",
+     "photos": [
+      "images/photos/schwarzwald-menzenschwand-wasserfall.webp",
+      "images/photos/schwarzwald-menzenschwand-steg.webp",
+      "images/photos/schwarzwald-menzenschwand-pfad.webp"
+     ]
     }
    ]
   },
@@ -255,5 +275,6 @@
    "a": "Zum Wandern Mai bis Oktober, für Adventsmärkte Dezember, für Skifahren Januar und Februar. Im Hochsommer sind Mummelsee und Titisee voll.",
    "a_en": "For hiking May to October, for Christmas markets December, for skiing January and February. In high summer Mummelsee and Titisee are crowded."
   }
- ]
+ ],
+ "hero": "images/photos/schwarzwald-menzenschwand-wasserfall.webp"
 }

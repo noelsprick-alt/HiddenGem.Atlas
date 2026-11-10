@@ -7,7 +7,7 @@
  "flag": "🇯🇵",
  "city": "Tokio",
  "city_en": "Tokyo",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Tokio Guide: 11 Orte – Meiji-Schrein, Shibuya, Golden Gai & Hidden Gems",
  "title_en": "Tokyo Guide: 11 places – Meiji Shrine, Shibuya, Golden Gai & hidden gems",
  "desc": "Tokio 2022: tagsüber Meiji-Schrein und Harajuku, zum Sonnenuntergang nach Shibuya – von Noel.",
@@ -61,7 +61,11 @@
      "q": "Meiji Jingu Tokyo",
      "tip": "Komm morgens, wenn der Wald fast leer ist, und geh danach nach Harajuku.",
      "tip_en": "Come in the morning when the forest is almost empty and go to Harajuku afterwards.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/tokio-meiji-sakefaesser.webp",
+      "images/photos/tokio-meiji-schrein.webp"
+     ]
     },
     {
      "name": "Harajuku",
@@ -77,7 +81,10 @@
      "text_en": "<p>To Shibuya at sunset: neon, people, energy. My tip: watch from above first, then cross once yourself.</p><p>The Shibuya Crossing is considered one of the busiest crossings in the world: when all the lights are red, hundreds of people cross the street from all directions at the same time. You can cross yourself or watch from above, for example from Shibuya Sky, a viewing platform at about 230 metres (book tickets online in advance, check prices).</p><p>The time shortly before and after sunset is especially beautiful when the neon signs come on. At the station stands the Hachikō statue, a popular meeting point. Plan an hour.</p>",
      "q": "Shibuya Scramble Crossing",
      "tip": "Buche Shibuya Sky für Sonnenuntergang – die Slots sind schnell weg.",
-     "tip_en": "Book Shibuya Sky for sunset – the slots go fast."
+     "tip_en": "Book Shibuya Sky for sunset – the slots go fast.",
+     "photos": [
+      "images/photos/tokio-shibuya-crossing.webp"
+     ]
     },
     {
      "name": "Senso-ji & Asakusa",
@@ -86,7 +93,11 @@
      "name_en": "Sensō-ji & Asakusa",
      "q": "Senso-ji Temple Asakusa",
      "tip": "Komm vor 8 Uhr oder nach Sonnenuntergang, wenn es ruhiger ist.",
-     "tip_en": "Come before 8 a.m. or after sunset when it is quieter."
+     "tip_en": "Come before 8 a.m. or after sunset when it is quieter.",
+     "photos": [
+      "images/photos/tokio-kaminarimon.webp",
+      "images/photos/tokio-asakusa.webp"
+     ]
     },
     {
      "name": "Shinjuku: Goldene Gasse, Omoide Yokochō & Rathaus-Aussicht",
@@ -105,7 +116,11 @@
      "name_en": "Tsukiji Outer Market",
      "q": "Tsukiji Outer Market",
      "tip": "Komm vor 10 Uhr und iss am Stand, nicht im Gehen.",
-     "tip_en": "Come before 10 a.m. and eat at the stall, not while walking."
+     "tip_en": "Come before 10 a.m. and eat at the stall, not while walking.",
+     "photos": [
+      "images/photos/tokio-kaisendon.webp",
+      "images/photos/tokio-auster.webp"
+     ]
     },
     {
      "name": "Kaiserlicher Palast – Ost-Gärten",
@@ -115,7 +130,10 @@
      "q": "Imperial Palace East Gardens Tokyo",
      "tip": "Prüfe die Schließtage und plane einen ruhigen Vormittag ein.",
      "tip_en": "Check the closing days and plan a quiet morning.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/tokio-kaiserpalast-nijubashi.webp"
+     ]
     }
    ]
   },
@@ -241,5 +259,6 @@
    "a": "Eine Suica- oder Pasmo-Karte (auch als Handy-Version) reicht für Bahn, Metro und Bus.",
    "a_en": "A Suica or Pasmo card (also as a phone version) is enough for train, metro and bus."
   }
- ]
+ ],
+ "hero": "images/photos/tokio-shibuya-crossing.webp"
 }

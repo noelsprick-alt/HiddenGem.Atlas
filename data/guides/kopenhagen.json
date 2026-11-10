@@ -7,9 +7,9 @@
  "flag": "🇩🇰",
  "city": "Kopenhagen",
  "city_en": "Copenhagen",
- "updated": "2026-11-05",
- "title": "Kopenhagen Guide: 13 Orte – Hafenbad, Spiralturm, CopenHill, Tivoli & Streetfood",
- "title_en": "Copenhagen Guide: 13 places – harbour bath, spiral tower, CopenHill, Tivoli & street food",
+ "updated": "2026-11-10",
+ "title": "Kopenhagen Guide: 14 Orte – Hafenbad, Spiralturm, CopenHill, Tivoli & Streetfood",
+ "title_en": "Copenhagen Guide: 14 places – harbour bath, spiral tower, CopenHill, Tivoli & street food",
  "desc": "Kopenhagen mit dem Rad: Hafenbad Islands Brygge, Erlöserkirche, CopenHill, Reffen, Torvehallerne, Christiania und Bakken – mit Anreise, Preisen und Tagesplan.",
  "desc_en": "Copenhagen by bike: Islands Brygge harbour bath, Church of Our Saviour, CopenHill, Reffen, Torvehallerne, Christiania and Bakken – with getting there, prices and a day plan.",
  "gyg_q": "Copenhagen",
@@ -195,6 +195,24 @@
      "q": "Smørrebrød Copenhagen",
      "tip": "Probiere Smørrebrød am Mittag.",
      "tip_en": "Try smørrebrød at lunch."
+    },
+    {
+     "name": "Strøget & Amagertorv",
+     "name_en": "Strøget & Amagertorv",
+     "q": "Amagertorv Copenhagen",
+     "ll": [
+      55.6788,
+      12.5797
+     ],
+     "gem": false,
+     "free": true,
+     "text": "<p>Strøget zählt zu den längsten Fußgängerzonen Europas und verbindet das Rathaus mit dem Kongens Nytorv. In der Mitte, am Platz Amagertorv, steht der Storchenbrunnen zwischen bunten Renaissance-Fassaden und Flagship-Stores wie Royal Copenhagen.</p><p>Tagsüber ist hier viel los. Ruhiger wird es in den Parallelgassen Strædet (Kompagnistræde und Læderstræde) mit kleinen Läden, Antiquariaten und Cafés.</p>",
+     "text_en": "<p>Strøget is one of the longest pedestrian streets in Europe, linking City Hall with Kongens Nytorv. In the middle, on Amagertorv square, the Stork Fountain stands between colourful Renaissance façades and flagship stores such as Royal Copenhagen.</p><p>It is busy during the day. The parallel lanes of Strædet (Kompagnistræde and Læderstræde) are quieter, with small shops, antiquarian bookshops and cafés.</p>",
+     "tip": "Für Fotos früh am Morgen kommen – dann ist der Platz fast leer.",
+     "tip_en": "Come early in the morning for photos – the square is almost empty.",
+     "photos": [
+      "images/photos/kopenhagen-amagertorv-storchenbrunnen.webp"
+     ]
     }
    ]
   },
@@ -277,5 +295,6 @@
    "a": "<p>Ja, an ausgewiesenen Hafenbädern wie Islands Brygge – sie sind kostenlos. Hinweise vor Ort zur Wasserqualität beachten.</p>",
    "a_en": "<p>Yes, at designated harbour baths such as Islands Brygge – they are free. Follow notices on site about water quality.</p>"
   }
- ]
+ ],
+ "hero": "images/photos/kopenhagen-amagertorv-storchenbrunnen.webp"
 }

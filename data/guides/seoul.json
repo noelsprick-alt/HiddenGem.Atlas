@@ -7,9 +7,9 @@
  "flag": "🇰🇷",
  "city": "Seoul",
  "city_en": "Seoul",
- "updated": "2026-11-05",
- "title": "Seoul Guide: 13 Orte – Bukchon, Gwangjang-Markt, N Seoul Tower, DMZ & Hidden Gems",
- "title_en": "Seoul Guide: 13 places – Bukchon, Gwangjang Market, N Seoul Tower, DMZ & hidden gems",
+ "updated": "2026-11-10",
+ "title": "Seoul Guide: 15 Orte – Bukchon, Gwangjang-Markt, N Seoul Tower, DMZ & Hidden Gems",
+ "title_en": "Seoul Guide: 15 places – Bukchon, Gwangjang Market, N Seoul Tower, DMZ & hidden gems",
  "desc": "Seoul an einem Tag: Hanok-Dorf, Garküchen, N Seoul Tower, Fischmarkt Noryangjin und ein Tunnel unter der Grenze – von Noel.",
  "desc_en": "Seoul in a day: Hanok village, food stalls, N Seoul Tower, Noryangjin fish market and a tunnel under the border – from Noel.",
  "gyg_q": "Seoul",
@@ -68,7 +68,12 @@
      "q": "Gwangjang Market Seoul",
      "text": "<p>Mittags zu den Garküchen: Mungobohnen-Pfannkuchen (Bindaetteok) auf Hockern. Touristisch, aber lohnend.</p>",
      "text_en": "<p>For lunch to the food stalls: mung bean pancakes (bindaetteok) on stools – touristy but worthwhile.</p>",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/seoul-gwangjang-markt.webp",
+      "images/photos/seoul-gwangjang-banchan.webp",
+      "images/photos/seoul-gwangjang-staende.webp"
+     ]
     },
     {
      "name": "N Seoul Tower am Namsan",
@@ -86,7 +91,12 @@
      "name_en": "Gyeongbokgung Palace",
      "q": "Gyeongbokgung Palace",
      "tip": "Komm zur Wachablösung und plane zwei Stunden ein.",
-     "tip_en": "Come for the changing of the guard and plan two hours."
+     "tip_en": "Come for the changing of the guard and plan two hours.",
+     "photos": [
+      "images/photos/seoul-palast.webp",
+      "images/photos/seoul-volkskundemuseum.webp",
+      "images/photos/seoul-koenig-sejong.webp"
+     ]
     },
     {
      "name": "Myeongdong & Kosmetik",
@@ -183,6 +193,44 @@
      "q": "Hwaseong Fortress Suwon",
      "tip": "Plane einen vollen Tag ein.",
      "tip_en": "Plan a full day."
+    },
+    {
+     "name": "Dongdaemun Design Plaza (DDP)",
+     "name_en": "Dongdaemun Design Plaza (DDP)",
+     "q": "Dongdaemun Design Plaza",
+     "ll": [
+      37.5665,
+      127.0092
+     ],
+     "gem": false,
+     "free": true,
+     "text": "<p>Das futuristische Gebäude von Zaha Hadid sieht aus wie ein gelandetes Raumschiff: geschwungene Aluminiumhaut, keine geraden Kanten. Drinnen gibt es wechselnde Ausstellungen und Design-Shops, draußen Plätze und Wege, die über das Dach führen.</p><p>Abends ist die Fassade beleuchtet, und rundherum öffnen im Modeviertel Dongdaemun die Großmärkte bis spät in die Nacht.</p>",
+     "text_en": "<p>Zaha Hadid's futuristic building looks like a landed spaceship: a curving aluminium skin with no straight edges. Inside there are changing exhibitions and design shops; outside, plazas and paths lead over the roof.</p><p>At night the façade is lit up, and the wholesale fashion markets of Dongdaemun around it stay open until late.</p>",
+     "tip": "U-Bahn-Station „Dongdaemun History & Culture Park“, Ausgang 1.",
+     "tip_en": "Subway station “Dongdaemun History & Culture Park”, exit 1.",
+     "photos": [
+      "images/photos/seoul-ddp.webp"
+     ]
+    },
+    {
+     "name": "Starfield Library im COEX & Gangnam Style",
+     "name_en": "Starfield Library at COEX & Gangnam Style",
+     "q": "Starfield Library",
+     "ll": [
+      37.51,
+      127.06
+     ],
+     "gem": false,
+     "free": true,
+     "text": "<p>Mitten in der COEX Mall in Gangnam ragen 13 Meter hohe Bücherregale in die Glaskuppel – eines der meistfotografierten Motive Seouls. Der Eintritt ist frei, du kannst dich setzen und in Büchern und Zeitschriften blättern.</p><p>Vor dem Gebäude steht die goldene Skulptur zum Hit „Gangnam Style“: zwei überkreuzte Hände, die du für das typische Foto nachstellst.</p>",
+     "text_en": "<p>In the middle of the COEX Mall in Gangnam, 13-metre-high bookshelves rise into the glass roof – one of Seoul's most photographed spots. Entry is free; you can sit down and browse books and magazines.</p><p>Outside stands the golden sculpture for the hit “Gangnam Style”: two crossed hands you copy for the classic photo.</p>",
+     "tip": "Vormittags unter der Woche kommen – am Wochenende stehen viele für Fotos an.",
+     "tip_en": "Go on a weekday morning – at weekends people queue for photos.",
+     "photos": [
+      "images/photos/seoul-starfield-library.webp",
+      "images/photos/seoul-starfield-halle.webp",
+      "images/photos/seoul-gangnam-style.webp"
+     ]
     }
    ]
   },
@@ -233,5 +281,6 @@
    "a": "Drei bis vier Tage.",
    "a_en": "Three to four days."
   }
- ]
+ ],
+ "hero": "images/photos/seoul-palast.webp"
 }

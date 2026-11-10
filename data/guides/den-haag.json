@@ -7,7 +7,7 @@
  "flag": "🇳🇱",
  "city": "Den Haag & Scheveningen",
  "city_en": "The Hague & Scheveningen",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Den Haag & Scheveningen Guide: 11 Orte – Mauritshuis, Binnenhof, Strand & Hidden Gems",
  "title_en": "The Hague & Scheveningen Guide: 11 places – Mauritshuis, Binnenhof, beach & hidden gems",
  "desc": "Stadt und Meer an einem Tag: vormittags Vermeers Mädchen mit dem Perlenohrring, nachmittags mit der Tram an den Strand von Scheveningen – von Noel.",
@@ -71,7 +71,11 @@
      "text_en": "<p>In the afternoon take the tram to the beach. The pier has a viewing deck, Ferris wheel, bungee and restaurants.</p><p>Scheveningen is The Hague’s seaside resort with a long sandy beach, promenade, the Kurhaus (a grand hotel of 1885) and the pier that juts about 400 metres into the sea. From the pier you can ride the Ferris wheel, bungee jump or eat in restaurants. The tram runs from the centre in about 20 to 30 minutes.</p><p>In summer the beach is crowded; in autumn and winter you can walk in the wind and drink hot chocolate in a beach pavilion. A fish roll or fresh herring is part of it. The beach is wide; watch the tides at high water.</p>",
      "tip": "Fahr am Nachmittag, bleib zum Sonnenuntergang und iss Fisch am Hafen.",
      "tip_en": "Go in the afternoon, stay for sunset and eat fish at the harbour.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/den-haag-scheveningen-riesenrad.webp",
+      "images/photos/den-haag-scheveningen-strandbar.webp"
+     ]
     },
     {
      "name": "Binnenhof & Hofvijver",
@@ -147,7 +151,10 @@
      "q": "Scheveningen Haven",
      "tip": "Iss Hering oder Kibbeling am Hafen und trink einen Kaffee mit Blick auf die Boote.",
      "tip_en": "Eat herring or kibbeling at the harbour and drink a coffee overlooking the boats.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/den-haag-austern-scheveningen.webp"
+     ]
     },
     {
      "name": "Haagse Markt – Multikulti-Markt",
@@ -225,5 +232,6 @@
    "a": "Das Besucherzentrum ist meist geöffnet; Führungen im Gebäude sind begrenzt und müssen oft vorab gebucht werden.",
    "a_en": "The visitor centre is usually open; tours inside the building are limited and often need to be booked in advance."
   }
- ]
+ ],
+ "hero": "images/photos/den-haag-scheveningen-riesenrad.webp"
 }

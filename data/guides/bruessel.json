@@ -6,7 +6,7 @@
  "flag": "🇧🇪",
  "city": "Brüssel",
  "city_en": "Brussels",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Brüssel Guide: 13 Orte – Grand-Place, Waffeln, Atomium, Comics & Hidden Gems",
  "title_en": "Brussels Guide: 13 places – Grand-Place, waffles, Atomium, comics & hidden gems",
  "desc": "Brüssel an einem Wochenende: Grand-Place, Galeries Royales Saint-Hubert, Cinquantenaire-Park, Atomium, Marolles-Flohmarkt und was du wissen musst.",
@@ -57,7 +57,11 @@
      "text_en": "<p>Ornate guildhalls and the Town Hall. Particularly lovely when lit up in the evening.</p><p>The Grand-Place is one of Europe’s most beautiful market squares and a UNESCO World Heritage site. Around the square stand magnificent guild houses with golden decoration, plus the Gothic town hall with its tall tower. Every two years in August the square is covered with a flower carpet (check the date beforehand).</p><p>In the evening the square is lit and especially atmospheric. Come early in the morning when fewer people are there.</p>",
      "tip": "Komm morgens früh oder abends zur Beleuchtung.",
      "tip_en": "Come early in the morning or in the evening for the lighting.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/bruessel-grand-place-nacht.webp",
+      "images/photos/bruessel-rathausturm-nacht.webp"
+     ]
     },
     {
      "name": "Galeries Royales Saint-Hubert",
@@ -72,7 +76,11 @@
      "text": "<p>Für die Weltausstellung 1958 gebaut. Der Blick von oben lohnt sich, am Aufzug kann es aber Wartezeiten geben.</p>",
      "text_en": "<p>Built for the 1958 World Expo. The view from the top is worth it, but expect waits at the lift.</p>",
      "hours": "täglich ca. 10–18 Uhr",
-     "hours_en": "daily about 10 am–6 pm"
+     "hours_en": "daily about 10 am–6 pm",
+     "photos": [
+      "images/photos/bruessel-atomium.webp",
+      "images/photos/bruessel-atomium-brunnen.webp"
+     ]
     },
     {
      "name": "Manneken Pis, Jeanneke Pis & Zinneke Pis",
@@ -82,7 +90,10 @@
      "q": "Manneken Pis Brussels",
      "tip": "Nimm es mit Humor – die Figur ist klein.",
      "tip_en": "Take it with humour – the figure is small.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/bruessel-manneken-pis.webp"
+     ]
     },
     {
      "name": "Waffeln, Pommes & Schokolade",
@@ -137,7 +148,10 @@
      "q": "Place du Jeu de Balle Brussels",
      "text": "<p>Der Flohmarkt im Marolles-Viertel ist ein Ort für Einheimische; Öffnungszeiten und Markttage vorher prüfen.</p>",
      "text_en": "<p>The flea market in the Marolles district is a spot for locals; check opening times and market days beforehand.</p>",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/bruessel-marolles-wandbild.webp"
+     ]
     },
     {
      "name": "Place du Sablon & Antiquitätenmarkt",
@@ -148,7 +162,12 @@
      "q": "Place du Grand Sablon Brussels",
      "tip": "Komm am Wochenende zum Markt.",
      "tip_en": "Come at the weekend for the market.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/bruessel-sablon-cafes.webp",
+      "images/photos/bruessel-sablon-terrasse.webp",
+      "images/photos/bruessel-sablon-justizpalast.webp"
+     ]
     },
     {
      "name": "Mont des Arts & Aussicht",
@@ -229,5 +248,6 @@
    "a": "Ja, Belgien nutzt den Euro.",
    "a_en": "Yes, Belgium uses the euro."
   }
- ]
+ ],
+ "hero": "images/photos/bruessel-atomium.webp"
 }

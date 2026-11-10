@@ -6,7 +6,7 @@
  "flag": "🇸🇰",
  "city": "Bratislava",
  "city_en": "Bratislava",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "title": "Bratislava Guide: 10 Orte – UFO-Deck, Altstadt, Burg, Blaue Kirche & Devín",
  "title_en": "Bratislava Guide: 10 places – UFO deck, old town, castle, Blue Church & Devín",
  "desc": "Bratislava, klein und schräg: Altstadt in einer Stunde, Sonnenuntergang auf dem UFO-Deck, Burg und kombinierbar mit Wien – von Noel.",
@@ -82,7 +82,11 @@
      "q": "Altstadt & Čumil",
      "tip": "Such alle Figuren und mach ein Foto mit Čumil.",
      "tip_en": "Find all the figures and take a photo with Čumil.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/bratislava-cumil.webp",
+      "images/photos/bratislava-altes-rathaus-hof.webp"
+     ]
     },
     {
      "name": "Michaelertor & Hauptplatz",
@@ -92,7 +96,12 @@
      "q": "Michalská brána Bratislava",
      "tip": "Steig auf den Turm und geh dann zum Hauptplatz.",
      "tip_en": "Climb the tower and then go to the Main Square.",
-     "free": true
+     "free": true,
+     "photos": [
+      "images/photos/bratislava-michaelertor.webp",
+      "images/photos/bratislava-hauptplatz-abend.webp",
+      "images/photos/bratislava-innenhof.webp"
+     ]
     },
     {
      "name": "Martinsdom (St. Martin)",
@@ -210,5 +219,6 @@
    "a": "Ja, die Slowakei nutzt den Euro.",
    "a_en": "Yes, Slovakia uses the euro."
   }
- ]
+ ],
+ "hero": "images/photos/bratislava-michaelertor.webp"
 }
