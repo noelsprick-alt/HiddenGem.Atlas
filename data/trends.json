@@ -1,9 +1,37 @@
 {
-  "updated": "10.11.2026",
-  "generated": "2026-11-10T13:20:31.359Z",
+  "updated": "11.11.2026",
+  "generated": "2026-11-11T12:31:33.611Z",
   "maxAgeDays": 14,
-  "count": 2,
+  "count": 4,
   "items": [
+    {
+      "id": "auto-inklusive-geheimtipp-7-der-schonsten-strande-t",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-11-10",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/ziele/schoenste-straende-buchten-in-thailand",
+      "title": "Inklusive Geheimtipp: 7 der schönsten Strände Thailands",
+      "desc": "Thailand hat sich längst als eines der beliebtesten Urlaubsziele etabliert. Kein Wunder, denn das asiatische Land bietet neben atemberaubender Natur auch unfassbar schöne Strände. Bei einem derart großen Angebot kann da das Treffen ...",
+      "title_en": "Includes insider tip: 7 of the most beautiful beaches in Thailand",
+      "desc_en": "Thailand has long established itself as one of the most popular holiday destinations. No wonder, because the Asian country not only offers breathtaking nature but also incredibly beautiful beaches. With such a large offer, the meeting can..."
+    },
+    {
+      "id": "auto-japan-is-closing-in-on-the-u-s-as-high-costs-a",
+      "cat": "International",
+      "cat_en": "International",
+      "verdict": "watch",
+      "lang": "en",
+      "date": "2026-11-10",
+      "src": "Skift",
+      "url": "https://skift.com/2026/11/10/brand-usa-top-destination-closing-gap/",
+      "title_en": "Japan Is Closing in on the U.S. as High Costs and Politics Deter Travelers, Brand USA Says",
+      "desc_en": "Research shows the U.S. losing ground to Japan as costs and politics turn travelers away. Brand USA is betting the lost demand is deferred, not gone, but its budget to win it back is shrinking.",
+      "title": "Japan nähert sich den USA, da hohe Kosten und politische Maßnahmen Reisende abschrecken, sagt Brand USA",
+      "desc": "Untersuchungen zeigen, dass die USA gegenüber Japan an Boden verlieren, da Kosten und Politik Reisende abweisen. Brand USA geht davon aus, dass die entgangene Nachfrage aufgeschoben und nicht weg ist, aber ihr Budget zur Rückgewinnung schrumpft."
+    },
     {
       "id": "auto-trauminsel-unweit-von-australien-die-insel-rot",
       "cat": "Reise",
