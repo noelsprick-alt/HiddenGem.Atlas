@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gastgeber-Zahlen · HiddenGem.Atlas</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Controlling für kleine Gasthöfe, Pensionen, Ferienwohnungen und Restaurants: Rechner, Kennzahlen und ehrliche Tipps von einem Controller, der aus der Gastronomie kommt.">
+<style>
+@font-face{font-family:'DM Sans';font-weight:100 1000;font-display:swap;src:url(../fonts/dm-sans-latin-wght-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-weight:400;font-display:swap;src:url(../fonts/cormorant-garamond-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-weight:600;font-display:swap;src:url(../fonts/cormorant-garamond-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url(../fonts/cormorant-garamond-latin-400-italic.woff2) format('woff2')}
+:root{--bg:#fdf8f0;--bg2:#f7f0e4;--bg3:#f0e8d8;--card:#fffdf8;--text:#1a1208;--text2:#5c4a2a;--text3:#8c7050;--gold:#c97a2a;--gold2:#e8923a;--line:rgba(90,60,20,.16);--dark:#1a0e04;--ok:#2d7a4f;--warn:#b7791f;--bad:#c0522a;--okbg:rgba(45,122,79,.12);--warnbg:rgba(183,121,31,.14);--badbg:rgba(192,82,42,.12)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16110a;--bg2:#211910;--bg3:#2a2015;--card:#1d160d;--text:#f3ead9;--text2:#c9b793;--text3:#9c8a6a;--gold:#e8923a;--gold2:#f0a85a;--line:rgba(255,230,190,.16);--ok:#5cc28a;--warn:#e0b04a;--bad:#ee7a52;--okbg:rgba(92,194,138,.14);--warnbg:rgba(224,176,74,.14);--badbg:rgba(238,122,82,.14)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--gold)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:14px 16px;background:var(--dark)}
+.logo{font:400 24px 'Cormorant Garamond',Georgia,serif;color:#fdf8f0;text-decoration:none}.logo em{color:#e8923a;font-style:normal}
+.top nav{display:flex;gap:16px;flex-wrap:wrap;font-size:14px}.top nav a{color:#f3ead9;text-decoration:none}.top nav a:hover{color:#e8923a}
+.wrap{max-width:920px;margin:0 auto;padding:0 16px}
+.hero{background:var(--dark);color:#f3ead9;padding:56px 0 64px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(232,146,58,.28),transparent 70%)}
+.kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#e8923a;margin:0 0 14px;font-weight:600}
+h1{font:400 clamp(36px,7vw,60px)/1.05 'Cormorant Garamond',Georgia,serif;margin:0 0 18px;max-width:760px}
+h1 i{color:#e8923a}
+.hero p.lead{font-size:clamp(17px,2.4vw,20px);color:#d9c8a6;max-width:640px;margin:0 0 26px}
+.btn{display:inline-block;background:var(--gold2);color:#16140f;font-weight:700;padding:12px 20px;border-radius:26px;text-decoration:none;margin:0 8px 10px 0;border:0;font-size:15px;cursor:pointer}
+.btn.alt{background:none;border:1px solid #e8923a;color:#f3ead9}
+.btn.sm{padding:8px 14px;font-size:14px;background:none;border:1px solid var(--gold);color:var(--gold)}
+section{padding:52px 0;border-bottom:1px solid var(--line)}
+h2{font:400 clamp(30px,5vw,40px)/1.1 'Cormorant Garamond',Georgia,serif;margin:0 0 10px}
+h3{font-size:19px;margin:0 0 6px}
+.sub{color:var(--text2);font-size:17px;margin:0 0 26px;max-width:680px}
+.story{display:grid;grid-template-columns:1fr;gap:22px}
+.story blockquote{margin:0;font:400 italic clamp(24px,4vw,30px)/1.3 'Cormorant Garamond',Georgia,serif;color:var(--gold);border-left:3px solid var(--gold);padding-left:18px}
+.story p{margin:0 0 12px}
+.calc{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;margin:0 0 26px}
+.calc header{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px}
+.calc header p{margin:2px 0 0;color:var(--text2);font-size:15px;max-width:560px}
+.num{font:600 13px 'DM Sans',sans-serif;color:var(--gold);letter-spacing:.1em;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px 16px}
+label{display:block;font-size:14px;color:var(--text2)}
+label span{display:block;margin-bottom:4px}
+input[type=number],select{width:100%;font:16px 'DM Sans',sans-serif;color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+input[type=number]:focus,select:focus{outline:2px solid var(--gold);outline-offset:1px}
+.chk{display:flex;gap:8px;align-items:flex-start;font-size:14px;color:var(--text2);margin-top:12px}.chk input{margin-top:4px;flex:none}
+.res{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:18px}
+.out{background:var(--bg2);border-radius:14px;padding:14px 16px}
+.out small{display:block;color:var(--text2);font-size:13px}
+.out b{display:block;font-size:26px;line-height:1.2;margin-top:2px;font-variant-numeric:tabular-nums}
+.out.hl{background:var(--gold2);color:#16140f}.out.hl small{color:#3a2a10}
+.out.ok{background:var(--okbg)}.out.ok b{color:var(--ok)}
+.out.warn{background:var(--warnbg)}.out.warn b{color:var(--warn)}
+.out.bad{background:var(--badbg)}.out.bad b{color:var(--bad)}
+.say{margin:16px 0 0;padding:12px 14px;border-left:3px solid var(--gold);background:var(--bg2);border-radius:0 10px 10px 0;font-size:15px}
+.rules{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:14px;counter-reset:r}
+.rules li{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 16px 64px;position:relative;counter-increment:r}
+.rules li:before{content:counter(r,decimal-leading-zero);position:absolute;left:18px;top:16px;font:600 26px 'Cormorant Garamond',Georgia,serif;color:var(--gold)}
+.rules p{margin:0;color:var(--text2);font-size:15px}
+.check{list-style:none;padding:0;margin:0}
+.check li{border-bottom:1px solid var(--line)}
+.check label{display:flex;gap:12px;align-items:flex-start;padding:12px 0;color:var(--text);font-size:16px;cursor:pointer}
+.check input{width:20px;height:20px;margin-top:3px;accent-color:var(--gold);flex:none}
+.check em{display:block;font-style:normal;color:var(--text2);font-size:14px}
+.prog{height:8px;background:var(--bg3);border-radius:8px;overflow:hidden;margin:6px 0 14px}.prog i{display:block;height:100%;width:0;background:var(--gold2);transition:width .3s}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:13px;color:var(--text2);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+td:first-child{font-weight:600;white-space:nowrap}
+.tw{overflow-x:auto}
+.mot{background:var(--dark);color:#f3ead9;border:0}
+.mot h2{color:#fdf8f0}
+.mot p{color:#d9c8a6;font-size:18px;max-width:700px}
+.mot .big{font:400 clamp(28px,5vw,42px)/1.2 'Cormorant Garamond',Georgia,serif;color:#e8923a;margin:22px 0}
+.foot{padding:28px 0 60px;color:var(--text2);font-size:14px}
+.note{font-size:13px;color:var(--text3);margin-top:10px}
+.draft{background:var(--warnbg);color:var(--text);font-size:13px;text-align:center;padding:6px 16px}
+@media (min-width:760px){.story{grid-template-columns:1fr 1.4fr}.rules{grid-template-columns:1fr 1fr}}
+@media print{.top,.hero .btn,.draft,.noprint{display:none}body{background:#fff;color:#000}section{padding:20px 0}.calc,.rules li{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="draft">Entwurf – noch nicht verlinkt und nicht in Suchmaschinen</div>
+<header class="top">
+  <a class="logo" href="../">HiddenGem<em>.</em>Atlas</a>
+  <nav><a href="#rechner">Rechner</a><a href="#regeln">Regeln</a><a href="#abschluss">Monatsabschluss</a><a href="#kennzahlen">Kennzahlen</a></nav>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <p class="kicker">Für kleine Gastgeber · Gasthof · Pension · Ferienwohnung · Restaurant</p>
+    <h1>Deine Zahlen. <i>Endlich verständlich.</i></h1>
+    <p class="lead">Controlling für die Hidden Gems der Gastronomie und Hotellerie: ehrliche Rechner, klare Kennzahlen und die Tipps, die dir sonst keiner zeigt. Kein BWL-Studium nötig, nur 30 Minuten im Monat.</p>
+    <a class="btn" href="#rechner">Jetzt durchrechnen</a><a class="btn alt" href="#regeln">Die 12 Regeln</a>
+  </div>
+</div>
+
+<section id="warum">
+  <div class="wrap story">
+    <blockquote>„Ich stand vorne an der Front. Heute sitze ich hinter geschlossenen Türen – und sehe, woran es wirklich hängt.“</blockquote>
+    <div>
+      <h2>Warum ich das mache</h2>
+      <p>Ich habe Hospitality gelernt und stand im Service vorne an der Front, vom Tresen bis zur Restaurantleitung. Heute bin ich Controller. Operativ habe ich der Branche leider den Rücken gekehrt, ich arbeite inzwischen bei einem Zulieferer – dazu vielleicht später mehr.</p>
+      <p>Aber die Hospitality liegt mir immer noch am Herzen. Auf meinen Reisen suche ich die Hidden Gems: den kleinen Gasthof, die Pension mit drei Zimmern, das Restaurant mit zwölf Tischen. Genau diese Betriebe will ich unterstützen.</p>
+      <p>Große Hotelketten haben ganze Controlling-Abteilungen. Du hast einen Taschenrechner und einen langen Tag. Deshalb teile ich hier, was ich jeden Tag im Controlling mache – übersetzt für kleine Betriebe, die ihr Business einfach mal sauber durchrechnen wollen.</p>
+    </div>
+  </div>
+</section>
+
+<section id="rechner">
+  <div class="wrap">
+    <h2>Rechne es dir aus</h2>
+    <p class="sub">Trag deine eigenen Zahlen ein, alles rechnet sofort mit. Nichts wird gespeichert oder verschickt – die Rechnung bleibt in deinem Browser.</p>
+
+    <!-- 1 Zimmer / Ferienwohnung -->
+    <div class="calc" id="c1">
+      <header><div><span class="num">Rechner 1 · Zimmer & Ferienwohnung</span><h3>Was muss meine Nacht kosten?</h3><p>Für ein Zimmer, eine Ferienwohnung oder ein Airbnb. Du siehst deinen Mindestpreis, deinen Break-even und ab welcher Auslastung du überhaupt Geld verdienst.</p></div></header>
+      <div class="grid">
+        <label><span>Fixkosten pro Monat (€)</span><input type="number" id="a_fix" value="900" min="0" step="10"></label>
+        <label><span>Verfügbare Nächte pro Monat</span><input type="number" id="a_avail" value="30" min="1" step="1"></label>
+        <label><span>Erwartete Auslastung (%)</span><input type="number" id="a_occ" value="65" min="1" max="100" step="1"></label>
+        <label><span>Reinigung & Wäsche pro Aufenthalt (€)</span><input type="number" id="a_clean" value="45" min="0" step="1"></label>
+        <label><span>Verbrauch pro belegter Nacht (€)</span><input type="number" id="a_var" value="8" min="0" step="0.5"></label>
+        <label><span>Ø Aufenthalt (Nächte)</span><input type="number" id="a_los" value="2.5" min="1" step="0.1"></label>
+        <label><span>Plattform-Provision (%)</span><input type="number" id="a_comm" value="15" min="0" max="60" step="0.5"></label>
+        <label><span>Dein Wunsch-Gewinn pro Monat (€)</span><input type="number" id="a_profit" value="600" min="0" step="50"></label>
+        <label><span>Dein aktueller Preis pro Nacht (€)</span><input type="number" id="a_price" value="95" min="1" step="1"></label>
+      </div>
+      <label class="chk"><input type="checkbox" id="a_klein"> Ich bin Kleinunternehmer (keine Umsatzsteuer). Sonst rechnet der Rechner mit 7 % auf die Übernachtung.</label>
+      <div class="res">
+        <div class="out hl"><small>Preis pro Nacht für deinen Wunsch-Gewinn</small><b id="a_r_target">–</b></div>
+        <div class="out"><small>Break-even-Preis (0 € Gewinn)</small><b id="a_r_be">–</b></div>
+        <div class="out" id="a_box_occ"><small>Break-even-Auslastung zu deinem Preis</small><b id="a_r_beocc">–</b></div>
+        <div class="out"><small>Gewinn pro Monat zu deinem Preis</small><b id="a_r_now">–</b></div>
+      </div>
+      <p class="say" id="a_say"></p>
+      <p class="note">Fixkosten = alles, was auch bei leerem Zimmer läuft: Miete oder Kredit, Nebenkosten-Grundbetrag, Versicherung, Internet, Software, Rücklage für Renovierung. Die Provision wird auf den Bruttopreis gerechnet – prüf dein eigenes Gebührenmodell.</p>
+    </div>
+
+    <!-- 2 Teller -->
+    <div class="calc" id="c2">
+      <header><div><span class="num">Rechner 2 · Speisen & Getränke</span><h3>Was muss auf die Karte?</h3><p>Aus dem Wareneinsatz pro Portion wird ein Kartenpreis – oder du prüfst, ob dein jetziger Preis noch passt.</p></div></header>
+      <div class="grid">
+        <label><span>Wareneinsatz pro Portion (€)</span><input type="number" id="b_cost" value="4.20" min="0" step="0.05"></label>
+        <label><span>Ziel-Wareneinsatzquote (%)</span><input type="number" id="b_quote" value="30" min="5" max="90" step="1"></label>
+        <label><span>Art</span><select id="b_vat"><option value="7">Speise (7 % USt)</option><option value="19">Getränk (19 % USt)</option></select></label>
+        <label><span>Dein aktueller Kartenpreis (€)</span><input type="number" id="b_price" value="13.50" min="0" step="0.1"></label>
+      </div>
+      <div class="res">
+        <div class="out hl"><small>Kartenpreis-Vorschlag (brutto)</small><b id="b_r_card">–</b></div>
+        <div class="out"><small>Rechnerisch exakt (brutto)</small><b id="b_r_exact">–</b></div>
+        <div class="out"><small>Rohertrag pro Portion (netto)</small><b id="b_r_db">–</b></div>
+        <div class="out" id="b_box_now"><small>Quote bei deinem aktuellen Preis</small><b id="b_r_now">–</b></div>
+      </div>
+      <p class="say" id="b_say"></p>
+      <p class="note">Wareneinsatz = alles, was auf dem Teller oder im Glas landet, inklusive Beilage, Sauce, Garnitur und ein bisschen Schwund. Seit 1. Januar 2026 gelten für Speisen 7 %, für Getränke weiter 19 %.</p>
+    </div>
+
+    <!-- 3 Cockpit -->
+    <div class="calc" id="c3">
+      <header><div><span class="num">Rechner 3 · Monats-Cockpit</span><h3>Wie gesund ist mein Betrieb?</h3><p>Für Restaurant, Café oder Gasthof. Alle Beträge netto (ohne Umsatzsteuer) für einen Monat.</p></div></header>
+      <div class="grid">
+        <label><span>Umsatz netto (€)</span><input type="number" id="c_rev" value="38000" min="0" step="100"></label>
+        <label><span>Wareneinsatz (€)</span><input type="number" id="c_cogs" value="11000" min="0" step="100"></label>
+        <label><span>Personal inkl. Nebenkosten (€)</span><input type="number" id="c_staff" value="13500" min="0" step="100"></label>
+        <label><span>Miete / Pacht (€)</span><input type="number" id="c_rent" value="3200" min="0" step="50"></label>
+        <label><span>Energie (€)</span><input type="number" id="c_energy" value="1400" min="0" step="50"></label>
+        <label><span>Sonstige Kosten (€)</span><input type="number" id="c_other" value="2600" min="0" step="50"></label>
+        <label><span>Dein eigener Lohn (€)</span><input type="number" id="c_owner" value="3000" min="0" step="100"></label>
+        <label><span>Öffnungstage im Monat</span><input type="number" id="c_days" value="26" min="1" step="1"></label>
+        <label><span>Ø Umsatz pro Gast netto (€)</span><input type="number" id="c_bon" value="24" min="1" step="0.5"></label>
+      </div>
+      <div class="res">
+        <div class="out" id="c_box_cogs"><small>Wareneinsatzquote</small><b id="c_r_cogs">–</b></div>
+        <div class="out" id="c_box_staff"><small>Personalquote</small><b id="c_r_staff">–</b></div>
+        <div class="out" id="c_box_prime"><small>Prime Cost (Ware + Personal)</small><b id="c_r_prime">–</b></div>
+        <div class="out" id="c_box_rent"><small>Mietquote</small><b id="c_r_rent">–</b></div>
+        <div class="out hl"><small>Ergebnis nach deinem Lohn</small><b id="c_r_res">–</b></div>
+        <div class="out"><small>Break-even-Umsatz pro Monat</small><b id="c_r_be">–</b></div>
+        <div class="out"><small>Gäste pro Öffnungstag für Break-even</small><b id="c_r_guests">–</b></div>
+      </div>
+      <p class="say" id="c_say"></p>
+      <p class="note">Ampel nach groben Faustregeln für kleine Betriebe: Wareneinsatz 25–35 %, Personal 30–35 %, Prime Cost unter 65 %, Miete unter 10 %. Jedes Konzept ist anders – entscheidend ist, wie sich deine Werte von Monat zu Monat bewegen.</p>
+    </div>
+
+    <!-- 4 Cash -->
+    <div class="calc" id="c4">
+      <header><div><span class="num">Rechner 4 · Cash-Puffer</span><h3>Wie lange halte ich durch?</h3><p>Das Geld auf deinem Konto gehört nicht komplett dir. Dieser Rechner zieht die Steuern ab und zeigt, wie viele Monate du ohne Einnahmen überstehen würdest.</p></div></header>
+      <div class="grid">
+        <label><span>Kontostand heute (€)</span><input type="number" id="d_bank" value="18000" min="0" step="100"></label>
+        <label><span>Offene Umsatzsteuer bis zur nächsten Voranmeldung (€)</span><input type="number" id="d_vat" value="2100" min="0" step="50"></label>
+        <label><span>Gewinn bisher in diesem Jahr (€)</span><input type="number" id="d_profit" value="24000" min="0" step="500"></label>
+        <label><span>Rücklage für Einkommensteuer (%)</span><input type="number" id="d_taxp" value="25" min="0" max="60" step="1"></label>
+        <label><span>Schon gezahlte Steuer-Vorauszahlungen (€)</span><input type="number" id="d_paid" value="3000" min="0" step="100"></label>
+        <label><span>Fixkosten pro Monat inkl. deinem Lohn (€)</span><input type="number" id="d_fix" value="9000" min="1" step="100"></label>
+      </div>
+      <div class="res">
+        <div class="out"><small>Steuern, die schon „weg“ sind</small><b id="d_r_tax">–</b></div>
+        <div class="out hl"><small>Wirklich freies Geld</small><b id="d_r_free">–</b></div>
+        <div class="out" id="d_box_m"><small>Reichweite in Monaten</small><b id="d_r_m">–</b></div>
+      </div>
+      <p class="say" id="d_say"></p>
+      <p class="note">Der Prozentsatz für die Einkommensteuer ist nur eine Schätzung. Frag deinen Steuerberater nach deinem persönlichen Satz.</p>
+    </div>
+    <p class="noprint"><button class="btn sm" onclick="window.print()">Rechnungen drucken / als PDF speichern</button></p>
+  </div>
+</section>
+
+<section id="regeln">
+  <div class="wrap">
+    <h2>12 Regeln, die dir sonst keiner sagt</h2>
+    <p class="sub">Nicht aus dem Lehrbuch, sondern aus dem Alltag zwischen Kasse, Küche und Controlling.</p>
+    <ol class="rules">
+      <li><h3>Umsatz ist Eitelkeit, Deckungsbeitrag ist Realität.</h3><p>Ein voller Laden heißt nichts. Rechne jedes Gericht, jedes Zimmer und jede Feier bis zum Deckungsbeitrag durch: Was bleibt nach Ware, Provision und Reinigung wirklich übrig?</p></li>
+      <li><h3>Dein Lohn gehört in die Kosten.</h3><p>Wenn am Monatsende 3.000 € übrig sind, ist das kein Gewinn, sondern dein Gehalt. Erst was danach bleibt, ist Gewinn. Viele kleine Betriebe rechnen sich reich, weil sie sich selbst vergessen.</p></li>
+      <li><h3>Prime Cost jede Woche, nicht einmal im Jahr.</h3><p>Wareneinsatz plus Personal geteilt durch Umsatz. Das ist die eine Zahl, die über dein Jahr entscheidet. Wer sie erst beim Jahresabschluss sieht, kann nichts mehr ändern.</p></li>
+      <li><h3>Steuern zuerst wegsperren.</h3><p>Leg dir ein zweites Konto an und überweise bei jedem Zahlungseingang sofort die Umsatzsteuer und eine Rücklage für die Einkommensteuer. Das Geld auf dem Hauptkonto fühlt sich dann zwar kleiner an, ist aber ehrlich.</p></li>
+      <li><h3>Inventur light: die Top 20 reichen.</h3><p>Rund 20 Artikel machen bei den meisten Karten den Großteil des Wareneinsatzes aus. Zähl die jeden Monat. So siehst du Schwund, Portionierungsfehler und Preissteigerungen, bevor sie dich auffressen.</p></li>
+      <li><h3>Kleinere Karte, größere Marge.</h3><p>Sortiere jedes Gericht nach Beliebtheit und Rohertrag. Beliebt und ertragsstark: nach oben auf die Karte. Unbeliebt und ertragsschwach: raus. Jede gestrichene Position spart Einkauf, Lager und Schwund.</p></li>
+      <li><h3>Preise ändern sich – deine auch.</h3><p>Wochenende, Ferien, Messen, Stadtfeste und Brückentage sind keine normalen Tage. Ein fester Preis das ganze Jahr verschenkt Geld an den vollen Tagen und verliert Gäste an den leeren.</p></li>
+      <li><h3>Lückennächte gezielt füllen.</h3><p>Eine einzelne freie Nacht zwischen zwei Buchungen bleibt oft leer, wenn dein Mindestaufenthalt zwei Nächte ist. Erlaube für genau diese Lücken eine Nacht oder einen kleinen Rabatt. Jede verkaufte Lücke ist fast reiner Deckungsbeitrag.</p></li>
+      <li><h3>Provision ist Marketing – rechne sie auch so.</h3><p>Buchungsplattformen bringen Gäste, kosten aber jedes Mal. Bitte zufriedene Stammgäste, beim nächsten Mal direkt bei dir zu buchen, über deine Website oder Instagram. Halte dich dabei an die Regeln der Plattform.</p></li>
+      <li><h3>No-Shows kosten echtes Geld.</h3><p>Bei Gruppen, Feiertagen und Feiern: Anzahlung oder Kreditkartengarantie und klare Stornobedingungen. Ein leerer Achtertisch am Samstag ist ein ganzer Abendgewinn.</p></li>
+      <li><h3>Personal nach Prognose planen.</h3><p>Deine Kasse weiß, wann es voll ist. Schau dir den Umsatz pro Stunde und Wochentag an und plane Schichten danach. Die Kennzahl dazu: Umsatz pro Arbeitsstunde.</p></li>
+      <li><h3>7 % auf Speisen richtig nutzen.</h3><p>Seit 2026 gilt für Speisen dauerhaft 7 %, für Getränke 19 %. Prüf, ob deine Kasse richtig eingestellt ist und ob Kombi-Angebote (Buffet, Menü mit Getränk) sauber aufgeteilt sind – und entscheide bewusst, ob du die Ersparnis in Preise, Löhne oder Rücklagen steckst.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="abschluss">
+  <div class="wrap">
+    <h2>Monatsabschluss in 30 Minuten</h2>
+    <p class="sub">Einmal im Monat, gleicher Tag, gleiche Reihenfolge. Hak ab, was erledigt ist – dein Fortschritt bleibt in diesem Browser gespeichert.</p>
+    <div class="prog"><i id="prog"></i></div>
+    <ul class="check" id="checklist">
+      <li><label><input type="checkbox" data-k="1"><span>Umsatz aus der Kasse oder Plattform ziehen<em>Getrennt nach Speisen, Getränken und Übernachtung.</em></span></label></li>
+      <li><label><input type="checkbox" data-k="2"><span>Alle Wareneinkäufe des Monats summieren<em>Rechnungen vom Großhandel, Bäcker, Getränkelieferanten.</em></span></label></li>
+      <li><label><input type="checkbox" data-k="3"><span>Top-20-Artikel zählen<em>Bestand Monatsanfang + Einkauf − Bestand Monatsende = echter Verbrauch.</em></span></label></li>
+      <li><label><input type="checkbox" data-k="4"><span>Personalkosten und Stunden eintragen<em>Inklusive Aushilfen und deiner eigenen Stunden.</em></span></label></li>
+      <li><label><input type="checkbox" data-k="5"><span>Zahlen ins Monats-Cockpit (Rechner 3)<em>Wareneinsatz, Personal, Prime Cost, Ergebnis.</em></span></label></li>
+      <li><label><input type="checkbox" data-k="6"><span>Mit dem Vormonat und dem Vorjahresmonat vergleichen<em>Eine Zahl allein sagt wenig. Die Richtung sagt alles.</em></span></label></li>
+      <li><label><input type="checkbox" data-k="7"><span>Steuer-Konto auffüllen<em>Umsatzsteuer und Rücklage für die Einkommensteuer.</em></span></label></li>
+      <li><label><input type="checkbox" data-k="8"><span>Eine Entscheidung treffen<em>Ein Preis, ein Gericht, eine Öffnungszeit. Controlling ohne Entscheidung ist nur Statistik.</em></span></label></li>
+    </ul>
+    <p class="noprint" style="margin-top:14px"><button class="btn sm" id="reset">Für neuen Monat zurücksetzen</button></p>
+  </div>
+</section>
+
+<section id="kennzahlen">
+  <div class="wrap">
+    <h2>Die Kennzahlen auf einen Blick</h2>
+    <p class="sub">Die Begriffe, die Hotelketten jeden Morgen anschauen – einfach erklärt.</p>
+    <div class="tw"><table>
+      <thead><tr><th>Kennzahl</th><th>So rechnest du</th><th>Was sie dir sagt</th></tr></thead>
+      <tbody>
+        <tr><td>Auslastung</td><td>verkaufte Nächte ÷ verfügbare Nächte</td><td>Wie voll du bist – aber nicht, ob es sich lohnt.</td></tr>
+        <tr><td>ADR</td><td>Logisumsatz ÷ verkaufte Nächte</td><td>Was du im Schnitt pro verkaufter Nacht bekommst.</td></tr>
+        <tr><td>RevPAR</td><td>Logisumsatz ÷ verfügbare Nächte</td><td>Die ehrlichste Hotelzahl: Preis und Auslastung zusammen.</td></tr>
+        <tr><td>Wareneinsatzquote</td><td>Wareneinsatz ÷ Umsatz netto</td><td>Wie viel von jedem Euro im Einkauf steckt.</td></tr>
+        <tr><td>Personalquote</td><td>Personalkosten ÷ Umsatz netto</td><td>Wie viel von jedem Euro an dein Team geht.</td></tr>
+        <tr><td>Prime Cost</td><td>(Ware + Personal) ÷ Umsatz netto</td><td>Die wichtigste Zahl in der Gastronomie.</td></tr>
+        <tr><td>Rohertrag</td><td>Nettopreis − Wareneinsatz</td><td>Was ein Gericht zu Miete, Löhnen und Gewinn beiträgt.</td></tr>
+        <tr><td>Break-even</td><td>Fixkosten ÷ (1 − variable Kostenquote)</td><td>Ab welchem Umsatz du kein Geld mehr verlierst.</td></tr>
+        <tr><td>Umsatz pro Arbeitsstunde</td><td>Umsatz netto ÷ geleistete Stunden</td><td>Ob dein Dienstplan zu deinen Gästen passt.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section class="mot">
+  <div class="wrap">
+    <h2>An alle, die gerade erst anfangen</h2>
+    <p>Du hast keine Kette im Rücken, kein Controlling-Team und keinen Investor. Du hast drei Zimmer, eine Küche oder eine Wohnung – und den Mut, es trotzdem zu machen. Genau das sind die Orte, für die Leute um die halbe Welt reisen.</p>
+    <p class="big">Wer seine Zahlen kennt, muss keine Angst vor ihnen haben.</p>
+    <p>Fang heute an. Ein Rechner, eine Zahl, eine Entscheidung. Nächsten Monat die nächste. In einem Jahr kennst du deinen Betrieb besser als jede Bank. Ihr seid die Hidden Gems. Lasst uns dafür sorgen, dass ihr auch bleibt.</p>
+    <p><a class="btn" href="https://www.instagram.com/hiddengem.atlas/" target="_blank" rel="noopener">Schreib mir auf Instagram</a></p>
+  </div>
+</section>
+
+<div class="wrap foot">
+  <p>Alle Rechner zeigen vereinfachte Beispielrechnungen und ersetzen keine Steuer- oder Rechtsberatung. Steuersätze Stand 2026 in Deutschland: Übernachtung 7 %, Speisen 7 %, Getränke 19 %.</p>
+  <p><a href="../">HiddenGem.Atlas</a> · <a href="../#/impressum">Impressum</a> · <a href="../#/datenschutz">Datenschutz</a></p>
+</div>
+
+<script>
+(function(){
+  var eur=new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+  var eur2=new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',minimumFractionDigits:2,maximumFractionDigits:2});
+  var pct=function(x){return (isFinite(x)?(x*100).toLocaleString('de-DE',{maximumFractionDigits:1}):'–')+' %'};
+  var v=function(id){var n=parseFloat(document.getElementById(id).value);return isFinite(n)?n:0};
+  var set=function(id,t){document.getElementById(id).textContent=t};
+  var tone=function(id,c){var e=document.getElementById(id);e.classList.remove('ok','warn','bad');if(c)e.classList.add(c)};
+
+  function c1(){
+    var fix=v('a_fix'),avail=Math.max(1,v('a_avail')),occ=Math.min(100,Math.max(1,v('a_occ')))/100,clean=v('a_clean'),vr=v('a_var'),los=Math.max(1,v('a_los')),comm=v('a_comm')/100,profit=v('a_profit'),price=v('a_price');
+    var vat=document.getElementById('a_klein').checked?0:0.07;
+    var nights=avail*occ, varPerNight=clean/los+vr, factor=1/(1+vat)-comm;
+    var costs=fix+nights*varPerNight;
+    var target=(costs+profit)/(nights*factor), be=costs/(nights*factor);
+    set('a_r_target',factor>0?eur.format(Math.ceil(target)):'–');
+    set('a_r_be',factor>0?eur.format(Math.ceil(be)):'–');
+    var margin=price*factor-varPerNight, beN=margin>0?fix/margin:Infinity, beOcc=beN/avail;
+    set('a_r_beocc',isFinite(beOcc)?(beOcc>1?'über 100 %':pct(beOcc)):'nie');
+    tone('a_box_occ',!isFinite(beOcc)||beOcc>0.85?'bad':beOcc>occ?'warn':'ok');
+    var now=nights*margin-fix; set('a_r_now',eur.format(now));
+    var s;
+    if(!isFinite(beOcc)||beOcc>1) s='Zu deinem aktuellen Preis verdienst du selbst bei voller Belegung kein Geld. Erst Preis und Kosten prüfen, dann über Marketing reden.';
+    else if(beOcc>occ) s='Bei '+pct(occ)+' Auslastung machst du Verlust. Du brauchst mindestens '+pct(beOcc)+' – oder einen höheren Preis. Für deinen Wunsch-Gewinn wären '+eur.format(Math.ceil(target))+' pro Nacht nötig.';
+    else if(now<profit) s='Du bist im Plus, aber unter deinem Wunsch-Gewinn. Schon '+eur.format(Math.max(1,Math.ceil(target-price)))+' mehr pro Nacht würden die Lücke schließen.';
+    else s='Stark. Zu deinem Preis liegst du über deinem Ziel. Teste an gefragten Tagen trotzdem einen höheren Preis – volle Wochenenden sind oft zu billig verkauft.';
+    set('a_say',s);
+  }
+  function c2(){
+    var cost=v('b_cost'),q=Math.max(0.05,v('b_quote')/100),vat=v('b_vat')/100,price=v('b_price');
+    var net=cost/q, gross=net*(1+vat), card=Math.ceil(gross*2)/2;
+    set('b_r_exact',eur2.format(gross)); set('b_r_card',eur2.format(card));
+    set('b_r_db',eur2.format(card/(1+vat)-cost));
+    var nowQ=price>0?cost/(price/(1+vat)):NaN; set('b_r_now',price>0?pct(nowQ):'–');
+    tone('b_box_now',!(price>0)?null:nowQ<=q+0.005?'ok':nowQ<=q+0.05?'warn':'bad');
+    var s;
+    if(!(price>0)) s='Trag deinen aktuellen Kartenpreis ein, dann siehst du, ob er noch passt.';
+    else if(nowQ<=q+0.005) s='Dein Preis passt. Bei '+eur2.format(price)+' liegt dein Wareneinsatz bei '+pct(nowQ)+'.';
+    else s='Bei '+eur2.format(price)+' frisst die Ware '+pct(nowQ)+' vom Nettopreis. Mit '+eur2.format(card)+' wärst du wieder bei deinem Ziel – das sind '+eur2.format(card-price)+' mehr pro Portion.';
+    set('b_say',s);
+  }
+  function c3(){
+    var rev=v('c_rev'),cogs=v('c_cogs'),staff=v('c_staff'),rent=v('c_rent'),en=v('c_energy'),oth=v('c_other'),own=v('c_owner'),days=Math.max(1,v('c_days')),bon=Math.max(0.01,v('c_bon'));
+    var qc=rev?cogs/rev:NaN,qs=rev?staff/rev:NaN,qp=rev?(cogs+staff)/rev:NaN,qr=rev?rent/rev:NaN;
+    set('c_r_cogs',pct(qc));set('c_r_staff',pct(qs));set('c_r_prime',pct(qp));set('c_r_rent',pct(qr));
+    tone('c_box_cogs',qc<=0.35?'ok':qc<=0.40?'warn':'bad');tone('c_box_staff',qs<=0.35?'ok':qs<=0.40?'warn':'bad');
+    tone('c_box_prime',qp<=0.65?'ok':qp<=0.70?'warn':'bad');tone('c_box_rent',qr<=0.10?'ok':qr<=0.13?'warn':'bad');
+    var res=rev-cogs-staff-rent-en-oth-own; set('c_r_res',eur.format(res)+(rev?' · '+pct(res/rev):''));
+    var fixed=staff+rent+en+oth+own, be=qc<1?fixed/(1-qc):Infinity;
+    set('c_r_be',isFinite(be)?eur.format(be):'–');
+    set('c_r_guests',isFinite(be)?Math.ceil(be/days/bon).toLocaleString('de-DE'):'–');
+    var worst=[['Wareneinsatz',qc-0.35],['Personal',qs-0.35],['Miete',qr-0.10]].sort(function(a,b){return b[1]-a[1]})[0];
+    var s=res<0?'Nach deinem eigenen Lohn bleibt ein Minus von '+eur.format(-res)+'. ':'Nach deinem eigenen Lohn bleiben '+eur.format(res)+'. ';
+    s+=worst[1]>0?'Größter Hebel: '+worst[0]+' – hier liegst du über der Faustregel.':'Alle drei großen Quoten liegen im grünen Bereich. Jetzt geht es um Preise und Gäste pro Tag.';
+    set('c_say',s);
+  }
+  function c4(){
+    var bank=v('d_bank'),vat=v('d_vat'),pr=v('d_profit'),tp=v('d_taxp')/100,paid=v('d_paid'),fix=Math.max(1,v('d_fix'));
+    var tax=vat+Math.max(0,pr*tp-paid), free=bank-tax, m=free/fix;
+    set('d_r_tax',eur.format(tax)); set('d_r_free',eur.format(free));
+    set('d_r_m',(m<0?'0':m.toLocaleString('de-DE',{maximumFractionDigits:1}))+' Monate');
+    tone('d_box_m',m<1.5?'bad':m<3?'warn':'ok');
+    var s=m<1.5?'Achtung: Dein Puffer ist dünn. Ziel sind drei Monatsfixkosten auf der hohen Kante. Lege jeden Monat einen festen Betrag zurück, bevor du investierst.':m<3?'Du hast etwas Luft, aber noch keine drei Monate. Bau den Puffer weiter auf, bevor du neue Ausgaben planst.':'Gut aufgestellt: Du könntest mehr als drei Monate ohne Einnahmen überstehen. Das ist echte Freiheit für Entscheidungen.';
+    set('d_say',s);
+  }
+  var map={c1:c1,c2:c2,c3:c3,c4:c4};
+  Object.keys(map).forEach(function(k){var box=document.getElementById(k);box.addEventListener('input',map[k]);box.addEventListener('change',map[k]);map[k]();});
+
+  var KEY='hg-gastro-check',state={};
+  try{state=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){state={}}
+  var boxes=[].slice.call(document.querySelectorAll('#checklist input'));
+  function prog(){var d=boxes.filter(function(b){return b.checked}).length;document.getElementById('prog').style.width=(d/boxes.length*100)+'%'}
+  boxes.forEach(function(b){b.checked=!!state[b.dataset.k];b.addEventListener('change',function(){state[b.dataset.k]=b.checked;try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}prog()})});
+  document.getElementById('reset').addEventListener('click',function(){state={};boxes.forEach(function(b){b.checked=false});try{localStorage.removeItem(KEY)}catch(e){}prog()});
+  prog();
+})();
+</script>
+</body>
+</html>
