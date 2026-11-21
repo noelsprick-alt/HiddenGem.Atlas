@@ -1,9 +1,23 @@
 {
-  "updated": "20.11.2026",
-  "generated": "2026-11-20T13:53:52.540Z",
+  "updated": "21.11.2026",
+  "generated": "2026-11-21T13:17:19.624Z",
   "maxAgeDays": 14,
-  "count": 6,
+  "count": 7,
   "items": [
+    {
+      "id": "auto-karibik-flair-statt-ballermann-was-formentera-",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-11-21",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/ziele/inseln/was-formentera-von-den-anderen-baleareninseln-abhebt",
+      "title": "Karibik-Flair statt Ballermann: Was Formentera von den anderen Baleareninseln abhebt",
+      "desc": "Wer an die Balearen denkt, denkt zunächst vermutlich erst einmal an Mallorca oder Ibiza. Aber es gibt noch eine weitere Insel: Formentera. Das ist zwar kein Geheimtipp, aber TRAVELBOOK-Autorin Emilia Wolf findet, dass man die Insel ...",
+      "title_en": "Caribbean flair instead of ballerina: what sets Formentera apart from the other Balearic islands",
+      "desc_en": "When you think of the Balearic Islands, you probably first think of Mallorca or Ibiza. But there is another island: Formentera. This isn't an insider tip, but TRAVELBOOK author Emilia Wolf thinks that the island..."
+    },
     {
       "id": "auto-airlines-race-to-keep-up-with-vietnam-s-indian",
       "cat": "International",
