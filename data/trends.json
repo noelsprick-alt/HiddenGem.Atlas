@@ -1,9 +1,37 @@
 {
-  "updated": "22.11.2026",
-  "generated": "2026-11-22T13:09:34.460Z",
+  "updated": "23.11.2026",
+  "generated": "2026-11-23T15:46:26.313Z",
   "maxAgeDays": 14,
-  "count": 7,
+  "count": 8,
   "items": [
+    {
+      "id": "auto-cruise-s-hidden-middleman-what-filings-reveal-",
+      "cat": "International",
+      "cat_en": "International",
+      "verdict": "watch",
+      "lang": "en",
+      "date": "2026-11-23",
+      "src": "Skift",
+      "url": "https://skift.com/2026/11/23/world-travel-holdings-private-equity-investment/",
+      "title_en": "Cruise’s Hidden Middleman: What Filings Reveal About Private Equity Ownership and Profits",
+      "desc_en": "Citation’s majority stake in cruise seller World Travel Holdings is a bet that operators will keep needing middlemen.",
+      "title": "Cruises versteckter Mittelsmann: Was die Unterlagen über Private-Equity-Eigentümer und Gewinne verraten",
+      "desc": "Die Mehrheitsbeteiligung von Citation am Kreuzfahrtanbieter World Travel Holdings ist eine Wette darauf, dass die Betreiber weiterhin Zwischenhändler benötigen werden."
+    },
+    {
+      "id": "auto-radisson-s-first-paid-membership-targets-diner",
+      "cat": "International",
+      "cat_en": "International",
+      "verdict": "watch",
+      "lang": "en",
+      "date": "2026-11-23",
+      "src": "Skift",
+      "url": "https://skift.com/2026/11/23/radissons-first-paid-membership-targets-diners-not-guests-exclusive/",
+      "title_en": "Radisson’s First Paid Membership Targets Diners, Not Guests: Exclusive",
+      "desc_en": "Radisson is joining the paid membership trend, but with a twist as it courts local diners, not frequent travelers. The discounts are generous, so the economics have to work hotel by hotel.",
+      "title": "Die erste kostenpflichtige Mitgliedschaft von Radisson richtet sich an Gäste, nicht an Gäste: Exklusiv",
+      "desc": "Radisson schließt sich dem Trend der kostenpflichtigen Mitgliedschaft an, allerdings mit einer Wendung, da es sich an lokale Gäste und nicht an Vielreisende richtet. Da die Ermäßigungen großzügig sind, müssen die wirtschaftlichen Aspekte Hotel für Hotel berücksichtigt werden."
+    },
     {
       "id": "auto-karibik-flair-statt-ballermann-was-formentera-",
       "cat": "Reise",
@@ -87,20 +115,6 @@
       "desc_en": "Research shows the U.S. losing ground to Japan as costs and politics turn travelers away. Brand USA is betting the lost demand is deferred, not gone, but its budget to win it back is shrinking.",
       "title": "Japan nähert sich den USA, da hohe Kosten und politische Maßnahmen Reisende abschrecken, sagt Brand USA",
       "desc": "Untersuchungen zeigen, dass die USA gegenüber Japan an Boden verlieren, da Kosten und Politik Reisende abweisen. Brand USA geht davon aus, dass die entgangene Nachfrage aufgeschoben und nicht weg ist, aber ihr Budget zur Rückgewinnung schrumpft."
-    },
-    {
-      "id": "auto-trauminsel-unweit-von-australien-die-insel-rot",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-11-09",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/ziele/inseln/geheimtipp-insel-roti-in-indonesien",
-      "title": "Trauminsel unweit von Australien: Die Insel Roti in Indonesien ist noch ein echter Geheimtipp",
-      "desc": "Indonesien haben Südostasien-Liebhaber längst erkundet oder mindestens auf ihre Reisewunschzettel geschrieben. Doch für die meisten bedeutet ein Traumurlaub in dieser Region der Besuch Balis oder seiner benachbarten Insel. Eine Insel in ...",
-      "title_en": "Dream island not far from Australia: The island of Roti in Indonesia is still a real insider tip",
-      "desc_en": "Southeast Asia lovers have long since explored Indonesia or at least written it on their travel wish lists. But for most people, a dream vacation in this region means visiting Bali or its neighboring island. An island in..."
     }
   ]
 }
