@@ -107,8 +107,25 @@ const sitemap = [];
 const THIN = { n: 0 };
 const up = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 
+// Bing: Meta-Descriptions unter ~120 Zeichen gelten als zu kurz -> mit passendem, wahrem Zusatz auf 120-158 Zeichen auffüllen.
+const DESC_PAD = {
+  de: { map: [' – kuratiert von Noel (HiddenGem.Atlas): Hidden Gems, ehrliche Tipps und echte Preise.', ' – kuratiert von Noel: Hidden Gems und ehrliche Tipps.', ' – von Noel kuratiert.'],
+        nomap: [' – mit Karte, Google-Maps-Link und ehrlichen Tipps von Noel (HiddenGem.Atlas).', ' – mit Karte, Google-Maps-Link und Tipps von Noel.', ' – mit Karte und Tipps von Noel.', ' – mit Karte.'] },
+  en: { map: [' – curated by Noel (HiddenGem.Atlas): hidden gems, honest tips and real prices.', ' – curated by Noel: hidden gems and honest tips.', ' – curated by Noel.'],
+        nomap: [' – with map, Google Maps link and honest tips from Noel (HiddenGem.Atlas).', ' – with map, Google Maps link and tips from Noel.', ' – with map and tips from Noel.', ' – with map.'] },
+};
+function padDesc(d, lang) {
+  d = String(d || '');
+  if (d.length >= 120) return d;
+  const base = d.replace(/[\s.…]+$/, '').replace(/\s*[–-]\s*(von|from) Noel$/i, '');
+  const set = DESC_PAD[lang] || DESC_PAD.en;
+  const list = /karte|map/i.test(base) ? set.map : set.nomap;
+  for (const s of list) if ((base + s).length <= 158) return base + s;
+  return d;
+}
+
 function page({ lang, p, title, desc, h1, lead, body, crumbs, ld = [], alt, type = 'website', image, lastmod, noindex = false }) {
-  const U = up(p), t = TX[lang];
+  const U = up(p), t = TX[lang]; desc = padDesc(desc, lang);
   { const SFX = ' | HiddenGem.Atlas'; let core = title.endsWith(SFX) ? title.slice(0, -SFX.length) : title; const max = 68 - SFX.length;
     if (core.length > max) core = core.slice(0, max).replace(/[\s,:;-]+\S*$/, '') + '…'; title = core + SFX; }
   const url = BASE + p, img = BASE + (image || 'og-image.jpg');
@@ -286,7 +303,7 @@ for (const b of BLOG) {
 // Blog-Übersicht (Hub) je Sprache: /de/blog/ und /en/blog/
 for (const lang of ['de', 'en']) { if (!blogIdx[lang].length) continue; const p = `${lang}/blog/`, U = up(p);
   page({ lang, p, title: lang === 'de' ? 'Reiseblog: ehrliche Geschichten & Tipps | HiddenGem.Atlas' : 'Travel blog: honest stories & tips | HiddenGem.Atlas',
-    desc: lang === 'de' ? 'Reisegeschichten und ehrliche Tipps von Noel Sprick - Hidden Gems, Städtetrips und Routen mit wenig Urlaub.' : 'Travel stories and honest tips by Noel Sprick - hidden gems, city trips and routes with little holiday.',
+    desc: lang === 'de' ? 'Reisegeschichten und ehrliche Tipps von Noel Sprick: Hidden Gems, Städtetrips, echte Kosten und Routen für Berufstätige mit wenig Urlaub.' : 'Travel stories and honest tips by Noel Sprick: hidden gems, city trips, real costs and routes for people with a full-time job and little holiday.',
     h1: 'Blog', lead: lang === 'de' ? 'Geschichten und Tipps von meinen Reisen.' : 'Stories and tips from my travels.',
     body: `<ul class="pl">${blogIdx[lang].map((e) => `<li><a href="${BASE}${e.p}">${esc(e.ttl)}</a></li>`).join('')}</ul>`,
     crumbs: [{ n: 'Blog' }], alt: `${other(lang)}/blog/` });
