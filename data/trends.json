@@ -1,9 +1,23 @@
 {
-  "updated": "23.11.2026",
-  "generated": "2026-11-23T15:46:26.313Z",
+  "updated": "24.11.2026",
+  "generated": "2026-11-24T15:38:21.540Z",
   "maxAgeDays": 14,
-  "count": 8,
+  "count": 7,
   "items": [
+    {
+      "id": "auto-gehypt-aber-lohnt-sich-dieser-social-media-hot",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-11-24",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/ziele/lohnt-sich-dieser-social-media-hotspot-an-der-atlantikkueste-wirklich",
+      "title": "Gehypt, aber…: Lohnt sich dieser Social-Media-Hotspot an der Atlantikküste wirklich?",
+      "desc": "Noch vor wenigen Jahren galt Taghazout auch bei TRAVELBOOK als Geheimtipp. Heute ist der kleine Surf-Ort an Marokkos Atlantikküste längst auf TikTok und Instagram angekommen. Surfen, hippe Cafés, Sonnenuntergänge und vor allem der ...",
+      "title_en": "Hyped, but...: Is this social media hotspot on the Atlantic coast really worth it?",
+      "desc_en": "Just a few years ago, Taghazout was also an insider tip at TRAVELBOOK. Today, the small surfing town on Morocco's Atlantic coast has long since arrived on TikTok and Instagram. Surfing, hip cafes, sunsets and especially the..."
+    },
     {
       "id": "auto-cruise-s-hidden-middleman-what-filings-reveal-",
       "cat": "International",
@@ -87,34 +101,6 @@
       "desc": "Mallorca kann laut, voll und trubelig sein. Doch abseits der bekannten Badeorte und Touristenhochburgen zeigt die Insel eine ganz andere Seite. Mitten in der Serra de Tramuntana liegt Fornalutx, ein kleines Bergdorf, in dem enge Gassen, ...",
       "title_en": "Hidden in the Tramuntana: This mountain village on Mallorca is a real insider tip",
       "desc_en": "Mallorca can be loud, crowded and busy. But away from the well-known seaside resorts and tourist hotspots, the island shows a completely different side. In the middle of the Serra de Tramuntana lies Fornalutx, a small mountain village with narrow streets, ..."
-    },
-    {
-      "id": "auto-inklusive-geheimtipp-7-der-schonsten-strande-t",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-11-10",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/ziele/schoenste-straende-buchten-in-thailand",
-      "title": "Inklusive Geheimtipp: 7 der schönsten Strände Thailands",
-      "desc": "Thailand hat sich längst als eines der beliebtesten Urlaubsziele etabliert. Kein Wunder, denn das asiatische Land bietet neben atemberaubender Natur auch unfassbar schöne Strände. Bei einem derart großen Angebot kann da das Treffen ...",
-      "title_en": "Includes insider tip: 7 of the most beautiful beaches in Thailand",
-      "desc_en": "Thailand has long established itself as one of the most popular holiday destinations. No wonder, because the Asian country not only offers breathtaking nature but also incredibly beautiful beaches. With such a large offer, the meeting can..."
-    },
-    {
-      "id": "auto-japan-is-closing-in-on-the-u-s-as-high-costs-a",
-      "cat": "International",
-      "cat_en": "International",
-      "verdict": "watch",
-      "lang": "en",
-      "date": "2026-11-10",
-      "src": "Skift",
-      "url": "https://skift.com/2026/11/10/brand-usa-top-destination-closing-gap/",
-      "title_en": "Japan Is Closing in on the U.S. as High Costs and Politics Deter Travelers, Brand USA Says",
-      "desc_en": "Research shows the U.S. losing ground to Japan as costs and politics turn travelers away. Brand USA is betting the lost demand is deferred, not gone, but its budget to win it back is shrinking.",
-      "title": "Japan nähert sich den USA, da hohe Kosten und politische Maßnahmen Reisende abschrecken, sagt Brand USA",
-      "desc": "Untersuchungen zeigen, dass die USA gegenüber Japan an Boden verlieren, da Kosten und Politik Reisende abweisen. Brand USA geht davon aus, dass die entgangene Nachfrage aufgeschoben und nicht weg ist, aber ihr Budget zur Rückgewinnung schrumpft."
     }
   ]
 }
