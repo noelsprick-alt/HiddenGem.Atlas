@@ -1,9 +1,37 @@
 {
-  "updated": "25.11.2026",
-  "generated": "2026-11-25T15:22:43.965Z",
+  "updated": "26.11.2026",
+  "generated": "2026-11-26T14:50:41.970Z",
   "maxAgeDays": 14,
-  "count": 7,
+  "count": 9,
   "items": [
+    {
+      "id": "auto-unterirdische-festung-diese-deutsche-bunkeranl",
+      "cat": "Reise",
+      "cat_en": "Travel",
+      "verdict": "watch",
+      "lang": "de",
+      "date": "2026-11-26",
+      "src": "TRAVELBOOK",
+      "url": "https://www.travelbook.de/news/deutsche-bunkeranlage-auf-kreta",
+      "title": "Unterirdische Festung: Diese deutsche Bunkeranlage auf Kreta ist ein echter Geheimtipp",
+      "desc": "Wunderschöne Strände, beeindruckende Naturwunder, antike Stätten - Kreta hat reichlich davon zu bieten. Gut erhaltene Orte, an denen deutsche Urlauber ihrer eigenen Geschichte unmittelbar begegnen, gibt es dagegen nur wenige. Einer ...",
+      "title_en": "Underground fortress: This German bunker complex on Crete is a real insider tip",
+      "desc_en": "Beautiful beaches, impressive natural wonders, ancient sites - Crete has plenty to offer. However, there are only a few well-preserved places where German holidaymakers can directly encounter their own history. One..."
+    },
+    {
+      "id": "auto-accor-warns-thailand-a-vietnamese-island-is-co",
+      "cat": "International",
+      "cat_en": "International",
+      "verdict": "watch",
+      "lang": "en",
+      "date": "2026-11-26",
+      "src": "Skift",
+      "url": "https://skift.com/2026/11/25/accor-warns-thailand-a-vietnamese-island-is-coming-for-your-tourists/",
+      "title_en": "Accor Warns Thailand: A Vietnamese Island Is Coming for Your Tourists",
+      "desc_en": "Accor's Asia development chief says Vietnam's fast-growing tourism island could win over price-conscious tour groups that now go to Thailand. It means Thailand needs to rethink how it sells itself. Accor has a stake in both outcomes: 85 ...",
+      "title": "Accor warnt Thailand: Eine vietnamesische Insel kommt für Ihre Touristen",
+      "desc": "Accors Asien-Entwicklungschef sagt, Vietnams schnell wachsende Tourismusinsel könne preisbewusste Reisegruppen für sich gewinnen, die jetzt nach Thailand reisen. Das bedeutet, dass Thailand überdenken muss, wie es sich selbst verkauft. Accor ist an beiden Ergebnissen beteiligt: ​​85 ..."
+    },
     {
       "id": "auto-gehypt-aber-lohnt-sich-dieser-social-media-hot",
       "cat": "Reise",
