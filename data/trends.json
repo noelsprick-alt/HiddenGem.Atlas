@@ -1,8 +1,8 @@
 {
-  "updated": "26.11.2026",
-  "generated": "2026-11-26T14:50:41.970Z",
+  "updated": "27.11.2026",
+  "generated": "2026-11-27T14:49:37.598Z",
   "maxAgeDays": 14,
-  "count": 9,
+  "count": 8,
   "items": [
     {
       "id": "auto-unterirdische-festung-diese-deutsche-bunkeranl",
@@ -115,20 +115,6 @@
       "desc_en": "India’s visa changes remove one hurdle for foreign visitors. But an easier visa alone won’t bring more tourists or get India close to its target of 100 million visitors.",
       "title": "Indiens Visa-Überarbeitung behebt den einfachen Teil seines Tourismusproblems",
       "desc": "Indiens Visaänderungen beseitigen eine Hürde für ausländische Besucher. Aber ein einfacheres Visum allein wird weder mehr Touristen anlocken noch Indien an sein Ziel von 100 Millionen Besuchern heranbringen."
-    },
-    {
-      "id": "auto-versteckt-in-der-tramuntana-dieses-bergdorf-au",
-      "cat": "Reise",
-      "cat_en": "Travel",
-      "verdict": "watch",
-      "lang": "de",
-      "date": "2026-11-13",
-      "src": "TRAVELBOOK",
-      "url": "https://www.travelbook.de/outdoor/wandern/dieses-bergdorf-auf-mallorca-ist-ein-echter-geheimtipp",
-      "title": "Versteckt in der Tramuntana: Dieses Bergdorf auf Mallorca ist ein echter Geheimtipp",
-      "desc": "Mallorca kann laut, voll und trubelig sein. Doch abseits der bekannten Badeorte und Touristenhochburgen zeigt die Insel eine ganz andere Seite. Mitten in der Serra de Tramuntana liegt Fornalutx, ein kleines Bergdorf, in dem enge Gassen, ...",
-      "title_en": "Hidden in the Tramuntana: This mountain village on Mallorca is a real insider tip",
-      "desc_en": "Mallorca can be loud, crowded and busy. But away from the well-known seaside resorts and tourist hotspots, the island shows a completely different side. In the middle of the Serra de Tramuntana lies Fornalutx, a small mountain village with narrow streets, ..."
     }
   ]
 }
